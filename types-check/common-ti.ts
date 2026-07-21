@@ -142,6 +142,17 @@ export const MaterialComponent = t.union("string", t.iface([], {
   "consume": t.opt(t.union("boolean", t.lit('optional'))),
 }));
 
+export const ImageRef = t.iface([], {
+  "type": "string",
+  "href": t.iface([], {
+    "type": "string",
+    "path": "string",
+  }),
+  "credit": "string",
+  "width": "number",
+  "height": "number",
+});
+
 const exportedTypeSuite: t.ITypeSuite = {
   SRD,
   Unit,
@@ -162,5 +173,6 @@ const exportedTypeSuite: t.ITypeSuite = {
   Rarity,
   SpellComponents,
   MaterialComponent,
+  ImageRef,
 };
 export default exportedTypeSuite;

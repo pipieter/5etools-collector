@@ -3,6 +3,7 @@ import {
   ColLabelRow,
   Entry,
   EntryTable,
+  ImageRef,
   Prerequisite,
   Rarity,
   ReprintedAs,
@@ -26,6 +27,22 @@ export interface Boon {
   ability?: SingleEntry;
   signatureSpells?: SingleEntry;
   entries: Entry[];
+}
+
+export interface Deity {
+  name: string;
+  source: string;
+  pantheon: string;
+  alignment?: string[];
+  category?: string;
+  title?: string;
+  worshipers?: string;
+  plane?: string;
+  domains?: string[];
+  province?: string;
+  symbol?: string;
+  symbolImg?: ImageRef;
+  entries?: string[];
 }
 
 export interface Feat {

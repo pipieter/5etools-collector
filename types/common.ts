@@ -113,3 +113,14 @@ export type MaterialComponent =
       cost?: number;
       consume?: boolean | 'optional';
     };
+
+export interface ImageRef {
+  type: string;
+  href: {
+    type: string;
+    path: string;
+  };
+  credit: string;
+  width: number;
+  height: number;
+}

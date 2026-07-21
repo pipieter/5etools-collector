@@ -21,6 +21,22 @@ export const Boon = t.iface([], {
   "entries": t.array("Entry"),
 });
 
+export const Deity = t.iface([], {
+  "name": "string",
+  "source": "string",
+  "pantheon": "string",
+  "alignment": t.opt(t.array("string")),
+  "category": t.opt("string"),
+  "title": t.opt("string"),
+  "worshipers": t.opt("string"),
+  "plane": t.opt("string"),
+  "domains": t.opt(t.array("string")),
+  "province": t.opt("string"),
+  "symbol": t.opt("string"),
+  "symbolImg": t.opt("ImageRef"),
+  "entries": t.opt(t.array("string")),
+});
+
 export const Feat = t.iface([], {
   "name": "string",
   "source": "string",
@@ -78,6 +94,7 @@ export const Table = t.iface([], {
 const exportedTypeSuite: t.ITypeSuite = {
   Action,
   Boon,
+  Deity,
   Feat,
   ItemMastery,
   ItemProperty,
