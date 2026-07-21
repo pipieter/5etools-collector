@@ -1,0 +1,22 @@
+{
+  "name": "5etools-collector",
+  "version": "1.0.0",
+  "description": "Collector and type generator for 5e.tools data.",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "collect": "tsx scripts/collect.ts",
+    "typecheck": "tsx scripts/typecheck.ts",
+    "gentypes": "ts-interface-builder types/*.ts -o types-check"
+  },
+  "dependencies": {
+    "ts-interface-checker": "^1.0.2",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "prettier": "^3.9.6",
+    "ts-interface-builder": "^0.3.3"
+  }
+}
