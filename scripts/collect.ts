@@ -131,6 +131,7 @@ function official() {
   write('./data/official', 'actions.json', collector.get('action'));
   write('./data/official', 'feats.json', collector.get('feat'));
   write('./data/official', 'items.json', collector.get('item'));
+  write('./data/official', 'items-base.json', collector.get('baseitem'));
   write('./data/official', 'item-masteries.json', collector.get('itemMastery'));
   write('./data/official', 'item-properties.json', collector.get('itemProperty'));
   write('./data/official', 'item-types.json', collector.get('itemType'));
