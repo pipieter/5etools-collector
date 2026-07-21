@@ -14,6 +14,8 @@ export const SRD = t.iface([], {
 export const Unit = t.union(t.iface([], {
   "number": "number",
   "unit": "string",
+  "note": t.opt("string"),
+  "condition": t.opt("string"),
 }), t.lit('Varies'), t.lit('Free'));
 
 export const ReprintedAs = t.union("string", t.iface([], {

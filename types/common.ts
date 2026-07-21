@@ -9,6 +9,8 @@ export type Unit =
   | {
       number: number;
       unit: string;
+      note?: string;
+      condition?: string;
     }
   | 'Varies'
   | 'Free';
