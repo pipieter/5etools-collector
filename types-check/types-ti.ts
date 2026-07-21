@@ -12,6 +12,15 @@ export const Action = t.iface([], {
   "time": t.opt(t.array("Unit")),
 });
 
+export const Boon = t.iface([], {
+  "name": "string",
+  "source": "string",
+  "type": "string",
+  "ability": t.opt("SingleEntry"),
+  "signatureSpells": t.opt("SingleEntry"),
+  "entries": t.array("Entry"),
+});
+
 export const Feat = t.iface([], {
   "name": "string",
   "source": "string",
@@ -59,6 +68,7 @@ export const Spell = t.iface([], {
 
 const exportedTypeSuite: t.ITypeSuite = {
   Action,
+  Boon,
   Feat,
   ItemMastery,
   ItemProperty,

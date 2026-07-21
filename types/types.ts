@@ -1,4 +1,4 @@
-import { Entry, Prerequisite, Rarity, ReprintedAs, SpellComponents, Unit } from './common';
+import { Entry, Prerequisite, Rarity, ReprintedAs, SingleEntry, SpellComponents, Unit } from './common';
 
 export interface Action {
   name: string;
@@ -6,6 +6,15 @@ export interface Action {
   reprintedAs?: ReprintedAs[];
   entries: Entry[];
   time?: Unit[];
+}
+
+export interface Boon {
+  name: string;
+  source: string;
+  type: string;
+  ability?: SingleEntry;
+  signatureSpells?: SingleEntry;
+  entries: Entry[];
 }
 
 export interface Feat {

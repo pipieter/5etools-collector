@@ -67,6 +67,10 @@ export interface EntryQuote {
   by?: string;
 }
 
+export interface SingleEntry {
+  entry: string;
+}
+
 // util.json#/$defs/prerequisite
 export interface Prerequisite {
   ability?: [{ str?: number; dex?: number; con?: number; int?: number; wis?: number; cha?: number }];

@@ -3,16 +3,18 @@ import CommonTI from '../types-check/common-ti';
 import { Checker, createCheckers } from 'ts-interface-checker';
 
 import actions from '../data/official/actions.json';
+import boons from '../data/official/boons.json';
 import feats from '../data/official/feats.json';
 import items from '../data/official//items.json';
 import itemMasteries from '../data/official//item-masteries.json';
 import itemProperties from '../data/official/item-properties.json';
 import spells from '../data/official/spells.json';
 
-const { Action, Feat, Item, ItemMastery, ItemProperty, Spell } = createCheckers(TypesTI, CommonTI);
+const { Action, Boon, Feat, Item, ItemMastery, ItemProperty, Spell } = createCheckers(TypesTI, CommonTI);
 
 const entries: [string, any[], Checker][] = [
   ['Action', actions, Action],
+  ['Boon', boons, Boon],
   ['Feat', feats, Feat],
   ['Item', items, Item],
   ['Item Mastery', itemMasteries, ItemMastery],

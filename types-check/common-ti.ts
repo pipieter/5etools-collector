@@ -78,6 +78,10 @@ export const EntryQuote = t.iface([], {
   "by": t.opt("string"),
 });
 
+export const SingleEntry = t.iface([], {
+  "entry": "string",
+});
+
 export const Prerequisite = t.iface([], {
   "ability": t.opt(t.tuple(t.iface([], {
     "str": t.opt("number"),
@@ -136,6 +140,7 @@ const exportedTypeSuite: t.ITypeSuite = {
   Cell,
   EntryList,
   EntryQuote,
+  SingleEntry,
   Prerequisite,
   Rarity,
   SpellComponents,
