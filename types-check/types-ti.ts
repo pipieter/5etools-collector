@@ -7,16 +7,14 @@ import * as t from "ts-interface-checker";
 export const Action = t.iface([], {
   "name": "string",
   "source": "string",
-  "page": "number",
+  "reprintedAs": t.opt(t.array("ReprintedAs")),
   "entries": t.array("Entry"),
   "time": t.opt(t.array("Unit")),
-  "reprintedAs": t.opt(t.array("ReprintedAs")),
 });
 
 export const Feat = t.iface([], {
   "name": "string",
   "source": "string",
-  "page": t.opt("number"),
   "reprintedAs": t.opt(t.array("ReprintedAs")),
   "category": t.opt("string"),
   "entries": t.array("Entry"),
@@ -24,8 +22,35 @@ export const Feat = t.iface([], {
   "hasFluffImages": t.opt("boolean"),
 });
 
+export const ItemMastery = t.iface([], {
+  "name": "string",
+  "source": "string",
+  "entries": t.array("Entry"),
+});
+
+export const ItemProperty = t.iface([], {
+  "name": t.opt("string"),
+  "source": "string",
+  "abbreviation": "string",
+  "template": "string",
+  "reprintedAs": t.opt(t.array("ReprintedAs")),
+  "entries": t.opt(t.array("Entry")),
+});
+
+export const Item = t.iface([], {
+  "name": "string",
+  "source": "string",
+  "reprintedAs": t.opt(t.array("ReprintedAs")),
+  "type": t.opt("string"),
+  "rarity": t.opt("Rarity"),
+  "wondrous": t.opt("boolean"),
+});
+
 const exportedTypeSuite: t.ITypeSuite = {
   Action,
   Feat,
+  ItemMastery,
+  ItemProperty,
+  Item,
 };
 export default exportedTypeSuite;

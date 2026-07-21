@@ -68,3 +68,5 @@ export interface Prerequisite {
   spellcastingFeature?: boolean;
   race?: { name: string }[];
 }
+
+export type Rarity = 'none' | 'unknown' | string;

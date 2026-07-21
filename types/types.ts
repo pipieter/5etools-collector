@@ -1,21 +1,43 @@
-import { Entry, Prerequisite, ReprintedAs, Unit } from './common';
+import { Entry, Prerequisite, Rarity, ReprintedAs, Unit } from './common';
 
 export interface Action {
   name: string;
   source: string;
-  page: number;
+  reprintedAs?: ReprintedAs[];
   entries: Entry[];
   time?: Unit[];
-  reprintedAs?: ReprintedAs[];
 }
 
 export interface Feat {
   name: string;
   source: string;
-  page?: number;
   reprintedAs?: ReprintedAs[];
   category?: string;
   entries: Entry[];
   prerequisite?: Prerequisite[];
   hasFluffImages?: boolean;
+}
+
+export interface ItemMastery {
+  name: string;
+  source: string;
+  entries: Entry[];
+}
+
+export interface ItemProperty {
+  name?: string;
+  source: string;
+  abbreviation: string;
+  template: string;
+  reprintedAs?: ReprintedAs[];
+  entries?: Entry[];
+}
+
+export interface Item {
+  name: string;
+  source: string;
+  reprintedAs?: ReprintedAs[];
+  type?: string;
+  rarity?: Rarity;
+  wondrous?: boolean;
 }

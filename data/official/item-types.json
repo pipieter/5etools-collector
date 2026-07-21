@@ -1,0 +1,739 @@
+[
+  {
+    "name": "Adventuring Gear",
+    "abbreviation": "G",
+    "source": "PHB",
+    "page": 148,
+    "reprintedAs": [
+      "G|XPHB"
+    ]
+  },
+  {
+    "name": "Adventuring Gear",
+    "abbreviation": "G",
+    "source": "XPHB",
+    "page": 222,
+    "basicRules2024": true
+  },
+  {
+    "name": "Ammunition",
+    "abbreviation": "AF",
+    "source": "DMG",
+    "page": 267,
+    "reprintedAs": [
+      "AF|XDMG"
+    ]
+  },
+  {
+    "name": "Ammunition",
+    "abbreviation": "A",
+    "source": "PHB",
+    "page": 148,
+    "reprintedAs": [
+      "A|XPHB"
+    ]
+  },
+  {
+    "name": "Ammunition",
+    "abbreviation": "AF",
+    "source": "XDMG",
+    "page": 72
+  },
+  {
+    "name": "Ammunition",
+    "abbreviation": "A",
+    "source": "XPHB",
+    "page": 222,
+    "basicRules2024": true
+  },
+  {
+    "name": "Artisan's Tools",
+    "abbreviation": "AT",
+    "source": "PHB",
+    "page": 154,
+    "reprintedAs": [
+      "AT|XPHB"
+    ],
+    "entries": [
+      {
+        "type": "entries",
+        "name": "Artisan's Tools",
+        "entries": [
+          "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Artisan's Tools",
+    "abbreviation": "AT",
+    "source": "XPHB",
+    "page": 220,
+    "basicRules2024": true,
+    "entries": [
+      {
+        "type": "entries",
+        "name": "Artisan's Tool",
+        "entries": [
+          "Artisan's Tools are each focused on crafting items and pursuing a trade. Each type of Artisan's Tools tools requires a separate proficiency.",
+          "If you have proficiency with a tool, add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have {@variantrule Advantage|XPHB} on the check too."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Explosive",
+    "abbreviation": "EXP",
+    "source": "DMG",
+    "page": 267,
+    "reprintedAs": [
+      "EXP|XDMG"
+    ]
+  },
+  {
+    "name": "Explosive",
+    "abbreviation": "EXP",
+    "source": "XDMG",
+    "page": 72
+  },
+  {
+    "name": "Food and Drink",
+    "abbreviation": "FD",
+    "source": "PHB",
+    "page": 158,
+    "reprintedAs": [
+      "FD|XPHB"
+    ]
+  },
+  {
+    "name": "Food and Drink",
+    "abbreviation": "FD",
+    "source": "XPHB",
+    "page": 231,
+    "basicRules2024": true
+  },
+  {
+    "name": "Gaming Set",
+    "abbreviation": "GS",
+    "source": "PHB",
+    "page": 154,
+    "reprintedAs": [
+      "GS|XPHB"
+    ],
+    "entries": [
+      {
+        "type": "entries",
+        "name": "Gaming Set",
+        "entries": [
+          "If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gaming Set",
+    "abbreviation": "GS",
+    "source": "XPHB",
+    "page": 221,
+    "basicRules2024": true,
+    "entries": [
+      {
+        "type": "entries",
+        "name": "Tool (Gaming Set)",
+        "entries": [
+          "If you have proficiency with a tool, add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have {@variantrule Advantage|XPHB} on the check too."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Generic Variant",
+    "abbreviation": "GV",
+    "source": "DMG",
+    "page": 135
+  },
+  {
+    "name": "Generic Variant",
+    "abbreviation": "GV",
+    "source": "XDMG",
+    "page": 216
+  },
+  {
+    "name": "Heavy Armor",
+    "abbreviation": "HA",
+    "source": "PHB",
+    "page": 145,
+    "reprintedAs": [
+      "HA|XPHB"
+    ]
+  },
+  {
+    "name": "Heavy Armor",
+    "abbreviation": "HA",
+    "source": "XPHB",
+    "page": 219,
+    "basicRules2024": true
+  },
+  {
+    "name": "Instrument",
+    "abbreviation": "INS",
+    "source": "PHB",
+    "page": 154,
+    "reprintedAs": [
+      "INS|XPHB"
+    ],
+    "entries": [
+      {
+        "type": "entries",
+        "name": "Instrument",
+        "entries": [
+          "If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Instrument",
+    "abbreviation": "INS",
+    "source": "XPHB",
+    "page": 221,
+    "basicRules2024": true,
+    "entries": [
+      {
+        "type": "entries",
+        "name": "Tool (Musical Instrument)",
+        "entries": [
+          "If you have proficiency with a tool, add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have {@variantrule Advantage|XPHB} on the check too."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Light Armor",
+    "abbreviation": "LA",
+    "source": "PHB",
+    "page": 144,
+    "reprintedAs": [
+      "LA|XPHB"
+    ]
+  },
+  {
+    "name": "Light Armor",
+    "abbreviation": "LA",
+    "source": "XPHB",
+    "page": 219,
+    "basicRules2024": true
+  },
+  {
+    "name": "Medium Armor",
+    "abbreviation": "MA",
+    "source": "PHB",
+    "page": 144,
+    "reprintedAs": [
+      "MA|XPHB"
+    ]
+  },
+  {
+    "name": "Medium Armor",
+    "abbreviation": "MA",
+    "source": "XPHB",
+    "page": 219,
+    "basicRules2024": true
+  },
+  {
+    "name": "Melee Weapon",
+    "abbreviation": "M",
+    "source": "PHB",
+    "page": 146,
+    "reprintedAs": [
+      "M|XPHB"
+    ]
+  },
+  {
+    "name": "Melee Weapon",
+    "abbreviation": "M",
+    "source": "XPHB",
+    "page": 213,
+    "basicRules2024": true
+  },
+  {
+    "name": "Mount",
+    "abbreviation": "MNT",
+    "source": "PHB",
+    "page": 155,
+    "reprintedAs": [
+      "MNT|XPHB"
+    ]
+  },
+  {
+    "name": "Mount",
+    "abbreviation": "MNT",
+    "source": "XPHB",
+    "page": 230,
+    "basicRules2024": true
+  },
+  {
+    "name": "Other",
+    "abbreviation": "OTH",
+    "source": "PHB",
+    "page": 143
+  },
+  {
+    "name": "Other",
+    "abbreviation": "OTH",
+    "source": "XPHB",
+    "page": 213
+  },
+  {
+    "name": "Potion",
+    "abbreviation": "P",
+    "source": "PHB",
+    "page": 148,
+    "reprintedAs": [
+      "P|XPHB"
+    ]
+  },
+  {
+    "name": "Potion",
+    "abbreviation": "P",
+    "source": "XPHB",
+    "page": 222,
+    "basicRules2024": true
+  },
+  {
+    "name": "Ranged Weapon",
+    "abbreviation": "R",
+    "source": "PHB",
+    "page": 146,
+    "reprintedAs": [
+      "R|XPHB"
+    ],
+    "entries": [
+      {
+        "type": "entries",
+        "name": "Range",
+        "entries": [
+          "A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ranged Weapon",
+    "abbreviation": "R",
+    "source": "XPHB",
+    "page": 214,
+    "basicRules2024": true,
+    "entries": [
+      {
+        "type": "entries",
+        "name": "Range",
+        "entries": [
+          "A Range weapon has a range in parentheses after the Ammunition or Thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second is the weapon's long range. When attacking a target beyond normal range, you have {@variantrule Disadvantage|XPHB} on the attack roll. You can't attack a target beyond the long range."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ring",
+    "abbreviation": "RG",
+    "source": "DMG",
+    "page": 139,
+    "reprintedAs": [
+      "RG|XPHB"
+    ]
+  },
+  {
+    "name": "Ring",
+    "abbreviation": "RG",
+    "source": "XDMG",
+    "page": 216
+  },
+  {
+    "name": "Rod",
+    "abbreviation": "RD",
+    "source": "DMG",
+    "page": 139,
+    "reprintedAs": [
+      "RD|XPHB"
+    ]
+  },
+  {
+    "name": "Rod",
+    "abbreviation": "RD",
+    "source": "XDMG",
+    "page": 216
+  },
+  {
+    "name": "Scroll",
+    "abbreviation": "SC",
+    "source": "DMG",
+    "page": 139,
+    "reprintedAs": [
+      "SC|XPHB"
+    ]
+  },
+  {
+    "name": "Scroll",
+    "abbreviation": "SC",
+    "source": "XPHB",
+    "page": 222,
+    "basicRules2024": true
+  },
+  {
+    "name": "Shield",
+    "abbreviation": "S",
+    "source": "PHB",
+    "page": 144,
+    "reprintedAs": [
+      "S|XPHB"
+    ]
+  },
+  {
+    "name": "Shield",
+    "abbreviation": "S",
+    "source": "XPHB",
+    "page": 219,
+    "basicRules2024": true
+  },
+  {
+    "name": "Spellcasting Focus",
+    "abbreviation": "SCF",
+    "source": "PHB",
+    "page": 148,
+    "reprintedAs": [
+      "SCF|XPHB"
+    ]
+  },
+  {
+    "name": "Spellcasting Focus",
+    "abbreviation": "SCF",
+    "source": "XPHB",
+    "page": 222,
+    "basicRules2024": true
+  },
+  {
+    "name": "Tack and Harness",
+    "abbreviation": "TAH",
+    "source": "PHB",
+    "page": 155,
+    "reprintedAs": [
+      "TAH|XPHB"
+    ]
+  },
+  {
+    "name": "Tack and Harness",
+    "abbreviation": "TAH",
+    "source": "XPHB",
+    "page": 230,
+    "basicRules2024": true
+  },
+  {
+    "name": "Tool",
+    "abbreviation": "T",
+    "source": "PHB",
+    "page": 154,
+    "reprintedAs": [
+      "T|XPHB"
+    ]
+  },
+  {
+    "name": "Tool",
+    "abbreviation": "T",
+    "source": "XPHB",
+    "page": 220,
+    "basicRules2024": true,
+    "entries": [
+      {
+        "type": "entries",
+        "name": "Tool",
+        "entries": [
+          "If you have proficiency with a tool, add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have {@variantrule Advantage|XPHB} on the check too."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Trade Bar",
+    "abbreviation": "TB",
+    "source": "XDMG",
+    "page": 213,
+    "entries": [
+      {
+        "type": "entries",
+        "name": "Trade Bar",
+        "entries": [
+          "Because large numbers of coins can be difficult to transport and account for, many merchants prefer to use trade bars—ingots of precious metals and alloys (usually silver). These bars are valued by weight."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Trade Good",
+    "abbreviation": "TG",
+    "source": "PHB",
+    "page": 146,
+    "reprintedAs": [
+      "TG|XDMG"
+    ],
+    "entries": [
+      {
+        "type": "entries",
+        "name": "Trade Good",
+        "entries": [
+          "Most wealth is not in coins. It is measured in livestock, grain, land, rights to collect taxes, or rights to resources (such as a mine or a forest).",
+          "Guilds, nobles, and royalty regulate trade. Chartered companies are granted rights to conduct trade along certain routes, to send merchant ships to various ports, or to buy or sell specific goods. Guilds set prices for the goods or services that they control, and determine who may or may not offer those goods and services. Merchants commonly exchange trade goods without using currency."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Trade Good",
+    "abbreviation": "TG",
+    "source": "XDMG",
+    "page": 213,
+    "entries": [
+      {
+        "type": "entries",
+        "name": "Trade Good",
+        "entries": [
+          "Merchants commonly exchange trade goods without using currency."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Treasure (Art Object)",
+    "abbreviation": "$A",
+    "source": "DMG",
+    "page": 133,
+    "reprintedAs": [
+      "$A|XDMG"
+    ]
+  },
+  {
+    "name": "Treasure (Art Object)",
+    "abbreviation": "$A",
+    "source": "XDMG",
+    "page": 215,
+    "entries": [
+      {
+        "type": "entries",
+        "name": "Treasure (Art Object)",
+        "entries": [
+          "Idols cast of solid gold, necklaces studded with precious stones, paintings of ancient kings, bejeweled dishes—art objects include all these and more."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Treasure (Coinage)",
+    "abbreviation": "$C",
+    "source": "PHB",
+    "page": 143,
+    "reprintedAs": [
+      "$C|XPHB"
+    ]
+  },
+  {
+    "name": "Treasure (Coinage)",
+    "abbreviation": "$C",
+    "source": "XPHB",
+    "page": 213,
+    "basicRules2024": true,
+    "entries": [
+      {
+        "type": "entries",
+        "name": "Treasure (Coinage)",
+        "entries": [
+          "Characters often find coins on their adventures and can spend those coins in shops, inns, and other businesses. Coins come in different denominations based on the relative worth of their material. The Coin Values table lists coins and how much they're worth relative to the Gold Piece, which is the game's main coin. For example, 100 Copper Pieces are worth 1 Gold Piece.",
+          "A coin weighs about a third of an ounce, so fifty coins weigh a pound."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Treasure",
+    "abbreviation": "$",
+    "source": "DMG",
+    "page": 133
+  },
+  {
+    "name": "Treasure (Gemstone)",
+    "abbreviation": "$G",
+    "source": "DMG",
+    "page": 133,
+    "reprintedAs": [
+      "$G|XDMG"
+    ]
+  },
+  {
+    "name": "Treasure (Gemstone)",
+    "abbreviation": "$G",
+    "source": "XDMG",
+    "page": 214,
+    "entries": [
+      {
+        "type": "entries",
+        "name": "Treasure (Gemstone)",
+        "entries": [
+          "Gemstones are small, lightweight, and easily secured compared to their same value in coins."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vehicle (Air)",
+    "abbreviation": "AIR",
+    "source": "DMG",
+    "page": 119,
+    "reprintedAs": [
+      "AIR|XPHB"
+    ],
+    "_copy": {
+      "abbreviation": "SHP",
+      "source": "DMG"
+    }
+  },
+  {
+    "name": "Vehicle (Air)",
+    "abbreviation": "AIR",
+    "source": "XPHB",
+    "page": 230,
+    "basicRules2024": true,
+    "_copy": {
+      "abbreviation": "SHP",
+      "source": "XPHB"
+    }
+  },
+  {
+    "name": "Vehicle (Land)",
+    "abbreviation": "VEH",
+    "source": "PHB",
+    "page": 155,
+    "reprintedAs": [
+      "VEH|XPHB"
+    ]
+  },
+  {
+    "name": "Vehicle (Land)",
+    "abbreviation": "VEH",
+    "source": "XPHB",
+    "page": 230,
+    "basicRules2024": true
+  },
+  {
+    "name": "Vehicle (Space)",
+    "abbreviation": "SPC",
+    "source": "AAG",
+    "page": 24
+  },
+  {
+    "name": "Vehicle (Water)",
+    "abbreviation": "SHP",
+    "source": "DMG",
+    "page": 119,
+    "reprintedAs": [
+      "SHP|XPHB"
+    ],
+    "entries": [
+      {
+        "type": "entries",
+        "name": "Crew",
+        "entries": [
+          "A ship needs a crew of skilled hirelings to function. As per the Player's Handbook, one skilled hireling costs at least 2 gp per day. The minimum number of skilled hirelings needed to crew a ship depends on the type of vessel.",
+          "You can track the loyalty of individual crew members or the crew as a whole using the optional loyalty rules in chapter 4 of the Dungeon Master's Guide. If at least half the crew becomes disloyal during a voyage, the crew turns hostile and stages a mutiny. If the ship is berthed, disloyal crew members leave the ship and never return."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Passengers",
+        "entries": [
+          "This indicates the number of Small and Medium passengers the ship can accommodate.",
+          "Accommodations consist of shared hammocks in tight quarters. A ship outfitted with private accommodations can carry one-fifth as many passengers.",
+          "A passenger is usually expected to pay 5 sp per day for a hammock, but prices can vary from ship to ship. A small private cabin usually costs 2 gp per day."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Cargo",
+        "entries": [
+          "The maximum tonnage the ship can carry."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Damage Threshold",
+        "entries": [
+          "If a ship has a Damage Threshold, it has immunity to all damage unless it takes an amount of damage equal to or greater than its damage threshold, in which case it takes damage as normal. Any damage that fails to meet or exceed the damage threshold is considered superficial and doesn't reduce the ship's hit points."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Ship Repair",
+        "entries": [
+          "Repairs to a damaged ship can be made while the vessel is berthed. Repairing 1 hit point of damage requires 1 day and costs 20 gp for materials and labor."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vehicle (Water)",
+    "abbreviation": "SHP",
+    "source": "XPHB",
+    "page": 230,
+    "basicRules2024": true,
+    "entries": [
+      {
+        "type": "entries",
+        "name": "Speed",
+        "entries": [
+          "A ship sailing against a strong wind moves at half speed. In a dead calm (no wind), waterborne ships can't move under sail and must be rowed. Keelboats and Rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A Rowboat can be carried and weighs 100 pounds."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Crew",
+        "entries": [
+          "A ship larger than a Keelboat or Rowboat needs a crew of skilled hirelings (see \"{@book Services|XPHB|6|Services}\") to function. The minimum number of skilled hirelings needed to crew a ship depends on the type of ship."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Passengers",
+        "entries": [
+          "The number of Small and Medium passengers the ship can accommodate using hammocks. A ship outfitted with private accommodations can carry one-fifth as many passengers. A passenger usually pays 5 SP per day for a hammock, but prices can vary from ship to ship. A small private cabin usually costs 2 GP per day."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Damage Threshold",
+        "entries": [
+          "See the {@variantrule Damage Threshold|XPHB|rules glossary}."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Ship Repair",
+        "entries": [
+          "Repairs to a damaged ship can be made while the vessel is berthed. Repairing 1 {@variantrule Hit Points|XPHB|Hit Point} of damage requires 1 day and costs 20 GP for materials and labor. If the repairs are made in a location where supplies and skilled labor are abundant, such as a city shipyard, the repair time and cost are halved."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wand",
+    "abbreviation": "WD",
+    "source": "DMG",
+    "page": 139,
+    "reprintedAs": [
+      "WD|XPHB"
+    ]
+  },
+  {
+    "name": "Wand",
+    "abbreviation": "WD",
+    "source": "XDMG",
+    "page": 216
+  }
+]

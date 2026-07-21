@@ -4,12 +4,18 @@ import { Checker, createCheckers } from 'ts-interface-checker';
 
 import actions from '../data/official/actions.json';
 import feats from '../data/official/feats.json';
+import items from '../data/official//items.json';
+import itemMasteries from '../data/official//item-masteries.json';
+import itemProperties from '../data/official/item-properties.json';
 
-const { Action, Feat } = createCheckers(TypesTI, CommonTI);
+const { Action, Feat, Item, ItemMastery, ItemProperty } = createCheckers(TypesTI, CommonTI);
 
 const entries: [string, any[], Checker][] = [
   ['Action', actions, Action],
   ['Feat', feats, Feat],
+  ['Item', items, Item],
+  ['Item Mastery', itemMasteries, ItemMastery],
+  ['Item Property', itemProperties, ItemProperty],
 ];
 
 for (const [name, objects, checker] of entries) {

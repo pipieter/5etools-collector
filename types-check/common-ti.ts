@@ -91,6 +91,8 @@ export const Prerequisite = t.iface([], {
   }))),
 });
 
+export const Rarity = t.union(t.lit('none'), t.lit('unknown'), "string");
+
 const exportedTypeSuite: t.ITypeSuite = {
   SRD,
   Unit,
@@ -103,5 +105,6 @@ const exportedTypeSuite: t.ITypeSuite = {
   EntryTable,
   EntryList,
   Prerequisite,
+  Rarity,
 };
 export default exportedTypeSuite;
