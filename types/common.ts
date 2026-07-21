@@ -57,11 +57,12 @@ export interface EntryTable {
   colLabelRows?: ColLabelRow[];
   colStyles: string[];
   rows: (Entry | Cell)[][];
+  footnote?: string;
 }
 
 export type ColLabelRow = (string | { entry: string; width: number })[];
 
-interface Cell {
+export interface Cell {
   type: 'cell';
   roll: { exact: number } | { min: number; max: number };
 }

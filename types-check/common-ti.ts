@@ -63,6 +63,7 @@ export const EntryTable = t.iface([], {
   "colLabelRows": t.opt(t.array("ColLabelRow")),
   "colStyles": t.array("string"),
   "rows": t.array(t.array(t.union("Entry", "Cell"))),
+  "footnote": t.opt("string"),
 });
 
 export const ColLabelRow = t.array(t.union("string", t.iface([], {

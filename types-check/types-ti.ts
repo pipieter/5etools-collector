@@ -66,6 +66,15 @@ export const Spell = t.iface([], {
   "components": "SpellComponents",
 });
 
+export const Table = t.iface([], {
+  "name": "string",
+  "source": "string",
+  "caption": t.opt("string"),
+  "colLabels": t.opt(t.array("string")),
+  "colStyles": t.array("string"),
+  "rows": t.array(t.array(t.union("Entry", "Cell"))),
+});
+
 const exportedTypeSuite: t.ITypeSuite = {
   Action,
   Boon,
@@ -74,5 +83,6 @@ const exportedTypeSuite: t.ITypeSuite = {
   ItemProperty,
   Item,
   Spell,
+  Table,
 };
 export default exportedTypeSuite;

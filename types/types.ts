@@ -1,4 +1,15 @@
-import { Entry, Prerequisite, Rarity, ReprintedAs, SingleEntry, SpellComponents, Unit } from './common';
+import {
+  Cell,
+  ColLabelRow,
+  Entry,
+  EntryTable,
+  Prerequisite,
+  Rarity,
+  ReprintedAs,
+  SingleEntry,
+  SpellComponents,
+  Unit,
+} from './common';
 
 export interface Action {
   name: string;
@@ -60,4 +71,13 @@ export interface Spell {
   level: number;
   school: string;
   components: SpellComponents;
+}
+
+export interface Table {
+  name: string;
+  source: string;
+  caption?: string;
+  colLabels?: string[];
+  colStyles: string[];
+  rows: (Entry | Cell)[][];
 }

@@ -9,8 +9,9 @@ import items from '../data/official//items.json';
 import itemMasteries from '../data/official//item-masteries.json';
 import itemProperties from '../data/official/item-properties.json';
 import spells from '../data/official/spells.json';
+import tables from '../data/official/tables.json';
 
-const { Action, Boon, Feat, Item, ItemMastery, ItemProperty, Spell } = createCheckers(TypesTI, CommonTI);
+const { Action, Boon, Feat, Item, ItemMastery, ItemProperty, Spell, Table } = createCheckers(TypesTI, CommonTI);
 
 const entries: [string, any[], Checker][] = [
   ['Action', actions, Action],
@@ -20,6 +21,7 @@ const entries: [string, any[], Checker][] = [
   ['Item Mastery', itemMasteries, ItemMastery],
   ['Item Property', itemProperties, ItemProperty],
   ['Spell', spells, Spell],
+  ['Table', tables, Table],
 ];
 
 for (const [name, objects, checker] of entries) {
