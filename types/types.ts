@@ -62,6 +62,7 @@ export interface ItemType {
   name: string;
   abbreviation: string;
   source: string;
+  entries?: Entry[];
   reprintedAs?: ReprintedAs[];
 }
 

@@ -66,6 +66,7 @@ export const ItemType = t.iface([], {
   "name": "string",
   "abbreviation": "string",
   "source": "string",
+  "entries": t.opt(t.array("Entry")),
   "reprintedAs": t.opt(t.array("ReprintedAs")),
 });
 
