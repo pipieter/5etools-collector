@@ -43,6 +43,12 @@ export interface EntryInset {
   entries: Entry[];
 }
 
+export interface EntryTableGroup {
+  type: 'tableGroup';
+  name: string;
+  tables: EntryTable[];
+}
+
 export interface EntryTable {
   type: 'table';
   caption?: string;

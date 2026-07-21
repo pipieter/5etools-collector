@@ -49,6 +49,12 @@ export const EntryInset = t.iface([], {
   "entries": t.array("Entry"),
 });
 
+export const EntryTableGroup = t.iface([], {
+  "type": t.lit('tableGroup'),
+  "name": "string",
+  "tables": t.array("EntryTable"),
+});
+
 export const EntryTable = t.iface([], {
   "type": t.lit('table'),
   "caption": t.opt("string"),
@@ -137,6 +143,7 @@ const exportedTypeSuite: t.ITypeSuite = {
   EntryItem,
   EntrySection,
   EntryInset,
+  EntryTableGroup,
   EntryTable,
   Cell,
   EntryList,
