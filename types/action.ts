@@ -1,11 +1,16 @@
-import { Unit } from './common';
+import { Entry, ReprintedAs, Unit } from './common';
 
 export interface Action {
   name: string;
   source: string;
   page: number;
+  entries: Entry[];
+  time?: Unit[];
   srd?: boolean;
   srd52?: boolean;
   basicRules?: boolean;
-  time?: Unit[];
+  basicRules2024?: boolean;
+  reprintedAs?: ReprintedAs[];
+  seeAlsoAction?: string[];
+  fromVariant?: string
 }

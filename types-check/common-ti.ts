@@ -9,17 +9,45 @@ export const Unit = t.union(t.iface([], {
   "unit": "string",
 }), t.lit('Varies'), t.lit('Free'));
 
-export const Entry = t.union("string", "EntryEntries");
+export const ReprintedAs = t.union("string", t.iface([], {
+  "uid": "string",
+  "tag": "string",
+}));
+
+export const Entry = t.union("string", "EntryEntries", "EntryInset", "EntryTable", "EntryList");
 
 export const EntryEntries = t.iface([], {
   "type": t.lit('entries'),
+  "name": t.opt("string"),
+  "entries": t.array("Entry"),
+});
+
+export const EntryInset = t.iface([], {
+  "type": t.lit('inset'),
   "name": "string",
   "entries": t.array("Entry"),
 });
 
+export const EntryTable = t.iface([], {
+  "type": t.lit('table'),
+  "caption": "string",
+  "colLabels": t.array("string"),
+  "colStyles": t.array("string"),
+  "rows": t.array(t.array("Entry")),
+});
+
+export const EntryList = t.iface([], {
+  "type": t.lit('list'),
+  "items": t.array("Entry"),
+});
+
 const exportedTypeSuite: t.ITypeSuite = {
   Unit,
+  ReprintedAs,
   Entry,
   EntryEntries,
+  EntryInset,
+  EntryTable,
+  EntryList,
 };
 export default exportedTypeSuite;

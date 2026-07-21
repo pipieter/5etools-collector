@@ -8,10 +8,15 @@ export const Action = t.iface([], {
   "name": "string",
   "source": "string",
   "page": "number",
+  "entries": t.array("Entry"),
+  "time": t.opt(t.array("Unit")),
   "srd": t.opt("boolean"),
   "srd52": t.opt("boolean"),
   "basicRules": t.opt("boolean"),
-  "time": t.opt(t.array("Unit")),
+  "basicRules2024": t.opt("boolean"),
+  "reprintedAs": t.opt(t.array("ReprintedAs")),
+  "seeAlsoAction": t.opt(t.array("string")),
+  "fromVariant": t.opt("string"),
 });
 
 const exportedTypeSuite: t.ITypeSuite = {
