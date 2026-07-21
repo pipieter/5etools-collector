@@ -10,16 +10,22 @@ export const Action = t.iface([], {
   "page": "number",
   "entries": t.array("Entry"),
   "time": t.opt(t.array("Unit")),
-  "srd": t.opt("boolean"),
-  "srd52": t.opt("boolean"),
-  "basicRules": t.opt("boolean"),
-  "basicRules2024": t.opt("boolean"),
   "reprintedAs": t.opt(t.array("ReprintedAs")),
-  "seeAlsoAction": t.opt(t.array("string")),
-  "fromVariant": t.opt("string"),
+});
+
+export const Feat = t.iface([], {
+  "name": "string",
+  "source": "string",
+  "page": t.opt("number"),
+  "reprintedAs": t.opt(t.array("ReprintedAs")),
+  "category": t.opt("string"),
+  "entries": t.array("Entry"),
+  "prerequisite": t.opt(t.array("Prerequisite")),
+  "hasFluffImages": t.opt("boolean"),
 });
 
 const exportedTypeSuite: t.ITypeSuite = {
   Action,
+  Feat,
 };
 export default exportedTypeSuite;

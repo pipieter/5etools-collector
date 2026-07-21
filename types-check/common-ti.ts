@@ -4,6 +4,13 @@
 import * as t from "ts-interface-checker";
 // tslint:disable:object-literal-key-quotes
 
+export const SRD = t.iface([], {
+  "srd": t.opt("boolean"),
+  "srd52": t.opt("boolean"),
+  "basicRules": t.opt("boolean"),
+  "basicRules2024": t.opt("boolean"),
+});
+
 export const Unit = t.union(t.iface([], {
   "number": "number",
   "unit": "string",
@@ -14,11 +21,22 @@ export const ReprintedAs = t.union("string", t.iface([], {
   "tag": "string",
 }));
 
-export const Entry = t.union("string", "EntryEntries", "EntryInset", "EntryTable", "EntryList");
+export const Entry = t.union("string", "EntryEntries", "EntryItem", "EntrySection", "EntryInset", "EntryTable", "EntryList");
 
 export const EntryEntries = t.iface([], {
   "type": t.lit('entries'),
   "name": t.opt("string"),
+  "entries": t.array("Entry"),
+});
+
+export const EntryItem = t.iface([], {
+  "type": t.lit('item'),
+  "name": t.opt("string"),
+  "entries": t.array("Entry"),
+});
+
+export const EntrySection = t.iface([], {
+  "type": t.lit('section'),
   "entries": t.array("Entry"),
 });
 
@@ -30,7 +48,7 @@ export const EntryInset = t.iface([], {
 
 export const EntryTable = t.iface([], {
   "type": t.lit('table'),
-  "caption": "string",
+  "caption": t.opt("string"),
   "colLabels": t.array("string"),
   "colStyles": t.array("string"),
   "rows": t.array(t.array("Entry")),
@@ -38,16 +56,52 @@ export const EntryTable = t.iface([], {
 
 export const EntryList = t.iface([], {
   "type": t.lit('list'),
+  "style": t.opt("string"),
   "items": t.array("Entry"),
 });
 
+export const Prerequisite = t.iface([], {
+  "ability": t.opt(t.tuple(t.iface([], {
+    "str": t.opt("number"),
+    "dex": t.opt("number"),
+    "con": t.opt("number"),
+    "int": t.opt("number"),
+    "wis": t.opt("number"),
+    "cha": t.opt("number"),
+  }))),
+  "campaign": t.opt(t.array("string")),
+  "exclusiveFeatCategory": t.opt(t.array("string")),
+  "feat": t.opt(t.array("string")),
+  "feature": t.opt(t.array("string")),
+  "level": t.opt(t.union("number", t.iface([], {
+    "level": "number",
+    "class": t.iface([], {
+      "name": "string",
+    }),
+  }))),
+  "other": t.opt("string"),
+  "otherSummary": t.opt(t.iface([], {
+    "entry": "string",
+    "entrySummary": "string",
+  })),
+  "spellcasting2020": t.opt("boolean"),
+  "spellcastingFeature": t.opt("boolean"),
+  "race": t.opt(t.array(t.iface([], {
+    "name": "string",
+  }))),
+});
+
 const exportedTypeSuite: t.ITypeSuite = {
+  SRD,
   Unit,
   ReprintedAs,
   Entry,
   EntryEntries,
+  EntryItem,
+  EntrySection,
   EntryInset,
   EntryTable,
   EntryList,
+  Prerequisite,
 };
 export default exportedTypeSuite;
