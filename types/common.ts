@@ -59,7 +59,7 @@ export interface EntryTable {
   rows: (Entry | Cell)[][];
 }
 
-export type ColLabelRow = string | { entry: string; width: number };
+export type ColLabelRow = (string | { entry: string; width: number })[];
 
 interface Cell {
   type: 'cell';

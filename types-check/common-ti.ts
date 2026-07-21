@@ -65,10 +65,10 @@ export const EntryTable = t.iface([], {
   "rows": t.array(t.array(t.union("Entry", "Cell"))),
 });
 
-export const ColLabelRow = t.union("string", t.iface([], {
+export const ColLabelRow = t.array(t.union("string", t.iface([], {
   "entry": "string",
   "width": "number",
-}));
+})));
 
 export const Cell = t.iface([], {
   "type": t.lit('cell'),
