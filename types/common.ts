@@ -33,6 +33,7 @@ export interface EntryItem {
 
 export interface EntrySection {
   type: 'section';
+  name?: string;
   entries: Entry[];
 }
 

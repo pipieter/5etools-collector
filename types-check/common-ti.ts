@@ -39,6 +39,7 @@ export const EntryItem = t.iface([], {
 
 export const EntrySection = t.iface([], {
   "type": t.lit('section'),
+  "name": t.opt("string"),
   "entries": t.array("Entry"),
 });
 
