@@ -52,6 +52,7 @@ export const EntryInset = t.iface([], {
 export const EntryTableGroup = t.iface([], {
   "type": t.lit('tableGroup'),
   "name": "string",
+  "caption": t.opt("string"),
   "tables": t.array("EntryTable"),
 });
 
