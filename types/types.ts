@@ -1,4 +1,4 @@
-import { Entry, Prerequisite, Rarity, ReprintedAs, Unit } from './common';
+import { Entry, Prerequisite, Rarity, ReprintedAs, SpellComponents, Unit } from './common';
 
 export interface Action {
   name: string;
@@ -40,4 +40,15 @@ export interface Item {
   type?: string;
   rarity?: Rarity;
   wondrous?: boolean;
+}
+
+export interface Spell {
+  name: string;
+  source: string;
+  reprintedAs?: ReprintedAs[];
+  entries: Entry[];
+  entriesHigherLevel?: Entry[];
+  level: number;
+  school: string;
+  components: SpellComponents;
 }

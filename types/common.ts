@@ -17,7 +17,7 @@ export type Unit =
 
 export type ReprintedAs = string | { uid: string; tag: string };
 
-export type Entry = string | EntryEntries | EntryItem | EntrySection | EntryInset | EntryTable | EntryList;
+export type Entry = string | EntryEntries | EntryItem | EntrySection | EntryInset | EntryTable | EntryList | EntryQuote;
 
 export interface EntryEntries {
   type: 'entries';
@@ -47,13 +47,24 @@ export interface EntryTable {
   caption?: string;
   colLabels: string[];
   colStyles: string[];
-  rows: Entry[][];
+  rows: (Entry | Cell)[][];
+}
+
+interface Cell {
+  type: 'cell';
+  roll: { exact: number } | { min: number; max: number };
 }
 
 export interface EntryList {
   type: 'list';
   style?: string;
   items: Entry[];
+}
+
+export interface EntryQuote {
+  type: 'quote';
+  entries: Entry[];
+  by?: string;
 }
 
 // util.json#/$defs/prerequisite
@@ -72,3 +83,17 @@ export interface Prerequisite {
 }
 
 export type Rarity = 'none' | 'unknown' | string;
+
+export interface SpellComponents {
+  v?: boolean;
+  s?: boolean;
+  m?: MaterialComponent;
+}
+
+export type MaterialComponent =
+  | string
+  | {
+      text: string;
+      cost?: number;
+      consume?: boolean | 'optional';
+    };

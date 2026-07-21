@@ -23,7 +23,7 @@ export const ReprintedAs = t.union("string", t.iface([], {
   "tag": "string",
 }));
 
-export const Entry = t.union("string", "EntryEntries", "EntryItem", "EntrySection", "EntryInset", "EntryTable", "EntryList");
+export const Entry = t.union("string", "EntryEntries", "EntryItem", "EntrySection", "EntryInset", "EntryTable", "EntryList", "EntryQuote");
 
 export const EntryEntries = t.iface([], {
   "type": t.lit('entries'),
@@ -53,13 +53,29 @@ export const EntryTable = t.iface([], {
   "caption": t.opt("string"),
   "colLabels": t.array("string"),
   "colStyles": t.array("string"),
-  "rows": t.array(t.array("Entry")),
+  "rows": t.array(t.array(t.union("Entry", "Cell"))),
+});
+
+export const Cell = t.iface([], {
+  "type": t.lit('cell'),
+  "roll": t.union(t.iface([], {
+    "exact": "number",
+  }), t.iface([], {
+    "min": "number",
+    "max": "number",
+  })),
 });
 
 export const EntryList = t.iface([], {
   "type": t.lit('list'),
   "style": t.opt("string"),
   "items": t.array("Entry"),
+});
+
+export const EntryQuote = t.iface([], {
+  "type": t.lit('quote'),
+  "entries": t.array("Entry"),
+  "by": t.opt("string"),
 });
 
 export const Prerequisite = t.iface([], {
@@ -95,6 +111,18 @@ export const Prerequisite = t.iface([], {
 
 export const Rarity = t.union(t.lit('none'), t.lit('unknown'), "string");
 
+export const SpellComponents = t.iface([], {
+  "v": t.opt("boolean"),
+  "s": t.opt("boolean"),
+  "m": t.opt("MaterialComponent"),
+});
+
+export const MaterialComponent = t.union("string", t.iface([], {
+  "text": "string",
+  "cost": t.opt("number"),
+  "consume": t.opt(t.union("boolean", t.lit('optional'))),
+}));
+
 const exportedTypeSuite: t.ITypeSuite = {
   SRD,
   Unit,
@@ -105,8 +133,12 @@ const exportedTypeSuite: t.ITypeSuite = {
   EntrySection,
   EntryInset,
   EntryTable,
+  Cell,
   EntryList,
+  EntryQuote,
   Prerequisite,
   Rarity,
+  SpellComponents,
+  MaterialComponent,
 };
 export default exportedTypeSuite;

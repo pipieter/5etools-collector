@@ -46,11 +46,23 @@ export const Item = t.iface([], {
   "wondrous": t.opt("boolean"),
 });
 
+export const Spell = t.iface([], {
+  "name": "string",
+  "source": "string",
+  "reprintedAs": t.opt(t.array("ReprintedAs")),
+  "entries": t.array("Entry"),
+  "entriesHigherLevel": t.opt(t.array("Entry")),
+  "level": "number",
+  "school": "string",
+  "components": "SpellComponents",
+});
+
 const exportedTypeSuite: t.ITypeSuite = {
   Action,
   Feat,
   ItemMastery,
   ItemProperty,
   Item,
+  Spell,
 };
 export default exportedTypeSuite;
