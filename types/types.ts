@@ -1,16 +1,4 @@
-import {
-  Cell,
-  ColLabelRow,
-  Entry,
-  EntryTable,
-  ImageRef,
-  Prerequisite,
-  Rarity,
-  ReprintedAs,
-  SingleEntry,
-  SpellComponents,
-  Unit,
-} from './common';
+import { Cell, Entry, ImageRef, Prerequisite, Rarity, ReprintedAs, SingleEntry, SpellComponents, Unit } from './common';
 
 export interface Action {
   name: string;
@@ -68,6 +56,13 @@ export interface ItemProperty {
   template: string;
   reprintedAs?: ReprintedAs[];
   entries?: Entry[];
+}
+
+export interface ItemType {
+  name: string;
+  abbreviation: string;
+  source: string;
+  reprintedAs?: ReprintedAs[];
 }
 
 export interface Item {

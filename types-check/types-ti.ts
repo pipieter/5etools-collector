@@ -62,6 +62,13 @@ export const ItemProperty = t.iface([], {
   "entries": t.opt(t.array("Entry")),
 });
 
+export const ItemType = t.iface([], {
+  "name": "string",
+  "abbreviation": "string",
+  "source": "string",
+  "reprintedAs": t.opt(t.array("ReprintedAs")),
+});
+
 export const Item = t.iface([], {
   "name": "string",
   "source": "string",
@@ -98,6 +105,7 @@ const exportedTypeSuite: t.ITypeSuite = {
   Feat,
   ItemMastery,
   ItemProperty,
+  ItemType,
   Item,
   Spell,
   Table,
