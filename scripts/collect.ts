@@ -29,30 +29,64 @@ class Collector {
     this.basePath = path;
   }
 
+  private add(key: string, value: any | any[]): void {
+    if (!this.data.has(key)) {
+      this.data.set(key, []);
+    }
+
+    if (Array.isArray(value)) {
+      this.data.get(key)!.push(...value);
+    } else {
+      this.data.get(key)!.push(value);
+    }
+  }
+
   public addFile(file: string): void {
     const contents = read(path.join(this.basePath, file));
 
     for (const [key, value] of Object.entries(contents)) {
-      if (!this.data.has(key)) {
-        this.data.set(key, []);
-      }
-
-      if (Array.isArray(value)) {
-        this.data.get(key)!.push(...value);
-      } else {
-        this.data.get(key)!.push(value);
-      }
+      this.add(key, value);
     }
   }
 
-  public addDirectory(path: string): void {}
+  public addIndex(dir: string, indexFile: string): void {
+    const fullIndexPath = path.join(this.basePath, dir, indexFile);
+    const indices = Object.values(read(fullIndexPath));
+
+    for (const index of indices) {
+      const indexPath = path.join(dir, index as string);
+      this.addFile(indexPath);
+    }
+  }
+
+  public addSpellSources(file: string): void {
+    const fullPath = path.join(this.basePath, file);
+    const contents = read(fullPath);
+
+    const sources = [];
+
+    for (const [source, spells] of Object.entries(contents)) {
+      for (const spell of Object.keys(spells as any)) {
+        const classes = [...(contents[source][spell].class || []), ...(contents[source][spell].classVariant || [])];
+        const parsed = classes.map((class$) => ({
+          spellName: spell,
+          spellSource: source,
+          casterName: class$.name,
+          casterSource: class$.source,
+        }));
+        sources.push(...parsed);
+      }
+    }
+
+    this.add('spellSource', sources);
+  }
 
   public get(key: string): any[] {
     return this.data.get(key) ?? [];
   }
 }
 
-function main() {
+function official() {
   const collector = new Collector('./5etools-src/data');
 
   collector.addFile('actions.json');
@@ -85,19 +119,24 @@ function main() {
   collector.addFile('variantrules.json');
   collector.addFile('vehicles.json');
 
-  // collector.addFile('class/index.json');
-  // collector.addFile('bestiary/index.json');
-  // collector.addFile('bestiary/fluff-index.json');
-  // collector.addFile('spells/fluff-index.json');
-  // collector.addFile('spells/index.json');
-  //collector.addFileSpellSource('spells/sources.json');
+  collector.addIndex('class', 'index.json');
+  collector.addIndex('bestiary', 'index.json');
+  collector.addIndex('bestiary', 'fluff-index.json');
+  collector.addIndex('spells', 'index.json');
+  collector.addIndex('spells', 'fluff-index.json');
+  collector.addSpellSources('spells/sources.json');
 
-  if (!existsSync('./data/official')) mkdirSync('./data/official', {recursive: true});
+  if (!existsSync('./data/official')) mkdirSync('./data/official', { recursive: true });
 
   write('./data/official', 'actions.json', collector.get('action'));
   write('./data/official', 'feats.json', collector.get('feat'));
+  write('./data/official', 'spells.json', collector.get('spell'));
+  write('./data/official', 'classes.json', collector.get('class'));
+  write('./data/official', 'spellSources.json', collector.get('spellSource'));
+}
 
-  console.log(collector.get("_meta"))
+function main() {
+  official();
 }
 
 main();
