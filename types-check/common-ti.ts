@@ -59,10 +59,16 @@ export const EntryTableGroup = t.iface([], {
 export const EntryTable = t.iface([], {
   "type": t.lit('table'),
   "caption": t.opt("string"),
-  "colLabels": t.array("string"),
+  "colLabels": t.opt(t.array("string")),
+  "colLabelRows": t.opt(t.array("ColLabelRow")),
   "colStyles": t.array("string"),
   "rows": t.array(t.array(t.union("Entry", "Cell"))),
 });
+
+export const ColLabelRow = t.union("string", t.iface([], {
+  "entry": "string",
+  "width": "number",
+}));
 
 export const Cell = t.iface([], {
   "type": t.lit('cell'),
@@ -146,6 +152,7 @@ const exportedTypeSuite: t.ITypeSuite = {
   EntryInset,
   EntryTableGroup,
   EntryTable,
+  ColLabelRow,
   Cell,
   EntryList,
   EntryQuote,

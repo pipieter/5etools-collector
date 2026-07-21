@@ -53,10 +53,13 @@ export interface EntryTableGroup {
 export interface EntryTable {
   type: 'table';
   caption?: string;
-  colLabels: string[];
+  colLabels?: string[];
+  colLabelRows?: ColLabelRow[];
   colStyles: string[];
   rows: (Entry | Cell)[][];
 }
+
+export type ColLabelRow = string | { entry: string; width: number };
 
 interface Cell {
   type: 'cell';
