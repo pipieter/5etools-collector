@@ -340,6 +340,7 @@ export const Duration = t.iface([], {
     "amount": "number",
     "upTo": t.opt("boolean"),
   })),
+  "condition": t.opt("string"),
   "concentration": t.opt("boolean"),
   "ends": t.opt(t.array("string")),
 });
@@ -411,6 +412,11 @@ export const StartingEquipment = t.iface([], {
   "D": t.opt(t.array("StartingEquipmentEntry")),
 });
 
+export const DangerRating = t.iface([], {
+  "tier": "number",
+  "threat": "string",
+});
+
 const exportedTypeSuite: t.ITypeSuite = {
   Base,
   Source,
@@ -446,5 +452,6 @@ const exportedTypeSuite: t.ITypeSuite = {
   ScalingLevelDice,
   StartingEquipmentEntry,
   StartingEquipment,
+  DangerRating,
 };
 export default exportedTypeSuite;

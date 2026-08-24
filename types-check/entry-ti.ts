@@ -15,7 +15,7 @@ export const EntryEntries = t.iface([], {
 });
 
 export const EntryItem = t.iface([], {
-  "type": t.lit('item'),
+  "type": t.union(t.lit('item'), t.lit('itemSub')),
   "name": t.opt("string"),
   "entries": t.opt(t.array("Entry")),
   "entry": t.opt("Entry"),
@@ -32,7 +32,7 @@ export const EntryInset = t.iface([], {
   "type": t.union(t.lit('inset'), t.lit('insetReadaloud')),
   "source": t.opt("string"),
   "page": t.opt("number"),
-  "name": "string",
+  "name": t.opt("string"),
   "entries": t.array("Entry"),
 });
 

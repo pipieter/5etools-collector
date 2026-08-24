@@ -4,19 +4,13 @@
 import * as t from "ts-interface-checker";
 // tslint:disable:object-literal-key-quotes
 
-export const HazardRating = t.iface([], {
-  "tier": "number",
-  "threat": "string",
-});
-
 export const Hazard = t.iface(["Base", "SRD"], {
   "entries": t.array("Entry"),
-  "rating": t.opt(t.array("HazardRating")),
+  "rating": t.opt(t.array("DangerRating")),
   "trapHazType": t.opt("string"),
 });
 
 const exportedTypeSuite: t.ITypeSuite = {
-  HazardRating,
   Hazard,
 };
 export default exportedTypeSuite;

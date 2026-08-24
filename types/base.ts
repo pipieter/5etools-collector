@@ -316,6 +316,7 @@ export interface Duration {
     amount: number;
     upTo?: boolean;
   };
+  condition?: string;
   concentration?: boolean;
   ends?: string[];
 }
@@ -376,4 +377,9 @@ export interface StartingEquipment {
   B?: StartingEquipmentEntry[];
   C?: StartingEquipmentEntry[];
   D?: StartingEquipmentEntry[];
+}
+
+export interface DangerRating {
+  tier: number;
+  threat: string;
 }

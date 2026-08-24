@@ -1,13 +1,8 @@
-import { Base, SRD } from './base';
-import { Entry, SingleEntry } from './entry';
-
-export interface HazardRating {
-  tier: number;
-  threat: string;
-}
+import { Base, DangerRating, SRD } from './base';
+import { Entry } from './entry';
 
 export interface Hazard extends Base, SRD {
   entries: Entry[];
-  rating?: HazardRating[];
+  rating?: DangerRating[];
   trapHazType?: string;
 }

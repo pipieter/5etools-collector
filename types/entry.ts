@@ -10,7 +10,7 @@ export interface EntryEntries {
 }
 
 export interface EntryItem {
-  type: 'item';
+  type: 'item' | 'itemSub';
   name?: string;
   entries?: Entry[];
   entry?: Entry;
@@ -27,7 +27,7 @@ export interface EntryInset {
   type: 'inset' | 'insetReadaloud';
   source?: string;
   page?: number;
-  name: string;
+  name?: string;
   entries: Entry[];
 }
 
