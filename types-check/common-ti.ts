@@ -16,6 +16,7 @@ export const Base = t.iface([], {
   "referenceSources": t.opt(t.array("Source")),
   "otherSources": t.opt(t.array("Source")),
   "additionalSources": t.opt(t.array("Source")),
+  "edition": t.opt("string"),
   "_copy": t.opt("any"),
 });
 
@@ -50,6 +51,7 @@ export const EntryEntries = t.iface([], {
   "name": t.opt("string"),
   "page": t.opt("number"),
   "entries": t.array("Entry"),
+  "data": t.opt("any"),
 });
 
 export const EntryItem = t.iface([], {
@@ -61,6 +63,7 @@ export const EntryItem = t.iface([], {
 
 export const EntrySection = t.iface([], {
   "type": t.lit('section'),
+  "id": t.opt("string"),
   "name": t.opt("string"),
   "entries": t.array("Entry"),
 });
@@ -86,7 +89,7 @@ export const EntryTable = t.iface([], {
   "colLabels": t.opt(t.array("string")),
   "colLabelRows": t.opt(t.array("ColLabelRow")),
   "colStyles": t.array("string"),
-  "rows": t.array(t.array(t.union("Entry", "Cell"))),
+  "rows": t.array(t.array(t.union("Entry", "Cell", "number"))),
   "footnote": t.opt("string"),
   "footnotes": t.opt(t.array("string")),
   "data": t.opt("any"),
@@ -226,23 +229,93 @@ export const SavingThrowProficiency = t.iface([], {
 });
 
 export const ToolProficiency = t.iface([], {
+  "artisan's tools": t.opt("boolean"),
+  "alchemist's supplies": t.opt("boolean"),
+  "brewer's supplies": t.opt("boolean"),
+  "calligrapher's supplies": t.opt("boolean"),
+  "carpenter's tools": t.opt("boolean"),
+  "cartographer's tools": t.opt("boolean"),
+  "cobbler's tools": t.opt("boolean"),
   "cook's utensils": t.opt("boolean"),
+  "glassblower's tools": t.opt("boolean"),
+  "jeweler's tools": t.opt("boolean"),
+  "leatherworker's tools": t.opt("boolean"),
+  "mason's tools": t.opt("boolean"),
+  "painter's supplies": t.opt("boolean"),
+  "potter's tools": t.opt("boolean"),
+  "smith's tools": t.opt("boolean"),
+  "tinker's tools": t.opt("boolean"),
+  "weaver's tools": t.opt("boolean"),
+  "woodcarver's tools": t.opt("boolean"),
+  "disguise kit": t.opt("boolean"),
+  "forgery kit": t.opt("boolean"),
+  "gaming set": t.opt("boolean"),
+  "dragonchess set": t.opt("boolean"),
+  "dice set": t.opt("boolean"),
+  "three-dragon ante set": t.opt("boolean"),
+  "playing card set": t.opt("boolean"),
+  "herbalism kit": t.opt("boolean"),
+  "musical instrument": t.opt("boolean"),
+  "bagpipes": t.opt("boolean"),
+  "drum": t.opt("boolean"),
+  "dulcimer": t.opt("boolean"),
+  "flute": t.opt("boolean"),
+  "horn": t.opt("boolean"),
+  "lute": t.opt("boolean"),
+  "lyre": t.opt("boolean"),
+  "pan flute": t.opt("boolean"),
+  "shawm": t.opt("boolean"),
+  "viol": t.opt("boolean"),
+  "navigator's tools": t.opt("boolean"),
+  "thieves' tools": t.opt("boolean"),
   "poisoner's kit": t.opt("boolean"),
+  "vehicles": t.opt("boolean"),
+  "vehicles (air)": t.opt("boolean"),
+  "vehicles (land)": t.opt("boolean"),
+  "vehicles (water)": t.opt("boolean"),
+  "vehicles (space)": t.opt("boolean"),
   "any": t.opt("number"),
   "anyArtisansTool": t.opt("number"),
+  "anyGamingSet": t.opt("number"),
   "anyMusicalInstrument": t.opt("number"),
   "choose": t.opt("Choose"),
 });
 
 export const LanguageProficiency = t.iface([], {
+  "abyssal": t.opt("boolean"),
+  "aquan": t.opt("boolean"),
+  "auran": t.opt("boolean"),
+  "celestial": t.opt("boolean"),
+  "common": t.opt("boolean"),
+  "common sign language": t.opt("boolean"),
+  "deep speech": t.opt("boolean"),
   "draconic": t.opt("boolean"),
+  "druidic": t.opt("boolean"),
+  "dwarvish": t.opt("boolean"),
+  "elvish": t.opt("boolean"),
+  "giant": t.opt("boolean"),
+  "gith": t.opt("boolean"),
+  "gnomish": t.opt("boolean"),
+  "goblin": t.opt("boolean"),
+  "halfling": t.opt("boolean"),
+  "ignan": t.opt("boolean"),
+  "infernal": t.opt("boolean"),
+  "orc": t.opt("boolean"),
+  "other": t.opt("boolean"),
+  "primordial": t.opt("boolean"),
   "sylvan": t.opt("boolean"),
+  "terran": t.opt("boolean"),
   "thieves' cant": t.opt("boolean"),
+  "undercommon": t.opt("boolean"),
   "any": t.opt("number"),
+  "anyStandard": t.opt("number"),
+  "choose": t.opt("Choose"),
 });
 
 export const SkillToolLanguageProficiency = t.iface([], {
   "choose": t.opt(t.array("Choose")),
+  "anyLanguage": t.opt("number"),
+  "anyTool": t.opt("number"),
 });
 
 export const WeaponProficiency = t.iface([], {
@@ -283,6 +356,10 @@ export const Choose = t.iface([], {
   "amount": t.opt("number"),
   "max": t.opt("number"),
   "entry": t.opt("string"),
+  "weighted": t.opt(t.iface([], {
+    "from": t.array("string"),
+    "weights": t.array("number"),
+  })),
 });
 
 export const Sense = t.iface([], {
@@ -389,6 +466,35 @@ export const ScalingLevelDice = t.iface([], {
   "scaling": "Scaling",
 });
 
+export const StartingEquipmentEntry = t.union("string", t.iface([], {
+  "value": "number",
+}), t.iface([], {
+  "item": "string",
+  "displayName": t.opt("string"),
+  "containsValue": t.opt("number"),
+  "quantity": t.opt("number"),
+}), t.iface([], {
+  "special": "string",
+  "quantity": t.opt("number"),
+  "worthValue": t.opt("number"),
+  "containsValue": t.opt("number"),
+}), t.iface([], {
+  "equipmentType": "string",
+  "displayName": t.opt("string"),
+}));
+
+export const StartingEquipment = t.iface([], {
+  "_": t.opt(t.array("StartingEquipmentEntry")),
+  "a": t.opt(t.array("StartingEquipmentEntry")),
+  "b": t.opt(t.array("StartingEquipmentEntry")),
+  "c": t.opt(t.array("StartingEquipmentEntry")),
+  "d": t.opt(t.array("StartingEquipmentEntry")),
+  "A": t.opt(t.array("StartingEquipmentEntry")),
+  "B": t.opt(t.array("StartingEquipmentEntry")),
+  "C": t.opt(t.array("StartingEquipmentEntry")),
+  "D": t.opt(t.array("StartingEquipmentEntry")),
+});
+
 const exportedTypeSuite: t.ITypeSuite = {
   Base,
   Source,
@@ -434,5 +540,7 @@ const exportedTypeSuite: t.ITypeSuite = {
   Range,
   Scaling,
   ScalingLevelDice,
+  StartingEquipmentEntry,
+  StartingEquipment,
 };
 export default exportedTypeSuite;

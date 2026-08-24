@@ -10,6 +10,7 @@ export interface Base {
   referenceSources?: Source[];
   otherSources?: Source[];
   additionalSources?: Source[];
+  edition?: string;
   _copy?: any; // TODO
 }
 
@@ -46,6 +47,7 @@ export interface EntryEntries {
   name?: string;
   page?: number;
   entries: Entry[];
+  data?: any;
 }
 
 export interface EntryItem {
@@ -57,6 +59,7 @@ export interface EntryItem {
 
 export interface EntrySection {
   type: 'section';
+  id?: string;
   name?: string;
   entries: Entry[];
 }
@@ -82,7 +85,7 @@ export interface EntryTable {
   colLabels?: string[];
   colLabelRows?: ColLabelRow[];
   colStyles: string[];
-  rows: (Entry | Cell)[][];
+  rows: (Entry | Cell | number)[][];
   footnote?: string;
   footnotes?: string[];
   data?: any; // TODO
@@ -189,23 +192,93 @@ export interface SavingThrowProficiency {
 }
 
 export interface ToolProficiency {
+  "artisan's tools"?: boolean;
+  "alchemist's supplies"?: boolean;
+  "brewer's supplies"?: boolean;
+  "calligrapher's supplies"?: boolean;
+  "carpenter's tools"?: boolean;
+  "cartographer's tools"?: boolean;
+  "cobbler's tools"?: boolean;
   "cook's utensils"?: boolean;
+  "glassblower's tools"?: boolean;
+  "jeweler's tools"?: boolean;
+  "leatherworker's tools"?: boolean;
+  "mason's tools"?: boolean;
+  "painter's supplies"?: boolean;
+  "potter's tools"?: boolean;
+  "smith's tools"?: boolean;
+  "tinker's tools"?: boolean;
+  "weaver's tools"?: boolean;
+  "woodcarver's tools"?: boolean;
+  'disguise kit'?: boolean;
+  'forgery kit'?: boolean;
+  'gaming set'?: boolean;
+  'dragonchess set'?: boolean;
+  'dice set'?: boolean;
+  'three-dragon ante set'?: boolean;
+  'playing card set'?: boolean;
+  'herbalism kit'?: boolean;
+  'musical instrument'?: boolean;
+  bagpipes?: boolean;
+  drum?: boolean;
+  dulcimer?: boolean;
+  flute?: boolean;
+  horn?: boolean;
+  lute?: boolean;
+  lyre?: boolean;
+  'pan flute'?: boolean;
+  shawm?: boolean;
+  viol?: boolean;
+  "navigator's tools"?: boolean;
+  "thieves' tools"?: boolean;
   "poisoner's kit"?: boolean;
+  vehicles?: boolean;
+  'vehicles (air)'?: boolean;
+  'vehicles (land)'?: boolean;
+  'vehicles (water)'?: boolean;
+  'vehicles (space)'?: boolean;
   any?: number;
   anyArtisansTool?: number;
+  anyGamingSet?: number;
   anyMusicalInstrument?: number;
   choose?: Choose;
 }
 
 export interface LanguageProficiency {
+  abyssal?: boolean;
+  aquan?: boolean;
+  auran?: boolean;
+  celestial?: boolean;
+  common?: boolean;
+  'common sign language'?: boolean;
+  'deep speech'?: boolean;
   draconic?: boolean;
+  druidic?: boolean;
+  dwarvish?: boolean;
+  elvish?: boolean;
+  giant?: boolean;
+  gith?: boolean;
+  gnomish?: boolean;
+  goblin?: boolean;
+  halfling?: boolean;
+  ignan?: boolean;
+  infernal?: boolean;
+  orc?: boolean;
+  other?: boolean;
+  primordial?: boolean;
   sylvan?: boolean;
+  terran?: boolean;
   "thieves' cant"?: boolean;
+  undercommon?: boolean;
   any?: number;
+  anyStandard?: number;
+  choose?: Choose;
 }
 
 export interface SkillToolLanguageProficiency {
   choose?: Choose[];
+  anyLanguage?: number;
+  anyTool?: number;
 }
 
 export interface WeaponProficiency {
@@ -248,6 +321,10 @@ export interface Choose {
   amount?: number;
   max?: number;
   entry?: string;
+  weighted?: {
+    from: string[];
+    weights: number[];
+  };
 }
 
 export interface Sense {
@@ -355,4 +432,23 @@ export interface Scaling {
 export interface ScalingLevelDice {
   label?: string;
   scaling: Scaling;
+}
+
+export type StartingEquipmentEntry =
+  | string
+  | { value: number }
+  | { item: string; displayName?: string; containsValue?: number; quantity?: number }
+  | { special: string; quantity?: number; worthValue?: number; containsValue?: number }
+  | { equipmentType: string; displayName?: string };
+
+export interface StartingEquipment {
+  _?: StartingEquipmentEntry[];
+  a?: StartingEquipmentEntry[];
+  b?: StartingEquipmentEntry[];
+  c?: StartingEquipmentEntry[];
+  d?: StartingEquipmentEntry[];
+  A?: StartingEquipmentEntry[];
+  B?: StartingEquipmentEntry[];
+  C?: StartingEquipmentEntry[];
+  D?: StartingEquipmentEntry[];
 }

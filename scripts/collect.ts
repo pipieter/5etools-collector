@@ -129,6 +129,7 @@ function official() {
   if (!existsSync('./data/official')) mkdirSync('./data/official', { recursive: true });
 
   write('./data/official', 'actions.json', collector.get('action'));
+  write('./data/official', 'backgrounds.json', collector.get('background'));
   write('./data/official', 'boons.json', collector.get('boon'));
   write('./data/official', 'deities.json', collector.get('deity'));
   write('./data/official', 'feats.json', collector.get('feat'));

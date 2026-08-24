@@ -206,6 +206,20 @@ export const Table = t.iface(["Base", "SRD"], {
   "rows": t.array(t.array(t.union("Entry", "Cell"))),
 });
 
+export const Background = t.iface(["Base", "SRD"], {
+  "entries": t.opt(t.array("Entry")),
+  "ability": t.opt(t.array("Ability")),
+  "feats": t.opt(t.array("any")),
+  "skillProficiencies": t.opt(t.array("SkillProficiency")),
+  "toolProficiencies": t.opt(t.array("ToolProficiency")),
+  "languageProficiencies": t.opt(t.array("LanguageProficiency")),
+  "skillToolLanguageProficiencies": t.opt(t.array("SkillToolLanguageProficiency")),
+  "startingEquipment": t.opt(t.array("StartingEquipment")),
+  "fromFeature": t.opt("any"),
+  "additionalSpells": t.opt(t.array("any")),
+  "prerequisite": t.opt(t.array("Prerequisite")),
+});
+
 const exportedTypeSuite: t.ITypeSuite = {
   Action,
   Boon,
@@ -217,5 +231,6 @@ const exportedTypeSuite: t.ITypeSuite = {
   Item,
   Spell,
   Table,
+  Background,
 };
 export default exportedTypeSuite;
