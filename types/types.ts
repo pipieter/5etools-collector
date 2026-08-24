@@ -247,3 +247,8 @@ export interface Background extends Base, SRD {
   additionalSpells?: any[]; // TODO
   prerequisite?: Prerequisite[];
 }
+
+export interface Skill extends Base, SRD {
+  entries: Entry[];
+  ability: 'str' | 'dex' | 'con' | 'int' | 'wis' | 'cha';
+}

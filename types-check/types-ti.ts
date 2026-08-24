@@ -220,6 +220,11 @@ export const Background = t.iface(["Base", "SRD"], {
   "prerequisite": t.opt(t.array("Prerequisite")),
 });
 
+export const Skill = t.iface(["Base", "SRD"], {
+  "entries": t.array("Entry"),
+  "ability": t.union(t.lit('str'), t.lit('dex'), t.lit('con'), t.lit('int'), t.lit('wis'), t.lit('cha')),
+});
+
 const exportedTypeSuite: t.ITypeSuite = {
   Action,
   Boon,
@@ -232,5 +237,6 @@ const exportedTypeSuite: t.ITypeSuite = {
   Spell,
   Table,
   Background,
+  Skill,
 };
 export default exportedTypeSuite;

@@ -142,6 +142,7 @@ function official() {
   write('./data/official', 'spells.json', collector.get('spell'));
   write('./data/official', 'classes.json', collector.get('class'));
   write('./data/official', 'spellSources.json', collector.get('spellSource'));
+  write('./data/official', 'skills.json', collector.get('skill'));
   write('./data/official', 'tables.json', collector.get('table'));
 }
 
