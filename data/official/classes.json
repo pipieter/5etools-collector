@@ -85,10 +85,21 @@
       }
     ],
     "startingProficiencies": {
-      "armor": [
-        "light",
-        "medium",
-        "shield"
+      "skills": [
+        {
+          "choose": {
+            "from": [
+              "arcana",
+              "history",
+              "investigation",
+              "medicine",
+              "nature",
+              "perception",
+              "sleight of hand"
+            ],
+            "count": 2
+          }
+        }
       ],
       "weapons": [
         "simple"
@@ -105,20 +116,16 @@
           "anyArtisansTool": 1
         }
       ],
-      "skills": [
+      "armor": [
+        "light",
+        "medium",
+        "shield"
+      ],
+      "armorProficiencies": [
         {
-          "choose": {
-            "from": [
-              "arcana",
-              "history",
-              "investigation",
-              "medicine",
-              "nature",
-              "perception",
-              "sleight of hand"
-            ],
-            "count": 2
-          }
+          "light": true,
+          "medium": true,
+          "shield": true
         }
       ]
     },
@@ -159,19 +166,6 @@
     },
     "multiclassing": {
       "proficienciesGained": {
-        "armor": [
-          "light",
-          "medium",
-          "shield"
-        ],
-        "tools": [
-          "{@item Tinker's Tools|XPHB}"
-        ],
-        "toolProficiencies": [
-          {
-            "tinker's tools": true
-          }
-        ],
         "skills": [
           {
             "choose": {
@@ -186,6 +180,26 @@
               ],
               "count": 1
             }
+          }
+        ],
+        "tools": [
+          "{@item Tinker's Tools|XPHB}"
+        ],
+        "toolProficiencies": [
+          {
+            "tinker's tools": true
+          }
+        ],
+        "armor": [
+          "light",
+          "medium",
+          "shield"
+        ],
+        "armorProficiencies": [
+          {
+            "light": true,
+            "medium": true,
+            "shield": true
           }
         ]
       }
@@ -590,10 +604,21 @@
       }
     ],
     "startingProficiencies": {
-      "armor": [
-        "light",
-        "medium",
-        "shield"
+      "skills": [
+        {
+          "choose": {
+            "from": [
+              "arcana",
+              "history",
+              "investigation",
+              "medicine",
+              "nature",
+              "perception",
+              "sleight of hand"
+            ],
+            "count": 2
+          }
+        }
       ],
       "weapons": [
         "simple",
@@ -614,20 +639,16 @@
           "anyArtisansTool": 1
         }
       ],
-      "skills": [
+      "armor": [
+        "light",
+        "medium",
+        "shield"
+      ],
+      "armorProficiencies": [
         {
-          "choose": {
-            "from": [
-              "arcana",
-              "history",
-              "investigation",
-              "medicine",
-              "nature",
-              "perception",
-              "sleight of hand"
-            ],
-            "count": 2
-          }
+          "light": true,
+          "medium": true,
+          "shield": true
         }
       ]
     },
@@ -676,11 +697,6 @@
         "int": 13
       },
       "proficienciesGained": {
-        "armor": [
-          "light",
-          "medium",
-          "shield"
-        ],
         "tools": [
           "{@item thieves' tools|PHB}",
           "{@item tinker's tools|PHB}"
@@ -689,6 +705,18 @@
           {
             "thieves' tools": true,
             "tinker's tools": true
+          }
+        ],
+        "armor": [
+          "light",
+          "medium",
+          "shield"
+        ],
+        "armorProficiencies": [
+          {
+            "light": true,
+            "medium": true,
+            "shield": true
           }
         ]
       }
@@ -1013,15 +1041,6 @@
       "con"
     ],
     "startingProficiencies": {
-      "armor": [
-        "light",
-        "medium",
-        "shield"
-      ],
-      "weapons": [
-        "simple",
-        "martial"
-      ],
       "skills": [
         {
           "choose": {
@@ -1035,6 +1054,22 @@
             ],
             "count": 2
           }
+        }
+      ],
+      "weapons": [
+        "simple",
+        "martial"
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "shield"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true,
+          "medium": true,
+          "shield": true
         }
       ]
     },
@@ -1086,12 +1121,17 @@
         "str": 13
       },
       "proficienciesGained": {
-        "armor": [
-          "shield"
-        ],
         "weapons": [
           "simple",
           "martial"
+        ],
+        "armor": [
+          "shield"
+        ],
+        "armorProficiencies": [
+          {
+            "shield": true
+          }
         ]
       }
     },
@@ -1320,15 +1360,6 @@
       }
     ],
     "startingProficiencies": {
-      "armor": [
-        "light",
-        "medium",
-        "shield"
-      ],
-      "weapons": [
-        "simple",
-        "martial"
-      ],
       "skills": [
         {
           "choose": {
@@ -1342,6 +1373,22 @@
             ],
             "count": 2
           }
+        }
+      ],
+      "weapons": [
+        "simple",
+        "martial"
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "shield"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true,
+          "medium": true,
+          "shield": true
         }
       ]
     },
@@ -1377,11 +1424,16 @@
     },
     "multiclassing": {
       "proficienciesGained": {
+        "weapons": [
+          "martial"
+        ],
         "armor": [
           "shield"
         ],
-        "weapons": [
-          "martial"
+        "armorProficiencies": [
+          {
+            "shield": true
+          }
         ]
       }
     },
@@ -1695,8 +1747,10 @@
       }
     ],
     "startingProficiencies": {
-      "armor": [
-        "light"
+      "skills": [
+        {
+          "any": 3
+        }
       ],
       "weapons": [
         "simple",
@@ -1713,9 +1767,12 @@
           "anyMusicalInstrument": 3
         }
       ],
-      "skills": [
+      "armor": [
+        "light"
+      ],
+      "armorProficiencies": [
         {
-          "any": 3
+          "light": true
         }
       ]
     },
@@ -1773,9 +1830,6 @@
         "cha": 13
       },
       "proficienciesGained": {
-        "armor": [
-          "light"
-        ],
         "skills": [
           {
             "choose": {
@@ -1809,6 +1863,14 @@
         "toolProficiencies": [
           {
             "anyMusicalInstrument": 1
+          }
+        ],
+        "armor": [
+          "light"
+        ],
+        "armorProficiencies": [
+          {
+            "light": true
           }
         ]
       }
@@ -2298,8 +2360,10 @@
       }
     ],
     "startingProficiencies": {
-      "armor": [
-        "light"
+      "skills": [
+        {
+          "any": 3
+        }
       ],
       "weapons": [
         "simple"
@@ -2312,9 +2376,12 @@
           "anyMusicalInstrument": 3
         }
       ],
-      "skills": [
+      "armor": [
+        "light"
+      ],
+      "armorProficiencies": [
         {
-          "any": 3
+          "light": true
         }
       ]
     },
@@ -2353,17 +2420,6 @@
     },
     "multiclassing": {
       "proficienciesGained": {
-        "armor": [
-          "light"
-        ],
-        "tools": [
-          "Choose one {@item Musical Instrument|XPHB}"
-        ],
-        "toolProficiencies": [
-          {
-            "anyMusicalInstrument": 1
-          }
-        ],
         "skills": [
           {
             "choose": {
@@ -2389,6 +2445,22 @@
               ],
               "count": 1
             }
+          }
+        ],
+        "tools": [
+          "Choose one {@item Musical Instrument|XPHB}"
+        ],
+        "toolProficiencies": [
+          {
+            "anyMusicalInstrument": 1
+          }
+        ],
+        "armor": [
+          "light"
+        ],
+        "armorProficiencies": [
+          {
+            "light": true
           }
         ]
       }
@@ -2998,14 +3070,6 @@
       5
     ],
     "startingProficiencies": {
-      "armor": [
-        "light",
-        "medium",
-        "shield"
-      ],
-      "weapons": [
-        "simple"
-      ],
       "skills": [
         {
           "choose": {
@@ -3018,6 +3082,21 @@
             ],
             "count": 2
           }
+        }
+      ],
+      "weapons": [
+        "simple"
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "shield"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true,
+          "medium": true,
+          "shield": true
         }
       ]
     },
@@ -3089,6 +3168,13 @@
           "light",
           "medium",
           "shield"
+        ],
+        "armorProficiencies": [
+          {
+            "light": true,
+            "medium": true,
+            "shield": true
+          }
         ]
       }
     },
@@ -3529,14 +3615,6 @@
       }
     ],
     "startingProficiencies": {
-      "armor": [
-        "light",
-        "medium",
-        "shield"
-      ],
-      "weapons": [
-        "simple"
-      ],
       "skills": [
         {
           "choose": {
@@ -3549,6 +3627,21 @@
             ],
             "count": 2
           }
+        }
+      ],
+      "weapons": [
+        "simple"
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "shield"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true,
+          "medium": true,
+          "shield": true
         }
       ]
     },
@@ -3593,6 +3686,13 @@
           "light",
           "medium",
           "shield"
+        ],
+        "armorProficiencies": [
+          {
+            "light": true,
+            "medium": true,
+            "shield": true
+          }
         ]
       }
     },
@@ -4018,12 +4118,21 @@
       4
     ],
     "startingProficiencies": {
-      "armor": [
-        "light",
-        "medium",
+      "skills": [
         {
-          "proficiency": "shield",
-          "full": "shields (druids will not wear armor or use shields made of metal)"
+          "choose": {
+            "from": [
+              "arcana",
+              "animal handling",
+              "insight",
+              "medicine",
+              "nature",
+              "perception",
+              "religion",
+              "survival"
+            ],
+            "count": 2
+          }
         }
       ],
       "weapons": [
@@ -4046,21 +4155,19 @@
           "herbalism kit": true
         }
       ],
-      "skills": [
+      "armor": [
+        "light",
+        "medium",
         {
-          "choose": {
-            "from": [
-              "arcana",
-              "animal handling",
-              "insight",
-              "medicine",
-              "nature",
-              "perception",
-              "religion",
-              "survival"
-            ],
-            "count": 2
-          }
+          "proficiency": "shield",
+          "full": "shields (druids will not wear armor or use shields made of metal)"
+        }
+      ],
+      "armorProficiencies": [
+        {
+          "light": true,
+          "medium": true,
+          "shield": true
         }
       ]
     },
@@ -4115,6 +4222,13 @@
           {
             "proficiency": "shield",
             "full": "shields (druids will not wear armor or use shields made of metal)"
+          }
+        ],
+        "armorProficiencies": [
+          {
+            "light": true,
+            "medium": true,
+            "shield": true
           }
         ]
       }
@@ -4552,21 +4666,6 @@
       }
     ],
     "startingProficiencies": {
-      "armor": [
-        "light",
-        "shield"
-      ],
-      "weapons": [
-        "simple"
-      ],
-      "tools": [
-        "{@item Herbalism Kit|XPHB}"
-      ],
-      "toolProficiencies": [
-        {
-          "herbalism kit": true
-        }
-      ],
       "skills": [
         {
           "choose": {
@@ -4582,6 +4681,27 @@
             ],
             "count": 2
           }
+        }
+      ],
+      "weapons": [
+        "simple"
+      ],
+      "tools": [
+        "{@item Herbalism Kit|XPHB}"
+      ],
+      "toolProficiencies": [
+        {
+          "herbalism kit": true
+        }
+      ],
+      "armor": [
+        "light",
+        "shield"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true,
+          "shield": true
         }
       ]
     },
@@ -4628,6 +4748,12 @@
         "armor": [
           "light",
           "shield"
+        ],
+        "armorProficiencies": [
+          {
+            "light": true,
+            "shield": true
+          }
         ]
       }
     },
@@ -5074,16 +5200,6 @@
       }
     ],
     "startingProficiencies": {
-      "armor": [
-        "light",
-        "medium",
-        "heavy",
-        "shield"
-      ],
-      "weapons": [
-        "simple",
-        "martial"
-      ],
       "skills": [
         {
           "choose": {
@@ -5099,6 +5215,24 @@
             ],
             "count": 2
           }
+        }
+      ],
+      "weapons": [
+        "simple",
+        "martial"
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "heavy",
+        "shield"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true,
+          "medium": true,
+          "heavy": true,
+          "shield": true
         }
       ]
     },
@@ -5168,14 +5302,21 @@
         ]
       },
       "proficienciesGained": {
+        "weapons": [
+          "simple",
+          "martial"
+        ],
         "armor": [
           "light",
           "medium",
           "shield"
         ],
-        "weapons": [
-          "simple",
-          "martial"
+        "armorProficiencies": [
+          {
+            "light": true,
+            "medium": true,
+            "shield": true
+          }
         ]
       }
     },
@@ -5267,16 +5408,6 @@
       }
     ],
     "startingProficiencies": {
-      "armor": [
-        "light",
-        "medium",
-        "heavy",
-        "shield"
-      ],
-      "weapons": [
-        "simple",
-        "martial"
-      ],
       "skills": [
         {
           "choose": {
@@ -5293,6 +5424,24 @@
             ],
             "count": 2
           }
+        }
+      ],
+      "weapons": [
+        "simple",
+        "martial"
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "heavy",
+        "shield"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true,
+          "medium": true,
+          "heavy": true,
+          "shield": true
         }
       ]
     },
@@ -5360,13 +5509,20 @@
     },
     "multiclassing": {
       "proficienciesGained": {
+        "weapons": [
+          "martial"
+        ],
         "armor": [
           "light",
           "medium",
           "shield"
         ],
-        "weapons": [
-          "martial"
+        "armorProficiencies": [
+          {
+            "light": true,
+            "medium": true,
+            "shield": true
+          }
         ]
       }
     },
@@ -5526,21 +5682,6 @@
       "dex"
     ],
     "startingProficiencies": {
-      "weapons": [
-        "simple",
-        "{@item shortsword|phb|shortswords}"
-      ],
-      "tools": [
-        "any one type of {@item artisan's tools|PHB} or any one {@item musical instrument|PHB} of your choice"
-      ],
-      "toolProficiencies": [
-        {
-          "anyArtisansTool": 1
-        },
-        {
-          "anyMusicalInstrument": 1
-        }
-      ],
       "skills": [
         {
           "choose": {
@@ -5554,6 +5695,21 @@
             ],
             "count": 2
           }
+        }
+      ],
+      "weapons": [
+        "simple",
+        "{@item shortsword|phb|shortswords}"
+      ],
+      "tools": [
+        "any one type of {@item artisan's tools|PHB} or any one {@item musical instrument|PHB} of your choice"
+      ],
+      "toolProficiencies": [
+        {
+          "anyArtisansTool": 1
+        },
+        {
+          "anyMusicalInstrument": 1
         }
       ]
     },
@@ -6039,6 +6195,21 @@
       }
     ],
     "startingProficiencies": {
+      "skills": [
+        {
+          "choose": {
+            "from": [
+              "acrobatics",
+              "athletics",
+              "history",
+              "insight",
+              "religion",
+              "stealth"
+            ],
+            "count": 2
+          }
+        }
+      ],
       "weapons": [
         "simple",
         "Martial weapons that have the {@filter Light|items|type=martial weapon|property=light} property"
@@ -6060,21 +6231,6 @@
         },
         {
           "anyMusicalInstrument": 1
-        }
-      ],
-      "skills": [
-        {
-          "choose": {
-            "from": [
-              "acrobatics",
-              "athletics",
-              "history",
-              "insight",
-              "religion",
-              "stealth"
-            ],
-            "count": 2
-          }
         }
       ]
     },
@@ -6526,12 +6682,6 @@
       "wis"
     ],
     "startingProficiencies": {
-      "armor": [
-        "light"
-      ],
-      "weapons": [
-        "simple"
-      ],
       "skills": [
         {
           "choose": {
@@ -6546,6 +6696,17 @@
             ],
             "count": 2
           }
+        }
+      ],
+      "weapons": [
+        "simple"
+      ],
+      "armor": [
+        "light"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true
         }
       ]
     },
@@ -6801,16 +6962,6 @@
       }
     ],
     "startingProficiencies": {
-      "armor": [
-        "light",
-        "medium",
-        "heavy",
-        "shield"
-      ],
-      "weapons": [
-        "simple",
-        "martial"
-      ],
       "skills": [
         {
           "choose": {
@@ -6824,6 +6975,24 @@
             ],
             "count": 2
           }
+        }
+      ],
+      "weapons": [
+        "simple",
+        "martial"
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "heavy",
+        "shield"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true,
+          "medium": true,
+          "heavy": true,
+          "shield": true
         }
       ]
     },
@@ -6888,14 +7057,21 @@
         "cha": 13
       },
       "proficienciesGained": {
+        "weapons": [
+          "simple",
+          "martial"
+        ],
         "armor": [
           "light",
           "medium",
           "shield"
         ],
-        "weapons": [
-          "simple",
-          "martial"
+        "armorProficiencies": [
+          {
+            "light": true,
+            "medium": true,
+            "shield": true
+          }
         ]
       }
     },
@@ -7174,16 +7350,6 @@
       }
     ],
     "startingProficiencies": {
-      "armor": [
-        "light",
-        "medium",
-        "heavy",
-        "shield"
-      ],
-      "weapons": [
-        "simple",
-        "martial"
-      ],
       "skills": [
         {
           "choose": {
@@ -7197,6 +7363,24 @@
             ],
             "count": 2
           }
+        }
+      ],
+      "weapons": [
+        "simple",
+        "martial"
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "heavy",
+        "shield"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true,
+          "medium": true,
+          "heavy": true,
+          "shield": true
         }
       ]
     },
@@ -7241,13 +7425,20 @@
     },
     "multiclassing": {
       "proficienciesGained": {
+        "weapons": [
+          "martial"
+        ],
         "armor": [
           "light",
           "medium",
           "shield"
         ],
-        "weapons": [
-          "martial"
+        "armorProficiencies": [
+          {
+            "light": true,
+            "medium": true,
+            "shield": true
+          }
         ]
       }
     },
@@ -7587,15 +7778,6 @@
       }
     ],
     "startingProficiencies": {
-      "armor": [
-        "light",
-        "medium",
-        "shield"
-      ],
-      "weapons": [
-        "simple",
-        "martial"
-      ],
       "skills": [
         {
           "choose": {
@@ -7611,6 +7793,22 @@
             ],
             "count": 3
           }
+        }
+      ],
+      "weapons": [
+        "simple",
+        "martial"
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "shield"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true,
+          "medium": true,
+          "shield": true
         }
       ]
     },
@@ -7668,11 +7866,6 @@
         "wis": 13
       },
       "proficienciesGained": {
-        "armor": [
-          "light",
-          "medium",
-          "shield"
-        ],
         "skills": [
           {
             "choose": {
@@ -7693,6 +7886,18 @@
         "weapons": [
           "simple",
           "martial"
+        ],
+        "armor": [
+          "light",
+          "medium",
+          "shield"
+        ],
+        "armorProficiencies": [
+          {
+            "light": true,
+            "medium": true,
+            "shield": true
+          }
         ]
       }
     },
@@ -8043,15 +8248,6 @@
       }
     ],
     "startingProficiencies": {
-      "armor": [
-        "light",
-        "medium",
-        "shield"
-      ],
-      "weapons": [
-        "simple",
-        "martial"
-      ],
       "skills": [
         {
           "choose": {
@@ -8067,6 +8263,22 @@
             ],
             "count": 3
           }
+        }
+      ],
+      "weapons": [
+        "simple",
+        "martial"
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "shield"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true,
+          "medium": true,
+          "shield": true
         }
       ]
     },
@@ -8116,14 +8328,6 @@
     },
     "multiclassing": {
       "proficienciesGained": {
-        "weapons": [
-          "martial"
-        ],
-        "armor": [
-          "light",
-          "medium",
-          "shield"
-        ],
         "skills": [
           {
             "choose": {
@@ -8139,6 +8343,21 @@
               ],
               "count": 1
             }
+          }
+        ],
+        "weapons": [
+          "martial"
+        ],
+        "armor": [
+          "light",
+          "medium",
+          "shield"
+        ],
+        "armorProficiencies": [
+          {
+            "light": true,
+            "medium": true,
+            "shield": true
           }
         ]
       }
@@ -8491,24 +8710,6 @@
       "int"
     ],
     "startingProficiencies": {
-      "armor": [
-        "light"
-      ],
-      "weapons": [
-        "simple",
-        "{@item hand crossbow|phb|hand crossbows}",
-        "{@item longsword|phb|longswords}",
-        "{@item rapier|phb|rapiers}",
-        "{@item shortsword|phb|shortswords}"
-      ],
-      "tools": [
-        "{@item thieves' tools|PHB}"
-      ],
-      "toolProficiencies": [
-        {
-          "thieves' tools": true
-        }
-      ],
       "skills": [
         {
           "choose": {
@@ -8527,6 +8728,29 @@
             ],
             "count": 4
           }
+        }
+      ],
+      "weapons": [
+        "simple",
+        "{@item hand crossbow|phb|hand crossbows}",
+        "{@item longsword|phb|longswords}",
+        "{@item rapier|phb|rapiers}",
+        "{@item shortsword|phb|shortswords}"
+      ],
+      "tools": [
+        "{@item thieves' tools|PHB}"
+      ],
+      "toolProficiencies": [
+        {
+          "thieves' tools": true
+        }
+      ],
+      "armor": [
+        "light"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true
         }
       ]
     },
@@ -8585,9 +8809,6 @@
         "dex": 13
       },
       "proficienciesGained": {
-        "armor": [
-          "light"
-        ],
         "skills": [
           {
             "choose": {
@@ -8614,6 +8835,14 @@
         "toolProficiencies": [
           {
             "thieves' tools": true
+          }
+        ],
+        "armor": [
+          "light"
+        ],
+        "armorProficiencies": [
+          {
+            "light": true
           }
         ]
       }
@@ -8940,8 +9169,24 @@
       }
     ],
     "startingProficiencies": {
-      "armor": [
-        "light"
+      "skills": [
+        {
+          "choose": {
+            "from": [
+              "acrobatics",
+              "athletics",
+              "deception",
+              "insight",
+              "intimidation",
+              "investigation",
+              "perception",
+              "persuasion",
+              "sleight of hand",
+              "stealth"
+            ],
+            "count": 4
+          }
+        }
       ],
       "weapons": [
         "simple",
@@ -8963,23 +9208,12 @@
           "thieves' tools": true
         }
       ],
-      "skills": [
+      "armor": [
+        "light"
+      ],
+      "armorProficiencies": [
         {
-          "choose": {
-            "from": [
-              "acrobatics",
-              "athletics",
-              "deception",
-              "insight",
-              "intimidation",
-              "investigation",
-              "perception",
-              "persuasion",
-              "sleight of hand",
-              "stealth"
-            ],
-            "count": 4
-          }
+          "light": true
         }
       ]
     },
@@ -9030,17 +9264,6 @@
     },
     "multiclassing": {
       "proficienciesGained": {
-        "armor": [
-          "light"
-        ],
-        "tools": [
-          "{@item Thieves' Tools|XPHB}"
-        ],
-        "toolProficiencies": [
-          {
-            "thieves' tools": true
-          }
-        ],
         "skills": [
           {
             "choose": {
@@ -9058,6 +9281,22 @@
               ],
               "count": 1
             }
+          }
+        ],
+        "tools": [
+          "{@item Thieves' Tools|XPHB}"
+        ],
+        "toolProficiencies": [
+          {
+            "thieves' tools": true
+          }
+        ],
+        "armor": [
+          "light"
+        ],
+        "armorProficiencies": [
+          {
+            "light": true
           }
         ]
       }
@@ -9432,13 +9671,6 @@
       }
     ],
     "startingProficiencies": {
-      "weapons": [
-        "{@item dagger|phb|daggers}",
-        "{@item dart|phb|darts}",
-        "{@item sling|phb|slings}",
-        "{@item quarterstaff|phb|quarterstaffs}",
-        "{@item light crossbow|phb|light crossbows}"
-      ],
       "skills": [
         {
           "choose": {
@@ -9453,6 +9685,13 @@
             "count": 2
           }
         }
+      ],
+      "weapons": [
+        "{@item dagger|phb|daggers}",
+        "{@item dart|phb|darts}",
+        "{@item sling|phb|slings}",
+        "{@item quarterstaff|phb|quarterstaffs}",
+        "{@item light crossbow|phb|light crossbows}"
       ]
     },
     "startingEquipment": {
@@ -10030,9 +10269,6 @@
       }
     ],
     "startingProficiencies": {
-      "weapons": [
-        "simple"
-      ],
       "skills": [
         {
           "choose": {
@@ -10047,6 +10283,9 @@
             "count": 2
           }
         }
+      ],
+      "weapons": [
+        "simple"
       ]
     },
     "startingEquipment": {
@@ -10985,12 +11224,6 @@
       }
     ],
     "startingProficiencies": {
-      "armor": [
-        "light"
-      ],
-      "weapons": [
-        "simple"
-      ],
       "skills": [
         {
           "choose": {
@@ -11005,6 +11238,17 @@
             ],
             "count": 2
           }
+        }
+      ],
+      "weapons": [
+        "simple"
+      ],
+      "armor": [
+        "light"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true
         }
       ]
     },
@@ -11066,11 +11310,16 @@
         "cha": 13
       },
       "proficienciesGained": {
+        "weapons": [
+          "simple"
+        ],
         "armor": [
           "light"
         ],
-        "weapons": [
-          "simple"
+        "armorProficiencies": [
+          {
+            "light": true
+          }
         ]
       }
     },
@@ -11395,12 +11644,6 @@
       }
     ],
     "startingProficiencies": {
-      "armor": [
-        "light"
-      ],
-      "weapons": [
-        "simple"
-      ],
       "skills": [
         {
           "choose": {
@@ -11415,6 +11658,17 @@
             ],
             "count": 2
           }
+        }
+      ],
+      "weapons": [
+        "simple"
+      ],
+      "armor": [
+        "light"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true
         }
       ]
     },
@@ -11461,6 +11715,11 @@
       "proficienciesGained": {
         "armor": [
           "light"
+        ],
+        "armorProficiencies": [
+          {
+            "light": true
+          }
         ]
       }
     },
@@ -11750,13 +12009,6 @@
     ],
     "spellsKnownProgressionFixedAllowLowerLevel": true,
     "startingProficiencies": {
-      "weapons": [
-        "{@item dagger|phb|daggers}",
-        "{@item dart|phb|darts}",
-        "{@item sling|phb|slings}",
-        "{@item quarterstaff|phb|quarterstaffs}",
-        "{@item light crossbow|phb|light crossbows}"
-      ],
       "skills": [
         {
           "choose": {
@@ -11771,6 +12023,13 @@
             "count": 2
           }
         }
+      ],
+      "weapons": [
+        "{@item dagger|phb|daggers}",
+        "{@item dart|phb|darts}",
+        "{@item sling|phb|slings}",
+        "{@item quarterstaff|phb|quarterstaffs}",
+        "{@item light crossbow|phb|light crossbows}"
       ]
     },
     "startingEquipment": {
@@ -12260,9 +12519,6 @@
       }
     ],
     "startingProficiencies": {
-      "weapons": [
-        "simple"
-      ],
       "skills": [
         {
           "choose": {
@@ -12278,6 +12534,9 @@
             "count": 2
           }
         }
+      ],
+      "weapons": [
+        "simple"
       ]
     },
     "startingEquipment": {
