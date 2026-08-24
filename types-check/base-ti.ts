@@ -44,91 +44,6 @@ export const ReprintedAs = t.union("string", t.iface([], {
   "tag": "string",
 }));
 
-export const Entry = t.union("string", "EntryEntries", "EntryItem", "EntrySection", "EntryInset", "EntryTable", "EntryList", "EntryQuote");
-
-export const EntryEntries = t.iface([], {
-  "type": t.lit('entries'),
-  "name": t.opt("string"),
-  "page": t.opt("number"),
-  "entries": t.array("Entry"),
-  "data": t.opt("any"),
-});
-
-export const EntryItem = t.iface([], {
-  "type": t.lit('item'),
-  "name": t.opt("string"),
-  "entries": t.opt(t.array("Entry")),
-  "entry": t.opt("Entry"),
-});
-
-export const EntrySection = t.iface([], {
-  "type": t.lit('section'),
-  "id": t.opt("string"),
-  "name": t.opt("string"),
-  "entries": t.array("Entry"),
-});
-
-export const EntryInset = t.iface([], {
-  "type": t.lit('inset'),
-  "source": t.opt("string"),
-  "page": t.opt("number"),
-  "name": "string",
-  "entries": t.array("Entry"),
-});
-
-export const EntryTableGroup = t.iface([], {
-  "type": t.lit('tableGroup'),
-  "name": "string",
-  "caption": t.opt("string"),
-  "tables": t.array("EntryTable"),
-});
-
-export const EntryTable = t.iface([], {
-  "type": t.lit('table'),
-  "caption": t.opt("string"),
-  "colLabels": t.opt(t.array("string")),
-  "colLabelRows": t.opt(t.array("ColLabelRow")),
-  "colStyles": t.array("string"),
-  "rows": t.array(t.array(t.union("Entry", "Cell", "number"))),
-  "footnote": t.opt("string"),
-  "footnotes": t.opt(t.array("string")),
-  "data": t.opt("any"),
-});
-
-export const ColLabelRow = t.array(t.union("string", t.iface([], {
-  "entry": "string",
-  "width": "number",
-})));
-
-export const Cell = t.iface([], {
-  "type": t.lit('cell'),
-  "roll": t.union(t.iface([], {
-    "exact": "number",
-  }), t.iface([], {
-    "min": "number",
-    "max": "number",
-    "pad": t.opt("boolean"),
-  })),
-  "entry": t.opt("Entry"),
-});
-
-export const EntryList = t.iface([], {
-  "type": t.lit('list'),
-  "style": t.opt("string"),
-  "columns": t.opt("number"),
-  "items": t.array("Entry"),
-});
-
-export const EntryQuote = t.iface([], {
-  "type": t.lit('quote'),
-  "entries": t.array("Entry"),
-  "by": t.opt("string"),
-});
-
-export const SingleEntry = t.iface([], {
-  "entry": "string",
-});
-
 export const Prerequisite = t.iface([], {
   "ability": t.opt(t.array(t.iface([], {
     "str": t.opt("number"),
@@ -190,14 +105,15 @@ export const MaterialComponent = t.union("string", t.iface([], {
 }));
 
 export const ImageRef = t.iface([], {
-  "type": "string",
+  "type": t.lit('image'),
   "href": t.iface([], {
-    "type": "string",
+    "type": t.union(t.lit('internal'), t.lit('external')),
     "path": "string",
   }),
-  "credit": "string",
-  "width": "number",
-  "height": "number",
+  "title": t.opt("string"),
+  "credit": t.opt("string"),
+  "width": t.opt("number"),
+  "height": t.opt("number"),
 });
 
 export const SkillProficiency = t.iface([], {
@@ -501,18 +417,6 @@ const exportedTypeSuite: t.ITypeSuite = {
   SRD,
   Unit,
   ReprintedAs,
-  Entry,
-  EntryEntries,
-  EntryItem,
-  EntrySection,
-  EntryInset,
-  EntryTableGroup,
-  EntryTable,
-  ColLabelRow,
-  Cell,
-  EntryList,
-  EntryQuote,
-  SingleEntry,
   Prerequisite,
   Rarity,
   SpellComponents,
