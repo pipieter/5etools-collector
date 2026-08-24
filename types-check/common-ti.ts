@@ -4,9 +4,29 @@
 import * as t from "ts-interface-checker";
 // tslint:disable:object-literal-key-quotes
 
+export const Base = t.iface([], {
+  "name": "string",
+  "source": "string",
+  "page": t.opt("number"),
+  "alias": t.opt(t.array("string")),
+  "reprintedAs": t.opt(t.array("ReprintedAs")),
+  "hasFluffImages": t.opt("boolean"),
+  "hasFluff": t.opt("boolean"),
+  "hasRefs": t.opt("boolean"),
+  "referenceSources": t.opt(t.array("Source")),
+  "otherSources": t.opt(t.array("Source")),
+  "additionalSources": t.opt(t.array("Source")),
+  "_copy": t.opt("any"),
+});
+
+export const Source = t.union("string", t.iface([], {
+  "source": "string",
+  "page": t.opt("number"),
+}));
+
 export const SRD = t.iface([], {
-  "srd": t.opt("boolean"),
-  "srd52": t.opt("boolean"),
+  "srd": t.opt(t.union("boolean", "string")),
+  "srd52": t.opt(t.union("boolean", "string")),
   "basicRules": t.opt("boolean"),
   "basicRules2024": t.opt("boolean"),
 });
@@ -28,13 +48,15 @@ export const Entry = t.union("string", "EntryEntries", "EntryItem", "EntrySectio
 export const EntryEntries = t.iface([], {
   "type": t.lit('entries'),
   "name": t.opt("string"),
+  "page": t.opt("number"),
   "entries": t.array("Entry"),
 });
 
 export const EntryItem = t.iface([], {
   "type": t.lit('item'),
   "name": t.opt("string"),
-  "entries": t.array("Entry"),
+  "entries": t.opt(t.array("Entry")),
+  "entry": t.opt("Entry"),
 });
 
 export const EntrySection = t.iface([], {
@@ -45,6 +67,8 @@ export const EntrySection = t.iface([], {
 
 export const EntryInset = t.iface([], {
   "type": t.lit('inset'),
+  "source": t.opt("string"),
+  "page": t.opt("number"),
   "name": "string",
   "entries": t.array("Entry"),
 });
@@ -64,6 +88,8 @@ export const EntryTable = t.iface([], {
   "colStyles": t.array("string"),
   "rows": t.array(t.array(t.union("Entry", "Cell"))),
   "footnote": t.opt("string"),
+  "footnotes": t.opt(t.array("string")),
+  "data": t.opt("any"),
 });
 
 export const ColLabelRow = t.array(t.union("string", t.iface([], {
@@ -78,12 +104,15 @@ export const Cell = t.iface([], {
   }), t.iface([], {
     "min": "number",
     "max": "number",
+    "pad": t.opt("boolean"),
   })),
+  "entry": t.opt("Entry"),
 });
 
 export const EntryList = t.iface([], {
   "type": t.lit('list'),
   "style": t.opt("string"),
+  "columns": t.opt("number"),
   "items": t.array("Entry"),
 });
 
@@ -98,7 +127,7 @@ export const SingleEntry = t.iface([], {
 });
 
 export const Prerequisite = t.iface([], {
-  "ability": t.opt(t.tuple(t.iface([], {
+  "ability": t.opt(t.array(t.iface([], {
     "str": t.opt("number"),
     "dex": t.opt("number"),
     "con": t.opt("number"),
@@ -106,14 +135,20 @@ export const Prerequisite = t.iface([], {
     "wis": t.opt("number"),
     "cha": t.opt("number"),
   }))),
+  "background": t.opt(t.array(t.iface([], {
+    "name": "string",
+    "displayEntry": t.opt("string"),
+  }))),
   "campaign": t.opt(t.array("string")),
   "exclusiveFeatCategory": t.opt(t.array("string")),
   "feat": t.opt(t.array("string")),
+  "featCategory": t.opt(t.array("string")),
   "feature": t.opt(t.array("string")),
   "level": t.opt(t.union("number", t.iface([], {
     "level": "number",
     "class": t.iface([], {
       "name": "string",
+      "visible": t.opt("boolean"),
     }),
   }))),
   "other": t.opt("string"),
@@ -121,10 +156,18 @@ export const Prerequisite = t.iface([], {
     "entry": "string",
     "entrySummary": "string",
   })),
+  "proficiency": t.opt(t.array(t.iface([], {
+    "weapon": t.opt("string"),
+    "armor": t.opt("string"),
+    "weaponGroup": t.opt("string"),
+  }))),
+  "spellcasting": t.opt("boolean"),
   "spellcasting2020": t.opt("boolean"),
   "spellcastingFeature": t.opt("boolean"),
   "race": t.opt(t.array(t.iface([], {
     "name": "string",
+    "subrace": t.opt("string"),
+    "displayEntry": t.opt("string"),
   }))),
 });
 
@@ -134,6 +177,7 @@ export const SpellComponents = t.iface([], {
   "v": t.opt("boolean"),
   "s": t.opt("boolean"),
   "m": t.opt("MaterialComponent"),
+  "r": t.opt("boolean"),
 });
 
 export const MaterialComponent = t.union("string", t.iface([], {
@@ -153,7 +197,201 @@ export const ImageRef = t.iface([], {
   "height": "number",
 });
 
+export const SkillProficiency = t.iface([], {
+  "acrobatics": t.opt("boolean"),
+  "athletics": t.opt("boolean"),
+  "arcana": t.opt("boolean"),
+  "animal handling": t.opt("boolean"),
+  "deception": t.opt("boolean"),
+  "history": t.opt("boolean"),
+  "insight": t.opt("boolean"),
+  "intimidation": t.opt("boolean"),
+  "investigation": t.opt("boolean"),
+  "medicine": t.opt("boolean"),
+  "nature": t.opt("boolean"),
+  "perception": t.opt("boolean"),
+  "performance": t.opt("boolean"),
+  "persuasion": t.opt("boolean"),
+  "religion": t.opt("boolean"),
+  "sleight of hand": t.opt("boolean"),
+  "stealth": t.opt("boolean"),
+  "survival": t.opt("boolean"),
+  "any": t.opt("number"),
+  "anyProficientSkill": t.opt("number"),
+  "choose": t.opt("Choose"),
+});
+
+export const SavingThrowProficiency = t.iface([], {
+  "choose": t.opt("Choose"),
+});
+
+export const ToolProficiency = t.iface([], {
+  "cook's utensils": t.opt("boolean"),
+  "poisoner's kit": t.opt("boolean"),
+  "any": t.opt("number"),
+  "anyArtisansTool": t.opt("number"),
+  "anyMusicalInstrument": t.opt("number"),
+  "choose": t.opt("Choose"),
+});
+
+export const LanguageProficiency = t.iface([], {
+  "draconic": t.opt("boolean"),
+  "sylvan": t.opt("boolean"),
+  "thieves' cant": t.opt("boolean"),
+  "any": t.opt("number"),
+});
+
+export const SkillToolLanguageProficiency = t.iface([], {
+  "choose": t.opt(t.array("Choose")),
+});
+
+export const WeaponProficiency = t.iface([], {
+  "firearms": t.opt("boolean"),
+  "simple": t.opt("boolean"),
+  "martial": t.opt("boolean"),
+  "improvised": t.opt("boolean"),
+  "choose": t.opt("Choose"),
+});
+
+export const ArmorProficiency = t.iface([], {
+  "light": t.opt("boolean"),
+  "medium": t.opt("boolean"),
+  "heavy": t.opt("boolean"),
+  "shield": t.opt("boolean"),
+});
+
+export const Ability = t.iface([], {
+  "str": t.opt("number"),
+  "dex": t.opt("number"),
+  "con": t.opt("number"),
+  "int": t.opt("number"),
+  "wis": t.opt("number"),
+  "cha": t.opt("number"),
+  "choose": t.opt(t.union("Choose", t.array("Choose"))),
+  "hidden": t.opt("boolean"),
+  "max": t.opt("number"),
+});
+
+export const Resist = t.union("string", t.iface([], {
+  "choose": t.opt("Choose"),
+}));
+
+export const Choose = t.iface([], {
+  "from": t.opt(t.array("string")),
+  "fromFilter": t.opt("string"),
+  "count": t.opt("number"),
+  "amount": t.opt("number"),
+  "max": t.opt("number"),
+  "entry": t.opt("string"),
+});
+
+export const Sense = t.iface([], {
+  "blindsight": t.opt("number"),
+  "truesight": t.opt("number"),
+  "darkvision": t.opt("number"),
+});
+
+export const AdditionalSpell = t.name("any");
+
+export const FeatureProgression = t.iface([], {
+  "name": "string",
+  "featureType": t.array("string"),
+  "progression": "any",
+});
+
+export const Light = t.iface([], {
+  "bright": t.opt("number"),
+  "dim": t.opt("number"),
+  "shape": t.opt("string"),
+});
+
+export const SetAbility = t.iface([], {
+  "static": t.iface([], {
+    "str": t.opt("number"),
+    "dex": t.opt("number"),
+    "con": t.opt("number"),
+    "int": t.opt("number"),
+    "wis": t.opt("number"),
+    "cha": t.opt("number"),
+  }),
+});
+
+export const ReqAttuneTag = t.iface([], {
+  "alignment": t.opt(t.array("string")),
+  "background": t.opt("string"),
+  "class": t.opt("string"),
+  "creatureType": t.opt("string"),
+  "languageProficiency": t.opt("string"),
+  "psionics": t.opt("boolean"),
+  "race": t.opt("string"),
+  "size": t.opt("string"),
+  "skillProficiency": t.opt("string"),
+  "spellcasting": t.opt("boolean"),
+  "str": t.opt("number"),
+  "dex": t.opt("number"),
+  "con": t.opt("number"),
+  "int": t.opt("number"),
+  "wis": t.opt("number"),
+  "cha": t.opt("number"),
+});
+
+export const Mastery = t.union("string", t.iface([], {
+  "uid": "string",
+  "note": "string",
+}));
+
+export const Duration = t.iface([], {
+  "type": t.union(t.lit('instant'), t.lit('timed'), t.lit('permanent'), t.lit('special')),
+  "duration": t.opt(t.iface([], {
+    "type": t.union(t.lit('round'), t.lit('hour'), t.lit('minute'), t.lit('day')),
+    "amount": "number",
+    "upTo": t.opt("boolean"),
+  })),
+  "concentration": t.opt("boolean"),
+  "ends": t.opt(t.array("string")),
+});
+
+export const RangeType = t.union(t.lit('special'), t.lit('point'), t.lit('emanation'), t.lit('line'), t.lit('cone'), t.lit('radius'), t.lit('sphere'), t.lit('cylinder'), t.lit('cube'), t.lit('hemisphere'));
+
+export const Range = t.iface([], {
+  "type": "RangeType",
+  "distance": t.opt(t.iface([], {
+    "type": t.union(t.lit('feet'), t.lit('self'), t.lit('touch'), t.lit('miles'), t.lit('sight'), t.lit('unlimited')),
+    "amount": t.opt("number"),
+  })),
+});
+
+export const Scaling = t.iface([], {
+  "1": t.opt("string"),
+  "2": t.opt("string"),
+  "3": t.opt("string"),
+  "4": t.opt("string"),
+  "5": t.opt("string"),
+  "6": t.opt("string"),
+  "7": t.opt("string"),
+  "8": t.opt("string"),
+  "9": t.opt("string"),
+  "10": t.opt("string"),
+  "11": t.opt("string"),
+  "12": t.opt("string"),
+  "13": t.opt("string"),
+  "14": t.opt("string"),
+  "15": t.opt("string"),
+  "16": t.opt("string"),
+  "17": t.opt("string"),
+  "18": t.opt("string"),
+  "19": t.opt("string"),
+  "20": t.opt("string"),
+});
+
+export const ScalingLevelDice = t.iface([], {
+  "label": t.opt("string"),
+  "scaling": "Scaling",
+});
+
 const exportedTypeSuite: t.ITypeSuite = {
+  Base,
+  Source,
   SRD,
   Unit,
   ReprintedAs,
@@ -174,5 +412,27 @@ const exportedTypeSuite: t.ITypeSuite = {
   SpellComponents,
   MaterialComponent,
   ImageRef,
+  SkillProficiency,
+  SavingThrowProficiency,
+  ToolProficiency,
+  LanguageProficiency,
+  SkillToolLanguageProficiency,
+  WeaponProficiency,
+  ArmorProficiency,
+  Ability,
+  Resist,
+  Choose,
+  Sense,
+  AdditionalSpell,
+  FeatureProgression,
+  Light,
+  SetAbility,
+  ReqAttuneTag,
+  Mastery,
+  Duration,
+  RangeType,
+  Range,
+  Scaling,
+  ScalingLevelDice,
 };
 export default exportedTypeSuite;
