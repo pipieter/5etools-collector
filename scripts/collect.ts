@@ -134,6 +134,7 @@ function official() {
   write('./data/official', 'cults.json', collector.get('cult'));
   write('./data/official', 'deities.json', collector.get('deity'));
   write('./data/official', 'feats.json', collector.get('feat'));
+  write('./data/official', 'hazards.json', collector.get('hazard'));
   write('./data/official', 'items.json', collector.get('item'));
   write('./data/official', 'items-base.json', collector.get('baseitem'));
   write('./data/official', 'item-masteries.json', collector.get('itemMastery'));
