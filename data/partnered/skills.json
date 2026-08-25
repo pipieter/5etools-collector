@@ -1,0 +1,298 @@
+[
+  {
+    "name": "Computers",
+    "source": "NeonOdyssey",
+    "ability": "int",
+    "entries": [
+      "The Computers skill governs knowledge, use, and creation of software to run on computers or other electronic devices. Use Computers for tasks relating to manipulating software or operating systems. Some tasks involving the Computers skill require a {@action Utilize|XPHB} action, but many are more involved and take more time to perform.",
+      {
+        "type": "entries",
+        "name": "Research",
+        "entries": [
+          "Using computer databases or Hypergrid browsers for a simple, public information search doesn't require an ability check. Such searches usually only require a {@action Utilize|XPHB} action, but more protected information takes longer to locate, as shown in the Computer Research table. At the end of that time, the character locates the desired Information with a successful Intelligence (Computers or {@skill Investigation|XPHB}) check using access to an appropriate database. The obscurity of the information sets the DC, as shown on the Computer Research table.",
+          "Information ranges from general to protected. General information is readily available and usually doesn't require an ability check. Specific information could be personal details such as a date of birth. Restricted information is more sensitive such as a home address or personal comm frequency. Protected information is the most difficult to locate, such as financial data or non-public legal records.",
+          {
+            "type": "table",
+            "caption": "Computer Research",
+            "colLabels": [
+              "Type of Information",
+              "Time",
+              "DC"
+            ],
+            "colStyles": [
+              "col-5",
+              "col-4 text-center",
+              "col-3 text-center"
+            ],
+            "rows": [
+              [
+                "General",
+                "1 minute",
+                "—"
+              ],
+              [
+                "Specific",
+                "1 hour",
+                15
+              ],
+              [
+                "Restricted",
+                "1 hour",
+                20
+              ],
+              [
+                "Protected",
+                "1 day",
+                25
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Ship Systems",
+        "entries": [
+          "Some starship or other vehicle systems operate using the crew's proficiency in the Computers skill. For example, scanning with a starship's sensors might require a Wisdom check using the ship's Wisdom score and the operator's Computers skill proficiency (see \"Vehicles\")."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cooking",
+    "source": "Arcadia11",
+    "page": 23,
+    "ability": "wis",
+    "entries": [
+      "{@b Wisdom (Cooking)} is the act of preparing, seasoning, and sautéing, baking, stewing, or otherwise turning harvested ingredients into food. Each recipe has its own DC for the Wisdom (Cooking) check required to make it based on its complexity."
+    ]
+  },
+  {
+    "name": "Data",
+    "source": "DarkMatter",
+    "ability": "int",
+    "entries": [
+      "This new skill in Dark Matter governs how well one can manipulate a technological interface and gain access to information or other functions. Your Intelligence (Data) check encompasses your knowledge of software and its exploits, more than hardware (which is covered by the Technology skill), and so will only be used when you use technology that has an interface, like a datapad, an arcane terminal, a ship's computer, or other control technology, like a door control or the computers that govern a {@item shield generator|DarkMatter} or ship weapon. If a piece of technology doesn't have an interface, an interface rig is required to interact with it. The GM should call for an Intelligence (Data) check whenever you attempt complicated operations on a data system, when you attempt to reprogram a construct, or when you attempt to hack a device.",
+      "Any sort of illegal or unauthorized access to a technological system is called Hacking and requires the use of an {@item interface rig|DarkMatter}, as well as an Intelligence (Data) check. In general, a hacking attempt requires 1 minute of work using the technology, though the GM can decide that certain tasks might take only an action. On a successful check to hack a device, you can perform operations on the system as if you had full access. On a failed check, roll a d6. On a 6, the device locks down and no further attempts can be made to hack it. More secure devices might lock on a roll of 5 or 6, or on a roll of 4 to 6, as determined by the GM. You can hack into devices to illegally access a security system, open a door, disable an alarm, or manipulate someone else's datapad to give you access to their information or bank account."
+    ]
+  },
+  {
+    "name": "Data",
+    "source": "DarkMatter24",
+    "page": 0,
+    "ability": "int",
+    "entries": [
+      "This skill governs how well one can manipulate a technological interface and gain access to information or other functions. Your Intelligence (Data) check encompasses your knowledge of software and its exploits, more than hardware (which is covered by the {@skill Technology|DarkMatter24} skill), and so will only be used when you use technology that has an interface, like a {@item Datapad|DarkMatter24}, an {@item Arcane Terminal|DarkMatter24}, or other control technology, like a door control or the computers that govern a {@item Shield Generator|DarkMatter24} or ship weapon. If a piece of technology doesn't have an interface, an {@item Interface Rig|DarkMatter24} is required to interact with it. The GM should call for an Intelligence (Data) check whenever you attempt complicated operations on a data system, when you attempt to reprogram a Construct, or when you attempt to Hack a device. See also \"{@variantrule Hacking|DarkMatter24}\"."
+    ]
+  },
+  {
+    "name": "Explore",
+    "source": "TLotRR",
+    "ability": "wis",
+    "entries": [
+      "Player-heroes rely on this when they move through an unfamiliar area of the Wild. A Wisdom (Explore) check may be required during a journey to find out where the Company is heading, or to get back on track after a detour; to cope with adverse weather conditions or other natural hazards; to create paths through the wilderness suitable for others to follow; or to choose a suitable place to set up camp.",
+      {
+        "type": "quote",
+        "entries": [
+          "We have found a dry cave,\" they said, \"not far round the next corner; and ponies and all could get inside."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Harvesting",
+    "source": "Arcadia11",
+    "page": 23,
+    "ability": "dex",
+    "entries": [
+      "{@b Dexterity (Harvesting)} is the act of collecting usable ingredients, either from the earth or from a dead creature. The DC for harvesting usable ingredients from a dead creature is 10 + the creature's challenge rating."
+    ]
+  },
+  {
+    "name": "Hunting",
+    "source": "TLotRR",
+    "ability": "wis",
+    "entries": [
+      "Knowing how to hunt is a fundamental skill, shared by most cultures of Middle-earth. A Wisdom (Hunting) check is required when hunting wild game, or to follow tracks and identify a quarry by its spoor. This skill also covers fishing and preparing traps. In wilder areas, hunters learn to apply their trade to more dangerous creatures—such as Orcs, Spiders, or Wargs—or else risk becoming the prey.",
+      {
+        "type": "quote",
+        "entries": [
+          "They dwelt most often by the edges of the woods, from which they could escape at times to hunt, or to ride and run over the open lands by moonlight or starlight..."
+        ],
+        "skipMarks": true
+      }
+    ]
+  },
+  {
+    "name": "Mechanics",
+    "source": "ObojimaTallGrass",
+    "page": 165,
+    "ability": "int",
+    "entries": [
+      "Your Intelligence (Mechanics) check measures your ability to comprehend, operate, craft, and repair non-magical machines."
+    ]
+  },
+  {
+    "name": "Navigation",
+    "source": "ccg",
+    "page": 204,
+    "ability": "wis",
+    "entries": [
+      "Wisdom (Navigation) governs one's ability to track monsters, beasts, or people, as well as find the best path for a group through an area, such as shortcuts through the streets or through more dangerous areas such as a frozen wasteland.",
+      "{@note This skill replaces {@skill Survival} as part of the variant rule {@variantrule Skill Replacements and Adjustments for Crystalpunk|ccg}.}"
+    ]
+  },
+  {
+    "name": "Old Lore",
+    "source": "TLotRR",
+    "ability": "int",
+    "entries": [
+      "An Intelligence (Old Lore) check measures the ability of a Player-hero to recall obscure information from bygone days, such as knowledge of the ancient tales of the Elder Days, the annals of kings and rulers, family genealogies, and recollections of deeds and places lost to common lore. This knowledge may derive from different sources, from stories heard around the fire to the dusty records of a chronicler.",
+      {
+        "type": "quote",
+        "entries": [
+          "He knew many histories and legends of long ago, of Elves and Men and the good and evil deeds of the Elder Days."
+        ],
+        "skipMarks": true
+      }
+    ]
+  },
+  {
+    "name": "Piloting",
+    "source": "DarkMatter",
+    "ability": "dex",
+    "entries": [
+      "A new skill in Dark Matter, your Dexterity (Piloting) check covers how well you maintain control over a ship in difficult circumstances. You don't need proficiency in Piloting to fly a ship (be it an aircraft or a spacecraft), but proficiency in this skill can help when you need to make a crash landing or pull off a risky maneuver in a dogfight. The GM might call for a Dexterity (Piloting) check when you attempt to fly a ship through an electromagnetic storm that disrupts the controls, or when you wish to perform a hard stop or pull a high-G turn."
+    ]
+  },
+  {
+    "name": "Piloting",
+    "source": "DarkMatter24",
+    "page": 0,
+    "ability": "dex",
+    "entries": [
+      "Your Dexterity (Piloting) check covers how well you maintain control over a ship in difficult circumstances. You don't need proficiency in Piloting to fly a ship (be it aircraft or spacecraft), but proficiency in this skill can help when you need to make a crash landing or pull off a risky maneuver in a dogfight. The GM might call for a Dexterity (Piloting) check when you attempt to fly a ship through an electromagnetic storm that disrupts the controls, or when you wish to perform a hard stop or pull a high-G turn.",
+      "This skill can alternatively be called Driving when it applies to driving land vehicles. A Dexterity (Piloting) check and a Dexterity (Driving) check are identical; modifiers which apply to one also apply to the other."
+    ]
+  },
+  {
+    "name": "Psionics",
+    "source": "ktp",
+    "ability": "int",
+    "entries": [
+      "Psionics a new Intelligence based skill that serves to understand things of a Psionic nature as Arcana might understand things of an arcane nature. It is a skill to help you identify Psionic objects, phenomena and creatures."
+    ]
+  },
+  {
+    "name": "Riddle",
+    "source": "TLotRR",
+    "ability": "int",
+    "entries": [
+      "The riddle game is an accepted custom among many creatures, including quite a few that would be classified as wicked if they did not respect the ancient rules. An Intelligence (Riddle) check is used to gain helpful insight from a spoken or written riddle, but also to draw conclusions from seemingly unconnected scraps of information by deduction, reasoning, and intuition.",
+      {
+        "type": "quote",
+        "entries": [
+          "\"A Hobbit waded out into the water and back; but I cannot say how long ago.\" \"How then do you read this riddle?\" asked Gimli."
+        ],
+        "skipMarks": true
+      }
+    ]
+  },
+  {
+    "name": "Salvage",
+    "source": "ObojimaTallGrass",
+    "page": 165,
+    "ability": "int",
+    "entries": [
+      "The GM might ask you to make an Intelligence (Salvage) check to search for, disassemble, or otherwise recall information about mechanical parts that are useful for magical and non-magical machines or potions."
+    ]
+  },
+  {
+    "name": "Sava",
+    "source": "KG",
+    "page": 6,
+    "entries": [
+      "{@note This skill tracks proficiency in the game of Sava, rules for which are included below:}",
+      {
+        "type": "statblock",
+        "tag": "variantrule",
+        "source": "KG",
+        "name": "Sava",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "name": "Streetwise",
+    "source": "ccg",
+    "page": 204,
+    "ability": "wis",
+    "entries": [
+      "As a GM, you might ask your players to make a Wisdom (Streetwise) check to gather information, intuit information related to gangs, reputations, rivalries, events, or crime in the immediate area, conjure a false identity that can bypass scrutiny, or attempt to gain access to exclusive areas such as clubs or criminal hideouts.",
+      "{@note This skill replaces {@skill Animal Handling} as part of the variant rule {@variantrule Skill Replacements and Adjustments for Crystalpunk|ccg}.}"
+    ]
+  },
+  {
+    "name": "Technology",
+    "source": "DarkMatter",
+    "ability": "int",
+    "entries": [
+      "Your Intelligence (Technology) check measures your ability to understand the inner workings of technological devices. Most devices are powered by some form of magic, but plenty of intricate design goes into channeling that magic into useful effects. Use this skill to understand unfamiliar or complex technology or to modify or repair devices. The GM may call for an Intelligence (Technology) check when you attempt to modify a blaster, repair your ship's {@item shield generator|DarkMatter}, disable a rogue android, or sabotage an arcane terminal."
+    ]
+  },
+  {
+    "name": "Technology",
+    "source": "DarkMatter24",
+    "page": 437,
+    "ability": "int",
+    "entries": [
+      "Your Intelligence (Technology) check measures your ability to understand the inner workings of technological devices. Most devices are powered by some form of magic, but plenty of intricate design goes into channeling that magic into useful effects.",
+      "Use this skill to understand unfamiliar or complex technology or to modify or repair devices. The GM may call for an Intelligence (Technology) check when you attempt to modify a blaster, repair your ships {@item Shield Generator|DarkMatter24}, disable a rogue Android, or sabotage an {@item Arcane Terminal|DarkMatter24}."
+    ]
+  },
+  {
+    "name": "Technology",
+    "source": "NeonOdyssey",
+    "ability": "int",
+    "entries": [
+      "The Technology skill governs knowledge, use, and creation or repair of technological hardware and machines. This skill can also be used to identify and operate hypertech.",
+      {
+        "type": "entries",
+        "name": "Repairs",
+        "entries": [
+          "Repairing damage to vehicles or ending mishaps on them or a Spiker's Deck uses a character's proficiency in the Technology skill."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Technical Knowledge",
+        "entries": [
+          "A character's proficiency in the Technology skill can be used to understand the purpose and functions of a machine or component of a larger physical system."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Technology",
+    "source": "TTT",
+    "ability": "int",
+    "entries": [
+      "Technology is a skill that any character can choose to replace one of their other skill proficiencies during character creation. Your Intelligence (Technology) check measures your knowledge of information systems, machines, networks, or any other aspect of modern technology."
+    ]
+  },
+  {
+    "name": "Travel",
+    "source": "TLotRR",
+    "ability": "wis",
+    "entries": [
+      "In the Third Age, the cities, villages, and towns of Middle-earth are often separated by many leagues of wild or deserted areas. Roads that used to lead safely to distant realms now end in broken trails that go nowhere. Whichever way the Company chooses to go, it will be a long and weary way before they get there. A successful Wisdom (Travel) check may let a Player-hero estimate the length of a journey, read a map, and even evaluate whether a group of strangers on the road can be approached safely or if they should be left alone instead.",
+      {
+        "type": "quote",
+        "entries": [
+          "The country was much rougher and more barren than in the green vale of the Great River in Wilderland on the other side of the range, and their going would be slow..."
+        ],
+        "skipMarks": true
+      }
+    ]
+  }
+]
