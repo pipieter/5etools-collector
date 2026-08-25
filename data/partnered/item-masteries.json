@@ -1,45 +1,9 @@
 [
   {
     "name": "Automatic",
-    "source": "DarkMatter24",
-    "entries": [
-      "When you make an attack with this weapon, you can choose to make two attacks instead. These attacks are always made with {@variantrule Disadvantage|XPHB}, regardless of circumstance. You can't replace these attacks. If this weapon has {@itemProperty AF|XDMG|Ammunition}, these attacks use twice the normal amount of ammunition."
-    ]
-  },
-  {
-    "name": "Automatic",
     "source": "ValdaGunslinger",
     "entries": [
       "When you make an attack with this weapon, you can choose to make two attacks instead. These attacks are always made with {@variantrule Disadvantage|XPHB}, regardless of circumstance. You can't replace these attacks. If this weapon has {@itemProperty AF|XDMG|Ammunition}, these attacks use twice the normal amount of ammunition."
-    ]
-  },
-  {
-    "name": "Battery Strike",
-    "source": "RyokoGuideToYokaiRealms",
-    "page": 88,
-    "entries": [
-      "With incredible dexterity and speed, you hurl numerous weapons at once. Make a number of ranged weapon attacks equal to 1 plus half your proficiency bonus (rounded down) against targets within the normal range of your weapon. Each attack must be against a different object or creature. You must have available weapons that have this superior strike option on your person with which to make these attacks."
-    ]
-  },
-  {
-    "name": "Bludgeon",
-    "source": "DarkMatter24",
-    "entries": [
-      "You can treat this weapon as a Melee weapon with {@itemProperty F|XPHB|Finesse}. When you hit a creature with a melee attack using this weapon, it deals Bludgeoning damage equal to {@dice 1d6} plus the ability modifier used for the attack roll, or {@dice 1d8} if the weapon is used with two hands to make the attack."
-    ]
-  },
-  {
-    "name": "Bludgeon",
-    "source": "ValdaGunslingerExtras",
-    "entries": [
-      "You can treat this weapon as a Melee weapon with {@itemProperty F|XPHB|Finesse}. When you hit a creature with a melee attack using this weapon, it deals Bludgeoning damage equal to {@dice 1d6} plus the ability modifier used for the attack roll, or {@dice 1d8} if the weapon is used with two hands to make the attack."
-    ]
-  },
-  {
-    "name": "Bludgeon",
-    "source": "ValdaSpire24Extras",
-    "entries": [
-      "You can treat this weapon as a Melee weapon with {@itemProperty F|XPHB|Finesse}. When you hit a creature with a melee attack using this weapon, it deals Bludgeoning damage equal to {@dice 1d6} plus the ability modifier used for the attack roll, or {@dice 1d8} if the weapon is used with two hands to make the attack."
     ]
   },
   {
@@ -79,111 +43,9 @@
   },
   {
     "name": "Explode",
-    "source": "DarkMatter24",
-    "entries": [
-      "When you take the {@action Attack|XPHB} action, you can replace one of your attacks with an explosion from this weapon's projectile. This explosion is a 5-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on a point you choose within the weapon's normal range. Each creature within the {@variantrule Sphere [Area of Effect]|XPHB|Sphere} makes a Dexterity saving throw (DC 8 plus your Strength or Dexterity modifier and your {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, a creature takes the weapon's damage, but don't add your ability modifier to that damage unless that modifier is negative. On a successful save, a creature takes half as much damage. You can create an explosion only once per turn."
-    ]
-  },
-  {
-    "name": "Explode",
     "source": "ValdaGunslinger",
     "entries": [
       "When you take the {@action Attack|XPHB} action, you can replace one of your attacks with an explosion from this weapon's projectile. This explosion is a 5-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on a point you choose within the weapon's normal range. Each creature within the {@variantrule Sphere [Area of Effect]|XPHB|Sphere} makes a Dexterity saving throw (DC 8 plus your Strength or Dexterity modifier and your {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, a creature takes the weapon's damage, but don't add your ability modifier to that damage unless that modifier is negative. On a successful save, a creature takes half as much damage. You can create this explosion only once per turn."
-    ]
-  },
-  {
-    "name": "Flurry",
-    "source": "RyokoGuideToYokaiRealms",
-    "page": 88,
-    "entries": [
-      "In a blistering display of speed, you make a number of unarmed strikes equal to 1 plus half your proficiency bonus (rounded down) against creatures within your reach. Each unarmed strike must be against a different target. You then gain a {@bold +2 bonus} to AC until the start of your next turn."
-    ]
-  },
-  {
-    "name": "Hail of Ammunition",
-    "source": "RyokoGuideToYokaiRealms",
-    "page": 88,
-    "entries": [
-      "You let loose a devastating volley of ammunition at a point you choose within your weapon's normal range. Each creature within a {@bold 10-foot-radius} sphere centred on that point must make a {@b Dexterity saving throw}, taking piercing damage equalling a number of {@b d6s} equal to your proficiency bonus on a failed save, or half as much damage on a successful one. You must have at least 10 pieces of ammunition you can draw for the weapon that you use to make this superior strike."
-    ]
-  },
-  {
-    "name": "Hamstring",
-    "source": "RyokoGuideToYokaiRealms",
-    "page": 88,
-    "entries": [
-      "In a vicious attack, you attempt to debilitate an enemy. Make an attack roll against a creature within your reach. On a hit, the target suffers the attack's normal effects and takes extra damage equal to your proficiency bonus. In addition, until the end of its next turn, the creature's AC is reduced by a value equal to its Dexterity modifier (minimum 0), and its speed is reduced by a number of feet equal to 5 times your proficiency bonus (to a minimum of 0 feet)."
-    ]
-  },
-  {
-    "name": "Jolt",
-    "source": "ValdaGunslingerExtras",
-    "entries": [
-      "If you hit a creature with this weapon, the creature can't make {@action Opportunity Attack|XPHB|Opportunity Attacks} until the start of its next turn."
-    ]
-  },
-  {
-    "name": "Jolt",
-    "source": "ValdaSpire24",
-    "entries": [
-      "If you hit a creature with this weapon, the creature can't make {@action Opportunity Attack|XPHB|Opportunity Attacks} until the start of its next turn."
-    ]
-  },
-  {
-    "name": "Mounted",
-    "source": "DarkMatter24",
-    "entries": [
-      "You can take a {@variantrule Bonus Action|XPHB} to mount this weapon in a fixed position until the end of your turn. A damage value in parentheses appears with this property. While mounted, the weapon deals that damage when used to make a ranged attack, and the weapon can't be moved."
-    ]
-  },
-  {
-    "name": "Mounted",
-    "source": "ValdaGunslingerExtras",
-    "entries": [
-      "You can take a {@variantrule Bonus Action|XPHB} to mount this weapon in a fixed position until the end of your turn. A damage value in parentheses appears with this property. While mounted, the weapon deals that damage when used to make a ranged attack, and the weapon can't be moved."
-    ]
-  },
-  {
-    "name": "Mounted",
-    "source": "ValdaSpire24",
-    "entries": [
-      "You can take a {@variantrule Bonus Action|XPHB} to mount this weapon in a fixed position until the end of your turn. A damage value in parentheses appears with this property. While mounted, the weapon deals that damage when used to make a ranged attack, and the weapon can't be moved."
-    ]
-  },
-  {
-    "name": "Overheat",
-    "source": "DarkMatter24",
-    "entries": [
-      "If you hit a target with this weapon, you can overcharge the weapon. If you do so, the target takes extra damage of the weapon's type equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. The weapon then Overheats. An Overheated weapon can't be used again to make an attack until the end of your next turn."
-    ]
-  },
-  {
-    "name": "Overheat",
-    "source": "ValdaGunslingerExtras",
-    "entries": [
-      "If you hit a target with this weapon, you can overcharge the weapon. If you do so, the target takes extra damage of the weapon's type equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. The weapon then Overheats. An Overheated weapon can't be used again to make an attack until the end of your next turn."
-    ]
-  },
-  {
-    "name": "Overheat",
-    "source": "ValdaSpire24Extras",
-    "entries": [
-      "If you hit a target with this weapon, you can overcharge the weapon. If you do so, the target takes extra damage of the weapon's type equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. The weapon then Overheats. An Overheated weapon can't be used again to make an attack until the end of your next turn."
-    ]
-  },
-  {
-    "name": "Parry",
-    "source": "ValdaSpire24",
-    "entries": [
-      "When you hit a creature with this weapon and you aren't wielding a {@item Shield|XPHB}, you gain a +2 bonus to your {@variantrule Armor Class|XPHB} until the start of your next turn. You can gain this bonus only once per turn."
-    ]
-  },
-  {
-    "name": "Piercing Shot",
-    "source": "RyokoGuideToYokaiRealms",
-    "page": 89,
-    "entries": [
-      "You fire a shot from your weapon packed with destructive force. It flies in a straight line a number of feet up to your weapon's normal range. Each creature whose space the ammunition passes through must make a {@b Dexterity saving throw}. A creature takes piercing damage equalling a number of {@b d6s} equal to your proficiency bonus on a failure, or half as much damage on a success. The shot stops early after it passes through the space of a Huge or larger creature, or through an object more than 1 foot thick or with an AC of 17 or higher."
     ]
   },
   {
@@ -194,26 +56,11 @@
     ]
   },
   {
-    "name": "Reeling Blow",
-    "source": "RyokoGuideToYokaiRealms",
-    "page": 89,
-    "entries": [
-      "You unleash the full force of your strength and size in a weighty strike. Make an attack roll against a creature within your reach. On a hit, the target suffers the attack's normal effects and takes extra damage equal to your proficiency bonus. In addition, until the end of its next turn, the creature has {@b disadvantage} on all attack rolls, and on ability checks and saving throws that use Dexterity or Intelligence, and it can't take reactions. In addition, if this attack causes a creature to make a Constitution saving throw to maintain its concentration, the creature has {@b disadvantage} on the saving throw."
-    ]
-  },
-  {
     "name": "Returning",
     "source": "GrimHollowPG24",
     "page": 123,
     "entries": [
       "A Returning weapon allows you to hurl the weapon in such a way that it returns to you. When you make a ranged attack with a Returning weapon, the weapon returns to you immediately after hitting or missing the target. You can catch the weapon if you have a hand free to do so."
-    ]
-  },
-  {
-    "name": "Scatter",
-    "source": "DarkMatter24",
-    "entries": [
-      "Being within 5 feet of an enemy doesn't impose {@variantrule Disadvantage|XPHB} on your ranged attack rolls with this weapon."
     ]
   },
   {
@@ -240,48 +87,10 @@
     ]
   },
   {
-    "name": "Shield Slam",
-    "source": "RyokoGuideToYokaiRealms",
-    "page": 89,
-    "entries": [
-      "You smash your shield forward, throwing a creature within your reach off balance. Make a {@b Strength (Athletics) check} contested by the creature's {@b Strength (Athletics) or Dexterity (Acrobatics) check}. If you succeed on the contested check, the creature takes bludgeoning damage equalling a number of {@b d8s} equal to your proficiency bonus and, until the end of your next turn, melee attacks against the target have {@b advantage}."
-    ]
-  },
-  {
-    "name": "Shift",
-    "source": "ValdaSpire24",
-    "entries": [
-      "If you hit a creature with this weapon, you can immediately move 10 feet without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks}."
-    ]
-  },
-  {
-    "name": "Shockwave",
-    "source": "RyokoGuideToYokaiRealms",
-    "page": 89,
-    "entries": [
-      "You slam your weapon into the ground at your feet with ruinous force, detonating a shockwave of energy. Each creature within {@b 10 feet} of you must succeed on a {@b Strength saving throw} or take bludgeoning damage equalling a number of {@b d6s} equal to your proficiency bonus and be pushed {@b 10 feet} directly away from you"
-    ]
-  },
-  {
-    "name": "Sighted",
-    "source": "DarkMatter24",
-    "entries": [
-      "Attacking at long range with this weapon doesn't impose {@variantrule Disadvantage|XPHB} on your attack rolls. When you hit a creature with an attack using this weapon at long range, you can reroll any of the damage dice and must use the new roll."
-    ]
-  },
-  {
     "name": "Sighted",
     "source": "ValdaGunslinger",
     "entries": [
       "Attacking at long range with this weapon doesn't impose {@variantrule Disadvantage|XPHB} on your attack rolls. When you hit a creature with an attack using this weapon at long range, you can reroll any of the damage dice and must use the new roll."
-    ]
-  },
-  {
-    "name": "Skewer",
-    "source": "RyokoGuideToYokaiRealms",
-    "page": 89,
-    "entries": [
-      "In a thrusting strike, you attempt to skewer an enemy with your weapon. Make an attack roll against a creature within your reach. On a hit, the target suffers the attack's normal effects and is also grappled by you. This {@condition grappled||grapple} ends early if you use the weapon to make another attack or you let go of the weapon. When the grapple ends, the creature takes piercing damage equalling a number of {@b d8s} equal to your proficiency bonus."
     ]
   },
   {
@@ -298,29 +107,6 @@
     "page": 123,
     "entries": [
       "Swift weapons help you recover quickly from missed attacks. When you miss with a Swift weapon, you have {@variantrule Advantage|XPHB} on the first attack roll you make with the weapon against the same target before the end of your next turn. If that attack hits, it also deals an extra {@damage 1d4} damage of the weapon's normal damage type."
-    ]
-  },
-  {
-    "name": "Tension",
-    "source": "ValdaSpire24",
-    "entries": [
-      "When making a Ranged attack with this weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls."
-    ]
-  },
-  {
-    "name": "Trip",
-    "source": "RyokoGuideToYokaiRealms",
-    "page": 89,
-    "entries": [
-      "You perform a wide, sweeping attack that strikes at the footing of enemies around you. Each creature standing within {@b 10 feet} of you must succeed on a {@b Dexterity saving throw} or take bludgeoning damage equalling a number of {@b d4s} equal to your proficiency bonus and fall {@condition prone}."
-    ]
-  },
-  {
-    "name": "Whirling Strike",
-    "source": "RyokoGuideToYokaiRealms",
-    "page": 89,
-    "entries": [
-      "In a blitzing vortex of aggression, you strike at all those around you in a sinuous assault. Each creature within your reach must make a {@b Dexterity saving throw}. A creature takes damage of your weapon's type equalling a number of {@b d6s} equal to your proficiency bonus on a failure, or half as much damage on a success. Success or failure, the creature can't make opportunity attacks against you until the end of this turn."
     ]
   }
 ]
