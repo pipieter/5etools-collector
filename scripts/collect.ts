@@ -31,7 +31,7 @@ class Collector {
     this.outPath = outPath;
   }
 
-  private add(key: string, value: any | any[]): void {
+  public add(key: string, value: any | any[]): void {
     if (!this.data.has(key)) {
       this.data.set(key, []);
     }
@@ -43,6 +43,17 @@ class Collector {
     }
   }
 
+  public get(key: string): any[] {
+    return this.data.get(key) ?? [];
+  }
+
+  public write(filename: string, key: string) {
+    if (!existsSync(this.outPath)) mkdirSync(this.outPath, { recursive: true });
+    writeJson(this.outPath, `${filename}.json`, this.get(key));
+  }
+}
+
+class OfficialCollector extends Collector {
   public addFile(file: string): void {
     const contents = read(path.join(this.basePath, file));
 
@@ -82,19 +93,31 @@ class Collector {
 
     this.add('spellSource', sources);
   }
+}
 
-  public get(key: string): any[] {
-    return this.data.get(key) ?? [];
+class PartneredCollector extends Collector {
+  public readonly partneredOnly: boolean;
+
+  public constructor(basePath: string, outPath: string, partneredOnly: boolean) {
+    super(basePath, outPath);
+    this.partneredOnly = partneredOnly;
   }
 
-  public write(filename: string, key: string) {
-    if (!existsSync(this.outPath)) mkdirSync(this.outPath, { recursive: true });
-    writeJson(this.outPath, `${filename}.json`, this.get(key));
+  public addFile(file: string): void {
+    const contents = read(file);
+
+    const sources: any[] = contents._meta?.sources ?? [];
+    const partnered = sources.some((source) => source.partnered ?? false);
+    if (this.partneredOnly && !partnered) return;
+
+    for (const [key, value] of Object.entries(contents)) {
+      this.add(key, value);
+    }
   }
 }
 
 function officialCollector(): Collector {
-  const collector = new Collector('./5etools-src/data', './data/official');
+  const collector = new OfficialCollector('./5etools-src/data', './data/official');
 
   collector.addFile('actions.json');
   collector.addFile('adventures.json');
@@ -136,19 +159,27 @@ function officialCollector(): Collector {
   return collector;
 }
 
-function partneredCollector(): Collector {
-  const source = './5etools-homebrew/data';
-  const collector = new Collector(source, './data/partnered');
-
-  for (const type of readdirSync(source, { withFileTypes: true })) {
-    if (!type.isDirectory()) continue;
-
-    for (const file of readdirSync(path.join(source, type.name), { withFileTypes: true })) {
-      if (!file.isFile()) continue;
-
-      const subpath = path.join(type.name, file.name);
-      collector.addFile(subpath);
+function recursiveGetAllFilesInDirectory(directory: string): string[] {
+  const entries = readdirSync(directory, { withFileTypes: true }).flatMap((file) => {
+    const fullPath = path.join(directory, file.name);
+    if (file.isFile()) {
+      return fullPath;
     }
+    if (file.isDirectory()) {
+      return recursiveGetAllFilesInDirectory(fullPath);
+    }
+
+    return [];
+  });
+  return entries;
+}
+
+function partneredCollector(partneredOnly: boolean): Collector {
+  const source = path.join(process.cwd(), '5etools-homebrew/data');
+  const collector = new PartneredCollector(source, './data/partnered', partneredOnly);
+
+  for (const file of recursiveGetAllFilesInDirectory(source)) {
+    collector.addFile(file);
   }
 
   return collector;
@@ -156,7 +187,7 @@ function partneredCollector(): Collector {
 
 function main() {
   const official = officialCollector();
-  const partnered = partneredCollector();
+  const partnered = partneredCollector(true);
 
   for (const collector of [official, partnered]) {
     collector.write('actions', 'action');
