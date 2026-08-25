@@ -37,8 +37,7 @@ export type Unit =
       note?: string;
       condition?: string;
     }
-  | 'Varies'
-  | 'Free';
+  | string;
 
 export type ReprintedAs = string | { uid: string; tag: string };
 
@@ -385,4 +384,3 @@ export interface DangerRating {
   tier: number;
   threat: string;
 }
-

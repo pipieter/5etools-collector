@@ -25,6 +25,7 @@ export interface EntrySection {
 
 export interface EntryInset {
   type: 'inset' | 'insetReadaloud';
+  id?: string;
   source?: string;
   page?: number;
   name?: string;
@@ -70,6 +71,7 @@ export interface EntryQuote {
   type: 'quote';
   entries: Entry[];
   by?: string;
+  skipMarks?: boolean
 }
 
 export interface EntryImage {
