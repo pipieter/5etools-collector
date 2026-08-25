@@ -330,7 +330,7 @@ export const ReqAttuneTag = t.iface([], {
   "cha": t.opt("number"),
 });
 
-export const Mastery = t.union("string", t.iface([], {
+export const UIDString = t.union("string", t.iface([], {
   "uid": "string",
   "note": "string",
 }));
@@ -446,7 +446,7 @@ const exportedTypeSuite: t.ITypeSuite = {
   Light,
   SetAbility,
   ReqAttuneTag,
-  Mastery,
+  UIDString,
   Duration,
   RangeType,
   Range,

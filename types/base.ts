@@ -304,7 +304,7 @@ export interface ReqAttuneTag {
   cha?: number;
 }
 
-export type Mastery =
+export type UIDString =
   | string
   | {
       uid: string;
@@ -385,3 +385,4 @@ export interface DangerRating {
   tier: number;
   threat: string;
 }
+

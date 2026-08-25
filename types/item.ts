@@ -4,7 +4,7 @@ import {
   ReprintedAs,
   Rarity,
   ReqAttuneTag,
-  Mastery,
+  UIDString,
   Resist,
   Light,
   SetAbility,
@@ -59,8 +59,8 @@ export interface Item extends Base, SRD {
   weightNote?: string;
   baseItem?: string;
   weaponCategory?: string;
-  mastery?: Mastery[];
-  property?: string[];
+  mastery?: UIDString[];
+  property?: UIDString[];
   dmg1?: string;
   dmg2?: string;
   dmgType?: string;
@@ -121,7 +121,32 @@ export interface Item extends Base, SRD {
   spellScrollLevel?: number;
   ammoType?: string;
   barDimensions?: any; // TODO
+  dexterityMax?: number | null;
+  reload?: number;
+  weapon?: boolean;
+  armor?: boolean;
+  arrow?: boolean;
+  axe?: boolean;
+  bolt?: boolean;
+  bow?: boolean;
+  bulletFirearm?: boolean;
+  bulletSling?: boolean;
+  cellEnergy?: boolean;
+  club?: boolean;
+  crossbow?: boolean;
+  dagger?: boolean;
   firearm?: boolean;
   firearms?: boolean;
-  dexterityMax?: number | null;
+  glaive?: boolean;
+  halberd?: boolean;
+  hammer?: boolean;
+  lance?: boolean;
+  mace?: boolean;
+  needleBlowgun?: boolean;
+  net?: boolean;
+  polearm?: boolean;
+  rapier?: boolean;
+  spear?: boolean;
+  sword?: boolean;
+  whip?: boolean;
 }
