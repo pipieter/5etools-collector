@@ -19,7 +19,7 @@ export const Base = t.iface([], {
   "additionalSources": t.opt(t.array("Source")),
   "edition": t.opt("string"),
   "_copy": t.opt("any"),
-  "_version": t.opt(t.array("any")),
+  "_versions": t.opt(t.array("any")),
 });
 
 export const Source = t.union("string", t.iface([], {
