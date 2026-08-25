@@ -4,6 +4,13 @@
 import * as t from "ts-interface-checker";
 // tslint:disable:object-literal-key-quotes
 
+export const SpellSource = t.iface([], {
+  "spellName": "string",
+  "spellSource": "string",
+  "casterName": "string",
+  "casterSource": "string",
+});
+
 export const Spell = t.iface(["Base", "SRD"], {
   "entries": t.array("Entry"),
   "entriesHigherLevel": t.opt(t.array("Entry")),
@@ -32,6 +39,7 @@ export const Spell = t.iface(["Base", "SRD"], {
 });
 
 const exportedTypeSuite: t.ITypeSuite = {
+  SpellSource,
   Spell,
 };
 export default exportedTypeSuite;

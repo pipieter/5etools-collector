@@ -6,7 +6,9 @@ import EntryTI from '../../types-check/entry-ti';
 import SpellTI from '../../types-check/spell-ti';
 
 import official from '../../data/official/spells.json';
+import officialSources from '../../data/official/spell-sources.json';
 
-const { Spell } = createCheckers(BaseTI, EntryTI, SpellTI);
+const { Spell, SpellSource } = createCheckers(BaseTI, EntryTI, SpellTI);
 
 check('spell', Spell, official);
+check('spell source', SpellSource, officialSources);

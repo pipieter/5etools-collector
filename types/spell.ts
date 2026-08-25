@@ -1,6 +1,13 @@
 import { Base, SRD, SpellComponents, Unit, Duration, Range, Resist, ScalingLevelDice } from './base';
 import { Entry } from './entry';
 
+export interface SpellSource {
+  spellName: string;
+  spellSource: string;
+  casterName: string;
+  casterSource: string;
+}
+
 export interface Spell extends Base, SRD {
   entries: Entry[];
   entriesHigherLevel?: Entry[];
