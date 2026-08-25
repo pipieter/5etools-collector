@@ -3,6 +3,7 @@ export type Entry =
 
 export interface EntryEntries {
   type: 'entries';
+  id?: string;
   name?: string;
   page?: number;
   entries: Entry[];
@@ -71,7 +72,7 @@ export interface EntryQuote {
   type: 'quote';
   entries: Entry[];
   by?: string;
-  skipMarks?: boolean
+  skipMarks?: boolean;
 }
 
 export interface EntryImage {
