@@ -13,6 +13,7 @@ export interface Base {
   additionalSources?: Source[];
   edition?: string;
   _copy?: any; // TODO
+  _version?: any[]; // TODO
 }
 
 export type Source =
