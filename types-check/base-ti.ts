@@ -39,7 +39,7 @@ export const Unit = t.union(t.iface([], {
   "unit": "string",
   "note": t.opt("string"),
   "condition": t.opt("string"),
-}), t.lit('Varies'), t.lit('Free'));
+}), "string");
 
 export const ReprintedAs = t.union("string", t.iface([], {
   "uid": "string",

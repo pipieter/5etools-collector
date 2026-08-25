@@ -30,6 +30,7 @@ export const EntrySection = t.iface([], {
 
 export const EntryInset = t.iface([], {
   "type": t.union(t.lit('inset'), t.lit('insetReadaloud')),
+  "id": t.opt("string"),
   "source": t.opt("string"),
   "page": t.opt("number"),
   "name": t.opt("string"),
@@ -84,6 +85,7 @@ export const EntryQuote = t.iface([], {
   "type": t.lit('quote'),
   "entries": t.array("Entry"),
   "by": t.opt("string"),
+  "skipMarks": t.opt("boolean"),
 });
 
 export const EntryImage = t.iface([], {
