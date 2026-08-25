@@ -1,0 +1,776 @@
+[
+  {
+    "name": "Academy Necromica",
+    "source": "LM",
+    "page": 63,
+    "type": "Undeath",
+    "entries": [
+      {
+        "type": "section",
+        "entries": [
+          "The Academy Necromica was founded nearly one hundred and fifty years ago by the necromancer Xilian, who sought to establish a place where like-minded individuals could come together and share the secrets of the dark arts. Over the next two decades, Master Xilian slowly built up the organization, hand-picking members from those who respected (or worshiped) the power of death and undeath. Soon she had a cadre of necromancers, evil priests, and professional killers.",
+          "But the Academy was infiltrated by a paladin named Rion, who used his knowledge of the group's inner workings to organize an assault by those who opposed them. Most of the Necromicans (as the Academy's members call themselves) were destroyed, and Xilian herself was on death's door when loyal minions spirited her away.",
+          "From the ashes of the Academy's worst failure came its first great success. Unable to repair Master Xilian's horribly broken body, the necromancers instead performed an unspeakable process upon her, turning her into a lich. With a newfound lease on unlife, Xilian swore vengeance upon her enemies. She knew that patience was her ally, and over the next century, quietly built up a secret but powerful organization dedicated to death and evil. Now, the time to strike approaches near, yet she hesitates, fearing the possibility of another setback.",
+          "Today, the Academy Necromica prides itself on its strict dedication to evil above petty politics, and thus remains basically neutral evil. Individual members may vary from this ideal, but the Academy itself rarely strays into either lawful or chaotic methods. Symbolic of this ideal is Xilian, the Master of the Academy and a powerful necromancer in her own right. As the organization's founder and most powerful member, Xilian is possessed of a patience born of more than a century of unlife. She does not take unnecessary risks, though she also knows the value of personal involvement in times of crisis. She spends most of her time teaching the students of the Academy, as well as crafting long-range plans for the organization's future.",
+          "As one might expect, the Academy welcomes both the living and the dead, and it numbers a few undead (vampires, specters, and the like) among its membership. To join, one must only demonstrate an appreciation for the arts of death, whether that appreciation is scholarly or more... hands-on.",
+          {
+            "type": "entries",
+            "name": "In Your Campaign",
+            "entries": [
+              "Unless you run an evil-oriented campaign, the Academy Necromica probably works best as an adversary for your party. The characters might come across rumors of a ring of graverobbers or bodysnatchers, which in turn could lead them to discover the Academy's more vile activities. Alternatively, the Academy might target one of the party members as a likely candidate for vampirism or similar undead transformation, hoping that experiencing death will make the character friendlier to their aims. Or maybe one or more characters are aligned with the forces that brought Xilian and her Academy down the first time. If you have a non-good necromancer in the party, the Academy might even attempt recruitment, but only after confirming the character's disposition towards undeath.",
+              "It's probably best not to pit the character directly against the Academy at lower levels. The higher-ranking members (such as Xilian or {@creature Uther Kyush|LM}, described below) could certainly defeat a low-level party of adventurers singlehandedly, and neither would hesitate to eliminate a serious threat to the organization."
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Necromantic Boons",
+            "entries": [
+              "Members of the Academy Necromica learn various methods and techniques that allow them to enhance their magic and their ability to deal necrotic damage.",
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Grave Magic",
+                    "entries": [
+                      "When the cultist casts a spell that deals damage, it can change the spell's damage type to necrotic."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Potent Necromancy",
+                    "entries": [
+                      "Whenever the cultist deals necrotic damage, it can reroll the damage dice and use either total."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Sample Member",
+            "entries": [
+              "After Master Xilian, the most respected member of the Academy is {@creature Uther Kyush|LM}, who oversees all targeted slayings, illicit information gathering, and other criminal activities of the Academy. Most Necromicans value Kyush's personal involvement in the day-to-day workings of the Academy, seeing him as much more in touch with the rank-and-file membership than Xilian. Kyush employs two squads of spies and cutthroats, each comprised of two {@creature spies|mm|spy} and five {@creature thug|mm|thugs} that are led by one {@creature veteran}. Kyush is rarely separated from his bodyguard/lover Ronica, a LE female human {@creature necromancer|VGM}."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Atropus the World Born Dead",
+    "source": "EdE",
+    "page": 9,
+    "type": "Elder Evil",
+    "cultists": {
+      "entry": "{@creature Alhoon|vgm}, {@creature archmage}, {@creature cult fanatic}, {@creature cultist}, {@creature death cultist|EdE}, {@creature lich}, {@creature mage}, {@creature necromancer|vgm}, any undead"
+    },
+    "signatureSpells": {
+      "entry": "{@spell Toll the dead|XGE} (cantrip), {@spell inflict wounds} (1st level), {@spell ray of enfeeblement} (2nd level), {@spell animate dead} (3rd level)"
+    },
+    "entries": [
+      "While most of Atropus's heralds are undead who seek to destroy the living, there are some mortals who are wretched enough to give the World Born Dead their undying service. Cultists of Atropus typically act in isolation to advance their master's goals, but cabals of undead or those that associate with undead can also act in Atropus's name, such as the cult headed by the foul ur-priest {@creature Caira Xasten|EdE}.",
+      "Cultists of Atropus often uncover necromantic secrets on their own, but may also be granted powers by the World Born Dead as its arrival draws near. Rank-and-file cultists typically obtain the Gaze of Corruption action option, and cult leaders obtain the Anti-Heal trait through the mastery of negative energy manipulation.",
+      {
+        "type": "entries",
+        "name": "Gaze of Corruption {@recharge 6}",
+        "entries": [
+          "The cultist targets one creature it can see within 30 feet of it. The target must succeed on a DC 15 Constitution saving throw or take 16 ({@dice 3d10}) necrotic damage and be {@condition poisoned} for 1 minute. The {@condition poisoned} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Anti-Heal",
+        "entries": [
+          "The cultist can activate or deactivate this feature as a bonus action. While active, creatures within 30 feet of the cultist can't magically regain hit points. A creature that were to magically regain hit points must instead make a DC 15 Constitution saving throw. On a failed save, the creature takes necrotic damage equal to the hit points it would have regained."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Blood Scion Heresy",
+    "source": "LM",
+    "page": 65,
+    "type": "Undeath",
+    "entries": [
+      {
+        "type": "section",
+        "entries": [
+          "The Blood Scion Heresy is one of a handful of so-called blood cults dedicated to the worship of vampire lords. Cult members willingly become thralls to these vampire lords.",
+          "The Blood Scion Heresy was founded on the principle that blood is a holy sacrament, and through its consumption the righteous will be blessed with eternal life. Particularly fervent worshipers have been known to sacrifice themselves in an unholy ritual that results in their transformation into {@creature blood amniote|LM|blood amniotes}.",
+          "A cult cell attempts to limit its membership to twenty-five members in any given city. If the cell were to grow larger, the presence of so many vampires could be difficult to conceal. At the top is a high preceptor, one of many vampire lords that hold positions of responsibility within the Blood Scion Heresy. Espousing secrecy above all, these preceptors enforce strict rules that dictate when and where the thralls can feed, so that hunting does not attract undue attention. They also preach the tenets of the cult and are charged with recruiting new members into the organization.",
+          "The cult has no true leader, but the Masked One is seen as the organization's ultimate authority. Beyond the Masked One and his high preceptors, the Blood Scion Heresy has no hierarchy and is a disorganized amalgamation of landed lords and petty nobles jockeying for positions of favor within the society.",
+          {
+            "type": "entries",
+            "name": "Necromantic Boons",
+            "entries": [
+              "Through forbidden knowledge, vampiric corruption, and unholy worship, members of the Heresy use blood magic to steal and weaken the life force of living creatures while simultaneously invigorating their own.",
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Blood Call (Reaction)",
+                    "entries": [
+                      "When a creature within 20 feet of the cultist takes necrotic damage, the cultist regains a number of hit points equal to its Constitution modifier plus its Challenge Rating. Any excess healing is gained as temporary hit points."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Blood Storm (Bonus Action; Recharge {@dice d6|5-6})",
+                    "entries": [
+                      "The cultist unleashes a storm of blood in an aura around it out to a radius of 20 feet. The storm lasts until the end of its next turn and lightly obscures the area. Until the end of the cultist's next turn, the cultist and each undead in the area have advantage on all saving throws, and every other creature in the area has disadvantage on all saving throws."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Sample Member",
+            "entries": [
+              "A bitter, nihilistic creature, {@creature Godfrey|LM} is a good example of the average high preceptor. Having been flushed out of his urban den by an order of paladins, Godfrey wandered aimlessly until he was taken in by the Blood Scion Heresy. He now controls a small cell of ten cultists, and is currently making plans to destroy the holy order that once wronged him. Godfrey prefers to use enchantment and illusion magic in combat, and finds great pleasure in forcing even the most righteous and noble of enemies to fight each other."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Church of Starborn",
+    "source": "BloodInTheCompany",
+    "page": 14,
+    "type": "Pillars of Gol",
+    "cultists": {
+      "entry": "{@book The Eastern City States|BITCEH|1|The Eastern City States}"
+    },
+    "entries": [
+      "The Church of Starborn are located primarily in the {@book Eastern City State region|BITCEH|1|The Eastern City States}, and feature the {@deity The Eternal Queen|Gol|BloodInTheCompany|Eternal Queen} more prominently in their legends. They maintain that the {@deity The Eternal Queen|Gol|BloodInTheCompany|Eternal Queen} not only exists as a sort of primal entity, but serves to manage and organise the flow of time and magic directly. To them, the events that transpire all occur due to the {@deity The Eternal Queen|Gol|BloodInTheCompany|Queen's} all-encompassing plans, and the other gods are pawns that are directed by this design.",
+      "The Church of Starborn also alludes to a separate creation myth where the inhabitants of Gol originate from the stars, hence the name of the church. Whilst many consider this creation myth to be hogwash, the Church has grown significantly in recent years despite its comparative youth."
+    ]
+  },
+  {
+    "name": "Cult of the True Flame",
+    "source": "GiddyCult",
+    "entries": [
+      {
+        "type": "entries",
+        "name": "Soulflame",
+        "entries": [
+          "The cultist ignites with magical fire. For the next minute, they gain the following benefits:",
+          {
+            "type": "list",
+            "items": [
+              "They are immune to fire damage and the grappled condition.",
+              "Their melee attacks deal an extra 7 ({@dice 2d6}) fire damage.",
+              "Any creature that starts its turn within 10 feet of the cultist takes 7 ({@dice 2d6}) fire damage."
+            ]
+          },
+          "If the cultist dies or at the end of the duration, the cultist and any equipment they are carrying is consumed by the fire and reduced to ash."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dyvarran Cult",
+    "source": "BloodInTheCompany",
+    "page": 14,
+    "type": "Pillars of Gol",
+    "cultists": {
+      "entry": "{@book Kathkacha|BITCPI|4}"
+    },
+    "entries": [
+      "The Dyvarran Cult posits that all gods are in fact merely aspects of society and that following each equally provides part of a whole existence. They believe that the teachings of each of the gods acts as a sort of blueprint to life.",
+      "Their philosophy is more transactional than other religious bodies, and they view the gods less as objects of worship, and more as simply powerful beings that do not exist to be worshipped, but instead to listen to and even bargain with.",
+      "This philosophy is already considered controversial enough amongst some followers of other cults (notably the {@cult Imperial Cult|BloodInTheCompany}) but to make matters worse, the cult insists that the {@book Dyvare|BITCPI|8|The Dyvare}, a prophetic figure, was the one who built this philosophy. The cult holds the {@book Dyvare|BITCPI|8|The Dyvare} as a sort of saint who built most of society prior to the collapse, moving isolated clans of {@race orc|MPMM|orcs}, {@race human|PHB|men}, and {@race dwarf|PHB|dwarves} into the valleys.",
+      "The {@cult Imperial Cult|BloodInTheCompany} considers this heretical idolatry, and the Cult is banned in the {@book Aegan Empire|BITCEH|1|The Aegan Empire}. It is permitted in other places, though can be frowned upon. It is most popular in {@book Kathkacha|BITCPI|4}, where it was said that the {@book Dyvare|BITCPI|8|The Dyvare} brought her united people to. In the city of {@book Kathkach|BITCPI|4} itself, however, it is still something of an underground movement."
+    ]
+  },
+  {
+    "name": "Eyes of Vecna",
+    "source": "LM",
+    "page": 67,
+    "type": "Undeath",
+    "entries": [
+      {
+        "type": "section",
+        "entries": [
+          "Though the members of this order claim it was founded by the lich Vecna before his ascension to godhood, this declaration seems apocryphal. Regardless of the truth, members of this order venerate the deity of secrets as their divine patron. Their aim is to keep knowledge out of the hands of those undeserving to have it. At the lowest levels, this takes the form of the theft (or destruction) of books and scrolls from personal libraries, but can include kidnapping and murder if necessary.",
+          "To join the Eyes of Vecna, one must prove one's worth by stealing or destroying an item of forbidden knowledge (such as a rare tome). Beings of evil alignment are strongly preferred, since the Eyes of Vecna must never place the well being of others before the group's own nefarious goals.",
+          "The Eyes of Vecna is organized into cells of 14 ({@dice 4d6}) members. Most large cities and metropolises have one (or sometimes more than one) cell secreted somewhere within them, but individual cells maintain their independence from one another regardless of geographical proximity. Cell leaders are usually evil necromancers or diviners or clerics of Vecna, typically of CR 6 or higher. Rogues and bards are common members, and the order numbers many warriors, experts, and fighters among their ranks as well.",
+          "Above the cells sit more powerful leaders, who orchestrate the activities of cells throughout a region (often without the cells even realizing they are being influenced by an outside power). These leaders are typically CR 11 or higher, and some are undead creatures themselves (such as vampires or liches). These leaders often use weaker undead as lackeys or bodyguards, since such creatures tend to be good at keeping secrets. Stories that the organization's leaders amputate their left hands and put out an eye to ascend to this level of power are unproven.",
+          {
+            "type": "entries",
+            "name": "In Your Campaign",
+            "entries": [
+              "The Eyes of Vecna make a great long-term opponent for the characters of your campaign. At low levels, the party might unintentionally thwart the theft of a rare book from a temple or aristocrat's library, gaining the thanks of the owner and the attention of the Eyes. Later, characters tasked with recovering stolen property or finding a kidnapped sage could trace their way to a cell's headquarters, perhaps even quashing the cell itself. This, of course, draws the ire of the higher-ranking members, which might make the characters the next target. At higher levels, the characters could tangle with the leaders themselves.",
+              "As a result of their activities, the organization has a vast storehouse of rare knowledge, granting them access to sensitive information that many others aren't even aware of. Thus, if your party lacks crucial knowledge that they need in order to achieve their goals, one of their options is to somehow acquire it from the Eyes of Vecna"
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Necromantic Boons",
+            "entries": [
+              "Whether they learn these techniques from the knowledge they hoard or are blessed by The Whispered One himself, members of the Eyes of Vecna learn new spellcasting techniques from their acquired knowledge and are adept at hiding themselves and their secrets from unworthy spies.",
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "",
+                    "entries": [
+                      "If the cultist has the Spellcasting trait, it can choose one spell of 3rd level or lower. The cultist can cast that spell at its lowest level at will."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Veil of Secrecy",
+                    "entries": [
+                      "The cultist can't be targeted by any divination magic or perceived through magical scrying sensors."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Sample Member",
+            "entries": [
+              "{@creature Cyranthus|LM} is a cell leader working in a large city or metropolis in your campaign world. He prefers subtle approaches to his goals, favoring stealth over brute force. His cell includes {@creature thug|mm|thugs}, {@creature spy|mm|spies}, {@creature bard|vgm|bards}, a {@creature gladiator}, and a few {@creature guard|guards}, as well as a pair of {@creature zombie|mm} bodyguards animated by Cyranthus himself. Unlike many cell leaders, Cyranthus has no illusions about his level of authority, and dreams of joining the higher ranks of the Eyes. This ambition leads him to plan ever-larger missions for his cell, which could be his undoing."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Father Llymic the Alien Thought Given Flesh",
+    "source": "EdE",
+    "page": 9,
+    "type": "Elder Evil",
+    "cultists": {
+      "entry": "{@creature Berserker}, brood spawn, {@creature cult fanatic}, {@creature cultist}, {@creature frost giant}, {@creature tribal warrior}, white dragon"
+    },
+    "signatureSpells": {
+      "entry": "{@spell Ray of frost} (cantrip), {@spell ice knife} (1st level), {@spell darkness} (2nd level), {@spell sleet storm} (3rd level)"
+    },
+    "entries": [
+      "There is a tribe of barbarians that lives on and near the mountain that houses {@creature Father Llymic|EdE}'s tomb. These barbarians that worship the Alien Thought Given Flesh. Sooner or later, these cultists transform into brood spawn, either by willing self-corruption or by corruption from the brood spawn they consort with.",
+      "Most of the time, a creature that encounters the Alien Thought Given Flesh or his minions is transformed into a savage brood spawn. However, there are rumors of creatures that are able to preserve their minds after the transformation, allowing for the existence of shadowy organizations of brood spawn that enact their plans from behind the scenes.",
+      "Cultists of Father Llymic perform unholy rituals that transform them into inhuman monsters, eventually turning them into brood spawn. The most devoted of his cultists may even have a chance to interact with Father Llymic's illusory projections, who may reveal to them methods of manipulating ice and becoming icy abominations. These cultists may gain the Icy Touch action option and/or the Chilled Flesh trait.",
+      {
+        "type": "entries",
+        "name": "Chilled Flesh",
+        "entries": [
+          "The cultist has resistance to cold damage, and a creature that touches the cultist or hits it with a melee attack while within 5 feet of it takes 5 ({@damage 1d10}) cold damage."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Icy Touch",
+        "entries": [
+          "{@atk ms} bonus to hit equal to the cultist's proficiency bonus plus its Charisma modifier, reach 5 ft., one target. {@h}14 ({@damage 4d6}) cold damage."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Flower Folk",
+    "source": "zorq",
+    "goal": {
+      "entry": ""
+    },
+    "cultists": {
+      "entry": "{@creature forl|zorq}, {@creature Tobolux|zorq}, {@creature Snav}"
+    },
+    "signatureSpells": {
+      "entry": ""
+    },
+    "entries": [
+      "Levistus has no cult in the traditional sense. Instead, he offers favors to those who are desperate to escape a seemingly inevitable fate.",
+      "{@creature Drow} are sometimes worshipers of Levistus, as their cruel society often pushes them into situations they feel they can't escape.",
+      "Levistus usually grants those who pledge their souls to him a single chance to escape from danger, but some cunning folk strike a deal with Levistus, pledging their souls to him in return for escape at a future date. This boon takes the form of the Path of Levistus trait.",
+      {
+        "type": "entries",
+        "name": "Path of Levistus",
+        "entries": [
+          "This creature magically teleports to a location of Levistus's choice within 1 mile of its location. Using this ability also restores all of the creature's hit points. This ability can be invoked as an action by the creature or when the creature would die. Once the creature uses it, the creature can't use it again."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Illegal Cults",
+    "source": "BloodInTheCompany",
+    "page": 15,
+    "type": "Pillars of Gol",
+    "cultists": {
+      "entry": "{@book The Northern Kingdoms|BITCEH|1|The Northern Kingdoms}"
+    },
+    "entries": [
+      "Cults dedicated to other gods, entities, or objects of worship are often not allowed to purchase temple grounds or hire workers to further the faiths. Many such cults worship dark gods or demons, for whom many old texts from before the collapse refer to.",
+      "These cults are many and diverse, but often operate secretly. Small shrines can be found in poor quarters of cities or in the wilderness, where secret cultists gather. Some are outright considered dangerous terrorists by local governments depending on what entities they worship.",
+      "In the {@book Northern Kingdoms|BITCEH|1|The Northern Kingdoms}, many small cults are allowed to exist in the countryside so long as their activities are peaceful. Several magical groves turn towards the worship of fey creatures or extraplanar entities that still maintain tenuous contact via these groves.",
+      "Some cults are attacked on sight by local guards. Such cults include the cult of OMBAK, ancient cults dedicated to {@deity Asmodeus|Faerûnian|SCAG}, and cults of {@deity Lolth|Drow|MTF}, among others. These cults are determined to be too dangerous to let exist and proliferate."
+    ]
+  },
+  {
+    "name": "Imperial Cult",
+    "source": "BloodInTheCompany",
+    "page": 14,
+    "type": "Pillars of Gol",
+    "cultists": {
+      "entry": "{@book The Aegan Empire|BITCEH|1|The Aegan Empire}"
+    },
+    "entries": [
+      "The {@book Aegan Empire|BITCEH|1|The Aegan Empire} maintains its own organised religion through the Imperial Cult, or the Aegan Cult as it is sometimes referred to. This cult makes some additional distinctions between the gods. It puts the {@deity The Protector|Gol|BloodInTheCompany|Protector} as the highest god and maintainer of order between the gods, and insists that the other gods are to greater or lesser extents subservient to him. It is also somewhat unique in that it depicts the {@deity The Azure Artist|Gol|BloodInTheCompany|Azure Artist} as a trickster and devious, even malicious entity, putting emphasis on their dim aspect over the light one.",
+      "Whilst the Imperial Cult maintains good relations with other religious bodies across the world, it attracts some animosity from free-thinking followers of the {@deity The Azure Artist|Gol|BloodInTheCompany|Azure Artist} for this reason."
+    ]
+  },
+  {
+    "name": "Kyuss the Worm That Walks",
+    "source": "EdE",
+    "page": 11,
+    "type": "Elder Evil",
+    "cultists": {
+      "entry": "{@creature Avolakia|EdE}, {@creature cult fanatic}, {@creature cultist}, {@creature death cultist|EdE}, {@creature necromancer|vgm}, {@creature star spawn larva mage|mtf}, any undead"
+    },
+    "signatureSpells": {
+      "entry": "{@spell Chill touch} (cantrip), {@spell false life} (1st level), {@spell hold person} (2nd level), {@spell vampiric touch} (3rd level)"
+    },
+    "entries": [
+      "Many followers of the Worm That Walks also serve or sympathize with {@boon Orcus}, the Demon Prince of Undead, due to Kyuss's worship of Orcus before his transformation. Unlike other cults of undeath, followers of the Worm That Walks often seek to spread disease and parasites, weakening those that would oppose Kyuss so that his undead can squash them without opposition.",
+      "Many cultists of the Worm That Walks learn to raise undead as spawn of Kyuss via the Worm Necromancer trait below. Others learn to channel dark magic in order to replicate the Plague of Worms action option that Kyuss and his servants often use against their opponents.",
+      {
+        "type": "entries",
+        "name": "Worm Necromancer",
+        "entries": [
+          "When the cultist casts a spell that animates or creates undead, up to two of the undead can be turned into {@creature spawn of Kyuss|vgm}."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Plague of Worms {@recharge 6}",
+        "entries": [
+          "Each creature of the cultist's choice within 10 feet of the cultist must make a DC 15 Dexterity saving throw against this magic. On a failure the target takes 9 ({@damage 2d8}) necrotic damage and is {@condition restrained} by masses of swarming worms. The affected creature takes 9 ({@damage 2d8}) necrotic damage at the start of each of the cultist's turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lurkers in Shadow",
+    "source": "LM",
+    "page": 68,
+    "type": "Undeath",
+    "entries": [
+      {
+        "type": "section",
+        "entries": [
+          "This cult is relatively new to the world, having formed about a decade ago by the mystic theurge D'Milluhr. According to his claims, D'Milluhr received a vision from a shadowy demonic undead being of great power. In this vision, the theurge was tasked with an unholy quest for a terrible artifact: the dreaded {@item Wand of Orcus}.",
+          "Since that day, D'Milluhr has worked tirelessly toward that end. He knew instinctively that this quest must remain secret from the world at large, and has thus kept to the shadows, never extending his reach too far. He has enlisted a small group of allies to this cause, including rogues, diviners, and planewalking characters of all stripes. He has also attracted the service of a few {@creature visage|LM|visages}, though in truth he doesn't know why these undead beings offered their allegiance to him.",
+          "The truth, should D'Milluhr ever learn it, would likely shatter his sanity. The vision was neither a message nor a divine quest, but merely a quirk of fate, an echo of the thoughts of the undead deity Tenebrous when it came into being on the Astral Plane. The visages came to D'Milluhr because they sensed some connection between the theurge and their creator, Tenebrous. Worse still, the quest itself is a meaningless one, since the being known as Tenebrous has regained his lost wand and returned to his previous identity, Orcus, Demon Prince of Undead.",
+          "But D'Milluhr suspects none of this, and remains feverishly intent on recovering the \"lost\" Wand of Orcus. He tracks down almost every lead, no matter how vague, which leads him on innumerable wild goose chases across the planes. He rejects any suggestion that the Wand is in the hands of Orcus himself, clinging to the theory that his shadowy patron wouldn't have bestowed a quest as hopeless as taking the Wand from the hands of the Demon Prince of Undead himself.",
+          {
+            "type": "entries",
+            "name": "In Your Campaign",
+            "entries": [
+              "D'Milluhr or his minions could run into the characters on any of a number of information hunts. The party need not be involved with Orcus, Tenebrous, or indeed anything even vaguely related to the Lurkers' mission. As long as some tenuous link between the characters' activities and the theurge's quest can be imagined, an encounter between the party and the Lurkers in Shadow can occur.",
+              "Or perhaps D'Milluhr's quest isn't as crazy as it seems. Maybe he's actually getting close to tracking down the Wand's current destination (and perhaps it isn't currently in Orcus's hands), and the characters learn of his goal and decide to head him off before he gains possession of one of the most evil artifacts in all creation."
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Necromantic Boons",
+            "entries": [
+              "Some members of Lurkers in Shadow have magical boons that aid in their search for the {@item Wand of Orcus}. These boons are usually bestowed upon them by an echo of Tenebrous's will or some other dark power.",
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Unwavering Seeker",
+                    "entries": [
+                      "The cultist can't be compelled to act in a manner that would interfere with its goals."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Deathly Insight",
+                    "entries": [
+                      "When the cultist kills a creature or scores a critical hit against it, it magically learns one fact or secret about the target."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Sample Member",
+            "entries": [
+              "{@creature Tarek Duskwood|LM} is one of D'Milluhr's most competent and loyal minions. They operate both as a lone spy or as the leader of a group of warriors and covert agents tasked with following up on a lead, depending on the needs of the theurge. Though they appear harmless and friendly, their true personality is coldly vicious. Put simply, Tarek will destroy anyone in the way of their goal, and they prefers methods that are unnecessarily painful."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Minions of the Skull",
+    "source": "LM",
+    "page": 70,
+    "type": "Undeath",
+    "entries": [
+      {
+        "type": "section",
+        "entries": [
+          "To the average person on the street, the Minions of the Skull would seem insane. Of course, the Minions know that their worship of all undead beings is the one true way of moving beyond the petty concerns of flesh and blood to achieve perfect immortality everlasting.",
+          "As it turns out, the person on the street would be right: the Minions of the Skull are absolutely insane. However, this insanity makes them all the more dangerous, since they have no compunction against destroying any living creature who poses even the slightest threat to their goals of universal undeath.",
+          "The Minions of the Skull have no centralized leadership or organization. Each group of cultists—which might number anywhere from a half-dozen to several dozen, depending on the community and the personality of its leader—operates on its own, though occasionally charismatic leaders unite multiple branches for particularly daring or grand schemes. Such alliances rarely last very long, since the innately chaotic nature of the cultists inevitably proves too strong to control.",
+          "As expected, the Minions draw the attention of many sentient undead creatures. Most don't have the foresight to use the Minions effectively, either spending them in foolish strikes against the living or merely consuming them as food. However, wiser undead (including liches, vampires, ghosts, mummies, and the like) may use the Minions as pawns in grander schemes.",
+          "Cult leaders, often called Undying Masters, are usually powerful wizards or sorcerers. Since the cult doesn't venerate any of the traditional deities (save for a few who quietly worship Vecna the lich-god), clerics are few and far between. They typically employ warriors and other martial combatants as bodyguards, promising these individuals transformation into powerful undead creatures as reward for loyal service. An Undying Master that has already achieved transformation into an undead uses its new status to gain even greater respect and awe from other minions.",
+          {
+            "type": "entries",
+            "name": "In Your Campaign",
+            "entries": [
+              "The Minions of the Skull make great foes for the party. Since they're irrevocably vile and evil, most characters have few compunctions about cutting them down by the dozens. However, no matter how many the characters defeat, a few more insane cultists always wait in the wings to give them a hard time.",
+              "A typical encounter with low-ranking Minions might occur when the characters run across (or are hired to stop) a group of cultists stealing various relics linked to deities of death. For a twist, have an evil temple, such as one dedicated to Nerull, hire the party to work together against the cult. As the characters learn more about the Minions of the Skull, they encounter ever-tougher cultists until they finally meet an Undying Master themselves."
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Necromantic Boons",
+            "entries": [
+              "High ranking Minions are granted boons that represent a partial transformation into an undead being, sometimes as a reward for faithful service, but more often as a way for an Undead Master to gain obedience or loyalty within a given cult.",
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Half-Dead Nature",
+                    "entries": [
+                      "The cultist doesn't require air, food, drink, or sleep."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Decayed Flesh",
+                    "entries": [
+                      "A creature that touches the cultist or hits it with a melee attack while within 5 feet of it takes 5 ({@damage 1d10}) necrotic damage."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Sample Member",
+            "entries": [
+              "{@creature Tival|LM} was once a normal half-orc ranger that wanted to live her own life. However, one of the Undying Masters cursed her with eternal life and forced her to become a member of the Minions of the Skull for some undisclosed reason. Compelled by her master to carry out atrocious acts of violence in the cult's name, Tival's mind has been driven to the brink of insanity, but she still searches for a way to remove this curse and to escape the cult's clutches once and for all.",
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Half-Dead Nature",
+                    "entries": [
+                      "Tival doesn't require air, food, drink, or sleep."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pandorym the Utter Annihilation",
+    "source": "EdE",
+    "page": 10,
+    "type": "Elder Evil",
+    "cultists": {
+      "entry": "Any aberration, {@creature cult fanatic}, {@creature cultist}, any psionicist, {@creature quell|EdE}, {@creature shadow}"
+    },
+    "signatureSpells": {
+      "entry": "{@spell Encode thoughts|ggr} (cantrip), {@spell detect evil and good} (1st level), {@spell detect thoughts} (2nd level), {@spell fly} (3rd level)"
+    },
+    "entries": [
+      "Despite Pandorym's attempts to manipulate mortals into freeing him, any attempt to serve the Utter Annihilation typically ends in the death or undeath of the cultist. Most who encounter Pandorym's mind usually have their minds collapse into madness or savagery, but there may be some, like Lucather Majii, that retain enough sanity to act on his behalf.",
+      "Whether or not its mind is completely shattered, the influence of Pandorym monopolizes a cultist's mind and psyche, granting it the Stained Psyche trait. You may also choose to have cultists of Pandorym gain psionic abilities via the Innate Spellcasting (Psionics) trait, depending on the context of the cultists' worship and the campaign setting you wish to insert Pandorym into.",
+      {
+        "type": "entries",
+        "name": "Stained Psyche",
+        "entries": [
+          "The cultist is immune to any spell or effect that would read its thoughts, determine if it is lying, charm or frighten it, or magically influence its thoughts or behavior, unless the spell or effect comes from Pandorym."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Innate Spellcasting (Psionics)",
+        "entries": [
+          "The cultist's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no components:",
+          {
+            "type": "list",
+            "items": [
+              "At will: {@spell jump}, {@spell mage hand} (the hand is invisible)",
+              "2/day each: {@spell command}, {@spell misty step}",
+              "1/day each: {@spell haste} (self only), {@spell telekinesis}"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ragnorra the Mother of Monsters",
+    "source": "EdE",
+    "page": 11,
+    "type": "Elder Evil",
+    "cultists": {
+      "entry": "{@creature Aboleth sarcoma|EdE}, {@creature acolyte}, {@creature cult fanatic}, {@creature cultist}, any malshaper"
+    },
+    "signatureSpells": {
+      "entry": "{@spell Guidance} (cantrip), {@spell cure wounds} (1st level), {@spell alter self} (2nd level), {@spell plant growth} (3rd level)"
+    },
+    "entries": [
+      "Ragnorra has twisted life not just on the Material Plane, but also in the Feywild and the Shadowfell. A handful of refugees from her prior ravages on these planes formed the Malshapers, a cultlike group dedicated to helping the Mother of Monsters perform her grotesque art. These fanatics believe they have a duty to guide Ragnorra to every suitable world. Scholars note, though, that they never target worlds on their home planes.",
+      "The Malshapers watch the Astral Plane for signs of Ragnorra's ascent. Once they detect movement, they scout out a suitable location. They strew samples of native life along her likely path, then redraw the astral runes to lure Ragnorra to the target world.",
+      "While some standalone cultists or groups who pledge themselves to Ragnorra may exist, most cultists of Ragnorra are sought out by the Malshapers in order to join their ranks. Either way, cultists of Ragnorra receive both the Warped Flesh trait and the Sculpt Flesh action option.",
+      {
+        "type": "entries",
+        "name": "Warped Flesh",
+        "entries": [
+          "The cultist has advantage on saving throws against poison, and it is immune to disease. Additionally, any critical hit against the cultist becomes a normal hit."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Sculpt Flesh {@recharge 6}",
+        "entries": [
+          "The cultist touches one creature within 5 feet of it. The target must succeed on a DC 15 Constitution saving throw or have its flesh warped by unnatural growth, covering it in blisters and tumors. While its flesh is warped in this way, the target is {@condition poisoned}, its speed is reduced by 10 feet, and it can't use reactions. This effect lasts for 1 minute. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sertrous the Prince of Heretics",
+    "source": "EdE",
+    "page": 11,
+    "type": "Elder Evil",
+    "cultists": {
+      "entry": "{@creature Acolyte}, {@creature commoner}, {@creature cult fanatic}, {@creature cultist}, any demon, {@creature priest}, any yuan-ti"
+    },
+    "signatureSpells": {
+      "entry": "{@spell Sacred flame} (cantrip), {@spell command} (1st level), {@spell suggestion} (2nd level), {@spell spirit guardians} (3rd level)"
+    },
+    "entries": [
+      "The Vanguard of Sertrous is made up of yuan-ti cultists whose teachings are secretly passed down by the decapitated head of their demonic patron. However, as Sertrous's teachings become more widespread, independent heretics may begin to spread the obyrith lord's words throughout normal civilization in the campaign world.",
+      "Followers of the teachings of Sertrous are granted the Disciple of Sertrous trait for their loyalty. Additionally, those that do not fear death and do not wish to be revived by their allies may have the Testament of Faith trait.",
+      {
+        "type": "entries",
+        "name": "Disciple of Sertrous",
+        "entries": [
+          "The cultist has advantage on saving throws against divine spells, which are spells cast by clerics, paladins, druids, rangers, celestials, and other sources the DM deems appropriate."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Testament of Faith",
+        "entries": [
+          "When the cultist is reduced to 0 hit points, it explodes in a burst of divine energy. Each creature within 10 feet of the cultist must make a DC 15 Constitution saving throw, taking 14 ({@damage 4d6}) radiant damage on a failed save, or half as much damage on a successful one. The cultist and everything it is wearing and carrying, except magic items, is reduced to a pile of fine gray dust by this explosion. The cultist's soul then passes into Sertrous's realm in the Abyss; the cultist can't become undead or be brought back to life by any means short of a {@spell wish} spell."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tharizdun the Chained God",
+    "source": "EdE",
+    "page": 2,
+    "type": "Elder Evil",
+    "cultists": {
+      "entry": "{@creature Cult fanatic}, {@creature cultist}, any demon, any evil elemental, any Far Realm aberration, any kuo-toa"
+    },
+    "signatureSpells": {
+      "entry": "{@spell Eldritch blast} (cantrip), {@spell command} (1st level), {@spell darkness} (2nd level), {@spell enemies abound|xge} (3rd level)"
+    },
+    "entries": [
+      "Cults dedicated to Tharizdun take on many forms, including Cults of Elemental Evil and secret gatherings of demon worshippers. Many cultists of the Ebon God also take the form of individuals or small groups that serve his will directly. Despite this disorganization, each and every cultist of Tharizdun receives orders from Shothragot or some other extension of Tharizdun's will.",
+      "Cultists that are corrupted by Tharizdun's influence sometimes gain the Tharizdun's Spark or Blessing of Tharizdun abilities below.",
+      {
+        "type": "entries",
+        "name": "Tharizdun's Spark {@recharge}",
+        "entries": [
+          "As a bonus action, the cultist touches a simple or martial weapon or a natural weapon, if it has one. The next creature hit by the touched weapon must succeed on a DC 15 Wisdom saving throw or experience short-term madness for 10 minutes. Consult the Short-Term Madness table (see \"{@book Madness Effects|dmg|8|Madness Effects}\" in chapter 8 of the Dungeon Master's Guide) to determine the form of the madness. The affected creature can repeat the saving throw at the end of each minute, ending the effect on itself on a success."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Blessing of Tharizdun",
+        "entries": [
+          "When the cultist takes damage, it can use its reaction to force each hostile creature within 10 feet of it to make a DC 15 Intelligence saving throw. On a failed save, a creature takes half the damage the cultist took as psychic damage."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Hulks of Zoretha",
+    "source": "EdE",
+    "page": 10,
+    "type": "Elder Evil",
+    "cultists": {
+      "entry": "{@creature Berserker}, {@creature bugbear}, {@creature cult fanatic}, {@creature cultist}, {@creature ogre}, {@creature orc}, {@creature troll}"
+    },
+    "signatureSpells": {
+      "entry": "{@spell Vicious mockery} (cantrip), {@spell Tasha's hideous laughter} (1st level), {@spell blindness/deafness} (2nd level), {@spell enemies abound|xge} (3rd level)"
+    },
+    "entries": [
+      "{@creature Janwulf the Soulbiter|EdE} rules the cultists of Zoretha with an iron fist, leading them on raids of surrounding settlements and actively recruiting new members. Janwulf himself is not faithful, instead abusing the low intelligence of many berserkers, ogres, and trolls in order to retain his power over them. There are also devotees that act alone, perhaps because they went mad reading the {@item Zoretha Scrolls|EdE} or were exposed to the Hulks themselves for too long.",
+      "Cultists of the Hulks of Zoretha embrace their madness, allowing them to resist mental manipulation or control via the Madness of Zoretha trait. Some cultists can also impose madness onto others via the Mental Overload action option.",
+      {
+        "type": "entries",
+        "name": "Madness of Zoretha",
+        "entries": [
+          "The cultist is immune to any spell or effect that would read its thoughts, determine if it is lying, {@condition charmed|phb|charm} or {@condition frightened|phb|frighten} it, or magically influence its thoughts or behavior, unless the spell or effect comes from the Hulks of Zoretha."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Mental Overload (2/Day)",
+        "entries": [
+          "One creature that can see or hear the cultist must succeed on a DC 15 Wisdom saving throw or experience long-term madness for 8 hours. Consult the {@table Long-Term Madness} table to determine the form of the madness. The affected creature can repeat the saving throw at the end of each hour, ending the effect on itself on a success."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Leviathan",
+    "source": "EdE",
+    "page": 10,
+    "type": "Elder Evil",
+    "cultists": {
+      "entry": "{@creature Brine cultist|EdE}, {@creature cult fanatic}, {@creature cultist}, any elemental, {@creature ixitxachitl|OotA}, {@creature kraken priest|vgm}, any kuo-toa, {@creature mage}, {@creature sea spawn|vgm}"
+    },
+    "signatureSpells": {
+      "entry": "{@spell Shape water|xge} (cantrip), {@spell chaos bolt|xge} (1st level), {@spell enlarge/reduce} (2nd level), {@spell water breathing} (3rd level)"
+    },
+    "entries": [
+      "Cultists of The Leviathan are categorized by one interest: chaos. While some cultists pledge their loyalty to a demon lord, others might be ambitious spellcasters who wish to channel chaotic energy in the pursuit of power. With that in mind, chaotic evil cultists are more likely to be Cultists of The Leviathan, as they are more likely to seek The Leviathan's power despite the potential loss of life it may cause.",
+      "Cultists of The Leviathan are capable of manipulating the forces of chaos, granting them the Conduit of Chaos trait. Some cultists can also channel chaotic energies directly via the Innate Spellcasting trait.",
+      {
+        "type": "entries",
+        "name": "Conduit of Chaos",
+        "entries": [
+          "When the cultist casts a spell that deals damage, it can change the spell's damage type to cold, fire, force, lightning, or thunder."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Innate Spellcasting",
+        "entries": [
+          "The cultist's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:",
+          {
+            "type": "list",
+            "items": [
+              "At will: {@spell chaos bolt|xge}, {@spell create or destroy water}",
+              "2/day each: {@spell misty step}, {@spell protection from energy}",
+              "1/day each: {@spell call lightning}, {@spell watery sphere|xge}"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Ruby Order",
+    "source": "LM",
+    "page": 71,
+    "type": "Undeath",
+    "entries": [
+      {
+        "type": "section",
+        "entries": [
+          "This cult worships Wee Jas, particularly her incarnation as Death's Guardian. The members pride themselves on their dedication and discipline and are known widely for their expertise in necromantic magic.",
+          "The existence of the Ruby Order in a given city is typically public knowledge. The cult respects whatever government rules the land, follows the law, pays taxes, and so forth. It draws many arcane-minded characters to its ranks, and even more seek out the Order for short-term teaching. In some cities, the Order supplies advisors to local leaders, or even magistrates for the courts. Characters used to dealing with \"cults\" as secretive bands of renegades are in for trouble if they treat the Ruby Order similarly, since it has many allies, both legitimate and otherwise.",
+          "",
+          {
+            "type": "entries",
+            "name": "In Your Campaign",
+            "entries": [
+              "Of the cults presented here, the Ruby Order is the best suited as an ally to a typical adventuring party. As a lawful neutral organization, the Ruby Order can be counted on to hold up its end of any bargain, making it a reliable source of information and other resources to a like-minded party. Monks, lawful wizards and sorcerers, and other characters who share a devotion to discipline can find acceptance or even training among the order's ranks.",
+              "Conversely, the Ruby Order can be a steadfast opponent to the characters of your campaign, particularly if those characters tend more toward chaos than law (or even if they simply have a distaste for necromancy). If the Ruby Order perceives the characters as enemies, they have the will and patience to make the characters' lives a living hell."
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Necromantic Boons",
+            "entries": [
+              "As part of their dedication to discipline, the Ruby Order's necromantic boons are centered around the use of necromancy to perform lawful acts and to oppose any chaotic entities that would threaten them.",
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Lawful Animation (1/Day)",
+                    "entries": [
+                      "The cultist can spend 1 hour performing a ritual that animates the remains of a dead humanoid. If the humanoid's spirit is free and willing, it returns to the corpse, which rises as a undead in the same space. The undead's alignment, memories, and personality traits are the same as those that it had in life. The corpse may rise as a wight or some other form that the DM deems appropriate."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Rebuke the Unlawful",
+                    "entries": [
+                      "When a creature within 30 feet of the cultist that it can see hits the cultist with an attack, that creature takes necrotic damage equal to the damage dealt by its attack (DC 15 Constitution save for half)."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Sample Member",
+            "entries": [
+              "{@creature Marys|LM} is a new member of the Ruby Order, and seeks to prove her worth to the cult by forbidding herself all earthly pleasures. Unfortunately, her discipline is not yet strong enough to achieve this goal. After her periodic \"binges\", she absolves her guilt by smiting those who tempted her. For best effect, characters should encounter her first while in her ascetic mode, to set her up as a disciplined individual, only to meet her later in the midst of debauchery or while striking down her tempters."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Zargon the Returner",
+    "source": "EdE",
+    "page": 11,
+    "type": "Elder Evil",
+    "cultists": {
+      "entry": "{@creature Acolyte}, {@creature cult fanatic}, {@creature cultist}, {@creature oozeblade|EdE}, {@creature slime shaman|vgm}"
+    },
+    "signatureSpells": {
+      "entry": "{@spell Acid splash} (cantrip), {@spell bane} (1st level), {@spell Melf's acid arrow} (2nd level), {@spell fireball} (3rd level)"
+    },
+    "entries": [
+      "After being driven from the Nine Hells, Zargon turned his attention to the Material Plane. It took centuries, but he crawled up from the depths of the earth and set upon the soft mortals dwelling in the Cynidicean Kingdom above. To spare themselves extinction, the people of the kingdom raised up Zargon as their god and fed him endless sacrifices to appease his need to kill. While the descendants of these original cultists are still instilled with the fear of being devoured by Zargon, make no mistake: many of these cultists are dedicated to Zargon and would sacrifice their lives in his name.",
+      "Cultists that are corrupted by Zargon's influence sometimes gain the Corrosive Form or Foul traits below.",
+      {
+        "type": "entries",
+        "name": "Corrosive Form",
+        "entries": [
+          "A creature that touches the cultist or hits it with a melee attack while within 5 feet of it takes 4 ({@damage 1d8}) acid damage."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Foul",
+        "entries": [
+          "Any creature, other than an ooze or another creature that has this trait, that starts its turn within 10 feet of the cultist must succeed on a DC 15 Constitution saving throw or be {@condition poisoned} until the start of the creature's next turn."
+        ]
+      }
+    ]
+  }
+]

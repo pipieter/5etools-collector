@@ -1,11 +1,11 @@
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync, readdirSync } from 'fs';
 import path from 'path';
 
 function read(path: string): any {
   return JSON.parse(readFileSync(path).toString());
 }
 
-function write(dir: string, file: string, contents: any[]): any {
+function writeJson(dir: string, file: string, contents: any[]): any {
   function sort(a: any, b: any) {
     const keyA = `${a.name} (${a.source})`;
     const keyB = `${b.name} (${b.source})`;
@@ -23,10 +23,12 @@ function write(dir: string, file: string, contents: any[]): any {
 
 class Collector {
   public readonly basePath: string;
+  public readonly outPath: string;
   public readonly data = new Map<string, any[]>();
 
-  constructor(path: string) {
-    this.basePath = path;
+  public constructor(basePath: string, outPath: string) {
+    this.basePath = basePath;
+    this.outPath = outPath;
   }
 
   private add(key: string, value: any | any[]): void {
@@ -84,10 +86,15 @@ class Collector {
   public get(key: string): any[] {
     return this.data.get(key) ?? [];
   }
+
+  public write(filename: string, key: string) {
+    if (!existsSync(this.outPath)) mkdirSync(this.outPath, { recursive: true });
+    writeJson(this.outPath, `${filename}.json`, this.get(key));
+  }
 }
 
-function official() {
-  const collector = new Collector('./5etools-src/data');
+function officialCollector(): Collector {
+  const collector = new Collector('./5etools-src/data', './data/official');
 
   collector.addFile('actions.json');
   collector.addFile('adventures.json');
@@ -126,33 +133,54 @@ function official() {
   collector.addIndex('spells', 'fluff-index.json');
   collector.addSpellSources('spells/sources.json');
 
-  if (!existsSync('./data/official')) mkdirSync('./data/official', { recursive: true });
+  return collector;
+}
 
-  write('./data/official', 'actions.json', collector.get('action'));
-  write('./data/official', 'backgrounds.json', collector.get('background'));
-  write('./data/official', 'background-fluffs.json', collector.get('backgroundFluff'));
-  write('./data/official', 'boons.json', collector.get('boon'));
-  write('./data/official', 'cults.json', collector.get('cult'));
-  write('./data/official', 'deities.json', collector.get('deity'));
-  write('./data/official', 'feats.json', collector.get('feat'));
-  write('./data/official', 'hazards.json', collector.get('hazard'));
-  write('./data/official', 'items.json', collector.get('item'));
-  write('./data/official', 'items-base.json', collector.get('baseitem'));
-  write('./data/official', 'item-masteries.json', collector.get('itemMastery'));
-  write('./data/official', 'item-properties.json', collector.get('itemProperty'));
-  write('./data/official', 'item-types.json', collector.get('itemType'));
-  write('./data/official', 'item-fluffs.json', collector.get('itemFluff'));
-  write('./data/official', 'languages.json', collector.get('language'));
-  write('./data/official', 'spells.json', collector.get('spell'));
-  write('./data/official', 'classes.json', collector.get('class'));
-  write('./data/official', 'spell-sources.json', collector.get('spellSource'));
-  write('./data/official', 'skills.json', collector.get('skill'));
-  write('./data/official', 'tables.json', collector.get('table'));
-  write('./data/official', 'traps.json', collector.get('trap'));
+function partneredCollector(): Collector {
+  const source = './5etools-homebrew/data';
+  const collector = new Collector(source, './data/partnered');
+
+  for (const type of readdirSync(source, { withFileTypes: true })) {
+    if (!type.isDirectory()) continue;
+
+    for (const file of readdirSync(path.join(source, type.name), { withFileTypes: true })) {
+      if (!file.isFile()) continue;
+
+      const subpath = path.join(type.name, file.name);
+      collector.addFile(subpath);
+    }
+  }
+
+  return collector;
 }
 
 function main() {
-  official();
+  const official = officialCollector();
+  const partnered = partneredCollector();
+
+  for (const collector of [official, partnered]) {
+    collector.write('actions', 'action');
+    collector.write('backgrounds', 'background');
+    collector.write('background-fluffs', 'backgroundFluff');
+    collector.write('boons', 'boon');
+    collector.write('cults', 'cult');
+    collector.write('deities', 'deity');
+    collector.write('feats', 'feat');
+    collector.write('hazards', 'hazard');
+    collector.write('items', 'item');
+    collector.write('items-base', 'baseitem');
+    collector.write('item-masteries', 'itemMastery');
+    collector.write('item-properties', 'itemProperty');
+    collector.write('item-types', 'itemType');
+    collector.write('item-fluffs', 'itemFluff');
+    collector.write('languages', 'language');
+    collector.write('spells', 'spell');
+    collector.write('classes', 'class');
+    collector.write('spell-sources', 'spellSource');
+    collector.write('skills', 'skill');
+    collector.write('tables', 'table');
+    collector.write('traps', 'trap');
+  }
 }
 
 main();

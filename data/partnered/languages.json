@@ -1,0 +1,3210 @@
+[
+  {
+    "name": "Abysian",
+    "source": "EddieGPantheonOfMyr",
+    "page": 0,
+    "type": "exotic",
+    "entries": [
+      "Language spoken almost exclusively by the solitary Abysians beneath the Smouldercone."
+    ]
+  },
+  {
+    "name": "Abyssal",
+    "source": "CaChRn",
+    "entries": [
+      "{@note Placeholder}"
+    ]
+  },
+  {
+    "name": "Abyssal",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Goats",
+      "Demons",
+      "Minotaurs in the service of Goats"
+    ],
+    "script": "Infernal"
+  },
+  {
+    "name": "Adaean",
+    "source": "WorldofArcheria",
+    "typicalSpeakers": [
+      "Adaeans"
+    ]
+  },
+  {
+    "name": "Adûnaic",
+    "source": "TLotRR",
+    "page": 201,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Númenóreans"
+    ],
+    "entries": [
+      "The Númenórean language, spoken by the Men of Númenor during the Second Age."
+    ]
+  },
+  {
+    "name": "Aeramanu",
+    "source": "COMLanguage",
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@creature aarakocra|PHB}",
+      "{@race Aeramanu|CDR}"
+    ],
+    "script": "none",
+    "entries": [
+      "Aeramanu speech is punctuated with chirps, which they use to add meaning to their words much as humans use facial expressions. However, this can lead to miscommunication when other races fail to pick up on these cues."
+    ]
+  },
+  {
+    "name": "Agarthan",
+    "source": "EddieGPantheonOfMyr",
+    "page": 0,
+    "type": "standard",
+    "entries": [
+      "Language spoken by the humans of Agartha."
+    ]
+  },
+  {
+    "name": "Ahwa",
+    "source": "COMLanguage",
+    "page": 1,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "Merdhrai"
+    ],
+    "script": "Elvish",
+    "entries": [
+      "Merdhrai's own {@language Sylvan|COMLanguage|Merdhrai} dialect. Known as {@i Ahwa}, it is made up equally of spoken words, hand signals and gestures for use underwater. Native speakers of Ahwa are often considered terse and imprecise when speaking entirely vocalized languages."
+    ]
+  },
+  {
+    "name": "Aklo",
+    "source": "midgardworldbook",
+    "page": 0,
+    "type": "exotic",
+    "entries": [
+      "The language of aboleths, derro, linnorms, underworld. Rarely heard on the surface."
+    ]
+  },
+  {
+    "name": "Ancient",
+    "source": "ccg",
+    "page": 9,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "the Precursors (now extinct)"
+    ],
+    "script": "Runic",
+    "entries": [
+      "{@b Ancient} is the language of the long-dead Precursors. Few today can understand it, and none can speak it."
+    ]
+  },
+  {
+    "name": "Ankeshelian",
+    "source": "midgardworldbook",
+    "page": 0,
+    "type": "exotic",
+    "entries": [
+      "A dead human language, more than 3,000 years old, whose runes and glyphs are still used in magical writing today."
+    ]
+  },
+  {
+    "name": "Ankeshelian",
+    "source": "midgardworldbook",
+    "page": 44,
+    "type": "exotic",
+    "entries": [
+      "A dead human language, more than 3,000 years old, whose runes and glyphs are still used in magical writing today."
+    ]
+  },
+  {
+    "name": "Anorian",
+    "source": "EddieGPantheonOfMyr",
+    "page": 0,
+    "type": "standard",
+    "entries": [
+      "Language spoken by the tribes of Anor Luna. Although tribes have different dialects, none are so extreme to unintelligible to the others."
+    ]
+  },
+  {
+    "name": "Anubian",
+    "source": "SandsOfDoom",
+    "page": 7,
+    "type": "rare",
+    "typicalSpeakers": [
+      "{@creature Gnoll||gnolls}",
+      "{@creature Gnoll Pack Lord||gnoll pack lords}",
+      "{@creature Gnoll Fang of Yeenoghu||gnoll fangs of Yeenoghu}",
+      "{@creature Lord Ammu, The Last Pharaoh|SandsOfDoom}",
+      "{@creature Prophecy|SandsOfDoom}",
+      "{@creature Drazul, Herald of the Serpent|SandsOfDoom}",
+      "{@creature Rumbold Tomekeeper|SandsOfDoom}",
+      "{@creature Aku'Tal|SandsOfDoom}",
+      "{@creature Anubian Footman|SandsOfDoom}",
+      "{@creature Anubian Reaver|SandsOfDoom}",
+      "{@creature Anubian Scout|SandsOfDoom}",
+      "{@creature Anubian Rogue|SandsOfDoom}",
+      "{@creature Anubian Cleric|SandsOfDoom}",
+      "{@creature Anubian Curse-Bringer|SandsOfDoom}",
+      "{@creature Anubian Enchanter|SandsOfDoom}",
+      "{@creature Anubian Magus|SandsOfDoom}",
+      "{@creature Anubian Ironclad|SandsOfDoom}",
+      "{@creature Anubian Sergeant|SandsOfDoom}",
+      "{@creature Anubian Yellow-Cloak|SandsOfDoom}",
+      "{@creature Anubian Brute|SandsOfDoom}",
+      "{@creature Anubian Champion|SandsOfDoom}",
+      "{@creature Anubian High Priest|SandsOfDoom}",
+      "{@creature Prophecy|SandsOfDoom}",
+      "{@creature Anamnesis|SandsOfDoom}",
+      "{@creature Souk, Wielder of the Golden Spear|SandsOfDoom}",
+      "{@creature Kairos, Commander of Al'Kirat's Army|SandsOfDoom}",
+      "{@creature High Commander Annubarack|SandsOfDoom}",
+      "{@creature Brass Titan|SandsOfDoom}",
+      "{@creature High Priest Asmara|SandsOfDoom}",
+      "{@creature Mantell Darsk|SandsOfDoom}",
+      "{@creature Brass Sentinel|SandsOfDoom}",
+      "{@creature Sentinel Neithar|SandsOfDoom}",
+      "{@creature Avatar of Sekhmet|SandsOfDoom}",
+      "{@creature Pack Lord Yz|SandsOfDoom}"
+    ],
+    "entries": [
+      "In {@i Sands of Doom}, the Anubian and the Gnoll language are one and the same. Any reference to one can be treated as a reference to both.",
+      "Though player characters are unlikely to know this language at the outset of the adventure, they will see its symbols etched into ruins and hear it muttered in curses. Characters will unlock the ability to understand and speak it by attuning to a {@adventure Divine Relics|SandsOfDoom|14}"
+    ]
+  },
+  {
+    "name": "Anubian",
+    "source": "SandsOfDoom14",
+    "page": 7,
+    "type": "rare",
+    "typicalSpeakers": [
+      "{@creature Gnoll||gnolls}",
+      "{@creature Gnoll Pack Lord||gnoll pack lords}",
+      "{@creature Gnoll Fang of Yeenoghu||gnoll fangs of Yeenoghu}",
+      "{@creature Lord Ammu, The Last Pharaoh|SandsOfDoom14}",
+      "{@creature Prophecy|SandsOfDoom14}",
+      "{@creature Drazul, Herald of the Serpent|SandsOfDoom14}",
+      "{@creature Rumbold Tomekeeper|SandsOfDoom14}",
+      "{@creature Aku'Tal|SandsOfDoom14}",
+      "{@creature Anubian Footman|SandsOfDoom14}",
+      "{@creature Anubian Reaver|SandsOfDoom14}",
+      "{@creature Anubian Scout|SandsOfDoom14}",
+      "{@creature Anubian Rogue|SandsOfDoom14}",
+      "{@creature Anubian Cleric|SandsOfDoom14}",
+      "{@creature Anubian Curse-Bringer|SandsOfDoom14}",
+      "{@creature Anubian Enchanter|SandsOfDoom14}",
+      "{@creature Anubian Magus|SandsOfDoom14}",
+      "{@creature Anubian Ironclad|SandsOfDoom14}",
+      "{@creature Anubian Sergeant|SandsOfDoom14}",
+      "{@creature Anubian Yellow-Cloak|SandsOfDoom14}",
+      "{@creature Anubian Brute|SandsOfDoom14}",
+      "{@creature Anubian Champion|SandsOfDoom14}",
+      "{@creature Anubian High Priest|SandsOfDoom14}",
+      "{@creature Prophecy|SandsOfDoom14}",
+      "{@creature Prophecy|SandsOfDoom14}",
+      "{@creature Anamnesis|SandsOfDoom14}",
+      "{@creature Anamnesis|SandsOfDoom14}",
+      "{@creature Souk, Wielder of the Golden Spear|SandsOfDoom14}",
+      "{@creature Kairos, Commander of Al'Kirat's Army|SandsOfDoom14}",
+      "{@creature High Commander Annubarack|SandsOfDoom14}",
+      "{@creature Brass Titan|SandsOfDoom14}",
+      "{@creature High Priest Asmara|SandsOfDoom14}",
+      "{@creature Mantell Darsk|SandsOfDoom14}",
+      "{@creature Brass Sentinel|SandsOfDoom14}",
+      "{@creature Sentinel Neithar|SandsOfDoom14}",
+      "{@creature Avatar of Sekhmet|SandsOfDoom14}",
+      "{@creature Pack Lord Yz|SandsOfDoom14}"
+    ],
+    "entries": [
+      "In {@i Sands of Doom}, the Anubian and the Gnoll language are one and the same. Any reference to one can be treated as a reference to both.",
+      "Though player characters are unlikely to know this language at the outset of the adventure, they will see its symbols etched into ruins and hear it muttered in curses. Characters will unlock the ability to understand and speak it by attuning to a {@adventure Divine Relics|SandsOfDoom14|14}"
+    ]
+  },
+  {
+    "name": "Aquan",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "Water Elementals",
+      "Sirens"
+    ],
+    "script": "Carnivoran"
+  },
+  {
+    "name": "Aquan",
+    "source": "WrathOfTheKaiju",
+    "page": 286,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@filter elementals|bestiary|type=elemental}"
+    ],
+    "script": "Primordial",
+    "entries": [
+      "Primordial is a guttural language, filled with harsh syllables and hard consonants."
+    ],
+    "hasFluffImages": true
+  },
+  {
+    "name": "Arachnos",
+    "source": "COMLanguage",
+    "type": "rare",
+    "typicalSpeakers": [
+      "{@race Spidara|COMRaces}"
+    ],
+    "script": "Elvish",
+    "fonts": [
+      "https://github.com/TheGiddyLimit/homebrew/raw/master/_font/COMLanguage/Arachnos.otf"
+    ],
+    "entries": [
+      "Arachnos is a fluid and fast spoken language, where the inflections put on syllables and words are very important to the meaning. These characteristics sometimes carry over when spidarans speak other languages, with them speaking too fast and using inflections in ways that may not sound right to others."
+    ],
+    "fluff": {
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://www.dafont.com/img/preview/h/a/handmades1.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Arak",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "people of Shadow Rift/Arak"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Archaic First Age Languages",
+    "source": "ObojimaTallGrass",
+    "page": 156,
+    "type": "rare",
+    "entries": [
+      "The objects and structures from the island's earliest age contain a variety of written languages known to the islanders as First Age languages. Other than the academics who devote themselves to studying these mysterious languages, people generally know only a handful of words."
+    ]
+  },
+  {
+    "name": "Arcoscephalean",
+    "source": "EddieGPantheonOfMyr",
+    "page": 0,
+    "entries": [
+      "Language spoken by the humans of Arcoscephale."
+    ]
+  },
+  {
+    "name": "Astran",
+    "source": "BDPC",
+    "page": 4,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@race Astran|BDPC|Astrans}"
+    ],
+    "entries": [
+      "Astran is a language different from all other worldly languages, and many of its words and common sounds are difficult for other races to pronounce. The different intonations used by this language often spill into the other languages an astran knows, causing them to often emphasize the wrong part of a word, or even order their sentences in a non-standard manner."
+    ]
+  },
+  {
+    "name": "Atlantean",
+    "source": "EddieGPantheonOfMyr",
+    "page": 0,
+    "type": "standard",
+    "entries": [
+      "Language spoken by the psychic Atlanteans. It does not translate well when spoken."
+    ]
+  },
+  {
+    "name": "Auran",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Air Elementals",
+      "Hippogriff",
+      "Those Anthro Birds from the movie"
+    ],
+    "script": "Carnivoran"
+  },
+  {
+    "name": "Auri",
+    "source": "FFXIV",
+    "page": 6,
+    "entries": [
+      "The language of {@race Au Ra|FFXIV}. The Auri language does not include gender or numbered nouns or verbs, causing an Au Ra to mislabel things sometimes when speaking another language."
+    ]
+  },
+  {
+    "name": "Auri",
+    "source": "FFXIVBeforetheFall",
+    "page": 6,
+    "entries": [
+      "The language of {@race Au Ra|FFXIVBeforetheFall}. The Auri language does not include gender or numbered nouns or verbs, causing an Au Ra to mislabel things sometimes when speaking another language."
+    ]
+  },
+  {
+    "name": "Aviala",
+    "source": "COMLanguage",
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@race Aviala|COMRaces}"
+    ],
+    "script": "none",
+    "entries": [
+      "Due to the fact that you have a beak, you have the ability to converse with birds. However, only with those assigned to the size category \"Small\"."
+    ]
+  },
+  {
+    "name": "Balok",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "people of Shadow Rift/Arak",
+      "people of Arkandale",
+      "people of Barovia",
+      "people of Borca/Dorvinia",
+      "people of Gundarak",
+      "people of Hazlan",
+      "people of Invidia",
+      "people of Kartakass",
+      "people of Nova Vaasa",
+      "people of Richemulot",
+      "people of Sithicus",
+      "people of Verbrek",
+      "people of Falkovnia",
+      "people of Dominia",
+      "people of Markovia",
+      "people of The Eyrie"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Basitin",
+    "source": "BasitinFF",
+    "typicalSpeakers": [
+      "Basitin"
+    ],
+    "script": "Basitin"
+  },
+  {
+    "name": "Bee Dance",
+    "source": "ToB2",
+    "page": 392,
+    "entries": [
+      "{@creature giant honey bee|tob2|Giant honey bees} are rarely idle, often moving in elaborate, waggling dances of spirals and loops. This \"dance\" is actually a complex language the bees use to share staggeringly accurate directions and information about nearby threats and food sources with the rest of their hive.",
+      {
+        "type": "inset",
+        "name": "Bee Dance Language",
+        "entries": [
+          "A character who has established peaceful contact with giant honey bees can learn Bee Dance as a language as outlined in the {@variantrule downtime activity: training|xge|downtime rules}.",
+          "While any character who learns it can understand language Bee Dance, a creature other than a giant honey bee can only convey basic concepts. A character who assumes the shape of a giant honey bee can communicate fully using the language"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Birdfolk",
+    "source": "HumblewoodCampaignSetting",
+    "page": 34,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Birdfolk",
+      "Humblefolk"
+    ],
+    "script": "Birdfolk",
+    "fonts": [
+      "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/font/HumblewoodCampaignSetting/hpphumblescratch-webfont.woff2"
+    ],
+    "entries": [
+      "Birdfolk is a language of clicks, caws, and whistles. Though primarily oral, a system for writing Birdfolk in pictograms was developed long before the founding of Alderheart and has since transformed into a set of abstract glyphs representing different sounds. Birdfolk can be written quickly with a quill, or scratched easily with a claw, and has been widely adopted throughout the Wood."
+    ],
+    "fluff": {
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodCampaignSetting/book/Languages.webp"
+          },
+          "width": 584,
+          "height": 776
+        }
+      ]
+    }
+  },
+  {
+    "name": "Black Speech",
+    "source": "TLotRR",
+    "page": 158,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Wights",
+      "Wraiths",
+      "The Wight-King"
+    ],
+    "entries": [
+      "Created by Sauron to be the sole language of all the servants of Mordor, replacing the many different varieties of {@language Orkish|TLotRR} and other languages used by his servants"
+    ]
+  },
+  {
+    "name": "Buzzword",
+    "source": "HippocampersCompleteCookbook",
+    "type": "secret",
+    "entries": [
+      "A chittering insectoid dialect sprinkled liberally with popular words and phrases that the colony find amusing. There is no written form of Buzzword. Non-verbal messages are conveyed through a mix of synchronised dance and chemical markers."
+    ]
+  },
+  {
+    "name": "C'Tisian",
+    "source": "EddieGPantheonOfMyr",
+    "page": 0,
+    "type": "standard",
+    "entries": [
+      "Language spoken in Pythium by the C'Tisians, who force it upon their human subjects."
+    ]
+  },
+  {
+    "name": "Caelan",
+    "source": "EddieGPantheonOfMyr",
+    "page": 0,
+    "type": "exotic",
+    "entries": [
+      "Language spoken by the Seraphim of Caelum. It rushes and wanes, like the wind weaving between the mountains."
+    ]
+  },
+  {
+    "name": "Caelmaran",
+    "source": "midgardworldbook",
+    "page": 0,
+    "type": "exotic",
+    "entries": [
+      "A very rare language, a human dialect of Infernal. Still spoken by the Master of Demon Mountain and a few wizards. Grants +1 to a Charisma (Persuasion) ability check or +2 to a Diplomacy skill check with devils, demons, and other fiends 1/day."
+    ]
+  },
+  {
+    "name": "Canine",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Diamond Dogs"
+    ],
+    "script": "Carnivoran"
+  },
+  {
+    "name": "Castinellan",
+    "source": "GHPG",
+    "reprintedAs": [
+      {
+        "edition": "one",
+        "uid": "Castinellan|GrimHollowPG24"
+      }
+    ],
+    "page": 11,
+    "entries": [
+      "The dominant language of the Castinellan Provinces. This language is also used for most of Etharis's religious texts. It was until recently considered a crime to translate the teachings of the Seraphs into a language other than Castinellan. Castinellan is also predominantly spoken in Morencia, making it the most common language used in trade."
+    ]
+  },
+  {
+    "name": "Castinellan",
+    "source": "GrimHollowPG24",
+    "page": 217,
+    "entries": [
+      "The dominant language of the Castinellan Provinces{@sup ({@book PG|GrimHollowPG24|8|The Castinellan Provinces}/{@book CG|GrimHollowCG24|6})}. This language is also used for most of Etharis's religious texts. It was until recently considered a crime to translate the teachings of the Seraphs into a language other than Castinellan. Castinellan is also predominantly spoken in Morencia{@sup ({@book PG|GrimHollowPG24|8|The City of Morencia}/{@book CG|GrimHollowCG24|9})}, making it the most common language used in trade."
+    ]
+  },
+  {
+    "name": "Celestial",
+    "source": "CaChRn",
+    "entries": [
+      "{@note Placeholder}"
+    ]
+  },
+  {
+    "name": "Celestial",
+    "source": "ccg",
+    "page": 9,
+    "type": "standard",
+    "typicalSpeakers": [
+      "devout cult members",
+      "{@filter celestials|bestiary|type=celestial}"
+    ],
+    "script": "Celestial"
+  },
+  {
+    "name": "Celestian",
+    "source": "EddieGPantheonOfMyr",
+    "page": 0,
+    "type": "standard",
+    "entries": [
+      "Language spoken by th Nu-Kua of Ryugo-Jo. Underwater is harsh with guttural and bubbly sounds, but when spoken through air it sounds raspy instead."
+    ]
+  },
+  {
+    "name": "Cervan",
+    "source": "HumblewoodCampaignSetting",
+    "page": 34,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Cervans"
+    ],
+    "entries": [
+      "Cervan is a complex language with no written script. It is seen as disrespectful to try and transcribe it using {@language Birdfolk|HumblewoodCampaignSetting} characters. Much of cervan history is preserved by village elders and passed down orally through the generations as stories, songs, and sayings. The adage, \"What is essential to learn lies in the teaching\", is often invoked to illustrate this point."
+    ]
+  },
+  {
+    "name": "Charneault",
+    "source": "GHPG",
+    "reprintedAs": [
+      {
+        "edition": "one",
+        "uid": "Charneault|GrimHollowPG24"
+      }
+    ],
+    "page": 11,
+    "entries": [
+      "The dominant language of the Charneault Kingdom."
+    ]
+  },
+  {
+    "name": "Charneault",
+    "source": "GrimHollowPG24",
+    "page": 217,
+    "entries": [
+      "The dominant language of the Charneault Kingdom{@sup ({@book PG|GrimHollowPG24|8|The Charneault Kingdom}/{@book CG|GrimHollowCG24|5})}."
+    ]
+  },
+  {
+    "name": "Chondathan",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "people of Aggarath"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Cloven",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Yaks",
+      "Minotaurs",
+      "Elk"
+    ],
+    "script": "Ponish"
+  },
+  {
+    "name": "Common",
+    "source": "ccg",
+    "page": 9,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Prismatic Falls; trade language across all of Aysta"
+    ],
+    "script": "Common"
+  },
+  {
+    "name": "Common",
+    "source": "midgardworldbook",
+    "page": 0,
+    "type": "standard",
+    "entries": [
+      "The most common language in the Crossroads and the Seven Cities. All characters speak it."
+    ]
+  },
+  {
+    "name": "Common",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Everyone"
+    ],
+    "script": "Ponish"
+  },
+  {
+    "name": "Common Signs",
+    "source": "Ar7",
+    "entries": [
+      "Unlike {@language thieves' cant}, which is a pidgin of borrowed signs, verbal words, and symbols from multiple languages, Common Signs is a complete sign language, borrowing from {@language Dwarvish}, {@language Elvish}, and {@language Undercommon}. It is considered a universal language and adapted by disabled communities, especially within cities. As such, most people across the realm can communicate using it.",
+      "Common Signs is designed to be easy to learn, and spellcasters can make use of it to cast their spells. Effects that prevent casting spells with verbal components, such as the area of silence created by the {@spell silence} spell, are still effective against casters who use Common Signs. While affected by such a spell or effect, the caster forgets the important signs needed to cast spells with verbal components."
+    ]
+  },
+  {
+    "name": "Daglander",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "people of Shadow Rift/Arak",
+      "people of Daglan"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Dalish",
+    "source": "TLotRR",
+    "page": 28,
+    "type": "standard",
+    "typicalSpeakers": [
+      "{@race Barding|TLotRR|Bardings}",
+      "{@race Dwarf (Erebor)|TLotRR|Dwarves of Erebor}"
+    ],
+    "script": "Common",
+    "entries": [
+      "A very old form of the {@language Westron|TLotRR|Common Speech}."
+    ]
+  },
+  {
+    "name": "Darakhul",
+    "source": "midgardworldbook",
+    "page": 0,
+    "entries": [
+      "The language of the Ghoul Imperium, also called Ghoulish, Charun's Tongue, or Undercommon, is an offshoot of Common and can be partially understood by surface dwellers who have Intelligence of 15 or higher. It is widely spoken in Morgau and Doresh and by vampires, and thus serves as the common tongue of the undead. Those who speak it gain a +1 bonus to Charisma (Persuasion) ability check or +2 to a Diplomacy skill check with undead 1/day."
+    ]
+  },
+  {
+    "name": "Darkonese",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "people of Shadow Rift/Arak",
+      "people of Nova Vaasa",
+      "people of Richemulot",
+      "people of Darkon",
+      "people of Falkovnia",
+      "people of Keening",
+      "people of Lamordia",
+      "people of Necropolis",
+      "people of Tepest",
+      "people of Blaustein",
+      "people of Sea of Sorrows"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Dementlieuse",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "people of Richemulot"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Doggish",
+    "dialects": [
+      "Wolf"
+    ],
+    "source": "COMLanguage",
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@race Dogfolk|DogFolkRace}",
+      "{@race Hunden|DogFolkRace2}",
+      "{@creature Winter Wolf|MM|winter wolves}",
+      "{@creature Wolf|MM|winter wolves}",
+      "{@creature Dire Wolf|MM|winter wolves}"
+    ],
+    "script": "none",
+    "entries": [
+      "Doggish is a verbal language consisting primarily of barks, howls, and growls."
+    ]
+  },
+  {
+    "name": "Draconic",
+    "source": "CaChRn",
+    "entries": [
+      "{@note Placeholder}"
+    ]
+  },
+  {
+    "name": "Draconic",
+    "source": "ccg",
+    "page": 6,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@filter dragons|bestiary|type=dragon}",
+      "{@filter dragonborn|bestiary|type=humanoid|tag=any race;dragonborn}",
+      "{@creature kobold||kobolds}"
+    ],
+    "script": "Draconic"
+  },
+  {
+    "name": "Draconic",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Dragons",
+      "Kobolds",
+      "Kirin"
+    ],
+    "script": "Draconic"
+  },
+  {
+    "name": "Draconic or Mharoti",
+    "source": "midgardworldbook",
+    "page": 0,
+    "entries": [
+      "The language of drakes, dragons, and dragonkin in the Mharoti Empire. Rarely spoken by non-scaly races, it grants +1 to a Charisma (Persuasion) ability check or +2 to a Diplomacy skill check with scaly creatures 1/day."
+    ]
+  },
+  {
+    "name": "Dromite",
+    "source": "TalvakrisGuidetoAdar",
+    "type": "exotic",
+    "typicalSpeakers": [
+      "Dromites"
+    ],
+    "entries": [
+      "Sarlona's civilizations aren't just found on the surface. Deep below the surface, tunnels connect the city-hives of the dromites, a short, insectoid people with innate psionic powers. Their origins are a mystery to the surface dwellers; dromites notably do not tell their people's history to outsiders, though most assume that they emerged from Khyber. Regardless of the truth, dromites care more about the future than the past. Time already passed is set in stone and can only be carved, never altered. Time yet to be flows like water, ever-changing. Dromites age at about the same rate as humans and can live up to 140 years old.",
+      "Raised in communal clutches, dromites choose their role in society as part of their transition into adulthood. While called 'castes' by outsiders, dromites describe it as an 'essence form', as it informs more than just one's place in society. An essence form is something akin to a gender identity, job title, personality descriptor, physical resistance, and psionic energy manifestation rolled into one. It is ultimately a choice, one that changes a dromite's physical and mental capabilities. Dromites undergo these changes willingly, and choosing one's essence form is cause for great celebration.",
+      "Dromites recognize four primary essence forms. Torch dromites are passionate guards and soldiers, able to manifest arcs of fire through manipulating psionic energy. Ice dromites are methodical lorekeepers, turning this careful mental state into blasts of ice. Voice dromites love performance and artistry, using their voices and sound to emit bursts of thunder. Glimmer dromites are ambitious and energetic artisans, turning their own energy into crackling lightning.",
+      "Each dromite city-hive is ruled by at least one Grand Queen and several Elected Consorts. Each is chosen through democratic elections, and either position can be held by a member of any essence form. Once elected, the city hive pools the collective faith of their people and large amounts of psionic power into the elected dromites, greatly bolstering their psionic abilities. Queen and consorts use this power to create the next generation of dromites within the city hive, devoting most of their time to creating eggs, as dromites have difficulty producing children outside of this process. Even so, their words and proclamations carry weight, and the ruling bodies strive to maintain peace and cohesion among their people.",
+      "City-hives can be found all throughout Sarlona. Many are located under the once-great cities of Old Sarlona, and as a result, have vast resources and knowledge that was otherwise lost in the Sundering. Despite their relative isolation, all hives maintain good relations and will unite against a larger threat, mobilizing through their system of subterranean tunnels. This highly advanced tunnel system also includes shortcuts through Khyber demiplanes; highly skilled guides can get from one end of Sarlona to another in under a day by passing through parts of Khyber.",
+      "The dromite tunnel network is a double-edged sword. Riedra desperately wants access to the network to invade Adar, and dromites are routinely captured and enslaved when the Unity is able to locate a city hive. As a result, surface entrances are a closely guarded secret, though dromites are more than happy to aid Riedra's rebel groups when possible.",
+      "Their proximity to Khyber also makes for a risky living situation—especially when the daelkyr Valaara takes a particular interest in city-hives. Those who follow the Crawling Queen and embrace its gifts change their essence form entirely, swapping elemental damage for psychic assaults on the mind. This so-called \"Swarm Essence\" preaches unifying their people into a greater hivemind, one that will someday breach the surface world and claim it for all dromite-kind. Dromites consider the Crawling Queen a dangerous influence and will root out signs of daelkyr corruption with extreme prejudice."
+    ]
+  },
+  {
+    "name": "Drow Sign Language",
+    "source": "CallfromtheDeep",
+    "page": 112,
+    "typicalSpeakers": [
+      "Drow"
+    ]
+  },
+  {
+    "name": "Druidic",
+    "source": "CaChRn",
+    "entries": [
+      "{@note Placeholder}"
+    ]
+  },
+  {
+    "name": "Druidic",
+    "source": "midgardworldbook",
+    "page": 0,
+    "type": "secret",
+    "entries": [
+      ">A degenerate form of Elvish mixed with Common. Rarely used outside religious ceremonies. Druidic can be spoken even when in animal form."
+    ]
+  },
+  {
+    "name": "Dunlendish",
+    "source": "TLotRR",
+    "page": 149,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Southerners",
+      "Dunlendings"
+    ],
+    "entries": [
+      "The Dunland Tongue."
+    ]
+  },
+  {
+    "name": "Dwarvish",
+    "source": "ccg",
+    "page": 9,
+    "type": "standard",
+    "typicalSpeakers": [
+      "{@filter dwarves|bestiary|type=humanoid|tag=any race;dwarf}",
+      "the Ebon Stone"
+    ],
+    "script": "Dwarvish"
+  },
+  {
+    "name": "Dwarvish",
+    "source": "COMLanguage",
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@filter dwarves|bestiary|type=humanoid|tag=any race;dwarf}",
+      "{@race Nezumi|SEIISL}"
+    ],
+    "script": "Dwarvish",
+    "entries": [
+      "The Nezumi dialect is almost its own language, full of snapping and squeaking, yet it is written in Dwarven and there are enough words in common to make communication possible."
+    ]
+  },
+  {
+    "name": "Dwarvish",
+    "source": "midgardworldbook",
+    "page": 0,
+    "type": "standard",
+    "typicalSpeakers": [
+      "{@filter dwarves|bestiary|type=humanoid|tag=any race;dwarf}"
+    ],
+    "script": "Dwarvish",
+    "fonts": [
+      "fonts/languages/PHB/Dwarvish/Davek.otf",
+      "fonts/languages/PHB/Dwarvish/Davek Bold.otf",
+      "fonts/languages/PHB/Dwarvish/Davek Italic.otf",
+      "fonts/languages/PHB/Dwarvish/Davek Bold Italic.otf"
+    ],
+    "entries": [
+      "One of the first languages, widely spoken in the Northlands, Krakova, and the Ironcrag cantons. Older documents are written in a slightly different script called \"Anvil Dwarvish\" and can be difficult to decipher (typically an easy Intelligence check, depending on the topic and age of the document)."
+    ]
+  },
+  {
+    "name": "Elemental",
+    "source": "midgardworldbook",
+    "page": 0,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@filter elementals|bestiary|type=elemental}"
+    ],
+    "script": "Dwarvish",
+    "fonts": [
+      "fonts/languages/PHB/Dwarvish/Davek.otf",
+      "fonts/languages/PHB/Dwarvish/Davek Bold.otf",
+      "fonts/languages/PHB/Dwarvish/Davek Italic.otf",
+      "fonts/languages/PHB/Dwarvish/Davek Bold Italic.otf"
+    ],
+    "entries": [
+      "The language of elemental creatures of fire, water, air, and earth. Related to Draconic."
+    ]
+  },
+  {
+    "name": "Eluran",
+    "source": "HumblewoodTales",
+    "page": 214,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Caprans"
+    ]
+  },
+  {
+    "name": "Elvish",
+    "source": "ccg",
+    "page": 9,
+    "type": "standard",
+    "typicalSpeakers": [
+      "{@filter elves|bestiary|type=humanoid|tag=any race;elf}",
+      "the Verdant Arrow",
+      "the Azure Spark"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Elvish",
+    "source": "midgardworldbook",
+    "page": 0,
+    "type": "standard",
+    "typicalSpeakers": [
+      "{@filter elves|bestiary|type=humanoid|tag=any race;elf}"
+    ],
+    "script": "Elvish",
+    "fonts": [
+      "fonts/languages/PHB/Elvish/Rellanic Bold Italic.otf",
+      "fonts/languages/PHB/Elvish/Rellanic Bold.otf",
+      "fonts/languages/PHB/Elvish/Rellanic Italic.otf",
+      "fonts/languages/PHB/Elvish/Rellanic.otf"
+    ],
+    "entries": [
+      "The language of the Elflands, the River Court, the Grand Duchy's Court, and elsewhere. Remarkably unchanged over the past 2,000 years. Documents in the precursor language, Old Elvish (also called Thornish), can still be read with some effort by characters with an Intelligence of 15 or higher."
+    ]
+  },
+  {
+    "name": "Enochian",
+    "source": "midgardworldbook",
+    "page": 0,
+    "entries": [
+      "The language of the Celestial Sphere, spoken in Ishadia and among the Seven Heavens. Sometimes called Ishadian."
+    ]
+  },
+  {
+    "name": "Ermorian",
+    "source": "EddieGPantheonOfMyr",
+    "page": 0,
+    "type": "standard",
+    "entries": [
+      "Language spoken in Sceleria, claimed to be descended from the ancient Old Ermorian mother tongue."
+    ]
+  },
+  {
+    "name": "Eternal",
+    "source": "ccg",
+    "page": 9,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@race Eternal|ccg|eternals}"
+    ],
+    "script": "Runic",
+    "entries": [
+      "{@b Eternal} is the intricate, menacing language of the eternals, seemingly derived from {@language Ancient|ccg}."
+    ]
+  },
+  {
+    "name": "Falkovnian",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "people of Borca/Dorvinia",
+      "barovian vampires",
+      "people of Borca/Dorvinia",
+      "people of Invidia",
+      "people of Mordent",
+      "people of Nova Vaasa",
+      "people of Richemulot",
+      "people of Darkon",
+      "people of Dementlieu",
+      "people of Falkovnia",
+      "people of Lamordia",
+      "people of Necropolis",
+      "people of Tha Isle"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Faustian",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "secret",
+    "entries": [
+      "A very ancient language reconstructed by pony scholars",
+      {
+        "type": "entries",
+        "name": "Ancestor of",
+        "entries": [
+          "Proto-Herbivoran and Proto-Carnivoran"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Feather Speech (Pinion)",
+    "source": "midgardworldbook",
+    "page": 0,
+    "type": "secret",
+    "entries": [
+      "The silent language of the ravenfolk, spoken by the ruffling, position, and movement of feathers. Largely impossible for other races to speak unless aided by feathered fans, and even then, the effect is primarily comical."
+    ]
+  },
+  {
+    "name": "Fell-tongue",
+    "source": "TPK",
+    "page": 108,
+    "typicalSpeakers": [
+      "{@creature fell-murdona|TPK|fell-murdonas}",
+      "{@creature fell-tormentão|TPK|fell-tormentãos}",
+      "{@creature fell-ordalius|TPK|fell-ordaliuses}",
+      "{@creature fell-ahng'el|TPK|fell-ahng'els}"
+    ],
+    "entries": [
+      {
+        "type": "inset",
+        "name": "The Language of the Fell-beyonders",
+        "page": 108,
+        "entries": [
+          "Fell-tongue is the language of nightmares. When spoken it sounds like bloody water spilling over rocks, the woods catching fire at night, or a dying man's lungs breathing their final breath. Strange and subtle details are hidden within this nuanced language, and it cannot be learned unless one's soul has been pledged to these living nightmares. The wise never willingly hear or read Fell-tongue, for the fell-beyonders are mysteriously drawn to the use of their words.",
+          "Fell-tongue is both written and spoken. The letterforms resemble scars that never heal, stains that cannot be removed, and unnatural breaks in the deep places of the earth. The grammatical structure seems nonsensical, almost as if the speakers are performing a play out of sequence or transmitting a code. The latter is most certainly true, and the secret cipher-speak of Fell-tongue remains an unsolvable riddle to most. Unless taught Fell-tongue directly by a fell-beyonder, a creature cannot speak or read Fell-tongue unless they have a Wisdom of 16 or greater, even if magic is used to enhance one's ability to read, understand, or speak languages."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Forfarian",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "people of Barovia",
+      "people of Forlorn"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Frostkin",
+    "source": "COMLanguage",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "{@filter frost giants|bestiary|type=humanoid|tag=any race;giant}",
+      "Frostkin"
+    ],
+    "script": "Dwarvish",
+    "entries": [
+      "The Frostkin predominantly speak a mongrel tongue combining the Dwarven and Giant languages, with traditional Dwarven reserved for formal occasion. Common is rarely spoken within their communities, but often necessary for dealings with outsiders."
+    ]
+  },
+  {
+    "name": "Garlean",
+    "source": "FFXIV",
+    "page": 11
+  },
+  {
+    "name": "Garlean",
+    "source": "FFXIVBeforetheFall",
+    "page": 11
+  },
+  {
+    "name": "Giant",
+    "source": "ccg",
+    "page": 9,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@filter giants|bestiary|type=giant}"
+    ],
+    "script": "Dwarvish"
+  },
+  {
+    "name": "Gnomish",
+    "source": "ccg",
+    "page": 9,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@filter gnomes|bestiary|type=humanoid|tag=any race;gnome}"
+    ],
+    "script": "Dwarvish"
+  },
+  {
+    "name": "Gnomish",
+    "source": "midgardworldbook",
+    "page": 0,
+    "type": "standard",
+    "typicalSpeakers": [
+      "{@filter gnomes|bestiary|type=humanoid|tag=any race;gnome}"
+    ],
+    "script": "Dwarvish",
+    "fonts": [
+      "fonts/languages/PHB/Dwarvish/Davek.otf",
+      "fonts/languages/PHB/Dwarvish/Davek Bold.otf",
+      "fonts/languages/PHB/Dwarvish/Davek Italic.otf",
+      "fonts/languages/PHB/Dwarvish/Davek Bold Italic.otf"
+    ],
+    "entries": [
+      "A dialect of Elvish, with many words borrowed from Infernal. Those who speak it gain +1 to the DC of their illusions or enchantment spells 1/day."
+    ]
+  },
+  {
+    "name": "Goblin",
+    "source": "ccg",
+    "page": 9,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@filter goblinoids|bestiary|tag=goblinoid}"
+    ],
+    "script": "Goblin"
+  },
+  {
+    "name": "Graben",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Graben family"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Grabenite",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Graben family",
+      "people of Nocturnal Sea"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Grawlix",
+    "source": "ToonKindRace",
+    "page": 0,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "Toonkind"
+    ],
+    "script": "Grawlix",
+    "fluff": {
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Grawlix.jpg"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Griffin",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Griffons"
+    ],
+    "script": "Carnivoran"
+  },
+  {
+    "name": "Grudgel",
+    "source": "GHMG",
+    "page": 420,
+    "reprintedAs": [
+      "Grudgel|GrimHollowMG24"
+    ],
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@filter Grudgels|bestiary|tag=grudgel}"
+    ]
+  },
+  {
+    "name": "Grudgel",
+    "source": "GrimHollowMG24",
+    "page": 420,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@filter Grudgels|bestiary|source=|tag=grudgel|miscellaneous=}"
+    ]
+  },
+  {
+    "name": "Hadali",
+    "source": "TPK",
+    "page": 131,
+    "typicalSpeakers": [
+      "{@creature hadala-lophi|TPK}",
+      "{@creature hadala-levinoss|TPK}",
+      "{@creature hadala-medusae|TPK}"
+    ],
+    "entries": [
+      {
+        "type": "inset",
+        "name": "New Language: Hadali",
+        "page": 131,
+        "entries": [
+          "The hadala-lafeda have fashioned a bizarre language of clicks and growls similar to the sounds made by whales and dolphins, called Hadali. This helps disguise their communication as the sounds of sea life, and when \"shouted,\" words spoken in Hadali can be heard underwater up to 10 miles away. This language cannot be spoken above water and is notoriously difficult for humanoids to master, typically requiring tutelage by a hadala-lafeda and many years of practice."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Halfling",
+    "source": "ccg",
+    "page": 9,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@filter halflings|bestiary|type=humanoid|tag=any race;halfling}"
+    ],
+    "script": "Common"
+  },
+  {
+    "name": "Hedge",
+    "source": "HumblewoodCampaignSetting",
+    "page": 34,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Hedges"
+    ],
+    "script": "Sylvan",
+    "entries": [
+      "Hedge is a language meant to be spoken softly. It confounds many who try to learn it due to the prevalence of passive voice and the deferential manners built into conversation. These are meant to ensure that everyone's feelings are heard and respected. It is written using a variation of {@language Sylvan} script."
+    ]
+  },
+  {
+    "name": "High Kaluu",
+    "source": "FoEQuickstone",
+    "page": 16,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Venomous Demesne"
+    ],
+    "entries": [
+      "Spoken only in the Venomous Demesne; it has its roots in {@language Draconic}, {@language Infernal}, and Riedran."
+    ]
+  },
+  {
+    "name": "Higher Bürach",
+    "source": "GHPG",
+    "reprintedAs": [
+      {
+        "edition": "one",
+        "uid": "Higher Bürach|GrimHollowPG24"
+      }
+    ],
+    "page": 11,
+    "entries": [
+      "The highborn dialect in the Bürach Empire. Most formal writings are in this dialect as well, such as religious texts, laws, royal decrees, plays and poems, etc. If a foreigner learns Bürach, this is the dialect they learn."
+    ]
+  },
+  {
+    "name": "Higher Büräch",
+    "source": "GrimHollowPG24",
+    "page": 217,
+    "entries": [
+      "The highborn dialect in the Büräch Empire{@sup ({@book PG|GrimHollowPG24|8|The Bürach Empire}/{@book CG|GrimHollowCG24|3})}. Most formal writings are in this dialect as well, such as religious texts, laws, royal decrees, plays and poems, etc. If a foreigner learns Büräch, this is the dialect they learn."
+    ]
+  },
+  {
+    "name": "Hippogriff",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "secret",
+    "script": "Changeling",
+    "entries": [
+      "A Dead Language related to Imperial Changeling. The Hippogriffs abandoned it for Auran.",
+      {
+        "type": "entries",
+        "name": "Found in",
+        "entries": [
+          "Ancient artifice diagrams, Carved seashell art, Extreme high altitude mountain bas reliefs."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Huginn's Speech",
+    "source": "midgardworldbook",
+    "page": 0,
+    "type": "secret",
+    "entries": [
+      "The spoken language of the ravenfolk. Remarkably constant in the North among the huginn and in the South among the heru. Sometimes used as a thieves' cant."
+    ]
+  },
+  {
+    "name": "Hund",
+    "dialects": [
+      "Wolf"
+    ],
+    "source": "COMLanguage",
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@race Dogfolk|DogFolkRace}",
+      "{@race Hunden|DogFolkRace2}",
+      "{@creature Winter Wolf|MM|winter wolves}",
+      "{@creature Wolf|MM|winter wolves}",
+      "{@creature Dire Wolf|MM|winter wolves}"
+    ],
+    "script": "none",
+    "entries": [
+      "Hund is a verbal language consisting primarily of barks, howls, and growls."
+    ]
+  },
+  {
+    "name": "Ignan",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "Fire Elementals",
+      "Kirin"
+    ],
+    "script": "Carnivoran"
+  },
+  {
+    "name": "Illyrian",
+    "source": "midgardworldbook",
+    "page": 0,
+    "type": "exotic",
+    "entries": [
+      "An archaic language, rarely used outside the court of Illyria and among nobles, and now outlawed in the Dragon Empire's new province of Rumela. Those who speak it gain +2 to Diplomacy in the Seven Cities 1/day, since it is considered a sign of noble status and personal tragedy."
+    ]
+  },
+  {
+    "name": "Illyrian",
+    "source": "midgardworldbook",
+    "page": 44,
+    "entries": [
+      "An archaic language, rarely used outside the court of Illyria and among nobles, and now outlawed in the Dragon Empire's new province of Rumela. Those who speak it gain +2 to Diplomacy in the Seven Cities 1/day, since it is considered a sign of noble status and personal tragedy."
+    ]
+  },
+  {
+    "name": "Imperial",
+    "source": "ccg",
+    "page": 9,
+    "type": "standard",
+    "typicalSpeakers": [
+      "{@race battleborn|ccg}"
+    ],
+    "script": "Elvish",
+    "entries": [
+      "{@b Imperial} is the harsh, practical language of the Shattered Empire derived from both {@language Elvish|ccg} and {@language Orcish|ccg}."
+    ]
+  },
+  {
+    "name": "Imperial Changeling",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "secret",
+    "script": "Changeling",
+    "entries": [
+      "A Dead Language that predates the Changelings spliting into hives.  Influenced Undercommon.",
+      {
+        "type": "entries",
+        "name": "Found in",
+        "entries": [
+          "Ancient ruins and history books, Actuarial tables on pony love production, Rebdaran folklore and mythological texts."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Infernal",
+    "source": "ccg",
+    "page": 9,
+    "type": "standard",
+    "typicalSpeakers": [
+      "{@filter tieflings|bestiary|type=humanoid|tag=any race;tiefling}",
+      "demon hunters",
+      "{@filter fiends|bestiary|type=fiend}"
+    ],
+    "script": "Infernal"
+  },
+  {
+    "name": "Infernal",
+    "source": "midgardworldbook",
+    "page": 0,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@filter demons|bestiary|tag=demon}"
+    ],
+    "script": "Infernal",
+    "fonts": [
+      "fonts/languages/PHB/Infernal/Infernal.ttf"
+    ],
+    "entries": [
+      "A planar language spoken by demons and devils."
+    ]
+  },
+  {
+    "name": "Infernal",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "Devils",
+      "Daemons"
+    ],
+    "script": "Infernal"
+  },
+  {
+    "name": "Jerbeen",
+    "source": "HumblewoodCampaignSetting",
+    "page": 34,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Jerbeens"
+    ],
+    "script": "Birdfolk",
+    "entries": [
+      "Jerbeen is a system of squeaks and clicks represented in writing by using a variant of {@language Birdfolk|HumblewoodCampaignSetting} alphabet. It is a polite but direct language designed to communicate information quickly and effectively between multiple listeners."
+    ],
+    "fluff": {
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodCampaignSetting/book/Languages.webp"
+          },
+          "width": 584,
+          "height": 776
+        }
+      ]
+    }
+  },
+  {
+    "name": "Kami",
+    "source": "KGtSeigai",
+    "type": "exotic",
+    "typicalSpeakers": [
+      "Kami",
+      "Ō-Ryū"
+    ]
+  },
+  {
+    "name": "Kariv",
+    "source": "midgardworldbook",
+    "page": 0,
+    "entries": [
+      "A dialect of Common, flavored with many borrowed words and bits of cant. Those who speak it gain +2 to Diplomacy with Kariv wanderers and centaurs 1/day."
+    ]
+  },
+  {
+    "name": "Khandirian",
+    "source": "midgardworldbook",
+    "page": 0,
+    "type": "standard",
+    "entries": [
+      "A human dialect related to Enochian, spoken in the East."
+    ]
+  },
+  {
+    "name": "Khazzaki",
+    "source": "midgardworldbook",
+    "page": 0,
+    "type": "exotic",
+    "entries": [
+      "An argot of eastern tongues, spoken only among the nomads."
+    ]
+  },
+  {
+    "name": "Khuzdul",
+    "source": "TLotRR",
+    "page": 32,
+    "type": "secret",
+    "typicalSpeakers": [
+      "{@race Dwarf|TLotRR|Dwarves}"
+    ],
+    "script": "Dwarvish",
+    "entries": [
+      "The secret language of the Dwarves."
+    ]
+  },
+  {
+    "name": "Kirin",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "secret",
+    "script": "Changeling",
+    "entries": [
+      "A Dead Language related to Imperial Changeling. The Kirin Dark Ages extinguished it.",
+      {
+        "type": "entries",
+        "name": "Found in",
+        "entries": [
+          "Flowery curses, Blessings on forges, Tattoos on the flanks of rebellious teenage ponies."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kitsune",
+    "source": "PS-Kg",
+    "page": 6,
+    "typicalSpeakers": [
+      "Kitsune"
+    ]
+  },
+  {
+    "name": "Kitsune",
+    "source": "RyokoGuideToYokaiRealms",
+    "page": 0,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "Kitsune"
+    ],
+    "script": "Sylvan"
+  },
+  {
+    "name": "Kobbledygook",
+    "source": "HippocampersCompleteCookbook",
+    "type": "secret",
+    "entries": [
+      "Each kobblek band develops its own dialect of Kobbledygook, making use of unique sounds they are able to master using vocal chords or ears scavenged in their region."
+    ]
+  },
+  {
+    "name": "Kobold",
+    "source": "midgardworldbook",
+    "page": 0,
+    "script": "Draconic",
+    "fonts": [
+      "fonts/languages/PHB/Draconic/Iokharic.otf",
+      "fonts/languages/PHB/Draconic/Iokharic Bold.otf",
+      "fonts/languages/PHB/Draconic/Iokharic Italic.otf",
+      "fonts/languages/PHB/Draconic/Iokharic Bold Italic.otf"
+    ],
+    "entries": [
+      "A somewhat simplified (some might say debased) dialect of Draconic, though most dragons and drakes pretend not to understand it"
+    ]
+  },
+  {
+    "name": "Korai",
+    "source": "WorldofArcheria",
+    "typicalSpeakers": [
+      "Korai"
+    ]
+  },
+  {
+    "name": "Kuma",
+    "source": "KGtSeigai",
+    "page": 10,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Korpokkur",
+      "Humans of Rep-un-Mosir"
+    ],
+    "entries": [
+      "The language spoken in Rep-un-Mosir, and by the {@race dwarf (korpokkur)|KGtSeigai|korpokkur} race. Its name means 'bear' in common."
+    ]
+  },
+  {
+    "name": "Lamordian",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "people of Darkon",
+      "people of Dementlieu",
+      "people of Falkovnia",
+      "people of Lamordia",
+      "people of Blaustein",
+      "people of Sea of Sorrows"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Laneshi",
+    "source": "GHPG",
+    "page": 11,
+    "entries": []
+  },
+  {
+    "name": "Lisica",
+    "source": "WorldofArcheria",
+    "typicalSpeakers": [
+      "Lisica"
+    ]
+  },
+  {
+    "name": "Low Büräch",
+    "source": "GrimHollowPG24",
+    "page": 217,
+    "entries": [
+      "The commoner's dialect in the Büräch Empire{@sup ({@book PG|GrimHollowPG24|8|The Bürach Empire}/{@book CG|GrimHollowCG24|3})}. It is more heavily accented than High Büräch, making the general population of the nation harder for foreigners to understand."
+    ]
+  },
+  {
+    "name": "Lower Bürach",
+    "source": "GHPG",
+    "reprintedAs": [
+      {
+        "edition": "one",
+        "uid": "Lower Bürach|GrimHollowPG24"
+      }
+    ],
+    "page": 11,
+    "entries": [
+      "The commoner's dialect in the Bürach Empire. It is more heavily accented than Higher Bürach, making the general population of the nation harder for foreigners to understand."
+    ]
+  },
+  {
+    "name": "Luktar",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "people of Barovia",
+      "people of Borca/Dorvinia",
+      "people of Gundarak",
+      "people of Invidia",
+      "people of Dominia"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Lupin",
+    "source": "LupinFF",
+    "typicalSpeakers": [
+      "Lupin"
+    ],
+    "script": "Lupin"
+  },
+  {
+    "name": "Machakan",
+    "source": "EddieGPantheonOfMyr",
+    "page": 0,
+    "type": "exotic",
+    "entries": [
+      "Language spoken by the tribes of Machaka. It has lots of clicking and hissing noises."
+    ]
+  },
+  {
+    "name": "Machine Code",
+    "source": "DarkMatter24",
+    "page": 437,
+    "type": "rare",
+    "entries": [
+      "Machine code is the native code-language of machines, spoken silently by terminals and Constructs alike."
+    ]
+  },
+  {
+    "name": "Manish",
+    "source": "EddieGPantheonOfMyr",
+    "page": 0,
+    "type": "standard",
+    "entries": [
+      "Language spoken by the humans of Man. Referred to abroad as Avalonian."
+    ]
+  },
+  {
+    "name": "Mapach",
+    "source": "HumblewoodCampaignSetting",
+    "page": 34,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Mapachs"
+    ],
+    "script": "Mapach",
+    "entries": [
+      "Mapach is a very technically dense language that often incorporates rough equations and estimations of physical properties in normal conversation. Awareness of one's surroundings is key to survival, and the Mapach language emphasizes this. Mapach uses its own script of glyphs made of various lines, dashes, and dots."
+    ]
+  },
+  {
+    "name": "Medusa",
+    "source": "Talons",
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@race medusa|Talons}",
+      "{@filter medusa|bestiary|search=medusa}"
+    ],
+    "script": "Daelkyr",
+    "entries": [
+      {
+        "type": "entries",
+        "entries": [
+          "The spoken language of the medusa is indistinguishable from regular snake hissing by anyone other than serpentine creatures. It is punctuated with facial expressions and the movement of the snakes on a medusa's head. As such, it is impossible for a creature without prehensile hair to convey the true meanings of the language, but experienced observers are able to pick up on the subtle physical cues to piece together partial meanings.",
+          "There are exceptions to this rule. Any creature with a similar {@condition petrified||petrifying} ability, such as a {@creature basilisk}, {@creature gorgon}, or even a {@creature cockatrice}, can innately understand the medusa language."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Merfolk Extended",
+    "source": "COMLanguage",
+    "type": "standard",
+    "typicalSpeakers": [
+      "{@filter merfolk|bestiary|source=GGR|tag=any race;merfolk}",
+      "{@race Merfolk|TeyasGuidetoAile}"
+    ],
+    "script": "Merfolk",
+    "entries": [
+      "Merfolk is a language that can only be spoken while in water and is extremely difficult for non Mer to hear."
+    ]
+  },
+  {
+    "name": "Minotaur or Rue-Thothka",
+    "source": "midgardworldbook",
+    "page": 0,
+    "entries": [
+      "The language of the minotaurs is complex and resonant, and especially favored in the South. Its tones are guttural and dangerous sounding"
+    ]
+  },
+  {
+    "name": "Mordentish",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "people of Shadow Rift/Arak",
+      "people of Arkandale",
+      "people of Borca/Dorvinia",
+      "people of Invidia",
+      "people of Mordent",
+      "people of Richemulot",
+      "people of Sithicus",
+      "people of Valachan",
+      "people of Verbrek",
+      "people of Darkon",
+      "people of Dementlieu",
+      "people of Falkovnia",
+      "people of Lamordia",
+      "people of Necropolis",
+      "people of Blaustein",
+      "people of Ghastria",
+      "people of Sea of Sorrows",
+      "people of Tha Isle"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Morphoi",
+    "source": "midgardworldbook",
+    "page": 0,
+    "type": "standard",
+    "entries": [
+      "The language of the Western Ocean and most aquatic races."
+    ]
+  },
+  {
+    "name": "Morphoi",
+    "source": "midgardworldbook",
+    "page": 44,
+    "entries": [
+      "The language of the Western Ocean and most aquatic races."
+    ]
+  },
+  {
+    "name": "Naku Naku",
+    "source": "ObojimaTallGrass",
+    "page": 156,
+    "type": "standard",
+    "typicalSpeakers": [
+      "{@race Nakudama|ObojimaTallGrass}"
+    ],
+    "entries": [
+      "Most Nakudama continue to speak their original language as well as the common tongue, and they claim theirs is far richer for the telling of tales."
+    ]
+  },
+  {
+    "name": "Nartheneen",
+    "source": "TPK",
+    "page": 185,
+    "typicalSpeakers": [
+      "{@creature river-blessed|TPK}",
+      "{@creature sun-cursed|TPK}",
+      "{@creature ebon pyromancer|TPK|ebon pyromancers}"
+    ]
+  },
+  {
+    "name": "Nerglish",
+    "source": "COMLanguage",
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@race Murgul|LEGDRAG}"
+    ],
+    "script": "Triton",
+    "entries": [
+      "Nerglish is the murgul's guttural language. Those who speak Draconic can understand it."
+    ]
+  },
+  {
+    "name": "Nezumi-Tongue",
+    "source": "PS-Kg",
+    "page": 6,
+    "typicalSpeakers": [
+      "Nezumi"
+    ]
+  },
+  {
+    "name": "Nomadic",
+    "source": "ccg",
+    "page": 9,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@race nomad|ccg|nomads}"
+    ],
+    "entries": [
+      "{@b Nomadic} is the language of the otherworldly nomads, consisting of specifically ordered musical tones."
+    ]
+  },
+  {
+    "name": "Northern Tongu",
+    "source": "midgardworldbook",
+    "page": 0,
+    "type": "standard",
+    "entries": [
+      "Also called the Rune Tongue or Giantish. A human language deeply related to Dwarvish and sharing many loan words."
+    ]
+  },
+  {
+    "name": "Northern Tongue",
+    "source": "midgardworldbook",
+    "page": 44,
+    "entries": [
+      "Also called the Rune Tongue or Giantish. A human language deeply related to Dwarvish and sharing many loan words."
+    ]
+  },
+  {
+    "name": "Northlander",
+    "source": "BoBH",
+    "page": 189,
+    "typicalSpeakers": [
+      "{@race Northlander|BoBH}",
+      "{@creature Berserker|BoBH}",
+      "{@creature Clan Warrior|BoBH}",
+      "{@creature Huskarl|BoBH}",
+      "{@creature Jarl|BoBH}",
+      "{@creature Sea Raider|BoBH}",
+      "{@creature Shield Maiden|BoBH}",
+      "{@creature Skald|BoBH}",
+      "{@creature Thane|BoBH}",
+      "{@creature Valkur's Heir|BoBH}",
+      "{@creature Völva|BoBH}"
+    ],
+    "entries": [
+      "{@note As {@language Illuskan|SCAG}}"
+    ]
+  },
+  {
+    "name": "Nurian or the Southern Tongue",
+    "source": "midgardworldbook",
+    "page": 0,
+    "type": "standard",
+    "entries": [
+      "A human corruption of Enochian, the divine language. A great deal of ritual magic is written in Nurian."
+    ]
+  },
+  {
+    "name": "Old Batanese",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "secret",
+    "script": "Unicornian",
+    "entries": [
+      "A Dead Language that would influence Undercommon.",
+      {
+        "type": "entries",
+        "name": "Found in",
+        "entries": [
+          "Sword inscriptions, Calligraphy, Esoteric Lunar cult texts, Oaths of the Lunar Guard."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Old Ermorian",
+    "source": "EddieGPantheonOfMyr",
+    "page": 0,
+    "type": "exotic",
+    "entries": [
+      "Language that was once spoken across the world-spanning dominion of Ermor."
+    ]
+  },
+  {
+    "name": "Old Kartakan",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "people of Daglan",
+      "people of Kartakass"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Old Pegasian",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "secret",
+    "entries": [
+      "The Ancient Pegasi left no writing, and their language has been reconstructed by pony scholars from Old Batanese and Ponish",
+      {
+        "type": "entries",
+        "name": "Ancestor of",
+        "entries": [
+          "Old Batanese, influenced Modern Ponish"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Old Ponish",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "secret",
+    "script": "Ponish",
+    "entries": [
+      "A Dead Language that evolved into Ponish",
+      {
+        "type": "entries",
+        "name": "Found in",
+        "entries": [
+          "Old books and inscriptions, Crystal Empire ruins, Ancient treaties, Ancient land management records."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Oni",
+    "source": "KGtSeigai",
+    "type": "exotic",
+    "typicalSpeakers": [
+      "Oni"
+    ]
+  },
+  {
+    "name": "Orcish",
+    "source": "ccg",
+    "page": 9,
+    "type": "standard",
+    "typicalSpeakers": [
+      "{@filter orcs|bestiary|tag=orc}",
+      "the Crimson Blade"
+    ],
+    "script": "Goblin"
+  },
+  {
+    "name": "Orkish",
+    "source": "TLotRR",
+    "page": 151,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Orcs"
+    ],
+    "entries": [
+      {
+        "type": "quote",
+        "entries": [
+          "A general term for the jumble of languages used by the Orcs, composed from corrupted borrowings from other languages of Middle-earth."
+        ],
+        "from": "The Lord of the Rings, Appendix F - The Languages and Peoples of the Third Age"
+      }
+    ]
+  },
+  {
+    "name": "Orochi",
+    "source": "PS-Kg",
+    "page": 6,
+    "typicalSpeakers": [
+      "Orochi"
+    ]
+  },
+  {
+    "name": "Ostoy",
+    "source": "GHPG",
+    "reprintedAs": [
+      {
+        "edition": "one",
+        "uid": "Ostoy|GrimHollowPG24"
+      }
+    ],
+    "page": 11,
+    "entries": [
+      "The dominant language of Ostoya"
+    ]
+  },
+  {
+    "name": "Ostoy",
+    "source": "GrimHollowPG24",
+    "page": 217,
+    "entries": [
+      "The dominant language of Ostoya{@sup ({@book PG|GrimHollowPG24|8|The Ostoyan Empire}/{@book CG|GrimHollowCG24|4})}."
+    ]
+  },
+  {
+    "name": "Pandaren",
+    "source": "BBHR",
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@race Pandaren|BBHR}"
+    ],
+    "script": "Chinese",
+    "entries": [
+      "Pandaren is an exotic-sounding language, similar to modern-day chinese."
+    ]
+  },
+  {
+    "name": "Pandaren",
+    "source": "COMLanguage",
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@race Pandaren|BBHR}"
+    ],
+    "script": "Chinese",
+    "entries": [
+      "Pandaren is an exotic-sounding language, similar to modern-day chinese."
+    ]
+  },
+  {
+    "name": "Patterna",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [],
+    "script": "Elvish"
+  },
+  {
+    "name": "Pelagian",
+    "source": "EddieGPantheonOfMyr",
+    "page": 0,
+    "type": "standard",
+    "entries": [
+      "Language spoken by the merrow and triton lords of Pelagia."
+    ]
+  },
+  {
+    "name": "Phyrexian",
+    "source": "PS-Kg",
+    "page": 6,
+    "typicalSpeakers": [
+      "—"
+    ]
+  },
+  {
+    "name": "Pigpen Cipher",
+    "source": "CiphersAndRobots",
+    "page": 0,
+    "type": "secret",
+    "fonts": [
+      "https://rawcdn.githack.com/TheGiddyLimit/homebrew/master/_font/VariousCyphers/BabelStone Pigpen.otf",
+      "https://rawcdn.githack.com/TheGiddyLimit/homebrew/master/_font/VariousCyphers/BabelStone Leeson.otf",
+      "https://rawcdn.githack.com/TheGiddyLimit/homebrew/master/_font/VariousCyphers/BabelStone Club Penguin.otf"
+    ],
+    "entries": [
+      "A geometric substitution cipher, exchanging letters of a sentence for symbols referring to certain places of a 3 by 3 grid, much like in a game of tic-tac-toe.",
+      {
+        "type": "insetReadaloud",
+        "entries": [
+          "Also called the \"masonic cipher\", \"Freemason's cipher\", \"Napoleon cipher\", and the \"tic-tac-toe cipher\"."
+        ]
+      },
+      "{@note The fonts are attributed to {@link BabelStone|https://www.babelstone.co.uk/Fonts/Pigpen.html}.}"
+    ],
+    "fluff": {
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Pigpen_cipher_key.svg/1024px-Pigpen_cipher_key.svg.png"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ponish",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Ponies"
+    ],
+    "script": "Ponish"
+  },
+  {
+    "name": "Primate",
+    "source": "KGtSeigai",
+    "page": 10,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "Primates",
+      "Masaru"
+    ]
+  },
+  {
+    "name": "Primordial",
+    "source": "CaChRn",
+    "entries": [
+      "{@note Placeholder}"
+    ]
+  },
+  {
+    "name": "Primordial",
+    "source": "ccg",
+    "page": 9,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@filter elementals|bestiary|type=elemental}"
+    ],
+    "script": "Draconic"
+  },
+  {
+    "name": "Proto-Carnivoran",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "secret",
+    "entries": [
+      "A very ancient language reconstructed by pony scholars",
+      {
+        "type": "entries",
+        "name": "Ancestor of",
+        "entries": [
+          "Canine and Griffon"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Proto-Herbivoran",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "secret",
+    "entries": [
+      "A very ancient language reconstructed by pony scholars",
+      {
+        "type": "entries",
+        "name": "Ancestor of",
+        "entries": [
+          "Cloven, Zebrican, and the Ponish family"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pythian",
+    "source": "EddieGPantheonOfMyr",
+    "page": 0,
+    "type": "standard",
+    "entries": [
+      "Language spoken by the humans of Pythium, but only in secret, when the Hydra lords can't hear."
+    ]
+  },
+  {
+    "name": "Quenya",
+    "source": "TLotRR",
+    "page": 65,
+    "type": "rare",
+    "typicalSpeakers": [
+      "{@race Elf|TLotRR|Elves}",
+      "{@feat Speech-Craft|TLotRR|Speech-Crafters}"
+    ],
+    "script": "Elven",
+    "entries": [
+      "The Ancient elven tongue."
+    ]
+  },
+  {
+    "name": "Rashemi",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "people of Hazlan"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Rat-men",
+    "source": "RatmenFF",
+    "typicalSpeakers": [
+      "Rat-men"
+    ],
+    "script": "Rat-men"
+  },
+  {
+    "name": "Ratter",
+    "source": "UltimateAdventurer",
+    "page": 23,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "Ratters"
+    ],
+    "entries": [
+      "Ratters are often named in the Ratter language, which is comprised of clicks, chitters, squeaks, and emphatic full-body movements that indicate tone. Since most creatures find it difficult to recreate the language precisely, and ratters are generally too impatient to teach them, a ratter is often forced to adopt a name that can be more easily pronounced by their companions. "
+    ]
+  },
+  {
+    "name": "Rebdaran",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "secret",
+    "entries": [
+      "A very ancient language reconstructed by pony scholars",
+      {
+        "type": "entries",
+        "name": "Ancestor of",
+        "entries": [
+          "Kirin, Hippogriff, and Imperial Changeling"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Riedran",
+    "source": "TalvakrisGuidetoAdar",
+    "type": "exotic",
+    "entries": []
+  },
+  {
+    "name": "Ritual Tongue",
+    "source": "PS-Kg",
+    "page": 6,
+    "typicalSpeakers": [
+      "Ogres",
+      "Oni"
+    ]
+  },
+  {
+    "name": "Roegadyn",
+    "source": "FFXIV",
+    "page": 22
+  },
+  {
+    "name": "Roegadyn",
+    "source": "FFXIVBeforetheFall",
+    "page": 22
+  },
+  {
+    "name": "Runic",
+    "source": "ccg",
+    "page": 9,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Mages",
+      "rune technicians (written only)"
+    ],
+    "script": "Runic",
+    "entries": [
+      "{@b Runic} is a language that is only written, making up the contents of all runic magic across Aysta."
+    ]
+  },
+  {
+    "name": "Sangheili",
+    "source": "FFSangheili",
+    "typicalSpeakers": [
+      "Sangheili"
+    ],
+    "script": "Sangheili"
+  },
+  {
+    "name": "Saurian",
+    "source": "COMLanguage",
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@race Saurian|SaurianRace}"
+    ],
+    "script": "exotic",
+    "entries": [
+      "The saurian dialect of Draconic is obvious to other speakers of the language and unless you learn Draconic again from another source, your speech in Draconic will always be notable for its saurian idiosyncrasies."
+    ]
+  },
+  {
+    "name": "Scorpion Tongue",
+    "source": "COMLanguage",
+    "type": "secret",
+    "typicalSpeakers": [
+      "Members of the 'White Scorpions' guild",
+      "{@creature assassin||assassins}",
+      "{@class rogue||rogues}"
+    ],
+    "script": "exotic",
+    "entries": [
+      "After formally joining the White Scorpions, new members of the Order learn a cant specific to the White Scorpions, allowing them to identify each other with turns of phrases - ones that might seem mundane to an unacquainted listener but which demonstrate membership of the guild to those familiar with the patter. This cant also has codewords for many common words to do with their work, and can be used - in the same way thieves' cant is used - to deliver veiled messages and communicate basic instructions. See p.96 of the Player's Handbook for more info on how this cant can be used between two speakers.",
+      "{@b Rules:} In gaming terms PCs automatically replace the Rogue's thieves' cant with Scorpion Tongue if they select the Trainee Assassin background on page 8. Otherwise ask your DM if you can swap it, or select Scorpion Tongue as a language if your class or background allows you to choose an extra one.",
+      "If your PC is unable or unwilling to do either, they are assumed to have mastered only the very basics of the Scorpion Tongue in their training and must roll a DC10 Intelligence check to identify themselves using this cant without raising suspicion, or to understand a simple message (verbal or written) from another member, such as a rendez vous. This would raise to DC15 for understanding something slightly harder, like a rendez vous with condition attached (\"meet at the Cathedral and bring an axe\"), and DC20 for anything more complex. They are unable to write a coherent coded message."
+    ]
+  },
+  {
+    "name": "Seigai Draconic",
+    "source": "KGtSeigai",
+    "page": 10,
+    "type": "standard",
+    "typicalSpeakers": [
+      "People of Seigai"
+    ],
+    "entries": [
+      "You will be hard-pressed to find an individual who speaks the language known as Common on the streets of the capital Kōtoshi. The equivalent language for the citizens of Seigai is Draconic. Seigai Draconic has its own writing system, where each glyph describes a consonant-vowel pair (known as a {@i kana}). Some of the consonant-vowel sounds in the Common language are unused in Draconic."
+    ]
+  },
+  {
+    "name": "Semaphore",
+    "source": "GiddyLanguage",
+    "page": 0,
+    "type": "secret",
+    "entries": [
+      "Remember to prefix the message with \"GNU\"."
+    ]
+  },
+  {
+    "name": "Sembian",
+    "source": "COMLanguage",
+    "typicalSpeakers": [
+      "Chondathan ethnic group",
+      "Tethyrian ethnic group"
+    ],
+    "script": "Thorass",
+    "entries": [
+      "Sembia was a young country of considerable wealth and prosperity governed by its merchants. It was located on the north-western coast of the Sea of Fallen Stars in central Faerûn, which put it in the path of many trade routes. Although they suffered over a century of subjugation at the hands of the returned Netherese Empire, with only the cities of Urmlaspyr and Daerlun maintaining their independence,[2] they once again became wealthy, independent collection of city-states following the second collapse of the imperial magocracy in 1487 DR.",
+      "Sembians were not particularly war-like, preferring to pursue mercantile endeavors and work as mercenaries or adventurers.[4] Their long tradition of commerce and trade unified Sembia during their entire existence, particularly while as a vassal-state of Netheril."
+    ]
+  },
+  {
+    "name": "Sembian",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "people of Aggarath"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Serpentine",
+    "source": "CaChRn",
+    "page": 54,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@race Nagaran|CaChRn}"
+    ],
+    "script": "Serpentine",
+    "fonts": [
+      "https://raw.githack.com/TheGiddyLimit/homebrew-img/main/font/CaChRn/SerpentineFT-Regular.woff2"
+    ],
+    "entries": [
+      "{@font SERPENTINE|serpentine}",
+      "Though Serpentine's origins are markedly more recent than those of {@language Draconic|CaChRn} itself, it is believed that the dialect was formalized by prominent serpentine creatures— such as elder behirs and dracolisks—in direct revolt of the great wyrms who lorded their magic, wealth, and power over their kin. Similar to {@language Draconic|CaChRn}, this dialects disenchanted creators invented it to communicate away from the prying ears of their tyrannical overlords.",
+      "Though Serpentine shares much in common with its predecessor, its script is deliberately challenging for draconic creatures to write, and its speakers similarly prefer words that are challenging for dragons to pronounce.",
+      {
+        "type": "entries",
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Viperous Convictions",
+            "page": 54,
+            "entries": [
+              "In defiance of {@language Draconic|CaChRn} norms, Serpentine runes are able to be quickly activated by all who wield them. Instead, the requisite time to enact the rune's magic manifests as a delayed release, either over time or all at once."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Serpentine Runes",
+        "page": 54,
+        "entries": [
+          "The following runes are presented in alphabetical order. As with other magic items, a rune's description gives its name, its category (including which language it belongs to), its rarity, and its magical properties; it also indicates what type of object(s) the rune can be transferred to.",
+          {
+            "type": "statblock",
+            "tag": "item",
+            "source": "CaChRn",
+            "name": "Demolition",
+            "page": 54,
+            "collapsed": true
+          },
+          {
+            "type": "statblock",
+            "tag": "item",
+            "source": "CaChRn",
+            "name": "Detonate",
+            "page": 54,
+            "collapsed": true
+          },
+          {
+            "type": "statblock",
+            "tag": "item",
+            "source": "CaChRn",
+            "name": "Engage",
+            "page": 55,
+            "collapsed": true
+          },
+          {
+            "type": "statblock",
+            "tag": "item",
+            "source": "CaChRn",
+            "name": "Frost",
+            "page": 55,
+            "collapsed": true
+          },
+          {
+            "type": "statblock",
+            "tag": "item",
+            "source": "CaChRn",
+            "name": "Recover",
+            "page": 55,
+            "collapsed": true
+          },
+          {
+            "type": "statblock",
+            "tag": "item",
+            "source": "CaChRn",
+            "name": "Return",
+            "page": 55,
+            "collapsed": true
+          },
+          {
+            "type": "statblock",
+            "tag": "item",
+            "source": "CaChRn",
+            "name": "Snap",
+            "page": 55,
+            "collapsed": true
+          },
+          {
+            "type": "statblock",
+            "tag": "item",
+            "source": "CaChRn",
+            "name": "Tick",
+            "page": 55,
+            "collapsed": true
+          },
+          {
+            "type": "statblock",
+            "tag": "item",
+            "source": "CaChRn",
+            "name": "Vampiric",
+            "page": 55,
+            "collapsed": true
+          },
+          {
+            "type": "statblock",
+            "tag": "item",
+            "source": "CaChRn",
+            "name": "Venom",
+            "page": 55,
+            "collapsed": true
+          }
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Special Features",
+        "page": 354,
+        "entries": [
+          "Similar to its predecessor ({@language Draconic|CaChRn}), Serpentine numbers are visibly distinguished from letters by a small curved mark below the symbol."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Text Examples",
+        "page": 354,
+        "entries": [
+          {
+            "type": "list",
+            "items": [
+              {
+                "type": "entries",
+                "entries": [
+                  "The behir is a serpentine monster that can slither like a snake or use its dozen legs to move with considerable speed. A behir is about 40 feet long and weighs about 4,000 pounds. The coloration of behirs ranges from ultramarine to deep blue with bands of gray-brown.",
+                  "{@font The behir is a serpentine monster that can slither like a snake or use its dozen legs to move with considerable speed. A behir is about 40 feet long and weighs about 4,000 pounds. The coloration of behirs ranges from ultramarine to deep blue with bands of gray-brown.|serpentine}"
+                ]
+              },
+              {
+                "type": "entries",
+                "entries": [
+                  "My in-laws said, \"Mr. Smith's 7 cats & dogs are the best ever!\"",
+                  "{@font My in-laws said, \"Mr. Smith's 7 cats & dogs are the best ever!\"|serpentine}"
+                ]
+              },
+              {
+                "type": "entries",
+                "entries": [
+                  "43 + 981 = 1,024",
+                  "{@font 43 + 981 = 1,024|serpentine}"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "statblock",
+        "tag": "table",
+        "source": "CaChRn",
+        "name": "Serpentine Script",
+        "page": 354
+      }
+    ]
+  },
+  {
+    "name": "Serpentine",
+    "source": "FoEQuickstone",
+    "type": "rare",
+    "script": "none",
+    "typicalSpeakers": [
+      "Medusas"
+    ],
+    "entries": [
+      "Serpentine is the language of the medusas of Cazhaak Draal. It blends traditional speech with the hissing and writhing motions of the serpent mane. There's a distinct subset of Serpentine that relies solely on the motions of the serpents, allowing medusas within 60 feet of each other to silently communicate, provided that they can see one another. Any creature can learn Serpentine as a rare language or understand it through the use of magic, but only a creature with a functioning serpent mane can speak Serpentine."
+    ]
+  },
+  {
+    "name": "Shīsā",
+    "source": "KGtSeigai",
+    "page": 10,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Bunagaya",
+      "People of Shikahan-shotō"
+    ],
+    "entries": [
+      "The language spoken in Shikahan-shotō, and by the {@race halfling (bunagaya)|KGtSeigai|bunagaya} race."
+    ]
+  },
+  {
+    "name": "Sindarin",
+    "source": "TLotRR",
+    "page": 34,
+    "type": "standard",
+    "typicalSpeakers": [
+      "{@race Elf|TLotRR|Elves}",
+      "{@race Ranger of the North|TLotRR|Rangers of the North}"
+    ],
+    "script": "Elven",
+    "entries": [
+      "The Grey-elven tongue."
+    ]
+  },
+  {
+    "name": "Sithican",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "people of Arkandale",
+      "people of Barovia",
+      "people of Kartakass",
+      "people of Sithicus",
+      "people of Valachan",
+      "people of Verbrek",
+      "people of Liffe",
+      "people of Nocturnal Sea"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Skin Cant",
+    "source": "ExploringEberron",
+    "page": 205,
+    "reprintedAs": [
+      {
+        "edition": "one",
+        "uid": "Skin Cant|ExploringEberron24"
+      }
+    ],
+    "type": "secret",
+    "typicalSpeakers": [
+      "{@race changeling|ERLW|changelings}/{@creature changeling|ERLW|changelings}"
+    ],
+    "entries": [
+      "As a traveler, you have learned a secret language that allows you to silently convey messages to fellow changelings. This is an exotic language that can only be 'spoken' by changelings, though members of other species can learn to understand it. Skin cant uses shifting patterns of scars, tattoos, and pigment. This allows you to convey a short message—a concept that can be expressed in six words or less—to anyone who knows the language and who can see you. Typically the message is something you maintain as part of your appearance; for example, in crafting your image, you might add a pattern of scars that tells other changeling travelers, 'I need help' or 'Everything I say is a lie.'",
+      "You can also use this language to have a conversation—typically by manifesting symbols on the palm of your hand—with someone who is within 60 feet and able to see you. The shifting patterns can be noticed by other observers within 60 feet; if you wish to keep the conversation discrete, you can hide it with a Charisma ({@skill Deception}) check opposed by the observer's Wisdom ({@skill Perception} or {@skill Insight}) check. If you fail, it means the observer notices your shifting patterns, though they don't understand the meaning unless they also know skin cant."
+    ]
+  },
+  {
+    "name": "Skin Cant",
+    "source": "ExploringEberron24",
+    "type": "rare",
+    "typicalSpeakers": [
+      "{@background Changeling Traveler|ExploringEberron24|Changeling Travelers}"
+    ],
+    "entries": [
+      "This is a rare language that can only be \"spoken\" by shapechangers, though other creatures can learn to understand it. Skin Cant uses shifting patterns of scars, tattoos, and pigment. This allows you to convey a short message—a concept that can be expressed in six words or less—to anyone who knows the language and who can see you. Typically the message is something you maintain as part of your appearance; for example, in crafting your image, you might add a pattern of scars that tells other changeling travelers, \"I need help\" or \"Everything I say is a lie.",
+      "You can also use this language to have a conversation—typically by manifesting symbols on the palm of your hand—with someone who is within 60 feet and able to see you. The shifting patterns can be noticed by other observers within 60 feet; if you wish to keep the conversation discrete, you can hide it with a Charisma ({@skill Deception|XPHB}) check opposed by the observer's Wisdom ({@skill Perception|XPHB} or {@skill Insight|XPHB}) check. If you fail, it means the observer notices your shifting patterns, though they don't understand the meaning unless they also know Skin Cant."
+    ]
+  },
+  {
+    "name": "Stonegrind",
+    "source": "FoEQuickstone",
+    "page": 16,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Gargoyles of Grimstone"
+    ],
+    "entries": [
+      "The language of the gargoyles of Grimstone, which involves grinding stone surfaces together; other creatures can learn to understand it, but cannot speak it without a set of stones."
+    ]
+  },
+  {
+    "name": "Sylvan",
+    "source": "ccg",
+    "page": 9,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@filter fey|bestiary|type=fey}"
+    ],
+    "script": "Sylvan"
+  },
+  {
+    "name": "Sylvan",
+    "dialects": [
+      "Merdhrai"
+    ],
+    "source": "COMLanguage",
+    "page": 1,
+    "otherSources": [
+      {
+        "source": "GGR",
+        "page": 15
+      },
+      {
+        "source": "ERLW",
+        "page": 6
+      },
+      {
+        "source": "MOT",
+        "page": 9
+      },
+      {
+        "source": "PHB",
+        "page": 123
+      },
+      {
+        "source": "DSotDQ",
+        "page": 9
+      }
+    ],
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@race centaur|ggr|centaurs}",
+      "{@creature Conclave Dryad|ggr|dryads}",
+      "{@filter fey creatures|bestiary|type=fey}",
+      "druids"
+    ],
+    "script": "Elvish",
+    "entries": [
+      "Sylvan is widely spoken in the Selesnya Conclave, for it is rich in vocabulary to describe natural phenomena and spiritual forces."
+    ]
+  },
+  {
+    "name": "Sylvan",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Breezies",
+      "Unbreezies",
+      "Fey"
+    ],
+    "script": "Breezie"
+  },
+  {
+    "name": "Tabaxin",
+    "source": "WorldofArcheria",
+    "typicalSpeakers": [
+      "Tabaxi"
+    ]
+  },
+  {
+    "name": "Tartarian",
+    "source": "EddieGPantheonOfMyr",
+    "page": 0,
+    "type": "secret",
+    "entries": [
+      "The unknown form of communication used by the tartarian tribes and their revenant idols."
+    ]
+  },
+  {
+    "name": "Tauric",
+    "source": "FoEQuickstone",
+    "page": 16,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Minotaurs"
+    ],
+    "entries": [
+      "The language of the minotaur clans of the Barrens."
+    ]
+  },
+  {
+    "name": "Tentrix's Cipher",
+    "source": "CallfromtheDeep",
+    "page": 254,
+    "type": "secret",
+    "typicalSpeakers": [
+      "Pirate Lords of the Black Armada"
+    ],
+    "fonts": [
+      "https://rawcdn.githack.com/TheGiddyLimit/homebrew/master/_font/CallfromtheDeep/Tentrix Cipher.otf"
+    ],
+    "entries": [
+      "{@note A substitution cipher invented by {@creature Sea King Tentrix|CallfromtheDeep} to obfuscate {@language Common}.}",
+      "The characters can discover a copy of Sea King Tentrix's cipher any time during the adventure that you deem appropriate. It is in no way essential to the plot, and the characters might enjoy trying to work it out for themselves without the help of the cipher. If you want to give characters a hint, consider giving them a few of the letters, rather than the entire cipher."
+    ],
+    "fluff": {
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/CallfromtheDeep/handout/Tentrix%20Cipher.jpg"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Tepestani",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "people of Nova Vaasa",
+      "people of Shadow Rift/Arak",
+      "people of Darkon",
+      "people of Tepest"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Terran",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "exotic",
+    "typicalSpeakers": [
+      "Earth Elementals",
+      "Diamond Dogs"
+    ],
+    "script": "Carnivoran"
+  },
+  {
+    "name": "Testani",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "people of Castle Island"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Thaani",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "people of Barovia"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Thayan",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "people of Hazlan"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Tilia",
+    "source": "HumblewoodTales",
+    "page": 161,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Tilias"
+    ]
+  },
+  {
+    "name": "Torum",
+    "source": "ObojimaTallGrass",
+    "page": 156,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Spirits"
+    ],
+    "entries": [
+      "Torum is the favored language of the Spirit Realm. Though non-spirits can learn to understand it, beings of the Physical Realm often can't make the layered sounds required to voice the words."
+    ]
+  },
+  {
+    "name": "Trolsung",
+    "source": "midgardworldbook",
+    "page": 0,
+    "entries": [
+      "Related to the language of the giants, Trolsung has a quicker patter but retains the giantish love of riddles, kennings, and wordplay."
+    ]
+  },
+  {
+    "name": "Ulmish",
+    "source": "EddieGPantheonOfMyr",
+    "page": 0,
+    "type": "standard",
+    "entries": [
+      "Language spoken by the humans of Ulm."
+    ]
+  },
+  {
+    "name": "Umbral",
+    "source": "CCodex",
+    "page": 3,
+    "entries": [
+      "Umbral is the language of the shadow elves, a corrupted dialect of Elvish, and spoken by most creatures of shadow. Those who speak it can gain a +1 to one Dexterity ({@skill Stealth}) check 1/day."
+    ]
+  },
+  {
+    "name": "Umbral",
+    "source": "midgardworldbook",
+    "page": 0,
+    "entries": [
+      "The language of the shadow elves, a dialect of Elvish."
+    ]
+  },
+  {
+    "name": "Umbral",
+    "source": "ToB2",
+    "page": 3,
+    "entries": [
+      "Umbral is the language of the shadow elves, a corrupted dialect of Elvish, and spoken by most creatures of shadow. Those who speak it can gain a +1 to one Dexterity ({@skill Stealth}) check 1/day."
+    ]
+  },
+  {
+    "name": "Umbral",
+    "source": "ToB3",
+    "page": 6,
+    "entries": [
+      "This is the language of the shadow fey and other denizens of planes of shadow and darkness. It is a corrupted dialect of {@language Elvish}, and those who speak it gain a +1 bonus to one Dexterity ({@skill Stealth}) check each day. If Umbral isn't a language in your world, you can substitute Umbral with {@language Elvish} or {@language Undercommon}."
+    ]
+  },
+  {
+    "name": "Undercommon",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Changelings",
+      "Bat Ponies",
+      "Subterranian Creatures"
+    ],
+    "script": "Changeling"
+  },
+  {
+    "name": "Unicornian",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "secret",
+    "script": "Unicornian",
+    "entries": [
+      "A Dead Language that predated Equestria's Unification and would influence Ponish.",
+      {
+        "type": "entries",
+        "name": "Found in",
+        "entries": [
+          "Ancient Scrolls, Ancient spellcraft manuals, Noble family mottos."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vaasi",
+    "dialects": [
+      "Kartakan",
+      "Nova Vaasa"
+    ],
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "people of Shadow Rift/Arak",
+      "people of Shadow Arkandale",
+      "people of Shadow Barovia",
+      "people of Hazlan",
+      "people of Invidia",
+      "people of Kartakass",
+      "people of Mordent",
+      "people of Nova Vaasa",
+      "people of Richemulot",
+      "people of Sithicus",
+      "people of Valachan",
+      "people of Verbrek",
+      "people of Darkon",
+      "people of Tepest",
+      "people of Liffe",
+      "people of Nocturnal Sea"
+    ],
+    "script": "Elvish",
+    "entries": [
+      "{@b Fun Fact:} While other countries may speak Vaasi, only the {@i Nova Vaasa} dialect is considered the true one by the Vaasi themselves. They consider all other versions brutish and inferior."
+    ]
+  },
+  {
+    "name": "Valiki",
+    "source": "GHPG",
+    "reprintedAs": [
+      {
+        "edition": "one",
+        "uid": "Valiki|GrimHollowPG24"
+      }
+    ],
+    "page": 11,
+    "entries": [
+      "The dominant language of the Valikan Clans. Each of the clans speaks a slightly different dialect of Valiki, but each dialect is similar enough to make themselves understood."
+    ]
+  },
+  {
+    "name": "Valiki",
+    "source": "GrimHollowPG24",
+    "page": 217,
+    "entries": [
+      "The dominant language of the Valikan Clans{@sup ({@book PG|GrimHollowPG24|8|The Valikan Clans}/{@book CG|GrimHollowCG24|7})}. Each of the clans speaks a slightly different dialect of Valiki, but each dialect is similar enough to make themselves understood."
+    ]
+  },
+  {
+    "name": "Vechorite",
+    "source": "Darklords&DomainsVol1",
+    "page": 1,
+    "type": "standard",
+    "typicalSpeakers": [
+      "people of Vechor"
+    ],
+    "script": "Elvish"
+  },
+  {
+    "name": "Viera",
+    "source": "FFXIV",
+    "page": 24
+  },
+  {
+    "name": "Viera",
+    "source": "FFXIVBeforetheFall",
+    "page": 24
+  },
+  {
+    "name": "Void Speech",
+    "source": "CCodex",
+    "page": 3,
+    "entries": [
+      "Void Speech is the language of the Outer Darkness in the Midgard campaign setting, spoken by vile things that are malevolent towards humans and their allies, and who seek to bring about the ruinous apocalypse of the dark gods. Substitute any ancient language with an evil reputation if you are using another setting."
+    ]
+  },
+  {
+    "name": "Void Speech",
+    "source": "COMLanguage",
+    "otherSources": [
+      {
+        "source": "ToB",
+        "page": 9
+      },
+      {
+        "source": "ToB2",
+        "page": 3
+      },
+      {
+        "source": "ToB3",
+        "page": 6
+      }
+    ],
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@creature mind flayer|MM|mind flayers}",
+      "{@creature beholder|MM|beholders}",
+      "{@creature aboleth|MM|aboleth}"
+    ],
+    "script": "none",
+    "entries": [
+      "This is the language of the Outer Darkness in the Midgard campaign setting. It is spoken by vile things that are malevolent toward humanoids and their allies and by those who seek to bring about the ruinous apocalypse of the dark gods. If Void Speech isn't a language in your world, you can substitute Void Speech with any ancient language with an evil reputation or with {@language Deep Speech}."
+    ]
+  },
+  {
+    "name": "Void Speech",
+    "source": "Darklords&DomainsVol1",
+    "otherSources": [
+      {
+        "source": "ToB",
+        "page": 9
+      },
+      {
+        "source": "ToB2",
+        "page": 3
+      },
+      {
+        "source": "ToB3",
+        "page": 6
+      }
+    ],
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@creature mind flayer|MM|mind flayers}",
+      "{@creature beholder|MM|beholders}",
+      "{@creature aboleth|MM|beholders}"
+    ],
+    "script": "none",
+    "entries": [
+      "This is the language of the Outer Darkness in the Midgard campaign setting. It is spoken by vile things that are malevolent toward humanoids and their allies and by those who seek to bring about the ruinous apocalypse of the dark gods. If Void Speech isn't a language in your world, you can substitute Void Speech with any ancient language with an evil reputation or with {@language Deep Speech}."
+    ]
+  },
+  {
+    "name": "Void Speech",
+    "source": "midgardworldbook",
+    "page": 0,
+    "type": "exotic",
+    "entries": [
+      "The language of the outer darkness, Void dragons, and alien gods, a tongue not meant for humanoid speech at all. It disquiets those who hear it, and adds +1 to the DC of fear-related spells and skill checks."
+    ]
+  },
+  {
+    "name": "Void Speech",
+    "source": "ToB",
+    "page": 9,
+    "entries": [
+      "Void Speech is the language of creatures of the Outer Darkness in the Midgard Campaign Setting, spoken by vile things that are malevolent towards humans and their allies, and that seek to bring about ruinous apocalypse of dark gods. Substitute any ancient language with an evil reputation if you are using another setting."
+    ]
+  },
+  {
+    "name": "Void Speech",
+    "source": "ToB2",
+    "page": 3,
+    "entries": [
+      "Void Speech is the language of the Outer Darkness in the Midgard campaign setting, spoken by vile things that are malevolent towards humans and their allies, and who seek to bring about the ruinous apocalypse of the dark gods. Substitute any ancient language with an evil reputation if you are using another setting."
+    ]
+  },
+  {
+    "name": "Void Speech",
+    "source": "ToB3",
+    "page": 6,
+    "entries": [
+      "This is the language of the Outer Darkness in the Midgard campaign setting. It is spoken by vile things that are malevolent toward humanoids and their allies and by those who seek to bring about the ruinous apocalypse of the dark gods. If Void Speech isn't a language in your world, you can substitute Void Speech with any ancient language with an evil reputation or with {@language Deep Speech}."
+    ]
+  },
+  {
+    "name": "Void Speech",
+    "source": "W02DM",
+    "page": 19,
+    "entries": [
+      "Reading Void Speech is dangerous. A PC studying the tablets must make a DC 13 Wisdom saving throw or suffer the effects of {@table short-term madness} for {@dice 1d10} minutes. If the saving throw is failed by 5 or more, {@table long-term madness} ensues for {@dice 1d10 × 10} hours."
+    ]
+  },
+  {
+    "name": "Volan",
+    "source": "WorldofArcheria",
+    "typicalSpeakers": [
+      "Volo"
+    ]
+  },
+  {
+    "name": "Vos'ghaen",
+    "source": "midgardworldbook",
+    "page": 0,
+    "type": "exotic",
+    "entries": [
+      "An ancient human tongue, related to Ankeshelian. Speakers of Vos'ghaen are often wizards and masters of glyph magic."
+    ]
+  },
+  {
+    "name": "Vos'Ghaen",
+    "source": "midgardworldbook",
+    "page": 44,
+    "entries": [
+      "An ancient human tongue, related to Ankeshelian. Speakers of Vos'ghaen are often wizards and masters of glyph magic."
+    ]
+  },
+  {
+    "name": "Vulpin",
+    "source": "HumblewoodCampaignSetting",
+    "page": 34,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Vulpins"
+    ],
+    "script": "Vulpin",
+    "entries": [
+      "Vulpin is a language of growls, snarls, and yips. It is written in its own flowing cursive script. Speakers are taught to switch between low and high class versions of Vulpin depending on the context. The biggest stumbling block for new speakers is learning when to use which form."
+    ]
+  },
+  {
+    "name": "Waelen",
+    "source": "BoBH",
+    "page": 189,
+    "typicalSpeakers": [
+      "{@race Waelen|BoBH}",
+      "{@creature Antler-King|BoBH}",
+      "{@creature Druid of the Earthmother|BoBH}",
+      "{@creature Fianna|BoBH}",
+      "{@creature Islander Levy|BoBH}",
+      "{@creature Leathdhia|BoBH}",
+      "{@creature Macnia|BoBH}",
+      "{@creature Oathbound Noble|BoBH}",
+      "{@creature Deepgrove Ranger|BoBH}",
+      "{@creature Red Fury|BoBH}",
+      "{@creature Woad Druid|BoBH}",
+      "{@creature Woad Reaver|BoBH}",
+      "{@creature Woad Whaler|BoBH}"
+    ]
+  },
+  {
+    "name": "Warg-speech",
+    "source": "TLotRR",
+    "page": 162,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Wargs",
+      "Werewolves",
+      "Gandalf"
+    ],
+    "entries": [
+      "While not much is known about this language, it is described as queer, sounding \"like animal noises turned into talk\"."
+    ]
+  },
+  {
+    "name": "Westron",
+    "source": "TLotRR",
+    "page": 27,
+    "type": "standard",
+    "typicalSpeakers": [
+      "{@race Barding|TLotRR|Bardings}",
+      "{@race Dwarf|TLotRR|Dwarves}",
+      "{@race Elf|TLotRR|Elves}",
+      "{@race Hobbit|TLotRR|Hobbits}",
+      "{@race Man of Bree|TLotRR|Men of Bree}",
+      "{@race Ranger of the North|TLotRR|Rangers of the North}",
+      "Evil Men",
+      "Orcs",
+      "Stone Trolls",
+      "Wights",
+      "Wraiths"
+    ],
+    "script": "Common",
+    "entries": [
+      "Different languages can provide intriguing roleplaying opportunities, if the Loremaster and the players are interested. This shouldn't get in the way of the fun, however. While Tolkien used the linguistic differences among the various realms of Middle-earth to good narrative effect, he also found it simpler to avoid steep cultural barriers and gave most ethnic groups (even Orcs and other more fantastical creatures, like Ents) at least a passing knowledge of what constituted a 'lingua franca,' the so-called Common Speech, or Westron. This allows players who don't want to deal with the complex relations between the various peoples and their languages to ignore the entire subject altogether without damaging the setting. But if you are willing to explore this angle, it is certainly worth investigating."
+    ]
+  },
+  {
+    "name": "Whisperium",
+    "source": "midgardworldbook",
+    "page": 0,
+    "type": "exotic",
+    "entries": [
+      "A silent language common among gnomes and diabolists. If you know Whisperium, you may cast a spell silently once per day."
+    ]
+  },
+  {
+    "name": "Wild",
+    "source": "ccg",
+    "page": 9,
+    "type": "standard",
+    "typicalSpeakers": [
+      "{@race beastfolk|ccg}",
+      "the Overgrowth"
+    ],
+    "script": "Sylvan",
+    "entries": [
+      "{@b Wild} is the rhythmic, gentle language of the beastfolk, adapted from the Fey that lived among them."
+    ]
+  },
+  {
+    "name": "Witchtongue",
+    "source": "YAG",
+    "page": 36,
+    "typicalSpeakers": [
+      "{@background Coven Witch|YAG}"
+    ],
+    "script": "Witchtongue",
+    "fonts": [
+      "homebrew/fonts/Unown-OVEwA.ttf"
+    ]
+  },
+  {
+    "name": "Wuura'gaa",
+    "source": "FoEQuickstone",
+    "page": 16,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Worgs of the Watching Wood"
+    ],
+    "entries": [
+      "The native tongue of the worgs of the Watching Wood."
+    ]
+  },
+  {
+    "name": "Wuxian",
+    "source": "COMLanguage",
+    "type": "exotic",
+    "typicalSpeakers": [
+      "{@race Oni|BBHR}"
+    ],
+    "script": "exotic",
+    "entries": [
+      "Wuxian is a strange tongue, one that tends to ignore traits of other languages, such as writing words as symbols instead of letters."
+    ]
+  },
+  {
+    "name": "Ysian",
+    "source": "EddieGPantheonOfMyr",
+    "page": 0,
+    "type": "standard",
+    "entries": [
+      "Language spoken by the nobility of Ys; Swanmay Knights and Morvarc'h knights use it to communicate swiftly in battle, while Morgen queens use it command their subjects."
+    ]
+  },
+  {
+    "name": "Zebrican",
+    "source": "mlpplaneshift",
+    "page": 33,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Zebras"
+    ],
+    "script": "Ponish"
+  }
+]
