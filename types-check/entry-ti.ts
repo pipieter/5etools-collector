@@ -45,6 +45,7 @@ export const EntryTableGroup = t.iface([], {
 
 export const EntryTable = t.iface([], {
   "type": t.lit('table'),
+  "name": t.opt("string"),
   "caption": t.opt("string"),
   "colLabels": t.opt(t.array("string")),
   "colLabelRows": t.opt(t.array("ColLabelRow")),

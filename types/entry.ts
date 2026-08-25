@@ -40,6 +40,7 @@ export interface EntryTableGroup {
 
 export interface EntryTable {
   type: 'table';
+  name?: string;
   caption?: string;
   colLabels?: string[];
   colLabelRows?: ColLabelRow[];

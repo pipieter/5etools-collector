@@ -13,6 +13,7 @@ export const Base = t.iface([], {
   "hasFluffImages": t.opt("boolean"),
   "hasFluff": t.opt("boolean"),
   "hasRefs": t.opt("boolean"),
+  "hasToken": t.opt("boolean"),
   "referenceSources": t.opt(t.array("Source")),
   "otherSources": t.opt(t.array("Source")),
   "additionalSources": t.opt(t.array("Source")),

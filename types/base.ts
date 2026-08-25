@@ -7,6 +7,7 @@ export interface Base {
   hasFluffImages?: boolean;
   hasFluff?: boolean;
   hasRefs?: boolean;
+  hasToken?: boolean;
   referenceSources?: Source[];
   otherSources?: Source[];
   additionalSources?: Source[];
