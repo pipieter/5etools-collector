@@ -130,6 +130,7 @@ function official() {
 
   write('./data/official', 'actions.json', collector.get('action'));
   write('./data/official', 'backgrounds.json', collector.get('background'));
+  write('./data/official', 'background-fluffs.json', collector.get('backgroundFluff'));
   write('./data/official', 'boons.json', collector.get('boon'));
   write('./data/official', 'cults.json', collector.get('cult'));
   write('./data/official', 'deities.json', collector.get('deity'));
