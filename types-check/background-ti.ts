@@ -12,6 +12,7 @@ export const Background = t.iface(["Base", "SRD"], {
   "toolProficiencies": t.opt(t.array("ToolProficiency")),
   "languageProficiencies": t.opt(t.array("LanguageProficiency")),
   "skillToolLanguageProficiencies": t.opt(t.array("SkillToolLanguageProficiency")),
+  "weaponProficiencies": t.opt(t.array("WeaponProficiency")),
   "startingEquipment": t.opt(t.array("StartingEquipment")),
   "fromFeature": t.opt("any"),
   "additionalSpells": t.opt(t.array("any")),

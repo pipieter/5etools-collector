@@ -9,8 +9,13 @@ import BackgroundTI from '../../types-check/background-ti';
 import official from '../../data/official/backgrounds.json';
 import officialFluff from '../../data/official/background-fluffs.json';
 
+import partnered from '../../data/partnered/backgrounds.json';
+import partneredFluff from '../../data/partnered/background-fluffs.json';
+
 const { Background } = createCheckers(BaseTI, EntryTI, BackgroundTI);
 const { Fluff } = createCheckers(BaseTI, EntryTI, FluffTI);
 
-check('background', Background, official);
-check('background fluff', Fluff, officialFluff);
+check('official background', Background, official);
+check('official background fluff', Fluff, officialFluff);
+check('partnered background', Background, partnered);
+check('partnered background fluff', Fluff, partneredFluff);

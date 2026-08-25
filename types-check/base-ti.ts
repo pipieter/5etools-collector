@@ -7,7 +7,7 @@ import * as t from "ts-interface-checker";
 export const Base = t.iface([], {
   "name": "string",
   "source": "string",
-  "page": t.opt("number"),
+  "page": t.opt(t.union("number", "string")),
   "alias": t.opt(t.array("string")),
   "reprintedAs": t.opt(t.array("ReprintedAs")),
   "hasFluffImages": t.opt("boolean"),
@@ -18,6 +18,10 @@ export const Base = t.iface([], {
   "otherSources": t.opt(t.array("Source")),
   "additionalSources": t.opt(t.array("Source")),
   "edition": t.opt("string"),
+  "fluff": t.opt(t.iface([], {
+    "entries": t.opt(t.array("Entry")),
+    "images": t.opt(t.array("ImageRef")),
+  })),
   "_copy": t.opt("any"),
   "_versions": t.opt(t.array("any")),
 });
@@ -108,14 +112,18 @@ export const MaterialComponent = t.union("string", t.iface([], {
 
 export const ImageRef = t.iface([], {
   "type": t.lit('image'),
-  "href": t.iface([], {
-    "type": t.union(t.lit('internal'), t.lit('external')),
+  "href": t.union(t.iface([], {
+    "type": t.lit('internal'),
     "path": "string",
-  }),
+  }), t.iface([], {
+    "type": t.lit('external'),
+    "url": "string",
+  })),
   "title": t.opt("string"),
   "credit": t.opt("string"),
   "width": t.opt("number"),
   "height": t.opt("number"),
+  "altText": t.opt("string"),
 });
 
 export const SkillProficiency = t.iface([], {
@@ -140,6 +148,13 @@ export const SkillProficiency = t.iface([], {
   "any": t.opt("number"),
   "anyProficientSkill": t.opt("number"),
   "choose": t.opt("Choose"),
+  "explore|tlotrr": t.opt("boolean"),
+  "hunting|tlotrr": t.opt("boolean"),
+  "old lore|tlotrr": t.opt("boolean"),
+  "riddle|tlotrr": t.opt("boolean"),
+  "travel|tlotrr": t.opt("boolean"),
+  "mechanics|ObojimaTallGrass": t.opt("boolean"),
+  "salvage|ObojimaTallGrass": t.opt("boolean"),
 });
 
 export const SavingThrowProficiency = t.iface([], {
@@ -197,6 +212,8 @@ export const ToolProficiency = t.iface([], {
   "anyGamingSet": t.opt("number"),
   "anyMusicalInstrument": t.opt("number"),
   "choose": t.opt("Choose"),
+  "pipe|tlotrr": t.opt("boolean"),
+  "torture tools|SGEHPP": t.opt("boolean"),
 });
 
 export const LanguageProficiency = t.iface([], {
@@ -228,6 +245,7 @@ export const LanguageProficiency = t.iface([], {
   "any": t.opt("number"),
   "anyStandard": t.opt("number"),
   "choose": t.opt("Choose"),
+  "torum|ObojimaTallGrass": t.opt("boolean"),
 });
 
 export const SkillToolLanguageProficiency = t.iface([], {

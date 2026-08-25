@@ -8,6 +8,7 @@ export const Entry = t.union("string", "EntryEntries", "EntryItem", "EntrySectio
 
 export const EntryEntries = t.iface([], {
   "type": t.lit('entries'),
+  "id": t.opt("string"),
   "name": t.opt("string"),
   "page": t.opt("number"),
   "entries": t.array("Entry"),

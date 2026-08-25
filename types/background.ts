@@ -8,6 +8,7 @@ import {
   SkillToolLanguageProficiency,
   StartingEquipment,
   Prerequisite,
+  WeaponProficiency,
 } from './base';
 import { Entry } from './entry';
 
@@ -19,6 +20,7 @@ export interface Background extends Base, SRD {
   toolProficiencies?: ToolProficiency[];
   languageProficiencies?: LanguageProficiency[];
   skillToolLanguageProficiencies?: SkillToolLanguageProficiency[];
+  weaponProficiencies?: WeaponProficiency[]
   startingEquipment?: StartingEquipment[];
   fromFeature?: any; // TODO
   additionalSpells?: any[]; // TODO

@@ -1,7 +1,9 @@
+import { Entry } from './entry';
+
 export interface Base {
   name: string;
   source: string;
-  page?: number;
+  page?: number | string;
   alias?: string[];
   reprintedAs?: ReprintedAs[];
   hasFluffImages?: boolean;
@@ -12,6 +14,7 @@ export interface Base {
   otherSources?: Source[];
   additionalSources?: Source[];
   edition?: string;
+  fluff?: { entries?: Entry[]; images?: ImageRef[] };
   _copy?: any; // TODO
   _versions?: any[]; // TODO
 }
@@ -79,14 +82,12 @@ export type MaterialComponent =
 
 export interface ImageRef {
   type: 'image';
-  href: {
-    type: 'internal' | 'external';
-    path: string;
-  };
+  href: { type: 'internal'; path: string } | { type: 'external'; url: string };
   title?: string;
   credit?: string;
   width?: number;
   height?: number;
+  altText?: string;
 }
 
 export interface SkillProficiency {
@@ -111,6 +112,15 @@ export interface SkillProficiency {
   any?: number;
   anyProficientSkill?: number;
   choose?: Choose;
+
+  // Partnered
+  'explore|tlotrr'?: boolean;
+  'hunting|tlotrr'?: boolean;
+  'old lore|tlotrr'?: boolean;
+  'riddle|tlotrr'?: boolean;
+  'travel|tlotrr'?: boolean;
+  'mechanics|ObojimaTallGrass'?: boolean;
+  'salvage|ObojimaTallGrass'?: boolean;
 }
 
 export interface SavingThrowProficiency {
@@ -168,6 +178,10 @@ export interface ToolProficiency {
   anyGamingSet?: number;
   anyMusicalInstrument?: number;
   choose?: Choose;
+
+  // Partnered
+  'pipe|tlotrr'?: boolean;
+  'torture tools|SGEHPP'?: boolean;
 }
 
 export interface LanguageProficiency {
@@ -199,6 +213,9 @@ export interface LanguageProficiency {
   any?: number;
   anyStandard?: number;
   choose?: Choose;
+
+  // Partnered
+  'torum|ObojimaTallGrass'?: boolean;
 }
 
 export interface SkillToolLanguageProficiency {
