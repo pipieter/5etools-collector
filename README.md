@@ -13,13 +13,5 @@ npm run collect
 ## Verifying types
 
 ```bash
-npm run gentypes
+npm run typecheck
 ```
-
-```bash
-npx tsx scripts/typecheck/action.ts
-```
-
-## Why split the types into separate files?
-
-ts-interface-checker out-of-memory issues
