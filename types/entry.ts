@@ -1,48 +1,53 @@
 export type Entry =
-  string | EntryEntries | EntryItem | EntrySection | EntryInset | EntryTable | EntryList | EntryQuote | EntryImage;
+  | string
+  | EntryEntries
+  | EntryItem
+  | EntrySection
+  | EntryInset
+  | EntryTable
+  | EntryList
+  | EntryQuote
+  | EntryImage
+  | EntryOptions
+  | EntryRefOptionalFeature;
 
-export interface EntryEntries {
-  type: 'entries';
+export interface EntryBase {
   id?: string;
   name?: string;
   page?: number;
+  source?: string;
+}
+
+export interface EntryEntries extends EntryBase {
+  type: 'entries';
   entries: Entry[];
   data?: any;
 }
 
-export interface EntryItem {
+export interface EntryItem extends EntryBase {
   type: 'item' | 'itemSub';
-  name?: string;
   entries?: Entry[];
   entry?: Entry;
 }
 
-export interface EntrySection {
+export interface EntrySection extends EntryBase {
   type: 'section';
-  id?: string;
-  name?: string;
   entries: Entry[];
 }
 
-export interface EntryInset {
+export interface EntryInset extends EntryBase {
   type: 'inset' | 'insetReadaloud';
-  id?: string;
-  source?: string;
-  page?: number;
-  name?: string;
   entries: Entry[];
 }
 
-export interface EntryTableGroup {
+export interface EntryTableGroup extends EntryBase {
   type: 'tableGroup';
-  name: string;
   caption?: string;
   tables: EntryTable[];
 }
 
-export interface EntryTable {
+export interface EntryTable extends EntryBase {
   type: 'table';
-  name?: string;
   caption?: string;
   colLabels?: string[];
   colLabelRows?: ColLabelRow[];
@@ -61,15 +66,14 @@ export interface Cell {
   entry?: Entry;
 }
 
-export interface EntryList {
+export interface EntryList extends EntryBase {
   type: 'list';
-  name?: string;
   style?: string;
   columns?: number;
   items: Entry[];
 }
 
-export interface EntryQuote {
+export interface EntryQuote extends EntryBase {
   type: 'quote';
   entries: Entry[];
   by?: string;
@@ -85,6 +89,16 @@ export interface EntryImage {
   height?: number;
   altText?: string;
   style?: string;
+}
+
+export interface EntryOptions {
+  type: 'options';
+  entries: Entry[];
+}
+
+export interface EntryRefOptionalFeature {
+  type: 'refOptionalfeature';
+  optionalfeature: string;
 }
 
 export interface SingleEntry {
