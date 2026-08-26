@@ -98,6 +98,7 @@ check('backgrounds', asserts.background);
 check('background-fluffs', asserts.fluff);
 check('boons', asserts.boon);
 check('conditions', asserts.condition);
+check('condition-fluffs', asserts.fluff);
 check('cults', asserts.cult);
 check('deities', asserts.deity);
 check('feats', asserts.feat);
