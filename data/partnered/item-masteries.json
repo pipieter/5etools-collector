@@ -1,112 +1,112 @@
 [
-  {
-    "name": "Automatic",
-    "source": "ValdaGunslinger",
-    "entries": [
-      "When you make an attack with this weapon, you can choose to make two attacks instead. These attacks are always made with {@variantrule Disadvantage|XPHB}, regardless of circumstance. You can't replace these attacks. If this weapon has {@itemProperty AF|XDMG|Ammunition}, these attacks use twice the normal amount of ammunition."
-    ]
-  },
-  {
-    "name": "Brutal",
-    "source": "GrimHollowPG24",
-    "page": 123,
-    "entries": [
-      "A Brutal weapon is designed for maximum damage. Brutal weapons score {@variantrule Critical Hit|XPHB|Critical Hits} on a natural roll of 19 or 20. If your Critical Range is already increased, instead increase it by 1 point (such as from 19-20 to 18-20).",
-      "When you score a {@variantrule Critical Hit|XPHB} with a Brutal weapon against a creature, the weapon deals one additional die of damage."
-    ]
-  },
-  {
-    "name": "Defending",
-    "source": "GrimHollowPG24",
-    "page": 123,
-    "entries": [
-      "A Defending weapon is either made for parrying, has advanced techniques for use in parrying, or both. When wielding a Defending weapon, you may use your {@variantrule Reaction|XPHB} when you are hit by a melee attack roll. Roll {@dice 1d4} and add the result to your AC, including against the triggering attack."
-    ]
-  },
-  {
-    "name": "Disarming",
-    "source": "GrimHollowPG24",
-    "page": 123,
-    "entries": [
-      "A Disarming weapon can catch a foe's weapon, allowing you to remove it from their grasp. When you take the {@action Attack|XPHB} action on your turn and hit with a Disarming weapon, you can use your {@variantrule Bonus Action|XPHB} later on the same turn to disarm the target. Both you and the attacker must make opposed attack rolls, ignoring any sources of {@variantrule Advantage|XPHB} and {@variantrule Disadvantage|XPHB}. If your result is higher and the weapon is something the target can drop, the weapon falls from the target's grasp, landing in its space.",
-      "If your winning result on the opposed attack roll was a {@variantrule Critical Hit|XPHB}, you can choose for the weapon either to land in a space of your choice up to 15 feet from the target, or to land in your hand if you have a free hand."
-    ]
-  },
-  {
-    "name": "Entangling",
-    "source": "GrimHollowPG24",
-    "page": 123,
-    "entries": [
-      "When you take the {@action Attack|XPHB} action on your turn and hit with an Entangling weapon, you can use a {@variantrule Bonus Action|XPHB} later on the same turn to entangle the target. The target must succeed on a Dexterity saving throw (DC 10 plus your {@variantrule Proficiency|XPHB|Proficiency Bonus}) or have the {@condition Grappled|XPHB} condition until it escapes or until you release the weapon. The target succeeds automatically if it is Huge or larger.",
-      "To escape, the target must use an action to make a Strength ({@skill Athletics|XPHB}) or Dexterity ({@skill Acrobatics|XPHB}) check against the same DC. On a success, the target no longer has the {@condition Grappled|XPHB} condition. While a creature is {@condition Grappled|XPHB} by this weapon, you can't use it to attack a different creature."
-    ]
-  },
-  {
-    "name": "Explode",
-    "source": "ValdaGunslinger",
-    "entries": [
-      "When you take the {@action Attack|XPHB} action, you can replace one of your attacks with an explosion from this weapon's projectile. This explosion is a 5-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on a point you choose within the weapon's normal range. Each creature within the {@variantrule Sphere [Area of Effect]|XPHB|Sphere} makes a Dexterity saving throw (DC 8 plus your Strength or Dexterity modifier and your {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, a creature takes the weapon's damage, but don't add your ability modifier to that damage unless that modifier is negative. On a successful save, a creature takes half as much damage. You can create this explosion only once per turn."
-    ]
-  },
-  {
-    "name": "Pull",
-    "source": "NorthlandsWorldbook",
-    "entries": [
-      "If you hit a creature with this weapon, you can pull the creature 5 feet toward yourself if it is Large or smaller. When you do so, you can also move back 5 feet without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks}, and this does not use any of your normal movement speed."
-    ]
-  },
-  {
-    "name": "Returning",
-    "source": "GrimHollowPG24",
-    "page": 123,
-    "entries": [
-      "A Returning weapon allows you to hurl the weapon in such a way that it returns to you. When you make a ranged attack with a Returning weapon, the weapon returns to you immediately after hitting or missing the target. You can catch the weapon if you have a hand free to do so."
-    ]
-  },
-  {
-    "name": "Scatter",
-    "source": "GrimHollowPG24",
-    "page": 123,
-    "entries": [
-      "Scatter weapons can devastate multiple enemies at once. When you take the {@action Attack|XPHB} action and hit a creature with a Scatter weapon, measure the weapon's scatter range from the target's space (or one square the creature occupies if it is Large or larger). Creatures other than the original target that fall within the weapon's scatter range take damage equal to your 1 + your Dexterity modifier (minimum 2). This damage is of the same type you dealt to the original target."
-    ]
-  },
-  {
-    "name": "Scatter",
-    "source": "ValdaGunslinger",
-    "entries": [
-      "Being within 5 feet of an enemy doesn't impose {@variantrule Disadvantage|XPHB} on your ranged attack rolls with this weapon."
-    ]
-  },
-  {
-    "name": "Set",
-    "source": "GrimHollowPG24",
-    "page": 123,
-    "entries": [
-      "Weapons with the Set property allow you to prepare for an oncoming attack. If a target enters your reach while you wield a weapon with this property, you can use your {@variantrule Reaction|XPHB} to make a melee attack with the weapon against that target."
-    ]
-  },
-  {
-    "name": "Sighted",
-    "source": "ValdaGunslinger",
-    "entries": [
-      "Attacking at long range with this weapon doesn't impose {@variantrule Disadvantage|XPHB} on your attack rolls. When you hit a creature with an attack using this weapon at long range, you can reroll any of the damage dice and must use the new roll."
-    ]
-  },
-  {
-    "name": "Strong-Draw",
-    "source": "GrimHollowPG24",
-    "page": 123,
-    "entries": [
-      "A weapon with the Strong-Draw quality requires great strength to use. You have {@variantrule Disadvantage|XPHB} on attack rolls with a Strong-Draw weapon unless your Strength is 13 or higher. You add both your Strength and Dexterity modifiers to damage with a Strong-Draw weapon."
-    ]
-  },
-  {
-    "name": "Swift",
-    "source": "GrimHollowPG24",
-    "page": 123,
-    "entries": [
-      "Swift weapons help you recover quickly from missed attacks. When you miss with a Swift weapon, you have {@variantrule Advantage|XPHB} on the first attack roll you make with the weapon against the same target before the end of your next turn. If that attack hits, it also deals an extra {@damage 1d4} damage of the weapon's normal damage type."
-    ]
-  }
+ {
+  "name": "Automatic",
+  "source": "ValdaGunslinger",
+  "entries": [
+   "When you make an attack with this weapon, you can choose to make two attacks instead. These attacks are always made with {@variantrule Disadvantage|XPHB}, regardless of circumstance. You can't replace these attacks. If this weapon has {@itemProperty AF|XDMG|Ammunition}, these attacks use twice the normal amount of ammunition."
+  ]
+ },
+ {
+  "name": "Brutal",
+  "source": "GrimHollowPG24",
+  "page": 123,
+  "entries": [
+   "A Brutal weapon is designed for maximum damage. Brutal weapons score {@variantrule Critical Hit|XPHB|Critical Hits} on a natural roll of 19 or 20. If your Critical Range is already increased, instead increase it by 1 point (such as from 19-20 to 18-20).",
+   "When you score a {@variantrule Critical Hit|XPHB} with a Brutal weapon against a creature, the weapon deals one additional die of damage."
+  ]
+ },
+ {
+  "name": "Defending",
+  "source": "GrimHollowPG24",
+  "page": 123,
+  "entries": [
+   "A Defending weapon is either made for parrying, has advanced techniques for use in parrying, or both. When wielding a Defending weapon, you may use your {@variantrule Reaction|XPHB} when you are hit by a melee attack roll. Roll {@dice 1d4} and add the result to your AC, including against the triggering attack."
+  ]
+ },
+ {
+  "name": "Disarming",
+  "source": "GrimHollowPG24",
+  "page": 123,
+  "entries": [
+   "A Disarming weapon can catch a foe's weapon, allowing you to remove it from their grasp. When you take the {@action Attack|XPHB} action on your turn and hit with a Disarming weapon, you can use your {@variantrule Bonus Action|XPHB} later on the same turn to disarm the target. Both you and the attacker must make opposed attack rolls, ignoring any sources of {@variantrule Advantage|XPHB} and {@variantrule Disadvantage|XPHB}. If your result is higher and the weapon is something the target can drop, the weapon falls from the target's grasp, landing in its space.",
+   "If your winning result on the opposed attack roll was a {@variantrule Critical Hit|XPHB}, you can choose for the weapon either to land in a space of your choice up to 15 feet from the target, or to land in your hand if you have a free hand."
+  ]
+ },
+ {
+  "name": "Entangling",
+  "source": "GrimHollowPG24",
+  "page": 123,
+  "entries": [
+   "When you take the {@action Attack|XPHB} action on your turn and hit with an Entangling weapon, you can use a {@variantrule Bonus Action|XPHB} later on the same turn to entangle the target. The target must succeed on a Dexterity saving throw (DC 10 plus your {@variantrule Proficiency|XPHB|Proficiency Bonus}) or have the {@condition Grappled|XPHB} condition until it escapes or until you release the weapon. The target succeeds automatically if it is Huge or larger.",
+   "To escape, the target must use an action to make a Strength ({@skill Athletics|XPHB}) or Dexterity ({@skill Acrobatics|XPHB}) check against the same DC. On a success, the target no longer has the {@condition Grappled|XPHB} condition. While a creature is {@condition Grappled|XPHB} by this weapon, you can't use it to attack a different creature."
+  ]
+ },
+ {
+  "name": "Explode",
+  "source": "ValdaGunslinger",
+  "entries": [
+   "When you take the {@action Attack|XPHB} action, you can replace one of your attacks with an explosion from this weapon's projectile. This explosion is a 5-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on a point you choose within the weapon's normal range. Each creature within the {@variantrule Sphere [Area of Effect]|XPHB|Sphere} makes a Dexterity saving throw (DC 8 plus your Strength or Dexterity modifier and your {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, a creature takes the weapon's damage, but don't add your ability modifier to that damage unless that modifier is negative. On a successful save, a creature takes half as much damage. You can create this explosion only once per turn."
+  ]
+ },
+ {
+  "name": "Pull",
+  "source": "NorthlandsWorldbook",
+  "entries": [
+   "If you hit a creature with this weapon, you can pull the creature 5 feet toward yourself if it is Large or smaller. When you do so, you can also move back 5 feet without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks}, and this does not use any of your normal movement speed."
+  ]
+ },
+ {
+  "name": "Returning",
+  "source": "GrimHollowPG24",
+  "page": 123,
+  "entries": [
+   "A Returning weapon allows you to hurl the weapon in such a way that it returns to you. When you make a ranged attack with a Returning weapon, the weapon returns to you immediately after hitting or missing the target. You can catch the weapon if you have a hand free to do so."
+  ]
+ },
+ {
+  "name": "Scatter",
+  "source": "GrimHollowPG24",
+  "page": 123,
+  "entries": [
+   "Scatter weapons can devastate multiple enemies at once. When you take the {@action Attack|XPHB} action and hit a creature with a Scatter weapon, measure the weapon's scatter range from the target's space (or one square the creature occupies if it is Large or larger). Creatures other than the original target that fall within the weapon's scatter range take damage equal to your 1 + your Dexterity modifier (minimum 2). This damage is of the same type you dealt to the original target."
+  ]
+ },
+ {
+  "name": "Scatter",
+  "source": "ValdaGunslinger",
+  "entries": [
+   "Being within 5 feet of an enemy doesn't impose {@variantrule Disadvantage|XPHB} on your ranged attack rolls with this weapon."
+  ]
+ },
+ {
+  "name": "Set",
+  "source": "GrimHollowPG24",
+  "page": 123,
+  "entries": [
+   "Weapons with the Set property allow you to prepare for an oncoming attack. If a target enters your reach while you wield a weapon with this property, you can use your {@variantrule Reaction|XPHB} to make a melee attack with the weapon against that target."
+  ]
+ },
+ {
+  "name": "Sighted",
+  "source": "ValdaGunslinger",
+  "entries": [
+   "Attacking at long range with this weapon doesn't impose {@variantrule Disadvantage|XPHB} on your attack rolls. When you hit a creature with an attack using this weapon at long range, you can reroll any of the damage dice and must use the new roll."
+  ]
+ },
+ {
+  "name": "Strong-Draw",
+  "source": "GrimHollowPG24",
+  "page": 123,
+  "entries": [
+   "A weapon with the Strong-Draw quality requires great strength to use. You have {@variantrule Disadvantage|XPHB} on attack rolls with a Strong-Draw weapon unless your Strength is 13 or higher. You add both your Strength and Dexterity modifiers to damage with a Strong-Draw weapon."
+  ]
+ },
+ {
+  "name": "Swift",
+  "source": "GrimHollowPG24",
+  "page": 123,
+  "entries": [
+   "Swift weapons help you recover quickly from missed attacks. When you miss with a Swift weapon, you have {@variantrule Advantage|XPHB} on the first attack roll you make with the weapon against the same target before the end of your next turn. If that attack hits, it also deals an extra {@damage 1d4} damage of the weapon's normal damage type."
+  ]
+ }
 ]

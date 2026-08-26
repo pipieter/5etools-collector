@@ -18,7 +18,7 @@ function writeJson(dir: string, file: string, contents: any[]): any {
   contents = [...contents].sort(sort);
 
   const fullPath = path.join(dir, file);
-  writeFileSync(fullPath, JSON.stringify(contents, null, 2));
+  writeFileSync(fullPath, JSON.stringify(contents, null, 1));
 }
 
 class Collector {

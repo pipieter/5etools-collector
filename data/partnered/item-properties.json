@@ -1,600 +1,600 @@
 [
-  {
+ {
+  "name": "Armor-Piercing",
+  "abbreviation": "AP",
+  "source": "GrimHollowPG24",
+  "page": 122,
+  "entries": [
+   {
+    "type": "entries",
     "name": "Armor-Piercing",
-    "abbreviation": "AP",
-    "source": "GrimHollowPG24",
-    "page": 122,
     "entries": [
-      {
-        "type": "entries",
-        "name": "Armor-Piercing",
-        "entries": [
-          "An Armor-Piercing weapon is a Melee weapon designed to punch through armor or thick hide. When you make an attack roll using an Armor-Piercing weapon, you gain a +1 bonus to the attack roll if your target is wearing armor or has an {@variantrule Armor Class|XPHB} of 18 or higher."
-        ]
-      }
+     "An Armor-Piercing weapon is a Melee weapon designed to punch through armor or thick hide. When you make an attack roll using an Armor-Piercing weapon, you gain a +1 bonus to the attack roll if your target is wearing armor or has an {@variantrule Armor Class|XPHB} of 18 or higher."
     ]
-  },
-  {
+   }
+  ]
+ },
+ {
+  "name": "Artillery",
+  "abbreviation": "SGEHPP:Art",
+  "source": "SGEHPP",
+  "template": "Artillery (Range {{item.range}} ft.; {{item.ammoType}})",
+  "entries": [
+   {
+    "type": "entries",
     "name": "Artillery",
-    "abbreviation": "SGEHPP:Art",
-    "source": "SGEHPP",
-    "template": "Artillery (Range {{item.range}} ft.; {{item.ammoType}})",
     "entries": [
-      {
-        "type": "entries",
-        "name": "Artillery",
-        "entries": [
-          "You must use Strength instead of Dexterity for the attack rolls and damage rolls of a weapon with the Artillery property, and you can use the weapon to make a ranged attack only if you have ammunition to fire from it. The type of ammunition required is specified with the weapon's range. Each attack expends one piece of ammunition. Weapons with the Artillery property must be reloaded with an action. After a fight, you can spend 1 minute to recover half the ammunition (round down) you used in the fight; the rest is lost."
-        ]
-      }
+     "You must use Strength instead of Dexterity for the attack rolls and damage rolls of a weapon with the Artillery property, and you can use the weapon to make a ranged attack only if you have ammunition to fire from it. The type of ammunition required is specified with the weapon's range. Each attack expends one piece of ammunition. Weapons with the Artillery property must be reloaded with an action. After a fight, you can spend 1 minute to recover half the ammunition (round down) you used in the fight; the rest is lost."
     ]
-  },
-  {
+   }
+  ]
+ },
+ {
+  "name": "Barrel",
+  "abbreviation": "SGEHPP:Bar",
+  "source": "SGEHPP",
+  "template": "Barrel {{item.customProperties.barrel}}",
+  "entries": [
+   {
+    "type": "entries",
     "name": "Barrel",
-    "abbreviation": "SGEHPP:Bar",
-    "source": "SGEHPP",
-    "template": "Barrel {{item.customProperties.barrel}}",
     "entries": [
-      {
-        "type": "entries",
-        "name": "Barrel",
-        "entries": [
-          "A Barrel weapon can be fired a number of times equal to the number of bullets its barrel can hold (written as Barrel X) before it must be reloaded. It can be reloaded as either an action or instead of an attack as part of the {@action Attack|XPHB} action. If the weapon also has the {@itemProperty L|XPHB|Light} property, it can also be reloaded as a {@variantrule Bonus Action|XPHB}. You must have one free hand to reload the weapon."
-        ]
-      }
+     "A Barrel weapon can be fired a number of times equal to the number of bullets its barrel can hold (written as Barrel X) before it must be reloaded. It can be reloaded as either an action or instead of an attack as part of the {@action Attack|XPHB} action. If the weapon also has the {@itemProperty L|XPHB|Light} property, it can also be reloaded as a {@variantrule Bonus Action|XPHB}. You must have one free hand to reload the weapon."
     ]
-  },
-  {
+   }
+  ]
+ },
+ {
+  "name": "Blackpowder",
+  "abbreviation": "BP",
+  "source": "GrimHollowPG24",
+  "page": 123,
+  "entries": [
+   {
+    "type": "entries",
     "name": "Blackpowder",
-    "abbreviation": "BP",
-    "source": "GrimHollowPG24",
-    "page": 123,
     "entries": [
-      {
-        "type": "entries",
-        "name": "Blackpowder",
-        "entries": [
-          "Blackpowder weapons fire projectiles with ear-splitting noise, shredding armor with deadly force. When fired, Blackpowder weapons emit a deafening crack audible 300 feet away. A Blackpowder weapon exposed to heavy rain, submerged, or similarly drenched in water, can't fire until dried for 1 hour. These weapons use paper cartridge bullets as ammunition."
-        ]
-      }
+     "Blackpowder weapons fire projectiles with ear-splitting noise, shredding armor with deadly force. When fired, Blackpowder weapons emit a deafening crack audible 300 feet away. A Blackpowder weapon exposed to heavy rain, submerged, or similarly drenched in water, can't fire until dried for 1 hour. These weapons use paper cartridge bullets as ammunition."
     ]
-  },
-  {
+   }
+  ]
+ },
+ {
+  "name": "Blaring",
+  "abbreviation": "SGEHPP:Bla",
+  "source": "SGEHPP",
+  "entries": [
+   {
+    "type": "entries",
     "name": "Blaring",
-    "abbreviation": "SGEHPP:Bla",
-    "source": "SGEHPP",
     "entries": [
-      {
-        "type": "entries",
-        "name": "Blaring",
-        "entries": [
-          "Firing a Blaring weapon makes a thunderous crack. The sound can be heard from up to 100 feet away. Making a ranged attack using a weapon with this property makes it hard to go undetected; you have {@variantrule Disadvantage|XPHB} on Dexterity ({@skill Stealth|XPHB}) checks made as part of the {@action Hide|XPHB} action until the start of your next turn. In addition, if a creature is within the area of the sound blast, it has {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception|XPHB}) checks made against you as part of the {@action Search|XPHB} action."
-        ]
-      }
+     "Firing a Blaring weapon makes a thunderous crack. The sound can be heard from up to 100 feet away. Making a ranged attack using a weapon with this property makes it hard to go undetected; you have {@variantrule Disadvantage|XPHB} on Dexterity ({@skill Stealth|XPHB}) checks made as part of the {@action Hide|XPHB} action until the start of your next turn. In addition, if a creature is within the area of the sound blast, it has {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception|XPHB}) checks made against you as part of the {@action Search|XPHB} action."
     ]
-  },
-  {
+   }
+  ]
+ },
+ {
+  "name": "Booming",
+  "abbreviation": "SGEHPP:Boo",
+  "source": "SGEHPP",
+  "entries": [
+   {
+    "type": "entries",
     "name": "Booming",
-    "abbreviation": "SGEHPP:Boo",
-    "source": "SGEHPP",
     "entries": [
-      {
-        "type": "entries",
-        "name": "Booming",
-        "entries": [
-          "The deflagration from firing a Booming weapon makes a stupendous booming sound. The sound can be heard from up to 500 feet away. Making a ranged attack using a weapon with this property makes it impossible to go undetected; you automatically fail Dexterity ({@skill Stealth|XPHB}) checks made as part of the {@action Hide|XPHB} action until the start of your next turn. In addition, if a creature is within the area of the sound blast, it automatically succeeds on Wisdom ({@skill Perception|XPHB}) checks made against you as part of the {@action Search|XPHB} action."
-        ]
-      }
+     "The deflagration from firing a Booming weapon makes a stupendous booming sound. The sound can be heard from up to 500 feet away. Making a ranged attack using a weapon with this property makes it impossible to go undetected; you automatically fail Dexterity ({@skill Stealth|XPHB}) checks made as part of the {@action Hide|XPHB} action until the start of your next turn. In addition, if a creature is within the area of the sound blast, it automatically succeeds on Wisdom ({@skill Perception|XPHB}) checks made against you as part of the {@action Search|XPHB} action."
     ]
-  },
-  {
-    "name": "Combat",
-    "abbreviation": "Com",
-    "source": "ObojimaTallGrass",
-    "page": 220
-  },
-  {
+   }
+  ]
+ },
+ {
+  "name": "Combat",
+  "abbreviation": "Com",
+  "source": "ObojimaTallGrass",
+  "page": 220
+ },
+ {
+  "name": "Cumbersome",
+  "abbreviation": "CS",
+  "source": "GrimHollowPG24",
+  "page": 123,
+  "entries": [
+   {
+    "type": "entries",
     "name": "Cumbersome",
-    "abbreviation": "CS",
-    "source": "GrimHollowPG24",
-    "page": 123,
     "entries": [
-      {
-        "type": "entries",
-        "name": "Cumbersome",
-        "entries": [
-          "Cumbersome weapons are difficult to wield but are effective ranged tools for those strong enough to wield them. When making an attack with a Cumbersome weapon, you must use your Strength modifier for the attack and damage rolls."
-        ]
-      }
+     "Cumbersome weapons are difficult to wield but are effective ranged tools for those strong enough to wield them. When making an attack with a Cumbersome weapon, you must use your Strength modifier for the attack and damage rolls."
     ]
-  },
-  {
-    "name": "Cursed Curio",
-    "abbreviation": "TCM'24:CC",
-    "source": "CrookedMoon24",
-    "page": 608,
+   }
+  ]
+ },
+ {
+  "name": "Cursed Curio",
+  "abbreviation": "TCM'24:CC",
+  "source": "CrookedMoon24",
+  "page": 608,
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Lingering Curses",
     "entries": [
-      {
-        "type": "entries",
-        "name": "Lingering Curses",
-        "entries": [
-          "Ending your {@variantrule Attunement|XPHB} to one of these items removes its curse, but the power of a Cursed Curio doesn't release its hold on the user easily. If you attune to it again within 28 days, the progression of its curse returns to where it was before you ended your {@variantrule Attunement|XPHB}."
-        ]
-      }
+     "Ending your {@variantrule Attunement|XPHB} to one of these items removes its curse, but the power of a Cursed Curio doesn't release its hold on the user easily. If you attune to it again within 28 days, the progression of its curse returns to where it was before you ended your {@variantrule Attunement|XPHB}."
     ]
-  },
-  {
+   }
+  ]
+ },
+ {
+  "name": "Damage",
+  "abbreviation": "Dam",
+  "source": "GrimHollowPG24",
+  "page": 123,
+  "template": "Damage ({{item.customProperties.Damage}})",
+  "entries": [
+   {
+    "type": "entries",
     "name": "Damage",
-    "abbreviation": "Dam",
-    "source": "GrimHollowPG24",
-    "page": 123,
-    "template": "Damage ({{item.customProperties.Damage}})",
     "entries": [
-      {
-        "type": "entries",
-        "name": "Damage",
-        "entries": [
-          "A Damage property weapon can deal different types of damage. When you hit with an attack from this weapon, choose one of the damage types allowed."
-        ]
-      }
+     "A Damage property weapon can deal different types of damage. When you hit with an attack from this weapon, choose one of the damage types allowed."
     ]
-  },
-  {
-    "name": "Detection (Medani)",
-    "abbreviation": "DF:D",
-    "source": "ExploringEberron24"
-  },
-  {
+   }
+  ]
+ },
+ {
+  "name": "Detection (Medani)",
+  "abbreviation": "DF:D",
+  "source": "ExploringEberron24"
+ },
+ {
+  "name": "Double",
+  "abbreviation": "D",
+  "source": "GrimHollowPG24",
+  "page": 123,
+  "entries": [
+   {
+    "type": "entries",
     "name": "Double",
-    "abbreviation": "D",
-    "source": "GrimHollowPG24",
-    "page": 123,
     "entries": [
-      {
-        "type": "entries",
-        "name": "Double",
-        "entries": [
-          "A Double weapon functions as two {@itemProperty L|XPHB|Light} weapons, one in each hand, for the purposes of two-weapon fighting. If a Double weapon has {@itemProperty R|XPHB|Reach}, you can use only one of these properties per turn."
-        ]
-      }
+     "A Double weapon functions as two {@itemProperty L|XPHB|Light} weapons, one in each hand, for the purposes of two-weapon fighting. If a Double weapon has {@itemProperty R|XPHB|Reach}, you can use only one of these properties per turn."
     ]
-  },
-  {
-    "name": "Dragonmark Focus",
-    "abbreviation": "DF",
-    "source": "ExploringEberron24"
-  },
-  {
+   }
+  ]
+ },
+ {
+  "name": "Dragonmark Focus",
+  "abbreviation": "DF",
+  "source": "ExploringEberron24"
+ },
+ {
+  "name": "Fabled Heirloom",
+  "abbreviation": "TCM'24:FH",
+  "source": "CrookedMoon24",
+  "page": 594,
+  "entries": [
+   {
+    "type": "entries",
     "name": "Fabled Heirloom",
-    "abbreviation": "TCM'24:FH",
-    "source": "CrookedMoon24",
-    "page": 594,
     "entries": [
-      {
-        "type": "entries",
-        "name": "Fabled Heirloom",
-        "entries": [
-          "Each Fabled Heirloom is a magic item that grows in strength as its attuned owner gains power. The rarity of each heirloom increases as the character grows in level, as shown on the {@table Heirloom Rarity|CrookedMoon24} table. An heirloom's description details the properties it always has, as well as the properties it gains as it increases in rarity. The heirloom has all the properties of its rarity and lower."
-        ]
-      }
+     "Each Fabled Heirloom is a magic item that grows in strength as its attuned owner gains power. The rarity of each heirloom increases as the character grows in level, as shown on the {@table Heirloom Rarity|CrookedMoon24} table. An heirloom's description details the properties it always has, as well as the properties it gains as it increases in rarity. The heirloom has all the properties of its rarity and lower."
     ]
-  },
-  {
-    "name": "Finding (Tharashk)",
-    "abbreviation": "DF:F",
-    "source": "ExploringEberron24"
-  },
-  {
+   }
+  ]
+ },
+ {
+  "name": "Finding (Tharashk)",
+  "abbreviation": "DF:F",
+  "source": "ExploringEberron24"
+ },
+ {
+  "name": "Firearm",
+  "abbreviation": "GC:VSS-F",
+  "source": "ValdaGunslinger",
+  "entries": [
+   {
+    "type": "entries",
     "name": "Firearm",
-    "abbreviation": "GC:VSS-F",
-    "source": "ValdaGunslinger",
     "entries": [
-      {
-        "type": "entries",
-        "name": "Firearm",
-        "entries": [
-          "You don't add your ability modifier to the weapon's damage, unless otherwise stated. Firearm ammunition is destroyed upon use."
-        ]
-      }
+     "You don't add your ability modifier to the weapon's damage, unless otherwise stated. Firearm ammunition is destroyed upon use."
     ]
-  },
-  {
+   }
+  ]
+ },
+ {
+  "name": "Hafted",
+  "abbreviation": "Haft",
+  "source": "GrimHollowPG24",
+  "page": 123,
+  "entries": [
+   {
+    "type": "entries",
     "name": "Hafted",
-    "abbreviation": "Haft",
-    "source": "GrimHollowPG24",
-    "page": 123,
     "entries": [
-      {
-        "type": "entries",
-        "name": "Hafted",
-        "entries": [
-          "A Hafted weapon's haft can function well as an off-hand attack. After you use the {@action Attack|XPHB} action to attack with a Hafted weapon, you can use a {@variantrule Bonus Action|XPHB} to make a melee attack with the haft. The haft deals {@damage 1d6} Bludgeoning damage, and you add your ability modifier to damage."
-        ]
-      }
+     "A Hafted weapon's haft can function well as an off-hand attack. After you use the {@action Attack|XPHB} action to attack with a Hafted weapon, you can use a {@variantrule Bonus Action|XPHB} to make a melee attack with the haft. The haft deals {@damage 1d6} Bludgeoning damage, and you add your ability modifier to damage."
     ]
-  },
-  {
-    "name": "Handling (Vadalis)",
-    "abbreviation": "DF:Ha",
-    "source": "ExploringEberron24"
-  },
-  {
-    "name": "Healing (Jorasco)",
-    "abbreviation": "DF:He",
-    "source": "ExploringEberron24"
-  },
-  {
-    "name": "Hospitality (Ghallanda)",
-    "abbreviation": "DF:Ho",
-    "source": "ExploringEberron24"
-  },
-  {
-    "name": "Industrial Era",
-    "abbreviation": "GC:VSS-I",
-    "source": "ValdaGunslinger"
-  },
-  {
+   }
+  ]
+ },
+ {
+  "name": "Handling (Vadalis)",
+  "abbreviation": "DF:Ha",
+  "source": "ExploringEberron24"
+ },
+ {
+  "name": "Healing (Jorasco)",
+  "abbreviation": "DF:He",
+  "source": "ExploringEberron24"
+ },
+ {
+  "name": "Hospitality (Ghallanda)",
+  "abbreviation": "DF:Ho",
+  "source": "ExploringEberron24"
+ },
+ {
+  "name": "Industrial Era",
+  "abbreviation": "GC:VSS-I",
+  "source": "ValdaGunslinger"
+ },
+ {
+  "name": "Magazine",
+  "abbreviation": "Mag",
+  "source": "GrimHollowPG24",
+  "page": 123,
+  "template": "Magazine ({{item.customProperties.Magazine}})",
+  "entries": [
+   {
+    "type": "entries",
     "name": "Magazine",
-    "abbreviation": "Mag",
-    "source": "GrimHollowPG24",
-    "page": 123,
-    "template": "Magazine ({{item.customProperties.Magazine}})",
     "entries": [
-      {
-        "type": "entries",
-        "name": "Magazine",
-        "entries": [
-          "A weapon with the Magazine property also has a number and an ammunition type. The weapon holds that amount and type of ammunition, which you can expend before needing to reload the weapon. As a {@variantrule Bonus Action|XPHB}, you may remove a {@item Magazine|GrimHollowPG24} and then reload it with a new {@item Magazine|GrimHollowPG24}. A {@item Magazine|GrimHollowPG24} weapon comes with two empty magazines included in the weapon's cost and weight. An additional empty magazine for a Magazine weapon costs 25 GP. Loading an empty Magazine with ammunition takes 1 minute."
-        ]
-      }
+     "A weapon with the Magazine property also has a number and an ammunition type. The weapon holds that amount and type of ammunition, which you can expend before needing to reload the weapon. As a {@variantrule Bonus Action|XPHB}, you may remove a {@item Magazine|GrimHollowPG24} and then reload it with a new {@item Magazine|GrimHollowPG24}. A {@item Magazine|GrimHollowPG24} weapon comes with two empty magazines included in the weapon's cost and weight. An additional empty magazine for a Magazine weapon costs 25 GP. Loading an empty Magazine with ammunition takes 1 minute."
     ]
-  },
-  {
-    "name": "Making (Cannith)",
-    "abbreviation": "DF:M",
-    "source": "ExploringEberron24"
-  },
-  {
-    "name": "Modern Era",
-    "abbreviation": "GC:VSS-M",
-    "source": "ValdaGunslinger"
-  },
-  {
+   }
+  ]
+ },
+ {
+  "name": "Making (Cannith)",
+  "abbreviation": "DF:M",
+  "source": "ExploringEberron24"
+ },
+ {
+  "name": "Modern Era",
+  "abbreviation": "GC:VSS-M",
+  "source": "ValdaGunslinger"
+ },
+ {
+  "name": "Momentum",
+  "abbreviation": "Mom",
+  "source": "GrimHollowPG24",
+  "page": 123,
+  "template": "Momentum ({{item.customProperties.Momentum}})",
+  "entries": [
+   {
+    "type": "entries",
     "name": "Momentum",
-    "abbreviation": "Mom",
-    "source": "GrimHollowPG24",
-    "page": 123,
-    "template": "Momentum ({{item.customProperties.Momentum}})",
     "entries": [
-      {
-        "type": "entries",
-        "name": "Momentum",
-        "entries": [
-          "Momentum weapons allow you to deliver devastating attacks as part of rapid movement. When you hit with a Momentum weapon after you moved 20 feet or more in a straight line during the same turn, upgrade the damage dice to the weapon's Momentum Dice value."
-        ]
-      }
+     "Momentum weapons allow you to deliver devastating attacks as part of rapid movement. When you hit with a Momentum weapon after you moved 20 feet or more in a straight line during the same turn, upgrade the damage dice to the weapon's Momentum Dice value."
     ]
-  },
-  {
-    "name": "Passage (Orien)",
-    "abbreviation": "DF:P",
-    "source": "ExploringEberron24"
-  },
-  {
+   }
+  ]
+ },
+ {
+  "name": "Passage (Orien)",
+  "abbreviation": "DF:P",
+  "source": "ExploringEberron24"
+ },
+ {
+  "name": "Recoil",
+  "abbreviation": "GC:VSS-R",
+  "source": "ValdaGunslinger",
+  "entries": [
+   {
+    "type": "entries",
     "name": "Recoil",
-    "abbreviation": "GC:VSS-R",
-    "source": "ValdaGunslinger",
     "entries": [
-      {
-        "type": "entries",
-        "name": "Recoil",
-        "entries": [
-          "After you make an attack with this weapon, you can't make ranged attacks beyond the weapon's normal range until the end of the current turn."
-        ]
-      }
+     "After you make an attack with this weapon, you can't make ranged attacks beyond the weapon's normal range until the end of the current turn."
     ]
-  },
-  {
+   }
+  ]
+ },
+ {
+  "name": "Reload",
+  "abbreviation": "GC:VSS-Re",
+  "source": "ValdaGunslinger",
+  "entries": [
+   {
+    "type": "entries",
     "name": "Reload",
-    "abbreviation": "GC:VSS-Re",
-    "source": "ValdaGunslinger",
     "entries": [
-      {
-        "type": "entries",
-        "name": "Reload",
-        "entries": [
-          "This weapon can be used to make a number of attacks before it must be reloaded. If you are proficient with the weapon, reloading it takes an {@variantrule Action|XPHB} or a {@variantrule Bonus Action|XPHB}; otherwise, reloading it takes an {@variantrule Action|XPHB}."
-        ]
-      }
+     "This weapon can be used to make a number of attacks before it must be reloaded. If you are proficient with the weapon, reloading it takes an {@variantrule Action|XPHB} or a {@variantrule Bonus Action|XPHB}; otherwise, reloading it takes an {@variantrule Action|XPHB}."
     ]
-  },
-  {
-    "name": "Renaissance Era",
-    "abbreviation": "GC:VSS-Ren",
-    "source": "ValdaGunslinger"
-  },
-  {
+   }
+  ]
+ },
+ {
+  "name": "Renaissance Era",
+  "abbreviation": "GC:VSS-Ren",
+  "source": "ValdaGunslinger"
+ },
+ {
+  "name": "Repeater",
+  "abbreviation": "Rep",
+  "source": "GrimHollowPG24",
+  "page": 123,
+  "entries": [
+   {
+    "type": "entries",
     "name": "Repeater",
-    "abbreviation": "Rep",
-    "source": "GrimHollowPG24",
-    "page": 123,
     "entries": [
-      {
-        "type": "entries",
-        "name": "Repeater",
-        "entries": [
-          "Repeater weapons can fire ammo in quick succession, using multiple barrels or quick-reloading mechanisms. When you take the {@action Attack|XPHB} action with a Repeater weapon, you can shoot multiple times if you have features that let you attack more than once as part of that action, such as Extra Attack. After taking the {@action Attack|XPHB} action you can use a {@variantrule Bonus Action|XPHB} to attack once with the same weapon. You don't add your ability modifier to the {@variantrule Bonus Action|XPHB}'s attack, unless that modifier is negative."
-        ]
-      }
+     "Repeater weapons can fire ammo in quick succession, using multiple barrels or quick-reloading mechanisms. When you take the {@action Attack|XPHB} action with a Repeater weapon, you can shoot multiple times if you have features that let you attack more than once as part of that action, such as Extra Attack. After taking the {@action Attack|XPHB} action you can use a {@variantrule Bonus Action|XPHB} to attack once with the same weapon. You don't add your ability modifier to the {@variantrule Bonus Action|XPHB}'s attack, unless that modifier is negative."
     ]
-  },
-  {
-    "name": "Scribing (Sivis)",
-    "abbreviation": "DF:Sc",
-    "source": "ExploringEberron24"
-  },
-  {
-    "name": "Sentinel (Deneith)",
-    "abbreviation": "DF:Se",
-    "source": "ExploringEberron24"
-  },
-  {
-    "name": "Shadow (Phiarlan/Thuranni)",
-    "abbreviation": "DF:Sh",
-    "source": "ExploringEberron24"
-  },
-  {
+   }
+  ]
+ },
+ {
+  "name": "Scribing (Sivis)",
+  "abbreviation": "DF:Sc",
+  "source": "ExploringEberron24"
+ },
+ {
+  "name": "Sentinel (Deneith)",
+  "abbreviation": "DF:Se",
+  "source": "ExploringEberron24"
+ },
+ {
+  "name": "Shadow (Phiarlan/Thuranni)",
+  "abbreviation": "DF:Sh",
+  "source": "ExploringEberron24"
+ },
+ {
+  "name": "Spread Fire",
+  "abbreviation": "SGEHPP:SpFr",
+  "source": "SGEHPP",
+  "entries": [
+   {
+    "type": "entries",
     "name": "Spread Fire",
-    "abbreviation": "SGEHPP:SpFr",
-    "source": "SGEHPP",
     "entries": [
-      {
-        "type": "entries",
-        "name": "Spread Fire",
-        "entries": [
-          "A weapon that has the Spread Fire property can't make a normal attack. It instead sprays a {@variantrule Cone [Area of Effect]|XPHB|Cone} with a length equal to its range (for example, a {@item Blunderbuss|SGEHPP} with a range of 20 feet will fire in a 20-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}). Each creature in the area must succeed on a Dexterity saving throw (DC equals 8 plus your Dexterity modifier and your {@variantrule Proficiency|XPHB|Proficiency Bonus}) or take the weapon's normal damage."
-        ]
-      }
+     "A weapon that has the Spread Fire property can't make a normal attack. It instead sprays a {@variantrule Cone [Area of Effect]|XPHB|Cone} with a length equal to its range (for example, a {@item Blunderbuss|SGEHPP} with a range of 20 feet will fire in a 20-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}). Each creature in the area must succeed on a Dexterity saving throw (DC equals 8 plus your Dexterity modifier and your {@variantrule Proficiency|XPHB|Proficiency Bonus}) or take the weapon's normal damage."
     ]
-  },
-  {
-    "name": "Storm (Lyrandar)",
-    "abbreviation": "DF:St",
-    "source": "ExploringEberron24"
-  },
-  {
-    "name": "Symbiont",
-    "abbreviation": "Sym",
-    "source": "ExploringEberron24"
-  },
-  {
-    "name": "Trick Weapon",
-    "abbreviation": "TK",
-    "source": "SGEHPP",
-    "template": "{@i Trick Weapon: ({{item.customProperties.baseitems}})}"
-  },
-  {
+   }
+  ]
+ },
+ {
+  "name": "Storm (Lyrandar)",
+  "abbreviation": "DF:St",
+  "source": "ExploringEberron24"
+ },
+ {
+  "name": "Symbiont",
+  "abbreviation": "Sym",
+  "source": "ExploringEberron24"
+ },
+ {
+  "name": "Trick Weapon",
+  "abbreviation": "TK",
+  "source": "SGEHPP",
+  "template": "{@i Trick Weapon: ({{item.customProperties.baseitems}})}"
+ },
+ {
+  "name": "Twinned Barrel",
+  "abbreviation": "SGEHPP:TwBar",
+  "source": "SGEHPP",
+  "entries": [
+   {
+    "type": "entries",
     "name": "Twinned Barrel",
-    "abbreviation": "SGEHPP:TwBar",
-    "source": "SGEHPP",
     "entries": [
-      {
-        "type": "entries",
-        "name": "Twinned Barrel",
-        "entries": [
-          "A Twinned Barrel weapon has two barrels that can each hold a {@item firearm bullet|XPHB} and can both be loaded as part of reloading the weapon. You can fire both barrels of a Twinned Barrel weapon as part of an attack, instead of each barrel individually. Doing so empties both barrels of the weapon (as per the {@itemProperty SGEHPP:Bar|SGEHPP|Barrel} property) and increases the damage die of the weapon on a hit (from {@dice d4} to {@dice d6} to {@dice d8} to {@dice d10} to {@dice d12})."
-        ]
-      }
+     "A Twinned Barrel weapon has two barrels that can each hold a {@item firearm bullet|XPHB} and can both be loaded as part of reloading the weapon. You can fire both barrels of a Twinned Barrel weapon as part of an attack, instead of each barrel individually. Doing so empties both barrels of the weapon (as per the {@itemProperty SGEHPP:Bar|SGEHPP|Barrel} property) and increases the damage die of the weapon on a hit (from {@dice d4} to {@dice d6} to {@dice d8} to {@dice d10} to {@dice d12})."
     ]
-  },
-  {
-    "abbreviation": "ATT",
-    "source": "HelianasGuidetoMonsterHunting",
-    "page": 121,
-    "template": "{@i Attached}",
+   }
+  ]
+ },
+ {
+  "abbreviation": "ATT",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 121,
+  "template": "{@i Attached}",
+  "entries": [
+   {
+    "type": "item",
+    "name": "Attached",
     "entries": [
-      {
-        "type": "item",
-        "name": "Attached",
-        "entries": [
-          "You can't be disarmed of this weapon, but donning or doffing the weapon takes an action. You can use a hand equipped with this weapon to hold items, but can't attack with the weapon while doing so. Additionally, you have {@b disadvantage} on attack rolls using other weapons held in a hand equipped with this weapon and on {@skill Sleight of Hand} checks using the hand that is equipped with this weapon."
-        ]
-      }
+     "You can't be disarmed of this weapon, but donning or doffing the weapon takes an action. You can use a hand equipped with this weapon to hold items, but can't attack with the weapon while doing so. Additionally, you have {@b disadvantage} on attack rolls using other weapons held in a hand equipped with this weapon and on {@skill Sleight of Hand} checks using the hand that is equipped with this weapon."
     ]
-  },
-  {
-    "abbreviation": "Flourish",
-    "source": "HelianasGuidetoMonsterHunting",
-    "page": 122,
-    "template": "{{prop_name}}",
+   }
+  ]
+ },
+ {
+  "abbreviation": "Flourish",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 122,
+  "template": "{{prop_name}}",
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Flourish",
     "entries": [
-      {
-        "type": "entries",
-        "name": "Flourish",
-        "entries": [
-          "When you are wielding the nunchaku in two hands and take the Attack action on your turn, you can attempt to flourish with the weapon immediately before you make your first attack. To flourish, make a {@dc 13} Dexterity check, adding your proficiency bonus if you are proficient with nunchaku. On a success, you gain a +2 bonus to the first attack roll you make this turn. On a failure, you deal bludgeoning damage to yourself equal to your proficiency bonus and gain no bonus from your flourishes this turn."
-        ]
-      }
+     "When you are wielding the nunchaku in two hands and take the Attack action on your turn, you can attempt to flourish with the weapon immediately before you make your first attack. To flourish, make a {@dc 13} Dexterity check, adding your proficiency bonus if you are proficient with nunchaku. On a success, you gain a +2 bonus to the first attack roll you make this turn. On a failure, you deal bludgeoning damage to yourself equal to your proficiency bonus and gain no bonus from your flourishes this turn."
     ]
-  },
-  {
-    "abbreviation": "Hookpull",
-    "source": "HelianasGuidetoMonsterHunting",
-    "page": 123,
-    "template": "{{prop_name}}",
+   }
+  ]
+ },
+ {
+  "abbreviation": "Hookpull",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 123,
+  "template": "{{prop_name}}",
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Hookpull",
     "entries": [
-      {
-        "type": "entries",
-        "name": "Hookpull",
-        "entries": [
-          "As a bonus action immediately after you hit a target no more than one size larger than you with an attack using the tetherhook, you can attempt to hook the target using the tetherhook's reach. Make a {@b Strength ({@skill Athletics|PHB}) check} contested by the target's {@b Strength ({@skill Athletics|PHB}) or Dexterity ({@skill Acrobatics|PHB}) check} (the target chooses the ability to use). If you succeed, the target is hooked and can't move further away from you. A hooked creature is no longer hooked if you release the tether with both hands, but only one hand is required to keep a creature hooked. A hooked creature can use its action to escape. To do so, it must succeed on a {@b Strength ({@skill Athletics|PHB})} or {@b Dexterity ({@skill Acrobatics|PHB}) check} contested by your {@b Strength ({@skill Athletics|PHB}) check}",
-          "As part of the bonus action to hook the target, and as a bonus action on any of your subsequent turns while it remains hooked, you can pull the creature 5 feet closer to you. If the target is an object that isn't fixed in place and that weighs less than your push, drag, or lift capacity, you can pull it 5 feet closer to you as a bonus action after you hit it with an attack."
-        ]
-      }
+     "As a bonus action immediately after you hit a target no more than one size larger than you with an attack using the tetherhook, you can attempt to hook the target using the tetherhook's reach. Make a {@b Strength ({@skill Athletics|PHB}) check} contested by the target's {@b Strength ({@skill Athletics|PHB}) or Dexterity ({@skill Acrobatics|PHB}) check} (the target chooses the ability to use). If you succeed, the target is hooked and can't move further away from you. A hooked creature is no longer hooked if you release the tether with both hands, but only one hand is required to keep a creature hooked. A hooked creature can use its action to escape. To do so, it must succeed on a {@b Strength ({@skill Athletics|PHB})} or {@b Dexterity ({@skill Acrobatics|PHB}) check} contested by your {@b Strength ({@skill Athletics|PHB}) check}",
+     "As part of the bonus action to hook the target, and as a bonus action on any of your subsequent turns while it remains hooked, you can pull the creature 5 feet closer to you. If the target is an object that isn't fixed in place and that weighs less than your push, drag, or lift capacity, you can pull it 5 feet closer to you as a bonus action after you hit it with an attack."
     ]
-  },
-  {
-    "abbreviation": "Loud",
-    "source": "HelianasGuidetoMonsterHunting",
-    "page": 121,
-    "template": "{{prop_name}} ({{item.customProperties.loud}})",
+   }
+  ]
+ },
+ {
+  "abbreviation": "Loud",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 121,
+  "template": "{{prop_name}} ({{item.customProperties.loud}})",
+  "entries": [
+   {
+    "type": "item",
+    "name": "Loud",
     "entries": [
-      {
-        "type": "item",
-        "name": "Loud",
-        "entries": [
-          "The sound of the weapon (typically a firearm) discharging alerts all hearing creatures within a number of feet as specified by the number in parentheses after the loud property. This range is doubled in echoey locations, such as cave systems, and where sound travels faster, such as underwater."
-        ]
-      }
+     "The sound of the weapon (typically a firearm) discharging alerts all hearing creatures within a number of feet as specified by the number in parentheses after the loud property. This range is doubled in echoey locations, such as cave systems, and where sound travels faster, such as underwater."
     ]
-  },
-  {
-    "abbreviation": "Reload",
-    "source": "HelianasGuidetoMonsterHunting",
-    "page": 121,
-    "template": "{{prop_name}} ({{item.reload}})",
+   }
+  ]
+ },
+ {
+  "abbreviation": "Reload",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 121,
+  "template": "{{prop_name}} ({{item.reload}})",
+  "entries": [
+   {
+    "type": "item",
+    "name": "Reload",
     "entries": [
-      {
-        "type": "item",
-        "name": "Reload",
-        "entries": [
-          "A limited number of shots, specified by the number in parentheses after the reload property, can be made with this weapon. A character must then reload it using an action."
-        ]
-      }
+     "A limited number of shots, specified by the number in parentheses after the reload property, can be made with this weapon. A character must then reload it using an action."
     ]
-  },
-  {
-    "abbreviation": "Socketing",
-    "source": "HelianasGuidetoMonsterHunting",
-    "page": 124,
-    "template": "{@i socketable}",
+   }
+  ]
+ },
+ {
+  "abbreviation": "Socketing",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 124,
+  "template": "{@i socketable}",
+  "entries": [
+   "Charms, runes, and other socketable wondrous items enhance weapons, armour, and items that you wear. A creature with proficiency in any of the following tools can take 1 hour to attach a socketable item to a host weapon or worn item in such a way as to confer its benefits to the bearer of that item:",
+   {
+    "type": "list",
+    "style": "list-no-bullets",
+    "columns": 2,
+    "items": [
+     {
+      "type": "list",
+      "items": [
+       "{@item Carpenter's tools|PHB}",
+       "{@item Cobbler's tools|PHB}",
+       "{@item Glassblower's tools|PHB}",
+       "{@item Leatherworker's tools|PHB}"
+      ]
+     },
+     {
+      "type": "list",
+      "items": [
+       "{@item Smiths tools|PHB}",
+       "{@item Tinker's tools|PHB}",
+       "{@item Weaver's tools|PHB}",
+       "{@item Woodcarver's tools|PHB}"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Sockets",
     "entries": [
-      "Charms, runes, and other socketable wondrous items enhance weapons, armour, and items that you wear. A creature with proficiency in any of the following tools can take 1 hour to attach a socketable item to a host weapon or worn item in such a way as to confer its benefits to the bearer of that item:",
-      {
-        "type": "list",
-        "style": "list-no-bullets",
-        "columns": 2,
-        "items": [
-          {
-            "type": "list",
-            "items": [
-              "{@item Carpenter's tools|PHB}",
-              "{@item Cobbler's tools|PHB}",
-              "{@item Glassblower's tools|PHB}",
-              "{@item Leatherworker's tools|PHB}"
-            ]
-          },
-          {
-            "type": "list",
-            "items": [
-              "{@item Smiths tools|PHB}",
-              "{@item Tinker's tools|PHB}",
-              "{@item Weaver's tools|PHB}",
-              "{@item Woodcarver's tools|PHB}"
-            ]
-          }
-        ]
-      },
-      {
-        "type": "item",
-        "name": "Sockets",
-        "entries": [
-          "Items of common or higher rarity have one socket which can be occupied by a socketable item."
-        ]
-      },
-      {
-        "type": "item",
-        "name": "Attunement",
-        "entries": [
-          "Socketable items specify whether the items they're slotted on must be attunable or not. If a socketable item marked as 'attunable' is slotted onto a magic item that doesn't require attunement, the item gains the 'Optional Attunement' property (see Optional Attunement, above left). The benefits of the slotted item are gained only while attuned to that host item."
-        ]
-      },
-      {
-        "type": "item",
-        "name": "Removal",
-        "entries": [
-          "A creature can make a DC 10 Dexterity or Intelligence check using proficiency in any of the above tools to try and safely remove a socketable item. On a success, the socketable item is removed and can be reused. On a failure, the socketable item is broken during removal and can no longer be used."
-        ]
-      }
+     "Items of common or higher rarity have one socket which can be occupied by a socketable item."
     ]
-  },
-  {
-    "abbreviation": "Whirl",
-    "source": "HelianasGuidetoMonsterHunting",
-    "page": 123,
-    "template": "{{prop_name}}",
+   },
+   {
+    "type": "item",
+    "name": "Attunement",
     "entries": [
-      {
-        "type": "entries",
-        "name": "Whirl",
-        "entries": [
-          "When you are wielding the twinblade in two hands, you can use a bonus action to attempt to whirl the weapon. To whirl, make a {@b DC 10 Dexterity} check, adding your proficiency bonus if you are proficient with twinblades. On a success, you gain a +1 bonus to your AC until the start of your next turn, the whirling blades acting as a barrier against attacks. On a result of 15 or higher, you gain a +2 bonus, instead. On a failure, you deal slashing damage to yourself equal to your proficiency bonus and gain no bonus to your AC from the whirl this turn."
-        ]
-      }
+     "Socketable items specify whether the items they're slotted on must be attunable or not. If a socketable item marked as 'attunable' is slotted onto a magic item that doesn't require attunement, the item gains the 'Optional Attunement' property (see Optional Attunement, above left). The benefits of the slotted item are gained only while attuned to that host item."
     ]
-  },
-  {
-    "abbreviation": "TS",
-    "source": "NorthlandsWorldbook",
-    "template": "Thrown ({{item.dmg2}}, {{item.range}} ft.)",
+   },
+   {
+    "type": "item",
+    "name": "Removal",
     "entries": [
-      {
-        "type": "entries",
-        "name": "Throwing String",
-        "entries": [
-          "This allows the snaerispear to deal more damage when thrown than in melee."
-        ]
-      }
+     "A creature can make a DC 10 Dexterity or Intelligence check using proficiency in any of the above tools to try and safely remove a socketable item. On a success, the socketable item is removed and can be reused. On a failure, the socketable item is broken during removal and can no longer be used."
     ]
-  },
-  {
-    "abbreviation": "ER",
-    "source": "TalDoreiCampaignSettingReborn",
+   }
+  ]
+ },
+ {
+  "abbreviation": "Whirl",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 123,
+  "template": "{{prop_name}}",
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Whirl",
+    "entries": [
+     "When you are wielding the twinblade in two hands, you can use a bonus action to attempt to whirl the weapon. To whirl, make a {@b DC 10 Dexterity} check, adding your proficiency bonus if you are proficient with twinblades. On a success, you gain a +1 bonus to your AC until the start of your next turn, the whirling blades acting as a barrier against attacks. On a result of 15 or higher, you gain a +2 bonus, instead. On a failure, you deal slashing damage to yourself equal to your proficiency bonus and gain no bonus to your AC from the whirl this turn."
+    ]
+   }
+  ]
+ },
+ {
+  "abbreviation": "TS",
+  "source": "NorthlandsWorldbook",
+  "template": "Thrown ({{item.dmg2}}, {{item.range}} ft.)",
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Throwing String",
+    "entries": [
+     "This allows the snaerispear to deal more damage when thrown than in melee."
+    ]
+   }
+  ]
+ },
+ {
+  "abbreviation": "ER",
+  "source": "TalDoreiCampaignSettingReborn",
+  "page": 195,
+  "template": "{{prop_name_lower}} ({{item.reach}} ft.)",
+  "entriesTemplate": [
+   {
+    "type": "entries",
+    "name": "Extended Reach",
     "page": 195,
-    "template": "{{prop_name_lower}} ({{item.reach}} ft.)",
-    "entriesTemplate": [
-      {
-        "type": "entries",
-        "name": "Extended Reach",
-        "page": 195,
-        "entries": [
-          "This weapon adds {{item.reach}} feet to your reach when you attack with it. This property also determines your reach for {@action opportunity attack|PHB|opportunity attacks} with an Extended Reach weapon."
-        ]
-      }
+    "entries": [
+     "This weapon adds {{item.reach}} feet to your reach when you attack with it. This property also determines your reach for {@action opportunity attack|PHB|opportunity attacks} with an Extended Reach weapon."
     ]
-  },
-  {
-    "name": "Unique",
-    "abbreviation": "Unq",
-    "source": "FoEQuickstone",
+   }
+  ]
+ },
+ {
+  "name": "Unique",
+  "abbreviation": "Unq",
+  "source": "FoEQuickstone",
+  "page": 175,
+  "entries": [
+   {
+    "type": "inset",
+    "name": "Rarity and Unique Items",
     "page": 175,
     "entries": [
-      {
-        "type": "inset",
-        "name": "Rarity and Unique Items",
-        "page": 175,
-        "entries": [
-          "The rarity of a magic item—from Common to Legendary—serves multiple purposes. It suggests the relative power of an item; an Uncommon magic item is assumed to be weaker than a Rare one. It's also a factor in calculating the cost of creating or purchasing a magic item. However, sometimes using one word for all of these purposes runs into problems. If an item is both exceptionally rare and also extremely weak, should it be rated Common based on its power or Legendary based on its actual rarity?",
-          "With this in mind, there are a few items presented in this chapter that are called out as being Unique. The {@item Misthaven Miscellany|FoEQuickstone} isn't very powerful, and thus it is rated as Common, but it's a unique treasure from Thelanis. Jury d'Cannith created the only existing {@item Jury's Squeaky Wheel|FoEQuickstone}; someone could replicate it, but you won't find it in a shop. Other items in this section aren't unique, but simply can't be purchased; House Orien doesn't sell its {@item Thunder Coach|FoEQuickstone|Thunder Coaches} or {@item Lightning Runner|FoEQuickstone|Lightning Runners}. So, the rarity of the items in this section indicates their relative power, but it's up to the DM to determine if these items can be found in a campaign."
-        ]
-      }
+     "The rarity of a magic item—from Common to Legendary—serves multiple purposes. It suggests the relative power of an item; an Uncommon magic item is assumed to be weaker than a Rare one. It's also a factor in calculating the cost of creating or purchasing a magic item. However, sometimes using one word for all of these purposes runs into problems. If an item is both exceptionally rare and also extremely weak, should it be rated Common based on its power or Legendary based on its actual rarity?",
+     "With this in mind, there are a few items presented in this chapter that are called out as being Unique. The {@item Misthaven Miscellany|FoEQuickstone} isn't very powerful, and thus it is rated as Common, but it's a unique treasure from Thelanis. Jury d'Cannith created the only existing {@item Jury's Squeaky Wheel|FoEQuickstone}; someone could replicate it, but you won't find it in a shop. Other items in this section aren't unique, but simply can't be purchased; House Orien doesn't sell its {@item Thunder Coach|FoEQuickstone|Thunder Coaches} or {@item Lightning Runner|FoEQuickstone|Lightning Runners}. So, the rarity of the items in this section indicates their relative power, but it's up to the DM to determine if these items can be found in a campaign."
     ]
-  },
-  {
-    "name": "Utility",
-    "abbreviation": "Util",
-    "source": "ObojimaTallGrass",
-    "page": 230
-  },
-  {
-    "name": "Warding (Kundarak)",
-    "abbreviation": "DF:W",
-    "source": "ExploringEberron24"
-  },
-  {
-    "name": "Whimsical",
-    "abbreviation": "Whim",
-    "source": "ObojimaTallGrass",
-    "page": 239
-  }
+   }
+  ]
+ },
+ {
+  "name": "Utility",
+  "abbreviation": "Util",
+  "source": "ObojimaTallGrass",
+  "page": 230
+ },
+ {
+  "name": "Warding (Kundarak)",
+  "abbreviation": "DF:W",
+  "source": "ExploringEberron24"
+ },
+ {
+  "name": "Whimsical",
+  "abbreviation": "Whim",
+  "source": "ObojimaTallGrass",
+  "page": 239
+ }
 ]

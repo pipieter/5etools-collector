@@ -1,74 +1,74 @@
 [
-  {
-    "name": "Advanced Equipment",
-    "abbreviation": "AdvEq",
-    "source": "GrimHollowPG24",
-    "page": 126
-  },
-  {
-    "name": "Delerium",
-    "abbreviation": "Dele",
-    "source": "MonstersOfDrakkenheim",
-    "page": 370
-  },
-  {
-    "name": "Eldritch Carving",
-    "source": "SGEHPP",
-    "abbreviation": "EC",
+ {
+  "name": "Advanced Equipment",
+  "abbreviation": "AdvEq",
+  "source": "GrimHollowPG24",
+  "page": 126
+ },
+ {
+  "name": "Delerium",
+  "abbreviation": "Dele",
+  "source": "MonstersOfDrakkenheim",
+  "page": 370
+ },
+ {
+  "name": "Eldritch Carving",
+  "source": "SGEHPP",
+  "abbreviation": "EC",
+  "entries": [
+   "To apply an Eldritch Carving, one must follow a gruesome process. Unlike most art, where the artist determines the quality of the art, with Eldritch Carvings, the canvas—the person getting carved— determines the quality of the work. The canvas must envision the rune in their mind as best they can, causing their body to distort under the eldritch pressure. The carver can then simply apply the necessary tool against the skin and let the eldritch powers move the brush, needle, or knife, depending on whether the Eldritch Carving is Drawn, Tattooed, or Scarified, respectively. This procedure takes 1 hour and can be done as part of a {@variantrule Short Rest|XPHB}.",
+   "After the Eldritch Carving is complete, a creature is attuned to it (if required) and gains its effects. To remove an Eldritch Carving, the flesh where the Eldritch Carving is located needs to be thoroughly burnt. Burning a carving also removes {@variantrule Attunement|XPHB} to it. Scarified Eldritch Carvings can't be removed."
+  ]
+ },
+ {
+  "name": "Eldritch Machine",
+  "abbreviation": "EM",
+  "source": "ExploringEberron24"
+ },
+ {
+  "name": "Illegal Drug",
+  "abbreviation": "IDG",
+  "source": "TalDoreiCampaignSettingReborn",
+  "page": 85,
+  "entriesTemplate": [
+   "{@note This item is an illegal drug; see {@variantrule Illegal Drugs|TalDoreiCampaignSettingReborn} for more information.}"
+  ]
+ },
+ {
+  "name": "Ingredient",
+  "abbreviation": "Ingred",
+  "source": "ObojimaTallGrass",
+  "page": 200
+ },
+ {
+  "name": "Luxury Good",
+  "abbreviation": "LTG",
+  "source": "HumblewoodTales",
+  "page": 153
+ },
+ {
+  "name": "Magitech Firearms",
+  "abbreviation": "MF",
+  "source": "HelianasGuidetoMonsterHunting",
+  "entries": [
+   "Magitech firearms (martial ranged weapons) use a small arcanomagnetic engine to propel their ferrous projectiles at incredible velocities. Though their means of propulsion is magical, the damage they deal remains nonmagical. Such firearms are always loud and tend to have poor accuracy over long ranges, although the recently-introduced rifling found in revolvers and rifles increases their effective range.",
+   {
+    "type": "item",
+    "name": "Extra Reloads",
     "entries": [
-      "To apply an Eldritch Carving, one must follow a gruesome process. Unlike most art, where the artist determines the quality of the art, with Eldritch Carvings, the canvas—the person getting carved— determines the quality of the work. The canvas must envision the rune in their mind as best they can, causing their body to distort under the eldritch pressure. The carver can then simply apply the necessary tool against the skin and let the eldritch powers move the brush, needle, or knife, depending on whether the Eldritch Carving is Drawn, Tattooed, or Scarified, respectively. This procedure takes 1 hour and can be done as part of a {@variantrule Short Rest|XPHB}.",
-      "After the Eldritch Carving is complete, a creature is attuned to it (if required) and gains its effects. To remove an Eldritch Carving, the flesh where the Eldritch Carving is located needs to be thoroughly burnt. Burning a carving also removes {@variantrule Attunement|XPHB} to it. Scarified Eldritch Carvings can't be removed."
+     "More expensive models of magitech firearms have a self-reloading mechanism that harnesses the arcanomagnetic engine to re-cock the weapon. If you wish, you can increase the magazine capacity of a magitech firearm up to a maximum of 6, ensuring that the price increases proportionally. For example, a pistol typically costs 200 gp and has reload (2). If you increased this to reload (6), you would multiply the price by 3 for a new cost of 600 gp."
     ]
-  },
-  {
-    "name": "Eldritch Machine",
-    "abbreviation": "EM",
-    "source": "ExploringEberron24"
-  },
-  {
-    "name": "Illegal Drug",
-    "abbreviation": "IDG",
-    "source": "TalDoreiCampaignSettingReborn",
-    "page": 85,
-    "entriesTemplate": [
-      "{@note This item is an illegal drug; see {@variantrule Illegal Drugs|TalDoreiCampaignSettingReborn} for more information.}"
-    ]
-  },
-  {
-    "name": "Ingredient",
-    "abbreviation": "Ingred",
-    "source": "ObojimaTallGrass",
-    "page": 200
-  },
-  {
-    "name": "Luxury Good",
-    "abbreviation": "LTG",
-    "source": "HumblewoodTales",
-    "page": 153
-  },
-  {
-    "name": "Magitech Firearms",
-    "abbreviation": "MF",
-    "source": "HelianasGuidetoMonsterHunting",
-    "entries": [
-      "Magitech firearms (martial ranged weapons) use a small arcanomagnetic engine to propel their ferrous projectiles at incredible velocities. Though their means of propulsion is magical, the damage they deal remains nonmagical. Such firearms are always loud and tend to have poor accuracy over long ranges, although the recently-introduced rifling found in revolvers and rifles increases their effective range.",
-      {
-        "type": "item",
-        "name": "Extra Reloads",
-        "entries": [
-          "More expensive models of magitech firearms have a self-reloading mechanism that harnesses the arcanomagnetic engine to re-cock the weapon. If you wish, you can increase the magazine capacity of a magitech firearm up to a maximum of 6, ensuring that the price increases proportionally. For example, a pistol typically costs 200 gp and has reload (2). If you increased this to reload (6), you would multiply the price by 3 for a new cost of 600 gp."
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Symbiont",
-    "abbreviation": "Sym",
-    "source": "ExploringEberron24"
-  },
-  {
-    "name": "Trick Weapon",
-    "source": "SGEHPP",
-    "abbreviation": "TW"
-  }
+   }
+  ]
+ },
+ {
+  "name": "Symbiont",
+  "abbreviation": "Sym",
+  "source": "ExploringEberron24"
+ },
+ {
+  "name": "Trick Weapon",
+  "source": "SGEHPP",
+  "abbreviation": "TW"
+ }
 ]
