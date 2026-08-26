@@ -1,0 +1,465 @@
+[
+  {
+    "name": "All Stop",
+    "source": "NorthlandsWorldbook",
+    "page": 222,
+    "entries": [
+      "The crew attempts a {@dc 12} Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check to strike the sails and drop the anchor, bringing the ship's {@variantrule Speed|XPHB} to 0 feet after it completes its movement this round. If the check fails, the ship continues moving for another round before the anchor catches. This check can't be attempted in deep water."
+    ],
+    "time": [
+      {
+        "number": 1,
+        "unit": "action"
+      }
+    ]
+  },
+  {
+    "name": "Come About",
+    "source": "NorthlandsWorldbook",
+    "page": 222,
+    "entries": [
+      "The crew attempts a severe change of direction with a {@dc 15} Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check. If successful, the ship turns 90° instead of the normal 45°. If the check fails, the ship doesn't turn at all. This check has {@variantrule Disadvantage|XPHB} if the ship is crossing against the direction of the wind unless the ship is being rowed."
+    ],
+    "time": [
+      {
+        "number": 1,
+        "unit": "action"
+      }
+    ]
+  },
+  {
+    "name": "Disable Station",
+    "source": "NorthlandsWorldbook",
+    "page": 222,
+    "entries": [
+      "The crew fires to disable stations on the enemy vessel. This attack has {@variantrule Disadvantage|XPHB}. If the attack hits, instead of dealing damage to the hull, one station is damaged according to the {@table Disable Station|NorthlandsWorldbook} table. Roll a {@dice 1d6} to determine how many crew members in that area are {@condition Unconscious|XPHB} and dying."
+    ],
+    "time": [
+      {
+        "number": 1,
+        "unit": "action"
+      }
+    ]
+  },
+  {
+    "name": "Escape a Grapple",
+    "source": "NorthlandsWorldbook",
+    "page": 222,
+    "entries": [
+      "A member of the crew leads a number of crew members in cutting lines that tie their vessel to another. A successful {@dc 13} Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check cuts the lines."
+    ],
+    "time": [
+      {
+        "number": 1,
+        "unit": "action"
+      }
+    ]
+  },
+  {
+    "name": "Evasive Maneuver",
+    "source": "NorthlandsWorldbook",
+    "page": 222,
+    "entries": [
+      "The crew makes a Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check contested by the enemy crew. On a success, attackers have {@variantrule Disadvantage|XPHB} on ranged attacks to hit the ship."
+    ],
+    "time": [
+      {
+        "number": 1,
+        "unit": "action"
+      }
+    ]
+  },
+  {
+    "name": "Force Position",
+    "source": "NorthlandsWorldbook",
+    "page": 223,
+    "entries": [
+      "The crew makes a contested Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check opposed by the enemy crew to force the enemy into a disadvantageous position. On a success, the enemy ship has {@variantrule Disadvantage|XPHB} on its Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check to determine {@variantrule Initiative|XPHB} next round. On a failure, the enemy gains {@variantrule Advantage|XPHB} to its {@variantrule Initiative|XPHB} check next round."
+    ],
+    "time": [
+      {
+        "number": 1,
+        "unit": "action"
+      }
+    ]
+  },
+  {
+    "name": "Full Speed Ahead",
+    "source": "NorthlandsWorldbook",
+    "page": 223,
+    "entries": [
+      "The crew uses its action to adjust the sails and gain a burst of speed. The ship can {@action Dash} this turn. If the ship is powered by oars, it must succeed on a {@dc 12} Constitution save or the crew gains one level of {@condition Exhaustion|XPHB}."
+    ],
+    "time": [
+      {
+        "number": 1,
+        "unit": "action"
+      }
+    ]
+  },
+  {
+    "name": "Gather Rumours",
+    "source": "TLotRR",
+    "page": 112,
+    "time": [
+      "Fellowship Phase"
+    ],
+    "entries": [
+      "News of strange things happening in the world are multiplying with every passing year. Tidings of a gathering darkness, of distant wars, and of the flight of the Elves—vague legends and old songs are proving to be more than just children's stories. Player-heroes gathering rumours try to separate facts from fireside-tales, and to gather stories that may prove useful in their adventures.",
+      {
+        "type": "inset",
+        "id": "251",
+        "entries": [
+          "Choose this undertaking to receive a rumour from the Loremaster. Until the next Fellowship Phase, Player-heroes in the Company have advantage on Intelligence checks related to the rumour."
+        ]
+      },
+      "A rumour can be a story about an individual, a place, or a coming event, pointing specifically to something that the Company can explore, prevent, or aspire to achieve. Otherwise, a rumour can be something specific that the Player-hero is inquiring about, and directly related to the current adventuring circumstances of the Company.",
+      "A Company including a {@class Warden|TLotRR} (if in a warded land), or a Player-hero proficient in {@skill Investigation}, can choose this activity as a free undertaking.",
+      {
+        "type": "quote",
+        "entries": [
+          "When they appeared they brought news from afar, and told strange forgotten tales which were eagerly listened to..."
+        ],
+        "skipMarks": true
+      }
+    ]
+  },
+  {
+    "name": "Grapple",
+    "source": "NorthlandsWorldbook",
+    "page": 223,
+    "entries": [
+      "A member of the crew leads a number of crew in throwing grappling hooks onto an enemy vessel within 5 feet and tying the ships together. While tied together, neither ship can move, and the crews can't use the {@action Come About|NorthlandsWorldbook}, {@action Evasive Maneuver|NorthlandsWorldbook}, {@action Force Position|NorthlandsWorldbook}, Full {@action Speed Ahead|NorthlandsWorldbook}, {@action Hold Her Steady|NorthlandsWorldbook}, {@action Ram|NorthlandsWorldbook}, or {@action Sheer|NorthlandsWorldbook} shipboard actions. This action requires a successful {@dc 13} Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check."
+    ],
+    "time": [
+      {
+        "number": 1,
+        "unit": "action"
+      }
+    ]
+  },
+  {
+    "name": "Heal Scars",
+    "source": "TLotRR",
+    "page": 113,
+    "time": [
+      "Fellowship Phase",
+      "Yule"
+    ],
+    "entries": [
+      "{@i Yule}",
+      "Heroes feel the burden of the Shadow weigh heavily upon their shoulders long after their adventures are over. Their minds remain bent on dark thoughts, and visions haunt them in their dreams, if not even during their waking hours. Only the passage of time can heal such wounds.",
+      {
+        "type": "inset",
+        "id": "253",
+        "entries": [
+          "Choose this undertaking to focus on mending your spiritual injuries and remove 1 Shadow Scar (see {@book Chapter 8|TLotRR|7|Harden Will}). If you do so, you do not gain any bonus XP this year (see {@book The Passage of the Years|TLotRR|5|The Passage of the Years})."
+        ]
+      },
+      "Player-heroes from different Cultures resort to different methods to get rid of their scars. Dwarves often turn to the forge to burn out their frustration, smiting the red iron on the anvil, Hobbits dedicate themselves to a beloved activity, like gardening, or painting, and Elves and Men generally create, play, or recite poems and songs.",
+      {
+        "type": "quote",
+        "entries": [
+          "Is it not a strange fate that we should suffer so much fear and doubt for so small a thing?"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hold Her Steady",
+    "source": "NorthlandsWorldbook",
+    "page": 223,
+    "entries": [
+      "The crew holds the ship steady, giving the crew members operating ship-mounted weapons {@variantrule Disadvantage|XPHB} to hit one enemy ship. All enemy ships have {@variantrule Disadvantage|XPHB} to hit the ship holding steady."
+    ],
+    "time": [
+      {
+        "number": 1,
+        "unit": "action"
+      }
+    ]
+  },
+  {
+    "name": "Meet Patron",
+    "source": "TLotRR",
+    "page": 113,
+    "time": [
+      "Fellowship Phase"
+    ],
+    "entries": [
+      "After a few years of adventuring, the Company will probably count several of the Wise and the Great among their allies. Some of these can be chosen as Patrons of the Company (see {@book Chapter 2|TLotRR|1|Patron}).",
+      {
+        "type": "inset",
+        "entries": [
+          "Choose this undertaking to meet one of the Company's friends and allies when spending the Fellowship Phase in a location where that individual can be found, and if the patron is available for a meeting. In addition, Player-heroes with a calling favoured by the patron start the next Adventuring phase with {@variantrule inspiration|PHB}."
+        ]
+      },
+      "When this is the case, the Loremaster can work with the Player-hero to set up the encounter. The reasons to see a patron vary based on the current circumstances of a campaign, but generally revolve around the Player-hero asking for some sort of assistance, possibly accepting a task requested by the patron in return.",
+      "The descriptions of the various personalities given in the {@book Appendix|TLotRR|9|Patrons} give directions on how to handle their introduction as patrons in the game.",
+      "A Company including a {@class Messenger|TLotRR}, or a Player-hero proficient with {@item calligrapher's supplies|PHB}, can choose this activity as a free undertaking.",
+      {
+        "type": "quote",
+        "entries": [
+          "Elrond, as was his custom, sat in a great chair at the end of the long table upon the dais..."
+        ],
+        "skipMarks": true
+      }
+    ]
+  },
+  {
+    "name": "Motivate",
+    "source": "NorthlandsWorldbook",
+    "page": 223,
+    "entries": [
+      "{@b PCs Only.}",
+      "As a {@variantrule Reaction|XPHB}, the PC shouts encouragement to the crew during a shipboard action. On a successful {@dc 13} Charisma ({@skill Intimidation|XPHB} or {@skill Persuasion|XPHB}) check, all crew rolls related to the triggering Shipboard Action have {@variantrule Disadvantage|XPHB}."
+    ],
+    "time": [
+      {
+        "number": 1,
+        "unit": "reaction"
+      }
+    ]
+  },
+  {
+    "name": "Operate Ship Weapon",
+    "source": "NorthlandsWorldbook",
+    "page": 223,
+    "entries": [
+      "As an action, the crew loads and aims a ship-mounted weapon. It still requires a separate action to fire the weapon."
+    ],
+    "time": [
+      {
+        "number": 1,
+        "unit": "action"
+      }
+    ]
+  },
+  {
+    "name": "Patch",
+    "source": "NorthlandsWorldbook",
+    "page": 223,
+    "entries": [
+      "A member of the crew leads a damage repair team to put in a temporary patch on the hull or repair a damaged station. The crew has a +4 bonus to this check. This action can only be used once per hole or damaged station (see the {@table Disable Station|NorthlandsWorldbook} table). The DC to restore {@variantrule Hit Points|XPHB} to the ships is 10 + 2 per hole the ship has suffered, and {@dc 15} to repair a station. A successful check restores {@dice 2d6} {@variantrule Hit Points|XPHB} to the ship or restores a station to working order."
+    ],
+    "time": [
+      {
+        "number": 1,
+        "unit": "action"
+      }
+    ]
+  },
+  {
+    "name": "Ponder Storied and Figured Maps",
+    "source": "TLotRR",
+    "page": 113,
+    "time": [
+      "Fellowship Phase"
+    ],
+    "entries": [
+      "Middle-earth has changed since the time when lore-masters spent long hours drawing maps of every known corner of the world. Today's maps show mostly white spaces beyond the borders of the realms of Men, Dwarves, and Elves. Yet, looking at them is time well-spent for a travelling hero.",
+      "A Player-hero choosing this undertaking studies every map and scroll of lore they can find, to learn as much as possible about the perils the Company may face while on a journey.",
+      {
+        "type": "inset",
+        "entries": [
+          "Until the next Fellowship Phase, Player-heroes in the Company have advantage on pathfinding checks."
+        ]
+      },
+      "A Company including a {@class Scholar|TLotRR}, or a Player-hero proficient with {@item cartographer's tools|PHB} can choose this activity as a free undertaking.",
+      {
+        "type": "quote",
+        "entries": [
+          "There are many maps in Elrond's house, but I suppose you never thought to look at them?"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Raise an Heir",
+    "source": "TLotRR",
+    "page": 113,
+    "time": [
+      "Fellowship Phase",
+      "Yule"
+    ],
+    "entries": [
+      "{@i Yule}",
+      "Wise adventurers sooner or later realise that all they have done in their lives can amount to nothing if they meet an untimely end. To avoid squandering their legacy, they should spend some money and time choosing and raising a worthy successor.",
+      {
+        "type": "inset",
+        "entries": [
+          "Choose this undertaking to spend at least 50 silver pennies for your heir's training. The amount is noted (or updated, if you have chosen this undertaking before) on the character sheet. When your Player-hero perishes or retires, multiply that value by the Player-hero's character level: your heir receives that many experience points, up to half the Player-hero's current experience points (rounded up). The heir also receives up to three magical items of the Player-hero as their heirlooms."
+        ]
+      },
+      "If this is the first time that this undertaking has been chosen, the player must also choose a name for the designated heir, writing it down on the {@link character sheet|https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/pdf/TLotRR/lotrr-character-sheet.pdf}.",
+      {
+        "type": "quote",
+        "entries": [
+          "When Bilbo was ninety-nine he adopted Frodo as his heir, and brought him to live at Bag End..."
+        ],
+        "skipMarks": true
+      }
+    ]
+  },
+  {
+    "name": "Ram",
+    "source": "NorthlandsWorldbook",
+    "page": 223,
+    "entries": [
+      "If the ship is moving, the crew can attempt to ram another vessel within a number of feet equal to half the ship's {@variantrule Speed|XPHB} by making a successful Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check against the other ship's AC and moving that number of feet. If successful, both ships take {@damage 2d10} damage for every size category of the ramming ship. If the ship is equipped with a ram, it takes only half damage. Both ships become hopelessly {@condition grappled|XPHB} and can't be separated without several minutes of work. If the attempt misses, the ships graze each other and both take one-quarter damage. You can't take the Ram shipboard action against the direction of the wind unless the ship is being rowed."
+    ],
+    "time": [
+      {
+        "number": 1,
+        "unit": "action"
+      }
+    ]
+  },
+  {
+    "name": "Recount a Story",
+    "source": "TLotRR",
+    "page": 114,
+    "time": [
+      "Fellowship Phase",
+      "Yule"
+    ],
+    "entries": [
+      "{@i Yule}",
+      "Adventures have a meaning for those who live them, but they can become cautionary tales for others. Player-heroes give a personal account of an event they took part in, describing the episode to members of their own folk in a public place or event, or recording it in a book. Players are encouraged to improvise a short narration.",
+      {
+        "type": "inset",
+        "entries": [
+          "Choose this undertaking to replace one of your distinctive features with a new one, choosing a quality that you displayed in the narrated episode. Players can choose a trait from the distinctive features of their culture's (or another one's) backgrounds, or even propose a new one of their own creation."
+        ]
+      },
+      {
+        "type": "inset",
+        "entries": [
+          "You can choose this undertaking to replace one of your tool proficiencies with another tool proficiency. The proficiency you replace must be one that isn't benefiting from a feature, such as Expertise, that doubles your proficiency bonus."
+        ]
+      },
+      {
+        "type": "inset",
+        "entries": [
+          "If you have the Expertise feature, you can choose this undertaking to replace one of the proficiencies you chose for the Expertise feature with one of your other proficiencies that isn't benefiting from Expertise."
+        ]
+      },
+      {
+        "type": "inset",
+        "entries": [
+          "If you have the Fighting Style feature, you can choose this undertaking to replace a fighting style you know with another fighting style available to your calling."
+        ]
+      },
+      {
+        "type": "quote",
+        "entries": [
+          "To some there Bilbo's tale was wholly new, and they listened with amazement while the old Hobbit, actually not at all displeased, recounted his adventure with Gollum, at full length."
+        ],
+        "skipMarks": true
+      }
+    ]
+  },
+  {
+    "name": "Sheer",
+    "source": "NorthlandsWorldbook",
+    "page": 223,
+    "entries": [
+      "Only effective against ships with oars, the crew brings their vessel within 5 feet of the enemy vessel, sheering off all the oars on one side of the enemy vessel. This reduces its {@variantrule Speed|XPHB} to 0 feet for 3 rounds until new oars can be deployed. To succeed, the crew member at the helm must make a successful Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check with a DC equal to the other ship's AC."
+    ],
+    "time": [
+      {
+        "number": 1,
+        "unit": "action"
+      }
+    ]
+  },
+  {
+    "name": "Strengthen Fellowship",
+    "source": "TLotRR",
+    "page": 115,
+    "time": [
+      "Fellowship Phase"
+    ],
+    "entries": [
+      "The bond shared by the members of a Company is put to the test by the odds they face in the course of their adventures, and can be reinforced when the Player-heroes are enjoying a moment of respite.",
+      {
+        "type": "inset",
+        "entries": [
+          "Choose this undertaking to raise the Fellowship rating by +1 until the next Fellowship Phase."
+        ]
+      },
+      "A Company including a {@class Captain|TLotRR}, or a Player-hero proficient with {@item brewer's supplies|PHB} or a {@item gaming set|PHB}, can choose this activity as a free undertaking.",
+      {
+        "type": "quote",
+        "entries": [
+          "...in this matter it would be well to trust rather to their friendship than to great wisdom."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Study Magical Items",
+    "source": "TLotRR",
+    "page": 115,
+    "time": [
+      "Fellowship Phase"
+    ],
+    "entries": [
+      "When heroes come into possession of a strange ring, an ancient jewel, or a rune-scored staff, they might not know much about the properties of such an item, especially if they are not immediately observable.",
+      {
+        "type": "inset",
+        "entries": [
+          "Choose this undertaking to learn all there is to be discovered about the qualities of all magical items in the Company's possession."
+        ]
+      },
+      "A Company including a {@class Treasure Hunter|TLotRR}, or a Player-hero proficient in {@skill Old Lore|TLotRR}, can choose this activity as a free undertaking.",
+      {
+        "type": "quote",
+        "entries": [
+          "This is an heirloom of our house,\" said Éowyn. \"It was made by the Dwarves, and came from the hoard of Scatha the Worm."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Write a Song",
+    "source": "TLotRR",
+    "page": 115,
+    "time": [
+      "Fellowship Phase"
+    ],
+    "entries": [
+      "All cultures of Middle-earth play and sing songs to remember things that are fair and to celebrate life.",
+      {
+        "type": "inset",
+        "entries": [
+          "Choose this undertaking to compose a song, choosing whether it will be a Lay, a Song of Victory, or a Walking song (no ability check is required)."
+        ]
+      },
+      "The new composition is added to a Company's list of songs—this list is used to keep track of which songs are available to the Company to sing during an Adventuring Phase.",
+      "The player is encouraged to come up with a song title, or its lyrics, for example taking inspiration from events that happened to the Company, or focusing on one or more Player-heroes.",
+      "A Company including a Player-hero proficient in {@skill Performance} or with a {@item musical instrument|SCAG} can choose this activity as a free undertaking.",
+      {
+        "type": "list",
+        "style": "list-hang-notitle",
+        "items": [
+          {
+            "type": "item",
+            "name": "Lay:",
+            "entry": "A Player-hero creates a short narrative poem, particularly appropriate to narrate heroic deeds, and meant to be recited or sung at gatherings."
+          },
+          {
+            "type": "item",
+            "name": "Song of Victory:",
+            "entry": "Warriors sing stirring songs in combat, to lift their spirit and renew their lust for battle."
+          },
+          {
+            "type": "item",
+            "name": "Walking-Song:",
+            "entry": "Travellers trudging along the final hours of a long day of travelling may find it helpful to hum a merry song, especially when they are drawing near to their destination."
+          }
+        ]
+      }
+    ]
+  }
+]

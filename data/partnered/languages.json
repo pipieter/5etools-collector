@@ -1,0 +1,429 @@
+[
+  {
+    "name": "Adûnaic",
+    "source": "TLotRR",
+    "page": 201,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Númenóreans"
+    ],
+    "entries": [
+      "The Númenórean language, spoken by the Men of Númenor during the Second Age."
+    ]
+  },
+  {
+    "name": "Archaic First Age Languages",
+    "source": "ObojimaTallGrass",
+    "page": 156,
+    "type": "rare",
+    "entries": [
+      "The objects and structures from the island's earliest age contain a variety of written languages known to the islanders as First Age languages. Other than the academics who devote themselves to studying these mysterious languages, people generally know only a handful of words."
+    ]
+  },
+  {
+    "name": "Birdfolk",
+    "source": "HumblewoodCampaignSetting",
+    "page": 34,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Birdfolk",
+      "Humblefolk"
+    ],
+    "script": "Birdfolk",
+    "fonts": [
+      "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/font/HumblewoodCampaignSetting/hpphumblescratch-webfont.woff2"
+    ],
+    "entries": [
+      "Birdfolk is a language of clicks, caws, and whistles. Though primarily oral, a system for writing Birdfolk in pictograms was developed long before the founding of Alderheart and has since transformed into a set of abstract glyphs representing different sounds. Birdfolk can be written quickly with a quill, or scratched easily with a claw, and has been widely adopted throughout the Wood."
+    ],
+    "fluff": {
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodCampaignSetting/book/Languages.webp"
+          },
+          "width": 584,
+          "height": 776
+        }
+      ]
+    }
+  },
+  {
+    "name": "Black Speech",
+    "source": "TLotRR",
+    "page": 158,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Wights",
+      "Wraiths",
+      "The Wight-King"
+    ],
+    "entries": [
+      "Created by Sauron to be the sole language of all the servants of Mordor, replacing the many different varieties of {@language Orkish|TLotRR} and other languages used by his servants"
+    ]
+  },
+  {
+    "name": "Castinellan",
+    "source": "GrimHollowPG24",
+    "page": 217,
+    "entries": [
+      "The dominant language of the Castinellan Provinces{@sup ({@book PG|GrimHollowPG24|8|The Castinellan Provinces}/{@book CG|GrimHollowCG24|6})}. This language is also used for most of Etharis's religious texts. It was until recently considered a crime to translate the teachings of the Seraphs into a language other than Castinellan. Castinellan is also predominantly spoken in Morencia{@sup ({@book PG|GrimHollowPG24|8|The City of Morencia}/{@book CG|GrimHollowCG24|9})}, making it the most common language used in trade."
+    ]
+  },
+  {
+    "name": "Cervan",
+    "source": "HumblewoodCampaignSetting",
+    "page": 34,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Cervans"
+    ],
+    "entries": [
+      "Cervan is a complex language with no written script. It is seen as disrespectful to try and transcribe it using {@language Birdfolk|HumblewoodCampaignSetting} characters. Much of cervan history is preserved by village elders and passed down orally through the generations as stories, songs, and sayings. The adage, \"What is essential to learn lies in the teaching\", is often invoked to illustrate this point."
+    ]
+  },
+  {
+    "name": "Charneault",
+    "source": "GrimHollowPG24",
+    "page": 217,
+    "entries": [
+      "The dominant language of the Charneault Kingdom{@sup ({@book PG|GrimHollowPG24|8|The Charneault Kingdom}/{@book CG|GrimHollowCG24|5})}."
+    ]
+  },
+  {
+    "name": "Dalish",
+    "source": "TLotRR",
+    "page": 28,
+    "type": "standard",
+    "typicalSpeakers": [
+      "{@race Barding|TLotRR|Bardings}",
+      "{@race Dwarf (Erebor)|TLotRR|Dwarves of Erebor}"
+    ],
+    "script": "Common",
+    "entries": [
+      "A very old form of the {@language Westron|TLotRR|Common Speech}."
+    ]
+  },
+  {
+    "name": "Dunlendish",
+    "source": "TLotRR",
+    "page": 149,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Southerners",
+      "Dunlendings"
+    ],
+    "entries": [
+      "The Dunland Tongue."
+    ]
+  },
+  {
+    "name": "Eluran",
+    "source": "HumblewoodTales",
+    "page": 214,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Caprans"
+    ]
+  },
+  {
+    "name": "Hedge",
+    "source": "HumblewoodCampaignSetting",
+    "page": 34,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Hedges"
+    ],
+    "script": "Sylvan",
+    "entries": [
+      "Hedge is a language meant to be spoken softly. It confounds many who try to learn it due to the prevalence of passive voice and the deferential manners built into conversation. These are meant to ensure that everyone's feelings are heard and respected. It is written using a variation of {@language Sylvan} script."
+    ]
+  },
+  {
+    "name": "High Kaluu",
+    "source": "FoEQuickstone",
+    "page": 16,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Venomous Demesne"
+    ],
+    "entries": [
+      "Spoken only in the Venomous Demesne; it has its roots in {@language Draconic}, {@language Infernal}, and Riedran."
+    ]
+  },
+  {
+    "name": "Higher Büräch",
+    "source": "GrimHollowPG24",
+    "page": 217,
+    "entries": [
+      "The highborn dialect in the Büräch Empire{@sup ({@book PG|GrimHollowPG24|8|The Bürach Empire}/{@book CG|GrimHollowCG24|3})}. Most formal writings are in this dialect as well, such as religious texts, laws, royal decrees, plays and poems, etc. If a foreigner learns Büräch, this is the dialect they learn."
+    ]
+  },
+  {
+    "name": "Jerbeen",
+    "source": "HumblewoodCampaignSetting",
+    "page": 34,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Jerbeens"
+    ],
+    "script": "Birdfolk",
+    "entries": [
+      "Jerbeen is a system of squeaks and clicks represented in writing by using a variant of {@language Birdfolk|HumblewoodCampaignSetting} alphabet. It is a polite but direct language designed to communicate information quickly and effectively between multiple listeners."
+    ],
+    "fluff": {
+      "images": [
+        {
+          "type": "image",
+          "href": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodCampaignSetting/book/Languages.webp"
+          },
+          "width": 584,
+          "height": 776
+        }
+      ]
+    }
+  },
+  {
+    "name": "Khuzdul",
+    "source": "TLotRR",
+    "page": 32,
+    "type": "secret",
+    "typicalSpeakers": [
+      "{@race Dwarf|TLotRR|Dwarves}"
+    ],
+    "script": "Dwarvish",
+    "entries": [
+      "The secret language of the Dwarves."
+    ]
+  },
+  {
+    "name": "Low Büräch",
+    "source": "GrimHollowPG24",
+    "page": 217,
+    "entries": [
+      "The commoner's dialect in the Büräch Empire{@sup ({@book PG|GrimHollowPG24|8|The Bürach Empire}/{@book CG|GrimHollowCG24|3})}. It is more heavily accented than High Büräch, making the general population of the nation harder for foreigners to understand."
+    ]
+  },
+  {
+    "name": "Mapach",
+    "source": "HumblewoodCampaignSetting",
+    "page": 34,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Mapachs"
+    ],
+    "script": "Mapach",
+    "entries": [
+      "Mapach is a very technically dense language that often incorporates rough equations and estimations of physical properties in normal conversation. Awareness of one's surroundings is key to survival, and the Mapach language emphasizes this. Mapach uses its own script of glyphs made of various lines, dashes, and dots."
+    ]
+  },
+  {
+    "name": "Naku Naku",
+    "source": "ObojimaTallGrass",
+    "page": 156,
+    "type": "standard",
+    "typicalSpeakers": [
+      "{@race Nakudama|ObojimaTallGrass}"
+    ],
+    "entries": [
+      "Most Nakudama continue to speak their original language as well as the common tongue, and they claim theirs is far richer for the telling of tales."
+    ]
+  },
+  {
+    "name": "Orkish",
+    "source": "TLotRR",
+    "page": 151,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Orcs"
+    ],
+    "entries": [
+      {
+        "type": "quote",
+        "entries": [
+          "A general term for the jumble of languages used by the Orcs, composed from corrupted borrowings from other languages of Middle-earth."
+        ],
+        "from": "The Lord of the Rings, Appendix F - The Languages and Peoples of the Third Age"
+      }
+    ]
+  },
+  {
+    "name": "Ostoy",
+    "source": "GrimHollowPG24",
+    "page": 217,
+    "entries": [
+      "The dominant language of Ostoya{@sup ({@book PG|GrimHollowPG24|8|The Ostoyan Empire}/{@book CG|GrimHollowCG24|4})}."
+    ]
+  },
+  {
+    "name": "Quenya",
+    "source": "TLotRR",
+    "page": 65,
+    "type": "rare",
+    "typicalSpeakers": [
+      "{@race Elf|TLotRR|Elves}",
+      "{@feat Speech-Craft|TLotRR|Speech-Crafters}"
+    ],
+    "script": "Elven",
+    "entries": [
+      "The Ancient elven tongue."
+    ]
+  },
+  {
+    "name": "Serpentine",
+    "source": "FoEQuickstone",
+    "type": "rare",
+    "script": "none",
+    "typicalSpeakers": [
+      "Medusas"
+    ],
+    "entries": [
+      "Serpentine is the language of the medusas of Cazhaak Draal. It blends traditional speech with the hissing and writhing motions of the serpent mane. There's a distinct subset of Serpentine that relies solely on the motions of the serpents, allowing medusas within 60 feet of each other to silently communicate, provided that they can see one another. Any creature can learn Serpentine as a rare language or understand it through the use of magic, but only a creature with a functioning serpent mane can speak Serpentine."
+    ]
+  },
+  {
+    "name": "Sindarin",
+    "source": "TLotRR",
+    "page": 34,
+    "type": "standard",
+    "typicalSpeakers": [
+      "{@race Elf|TLotRR|Elves}",
+      "{@race Ranger of the North|TLotRR|Rangers of the North}"
+    ],
+    "script": "Elven",
+    "entries": [
+      "The Grey-elven tongue."
+    ]
+  },
+  {
+    "name": "Skin Cant",
+    "source": "ExploringEberron24",
+    "type": "rare",
+    "typicalSpeakers": [
+      "{@background Changeling Traveler|ExploringEberron24|Changeling Travelers}"
+    ],
+    "entries": [
+      "This is a rare language that can only be \"spoken\" by shapechangers, though other creatures can learn to understand it. Skin Cant uses shifting patterns of scars, tattoos, and pigment. This allows you to convey a short message—a concept that can be expressed in six words or less—to anyone who knows the language and who can see you. Typically the message is something you maintain as part of your appearance; for example, in crafting your image, you might add a pattern of scars that tells other changeling travelers, \"I need help\" or \"Everything I say is a lie.",
+      "You can also use this language to have a conversation—typically by manifesting symbols on the palm of your hand—with someone who is within 60 feet and able to see you. The shifting patterns can be noticed by other observers within 60 feet; if you wish to keep the conversation discrete, you can hide it with a Charisma ({@skill Deception|XPHB}) check opposed by the observer's Wisdom ({@skill Perception|XPHB} or {@skill Insight|XPHB}) check. If you fail, it means the observer notices your shifting patterns, though they don't understand the meaning unless they also know Skin Cant."
+    ]
+  },
+  {
+    "name": "Stonegrind",
+    "source": "FoEQuickstone",
+    "page": 16,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Gargoyles of Grimstone"
+    ],
+    "entries": [
+      "The language of the gargoyles of Grimstone, which involves grinding stone surfaces together; other creatures can learn to understand it, but cannot speak it without a set of stones."
+    ]
+  },
+  {
+    "name": "Tauric",
+    "source": "FoEQuickstone",
+    "page": 16,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Minotaurs"
+    ],
+    "entries": [
+      "The language of the minotaur clans of the Barrens."
+    ]
+  },
+  {
+    "name": "Tilia",
+    "source": "HumblewoodTales",
+    "page": 161,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Tilias"
+    ]
+  },
+  {
+    "name": "Torum",
+    "source": "ObojimaTallGrass",
+    "page": 156,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Spirits"
+    ],
+    "entries": [
+      "Torum is the favored language of the Spirit Realm. Though non-spirits can learn to understand it, beings of the Physical Realm often can't make the layered sounds required to voice the words."
+    ]
+  },
+  {
+    "name": "Valiki",
+    "source": "GrimHollowPG24",
+    "page": 217,
+    "entries": [
+      "The dominant language of the Valikan Clans{@sup ({@book PG|GrimHollowPG24|8|The Valikan Clans}/{@book CG|GrimHollowCG24|7})}. Each of the clans speaks a slightly different dialect of Valiki, but each dialect is similar enough to make themselves understood."
+    ]
+  },
+  {
+    "name": "Vulpin",
+    "source": "HumblewoodCampaignSetting",
+    "page": 34,
+    "type": "standard",
+    "typicalSpeakers": [
+      "Vulpins"
+    ],
+    "script": "Vulpin",
+    "entries": [
+      "Vulpin is a language of growls, snarls, and yips. It is written in its own flowing cursive script. Speakers are taught to switch between low and high class versions of Vulpin depending on the context. The biggest stumbling block for new speakers is learning when to use which form."
+    ]
+  },
+  {
+    "name": "Warg-speech",
+    "source": "TLotRR",
+    "page": 162,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Wargs",
+      "Werewolves",
+      "Gandalf"
+    ],
+    "entries": [
+      "While not much is known about this language, it is described as queer, sounding \"like animal noises turned into talk\"."
+    ]
+  },
+  {
+    "name": "Westron",
+    "source": "TLotRR",
+    "page": 27,
+    "type": "standard",
+    "typicalSpeakers": [
+      "{@race Barding|TLotRR|Bardings}",
+      "{@race Dwarf|TLotRR|Dwarves}",
+      "{@race Elf|TLotRR|Elves}",
+      "{@race Hobbit|TLotRR|Hobbits}",
+      "{@race Man of Bree|TLotRR|Men of Bree}",
+      "{@race Ranger of the North|TLotRR|Rangers of the North}",
+      "Evil Men",
+      "Orcs",
+      "Stone Trolls",
+      "Wights",
+      "Wraiths"
+    ],
+    "script": "Common",
+    "entries": [
+      "Different languages can provide intriguing roleplaying opportunities, if the Loremaster and the players are interested. This shouldn't get in the way of the fun, however. While Tolkien used the linguistic differences among the various realms of Middle-earth to good narrative effect, he also found it simpler to avoid steep cultural barriers and gave most ethnic groups (even Orcs and other more fantastical creatures, like Ents) at least a passing knowledge of what constituted a 'lingua franca,' the so-called Common Speech, or Westron. This allows players who don't want to deal with the complex relations between the various peoples and their languages to ignore the entire subject altogether without damaging the setting. But if you are willing to explore this angle, it is certainly worth investigating."
+    ]
+  },
+  {
+    "name": "Wuura'gaa",
+    "source": "FoEQuickstone",
+    "page": 16,
+    "type": "rare",
+    "typicalSpeakers": [
+      "Worgs of the Watching Wood"
+    ],
+    "entries": [
+      "The native tongue of the worgs of the Watching Wood."
+    ]
+  }
+]

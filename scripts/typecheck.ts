@@ -41,16 +41,38 @@ const asserts = {
 
 type validateFn<T> = (input: unknown) => typia.IValidation<T>;
 
+function getType(obj: unknown): string {
+  if (Array.isArray(obj)) {
+    if (obj.length === 0) {
+      return 'unknown[]';
+    }
+    return `${getType(obj[0])}[]`;
+  }
+  return typeof obj;
+}
+
 function assert<T>(name: string, objects: any[], fn: validateFn<T>) {
   for (const object of objects) {
     const validation = fn(object);
     if (!validation.success) {
       console.error(`Could not verify the following object for ${name}:`);
-      console.error(object);
+      console.error(JSON.stringify(object, null, 2));
       console.log();
       for (const err of validation.errors) {
-        console.log(`Expected '${err.expected}', received '${err.value}' at ${err.path}`);
-        console.log(err.description);
+        const fields = err.path.split('.');
+        const field = fields[fields.length - 1];
+        // Specific case
+        if (err.expected === 'undefined') {
+          console.log(`${err.path}: field '${field}' not expected, received ${getType(err.value)}`);
+        } else if (err.value === undefined) {
+          console.log(`${err.path}: field '${field}' is required, but no value was passed`);
+        } else {
+          console.log(`${err.path}: expected '${err.expected}', received '${JSON.stringify(err.value)}'`);
+        }
+
+        if (err.description) {
+          console.log(err.description);
+        }
         console.log();
       }
       process.exit(1);
@@ -61,10 +83,12 @@ function assert<T>(name: string, objects: any[], fn: validateFn<T>) {
 function check<T>(name: string, fn: validateFn<T>) {
   console.log(`Checking ${name}`);
 
-  const path = `./data/official/${name}.json`;
-  const data = JSON.parse(readFileSync(path).toString());
+  for (const directory of ['official', 'partnered']) {
+    const path = `./data/${directory}/${name}.json`;
+    const data = JSON.parse(readFileSync(path).toString());
 
-  assert(name, data, fn);
+    assert(`${directory} ${name}`, data, fn);
+  }
 }
 
 check('actions', asserts.action);

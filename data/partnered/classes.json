@@ -1,0 +1,3827 @@
+[
+  {
+    "name": "Captain",
+    "source": "TLotRR",
+    "page": 45,
+    "edition": "classic",
+    "hd": {
+      "number": 1,
+      "faces": 10
+    },
+    "proficiency": [
+      "con",
+      "cha"
+    ],
+    "featProgression": [
+      {
+        "name": "Virtue",
+        "category": [
+          "VtCom",
+          "VtBar",
+          "VtDwa",
+          "VtElf",
+          "VtHob",
+          "VtMBr",
+          "VtNRg"
+        ],
+        "progression": {
+          "4": 1,
+          "8": 2
+        }
+      },
+      {
+        "name": "Virtue or Craft",
+        "category": [
+          "VtCom",
+          "VtBar",
+          "VtDwa",
+          "VtElf",
+          "VtHob",
+          "VtMBr",
+          "VtNRg",
+          "Craft"
+        ],
+        "progression": {
+          "2": 1,
+          "6": 2,
+          "10": 3
+        }
+      }
+    ],
+    "startingProficiencies": {
+      "skills": [
+        {
+          "choose": {
+            "from": [
+              "animal handling",
+              "athletics",
+              "insight",
+              "intimidation",
+              "persuasion",
+              "travel|TLotRR"
+            ],
+            "count": 2
+          }
+        }
+      ],
+      "weapons": [
+        "simple",
+        "martial"
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "heavy",
+        "shield"
+      ]
+    },
+    "startingEquipment": {
+      "additionalFromBackground": true,
+      "defaultData": [
+        {
+          "a": [
+            "ring-mail|TLotRR"
+          ],
+          "b": [
+            "Hide Armor|PHB"
+          ]
+        },
+        {
+          "a": [
+            {
+              "equipmentType": "weaponMartialMelee"
+            },
+            "shield|phb"
+          ],
+          "b": [
+            {
+              "equipmentType": "weaponMartialMelee"
+            },
+            {
+              "equipmentType": "weaponSimpleMelee"
+            }
+          ]
+        },
+        {
+          "a": [
+            {
+              "item": "Shortbow|PHB",
+              "displayName": "bow"
+            },
+            "Quiver|phb",
+            "arrows (20)|phb"
+          ],
+          "b": [
+            {
+              "equipmentType": "weaponMartialMelee",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You start with the following equipment, in addition to the {@table Starting Gear|TLotRR|equipment granted by your standard of living}:",
+        {
+          "type": "list",
+          "items": [
+            "(a) {@item ring-mail|TLotRR} or (b) {@item Hide Armor|PHB|hide armour}",
+            "(a) a martial melee weapon and a {@item shield|PHB} or (b) a martial melee weapon and a simple melee weapon",
+            "(a) a {@item Shortbow|PHB|bow} and a {@item quiver|PHB} of 20 {@item Arrows (20)|PHB|arrows} or (b) two {@filter simple melee weapons|items|source=phb;tlotrr|category=basic|type=simple weapon;melee weapon=sand}"
+          ]
+        }
+      ]
+    },
+    "multiclassing": {
+      "requirements": {
+        "str": 13,
+        "cha": 13
+      },
+      "proficienciesGained": {
+        "weapons": [
+          "simple",
+          "martial"
+        ],
+        "armor": [
+          "light",
+          "medium",
+          "heavy",
+          "shield"
+        ]
+      }
+    },
+    "classFeatures": [
+      "Leadership|Captain|TLotRR|1|TLotRR",
+      "Fighting Style|Captain|TLotRR|2|TLotRR",
+      "Craft or Virtue|Captain|TLotRR|2|TLotRR",
+      {
+        "classFeature": "Captain Title|Captain|TLotRR|3|TLotRR",
+        "gainSubclassFeature": true
+      },
+      "Valiant|Captain|TLotRR|3|TLotRR",
+      "Virtue|Captain|TLotRR|4|TLotRR",
+      "Extra Attack|Captain|TLotRR|5|TLotRR",
+      "Aura of Valour|Captain|TLotRR|6|TLotRR",
+      "Craft or Virtue|Captain|TLotRR|6|TLotRR",
+      {
+        "classFeature": "Captain Title feature|Captain|TLotRR|7|TLotRR",
+        "gainSubclassFeature": true
+      },
+      "Virtue|Captain|TLotRR|8|TLotRR",
+      "Aura of Courage|Captain|TLotRR|10|TLotRR",
+      "Craft or Virtue|Captain|TLotRR|10|TLotRR"
+    ],
+    "subclassTitle": "Title",
+    "hasFluff": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Champion",
+    "source": "TLotRR",
+    "page": 48,
+    "edition": "classic",
+    "hd": {
+      "number": 1,
+      "faces": 10
+    },
+    "proficiency": [
+      "str",
+      "con"
+    ],
+    "featProgression": [
+      {
+        "name": "Virtue",
+        "category": [
+          "VtCom",
+          "VtBar",
+          "VtDwa",
+          "VtElf",
+          "VtHob",
+          "VtMBr",
+          "VtNRg"
+        ],
+        "progression": {
+          "4": 1,
+          "8": 2
+        }
+      },
+      {
+        "name": "Virtue or Craft",
+        "category": [
+          "VtCom",
+          "VtBar",
+          "VtDwa",
+          "VtElf",
+          "VtHob",
+          "VtMBr",
+          "VtNRg",
+          "Craft"
+        ],
+        "progression": {
+          "2": 1,
+          "6": 2
+        }
+      }
+    ],
+    "startingProficiencies": {
+      "skills": [
+        {
+          "choose": {
+            "from": [
+              "acrobatics",
+              "animal handling",
+              "athletics",
+              "hunting|TLotRR",
+              "intimidation",
+              "perception"
+            ],
+            "count": 2
+          }
+        }
+      ],
+      "weapons": [
+        "simple",
+        "martial"
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "heavy",
+        "shield"
+      ]
+    },
+    "startingEquipment": {
+      "additionalFromBackground": true,
+      "defaultData": [
+        {
+          "a": [
+            "ring-mail|TLotRR"
+          ],
+          "b": [
+            "Hide Armor|PHB"
+          ],
+          "c": [
+            "leather shirt|TLotRR",
+            {
+              "item": "longbow|PHB",
+              "displayName": "great bow"
+            },
+            "Quiver|phb",
+            "arrows (20)|phb"
+          ]
+        },
+        {
+          "a": [
+            {
+              "equipmentType": "weaponMartialMelee"
+            },
+            "shield|phb"
+          ],
+          "b": [
+            {
+              "equipmentType": "weaponMartialMelee"
+            },
+            {
+              "equipmentType": "weaponSimpleMelee"
+            }
+          ]
+        },
+        {
+          "a": [
+            {
+              "item": "Shortbow|PHB",
+              "displayName": "bow"
+            },
+            "Quiver|phb",
+            "arrows (20)|phb"
+          ],
+          "b": [
+            {
+              "equipmentType": "weaponMartialMelee",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You start with the following equipment, in addition to the {@table Starting Gear|TLotRR|equipment granted by your standard of living}:",
+        {
+          "type": "list",
+          "items": [
+            "(a) {@item ring-mail|TLotRR} or (b) {@item Hide Armor|PHB|hide armour} or (c) {@item leather shirt|TLotRR}, {@item Longbow|PHB|great bow}, and a {@item quiver|PHB} of 20 {@item Arrows (20)|PHB|arrows}",
+            "(a) a martial melee weapon and a {@item shield|PHB} or (b) a martial melee weapon and a simple melee weapon",
+            "(a) a {@item Shortbow|PHB|bow} and a {@item quiver|PHB} of 20 {@item Arrows (20)|PHB|arrows} or (b) two simple melee weapons"
+          ]
+        }
+      ]
+    },
+    "multiclassing": {
+      "requirements": {
+        "or": [
+          {
+            "str": 13,
+            "dex": 13
+          }
+        ]
+      },
+      "proficienciesGained": {
+        "weapons": [
+          "simple",
+          "martial"
+        ],
+        "armor": [
+          "light",
+          "medium",
+          "heavy",
+          "shield"
+        ]
+      }
+    },
+    "classFeatures": [
+      "Fighting Style|Champion|TLotRR|1|TLotRR",
+      "Surge of Vigour|Champion|TLotRR|1|TLotRR",
+      "Craft or Virtue|Champion|TLotRR|2|TLotRR",
+      {
+        "classFeature": "Champion Way|Champion|TLotRR|3|TLotRR",
+        "gainSubclassFeature": true
+      },
+      "Virtue|Champion|TLotRR|4|TLotRR",
+      "Extra Attack|Champion|TLotRR|5|TLotRR",
+      "Craft or Virtue|Champion|TLotRR|6|TLotRR",
+      {
+        "classFeature": "Champion Way feature|Champion|TLotRR|7|TLotRR",
+        "gainSubclassFeature": true
+      },
+      "Virtue|Champion|TLotRR|8|TLotRR",
+      "Indomitable|Champion|TLotRR|9|TLotRR",
+      "Extra Attack (2)|Champion|TLotRR|10|TLotRR"
+    ],
+    "subclassTitle": "Way",
+    "hasFluff": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Gunslinger",
+    "source": "ValdaGunslinger",
+    "edition": "one",
+    "primaryAbility": [
+      {
+        "dex": true
+      }
+    ],
+    "hd": {
+      "number": 1,
+      "faces": 8
+    },
+    "proficiency": [
+      "dex",
+      "cha"
+    ],
+    "featProgression": [
+      {
+        "name": "Fighting Style",
+        "category": [
+          "FS"
+        ],
+        "progression": {
+          "1": 1
+        }
+      },
+      {
+        "name": "Epic Boon",
+        "category": [
+          "EB"
+        ],
+        "progression": {
+          "19": 1
+        }
+      }
+    ],
+    "startingProficiencies": {
+      "armor": [
+        "light"
+      ],
+      "weapons": [
+        "simple",
+        "{@filter Martial Ranged weapons|items|type=martial weapon;ranged weapon}"
+      ],
+      "weaponProficiencies": [
+        {
+          "simple": true,
+          "all": {
+            "fromFilter": "type=martial weapon;ranged weapon"
+          }
+        }
+      ],
+      "armorProficiencies": [
+        {
+          "light": true
+        }
+      ],
+      "skills": [
+        {
+          "choose": {
+            "from": [
+              "acrobatics",
+              "animal handling",
+              "athletics",
+              "deception",
+              "insight",
+              "intimidation",
+              "perception",
+              "persuasion",
+              "sleight of hand",
+              "stealth"
+            ],
+            "count": 2
+          }
+        }
+      ]
+    },
+    "startingEquipment": {
+      "additionalFromBackground": true,
+      "defaultData": [
+        {
+          "A": [
+            {
+              "item": "leather armor|xphb"
+            },
+            {
+              "item": "dagger|xphb",
+              "quantity": 2
+            },
+            {
+              "item": "revolver|valdagunslinger"
+            },
+            {
+              "item": "bullet|valdagunslinger",
+              "quantity": 50
+            },
+            {
+              "item": "explorer's pack|xphb"
+            },
+            {
+              "value": 1100
+            }
+          ],
+          "B": [
+            {
+              "value": 17500
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "{@i Choose A or B:} (A) {@item Leather Armor|XPHB}, 2 {@item Dagger|XPHB|Daggers}, {@item Revolver|ValdaGunslinger}, 50 {@item Bullet|ValdaGunslinger}, {@item Explorer's Pack|XPHB}, and 11 GP; or (B) 175 GP"
+      ]
+    },
+    "multiclassing": {
+      "proficienciesGained": {
+        "weapons": [
+          "{@filter Martial Ranged weapons|items|type=ranged weapon}"
+        ],
+        "weaponProficiencies": [
+          {
+            "all": {
+              "fromFilter": "type=ranged weapon"
+            }
+          }
+        ]
+      }
+    },
+    "classTableGroups": [
+      {
+        "colLabels": [
+          "Risk Dice",
+          "Weapon Mastery"
+        ],
+        "rows": [
+          [
+            "-",
+            "2"
+          ],
+          [
+            "{@dice 4d8}",
+            "2"
+          ],
+          [
+            "{@dice 4d8}",
+            "2"
+          ],
+          [
+            "{@dice 4d8}",
+            "3"
+          ],
+          [
+            "{@dice 4d8}",
+            "3"
+          ],
+          [
+            "{@dice 5d8}",
+            "3"
+          ],
+          [
+            "{@dice 5d8}",
+            "3"
+          ],
+          [
+            "{@dice 5d8}",
+            "3"
+          ],
+          [
+            "{@dice 5d8}",
+            "3"
+          ],
+          [
+            "{@dice 5d10}",
+            "4"
+          ],
+          [
+            "{@dice 5d10}",
+            "4"
+          ],
+          [
+            "{@dice 5d10}",
+            "4"
+          ],
+          [
+            "{@dice 5d10}",
+            "4"
+          ],
+          [
+            "{@dice 6d10}",
+            "4"
+          ],
+          [
+            "{@dice 6d10}",
+            "4"
+          ],
+          [
+            "{@dice 6d10}",
+            "4"
+          ],
+          [
+            "{@dice 6d10}",
+            "4"
+          ],
+          [
+            "{@dice 6d12}",
+            "4"
+          ],
+          [
+            "{@dice 6d12}",
+            "4"
+          ],
+          [
+            "{@dice 6d12}",
+            "4"
+          ]
+        ]
+      }
+    ],
+    "classFeatures": [
+      "Fighting Style|Gunslinger|ValdaGunslinger|1",
+      "Quick Draw|Gunslinger|ValdaGunslinger|1",
+      "Weapon Mastery|Gunslinger|ValdaGunslinger|1",
+      "Critical Shot|Gunslinger|ValdaGunslinger|2",
+      "Risk|Gunslinger|ValdaGunslinger|2",
+      {
+        "classFeature": "Gunslinger Subclass|Gunslinger|ValdaGunslinger|3",
+        "gainSubclassFeature": true
+      },
+      "Ability Score Improvement|Gunslinger|ValdaGunslinger|4",
+      "Extra Attack|Gunslinger|ValdaGunslinger|5",
+      "Gut Shot|Gunslinger|ValdaGunslinger|5",
+      {
+        "classFeature": "Subclass Feature|Gunslinger|ValdaGunslinger|6",
+        "gainSubclassFeature": true
+      },
+      "Evasion|Gunslinger|ValdaGunslinger|7",
+      "Ability Score Improvement|Gunslinger|ValdaGunslinger|8",
+      "Critical Shot|Gunslinger|ValdaGunslinger|9",
+      {
+        "classFeature": "Subclass Feature|Gunslinger|ValdaGunslinger|10",
+        "gainSubclassFeature": true
+      },
+      "Overkill|Gunslinger|ValdaGunslinger|11",
+      "Ability Score Improvement|Gunslinger|ValdaGunslinger|12",
+      "Cheat Death|Gunslinger|ValdaGunslinger|13",
+      {
+        "classFeature": "Subclass Feature|Gunslinger|ValdaGunslinger|14",
+        "gainSubclassFeature": true
+      },
+      "Dire Gambit|Gunslinger|ValdaGunslinger|15",
+      "Ability Score Improvement|Gunslinger|ValdaGunslinger|16",
+      "Critical Shot|Gunslinger|ValdaGunslinger|17",
+      "Deft Maneuver|Gunslinger|ValdaGunslinger|18",
+      "Epic Boon|Gunslinger|ValdaGunslinger|19",
+      "Headshot|Gunslinger|ValdaGunslinger|20"
+    ],
+    "subclassTitle": "Subclass Feature",
+    "hasFluff": true,
+    "hasFluffImages": true,
+    "foundryAdvancement": [
+      {
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "critical-shot",
+          "type": "number",
+          "scale": {
+            "3": {
+              "value": 19
+            },
+            "9": {
+              "value": 18
+            },
+            "17": {
+              "value": 17
+            }
+          }
+        },
+        "title": "Critical Shot"
+      },
+      {
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "risk-dice",
+          "type": "dice",
+          "scale": {
+            "2": {
+              "number": 4,
+              "faces": 8
+            },
+            "6": {
+              "number": 5,
+              "faces": 8
+            },
+            "10": {
+              "number": 5,
+              "faces": 10
+            },
+            "14": {
+              "number": 6,
+              "faces": 10
+            },
+            "18": {
+              "number": 6,
+              "faces": 12
+            }
+          }
+        },
+        "title": "Risk Dice"
+      }
+    ],
+    "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ValdaGunslinger/Gunslinger-icon.webp"
+  },
+  {
+    "name": "Illrigger",
+    "source": "IllriggerRevised",
+    "edition": "classic",
+    "hd": {
+      "number": 1,
+      "faces": 10
+    },
+    "proficiency": [
+      "con",
+      "cha"
+    ],
+    "optionalfeatureProgression": [
+      {
+        "name": "Interdict Boons",
+        "featureType": [
+          "ItdBoon"
+        ],
+        "progression": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "name": "Combat Mastery",
+        "featureType": [
+          "IllMastery"
+        ],
+        "progression": {
+          "2": 1
+        }
+      }
+    ],
+    "startingProficiencies": {
+      "skills": [
+        {
+          "choose": {
+            "from": [
+              "arcana",
+              "athletics",
+              "deception",
+              "insight",
+              "intimidation",
+              "investigation",
+              "persuasion",
+              "religion",
+              "stealth"
+            ],
+            "count": 2
+          }
+        }
+      ],
+      "weapons": [
+        "simple",
+        "martial"
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "shield"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true,
+          "medium": true,
+          "shield": true
+        }
+      ]
+    },
+    "startingEquipment": {
+      "additionalFromBackground": true,
+      "default": [
+        "(a) two {@filter martial weapons|items|source=phb|category=basic|type=martial weapon} or (b) one {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} and a {@item shield|phb}",
+        "(a) {@item chain shirt|phb} or (b) {@item leather armor|phb}, a {@item longbow|phb}, and {@item arrows (20)|phb|20 arrows}",
+        "(a) a {@item priest's pack|phb} or (b) a {@item dungeoneer's pack|phb}",
+        "five {@item javelin|phb|javelins}"
+      ],
+      "defaultData": [
+        {
+          "a": [
+            {
+              "equipmentType": "weaponMartial",
+              "quantity": 2
+            }
+          ],
+          "b": [
+            {
+              "equipmentType": "weaponMartial"
+            },
+            "shield|phb"
+          ]
+        },
+        {
+          "a": [
+            "chain shirt|phb"
+          ],
+          "b": [
+            "leather armor|phb",
+            "longbow|phb",
+            "arrows (20)|phb"
+          ]
+        },
+        {
+          "a": [
+            "priest's pack|phb"
+          ],
+          "b": [
+            "dungeoneer's pack|phb"
+          ]
+        },
+        {
+          "_": [
+            {
+              "item": "javelin|phb",
+              "quantity": 5
+            }
+          ]
+        }
+      ]
+    },
+    "multiclassing": {
+      "requirements": {
+        "cha": 13,
+        "or": [
+          {
+            "str": 13,
+            "dex": 13
+          }
+        ]
+      },
+      "proficienciesGained": {
+        "weapons": [
+          "simple",
+          "martial"
+        ],
+        "armor": [
+          "light",
+          "medium",
+          "shield"
+        ],
+        "armorProficiencies": [
+          {
+            "light": true,
+            "medium": true,
+            "shield": true
+          }
+        ]
+      }
+    },
+    "classTableGroups": [
+      {
+        "colLabels": [
+          "Seals",
+          "Seal Damage",
+          "Interdict Boons",
+          "Infernal Conduit Dice"
+        ],
+        "rows": [
+          [
+            3,
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 1,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            0,
+            0
+          ],
+          [
+            3,
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 1,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            1,
+            0
+          ],
+          [
+            4,
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 1,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            1,
+            0
+          ],
+          [
+            4,
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 1,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            1,
+            0
+          ],
+          [
+            4,
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 2,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            1,
+            0
+          ],
+          [
+            4,
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 2,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            1,
+            3
+          ],
+          [
+            5,
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 2,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            2,
+            4
+          ],
+          [
+            5,
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 2,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            2,
+            4
+          ],
+          [
+            5,
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 2,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            2,
+            5
+          ],
+          [
+            5,
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 2,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            2,
+            5
+          ],
+          [
+            5,
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 3,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            2,
+            6
+          ],
+          [
+            5,
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 3,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            2,
+            6
+          ],
+          [
+            6,
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 3,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            3,
+            7
+          ],
+          [
+            6,
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 3,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            3,
+            7
+          ],
+          [
+            6,
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 3,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            3,
+            8
+          ],
+          [
+            6,
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 3,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            3,
+            8
+          ],
+          [
+            6,
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 3,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            3,
+            9
+          ],
+          [
+            7,
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 3,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            4,
+            9
+          ],
+          [
+            7,
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 3,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            4,
+            10
+          ],
+          [
+            7,
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 4,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            4,
+            10
+          ]
+        ]
+      }
+    ],
+    "classFeatures": [
+      "Baleful Interdict|Illrigger|IllriggerRevised|1",
+      "Forked Tongue|Illrigger|IllriggerRevised|1",
+      "Combat Mastery|Illrigger|IllriggerRevised|2",
+      "Interdiction|Illrigger|IllriggerRevised|2",
+      {
+        "classFeature": "Diabolic Contract|Illrigger|IllriggerRevised|3",
+        "gainSubclassFeature": true
+      },
+      "Invoke Hell|Illrigger|IllriggerRevised|3",
+      "Ability Score Improvement|Illrigger|IllriggerRevised|4",
+      "Extra Attack|Illrigger|IllriggerRevised|5",
+      "Infernal Conduit|Illrigger|IllriggerRevised|6",
+      {
+        "classFeature": "Diabolic Contract feature|Illrigger|IllriggerRevised|7",
+        "gainSubclassFeature": true
+      },
+      "Ability Score Improvement|Illrigger|IllriggerRevised|8",
+      "Forked Tongue Improvement|Illrigger|IllriggerRevised|9",
+      "Blood Price|Illrigger|IllriggerRevised|10",
+      {
+        "classFeature": "Diabolic Contract feature|Illrigger|IllriggerRevised|11",
+        "gainSubclassFeature": true
+      },
+      "Infernal Conduit Improvement|Illrigger|IllriggerRevised|11",
+      "Terrorizing Force|Illrigger|IllriggerRevised|11",
+      "Ability Score Improvement|Illrigger|IllriggerRevised|12",
+      "Superior Interdict|Illrigger|IllriggerRevised|14",
+      {
+        "classFeature": "Diabolic Contract feature|Illrigger|IllriggerRevised|15",
+        "gainSubclassFeature": true
+      },
+      "Ability Score Improvement|Illrigger|IllriggerRevised|16",
+      "Infernal Majesty|Illrigger|IllriggerRevised|17",
+      "Ability Score Improvement|Illrigger|IllriggerRevised|19",
+      "Master of Hell|Illrigger|IllriggerRevised|20"
+    ],
+    "subclassTitle": "Diabolic Contracts",
+    "hasFluff": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Kindred",
+    "source": "BoundByBlood",
+    "edition": "one",
+    "primaryAbility": [
+      {
+        "cha": true
+      }
+    ],
+    "hd": {
+      "number": 1,
+      "faces": 10
+    },
+    "proficiency": [
+      "con",
+      "cha"
+    ],
+    "spellcastingAbility": "cha",
+    "featProgression": [
+      {
+        "name": "Kindred Feat",
+        "category": [
+          "KF"
+        ],
+        "progression": {
+          "2": 1,
+          "7": 2,
+          "10": 3,
+          "13": 4,
+          "17": 5
+        }
+      },
+      {
+        "name": "Epic Boon",
+        "category": [
+          "EB"
+        ],
+        "progression": {
+          "19": 1
+        }
+      }
+    ],
+    "startingProficiencies": {
+      "armor": [
+        "light",
+        "{@item Breastplate|XPHB}"
+      ],
+      "weapons": [
+        "simple",
+        "{@filter Martial weapons that have the Light property|items|type=martial weapon|property=light}"
+      ],
+      "weaponProficiencies": [
+        {
+          "simple": true,
+          "all": {
+            "fromFilter": "type=martial weapon|property=light"
+          }
+        }
+      ],
+      "skills": [
+        {
+          "choose": {
+            "from": [
+              "athletics",
+              "deception",
+              "history",
+              "intimidation",
+              "perception",
+              "persuasion",
+              "survival",
+              "stealth"
+            ],
+            "count": 2
+          }
+        }
+      ]
+    },
+    "startingEquipment": {
+      "additionalFromBackground": true,
+      "defaultData": [
+        {
+          "A": [
+            {
+              "item": "leather armor|xphb"
+            },
+            {
+              "item": "dagger|xphb",
+              "quantity": 2
+            },
+            {
+              "item": "shortsword|xphb"
+            },
+            {
+              "equipmentType": "toolArtisan"
+            },
+            {
+              "item": "explorer's pack|xphb"
+            },
+            {
+              "value": 1500
+            }
+          ],
+          "B": [
+            {
+              "value": 7500
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "{@i Choose A or B:} (A) {@item Leather Armor|XPHB}, 2 {@item Dagger|XPHB|Daggers}, {@item Shortsword|XPHB}, {@item Artisan's Tools|XPHB} of your choice, {@item Explorer's Pack|XPHB}, and 15 GP; or (B) 75 GP"
+      ]
+    },
+    "multiclassing": {
+      "requirements": {
+        "cha": 13
+      },
+      "proficienciesGained": {
+        "armor": [
+          "light",
+          "{@item Breastplate|XPHB}"
+        ],
+        "weapons": [
+          "simple"
+        ],
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "athletics",
+                "deception",
+                "history",
+                "intimidation",
+                "perception",
+                "persuasion",
+                "survival",
+                "stealth"
+              ],
+              "count": 1
+            }
+          }
+        ]
+      }
+    },
+    "classTableGroups": [
+      {
+        "colLabels": [
+          "Blood Points",
+          "Feed Dice"
+        ],
+        "rows": [
+          [
+            1,
+            "{@dice 2d6}"
+          ],
+          [
+            2,
+            "{@dice 2d6}"
+          ],
+          [
+            2,
+            "{@dice 2d6}"
+          ],
+          [
+            3,
+            "{@dice 2d6}"
+          ],
+          [
+            3,
+            "{@dice 3d6}"
+          ],
+          [
+            4,
+            "{@dice 3d6}"
+          ],
+          [
+            4,
+            "{@dice 3d6}"
+          ],
+          [
+            5,
+            "{@dice 3d6}"
+          ],
+          [
+            5,
+            "{@dice 4d6}"
+          ],
+          [
+            6,
+            "{@dice 4d6}"
+          ],
+          [
+            6,
+            "{@dice 4d6}"
+          ],
+          [
+            7,
+            "{@dice 4d6}"
+          ],
+          [
+            7,
+            "{@dice 5d6}"
+          ],
+          [
+            8,
+            "{@dice 5d6}"
+          ],
+          [
+            8,
+            "{@dice 5d6}"
+          ],
+          [
+            9,
+            "{@dice 5d6}"
+          ],
+          [
+            9,
+            "{@dice 6d6}"
+          ],
+          [
+            10,
+            "{@dice 6d6}"
+          ],
+          [
+            10,
+            "{@dice 6d6}"
+          ],
+          [
+            11,
+            "{@dice 6d6}"
+          ]
+        ]
+      }
+    ],
+    "classFeatures": [
+      "Feed|Kindred|BoundByBlood|1",
+      "The Beast|Kindred|BoundByBlood|1",
+      "Blood Potency|Kindred|BoundByBlood|1",
+      "Kindred Biology|Kindred|BoundByBlood|1",
+      "Kindred Feat|Kindred|BoundByBlood|2",
+      {
+        "classFeature": "Kindred Subclass|Kindred|BoundByBlood|3",
+        "gainSubclassFeature": true
+      },
+      "Ability Score Improvement|Kindred|BoundByBlood|4",
+      "Bestial Fury|Kindred|BoundByBlood|5",
+      "Improved Feed|Kindred|BoundByBlood|5",
+      {
+        "classFeature": "Subclass Feature|Kindred|BoundByBlood|6",
+        "gainSubclassFeature": true
+      },
+      "Kindred Feat|Kindred|BoundByBlood|7",
+      "Ability Score Improvement|Kindred|BoundByBlood|8",
+      {
+        "classFeature": "Subclass Feature|Kindred|BoundByBlood|9",
+        "gainSubclassFeature": true
+      },
+      "Kindred Feat|Kindred|BoundByBlood|10",
+      "Vampiric Will|Kindred|BoundByBlood|10",
+      {
+        "classFeature": "Subclass Feature|Kindred|BoundByBlood|11",
+        "gainSubclassFeature": true
+      },
+      "Ability Score Improvement|Kindred|BoundByBlood|12",
+      "Kindred Feat|Kindred|BoundByBlood|13",
+      "Efficient Feeding|Kindred|BoundByBlood|14",
+      {
+        "classFeature": "Subclass Feature|Kindred|BoundByBlood|15",
+        "gainSubclassFeature": true
+      },
+      "Ability Score Improvement|Kindred|BoundByBlood|16",
+      "Kindred Feat|Kindred|BoundByBlood|17",
+      {
+        "classFeature": "Subclass Feature|Kindred|BoundByBlood|18",
+        "gainSubclassFeature": true
+      },
+      "Epic Boon|Kindred|BoundByBlood|19",
+      "Ancient Awakening|Kindred|BoundByBlood|20"
+    ],
+    "subclassTitle": "Subclass Feature",
+    "foundryAdvancement": [
+      {
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "blood",
+          "type": "number",
+          "scale": {
+            "1": {
+              "value": 1
+            },
+            "2": {
+              "value": 2
+            },
+            "4": {
+              "value": 3
+            },
+            "6": {
+              "value": 4
+            },
+            "8": {
+              "value": 5
+            },
+            "10": {
+              "value": 6
+            },
+            "12": {
+              "value": 7
+            },
+            "14": {
+              "value": 8
+            },
+            "16": {
+              "value": 9
+            },
+            "18": {
+              "value": 10
+            },
+            "20": {
+              "value": 11
+            }
+          }
+        },
+        "title": "Blood Points"
+      },
+      {
+        "type": "ScaleValue",
+        "configuration": {
+          "type": "dice",
+          "scale": {
+            "1": {
+              "number": 2,
+              "faces": 6
+            },
+            "5": {
+              "number": 3,
+              "faces": 6
+            },
+            "9": {
+              "number": 4,
+              "faces": 6
+            },
+            "13": {
+              "number": 5,
+              "faces": 6
+            },
+            "17": {
+              "number": 6,
+              "face": 6
+            }
+          }
+        },
+        "title": "Feed Dice"
+      }
+    ],
+    "hasFluff": true,
+    "hasFluffImages": true,
+    "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/BoundByBlood/Class/Kindred-Foundry.webp"
+  },
+  {
+    "name": "Messenger",
+    "source": "TLotRR",
+    "page": 51,
+    "edition": "classic",
+    "hd": {
+      "number": 1,
+      "faces": 8
+    },
+    "proficiency": [
+      "dex",
+      "cha"
+    ],
+    "featProgression": [
+      {
+        "name": "Virtue",
+        "category": [
+          "VtCom",
+          "VtBar",
+          "VtDwa",
+          "VtElf",
+          "VtHob",
+          "VtMBr",
+          "VtNRg"
+        ],
+        "progression": {
+          "4": 1,
+          "8": 2
+        }
+      },
+      {
+        "name": "Virtue or Craft",
+        "category": [
+          "VtCom",
+          "VtBar",
+          "VtDwa",
+          "VtElf",
+          "VtHob",
+          "VtMBr",
+          "VtNRg",
+          "Craft"
+        ],
+        "progression": {
+          "2": 1,
+          "6": 2,
+          "10": 3
+        }
+      }
+    ],
+    "startingProficiencies": {
+      "skills": [
+        {
+          "choose": {
+            "from": [
+              "animal handling",
+              "explore|TLotRR",
+              "hunting|TLotRR",
+              "insight",
+              "intimidation",
+              "old lore|TLotRR",
+              "perception",
+              "performance",
+              "persuasion",
+              "riddle|TLotRR",
+              "stealth",
+              "travel|TLotRR"
+            ],
+            "count": 4
+          }
+        }
+      ],
+      "weapons": [
+        "simple",
+        "short sword",
+        "swords"
+      ],
+      "weaponProficiencies": [
+        {
+          "simple": true,
+          "shortsword|phb": true,
+          "sword|TLotRR": true
+        }
+      ],
+      "tools": [
+        "A tool of your choice"
+      ],
+      "toolProficiencies": [
+        {
+          "any": 1
+        }
+      ],
+      "armor": [
+        "light"
+      ]
+    },
+    "startingEquipment": {
+      "additionalFromBackground": true,
+      "defaultData": [
+        {
+          "_": [
+            {
+              "equipmentType": "toolArtisan"
+            },
+            {
+              "equipmentType": "weaponSimpleMelee"
+            }
+          ]
+        },
+        {
+          "a": [
+            "shortsword|PHB"
+          ],
+          "b": [
+            "sword|TLotRR"
+          ]
+        },
+        {
+          "a": [
+            "leather shirt|TLotRR"
+          ],
+          "b": [
+            {
+              "item": "Shortbow|PHB",
+              "displayName": "bow"
+            },
+            "Quiver|phb",
+            "arrows (20)|phb"
+          ]
+        }
+      ],
+      "entries": [
+        "You start with the following equipment, in addition to the {@table Starting Gear|TLotRR|equipment granted by your standard of living}:",
+        {
+          "type": "list",
+          "items": [
+            "Any one tool and any simple melee weapon",
+            "(a) a {@item Shortsword|PHB|short sword} or (b) a {@item sword|TLotRR}",
+            "(a) {@item Leather shirt|TLotRR} or (b) a {@item Shortbow|PHB|bow} and a {@item quiver|PHB} of 20 {@item Arrows (20)|PHB|arrows}"
+          ]
+        }
+      ]
+    },
+    "multiclassing": {
+      "requirements": {
+        "dex": 13,
+        "cha": 13
+      },
+      "proficienciesGained": {
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "animal handling",
+                "explore|TLotRR",
+                "hunting|TLotRR",
+                "insight",
+                "intimidation",
+                "old lore|TLotRR",
+                "perception",
+                "performance",
+                "persuasion",
+                "riddle|TLotRR",
+                "stealth",
+                "travel|TLotRR"
+              ]
+            }
+          }
+        ],
+        "weapons": [
+          "simple"
+        ],
+        "weaponProficiencies": [
+          {
+            "simple": true
+          }
+        ],
+        "tools": [
+          "A tool of your choice"
+        ],
+        "toolProficiencies": [
+          {
+            "any": 1
+          }
+        ],
+        "armor": [
+          "light"
+        ]
+      }
+    },
+    "classTableGroups": [
+      {
+        "colLabels": [
+          "Sneak Attack"
+        ],
+        "rows": [
+          [
+            "—"
+          ],
+          [
+            "{@dice 1d6}"
+          ],
+          [
+            "{@dice 1d6}"
+          ],
+          [
+            "{@dice 1d6}"
+          ],
+          [
+            "{@dice 2d6}"
+          ],
+          [
+            "{@dice 2d6}"
+          ],
+          [
+            "{@dice 2d6}"
+          ],
+          [
+            "{@dice 2d6}"
+          ],
+          [
+            "{@dice 3d6}"
+          ],
+          [
+            "{@dice 3d6}"
+          ]
+        ]
+      }
+    ],
+    "classFeatures": [
+      "Folk-Lore|Messenger|TLotRR|1|TLotRR",
+      "Tireless and Swift|Messenger|TLotRR|1|TLotRR",
+      "Unarmoured Defence|Messenger|TLotRR|1|TLotRR",
+      "Craft or Virtue|Messenger|TLotRR|2|TLotRR",
+      "Sneak Attack|Messenger|TLotRR|2|TLotRR",
+      "Errand Runner|Messenger|TLotRR|3|TLotRR",
+      {
+        "classFeature": "Messenger Path|Messenger|TLotRR|3|TLotRR",
+        "gainSubclassFeature": true
+      },
+      "Virtue|Messenger|TLotRR|4|TLotRR",
+      "Uncanny Dodge|Messenger|TLotRR|5|TLotRR",
+      "Craft or Virtue|Messenger|TLotRR|6|TLotRR",
+      "Tireless and Swift improvement|Messenger|TLotRR|6|TLotRR",
+      {
+        "classFeature": "Messenger Path feature|Messenger|TLotRR|7|TLotRR",
+        "gainSubclassFeature": true
+      },
+      "Virtue|Messenger|TLotRR|8|TLotRR",
+      "Tireless and Swift improvement|Messenger|TLotRR|10|TLotRR",
+      "Craft or Virtue|Messenger|TLotRR|10|TLotRR"
+    ],
+    "subclassTitle": "Path",
+    "hasFluff": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Monster Hunter",
+    "source": "GrimHollowPG24",
+    "page": 51,
+    "edition": "one",
+    "primaryAbility": [
+      {
+        "str": true,
+        "int": true
+      },
+      {
+        "dex": true,
+        "int": true
+      }
+    ],
+    "hd": {
+      "number": 1,
+      "faces": 10
+    },
+    "proficiency": [
+      "dex",
+      "int"
+    ],
+    "featProgression": [
+      {
+        "name": "Fighting Style",
+        "category": [
+          "FS"
+        ],
+        "progression": {
+          "2": 1
+        }
+      },
+      {
+        "name": "Epic Boon",
+        "category": [
+          "EB"
+        ],
+        "progression": {
+          "19": 1
+        }
+      }
+    ],
+    "optionalfeatureProgression": [
+      {
+        "name": "Monster Grimoire Specialization",
+        "featureType": [
+          "MGS"
+        ],
+        "progression": {
+          "1": 2,
+          "6": 3,
+          "13": 4
+        }
+      }
+    ],
+    "startingProficiencies": {
+      "armor": [
+        "light",
+        "medium",
+        "shield"
+      ],
+      "weapons": [
+        "simple",
+        "martial"
+      ],
+      "skills": [
+        {
+          "choose": {
+            "from": [
+              "athletics",
+              "history",
+              "investigation",
+              "medicine",
+              "nature",
+              "perception",
+              "religion",
+              "survival"
+            ],
+            "count": 3
+          }
+        }
+      ]
+    },
+    "startingEquipment": {
+      "additionalFromBackground": true,
+      "defaultData": [
+        {
+          "A": [
+            {
+              "item": "scale mail|xphb"
+            },
+            {
+              "item": "longsword|xphb"
+            },
+            {
+              "item": "light crossbow|xphb"
+            },
+            {
+              "item": "bolt|xphb",
+              "quantity": 20
+            },
+            {
+              "item": "dungeoneer's pack|xphb"
+            },
+            {
+              "value": 500
+            }
+          ],
+          "B": [
+            {
+              "item": "studded leather armor|xphb"
+            },
+            {
+              "item": "scimitar|xphb"
+            },
+            {
+              "item": "shortsword|xphb"
+            },
+            {
+              "item": "longbow|xphb"
+            },
+            {
+              "item": "arrow|xphb",
+              "quantity": 20
+            },
+            {
+              "item": "quiver|xphb"
+            },
+            {
+              "item": "dungeoneer's pack|xphb"
+            },
+            {
+              "value": 1000
+            }
+          ],
+          "C": [
+            {
+              "value": 16000
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "{@i Choose A, B, or C:} (A) {@item Scale Mail|XPHB}, {@item Longsword|XPHB}, {@item Light Crossbow|XPHB}, 20 {@item Bolt|XPHB|Bolts}, {@item Dungeoneer's Pack|XPHB}, and 5 GP; (B) {@item Studded Leather Armor|XPHB}, {@item Scimitar|XPHB}, {@item Shortsword|XPHB}, {@item Longbow|XPHB}, 20 {@item Arrow|XPHB|Arrows}, {@item Quiver|XPHB}, {@item Dungeoneer's Pack|XPHB}, and 10 GP; or (C) 160 GP"
+      ]
+    },
+    "multiclassing": {
+      "proficienciesGained": {
+        "weapons": [
+          "martial"
+        ],
+        "armor": [
+          "light",
+          "medium",
+          "shield"
+        ]
+      }
+    },
+    "classTableGroups": [
+      {
+        "colLabels": [
+          "Weapon Mastery"
+        ],
+        "rows": [
+          [
+            "2"
+          ],
+          [
+            "2"
+          ],
+          [
+            "2"
+          ],
+          [
+            "2"
+          ],
+          [
+            "3"
+          ],
+          [
+            "3"
+          ],
+          [
+            "3"
+          ],
+          [
+            "3"
+          ],
+          [
+            "3"
+          ],
+          [
+            "3"
+          ],
+          [
+            "4"
+          ],
+          [
+            "4"
+          ],
+          [
+            "4"
+          ],
+          [
+            "4"
+          ],
+          [
+            "4"
+          ],
+          [
+            "4"
+          ],
+          [
+            "5"
+          ],
+          [
+            "5"
+          ],
+          [
+            "5"
+          ],
+          [
+            "5"
+          ]
+        ]
+      }
+    ],
+    "classFeatures": [
+      "Monster Grimoire|Monster Hunter|GrimHollowPG24|1",
+      "Weapon Mastery|Monster Hunter|GrimHollowPG24|1",
+      "Fighting Style|Monster Hunter|GrimHollowPG24|2",
+      "Studied Response|Monster Hunter|GrimHollowPG24|2",
+      {
+        "classFeature": "Monster Hunter Subclass|Monster Hunter|GrimHollowPG24|3",
+        "gainSubclassFeature": true
+      },
+      "Ability Score Improvement|Monster Hunter|GrimHollowPG24|4",
+      "Expert Strike|Monster Hunter|GrimHollowPG24|5",
+      "Improved Monster Grimoire|Monster Hunter|GrimHollowPG24|6",
+      {
+        "classFeature": "Subclass Feature|Monster Hunter|GrimHollowPG24|7",
+        "gainSubclassFeature": true
+      },
+      "Ability Score Improvement|Monster Hunter|GrimHollowPG24|8",
+      "Knowledgeable Defense|Monster Hunter|GrimHollowPG24|9",
+      {
+        "classFeature": "Subclass Feature|Monster Hunter|GrimHollowPG24|10",
+        "gainSubclassFeature": true
+      },
+      "Extra Attack|Monster Hunter|GrimHollowPG24|11",
+      "Ability Score Improvement|Monster Hunter|GrimHollowPG24|12",
+      "Improved Monster Grimoire|Monster Hunter|GrimHollowPG24|13",
+      "Lair Sense|Monster Hunter|GrimHollowPG24|14",
+      {
+        "classFeature": "Subclass Feature|Monster Hunter|GrimHollowPG24|15",
+        "gainSubclassFeature": true
+      },
+      "Ability Score Improvement|Monster Hunter|GrimHollowPG24|16",
+      "Slayer's Aid|Monster Hunter|GrimHollowPG24|17",
+      {
+        "classFeature": "Subclass Feature|Monster Hunter|GrimHollowPG24|18",
+        "gainSubclassFeature": true
+      },
+      "Epic Boon|Monster Hunter|GrimHollowPG24|19",
+      "Grave Strike|Monster Hunter|GrimHollowPG24|20"
+    ],
+    "subclassTitle": "Subclass Feature",
+    "hasFluff": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Pugilist",
+    "source": "Pugilist2024",
+    "primaryAbility": [
+      {
+        "str": true
+      }
+    ],
+    "hd": {
+      "number": 1,
+      "faces": 10
+    },
+    "proficiency": [
+      "str",
+      "con"
+    ],
+    "featProgression": [
+      {
+        "name": "Epic Boon",
+        "category": [
+          "EB"
+        ],
+        "progression": {
+          "19": 1
+        }
+      }
+    ],
+    "startingProficiencies": {
+      "skills": [
+        {
+          "choose": {
+            "from": [
+              "acrobatics",
+              "athletics",
+              "deception",
+              "intimidation",
+              "perception",
+              "sleight of hand",
+              "stealth"
+            ],
+            "count": 2
+          }
+        }
+      ],
+      "weapons": [
+        "simple",
+        "improvised"
+      ],
+      "tools": [
+        "Choose one type of {@item Gaming Set|XPHB}"
+      ],
+      "toolProficiencies": [
+        {
+          "anyGamingSet": 1
+        }
+      ],
+      "armor": [
+        "light"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true
+        }
+      ]
+    },
+    "startingEquipment": {
+      "additionalFromBackground": true,
+      "defaultData": [
+        {
+          "A": [
+            {
+              "item": "club|xphb"
+            },
+            {
+              "item": "handaxe|xphb"
+            },
+            {
+              "equipmentType": "setGaming"
+            },
+            {
+              "item": "dungeoneer's pack|xphb"
+            },
+            {
+              "value": 3100
+            }
+          ],
+          "B": [
+            {
+              "value": 5000
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "{@i Choose A or B:} (A) {@item Club|XPHB}, {@item Handaxe|XPHB}, {@item Gaming Set|XPHB} (chosen for the tool proficiency above), {@item Dungeoneer's Pack|XPHB}, and 31 GP; or (B) 50 GP"
+      ]
+    },
+    "multiclassing": {
+      "requirements": {
+        "str": 13,
+        "con": 13
+      },
+      "proficienciesGained": {
+        "weapons": [
+          "improvised"
+        ],
+        "armor": [
+          "light"
+        ],
+        "armorProficiencies": [
+          {
+            "light": true
+          }
+        ]
+      }
+    },
+    "classTableGroups": [
+      {
+        "colLabels": [
+          "Fisticuffs",
+          "Moxie Points"
+        ],
+        "rows": [
+          [
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 1,
+                  "faces": 8
+                }
+              ],
+              "rollable": true
+            },
+            0
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 1,
+                  "faces": 8
+                }
+              ],
+              "rollable": true
+            },
+            2
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 1,
+                  "faces": 8
+                }
+              ],
+              "rollable": true
+            },
+            2
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 1,
+                  "faces": 8
+                }
+              ],
+              "rollable": true
+            },
+            3
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 1,
+                  "faces": 10
+                }
+              ],
+              "rollable": true
+            },
+            3
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 1,
+                  "faces": 10
+                }
+              ],
+              "rollable": true
+            },
+            4
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 1,
+                  "faces": 10
+                }
+              ],
+              "rollable": true
+            },
+            4
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 1,
+                  "faces": 10
+                }
+              ],
+              "rollable": true
+            },
+            5
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 1,
+                  "faces": 10
+                }
+              ],
+              "rollable": true
+            },
+            5
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 1,
+                  "faces": 10
+                }
+              ],
+              "rollable": true
+            },
+            6
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 1,
+                  "faces": 12
+                }
+              ],
+              "rollable": true
+            },
+            6
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 1,
+                  "faces": 12
+                }
+              ],
+              "rollable": true
+            },
+            7
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 1,
+                  "faces": 12
+                }
+              ],
+              "rollable": true
+            },
+            7
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 1,
+                  "faces": 12
+                }
+              ],
+              "rollable": true
+            },
+            8
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 1,
+                  "faces": 12
+                }
+              ],
+              "rollable": true
+            },
+            8
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 1,
+                  "faces": 12
+                }
+              ],
+              "rollable": true
+            },
+            9
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 2,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            9
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 2,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            10
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 2,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            11
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [
+                {
+                  "number": 2,
+                  "faces": 6
+                }
+              ],
+              "rollable": true
+            },
+            12
+          ]
+        ]
+      }
+    ],
+    "classFeatures": [
+      "Fisticuffs|Pugilist|Pugilist2024|1",
+      "Iron Chin|Pugilist|Pugilist2024|1",
+      "Moxie|Pugilist|Pugilist2024|2",
+      "Bloodied But Unbowed|Pugilist|Pugilist2024|2",
+      "Swagger Streak|Pugilist|Pugilist2024|2",
+      "Heavy Hitter|Pugilist|Pugilist2024|3",
+      {
+        "classFeature": "Pugilist Subclass|Pugilist|Pugilist2024|3",
+        "gainSubclassFeature": true
+      },
+      "Ability Score Improvement|Pugilist|Pugilist2024|4",
+      "Dig Deep|Pugilist|Pugilist2024|4",
+      "Extra Attack|Pugilist|Pugilist2024|5",
+      "Haymaker|Pugilist|Pugilist2024|5",
+      "Moxie-Fueled Fists|Pugilist|Pugilist2024|6",
+      {
+        "classFeature": "Subclass Feature|Pugilist|Pugilist2024|6",
+        "gainSubclassFeature": true
+      },
+      "Down But Not Out|Pugilist|Pugilist2024|7",
+      "Ability Score Improvement|Pugilist|Pugilist2024|8",
+      "School of Hard Knocks|Pugilist|Pugilist2024|9",
+      "Herculean|Pugilist|Pugilist2024|10",
+      "Shake It Off|Pugilist|Pugilist2024|10",
+      {
+        "classFeature": "Subclass Feature|Pugilist|Pugilist2024|11",
+        "gainSubclassFeature": true
+      },
+      "Ability Score Improvement|Pugilist|Pugilist2024|12",
+      "Dig Deeper|Pugilist|Pugilist2024|13",
+      "Unbreakable|Pugilist|Pugilist2024|14",
+      "Pugnacious|Pugilist|Pugilist2024|15",
+      "Ability Score Improvement|Pugilist|Pugilist2024|16",
+      {
+        "classFeature": "Subclass Feature|Pugilist|Pugilist2024|17",
+        "gainSubclassFeature": true
+      },
+      "Fighting Spirit|Pugilist|Pugilist2024|18",
+      "Epic Boon|Pugilist|Pugilist2024|19",
+      "Peak Physical Condition|Pugilist|Pugilist2024|20"
+    ],
+    "subclassTitle": "Subclass Feature",
+    "hasFluff": true,
+    "foundryAdvancement": [
+      {
+        "type": "ScaleValue",
+        "title": "Fisticuffs Die",
+        "configuration": {
+          "identifier": "fisticuffs",
+          "type": "dice",
+          "scale": {
+            "1": {
+              "n": 1,
+              "die": 8
+            },
+            "5": {
+              "n": 1,
+              "die": 10
+            },
+            "11": {
+              "n": 1,
+              "die": 12
+            },
+            "17": {
+              "n": 2,
+              "die": 6
+            }
+          }
+        }
+      },
+      {
+        "type": "ScaleValue",
+        "title": "Moxie Points",
+        "configuration": {
+          "identifier": "moxie",
+          "type": "number",
+          "scale": {
+            "2": {
+              "value": 2
+            },
+            "4": {
+              "value": 3
+            },
+            "6": {
+              "value": 4
+            },
+            "8": {
+              "value": 5
+            },
+            "10": {
+              "value": 6
+            },
+            "12": {
+              "value": 7
+            },
+            "14": {
+              "value": 8
+            },
+            "16": {
+              "value": 9
+            },
+            "18": {
+              "value": 10
+            },
+            "19": {
+              "value": 11
+            },
+            "20": {
+              "value": 12
+            }
+          }
+        }
+      }
+    ],
+    "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/Pugilist2024/Icons/Pugilist.webp"
+  },
+  {
+    "name": "Scholar",
+    "source": "TLotRR",
+    "page": 54,
+    "edition": "classic",
+    "hd": {
+      "number": 1,
+      "faces": 8
+    },
+    "proficiency": [
+      "int",
+      "wis"
+    ],
+    "featProgression": [
+      {
+        "name": "Virtue",
+        "category": [
+          "VtCom",
+          "VtBar",
+          "VtDwa",
+          "VtElf",
+          "VtHob",
+          "VtMBr",
+          "VtNRg"
+        ],
+        "progression": {
+          "4": 1,
+          "6": 2,
+          "8": 3
+        }
+      },
+      {
+        "name": "Crafts",
+        "category": [
+          "Craft"
+        ],
+        "progression": {
+          "1": 1,
+          "3": 2,
+          "5": 3,
+          "7": 4,
+          "9": 5
+        }
+      }
+    ],
+    "startingProficiencies": {
+      "skills": [
+        {
+          "choose": {
+            "from": [
+              "animal handling",
+              "insight",
+              "investigation",
+              "medicine",
+              "nature",
+              "Old Lore|TLotRR",
+              "performance",
+              "Riddle|TLotRR",
+              "Travel|TLotRR"
+            ],
+            "count": 3
+          }
+        }
+      ],
+      "weapons": [
+        "simple"
+      ],
+      "weaponProficiencies": [
+        {
+          "simple": true
+        }
+      ],
+      "tools": [
+        "Two tools of your choice among {@item calligrapher's supplies|PHB}, {@item cartographer's tools|PHB}, {@item herbalism kit|PHB}, a {@item musical instrument|SCAG}, {@item navigator's tools|PHB}, or {@item pipe|TLotRR|pipes}."
+      ],
+      "toolProficiencies": [
+        {
+          "choose": {
+            "from": [
+              "calligrapher's supplies",
+              "cartographer's tools",
+              "herbalism kit",
+              "musical instrument",
+              "navigator's tools",
+              "pipe|TLotRR"
+            ],
+            "count": 2
+          }
+        }
+      ],
+      "armor": [
+        "light"
+      ]
+    },
+    "startingEquipment": {
+      "additionalFromBackground": true,
+      "defaultData": [
+        {
+          "_": [
+            "healer's kit|phb",
+            {
+              "equipmentType": "weaponSimpleMelee"
+            },
+            {
+              "equipmentType": "toolArtisan",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "a": [
+            "leather shirt|TLotRR"
+          ],
+          "b": [
+            {
+              "item": "Shortbow|PHB",
+              "displayName": "bow"
+            },
+            "Quiver|phb",
+            "arrows (20)|phb"
+          ]
+        }
+      ],
+      "entries": [
+        "You start with the following equipment, in addition to the {@table Starting Gear|TLotRR|equipment granted by your standard of living}:",
+        {
+          "type": "list",
+          "items": [
+            "A {@item healer's kit|PHB}, any simple melee weapon, and any two tools",
+            "(a) {@item Leather shirt|TLotRR} or (b) a {@item Shortbow|PHB|bow} and a {@item quiver|PHB} of 20 {@item Arrows (20)|PHB|arrows}"
+          ]
+        }
+      ]
+    },
+    "multiclassing": {
+      "requirements": {
+        "int": 13
+      },
+      "proficienciesGained": {
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "animal handling",
+                "insight",
+                "investigation",
+                "medicine",
+                "nature",
+                "Old Lore|TLotRR",
+                "performance",
+                "Riddle|TLotRR",
+                "Travel|TLotRR"
+              ],
+              "count": 1
+            }
+          }
+        ],
+        "weapons": [
+          "simple"
+        ],
+        "weaponProficiencies": [
+          {
+            "simple": true
+          }
+        ],
+        "tools": [
+          "One of the tools from the class' tools list"
+        ],
+        "toolProficiencies": [
+          {
+            "choose": {
+              "from": [
+                "calligrapher's supplies",
+                "cartographer's tools",
+                "herbalism kit",
+                "musical instrument",
+                "navigator's tools",
+                "pipe|TLotRR"
+              ],
+              "count": 1
+            }
+          }
+        ],
+        "armor": [
+          "light"
+        ]
+      }
+    },
+    "classTableGroups": [
+      {
+        "colLabels": [
+          "Craft Slots"
+        ],
+        "rows": [
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            5
+          ]
+        ]
+      }
+    ],
+    "classFeatures": [
+      "Crafts|Scholar|TLotRR|1|TLotRR",
+      {
+        "classFeature": "Rhymes of Lore|Scholar|TLotRR|1|TLotRR",
+        "tableDisplayName": "Rhymes of Lore (d6)"
+      },
+      "Unarmoured Defence|Scholar|TLotRR|1|TLotRR",
+      "Cunning Mind|Scholar|TLotRR|2|TLotRR",
+      {
+        "classFeature": "Hands of a Healer|Scholar|TLotRR|2|TLotRR",
+        "tableDisplayName": "Hands of a Healer (d6)"
+      },
+      "Expertise|Scholar|TLotRR|3|TLotRR",
+      {
+        "classFeature": "Scholar Tradition|Scholar|TLotRR|3|TLotRR",
+        "gainSubclassFeature": true
+      },
+      "Virtue|Scholar|TLotRR|4|TLotRR",
+      "Rhymes of Lore (d8)|Scholar|TLotRR|5|TLotRR",
+      "Unending Rhymes|Scholar|TLotRR|5|TLotRR",
+      "Virtue|Scholar|TLotRR|6|TLotRR",
+      {
+        "classFeature": "Scholar Tradition feature|Scholar|TLotRR|7|TLotRR",
+        "gainSubclassFeature": true
+      },
+      "Virtue|Scholar|TLotRR|8|TLotRR",
+      "Hands of a Healer (d8)|Scholar|TLotRR|9|TLotRR",
+      "Expertise|Scholar|TLotRR|10|TLotRR",
+      "Rhymes of Lore (d10)|Scholar|TLotRR|10|TLotRR",
+      "Unfailing Rhymes|Scholar|TLotRR|10|TLotRR"
+    ],
+    "subclassTitle": "Tradition",
+    "hasFluff": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Tamer",
+    "source": "HelianasGuidetoMonsterHunting",
+    "hd": {
+      "number": 1,
+      "faces": 8
+    },
+    "proficiency": [
+      "con",
+      "cha"
+    ],
+    "spellcastingAbility": "int",
+    "casterProgression": "1/2",
+    "cantripProgression": [
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "spellsKnownProgression": [
+      0,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5,
+      6,
+      6,
+      7,
+      7,
+      8,
+      8,
+      9,
+      9,
+      10,
+      10,
+      11,
+      11
+    ],
+    "spellsKnownProgressionFixedAllowLowerLevel": true,
+    "classSpells": [
+      "Guidance",
+      "Light",
+      "Resistance",
+      "Spare the Dying",
+      "Vicious Mockery",
+      "Cure Wounds",
+      "Detect Magic",
+      "Expeditious Retreat",
+      "Faerie Fire",
+      "False Life",
+      "Feather Fall",
+      "Grease",
+      "Healing Word",
+      "Heroism",
+      "Identify",
+      "Jump",
+      "Longstrider",
+      "Protection from Evil and Good",
+      "Purify Food and Drink",
+      "Sanctuary",
+      "Shield of Faith",
+      "Silent Image",
+      "Sleep",
+      "Speak with Animals",
+      "Aid",
+      "Alter Self",
+      "Animal Messenger",
+      "Barkskin",
+      "Blur",
+      "Calm Emotions",
+      "Darkvision",
+      "Detect Thoughts",
+      "Enhance Ability",
+      "Enlarge/Reduce",
+      "Invisibility",
+      "Lesser Restoration",
+      "Levitate",
+      "Locate Animals or Plants",
+      "Locate Object",
+      "Mirror Image",
+      "Pass without Trace",
+      "Protection from Poison",
+      "See Invisibility",
+      "Silence",
+      "Spider Climb",
+      "Warding Bond",
+      "Blink",
+      "Create Food and Water",
+      "Daylight",
+      "Dispel Magic",
+      "Fear",
+      "Fly",
+      "Haste",
+      "Nondetection",
+      "Protection from Energy",
+      "Remove Curse",
+      "Tongues",
+      "Water Breathing",
+      "Water Walk",
+      "Control Water",
+      "Death Ward",
+      "Dimension Door",
+      "Dominate Beast",
+      "Fire Shield",
+      "Freedom of Movement",
+      "Greater Invisibility",
+      "Locate Creature",
+      "Otiluke's Resilient Sphere",
+      "Stoneskin",
+      "Antilife Shell",
+      "Awaken",
+      "Dispel Evil and Good",
+      "Dominate Person",
+      "Geas",
+      "Greater Restoration",
+      "Incorporeality",
+      "Legend Lore",
+      "Mislead",
+      "Rary's Telepathic Bond",
+      "Scrying"
+    ],
+    "startingProficiencies": {
+      "armor": [
+        "light",
+        "medium",
+        "shield"
+      ],
+      "weapons": [
+        "simple",
+        "{@item net|phb}"
+      ],
+      "tools": [
+        "One type of artisan's tools or one musical instrument of your choice"
+      ],
+      "skills": [
+        {
+          "choose": {
+            "from": [
+              "animal handling",
+              "insight",
+              "medicine",
+              "nature",
+              "perception",
+              "persuasion"
+            ],
+            "count": 2
+          }
+        }
+      ]
+    },
+    "startingEquipment": {
+      "additionalFromBackground": true,
+      "default": [
+        "(a) {@item scale mail|PHB|scale armor} or (b) {@item leather armor|phb}",
+        "A {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}, a {@item net|phb} and a {@item shield|phb}",
+        "A {@item light crossbow|phb} and {@item crossbow Bolts (20)|phb|20 bolts}",
+        "(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}"
+      ],
+      "goldAlternative": "{@dice 5d4*10}"
+    },
+    "multiclassing": {
+      "requirements": {
+        "or": [
+          {
+            "cha": 13,
+            "wis": 13,
+            "int": 13
+          }
+        ]
+      },
+      "proficienciesGained": {
+        "armor": [
+          "light",
+          "shield"
+        ],
+        "weapons": [
+          "simple",
+          "{@item net|phb}"
+        ]
+      }
+    },
+    "classTableGroups": [
+      {
+        "colLabels": [
+          "{@filter Cantrips Known|spells|level=0|class=tamer (hgtmh)}"
+        ],
+        "rows": [
+          [
+            0
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            4
+          ],
+          [
+            4
+          ],
+          [
+            4
+          ],
+          [
+            4
+          ],
+          [
+            4
+          ],
+          [
+            4
+          ]
+        ]
+      },
+      {
+        "colLabels": [
+          "{@filter Spell Known|spells|class=tamer (hgtmh)}"
+        ],
+        "rows": [
+          [
+            0
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ],
+          [
+            5
+          ],
+          [
+            6
+          ],
+          [
+            6
+          ],
+          [
+            7
+          ],
+          [
+            7
+          ],
+          [
+            8
+          ],
+          [
+            8
+          ],
+          [
+            9
+          ],
+          [
+            9
+          ],
+          [
+            10
+          ],
+          [
+            10
+          ],
+          [
+            11
+          ],
+          [
+            11
+          ]
+        ]
+      },
+      {
+        "title": "–Spell Slots per Spell Level–",
+        "colLabels": [
+          "{@filter 1st|spells|level=1|class=tamer (hgtmh)}",
+          "{@filter 2nd|spells|level=2|class=tamer (hgtmh)}",
+          "{@filter 3rd|spells|level=3|class=tamer (hgtmh)}",
+          "{@filter 4th|spells|level=4|class=tamer (hgtmh)}",
+          "{@filter 5th|spells|level=5|class=tamer (hgtmh)}"
+        ],
+        "rows": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            3,
+            2,
+            0,
+            0
+          ],
+          [
+            4,
+            3,
+            2,
+            0,
+            0
+          ],
+          [
+            4,
+            3,
+            3,
+            0,
+            0
+          ],
+          [
+            4,
+            3,
+            3,
+            0,
+            0
+          ],
+          [
+            4,
+            3,
+            3,
+            1,
+            0
+          ],
+          [
+            4,
+            3,
+            3,
+            1,
+            0
+          ],
+          [
+            4,
+            3,
+            3,
+            2,
+            0
+          ],
+          [
+            4,
+            3,
+            3,
+            2,
+            0
+          ],
+          [
+            4,
+            3,
+            3,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            3,
+            3,
+            1
+          ],
+          [
+            4,
+            3,
+            3,
+            3,
+            2
+          ],
+          [
+            4,
+            3,
+            3,
+            3,
+            2
+          ]
+        ]
+      }
+    ],
+    "classFeatures": [
+      "Pocket Familiar|Tamer|HelianasGuidetoMonsterHunting|1",
+      "Monster Trainer|Tamer|HelianasGuidetoMonsterHunting|1",
+      "Soul Bond|Tamer|HelianasGuidetoMonsterHunting|1",
+      "Tamer Companion Summary|Tamer|HelianasGuidetoMonsterHunting|1",
+      "Tame Creature|Tamer|HelianasGuidetoMonsterHunting|1",
+      "Spellcasting|Tamer|HelianasGuidetoMonsterHunting|2",
+      "Bolster|Tamer|HelianasGuidetoMonsterHunting|2",
+      "Psychic Bond|Tamer|HelianasGuidetoMonsterHunting|2",
+      "Pocket Family I|Tamer|HelianasGuidetoMonsterHunting|3",
+      "Training Paradigm|Tamer|HelianasGuidetoMonsterHunting|3",
+      "Ability Score Improvement|Tamer|HelianasGuidetoMonsterHunting|4",
+      "Multiattack|Tamer|HelianasGuidetoMonsterHunting|5",
+      "Malleable Presence|Tamer|HelianasGuidetoMonsterHunting|5",
+      "Alpha Strike|Tamer|HelianasGuidetoMonsterHunting|6",
+      "Wilful Blows|Tamer|HelianasGuidetoMonsterHunting|6",
+      "Pocket Family II|Tamer|HelianasGuidetoMonsterHunting|7",
+      {
+        "classFeature": "Training Paradigm Feature|Tamer|HelianasGuidetoMonsterHunting|7",
+        "gainSubclassFeature": true
+      },
+      "Ability Score Improvement|Tamer|HelianasGuidetoMonsterHunting|8",
+      {
+        "classFeature": "Training Paradigm Feature|Tamer|HelianasGuidetoMonsterHunting|10",
+        "gainSubclassFeature": true
+      },
+      "Pocket Family III|Tamer|HelianasGuidetoMonsterHunting|11",
+      "Ability Score Improvement|Tamer|HelianasGuidetoMonsterHunting|12",
+      "Switcheroo|Tamer|HelianasGuidetoMonsterHunting|13",
+      {
+        "classFeature": "Training Paradigm Feature|Tamer|HelianasGuidetoMonsterHunting|14",
+        "gainSubclassFeature": true
+      },
+      "Pocket Family IV|Tamer|HelianasGuidetoMonsterHunting|15",
+      "Ability Score Improvement|Tamer|HelianasGuidetoMonsterHunting|16",
+      "Magnificent Presence|Tamer|HelianasGuidetoMonsterHunting|17",
+      {
+        "classFeature": "Training Paradigm Feature|Tamer|HelianasGuidetoMonsterHunting|18",
+        "gainSubclassFeature": true
+      },
+      "Ability Score Improvement|Tamer|HelianasGuidetoMonsterHunting|19",
+      "Pocket Family V|Tamer|HelianasGuidetoMonsterHunting|19",
+      "Summon the Horde |Tamer|HelianasGuidetoMonsterHunting|20"
+    ],
+    "subclassTitle": "Training Paradgim",
+    "hasFluff": true
+  },
+  {
+    "name": "Treasure Hunter",
+    "source": "TLotRR",
+    "page": 57,
+    "edition": "classic",
+    "hd": {
+      "number": 1,
+      "faces": 8
+    },
+    "proficiency": [
+      "dex",
+      "int"
+    ],
+    "featProgression": [
+      {
+        "name": "Virtue",
+        "category": [
+          "VtCom",
+          "VtBar",
+          "VtDwa",
+          "VtElf",
+          "VtHob",
+          "VtMBr",
+          "VtNRg"
+        ],
+        "progression": {
+          "4": 1,
+          "8": 2
+        }
+      },
+      {
+        "name": "Craft or Virtue",
+        "category": [
+          "Craft",
+          "VtCom",
+          "VtBar",
+          "VtDwa",
+          "VtElf",
+          "VtHob",
+          "VtMBr",
+          "VtNRg"
+        ],
+        "progression": {
+          "6": 1
+        }
+      }
+    ],
+    "startingProficiencies": {
+      "skills": [
+        {
+          "choose": {
+            "from": [
+              "acrobatics",
+              "athletics",
+              "deception",
+              "insight",
+              "investigation",
+              "Old Lore|TLotRR",
+              "perception",
+              "persuasion",
+              "Riddle|TLotRR",
+              "sleight of hand",
+              "stealth",
+              "Travel|TLotRR"
+            ],
+            "count": 4
+          }
+        }
+      ],
+      "weapons": [
+        "simple",
+        "short sword",
+        "swords"
+      ],
+      "weaponProficiencies": [
+        {
+          "simple": true,
+          "shortsword|phb": true,
+          "sword|TLotRR": true
+        }
+      ],
+      "tools": [
+        "A tool of your choice among {@item cartographer's tools|PHB}, a gaming set, or {@item thieves' tools|PHB}"
+      ],
+      "toolProficiencies": [
+        {
+          "choose": {
+            "from": [
+              "cartographer's tools",
+              "gaming set",
+              "thieves' tools"
+            ],
+            "count": 2
+          }
+        }
+      ],
+      "armor": [
+        "light"
+      ]
+    },
+    "startingEquipment": {
+      "additionalFromBackground": true,
+      "defaultData": [
+        {
+          "_": [
+            "leather shirt|TLotRR",
+            {
+              "equipmentType": "weaponSimpleMelee"
+            },
+            {
+              "equipmentType": "toolArtisan",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "a": [
+            "shortsword|PHB"
+          ],
+          "b": [
+            "sword|TLotRR"
+          ]
+        },
+        {
+          "a": [
+            {
+              "item": "Shortbow|PHB",
+              "displayName": "bow"
+            },
+            "Quiver|phb",
+            "arrows (20)|phb"
+          ],
+          "b": [
+            {
+              "equipmentType": "weaponSimpleMelee"
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You start with the following equipment, in addition to the {@table Starting Gear|TLotRR|equipment granted by your standard of living}:",
+        {
+          "type": "list",
+          "items": [
+            "{@item Leather shirt|TLotRR}, any simple melee weapon, and any one tool",
+            "(a) a {@item Shortsword|PHB|short sword} or (b) a {@item sword|TLotRR}",
+            "(a) a {@item Shortbow|PHB|bow} and a {@item quiver|PHB} of 20 {@item Arrows (20)|PHB|arrows} or (b) any simple melee weapon"
+          ]
+        }
+      ]
+    },
+    "multiclassing": {
+      "requirements": {
+        "dex": 13
+      },
+      "proficienciesGained": {
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "acrobatics",
+                "athletics",
+                "deception",
+                "insight",
+                "investigation",
+                "Old Lore|TLotRR",
+                "perception",
+                "persuasion",
+                "Riddle|TLotRR",
+                "sleight of hand",
+                "stealth",
+                "Travel|TLotRR"
+              ],
+              "count": 1
+            }
+          }
+        ],
+        "weapons": [
+          "simple"
+        ],
+        "weaponProficiencies": [
+          {
+            "simple": true
+          }
+        ],
+        "tools": [
+          "One of the tools from the class' tools list"
+        ],
+        "toolProficiencies": [
+          {
+            "choose": {
+              "from": [
+                "cartographer's tools",
+                "gaming set",
+                "thieves' tools"
+              ],
+              "count": 1
+            }
+          }
+        ],
+        "armor": [
+          "light"
+        ]
+      }
+    },
+    "classTableGroups": [
+      {
+        "colLabels": [
+          "Sneak Attack"
+        ],
+        "rows": [
+          [
+            "{@dice 1d6}"
+          ],
+          [
+            "{@dice 1d6}"
+          ],
+          [
+            "{@dice 2d6}"
+          ],
+          [
+            "{@dice 2d6}"
+          ],
+          [
+            "{@dice 3d6}"
+          ],
+          [
+            "{@dice 3d6}"
+          ],
+          [
+            "{@dice 4d6}"
+          ],
+          [
+            "{@dice 4d6}"
+          ],
+          [
+            "{@dice 5d6}"
+          ],
+          [
+            "{@dice 5d6}"
+          ]
+        ]
+      }
+    ],
+    "classFeatures": [
+      "Expertise|Treasure Hunter|TLotRR|1|TLotRR",
+      "Sneak Attack|Treasure Hunter|TLotRR|1|TLotRR",
+      "Cunning Action|Treasure Hunter|TLotRR|2|TLotRR",
+      {
+        "classFeature": "Treasure Hunter Speciality|Treasure Hunter|TLotRR|3|TLotRR",
+        "gainSubclassFeature": true
+      },
+      "Virtue|Treasure Hunter|TLotRR|4|TLotRR",
+      "Uncanny Dodge|Treasure Hunter|TLotRR|5|TLotRR",
+      "Craft or Virtue|Treasure Hunter|TLotRR|6|TLotRR",
+      {
+        "classFeature": "Treasure Hunter Speciality feature|Treasure Hunter|TLotRR|7|TLotRR",
+        "gainSubclassFeature": true
+      },
+      "Virtue|Treasure Hunter|TLotRR|8|TLotRR",
+      "Expertise|Treasure Hunter|TLotRR|9|TLotRR",
+      "Reliable Talent|Treasure Hunter|TLotRR|10|TLotRR"
+    ],
+    "subclassTitle": "Speciality",
+    "hasFluff": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Warden",
+    "source": "TLotRR",
+    "page": 60,
+    "edition": "classic",
+    "hd": {
+      "number": 1,
+      "faces": 10
+    },
+    "proficiency": [
+      "str",
+      "wis"
+    ],
+    "featProgression": [
+      {
+        "name": "Virtue",
+        "category": [
+          "VtCom",
+          "VtBar",
+          "VtDwa",
+          "VtElf",
+          "VtHob",
+          "VtMBr",
+          "VtNRg"
+        ],
+        "progression": {
+          "4": 1,
+          "8": 2
+        }
+      },
+      {
+        "name": "Virtue or Craft",
+        "category": [
+          "VtCom",
+          "VtBar",
+          "VtDwa",
+          "VtElf",
+          "VtHob",
+          "VtMBr",
+          "VtNRg",
+          "Craft"
+        ],
+        "progression": {
+          "2": 1,
+          "6": 2,
+          "10": 3
+        }
+      }
+    ],
+    "startingProficiencies": {
+      "skills": [
+        {
+          "choose": {
+            "from": [
+              "animal handling",
+              "athletics",
+              "Explore|TLotRR",
+              "Hunting|TLotRR",
+              "insight",
+              "investigation",
+              "nature",
+              "perception",
+              "Travel|TLotRR"
+            ],
+            "count": 3
+          }
+        }
+      ],
+      "weapons": [
+        "simple",
+        "martial"
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "shield"
+      ]
+    },
+    "startingEquipment": {
+      "additionalFromBackground": true,
+      "defaultData": [
+        {
+          "a": [
+            "Hide Armor|PHB"
+          ],
+          "b": [
+            "leather shirt|TLotRR"
+          ]
+        },
+        {
+          "a": [
+            {
+              "equipmentType": "weaponMartialMelee"
+            },
+            "shield|phb"
+          ],
+          "b": [
+            {
+              "equipmentType": "weaponMartialMelee"
+            },
+            {
+              "equipmentType": "weaponSimpleMelee"
+            }
+          ]
+        },
+        {
+          "a": [
+            {
+              "item": "longbow|PHB",
+              "displayName": "great bow"
+            },
+            "Quiver|phb",
+            "arrows (20)|phb"
+          ],
+          "b": [
+            {
+              "equipmentType": "weaponMartialMelee",
+              "quantity": 2
+            }
+          ]
+        }
+      ],
+      "entries": [
+        "You start with the following equipment, in addition to the {@table Starting Gear|TLotRR|equipment granted by your standard of living}:",
+        {
+          "type": "list",
+          "items": [
+            "(a) {@item Hide Armor|PHB|hide armour} or (b) {@item leather shirt|TLotRR}",
+            "(a) a martial weapon and a {@item shield|PHB} or (b) a martial melee weapon and a simple melee weapon",
+            "(a) a {@item Longbow|PHB|great bow} and a {@item quiver|PHB} of 20 {@item Arrows (20)|PHB|arrows} or (b) two simple melee weapons"
+          ]
+        }
+      ]
+    },
+    "multiclassing": {
+      "requirements": {
+        "wis": 13
+      },
+      "proficienciesGained": {
+        "weapons": [
+          "simple",
+          "martial"
+        ],
+        "armor": [
+          "light",
+          "medium",
+          "shield"
+        ]
+      }
+    },
+    "classFeatures": [
+      "Shadow-Lore|Warden|TLotRR|1|TLotRR",
+      "Warded Lands|Warden|TLotRR|1|TLotRR",
+      "Craft or Virtue|Warden|TLotRR|2|TLotRR",
+      "Fighting Style|Warden|TLotRR|2|TLotRR",
+      {
+        "classFeature": "Warden Oath|Warden|TLotRR|3|TLotRR",
+        "gainSubclassFeature": true
+      },
+      "Rumour of the Earth|Warden|TLotRR|3|TLotRR",
+      "Virtue|Warden|TLotRR|4|TLotRR",
+      "Warded Lands improvement|Warden|TLotRR|4|TLotRR",
+      "Extra Attack|Warden|TLotRR|5|TLotRR",
+      "Craft or Virtue|Warden|TLotRR|6|TLotRR",
+      "Shadow-Lore improvement|Warden|TLotRR|6|TLotRR",
+      "Warded Lands improvement|Warden|TLotRR|6|TLotRR",
+      {
+        "classFeature": "Warden Oath feature|Warden|TLotRR|7|TLotRR",
+        "gainSubclassFeature": true
+      },
+      "Virtue|Warden|TLotRR|8|TLotRR",
+      "Warded Lands improvement|Warden|TLotRR|8|TLotRR",
+      "Long Stride|Warden|TLotRR|9|TLotRR",
+      "Craft or Virtue|Warden|TLotRR|10|TLotRR",
+      "Shadow-Lore improvement|Warden|TLotRR|10|TLotRR",
+      "Warded Lands improvement|Warden|TLotRR|10|TLotRR"
+    ],
+    "subclassTitle": "Oath",
+    "hasFluff": true,
+    "hasFluffImages": true
+  }
+]

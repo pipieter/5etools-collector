@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Extreme Cold",
+    "source": "NorthlandsWorldbook",
+    "trapHazType": "ENV",
+    "entries": [
+      "When the temperature is 0 degrees Fahrenheit or lower, a creature exposed to the extreme cold must succeed on a {@dc 10} Constitution saving throw at the end of each hour or gain 1 {@condition Exhaustion|XPHB} level and may suffer from {@hazard Hypothermia and Frostbite|NorthlandsWorldbook|Hypothermia}. Creatures that have {@variantrule Resistance|XPHB} or {@variantrule Immunity|XPHB} to Cold damage automatically succeed on the save."
+    ]
+  },
+  {
+    "name": "Foraging for Food",
+    "source": "NorthlandsWorldbook",
+    "trapHazType": "WLD",
+    "entries": [
+      "In the summer/spring, creatures need to spend {@dice 1d4} hours and succeed on a {@dc 15} Wisdom ({@skill Survival|XPHB}) check to find food. The amount of food and water gained is a number of pounds equal to the creature's Wisdom modifier. In the fall/winter, the DC increases to 18 in most areas, and {@dc 20} in the mountains, tundra, and glaciers. These DCs are suggested averages to ease gameplay. Creatures in a cold environment use up more energy than normal and consume more food and water. As a general rule, creatures must consume twice as much as normal in winter months in the Northlands. If they venture into arctic conditions (such as high mountains or glaciers), they must consume three times as much."
+    ]
+  },
+  {
+    "name": "Frigid Water",
+    "source": "NorthlandsWorldbook",
+    "trapHazType": "ENV",
+    "entries": [
+      "A creature can be immersed in frigid water for a number of minutes equal to its Constitution score before suffering any ill effects. Each additional minute spent in frigid water requires the creature to succeed on a {@dc 10} Constitution saving throw or gain 1 {@condition Exhaustion|XPHB} level. Creatures with {@variantrule Resistance|XPHB} or {@variantrule Immunity|XPHB} to Cold damage automatically succeed on the save, as do creatures that are naturally adapted to living in ice-cold water."
+    ]
+  },
+  {
+    "name": "Heavy Precipitation",
+    "source": "NorthlandsWorldbook",
+    "trapHazType": "WTH",
+    "entries": [
+      "Everything within an area of heavy rain or heavy snowfall is {@variantrule Lightly Obscured|XPHB}, and creatures in the area have {@variantrule Disadvantage|XPHB} on all Wisdom ({@skill Perception|XPHB}) checks. Heavy rain also extinguishes open flames."
+    ]
+  },
+  {
+    "name": "High Altitude (10,000 ft–25,000 ft)",
+    "source": "NorthlandsWorldbook",
+    "trapHazType": "ENV",
+    "entries": [
+      "Traveling at altitudes of 10,000 feet to 25,000 feet above sea level is taxing for most creatures because of the reduced amount of oxygen in the air. Each hour such a creature spends traveling at high altitude counts as 2 hours for the purpose of determining how long that creature can travel. Creatures can acclimate to a high altitude by spending 30 days or more at this elevation. Creatures can't become acclimated to elevations above 20,000 feet unless they are native to such environments."
+    ]
+  },
+  {
+    "name": "High Altitude (25,000 ft+)",
+    "source": "NorthlandsWorldbook",
+    "trapHazType": "ENV",
+    "entries": [
+      "Many of Jotunheim's peaks reach so far into the sky that there's simply not enough air to sustain normal life. Northlanders call these places daudavangr, the \"Death-Fields.\" Above 25,000 ft., any creature not naturally acclimated to the environment or that doesn't have {@variantrule Immunity|XPHB} to Cold damage must succeed on a Constitution saving throw each hour ({@dc 15} +1 per previous check) or take {@damage 2d6} Cold damage and gain one level of {@condition Exhaustion|XPHB}.",
+      "Creatures with levels of {@condition Exhaustion|XPHB} in a daudavangr suffer blinding headaches, disorientation, and confusion. They have {@variantrule Disadvantage|XPHB} on all {@variantrule D20 Test|XPHB|d20 rolls} based on Intelligence, Wisdom, or Charisma.",
+      {
+        "type": "entries",
+        "name": "Magic in the Death Fields",
+        "entries": [
+          "Fire burns very poorly in a daudavangr. Spells and effects that deal Fire damage only deal half as much as normal."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hypothermia and Frostbite",
+    "source": "NorthlandsWorldbook",
+    "trapHazType": "ENV",
+    "entries": [
+      "Creatures that have a level of {@condition Exhaustion|XPHB} from the cold must make a Constitution saving throw (DC is 8 plus the level of {@condition Exhaustion|XPHB}) every hour they are exposed to cold conditions. With each failed saving throw, the creature gains one of the following levels of hypothermia. Finishing a {@variantrule Long Rest|XPHB} in a warm place removes one level of hypothermia. The conditions listed below are in addition to the normal {@condition Exhaustion|XPHB} penalties.",
+      {
+        "type": "list",
+        "style": "list-hang-notitle",
+        "items": [
+          {
+            "type": "item",
+            "name": "Frostnip",
+            "entry": "Skin aches; numb yellow and white patches form. {@variantrule Disadvantage|XPHB} on Strength and Dexterity checks."
+          },
+          {
+            "type": "item",
+            "name": "Shiverstruck",
+            "entry": "Creature trembles uncontrollably. Spellcasters casting spells with verbal or somatic components must succeed on Constitution saving throws (DC 10 + the spell's level) to cast spells. On a failure, the spell isn't cast, and the slot and action are wasted. Tasks involving Strength and Dexterity take twice as long."
+          },
+          {
+            "type": "item",
+            "name": "Frostbite",
+            "entry": "Skin is numb and develops black blisters. Creatures take {@damage 1d10} Cold damage each hour they aren't in a warm location and must succeed on a {@dc 10} Dexterity check to accomplish physical tasks, like drawing a weapon, loading a bow, retrieving items, picking locks, or disarming traps."
+          },
+          {
+            "type": "item",
+            "name": "Ice-Addled",
+            "entry": "Creatures are confused and their speech is slurred. Creatures take {@damage 2d10} Cold damage each hour they aren't in a warm location, they have {@variantrule Disadvantage|XPHB} on all {@variantrule D20 Test|XPHB|d20 rolls}, their {@variantrule Speed|XPHB} is halved, they can't take {@variantrule Reaction|XPHB|Reactions}, and they can't cast spells."
+          },
+          {
+            "type": "item",
+            "name": "Kissed by the Ice Maiden",
+            "entry": "A creature with severe hypothermia believes it is overheating the moment it suffers this level of hypothermia. It must succeed on a {@dc 12} Wisdom saving throw or begin to remove its warm clothing. It refuses to wear warm clothing or enter warm locations."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Slippery Ice",
+    "source": "NorthlandsWorldbook",
+    "trapHazType": "ENV",
+    "entries": [
+      "Slippery ice is {@variantrule Difficult Terrain|XPHB}. A creature that moves onto slippery ice for the first time on a turn or starts its turn there must succeed on a {@dc 10} Dexterity saving throw or have the {@condition Prone|XPHB} condition."
+    ]
+  },
+  {
+    "name": "Snow Blindness",
+    "source": "NorthlandsWorldbook",
+    "trapHazType": "ENV",
+    "entries": [
+      "Snow blindness is a burn on the cornea of the eye by light reflected off snow and ice. The condition typically occurs at high altitudes on white, reflective snow fields. After 1 hour of exposure to a bright, snowy area, a creature must succeed on a Constitution saving throw (DC is 8 + number of hours spent in the area). On a failure, the creature has {@variantrule Disadvantage|XPHB} on attack rolls and ability checks that rely on sight for 24 hours. If the save fails by 5 for more, the creature has the {@condition Blinded|XPHB} condition for the same duration instead. Creatures with {@variantrule Immunity|XPHB} to Cold damage or who are naturally adapted to arctic environments automatically succeed on the saving throw."
+    ]
+  },
+  {
+    "name": "Strong Wind",
+    "source": "NorthlandsWorldbook",
+    "trapHazType": "WTH",
+    "entries": [
+      "Strong wind imposes {@variantrule Disadvantage|XPHB} on ranged attack rolls with weapons. It also extinguishes open flames and disperses fog. A flying creature in a strong wind must land at the end of its turn or fall. A strong wind in a snowy area can create a localized snowstorm that imposes {@variantrule Disadvantage|XPHB} on Wisdom ({@skill Perception}) checks."
+    ]
+  },
+  {
+    "name": "Thin Ice",
+    "source": "NorthlandsWorldbook",
+    "trapHazType": "ENV",
+    "entries": [
+      "Thin ice has a weight tolerance of {@dice 3d10 * 10|3d10 × 10} pounds per 10-foot-square area. Whenever the total weight on an area of thin ice exceeds its tolerance, the ice in that area breaks. All creatures on broken ice fall through. Below the ice might be frigid water (see {@hazard Frigid Water|NorthlandsWorldbook})."
+    ]
+  },
+  {
+    "name": "Travel Pace in the North",
+    "source": "NorthlandsWorldbook",
+    "trapHazType": "WLD",
+    "entries": [
+      "Travel in the Northlands is made more difficult by snow, ice, and mountainous terrain. While traveling in snow or arctic conditions, creatures can only maintain a {@table Travel Pace|XPHB|Fast Pace} if they have appropriate equipment (such as {@item Snowshoes|NorthlandsWorldbook} or {@item Skis|NorthlandsWorldbook})."
+    ]
+  }
+]

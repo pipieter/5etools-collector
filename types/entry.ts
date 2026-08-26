@@ -1,51 +1,61 @@
 export type Entry =
-  string | EntryEntries | EntryItem | EntrySection | EntryInset | EntryTable | EntryList | EntryQuote | EntryImage;
+  | string
+  | EntryEntries
+  | EntryItem
+  | EntrySection
+  | EntryInset
+  | EntryTable
+  | EntryList
+  | EntryQuote
+  | EntryImage
+  | EntryOptions
+  | EntryRefOptionalFeature
+  | EntryStatBlock;
 
-export interface EntryEntries {
-  type: 'entries';
+export interface EntryBase {
+  id?: string;
   name?: string;
   page?: number;
+  source?: string;
+}
+
+export interface EntryEntries extends EntryBase {
+  type: 'entries';
   entries: Entry[];
+  style?: string;
   data?: any;
 }
 
-export interface EntryItem {
+export interface EntryItem extends EntryBase {
   type: 'item' | 'itemSub';
-  name?: string;
   entries?: Entry[];
   entry?: Entry;
+  nameDot?: boolean;
 }
 
-export interface EntrySection {
+export interface EntrySection extends EntryBase {
   type: 'section';
-  id?: string;
-  name?: string;
   entries: Entry[];
 }
 
-export interface EntryInset {
+export interface EntryInset extends EntryBase {
   type: 'inset' | 'insetReadaloud';
-  source?: string;
-  page?: number;
-  name?: string;
   entries: Entry[];
 }
 
-export interface EntryTableGroup {
+export interface EntryTableGroup extends EntryBase {
   type: 'tableGroup';
-  name: string;
   caption?: string;
   tables: EntryTable[];
 }
 
-export interface EntryTable {
+export interface EntryTable extends EntryBase {
   type: 'table';
-  name?: string;
   caption?: string;
   colLabels?: string[];
   colLabelRows?: ColLabelRow[];
   colStyles: string[];
-  rows: (Entry | Cell | number)[][];
+  rows: ((Entry | Cell | number)[] | Row)[];
   footnote?: string;
   footnotes?: string[];
   data?: any; // TODO
@@ -55,30 +65,64 @@ export type ColLabelRow = (string | { entry: string; width: number })[];
 
 export interface Cell {
   type: 'cell';
-  roll: { exact: number } | { min: number; max: number; pad?: boolean };
+  roll?: { exact: number } | { min: number; max: number; pad?: boolean };
   entry?: Entry;
+  width?: number;
 }
 
-export interface EntryList {
+export interface CellHeader {
+  type: 'cellHeader';
+  width: number;
+  entry: string;
+  style: string;
+}
+
+export interface Row {
+  type: 'row';
+  style?: string;
+  row?: Entry[];
+}
+
+export interface EntryList extends EntryBase {
   type: 'list';
   style?: string;
   columns?: number;
   items: Entry[];
 }
 
-export interface EntryQuote {
+export interface EntryQuote extends EntryBase {
   type: 'quote';
   entries: Entry[];
   by?: string;
+  from?: string;
+  skipMarks?: boolean;
 }
 
 export interface EntryImage {
   type: 'image';
-  href: {
-    type: 'internal';
-    path: string;
-  };
-  credit: string;
+  href: { type: 'internal'; path: string } | { type: 'external'; url: string };
+  title?: string;
+  credit?: string;
+  width?: number;
+  height?: number;
+  altText?: string;
+  style?: string;
+}
+
+export interface EntryOptions {
+  type: 'options';
+  entries: Entry[];
+}
+
+export interface EntryRefOptionalFeature {
+  type: 'refOptionalfeature';
+  optionalfeature: string;
+}
+
+export interface EntryStatBlock extends EntryBase {
+  type: 'statblock';
+  tag: string;
+  name: string;
 }
 
 export interface SingleEntry {

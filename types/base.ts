@@ -1,7 +1,18 @@
-export interface Base {
+import { Entry, EntryImage } from './entry';
+
+export interface Foundry {
+  foundryImg?: string;
+  foundryActivities?: any[];
+  foundrySystem?: any;
+  foundryEffects?: any[];
+  foundryType?: string;
+  foundryFlags?: any;
+}
+
+export interface Base extends Foundry {
   name: string;
   source: string;
-  page?: number;
+  page?: number | string;
   alias?: string[];
   reprintedAs?: ReprintedAs[];
   hasFluffImages?: boolean;
@@ -12,6 +23,7 @@ export interface Base {
   otherSources?: Source[];
   additionalSources?: Source[];
   edition?: string;
+  fluff?: { entries?: Entry[]; images?: EntryImage[] };
   _copy?: any; // TODO
   _versions?: any[]; // TODO
 }
@@ -37,27 +49,28 @@ export type Unit =
       note?: string;
       condition?: string;
     }
-  | 'Varies'
-  | 'Free';
+  | string;
 
-export type ReprintedAs = string | { uid: string; tag: string };
+export type ReprintedAs = string | { uid: string; tag?: string; edition?: string };
 
 // util.json#/$defs/prerequisite
 export interface Prerequisite {
   ability?: { str?: number; dex?: number; con?: number; int?: number; wis?: number; cha?: number }[];
   background?: { name: string; displayEntry?: string }[];
   campaign?: string[];
+  culture?: string[];
   exclusiveFeatCategory?: string[];
   feat?: string[];
   featCategory?: string[];
   feature?: string[];
-  level?: number | { level: number; class: { name: string; visible?: boolean } };
+  level?: number | { level: number; class: { name: string; visible?: boolean; source?: string } };
   other?: string;
   otherSummary?: { entry: string; entrySummary: string };
-  proficiency?: { weapon?: string; armor?: string; weaponGroup?: string }[];
+  proficiency?: { weapon?: string; armor?: string; weaponGroup?: string; skill?: string[] }[];
   spellcasting?: boolean;
   spellcasting2020?: boolean;
   spellcastingFeature?: boolean;
+  spellcastingPrepared?: boolean;
   race?: { name: string; subrace?: string; displayEntry?: string }[];
 }
 
@@ -66,7 +79,7 @@ export type Rarity = 'none' | 'unknown' | string;
 export interface SpellComponents {
   v?: boolean;
   s?: boolean;
-  m?: MaterialComponent;
+  m?: boolean | MaterialComponent;
   r?: boolean;
 }
 
@@ -78,129 +91,30 @@ export type MaterialComponent =
       consume?: boolean | 'optional';
     };
 
-export interface ImageRef {
-  type: 'image';
-  href: {
-    type: 'internal' | 'external';
-    path: string;
-  };
-  title?: string;
-  credit?: string;
-  width?: number;
-  height?: number;
-}
-
-export interface SkillProficiency {
-  acrobatics?: boolean;
-  athletics?: boolean;
-  arcana?: boolean;
-  'animal handling'?: boolean;
-  deception?: boolean;
-  history?: boolean;
-  insight?: boolean;
-  intimidation?: boolean;
-  investigation?: boolean;
-  medicine?: boolean;
-  nature?: boolean;
-  perception?: boolean;
-  performance?: boolean;
-  persuasion?: boolean;
-  religion?: boolean;
-  'sleight of hand'?: boolean;
-  stealth?: boolean;
-  survival?: boolean;
+export type SkillProficiency = {
   any?: number;
   anyProficientSkill?: number;
   choose?: Choose;
-}
+} & Record<string, boolean>;
 
 export interface SavingThrowProficiency {
   choose?: Choose;
 }
 
-export interface ToolProficiency {
-  "artisan's tools"?: boolean;
-  "alchemist's supplies"?: boolean;
-  "brewer's supplies"?: boolean;
-  "calligrapher's supplies"?: boolean;
-  "carpenter's tools"?: boolean;
-  "cartographer's tools"?: boolean;
-  "cobbler's tools"?: boolean;
-  "cook's utensils"?: boolean;
-  "glassblower's tools"?: boolean;
-  "jeweler's tools"?: boolean;
-  "leatherworker's tools"?: boolean;
-  "mason's tools"?: boolean;
-  "painter's supplies"?: boolean;
-  "potter's tools"?: boolean;
-  "smith's tools"?: boolean;
-  "tinker's tools"?: boolean;
-  "weaver's tools"?: boolean;
-  "woodcarver's tools"?: boolean;
-  'disguise kit'?: boolean;
-  'forgery kit'?: boolean;
-  'gaming set'?: boolean;
-  'dragonchess set'?: boolean;
-  'dice set'?: boolean;
-  'three-dragon ante set'?: boolean;
-  'playing card set'?: boolean;
-  'herbalism kit'?: boolean;
-  'musical instrument'?: boolean;
-  bagpipes?: boolean;
-  drum?: boolean;
-  dulcimer?: boolean;
-  flute?: boolean;
-  horn?: boolean;
-  lute?: boolean;
-  lyre?: boolean;
-  'pan flute'?: boolean;
-  shawm?: boolean;
-  viol?: boolean;
-  "navigator's tools"?: boolean;
-  "thieves' tools"?: boolean;
-  "poisoner's kit"?: boolean;
-  vehicles?: boolean;
-  'vehicles (air)'?: boolean;
-  'vehicles (land)'?: boolean;
-  'vehicles (water)'?: boolean;
-  'vehicles (space)'?: boolean;
+export type ToolProficiency = {
   any?: number;
   anyArtisansTool?: number;
+  anyProficientTool?: number;
   anyGamingSet?: number;
   anyMusicalInstrument?: number;
   choose?: Choose;
-}
+} & Record<string, boolean>;
 
-export interface LanguageProficiency {
-  abyssal?: boolean;
-  aquan?: boolean;
-  auran?: boolean;
-  celestial?: boolean;
-  common?: boolean;
-  'common sign language'?: boolean;
-  'deep speech'?: boolean;
-  draconic?: boolean;
-  druidic?: boolean;
-  dwarvish?: boolean;
-  elvish?: boolean;
-  giant?: boolean;
-  gith?: boolean;
-  gnomish?: boolean;
-  goblin?: boolean;
-  halfling?: boolean;
-  ignan?: boolean;
-  infernal?: boolean;
-  orc?: boolean;
-  other?: boolean;
-  primordial?: boolean;
-  sylvan?: boolean;
-  terran?: boolean;
-  "thieves' cant"?: boolean;
-  undercommon?: boolean;
+export type LanguageProficiency = {
   any?: number;
   anyStandard?: number;
   choose?: Choose;
-}
+} & Record<string, boolean>;
 
 export interface SkillToolLanguageProficiency {
   choose?: Choose[];
@@ -214,6 +128,7 @@ export interface WeaponProficiency {
   martial?: boolean;
   improvised?: boolean;
   choose?: Choose;
+  all?: { fromFilter: string };
 }
 
 export interface ArmorProficiency {
@@ -264,7 +179,8 @@ export type AdditionalSpell = any; // TODO
 
 export interface FeatureProgression {
   name: string;
-  featureType: string[];
+  featureType?: string[];
+  category?: string[];
   progression: any; // TODO
 }
 
@@ -296,6 +212,7 @@ export interface ReqAttuneTag {
   size?: string;
   skillProficiency?: string;
   spellcasting?: boolean;
+  feat?: string[] | string;
   str?: number;
   dex?: number;
   con?: number;
@@ -314,7 +231,7 @@ export type UIDString =
 export interface Duration {
   type: 'instant' | 'timed' | 'permanent' | 'special';
   duration?: {
-    type: 'round' | 'hour' | 'minute' | 'day';
+    type: string;
     amount: number;
     upTo?: boolean;
   };
@@ -334,28 +251,7 @@ export interface Range {
   };
 }
 
-export interface Scaling {
-  '1'?: string;
-  '2'?: string;
-  '3'?: string;
-  '4'?: string;
-  '5'?: string;
-  '6'?: string;
-  '7'?: string;
-  '8'?: string;
-  '9'?: string;
-  '10'?: string;
-  '11'?: string;
-  '12'?: string;
-  '13'?: string;
-  '14'?: string;
-  '15'?: string;
-  '16'?: string;
-  '17'?: string;
-  '18'?: string;
-  '19'?: string;
-  '20'?: string;
-}
+export type Scaling = Record<string, string>;
 
 export interface ScalingLevelDice {
   label?: string;
@@ -369,20 +265,9 @@ export type StartingEquipmentEntry =
   | { special: string; quantity?: number; worthValue?: number; containsValue?: number }
   | { equipmentType: string; displayName?: string };
 
-export interface StartingEquipment {
-  _?: StartingEquipmentEntry[];
-  a?: StartingEquipmentEntry[];
-  b?: StartingEquipmentEntry[];
-  c?: StartingEquipmentEntry[];
-  d?: StartingEquipmentEntry[];
-  A?: StartingEquipmentEntry[];
-  B?: StartingEquipmentEntry[];
-  C?: StartingEquipmentEntry[];
-  D?: StartingEquipmentEntry[];
-}
+export type StartingEquipment = Record<string, StartingEquipmentEntry[]>;
 
 export interface DangerRating {
   tier: number;
   threat: string;
 }
-

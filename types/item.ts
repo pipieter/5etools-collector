@@ -23,13 +23,15 @@ export interface ItemProperty extends SRD {
   source: string;
   page?: number;
   abbreviation: string;
-  template: string;
+  template?: string;
   reprintedAs?: ReprintedAs[];
   entries?: Entry[];
+  entriesTemplate?: Entry[];
 }
 
 export interface ItemType extends Base, SRD {
   entries?: Entry[];
+  entriesTemplate?: Entry[];
   abbreviation: string;
 }
 
@@ -71,9 +73,9 @@ export interface Item extends Base, SRD {
   rechargeAmount?: string | number;
   charges?: number | string;
   miscTags?: string[];
-  immune?: Resist[];
-  resist?: Resist[];
-  vulnerable?: Resist[];
+  immune?: Resist[] | null;
+  resist?: Resist[] | null;
+  vulnerable?: Resist[] | null;
   conditionImmune?: string[];
   grantsProficiency?: boolean;
   detail1?: string;
@@ -149,4 +151,7 @@ export interface Item extends Base, SRD {
   spear?: boolean;
   sword?: boolean;
   whip?: boolean;
+  customProperties?: any; // TODO
+  reach?: number;
+  currencyConversion?: string;
 }
