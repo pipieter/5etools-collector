@@ -23,13 +23,15 @@ export interface ItemProperty extends SRD {
   source: string;
   page?: number;
   abbreviation: string;
-  template: string;
+  template?: string;
   reprintedAs?: ReprintedAs[];
   entries?: Entry[];
+  entriesTemplate?: Entry[];
 }
 
 export interface ItemType extends Base, SRD {
   entries?: Entry[];
+  entriesTemplate?: Entry[];
   abbreviation: string;
 }
 
@@ -149,6 +151,7 @@ export interface Item extends Base, SRD {
   spear?: boolean;
   sword?: boolean;
   whip?: boolean;
-  customProperties?: { baseitems: string };
-  reach?: number
+  customProperties?: any; // TODO
+  reach?: number;
+  currencyConversion?: string;
 }

@@ -55,7 +55,7 @@ export interface EntryTable extends EntryBase {
   colLabels?: string[];
   colLabelRows?: ColLabelRow[];
   colStyles: string[];
-  rows: (Entry | Cell | number)[][];
+  rows: ((Entry | Cell | number)[] | Row)[];
   footnote?: string;
   footnotes?: string[];
   data?: any; // TODO
@@ -65,8 +65,22 @@ export type ColLabelRow = (string | { entry: string; width: number })[];
 
 export interface Cell {
   type: 'cell';
-  roll: { exact: number } | { min: number; max: number; pad?: boolean };
+  roll?: { exact: number } | { min: number; max: number; pad?: boolean };
   entry?: Entry;
+  width?: number;
+}
+
+export interface CellHeader {
+  type: 'cellHeader';
+  width: number;
+  entry: string;
+  style: string;
+}
+
+export interface Row {
+  type: 'row';
+  style?: string;
+  row?: Entry[];
 }
 
 export interface EntryList extends EntryBase {
@@ -80,6 +94,7 @@ export interface EntryQuote extends EntryBase {
   type: 'quote';
   entries: Entry[];
   by?: string;
+  from?: string;
   skipMarks?: boolean;
 }
 

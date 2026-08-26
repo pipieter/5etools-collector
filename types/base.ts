@@ -6,6 +6,7 @@ export interface Foundry {
   foundrySystem?: any;
   foundryEffects?: any[];
   foundryType?: string;
+  foundryFlags?: any;
 }
 
 export interface Base extends Foundry {
@@ -78,7 +79,7 @@ export type Rarity = 'none' | 'unknown' | string;
 export interface SpellComponents {
   v?: boolean;
   s?: boolean;
-  m?: MaterialComponent;
+  m?: boolean | MaterialComponent;
   r?: boolean;
 }
 
@@ -230,7 +231,7 @@ export type UIDString =
 export interface Duration {
   type: 'instant' | 'timed' | 'permanent' | 'special';
   duration?: {
-    type: 'round' | 'hour' | 'minute' | 'day';
+    type: string;
     amount: number;
     upTo?: boolean;
   };

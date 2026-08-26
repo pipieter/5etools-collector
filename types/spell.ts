@@ -1,6 +1,12 @@
 import { Base, SRD, SpellComponents, Unit, Duration, Range, Resist, ScalingLevelDice } from './base';
 import { Entry } from './entry';
 
+interface FromSource {
+  name: string;
+  source: string;
+  definedInSource?: string;
+}
+
 export interface SpellSource {
   spellName: string;
   spellSource: string;
@@ -9,11 +15,11 @@ export interface SpellSource {
 }
 
 export interface Spell extends Base, SRD {
-  entries: Entry[];
+  entries?: Entry[];
   entriesHigherLevel?: Entry[];
   level: number;
-  school: string;
-  components: SpellComponents;
+  school?: string;
+  components?: SpellComponents;
   time?: Unit[];
   duration?: Duration[];
   range?: Range;
@@ -31,4 +37,7 @@ export interface Spell extends Base, SRD {
   meta?: { ritual: boolean };
   spellAttack?: string[];
   abilityCheck?: string[];
+  classes?: { fromClassList?: FromSource[]; fromClassListVariant?: FromSource[] };
+  feats?: FromSource[];
+  subschools?: string[];
 }
