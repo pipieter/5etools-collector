@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "collect": "tsx scripts/collect.ts",
-    "typecheck": "tsx scripts/typecheck.ts",
+    "typecheck": "ttsx scripts/typecheck.ts",
     "gentypes": "ts-interface-builder types/*.ts -o types-check"
   },
   "dependencies": {

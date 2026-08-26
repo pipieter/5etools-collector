@@ -1,26 +1,5 @@
 import typia from 'typia';
 
-import actions from '../data/official/actions.json';
-import backgroundFluffs from '../data/official/background-fluffs.json';
-import backgrounds from '../data/official/backgrounds.json';
-import baseItems from '../data/official/items-base.json';
-import boons from '../data/official/boons.json';
-import cults from '../data/official/cults.json';
-import deities from '../data/official/deities.json';
-import feats from '../data/official/feats.json';
-import hazards from '../data/official/hazards.json';
-import itemFluffs from '../data/official/item-fluffs.json';
-import itemMasteries from '../data/official/item-masteries.json';
-import itemProperties from '../data/official/item-properties.json';
-import items from '../data/official/items.json';
-import itemTypes from '../data/official/item-types.json';
-import languages from '../data/official/languages.json';
-import skills from '../data/official/skills.json';
-import spells from '../data/official/spells.json';
-import spellSources from '../data/official/spell-sources.json';
-import tables from '../data/official/tables.json';
-import traps from '../data/official/traps.json';
-
 import { Action } from '../types/action';
 import { Background } from '../types/background';
 import { Boon } from '../types/boon';
@@ -35,6 +14,7 @@ import { Skill } from '../types/skill';
 import { Spell, SpellSource } from '../types/spell';
 import { Table } from '../types/table';
 import { Trap } from '../types/trap';
+import { readFileSync } from 'fs';
 
 // Typia is extremely strict and does not allow for generics. Because of this, we need
 // to define all assert functions beforehand
@@ -59,7 +39,9 @@ const asserts = {
   trap: typia.createValidateEquals<Trap>(),
 };
 
-function assert<T>(name: string, objects: any[], fn: (input: unknown) => typia.IValidation<T>) {
+type validateFn<T> = (input: unknown) => typia.IValidation<T>;
+
+function assert<T>(name: string, objects: any[], fn: validateFn<T>) {
   for (const object of objects) {
     const validation = fn(object);
     if (!validation.success) {
@@ -76,22 +58,34 @@ function assert<T>(name: string, objects: any[], fn: (input: unknown) => typia.I
   }
 }
 
-assert('actions', actions, asserts.action);
-assert('backgrounds', backgrounds, asserts.background);
-assert('background fluffs', backgroundFluffs, asserts.fluff);
-assert('base items', baseItems, asserts.item);
-assert('boons', boons, asserts.boon);
-assert('cults', cults, asserts.cult);
-assert('deities', deities, asserts.deity);
-assert('feats', feats, asserts.feat);
-assert('hazards', hazards, asserts.hazard);
-assert('item fluffs', itemFluffs, asserts.fluff);
-assert('item masteries', itemMasteries, asserts.itemMastery);
-assert('item properties', itemProperties, asserts.itemProperty);
-assert('item types', itemTypes, asserts.itemType);
-assert('languages', languages, asserts.language);
-assert('skills', skills, asserts.skill);
-assert('spells', spells, asserts.spell);
-assert('spell sources', spellSources, asserts.spellSource);
-assert('tables', tables, asserts.table);
-assert('traps', traps, asserts.trap);
+function check<T>(name: string, fn: validateFn<T>) {
+  console.log(`Checking ${name}`);
+
+  const path = `./data/official/${name}.json`;
+  const data = JSON.parse(readFileSync(path).toString());
+
+  assert(name, data, fn);
+}
+
+check('actions', asserts.action);
+check('backgrounds', asserts.background);
+check('background-fluffs', asserts.fluff);
+check('boons', asserts.boon);
+check('cults', asserts.cult);
+check('deities', asserts.deity);
+check('feats', asserts.feat);
+check('hazards', asserts.hazard);
+check('items', asserts.item);
+check('item-fluffs', asserts.fluff);
+check('item-masteries', asserts.itemMastery);
+check('item-properties', asserts.itemProperty);
+check('item-types', asserts.itemType);
+check('items-base', asserts.item);
+check('languages', asserts.language);
+check('skills', asserts.skill);
+check('spells', asserts.spell);
+check('spell-sources', asserts.spellSource);
+check('tables', asserts.table);
+check('traps', asserts.trap);
+
+console.log('All typechecks succeeded!');
