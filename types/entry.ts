@@ -9,7 +9,8 @@ export type Entry =
   | EntryQuote
   | EntryImage
   | EntryOptions
-  | EntryRefOptionalFeature;
+  | EntryRefOptionalFeature
+  | EntryStatBlock;
 
 export interface EntryBase {
   id?: string;
@@ -21,6 +22,7 @@ export interface EntryBase {
 export interface EntryEntries extends EntryBase {
   type: 'entries';
   entries: Entry[];
+  style?: string;
   data?: any;
 }
 
@@ -28,6 +30,7 @@ export interface EntryItem extends EntryBase {
   type: 'item' | 'itemSub';
   entries?: Entry[];
   entry?: Entry;
+  nameDot?: boolean;
 }
 
 export interface EntrySection extends EntryBase {
@@ -99,6 +102,12 @@ export interface EntryOptions {
 export interface EntryRefOptionalFeature {
   type: 'refOptionalfeature';
   optionalfeature: string;
+}
+
+export interface EntryStatBlock extends EntryBase {
+  type: 'statblock';
+  tag: string;
+  name: string;
 }
 
 export interface SingleEntry {

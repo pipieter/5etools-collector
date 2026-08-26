@@ -71,9 +71,9 @@ export interface Item extends Base, SRD {
   rechargeAmount?: string | number;
   charges?: number | string;
   miscTags?: string[];
-  immune?: Resist[];
-  resist?: Resist[];
-  vulnerable?: Resist[];
+  immune?: Resist[] | null;
+  resist?: Resist[] | null;
+  vulnerable?: Resist[] | null;
   conditionImmune?: string[];
   grantsProficiency?: boolean;
   detail1?: string;
@@ -149,4 +149,6 @@ export interface Item extends Base, SRD {
   spear?: boolean;
   sword?: boolean;
   whip?: boolean;
+  customProperties?: { baseitems: string };
+  reach?: number
 }

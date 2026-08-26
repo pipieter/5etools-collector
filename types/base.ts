@@ -5,6 +5,7 @@ export interface Foundry {
   foundryActivities?: any[];
   foundrySystem?: any;
   foundryEffects?: any[];
+  foundryType?: string;
 }
 
 export interface Base extends Foundry {
@@ -210,6 +211,7 @@ export interface ReqAttuneTag {
   size?: string;
   skillProficiency?: string;
   spellcasting?: boolean;
+  feat?: string[] | string;
   str?: number;
   dex?: number;
   con?: number;
