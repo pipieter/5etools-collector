@@ -1,4 +1,4 @@
-import { Entry } from './entry';
+import { Entry, EntryImage } from './entry';
 
 export interface Base {
   name: string;
@@ -14,7 +14,7 @@ export interface Base {
   otherSources?: Source[];
   additionalSources?: Source[];
   edition?: string;
-  fluff?: { entries?: Entry[]; images?: ImageRef[] };
+  fluff?: { entries?: Entry[]; images?: EntryImage[] };
   _copy?: any; // TODO
   _versions?: any[]; // TODO
 }
@@ -79,16 +79,6 @@ export type MaterialComponent =
       cost?: number;
       consume?: boolean | 'optional';
     };
-
-export interface ImageRef {
-  type: 'image';
-  href: { type: 'internal'; path: string } | { type: 'external'; url: string };
-  title?: string;
-  credit?: string;
-  width?: number;
-  height?: number;
-  altText?: string;
-}
 
 export interface SkillProficiency {
   acrobatics?: boolean;

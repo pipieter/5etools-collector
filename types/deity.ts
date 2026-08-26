@@ -1,5 +1,5 @@
-import { Base, SRD, ImageRef } from './base';
-import { Entry } from './entry';
+import { Base, SRD } from './base';
+import { Entry, EntryImage } from './entry';
 
 export interface Deity extends Base, SRD {
   entries?: Entry[];
@@ -13,8 +13,10 @@ export interface Deity extends Base, SRD {
   domains?: string[];
   province?: string;
   symbol?: string;
-  symbolImg?: ImageRef;
+  symbolImg?: EntryImage;
   altNames?: string[];
   piety?: boolean;
   customExtensionOf?: string;
+  favoredWeapons?: string;
+  dogma?: string;
 }
