@@ -16,6 +16,7 @@ import { Table } from '../types/table';
 import { Trap } from '../types/trap';
 import { readFileSync } from 'fs';
 import { Condition } from '../types/condition';
+import { DNDObject } from '../types/object';
 
 // Typia is extremely strict and does not allow for generics. Because of this, we need
 // to define all assert functions beforehand
@@ -34,6 +35,7 @@ const asserts = {
   itemProperty: typia.createValidateEquals<ItemProperty>(),
   itemType: typia.createValidateEquals<ItemType>(),
   language: typia.createValidateEquals<Language>(),
+  object: typia.createValidateEquals<DNDObject>(),
   skill: typia.createValidateEquals<Skill>(),
   spell: typia.createValidateEquals<Spell>(),
   spellSource: typia.createValidateEquals<SpellSource>(),
@@ -73,9 +75,9 @@ function assert<T>(name: string, objects: any[], fn: validateFn<T>) {
         }
 
         if (err.description) {
-          console.log(err.description);
+          // console.log(err.description);
+          // console.log();
         }
-        console.log();
       }
       process.exit(1);
     }
@@ -110,6 +112,7 @@ check('item-properties', asserts.itemProperty);
 check('item-types', asserts.itemType);
 check('items-base', asserts.item);
 check('languages', asserts.language);
+check('objects', asserts.object);
 check('skills', asserts.skill);
 check('spells', asserts.spell);
 check('spell-sources', asserts.spellSource);

@@ -1,0 +1,90 @@
+[
+ {
+  "name": "Long Rod",
+  "source": "ExploringEberron24",
+  "size": [
+   "L"
+  ],
+  "objectType": "SW",
+  "ac": 15,
+  "hp": 40,
+  "entries": [
+   "A Long Rod is a more portable version of a {@object Siege Staff|ExploringEberron24}, measuring around 8 feet long. Including the stand required to brace it, it weighs close to 350 pounds.",
+   "It takes 5 {@action Magic|XPHB} actions to set up a Long Rod, and the same to tear down for transport. Once set up, it takes 1 {@action Magic|XPHB} action to prime the rod, 1 {@action Magic|XPHB} action to aim it, and 1 {@action Magic|XPHB} action to fire it.",
+   "Any spell that requires an attack roll or saving throw can be cast through a Long Rod. The range is magnified by a factor of 3, with a long range of up to 6 times the spell's standard range.",
+   "The spell's area of effect is increased to 150%. If the spell normally affects a single target, it instead affects a 10-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere}; if the spell normally requires an attack roll, targets must instead make a Dexterity saving throw. On a successful save, the target takes half damage and suffers no other effect."
+  ]
+ },
+ {
+  "name": "Siege Staff (Blast)",
+  "source": "ExploringEberron24",
+  "size": [
+   "H"
+  ],
+  "objectType": "SW",
+  "ac": 15,
+  "hp": 120,
+  "entries": [
+   "{@note Requires Attunement by a Spellcaster}",
+   "Siege Staffs, the primary form of arcane artillery, are made of wood—typically around fifteen feet long—engraved with mystic sigils and inlaid with dragonshards.",
+   "Activating a Siege Staff takes 3 {@action Magic|XPHB} actions: one to prime the staff; one to aim it; and one to release the spell.",
+   "This model was typically used to bombard massed troops or villages, unleashing a wide burst of energy. It has a normal range of 300 feet and a long range of 1,200 feet. It targets all creatures within a 60-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere}. Targets must make a Dexterity saving throw, taking {@damage 2d8} Force damage on a failed save or half as much damage on a successful one."
+  ]
+ },
+ {
+  "name": "Siege Staff",
+  "source": "ExploringEberron24",
+  "size": [
+   "H"
+  ],
+  "objectType": "SW",
+  "ac": 15,
+  "hp": 120,
+  "entries": [
+   "{@note Requires Attunement by a Spellcaster}",
+   "Siege Staffs, the primary form of arcane artillery, are made of wood—typically around fifteen feet long—engraved with mystic sigils and inlaid with dragonshards.",
+   "Activating a Siege Staff takes 3 {@action Magic|XPHB} actions: one to prime the {@item staff|XPHB}; one to aim it; and one to release the spell.",
+   "There are several basic models of Siege Staff, each of which serves a different purpose. When activated, it produces one of the following effects, determined by its model:",
+   {
+    "type": "list",
+    "items": [
+     "{@object Siege Staff (Blast)|ExploringEberron24|Blast}",
+     "{@object Siege Staff (Force)|ExploringEberron24|Force}",
+     "{@object Siege Staff (Focus)|ExploringEberron24|Focus}"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Siege Staff (Focus)",
+  "source": "ExploringEberron24",
+  "size": [
+   "H"
+  ],
+  "objectType": "SW",
+  "ac": 15,
+  "hp": 120,
+  "entries": [
+   "{@note Requires Attunement by a Spellcaster}",
+   "Siege Staffs, the primary form of arcane artillery, are made of wood—typically around fifteen feet long—engraved with mystic sigils and inlaid with dragonshards.",
+   "Activating a Siege Staff takes 3 {@action Magic|XPHB} actions: one to prime the staff; one to aim it; and one to release the spell.",
+   "This model amplifies the spells cast by an attuned spellcaster. Any spell that requires an attack roll or saving throw can be cast through this model of Siege Staff. The range is magnified by a factor of 5, with a long range of up to 10 times the spell's standard range—so a {@spell Fire Bolt|XPHB} cast through a Focus Staff has a normal range of 600 feet and a long range of 1,200 feet. The spell's area of effect is doubled. If the spell normally affects a single target, it instead affects a 20-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere}; if the spell normally requires an attack roll, targets must instead make a Dexterity saving throw. On a successful save, the target takes half damage and suffers no other effect."
+  ]
+ },
+ {
+  "name": "Siege Staff (Force)",
+  "source": "ExploringEberron24",
+  "size": [
+   "H"
+  ],
+  "objectType": "SW",
+  "ac": 15,
+  "hp": 120,
+  "entries": [
+   "{@note Requires Attunement by a Spellcaster}",
+   "Siege Staffs, the primary form of arcane artillery, are made of wood—typically around fifteen feet long—engraved with mystic sigils and inlaid with dragonshards.",
+   "Activating a Siege Staff takes 3 {@action Magic|XPHB} actions: one to prime the staff; one to aim it; and one to release the spell.",
+   "This model releases focused blasts of pure energy. Developed late in the war, these were primarily used to target fortifications, warforged titans, and airships. It has a normal range of 600 feet and a long range of 2,400 feet. A target takes 44 ({@damage 8d10}) Force damage."
+  ]
+ }
+]

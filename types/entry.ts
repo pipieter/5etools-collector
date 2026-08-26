@@ -11,7 +11,9 @@ export type Entry =
   | EntryOptions
   | EntryRefOptionalFeature
   | EntryStatBlock
-  | EntryAbilityGeneric;
+  | EntryAbilityGeneric
+  | EntryActions
+  | EntryAttack;
 
 export interface EntryBase {
   id?: string;
@@ -129,6 +131,19 @@ export interface EntryStatBlock extends EntryBase {
 export interface EntryAbilityGeneric extends EntryBase {
   type: 'abilityGeneric';
   text: string;
+}
+
+export interface EntryActions extends EntryBase {
+  type: 'actions';
+  entries: Entry[];
+  attackEntries?: Entry[];
+}
+
+export interface EntryAttack extends EntryBase {
+  type: 'attack';
+  attackType: string;
+  attackEntries: Entry[];
+  hitEntries: Entry[];
 }
 
 export interface SingleEntry {

@@ -1,5 +1,10 @@
 import { Entry, EntryImage } from './entry';
 
+export interface ID {
+  name: string;
+  source: string;
+}
+
 export interface Foundry {
   foundryImg?: string;
   foundryActivities?: any[];
@@ -9,21 +14,31 @@ export interface Foundry {
   foundryFlags?: any;
 }
 
-export interface Base extends Foundry {
+export interface TokenArt {
+  hasToken?: boolean;
+  tokenCredit?: string;
+  tokenCustom?: boolean;
+  token?: ID;
+  altArt?: ID[];
+}
+
+export interface HasFluff {
+  hasFluffImages?: boolean;
+  hasFluff?: boolean;
+  fluff?: { entries?: Entry[]; images?: EntryImage[] };
+}
+
+export interface Base extends Foundry, TokenArt, HasFluff {
   name: string;
   source: string;
   page?: number | string;
   alias?: string[];
   reprintedAs?: ReprintedAs[];
-  hasFluffImages?: boolean;
-  hasFluff?: boolean;
   hasRefs?: boolean;
-  hasToken?: boolean;
   referenceSources?: Source[];
   otherSources?: Source[];
   additionalSources?: Source[];
   edition?: string;
-  fluff?: { entries?: Entry[]; images?: EntryImage[] };
   _copy?: any; // TODO
   _versions?: any[]; // TODO
 }
@@ -152,6 +167,7 @@ export interface Ability {
 
 export type Resist =
   | string
+  | Special
   | {
       choose?: Choose;
     };
@@ -271,3 +287,16 @@ export interface DangerRating {
   tier: number;
   threat: string;
 }
+
+export interface Special {
+  special: string;
+}
+
+export type Speed =
+  | number
+  | {
+      walk?: number;
+      burrow?: number;
+      climb?: number;
+      swim?: number;
+    };

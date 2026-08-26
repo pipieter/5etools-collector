@@ -207,6 +207,7 @@ function main() {
     collector.write('item-types', 'itemType');
     collector.write('item-fluffs', 'itemFluff');
     collector.write('languages', 'language');
+    collector.write('objects', 'object');
     collector.write('spells', 'spell');
     collector.write('classes', 'class');
     collector.write('spell-sources', 'spellSource');
