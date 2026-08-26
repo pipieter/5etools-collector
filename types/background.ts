@@ -20,7 +20,7 @@ export interface Background extends Base, SRD {
   toolProficiencies?: ToolProficiency[];
   languageProficiencies?: LanguageProficiency[];
   skillToolLanguageProficiencies?: SkillToolLanguageProficiency[];
-  weaponProficiencies?: WeaponProficiency[]
+  weaponProficiencies?: WeaponProficiency[];
   startingEquipment?: StartingEquipment[];
   fromFeature?: any; // TODO
   additionalSpells?: any[]; // TODO
