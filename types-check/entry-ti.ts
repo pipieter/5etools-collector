@@ -77,6 +77,7 @@ export const Cell = t.iface([], {
 
 export const EntryList = t.iface([], {
   "type": t.lit('list'),
+  "name": t.opt("string"),
   "style": t.opt("string"),
   "columns": t.opt("number"),
   "items": t.array("Entry"),
@@ -91,11 +92,19 @@ export const EntryQuote = t.iface([], {
 
 export const EntryImage = t.iface([], {
   "type": t.lit('image'),
-  "href": t.iface([], {
+  "href": t.union(t.iface([], {
     "type": t.lit('internal'),
     "path": "string",
-  }),
-  "credit": "string",
+  }), t.iface([], {
+    "type": t.lit('external'),
+    "url": "string",
+  })),
+  "title": t.opt("string"),
+  "credit": t.opt("string"),
+  "width": t.opt("number"),
+  "height": t.opt("number"),
+  "altText": t.opt("string"),
+  "style": t.opt("string"),
 });
 
 export const SingleEntry = t.iface([], {

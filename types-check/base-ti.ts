@@ -20,7 +20,7 @@ export const Base = t.iface([], {
   "edition": t.opt("string"),
   "fluff": t.opt(t.iface([], {
     "entries": t.opt(t.array("Entry")),
-    "images": t.opt(t.array("ImageRef")),
+    "images": t.opt(t.array("EntryImage")),
   })),
   "_copy": t.opt("any"),
   "_versions": t.opt(t.array("any")),
@@ -109,22 +109,6 @@ export const MaterialComponent = t.union("string", t.iface([], {
   "cost": t.opt("number"),
   "consume": t.opt(t.union("boolean", t.lit('optional'))),
 }));
-
-export const ImageRef = t.iface([], {
-  "type": t.lit('image'),
-  "href": t.union(t.iface([], {
-    "type": t.lit('internal'),
-    "path": "string",
-  }), t.iface([], {
-    "type": t.lit('external'),
-    "url": "string",
-  })),
-  "title": t.opt("string"),
-  "credit": t.opt("string"),
-  "width": t.opt("number"),
-  "height": t.opt("number"),
-  "altText": t.opt("string"),
-});
 
 export const SkillProficiency = t.iface([], {
   "acrobatics": t.opt("boolean"),
@@ -447,7 +431,6 @@ const exportedTypeSuite: t.ITypeSuite = {
   Rarity,
   SpellComponents,
   MaterialComponent,
-  ImageRef,
   SkillProficiency,
   SavingThrowProficiency,
   ToolProficiency,

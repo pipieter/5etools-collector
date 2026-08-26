@@ -63,6 +63,7 @@ export interface Cell {
 
 export interface EntryList {
   type: 'list';
+  name?: string;
   style?: string;
   columns?: number;
   items: Entry[];
@@ -77,11 +78,13 @@ export interface EntryQuote {
 
 export interface EntryImage {
   type: 'image';
-  href: {
-    type: 'internal';
-    path: string;
-  };
-  credit: string;
+  href: { type: 'internal'; path: string } | { type: 'external'; url: string };
+  title?: string;
+  credit?: string;
+  width?: number;
+  height?: number;
+  altText?: string;
+  style?: string;
 }
 
 export interface SingleEntry {

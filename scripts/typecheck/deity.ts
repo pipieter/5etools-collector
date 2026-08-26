@@ -6,7 +6,9 @@ import EntryTI from '../../types-check/entry-ti';
 import DeityTI from '../../types-check/deity-ti';
 
 import official from '../../data/official/deities.json';
+import partnered from "../../data/partnered/deities.json"
 
 const { Deity } = createCheckers(BaseTI, EntryTI, DeityTI);
 
-check('deity', Deity, official);
+check('official deity', Deity, official);
+check('partnered deity', Deity, partnered);

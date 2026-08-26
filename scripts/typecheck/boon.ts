@@ -6,7 +6,9 @@ import EntryTI from '../../types-check/entry-ti';
 import BoonTI from '../../types-check/boon-ti';
 
 import official from '../../data/official/boons.json';
+import partnered from "../../data/partnered/boons.json"
 
 const { Boon } = createCheckers(BaseTI, EntryTI, BoonTI);
 
-check('boon', Boon, official);
+check('official boon', Boon, official);
+check('partnered boon', Boon, partnered);

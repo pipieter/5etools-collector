@@ -16,10 +16,12 @@ export const Deity = t.iface(["Base", "SRD"], {
   "domains": t.opt(t.array("string")),
   "province": t.opt("string"),
   "symbol": t.opt("string"),
-  "symbolImg": t.opt("ImageRef"),
+  "symbolImg": t.opt("EntryImage"),
   "altNames": t.opt(t.array("string")),
   "piety": t.opt("boolean"),
   "customExtensionOf": t.opt("string"),
+  "favoredWeapons": t.opt("string"),
+  "dogma": t.opt("string"),
 });
 
 const exportedTypeSuite: t.ITypeSuite = {

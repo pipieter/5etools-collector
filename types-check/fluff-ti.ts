@@ -6,7 +6,7 @@ import * as t from "ts-interface-checker";
 
 export const Fluff = t.iface(["Base"], {
   "entries": t.opt(t.array("Entry")),
-  "images": t.opt(t.array("ImageRef")),
+  "images": t.opt(t.array("EntryImage")),
 });
 
 const exportedTypeSuite: t.ITypeSuite = {
