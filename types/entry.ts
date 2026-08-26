@@ -10,7 +10,8 @@ export type Entry =
   | EntryImage
   | EntryOptions
   | EntryRefOptionalFeature
-  | EntryStatBlock;
+  | EntryStatBlock
+  | EntryAbilityGeneric;
 
 export interface EntryBase {
   id?: string;
@@ -123,6 +124,11 @@ export interface EntryStatBlock extends EntryBase {
   type: 'statblock';
   tag: string;
   name: string;
+}
+
+export interface EntryAbilityGeneric extends EntryBase {
+  type: 'abilityGeneric';
+  text: string;
 }
 
 export interface SingleEntry {

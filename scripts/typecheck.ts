@@ -15,6 +15,7 @@ import { Spell, SpellSource } from '../types/spell';
 import { Table } from '../types/table';
 import { Trap } from '../types/trap';
 import { readFileSync } from 'fs';
+import { Condition } from '../types/condition';
 
 // Typia is extremely strict and does not allow for generics. Because of this, we need
 // to define all assert functions beforehand
@@ -22,6 +23,7 @@ const asserts = {
   action: typia.createValidateEquals<Action>(),
   background: typia.createValidateEquals<Background>(),
   boon: typia.createValidateEquals<Boon>(),
+  condition: typia.createValidateEquals<Condition>(),
   cult: typia.createValidateEquals<Cult>(),
   deity: typia.createValidateEquals<Deity>(),
   feat: typia.createValidateEquals<Feat>(),
@@ -95,6 +97,7 @@ check('actions', asserts.action);
 check('backgrounds', asserts.background);
 check('background-fluffs', asserts.fluff);
 check('boons', asserts.boon);
+check('conditions', asserts.condition);
 check('cults', asserts.cult);
 check('deities', asserts.deity);
 check('feats', asserts.feat);

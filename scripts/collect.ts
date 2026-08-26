@@ -194,6 +194,7 @@ function main() {
     collector.write('backgrounds', 'background');
     collector.write('background-fluffs', 'backgroundFluff');
     collector.write('boons', 'boon');
+    collector.write('conditions', 'condition');
     collector.write('cults', 'cult');
     collector.write('deities', 'deity');
     collector.write('feats', 'feat');
