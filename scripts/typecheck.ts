@@ -1,0 +1,91 @@
+import typia from 'typia';
+
+import { Action } from '../types/action';
+import { Background } from '../types/background';
+import { Boon } from '../types/boon';
+import { Cult } from '../types/cult';
+import { Deity } from '../types/deity';
+import { Fluff } from '../types/fluff';
+import { Item, ItemMastery, ItemProperty, ItemType } from '../types/item';
+import { Feat } from '../types/feat';
+import { Hazard } from '../types/hazard';
+import { Language } from '../types/language';
+import { Skill } from '../types/skill';
+import { Spell, SpellSource } from '../types/spell';
+import { Table } from '../types/table';
+import { Trap } from '../types/trap';
+import { readFileSync } from 'fs';
+
+// Typia is extremely strict and does not allow for generics. Because of this, we need
+// to define all assert functions beforehand
+const asserts = {
+  action: typia.createValidateEquals<Action>(),
+  background: typia.createValidateEquals<Background>(),
+  boon: typia.createValidateEquals<Boon>(),
+  cult: typia.createValidateEquals<Cult>(),
+  deity: typia.createValidateEquals<Deity>(),
+  feat: typia.createValidateEquals<Feat>(),
+  fluff: typia.createValidateEquals<Fluff>(),
+  hazard: typia.createValidateEquals<Hazard>(),
+  item: typia.createValidateEquals<Item>(),
+  itemMastery: typia.createValidateEquals<ItemMastery>(),
+  itemProperty: typia.createValidateEquals<ItemProperty>(),
+  itemType: typia.createValidateEquals<ItemType>(),
+  language: typia.createValidateEquals<Language>(),
+  skill: typia.createValidateEquals<Skill>(),
+  spell: typia.createValidateEquals<Spell>(),
+  spellSource: typia.createValidateEquals<SpellSource>(),
+  table: typia.createValidateEquals<Table>(),
+  trap: typia.createValidateEquals<Trap>(),
+};
+
+type validateFn<T> = (input: unknown) => typia.IValidation<T>;
+
+function assert<T>(name: string, objects: any[], fn: validateFn<T>) {
+  for (const object of objects) {
+    const validation = fn(object);
+    if (!validation.success) {
+      console.error(`Could not verify the following object for ${name}:`);
+      console.error(object);
+      console.log();
+      for (const err of validation.errors) {
+        console.log(`Expected '${err.expected}', received '${err.value}' at ${err.path}`);
+        console.log(err.description);
+        console.log();
+      }
+      process.exit(1);
+    }
+  }
+}
+
+function check<T>(name: string, fn: validateFn<T>) {
+  console.log(`Checking ${name}`);
+
+  const path = `./data/official/${name}.json`;
+  const data = JSON.parse(readFileSync(path).toString());
+
+  assert(name, data, fn);
+}
+
+check('actions', asserts.action);
+check('backgrounds', asserts.background);
+check('background-fluffs', asserts.fluff);
+check('boons', asserts.boon);
+check('cults', asserts.cult);
+check('deities', asserts.deity);
+check('feats', asserts.feat);
+check('hazards', asserts.hazard);
+check('items', asserts.item);
+check('item-fluffs', asserts.fluff);
+check('item-masteries', asserts.itemMastery);
+check('item-properties', asserts.itemProperty);
+check('item-types', asserts.itemType);
+check('items-base', asserts.item);
+check('languages', asserts.language);
+check('skills', asserts.skill);
+check('spells', asserts.spell);
+check('spell-sources', asserts.spellSource);
+check('tables', asserts.table);
+check('traps', asserts.trap);
+
+console.log('All typechecks succeeded!');
