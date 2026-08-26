@@ -113,6 +113,7 @@ check('item-types', asserts.itemType);
 check('items-base', asserts.item);
 check('languages', asserts.language);
 check('objects', asserts.object);
+check('object-fluffs', asserts.fluff);
 check('skills', asserts.skill);
 check('spells', asserts.spell);
 check('spell-sources', asserts.spellSource);
