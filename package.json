@@ -17,6 +17,8 @@
   "devDependencies": {
     "@types/node": "^26.1.1",
     "prettier": "^3.9.6",
-    "ts-interface-builder": "^0.3.3"
+    "ts-interface-builder": "^0.3.3",
+    "ttsc": "^0.28.2",
+    "typia": "^14.0.4"
   }
 }
