@@ -26,7 +26,7 @@ export interface TokenArt {
 export interface HasFluff {
   hasFluffImages?: boolean;
   hasFluff?: boolean;
-  fluff?: { entries?: Entry[]; images?: EntryImage[] };
+  fluff?: { entries?: Entry[]; images?: EntryImage[]; _subclassFluff?: any };
 }
 
 export interface Base extends Foundry, TokenArt, HasFluff {
@@ -34,6 +34,7 @@ export interface Base extends Foundry, TokenArt, HasFluff {
   source: string;
   page?: number | string;
   alias?: string[];
+  isReprinted?: boolean;
   reprintedAs?: ReprintedAs[];
   hasRefs?: boolean;
   referenceSources?: Source[];
@@ -235,6 +236,7 @@ export interface FeatureProgression {
   featureType?: string[];
   category?: string[];
   progression: any; // TODO
+  required?: any; // TODO
 }
 
 export interface Light {

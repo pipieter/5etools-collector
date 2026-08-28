@@ -7,13 +7,11 @@ import {
   ClassProficiencies,
   Die,
   FeatureProgression,
+  ID,
   LanguageProficiency,
-  Prerequisite,
-  SkillProficiency,
   SkillToolLanguageProficiency,
   SRD,
   StartingEquipment,
-  ToolProficiency,
 } from './base';
 import { Entry } from './entry';
 
@@ -31,7 +29,20 @@ export interface ClassTable {
   rowsSpellProgression?: number[][];
 }
 
+export interface SubclassTable extends ClassTable {
+  subclasses?: ID[];
+}
+
 export type MulticlassRequirement = AbilityNumber | AbilityNumber[] | (AbilityNumber & { or: MulticlassRequirement[] });
+
+export interface Sidekick extends Base, SRD {
+  isSidekick: true;
+  classFeatures: string[];
+  casterProgression?: string;
+  cantripProgression?: number[];
+  spellsKnownProgression?: number[];
+  classTableGroups?: ClassTable[];
+}
 
 export interface Class extends Base, SRD {
   primaryAbility?: AbilityBool[];
@@ -68,15 +79,6 @@ export interface Class extends Base, SRD {
   subclassTitle: string;
 }
 
-export interface Sidekick extends Base, SRD {
-  isSidekick: true;
-  classFeatures: string[];
-  casterProgression?: string;
-  cantripProgression?: number[];
-  spellsKnownProgression?: number[];
-  classTableGroups?: ClassTable[];
-}
-
 export interface ClassFeature extends Base, SRD {
   className: string;
   classSource: string;
@@ -89,4 +91,23 @@ export interface ClassFeature extends Base, SRD {
   expertise?: SkillToolLanguageProficiency[];
   languageProficiencies?: LanguageProficiency[];
   conditionImmune?: string[];
+}
+
+export interface Subclass extends Base, SRD {
+  className: string;
+  shortName?: string;
+  classSource: string;
+  additionalSpells?: any[]; // TODO
+  subclassFeatures?: string[];
+  featProgression?: FeatureProgression[];
+  optionalfeatureProgression?: FeatureProgression[];
+  spellcastingAbility?: string;
+  casterProgression?: string;
+  cantripProgression?: number[];
+  spellsKnownProgression?: number[];
+  preparedSpellsProgression?: number[];
+  preparedSpellsChange?: string;
+  subclassSpells?: (string | { className: string; classSource: string })[];
+  subSubclassSpells?: Record<string, string[]>;
+  subclassTableGroups?: SubclassTable[];
 }

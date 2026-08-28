@@ -18,7 +18,7 @@ import { readFileSync } from 'fs';
 import { Condition } from '../types/condition';
 import { DNDObject } from '../types/object';
 import { Disease } from '../types/disease';
-import { Class, ClassFeature, Sidekick } from '../types/class';
+import { Class, ClassFeature, Sidekick, Subclass } from '../types/class';
 
 // Typia is extremely strict and does not allow for generics. Because of this, we need
 // to define all assert functions beforehand
@@ -45,6 +45,7 @@ const asserts = {
   skill: typia.createValidateEquals<Skill>(),
   spell: typia.createValidateEquals<Spell>(),
   spellSource: typia.createValidateEquals<SpellSource>(),
+  subclass: typia.createValidateEquals<Subclass>(),
   table: typia.createValidateEquals<Table>(),
   trap: typia.createValidateEquals<Trap>(),
 };
@@ -130,6 +131,7 @@ check('skills', asserts.skill);
 check('spells', asserts.spell);
 check('spell-fluffs', asserts.fluff);
 check('spell-sources', asserts.spellSource);
+check('subclasses', asserts.subclass);
 check('tables', asserts.table);
 check('traps', asserts.trap);
 

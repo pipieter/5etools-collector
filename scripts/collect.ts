@@ -222,6 +222,7 @@ function main() {
     collector.write('spells', 'spell');
     collector.write('spell-fluffs', 'spellFluff');
     collector.write('spell-sources', 'spellSource');
+    collector.write('subclasses', 'subclass');
     collector.write('skills', 'skill');
     collector.write('tables', 'table');
     collector.write('traps', 'trap');
