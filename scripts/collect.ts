@@ -216,6 +216,7 @@ function main() {
     collector.write('item-masteries', 'itemMastery');
     collector.write('item-properties', 'itemProperty');
     collector.write('item-types', 'itemType');
+    collector.write('item-type-additional-entries', 'itemTypeAdditionalEntries');
     collector.write('item-fluffs', 'itemFluff');
     collector.write('languages', 'language');
     collector.write('objects', 'object');

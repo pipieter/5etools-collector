@@ -160,3 +160,8 @@ export interface ItemGroup extends Item {
   items: string[];
   itemsHidden?: boolean;
 }
+
+export interface ItemTypeAdditionalEntries extends Base, SRD {
+  entries: Entry[];
+  appliesTo: string;
+}

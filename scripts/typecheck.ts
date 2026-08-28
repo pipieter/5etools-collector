@@ -6,7 +6,7 @@ import { Boon } from '../types/boon';
 import { Cult } from '../types/cult';
 import { Deity } from '../types/deity';
 import { Fluff } from '../types/fluff';
-import { Item, ItemGroup, ItemMastery, ItemProperty, ItemType } from '../types/item';
+import { Item, ItemGroup, ItemMastery, ItemProperty, ItemType, ItemTypeAdditionalEntries } from '../types/item';
 import { Feat } from '../types/feat';
 import { Hazard } from '../types/hazard';
 import { Language } from '../types/language';
@@ -40,6 +40,7 @@ const asserts = {
   itemMastery: typia.createValidateEquals<ItemMastery>(),
   itemProperty: typia.createValidateEquals<ItemProperty>(),
   itemType: typia.createValidateEquals<ItemType>(),
+  itemTypeAdditionalEntries: typia.createValidateEquals<ItemTypeAdditionalEntries>(),
   language: typia.createValidateEquals<Language>(),
   object: typia.createValidateEquals<DNDObject>(),
   sidekick: typia.createValidateEquals<Sidekick>(),
@@ -125,6 +126,7 @@ check('item-groups', asserts.itemGroup);
 check('item-masteries', asserts.itemMastery);
 check('item-properties', asserts.itemProperty);
 check('item-types', asserts.itemType);
+check('item-type-additional-entries', asserts.itemTypeAdditionalEntries);
 check('items-base', asserts.item);
 check('languages', asserts.language);
 check('objects', asserts.object);
