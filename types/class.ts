@@ -21,7 +21,7 @@ import {
 } from './base';
 import { Entry } from './entry';
 
-export type ClassTableCell =
+export type ClassResourceValue =
   | string
   | number
   | { type: 'bonus'; value: number }
@@ -31,7 +31,7 @@ export type ClassTableCell =
 export interface ClassTable {
   title?: string;
   colLabels: string[];
-  rows?: ClassTableCell[][];
+  rows?: ClassResourceValue[][];
   rowsSpellProgression?: number[][];
 }
 
