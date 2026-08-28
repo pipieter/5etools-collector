@@ -1,0 +1,387 @@
+[
+ {
+  "name": "Ambush Prey",
+  "source": "HumblewoodCampaignSetting",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodCampaignSetting/spells/Ambush-Prey.webp"
+    },
+    "width": 450,
+    "height": 697
+   }
+  ]
+ },
+ {
+  "name": "Boil Blood",
+  "source": "GrimHollowPG24",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/GrimHollowPG24/Book/156-09-002.blood-boil.webp"
+    },
+    "credit": "Kevin Sidharta",
+    "width": 1700,
+    "height": 1108
+   }
+  ]
+ },
+ {
+  "name": "Contaminated Power",
+  "source": "DungeonsDrakkenheim",
+  "entries": [
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "entries": [
+       {
+        "type": "entries",
+        "name": "Discovering the Spell.",
+        "entries": [
+         "A character who can cast 8th level spells, knows every other contaminated spell, and has cast each of them at least once can research contaminated power. {@note See {@adventure Appendix D|DungeonsDrakkenheim|13|Spells}.}"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Contamination Immunity",
+  "source": "DungeonsDrakkenheim",
+  "entries": [
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "entries": [
+       {
+        "type": "entries",
+        "name": "Researching the Spell.",
+        "entries": [
+         "A character who can cast 7th level spells, knows the {@spell neutralizing field|DungeonsDrakkenheim} spell, and who has visited the Delerium Heart can research contamination immunity. {@note See {@adventure Appendix D|DungeonsDrakkenheim|13|Spells}.}"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Elevated Sight",
+  "source": "HumblewoodCampaignSetting",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodCampaignSetting/spells/Elevated-Sight.webp"
+    },
+    "width": 451,
+    "height": 630
+   }
+  ]
+ },
+ {
+  "name": "Extract Iron",
+  "source": "GrimHollowPG24",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/GrimHollowPG24/Book/157-09-012.extract-iron.webp"
+    },
+    "credit": "Suzanne Helmigh",
+    "width": 850,
+    "height": 846
+   }
+  ]
+ },
+ {
+  "name": "Feathered Reach",
+  "source": "HumblewoodCampaignSetting",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodCampaignSetting/spells/Feathered-Reach.webp"
+    },
+    "width": 450,
+    "height": 641
+   }
+  ]
+ },
+ {
+  "name": "Fleshcrawl",
+  "source": "GrimHollowPG24",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/GrimHollowPG24/Book/158-09-003.tongue.webp"
+    },
+    "credit": "Suzanne Helmigh",
+    "width": 850,
+    "height": 299
+   }
+  ]
+ },
+ {
+  "name": "Globe of Twilight",
+  "source": "HumblewoodCampaignSetting",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodCampaignSetting/spells/Globe-of-Twilight.webp"
+    },
+    "width": 450,
+    "height": 701
+   }
+  ]
+ },
+ {
+  "name": "Greater Animate Dead",
+  "source": "GrimHollowPG24",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/GrimHollowPG24/Book/159-09-004.animate-undead.webp"
+    },
+    "credit": "Lilnda Lithen",
+    "width": 1700,
+    "height": 1103
+   }
+  ]
+ },
+ {
+  "name": "Gust Barrier",
+  "source": "HumblewoodCampaignSetting",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodCampaignSetting/spells/Gust-Barrier.webp"
+    },
+    "width": 450,
+    "height": 701
+   }
+  ]
+ },
+ {
+  "name": "Holy Word",
+  "source": "GrimHollowPG24",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/GrimHollowPG24/Book/160-09-013.holy-word.webp"
+    },
+    "credit": "Suzanne Helmigh",
+    "width": 850,
+    "height": 681
+   }
+  ]
+ },
+ {
+  "name": "Invoke the Amaranthine",
+  "source": "HumblewoodCampaignSetting",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodCampaignSetting/spells/Invoke-the-Amaranthine.webp"
+    },
+    "width": 450,
+    "height": 701
+   }
+  ]
+ },
+ {
+  "name": "Neutralizing Field",
+  "source": "DungeonsDrakkenheim",
+  "entries": [
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "entries": [
+       {
+        "type": "entries",
+        "name": "Discovering the Spell.",
+        "entries": [
+         "A character who can cast 5th level spells, knows the {@spell purge contamination|DungeonsDrakkenheim} spell, and has created at least 1 dose of aqua expurgo may research neutralizing field. {@note See {@adventure Appendix D|DungeonsDrakkenheim|13|Spells}.}"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Ride the Lightning",
+  "source": "GrimHollowPG24",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/GrimHollowPG24/Book/161-09-005.ride-the-lightning.webp"
+    },
+    "credit": "Wirawan Pranoto",
+    "width": 1700,
+    "height": 1058
+   }
+  ]
+ },
+ {
+  "name": "Sanguine Shield",
+  "source": "GrimHollowPG24",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/GrimHollowPG24/Book/162-09-006.sanguine-shield.webp"
+    },
+    "credit": "Daniel Correia",
+    "width": 1700,
+    "height": 1028
+   }
+  ]
+ },
+ {
+  "name": "Shape Plants",
+  "source": "HumblewoodCampaignSetting",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodCampaignSetting/spells/Shape-Plants.webp"
+    },
+    "width": 450,
+    "height": 701
+   }
+  ]
+ },
+ {
+  "name": "Siphon Contamination",
+  "source": "DungeonsDrakkenheim",
+  "entries": [
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "entries": [
+       {
+        "type": "entries",
+        "name": "Researching the Spell.",
+        "entries": [
+         "A character who can cast 6th level spells who knows the spells {@spell forced evolution|DungeonsDrakkenheim} and {@spell neutralizing field|DungeonsDrakkenheim}, and has witnessed another creature undergo a monstrous transformation may research siphon contamination. {@note See {@adventure Appendix D|DungeonsDrakkenheim|13|Spells}.}"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Spiny Shield",
+  "source": "HumblewoodCampaignSetting",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodCampaignSetting/spells/Spiny-Shield.webp"
+    },
+    "width": 450,
+    "height": 701
+   }
+  ]
+ },
+ {
+  "name": "Stellar Bodies",
+  "source": "HumblewoodCampaignSetting",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodCampaignSetting/spells/Stellar-Bodies.webp"
+    },
+    "width": 450,
+    "height": 701
+   }
+  ]
+ },
+ {
+  "name": "Summon Plant",
+  "source": "GrimHollowPG24",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/GrimHollowPG24/Book/163-09-007.rejuvenate.webp"
+    },
+    "credit": "Suzanne Helmigh",
+    "width": 850,
+    "height": 778
+   }
+  ]
+ },
+ {
+  "name": "Veil of Dusk",
+  "source": "HumblewoodCampaignSetting",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodCampaignSetting/spells/Veil-of-Dusk.webp"
+    },
+    "width": 450,
+    "height": 701
+   }
+  ]
+ },
+ {
+  "name": "Wall of Death",
+  "source": "IllriggerRevised",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/IllriggerRevised/spells/Wall of Death.webp"
+    },
+    "width": 1700,
+    "height": 908
+   }
+  ]
+ }
+]

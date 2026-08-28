@@ -210,6 +210,7 @@ function main() {
     collector.write('objects', 'object');
     collector.write('object-fluffs', 'objectFluff');
     collector.write('spells', 'spell');
+    collector.write('spell-fluffs', 'spellFluff');
     collector.write('classes', 'class');
     collector.write('spell-sources', 'spellSource');
     collector.write('skills', 'skill');

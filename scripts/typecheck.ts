@@ -116,6 +116,7 @@ check('objects', asserts.object);
 check('object-fluffs', asserts.fluff);
 check('skills', asserts.skill);
 check('spells', asserts.spell);
+check('spell-fluffs', asserts.fluff);
 check('spell-sources', asserts.spellSource);
 check('tables', asserts.table);
 check('traps', asserts.trap);

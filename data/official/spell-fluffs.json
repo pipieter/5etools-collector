@@ -1,0 +1,1412 @@
+[
+ {
+  "name": "Air Bubble",
+  "source": "AAG",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/AAG/Air Bubble.webp"
+    },
+    "credit": "Nikki Dawes",
+    "width": 677,
+    "height": 850
+   }
+  ]
+ },
+ {
+  "name": "Alustriel's Mooncloak",
+  "source": "FRHoF",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/FRHoF/Alustriel's Mooncloak.webp"
+    },
+    "credit": "Irina Nordsol",
+    "title": "Alustriel Silverhand uses her mooncloak to protect her allies.",
+    "width": 1700,
+    "height": 1197
+   }
+  ]
+ },
+ {
+  "name": "Animate Objects",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Animate Objects.webp"
+    },
+    "credit": "David Auden Nash",
+    "width": 850,
+    "height": 1413
+   }
+  ]
+ },
+ {
+  "name": "Armor of Agathys",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Armor of Agathys.webp"
+    },
+    "credit": "Tuan Duong Chu",
+    "width": 1976,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Arms of Hadar",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Arms of Hadar.webp"
+    },
+    "credit": "Tuan Duong Chu",
+    "width": 1976,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Ashardalon's Stride",
+  "source": "FTD",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/FTD/Ashardalon's Stride.webp"
+    },
+    "credit": "Rudy Siswanto",
+    "title": "Fire follows in the footsteps of a red dragon who has cast Ashardalon's stride.",
+    "width": 850,
+    "height": 954
+   }
+  ]
+ },
+ {
+  "name": "Barkskin",
+  "source": "PHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/PHB/Barkskin.webp"
+    },
+    "width": 377,
+    "height": 1000
+   }
+  ]
+ },
+ {
+  "name": "Bigby's Hand",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Bigby's Hand.webp"
+    },
+    "credit": "Brian Valeza",
+    "width": 2225,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Blade of Disaster",
+  "source": "FRHoF",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/FRHoF/Blade of Disaster.webp"
+    },
+    "credit": "Swatches Studio",
+    "title": "Presto casts the Blade of Disaster spell to fight off Venger.",
+    "width": 1700,
+    "height": 1197
+   }
+  ]
+ },
+ {
+  "name": "Burning Hands",
+  "source": "PHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/PHB/Burning Hands.webp"
+    },
+    "width": 377,
+    "height": 1000
+   }
+  ]
+ },
+ {
+  "name": "Chromatic Orb",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Chromatic Orb.webp"
+    },
+    "credit": "Zuzanna Wužyk",
+    "width": 2225,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Cloudkill",
+  "source": "PHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/PHB/Cloudkill.webp"
+    },
+    "width": 1000,
+    "height": 1375
+   }
+  ]
+ },
+ {
+  "name": "Cone of Cold",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Cone of Cold.webp"
+    },
+    "credit": "Randy Vargas",
+    "width": 2226,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Control Flames",
+  "source": "XGE",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XGE/Control Flames.webp"
+    },
+    "width": 1000,
+    "height": 686
+   }
+  ]
+ },
+ {
+  "name": "Control Weather",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Control Weather.webp"
+    },
+    "credit": "Alexandre Honoré",
+    "width": 2225,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Danse Macabre",
+  "source": "XGE",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XGE/Danse Macabre.webp"
+    },
+    "width": 1000,
+    "height": 668
+   }
+  ]
+ },
+ {
+  "name": "Dark Star",
+  "source": "EGW",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/EGW/Dark Star.webp"
+    },
+    "credit": "Axel Defois",
+    "width": 1496,
+    "height": 1000
+   }
+  ]
+ },
+ {
+  "name": "Daylight",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Daylight.webp"
+    },
+    "credit": "David Astruga",
+    "width": 2225,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Dimension Door",
+  "source": "PHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/PHB/Dimension Door.webp"
+    },
+    "width": 753,
+    "height": 1000
+   }
+  ]
+ },
+ {
+  "name": "Dispel Evil and Good",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Dispel Evil and Good.webp"
+    },
+    "credit": "Javier Charro",
+    "width": 2225,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Divine Smite",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Divine Smite.webp"
+    },
+    "credit": "Bryan Sola",
+    "width": 2226,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Dream of the Blue Veil",
+  "source": "TCE",
+  "entries": [
+   {
+    "type": "inset",
+    "name": "Traveling to Other Worlds",
+    "entries": [
+     "The Material Plane holds an infinite number of worlds. Some—like Oerth, Toril, Krynn, and Eberron—are well documented, but there are countless others. You and your friends may even have created some homemade D&D worlds yourselves!",
+     "It was not always so. Various scholars speak of a primordial state, a single reality they call the First World, which preceded the multiverse as we know it. Many of the peoples and monsters that inhabit the worlds in the Material Plane originated there. After the First World was shattered by a great cataclysm—giving birth to the worlds that came in its wake—the progeny of the first elves, dwarves, beholders, and other iconic creatures took root on world after world, like seeds scattered by a cosmic wind. If the musings of these great sages are true, every world is a reflection—and in some cases, a distortion—of the First World.",
+     "Transit between these worlds is rare but not impossible and can be accomplished in various ways. One such method is called the Great Journey, an epic voyage fraught with peril and littered with obstacles to be overcome. This journey most often occurs aboard a vessel powered by magic.",
+     "Another method is the Dream of Other Worlds; travelers fall into a deep slumber and dream themselves into a new realm. The spell {@spell dream of the blue veil|TCE} employs this method of transit.",
+     "The most direct method is the Leap to Another Realm; a spellcaster casts {@spell teleportation circle} or {@spell teleport}, aiming to appear in a known teleportation circle or some other location in another world.",
+     "Whatever method you use to reach a world, the DM determines whether you succeed and where exactly you appear if you do arrive in that realm."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Druidcraft",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Druidcraft.webp"
+    },
+    "credit": "Olga Drebas",
+    "width": 1093,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Elminster's Effulgent Spheres",
+  "source": "FRHoF",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/FRHoF/Elminster's Effulgent Spheres.webp"
+    },
+    "credit": "Borja Pindado",
+    "title": "Elminster's Effulgent Spheres can be used to both attack and defend.",
+    "width": 1700,
+    "height": 1090
+   }
+  ]
+ },
+ {
+  "name": "Encode Thoughts",
+  "source": "GGR",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/GGR/Encode Thoughts.webp"
+    },
+    "credit": "Clint Cearley",
+    "width": 2036,
+    "height": 1725
+   }
+  ]
+ },
+ {
+  "name": "Entangle",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Entangle.webp"
+    },
+    "credit": "Brian Valeza",
+    "width": 2225,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Erupting Earth",
+  "source": "XGE",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XGE/Erupting Earth.webp"
+    },
+    "width": 1000,
+    "height": 686
+   }
+  ]
+ },
+ {
+  "name": "Evard's Black Tentacles",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Evard's Black Tentacles.webp"
+    },
+    "credit": "Craig J Spearing",
+    "width": 2225,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Find Familiar",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Find Familiar.webp"
+    },
+    "credit": "Brian Valeza",
+    "width": 1501,
+    "height": 1131
+   }
+  ]
+ },
+ {
+  "name": "Find Greater Steed",
+  "source": "XGE",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XGE/Find Greater Steed.webp"
+    },
+    "width": 1000,
+    "height": 638
+   }
+  ]
+ },
+ {
+  "name": "Fireball",
+  "source": "PHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/PHB/Fireball.webp"
+    },
+    "width": 449,
+    "height": 1000
+   }
+  ]
+ },
+ {
+  "name": "Fireball",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Fireball.webp"
+    },
+    "credit": "Yuhong Ding",
+    "width": 2226,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Gate",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Gate.webp"
+    },
+    "credit": "Michele Giorgi",
+    "width": 2225,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Guardian of Faith",
+  "source": "PHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/PHB/Guardian of Faith.webp"
+    },
+    "width": 750,
+    "height": 1000
+   }
+  ]
+ },
+ {
+  "name": "Guardian of Faith",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Guardian of Faith.webp"
+    },
+    "credit": "Rina Nordsol",
+    "width": 2226,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Heroes' Feast",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Heroes' Feast.webp"
+    },
+    "credit": "Raluca Marinescu",
+    "width": 1700,
+    "height": 1073
+   }
+  ]
+ },
+ {
+  "name": "Hunger of Hadar",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Hunger of Hadar.webp"
+    },
+    "credit": "Joseph Weston",
+    "width": 2226,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Ice Knife",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Ice Knife.webp"
+    },
+    "credit": "Calder Moore",
+    "width": 696,
+    "height": 821
+   }
+  ]
+ },
+ {
+  "name": "Infernal Calling",
+  "source": "XGE",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XGE/Infernal Calling.webp"
+    },
+    "width": 1000,
+    "height": 668
+   }
+  ]
+ },
+ {
+  "name": "Insect Plague",
+  "source": "PHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/PHB/Insect Plague.webp"
+    },
+    "width": 449,
+    "height": 1000
+   }
+  ]
+ },
+ {
+  "name": "Intellect Fortress",
+  "source": "TCE",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/TCE/Intellect Fortress.webp"
+    },
+    "credit": "Irina Nordsol",
+    "width": 1200,
+    "height": 802
+   }
+  ]
+ },
+ {
+  "name": "Jallarzi's Storm of Radiance",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Jallarzi's Storm of Radiance.webp"
+    },
+    "credit": "Joseph Weston",
+    "width": 2226,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Lesser Restoration",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Lesser Restoration.webp"
+    },
+    "credit": "Martin Mottet",
+    "width": 2225,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Mage Armor",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Mage Armor.webp"
+    },
+    "credit": "Aaron J. Riley",
+    "width": 2040,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Magic Missile",
+  "source": "PHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/PHB/Magic Missile.webp"
+    },
+    "width": 1359,
+    "height": 1700
+   }
+  ]
+ },
+ {
+  "name": "Magic Missile",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Magic Missile.webp"
+    },
+    "credit": "Aaron J. Riley",
+    "width": 2040,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Melf's Acid Arrow",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Melf's Acid Arrow.webp"
+    },
+    "credit": "Martin Mottet",
+    "width": 2225,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Mighty Fortress",
+  "source": "XGE",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XGE/Mighty Fortress.webp"
+    },
+    "width": 1000,
+    "height": 627
+   }
+  ]
+ },
+ {
+  "name": "Mind Sliver",
+  "source": "TCE",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/TCE/Mind Sliver.webp"
+    },
+    "credit": "Andrew Mar",
+    "width": 1200,
+    "height": 800
+   }
+  ]
+ },
+ {
+  "name": "Mordenkainen's Magnificent Mansion",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Mordenkainen's Magnificent Mansion.webp"
+    },
+    "credit": "Helge C. Balzer",
+    "width": 2226,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Mordenkainen's Sword",
+  "source": "PHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/PHB/Mordenkainen's Sword.webp"
+    },
+    "width": 449,
+    "height": 1000
+   }
+  ]
+ },
+ {
+  "name": "Phantom Steed",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Phantom Steed.webp"
+    },
+    "credit": "Nikki Dawes",
+    "width": 1304,
+    "height": 1339
+   }
+  ]
+ },
+ {
+  "name": "Prismatic Spray",
+  "source": "PHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/PHB/Prismatic Spray.webp"
+    },
+    "width": 729,
+    "height": 1000
+   }
+  ]
+ },
+ {
+  "name": "Programmed Illusion",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Programmed Illusion.webp"
+    },
+    "credit": "Justine Cruz",
+    "width": 1021,
+    "height": 787
+   }
+  ]
+ },
+ {
+  "name": "Raise Dead",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Raise Dead.webp"
+    },
+    "credit": "Polar Engine",
+    "width": 2225,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Reality Break",
+  "source": "EGW",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/EGW/Reality Break.webp"
+    },
+    "credit": "Brian Valeza",
+    "width": 1496,
+    "height": 1000
+   }
+  ]
+ },
+ {
+  "name": "Rime's Binding Ice",
+  "source": "FTD",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/FTD/Rime's Binding Ice.webp"
+    },
+    "credit": "Billy Christian",
+    "title": "Rime's binding ice adds insult to injury in the hands of a spellcasting white dragon.",
+    "width": 1700,
+    "height": 1122
+   }
+  ]
+ },
+ {
+  "name": "Sacred Flame",
+  "source": "PHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/PHB/Sacred Flame.webp"
+    },
+    "width": 449,
+    "height": 1000
+   }
+  ]
+ },
+ {
+  "name": "Scrying",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Scrying.webp"
+    },
+    "credit": "Gaboleps",
+    "width": 2225,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Shadow Blade",
+  "source": "XGE",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XGE/Shadow Blade.webp"
+    },
+    "width": 742,
+    "height": 1000
+   }
+  ]
+ },
+ {
+  "name": "Shapechange",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Shapechange.webp"
+    },
+    "credit": "Michael Broussard",
+    "width": 2225,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Silent Image",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Silent Image.webp"
+    },
+    "credit": "Calder Moore",
+    "width": 850,
+    "height": 1055
+   }
+  ]
+ },
+ {
+  "name": "Songal's Elemental Suffusion",
+  "source": "FRHoF",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/FRHoF/Songal's Elemental Suffusion.webp"
+    },
+    "credit": "Tneh Keong",
+    "title": "Sultana Songal has suffused herself with the elemental power of genies.",
+    "width": 850,
+    "height": 2085
+   }
+  ]
+ },
+ {
+  "name": "Speak with Animals",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Speak with Animals.webp"
+    },
+    "credit": "Jesper Ejsing",
+    "width": 850,
+    "height": 603
+   }
+  ]
+ },
+ {
+  "name": "Spiritual Weapon",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Spiritual Weapon.webp"
+    },
+    "credit": "Justine Cruz",
+    "width": 2225,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Storm Sphere",
+  "source": "XGE",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XGE/Storm Sphere.webp"
+    },
+    "width": 1000,
+    "height": 668
+   }
+  ]
+ },
+ {
+  "name": "Summon Aberration",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Summon Aberration.webp"
+    },
+    "credit": "Justine Cruz",
+    "width": 850,
+    "height": 624
+   }
+  ]
+ },
+ {
+  "name": "Summon Celestial",
+  "source": "TCE",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/TCE/Summon Celestial.webp"
+    },
+    "credit": "Brian Valeza",
+    "width": 1200,
+    "height": 800
+   }
+  ]
+ },
+ {
+  "name": "Summon Celestial",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Summon Celestial.webp"
+    },
+    "credit": "Eric Belisle",
+    "width": 850,
+    "height": 988
+   }
+  ]
+ },
+ {
+  "name": "Summon Construct",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Summon Construct.webp"
+    },
+    "credit": "Hector Ortiz",
+    "width": 850,
+    "height": 1241
+   }
+  ]
+ },
+ {
+  "name": "Summon Dragon",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Summon Dragon.webp"
+    },
+    "credit": "Polar Engine",
+    "width": 850,
+    "height": 1059
+   }
+  ]
+ },
+ {
+  "name": "Summon Fey",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Summon Fey.webp"
+    },
+    "credit": "Joseph Weston",
+    "width": 2225,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Summon Fiend",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Summon Fiend.webp"
+    },
+    "credit": "Alexandre Honore",
+    "width": 850,
+    "height": 872
+   }
+  ]
+ },
+ {
+  "name": "Summon Shadowspawn",
+  "source": "TCE",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/TCE/Summon Shadowspawn.webp"
+    },
+    "credit": "Svetlin Velinov",
+    "width": 1200,
+    "height": 807
+   }
+  ]
+ },
+ {
+  "name": "Summon Undead",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Summon Undead.webp"
+    },
+    "credit": "Ustin Sweet",
+    "width": 850,
+    "height": 1300
+   }
+  ]
+ },
+ {
+  "name": "Tasha's Bubbling Cauldron",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Tasha's Bubbling Cauldron.webp"
+    },
+    "credit": "Linda Lithen",
+    "width": 2225,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Tasha's Mind Whip",
+  "source": "TCE",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/TCE/Tasha's Mind Whip.webp"
+    },
+    "credit": "Eric Belisle",
+    "width": 1200,
+    "height": 800
+   }
+  ]
+ },
+ {
+  "name": "Tenser's Floating Disk",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Tenser's Floating Disk.webp"
+    },
+    "credit": "Ralph Horsley",
+    "width": 2225,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Tiny Servant",
+  "source": "XGE",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XGE/Tiny Servant.webp"
+    },
+    "width": 721,
+    "height": 1000
+   }
+  ]
+ },
+ {
+  "name": "Transport via Plants",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Transport via Plants.webp"
+    },
+    "credit": "Rob Alexander",
+    "width": 2400,
+    "height": 1086
+   }
+  ]
+ },
+ {
+  "name": "Tree Stride",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Tree Stride.webp"
+    },
+    "credit": "Rob Alexander",
+    "width": 2400,
+    "height": 1086
+   }
+  ]
+ },
+ {
+  "name": "Vicious Mockery",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Vicious Mockery.webp"
+    },
+    "credit": "Igor Grechanyi",
+    "width": 2225,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Vitriolic Sphere",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Vitriolic Sphere.webp"
+    },
+    "credit": "Ignatius Budi",
+    "width": 2225,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Water Breathing",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Water Breathing.webp"
+    },
+    "credit": "Andrew Mar",
+    "width": 1152,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Water Walk",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Water Walk.webp"
+    },
+    "credit": "Andrew Mar",
+    "width": 1152,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Web",
+  "source": "PHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/PHB/Web.webp"
+    },
+    "width": 739,
+    "height": 1000
+   }
+  ]
+ },
+ {
+  "name": "Whirlwind",
+  "source": "XGE",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XGE/Whirlwind.webp"
+    },
+    "width": 1000,
+    "height": 806
+   }
+  ]
+ },
+ {
+  "name": "Witch Bolt",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Witch Bolt.webp"
+    },
+    "credit": "Helge C. Balzer",
+    "width": 2226,
+    "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Yolande's Regal Presence",
+  "source": "XPHB",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/XPHB/Yolande's Regal Presence.webp"
+    },
+    "credit": "April Prime",
+    "width": 2037,
+    "height": 1440
+   }
+  ]
+ }
+]
