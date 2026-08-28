@@ -198,6 +198,7 @@ function main() {
     collector.write('condition-fluffs', 'conditionFluff');
     collector.write('cults', 'cult');
     collector.write('diseases', 'disease');
+    collector.write('disease-fluffs', 'diseaseFluff');
     collector.write('deities', 'deity');
     collector.write('feats', 'feat');
     collector.write('hazards', 'hazard');
