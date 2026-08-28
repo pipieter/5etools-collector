@@ -1,0 +1,4270 @@
+[
+ {
+  "name": "Agony",
+  "source": "TalDoreiCampaignSettingReborn",
+  "page": 202,
+  "baseItem": "flail|PHB",
+  "type": "M",
+  "rarity": "legendary",
+  "reqAttune": "by a creature of non-good alignment",
+  "reqAttuneTags": [
+   {
+    "alignment": [
+     "N",
+     "E",
+     "C",
+     "L",
+     "A"
+    ]
+   }
+  ],
+  "weight": 2,
+  "weaponCategory": "martial",
+  "property": [
+   "Vst|EGW"
+  ],
+  "dmg1": "1d8",
+  "dmgType": "B",
+  "bonusWeapon": "+2",
+  "entries": [
+   "Utilized in countless tortures and slow executions, the hooked chains of this brutal weapon constantly show dried blood and rot. Legend says that Agony was wielded in the {@book Calamity|TalDoreiCampaignSettingReborn|1|The Calamity} by the gnoll scion of a flesh-eating Demon Lord."
+  ],
+  "items": [
+   "Agony (Dormant)|TalDoreiCampaignSettingReborn",
+   "Agony (Awakened)|TalDoreiCampaignSettingReborn",
+   "Agony (Exalted)|TalDoreiCampaignSettingReborn"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Arm of the Grey Knight",
+  "source": "HelianasGuidetoMonsterHunting",
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "entries": [
+   "{@i Component: undead arm of the grey knight}",
+   "A shining beacon of tenacity and unwavering resolve, this amputated arm fights on with the strength of many men no matter how many times it's cut down or crushed into a pulp. Stubborn to a fault, it refuses to listen to anyone but the creature attuned to it, and occasionally makes rude gestures at passersby behind its owner's back, attempting to goad them into a fight.",
+   {
+    "type": "item",
+    "name": "Helping Hand",
+    "entries": [
+     "The arm is an object with AC 14 and 20 hit points. If it's ever more than 30 feet away from you, it moves 20 feet towards you at the start of each of your turns by crawling along the ground. As a bonus action, you can command it to move up to 20 feet and perform one of the following tasks:",
+     {
+      "type": "list",
+      "items": [
+       "The arm manipulates an object in the same way as the {@spell mage hand} cantrip.",
+       "The arm punches a creature within 5 feet of it, making an attack roll against it (+5 to hit) and dealing 1d6 + 3 bludgeoning damage on a hit.",
+       "The arm attempts to grab a creature within 5 feet of it, which must make a DC 13 Dexterity saving throw. On a failed save, the arm latches on to it, reducing its speed by 10 feet. A creature can use its action to make a DC 13 Strength check, pulling the arm off of it or a creature within its reach on a success. The arm can't perform other tasks while holding onto a creature."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Just a Flesh Wound",
+    "entries": [
+     "If the arm is reduced to 0 hit points, it can't move or be commanded, but its remarkable resilience and regenerative abilities ensure that this doesn't last for long. The arm recovers all its hit points after 1d4 hours. A spellcaster can also use an action to touch the arm and spend a spell slot of any level to cause the arm to recover all of its hit points."
+    ]
+   }
+  ],
+  "items": [
+   "Arm of the Grey Knight (uncommon)|HelianasGuidetoMonsterHunting",
+   "Arm of the Grey Knight (rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Armor of the Valiant Soul",
+  "source": "TalDoreiCampaignSettingReborn",
+  "page": 202,
+  "baseItem": "scale mail|PHB",
+  "type": "MA",
+  "immune": [
+   "acid"
+  ],
+  "resist": [
+   "acid"
+  ],
+  "conditionImmune": [
+   "frightened"
+  ],
+  "rarity": "legendary",
+  "reqAttune": true,
+  "weight": 45,
+  "property": [
+   "Vst|EGW"
+  ],
+  "ac": 14,
+  "bonusAc": "+1",
+  "stealth": true,
+  "entries": [
+   "This antique armor forged from jade and black dragon scales was once worn by J'mon Sa Ord of {@book Ank'Harel|TalDoreiCampaignSettingReborn|3|Marquet}."
+  ],
+  "items": [
+   "Armor of the Valiant Soul (Dormant)|TalDoreiCampaignSettingReborn",
+   "Armor of the Valiant Soul (Awakened)|TalDoreiCampaignSettingReborn",
+   "Armor of the Valiant Soul (Exalted)|TalDoreiCampaignSettingReborn"
+  ],
+  "attachedSpells": {
+   "daily": {
+    "1e": [
+     "command"
+    ]
+   }
+  },
+  "hasFluffImages": true
+ },
+ {
+  "name": "Astral Luggage",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 476,
+  "rarity": "varies",
+  "reqAttune": "optional",
+  "wondrous": true,
+  "entries": [
+   "This luggage contains a filtered portal to the edges of the Astral Plane, specifically the areas where beings from The Anomalies slink from their far-away plane to the timeless astral expanse. As such, you don't use the astral luggage as actual luggage, not unless you want to lose it.",
+   {
+    "type": "item",
+    "name": "Portal",
+    "entries": [
+     "The astral luggage can be opened to a two-foot-by-one-foot opening. This opening repels creatures, prohibiting their entry, but any object you place inside the luggage floats off into the Astral Plane."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Optional Attunement",
+    "entries": [
+     "Attuning to this item enhances some of the Special Fastenings properties."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Special Fastenings",
+    "entries": [
+     "On the luggage are several special buckles, zips, or clips, which you can unfasten to cause magical effects. Once you unfasten a fastening, it can't be unfastened again until the next dawn, at which point it reseals itself. If a save DC is required, use {@dc 13}. You gain the following action options:",
+     {
+      "type": "list",
+      "items": [
+       {
+        "type": "item",
+        "name": "Ebony Clasp",
+        "entries": [
+         "As an action, you can unfasten the clasp and throw the luggage at a point you can see within {@b 30 feet} of you, where it instantly opens, spewing squirming ebony tentacles in a {@b 20-foot} square. This area becomes affected by the {@spell black tentacles} spell for {@b 1 minute} (no concentration required). If you are attuned to the luggage, you are immune to this spell's effects. When the spell ends, the tentacles disappear and the luggage closes."
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "items": [
+   "Astral Luggage (uncommon)|HelianasGuidetoMonsterHunting",
+   "Astral Luggage (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Axe of the Galloping Headsman",
+  "source": "CrookedMoon24",
+  "page": 595,
+  "baseItem": "battleaxe|xphb",
+  "type": "M|XPHB",
+  "typeAlt": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "weight": 4,
+  "weaponCategory": "martial",
+  "property": [
+   "TCM'24:FH"
+  ],
+  "entries": [
+   "This axe has a wickedly curved head, honed to a razor's edge and lined with dark fire. It's handle is wrapped in cracked leather, and the entirety is etched with malevolent runes.",
+   "You gain a bonus to attack rolls and damage rolls made with this magic weapon determined by the axe's rarity."
+  ],
+  "items": [
+   "Axe of the Galloping Headsman (Rare)|CrookedMoon24",
+   "Axe of the Galloping Headsman (Very Rare)|CrookedMoon24",
+   "Axe of the Galloping Headsman (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Axe%20of%20the%20Galloping%20Headsman.webp"
+     },
+     "width": 571,
+     "height": 1200,
+     "credit": "Eugenio Frosali"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Banjo of Ol' Jericho Sticks",
+  "source": "CrookedMoon24",
+  "page": 595,
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "property": [
+   "TCM'24:FH"
+  ],
+  "focus": true,
+  "entries": [
+   "An old, weathered banjo inscribed with runes, this instrument once belonged to Ol' Jericho Sticks, a scarecrow bard created by a hag coven.",
+   "While holding the banjo, you can use it as a {@variantrule Spellcasting Focus|XPHB} for your spells; you gain a bonus determined by its rarity to spell attack rolls, your spell save DC, and Charisma ({@skill Performance|XPHB}) checks."
+  ],
+  "items": [
+   "Banjo of Ol' Jericho Sticks (Rare)|CrookedMoon24",
+   "Banjo of Ol' Jericho Sticks (Very Rare)|CrookedMoon24",
+   "Banjo of Ol' Jericho Sticks (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Banjo%20of%20Ol%20Jericho%20Sticks.webp"
+     },
+     "width": 1103,
+     "height": 1200,
+     "credit": "Eugenio Frosali"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Bell of the Dusk Mother",
+  "source": "CrookedMoon24",
+  "page": 596,
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "property": [
+   "TCM'24:FH"
+  ],
+  "focus": true,
+  "entries": [
+   "This heavy iron handbell is elaborately decorated with filigree. Its handle is a large ring, and its clapper hangs from a chain within. Its only sound is ever-mournful tolling.",
+   "While holding the bell, you can use it as a {@variantrule Spellcasting Focus|XPHB} for your spells, you gain a bonus to spell attack rolls and your spell save DC determined by its rarity."
+  ],
+  "items": [
+   "Bell of the Dusk Mother (Rare)|CrookedMoon24",
+   "Bell of the Dusk Mother (Very Rare)|CrookedMoon24",
+   "Bell of the Dusk Mother (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Bell%20of%20the%20Dusk%20Mother.webp"
+     },
+     "width": 1022,
+     "height": 1200,
+     "credit": "Matthew Spencer"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Bird of a Feather",
+  "source": "24GriffonsSaddlebag1",
+  "rarity": "varies",
+  "wondrous": true,
+  "type": "GV|XDMG",
+  "items": [
+   "Bird of a Feather (Common)|24GriffonsSaddlebag1",
+   "Bird of a Feather (Uncommon)|24GriffonsSaddlebag1"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/TGS1/Bird-of-a-Feather.webp"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "Blast Disk",
+  "source": "ExploringEberron24",
+  "rarity": "varies",
+  "wondrous": true,
+  "entries": [],
+  "items": [
+   "Blast Disk (Common)|ExploringEberron24",
+   "Blast Disk (Uncommon)|ExploringEberron24",
+   "Blast Disk (Rare)|ExploringEberron24"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Blunderbuss of the Grinning Sinner",
+  "source": "CrookedMoon24",
+  "page": 596,
+  "baseItem": "musket|xphb",
+  "type": "R|XPHB",
+  "typeAlt": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "weight": 10,
+  "weaponCategory": "martial",
+  "property": [
+   "TCM'24:FH"
+  ],
+  "firearm": true,
+  "entries": [
+   "This dark, ornate blunderbuss has a brass barrel and a wooden handle etched with arcane symbols. It was the Grinning Sinner's weapon of choice, who imbued it with the power to shoot jinxes and hexes.",
+   "The blunderbuss functions as a {@item Musket|XPHB} that ignores {@itemProperty LD|XPHB|Loading}, and it can make its own ammunition that deals Necrotic damage on a hit. You gain a bonus to attack rolls and damage rolls made with it determined by the blunderbuss's rarity. While holding the blunderbuss, you can use the blunderbuss as a {@variantrule Spellcasting Focus|XPHB} for your spells."
+  ],
+  "items": [
+   "Blunderbuss of the Grinning Sinner (Rare)|CrookedMoon24",
+   "Blunderbuss of the Grinning Sinner (Very Rare)|CrookedMoon24",
+   "Blunderbuss of the Grinning Sinner (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Blunderbuss%20of%20the%20Grinning%20Sinner.webp"
+     },
+     "width": 1200,
+     "height": 730,
+     "credit": "Eugenio Frosali"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Bomboozler",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 441,
+  "rarity": "varies",
+  "wondrous": true,
+  "recharge": "dawn",
+  "entries": [
+   "Within this sturdy, corrosion-resistant polyhedron is a {@i phial of ooze acid}; a caustic substance with remarkable powers of biological alteration.",
+   {
+    "type": "item",
+    "name": "Caustic Calamity",
+    "entries": [
+     "As an action, you can press a button on the polyhedron, crushing the phial, and then toss the device up to {@b 60 feet} away. The resulting chemical reaction produces an explosion of acid in a {@b 20-foot} radius. Each creature in the area must make a {@dc 15} Dexterity saving throw, taking {@damage 4d6} acid damage on a failed save, or half as much damage on a successful one. In addition, the reaction produces unpredictable biomantic effects on a failed saving throw. Roll a d10 and consult the table below to determine the effect. If a creature comes under an effect lasting 1 minute, it can make a {@dc 15} Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.",
+     {
+      "type": "table",
+      "colLabels": [
+       "d10",
+       "Effect"
+      ],
+      "colStyles": [
+       "col-1 text-center",
+       "col-11"
+      ],
+      "rows": [
+       [
+        "1",
+        "The acid stops regeneration and healing. The creature can't regain hit points for 1 minute."
+       ],
+       [
+        "2",
+        "The acid coats creatures, dissolving them. The creature takes {@damage 2d6} acid damage at the start of each of its turns for 1 minute."
+       ],
+       [
+        "3",
+        "Parts of creatures' bodies meld together. The creature has disadvantage on attack rolls for 1 minute."
+       ],
+       [
+        "4",
+        "The acid fuses feet and footwear to the ground. The creature is {@condition restrained} until the end of your next turn."
+       ],
+       [
+        "5",
+        "The acid fuses the eyelids shut. The creature is {@condition blinded} until the end of your next turn."
+       ],
+       [
+        "6",
+        "The acid causes creatures' skin to become phosphorescent. The creature is under the effect of the {@spell faerie fire} spell for 1 minute."
+       ],
+       [
+        "7",
+        "The acid causes growths to appear and disappear on creatures' bodies, hindering their actions. The creature is under the effect of the {@spell bane} spell for 1 minute."
+       ],
+       [
+        "8",
+        "The acid causes creatures to shrink. The creature is under the reduce effect of the {@spell enlarge/reduce} spell for 1 minute."
+       ],
+       [
+        "9",
+        "The acid fuses mouths shut. The creature is under the effect of the {@spell zippit!|HelianasGuidetoMonsterHunting} spell for 1 minute."
+       ],
+       [
+        "10",
+        "Roll twice on the table, rerolling any further 10s and duplicate results."
+       ]
+      ]
+     },
+     "Once this property of the item has been used, it can't be used again until the next dawn and a new {@i phial of ooze acid} has been installed in the device."
+    ]
+   }
+  ],
+  "items": [
+   "Bomboozler (rare)|HelianasGuidetoMonsterHunting",
+   "Bomboozler (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Bonze's Bokken, Wind Ripper",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 447,
+  "type": "GV|DMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "recharge": "dawn",
+  "rechargeAmount": "{@dice 1d4 + 1}",
+  "charges": 5,
+  "entries": [
+   "Hermits of the Springwood, the bonze have as much in common with a druid's love of nature as with the discipline and ritual of the monk. They do not deign to shed the blood of other creatures and thus imbue their training swords, known as bokken, with the power to propel them out of harm's way. The thunderous wind rip is really just a tool for releasing hard-to-reach fruit.",
+   "This magic weapon has {@b 5 charges} and regains {@dice 1d4 + 1} expended charges daily at dawn. It deals bludgeoning damage instead of a sword's normal slashing or piercing damage.",
+   {
+    "type": "item",
+    "name": "Gale",
+    "entries": [
+     "As an action, you can cause a cube of air up to {@b 15 feet} on a side to blow with a strong wind until the end of your next turn, dispersing any gasses."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Wind Rip",
+    "entries": [
+     "With a swish, you can send a concussive wave of sound streaking towards a target. When you take the Attack action while holding this blade, you can make ranged spell attacks known as 'wind rips' with the bokken. Wind rips have a range of {@b 30/60 ft.}, {@hit 7} to hit, deal {@damage 1d10} thunder damage on a hit, and can be heard up to {@b 100 feet} away. On a critical hit, a creature is deafened until the end of its next turn. You can make as many wind rips as you have attacks."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Liftoff",
+    "entries": [
+     "As a bonus action, you can expend 1 charge, causing a sustained gust to lift you. Until the end of your current turn, you gain a flying speed of {@b 40 feet}. If you are not in contact with the ground or otherwise held aloft at the end of your turn, you fall."
+    ]
+   }
+  ],
+  "items": [
+   "Bonze's Bokken, Wind Ripper (uncommon)|HelianasGuidetoMonsterHunting",
+   "Bonze's Bokken, Wind Ripper (rare)|HelianasGuidetoMonsterHunting",
+   "Bonze's Bokken, Wind Ripper (very rare)|HelianasGuidetoMonsterHunting",
+   "Bonze's Bokken, Wind Ripper (legendary)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Breastplank",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 453,
+  "type": "MA",
+  "rarity": "varies",
+  "reqAttune": true,
+  "entries": [
+   "The mundane appearance of this suit of armour belies the danger of its true nature. The wood feels soft and sticky to the touch, and eyes and teeth spontaneously form all over its surface as the mimic grows bolder... and hungrier.",
+   {
+    "type": "item",
+    "name": "Sticky Situation",
+    "entries": [
+     "While you're wearing this armour, creatures have disadvantage on ability checks made to avoid or escape being grappled by you. A creature grappled by you takes {@damage 1d10} acid damage at the start of each of its turns."
+    ]
+   }
+  ],
+  "items": [
+   "Breastplank (uncommon)|HelianasGuidetoMonsterHunting",
+   "Breastplank (rare)|HelianasGuidetoMonsterHunting",
+   "Breastplank (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Broodmother's Embrace",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 470,
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "modifySpeed": {
+   "static": {
+    "swim": 40
+   }
+  },
+  "recharge": "dawn",
+  "rechargeAmount": 1,
+  "charges": 1,
+  "entries": [
+   "This thick, rubbery overcoat sports several writhing tentacles that can biomantically fuse with their wearer, acting as gills, propulsion, and a formidable, concealed weapon. When in danger, the coat can encapsulate you in a protective chrysalis, nourishing you with stored regenerative mucous.",
+   "While wearing the coat underwater, tentacles wrap around your throat, fusing with your vascular system and allowing you to breathe underwater. The tentacles also propel you, giving you a swimming speed of {@b 40 feet}.",
+   {
+    "type": "item",
+    "name": "Tentacle Lash",
+    "entries": [
+     "As an action, you can make a melee spell attack ({@hit +7} to hit) against a creature within {@b 10 feet} of you. On a hit, the creature takes {@damage 3d8} bludgeoning damage, and, if it is Medium or smaller, must make a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Chrysalis",
+    "entries": [
+     "You can use an action to cause the coat to expand and harden, encasing you in a regenerative, chitinous casing which grants you {@h 20} temporary hit points. While encased, your speed is reduced to {@b 0 feet}, you can't take actions or reactions (except the action to emerge from the chrysalis), and you regain {@dice 2d6} hit points at the start of each of your turns. You can regain no more than 30 hit points in this way while encased. These effects end when the temporary hit points are lost, after {@b 1 minute}, or when you decide to emerge from the chrysalis as an action, whichever comes first. After you activate this property, you can't do so again until the next dawn."
+    ]
+   }
+  ],
+  "items": [
+   "Broodmother's Embrace (rare)|HelianasGuidetoMonsterHunting",
+   "Broodmother's Embrace (very rare)|HelianasGuidetoMonsterHunting",
+   "Broodmother's Embrace (legendary)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Broodslinger",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 472,
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "recharge": "restShort",
+  "charges": 10,
+  "entries": [
+   "Known fondly by L'Arsène as Ling's Bane, this forearm-mounted symbiote represents the conquering of the incredibly infectious broodmother strain of aboleths. This blind broodling has been altered to feed off of its host's nutrients, generating powerfully acidic mucous. A small note attached to one tentacle reads:",
+   {
+    "type": "quote",
+    "entries": [
+     "Upin Enterprises accepts no responsibility for enslavement caused by accidental generation of new aboleths caused by this item."
+    ]
+   },
+   "This magic item can hold a maximum of 10 charges. Whenever you finish a short or long rest, you can expend any number of Hit Dice to charge the broodslinger. For each Hit Die spent in this way, roll each die and add your Constitution modifier. The broodslinger regains a number of charges equal to the total.",
+   {
+    "type": "item",
+    "name": "Spikes",
+    "entries": [
+     "Your unarmed strikes deal 1 additional piercing damage on a hit."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Mucous Spit",
+    "entries": [
+     "As an action, you can cause the broodslinger to spit a globule of acidic mucous at a target within 60 feet of you. Make a ranged spell attack (+5 to hit). On a hit, the target takes 2d6 acid damage. You can expend charges immediately before making the attack roll to enhance the mucous in the following way (no action required):",
+     {
+      "type": "item",
+      "name": "Splashing Mucous (1 Charge)",
+      "entries": [
+       "Hit or miss, acid splashes onto adjacent creatures. The target, and each creature within 5 feet of the target, must succeed on a DC 13 Dexterity saving throw or take 1d4 acid damage."
+      ]
+     }
+    ]
+   }
+  ],
+  "items": [
+   "Broodslinger (uncommon)|HelianasGuidetoMonsterHunting",
+   "Broodslinger (rare)|HelianasGuidetoMonsterHunting",
+   "Broodslinger (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Cabal's Ruin",
+  "source": "TalDoreiCampaignSettingReborn",
+  "page": 203,
+  "rarity": "legendary",
+  "reqAttune": true,
+  "wondrous": true,
+  "property": [
+   "Vst|EGW"
+  ],
+  "recharge": "restShort",
+  "charges": 4,
+  "entries": [
+   "This cloak is made of heavy dark cloth trimmed with golden patterns, and occasionally shimmers with sparks of arcane energy. It was once worn by the famed gunslinger {@creature Percival de Rolo|TalDoreiCampaignSettingReborn|Percival Fredrickstein von Musel Klossowski de Rolo III of Whitestone}."
+  ],
+  "items": [
+   "Cabal's Ruin (Dormant)|TalDoreiCampaignSettingReborn",
+   "Cabal's Ruin (Awakened)|TalDoreiCampaignSettingReborn",
+   "Cabal's Ruin (Exalted)|TalDoreiCampaignSettingReborn"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Cane of Phillip Druskenvald",
+  "source": "CrookedMoon24",
+  "page": 597,
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "property": [
+   "TCM'24:FH"
+  ],
+  "focus": true,
+  "entries": [
+   "This ornate cane is made from polished black wood and is topped with a silver goat-skull ornament. Even a glance at it sparks greed and envy in all but the truly humble.",
+   "While holding the cane, you can use it as a {@variantrule Spellcasting Focus|XPHB} for your spells, you gain a bonus to spell attack rolls and your spell save DC determined by the cane's rarity."
+  ],
+  "items": [
+   "Cane of Phillip Druskenvald (Rare)|CrookedMoon24",
+   "Cane of Phillip Druskenvald (Very Rare)|CrookedMoon24",
+   "Cane of Phillip Druskenvald (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Cane%20of%20Phillip%20Druskenvald.webp"
+     },
+     "width": 350,
+     "height": 1200,
+     "credit": "Eugenio Frosali"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Cauldron of the Vermintoll Coven",
+  "source": "CrookedMoon24",
+  "page": 597,
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "weight": 1,
+  "property": [
+   "TCM'24:FH"
+  ],
+  "entries": [
+   "The tarnished cauldron bubbles with a strange, dark liquid. Even in transport, the liquid stays within the rune-emblazoned rim of the cauldron.",
+   "While you hold the cauldron, you can use it as a {@variantrule Spellcasting Focus|XPHB} for your spells, you gain a bonus determined by the cauldron's rarity to all saving throws."
+  ],
+  "items": [
+   "Cauldron of the Vermintoll Coven (Rare)|CrookedMoon24",
+   "Cauldron of the Vermintoll Coven (Very Rare)|CrookedMoon24",
+   "Cauldron of the Vermintoll Coven (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Cauldron%20of%20the%20Vermintoll%20Coven.webp"
+     },
+     "width": 1025,
+     "height": 1200,
+     "credit": "Matthew Spencer"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Channeling Wand",
+  "source": "ExploringEberron24",
+  "type": "GV|XDMG",
+  "property": [
+   "DF|ExploringEberron24"
+  ],
+  "rarity": "rare",
+  "reqAttune": "by a Creature with a Specific Dragonmark",
+  "recharge": "dawn",
+  "rechargeAmount": "{@dice 1d6 + 1}",
+  "charges": 7,
+  "entries": [
+   "This short metal wand is tipped with a Siberys dragonshard. Each Channeling Wand is tied to a specific dragonmark, such as the {@feat Mark of Healing|EFA} or the {@feat Mark of Making|EFA}, and you can only attune to it if you possess that dragonmark.",
+   "A Channeling Wand has 7 charges. While holding it, you can cast any spell on your Spells of the Mark list, expending a number of charges equal to the level of the spell you cast. Your spellcasting ability for this spell is the same as the spellcasting ability for the other spells you can cast using your Dragonmark feat. You can expend additional charges to enhance the spell, choosing one of the following effects:",
+   {
+    "type": "list",
+    "style": "list-hang-notitle",
+    "items": [
+     {
+      "type": "item",
+      "name": "Casting Time",
+      "entries": [
+       "You expend 2 charges to change a spell that normally has a casting time of 1 {@action Magic|XPHB} action to instead be cast as a {@variantrule Bonus Action|XPHB}."
+      ]
+     },
+     {
+      "type": "item",
+      "name": "Duration",
+      "entries": [
+       "You expend 1 charge to double the duration of the spell, to a maximum of 24 hours."
+      ]
+     },
+     {
+      "type": "item",
+      "name": "Range",
+      "entries": [
+       "You expend 1 charge to double the range of the spell. If the spell normally has a range of Touch, you can cast it with a range of 30 feet."
+      ]
+     },
+     {
+      "type": "item",
+      "name": "Regaining Charges",
+      "entries": [
+       "The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll {@dice 1d20}. On a 1, the wand crumbles into ashes and is destroyed."
+      ]
+     }
+    ]
+   }
+  ],
+  "items": [
+   "Detection Channeling Wand|ExploringEberron24",
+   "Finding Channeling Wand|ExploringEberron24",
+   "Handling Channeling Wand|ExploringEberron24",
+   "Healing Channeling Wand|ExploringEberron24",
+   "Hospitality Channeling Wand|ExploringEberron24",
+   "Making Channeling Wand|ExploringEberron24",
+   "Passage Channeling Wand|ExploringEberron24",
+   "Scribing Channeling Wand|ExploringEberron24",
+   "Sentinel Channeling Wand|ExploringEberron24",
+   "Shadow Channeling Wand|ExploringEberron24",
+   "Storm Channeling Wand|ExploringEberron24",
+   "Warding Channeling Wand|ExploringEberron24"
+  ],
+  "hasFluff": true
+ },
+ {
+  "name": "Circlet of Barbed Vision",
+  "source": "TalDoreiCampaignSettingReborn",
+  "page": 203,
+  "immune": [
+   "poison"
+  ],
+  "resist": [
+   "poison"
+  ],
+  "conditionImmune": [
+   "poisoned"
+  ],
+  "rarity": "legendary",
+  "reqAttune": "by a creature of non-good alignment",
+  "reqAttuneTags": [
+   {
+    "alignment": [
+     "N",
+     "E",
+     "C",
+     "L",
+     "A"
+    ]
+   }
+  ],
+  "wondrous": true,
+  "property": [
+   "Vst|EGW"
+  ],
+  "entries": [
+   "When you don this circlet of gnarled onyx, black barbs dig into your head, imparting power to you as the circlet twists your appearance to amuse the {@deity The Spider Queen|Exandria|TalDoreiCampaignSettingReborn}. The current resting place of the Circlet of Barbed Vision is unknown, but rumor has it that a spectral assassin known as {@creature Jourrael, the Caedogeist|TalDoreiCampaignSettingReborn|the Inevitable End} seeks this relic."
+  ],
+  "items": [
+   "Circlet of Barbed Vision (Dormant)|TalDoreiCampaignSettingReborn",
+   "Circlet of Barbed Vision (Awakened)|TalDoreiCampaignSettingReborn",
+   "Circlet of Barbed Vision (Exalted)|TalDoreiCampaignSettingReborn"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Claws of Corruption",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 480,
+  "baseItem": "Claw|HelianasGuidetoMonsterHunting",
+  "type": "M",
+  "rarity": "varies",
+  "reqAttune": true,
+  "weight": 2,
+  "weaponCategory": "simple",
+  "property": [
+   "ATT|HelianasGuidetoMonsterHunting",
+   "L"
+  ],
+  "dmg1": "1d6",
+  "dmgType": "S",
+  "modifySpeed": {
+   "equal": {
+    "climb": "walk"
+   }
+  },
+  "recharge": "dawn",
+  "rechargeAmount": 4,
+  "charges": 4,
+  "entries": [
+   "These rough, menacing gauntlets, constructed from the razor-sharp claws of the pygmy rakshasa, thrum with the power of its hellish essence. The pointed tips of the claws easily dig into rock and metal alike, letting their wearer climb the roughest surfaces with feline agility.",
+   "The claws have 4 charges and regain all expended charges daily at dawn.",
+   {
+    "type": "item",
+    "name": "Rakshasa's Corruption",
+    "entries": [
+     "Blows from this weapon can cause a target's magical energy to turn foul and consume it from within. When you hit a creature with an attack using one of these claws, you can expend 1 charge to attempt to curse it (no action required). The target must succeed on a DC 13 Wisdom saving throw or be cursed for 1 minute. When a cursed creature starts its turn while under the effect of a spell or while concentrating on a spell, it takes 1d6 necrotic damage."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Catclimb",
+    "entries": [
+     "While wearing a pair of these claws, you gain a climbing speed equal to your walking speed."
+    ]
+   }
+  ],
+  "items": [
+   "Claws of Corruption (uncommon)|HelianasGuidetoMonsterHunting",
+   "Claws of Corruption (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Coat of Many Eyes",
+  "source": "ExploringEberron24",
+  "baseItem": "studded leather armor|XPHB",
+  "type": "LA|XPHB",
+  "property": [
+   "Sym|ExploringEberron24"
+  ],
+  "rarity": "varies",
+  "reqAttune": ", Evolves with Service to Belashyrra",
+  "weight": 13,
+  "ac": 12,
+  "entries": [],
+  "items": [
+   "Coat of Many Eyes (Uncommon)|ExploringEberron24",
+   "Coat of Many Eyes (Rare)|ExploringEberron24",
+   "Coat of Many Eyes (Very Rare)|ExploringEberron24"
+  ]
+ },
+ {
+  "name": "Condemner",
+  "source": "TalDoreiCampaignSettingReborn",
+  "page": 204,
+  "baseItem": "heavy crossbow|PHB",
+  "type": "R",
+  "rarity": "legendary",
+  "reqAttune": true,
+  "weight": 18,
+  "weaponCategory": "martial",
+  "property": [
+   "A",
+   "H",
+   "LD",
+   "2H",
+   "Vst|EGW"
+  ],
+  "range": "100/400",
+  "dmg1": "1d10",
+  "dmgType": "P",
+  "bonusWeapon": "+1",
+  "entries": [
+   "This shadow-touched {@item heavy crossbow|phb} once served as the weapon of choice for the legendary assassin Todora. Though few know this, Condemner is now in the possession of an equally infamous assassin named {@book Ixrattu Khar|TalDoreiCampaignSettingReborn|2|Ixrattu Khar}."
+  ],
+  "items": [
+   "Condemner (Dormant)|TalDoreiCampaignSettingReborn",
+   "Condemner (Awakened)|TalDoreiCampaignSettingReborn",
+   "Condemner (Exalted)|TalDoreiCampaignSettingReborn"
+  ],
+  "ammoType": "crossbow bolt|phb",
+  "attachedSpells": [
+   "blight",
+   "fog cloud",
+   "hold person",
+   "silence"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Crawly & Rolly Turrit",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 485,
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "recharge": "dawn",
+  "rechargeAmount": 1,
+  "charges": 1,
+  "entries": [
+   "Weighing approximately 10 pounds, this 1-foot-cubed turret is bristling with armaments. From its crudely chiselled 'bitey-bit', to the side-mounted 'kannon-boom', and the fore-mounted 'spikeys', this magically-automated turret has but one key flaw: stairs.",
+   {
+    "type": "item",
+    "name": "Deploy",
+    "entries": [
+     "As an action, you can deploy the rolly turrit, which magically animates for the next 10 minutes. During this time, it is under your mental control while within 100 feet of you. In combat, the turret shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the turret can take any action of its choice, not just Dodge.",
+     "Once the turret has been activated, it can't be activated again until the following dawn."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Death & Healing",
+    "entries": [
+     "While the turret has at least 1 hit point, it regains 2d6 hit points if the mending spell is cast on it. If the turret is reduced to 0 hit points, it shatters and can't be activated again until a creature with proficiency in smith's tools or tinker's tools spends 1 hour to make a DC 15 Dexterity (smith's or tinker's tools) check. On a success, the turret regains 1 hit point and can be activated as normal."
+    ]
+   }
+  ],
+  "items": [
+   "Crawly & Rolly Turrit (Rolly Turrit)|HelianasGuidetoMonsterHunting",
+   "Crawly & Rolly Turrit (Crawly Turrit)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Crown of the Barrow King",
+  "source": "CrookedMoon24",
+  "page": 598,
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "property": [
+   "TCM'24:FH"
+  ],
+  "entries": [
+   "This crown of twisted iron has five sharp, tall spikes that are crusted with dried blood. None who see it doubt the malice and corruption that the Barrow King imbued into it.",
+   "While you wear the crown, you gain a bonus determined by the crown's rarity to spell attack rolls and to your spell save DC for Necromancy spells and spells that deal Necrotic damage."
+  ],
+  "items": [
+   "Crown of the Barrow King (Rare)|CrookedMoon24",
+   "Crown of the Barrow King (Very Rare)|CrookedMoon24",
+   "Crown of the Barrow King (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Crown%20of%20the%20Barrow%20King.webp"
+     },
+     "width": 836,
+     "height": 1200,
+     "credit": "Margarita Bourkova"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Cutlass of Briggsy Kratch",
+  "source": "CrookedMoon24",
+  "page": 598,
+  "baseItem": "scimitar|xphb",
+  "type": "M|XPHB",
+  "typeAlt": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "weight": 3,
+  "weaponCategory": "martial",
+  "property": [
+   "TCM'24:FH"
+  ],
+  "entries": [
+   "A fearsome weapon imbued with jinxcraft magic, this cutlass was once wielded by the notorious pirate captain, Briggsy \"The Kutlass\" Kratch. Its tarnished blade glimmers with a faint, otherworldly light. A skull and crossbones adorn the leather-wrapped hilt, and arcane symbols etched into the blade pulse with hidden power.",
+   "You gain a bonus to attack rolls and damage rolls made with the cutlass determined by its rarity."
+  ],
+  "items": [
+   "Cutlass of Briggsy Kratch (Rare)|CrookedMoon24",
+   "Cutlass of Briggsy Kratch (Very Rare)|CrookedMoon24",
+   "Cutlass of Briggsy Kratch (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Cutlass%20of%20Briggsy%20Kratch.webp"
+     },
+     "width": 554,
+     "height": 1200,
+     "credit": "Eugenio Frosali"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Dämglesvir",
+  "source": "GrimHollowCG24",
+  "page": 275,
+  "type": "M|XPHB",
+  "baseItem": "longsword|XPHB",
+  "rarity": "artifact",
+  "reqAttune": true,
+  "bonusWeapon": "+2",
+  "curse": true,
+  "entries": [
+   "Few ever saw the gleaming blade Dämglesvir before the Gods' End, as only the emperor was permitted to draw the sword from its sheath. Now its blade and hilt are black, like a weapon dipped in shadow."
+  ],
+  "items": [
+   "Dämglesvir (Aspirant)|GrimHollowCG24",
+   "Dämglesvir (Adept)|GrimHollowCG24",
+   "Dämglesvir (Master)|GrimHollowCG24"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Deathwalker's Ward",
+  "source": "TalDoreiCampaignSettingReborn",
+  "page": 204,
+  "baseItem": "studded leather armor|PHB",
+  "type": "LA",
+  "resist": [
+   "acid",
+   "cold",
+   "fire",
+   "lightning",
+   "necrotic",
+   "poison"
+  ],
+  "rarity": "legendary",
+  "reqAttune": true,
+  "weight": 13,
+  "property": [
+   "Vst|EGW"
+  ],
+  "ac": 12,
+  "bonusAc": "+1",
+  "bonusSavingThrow": "+1",
+  "entries": [
+   "This beautiful black leather armor is covered in intricate scrollwork, and has a mantle bearing the black feathers of {@deity The Matron of Ravens|Exandria|TalDoreiCampaignSettingReborn}. Legends say that it has been worn by a number of that deity's champions over the centuries—most recently, {@creature Champion of Ravens|TalDoreiCampaignSettingReborn|Vax'ildan of Vox Machina}."
+  ],
+  "items": [
+   "Deathwalker's Ward (Dormant)|TalDoreiCampaignSettingReborn",
+   "Deathwalker's Ward (Awakened)|TalDoreiCampaignSettingReborn",
+   "Deathwalker's Ward (Exalted)|TalDoreiCampaignSettingReborn"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Dragon Edge Weapon (Generic)",
+  "source": "24GriffonsSaddlebag1",
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "items": [
+   "Dragon Edge Weapon|24GriffonsSaddlebag1",
+   "+1 Dragon Edge Weapon|24GriffonsSaddlebag1",
+   "+2 Dragon Edge Weapon|24GriffonsSaddlebag1"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/TGS1/Dragon-Edge-Weapon.webp"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "Dragonkin Weapon",
+  "source": "24GriffonsSaddlebag1",
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "items": [
+   "+1 Dragonkin Weapon|24GriffonsSaddlebag1",
+   "+2 Dragonkin Weapon|24GriffonsSaddlebag1",
+   "+3 Dragonkin Weapon|24GriffonsSaddlebag1"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/TGS1/Dragonkin-Weapon.webp"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "Dragonmark Channel",
+  "source": "ExploringEberron24",
+  "property": [
+   "DF|ExploringEberron24"
+  ],
+  "rarity": "common",
+  "reqAttune": "by a Creature with a Specific Dragonmark",
+  "wondrous": true,
+  "entries": [
+   "This brooch is embedded with a small Siberys dragonshard, usually depicting the crest of its dragonmarked house. Each Dragonmark Channel is tied to a specific dragonmark, such as the {@feat Mark of Healing|EFA} or the {@feat Mark of Making|EFA}, and you can only attune to it if you possess that dragonmark.",
+   "While wearing a Dragonmark Channel, you can use it to cast any level 1 spell on your Spells of the Mark list. Once you use the channel, it can't be used again until you finish a {@variantrule Long Rest|XPHB}.",
+   "Your spellcasting ability for this spell is the same as the spellcasting ability for the spells you can cast with your Dragonmark feat."
+  ],
+  "items": [
+   "Detection Dragonmark Channel|ExploringEberron24",
+   "Finding Dragonmark Channel|ExploringEberron24",
+   "Handling Dragonmark Channel|ExploringEberron24",
+   "Healing Dragonmark Channel|ExploringEberron24",
+   "Hospitality Dragonmark Channel|ExploringEberron24",
+   "Making Dragonmark Channel|ExploringEberron24",
+   "Passage Dragonmark Channel|ExploringEberron24",
+   "Scribing Dragonmark Channel|ExploringEberron24",
+   "Sentinel Dragonmark Channel|ExploringEberron24",
+   "Shadow Dragonmark Channel|ExploringEberron24",
+   "Storm Dragonmark Channel|ExploringEberron24",
+   "Warding Dragonmark Channel|ExploringEberron24"
+  ],
+  "hasFluff": true
+ },
+ {
+  "name": "Dragonmark Reservoir",
+  "source": "ExploringEberron24",
+  "property": [
+   "DF|ExploringEberron24"
+  ],
+  "rarity": "uncommon",
+  "reqAttune": "by a Creature with a Specific Dragonmark",
+  "wondrous": true,
+  "recharge": "dawn",
+  "rechargeAmount": "{@dice 1d6 + 1}",
+  "charges": 7,
+  "entries": [
+   "Dragonmark Reservoirs are always embedded with a Siberys dragonshard, but come in many forms, most commonly an amulet or bracelet bearing the design of the house crest. Each reservoir is tied to a specific dragonmark, such as the {@feat Mark of Healing|EFA} or the {@feat Mark of Making|EFA}, and you can only attune to it if you possess that dragonmark.",
+   "A Dragonmark Reservoir has 7 charges. While wearing it, you can use it to cast any spell on your Spells of the Mark list at 1st or 2nd level, expending a number of charges equal to the level of the spell you cast. The reservoir regains {@dice 1d6 + 1} expended charges daily at dawn. Your spellcasting ability for this spell is the same as the spellcasting ability for the spells you can cast with your Dragonmark feat."
+  ],
+  "items": [
+   "Detection Dragonmark Reservoir|ExploringEberron24",
+   "Finding Dragonmark Reservoir|ExploringEberron24",
+   "Handling Dragonmark Reservoir|ExploringEberron24",
+   "Healing Dragonmark Reservoir|ExploringEberron24",
+   "Hospitality Dragonmark Reservoir|ExploringEberron24",
+   "Making Dragonmark Reservoir|ExploringEberron24",
+   "Passage Dragonmark Reservoir|ExploringEberron24",
+   "Scribing Dragonmark Reservoir|ExploringEberron24",
+   "Sentinel Dragonmark Reservoir|ExploringEberron24",
+   "Shadow Dragonmark Reservoir|ExploringEberron24",
+   "Storm Dragonmark Reservoir|ExploringEberron24",
+   "Warding Dragonmark Reservoir|ExploringEberron24"
+  ],
+  "hasFluff": true
+ },
+ {
+  "name": "Eye of the Tiger",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 481,
+  "type": "RG",
+  "rarity": "varies",
+  "entries": [
+   "The tiger's eye gemstone at the centre of this ring gleams with the devious malice peculiar to the fiendish pygmy rakshasa. Spinning slowly in its socket, it studies its wearer and surroundings, almost as if waiting for a time to pounce.",
+   "The ring has 5 charges and regains all expended charges daily at dawn.",
+   {
+    "type": "item",
+    "name": "Arcane Interference",
+    "entries": [
+     "While wearing the ring, whenever you are the target of a spell or make a saving throw against a spell's area of effect, you can use your reaction to tug at the Weave, consuming 1 charge and attempting to unravel the spell's magic. If the spell is of 2nd level or lower, roll a d4 and consult the table below to determine the effect, which occurs immediately before the spell's effect. If the spell is 3rd level or higher, this property has no effect.",
+     {
+      "type": "table",
+      "colLabels": [
+       "d4",
+       "Effects"
+      ],
+      "colStyles": [
+       "col-1 text-center",
+       "col-11"
+      ],
+      "rows": [
+       [
+        "1",
+        "The caster of the spell must make a DC 13 Wisdom saving throw, taking force damage equal to 1d6 plus an additional 1d6 for each level of the spell on a failed save, or half as much damage on a successful one."
+       ],
+       [
+        "2",
+        "The spell's potency is diminished. If the spell requires an attack roll, the roll is made with disadvantage. If it requires you to make a saving throw, you have advantage on it."
+       ],
+       [
+        "3",
+        "You absorb a portion of the spell's energy, gaining temporary hit points equal to 1d6 plus an additional 1d6 for each level of the spell. These temporary hit points last for 1 minute."
+       ],
+       [
+        "4",
+        "You are unaffected by the spell."
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "items": [
+   "Eye of the Tiger (uncommon)|HelianasGuidetoMonsterHunting",
+   "Eye of the Tiger (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Eye of the White Worm",
+  "source": "CrookedMoon24",
+  "page": 599,
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "property": [
+   "TCM'24:FH"
+  ],
+  "focus": true,
+  "entries": [
+   "This fist-sized eyeball is cold and clammy to the touch. It is milky-white with purple veins, and its pupil constantly searches for something.",
+   "While holding the eye, you can use it as a {@variantrule Spellcasting Focus|XPHB} for your spells, you gain a bonus to spell attack rolls and your spell save DC determined by the eye's rarity."
+  ],
+  "items": [
+   "Eye of the White Worm (Rare)|CrookedMoon24",
+   "Eye of the White Worm (Very Rare)|CrookedMoon24",
+   "Eye of the White Worm (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Eye%20of%20the%20White%20Worm.webp"
+     },
+     "width": 709,
+     "height": 1200,
+     "credit": "Minard Maxime"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Feather Robe",
+  "source": "HumblewoodTales",
+  "page": 240,
+  "rarity": "very rare",
+  "reqAttune": "by a sorcerer, warlock, or wizard",
+  "reqAttuneTags": [
+   {
+    "class": "sorcerer"
+   },
+   {
+    "class": "warlock"
+   },
+   {
+    "class": "wizard"
+   }
+  ],
+  "wondrous": true,
+  "ability": {
+   "choose": [
+    {
+     "from": [
+      "int",
+      "cha"
+     ],
+     "count": 1,
+     "amount": 22
+    }
+   ]
+  },
+  "bonusSavingThrow": "+1",
+  "entries": [
+   "This luxuriant robe is made from the feather of a birdfolk spellcaster. Though it appears to be made of many individual plumes, the robe is actually composed of only a single feather, flawlessly copied over and over again by the magic that created it.",
+   "You gain the following benefits from wearing the robe.",
+   {
+    "type": "list",
+    "items": [
+     "Your Intelligence or Charisma score becomes 22 (your choice when you first attune to the robe).",
+     "You have a +1 bonus to saving throws while you wear this robe. Additionally, you gain different benefits from wearing the robe depending on the race of the birdfolk spellcaster that donated a feather to create it. The GM chooses the feather that was used to make the robe or rolls a {@dice d10} to determine it randomly."
+    ]
+   },
+   {
+    "type": "table",
+    "page": 240,
+    "colStyles": [
+     "col-2 text-center",
+     "col-2",
+     "col-8"
+    ],
+    "colLabels": [
+     "d10",
+     "Birdfolk Feather",
+     "Benefit"
+    ],
+    "rows": [
+     [
+      "1–2",
+      "{@item Corvum Feather Robe|HumblewoodTales|Corvum}",
+      "Your spell attacks have advantage against foes that have not yet acted in this combat. Treat any successful spell attack roll made against a {@status surprised} creature as though it were a critical hit."
+     ],
+     [
+      "3–4",
+      "{@item Gallus Feather Robe|HumblewoodTales|Gallus}",
+      "When you cast a spell that targets only one ally and doesn't have a range of self, you can target a second ally in range with the same spell. You can use this property up to three times each day."
+     ],
+     [
+      "5–6",
+      "{@item Luma Feather Robe|HumblewoodTales|Luma}",
+      "When a target succeeds on a saving throw against one of your spells, you can use your reaction to force that target to repeat that saving throw. The target must use the new result. You can use this property up to three times each day."
+     ],
+     [
+      "7–8",
+      "{@item Raptor Feather Robe|HumblewoodTales|Raptor}",
+      "When casting a spell that deals damage to a single target, so long as you have already expended some of your movement during that turn, your spell deals additional damage equal to your character level."
+     ],
+     [
+      "9–10",
+      "{@item Strig Feather Robe|HumblewoodTales|Strig}",
+      "Whenever you cast a spell using a spell slot, you gain temporary hit points equal to {@dice 2d10} + the level of the spell."
+     ]
+    ]
+   }
+  ],
+  "items": [
+   "Corvum Feather Robe|HumblewoodTales",
+   "Gallus Feather Robe|HumblewoodTales",
+   "Luma Feather Robe|HumblewoodTales",
+   "Raptor Feather Robe|HumblewoodTales",
+   "Strig Feather Robe|HumblewoodTales"
+  ],
+  "itemsHidden": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Feather Token",
+  "source": "NorthlandsWorldbook",
+  "rarity": "varies",
+  "type": "GV|XDMG",
+  "entries": [
+   "You can use a {@action Magic|XPHB} action to throw this black token into the air. You can see and hear through the token for one hour. The token disappears afterwards or if the distance between you and it exceeds 1 mile. The bird has the statistics of a {@creature Raven|XMM}."
+  ],
+  "items": [
+   "Feather Token (Raven)|NorthlandsWorldbook",
+   "Feather Token (Snowy Owl)|NorthlandsWorldbook"
+  ],
+  "hasFluff": true
+ },
+ {
+  "name": "Felinobelix",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 482,
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "recharge": "dawn",
+  "rechargeAmount": 3,
+  "charges": 3,
+  "entries": [
+   "This foot-high, black, stone cat statue has 3 charges and regains all expended charges daily at dawn. Whenever you roll a die, you can expend 1 charge to roll another die of the same size (no action required). You can then choose which of the die rolls to use. You can choose to spend the charge after you roll the die, but before the outcome is determined.",
+   "If the result of the re-rolled die is a 1, a devil is summoned. Consult the chart below to determine which devil.",
+   {
+    "type": "table",
+    "colLabels": [
+     "Attuner's Level",
+     "Devil (CR)"
+    ],
+    "colStyles": [
+     "col-6 text-center",
+     "col-6 text-center"
+    ],
+    "rows": [
+     [
+      "1-4",
+      "{@creature Imp} (1)"
+     ],
+     [
+      "5-8",
+      "{@creature Barbed devil} (5)"
+     ],
+     [
+      "9-12",
+      "{@creature Bone devil} (9)"
+     ],
+     [
+      "13-16",
+      "{@creature Ice devil} (14)"
+     ],
+     [
+      "17-20",
+      "{@creature Pit fiend} (20)"
+     ]
+    ]
+   },
+   "The devil is always the same individual, who has progressed further in the infernal hierarchy with each visitation. It is hostile towards all creatures, but is especially hateful towards you, as it believes you are stealing its luck."
+  ],
+  "items": [
+   "Felinobelix (rare)|HelianasGuidetoMonsterHunting",
+   "Felinobelix (legendary)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Fenthras",
+  "source": "TalDoreiCampaignSettingReborn",
+  "page": 205,
+  "baseItem": "longbow|PHB",
+  "type": "R",
+  "rarity": "legendary",
+  "reqAttune": true,
+  "weight": 2,
+  "weaponCategory": "martial",
+  "property": [
+   "A",
+   "H",
+   "2H",
+   "Vst|EGW"
+  ],
+  "range": "150/600",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "bonusWeapon": "+1",
+  "entries": [
+   "This gorgeous {@item longbow|phb} made of everbark from the Fey Realm flexes and shifts like a living entity. It is said to have been wielded by the legendary ranger {@creature Vex'ahlia|TalDoreiCampaignSettingReborn} against great evils."
+  ],
+  "items": [
+   "Fenthras (Dormant)|TalDoreiCampaignSettingReborn",
+   "Fenthras (Awakened)|TalDoreiCampaignSettingReborn",
+   "Fenthras (Exalted)|TalDoreiCampaignSettingReborn"
+  ],
+  "ammoType": "arrow|phb",
+  "hasFluffImages": true
+ },
+ {
+  "name": "Flooze",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 443,
+  "baseItem": "flail|PHB",
+  "type": "M",
+  "rarity": "varies",
+  "reqAttune": true,
+  "weight": 2,
+  "weaponCategory": "martial",
+  "dmg1": "1d8",
+  "dmgType": "B",
+  "recharge": "dawn",
+  "rechargeAmount": "{@dice 1d4 + 4}",
+  "charges": 8,
+  "entries": [
+   "The versatility of the magically-enhanced ooze used to craft this flail can't be overstated. Its high tensile strength allows its 'chain' to stretch in response to its wearer's thoughts, while the flail's head boasts a hardness and density comparable to steel.",
+   "This magic flail deals an extra {@damage 1d6} acid damage to the first target it hits on each of your turns. The flail has {@b 8 charges} and regains {@dice 1d4 + 4} expended charges daily at dawn.",
+   {
+    "type": "item",
+    "name": "Reachier",
+    "entries": [
+     "While holding the flail, you can expend up to 4 charges (no action required) to increase your reach with this weapon by 5 feet for each charge expended until the end of your turn."
+    ]
+   }
+  ],
+  "items": [
+   "Flooze (uncommon)|HelianasGuidetoMonsterHunting",
+   "Flooze (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Gunnspier",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 488,
+  "type": "P",
+  "rarity": "varies",
+  "bonusWeapon": "+1",
+  "entries": [
+   "\"Stab, bang, hope.\" If consulted, these are the instructions any kobold will give on using a gunnspier. With a lengthy reload time and complete lack of accuracy, this matchlock-augmented polearm is usable at only one range: point blank. It also comes with a lovely ribbon and a neat basket to hold all your spare shot. Cute.",
+   "You gain a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
+   {
+    "type": "item",
+    "name": "Point Blank Shot",
+    "entries": [
+     "When you hit a target with an attack using a loaded gunnspier, you can use a bonus action to pull the trigger, firing a plum-sized leaden ball at the target. The attack deals an additional {@damage 2d8} bludgeoning damage. As an action, you can reload the gunnspier."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Backfire",
+    "entries": [
+     "When you use Point Blank Shot and roll an 8 on both of the additional bludgeoning damage dice, the gunnspier backfires. Each creature within {@b 10 feet} of you (including you) must succeed on a {@dc 15} Dexterity saving throw or take {@damage 4d6} piercing damage as shrapnel erupts from the weapon."
+    ]
+   }
+  ],
+  "items": [
+   "Gunnspier (rare)|HelianasGuidetoMonsterHunting",
+   "Gunnspier (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Haemscale",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 457,
+  "type": "GV|DMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "recharge": "dawn",
+  "rechargeAmount": "{@dice 1d4 + 3}",
+  "charges": 7,
+  "entries": [
+   "Fashioned from the claws and shard-scales of a magnetite dragon, this protective armour can become temporarily weightless when exposed to extreme cold. The wearer of this armour can exert minor control over ferrous metals within a close proximity.",
+   "This armour has {@b 7 charges} and regains {@dice 1d4 + 3} expended charges daily at dawn.",
+   {
+    "type": "item",
+    "name": "Arcanomagnetic Repulsion",
+    "entries": [
+     "You can expend 1 charge to create one of the following effects while you wear this armour.",
+     {
+      "type": "list",
+      "items": [
+       {
+        "type": "item",
+        "name": "Repulse",
+        "entries": [
+         "When you are targeted by a weapon attack using a ferrous weapon or ammunition, you can use your reaction to cause a pulse of arcanomagnetism to throw the weapon or ammunition off course, imposing disadvantage on the attack roll."
+        ]
+       },
+       {
+        "type": "item",
+        "name": "Aura",
+        "entries": [
+         "As a bonus action, you can create an arcanomagnetic aura with a {@b 20-foot radius} centred on you that moves with you and that lasts until the start of your next turn. This area is difficult terrain for creatures of your choice that are made of ferrous metal or wearing ferrous armour."
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "items": [
+   "Haemscale (uncommon)|HelianasGuidetoMonsterHunting",
+   "Haemscale (rare)|HelianasGuidetoMonsterHunting",
+   "Haemscale (legendary)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Haemstrike",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 458,
+  "type": "M",
+  "rarity": "varies",
+  "reqAttune": "optional",
+  "entries": [
+   "This weapon is naturally attracted to foes bearing ferrous metals, allowing it to strike them with more force. Those who align themselves more closely with the weapon are granted the ability to manipulate gravity, telekinetically pulling creatures and objects into range of its jagged-faced swings.",
+   "You gain a +2 bonus to attack and damage rolls made with this magic weapon against targets made of ferrous metal or wearing ferrous armour.",
+   {
+    "type": "item",
+    "name": "Optional Attunement",
+    "entries": [
+     "If you choose to attune to this weapon, it gains the Attraction property. When you activate a property granted by this optional attunement, roll a {@dice d4}. On a 1, haemstrike's optional attunement properties can't be activated until the next dawn.",
+     {
+      "type": "item",
+      "name": "Attraction",
+      "entries": [
+       "As a bonus action, you can point haemstrike at a target you can see within {@b 30 feet} of you. If the target is an object that weighs less than {@b 300 pounds}, the object is pulled up to {@b 15 feet} towards you. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be pulled up to {@b 15 feet} straight towards you. If the creature is made of ferrous metal or is wearing ferrous armour, it has disadvantage on the saving throw. Large or larger creatures automatically succeed on this saving throw."
+      ]
+     }
+    ]
+   }
+  ],
+  "items": [
+   "Haemstrike (uncommon)|HelianasGuidetoMonsterHunting",
+   "Haemstrike (rare)|HelianasGuidetoMonsterHunting",
+   "Haemstrike (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Hammer Time",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 477,
+  "type": "M",
+  "rarity": "varies",
+  "recharge": "dawn",
+  "rechargeAmount": 3,
+  "charges": 3,
+  "entries": [
+   "Never has the saying \"smash something into next week\" been so apt. With an hourglass filled with brilliant platinum sand, this magical impact weapon utilises the dreamholder's command over time dilation to throw its victims forward in time.",
+   "This weapon has {@b 3 charges} and regains all expended charges daily at dawn.",
+   {
+    "type": "item",
+    "name": "Chronal Blink",
+    "entries": [
+     "As a bonus action, you can twist the weapon's pommel, expending 1 charge and causing the sand to begin churning in defiance of gravity. The next creature you hit with an attack using this weapon within the next minute must make a {@dc 15} Charisma saving throw. On a failed saving throw, the target disappears as it gets shunted forwards in time, reappearing in the space from which it disappeared, or the nearest unoccupied space if that space is occupied, at the end of your next turn."
+    ]
+   }
+  ],
+  "items": [
+   "Hammer Time (uncommon)|HelianasGuidetoMonsterHunting",
+   "Hammer Time (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Hand Tommybow",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 123,
+  "type": "R",
+  "rarity": "none",
+  "weight": 3,
+  "weaponCategory": "martial",
+  "property": [
+   "A",
+   "L",
+   "Reload|HelianasGuidetoMonsterHunting"
+  ],
+  "range": "30/60",
+  "dmg1": "1d6",
+  "dmgType": "P",
+  "entries": [
+   "Tommybows are repeating crossbows that mirror the three types of normal crossbows: hand, heavy, and light. They are composed of vertically-stacked bows upon a crossbow's chassis, an unwieldy arrangement that reduces their effective range in comparison to their crossbow counterparts."
+  ],
+  "items": [
+   "Hand Tommybow (2)|HelianasGuidetoMonsterHunting",
+   "Hand Tommybow (3)|HelianasGuidetoMonsterHunting",
+   "Hand Tommybow (4)|HelianasGuidetoMonsterHunting",
+   "Hand Tommybow (5)|HelianasGuidetoMonsterHunting",
+   "Hand Tommybow (6)|HelianasGuidetoMonsterHunting"
+  ],
+  "ammoType": "crossbow bolt|phb"
+ },
+ {
+  "name": "Headbanger Lute",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 454,
+  "type": "M",
+  "rarity": "varies",
+  "reqAttune": true,
+  "entries": [
+   "The shapechanging abilities of the mimic infuse this musical instrument, a lute, with the propensity to subtly alter its shape and produce excellent acoustics. It also exudes a corrosive acid that can be a useful addition when the musician's plan to charm a foe with a sweet serenade doesn't go to plan.",
+   "This magic weapon deals an additional {@damage 1d8} acid damage to the first target that it hits on a turn. If you have proficiency with lutes, you're considered proficient with this weapon as well.",
+   {
+    "type": "item",
+    "name": "Ventriloquism",
+    "entries": [
+     "As a bonus action while holding the lute, you can command it to mimic simple sounds it has been exposed to, such as a person whispering, swords clashing, or simple melodies. You can choose for the sounds to originate from any point within {@b 30 feet} of you that you can see. A creature that hears the sounds can tell they're imitations with a successful {@dc 13} Intelligence ({@skill Investigation|PHB}) check."
+    ]
+   }
+  ],
+  "items": [
+   "Headbanger Lute (uncommon)|HelianasGuidetoMonsterHunting",
+   "Headbanger Lute (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Hearthfire Breastplate",
+  "source": "GrimHollowCG24",
+  "page": 276,
+  "type": "MA|XPHB",
+  "baseItem": "breastplate|XPHB",
+  "rarity": "artifact",
+  "reqAttune": true,
+  "bonusAc": "+2",
+  "curse": true,
+  "entries": [
+   "The Hearthfire Breastplate has been profoundly transformed by its corruption. Once it was emblazoned with a golden sun and radiated light. Now its surface is black and distorted, wriggling as if the metal were alive."
+  ],
+  "items": [
+   "Hearthfire Breastplate (Aspirant)|GrimHollowCG24",
+   "Hearthfire Breastplate (Adept)|GrimHollowCG24",
+   "Hearthfire Breastplate (Master)|GrimHollowCG24"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Heavy Tommybow",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 123,
+  "type": "R",
+  "rarity": "none",
+  "weight": 18,
+  "weaponCategory": "martial",
+  "property": [
+   "A",
+   "L",
+   "Reload|HelianasGuidetoMonsterHunting"
+  ],
+  "range": "100/200",
+  "dmg1": "1d10",
+  "dmgType": "P",
+  "entries": [
+   "Tommybows are repeating crossbows that mirror the three types of normal crossbows: hand, heavy, and light. They are composed of vertically-stacked bows upon a crossbow's chassis, an unwieldy arrangement that reduces their effective range in comparison to their crossbow counterparts."
+  ],
+  "items": [
+   "Heavy Tommybow (2)|HelianasGuidetoMonsterHunting",
+   "Heavy Tommybow (3)|HelianasGuidetoMonsterHunting",
+   "Heavy Tommybow (4)|HelianasGuidetoMonsterHunting",
+   "Heavy Tommybow (5)|HelianasGuidetoMonsterHunting",
+   "Heavy Tommybow (6)|HelianasGuidetoMonsterHunting"
+  ],
+  "ammoType": "crossbow bolt|phb"
+ },
+ {
+  "name": "Heliana's Guide to Monster Hunting",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 497,
+  "rarity": "varies",
+  "wondrous": true,
+  "weaponCategory": "simple",
+  "dmg1": "1d6",
+  "dmgType": "B",
+  "entries": [
+   "Full of useful knowledge and heavy enough to crush a skull, Heliana's Guide to Monster Hunting is nothing if not handy. The personalised quotes from Heliana, Peeper's deft proofing and editing, and the numerous ink stains and spilled watercolours give this hefty tome a homemade feel.",
+   {
+    "type": "item",
+    "name": "Fantastic Phalanges and Where to Find Them",
+    "entries": [
+     "As an action, you can open this book and stare intently at its pages, which turn of their own accord to settle on an anatomical diagram of the corpse nearest to the book. You immediately learn all the harvestable parts of the corpse, as well as their Component DCs."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Know Thy Enemy",
+    "entries": [
+     "As an action, you can place an object that belonged to a creature—such as its scat, scales, or clothing— between the pages of this book. One minute later, the book tells you one piece of information about the creature. At the GM's discretion, this may be: its saving throw proficiencies, damage resistances, immunities, and vulnerabilities; condition immunities; creature's type; one of its traits; or one of the clues acquired during a hunt. Placing more objects that belonged to that creature (or a creature with the same statblock) yields no further results."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Weapon of the Learned",
+    "entries": [
+     "This book can be used as a simple melee weapon that deals 1d6 bludgeoning damage on a hit. If you are proficient in Arcana, History, Nature, or Religion, you are proficient with this weapon."
+    ]
+   }
+  ],
+  "items": [
+   "Heliana's Guide to Monster Hunting (uncommon)|HelianasGuidetoMonsterHunting",
+   "Heliana's Guide to Monster Hunting (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Hide of the Brimstone Behemoth",
+  "source": "CrookedMoon24",
+  "page": 599,
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "property": [
+   "TCM'24:FH"
+  ],
+  "entries": [
+   "This cloak was made from the hide of a reptilian magma Fiend, incomparable in its destructive power. Flame now shies away from it, for one who has mastered such a titanic creature can master its element.",
+   "While wearing this cloak, you gain a bonus to {@variantrule Armor Class|XPHB} and Constitution saving throws determined by the cloak's rarity."
+  ],
+  "items": [
+   "Hide of the Brimstone Behemoth (Rare)|CrookedMoon24",
+   "Hide of the Brimstone Behemoth (Very Rare)|CrookedMoon24",
+   "Hide of the Brimstone Behemoth (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Hide%20of%20the%20Brimstone%20Behemoth.webp"
+     },
+     "width": 752,
+     "height": 1200,
+     "credit": "Minard Maxime"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Honor's Last Stand",
+  "source": "TalDoreiCampaignSettingReborn",
+  "page": 206,
+  "baseItem": "shield|PHB",
+  "type": "S",
+  "rarity": "legendary",
+  "reqAttune": "by a creature of non-evil alignment",
+  "reqAttuneTags": [
+   {
+    "alignment": [
+     "N",
+     "G",
+     "C",
+     "L",
+     "A"
+    ]
+   }
+  ],
+  "weight": 6,
+  "property": [
+   "Vst|EGW"
+  ],
+  "ac": 2,
+  "bonusAc": "+3",
+  "entries": [
+   "This massive silvered shield bears the crest of {@deity The Platinum Dragon|Exandria|TalDoreiCampaignSettingReborn} and never tarnishes. Its metal is always warm to the touch."
+  ],
+  "items": [
+   "Honor's Last Stand (Dormant)|TalDoreiCampaignSettingReborn",
+   "Honor's Last Stand (Awakened)|TalDoreiCampaignSettingReborn",
+   "Honor's Last Stand (Exalted)|TalDoreiCampaignSettingReborn"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Hook of the Tall Man",
+  "source": "CrookedMoon24",
+  "page": 601,
+  "baseItem": "war pick|xphb",
+  "type": "M|XPHB",
+  "typeAlt": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "weight": 2,
+  "weaponCategory": "martial",
+  "property": [
+   "TCM'24:FH"
+  ],
+  "entries": [
+   "This hook is made from a single huge claw attached to a large bleached fingerbone mounted on a haft of ash. The tip of the claw gives off an eerie glow. The finger and claw were cut from the hand of the Tall Man.",
+   "You gain a bonus to attack rolls and damage rolls made with this magic weapon determined by the hook's rarity."
+  ],
+  "items": [
+   "Hook of the Tall Man (Rare)|CrookedMoon24",
+   "Hook of the Tall Man (Very Rare)|CrookedMoon24",
+   "Hook of the Tall Man (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Hook%20of%20the%20Tall%20Man.webp"
+     },
+     "width": 576,
+     "height": 1200,
+     "credit": "Rowan Holloway"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Houseward",
+  "source": "ExploringEberron24",
+  "property": [
+   "DF|ExploringEberron24",
+   "DF:W|ExploringEberron24"
+  ],
+  "rarity": "varies",
+  "wondrous": true,
+  "entries": [
+   "{@note Requires the {@feat Mark of Warding|EFA}}",
+   "This engraved block of lead, approximately 1 cubic foot in size, holds an embedded Siberys dragonshard. The Houseward provides state-of-the-art magical security, and is typically embedded into the floor of the building it is supposed to protect. If any creature with the {@feat Mark of Warding|EFA} spends 10 minutes touching the Houseward, it can cast {@spell Guards and Wards|XPHB} without requiring Material components.  The area protected by the spell is determined by the rarity of the Houseward. The duration of the spell is 24 days, but the effect ends early if the Houseward is used again to cast the spell, if a creature with the {@feat Mark of Warding|EFA} spends 10 minutes touching the Houseward to end its effects, or if a Houseward is removed from the area it is currently protecting. After being used to cast the spell, the Houseward can't do so again until the next dawn."
+  ],
+  "items": [
+   "Houseward (Uncommon)|ExploringEberron24|2,500 Square Feet",
+   "Houseward (Rare)|ExploringEberron24|5,000 Square Feet",
+   "Houseward (Legendary)|ExploringEberron24|10,000 Square Feet"
+  ],
+  "hasFluff": true
+ },
+ {
+  "name": "Idol of the Beast of Blight",
+  "source": "CrookedMoon24",
+  "page": 600,
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "property": [
+   "TCM'24:FH"
+  ],
+  "focus": true,
+  "entries": [
+   "Made of bleached and mutated bone, this idol in the shape of a stag contains the sinister knowledge of the Beast of Blight. It pulses with the power of rot and decay.",
+   "While holding the idol, you can use it as a {@variantrule Spellcasting Focus|XPHB} for your spells, you gain a bonus to spell attack rolls and your spell save DC determined by the idol's rarity."
+  ],
+  "items": [
+   "Idol of the Beast of Blight (Rare)|CrookedMoon24",
+   "Idol of the Beast of Blight (Very Rare)|CrookedMoon24",
+   "Idol of the Beast of Blight (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Idol%20of%20the%20Beast%20of%20Blight.webp"
+     },
+     "width": 908,
+     "height": 1200,
+     "credit": "Minard Maxime"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Indorius's Crown",
+  "source": "GrimHollowCG24",
+  "page": 276,
+  "rarity": "artifact",
+  "wondrous": true,
+  "reqAttune": true,
+  "curse": true,
+  "charges": 12,
+  "recharge": "dawn",
+  "rechargeAmount": "{@dice 2d4 + 4}",
+  "attachedSpells": {
+   "charges": {
+    "1": [
+     "hellish rebuke|xphb"
+    ],
+    "2": [
+     "hold person|xphb",
+     "suggestion|xphb"
+    ],
+    "4": [
+     "compulsion|xphb"
+    ],
+    "5": [
+     "dominate person|xphb"
+    ]
+   },
+   "daily": {
+    "1": [
+     "dominate monster|xphb",
+     "power word stun|xphb"
+    ]
+   }
+  },
+  "entries": [
+   "Indorius's Crown bestows authority on whoever wears it, making their reasoning seem stronger and their coercions harder to resist. The crown does not, however, provide its wearer with wisdom."
+  ],
+  "items": [
+   "Indorius's Crown (Aspirant)|GrimHollowCG24",
+   "Indorius's Crown (Adept)|GrimHollowCG24",
+   "Indorius's Crown (Master)|GrimHollowCG24"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Infested Cultist's Skull",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 463,
+  "rarity": "varies",
+  "wondrous": true,
+  "curse": true,
+  "recharge": "dawn",
+  "rechargeAmount": "{@dice 1d4}",
+  "charges": 7,
+  "entries": [
+   "This humanoid skull is infested by a parasitic purple plant from an unknown plane. The longer you stare, the more you could swear that the petals sway in response to an unseen wind.",
+   "The skull contains 7 petals. While holding it, you can use an action to pluck a petal to cast the {@spell guiding bolt} spell ({@hit +5} to hit), dealing necrotic damage instead of radiant. The skull regrows {@dice 1d4} plucked petals daily at dawn. If you pluck the last petal, the skull crumbles to dust and is destroyed.",
+   {
+    "type": "entries",
+    "name": "Curse",
+    "entries": [
+     "This skull is cursed, and plucking 3 or more petals in a day extends this curse to you. Until the curse is broken with {@spell remove curse} or similar magic, you are unwilling to part with the skull, keeping it within reach at all times.",
+     "While cursed, whenever you finish a long rest, a black petal grows on your head. These black petals cannot be removed physically, and any attempt to do so causes you to take {@damage 2d6} necrotic damage. If you travel to a different plane while cursed, you grow a further {@dice 1d4} black petals.",
+     "When the seventh petal has grown on your skull, you die and your body turns to dust, except for your skull, which becomes a new infested cultist's skull. If the curse is removed, the petals on your head and the infested cultist's skull are destroyed and crumble to dust."
+    ]
+   }
+  ],
+  "items": [
+   "Infested Cultist's Skull (uncommon)|HelianasGuidetoMonsterHunting",
+   "Infested Cultist's Skull (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Jaw Breakers",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 492,
+  "type": "M",
+  "rarity": "varies",
+  "reqAttune": "optional",
+  "bonusWeapon": "+1",
+  "entries": [
+   "Forged as a pair, these magic weapons are crafted from the matching upper and lower jaw bones of a tarrasque. Their innate magic—and one of the reasons the tar-rasque's bite is so powerful—creates an arcanomagnetic pull between the two jawbones, dealing devastating damage to whatever lies between them.",
+   "You gain a {=bonusWeapon} bonus to attack and damage rolls you make with each of these magic weapons. These weapons deal piercing damage instead of their usual damage type.",
+   {
+    "type": "item",
+    "name": "Chomp",
+    "entries": [
+     "When you engage in two-weapon fighting using these two weapons and hit the same target with both weapons, the attack you make with your second weapon deals an additional {@damage 1d8} damage."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Optional Attunement",
+    "entries": [
+     "You can choose to attune to a pair of jaw breakers. They count as a single magic item with regard to the number of magic items you can attune to. When you do so, the weapons gain the Swirling Dervish property while you are attuned to them.",
+     {
+      "type": "item",
+      "name": "Swirling Dervish",
+      "entries": [
+       "Harnessing the power of the blades, you leap over a target, becoming a tornado of lacerating blades. As an action while you wield both jaw breakers, you can perform a magically-enhanced jump, attacking creatures you pass over. This jump has a maximum distance of {@b 20 feet}, is a straight line, must end in an unoccupied space, does not provoke opportunity attacks, and each foot you clear on the jump costs one foot of movement. You can make one attack against a creature under you in each 5-foot space over which you jump. These attacks always alternate main-hand, then off-hand.",
+       "For example, if you jumped over one Huge creature, you could make three attacks against it (the second one dealing Chomp's extra damage on a hit). If you jumped over three Medium creatures, you could make one attack against each (with no extra damage from Chomp)."
+      ]
+     }
+    ]
+   }
+  ],
+  "items": [
+   "Jaw Breakers (rare)|HelianasGuidetoMonsterHunting",
+   "Jaw Breakers (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Jerbeen Figurines",
+  "source": "HumblewoodTales",
+  "page": 71,
+  "type": "$A|DMG",
+  "rarity": "none",
+  "entries": [
+   {
+    "type": "statblock",
+    "tag": "table",
+    "source": "HumblewoodTales",
+    "name": "Jerbeen Figurines Table",
+    "page": 71
+   }
+  ],
+  "items": [
+   "Breath of the Wind-Touched Jerbeen Figurine|HumblewoodTales",
+   "Gift of the Wind-Touched Jerbeen Figurine|HumblewoodTales",
+   "Grace of the Wind-Touched Jerbeen Figurine|HumblewoodTales"
+  ],
+  "itemsHidden": true
+ },
+ {
+  "name": "Kiss of the Changebringer",
+  "source": "TalDoreiCampaignSettingReborn",
+  "page": 206,
+  "conditionImmune": [
+   "grappled"
+  ],
+  "rarity": "legendary",
+  "reqAttune": true,
+  "wondrous": true,
+  "property": [
+   "Vst|EGW"
+  ],
+  "bonusSavingThrow": "+1",
+  "entries": [
+   "A beautiful, glittering emerald is set within this silver chain, humming with power and possibility. It is said that this amulet was stolen from the neck of {@deity The Changebringer|Exandria|TalDoreiCampaignSettingReborn} herself by the {@deity The Lord of the Hells|Exandria|TalDoreiCampaignSettingReborn}, and locked within the vaults of Bazzoxan in {@book Wildemount|TalDoreiCampaignSettingReborn|3|Wildemount}. It was later claimed there by a group of Aurora Watch soldiers during an expedition into that grim fortress's abandoned temples."
+  ],
+  "items": [
+   "Kiss of the Changebringer (Dormant)|TalDoreiCampaignSettingReborn",
+   "Kiss of the Changebringer (Awakened)|TalDoreiCampaignSettingReborn",
+   "Kiss of the Changebringer (Exalted)|TalDoreiCampaignSettingReborn"
+  ],
+  "attachedSpells": {
+   "daily": {
+    "1e": [
+     "blink"
+    ]
+   }
+  },
+  "hasFluffImages": true
+ },
+ {
+  "name": "Kobbold Flaymefrower",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 489,
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "recharge": "special",
+  "charges": 12,
+  "entries": [
+   "What could possibly go wrong carrying a portable furnace on your back? Great for keeping weeds in check, the flaymefrower can be dynamically adjusted to spray in a wide cone or a focused line. Just keep an eye on the pressure, as it looks like the rats have been chewing at the intestine hose again.",
+   "Worn like a backpack or satchel, this patchwork vessel of scrap metal can hold a maximum of 12 charges. Over the course of an hour, you can feed one of the following fuel options into the backpack, causing it to regain expended charges depending on the fuel's quality:",
+   {
+    "type": "list",
+    "items": [
+     "1 sp of seasoned wood: 1d4 charges.",
+     "5 gp of high-quality coal or oil: 1d4 + 3 charges.",
+     "Core of fire, or breath sac of a red, gold, or brass dragon: all expended charges."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Dragon's Breath",
+    "entries": [
+     "While holding the flaymefrower's maw, you can use an action to speak one of the flaymefrower's two command words, expending 1 charge and causing it to spout a gout of flame in a 10-foot cone or a 5-foot-wide, 20-foot-long line (your choice). As part of the same action, you can squeeze the maw, injecting more fuel and expending up to 3 additional charges. The size of the cone increases by 5 feet or the length of the line increases by 20 feet, for each additional charge expended.",
+     "Each creature in the area must make a DC 13 Dexterity saving throw, taking 2d10 fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Backfire",
+    "entries": [
+     "When you use Dragon's Breath and roll a total of 19 or higher on the fire damage dice, the flaymefrower backfires. Each creature within 10 feet of you (including you) must succeed on a DC 13 Dexterity saving throw or take 4d6 fire damage as gouts of flame burst from the make-shift hose."
+    ]
+   }
+  ],
+  "items": [
+   "Kobbold Flaymefrower (uncommon)|HelianasGuidetoMonsterHunting",
+   "Kobbold Flaymefrower (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Kwark's Wondrous Kernels",
+  "source": "HumblewoodTales",
+  "page": 242,
+  "rarity": "uncommon",
+  "wondrous": true,
+  "entries": [
+   "These 1-inch-diameter kernels, which come in various shapes and colors, are found in ordinary-looking velvet pouches containing {@dice 2d4} seeds. The kernels come in two varieties, {@item Kwark's Wondrous Kernels, Planter|HumblewoodTales|planters} and {@item Kwark's Wondrous Kernels, Tossable|HumblewoodTales|tossables}. For each bag found, the GM rolls a {@dice d8} to determine what types of kernels the bag holds, or chooses kernels from one of the lists below. Bags either contain planters or tossables, but not both."
+  ],
+  "items": [
+   "Kwark's Wondrous Kernels, Planter|HumblewoodTales",
+   "Kwark's Wondrous Kernels, Tossable|HumblewoodTales"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Lantern of the Chained Reaper",
+  "source": "CrookedMoon24",
+  "page": 601,
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "property": [
+   "TCM'24:FH"
+  ],
+  "entries": [
+   "This ornate Hooded Lantern was once a weapon in the hands of the Chained Reaper, filled with ghastly balefire. Able to pierce the veil, the lantern reveals a glimpse at things hidden from mortal eyes.",
+   "While you hold the lantern and it is lit, you gain a bonus to Intelligence ({@skill Investigation|XPHB}) and Wisdom ({@skill Perception|XPHB}) checks determined by the lantern's rarity."
+  ],
+  "items": [
+   "Lantern of the Chained Reaper (Rare)|CrookedMoon24",
+   "Lantern of the Chained Reaper (Very Rare)|CrookedMoon24",
+   "Lantern of the Chained Reaper (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Lantern%20of%20the%20Chained%20Reaper.webp"
+     },
+     "width": 919,
+     "height": 1200,
+     "credit": "Margarita Bourkova"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Leather Jerkin",
+  "source": "Pugilist2024",
+  "rarity": "varies",
+  "wondrous": true,
+  "entries": [
+   "You have a bonus to {@variantrule Armor Class|XPHB} while you aren't wearing armor and wearing this garment. This bonus is determined by its rarity. You can use a {@item Shield|XPHB} and still gain the benefit of this magic item."
+  ],
+  "items": [
+   "+1 Leather Jerkin|Pugilist2024",
+   "+2 Leather Jerkin|Pugilist2024",
+   "+3 Leather Jerkin|Pugilist2024"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Light Tommybow",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 123,
+  "type": "R",
+  "rarity": "none",
+  "weight": 5,
+  "weaponCategory": "simple",
+  "property": [
+   "A",
+   "L",
+   "Reload|HelianasGuidetoMonsterHunting"
+  ],
+  "range": "80/162",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "entries": [
+   "Tommybows are repeating crossbows that mirror the three types of normal crossbows: hand, heavy, and light. They are composed of vertically-stacked bows upon a crossbow's chassis, an unwieldy arrangement that reduces their effective range in comparison to their crossbow counterparts."
+  ],
+  "items": [
+   "Light Tommybow (2)|HelianasGuidetoMonsterHunting",
+   "Light Tommybow (3)|HelianasGuidetoMonsterHunting",
+   "Light Tommybow (4)|HelianasGuidetoMonsterHunting",
+   "Light Tommybow (5)|HelianasGuidetoMonsterHunting",
+   "Light Tommybow (6)|HelianasGuidetoMonsterHunting"
+  ],
+  "ammoType": "crossbow bolt|phb"
+ },
+ {
+  "name": "Longspike",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 464,
+  "baseItem": "rapier|PHB",
+  "type": "M",
+  "rarity": "varies",
+  "reqAttune": "optional",
+  "weight": 2,
+  "weaponCategory": "martial",
+  "property": [
+   "F"
+  ],
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "entries": [
+   "The longspike grants its user the ability to strike from afar, without resorting to the use of unwieldy polearms. When grasped with force, the long, narrow blade extends, increasing the reach of its wielder's thrust, and can implant a rapidly-growing net of hyphal tethers that can bind and constrict a foe.",
+   {
+    "type": "item",
+    "name": "Hyphal Stretch",
+    "entries": [
+     "On your turn, you can squeeze the longspike (no action required), causing it to lengthen and increasing the reach of melee attacks you make with it by 5 feet until the end of your turn."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Optional Attunement",
+    "entries": [
+     "You can choose to attune to this weapon, causing it to gain the Hyphal Grasp property while you remain attuned to it.",
+     {
+      "type": "item",
+      "name": "OA: Hyphal Grasp",
+      "entries": [
+       "As a bonus action while holding the rapier, you can speak its command word to cause writhing hyphal filaments to grow from it. The next time you hit a creature with a weapon attack using longspike within the next minute, the target must succeed on a {@dc 13} Strength saving throw or be restrained by the magical hyphae for {@b 1 minute}. An affected creature can use an action to repeat the saving throw, ending the effect on a success. After you activate this property, roll a {@dice d6}. On a 1-2, you can't activate this property again until the following dawn."
+      ]
+     }
+    ]
+   }
+  ],
+  "items": [
+   "Longspike (uncommon)|HelianasGuidetoMonsterHunting",
+   "Longspike (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Manual of Occult Anatomy",
+  "source": "MonstersOfDrakkenheim",
+  "page": 389,
+  "rarity": "varies",
+  "reqAttune": "by an apothecary or warlock",
+  "reqAttuneTags": [
+   {
+    "class": "warlock"
+   }
+  ],
+  "wondrous": true,
+  "entries": [
+   "Filled with diagrams showing humans with alien features, this book of strange medical lore is written in monster-blood ink infused with draconic dust and then etched onto parchment pages made from aberration skin. The manuscript is bound in a scale-clad cover.",
+   "You can use this manual as a {@variantrule Spellcasting Focus|XPHB} for your Apothecary or Warlock spells. When you use the manual as a {@variantrule Spellcasting Focus|XPHB}, you gain a bonus to spell attack rolls and spell save DCs of your Apothecary or Warlock spells. The bonus is determined by the book's rarity (see the table below).",
+   "In addition, the book contains the knowledge of an Apothecary Esoteric Theory or Warlock Eldritch Invocation up to a level determined by the manual's rarity and chosen when the item is created, which you gain while you are attuned to it. This determines which class is required to attune to the item.",
+   {
+    "type": "table",
+    "caption": "Manual of Occult Anatomy Rarities",
+    "colLabels": [
+     "Rarity",
+     "Bonus",
+     "Maximum Level"
+    ],
+    "colStyles": [
+     "col-4 text-center",
+     "col-2 text-center",
+     "col-6 text-center"
+    ],
+    "rows": [
+     [
+      "Rare",
+      "+1",
+      "6th"
+     ],
+     [
+      "Very Rare",
+      "+2",
+      "10th"
+     ],
+     [
+      "Legendary",
+      "+3",
+      "15th"
+     ]
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Crafting",
+    "entries": [
+     "Creating a Manual of Occult Anatomy requires a Workshop and Components of equal rarity to the item created. The Components required are:",
+     {
+      "type": "list",
+      "items": [
+       {
+        "type": "item",
+        "name": "[Animus]",
+        "entries": [
+         "Any Animus"
+        ],
+        "nameDot": false
+       },
+       {
+        "type": "item",
+        "name": "[Dust]",
+        "entries": [
+         "Any Dragon Dust"
+        ],
+        "nameDot": false
+       },
+       {
+        "type": "item",
+        "name": "[Fluid]",
+        "entries": [
+         "Monster Blood from a Monstrosity"
+        ],
+        "nameDot": false
+       },
+       {
+        "type": "item",
+        "name": "[Hide]",
+        "entries": [
+         "Scales"
+        ],
+        "nameDot": false
+       },
+       {
+        "type": "item",
+        "name": "[Hide]",
+        "entries": [
+         "Skin from an Aberration"
+        ],
+        "nameDot": false
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "items": [
+   "Manual of Occult Anatomy +1|MonstersOfDrakkenheim",
+   "Manual of Occult Anatomy +2|MonstersOfDrakkenheim",
+   "Manual of Occult Anatomy +3|MonstersOfDrakkenheim"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Marotte of the Lord of Fools",
+  "source": "CrookedMoon24",
+  "page": 601,
+  "type": "RD|XDMG",
+  "typeAlt": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "property": [
+   "TCM'24:FH"
+  ],
+  "focus": true,
+  "entries": [
+   "This wooden fool's scepter is painted with vibrant, unsettling colors that depict a grinning face. While no creature is attuned to the marotte, the face looks like the infamous Chuckles, the Lord of Fools.",
+   "While holding the marotte, you can use it as a {@variantrule Spellcasting Focus|XPHB} for your spells, you gain a bonus to spell attack rolls and your spell save DC determined by the marotte's rarity."
+  ],
+  "items": [
+   "Marotte of the Lord of Fools (Rare)|CrookedMoon24",
+   "Marotte of the Lord of Fools (Very Rare)|CrookedMoon24",
+   "Marotte of the Lord of Fools (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Marotte%20of%20the%20Lord%20of%20Fools.webp"
+     },
+     "width": 626,
+     "height": 1200,
+     "credit": "Rowan Holloway"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Mask of Lethica Nightborne",
+  "source": "CrookedMoon24",
+  "page": 602,
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "property": [
+   "TCM'24:FH"
+  ],
+  "entries": [
+   "This immaculate porcelain mask is painted with delicate violet filigree and once belonged to Lethica Nightborne—a priestess of a goddess of night and healing known as the Nightmother.",
+   "While wearing the mask, you gain a bonus to Wisdom and Charisma saving throws determined by the mask's rarity, and you can use the following properties."
+  ],
+  "items": [
+   "Mask of Lethica Nightborne (Rare)|CrookedMoon24",
+   "Mask of Lethica Nightborne (Very Rare)|CrookedMoon24",
+   "Mask of Lethica Nightborne (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Mask%20of%20Lethica%20Nightborne.webp"
+     },
+     "width": 1200,
+     "height": 999,
+     "credit": "Margarita Bourkova"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Mawling Maul",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 455,
+  "type": "M",
+  "rarity": "varies",
+  "entries": [
+   "Burning with ravenous hunger and unquenchable hanger, this mimic-infused weapon struggles relentlessly against the sturdy iron chains that bind it. Loosening the chains stimulates the weapon's digestive juices which, if not quenched, can have caustic consequences for its wielder.",
+   {
+    "type": "item",
+    "name": "Mimic Unleashed",
+    "entries": [
+     "As a bonus action while holding the hammer, you can loosen the chains restraining the mimic, leaving it free to mercilessly maul your foes. While the chains are loose, the hammer bites targets that it hits, dealing an extra {@damage 1d4} piercing damage.",
+     "If you end your turn holding the hammer while the chains are loose, and you didn't hit a creature with an attack using the hammer that turn, the hammer's excess digestive juices pour down the handle and you take {@damage 1d4} acid damage. The chains tighten on their own if the hammer isn't held for {@b 1 minute} or if you use a bonus action to tighten the chains while holding the weapon."
+    ]
+   }
+  ],
+  "items": [
+   "Mawling Maul (uncommon)|HelianasGuidetoMonsterHunting",
+   "Mawling Maul (rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Mythcarver",
+  "source": "TalDoreiCampaignSettingReborn",
+  "page": 207,
+  "baseItem": "longsword|PHB",
+  "type": "M",
+  "rarity": "legendary",
+  "reqAttune": "by a bard",
+  "reqAttuneTags": [
+   {
+    "class": "bard"
+   }
+  ],
+  "weight": 3,
+  "weaponCategory": "martial",
+  "property": [
+   "V",
+   "Vst|EGW"
+  ],
+  "dmg1": "1d8",
+  "dmgType": "S",
+  "dmg2": "1d10",
+  "bonusWeapon": "+1",
+  "entries": [
+   "This incredible silvered blade once belonged to the legendary White Duke, a founding member of the {@book Golden Grin|TalDoreiCampaignSettingReborn|2|Golden Grin}, and many other master bards before him. It resonates with nearby musical tones. In the modern era, it is best known as the personal weapon of famed bard {@creature Scanlan Shorthalt|TalDoreiCampaignSettingReborn}."
+  ],
+  "items": [
+   "Mythcarver (Dormant)|TalDoreiCampaignSettingReborn",
+   "Mythcarver (Awakened)|TalDoreiCampaignSettingReborn",
+   "Mythcarver (Exalted)|TalDoreiCampaignSettingReborn"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Osseous Spike",
+  "source": "HelianasGuidetoMonsterHunting",
+  "baseItem": "lance|PHB",
+  "type": "M",
+  "rarity": "varies",
+  "reqAttune": true,
+  "weight": 6,
+  "weaponCategory": "martial",
+  "property": [
+   "R",
+   "S"
+  ],
+  "dmg1": "1d12",
+  "dmgType": "P",
+  "entries": [
+   "{@i Component: astral bone (unique - bonemonger)}",
+   "The essence of the malicious bonemonger always hungers for more victims, and this craving persists even after death. Those who hold this jagged lance can feel its insatiable desire to be bathed in blood, and see shadowy claws crawl across its surface when it has gone too long without...",
+   "This lance has 3 charges and regains 1d3 expended charges daily at dawn.",
+   {
+    "type": "item",
+    "name": "Syphoning Splinters",
+    "entries": [
+     "When you hit a creature with an attack using this lance, you can expend 1 charge to cause the tip of the lance to explode into sharp splinters; the creature must make a DC 15 Dexterity saving throw. On a failed save, the creature takes 4d4 piercing damage and some of the splinters are embedded inside of it for 1 minute. On a success, the creature takes half as much damage and suffers no additional effects. A creature with splinters inside of it takes 2d4 necrotic damage at the end of each of its turns, and you regain hit points equal to half the necrotic damage dealt this way as the splinters syphon the victim's vitality into you. A creature with splinters inside it or another creature within 5 feet of it can use an action to make a DC 15 Wisdom ({@skill Medicine|PHB}) check, removing the splinters on a success."
+    ]
+   }
+  ],
+  "items": [
+   "Osseous Spike (rare)|HelianasGuidetoMonsterHunting",
+   "Osseous Spike (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Overgrown Barkshield",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 466,
+  "baseItem": "shield|PHB",
+  "type": "S",
+  "rarity": "varies",
+  "reqAttune": true,
+  "weight": 6,
+  "ac": 2,
+  "entries": [
+   "This crude shield made of bark and wood teems with life as if it were still part of a tree. The smell of sap and various fragrant flowers perfumes the air around you.",
+   {
+    "type": "item",
+    "name": "Bark Armour",
+    "entries": [
+     "As an action, you can place the shield on your torso and speak the command word, causing the wood and vines to wrap around your figure. For one hour, or until you end this effect as an action, you are unable to hold a shield and you gain the following benefits:",
+     {
+      "type": "list",
+      "items": [
+       "You gain {@dice 1d8} temporary hit points.",
+       "You gain the benefits of the {@spell barkskin|source|optional text} spell (no concentration required).",
+       "You have advantage on saving throws made to resist being {@condition poisoned|source|optional text}."
+      ]
+     },
+     "When this effect ends, the barkshield falls from its place on your torso, fading to a lifeless shade of grey. This property can't be used again until you finish a long rest when the shield blooms with life once more."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Vines and Thorns",
+    "entries": [
+     "While attuned to this shield, you can use an action to animate one of the shield's thorny vines and make a melee weapon attack (+5 to hit) against one target within 30 feet of you. On a hit, the target takes 2d8 piercing damage, and, if the target is a Large or smaller creature, or an object that weighs less than 500 pounds, you pull it up to 10 feet closer to you."
+    ]
+   }
+  ],
+  "items": [
+   "Overgrown Barkshield (uncommon)|HelianasGuidetoMonsterHunting",
+   "Overgrown Barkshield (rare)|HelianasGuidetoMonsterHunting",
+   "Overgrown Barkshield (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Painblinder Mycaxe",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 467,
+  "type": "M",
+  "rarity": "varies",
+  "entries": [
+   "The wood and iron of this once-pristine axe have been utterly devoured and replaced by a variety of fruiting fungi. Gills funnel along the axe's blade, holding millions of spores in biomantic suspension, ready to unleash their pain-inhibiting effects when inhaled.",
+   {
+    "type": "item",
+    "name": "Painblind Spores",
+    "entries": [
+     "As a bonus action while holding this axe, you can inhale its spores, numbing your extremities and stimulating muscle recruitment. Until the start of your next turn, melee weapon attacks you make with this weapon have a {@damage +2} bonus to damage rolls and you have resistance to bludgeoning, piercing, and slashing damage.",
+     "If you use your bonus action to inhale more spores at the beginning of your next turn, the effects continue without interruption. You can prolong the effects in this manner for up to {@b 1 minute}, after which the effects end. When the effects end, you become {@condition poisoned} for a number of minutes equal to ten times the number of rounds you were under the influence of the spores. Once you have benefitted from the Painblind Spores, you can't benefit from them again until after you finish a long rest."
+    ]
+   }
+  ],
+  "items": [
+   "Painblinder Mycaxe (uncommon)|HelianasGuidetoMonsterHunting",
+   "Painblinder Mycaxe (rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Painted Stones",
+  "source": "TalesFromTheShadows",
+  "page": 176,
+  "rarity": "uncommon",
+  "wondrous": true,
+  "charges": 1,
+  "entries": [
+   "The painted stones are magical and emanate different auras of magic, depending on the color. If the stones are taken from the Whispering Plains, they instantly lose their magical properties. Returning a stone to the Plains does not bring back its magic.",
+   "Only one stone can affect a creature at a time. Each stones has one charge. With a bonus action, a creature holding one of the stones can expend its single charge, activating its effect"
+  ],
+  "items": [
+   "Puce Painted Stone|TalesFromTheShadows",
+   "Indigo Painted Stone|TalesFromTheShadows",
+   "Violet Painted Stone|TalesFromTheShadows",
+   "Slate Painted Stone|TalesFromTheShadows",
+   "Mustard Painted Stone|TalesFromTheShadows",
+   "Juniper Painted Stone|TalesFromTheShadows",
+   "Umber Painted Stone|TalesFromTheShadows",
+   "Bone Painted Stone|TalesFromTheShadows"
+  ]
+ },
+ {
+  "name": "Planchette of Adela Druskenvald",
+  "source": "CrookedMoon24",
+  "page": 602,
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "property": [
+   "TCM'24:FH"
+  ],
+  "focus": true,
+  "entries": [
+   "A small, heart-shaped silver pointer hangs from a silver necklace. It is inscribed with occult symbols. When placed on an open book or other assortment of letters, the air nearby feels heavy and cold.",
+   "While wearing the planchette, you can use it as a {@variantrule Spellcasting Focus|XPHB} for your spells, you gain a bonus to Intelligence and Wisdom ability checks determined by the planchette's rarity, and you can use the following properties."
+  ],
+  "items": [
+   "Planchette of Adela Druskenvald (Rare)|CrookedMoon24",
+   "Planchette of Adela Druskenvald (Very Rare)|CrookedMoon24",
+   "Planchette of Adela Druskenvald (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Planchette%20of%20Adela%20Druskenvald.webp"
+     },
+     "width": 846,
+     "height": 1200,
+     "credit": "Margarita Bourkova"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Plate of the Dawnmartyr",
+  "source": "TalDoreiCampaignSettingReborn",
+  "page": 208,
+  "baseItem": "plate armor|PHB",
+  "type": "HA",
+  "resist": [
+   "fire"
+  ],
+  "rarity": "legendary",
+  "reqAttune": true,
+  "weight": 65,
+  "property": [
+   "Vst|EGW"
+  ],
+  "ac": 18,
+  "strength": "15",
+  "bonusAc": "+1",
+  "stealth": true,
+  "entries": [
+   "Beautiful silver scrollwork and priceless cut rubies adorn this set of brass-and-gold armor. Legend holds that it was worn by Duana, High Priest of the {@deity The Dawnfather|Exandria|TalDoreiCampaignSettingReborn}, when she was martyred in the Battle of Ghor Dranas in the final days of the {@book Calamity|TalDoreiCampaignSettingReborn|1|The Calamity}. In more recent times, it was worn by {@creature Pike Trickfoot|TalDoreiCampaignSettingReborn}, a legendary cleric of the {@deity The Everlight|Exandria|TalDoreiCampaignSettingReborn}, while fighting against {@book the Chroma Conclave|TalDoreiCampaignSettingReborn|1|The Chroma Conclave} and {@deity The Whispered One|Exandria|TalDoreiCampaignSettingReborn}."
+  ],
+  "items": [
+   "Plate of the Dawnmartyr (Dormant)|TalDoreiCampaignSettingReborn",
+   "Plate of the Dawnmartyr (Awakened)|TalDoreiCampaignSettingReborn",
+   "Plate of the Dawnmartyr (Exalted)|TalDoreiCampaignSettingReborn"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Pneuma Blade",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 491,
+  "type": "M",
+  "rarity": "varies",
+  "entries": [
+   "This blade shouldn't work; the pneumatic seals are made of earwax and leather, the sprockets' teeth are all different sizes, and the structure itself is held together by an adhesive tape decorated with small ducks. The only explanation is that the sheer force of the kobold mechamagicians' belief is encapsulated within this magic sword, allowing it to chomp at its enemies.",
+   {
+    "type": "item",
+    "name": "Pneumatic Strike",
+    "entries": [
+     "After you make an attack roll with this weapon, but before the result of the attack is determined, you can use a bonus action to pull the blade's trigger. With a pneumatic thrust, the top of the weapon arcs forward and you gain a {@atk +4} bonus to the attack roll."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Tetanus Blade",
+    "entries": [
+     "When you hit a creature with an attack that uses Pneumatic Strike, the pathogens that live within the rusty blade are reinvigorated by its magic, and the attack deals an additional {@damage 1d8} poison damage."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Backfire",
+    "entries": [
+     "When you roll an 8 on Tetanus Blade's poison damage, dormant pathogens within surrounding creatures become reinvigorated. Each creature within {@b 10 feet} of you (including you) must succeed on a {@dc 15} Constitution saving throw or take {@damage 4d6} poison damage and become {@condition poisoned} until the end of its next turn."
+    ]
+   }
+  ],
+  "items": [
+   "Pneuma Blade (rare)|HelianasGuidetoMonsterHunting",
+   "Pneuma Blade (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Pyremaul",
+  "source": "TalDoreiCampaignSettingReborn",
+  "page": 208,
+  "baseItem": "maul|PHB",
+  "type": "M",
+  "rarity": "legendary",
+  "reqAttune": true,
+  "weight": 10,
+  "weaponCategory": "martial",
+  "property": [
+   "H",
+   "2H",
+   "Vst|EGW"
+  ],
+  "dmg1": "2d6",
+  "dmgType": "B",
+  "bonusWeaponAttack": "+1",
+  "entries": [
+   "Forged from deep red iron, this massive hammer is set with a brilliant fire opal that shimmers with eternal flame. It is rumored to be currently wielded by {@book Grand Legate Phaestor, the fire giant ruler of Vulkanon|TalDoreiCampaignSettingReborn|6|fire giants}, somewhere beneath the {@book Cliffkeep Mountains|TalDoreiCampaignSettingReborn|3|Cliffkeep Mountains}."
+  ],
+  "items": [
+   "Pyremaul (Dormant)|TalDoreiCampaignSettingReborn",
+   "Pyremaul (Awakened)|TalDoreiCampaignSettingReborn",
+   "Pyremaul (Exalted)|TalDoreiCampaignSettingReborn"
+  ],
+  "attachedSpells": {
+   "rest": {
+    "1e": [
+     "burning hands#2"
+    ]
+   }
+  },
+  "hasFluffImages": true
+ },
+ {
+  "name": "Ring of Fungal Symbiosis",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 468,
+  "type": "RG|DMG",
+  "rarity": "varies",
+  "reqAttune": "optional",
+  "entries": [
+   "Parasite or symbiote, the exact classification of this loop of living fungus is up for debate. When worn for an extended period, the ring co-opts its host, producing an assortment of fruiting fungal bodies each day. Whether those are of benefit or not is entirely up to how they're used.",
+   "Whenever you finish a long rest during which you wear this ring, you find a selection of toadstools has grown on the limb that sports this ring. Roll a d4 twice and consult the list below to determine which two mushrooms have grown.",
+   {
+    "type": "list",
+    "items": [
+     {
+      "type": "item",
+      "name": "1-Boomshroom",
+      "entries": [
+       "As an action, a creature can throw this volatile mushroom at a point it can see within {@b 60 feet} of it, where it explodes in a {@b 10-foot-radius} sphere of flames. Each creature in the area must make a {@dc 13} Dexterity saving throw, taking {@damage 4d6} fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't being worn or carried."
+      ]
+     },
+     {
+      "type": "item",
+      "name": "2-Bloomshroom",
+      "entries": [
+       "As an action, a creature can eat this mushroom, regaining {@dice 2d4 + 2} hit points and gaining advantage on all Constitution saving throws for {@b 1 minute}."
+      ]
+     },
+     {
+      "type": "item",
+      "name": "3-Doomshroom",
+      "entries": [
+       "As an action, a creature can throw this dusky mushroom at a point it can see within {@b 60 feet} of it, where it explodes in a {@b 10-foot-radius} sphere of purple spores. Each creature in the area must succeed on a {@dc 13} Constitution saving throw or become afflicted by the {@spell bane} spell for {@b 1 minute}. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on a success."
+      ]
+     },
+     {
+      "type": "item",
+      "name": "4-Gloomshroom",
+      "entries": [
+       "As an action, a creature can eat this mushroom. For the next hour, it gains darkvision out to a range of {@b 60 feet}. If it already has darkvision, the range of this vision is increased by {@b 30 feet}."
+      ]
+     }
+    ]
+   },
+   "The mushrooms last on your arm until you finish a long rest, but lose all magical effects 10 minutes after they are plucked. You can pluck a mushroom as part of the action to use it.",
+   {
+    "type": "item",
+    "name": "Optional Attunement",
+    "entries": [
+     "You can choose to attune to this item. While attuned, you can roll the d4 to determine which mushrooms grew four times instead of twice."
+    ]
+   }
+  ],
+  "items": [
+   "Ring of Fungal Symbiosis (uncommon)|HelianasGuidetoMonsterHunting",
+   "Ring of Fungal Symbiosis (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Ring of the Jarlpact",
+  "source": "NorthlandsWorldbook",
+  "rarity": "varies",
+  "type": "GV|XDMG",
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Jarlpact Benefit",
+    "entries": [
+     "If an ally within {@b 120 feet} is attuned to and wearing any other Ring of the Jarlpact, you have {@variantrule Advantage|XPHB} on Strength checks and Strength saving throws."
+    ]
+   }
+  ],
+  "items": [
+   "Ring of the Cragtop Jarl|NorthlandsWorldbook",
+   "Ring of the Forgefire Jarl|NorthlandsWorldbook",
+   "Ring of the Glacial Jarl|NorthlandsWorldbook",
+   "Ring of the Tempest Jarl|NorthlandsWorldbook"
+  ],
+  "hasFluff": true
+ },
+ {
+  "name": "Robes of Beaurêve",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 478,
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "entries": [
+   "Made from the stuff of dreams, the cuffs and hem of this ethereal robe fade into translucent purple smoke, and the robes' lining is sewn from the fabric of the night sky. A creature wearing these robes can become temporarily incorporeal, slipping through locked doors, blood-thirsty demons, or out of uncomfortable conversations. Owners of such a garment also find themselves incredibly productive, with dishes cleaned and chainmail oiled each morning...",
+   "Also, it has pockets.",
+   "This robe has 3 charges and regains all expended charges daily at dawn.",
+   {
+    "type": "item",
+    "name": "Incorporeality",
+    "entries": [
+     "As a bonus action, you can expend 1 charge to become incorporeal until the start of your next turn. While incorporeal, you gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks, and can move through other creatures and objects as if they were difficult terrain. If you end your turn inside a creature or object, you are shunted to the nearest unoccupied space, taking 1d10 force damage for every 5 feet you are shunted."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Spellcasting",
+    "entries": [
+     "You can spend charges to cast the following spells (save DC 15). You must spend a number of charges equal to the level at which you cast the spell.",
+     {
+      "type": "list",
+      "items": [
+       "{@spell Daydream|HelianasGuidetoMonsterHunting}",
+       "{@spell Sleep}",
+       "{@spell Dreamwalk|HelianasGuidetoMonsterHunting}"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Sleepwalker",
+    "entries": [
+     "You can't be put to sleep against your will. When you fall into a nonmagical sleep while wearing these robes, you can specify one intention, such as 'organising my collection of buttons' or 'oiling my chainmail'. While you sleep, you can perform light activities that fulfil this intention while still meeting the requirements of a long rest."
+    ]
+   }
+  ],
+  "items": [
+   "Robes of Beaurêve (rare)|HelianasGuidetoMonsterHunting",
+   "Robes of Beaurêve (legendary)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Robes of the Enchanter",
+  "source": "HelianasGuidetoMonsterHunting",
+  "rarity": "varies",
+  "wondrous": true,
+  "entries": [
+   "{@i Component: astral heart (unique - bonemonger)}",
+   "Many scholars believe the name of this extravagant garment to be a grave misnomer, as it has no apparent relation whatsoever to enchantment magic. In truth, the robes are named after the man who devised and created the first set, a legendary sorcerer of tremendous power and curious explosive proclivities... as well as astonishing ignorance regarding the schools of magic.",
+   {
+    "type": "item",
+    "name": "Spontaneous Detonation",
+    "entries": [
+     "As an action while wearing these robes, you can wave your arms dramatically to create a small explosion at a point you can see within 30 feet of you. Each creature within 5 feet of the point must succeed on a DC 13 Dexterity saving throw or take 1d8 fire damage, get pushed back 10 feet, and be knocked prone."
+    ]
+   }
+  ],
+  "items": [
+   "Robes of the Enchanter (uncommon)|HelianasGuidetoMonsterHunting",
+   "Robes of the Enchanter (rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Runestone of the Wild Titan",
+  "source": "CrookedMoon24",
+  "page": 603,
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "weight": 50,
+  "property": [
+   "TCM'24:FH"
+  ],
+  "entries": [
+   "This mighty granite runestone is etched with complex glyphs on much of its angular surface. Though an incredible burden to carry, it thrums with the power of the wild titan. The stone weighs 50 pounds.",
+   "While holding the stone, you gain a bonus to Strength and Constitution saving throws determined by the runestone's rarity."
+  ],
+  "items": [
+   "Runestone of the Wild Titan (Rare)|CrookedMoon24",
+   "Runestone of the Wild Titan (Very Rare)|CrookedMoon24",
+   "Runestone of the Wild Titan (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Runestone%20of%20the%20Wild%20Titan.webp"
+     },
+     "width": 649,
+     "height": 1200,
+     "credit": "Humble Squid Creatives"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Sacrificial Brand",
+  "source": "SGEHPP",
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "entries": [
+   "To apply an Eldritch Carving, one must follow a gruesome process. Unlike most art, where the artist determines the quality of the art, with Eldritch Carvings, the canvas—the person getting carved— determines the quality of the work. The canvas must envision the rune in their mind as best they can, causing their body to distort under the eldritch pressure. The carver can then simply apply the necessary tool against the skin and let the eldritch powers move the brush, needle, or knife, depending on whether the Eldritch Carving is Drawn, Tattooed, or Scarified, respectively. This procedure takes 1 hour and can be done as part of a {@variantrule Short Rest|XPHB}.",
+   "After the Eldritch Carving is complete, a creature is attuned to it (if required) and gains its effects. To remove an Eldritch Carving, the flesh where the Eldritch Carving is located needs to be thoroughly burnt. Burning a carving also removes {@variantrule Attunement|XPHB} to it. Scarified Eldritch Carvings can't be removed.",
+   "The carving, notorious among hunters and commonly dubbed the \"Brand of Death\" is a harbinger of an early demise for those burdened with its curse. Nevertheless, Steinhardt and Martyr Tulio—valiant souls undaunted by fear—carved the eldritch sigil into their own skin willingly. By bearing the ominous symbol, they sought to lure the beasts closer to them during the Hunt, granting their brothers-in-arms moments of respite amidst the chaos.",
+   {
+    "type": "entries",
+    "name": "Drawn (Common)",
+    "entries": [
+     "During the three days of the Blood Moon, all Evil-aligned creatures within Luyarnha gain {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception|XPHB}) or Wisdom ({@skill Survival|XPHB}) checks to locate creatures with this Eldritch Carving."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Tattooed (Uncommon)",
+    "entries": [
+     "During the three days of the Blood Moon, all Evil-aligned creatures within Luyarnha gain {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception|XPHB}) or Wisdom ({@skill Survival|XPHB}) checks to locate creatures with this Eldritch Carving. If they are within 120 feet of a creature bearing the Eldritch Carving, they know their exact location and receive a +1 bonus to attack rolls and damage rolls against them."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Scarified (Rare)",
+    "entries": [
+     "During the three days of the Blood Moon, all Evil-aligned creatures within Luyarnha gain {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception|XPHB}) or Wisdom ({@skill Survival|XPHB}) checks to locate creatures with this Eldritch Carving. If they are within 120 feet of a creature bearing the Eldritch Carving, they know their exact location and receive a +3 bonus to attack rolls and damage rolls against them, and they have a -3 penalty to attack rolls and damage rolls against other creatures not bearing the brand.",
+     "In addition, creatures bearing this carving begin to painfully bleed from it when {@variantrule Hostile [Attitude]|XPHB|Hostile} monsters within 300 feet of them are aware of their position. They can't be {@status Surprised|XPHB} for the duration of the Blood Moon."
+    ]
+   }
+  ],
+  "items": [
+   "Sacrificial Brand (Drawn)|SGEHPP",
+   "Sacrificial Brand (Tattooed)|SGEHPP",
+   "Sacrificial Brand (Scarified)|SGEHPP"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Scholar's Cap",
+  "source": "24GriffonsSaddlebag1",
+  "rarity": "varies",
+  "wondrous": true,
+  "type": "GV|XDMG",
+  "entries": [
+   "This hat carries with it the cleverness and knowledge of many previous scholars. While wearing it, you gain a bonus to Intelligence checks and Intelligence saving throws. This bonus is determined by the hat's rarity. In addition, for every 5 days you spend researching a subject, you gain knowledge as if you had been researching it for an additional number of days based on the hat's rarity: 1 day (Uncommon), 2 days (Rare), or 3 days (Very Rare)."
+  ],
+  "items": [
+   "Scholar's Cap +1|24GriffonsSaddlebag1",
+   "Scholar's Cap +2|24GriffonsSaddlebag1",
+   "Scholar's Cap +3|24GriffonsSaddlebag1"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/TGS1/Scholars-Cap.webp"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "Scythe of the Harvest Terror",
+  "source": "CrookedMoon24",
+  "page": 603,
+  "baseItem": "halberd|xphb",
+  "type": "M|XPHB",
+  "typeAlt": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "weight": 6,
+  "weaponCategory": "martial",
+  "property": [
+   "TCM'24:FH"
+  ],
+  "entries": [
+   "This menacing scythe with a rusted blade was wielded by the Harvest Terror, a demon of secrets and fear. The scythe appears old and worn, with a handle wrapped in ancient, weathered cloth. The blade is etched with hatch marks, tallying its kills.",
+   "You gain a bonus to attack rolls and damage rolls with this magic weapon determined by its rarity. While holding the scythe, you can use the following properties."
+  ],
+  "items": [
+   "Scythe of the Harvest Terror (Rare)|CrookedMoon24",
+   "Scythe of the Harvest Terror (Very Rare)|CrookedMoon24",
+   "Scythe of the Harvest Terror (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Scythe%20of%20the%20Harvest%20Terror.webp"
+     },
+     "width": 797,
+     "height": 1200,
+     "credit": "Eugenio Frosali"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Shard Crown",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 460,
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "entries": [
+   "From the horn and eyes of a magnetite dragon is crafted this crown of magnetite. The creature's commanding presence and power over the blood of others allow the wearer of this object to bend its foes to its will.",
+   "Critical hits against you made with ferrous weapons or ammunition become normal hits while you wear this crown. In addition, while wearing this crown, you know the {@spell magnetobolt|HelianasGuidetoMonsterHunting} cantrip ({@hit +7} to hit or your spellcasting attack modifier, whichever is higher) and, in extreme cold, you can cast the {@spell levitate} spell on yourself at will.",
+   "The crown has 5 charges and regains 1d4 + 1 expended charges daily at dawn.",
+   {
+    "type": "item",
+    "name": "Bloodbend",
+    "entries": [
+     "As an action, you can expend 1 charge as you gesture to a creature you can see within 30 feet of you and speak a one-word command. If the target has blood, it must succeed on a DC 15 Wisdom saving throw or instantly use its reaction to follow the command (GM's discretion). If the creature has no reaction remaining, it must use its reaction to follow the command the next time it regains it. The property has no effect on a target that doesn't have blood. Commands include:",
+     {
+      "type": "list",
+      "items": [
+       {
+        "type": "item",
+        "name": "Throw",
+        "entries": [
+         "The creature throws an object it is holding in a direction you choose with all its might."
+        ]
+       },
+       {
+        "type": "item",
+        "name": "Sit",
+        "entries": [
+         "The creature sits, falling prone and not moving until the end of its next turn."
+        ]
+       },
+       {
+        "type": "item",
+        "name": "Attack",
+        "entries": [
+         "The creature makes one weapon attack against a creature of your choice within its reach/range."
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "items": [
+   "Shard Crown (rare)|HelianasGuidetoMonsterHunting",
+   "Shard Crown (very rare)|HelianasGuidetoMonsterHunting",
+   "Shard Crown (legendary)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Shield of Marius Renathyr",
+  "source": "CrookedMoon24",
+  "page": 604,
+  "baseItem": "shield|xphb",
+  "type": "S|XPHB",
+  "typeAlt": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "weight": 6,
+  "property": [
+   "TCM'24:FH"
+  ],
+  "ac": 2,
+  "entries": [
+   "Crafted from polished gold and white enamel and adorned with an intricate design of a rose encircled by thorny vines, this Shield was once owned by Marius Renathyr, a knight-errant destined for a terrible fate.",
+   "While holding this Shield, you gain a bonus to AC determined by the Shield's rarity, in addition to the Shield's normal bonus to AC."
+  ],
+  "items": [
+   "Shield of Marius Renathyr (Rare)|CrookedMoon24",
+   "Shield of Marius Renathyr (Very Rare)|CrookedMoon24",
+   "Shield of Marius Renathyr (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Shield%20of%20Marius%20Renathyr.webp"
+     },
+     "width": 956,
+     "height": 1200,
+     "credit": "Minard Maxime"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Shovel of Yorgrim",
+  "source": "CrookedMoon24",
+  "page": 604,
+  "baseItem": "greatclub|xphb",
+  "type": "M|XPHB",
+  "typeAlt": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "weight": 10,
+  "weaponCategory": "simple",
+  "property": [
+   "TCM'24:FH"
+  ],
+  "entries": [
+   "This shovel features a steel blade and collar at the end of a makeshift walking stick, appearing old and well-used. It was once the shovel of Yorgrim of the Shadestone Clan, who could commune with the spirits of the dead. It occasionally emits a faint whispering sound when handled.",
+   "You gain a bonus to attack rolls and damage rolls with this magic weapon determined by its rarity. While holding the shovel, you can use the following properties."
+  ],
+  "items": [
+   "Shovel of Yorgrim (Rare)|CrookedMoon24",
+   "Shovel of Yorgrim (Very Rare)|CrookedMoon24",
+   "Shovel of Yorgrim (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Shovel%20of%20Yorgrim.webp"
+     },
+     "width": 888,
+     "height": 1200,
+     "credit": "Minard Maxime"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Slime-in-a-Skull",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 445,
+  "rarity": "uncommon",
+  "reqAttune": true,
+  "wondrous": true,
+  "recharge": "dawn",
+  "rechargeAmount": 2,
+  "charges": 2,
+  "entries": [
+   "Within this humanoid skull resides a friendly ooze who wishes only to be helpful to the owner of its home. Joyful gurgling sounds can occasionally be heard emanating from the eye sockets and, very rarely, a curious eye will peek out of the mouth.",
+   "The skull has {@b 2 charges} and regains all expended charges daily at dawn.",
+   {
+    "type": "item",
+    "name": "Summon Ooze",
+    "entries": [
+     "While holding the skull, you can use an action to expend 1 charge and call forth the ooze that lives within. It expands into its normal Large size in an unoccupied space within 5 feet of you. The ooze uses the {@creature Saddle Slime|HelianasGuidetoMonsterHunting} stat block and returns to the skull when it drops to 0 hit points or after 1 hour. If the ooze is reduced to 0 hit points, it can't be summoned again for 1 hour. The ooze is an ally to you and your companions. In combat, it shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger.",
+     {
+      "type": "list",
+      "style": "list-no-bullets",
+      "columns": 2,
+      "items": [
+       {
+        "type": "statblock",
+        "tag": "creature",
+        "name": "Saddle Slime",
+        "source": "HelianasGuidetoMonsterHunting",
+        "page": 445
+       },
+       {
+        "type": "statblock",
+        "tag": "creature",
+        "name": "Wyrmskull Ooze",
+        "source": "HelianasGuidetoMonsterHunting",
+        "page": 445
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "items": [
+   "Slime-in-a-Skull (Saddle Slime)|HelianasGuidetoMonsterHunting",
+   "Slime-in-a-Skull (Wyrmskull Ooze)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Snow Wolf Cowl",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 461,
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "recharge": "dawn",
+  "rechargeAmount": 1,
+  "charges": 1,
+  "entries": [
+   "Few warriors can claim to have single-handedly bested a full-grown snow wolf. Those that do can have the head of such a monster enchanted by a clan shaman, granting them the power to transform into the beast. Such cowls are prized trophies amongst the frozen Norse clans, symbols of might and status.",
+   {
+    "type": "item",
+    "name": "Wolf Form",
+    "entries": [
+     "As an action, you can cast the {@spell polymorph} spell on yourself. When cast in this manner, the spell doesn't require concentration, and you can only transform into a {@creature winter wolf}, ignoring the spell's normal restrictions on CR and creature type, with the following changes:",
+     {
+      "type": "list",
+      "items": [
+       "You can speak Common, Giant, and Winter Wolf in your wolf form.",
+       "The attack modifier for your attacks in wolf form is +7, and the save DC for your Cold Breath and Bite actions is 15."
+      ]
+     },
+     "You can end this spell early as a bonus action. Once this property of the cowl has been used, it can't be used again until the next dawn."
+    ]
+   }
+  ],
+  "items": [
+   "Snow Wolf Cowl (uncommon)|HelianasGuidetoMonsterHunting",
+   "Snow Wolf Cowl (rare)|HelianasGuidetoMonsterHunting",
+   "Snow Wolf Cowl (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Spelleater Tome",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 456,
+  "type": "SCF",
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "recharge": "dawn",
+  "rechargeAmount": "{@dice 1d4 + 4}",
+  "charges": 8,
+  "focus": [
+   "Wizard"
+  ],
+  "entries": [
+   "Learning and developing new spells can be a tedious and time-consuming process. Luckily, the spelleater tome is a shortcut to becoming a spell-slinging savant. Originally a creation of Jonjo Starr, the tome has become a favourite among lazy wizarding apprentices the world over.",
+   "This book has {@b 8 charges} and regains {@dice 1d4 + 4} expended charges daily at dawn. It can be used as a spellbook and as a spellcasting focus by wizards.",
+   {
+    "type": "item",
+    "name": "Living Library",
+    "entries": [
+     "This tome is capable of copying and storing magical information. As an action, you can give it a spell scroll of {@i 2nd level or lower}, which it devours, destroying the scroll and adding the spell to its pages. While holding the book, you can cast one of the spells stored within it by expending a number of charges equal to the spell's level (save {@dc 13}, {@hit +5} to hit; 1 charge for cantrips). The tome can store up to five spells in this way. If storing a new spell would take it above this maximum, you can choose one of its current spells to be replaced. When found, the book already contains one 1st-level spell and one 2nd-level spell, randomly determined."
+    ]
+   }
+  ],
+  "items": [
+   "Spelleater Tome (uncommon)|HelianasGuidetoMonsterHunting",
+   "Spelleater Tome (rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Spiked Collar",
+  "source": "Pugilist2024",
+  "rarity": "varies",
+  "wondrous": true,
+  "entries": [
+   "This collar comes in a variety of colors and sizes, all with metal spikes protruding around the outside of the collar. A Beast wearing this magic item gains a bonus to its attack rolls and damage rolls while wearing this collar. The bonus is determined by its rarity."
+  ],
+  "items": [
+   "+1 Spiked Collar|Pugilist2024",
+   "+2 Spiked Collar|Pugilist2024",
+   "+3 Spiked Collar|Pugilist2024"
+  ]
+ },
+ {
+  "name": "Spire of Conflux",
+  "source": "TalDoreiCampaignSettingReborn",
+  "page": 209,
+  "type": "M",
+  "rarity": "legendary",
+  "reqAttune": "by a spellcaster",
+  "reqAttuneTags": [
+   {
+    "spellcasting": true
+   }
+  ],
+  "weight": 4,
+  "weaponCategory": "simple",
+  "property": [
+   "V",
+   "Vst|EGW"
+  ],
+  "dmg1": "1d6",
+  "dmgType": "B",
+  "dmg2": "1d8",
+  "bonusSpellAttack": "+2",
+  "bonusSpellSaveDc": "+2",
+  "recharge": "dawn",
+  "charges": 20,
+  "staff": true,
+  "entries": [
+   "A powerful relic passed down from generation to generation of Ashari leaders, the Spire of Conflux was lost over three centuries ago when Joran the Sea-Speaker, a respected leader of {@book the Water Ashari|TalDoreiCampaignSettingReborn|2|The Ashari}, was devoured by a demon of the Abyss. It was rediscovered by the legendary druid {@creature Keyleth, Voice of the Tempest|TalDoreiCampaignSettingReborn|Keyleth of Zephrah, Voice of the Tempest}. However, rumors swirl that she is seeking another hero to wield it—one who can travel the land and do good in small ways as she once did."
+  ],
+  "items": [
+   "Spire of Conflux (Dormant)|TalDoreiCampaignSettingReborn",
+   "Spire of Conflux (Awakened)|TalDoreiCampaignSettingReborn",
+   "Spire of Conflux (Exalted)|TalDoreiCampaignSettingReborn"
+  ],
+  "attachedSpells": {
+   "charges": {
+    "1": [
+     "burning hands"
+    ],
+    "3": [
+     "fireball"
+    ],
+    "4": [
+     "ice storm"
+    ],
+    "5": [
+     "conjure elemental"
+    ],
+    "6": [
+     "chain lightning"
+    ],
+    "7": [
+     "fire storm"
+    ]
+   }
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Splinterspray Tommybow",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 483,
+  "type": "R",
+  "rarity": "varies",
+  "recharge": "dawn",
+  "rechargeAmount": 6,
+  "charges": 6,
+  "entries": [
+   "Originally fashioned for low-accuracy ride-by assassinations in urban settings, this magical tommybow retains its predecessors' ability to self-load bolts from an attached magazine, while magically enhancing the attacks to spray splinters of wood and metal towards a target.",
+   "This magical tommybow has {@b 6 charges} and regains all expended charges daily at dawn.",
+   {
+    "type": "item",
+    "name": "Splinterspray",
+    "entries": [
+     "As an action, you can pull the trigger extra hard, expending 1 charge, and causing the ammunition to splinter into thousands of woodand-metal shards. Instead of the normal attack against a single target, make separate attack rolls against two creatures within {@b 5 feet} of each other. On a hit, a creature takes piercing damage equal to {@damage 2d4} (plus any modifiers normally added)."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Reload (3)",
+    "entries": [
+     "After you make three attacks with this weapon, you must reload it using an action."
+    ]
+   }
+  ],
+  "items": [
+   "Splinterspray Tommybow (uncommon)|HelianasGuidetoMonsterHunting",
+   "Splinterspray Tommybow (rare)|HelianasGuidetoMonsterHunting",
+   "Splinterspray Tommybow (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Sporespreader",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 469,
+  "type": "GV|DMG",
+  "rarity": "varies",
+  "reqAttune": "by a spellcaster",
+  "recharge": "dawn",
+  "rechargeAmount": "{@dice 1d4 + 3}",
+  "charges": 7,
+  "entries": [
+   "Used as a magical focus of the more humanoid-esque, 'customer-facing' hyphan colonists, sporespreaders are enchanted to facilitate the calming and assimilation of would-be interlopers. The magic in these foci can poison foes with infectious spores or generate obscuring thick black clouds to allow their wielders to flee dangerous situations.",
+   "This focus has {@b 7 charges} and regains {@dice 1d4 + 3} expended charges daily at dawn. While holding the sporespreader, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: {@spell calm emotions} (2 charges) and {@spell charm person} (1 charge).",
+   "You can also cast the {@spell spore cloud|HelianasGuidetoMonsterHunting} and {@spell smokescreen|HelianasGuidetoMonsterHunting} cantrips from the focus without using any charges."
+  ],
+  "items": [
+   "Sporespreader (uncommon)|HelianasGuidetoMonsterHunting",
+   "Sporespreader (rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Staff of Farryn of the Greenwood",
+  "source": "CrookedMoon24",
+  "page": 605,
+  "type": "M|XPHB",
+  "typeAlt": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "weight": 4,
+  "weaponCategory": "simple",
+  "property": [
+   "TCM'24:FH"
+  ],
+  "focus": true,
+  "staff": true,
+  "entries": [
+   "This twisted wooden staff is crowned by a trinket-adorned deer's skull. It was fashioned by Farryn before she delved into the dark lore of Gorthos. Soft, fragrant moss and earthy mushrooms grow along the staff's length.",
+   "While holding the staff, you can use it as a {@variantrule Spellcasting Focus|XPHB} for your spells, you gain a bonus to spell attack rolls and your spell save DC determined by the staff's rarity."
+  ],
+  "items": [
+   "Staff of Farryn of the Greenwood (Rare)|CrookedMoon24",
+   "Staff of Farryn of the Greenwood (Very Rare)|CrookedMoon24",
+   "Staff of Farryn of the Greenwood (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Staff%20of%20Farryn%20of%20the%20Greenwood.webp"
+     },
+     "width": 629,
+     "height": 1200,
+     "credit": "Eugenio Frosali"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Star Razor",
+  "source": "TalDoreiCampaignSettingReborn",
+  "page": 210,
+  "baseItem": "longsword|PHB",
+  "type": "M",
+  "resist": [
+   "radiant"
+  ],
+  "rarity": "legendary",
+  "reqAttune": true,
+  "weight": 3,
+  "weaponCategory": "martial",
+  "property": [
+   "V",
+   "Vst|EGW"
+  ],
+  "dmg1": "1d8",
+  "dmgType": "S",
+  "dmg2": "1d10",
+  "bonusWeapon": "+1",
+  "entries": [
+   "The thick, grooved blade of this shining silver {@item longsword|phb} is lined with etched runes that sparkle blue in the light. Star Razor—known also as Dwueth'var—was thought to have been destroyed or lost after the {@book Calamity|TalDoreiCampaignSettingReborn|1|The Calamity}, but new rumors suggest that it might be wielded by a half-orc somewhere in {@book Wildemount|TalDoreiCampaignSettingReborn|3|Wildemount}."
+  ],
+  "items": [
+   "Star Razor (Dormant)|TalDoreiCampaignSettingReborn",
+   "Star Razor (Awakened)|TalDoreiCampaignSettingReborn",
+   "Star Razor (Exalted)|TalDoreiCampaignSettingReborn"
+  ],
+  "attachedSpells": {
+   "will": [
+    "fly",
+    "see invisibility"
+   ],
+   "daily": {
+    "1e": [
+     "faerie fire"
+    ]
+   }
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Studded Collar",
+  "source": "Pugilist2024",
+  "rarity": "varies",
+  "wondrous": true,
+  "entries": [
+   "This collar comes in a variety of colors and sizes, all with crystalline studs decorating the outside of the collar. A Beast wearing this wondrous item gains a bonus to {@variantrule Armor Class|XPHB} and saving throws while wearing this collar. The bonus is determined by its rarity."
+  ],
+  "items": [
+   "+1 Studded Collar|Pugilist2024",
+   "+2 Studded Collar|Pugilist2024",
+   "+3 Studded Collar|Pugilist2024"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Suncatcher",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 448,
+  "type": "GV|DMG",
+  "rarity": "varies",
+  "reqAttune": "by a spellcaster",
+  "recharge": "dawn",
+  "rechargeAmount": "{@dice 1d6 + 1}",
+  "charges": 7,
+  "entries": [
+   "From the beak of the suneater owlbear is extracted its ability to absorb and redirect sunlight. The suneater's bones imbue this item with the hard-headed arrogance unique to fey that prevents them from succumbing to others' charms.",
+   "While attuned to the suncatcher, you have advantage on ability checks and saving throws made to resist being charmed.",
+   "This weapon has {@b 7 charges}. It regains 1 expended charge for each hour it spends in direct sunlight and {@dice 1d6 + 1} expended charges daily at dawn.",
+   {
+    "type": "item",
+    "name": "Radiant Absorption",
+    "entries": [
+     "When a creature within {@b 30 feet} of you takes radiant damage, you can use your reaction to expend 1 charge and absorb some of the energy. The damage the creature takes is reduced by {@dice 1d8} plus your spellcasting ability modifier (minimum reduction of 1)."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Radiant Deliverance",
+    "entries": [
+     "When you hit a target with a spell attack while holding the suncatcher, you can spend up to 3 charges to imbue the attack with radiant energy. On a hit, the attack deals an additional {@damage 1d6} radiant damage per charge expended."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Dreamcatcher",
+    "entries": [
+     "While attuned to the suncatcher, you are aware when a creature is using the {@spell dream} spell to contact you and can choose to end the spell early."
+    ]
+   }
+  ],
+  "items": [
+   "Suncatcher (uncommon)|HelianasGuidetoMonsterHunting",
+   "Suncatcher (rare)|HelianasGuidetoMonsterHunting",
+   "Suncatcher (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Sunfeather Shroud",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 450,
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "entries": [
+   "The feathers of a suneater owlbear possess a brilliant dichromatic effect causing it to sparkle in the sunlight, conferring the ability to dance between patches of sunlight. Particularly well-crafted specimens can augment the magic of the featherfronds, allowing them to generate blinding flashes of light.",
+   {
+    "type": "item",
+    "name": "Sunstep",
+    "entries": [
+     "When you are in bright light, you can use a bonus action to teleport up to {@b 60 feet} to an unoccupied space you can see that is also in bright light. When you do so, roll a d6. On a 1, you can't use the Sunstep property again until the next dawn."
+    ]
+   }
+  ],
+  "items": [
+   "Sunfeather Shroud (uncommon)|HelianasGuidetoMonsterHunting",
+   "Sunfeather Shroud (rare)|HelianasGuidetoMonsterHunting",
+   "Sunfeather Shroud (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Sunwing Bow",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 452,
+  "type": "R",
+  "rarity": "varies",
+  "reqAttune": "optional",
+  "dmgType": "R",
+  "bonusWeapon": "+2",
+  "recharge": "dawn",
+  "rechargeAmount": 3,
+  "charges": 3,
+  "entries": [
+   "Sinew harvested from a suneater owlbear's spine can imbue arrows with low-level radiation, which is passed onto a target when struck by the ammunition. The magic of suneater respiration lies in their photometabolism; they can convert sunlight into pure, concentrated radiant energy, unleashing unholy beams of destructive force.",
+   "You gain a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
+   {
+    "type": "item",
+    "name": "Sunshot",
+    "entries": [
+     "While in sunlight, this bow doesn't need ammunition. If you draw this weapon's bowstring without nocking an arrow, it produces its own ammunition, automatically creating a radiant arrow when you make a ranged attack with it. The attack deals radiant damage instead of the weapon's normal damage. The arrow created by this weapon vanishes the instant after it hits or misses a target."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Irradiation",
+    "entries": [
+     "A creature that takes radiant damage from this bow becomes magically marked for {@b 1 hour}. During this time, it leaves an invisible trail that can be seen by creatures with truesight or creatures using the {@spell detect magic} spell. The trail fades after {@b 1 hour}."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Optional Attunement",
+    "entries": [
+     "If you choose to attune to this weapon, it gains the Solar Beam property and has {@b 3 charges}. The sunwing bow regains 1 expended charge daily at dawn. If it is exposed to dawn's light, it regains all expended charges instead.",
+     {
+      "type": "item",
+      "name": "Solar Beam",
+      "entries": [
+       "As an action, you can expend 1 charge to fire a beam of solar energy in a {@b 5-foot-wide, 60-foot-long line} originating from you. Each creature in the area must make a {@dc 15} Dexterity saving throw, taking {@damage 3d8} radiant damage on a failed save, or half as much damage on a successful one."
+      ]
+     }
+    ]
+   }
+  ],
+  "items": [
+   "Sunwing Bow (uncommon)|HelianasGuidetoMonsterHunting",
+   "Sunwing Bow (rare)|HelianasGuidetoMonsterHunting",
+   "Sunwing Bow (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Suude",
+  "source": "TalDoreiCampaignSettingReborn",
+  "page": 85,
+  "type": "IDG|TalDoreiCampaignSettingReborn",
+  "rarity": "unknown (magic)",
+  "entries": [
+   "Exandria's most infamous drug, {@item suude|TalDoreiCampaignSettingReborn} is a glittering powder made from {@book residuum|TalDoreiCampaignSettingReborn|3|An Enchanting Export}. It was first developed by power-hungry archmages in the {@book Age of Arcanum|TalDoreiCampaignSettingReborn|1|Age of Arcanum} as an incense burned to enhance focus during ritual spellcasting. The secret to its refinement has been lost and rediscovered a variety of times since the {@book Calamity|TalDoreiCampaignSettingReborn|1|The Calamity}, and many different types of {@item suude|TalDoreiCampaignSettingReborn} have been developed by arcanists in search of ever-greater power. It has terrible addictive and mentally degenerative properties, even when used sparingly.",
+   "After burning {@item suude|TalDoreiCampaignSettingReborn} within a vessel and inhaling its fumes as an action, you take 22 ({@damage 4d10}) psychic damage and must make a {@dc 10} Constitution {@quickref saving throws|PHB|2|1|saving throw}. On a failure, you become {@condition poisoned} for 1 hour and fall {@condition unconscious} for 1 minute, or until you are shaken awake as an action. During this time, the world seems to move in slow motion, and your vision is twisted in kaleidoscopic colors—yet your focus is never distorted. If one dose of {@item suude|TalDoreiCampaignSettingReborn}, or more, is used within 1 hour of another, the DC of the Constitution {@quickref saving throws|PHB|2|1|saving throw} is increased by 5 per additional dose. If you fail this save by 10 or more, you instantly drop to 0 hit points.",
+   "On a success, you gain the ability to use one of the following Metamagic options as a sorcerer for the next minute, requiring no sorcery points. The type of Metamagic you gain access to depends on the type of {@item suude|TalDoreiCampaignSettingReborn}, and once you use it, you can't use it again until you inhale {@item suude|TalDoreiCampaignSettingReborn} again.",
+   "{@item Suude (Brown)|TalDoreiCampaignSettingReborn|Brown suude} allows you to use the {@optfeature Extended Spell|PHB} Metamagic option, {@item Suude (blue)|TalDoreiCampaignSettingReborn|blue suude} allows you to use {@optfeature Twinned Spell|PHB}, and {@item Suude (Brown)|TalDoreiCampaignSettingReborn|red suude} grants {@optfeature Distant Spell|PHB}."
+  ],
+  "items": [
+   "Suude (Brown)|TalDoreiCampaignSettingReborn",
+   "Suude (Blue)|TalDoreiCampaignSettingReborn",
+   "Suude (Red)|TalDoreiCampaignSettingReborn"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
+  "name": "Sword of the Crimson Abbot",
+  "source": "CrookedMoon24",
+  "page": 605,
+  "baseItem": "longsword|xphb",
+  "type": "M|XPHB",
+  "typeAlt": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "weight": 3,
+  "weaponCategory": "martial",
+  "property": [
+   "TCM'24:FH"
+  ],
+  "entries": [
+   "This powerful, fiendish sword was once wielded by the Crimson Abbot. While it was created as a gift that brought evil and malice to the corrupted former knight, it has lost its connections to the Crimson Rose. However, its evil origins still linger within. The sword is sleek and polished, with a blade that absorbs light. A blood-red ruby on the hilt is fitted within a setting of thorns and roses.",
+   "You gain a bonus to attack rolls and damage rolls with this magic weapon determined by the sword's rarity."
+  ],
+  "items": [
+   "Sword of the Crimson Abbot (Rare)|CrookedMoon24",
+   "Sword of the Crimson Abbot (Very Rare)|CrookedMoon24",
+   "Sword of the Crimson Abbot (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Sword%20of%20the%20Crimson%20Abbot.webp"
+     },
+     "width": 404,
+     "height": 1200,
+     "credit": "Eugenio Frosali"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Tail's End",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 484,
+  "type": "M",
+  "rarity": "varies",
+  "entries": [
+   "The blade of this wicked khopesh is composed of several individual sections linked by a sturdy chain running through the weapon's length. Always dry to the touch, this magical blade appears to continuously absorb any water with which it comes into contact.",
+   {
+    "type": "item",
+    "name": "Split at the Seams",
+    "entries": [
+     "As a bonus action, you can press a button hidden on the weapon's hilt to cause the sections comprising the blade to magically detach from one another, remaining connected by the chain. Until reformed as a sword as a bonus action, this weapon loses its former sword properties and gains those of a whip."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Unquenchable Thirst",
+    "entries": [
+     "When you roll a 20 on an attack roll made with this weapon, it releases a deadly burst of desiccating, negative energy that drains moisture from a target, forcing it to make a {@dc 15} Constitution saving throw. On a failed save, the target takes {@damage 6d6} necrotic damage and is desiccated for {@b 1 minute}. On a successful save, a creature takes half as much damage and isn't desiccated. A desiccated creature's skin turns dry and brittle, rupturing with ease, and causing the creature to take an additional {@damage 1d4} slashing damage whenever it takes bludgeoning, force, piercing, slashing, or thunder damage. A desiccated creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. This property has no effect on creatures without skin or on those immune to necrotic damage."
+    ]
+   }
+  ],
+  "items": [
+   "Tail's End (rare)|HelianasGuidetoMonsterHunting",
+   "Tail's End (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Tarrobe",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 493,
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "entries": [
+   "Fossilised bones and oilcloth, a lipid-rich mesh of viscous crude oil and lipophilic fibres, forms the basis of this magical robe. In the same way the oil refracts light in rainbow hues, the cloth has a natural resistance to magic, occasionally sending spells ricocheting back at the caster.",
+   {
+    "type": "item",
+    "name": "Oily Barrage",
+    "entries": [
+     "While you wear this robe, you can cast a variety of oil-based spells. This robe has 7 charges and regains 1d6 + 1 charges daily at dawn. You can expend charges to cast the following spells (save DC 15, +7 to hit). Some spells are changed to be oil-based.",
+     {
+      "type": "list",
+      "items": [
+       "{@spell Grease} (1 charge)",
+       "Create or destroy oil (2 charges; as {@spell create or destroy water}, but oil instead of water)",
+       "{@spell Mireball|HelianasGuidetoMonsterHunting} (3 charges; instead of mud, thick, rancid fat and oil are conjured)"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Spell Reflection",
+    "entries": [
+     "While you wear this robe, any time you are targeted by a {@spell magic missile} spell, a line spell, or a spell that requires a ranged attack roll, roll a d8. On a 1-7, you are affected as normal. On an 8, you are unaffected, and the effect is reflected back at the caster as though it originated from you, turning the caster into the target."
+    ]
+   }
+  ],
+  "items": [
+   "Tarrobe (rare)|HelianasGuidetoMonsterHunting",
+   "Tarrobe (legendary)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Terrorasque",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 493,
+  "type": "M",
+  "rarity": "varies",
+  "reqAttune": true,
+  "bonusWeapon": "+1",
+  "recharge": "dawn",
+  "rechargeAmount": "{@dice 1d4 + 1}",
+  "charges": 5,
+  "entries": [
+   "From the fossilised teeth of a tar-rasque is extracted the magic of rage and ferocity. Upon attuning to this weapon, you gain the ability to unleash terrifyingly monstrous roars and swing the enormous, bone-handled blade with astounding aggression.",
+   "You gain a {=bonusWeapon} bonus to attack and damage rolls you make with this magic weapon. This weapon has {@b 5 charges} and regains {@dice 1d4 + 1} charges daily at dawn.",
+   {
+    "type": "item",
+    "name": "Ferocious Blow",
+    "entries": [
+     "As an action, you can expend 1 charge to call upon the spirit of the tar-rasque and make a mighty swing with this weapon. If the attack hits, roll four times as many damage dice for the weapon as normal for this attack. This dice multiplication does not affect additional damage from abilities such as smite or sneak attack, and is unaffected by critical hits. If the attack misses, you fall {@condition prone} and your speed is reduced to 0 feet until the start of your next turn."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Terrorise",
+    "entries": [
+     "As a bonus action, or as part of the bonus action you use to activate the Rage class feature, you can brandish the terrorasque, amplifying your yell with that of a tar-rasque's. Each hostile creature within {@b 60 feet} of you that can hear you must succeed on a {@dc 15} Wisdom saving throw or be {@condition frightened} of you for {@b 1 minute}. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect for itself on a success. After you use this property, you can't do so again for 1 hour."
+    ]
+   }
+  ],
+  "items": [
+   "Terrorasque (rare)|HelianasGuidetoMonsterHunting",
+   "Terrorasque (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "The Sword in/out of the Stone",
+  "source": "HelianasGuidetoMonsterHunting",
+  "baseItem": "any sword|PHB",
+  "type": "M",
+  "rarity": "varies",
+  "reqAttune": "by a creature with a Strength score of 16 or higher",
+  "entries": [
+   "{@i Component: astral brain (unique - bonemonger)}",
+   "The Lady of the Lake, her arm clad in the purest shimmering samite, once bestowed a blade just like this one unto the rightful ruler of the land, that he might wield it in defence of the downtrodden and oppressed. This replica is just as good as the real thing... but its craftsman seems to have forgotten a tiny little detail."
+  ],
+  "items": [
+   "The Sword in the Stone|HelianasGuidetoMonsterHunting",
+   "The Sword out of the Stone|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Time Splitter",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 479,
+  "type": "M",
+  "rarity": "varies",
+  "reqAttune": true,
+  "recharge": "dawn",
+  "rechargeAmount": "{@dice 1d4}",
+  "charges": 4,
+  "entries": [
+   "The time splitter is just the tool for an almighty adventurer who's always a little too slow to get where they need to be exactly in the nick of time. Harnessing the time dilative power of the dreamholder, this magic weapon lets its wielder swing back in time, or speed the flow of time for itself, allowing it to act more quickly.",
+   "This magic weapon has {@b 4 charges} and regains {@dice 1d4} expended charges daily at dawn.",
+   {
+    "type": "item",
+    "name": "Pause",
+    "entries": [
+     "As a bonus action, you can flip the axe around anti-clockwise in your hands, expending 1 charge. Until the end of your next turn, any creature or object that moves leaves a ghostly image of itself at the moment you activated this property. You can target this ghostly image with attacks, spells, and effects as if the creature were still in that space, though the effects appear on the target wherever it is now."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Time Dilation",
+    "entries": [
+     "As a bonus action, you can tap into this weapon's chronomantic magic, casting the {@spell haste} spell on yourself (no concentration required). When you do so, the GM rolls {@dice 1d3}; the result (which the GM keeps secret) is how many rounds the spell lasts (ending at the end of your turn). After you activate this property, you can't do so again until the next dawn."
+    ]
+   }
+  ],
+  "items": [
+   "Time Splitter (uncommon)|HelianasGuidetoMonsterHunting",
+   "Time Splitter (rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Titanstone Knuckles",
+  "source": "TalDoreiCampaignSettingReborn",
+  "page": 211,
+  "resist": [
+   "cold",
+   "fire",
+   "lightning",
+   "thunder"
+  ],
+  "rarity": "legendary",
+  "reqAttune": true,
+  "wondrous": true,
+  "property": [
+   "Vst|EGW"
+  ],
+  "ability": {
+   "static": {
+    "str": 26
+   }
+  },
+  "entries": [
+   "Carved from the heartstone of a slain earth primordial, these gauntlets bestow immeasurable might to their wearer. In recent times, they were wielded by the legendary barbarian {@creature Grog Strongjaw|TalDoreiCampaignSettingReborn}, who continues to use them as he seeks worthy challengers across Tal'Dorei and Exandria."
+  ],
+  "items": [
+   "Titanstone Knuckles (Dormant)|TalDoreiCampaignSettingReborn",
+   "Titanstone Knuckles (Awakened)|TalDoreiCampaignSettingReborn",
+   "Titanstone Knuckles (Exalted)|TalDoreiCampaignSettingReborn"
+  ],
+  "attachedSpells": {
+   "daily": {
+    "1e": [
+     "enlarge/reduce"
+    ]
+   }
+  },
+  "hasFluffImages": true
+ },
+ {
+  "name": "Tome of Living Memories",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 474,
+  "type": "SCF",
+  "rarity": "varies",
+  "reqAttune": "optional by a wizard",
+  "reqAttuneTags": [
+   {
+    "class": "wizard"
+   }
+  ],
+  "wondrous": true,
+  "focus": [
+   "Wizard"
+  ],
+  "entries": [
+   "The pages of this book are littered with the shifting memories of all the aboleth broodmother's eyes have seen. This deluge of information includes historical occurrences, the gods, and all things arcane, in addition to several spells. Unfortunately, the script is a shifting mire of letters that only the most astute can decipher.",
+   {
+    "type": "item",
+    "name": "Knowledge from Beyond",
+    "entries": [
+     "Over the course of a minute, you can attempt to discern information from the broodmother's memories. Make a {@dc 10} Intelligence check. On a success, you gain proficiency in {@skill Arcana}, {@skill History}, {@skill Nature}, and {@skill Religion} for the next 10 minutes. On a failure, you take psychic damage equal to your level."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Shrouded Spells",
+    "entries": [
+     "In a similar manner, you can spend 10 minutes attempting to cast one of the following spells, requiring no material components and without expending a spell slot. At the end of the 10 minutes, make an Intelligence check. The DC equals 10 plus the spell's level. On a success, you cast the spell. On a failure, you don't cast the spell and you take psychic damage equal to twice the spell's level.",
+     {
+      "type": "list",
+      "items": [
+       "{@spell Identify} (1st level)",
+       "{@spell Augury} (2nd level)",
+       "{@spell Clairvoyance} (3rd level)"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Optional Attunement",
+    "entries": [
+     "A wizard can attune to this item, which becomes augmented with the Knowing Tome property for the duration.",
+     {
+      "type": "item",
+      "name": "OA: Knowing Tome",
+      "entries": [
+       "You can use this tome as a spellbook and an arcane focus. While you use it as your spellbook, you may cast the following spells as if you had them prepared: {@spell comprehend languages} and {@spell detect thoughts}."
+      ]
+     }
+    ]
+   }
+  ],
+  "items": [
+   "Tome of Living Memories (uncommon)|HelianasGuidetoMonsterHunting",
+   "Tome of Living Memories (rare)|HelianasGuidetoMonsterHunting",
+   "Tome of Living Memories (very rare)|HelianasGuidetoMonsterHunting"
+  ],
+  "attachedSpells": {
+   "ritual": [
+    "Augury",
+    "Clairvoyance",
+    "Identify"
+   ],
+   "other": [
+    "comprehend languages",
+    "detect thoughts"
+   ]
+  }
+ },
+ {
+  "name": "Tools of the Master",
+  "source": "ExploringEberron24",
+  "type": "AT|XPHB",
+  "rarity": "varies",
+  "reqAttune": "by a Character Proficient with the Tool",
+  "entries": [
+   "While using this tool as a {@variantrule Spellcasting Focus|XPHB}, you gain a bonus to spell attack rolls. The bonus is determined by the tool's rarity. In addition, you can add this bonus to any ability check you make using this tool."
+  ],
+  "items": [
+   "+1 Tools of the Master|ExploringEberron24",
+   "+2 Tools of the Master|ExploringEberron24",
+   "+3 Tools of the Master|ExploringEberron24"
+  ],
+  "hasFluff": true
+ },
+ {
+  "name": "Tooth of the Jinxed Leviathan",
+  "source": "CrookedMoon24",
+  "page": 606,
+  "baseItem": "dagger|xphb",
+  "type": "M|XPHB",
+  "typeAlt": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "weight": 1,
+  "weaponCategory": "simple",
+  "property": [
+   "TCM'24:FH"
+  ],
+  "focus": true,
+  "entries": [
+   "This tooth is razor sharp and can be wielded as a Dagger. Its \"hilt\" is wrapped in alligator hide, and the flat of its blade flickers with magenta hex magic in carved glyphs.",
+   "You gain a bonus to attack rolls and damage rolls made with this magic weapon determined by its rarity. While holding the tooth, you can use it as a {@variantrule Spellcasting Focus|XPHB} for your spells."
+  ],
+  "items": [
+   "Tooth of the Jinxed Leviathan (Rare)|CrookedMoon24",
+   "Tooth of the Jinxed Leviathan (Very Rare)|CrookedMoon24",
+   "Tooth of the Jinxed Leviathan (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Tooth%20of%20the%20Jinxed%20Leviathan.webp"
+     },
+     "width": 984,
+     "height": 1200,
+     "credit": "Rowan Holloway"
+    }
+   ]
+  }
+ },
+ {
+  "name": "True Name (*)",
+  "source": "IllriggerRevised",
+  "page": 38,
+  "type": "GV|DMG",
+  "rarity": "varies",
+  "reqAttune": "by a illrigger",
+  "entries": [
+   "{@note * This item group has the same name and source as the item {@item True Name|IllriggerRevised}}."
+  ],
+  "items": [
+   "True Name|IllriggerRevised",
+   "+1 True Name|IllriggerRevised",
+   "+2 True Name|IllriggerRevised",
+   "+3 True Name|IllriggerRevised"
+  ],
+  "hasFluff": true
+ },
+ {
+  "name": "Ulmyr's Eye",
+  "source": "GrimHollowCG24",
+  "page": 277,
+  "rarity": "artifact",
+  "wondrous": true,
+  "reqAttune": true,
+  "curse": true,
+  "charges": 12,
+  "recharge": "dawn",
+  "rechargeAmount": "{@dice 2d4 + 4}",
+  "attachedSpells": {
+   "will": [
+    "guidance|xphb"
+   ],
+   "charges": {
+    "2": [
+     "augury|xphb",
+     "detect thoughts|xphb"
+    ],
+    "3": [
+     "clairvoyance|xphb"
+    ],
+    "4": [
+     "divination|xphb"
+    ],
+    "5": [
+     "scrying|xphb"
+    ]
+   },
+   "daily": {
+    "1": [
+     "foresight|xphb"
+    ]
+   }
+  },
+  "entries": [
+   "Ulmyr's Eye appears to be a crystal ball filled with ever-shifting smoke. Peering into the orb reveals hazy visions, many of which are disturbing."
+  ],
+  "items": [
+   "Ulmyr's Eye (Aspirant)|GrimHollowCG24",
+   "Ulmyr's Eye (Adept)|GrimHollowCG24",
+   "Ulmyr's Eye (Master)|GrimHollowCG24"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Veil of the Weeping Widow",
+  "source": "CrookedMoon24",
+  "page": 606,
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "property": [
+   "TCM'24:FH"
+  ],
+  "entries": [
+   "This mourning veil is imbued with alien power. The Weeping Widow wore the veil to hide her permanently tear-stained face, and rumors circulate that the widow used it to hide the otherworldly corruption writhing within her eyes.",
+   "While wearing the veil, you gain a bonus to Wisdom checks and Wisdom saving throws determined by the veil's rarity."
+  ],
+  "items": [
+   "Veil of the Weeping Widow (Rare)|CrookedMoon24",
+   "Veil of the Weeping Widow (Very Rare)|CrookedMoon24",
+   "Veil of the Weeping Widow (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Veil%20of%20the%20Weeping%20Widow.webp"
+     },
+     "width": 841,
+     "height": 1200,
+     "credit": "Matthew Spencer"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Visage of the Old Ways",
+  "source": "CrookedMoon24",
+  "page": 607,
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "property": [
+   "TCM'24:FH"
+  ],
+  "entries": [
+   "This wood-carved mask has a haunted expression and makes the wearer's eyes look like empty shadows. Rabbit ears protrude over the head. While you wear the mask, you hear the whispers of an ancient forest archfey deep within your mind.",
+   "While wearing the mask, you gain a bonus to your damage rolls when you deal Fire damage determined by the mask's rarity."
+  ],
+  "items": [
+   "Visage of the Old Ways (Rare)|CrookedMoon24",
+   "Visage of the Old Ways (Very Rare)|CrookedMoon24",
+   "Visage of the Old Ways (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Visage%20of%20the%20Old%20Ways.webp"
+     },
+     "width": 1092,
+     "height": 1200,
+     "credit": "Rowan Holloway"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Viscous Symbiote",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 495,
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "entries": [
+   "While unworn, this item appears as a puddle of viscous tar and bone shards. When you attune to this amorphous ooze, it slides up your arms, enhancing them with an extra-cutaneous layer of malleable, oily muscle.",
+   {
+    "type": "item",
+    "name": "Armhancements",
+    "entries": [
+     "While attuned to this item, whenever you make an ability check that uses Strength, you can treat a d20 roll of 7 or lower as an 8."
+    ]
+   },
+   {
+    "type": "item",
+    "name": "Malleable Skin",
+    "entries": [
+     "When you make a melee attack on your turn, your reach for it is 5 feet greater than normal."
+    ]
+   }
+  ],
+  "items": [
+   "Viscous Symbiote (rare)|HelianasGuidetoMonsterHunting",
+   "Viscous Symbiote (very rare)|HelianasGuidetoMonsterHunting",
+   "Viscous Symbiote (legendary)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Weapon Charms",
+  "source": "ValdaPlayerPack2",
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "entries": [
+   "A Weapon Charm is a small ornament fixed on a loop of string or chain. You can take a {@action Magic|XPHB} action to attach the charm to a weapon, usually on the weapon's pommel, or remove it from one. Attaching a charm causes the weapon to become a magic weapon that requires attunement. If the weapon is already magical, you must attune to it again to gain the charm's magical benefits, which are listed in the charm's description. A weapon can only have one attached charm at a time."
+  ],
+  "items": [
+   "Weapon Charms, Arrowhead|ValdaPlayerPack2",
+   "Weapon Charms, Blade|ValdaPlayerPack2",
+   "Weapon Charms, Die|ValdaPlayerPack2",
+   "Weapon Charms, Flame|ValdaPlayerPack2",
+   "Weapon Charms, Hook|ValdaPlayerPack2",
+   "Weapon Charms, Lance|ValdaPlayerPack2",
+   "Weapon Charms, Lightning Bolt|ValdaPlayerPack2",
+   "Weapon Charms, Quiver|ValdaPlayerPack2"
+  ]
+ },
+ {
+  "name": "Weapon Charms, Blade",
+  "source": "ValdaPlayerPack2",
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "entries": [
+   "A Weapon Charm is a small ornament fixed on a loop of string or chain. You can take a {@action Magic|XPHB} action to attach the charm to a weapon, usually on the weapon's pommel, or remove it from one. Attaching a charm causes the weapon to become a magic weapon that requires attunement. If the weapon is already magical, you must attune to it again to gain the charm's magical benefits, which are listed in the charm's description. A weapon can only have one attached charm at a time.",
+   "This adamantine charm resembles a miniature {@item Longsword|XPHB}. While attached to a weapon, you have a bonus to attack and damage rolls made with this magic weapon. The bonus is determined by the battery's rarity. If the weapon already gains such a bonus, like a {@item +2 Longsword|XDMG}, you choose which bonus to use; you can't use more than one."
+  ],
+  "items": [
+   "Weapon Charms, +1 Blade|ValdaPlayerPack2",
+   "Weapon Charms, +2 Blade|ValdaPlayerPack2",
+   "Weapon Charms, +3 Blade|ValdaPlayerPack2"
+  ]
+ },
+ {
+  "name": "Whisper",
+  "source": "TalDoreiCampaignSettingReborn",
+  "page": 211,
+  "baseItem": "dagger|PHB",
+  "type": "M",
+  "rarity": "legendary",
+  "reqAttune": true,
+  "weight": 1,
+  "weaponCategory": "simple",
+  "property": [
+   "F",
+   "L",
+   "T",
+   "Vst|EGW"
+  ],
+  "range": "20/60",
+  "dmg1": "1d4",
+  "dmgType": "P",
+  "bonusWeapon": "+3",
+  "entries": [
+   "Forged with a mercurial metal accidentally drawn from the Realms Beyond, this dagger shimmers with an unsettling sourceless light. It was once wielded by {@creature Champion of Ravens|TalDoreiCampaignSettingReborn|Vax'ildan, a legendary champion of the Matron of Ravens}. Two raven feathers are linked to its pommel as a memento of its former bearer."
+  ],
+  "items": [
+   "Whisper (Dormant)|TalDoreiCampaignSettingReborn",
+   "Whisper (Awakened)|TalDoreiCampaignSettingReborn",
+   "Whisper (Exalted)|TalDoreiCampaignSettingReborn"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Whistle of the Vagrant",
+  "source": "CrookedMoon24",
+  "page": 607,
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "property": [
+   "TCM'24:FH"
+  ],
+  "entries": [
+   "This tarnished brass whistle belonged to the conductor of the Ghostlight Express, imbuing it with ghastly, mysterious powers. Its metal is cold to the touch, and its sound is an unnerving shriek.",
+   "While you hold or wear the whistle, you gain a bonus determined by the whistle's rarity to all saving throws."
+  ],
+  "items": [
+   "Whistle of the Vagrant (Rare)|CrookedMoon24",
+   "Whistle of the Vagrant (Very Rare)|CrookedMoon24",
+   "Whistle of the Vagrant (Legendary)|CrookedMoon24"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Items/Whistle%20of%20the%20Vagrant.webp"
+     },
+     "width": 942,
+     "height": 1200,
+     "credit": "Humble Squid Creatives"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Wraps of Dyamak",
+  "source": "TalDoreiCampaignSettingReborn",
+  "page": 212,
+  "rarity": "legendary",
+  "reqAttune": "by a monk",
+  "reqAttuneTags": [
+   {
+    "class": "monk"
+   }
+  ],
+  "wondrous": true,
+  "property": [
+   "Vst|EGW"
+  ],
+  "bonusWeapon": "+3",
+  "entries": [
+   "Created and wielded by the ancient warrior-monk Dyamak, these thick strips of enchanted cloth are stained to appear dark crimson with blood of unknown origin. The current resting place of the wraps is unknown."
+  ],
+  "items": [
+   "Wraps of Dyamak (Dormant)|TalDoreiCampaignSettingReborn",
+   "Wraps of Dyamak (Awakened)|TalDoreiCampaignSettingReborn",
+   "Wraps of Dyamak (Exalted)|TalDoreiCampaignSettingReborn"
+  ],
+  "attachedSpells": {
+   "daily": {
+    "1e": [
+     "misty step"
+    ]
+   }
+  },
+  "hasFluffImages": true
+ },
+ {
+  "name": "Wyrm's Breath Grenade",
+  "source": "HelianasGuidetoMonsterHunting",
+  "page": 462,
+  "rarity": "varies",
+  "wondrous": true,
+  "recharge": "dawn",
+  "entries": [
+   "Within the beautifully sculpted exterior is housed a dragon's biomantically-sustained toxin gland, pungent incense, and crushed diamond. Available in a variety of hues, the metal of this grenade-like contraption matches the dragon from which the organ was harvested.",
+   "As an action, you can throw this magical device onto a surface you can see within 60 feet. Upon impact, the incense ignites, billowing out in a pungent, 15-foot-radius sphere, carrying with it the dragon's magic. A creature that starts its turn in the area or enters the area for the first time on its turn must make the associated saving throw, suffering the associated effects on a failure. Creatures are affected even if they hold their breath or don't need to breathe. The cloud lasts for 1 minute or until a strong wind (at least 20 miles per hour) disperses it.",
+   "Once a grenade has been used, it can't be used again until the following dawn, and it must be refilled with 100 gp of good-quality incense, as well as a specified value of diamond dust."
+  ],
+  "items": [
+   "Wyrm's Breath Grenade (Brass)|HelianasGuidetoMonsterHunting",
+   "Wyrm's Breath Grenade (Bronze)|HelianasGuidetoMonsterHunting",
+   "Wyrm's Breath Grenade (Copper)|HelianasGuidetoMonsterHunting",
+   "Wyrm's Breath Grenade (Gold)|HelianasGuidetoMonsterHunting",
+   "Wyrm's Breath Grenade (Silver)|HelianasGuidetoMonsterHunting"
+  ]
+ }
+]

@@ -1,0 +1,4343 @@
+[
+ {
+  "name": "Absorbing Tattoo",
+  "source": "TCE",
+  "page": 119,
+  "rarity": "very rare",
+  "reqAttune": true,
+  "wondrous": true,
+  "tattoo": true,
+  "entries": [
+   "Produced by a special needle, this magic tattoo features designs that emphasize one color.",
+   {
+    "type": "entries",
+    "name": "Tattoo Attunement",
+    "entries": [
+     "To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.",
+     "If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Damage Resistance",
+    "entries": [
+     "While the tattoo is on your skin, you have resistance to a type of damage associated with that color, as shown on the table below. The DM chooses the color or determines it randomly.",
+     {
+      "type": "table",
+      "caption": "Absorbing Tattoo",
+      "colLabels": [
+       "d10",
+       "Color",
+       "Tattoo"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-2 text-center",
+       "col-8 text-center"
+      ],
+      "rows": [
+       [
+        "1",
+        "Green",
+        "{@item Acid Absorbing Tattoo|TCE}"
+       ],
+       [
+        "2",
+        "Blue",
+        "{@item Cold Absorbing Tattoo|TCE}"
+       ],
+       [
+        "3",
+        "Red",
+        "{@item Fire Absorbing Tattoo|TCE}"
+       ],
+       [
+        "4",
+        "White",
+        "{@item Force Absorbing Tattoo|TCE}"
+       ],
+       [
+        "5",
+        "Yellow",
+        "{@item Lightning Absorbing Tattoo|TCE}"
+       ],
+       [
+        "6",
+        "Black",
+        "{@item Necrotic Absorbing Tattoo|TCE}"
+       ],
+       [
+        "7",
+        "Violet",
+        "{@item Poison Absorbing Tattoo|TCE}"
+       ],
+       [
+        "8",
+        "Silver",
+        "{@item Psychic Absorbing Tattoo|TCE}"
+       ],
+       [
+        "9",
+        "Gold",
+        "{@item Radiant Absorbing Tattoo|TCE}"
+       ],
+       [
+        "10",
+        "Orange",
+        "{@item Thunder Absorbing Tattoo|TCE}"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Damage Absorption",
+    "entries": [
+     "When you take damage of the chosen type, you can use your reaction to gain immunity against that instance of the damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn."
+    ]
+   }
+  ],
+  "items": [
+   "Acid Absorbing Tattoo|TCE",
+   "Cold Absorbing Tattoo|TCE",
+   "Fire Absorbing Tattoo|TCE",
+   "Force Absorbing Tattoo|TCE",
+   "Lightning Absorbing Tattoo|TCE",
+   "Necrotic Absorbing Tattoo|TCE",
+   "Poison Absorbing Tattoo|TCE",
+   "Psychic Absorbing Tattoo|TCE",
+   "Radiant Absorbing Tattoo|TCE",
+   "Thunder Absorbing Tattoo|TCE"
+  ]
+ },
+ {
+  "name": "Arcane Focus",
+  "source": "PHB",
+  "page": 151,
+  "referenceSources": [
+   "ToA",
+   "TTP"
+  ],
+  "reprintedAs": [
+   "Arcane Focus|XPHB"
+  ],
+  "type": "SCF",
+  "scfType": "arcane",
+  "rarity": "none",
+  "focus": [
+   "Sorcerer",
+   "Warlock",
+   "Wizard"
+  ],
+  "items": [
+   "Crystal|phb",
+   "Orb|phb",
+   "Rod|phb",
+   "Staff|phb",
+   "Wand|phb"
+  ]
+ },
+ {
+  "name": "Arcane Focus",
+  "source": "XPHB",
+  "page": 224,
+  "type": "SCF|XPHB",
+  "scfType": "arcane",
+  "rarity": "none",
+  "focus": [
+   "Sorcerer",
+   "Warlock",
+   "Wizard"
+  ],
+  "items": [
+   "Crystal|XPHB",
+   "Orb|XPHB",
+   "Rod|XPHB",
+   "Staff|XPHB",
+   "Wand|XPHB"
+  ]
+ },
+ {
+  "name": "Armor of Resistance",
+  "source": "DMG",
+  "page": 162,
+  "referenceSources": [
+   "RoT",
+   "WDMM"
+  ],
+  "reprintedAs": [
+   "Armor of Resistance|XDMG"
+  ],
+  "type": "GV|DMG",
+  "tier": "major",
+  "rarity": "rare",
+  "reqAttune": true,
+  "entries": [
+   "You have resistance to one type of damage while you wear this armor. The DM chooses the type or determines it randomly from the options below.",
+   {
+    "type": "table",
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "colLabels": [
+     "d10",
+     "Damage Type"
+    ],
+    "rows": [
+     [
+      "1",
+      "{@item armor of acid resistance||Acid}"
+     ],
+     [
+      "2",
+      "{@item armor of cold resistance||Cold}"
+     ],
+     [
+      "3",
+      "{@item armor of fire resistance||Fire}"
+     ],
+     [
+      "4",
+      "{@item armor of force resistance||Force}"
+     ],
+     [
+      "5",
+      "{@item armor of lightning resistance||Lightning}"
+     ],
+     [
+      "6",
+      "{@item armor of necrotic resistance||Necrotic}"
+     ],
+     [
+      "7",
+      "{@item armor of poison resistance||Poison}"
+     ],
+     [
+      "8",
+      "{@item armor of psychic resistance||Psychic}"
+     ],
+     [
+      "9",
+      "{@item armor of radiant resistance||Radiant}"
+     ],
+     [
+      "10",
+      "{@item armor of thunder resistance||Thunder}"
+     ]
+    ]
+   }
+  ],
+  "items": [
+   "Armor of Acid Resistance",
+   "Armor of Cold Resistance",
+   "Armor of Fire Resistance",
+   "Armor of Force Resistance",
+   "Armor of Lightning Resistance",
+   "Armor of Necrotic Resistance",
+   "Armor of Poison Resistance",
+   "Armor of Psychic Resistance",
+   "Armor of Radiant Resistance",
+   "Armor of Thunder Resistance"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Armor of Resistance",
+  "source": "XDMG",
+  "page": 231,
+  "srd52": true,
+  "basicRules2024": true,
+  "referenceSources": [
+   "DrDe-BtS"
+  ],
+  "type": "GV|XDMG",
+  "rarity": "rare",
+  "reqAttune": true,
+  "entries": [
+   "You have {@variantrule Resistance|XPHB} to one type of damage while you wear this armor. The DM chooses the type or determines it randomly by rolling on the following table.",
+   {
+    "type": "table",
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "colLabels": [
+     "d10",
+     "Damage Type"
+    ],
+    "rows": [
+     [
+      "1",
+      "{@item Armor of Acid Resistance|XDMG|Acid}"
+     ],
+     [
+      "2",
+      "{@item Armor of Cold Resistance|XDMG|Cold}"
+     ],
+     [
+      "3",
+      "{@item Armor of Fire Resistance|XDMG|Fire}"
+     ],
+     [
+      "4",
+      "{@item Armor of Force Resistance|XDMG|Force}"
+     ],
+     [
+      "5",
+      "{@item Armor of Lightning Resistance|XDMG|Lightning}"
+     ],
+     [
+      "6",
+      "{@item Armor of Necrotic Resistance|XDMG|Necrotic}"
+     ],
+     [
+      "7",
+      "{@item Armor of Poison Resistance|XDMG|Poison}"
+     ],
+     [
+      "8",
+      "{@item Armor of Psychic Resistance|XDMG|Psychic}"
+     ],
+     [
+      "9",
+      "{@item Armor of Radiant Resistance|XDMG|Radiant}"
+     ],
+     [
+      "10",
+      "{@item Armor of Thunder Resistance|XDMG|Thunder}"
+     ]
+    ]
+   }
+  ],
+  "items": [
+   "Armor of Acid Resistance|XDMG",
+   "Armor of Cold Resistance|XDMG",
+   "Armor of Fire Resistance|XDMG",
+   "Armor of Force Resistance|XDMG",
+   "Armor of Lightning Resistance|XDMG",
+   "Armor of Necrotic Resistance|XDMG",
+   "Armor of Poison Resistance|XDMG",
+   "Armor of Psychic Resistance|XDMG",
+   "Armor of Radiant Resistance|XDMG",
+   "Armor of Thunder Resistance|XDMG"
+  ],
+  "itemsHidden": true,
+  "classFeatures": [
+   "replicate magic item|artificer|efa|2|efa"
+  ],
+  "lootTables": [
+   "Armaments - Rare|XDMG"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Armor of Vulnerability",
+  "source": "DMG",
+  "page": 152,
+  "referenceSources": [
+   "TftYP-AtG",
+   "TftYP-DiT"
+  ],
+  "reprintedAs": [
+   "Armor of Vulnerability|XDMG"
+  ],
+  "baseItem": "plate armor|phb",
+  "type": "HA",
+  "tier": "major",
+  "rarity": "rare",
+  "reqAttune": true,
+  "curse": true,
+  "weight": 65,
+  "ac": 18,
+  "strength": "15",
+  "stealth": true,
+  "items": [
+   "Armor of Vulnerability (Bludgeoning)",
+   "Armor of Vulnerability (Piercing)",
+   "Armor of Vulnerability (Slashing)"
+  ],
+  "lootTables": [
+   "Magic Item Table G"
+  ]
+ },
+ {
+  "name": "Armor of Vulnerability",
+  "source": "XDMG",
+  "page": 231,
+  "srd52": true,
+  "basicRules2024": true,
+  "type": "GV|XDMG",
+  "rarity": "rare",
+  "reqAttune": true,
+  "curse": true,
+  "items": [
+   "Armor of Vulnerability (Bludgeoning)|XDMG",
+   "Armor of Vulnerability (Piercing)|XDMG",
+   "Armor of Vulnerability (Slashing)|XDMG"
+  ],
+  "lootTables": [
+   "Armaments - Rare|XDMG"
+  ]
+ },
+ {
+  "name": "Artisan's Tools",
+  "source": "PHB",
+  "page": 154,
+  "srd": true,
+  "basicRules": true,
+  "referenceSources": [
+   "PaBTSO",
+   "ToA"
+  ],
+  "reprintedAs": [
+   "Artisan's Tools|XPHB"
+  ],
+  "type": "AT",
+  "rarity": "none",
+  "items": [
+   "Alchemist's Supplies|PHB",
+   "Brewer's Supplies|PHB",
+   "Calligrapher's Supplies|PHB",
+   "Carpenter's Tools|PHB",
+   "Cartographer's Tools|PHB",
+   "Cobbler's Tools|PHB",
+   "Cook's Utensils|PHB",
+   "Glassblower's Tools|PHB",
+   "Jeweler's Tools|PHB",
+   "Leatherworker's Tools|PHB",
+   "Mason's Tools|PHB",
+   "Painter's Supplies|PHB",
+   "Potter's Tools|PHB",
+   "Smith's Tools|PHB",
+   "Tinker's Tools|PHB",
+   "Weaver's Tools|PHB",
+   "Woodcarver's Tools|PHB"
+  ]
+ },
+ {
+  "name": "Artisan's Tools",
+  "source": "XPHB",
+  "page": 220,
+  "srd52": true,
+  "type": "AT|XPHB",
+  "rarity": "none",
+  "items": [
+   "Alchemist's Supplies|XPHB",
+   "Brewer's Supplies|XPHB",
+   "Calligrapher's Supplies|XPHB",
+   "Carpenter's Tools|XPHB",
+   "Cartographer's Tools|XPHB",
+   "Cobbler's Tools|XPHB",
+   "Cook's Utensils|XPHB",
+   "Glassblower's Tools|XPHB",
+   "Jeweler's Tools|XPHB",
+   "Leatherworker's Tools|XPHB",
+   "Mason's Tools|XPHB",
+   "Painter's Supplies|XPHB",
+   "Potter's Tools|XPHB",
+   "Smith's Tools|XPHB",
+   "Tinker's Tools|XPHB",
+   "Weaver's Tools|XPHB",
+   "Woodcarver's Tools|XPHB"
+  ]
+ },
+ {
+  "name": "Bag of Tricks",
+  "source": "DMG",
+  "page": 154,
+  "referenceSources": [
+   "GoS",
+   "IDRotF",
+   "LLK"
+  ],
+  "reprintedAs": [
+   "Bag of Tricks|XDMG"
+  ],
+  "tier": "major",
+  "rarity": "uncommon",
+  "wondrous": true,
+  "weight": 0.5,
+  "recharge": "dawn",
+  "items": [
+   "Bag of Tricks, Gray",
+   "Bag of Tricks, Rust",
+   "Bag of Tricks, Tan"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Bag of Tricks",
+  "source": "XDMG",
+  "page": 234,
+  "srd52": true,
+  "basicRules2024": true,
+  "referenceSources": [
+   "DrDe-BD"
+  ],
+  "rarity": "uncommon",
+  "wondrous": true,
+  "recharge": "dawn",
+  "items": [
+   "Bag of Tricks, Gray|XDMG",
+   "Bag of Tricks, Rust|XDMG",
+   "Bag of Tricks, Tan|XDMG"
+  ],
+  "lootTables": [
+   "Arcana - Uncommon|XDMG"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Belt of Giant Strength",
+  "source": "DMG",
+  "page": 155,
+  "reprintedAs": [
+   "Belt of Giant Strength|XDMG"
+  ],
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "items": [
+   "Belt of Cloud Giant Strength",
+   "Belt of Fire Giant Strength",
+   "Belt of Frost Giant Strength",
+   "Belt of Hill Giant Strength",
+   "Belt of Stone Giant Strength",
+   "Belt of Storm Giant Strength"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Belt of Giant Strength",
+  "source": "XDMG",
+  "page": 236,
+  "srd52": true,
+  "basicRules2024": true,
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "entries": [
+   {
+    "type": "table",
+    "colLabels": [
+     "Belt",
+     "Str.",
+     "Rarity"
+    ],
+    "colStyles": [
+     "col-8",
+     "col-2 text-center",
+     "col-2"
+    ],
+    "rows": [
+     [
+      "{@item Belt of Hill Giant Strength|XDMG}",
+      "21",
+      "Rare"
+     ],
+     [
+      "{@item Belt of Frost Giant Strength|XDMG} or {@item Belt of Stone Giant Strength|XDMG}",
+      "23",
+      "Very Rare"
+     ],
+     [
+      "{@item Belt of Fire Giant Strength|XDMG}",
+      "25",
+      "Very Rare"
+     ],
+     [
+      "{@item Belt of Cloud Giant Strength|XDMG}",
+      "27",
+      "Legendary"
+     ],
+     [
+      "{@item Belt of Storm Giant Strength|XDMG}",
+      "29",
+      "Legendary"
+     ]
+    ]
+   }
+  ],
+  "items": [
+   "Belt of Cloud Giant Strength|XDMG",
+   "Belt of Fire Giant Strength|XDMG",
+   "Belt of Frost Giant Strength|XDMG",
+   "Belt of Hill Giant Strength|XDMG",
+   "Belt of Stone Giant Strength|XDMG",
+   "Belt of Storm Giant Strength|XDMG"
+  ],
+  "itemsHidden": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Blade of Broken Mirrors",
+  "source": "EGW",
+  "page": 275,
+  "baseItem": "dagger|phb",
+  "type": "M",
+  "rarity": "artifact",
+  "reqAttune": "by a humanoid",
+  "reqAttuneTags": [
+   {
+    "creatureType": "humanoid"
+   }
+  ],
+  "sentient": true,
+  "weight": 1,
+  "weaponCategory": "simple",
+  "property": [
+   "F",
+   "L",
+   "T",
+   "Vst|EGW"
+  ],
+  "range": "20/60",
+  "dmg1": "1d4",
+  "dmgType": "P",
+  "entries": [
+   "A weapon of Tharizdun, this dagger is a piece of jagged stone whose blade is scribed with a maze-like pattern with no beginning or end."
+  ],
+  "items": [
+   "Blade of Broken Mirrors (Dormant)|EGW",
+   "Blade of Broken Mirrors (Awakened)|EGW",
+   "Blade of Broken Mirrors (Exalted)|EGW"
+  ]
+ },
+ {
+  "name": "Carpet of Flying",
+  "source": "DMG",
+  "page": 157,
+  "referenceSources": [
+   "CoA",
+   "JttRC"
+  ],
+  "reprintedAs": [
+   "Carpet of Flying|XDMG"
+  ],
+  "tier": "major",
+  "rarity": "very rare",
+  "wondrous": true,
+  "items": [
+   "Carpet of Flying, 3 ft. × 5 ft.",
+   "Carpet of Flying, 4 ft. × 6 ft.",
+   "Carpet of Flying, 5 ft. × 7 ft.",
+   "Carpet of Flying, 6 ft. × 9 ft."
+  ],
+  "lootTables": [
+   "Magic Item Table H"
+  ]
+ },
+ {
+  "name": "Carpet of Flying",
+  "source": "XDMG",
+  "page": 242,
+  "srd52": true,
+  "basicRules2024": true,
+  "rarity": "very rare",
+  "wondrous": true,
+  "entries": [
+   "You can make this carpet hover and fly by taking a {@action Magic|XPHB} action and using the carpet's command word. It moves according to your directions if you are within 30 feet of it.",
+   "Four sizes of Carpet of Flying exist. The DM chooses the size of a given carpet or determines it randomly by rolling on the following table. A carpet can carry up to twice the weight shown on the table, but its {@variantrule Fly Speed|XPHB} is halved if it carries more than its normal capacity.",
+   {
+    "type": "table",
+    "caption": "Applicable Carpet Sizes",
+    "colStyles": [
+     "col-2 text-center",
+     "col-4",
+     "col-3 text-center",
+     "col-3 text-center"
+    ],
+    "colLabels": [
+     "1d100",
+     "Size",
+     "Capacity",
+     "Fly Speed"
+    ],
+    "rows": [
+     [
+      "01-20",
+      "{@item Carpet of Flying, 3 ft. × 5 ft.|XDMG}",
+      "200 lb.",
+      "80 feet"
+     ],
+     [
+      "21-55",
+      "{@item Carpet of Flying, 4 ft. × 6 ft.|XDMG}",
+      "400 lb.",
+      "60 feet"
+     ],
+     [
+      "56-80",
+      "{@item Carpet of Flying, 5 ft. × 7 ft.|XDMG}",
+      "600 lb.",
+      "40 feet"
+     ],
+     [
+      "81-00",
+      "{@item Carpet of Flying, 6 ft. × 9 ft.|XDMG}",
+      "800 lb.",
+      "30 feet"
+     ]
+    ]
+   }
+  ],
+  "items": [
+   "Carpet of Flying, 3 ft. × 5 ft.|XDMG",
+   "Carpet of Flying, 4 ft. × 6 ft.|XDMG",
+   "Carpet of Flying, 5 ft. × 7 ft.|XDMG",
+   "Carpet of Flying, 6 ft. × 9 ft.|XDMG"
+  ],
+  "itemsHidden": true,
+  "lootTables": [
+   "Arcana - Very Rare|XDMG",
+   "Implements - Very Rare|XDMG"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Chromatic Rose",
+  "source": "WBtW",
+  "page": 208,
+  "rarity": "rare",
+  "wondrous": true,
+  "entries": [
+   "This magic rose comes in one of five colors, as noted in the Chromatic Roses table. While a rose is held, it gains a harmless visual effect as indicated on the table.",
+   "While holding the rose by its stem, you gain resistance to damage of the type associated with the rose's color. If you would take more than 10 damage of this type from a single source (after applying the resistance), the rose disintegrates, and you take no damage instead.",
+   "As an action, you can blow the petals from the rose to produce a 20-foot cone of acid, lightning, poisonous gas, fire, or cold, as dictated by the rose's damage type. Each creature in the cone must make a {@dc 15} Constitution saving throw, taking {@damage 3d10} damage of the appropriate type on a failed save, or half as much damage on a successful one. Using this property destroys the rose.",
+   {
+    "type": "table",
+    "caption": "Chromatic Roses",
+    "colStyles": [
+     "col-2 text-center",
+     "col-7 text-center",
+     "col-3 text-center"
+    ],
+    "colLabels": [
+     "Color",
+     "Visual Effect",
+     "Damage Type"
+    ],
+    "rows": [
+     [
+      "{@item Black Chromatic Rose|WBtW|Black}",
+      "Drips acid",
+      "Acid"
+     ],
+     [
+      "{@item Blue Chromatic Rose|WBtW|Blue}",
+      "Crackles with lightning",
+      "Lightning"
+     ],
+     [
+      "{@item Green Chromatic Rose|WBtW|Green}",
+      "Issues green gas",
+      "Poison"
+     ],
+     [
+      "{@item Red Chromatic Rose|WBtW|Red}",
+      "Wreathed in fire",
+      "Fire"
+     ],
+     [
+      "{@item White Chromatic Rose|WBtW|White}",
+      "Covered in frost",
+      "Cold"
+     ]
+    ]
+   }
+  ],
+  "items": [
+   "Black Chromatic Rose|WBtW",
+   "Blue Chromatic Rose|WBtW",
+   "Green Chromatic Rose|WBtW",
+   "Red Chromatic Rose|WBtW",
+   "White Chromatic Rose|WBtW"
+  ]
+ },
+ {
+  "name": "Crystal Ball (Legendary Version)",
+  "source": "DMG",
+  "page": 159,
+  "tier": "major",
+  "rarity": "legendary",
+  "reqAttune": true,
+  "wondrous": true,
+  "weight": 3,
+  "items": [
+   "Crystal Ball of Mind Reading",
+   "Crystal Ball of Telepathy",
+   "Crystal Ball of True Seeing"
+  ],
+  "attachedSpells": [
+   "scrying"
+  ],
+  "lootTables": [
+   "Magic Item Table I"
+  ]
+ },
+ {
+  "name": "Danoth's Visor",
+  "source": "EGW",
+  "page": 270,
+  "rarity": "legendary",
+  "reqAttune": true,
+  "wondrous": true,
+  "property": [
+   "Vst|EGW"
+  ],
+  "entries": [
+   "These mithral-frame goggles with clear diamond lenses were used by the evoker Danoth Oro to spot {@condition invisible} enemies and scout areas from afar."
+  ],
+  "items": [
+   "Danoth's Visor (Dormant)|EGW",
+   "Danoth's Visor (Awakened)|EGW",
+   "Danoth's Visor (Exalted)|EGW"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Devastation Orb",
+  "source": "PotA",
+  "page": 222,
+  "rarity": "very rare",
+  "wondrous": true,
+  "entries": [
+   "A devastation orb is an elemental bomb that can be created at the site of an elemental node by performing a ritual with an elemental weapon. The type of orb created depends on the node used. For example, an air node creates a {@item devastation orb of air|PotA}. The ritual takes 1 hour to complete and requires 2,000 gp worth of special components, which are consumed.",
+   "A devastation orb measures 12 inches in diameter, weighs 10 pounds, and has a solid outer shell. The orb detonates {@dice 1d100} hours after its creation, releasing the elemental energy it contains. The orb gives no outward sign of how much time remains before it will detonate. Spells such as {@spell identify} and {@spell divination} can be used to ascertain when the orb will explode. An orb has AC 10, 15 hit points, and immunity to poison and psychic damage. Reducing it to 0 hit points causes it to explode instantly.",
+   "A special container can be crafted to contain a devastation orb and prevent it from detonating. The container must be inscribed with symbols of the orb's opposing element. For example, a case inscribed with earth symbols can be used to contain a {@item devastation orb of air|PotA} and keep it from detonating. While in the container, the orb thrums. If it is removed from the container after the time when it was supposed to detonate, it explodes {@dice 1d6} rounds later, unless it is returned to the container.",
+   "Regardless of the type of orb, its effect is contained within a sphere with a 1 mile radius. The orb is the sphere's point of origin. The orb is destroyed after one use."
+  ],
+  "items": [
+   "Devastation Orb of Air|PotA",
+   "Devastation Orb of Earth|PotA",
+   "Devastation Orb of Fire|PotA",
+   "Devastation Orb of Water|PotA"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
+  "name": "Dragon Scale Mail",
+  "source": "DMG",
+  "page": 165,
+  "srd": true,
+  "referenceSources": [
+   "KftGV"
+  ],
+  "reprintedAs": [
+   "Dragon Scale Mail|XDMG"
+  ],
+  "type": "MA",
+  "tier": "major",
+  "rarity": "very rare",
+  "reqAttune": true,
+  "weight": 45,
+  "ac": 14,
+  "bonusAc": "+1",
+  "stealth": true,
+  "items": [
+   "Black Dragon Scale Mail",
+   "Blue Dragon Scale Mail",
+   "Brass Dragon Scale Mail",
+   "Bronze Dragon Scale Mail",
+   "Copper Dragon Scale Mail",
+   "Gold Dragon Scale Mail",
+   "Green Dragon Scale Mail",
+   "Red Dragon Scale Mail",
+   "Silver Dragon Scale Mail",
+   "White Dragon Scale Mail"
+  ],
+  "lootTables": [
+   "Magic Item Table H"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Dragon Scale Mail",
+  "source": "XDMG",
+  "page": 254,
+  "srd52": true,
+  "basicRules2024": true,
+  "baseItem": "scale mail|xphb",
+  "type": "MA|XPHB",
+  "rarity": "very rare",
+  "reqAttune": true,
+  "weight": 45,
+  "ac": 14,
+  "bonusAc": "+1",
+  "stealth": true,
+  "items": [
+   "Black Dragon Scale Mail|XDMG",
+   "Blue Dragon Scale Mail|XDMG",
+   "Brass Dragon Scale Mail|XDMG",
+   "Bronze Dragon Scale Mail|XDMG",
+   "Copper Dragon Scale Mail|XDMG",
+   "Gold Dragon Scale Mail|XDMG",
+   "Green Dragon Scale Mail|XDMG",
+   "Red Dragon Scale Mail|XDMG",
+   "Silver Dragon Scale Mail|XDMG",
+   "White Dragon Scale Mail|XDMG"
+  ],
+  "lootTables": [
+   "Armaments - Very Rare|XDMG"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Dragon Vessel",
+  "source": "FTD",
+  "page": 27,
+  "referenceSources": [
+   "DrDe-ACfaS",
+   "DrDe-BD",
+   "DrDe-BtS",
+   "DrDe-DaS",
+   "DrDe-DotSC",
+   "DrDe-FWtVC",
+   "DrDe-SD",
+   "DrDe-TDoN",
+   "DrDe-TFV",
+   "DrDe-TWoO"
+  ],
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "entries": [
+   "This vessel can be a potion bottle, drinking horn, or other container meant to hold a liquid."
+  ],
+  "items": [
+   "Slumbering Dragon Vessel|FTD",
+   "Stirring Dragon Vessel|FTD",
+   "Wakened Dragon Vessel|FTD",
+   "Ascendant Dragon Vessel|FTD"
+  ]
+ },
+ {
+  "name": "Dragon-Touched Focus",
+  "source": "FTD",
+  "page": 26,
+  "referenceSources": [
+   "DrDe-ACfaS",
+   "DrDe-BD",
+   "DrDe-BtS",
+   "DrDe-DaS",
+   "DrDe-DotSC",
+   "DrDe-FWtVC",
+   "DrDe-SD",
+   "DrDe-TDoN",
+   "DrDe-TFV",
+   "DrDe-TWoO"
+  ],
+  "type": "SCF",
+  "rarity": "varies",
+  "reqAttune": "by a spellcaster",
+  "reqAttuneTags": [
+   {
+    "spellcasting": true
+   }
+  ],
+  "wondrous": true,
+  "focus": [
+   "Artificer",
+   "Bard",
+   "Cleric",
+   "Druid",
+   "Paladin",
+   "Ranger",
+   "Sorcerer",
+   "Warlock",
+   "Wizard"
+  ],
+  "entries": [
+   "This wondrous item can be a scepter, an orb, an amulet, a crystal, or another finely crafted object. It typically incorporates imagery of dragons' wings, claws, teeth, or scales."
+  ],
+  "items": [
+   "Slumbering Dragon-Touched Focus|FTD",
+   "Stirring Dragon-Touched Focus|FTD",
+   "Wakened Dragon-Touched Focus|FTD",
+   "Ascendant Dragon-Touched Focus|FTD"
+  ]
+ },
+ {
+  "name": "Dragon's Wrath Weapon",
+  "source": "FTD",
+  "page": 25,
+  "referenceSources": [
+   "DrDe-ACfaS",
+   "DrDe-BD",
+   "DrDe-BtS",
+   "DrDe-DaS",
+   "DrDe-DotSC",
+   "DrDe-FWtVC",
+   "DrDe-SD",
+   "DrDe-TDoN",
+   "DrDe-TFV",
+   "DrDe-TWoO"
+  ],
+  "type": "GV|DMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "entries": [
+   "This weapon is decorated with dragon heads, claws, wings, scales, or Draconic letters. When it steeps in a dragon's hoard, it absorbs the energy of the dragon's breath weapon and deals damage of that type with its special properties."
+  ],
+  "items": [
+   "Slumbering Dragon's Wrath Weapon|FTD",
+   "Stirring Dragon's Wrath Weapon|FTD",
+   "Wakened Dragon's Wrath Weapon|FTD",
+   "Ascendant Dragon's Wrath Weapon|FTD"
+  ]
+ },
+ {
+  "name": "Druidic Focus",
+  "source": "PHB",
+  "page": 151,
+  "referenceSources": [
+   "ToA"
+  ],
+  "reprintedAs": [
+   "Druidic Focus|XPHB"
+  ],
+  "type": "SCF",
+  "scfType": "druid",
+  "rarity": "none",
+  "focus": [
+   "Druid"
+  ],
+  "items": [
+   "Sprig of mistletoe|phb",
+   "Totem|phb",
+   "Wooden staff|phb",
+   "Yew wand|phb"
+  ]
+ },
+ {
+  "name": "Druidic Focus",
+  "source": "XPHB",
+  "page": 225,
+  "type": "SCF|XPHB",
+  "scfType": "druid",
+  "rarity": "none",
+  "focus": [
+   "Druid"
+  ],
+  "items": [
+   "Sprig of mistletoe|XPHB",
+   "Wooden staff|XPHB",
+   "Yew wand|XPHB"
+  ]
+ },
+ {
+  "name": "Elemental Gem",
+  "source": "DMG",
+  "page": 167,
+  "referenceSources": [
+   "DSotDQ",
+   "OotA",
+   "RoT",
+   "WDMM"
+  ],
+  "reprintedAs": [
+   "Elemental Gem|XDMG"
+  ],
+  "tier": "minor",
+  "rarity": "uncommon",
+  "wondrous": true,
+  "items": [
+   "Elemental Gem, Blue Sapphire",
+   "Elemental Gem, Emerald",
+   "Elemental Gem, Red Corundum",
+   "Elemental Gem, Yellow Diamond"
+  ],
+  "attachedSpells": {
+   "limited": {
+    "1": [
+     "conjure elemental"
+    ]
+   }
+  },
+  "lootTables": [
+   "Magic Item Table B"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Elemental Gem",
+  "source": "XDMG",
+  "page": 257,
+  "srd52": true,
+  "basicRules2024": true,
+  "referenceSources": [
+   "DrDe-BtS"
+  ],
+  "rarity": "uncommon",
+  "wondrous": true,
+  "items": [
+   "Elemental Gem, Blue Sapphire|XDMG",
+   "Elemental Gem, Emerald|XDMG",
+   "Elemental Gem, Red Corundum|XDMG",
+   "Elemental Gem, Yellow Diamond|XDMG"
+  ],
+  "lootTables": [
+   "Arcana - Uncommon|XDMG"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Enspelled Armor",
+  "source": "XDMG",
+  "page": 258,
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "recharge": "dawn",
+  "rechargeAmount": "{@dice 1d6}",
+  "charges": 6,
+  "items": [
+   "Enspelled Armor (Cantrip)|XDMG",
+   "Enspelled Armor (Level 1)|XDMG",
+   "Enspelled Armor (Level 2)|XDMG",
+   "Enspelled Armor (Level 3)|XDMG",
+   "Enspelled Armor (Level 4)|XDMG",
+   "Enspelled Armor (Level 5)|XDMG",
+   "Enspelled Armor (Level 6)|XDMG",
+   "Enspelled Armor (Level 7)|XDMG",
+   "Enspelled Armor (Level 8)|XDMG"
+  ],
+  "lootTables": [
+   "Armaments - Uncommon|XDMG",
+   "Armaments - Rare|XDMG",
+   "Armaments - Very Rare|XDMG",
+   "Armaments - Legendary|XDMG"
+  ]
+ },
+ {
+  "name": "Enspelled Staff",
+  "source": "XDMG",
+  "page": 258,
+  "type": "M|XPHB",
+  "rarity": "varies",
+  "reqAttune": "by a Spellcaster",
+  "reqAttuneTags": [
+   {
+    "spellcasting": true
+   }
+  ],
+  "weight": 4,
+  "weaponCategory": "simple",
+  "property": [
+   "V|XPHB"
+  ],
+  "mastery": [
+   "Topple|XPHB"
+  ],
+  "dmg1": "1d6",
+  "dmgType": "B",
+  "dmg2": "1d8",
+  "recharge": "dawn",
+  "rechargeAmount": "{@dice 1d6}",
+  "charges": 6,
+  "staff": true,
+  "items": [
+   "Enspelled Staff (Cantrip)|XDMG",
+   "Enspelled Staff (Level 1)|XDMG",
+   "Enspelled Staff (Level 2)|XDMG",
+   "Enspelled Staff (Level 3)|XDMG",
+   "Enspelled Staff (Level 4)|XDMG",
+   "Enspelled Staff (Level 5)|XDMG",
+   "Enspelled Staff (Level 6)|XDMG",
+   "Enspelled Staff (Level 7)|XDMG",
+   "Enspelled Staff (Level 8)|XDMG"
+  ],
+  "lootTables": [
+   "Arcana - Uncommon|XDMG",
+   "Arcana - Rare|XDMG",
+   "Arcana - Very Rare|XDMG",
+   "Arcana - Legendary|XDMG",
+   "Relics - Uncommon|XDMG",
+   "Relics - Rare|XDMG",
+   "Relics - Very Rare|XDMG",
+   "Relics - Legendary|XDMG"
+  ]
+ },
+ {
+  "name": "Enspelled Weapon",
+  "source": "XDMG",
+  "page": 258,
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "recharge": "dawn",
+  "rechargeAmount": "{@dice 1d6}",
+  "charges": 6,
+  "items": [
+   "Enspelled Weapon (Cantrip)|XDMG",
+   "Enspelled Weapon (Level 1)|XDMG",
+   "Enspelled Weapon (Level 2)|XDMG",
+   "Enspelled Weapon (Level 3)|XDMG",
+   "Enspelled Weapon (Level 4)|XDMG",
+   "Enspelled Weapon (Level 5)|XDMG",
+   "Enspelled Weapon (Level 6)|XDMG",
+   "Enspelled Weapon (Level 7)|XDMG",
+   "Enspelled Weapon (Level 8)|XDMG"
+  ],
+  "lootTables": [
+   "Armaments - Uncommon|XDMG",
+   "Armaments - Rare|XDMG",
+   "Armaments - Very Rare|XDMG",
+   "Armaments - Legendary|XDMG",
+   "Implements - Uncommon|XDMG",
+   "Implements - Rare|XDMG",
+   "Implements - Very Rare|XDMG",
+   "Implements - Legendary|XDMG"
+  ]
+ },
+ {
+  "name": "Eye and Hand of Vecna",
+  "source": "DMG",
+  "page": 224,
+  "referenceSources": [
+   "VEoR"
+  ],
+  "reprintedAs": [
+   "Eye and Hand of Vecna|XDMG"
+  ],
+  "conditionImmune": [
+   "disease"
+  ],
+  "rarity": "artifact",
+  "reqAttune": true,
+  "wondrous": true,
+  "ability": {
+   "static": {
+    "str": 20
+   }
+  },
+  "entries": [
+   "Seldom is the name of Vecna spoken except in a hushed voice. Vecna was, in his time, one of the mightiest of all wizards. Through dark magic and conquest, he forged a terrible empire. For all his power, Vecna couldn't escape his own mortality. He began to fear death and take steps to prevent his end from ever coming about.",
+   "{@creature Orcus|MTF}, the demon prince of undeath, taught Vecna a ritual that would allow him to live on as a {@creature lich}. Beyond death, he became the greatest of all liches. Even though his body gradually withered and decayed, Vecna continued to expand his evil dominion. So formidable and hideous was his temper that his subjects feared to speak his name. He was the Whispered One, the Master of the Spider Throne, the Undying King, and the Lord of the Rotted Tower.",
+   "Some say that Vecna's lieutenant Kas coveted the Spider Throne for himself, or that the sword his lord made for him seduced him into rebellion. Whatever the reason, Kas brought the Undying King's rule to an end in a terrible battle that left Vecna's tower a heap of ash. Of Vecna, all that remained were one hand and one eye, grisly artifacts that still seek to work the Whispered One's will in the world.",
+   "The {@item Eye of Vecna} and the {@item Hand of Vecna} might be found together or separately. The eye looks like a bloodshot organ torn free from the socket. The hand is a mummified and shriveled left extremity.",
+   "To attune to the eye, you must gouge out your own eye and press the artifact into the empty socket. The eye grafts itself to your head and remains there until you die. Once in place, the eye transforms into a golden eye with a slit for a pupil, much like that of a cat. If the eye is ever removed, you die.",
+   "To attune to the hand, you must lop off your left hand at the wrist and the press the artifact against the stump. The hand grafts itself to your arm and becomes a functioning appendage. If the hand is ever removed, you die.",
+   {
+    "name": "Random Properties",
+    "type": "entries",
+    "entries": [
+     "The {@item Eye of Vecna} and the {@item Hand of Vecna} each have the following random properties:",
+     {
+      "type": "list",
+      "items": [
+       "1 {@table Artifact Properties; Minor Beneficial Properties|dmg|minor beneficial property}",
+       "1 {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial property}",
+       "1 {@table Artifact Properties; Minor Detrimental Properties|dmg|minor detrimental property}"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Properties of the Eye",
+    "type": "entries",
+    "entries": [
+     "Your alignment changes to neutral evil, and you gain the following benefits:",
+     {
+      "type": "list",
+      "items": [
+       "You have {@sense truesight}.",
+       "You can use an action to see as if you were wearing a {@item ring of X-ray vision}. You can end this effect as a bonus action.",
+       "The eye has 8 charges. You can use an action and expend 1 or more charges to cast one of the following spells (save {@dc 18}) from it: {@spell clairvoyance} (2 charges), {@spell crown of madness} (1 charge), {@spell disintegrate} (4 charges), {@spell dominate monster} (5 charges), or {@spell eyebite} (4 charges). The eye regains {@dice 1d4 + 4} expended charges daily at dawn. Each time you cast a spell from the eye, there is a {@chance 5} chance that Vecna tears your soul from your body, devours it, and then takes control of the body like a puppet. If that happens, you become an NPC under the DM's control."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Properties of the Hand",
+    "type": "entries",
+    "entries": [
+     "Your alignment changes to neutral evil, and you gain the following benefits:",
+     {
+      "type": "list",
+      "items": [
+       "Your Strength score becomes 20, unless it is already 20 or higher.",
+       "Any melee spell attack you make with the hand, and any melee weapon attack made with a weapon held by it, deals an extra {@damage 2d8} cold damage on a hit.",
+       "The hand has 8 charges. You can use an action and expend 1 or more charges to cast one of the following spells (save {@dc 18}) from it: {@spell finger of death} (5 charges), {@spell sleep} (1 charge), {@spell slow} (2 charges), or {@spell teleport} (3 charges). The hand regains {@dice 1d4 + 4} expended charges daily at dawn. Each time you cast a spell from the hand, it casts the {@spell suggestion} spell on you (save {@dc 18}), demanding that you commit an evil act. The hand might have a specific act in mind or leave it up to you."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Properties of the Eye and Hand",
+    "type": "entries",
+    "entries": [
+     "If you are attuned to both the hand and eye, you gain the following additional benefits:",
+     {
+      "type": "list",
+      "items": [
+       "You are immune to disease and poison.",
+       "Using the eye's X-ray vision never causes you to suffer {@condition exhaustion}.",
+       "You experience premonitions of danger and, unless you are {@condition incapacitated}, can't be {@status surprised}.",
+       "If you start your turn with at least 1 hit point, you regain {@dice 1d10} hit points.",
+       "If a creature has a skeleton, you can attempt to turn its bones to jelly with a touch of the {@item Hand of Vecna}. You can do so by using an action to make a melee attack against a creature you can reach, using your choice of your melee attack bonus for weapons or spells. On a hit, the target must succeed on a {@dc 18} Constitution saving throw or drop to 0 hit points.",
+       "You can use an action to cast {@spell wish}. This property can't be used again until 30 days have passed."
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Destroying the Eye and Hand",
+    "type": "entries",
+    "entries": [
+     "If the {@item Eye of Vecna} and the {@item Hand of Vecna} are both attached to the same creature, and that creature is slain by the {@item Sword of Kas}, both the eye and the hand burst into flame, turn to ash, and are destroyed forever. Any other attempt to destroy the eye or hand seems to work, but the artifact reappears in one of Vecna's many hidden vaults, where it waits to be rediscovered."
+    ]
+   }
+  ],
+  "items": [
+   "Eye of Vecna|DMG",
+   "Hand of Vecna|DMG"
+  ],
+  "attachedSpells": {
+   "charges": {
+    "1": [
+     "crown of madness",
+     "sleep"
+    ],
+    "2": [
+     "clairvoyance",
+     "slow"
+    ],
+    "3": [
+     "teleport"
+    ],
+    "4": [
+     "disintegrate",
+     "eyebite"
+    ],
+    "5": [
+     "dominate monster",
+     "finger of death"
+    ]
+   },
+   "other": [
+    "wish"
+   ]
+  },
+  "hasFluffImages": true
+ },
+ {
+  "name": "Eye and Hand of Vecna",
+  "source": "XDMG",
+  "page": 259,
+  "rarity": "artifact",
+  "reqAttune": true,
+  "wondrous": true,
+  "ability": {
+   "static": {
+    "str": 20
+   }
+  },
+  "entries": [
+   "{@book Vecna|XDMG|8|Vecna} was a mighty wizard who, through magic and conquest, forged a terrible empire. For all his power, however, Vecna feared death and took steps to prevent his demise by becoming a lich.",
+   "A treacherous lieutenant named Kas brought Vecna's rule to an end in a terrible battle. Of Vecna, all that remained were one hand and one eye, grisly Artifacts that still seek to work Vecna's will in the world.",
+   "The {@item Eye of Vecna|XDMG} and the {@item Hand of Vecna|XDMG} are separate Artifacts that might be found together or separately. The eye looks like a bloodshot organ torn free from the socket. The hand is a shriveled left extremity.",
+   {
+    "type": "entries",
+    "name": "Random Properties of the Eye and Hand",
+    "entries": [
+     "The {@item Eye of Vecna|XDMG} and the {@item Hand of Vecna|XDMG} each have the following random properties",
+     {
+      "type": "list",
+      "items": [
+       "1 {@table Artifact Properties; Minor Beneficial Properties|XDMG|minor beneficial} property",
+       "1 {@table Artifact Properties; Major Beneficial Properties|XDMG|major beneficial} property",
+       "1 {@table Artifact Properties; Minor Detrimental Properties|XDMG|minor detrimental} property"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Attuning to the Eye",
+    "entries": [
+     "To attune to the eye, you must press it into your empty socket. The eye grafts itself to your head and remains there until you die. If the eye is ever removed, you die."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Properties of the Eye",
+    "entries": [
+     "While you are attuned to the eye, your alignment is Neutral Evil, and you gain the following benefits:",
+     {
+      "type": "list",
+      "style": "list-hang-notitle",
+      "items": [
+       {
+        "type": "item",
+        "name": "Truesight",
+        "entries": [
+         "You have {@sense Truesight|XPHB} out to 240 feet."
+        ]
+       },
+       {
+        "type": "item",
+        "name": "Spellcasting",
+        "entries": [
+         "The eye has 8 charges and regains {@dice 1d4 + 4} expended charges daily at dawn. You can cast a spell on the {@item Eye of Vecna|XDMG} Spells table from the eye (save {@dc 18}). The table indicates how many charges you must expend to cast the spell. Each time you cast a spell from the eye, there is a {@chance 5} chance that Vecna tears your soul from your body, devours it, and then takes control of the body like a puppet. If that happens, you become an NPC under the DM's control.",
+         {
+          "type": "table",
+          "caption": "Eye of Vecna Spells",
+          "colStyles": [
+           "col-10",
+           "col-2 text-center"
+          ],
+          "colLabels": [
+           "Spell",
+           "Charge Cost"
+          ],
+          "rows": [
+           [
+            "{@spell Clairvoyance|XPHB}",
+            "2"
+           ],
+           [
+            "{@spell Crown of Madness|XPHB}",
+            "1"
+           ],
+           [
+            "{@spell Disintegrate|XPHB}",
+            "4"
+           ],
+           [
+            "{@spell Dominate Monster|XPHB}",
+            "5"
+           ],
+           [
+            "{@spell Eyebite|XPHB}",
+            "4"
+           ]
+          ]
+         }
+        ]
+       },
+       {
+        "type": "item",
+        "name": "X-ray Vision",
+        "entries": [
+         "You can take a {@action Magic|XPHB} action to gain X-ray vision with a range of 30 feet for 1 minute. To you, solid objects within that radius appear transparent and don't prevent light from passing through themselves. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances block the vision, as does a thin sheet of lead."
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Attuning to the Hand",
+    "entries": [
+     "To attune to the hand, you must press it against the stump where your left hand was. The hand grafts itself to your arm and becomes a functioning appendage. If the hand is ever removed, you die."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Properties of the Hand",
+    "entries": [
+     "When you are attuned to the hand, your alignment is Neutral Evil, and you gain the following benefits:",
+     {
+      "type": "list",
+      "style": "list-hang-notitle",
+      "items": [
+       {
+        "type": "item",
+        "name": "Great Strength",
+        "entries": [
+         "Your Strength becomes 20 unless it is already 20 or higher."
+        ]
+       },
+       {
+        "type": "item",
+        "name": "Icy Touch",
+        "entries": [
+         "Any melee spell attack you make with the hand and any melee attack made with a weapon held by it deals an extra {@damage 2d8} Cold damage on a hit."
+        ]
+       },
+       {
+        "type": "item",
+        "name": "Spellcasting",
+        "entries": [
+         "The hand has 8 charges and regains {@dice 1d4 + 4} expended charges daily at dawn. You can cast a spell on the {@item Hand of Vecna|XDMG} Spells table from the hand (save {@dc 18}). The table indicates how many charges you must expend to cast the spell. Each time you cast a spell from it, the hand casts {@spell Suggestion|XPHB} on you (save {@dc 18}; no {@status Concentration|XPHB} required), demanding that you commit an evil act. The hand might have a specific act in mind or leave it up to you.",
+         {
+          "type": "table",
+          "caption": "Hand of Vecna Spells",
+          "colStyles": [
+           "col-10",
+           "col-2 text-center"
+          ],
+          "colLabels": [
+           "Spell",
+           "Charge Cost"
+          ],
+          "rows": [
+           [
+            "{@spell Finger of Death|XPHB}",
+            "5"
+           ],
+           [
+            "{@spell Sleep|XPHB}",
+            "1"
+           ],
+           [
+            "{@spell Slow|XPHB}",
+            "2"
+           ],
+           [
+            "{@spell Teleport|XPHB}",
+            "3"
+           ]
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Properties of the Eye and Hand",
+    "entries": [
+     "While attuned to both the hand and eye, you gain the following additional benefits:",
+     {
+      "type": "list",
+      "style": "list-hang-notitle",
+      "items": [
+       {
+        "type": "item",
+        "name": "Danger Sense",
+        "entries": [
+         "You have {@variantrule Advantage|XPHB} on {@variantrule Initiative|XPHB} rolls."
+        ]
+       },
+       {
+        "type": "item",
+        "name": "Necrotic Reduction",
+        "entries": [
+         "As a {@action Magic|XPHB} action, you can target one creature you can see within 5 feet of yourself. The target makes a {@dc 18} Constitution saving throw, taking {@damage 7d6} Necrotic damage on a failed save or half as much damage on a successful one. A creature reduced to 0 {@variantrule Hit Points|XPHB} by this damage is transformed into {@hazard green slime|XDMG} (see chapter 3) that covers the ground in its space, each 5-foot square of slime representing a separate patch. Nonmagical objects worn or carried by the target that are made of metal or organic material are destroyed by the slime."
+        ]
+       },
+       {
+        "type": "item",
+        "name": "Poison Immunity",
+        "entries": [
+         "You have {@variantrule Immunity|XPHB} to Poison damage and the {@condition Poisoned|XPHB} condition."
+        ]
+       },
+       {
+        "type": "item",
+        "name": "Regeneration",
+        "entries": [
+         "If you start your turn with at least 1 {@variantrule Hit Points|XPHB|Hit Point}, you regain {@dice 1d10} {@variantrule Hit Points|XPHB}."
+        ]
+       },
+       {
+        "type": "item",
+        "name": "Wish",
+        "entries": [
+         "You can cast {@spell Wish|XPHB}. Once used, this property can't be used again until 30 days have passed."
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Destroying the Eye and Hand",
+    "entries": [
+     "If the {@item Eye of Vecna|XDMG} and the {@item Hand of Vecna|XDMG} are both attached to the same creature and that creature is slain by the {@item Sword of Kas|XDMG}, both the eye and the hand burst into flame, turn to ash, and are destroyed. Any other attempt to destroy the eye or hand seems to work, but the Artifact reappears in one of Vecna's many hidden vaults, where it waits to be rediscovered."
+    ]
+   }
+  ],
+  "items": [
+   "Eye of Vecna|XDMG",
+   "Hand of Vecna|XDMG"
+  ],
+  "itemsHidden": true,
+  "attachedSpells": {
+   "charges": {
+    "1": [
+     "crown of madness|xphb",
+     "sleep|xphb"
+    ],
+    "2": [
+     "clairvoyance|xphb",
+     "slow|xphb"
+    ],
+    "3": [
+     "teleport|xphb"
+    ],
+    "4": [
+     "disintegrate|xphb",
+     "eyebite|xphb"
+    ],
+    "5": [
+     "dominate monster|xphb",
+     "finger of death|xphb"
+    ]
+   },
+   "other": [
+    "wish|xphb"
+   ]
+  },
+  "hasFluffImages": true
+ },
+ {
+  "name": "Figurine of Wondrous Power",
+  "source": "DMG",
+  "page": 169,
+  "referenceSources": [
+   "IMR",
+   "PotA",
+   "RtG",
+   "SKT",
+   "WDMM"
+  ],
+  "reprintedAs": [
+   "Figurine of Wondrous Power|XDMG"
+  ],
+  "rarity": "varies",
+  "wondrous": true,
+  "items": [
+   "Figurine of Wondrous Power, Bronze Griffon",
+   "Figurine of Wondrous Power, Ebony Fly",
+   "Figurine of Wondrous Power, Golden Lions",
+   "Figurine of Wondrous Power, Ivory Goats",
+   "Figurine of Wondrous Power, Marble Elephant",
+   "Figurine of Wondrous Power, Obsidian Steed",
+   "Figurine of Wondrous Power, Onyx Dog",
+   "Figurine of Wondrous Power, Serpentine Owl",
+   "Figurine of Wondrous Power, Silver Raven"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Figurine of Wondrous Power",
+  "source": "XDMG",
+  "page": 261,
+  "srd52": true,
+  "basicRules2024": true,
+  "rarity": "varies",
+  "wondrous": true,
+  "items": [
+   "Figurine of Wondrous Power, Bronze Griffon|XDMG",
+   "Figurine of Wondrous Power, Ebony Fly|XDMG",
+   "Figurine of Wondrous Power, Golden Lions|XDMG",
+   "Figurine of Wondrous Power, Ivory Goats|XDMG",
+   "Figurine of Wondrous Power, Marble Elephant|XDMG",
+   "Figurine of Wondrous Power, Obsidian Steed|XDMG",
+   "Figurine of Wondrous Power, Onyx Dog|XDMG",
+   "Figurine of Wondrous Power, Serpentine Owl|XDMG",
+   "Figurine of Wondrous Power, Silver Raven|XDMG"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Flensing Claws",
+  "source": "VGM",
+  "page": 81,
+  "type": "OTH",
+  "rarity": "unknown",
+  "dmgType": "S",
+  "entries": [
+   "{@creature mind flayer||Illithids} don't always provide their thralls with normal weapons, such as swords and axes. Sometimes they improve the natural capabilities of thralls by giving them new anatomy. Flensing claws take the form of articulated digits that extend into long metal blades. The claws are knitted into the flesh and bones of a creature's arms and can't be removed without surgical amputation.",
+   "Each set of flensing claws is designed for a specific creature and can't be used by anyone else. A creature equipped with flensing claws can use its action to make one melee weapon attack with the claws. The claws deal slashing damage based on the creature's size. The creature adds its proficiency bonus and Strength modifier to any attack roll made with the claws, and its Strength modifier to its damage roll when it hits a target with the claws. Tiny and Gargantuan creatures can't be fitted with flensing claws."
+  ],
+  "items": [
+   "Flensing Claws (Small)|VGM",
+   "Flensing Claws (Medium)|VGM",
+   "Flensing Claws (Large)|VGM",
+   "Flensing Claws (Huge)|VGM"
+  ]
+ },
+ {
+  "name": "Gaming Set",
+  "source": "PHB",
+  "page": 154,
+  "srd": true,
+  "basicRules": true,
+  "reprintedAs": [
+   "Gaming Set|XPHB"
+  ],
+  "type": "GS",
+  "rarity": "none",
+  "items": [
+   "Dice Set|PHB",
+   "Dragonchess Set|PHB",
+   "Playing Card Set|PHB",
+   "Three-Dragon Ante Set|PHB"
+  ]
+ },
+ {
+  "name": "Gaming Set",
+  "source": "XPHB",
+  "page": 221,
+  "srd52": true,
+  "basicRules2024": true,
+  "type": "GS|XPHB",
+  "rarity": "none",
+  "items": [
+   "Dice Set|XPHB",
+   "Dragonchess Set|XPHB",
+   "Playing Cards|XPHB",
+   "Three-Dragon Ante Set|XPHB"
+  ]
+ },
+ {
+  "name": "Glamerweave",
+  "source": "ERLW",
+  "page": 277,
+  "rarity": "varies",
+  "wondrous": true,
+  "items": [
+   "Common Glamerweave|ERLW",
+   "Uncommon Glamerweave|ERLW"
+  ]
+ },
+ {
+  "name": "Grimoire Infinitus",
+  "source": "EGW",
+  "page": 271,
+  "rarity": "legendary",
+  "reqAttune": "by a wizard",
+  "reqAttuneTags": [
+   {
+    "class": "wizard"
+   }
+  ],
+  "wondrous": true,
+  "weight": 3,
+  "property": [
+   "Vst|EGW"
+  ],
+  "entries": [
+   "Several of these spellbooks with gilded pages and silver-plated covers were created during the Age of Arcanum, but only one has been found since the Calamity ended. The book has an infinite number of pages, is three inches thick, eight inches wide, twelve inches long, and weighs three pounds."
+  ],
+  "items": [
+   "Grimoire Infinitus (Dormant)|EGW",
+   "Grimoire Infinitus (Awakened)|EGW",
+   "Grimoire Infinitus (Exalted)|EGW"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Grovelthrash",
+  "source": "EGW",
+  "page": 275,
+  "baseItem": "warhammer|PHB",
+  "type": "M",
+  "rarity": "artifact",
+  "reqAttune": true,
+  "sentient": true,
+  "weight": 2,
+  "weaponCategory": "martial",
+  "property": [
+   "V",
+   "Vst|EGW"
+  ],
+  "dmg1": "1d8",
+  "dmgType": "B",
+  "dmg2": "1d10",
+  "entries": [
+   "Crafted from a single piece of obsidian, this warhammer of Torog hums with magical energy and is carved with the images of faces screaming in pain."
+  ],
+  "items": [
+   "Grovelthrash (Dormant)|EGW",
+   "Grovelthrash (Awakened)|EGW",
+   "Grovelthrash (Exalted)|EGW"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Guild Keyrune",
+  "source": "GGR",
+  "page": 177,
+  "rarity": "varies",
+  "reqAttune": "by a member of the relevant guild",
+  "wondrous": true,
+  "entries": [
+   "Associated with a particular guild, a guild keyrune is a ceremonial, stylized key, about 1 foot long, made from carved stone. Not a literal key, the item is a badge of authority that gives its bearer access to privileged places in its guild's headquarters and outposts. At the DM's discretion, a character might be given a keyrune upon attaining a renown score of 25 in their guild."
+  ],
+  "items": [
+   "Azorius Keyrune|GGR",
+   "Boros Keyrune|GGR",
+   "Dimir Keyrune|GGR",
+   "Golgari Keyrune|GGR",
+   "Gruul Keyrune|GGR",
+   "Izzet Keyrune|GGR",
+   "Orzhov Keyrune|GGR",
+   "Rakdos Keyrune|GGR",
+   "Selesnya Keyrune|GGR",
+   "Simic Keyrune|GGR"
+  ]
+ },
+ {
+  "name": "Guild Signet",
+  "source": "GGR",
+  "page": 178,
+  "type": "RG|DMG",
+  "rarity": "uncommon",
+  "reqAttune": true,
+  "charges": 3,
+  "entries": [
+   "A guild signet is sometimes awarded to a guild member whose renown score in that guild is 5 or higher, as a reward for performing special services for the guild. Aside from its magical properties, the ring is also an indicator of the guild's recognition and favor."
+  ],
+  "items": [
+   "Azorius Guild Signet|GGR",
+   "Boros Guild Signet|GGR",
+   "Dimir Guild Signet|GGR",
+   "Golgari Guild Signet|GGR",
+   "Gruul Guild Signet|GGR",
+   "Izzet Guild Signet|GGR",
+   "Orzhov Guild Signet|GGR",
+   "Rakdos Guild Signet|GGR",
+   "Selesnya Guild Signet|GGR",
+   "Simic Guild Signet|GGR"
+  ]
+ },
+ {
+  "name": "Hide of the Feral Guardian",
+  "source": "EGW",
+  "page": 271,
+  "baseItem": "studded leather armor|PHB",
+  "type": "LA",
+  "rarity": "legendary",
+  "reqAttune": true,
+  "weight": 13,
+  "property": [
+   "Vst|EGW"
+  ],
+  "ac": 12,
+  "entries": [
+   "It is believed that this polished and beautifully detailed leather armor was a gift from Melora, bestowed on a long-forgotten archdruid and champion of the natural world before the terrors of the Calamity."
+  ],
+  "items": [
+   "Hide of the Feral Guardian (Dormant)|EGW",
+   "Hide of the Feral Guardian (Awakened)|EGW",
+   "Hide of the Feral Guardian (Exalted)|EGW"
+  ],
+  "attachedSpells": {
+   "daily": {
+    "1e": [
+     "polymorph"
+    ]
+   }
+  }
+ },
+ {
+  "name": "Holy Symbol",
+  "source": "PHB",
+  "page": 151,
+  "referenceSources": [
+   "CM",
+   "CoS",
+   "DSotDQ",
+   "KftGV",
+   "PaBTSO",
+   "TTP"
+  ],
+  "reprintedAs": [
+   "Holy Symbol|XPHB"
+  ],
+  "type": "SCF",
+  "scfType": "holy",
+  "rarity": "none",
+  "focus": [
+   "Cleric",
+   "Paladin"
+  ],
+  "items": [
+   "Amulet|phb",
+   "Emblem|phb",
+   "Reliquary|phb"
+  ]
+ },
+ {
+  "name": "Holy Symbol",
+  "source": "XPHB",
+  "page": 226,
+  "referenceSources": [
+   "DrDe-ACfaS"
+  ],
+  "type": "SCF|XPHB",
+  "scfType": "holy",
+  "rarity": "none",
+  "focus": [
+   "Cleric",
+   "Paladin"
+  ],
+  "items": [
+   "Amulet|XPHB",
+   "Emblem|XPHB",
+   "Reliquary|XPHB"
+  ]
+ },
+ {
+  "name": "Horn of Valhalla",
+  "source": "DMG",
+  "page": 175,
+  "referenceSources": [
+   "TftYP-AtG",
+   "WDMM"
+  ],
+  "reprintedAs": [
+   "Horn of Valhalla|XDMG"
+  ],
+  "rarity": "varies",
+  "wondrous": true,
+  "items": [
+   "Horn of Valhalla, Brass",
+   "Horn of Valhalla, Bronze",
+   "Horn of Valhalla, Iron",
+   "Horn of Valhalla, Silver"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Horn of Valhalla",
+  "source": "XDMG",
+  "page": 270,
+  "srd52": true,
+  "basicRules2024": true,
+  "rarity": "varies",
+  "wondrous": true,
+  "entries": [
+   "You can take a {@action Magic|XPHB} action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the {@creature Berserker|XMM} stat block and returns to Ysgard after 1 hour or when it drops to 0 {@variantrule Hit Points|XPHB}. The spirits look like living, breathing warriors, and they have {@variantrule Immunity|XPHB} to the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} conditions. Once you use the horn, it can't be used again until 7 days have passed.",
+   "Four types of Horn of Valhalla are known to exist, each made of a different metal. The horn's type determines how many spirits it summons, as well as the requirement for its use. The DM chooses the horn's type or determines it randomly by rolling on the following table. If you blow the horn without meeting its requirement, the summoned spirits attack you.",
+   "If you meet the requirement, they are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies and follow your commands.",
+   {
+    "type": "table",
+    "colStyles": [
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-6"
+    ],
+    "colLabels": [
+     "1d100",
+     "Horn Type",
+     "Spirits",
+     "Requirement"
+    ],
+    "rows": [
+     [
+      "01-40",
+      "{@item Horn of Valhalla, Silver|XDMG|Silver}",
+      "2",
+      "None"
+     ],
+     [
+      "41-75",
+      "{@item Horn of Valhalla, Brass|XDMG|Brass}",
+      "3",
+      "{@variantrule Proficiency|XPHB} with all Simple weapons"
+     ],
+     [
+      "76-90",
+      "{@item Horn of Valhalla, Bronze|XDMG|Bronze}",
+      "4",
+      "Training with all Medium armor"
+     ],
+     [
+      "91-00",
+      "{@item Horn of Valhalla, Iron|XDMG|Iron}",
+      "5",
+      "{@variantrule Proficiency|XPHB} with all Martial weapons"
+     ]
+    ]
+   }
+  ],
+  "items": [
+   "Horn of Valhalla, Brass|XDMG",
+   "Horn of Valhalla, Bronze|XDMG",
+   "Horn of Valhalla, Iron|XDMG",
+   "Horn of Valhalla, Silver|XDMG"
+  ],
+  "itemsHidden": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Imbued Wood Focus",
+  "source": "ERLW",
+  "page": 277,
+  "type": "SCF",
+  "scfType": "arcane",
+  "rarity": "common",
+  "reqAttune": true,
+  "wondrous": true,
+  "entries": [
+   "An imbued wood focus is a rod, staff, or wand cut from a tree infused with extraplanar energy. If you're a spellcaster, you can use this as a spellcasting focus.",
+   "When you cast a damage-dealing spell using this item as your spellcasting focus, you gain a +1 bonus to one damage roll of the spell, provided the damage is of the type associated with the item's wood. The types of wood and their associated damage types are listed in the Imbued Wood Focus table.",
+   {
+    "type": "table",
+    "caption": "Imbued Wood Focus",
+    "colLabels": [
+     "Wood",
+     "Damage Type"
+    ],
+    "colStyles": [
+     "col-6",
+     "col-6"
+    ],
+    "rows": [
+     [
+      "{@item Imbued Wood (Fernian Ash)|ERLW|Fernian Ash}",
+      "Fire"
+     ],
+     [
+      "{@item Imbued Wood (Irian Rosewood)|ERLW|Irian Rosewood}",
+      "Radiant"
+     ],
+     [
+      "{@item Imbued Wood (Kythrian Manchineel)|ERLW|Kythrian Manchineel}",
+      "Acid or poison"
+     ],
+     [
+      "{@item Imbued Wood (Lamannian Oak)|ERLW|Lamannian Oak}",
+      "Lightning or thunder"
+     ],
+     [
+      "{@item Imbued Wood (Mabaran Ebony)|ERLW|Mabaran Ebony}",
+      "Necrotic"
+     ],
+     [
+      "{@item Imbued Wood (Risian Pine)|ERLW|Risian Pine}",
+      "Cold"
+     ],
+     [
+      "{@item Imbued Wood (Shavarran Birch)|ERLW|Shavarran Birch}",
+      "Force"
+     ],
+     [
+      "{@item Imbued Wood (Xorian Wenge)|ERLW|Xorian Wenge}",
+      "Psychic"
+     ]
+    ]
+   }
+  ],
+  "items": [
+   "Imbued Wood (Fernian Ash)|ERLW",
+   "Imbued Wood (Irian Rosewood)|ERLW",
+   "Imbued Wood (Kythrian Manchineel)|ERLW",
+   "Imbued Wood (Lamannian Oak)|ERLW",
+   "Imbued Wood (Mabaran Ebony)|ERLW",
+   "Imbued Wood (Risian Pine)|ERLW",
+   "Imbued Wood (Shavarran Birch)|ERLW",
+   "Imbued Wood (Xorian Wenge)|ERLW"
+  ]
+ },
+ {
+  "name": "Infiltrator's Key",
+  "source": "EGW",
+  "page": 272,
+  "rarity": "legendary",
+  "reqAttune": true,
+  "wondrous": true,
+  "property": [
+   "Vst|EGW"
+  ],
+  "grantsProficiency": true,
+  "entries": [
+   "This mithral skeleton key was forged using the blood of twelve master thieves executed for trying to steal magic items during the Age of Arcanum."
+  ],
+  "items": [
+   "Infiltrator's Key (Dormant)|EGW",
+   "Infiltrator's Key (Awakened)|EGW",
+   "Infiltrator's Key (Exalted)|EGW"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Instrument of the Bards",
+  "source": "DMG",
+  "page": 176,
+  "referenceSources": [
+   "CoS",
+   "SKT",
+   "ToA",
+   "WDMM"
+  ],
+  "reprintedAs": [
+   "Instrument of the Bards|XDMG"
+  ],
+  "type": "INS",
+  "rarity": "varies",
+  "reqAttune": "by a bard",
+  "reqAttuneTags": [
+   {
+    "class": "bard"
+   }
+  ],
+  "wondrous": true,
+  "entries": [
+   "An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a {@dc 15} Wisdom saving throw or take {@damage 2d4} psychic damage.",
+   "You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
+   "You can play the instrument while casting a spell that causes any of its targets to be {@condition charmed} on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
+   "All instruments of the bards can be used to cast the following spells: {@spell fly}, {@spell invisibility}, {@spell levitate}, and {@spell protection from evil and good}."
+  ],
+  "items": [
+   "Instrument of the Bards, Anstruth Harp",
+   "Instrument of the Bards, Canaith Mandolin",
+   "Instrument of the Bards, Cli Lyre",
+   "Instrument of the Bards, Doss Lute",
+   "Instrument of the Bards, Fochlucan Bandore",
+   "Instrument of the Bards, Mac-Fuirmidh Cittern",
+   "Instrument of the Bards, Ollamh Harp"
+  ],
+  "attachedSpells": {
+   "daily": {
+    "1e": [
+     "fly",
+     "invisibility",
+     "levitate",
+     "protection from evil and good"
+    ]
+   }
+  }
+ },
+ {
+  "name": "Instrument of the Bards",
+  "source": "XDMG",
+  "page": 272,
+  "rarity": "varies",
+  "reqAttune": "by a bard",
+  "reqAttuneTags": [
+   {
+    "class": "bard"
+   }
+  ],
+  "wondrous": true,
+  "entries": [
+   "An Instrument of the Bards is superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a {@dc 15} Wisdom saving throw or take {@damage 2d4} Psychic damage.",
+   "You can play the instrument to cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
+   "All Instrument of the Bards can be used to cast the following spells: {@spell Fly|XPHB}, {@spell Invisibility|XPHB}, {@spell Levitate|XPHB}, {@spell Protection from Evil and Good|XPHB}"
+  ],
+  "items": [
+   "Instrument of the Bards, Anstruth Harp|XDMG",
+   "Instrument of the Bards, Canaith Mandolin|XDMG",
+   "Instrument of the Bards, Cli Lyre|XDMG",
+   "Instrument of the Bards, Doss Lute|XDMG",
+   "Instrument of the Bards, Fochlucan Bandore|XDMG",
+   "Instrument of the Bards, Mac-Fuirmidh Cittern|XDMG",
+   "Instrument of the Bards, Ollamh Harp|XDMG"
+  ],
+  "attachedSpells": {
+   "daily": {
+    "1e": [
+     "fly|xphb",
+     "invisibility|xphb",
+     "levitate|xphb",
+     "protection from evil and good|xphb"
+    ]
+   }
+  },
+  "hasFluffImages": true
+ },
+ {
+  "name": "Ioun Stone",
+  "source": "DMG",
+  "page": 176,
+  "reprintedAs": [
+   "Ioun Stone|XDMG"
+  ],
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "items": [
+   "Ioun Stone, Absorption",
+   "Ioun Stone, Agility",
+   "Ioun Stone, Awareness",
+   "Ioun Stone, Fortitude",
+   "Ioun Stone, Greater Absorption",
+   "Ioun Stone, Insight",
+   "Ioun Stone, Intellect",
+   "Ioun Stone, Leadership",
+   "Ioun Stone, Mastery",
+   "Ioun Stone, Protection",
+   "Ioun Stone, Regeneration",
+   "Ioun Stone, Reserve",
+   "Ioun Stone, Strength",
+   "Ioun Stone, Sustenance"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Ioun Stone",
+  "source": "LLK",
+  "page": 55,
+  "referenceSources": [
+   "IMR"
+  ],
+  "reprintedAs": [
+   "Ioun Stone|XDMG"
+  ],
+  "rarity": "rare",
+  "reqAttune": true,
+  "wondrous": true,
+  "items": [
+   "Ioun Stone, Supreme Intellect|LLK",
+   "Ioun Stone, Historical Knowledge|LLK",
+   "Ioun Stone, Natural Knowledge|LLK",
+   "Ioun Stone, Religious Knowledge|LLK",
+   "Ioun Stone, Language Knowledge|LLK",
+   "Ioun Stone, Self-Preservation|LLK"
+  ]
+ },
+ {
+  "name": "Ioun Stone",
+  "source": "XDMG",
+  "page": 273,
+  "srd52": true,
+  "basicRules2024": true,
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "hasRefs": true,
+  "entries": [
+   "{#itemEntry Ioun Stone|XDMG}",
+   "The type of stone determines its rarity and effects."
+  ],
+  "items": [
+   "Ioun Stone, Absorption|XDMG",
+   "Ioun Stone, Agility|XDMG",
+   "Ioun Stone, Awareness|XDMG",
+   "Ioun Stone, Fortitude|XDMG",
+   "Ioun Stone, Greater Absorption|XDMG",
+   "Ioun Stone, Insight|XDMG",
+   "Ioun Stone, Intellect|XDMG",
+   "Ioun Stone, Leadership|XDMG",
+   "Ioun Stone, Mastery|XDMG",
+   "Ioun Stone, Protection|XDMG",
+   "Ioun Stone, Regeneration|XDMG",
+   "Ioun Stone, Reserve|XDMG",
+   "Ioun Stone, Strength|XDMG",
+   "Ioun Stone, Sustenance|XDMG"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Jewel of Three Prayers",
+  "source": "CRCotN",
+  "page": 213,
+  "rarity": "legendary",
+  "reqAttune": true,
+  "wondrous": true,
+  "property": [
+   "Vst|EGW"
+  ],
+  "recharge": "dawn",
+  "entries": [
+   "The Jewel of Three Prayers is a Vestige of Divergence (see the \"Vestiges of Divergence\" sidebar). In ancient times, Alyxian the Apotheon bore this amulet as a symbol of his covenant with three Prime Deities: Sehanine the Moon Weaver, Avandra the Change Bringer, and Corellon the Arch Heart. When the jewel is found, only Sehanine's power thrums within its dormant heart. The power of the other two deities waits to be reawakened by a hero—or heroes—who can follow in Alyxian's footsteps."
+  ],
+  "items": [
+   "Jewel of Three Prayers (Dormant)|CRCotN",
+   "Jewel of Three Prayers (Awakened)|CRCotN",
+   "Jewel of Three Prayers (Exalted)|CRCotN"
+  ],
+  "attachedSpells": {
+   "charges": {
+    "1": [
+     "invisibility"
+    ]
+   }
+  },
+  "hasFluffImages": true
+ },
+ {
+  "name": "Lantern of Tracking",
+  "source": "IDRotF",
+  "page": 314,
+  "rarity": "common",
+  "wondrous": true,
+  "entries": [
+   "This hooded lantern burns for 6 hours on 1 pint of oil, shedding bright light in a 30-foot radius and dim light for an additional 30 feet.",
+   "Each lantern of tracking is designed to track down a certain type of creature, which is determined by rolling on the Lantern of Tracking table. Once determined, this creature type can't be changed. While the lantern is within 300 feet of any creature of that type, its flame turns bright green. The lantern doesn't pinpoint the creature's exact location, however.",
+   {
+    "type": "table",
+    "caption": "Lantern of Tracking",
+    "colLabels": [
+     "1d10",
+     "Creature Type"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "{@item Lantern of Tracking (Aberrations)|IDRotF}"
+     ],
+     [
+      "2",
+      "{@item Lantern of Tracking (Celestials)|IDRotF}"
+     ],
+     [
+      "3",
+      "{@item Lantern of Tracking (Constructs)|IDRotF}"
+     ],
+     [
+      "4",
+      "{@item Lantern of Tracking (Dragons)|IDRotF}"
+     ],
+     [
+      "5",
+      "{@item Lantern of Tracking (Elementals)|IDRotF}"
+     ],
+     [
+      "6",
+      "{@item Lantern of Tracking (Fey)|IDRotF}"
+     ],
+     [
+      "7",
+      "{@item Lantern of Tracking (Fiends)|IDRotF}"
+     ],
+     [
+      "8",
+      "{@item Lantern of Tracking (Giants)|IDRotF}"
+     ],
+     [
+      "9",
+      "{@item Lantern of Tracking (Monstrosities)|IDRotF}"
+     ],
+     [
+      "10",
+      "{@item Lantern of Tracking (Undead)|IDRotF}"
+     ]
+    ]
+   }
+  ],
+  "items": [
+   "Lantern of Tracking (Aberrations)|IDRotF",
+   "Lantern of Tracking (Celestials)|IDRotF",
+   "Lantern of Tracking (Constructs)|IDRotF",
+   "Lantern of Tracking (Dragons)|IDRotF",
+   "Lantern of Tracking (Elementals)|IDRotF",
+   "Lantern of Tracking (Fey)|IDRotF",
+   "Lantern of Tracking (Fiends)|IDRotF",
+   "Lantern of Tracking (Giants)|IDRotF",
+   "Lantern of Tracking (Monstrosities)|IDRotF",
+   "Lantern of Tracking (Undead)|IDRotF"
+  ],
+  "itemsHidden": true,
+  "light": [
+   {
+    "bright": 30,
+    "dim": 60
+   }
+  ]
+ },
+ {
+  "name": "Lash of Shadows",
+  "source": "EGW",
+  "page": 276,
+  "baseItem": "whip|PHB",
+  "type": "M",
+  "rarity": "artifact",
+  "reqAttune": true,
+  "sentient": true,
+  "weight": 3,
+  "weaponCategory": "martial",
+  "property": [
+   "F",
+   "R",
+   "Vst|EGW"
+  ],
+  "dmg1": "1d4",
+  "dmgType": "S",
+  "entries": [
+   "This snakeskin whip is touched by the power of Zehir and ends in five animated serpent heads."
+  ],
+  "items": [
+   "Lash of Shadows (Dormant)|EGW",
+   "Lash of Shadows (Awakened)|EGW",
+   "Lash of Shadows (Exalted)|EGW"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Mace of the Black Crown",
+  "source": "EGW",
+  "page": 276,
+  "baseItem": "mace|PHB",
+  "type": "M",
+  "resist": [
+   "fire",
+   "poison"
+  ],
+  "rarity": "artifact",
+  "reqAttune": true,
+  "sentient": true,
+  "weight": 4,
+  "weaponCategory": "simple",
+  "property": [
+   "Vst|EGW"
+  ],
+  "dmg1": "1d6",
+  "dmgType": "B",
+  "entries": [
+   "This mace has a haft of black iron and a ruby head with a fiendish countenance. Carrying the boon of Asmodeus, it is fit for the most powerful servants of the Nine Hells."
+  ],
+  "items": [
+   "Mace of the Black Crown (Dormant)|EGW",
+   "Mace of the Black Crown (Awakened)|EGW",
+   "Mace of the Black Crown (Exalted)|EGW"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Manual of Golems",
+  "source": "DMG",
+  "page": 180,
+  "referenceSources": [
+   "ToA"
+  ],
+  "reprintedAs": [
+   "Manual of Golems|XDMG"
+  ],
+  "tier": "major",
+  "rarity": "very rare",
+  "wondrous": true,
+  "weight": 5,
+  "items": [
+   "Manual of Clay Golems",
+   "Manual of Flesh Golems",
+   "Manual of Iron Golems",
+   "Manual of Stone Golems"
+  ],
+  "lootTables": [
+   "Magic Item Table H"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Manual of Golems",
+  "source": "XDMG",
+  "page": 277,
+  "srd52": true,
+  "basicRules2024": true,
+  "rarity": "very rare",
+  "wondrous": true,
+  "weight": 5,
+  "entries": [
+   "This tome contains information and incantations necessary to make a particular type of golem. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a manual of golems and attempts to read it takes {@damage 6d6} psychic damage.",
+   {
+    "type": "table",
+    "colStyles": [
+     "col-2 text-center",
+     "col-4",
+     "col-3 text-center",
+     "col-3 text-right"
+    ],
+    "colLabels": [
+     "d20",
+     "Golem",
+     "Time",
+     "Cost"
+    ],
+    "rows": [
+     [
+      "1-5",
+      "{@item Manual of Clay Golems|XDMG}",
+      "30 days",
+      "65,000 GP"
+     ],
+     [
+      "6-17",
+      "{@item Manual of Flesh Golems|XDMG}",
+      "60 days",
+      "50,000 GP"
+     ],
+     [
+      "18",
+      "{@item Manual of Iron Golems|XDMG}",
+      "120 days",
+      "100,000 GP"
+     ],
+     [
+      "19-20",
+      "{@item Manual of Stone Golems|XDMG}",
+      "90 days",
+      "80,000 GP"
+     ]
+    ]
+   },
+   "To create a golem, you must spend the time shown on the table, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay the specified cost to purchase supplies.",
+   "Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands."
+  ],
+  "items": [
+   "Manual of Clay Golems|XDMG",
+   "Manual of Flesh Golems|XDMG",
+   "Manual of Iron Golems|XDMG",
+   "Manual of Stone Golems|XDMG"
+  ],
+  "itemsHidden": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Mechanical Wonder",
+  "source": "FRAiF",
+  "page": 245,
+  "rarity": "varies",
+  "wondrous": true,
+  "weight": 500,
+  "entries": [
+   "A Mechanical Wonder is a semi-autonomous object imbued with magical power. Mechanical Wonders vary greatly in size and form depending on their function.",
+   "A Mechanical Wonder is a dormant object until activated. To activate a Mechanical Wonder, you must wind the wonder with a handheld key unique to that wonder. It takes 1 minute to wind a Mechanical Wonder. While you wind it, you must take the {@action Utilize|XPHB} action each turn.",
+   "Once wound, a Mechanical Wonder remains activated for the duration specified in the wonder's description."
+  ],
+  "items": [
+   "Mechanical Wonder (Domestic)|FRAiF",
+   "Mechanical Wonder (Flying)|FRAiF",
+   "Mechanical Wonder (Gyrocopter)|FRAiF",
+   "Mechanical Wonder (Mobility)|FRAiF"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Mind Crystal",
+  "source": "PaBTSO",
+  "page": 218,
+  "rarity": "varies",
+  "wondrous": true,
+  "entries": [
+   "These gemstones contain a crystallized bit of spellcasting magic. Different types of mind crystals exist, each with a different single-use effect.",
+   "When you cast a spell that has a casting time of 1 action while holding a mind crystal, you can modify the spell in a specific way. You can use only a single mind crystal to modify the spell, and you can't use a mind crystal and a Metamagic option on the same spell. Once you use a mind crystal, it becomes a nonmagical gem worth 50 gp."
+  ],
+  "items": [
+   "Mind Crystal (Careful)|PaBTSO",
+   "Mind Crystal (Distant)|PaBTSO",
+   "Mind Crystal (Empowered)|PaBTSO",
+   "Mind Crystal (Extended)|PaBTSO",
+   "Mind Crystal (Heightened)|PaBTSO",
+   "Mind Crystal (Quickened)|PaBTSO",
+   "Mind Crystal (Subtle)|PaBTSO"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Musical Instrument",
+  "source": "FRHoF",
+  "page": 132,
+  "type": "INS|XPHB",
+  "rarity": "none",
+  "items": [
+   "Bandore|FRHoF",
+   "Cittern|FRHoF",
+   "Yarting|FRHoF"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Musical Instrument",
+  "source": "PHB",
+  "page": 154,
+  "srd": true,
+  "basicRules": true,
+  "referenceSources": [
+   "ToA"
+  ],
+  "reprintedAs": [
+   "Musical Instrument|XPHB"
+  ],
+  "type": "INS",
+  "rarity": "none",
+  "items": [
+   "Bagpipes|PHB",
+   "Drum|PHB",
+   "Dulcimer|PHB",
+   "Flute|PHB",
+   "Horn|PHB",
+   "Lute|PHB",
+   "Lyre|PHB",
+   "Pan Flute|PHB",
+   "Shawm|PHB",
+   "Viol|PHB"
+  ]
+ },
+ {
+  "name": "Musical Instrument",
+  "source": "SCAG",
+  "page": 124,
+  "reprintedAs": [
+   "Musical Instrument|XPHB"
+  ],
+  "type": "INS",
+  "rarity": "none",
+  "items": [
+   "Birdpipes|SCAG",
+   "Glaur|SCAG",
+   "Hand Drum|SCAG",
+   "Longhorn|SCAG",
+   "Shawm|SCAG",
+   "Songhorn|SCAG",
+   "Tantan|SCAG",
+   "Thelarr|SCAG",
+   "Tocken|SCAG",
+   "Wargong|SCAG",
+   "Yarting|SCAG",
+   "Zulkoon|SCAG"
+  ]
+ },
+ {
+  "name": "Musical Instrument",
+  "source": "XPHB",
+  "page": 221,
+  "srd52": true,
+  "basicRules2024": true,
+  "type": "INS|XPHB",
+  "rarity": "none",
+  "items": [
+   "Bagpipes|XPHB",
+   "Drum|XPHB",
+   "Dulcimer|XPHB",
+   "Flute|XPHB",
+   "Horn|XPHB",
+   "Lute|XPHB",
+   "Lyre|XPHB",
+   "Pan Flute|XPHB",
+   "Shawm|XPHB",
+   "Viol|XPHB"
+  ]
+ },
+ {
+  "name": "Orb of Shielding",
+  "source": "ERLW",
+  "page": 278,
+  "type": "SCF",
+  "scfType": "arcane",
+  "rarity": "common",
+  "reqAttune": true,
+  "wondrous": true,
+  "weight": 3,
+  "entries": [
+   "An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you're a spellcaster, you can use this orb as a spellcasting focus.",
+   "If you're holding the orb when you take damage of the type associated with the orb's material, you can use your reaction to reduce the damage by {@dice 1d4} (to a minimum of 0). The materials and their associated damage types are listed in the Orb of Shielding table.",
+   {
+    "type": "table",
+    "caption": "Orb of Shielding",
+    "colLabels": [
+     "Planar Material",
+     "Damage Type"
+    ],
+    "colStyles": [
+     "col-6",
+     "col-6"
+    ],
+    "rows": [
+     [
+      "{@item Orb of Shielding (Fernian Basalt)|ERLW|Fernian basalt}",
+      "Fire"
+     ],
+     [
+      "{@item Orb of Shielding (Irian Quartz)|ERLW|Irian quartz}",
+      "Radiant"
+     ],
+     [
+      "{@item Orb of Shielding (Kythrian Skarn)|ERLW|Kythrian Skarn}",
+      "Acid and poison"
+     ],
+     [
+      "{@item Orb of Shielding (Lamannian Flint)|ERLW|Lamannian flint}",
+      "Lightning and thunder"
+     ],
+     [
+      "{@item Orb of Shielding (Mabaran Obsidian)|ERLW|Mabaran obsidian}",
+      "Necrotic"
+     ],
+     [
+      "{@item Orb of Shielding (Risian Shale)|ERLW|Risian shale}",
+      "Cold"
+     ],
+     [
+      "{@item Orb of Shielding (Shavarran Chert)|ERLW|Shavarran chert}",
+      "Force"
+     ],
+     [
+      "{@item Orb of Shielding (Xorian Marble)|ERLW|Xorian marble}",
+      "Psychic"
+     ]
+    ]
+   }
+  ],
+  "items": [
+   "Orb of Shielding (Fernian Basalt)|ERLW",
+   "Orb of Shielding (Irian Quartz)|ERLW",
+   "Orb of Shielding (Kythrian Skarn)|ERLW",
+   "Orb of Shielding (Lamannian Flint)|ERLW",
+   "Orb of Shielding (Mabaran Obsidian)|ERLW",
+   "Orb of Shielding (Risian Shale)|ERLW",
+   "Orb of Shielding (Shavarran Chert)|ERLW",
+   "Orb of Shielding (Xorian Marble)|ERLW"
+  ]
+ },
+ {
+  "name": "Potion of Giant Strength",
+  "source": "DMG",
+  "page": 187,
+  "referenceSources": [
+   "WDMM"
+  ],
+  "reprintedAs": [
+   "Potion of Giant Strength|XDMG"
+  ],
+  "type": "P",
+  "rarity": "varies",
+  "items": [
+   "Potion of Cloud Giant Strength",
+   "Potion of Fire Giant Strength",
+   "Potion of Frost Giant Strength",
+   "Potion of Hill Giant Strength",
+   "Potion of Stone Giant Strength",
+   "Potion of Storm Giant Strength"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
+  "name": "Potion of Giant Strength",
+  "source": "XDMG",
+  "page": 288,
+  "srd52": true,
+  "basicRules2024": true,
+  "referenceSources": [
+   "DrDe-DaS"
+  ],
+  "type": "P|XPHB",
+  "rarity": "varies",
+  "weight": 0.5,
+  "items": [
+   "Potion of Hill Giant Strength|XDMG",
+   "Potion of Frost Giant Strength|XDMG",
+   "Potion of Stone Giant Strength|XDMG",
+   "Potion of Fire Giant Strength|XDMG",
+   "Potion of Cloud Giant Strength|XDMG",
+   "Potion of Storm Giant Strength|XDMG"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
+  "name": "Potion of Healing (*)",
+  "source": "DMG",
+  "page": 187,
+  "srd": true,
+  "type": "P",
+  "rarity": "varies",
+  "entries": [
+   "{@note * This item group has the same name and source as the item {@item potion of healing}}."
+  ],
+  "items": [
+   "Potion of Healing",
+   "Potion of Greater Healing",
+   "Potion of Superior Healing",
+   "Potion of Supreme Healing"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
+  "name": "Potion of Mind Control",
+  "source": "TftYP",
+  "page": 229,
+  "referenceSources": [
+   "TftYP-AtG",
+   "TftYP-DiT",
+   "TftYP-TFoF",
+   "TftYP-THSoT",
+   "TftYP-ToH",
+   "TftYP-TSC",
+   "TftYP-WPM"
+  ],
+  "type": "P",
+  "rarity": "varies",
+  "items": [
+   "Potion of Mind Control (beast)|TftYP",
+   "Potion of Mind Control (humanoid)|TftYP",
+   "Potion of Mind Control (monster)|TftYP"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
+  "name": "Potion of Resistance",
+  "source": "DMG",
+  "page": 188,
+  "referenceSources": [
+   "CoA",
+   "DoSI",
+   "IDRotF",
+   "KftGV",
+   "WDH",
+   "WDMM"
+  ],
+  "reprintedAs": [
+   "Potion of Resistance|XDMG"
+  ],
+  "type": "P",
+  "tier": "minor",
+  "rarity": "uncommon",
+  "items": [
+   "Potion of Acid Resistance",
+   "Potion of Cold Resistance",
+   "Potion of Fire Resistance",
+   "Potion of Force Resistance",
+   "Potion of Lightning Resistance",
+   "Potion of Necrotic Resistance",
+   "Potion of Poison Resistance",
+   "Potion of Psychic Resistance",
+   "Potion of Radiant Resistance",
+   "Potion of Thunder Resistance"
+  ],
+  "lootTables": [
+   "Magic Item Table B"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
+  "name": "Potion of Resistance",
+  "source": "XDMG",
+  "page": 289,
+  "srd52": true,
+  "basicRules2024": true,
+  "type": "P|XPHB",
+  "rarity": "uncommon",
+  "weight": 0.5,
+  "entries": [
+   "When you drink this potion, you have {@variantrule Resistance|XPHB} to one type of damage for 1 hour. The DM chooses the type or determines it randomly by rolling on the following table.",
+   {
+    "type": "table",
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "colLabels": [
+     "d10",
+     "Damage Type"
+    ],
+    "rows": [
+     [
+      "1",
+      "{@item Potion of Acid Resistance|XDMG|Acid}"
+     ],
+     [
+      "2",
+      "{@item Potion of Cold Resistance|XDMG|Cold}"
+     ],
+     [
+      "3",
+      "{@item Potion of Fire Resistance|XDMG|Fire}"
+     ],
+     [
+      "4",
+      "{@item Potion of Force Resistance|XDMG|Force}"
+     ],
+     [
+      "5",
+      "{@item Potion of Lightning Resistance|XDMG|Lightning}"
+     ],
+     [
+      "6",
+      "{@item Potion of Necrotic Resistance|XDMG|Necrotic}"
+     ],
+     [
+      "7",
+      "{@item Potion of Poison Resistance|XDMG|Poison}"
+     ],
+     [
+      "8",
+      "{@item Potion of Psychic Resistance|XDMG|Psychic}"
+     ],
+     [
+      "9",
+      "{@item Potion of Radiant Resistance|XDMG|Radiant}"
+     ],
+     [
+      "10",
+      "{@item Potion of Thunder Resistance|XDMG|Thunder}"
+     ]
+    ]
+   }
+  ],
+  "items": [
+   "Potion of Acid Resistance|XDMG",
+   "Potion of Cold Resistance|XDMG",
+   "Potion of Fire Resistance|XDMG",
+   "Potion of Force Resistance|XDMG",
+   "Potion of Lightning Resistance|XDMG",
+   "Potion of Necrotic Resistance|XDMG",
+   "Potion of Poison Resistance|XDMG",
+   "Potion of Psychic Resistance|XDMG",
+   "Potion of Radiant Resistance|XDMG",
+   "Potion of Thunder Resistance|XDMG"
+  ],
+  "itemsHidden": true,
+  "lootTables": [
+   "Arcana - Uncommon|XDMG",
+   "Relics - Uncommon|XDMG"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
+  "name": "Potions of Healing",
+  "source": "DMG",
+  "page": 187,
+  "reprintedAs": [
+   "Potions of Healing|XDMG"
+  ],
+  "type": "P",
+  "rarity": "varies",
+  "items": [
+   "Potion of Healing",
+   "Potion of Greater Healing",
+   "Potion of Superior Healing",
+   "Potion of Supreme Healing"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
+  "name": "Potions of Healing",
+  "source": "XDMG",
+  "page": 288,
+  "srd52": true,
+  "basicRules2024": true,
+  "type": "P|XPHB",
+  "rarity": "varies",
+  "weight": 0.5,
+  "items": [
+   "Potion of Healing|XDMG",
+   "Potion of Greater Healing|XDMG",
+   "Potion of Superior Healing|XDMG",
+   "Potion of Supreme Healing|XDMG"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
+  "name": "Prehistoric Figurine of Wondrous Power",
+  "source": "BGG",
+  "page": 114,
+  "rarity": "varies",
+  "wondrous": true,
+  "entries": [
+   "Larger and more roughly hewn than typical figurines of wondrous power, these statuettes depict dinosaurs and related creatures from the earliest days of the world.",
+   "As an action, you can throw a prehistoric figurine of wondrous power to a point on the ground within 60 feet of yourself while speaking a command word, whereupon the figurine magically transforms into a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
+   "The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions. See the Monster Manual for the creature's statistics.",
+   "The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its statuette form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description."
+  ],
+  "items": [
+   "Prehistoric Figurine of Wondrous Power, Carnelian Triceratops|BGG",
+   "Prehistoric Figurine of Wondrous Power, Jasper Tyrannosaurus Rex|BGG",
+   "Prehistoric Figurine of Wondrous Power, Kyanite Pteranodon|BGG",
+   "Prehistoric Figurine of Wondrous Power, Pyrite Plesiosaurus|BGG"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Quaal's Feather Token",
+  "source": "DMG",
+  "page": 188,
+  "referenceSources": [
+   "GoS",
+   "IMR",
+   "ToFW",
+   "WDMM"
+  ],
+  "reprintedAs": [
+   "Quaal's Feather Token|XDMG"
+  ],
+  "rarity": "rare",
+  "wondrous": true,
+  "entries": [
+   "This tiny object looks like a feather. Different types of feather tokens exist, each with a different single-use effect. The DM chooses the kind of token or determines it randomly.",
+   {
+    "type": "table",
+    "colLabels": [
+     "d100",
+     "Feather Token"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "01-20",
+      "{@item Quaal's Feather Token, Anchor||Anchor}"
+     ],
+     [
+      "21-35",
+      "{@item Quaal's Feather Token, Bird||Bird}"
+     ],
+     [
+      "36-50",
+      "{@item Quaal's Feather Token, Fan||Fan}"
+     ],
+     [
+      "51-65",
+      "{@item Quaal's Feather Token, Swan Boat||Boat}"
+     ],
+     [
+      "66-90",
+      "{@item Quaal's Feather Token, Tree||Tree}"
+     ],
+     [
+      "91-100",
+      "{@item Quaal's Feather Token, Whip||Whip}"
+     ]
+    ]
+   }
+  ],
+  "items": [
+   "Quaal's Feather Token, Anchor",
+   "Quaal's Feather Token, Bird",
+   "Quaal's Feather Token, Fan",
+   "Quaal's Feather Token, Swan Boat",
+   "Quaal's Feather Token, Tree",
+   "Quaal's Feather Token, Whip"
+  ],
+  "lootTables": [
+   "Magic Item Table C"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Quaal's Feather Token",
+  "source": "XDMG",
+  "page": 290,
+  "srd52": true,
+  "basicRules2024": true,
+  "rarity": "varies",
+  "wondrous": true,
+  "entries": [
+   "This object looks like a feather. Different types of feather tokens exist, each with a different single-use effect. The DM chooses the kind of token or determines it randomly by rolling on the Quaal's Feather Tokens table. The type of token determines its rarity.",
+   {
+    "type": "table",
+    "caption": "Quaal's Feather Tokens",
+    "colStyles": [
+     "col-2 text-center",
+     "col-5 text-center",
+     "col-5 text-center"
+    ],
+    "colLabels": [
+     "1d100",
+     "Token",
+     "Rarity"
+    ],
+    "rows": [
+     [
+      "01-20",
+      "{@item Quaal's Feather Token, Anchor|XDMG|Anchor}",
+      "Uncommon"
+     ],
+     [
+      "21-35",
+      "{@item Quaal's Feather Token, Bird|XDMG|Bird}",
+      "Rare"
+     ],
+     [
+      "36-50",
+      "{@item Quaal's Feather Token, Fan|XDMG|Fan}",
+      "Uncommon"
+     ],
+     [
+      "51-65",
+      "{@item Quaal's Feather Token, Swan boat|XDMG|Swan Boat}",
+      "Rare"
+     ],
+     [
+      "66-90",
+      "{@item Quaal's Feather Token, Tree|XDMG|Tree}",
+      "Uncommon"
+     ],
+     [
+      "91-00",
+      "{@item Quaal's Feather Token, Whip|XDMG|Whip}",
+      "Rare"
+     ]
+    ]
+   }
+  ],
+  "items": [
+   "Quaal's Feather Token, Anchor|XDMG",
+   "Quaal's Feather Token, Bird|XDMG",
+   "Quaal's Feather Token, Fan|XDMG",
+   "Quaal's Feather Token, Swan Boat|XDMG",
+   "Quaal's Feather Token, Tree|XDMG",
+   "Quaal's Feather Token, Whip|XDMG"
+  ],
+  "itemsHidden": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Ring of Elemental Command",
+  "source": "DMG",
+  "page": 190,
+  "reprintedAs": [
+   "Ring of Elemental Command|XDMG"
+  ],
+  "type": "RG|DMG",
+  "tier": "major",
+  "rarity": "legendary",
+  "reqAttune": true,
+  "charges": 5,
+  "items": [
+   "Ring of Air Elemental Command",
+   "Ring of Earth Elemental Command",
+   "Ring of Fire Elemental Command",
+   "Ring of Water Elemental Command"
+  ]
+ },
+ {
+  "name": "Ring of Elemental Command",
+  "source": "XDMG",
+  "page": 292,
+  "srd52": true,
+  "basicRules2024": true,
+  "type": "RG|XDMG",
+  "rarity": "legendary",
+  "reqAttune": true,
+  "recharge": "dawn",
+  "rechargeAmount": "{@dice 1d4 + 1}",
+  "charges": 5,
+  "items": [
+   "Ring of Elemental Command (Air)|XDMG",
+   "Ring of Elemental Command (Earth)|XDMG",
+   "Ring of Elemental Command (Fire)|XDMG",
+   "Ring of Elemental Command (Water)|XDMG"
+  ]
+ },
+ {
+  "name": "Ring of Resistance",
+  "source": "DMG",
+  "page": 192,
+  "referenceSources": [
+   "CoA"
+  ],
+  "reprintedAs": [
+   "Ring of Resistance|XDMG"
+  ],
+  "type": "RG|DMG",
+  "tier": "major",
+  "rarity": "rare",
+  "reqAttune": true,
+  "entries": [
+   "You have resistance to one damage type while wearing this ring. The gem in the ring indicates the type, which the DM chooses or determines randomly.",
+   {
+    "type": "table",
+    "colStyles": [
+     "col-2 text-center",
+     "col-5",
+     "col-5"
+    ],
+    "colLabels": [
+     "d10",
+     "Damage Type",
+     "Gem"
+    ],
+    "rows": [
+     [
+      "1",
+      "{@item ring of acid resistance||Acid}",
+      "Pearl"
+     ],
+     [
+      "2",
+      "{@item ring of cold resistance||Cold}",
+      "Tourmaline"
+     ],
+     [
+      "3",
+      "{@item ring of fire resistance||Fire}",
+      "Garnet"
+     ],
+     [
+      "4",
+      "{@item ring of force resistance||Force}",
+      "Sapphire"
+     ],
+     [
+      "5",
+      "{@item ring of lightning resistance||Lightning}",
+      "Citrine"
+     ],
+     [
+      "6",
+      "{@item ring of necrotic resistance||Necrotic}",
+      "Jet"
+     ],
+     [
+      "7",
+      "{@item ring of poison resistance||Poison}",
+      "Amethyst"
+     ],
+     [
+      "8",
+      "{@item ring of psychic resistance||Psychic}",
+      "Jade"
+     ],
+     [
+      "9",
+      "{@item ring of radiant resistance||Radiant}",
+      "Topaz"
+     ],
+     [
+      "10",
+      "{@item ring of thunder resistance||Thunder}",
+      "Spinel"
+     ]
+    ]
+   }
+  ],
+  "items": [
+   "Ring of Acid Resistance",
+   "Ring of Cold Resistance",
+   "Ring of Fire Resistance",
+   "Ring of Force Resistance",
+   "Ring of Lightning Resistance",
+   "Ring of Necrotic Resistance",
+   "Ring of Poison Resistance",
+   "Ring of Psychic Resistance",
+   "Ring of Radiant Resistance",
+   "Ring of Thunder Resistance"
+  ],
+  "lootTables": [
+   "Magic Item Table G"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Ring of Resistance",
+  "source": "XDMG",
+  "page": 294,
+  "srd52": true,
+  "basicRules2024": true,
+  "type": "RG|XDMG",
+  "rarity": "rare",
+  "entries": [
+   "You have {@variantrule Resistance|XPHB} to one damage type while wearing this ring. The gemstone in the ring indicates the type, which the DM chooses or determines randomly by rolling on the following table.",
+   {
+    "type": "table",
+    "colStyles": [
+     "col-2 text-center",
+     "col-5",
+     "col-5"
+    ],
+    "colLabels": [
+     "d10",
+     "Damage Type",
+     "Gem"
+    ],
+    "rows": [
+     [
+      "1",
+      "{@item Ring of Acid Resistance|XDMG|Acid}",
+      "Pearl"
+     ],
+     [
+      "2",
+      "{@item Ring of Cold Resistance|XDMG|Cold}",
+      "Tourmaline"
+     ],
+     [
+      "3",
+      "{@item Ring of Fire Resistance|XDMG|Fire}",
+      "Garnet"
+     ],
+     [
+      "4",
+      "{@item Ring of Force Resistance|XDMG|Force}",
+      "Sapphire"
+     ],
+     [
+      "5",
+      "{@item Ring of Lightning Resistance|XDMG|Lightning}",
+      "Citrine"
+     ],
+     [
+      "6",
+      "{@item Ring of Necrotic Resistance|XDMG|Necrotic}",
+      "Jet"
+     ],
+     [
+      "7",
+      "{@item Ring of Poison Resistance|XDMG|Poison}",
+      "Amethyst"
+     ],
+     [
+      "8",
+      "{@item Ring of Psychic Resistance|XDMG|Psychic}",
+      "Jade"
+     ],
+     [
+      "9",
+      "{@item Ring of Radiant Resistance|XDMG|Radiant}",
+      "Topaz"
+     ],
+     [
+      "10",
+      "{@item Ring of Thunder Resistance|XDMG|Thunder}",
+      "Spinel"
+     ]
+    ]
+   }
+  ],
+  "items": [
+   "Ring of Acid Resistance|XDMG",
+   "Ring of Cold Resistance|XDMG",
+   "Ring of Fire Resistance|XDMG",
+   "Ring of Force Resistance|XDMG",
+   "Ring of Lightning Resistance|XDMG",
+   "Ring of Necrotic Resistance|XDMG",
+   "Ring of Poison Resistance|XDMG",
+   "Ring of Psychic Resistance|XDMG",
+   "Ring of Radiant Resistance|XDMG",
+   "Ring of Thunder Resistance|XDMG"
+  ],
+  "itemsHidden": true,
+  "lootTables": [
+   "Relics - Rare|XDMG"
+  ]
+ },
+ {
+  "name": "Rod of the Pact Keeper",
+  "source": "DMG",
+  "page": 197,
+  "reprintedAs": [
+   "Rod of the Pact Keeper|XDMG"
+  ],
+  "type": "RD|DMG",
+  "tier": "major",
+  "rarity": "varies",
+  "reqAttune": "by a warlock",
+  "reqAttuneTags": [
+   {
+    "class": "warlock"
+   }
+  ],
+  "weight": 2,
+  "items": [
+   "+1 Rod of the Pact Keeper",
+   "+2 Rod of the Pact Keeper",
+   "+3 Rod of the Pact Keeper"
+  ]
+ },
+ {
+  "name": "Rod of the Pact Keeper",
+  "source": "XDMG",
+  "page": 301,
+  "type": "RD|XDMG",
+  "rarity": "varies",
+  "reqAttune": "by a warlock",
+  "reqAttuneTags": [
+   {
+    "class": "warlock"
+   }
+  ],
+  "weight": 2,
+  "items": [
+   "+1 Rod of the Pact Keeper|XDMG",
+   "+2 Rod of the Pact Keeper|XDMG",
+   "+3 Rod of the Pact Keeper|XDMG"
+  ],
+  "lootTables": [
+   "Arcana - Uncommon|XDMG"
+  ]
+ },
+ {
+  "name": "Ruin's Wake",
+  "source": "EGW",
+  "page": 277,
+  "baseItem": "spear|PHB",
+  "type": "M",
+  "rarity": "artifact",
+  "reqAttune": true,
+  "sentient": true,
+  "weight": 3,
+  "weaponCategory": "simple",
+  "property": [
+   "T",
+   "V",
+   "Vst|EGW"
+  ],
+  "range": "20/60",
+  "dmg1": "1d6",
+  "dmgType": "P",
+  "dmg2": "1d8",
+  "entries": [
+   "This spear is made from the ivory bone of an ancient gold dragon and carved with an Orc hymn to Gruumsh."
+  ],
+  "items": [
+   "Ruin's Wake (Dormant)|EGW",
+   "Ruin's Wake (Awakened)|EGW",
+   "Ruin's Wake (Exalted)|EGW"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Sage's Signet",
+  "source": "BMT",
+  "page": 37,
+  "type": "RG|DMG",
+  "rarity": "varies",
+  "reqAttune": "by a spellcaster",
+  "reqAttuneTags": [
+   {
+    "spellcasting": true
+   }
+  ],
+  "entries": [
+   "This gilded ring bears a beautiful engraving and is imbued with powers of keen wisdom and foresight. While wearing this ring, you can use an action to cast the {@spell Augury} spell from the ring. Once you use the ring to cast the spell, the ring can't cast the spell again until the next dawn.",
+   "Six varieties of Sage's Signet rings exist, each with a different signet (see the table below). A ring's signet determines its rarity as well as the additional spells it can cast. While wearing a Sage's Signet, you can cast each of its additional spells once from the ring using your Intelligence as the spellcasting ability. Once you cast each of the additional spells from the ring, it can't cast the spell again until the next dawn.",
+   {
+    "type": "table",
+    "caption": "Sage's Signet",
+    "colStyles": [
+     "col-2",
+     "col-2",
+     "col-8"
+    ],
+    "colLabels": [
+     "Signet",
+     "Rarity",
+     "Spells"
+    ],
+    "rows": [
+     [
+      "{@item Sage's Signet (Bear)|BMT|Bear}",
+      "Very rare",
+      "{@spell Enlarge/Reduce}, {@spell Polymorph}"
+     ],
+     [
+      "{@item Sage's Signet (Hart)|BMT|Hart}",
+      "Very rare",
+      "{@spell Aura of Vitality}, {@spell Mass Cure Wounds}"
+     ],
+     [
+      "{@item Sage's Signet (Lion)|BMT|Lion}",
+      "Very rare",
+      "{@spell Destructive Wave}, {@spell Fireball}"
+     ],
+     [
+      "{@item Sage's Signet (Serpent)|BMT|Serpent}",
+      "Rare",
+      "{@spell Fear}, {@spell Hex}"
+     ],
+     [
+      "{@item Sage's Signet (Songbird)|BMT|Songbird}",
+      "Rare",
+      "{@spell Charm Person}, {@spell Hypnotic Pattern}"
+     ],
+     [
+      "{@item Sage's Signet (Wolf)|BMT|Wolf}",
+      "Very rare",
+      "{@spell Freedom of Movement}, {@spell Pass without Trace}"
+     ]
+    ]
+   }
+  ],
+  "items": [
+   "Sage's Signet (Bear)|BMT",
+   "Sage's Signet (Hart)|BMT",
+   "Sage's Signet (Lion)|BMT",
+   "Sage's Signet (Serpent)|BMT",
+   "Sage's Signet (Songbird)|BMT",
+   "Sage's Signet (Wolf)|BMT"
+  ],
+  "attachedSpells": {
+   "daily": {
+    "1e": [
+     "augury"
+    ]
+   },
+   "ability": "int"
+  }
+ },
+ {
+  "name": "Scaled Ornament",
+  "source": "FTD",
+  "page": 27,
+  "referenceSources": [
+   "DrDe-ACfaS",
+   "DrDe-BD",
+   "DrDe-BtS",
+   "DrDe-DaS",
+   "DrDe-DotSC",
+   "DrDe-FWtVC",
+   "DrDe-SD",
+   "DrDe-TDoN",
+   "DrDe-TFV",
+   "DrDe-TWoO"
+  ],
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "bonusAc": "+1",
+  "entries": [
+   "This ornament can be jewelry, a cloak, or another wearable accessory. It appears to be fashioned from a dragon's scale, tooth, or claw, or it incorporates images in those shapes."
+  ],
+  "items": [
+   "Slumbering Scaled Ornament|FTD",
+   "Stirring Scaled Ornament|FTD",
+   "Wakened Scaled Ornament|FTD",
+   "Ascendant Scaled Ornament|FTD"
+  ]
+ },
+ {
+  "name": "Scroll of Protection",
+  "source": "DMG",
+  "page": 199,
+  "referenceSources": [
+   "CoS",
+   "OotA",
+   "RoT",
+   "TftYP-AtG",
+   "TftYP-THSoT",
+   "TftYP-WPM",
+   "ToA"
+  ],
+  "reprintedAs": [
+   "Scroll of Protection|XDMG"
+  ],
+  "type": "SC|DMG",
+  "tier": "minor",
+  "rarity": "rare",
+  "items": [
+   "Scroll of Protection from Aberrations",
+   "Scroll of Protection from Beasts",
+   "Scroll of Protection from Celestials",
+   "Scroll of Protection from Elementals",
+   "Scroll of Protection from Fey",
+   "Scroll of Protection from Fiends",
+   "Scroll of Protection from Plants",
+   "Scroll of Protection from Undead"
+  ],
+  "lootTables": [
+   "Magic Item Table C"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
+  "name": "Scroll of Protection",
+  "source": "XDMG",
+  "page": 302,
+  "type": "SC|XPHB",
+  "rarity": "rare",
+  "entries": [
+   "Each Scroll of Protection works against creatures of a specific creature type chosen by the DM or determined by rolling on the following table.",
+   {
+    "type": "table",
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "colLabels": [
+     "1d100",
+     "Creature Type"
+    ],
+    "rows": [
+     [
+      "01-10",
+      "{@item Scroll of Protection (Aberrations)|XDMG|Aberrations}"
+     ],
+     [
+      "11-15",
+      "{@item Scroll of Protection (Beasts)|XDMG|Beasts}"
+     ],
+     [
+      "16-20",
+      "{@item Scroll of Protection (Celestials)|XDMG|Celestials}"
+     ],
+     [
+      "21-25",
+      "{@item Scroll of Protection (Constructs)|XDMG|Constructs}"
+     ],
+     [
+      "26-35",
+      "{@item Scroll of Protection (Dragons)|XDMG|Dragons}"
+     ],
+     [
+      "36-45",
+      "{@item Scroll of Protection (Elementals)|XDMG|Elementals}"
+     ],
+     [
+      "46-50",
+      "{@item Scroll of Protection (Humanoids)|XDMG|Humanoids}"
+     ],
+     [
+      "51-60",
+      "{@item Scroll of Protection (Fey)|XDMG|Fey}"
+     ],
+     [
+      "61-70",
+      "{@item Scroll of Protection (Fiends)|XDMG|Fiends}"
+     ],
+     [
+      "71-75",
+      "{@item Scroll of Protection (Giants)|XDMG|Giants}"
+     ],
+     [
+      "76-80",
+      "{@item Scroll of Protection (Monstrosities)|XDMG|Monstrosities}"
+     ],
+     [
+      "81-85",
+      "{@item Scroll of Protection (Oozes)|XDMG|Oozes}"
+     ],
+     [
+      "86-90",
+      "{@item Scroll of Protection (Plants)|XDMG|Plants}"
+     ],
+     [
+      "91-00",
+      "{@item Scroll of Protection (Undead)|XDMG|Undead}"
+     ]
+    ]
+   },
+   "Using a {@action Magic|XPHB} action to read the scroll creates a 5-foot Emanation originating from you. For 5 minutes, creatures of the specified type can't enter or affect anything in the area. However, if you move in such a way that a creature of the specified type would be inside the area, the effect ends.",
+   "As a {@action Magic|XPHB} action, a creature within 5 feet of the Emanation can attempt to overcome it, which forces the creature to make a {@dc 15} Charisma saving throw. On a successful save, the creature ceases to be affected by the Emanation."
+  ],
+  "items": [
+   "Scroll of Protection (Aberrations)|XDMG",
+   "Scroll of Protection (Beasts)|XDMG",
+   "Scroll of Protection (Celestials)|XDMG",
+   "Scroll of Protection (Constructs)|XDMG",
+   "Scroll of Protection (Dragons)|XDMG",
+   "Scroll of Protection (Elementals)|XDMG",
+   "Scroll of Protection (Humanoids)|XDMG",
+   "Scroll of Protection (Fey)|XDMG",
+   "Scroll of Protection (Fiends)|XDMG",
+   "Scroll of Protection (Giants)|XDMG",
+   "Scroll of Protection (Monstrosities)|XDMG",
+   "Scroll of Protection (Oozes)|XDMG",
+   "Scroll of Protection (Plants)|XDMG",
+   "Scroll of Protection (Undead)|XDMG"
+  ],
+  "itemsHidden": true,
+  "lootTables": [
+   "Arcana - Rare|XDMG",
+   "Relics - Rare|XDMG"
+  ],
+  "miscTags": [
+   "CNS"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Scroll of Titan Summoning",
+  "source": "XDMG",
+  "page": 303,
+  "type": "SC|XPHB",
+  "rarity": "legendary",
+  "entries": [
+   "When you take a {@action Magic|XPHB} action to read this scroll, a particular titan named in the scroll appears in an unoccupied space on the ground or in water that you can see within 1 mile of yourself. The DM picks a suitable titan or determines it randomly by rolling on the table below.",
+   "The titan is {@variantrule Hostile [Attitude]|XPHB|Hostile} toward all other creatures and disappears when it drops to 0 {@variantrule Hit Points|XPHB}. If the titan is summoned into a space that isn't large enough to contain it, the summoning fails, and the scroll is wasted.",
+   {
+    "type": "table",
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "colLabels": [
+     "1d100",
+     "Titan"
+    ],
+    "rows": [
+     [
+      "01-15",
+      "{@item Scroll of Titan Summoning (Animal Lord)|XDMG|Animal Lord}"
+     ],
+     [
+      "16-30",
+      "{@item Scroll of Titan Summoning (Blob of Annihilation)|XDMG|Blob of Annihilation}"
+     ],
+     [
+      "31-45",
+      "{@item Scroll of Titan Summoning (Colossus)|XDMG|Colossus}"
+     ],
+     [
+      "46-60",
+      "{@item Scroll of Titan Summoning (Elemental Cataclysm)|XDMG|Elemental Cataclysm}"
+     ],
+     [
+      "61-75",
+      "{@item Scroll of Titan Summoning (Empyrean)|XDMG|Empyrean}"
+     ],
+     [
+      "76-90",
+      "{@item Scroll of Titan Summoning (Kraken)|XDMG|Kraken} (a kraken requires a body of water large enough to contain it, or the summoning fails and the scroll is wasted)"
+     ],
+     [
+      "91-100",
+      "{@item Scroll of Titan Summoning (Tarrasque)|XDMG|Tarrasque}"
+     ]
+    ]
+   }
+  ],
+  "items": [
+   "Scroll of Titan Summoning (Animal Lord)|XDMG",
+   "Scroll of Titan Summoning (Blob of Annihilation)|XDMG",
+   "Scroll of Titan Summoning (Colossus)|XDMG",
+   "Scroll of Titan Summoning (Elemental Cataclysm)|XDMG",
+   "Scroll of Titan Summoning (Empyrean)|XDMG",
+   "Scroll of Titan Summoning (Kraken)|XDMG",
+   "Scroll of Titan Summoning (Tarrasque)|XDMG"
+  ],
+  "itemsHidden": true,
+  "lootTables": [
+   "Arcana - Legendary|XDMG",
+   "Relics - Legendary|XDMG"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
+  "name": "Shard Solitaire",
+  "source": "KftGV",
+  "page": 193,
+  "rarity": "legendary",
+  "reqAttune": true,
+  "wondrous": true,
+  "recharge": "dawn",
+  "rechargeAmount": "{@dice 1d6}",
+  "charges": 6,
+  "entries": [
+   "This gemstone contains an unstable extradimensional rift. Its facets are ribboned with iridescent veins that seem to move of their own accord. Five types of shard solitaire are known to exist, each one a different type of gemstone, as shown in the Shard Solitaire Types table.",
+   {
+    "type": "entries",
+    "name": "Rift Step",
+    "entries": [
+     "As a bonus action, while wearing or holding the shard solitaire, you can teleport yourself, along with anything you're wearing or carrying, to an unoccupied space you can see within 30 feet of yourself.",
+     "When you use this property, you can tap into the unstable power of the stone's extradimensional rift to increase the teleport distance by up to 30 feet, but if you teleport more than 30 feet using Rift Step, you must succeed on a {@dc 16} Constitution saving throw or take {@damage 3d10} force damage immediately after you teleport."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Spellcasting",
+    "entries": [
+     "The stone has 6 charges and regains {@dice 1d6} expended charges daily at dawn. The Shard Solitaire Types table lists the spells common to all shard solitaires, as well as the spells specific to each kind of stone. As an action, you can cast one of the stone's spells by expending the requisite number of charges, requiring no material components (save {@dc 16}).",
+     {
+      "type": "table",
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
+      ],
+      "colLabels": [
+       "Shard Solitaire",
+       "Spells"
+      ],
+      "rows": [
+       [
+        "All",
+        "{@spell Banishment} (3 charges; the target is banished to the stone's extradimensional space for the spell's duration), {@spell mirror image} (1 charge)"
+       ],
+       [
+        "Black sapphire",
+        "{@spell Blight} (3 charges), {@spell finger of death} (6 charges)"
+       ],
+       [
+        "Diamond",
+        "{@spell Ice storm} (3 charges), {@spell simulacrum} (6 charges; the duplicate created by the spell has the same number of hit points as the creature it imitates)"
+       ],
+       [
+        "Jacinth",
+        "{@spell Fireball} (2 charges), {@spell fire storm} (6 charges)"
+       ],
+       [
+        "Rainbow pearl",
+        "{@spell Prismatic spray} (6 charges), {@spell water breathing} (2 charges)"
+       ],
+       [
+        "Ruby",
+        "{@spell Fly} (2 charges), {@spell teleport} (6 charges)"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "items": [
+   "Shard Solitaire (Black Sapphire)|KftGV",
+   "Shard Solitaire (Diamond)|KftGV",
+   "Shard Solitaire (Jacinth)|KftGV",
+   "Shard Solitaire (Rainbow Pearl)|KftGV",
+   "Shard Solitaire (Ruby)|KftGV"
+  ],
+  "attachedSpells": {
+   "charges": {
+    "1": [
+     "mirror image"
+    ],
+    "2": [
+     "fireball",
+     "fly",
+     "water breathing"
+    ],
+    "3": [
+     "banishment",
+     "blight",
+     "ice storm"
+    ],
+    "6": [
+     "finger of death",
+     "fire storm",
+     "prismatic spray",
+     "teleport"
+    ]
+   }
+  },
+  "hasFluffImages": true
+ },
+ {
+  "name": "Silken Spite",
+  "source": "EGW",
+  "page": 277,
+  "baseItem": "rapier|PHB",
+  "type": "M",
+  "rarity": "artifact",
+  "reqAttune": true,
+  "sentient": true,
+  "weight": 2,
+  "weaponCategory": "martial",
+  "property": [
+   "F",
+   "Vst|EGW"
+  ],
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "modifySpeed": {
+   "equal": {
+    "climb": "walk"
+   }
+  },
+  "entries": [
+   "The blade of this rapier is made of spider silk. Its onyx pommel is tipped with a ruby cut in the shape of a spider, and the blade carries the blessing of Lolth."
+  ],
+  "items": [
+   "Silken Spite (Dormant)|EGW",
+   "Silken Spite (Awakened)|EGW",
+   "Silken Spite (Exalted)|EGW"
+  ]
+ },
+ {
+  "name": "Spell Gem",
+  "source": "OotA",
+  "page": 223,
+  "otherSources": [
+   {
+    "source": "IMR",
+    "page": 95
+   }
+  ],
+  "referenceSources": [
+   "IMR"
+  ],
+  "rarity": "varies",
+  "reqAttune": "optional",
+  "wondrous": true,
+  "items": [
+   "Spell Gem (Amber)|OotA",
+   "Spell Gem (Bloodstone)|OotA",
+   "Spell Gem (Diamond)|OotA",
+   "Spell Gem (Jade)|OotA",
+   "Spell Gem (Lapis lazuli)|OotA",
+   "Spell Gem (Obsidian)|OotA",
+   "Spell Gem (Quartz)|OotA",
+   "Spell Gem (Ruby)|OotA",
+   "Spell Gem (Star ruby)|OotA",
+   "Spell Gem (Topaz)|OotA"
+  ]
+ },
+ {
+  "name": "Spell Scroll",
+  "source": "DMG",
+  "page": 200,
+  "referenceSources": [
+   "AitFR-AVT",
+   "AitFR-ISF",
+   "BGDIA",
+   "CM",
+   "CoA",
+   "CoS",
+   "CRCotN",
+   "DC",
+   "DitLCoT",
+   "DoSI",
+   "DSotDQ",
+   "FS",
+   "GoS",
+   "HotDQ",
+   "IDRotF",
+   "IMR",
+   "JttRC",
+   "KftGV",
+   "LLK",
+   "LMoP",
+   "LoX",
+   "LRDT",
+   "MOT",
+   "NRH-TLT",
+   "OotA",
+   "OoW",
+   "PotA",
+   "QftIS",
+   "RoT",
+   "RtG",
+   "SCC-ARiR",
+   "SDW",
+   "SjA",
+   "SKT",
+   "SLW",
+   "TftYP-AtG",
+   "TftYP-DiT",
+   "TftYP-TFoF",
+   "TftYP-THSoT",
+   "TftYP-ToH",
+   "TftYP-TSC",
+   "TftYP-WPM",
+   "ToA",
+   "ToFW",
+   "ToR",
+   "VEoR",
+   "VNotEE",
+   "WBtW",
+   "WDH",
+   "WDMM"
+  ],
+  "reprintedAs": [
+   "Spell Scroll|XPHB",
+   "Spell Scroll|XDMG"
+  ],
+  "type": "SC|DMG",
+  "rarity": "varies",
+  "items": [
+   "Spell Scroll (Cantrip)",
+   "Spell Scroll (1st Level)",
+   "Spell Scroll (2nd Level)",
+   "Spell Scroll (3rd Level)",
+   "Spell Scroll (4th Level)",
+   "Spell Scroll (5th Level)",
+   "Spell Scroll (6th Level)",
+   "Spell Scroll (7th Level)",
+   "Spell Scroll (8th Level)",
+   "Spell Scroll (9th Level)"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
+  "name": "Spell Scroll",
+  "source": "XDMG",
+  "page": 305,
+  "srd52": true,
+  "basicRules2024": true,
+  "referenceSources": [
+   "DrDe-ACfaS",
+   "DrDe-BD",
+   "DrDe-DaS",
+   "DrDe-DotSC",
+   "DrDe-TDoN",
+   "DrDe-TWoO",
+   "FRAiF"
+  ],
+  "type": "SC|XPHB",
+  "rarity": "varies",
+  "items": [
+   "Spell Scroll (Cantrip)|XDMG",
+   "Spell Scroll (Level 1)|XDMG",
+   "Spell Scroll (Level 2)|XDMG",
+   "Spell Scroll (Level 3)|XDMG",
+   "Spell Scroll (Level 4)|XDMG",
+   "Spell Scroll (Level 5)|XDMG",
+   "Spell Scroll (Level 6)|XDMG",
+   "Spell Scroll (Level 7)|XDMG",
+   "Spell Scroll (Level 8)|XDMG",
+   "Spell Scroll (Level 9)|XDMG"
+  ],
+  "miscTags": [
+   "CNS"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Spellwrought Tattoo",
+  "source": "TCE",
+  "page": 135,
+  "rarity": "varies",
+  "wondrous": true,
+  "tattoo": true,
+  "items": [
+   "Spellwrought Tattoo (Cantrip)|TCE",
+   "Spellwrought Tattoo (1st Level)|TCE",
+   "Spellwrought Tattoo (2nd Level)|TCE",
+   "Spellwrought Tattoo (3rd Level)|TCE",
+   "Spellwrought Tattoo (4th Level)|TCE",
+   "Spellwrought Tattoo (5th Level)|TCE"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
+  "name": "Stormgirdle",
+  "source": "EGW",
+  "page": 273,
+  "resist": [
+   "lightning",
+   "thunder"
+  ],
+  "rarity": "legendary",
+  "reqAttune": true,
+  "wondrous": true,
+  "property": [
+   "Vst|EGW"
+  ],
+  "ability": {
+   "static": {
+    "str": 21
+   }
+  },
+  "entries": [
+   "A Stormgirdle is a wide belt made of thick leather branded with the symbol of Kord. The girdle's clasps are made from dragon ivory."
+  ],
+  "items": [
+   "Stormgirdle (Dormant)|EGW",
+   "Stormgirdle (Awakened)|EGW",
+   "Stormgirdle (Exalted)|EGW"
+  ]
+ },
+ {
+  "name": "Sword of Answering",
+  "source": "DMG",
+  "page": 206,
+  "reprintedAs": [
+   {
+    "uid": "Sword of Answering|XDMG",
+    "tag": "item"
+   }
+  ],
+  "baseItem": "longsword|phb",
+  "type": "M",
+  "tier": "major",
+  "rarity": "legendary",
+  "reqAttune": true,
+  "weight": 3,
+  "weaponCategory": "martial",
+  "property": [
+   "V"
+  ],
+  "dmg1": "1d8",
+  "dmgType": "S",
+  "dmg2": "1d10",
+  "bonusWeapon": "+3",
+  "items": [
+   "Sword of Answering (Answerer)",
+   "Sword of Answering (Back Talker)",
+   "Sword of Answering (Concluder)",
+   "Sword of Answering (Last Quip)",
+   "Sword of Answering (Rebutter)",
+   "Sword of Answering (Replier)",
+   "Sword of Answering (Retorter)",
+   "Sword of Answering (Scather)",
+   "Sword of Answering (Squelcher)"
+  ],
+  "lootTables": [
+   "Magic Item Table I"
+  ]
+ },
+ {
+  "name": "The Bloody End",
+  "source": "EGW",
+  "page": 278,
+  "baseItem": "morningstar|PHB",
+  "type": "M",
+  "rarity": "artifact",
+  "reqAttune": true,
+  "sentient": true,
+  "weight": 4,
+  "weaponCategory": "martial",
+  "property": [
+   "Vst|EGW"
+  ],
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "entries": [
+   "Carrying the power of Bane, this adamantine morningstar sports foot-long spikes and has a jagged blade on its pommel."
+  ],
+  "items": [
+   "The Bloody End (Dormant)|EGW",
+   "The Bloody End (Awakened)|EGW",
+   "The Bloody End (Exalted)|EGW"
+  ],
+  "attachedSpells": {
+   "daily": {
+    "1e": [
+     "charm person",
+     "dominate person",
+     "fear"
+    ]
+   }
+  }
+ },
+ {
+  "name": "True-Ice Shards",
+  "source": "CoA",
+  "page": 275,
+  "type": "M",
+  "rarity": "artifact",
+  "reqAttune": true,
+  "bonusWeapon": "+3",
+  "bonusAc": "+3",
+  "entries": [
+   "Crafted from the very glacier in which he was imprisoned, the True-Ice Shards are a rapier and parrying dagger (main gauche) pair used by Levistus. They exemplify his time spent in the glacier, augmenting telepathy, divination, and defense. Due to his control over ice, Levistus can conjure the True-Ice Shards from anywhere, including if they were destroyed.",
+   "You gain a +3 bonus to attack and damage rolls made with the magical rapier and it does {@damage 1d8} cold damage instead of its regular damage. When using the magic dagger, you gain a +3 bonus to your AC, as long as it is used as your offhand weapon, and it does {@damage 1d6} cold damage instead of its regular damage.",
+   "Because Levistus conjures the True-Ice Shards at will, he often rewards a copy of the artifact to his most loyal followers. The copies are identical to the original with one exception: Levistus can destroy or retrieve a copy at any time.",
+   {
+    "type": "entries",
+    "name": "Random Properties",
+    "entries": [
+     "The True-Ice Shards have the following random properties:",
+     {
+      "type": "list",
+      "items": [
+       "2 {@table Artifact Properties; Major Beneficial Properties|dmg|major beneficial} properties",
+       "2 {@table Artifact Properties; Minor Detrimental Properties|dmg|minor detrimental} properties",
+       "1 {@table Artifact Properties; Major Detrimental Properties|dmg|major detrimental} property"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Sub-Zero",
+    "entries": [
+     "Cold damage dealt with the shards ignores resistances and immunities. Creatures vulnerable to cold damage take triple damage from the True-Ice Shards, rather than double.",
+     "After you damage a creature with the shards, you may use a bonus action to force the creature to make a {@dc 22} Constitution saving throw. On a failed save, the creature that took the damage becomes vulnerable to cold damage for 24 hours. Once you use this feature, you may not use it again until after you have finished a long rest."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "The Best Defense",
+    "entries": [
+     "As a reaction to being attacked, you use the rapier to increase your defense, adding +3 to your AC until the end of your next turn. If you attack with the rapier before the end of your next turn, you do not have its +3 bonus to attack and damage rolls."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Mental Command",
+    "entries": [
+     "While attuned to the True-Ice Shards, you can use an action to cast the {@spell Detect Thoughts} spell (save {@dc 20}), targeting any creature you have previously met. If the targeted creature is on a different plane of existence, the spell fails.",
+     "As long as you maintain {@status concentration}, you can use a bonus action to send a telepathic message to the focused creature. It can reply—using a bonus action to do so—as long as the focus and {@status concentration} continue."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Omniscient",
+    "entries": [
+     "You can use the True-Ice Shards to cast a variety of divination spells. {@spell Locate Animals or Plants}, {@spell Locate Creature}, and {@spell Locate Object} may be cast at will, and don't have a maximum range. Other limitations of the spells still apply, and they can't detect subjects on other planes of existence.",
+     "Additionally, you may cast {@spell Scrying} (with a spell save DC of 20) and Find the Path. Once either spell is cast, you must finish a long rest before casting either of them again."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Destroying the Shards",
+    "entries": [
+     "While Levistus still lives, destroying the True-Ice Shards serves little purpose, as he is capable of recreating them at will. That aside, the shards can be destroyed when subjected to a sufficient source of heat. A few such sources include the inside of an active volcano, a continuous source of Hellfire, or a powerful fire spell cast at 9th level."
+    ]
+   }
+  ],
+  "items": [
+   "True-Ice Shards (Rapier)|CoA",
+   "True-Ice Shards (Dagger)|CoA"
+  ],
+  "attachedSpells": {
+   "will": [
+    "detect thoughts",
+    "locate animals or plants",
+    "locate creature",
+    "locate object"
+   ],
+   "daily": {
+    "1e": [
+     "find the path",
+     "scrying"
+    ]
+   }
+  }
+ },
+ {
+  "name": "Verminshroud",
+  "source": "EGW",
+  "page": 273,
+  "rarity": "legendary",
+  "reqAttune": true,
+  "wondrous": true,
+  "property": [
+   "Vst|EGW"
+  ],
+  "entries": [
+   "This patchy cloak was pieced together from the pelts of rats found feasting on the dead in Blightshore and is dotted with the bloated corpses of magically preserved insects along its seams."
+  ],
+  "items": [
+   "Verminshroud (Dormant)|EGW",
+   "Verminshroud (Awakened)|EGW",
+   "Verminshroud (Exalted)|EGW"
+  ],
+  "attachedSpells": {
+   "daily": {
+    "1e": [
+     "insect plague",
+     "polymorph"
+    ]
+   }
+  }
+ },
+ {
+  "name": "Wand of the War Mage",
+  "source": "DMG",
+  "page": 212,
+  "srd": true,
+  "reprintedAs": [
+   "Wand of the War Mage|XDMG"
+  ],
+  "type": "WD|DMG",
+  "tier": "major",
+  "rarity": "varies",
+  "reqAttune": "by a spellcaster",
+  "reqAttuneTags": [
+   {
+    "spellcasting": true
+   }
+  ],
+  "weight": 1,
+  "items": [
+   "+1 Wand of the War Mage",
+   "+2 Wand of the War Mage",
+   "+3 Wand of the War Mage"
+  ]
+ },
+ {
+  "name": "Wand of the War Mage",
+  "source": "XDMG",
+  "page": 322,
+  "srd52": true,
+  "type": "WD|XDMG",
+  "rarity": "varies",
+  "reqAttune": "by a spellcaster",
+  "reqAttuneTags": [
+   {
+    "spellcasting": true
+   }
+  ],
+  "weight": 1,
+  "items": [
+   "+1 Wand of the War Mage|XDMG",
+   "+2 Wand of the War Mage|XDMG",
+   "+3 Wand of the War Mage|XDMG"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Will of the Talon",
+  "source": "EGW",
+  "page": 279,
+  "baseItem": "war pick|PHB",
+  "type": "M",
+  "rarity": "artifact",
+  "reqAttune": true,
+  "sentient": true,
+  "weight": 2,
+  "weaponCategory": "martial",
+  "property": [
+   "Vst|EGW"
+  ],
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "entries": [
+   "Black, blue, green, red, and white gems carved in the form of dragon heads cover this ostentatious gold war pick, marking it as a weapon channeling the power of Tiamat."
+  ],
+  "items": [
+   "Will of the Talon (Dormant)|EGW",
+   "Will of the Talon (Awakened)|EGW",
+   "Will of the Talon (Exalted)|EGW"
+  ]
+ },
+ {
+  "name": "Wraps of Unarmed Power",
+  "source": "XDMG",
+  "page": 325,
+  "rarity": "varies",
+  "wondrous": true,
+  "items": [
+   "+1 Wraps of Unarmed Power|XDMG",
+   "+2 Wraps of Unarmed Power|XDMG",
+   "+3 Wraps of Unarmed Power|XDMG"
+  ]
+ },
+ {
+  "name": "Wraps of Unarmed Prowess",
+  "source": "BMT",
+  "page": 69,
+  "reprintedAs": [
+   "Wraps of Unarmed Power|XDMG"
+  ],
+  "rarity": "uncommon",
+  "wondrous": true,
+  "items": [
+   "+1 Wraps of Unarmed Prowess|BMT",
+   "+2 Wraps of Unarmed Prowess|BMT",
+   "+3 Wraps of Unarmed Prowess|BMT"
+  ]
+ },
+ {
+  "name": "Wreath of the Prism",
+  "source": "EGW",
+  "page": 274,
+  "rarity": "legendary",
+  "reqAttune": true,
+  "wondrous": true,
+  "property": [
+   "Vst|EGW"
+  ],
+  "entries": [
+   "This loop of golden thorns is inset with dozens of gems representing the five colors of Tiamat."
+  ],
+  "items": [
+   "Wreath of the Prism (Dormant)|EGW",
+   "Wreath of the Prism (Awakened)|EGW",
+   "Wreath of the Prism (Exalted)|EGW"
+  ],
+  "attachedSpells": {
+   "other": [
+    "dominate monster"
+   ]
+  },
+  "hasFluffImages": true
+ }
+]

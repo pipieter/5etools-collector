@@ -155,3 +155,8 @@ export interface Item extends Base, SRD {
   reach?: number;
   currencyConversion?: string;
 }
+
+export interface ItemGroup extends Item {
+  items: string[];
+  itemsHidden?: boolean;
+}
