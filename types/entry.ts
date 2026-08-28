@@ -13,7 +13,8 @@ export type Entry =
   | EntryStatBlock
   | EntryAbilityGeneric
   | EntryActions
-  | EntryAttack;
+  | EntryAttack
+  | EntryTableGroup;
 
 export interface EntryBase {
   id?: string;
@@ -50,6 +51,7 @@ export interface EntryTableGroup extends EntryBase {
   type: 'tableGroup';
   caption?: string;
   tables: EntryTable[];
+  data?: any;
 }
 
 export interface EntryTable extends EntryBase {
@@ -99,6 +101,7 @@ export interface EntryQuote extends EntryBase {
   by?: string;
   from?: string;
   skipMarks?: boolean;
+  style?: string;
 }
 
 export interface EntryImage {

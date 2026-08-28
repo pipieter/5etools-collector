@@ -155,6 +155,7 @@ function officialCollector(): Collector {
   collector.addFile('vehicles.json');
 
   collector.addIndex('class', 'index.json');
+  collector.addIndex('class', 'fluff-index.json');
   collector.addIndex('bestiary', 'index.json');
   collector.addIndex('bestiary', 'fluff-index.json');
   collector.addIndex('spells', 'index.json');
@@ -199,6 +200,7 @@ function main() {
     collector.write('backgrounds', 'background');
     collector.write('background-fluffs', 'backgroundFluff');
     collector.write('boons', 'boon');
+    collector.write('class-fluffs', 'classFluff');
     collector.write('conditions', 'condition');
     collector.write('condition-fluffs', 'conditionFluff');
     collector.write('cults', 'cult');

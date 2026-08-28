@@ -105,6 +105,7 @@ check('backgrounds', asserts.background);
 check('background-fluffs', asserts.fluff);
 check('boons', asserts.boon);
 check('classes', asserts.class);
+check('class-fluffs', asserts.fluff);
 check('conditions', asserts.condition);
 check('condition-fluffs', asserts.fluff);
 check('cults', asserts.cult);
