@@ -107,35 +107,41 @@ export type MaterialComponent =
       consume?: boolean | 'optional';
     };
 
-export type SkillProficiency = {
-  any?: number;
-  anyProficientSkill?: number;
-  choose?: Choose;
-} & Record<string, boolean>;
-
 export interface SavingThrowProficiency {
   choose?: Choose;
 }
 
-export type ToolProficiency = {
+interface internalSkillProficiency {
+  any?: number;
+  anyProficientSkill?: number;
+  choose?: Choose;
+}
+
+interface internalToolProficiency {
   any?: number;
   anyArtisansTool?: number;
   anyProficientTool?: number;
   anyGamingSet?: number;
   anyMusicalInstrument?: number;
   choose?: Choose;
-} & Record<string, boolean>;
+}
 
-export type LanguageProficiency = {
+interface internalLanguageProficiency {
   any?: number;
   anyStandard?: number;
   choose?: Choose;
-} & Record<string, boolean>;
+}
+
+export type SkillProficiency = internalSkillProficiency & Record<string, boolean>;
+export type ToolProficiency = internalToolProficiency & Record<string, boolean>;
+export type LanguageProficiency = internalLanguageProficiency & Record<string, boolean>;
 
 export interface SkillToolLanguageProficiency {
   choose?: Choose[];
   anyLanguage?: number;
   anyTool?: number;
+  anyProficientTool?: number;
+  anyProficientSkill?: number;
 }
 
 export interface WeaponProficiency {
@@ -325,7 +331,7 @@ export interface Die {
   faces: number;
 }
 
-export interface ClassFeature {
+export interface ClassInternalFeature {
   classFeature: string;
   gainSubclassFeature?: boolean;
   tableDisplayName?: string;

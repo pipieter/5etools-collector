@@ -200,6 +200,7 @@ function main() {
     collector.write('backgrounds', 'background');
     collector.write('background-fluffs', 'backgroundFluff');
     collector.write('boons', 'boon');
+    collector.write('class-features', 'classFeature');
     collector.write('class-fluffs', 'classFluff');
     collector.write('conditions', 'condition');
     collector.write('condition-fluffs', 'conditionFluff');

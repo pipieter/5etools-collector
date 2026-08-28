@@ -9,12 +9,16 @@ export type Entry =
   | EntryQuote
   | EntryImage
   | EntryOptions
+  | EntryRefClassFeature
+  | EntryRefFeat
   | EntryRefOptionalFeature
   | EntryStatBlock
   | EntryAbilityGeneric
   | EntryActions
   | EntryAttack
-  | EntryTableGroup;
+  | EntryTableGroup
+  | EntryAbilityDc
+  | EntryAbilityAttackMod;
 
 export interface EntryBase {
   id?: string;
@@ -44,6 +48,7 @@ export interface EntrySection extends EntryBase {
 
 export interface EntryInset extends EntryBase {
   type: 'inset' | 'insetReadaloud';
+  style?: string;
   entries: Entry[];
 }
 
@@ -117,12 +122,14 @@ export interface EntryImage {
 
 export interface EntryOptions {
   type: 'options';
+  count?: number;
   entries: Entry[];
 }
 
 export interface EntryRefOptionalFeature {
   type: 'refOptionalfeature';
   optionalfeature: string;
+  preserve?: { prerequisite?: boolean; consumes?: boolean };
 }
 
 export interface EntryStatBlock extends EntryBase {
@@ -147,6 +154,28 @@ export interface EntryAttack extends EntryBase {
   attackType: string;
   attackEntries: Entry[];
   hitEntries: Entry[];
+}
+
+export interface EntryRefClassFeature {
+  type: 'refClassFeature';
+  classFeature: string;
+}
+
+export interface EntryRefFeat {
+  type: 'refFeat';
+  feat: string;
+}
+
+export interface EntryAbilityDc {
+  type: 'abilityDc';
+  name: string;
+  attributes: string[];
+}
+
+export interface EntryAbilityAttackMod {
+  type: 'abilityAttackMod';
+  name: string;
+  attributes: string[];
 }
 
 export interface SingleEntry {

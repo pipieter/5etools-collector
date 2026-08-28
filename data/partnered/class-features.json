@@ -1,0 +1,4224 @@
+[
+ {
+  "name": "Ability Score Improvement",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 4,
+  "entries": [
+   "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Kindred levels 8, 12, and 16."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 8,
+  "entries": [
+   "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 12,
+  "entries": [
+   "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 16,
+  "entries": [
+   "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "GrimHollowPG24",
+  "page": 53,
+  "className": "Monster Hunter",
+  "classSource": "GrimHollowPG24",
+  "level": 4,
+  "entries": [
+   "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Monster Hunter levels 8, 12, and 16."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "GrimHollowPG24",
+  "page": 53,
+  "className": "Monster Hunter",
+  "classSource": "GrimHollowPG24",
+  "level": 8,
+  "entries": [
+   "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "GrimHollowPG24",
+  "page": 53,
+  "className": "Monster Hunter",
+  "classSource": "GrimHollowPG24",
+  "level": 12,
+  "entries": [
+   "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "GrimHollowPG24",
+  "page": 53,
+  "className": "Monster Hunter",
+  "classSource": "GrimHollowPG24",
+  "level": 16,
+  "entries": [
+   "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 4,
+  "entries": [
+   "When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 8,
+  "entries": [
+   "When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1 As normal, you can't increase an ability score above 20 using this feature."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 12,
+  "entries": [
+   "When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 16,
+  "entries": [
+   "When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1 As normal, you can't increase an ability score above 20 using this feature."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 19,
+  "entries": [
+   "When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 4,
+  "entries": [
+   "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+   "Using the optional feats rule, you can forgo taking this feature to take a {@5etools feat|feats.html} of your choice instead."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 8,
+  "entries": [
+   "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+   "Using the optional feats rule, you can forgo taking this feature to take a {@5etools feat|feats.html} of your choice instead."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 12,
+  "entries": [
+   "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+   "Using the optional feats rule, you can forgo taking this feature to take a {@5etools feat|feats.html} of your choice instead."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 16,
+  "entries": [
+   "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+   "Using the optional feats rule, you can forgo taking this feature to take a {@5etools feat|feats.html} of your choice instead."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 19,
+  "entries": [
+   "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+   "Using the optional feats rule, you can forgo taking this feature to take a {@5etools feat|feats.html} of your choice instead."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 4,
+  "entries": [
+   "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 8,
+  "entries": [
+   "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 12,
+  "entries": [
+   "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 16,
+  "entries": [
+   "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 4,
+  "entries": [
+   "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 8,
+  "entries": [
+   "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 12,
+  "entries": [
+   "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 16,
+  "entries": [
+   "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Alpha Strike",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 6,
+  "entries": [
+   "While summoning a companion, your psychic connection is at its closest, allowing you to quickly relay your intent As part of the action to summon a companion, you can command it to take an action in its stat block or some other action, which it does so on its turn. You can use this feature a number of times equal to your tamer spellcasting ability modifier (a minimum of once). You regain all expended uses of this feature when you finish a long rest."
+  ]
+ },
+ {
+  "name": "Ancient Awakening",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 20,
+  "entries": [
+   "The essence of the original vampiric Antediluvians has awoken in you. Pick four Ability Scores. Increase each chosen Ability Score by 2, to a maximum of 25.",
+   "If a Kindred subclass feature allows for an Ability Score to be increased beyond 25, Ancient Awakening can increase that Ability Score up to the maximum noted in that other feature."
+  ]
+ },
+ {
+  "name": "Aura of Courage",
+  "source": "TLotRR",
+  "page": 46,
+  "className": "Captain",
+  "classSource": "TLotRR",
+  "level": 10,
+  "entries": [
+   "At 10th level, you and friendly creatures within 10 feet of you cannot be {@condition frightened} while you are conscious (but can still accumulate {@book Shadow points|TLotRR|7|Shadow Points} from Dread)."
+  ]
+ },
+ {
+  "name": "Aura of Valour",
+  "source": "TLotRR",
+  "page": 46,
+  "className": "Captain",
+  "classSource": "TLotRR",
+  "level": 6,
+  "entries": [
+   "Starting at 6th level, whenever you or a friendly creature within 10 feet of you hit a target with a melee weapon attack, the creature can add your Charisma modifier to the damage roll. You cannot grant this bonus if you are {@condition frightened} or {@condition unconscious}."
+  ]
+ },
+ {
+  "name": "Baleful Interdict",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 1,
+  "entries": [
+   "You gain the ability to censure creatures with the power of Hell. Once on your turn, you can place a magical seal on a creature within 30 feet of you. You can either place this seal when you hit that target with a weapon attack (no action required), or you can use a bonus action to place this seal on a target you can see within range. This seal lasts for 1 minute or until burned (see \"Burning Seals\" below). A creature with one or more of your seals is referred to as an interdicted creature. Seals you place are {@condition invisible} to other creatures, and when you can see an interdicted creature, the seals appear to you as glowing glyphs on the creature's body.",
+   "You can only place a limited number of seals before resting, and you regain all seals when you finish a short or long rest. The number of seals you can place increases as you gain illrigger levels, as indicated in the Seals column of the Illrigger table.",
+   "If an interdicted creature dies, you can use a bonus action on your turn to move all seals placed on them to a new creature you can see within 30 feet of them. Each seal's duration continues to elapse when an interdicted creature dies and when that seal is moved to a new creature.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Burning Seals",
+      "entries": [
+       "When an interdicted creature you can see within 30 feet of you takes damage from any source other than a seal burned by an illrigger, you can burn any number of seals you placed on them to deal {@damage 1d6} fire or necrotic damage (your choice) to that creature per seal burned. You deal this damage immediately after the triggering damage. Burning a seal doesn't require an action from you, but you can't do so while {@condition incapacitated}. Once a seal is burned, it immediately vanishes.",
+       "Once you reach 5th level in this class, your connection to your archdevil strengthens. Each burned seal deals an extra {@damage 1d6} damage, for a total of {@dice 2d6}. The damage of each seal increases again by {@dice 1d6} when you reach 11th level (for a total of {@dice 3d6}) and 20th level (for a total of {@dice 4d6}) in this class, as indicated in the Seal Damage column of the Illrigger table."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Interdict Save",
+      "entries": [
+       "Class features you gain later can add additional effects to your Baleful Interdict and require your target to make a saving throw to resist them. The saving throw DC for these effects uses your interdict save DC, which is calculated as follows:",
+       {
+        "type": "abilityDc",
+        "name": "Interdict",
+        "attributes": [
+         "cha"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Bestial Fury",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 5,
+  "entries": [
+   "Once per turn when you hit a target with a Melee weapon or {@variantrule Unarmed Strike|XPHB}, you can expend 2 uses of your {@classFeature The Beast|Kindred|BoundByBlood|1||Beast} feature to roll the weapon's damage dice twice and use either roll against the target. If this damage reduces it to 0 {@variantrule Hit Points|XPHB}, you can't choose to leave the creature at 1 {@variantrule Hit Points|XPHB|Hit Point} as per the \"{@variantrule Knocking Out a Creature|XPHB}\" rule.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Bestial Flurry",
+      "entries": [
+       "While affected by your {@classFeature The Beast|Kindred|BoundByBlood|1||Beast} feature, you can attack twice instead of once whenever you take the {@action Attack|XPHB} action on your turn."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Blood Potency",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 1,
+  "entries": [
+   "You are fueled by blood, represented by Blood Points. Your Kindred level determines the number of points you have, as shown in the Blood Points column of the Kindred Features table. You can expend Blood Points in the following ways:",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Heal Wounds",
+      "entries": [
+       "As a {@variantrule Bonus Action|XPHB}, you can expend 1 Blood Point to regain {@variantrule Hit Points|XPHB} equal to {@dice 1d10} plus your Kindred level."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Hunger Sated",
+      "entries": [
+       "If you fail a {@variantrule D20 Test|XPHB} that is affected by your Beast feature, you can expend 1 Blood Point to ignore the effects of {@classFeature The Beast|Kindred|BoundByBlood|1||Hunger}."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Vitae Powers",
+      "entries": [
+       "There are {@filter Kindred feats|feats|category=kf} and subclass features fueled by expending Blood Points."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Blood Price",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 10,
+  "entries": [
+   "You can strengthen your defenses at the cost of your vitality. Whenever you fail a saving throw, you can spend one of your Hit Dice, rolling it and adding the number rolled to the result of the save."
+  ]
+ },
+ {
+  "name": "Bloodied But Unbowed",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 2,
+  "entries": [
+   "When you take damage, you can take a {@variantrule Reaction|XPHB} to regain all your expended {@classFeature Moxie|Pugilist|Pugilist2024|2|Pugilist2024|Moxie Points}. If you are {@status Bloodied|XPHB} when you take this {@variantrule Reaction|XPHB}, you also gain {@variantrule Temporary Hit Points|XPHB} equal to four times your Pugilist level. These {@variantrule Temporary Hit Points|XPHB} vanish if any remain when you finish a {@variantrule Short Rest|XPHB}.",
+   "Once you use this feature, you can't use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
+  "name": "Bolster",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 2,
+  "entries": [
+   "While your companion is within 100 feet of you and you are holding its vessel, or if you are holding its vessel with it inside, you can use an action to expend one spell slot to restore hit points to your companion equal to your spellcasting ability modifier (minimum 1) plus an additional {@damage 2d4} per level of the spell slot expended."
+  ]
+ },
+ {
+  "name": "Captain Title",
+  "source": "TLotRR",
+  "page": 46,
+  "className": "Captain",
+  "classSource": "TLotRR",
+  "level": 3,
+  "entries": [
+   "At 3rd level, you receive a title as a reward for your accomplishments. Choose {@subclass Chieftain|Captain|TLotRR|TLotRR} or {@subclass Thane|Captain|TLotRR|TLotRR}, both detailed at the end of the calling description. The title you choose grants you features at 3rd level and again at 7th level."
+  ]
+ },
+ {
+  "name": "Captain Title feature",
+  "source": "TLotRR",
+  "page": 46,
+  "className": "Captain",
+  "classSource": "TLotRR",
+  "level": 7,
+  "entries": [
+   "At 7th level, you gain a feature granted by your Captain Title feature."
+  ]
+ },
+ {
+  "name": "Champion Way",
+  "source": "TLotRR",
+  "page": 49,
+  "className": "Champion",
+  "classSource": "TLotRR",
+  "level": 3,
+  "entries": [
+   "At 3rd level, you choose a way that you strive to follow in your combat styles and techniques. Choose {@subclass Sharp-Shooter|Champion|TLotRR|TLotRR} or {@subclass Slayer|Champion|TLotRR|TLotRR}, both detailed at the end of the calling description. The way you choose grants you features at 3rd level and again at 7th level."
+  ]
+ },
+ {
+  "name": "Champion Way feature",
+  "source": "TLotRR",
+  "page": 49,
+  "className": "Champion",
+  "classSource": "TLotRR",
+  "level": 7,
+  "entries": [
+   "At 7th level, you gain a feature granted by your Champion Way feature."
+  ]
+ },
+ {
+  "name": "Cheat Death",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 13,
+  "entries": [
+   "When you are reduced to 0 {@variantrule Hit Points|XPHB} and not killed outright, you can drop to 1 {@variantrule Hit Points|XPHB|Hit Point} instead, and you regain a number of {@variantrule Hit Points|XPHB} equal to your Gunslinger level.",
+   "Once you use this feature, you can't use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
+  "name": "Combat Mastery",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 2,
+  "entries": [
+   "Your archdevil grants you uncanny skill in a certain form of combat. Choose one of the following {@filter illrigger combat masteries|optionalfeatures|feature type=IllMastery}.",
+   {
+    "type": "options",
+    "count": 1,
+    "entries": [
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Bravado|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Brutal|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Inexorable|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Lies|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Lissome|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Unfettered|IllriggerRevised"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Craft or Virtue",
+  "source": "TLotRR",
+  "page": 46,
+  "className": "Captain",
+  "classSource": "TLotRR",
+  "level": 2,
+  "entries": [
+   "At 2nd level, and again at 4th, 6th, 8th, and 10th level, you can take a common or cultural virtue of your choice (see {@book Chapter 4|TLotRR|3|Virtues}). You can take each virtue only once. As normal, you cannot increase an ability score above 20 using this feature.",
+   "At 2nd, 6th, and 10th level, instead of taking a virtue you can gain a craft slot and a craft of your choice from the Scholar's Crafts list (see {@book Crafts|TLotRR|2|Crafts})."
+  ]
+ },
+ {
+  "name": "Craft or Virtue",
+  "source": "TLotRR",
+  "page": 46,
+  "className": "Captain",
+  "classSource": "TLotRR",
+  "level": 6,
+  "entries": [
+   "At 6th level, you can take a common or cultural virtue of your choice (see {@book Chapter 4|TLotRR|3|Virtues}). You can take each virtue only once. As normal, you cannot increase an ability score above 20 using this feature.",
+   "At 6th level, instead of taking a virtue you can gain a craft slot and a craft of your choice from the Scholar's Crafts list (see {@book Crafts|TLotRR|2|Crafts})."
+  ]
+ },
+ {
+  "name": "Craft or Virtue",
+  "source": "TLotRR",
+  "page": 46,
+  "className": "Captain",
+  "classSource": "TLotRR",
+  "level": 10,
+  "entries": [
+   "At 10th level, you can take a common or cultural virtue of your choice (see {@book Chapter 4|TLotRR|3|Virtues}). You can take each virtue only once. As normal, you cannot increase an ability score above 20 using this feature.",
+   "At 10th level, instead of taking a virtue you can gain a craft slot and a craft of your choice from the Scholar's Crafts list (see {@book Crafts|TLotRR|2|Crafts})."
+  ]
+ },
+ {
+  "name": "Craft or Virtue",
+  "source": "TLotRR",
+  "page": 49,
+  "className": "Champion",
+  "classSource": "TLotRR",
+  "level": 2,
+  "entries": [
+   "At 2nd level, and again at 4th, 6th, and 8th level, you can take a common or cultural virtue of your choice (see {@book Chapter 4|TLotRR|3|Virtues}). You can take each virtue only once. As normal, you cannot increase an ability score above 20 using this feature.",
+   "At 2nd, 6th, and 10th level, instead of taking a virtue you can gain a craft slot and a craft of your choice from the Scholar's Crafts list (see {@book Crafts|TLotRR|2|Crafts})."
+  ]
+ },
+ {
+  "name": "Craft or Virtue",
+  "source": "TLotRR",
+  "page": 49,
+  "className": "Champion",
+  "classSource": "TLotRR",
+  "level": 6,
+  "entries": [
+   "At 6th level, you can take a common or cultural virtue of your choice (see {@book Chapter 4|TLotRR|3|Virtues}). You can take each virtue only once. As normal, you cannot increase an ability score above 20 using this feature.",
+   "At 6th level, instead of taking a virtue you can gain a craft slot and a craft of your choice from the Scholar's Crafts list (see {@book Crafts|TLotRR|2|Crafts})."
+  ]
+ },
+ {
+  "name": "Craft or Virtue",
+  "source": "TLotRR",
+  "page": 52,
+  "className": "Messenger",
+  "classSource": "TLotRR",
+  "level": 2,
+  "entries": [
+   "At 2nd level, and again at 4th, 6th, 8th, and 10th level, you can take a {@book common or cultural virtue|TLotRR|3|Virtues} of your choice. You can take each virtue only once. As normal, you cannot increase an ability score above 20 using this feature.",
+   "At 2nd, 6th, and 10th level, instead of taking a virtue you can gain a craft slot and a craft of your choice from the Scholar's Crafts list (see {@book Crafts|TLotRR|2|Crafts})."
+  ]
+ },
+ {
+  "name": "Craft or Virtue",
+  "source": "TLotRR",
+  "page": 52,
+  "className": "Messenger",
+  "classSource": "TLotRR",
+  "level": 6,
+  "entries": [
+   "At 6th level, you can take a common or cultural virtue of your choice (see {@book Chapter 4|TLotRR|3|Virtues}). You can take each virtue only once. As normal, you cannot increase an ability score above 20 using this feature.",
+   "At 6th level, instead of taking a virtue you can gain a craft slot and a craft of your choice from the Scholar's Crafts list (see {@book Crafts|TLotRR|2|Crafts})."
+  ]
+ },
+ {
+  "name": "Craft or Virtue",
+  "source": "TLotRR",
+  "page": 52,
+  "className": "Messenger",
+  "classSource": "TLotRR",
+  "level": 10,
+  "entries": [
+   "At 10th level, you can take a common or cultural virtue of your choice (see {@book Chapter 4|TLotRR|3|Virtues}). You can take each virtue only once. As normal, you cannot increase an ability score above 20 using this feature.",
+   "At 10th level, instead of taking a virtue you can gain a craft slot and a craft of your choice from the Scholar's Crafts list (see {@book Crafts|TLotRR|2|Crafts})."
+  ]
+ },
+ {
+  "name": "Craft or Virtue",
+  "source": "TLotRR",
+  "page": 58,
+  "className": "Treasure Hunter",
+  "classSource": "TLotRR",
+  "level": 6,
+  "entries": [
+   "At 6th level, you can take a {@book common or cultural virtue|TLotRR|3|Virtues} of your choice. You can take each virtue only once. As normal, you cannot increase an ability score above 20 using this feature.",
+   "At 6th level, instead of taking a virtue you can gain a craft slot and a craft of your choice from the Scholar's Crafts list (see {@book Crafts|TLotRR|2|Crafts})."
+  ]
+ },
+ {
+  "name": "Craft or Virtue",
+  "source": "TLotRR",
+  "page": 61,
+  "className": "Warden",
+  "classSource": "TLotRR",
+  "level": 2,
+  "entries": [
+   "Also at 2nd level, and again at 4th, 6th, 8th, and 10th level, you can take a {@book common or cultural virtue|TLotRR|3|Virtues} of your choice. You can take each virtue only once. As normal, you cannot increase an ability score above 20 using this feature.",
+   "At 2nd, 6th, and 10th level, instead of taking a virtue you can gain a craft slot and a craft of your choice from the Scholar's Crafts list (see {@book Crafts|TLotRR|2|Crafts})."
+  ]
+ },
+ {
+  "name": "Craft or Virtue",
+  "source": "TLotRR",
+  "page": 61,
+  "className": "Warden",
+  "classSource": "TLotRR",
+  "level": 6,
+  "entries": [
+   "At 6th level, you can take a {@book common or cultural virtue|TLotRR|3|Virtues} of your choice. You can take each virtue only once. As normal, you cannot increase an ability score above 20 using this feature.",
+   "At 6th level, instead of taking a virtue you can gain a craft slot and a craft of your choice from the Scholar's Crafts list (see {@book Crafts|TLotRR|2|Crafts})."
+  ]
+ },
+ {
+  "name": "Craft or Virtue",
+  "source": "TLotRR",
+  "page": 61,
+  "className": "Warden",
+  "classSource": "TLotRR",
+  "level": 10,
+  "entries": [
+   "At 10th level, you can take a {@book common or cultural virtue|TLotRR|3|Virtues} of your choice. You can take each virtue only once. As normal, you cannot increase an ability score above 20 using this feature.",
+   "At 10th level, instead of taking a virtue you can gain a craft slot and a craft of your choice from the Scholar's Crafts list (see {@book Crafts|TLotRR|2|Crafts})."
+  ]
+ },
+ {
+  "name": "Crafts",
+  "source": "TLotRR",
+  "page": 55,
+  "className": "Scholar",
+  "classSource": "TLotRR",
+  "level": 1,
+  "entries": [
+   "You have learned techniques that have been passed down along the generations. These crafts do not translate into mere skill but represent obscure branches of knowledge, forgotten by most and seeming almost magical to uneducated eyes.",
+   {
+    "type": "list",
+    "style": "list-hang-notitle",
+    "items": [
+     {
+      "type": "item",
+      "name": "Craft Slots:",
+      "entry": "The Scholar table shows how many slots you have to use your crafts. To use one of your crafts, you must expend a craft slot. You regain all expended craft slots when you finish a short or long rest."
+     },
+     {
+      "type": "item",
+      "name": "Known Crafts:",
+      "entry": "You know a craft of your choice from the {@book \"Crafts\"|TLotRR|2|Crafts} list, at the end of this chapter. Each time you gain a new craft slot, you also learn another craft of your choice."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Critical Shot",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 2,
+  "entries": [
+   "Your attack rolls with Ranged weapons can score a {@variantrule Critical Hit|XPHB} on a roll of 19 or 20 on the {@dice d20}.",
+   "At Gunslinger level 9, your attack rolls with Ranged weapons score a {@variantrule Critical Hit|XPHB} on a roll of 18-20. At Gunslinger level 17, they score a {@variantrule Critical Hit|XPHB} on a roll of 17-20."
+  ]
+ },
+ {
+  "name": "Critical Shot",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 9,
+  "entries": [
+   "Your attack rolls with Ranged weapons can score a {@variantrule Critical Hit|XPHB} on a roll of 18, 19, or 20 on the {@dice d20}."
+  ]
+ },
+ {
+  "name": "Critical Shot",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 17,
+  "entries": [
+   "Your attack rolls with Ranged weapons can score a {@variantrule Critical Hit|XPHB} on a roll of 17-20 on the {@dice d20}."
+  ]
+ },
+ {
+  "name": "Cunning Action",
+  "source": "TLotRR",
+  "page": 58,
+  "className": "Treasure Hunter",
+  "classSource": "TLotRR",
+  "level": 2,
+  "entries": [
+   "Starting at 2nd level, you can take a bonus action on each of your turns in combat. This action can be used only to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+  ]
+ },
+ {
+  "name": "Cunning Mind",
+  "source": "TLotRR",
+  "page": 55,
+  "className": "Scholar",
+  "classSource": "TLotRR",
+  "level": 2,
+  "entries": [
+   "Starting at 2nd level, you can take a bonus action on each of your turns in combat. This action can be used only to make an Intelligence or Wisdom check, or to take the {@action Stabilize a Creature||Help} action."
+  ]
+ },
+ {
+  "name": "Deft Maneuver",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 18,
+  "entries": [
+   "You gain a special additional {@variantrule Bonus Action|XPHB} that you can take once on each of your turns. You can take this special {@variantrule Bonus Action|XPHB} only to use a maneuver."
+  ]
+ },
+ {
+  "name": "Diabolic Contract",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 3,
+  "entries": [
+   "You sign a diabolic contract with an archdevil who welcomes you into the Order of Desolation. Choose between the Architect of Ruin (Asmodeus), Hellspeaker (Moloch), Painkiller (Dispater), Sanguine Knight (Sutekh), or Shadowmaster (Belial) as your archdevil. Each of these subclasses is detailed after the class's description. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
+  ]
+ },
+ {
+  "name": "Diabolic Contract feature",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 7,
+  "entries": [
+   "You sign a diabolic contract with an archdevil who welcomes you into the Order of Desolation. Choose between the Architect of Ruin (Asmodeus), Hellspeaker (Moloch), Painkiller (Dispater), Sanguine Knight (Sutekh), or Shadowmaster (Belial) as your archdevil. Each of these subclasses is detailed after the class's description. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
+  ]
+ },
+ {
+  "name": "Diabolic Contract feature",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 11,
+  "entries": [
+   "You sign a diabolic contract with an archdevil who welcomes you into the Order of Desolation. Choose between the Architect of Ruin (Asmodeus), Hellspeaker (Moloch), Painkiller (Dispater), Sanguine Knight (Sutekh), or Shadowmaster (Belial) as your archdevil. Each of these subclasses is detailed after the class's description. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
+  ]
+ },
+ {
+  "name": "Diabolic Contract feature",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 15,
+  "entries": [
+   "You sign a diabolic contract with an archdevil who welcomes you into the Order of Desolation. Choose between the Architect of Ruin (Asmodeus), Hellspeaker (Moloch), Painkiller (Dispater), Sanguine Knight (Sutekh), or Shadowmaster (Belial) as your archdevil. Each of these subclasses is detailed after the class's description. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
+  ]
+ },
+ {
+  "name": "Dig Deep",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 4,
+  "entries": [
+   "You can use a {@variantrule Bonus Action|XPHB} to dig deep. For 10 minutes, you have {@variantrule Resistance|XPHB} to Bludgeoning, Piercing, and Slashing damage and you ignore the effects of {@condition Exhaustion|XPHB} levels less than 6.",
+   "Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB} unless you gain 1 {@condition Exhaustion|XPHB} level (no action required by you) to restore your use of it."
+  ]
+ },
+ {
+  "name": "Dig Deeper",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 13,
+  "entries": [
+   "You can use a {@variantrule Bonus Action|XPHB} to dig deeper. For 1 minute, you have all the benefits of your {@classFeature Dig Deep|Pugilist|Pugilist2024|4|Pugilist2024} and can use your {@classFeature School of Hard Knocks|Pugilist|Pugilist2024|9|Pugilist2024} twice per turn instead of once.",
+   "Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. Starting at level 20, you can use it twice before a {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
+  "name": "Dire Gambit",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 15,
+  "entries": [
+   "Whenever you roll {@variantrule Initiative|XPHB} or score a {@variantrule Critical Hit|XPHB}, you regain one expended {@classFeature Risk|Gunslinger|ValdaGunslinger|2|ValdaGunslinger|Risk Die}."
+  ]
+ },
+ {
+  "name": "Down But Not Out",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 7,
+  "entries": [
+   "When you use your {@classFeature Bloodied But Unbowed|Pugilist|Pugilist2024|2} while you are {@status Bloodied|XPHB}, you can add a bonus to the damage of your {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} and attacks with Pugilist weapons for the next minute. This bonus equals your Constitution modifier plus the number of levels of {@condition Exhaustion|XPHB} you have.",
+   "Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
+  "name": "Efficient Feeding",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 14,
+  "entries": [
+   "Whenever you roll a die for your {@classFeature Feed|Kindred|BoundByBlood|1} feature, you can reroll the die, and you must use the new roll."
+  ]
+ },
+ {
+  "name": "Epic Boon",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 19,
+  "entries": [
+   "You gain an {@filter Epic Boon feat|feats|category=EB} or another feat of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Epic Boon",
+  "source": "GrimHollowPG24",
+  "page": 53,
+  "className": "Monster Hunter",
+  "classSource": "GrimHollowPG24",
+  "level": 19,
+  "entries": [
+   "You gain an {@filter Epic Boon feat|feats|category=EB} or another feat of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Epic Boon",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 19,
+  "entries": [
+   "You gain an {@filter Epic Boon feat|feats|category=EB} or another feat of your choice for which you qualify. {@feat Boon of Combat Prowess|XPHB} is recommended."
+  ]
+ },
+ {
+  "name": "Epic Boon",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 19,
+  "entries": [
+   "You gain an {@filter Epic Boon feat|feats|category=EB} or another feat of your choice for which you qualify. {@feat Boon of Irresistible Offense|XPHB} is recommended."
+  ]
+ },
+ {
+  "name": "Errand Runner",
+  "source": "TLotRR",
+  "page": 52,
+  "className": "Messenger",
+  "classSource": "TLotRR",
+  "level": 3,
+  "entries": [
+   "By 3rd level, the many errands you've borne during your travels have made you proficient in a little bit of everything. You can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus."
+  ]
+ },
+ {
+  "name": "Evasion",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 7,
+  "entries": [
+   "When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail.",
+   "You don't benefit from this feature if you have the {@condition Incapacitated|XPHB} condition."
+  ]
+ },
+ {
+  "name": "Expert Strike",
+  "source": "GrimHollowPG24",
+  "page": 53,
+  "className": "Monster Hunter",
+  "classSource": "GrimHollowPG24",
+  "level": 5,
+  "entries": [
+   "You learn the weaknesses of monsters so that you know exactly where to strike to inflict the most damage. You can add your Intelligence modifier to the attack and damage rolls of your weapons and {@variantrule Unarmed Strike|XPHB|Unarmed Strikes}."
+  ]
+ },
+ {
+  "name": "Expertise",
+  "source": "TLotRR",
+  "page": 55,
+  "className": "Scholar",
+  "classSource": "TLotRR",
+  "level": 3,
+  "expertise": [
+   {
+    "anyProficientSkill": 2
+   },
+   {
+    "anyProficientTool": 2
+   },
+   {
+    "anyProficientSkill": 1,
+    "anyProficientTool": 1
+   }
+  ],
+  "entries": [
+   "At 3rd level, choose any combination of two of your skill and tool proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
+   "At 10th level, you can choose another two proficiencies (in skills or with tools) to gain this benefit."
+  ]
+ },
+ {
+  "name": "Expertise",
+  "source": "TLotRR",
+  "page": 55,
+  "className": "Scholar",
+  "classSource": "TLotRR",
+  "level": 10,
+  "expertise": [
+   {
+    "anyProficientSkill": 2
+   },
+   {
+    "anyProficientTool": 2
+   },
+   {
+    "anyProficientSkill": 1,
+    "anyProficientTool": 1
+   }
+  ],
+  "entries": [
+   "At 10th level, you can choose another two proficiencies (in skills or with tools) to gain this benefit."
+  ]
+ },
+ {
+  "name": "Expertise",
+  "source": "TLotRR",
+  "page": 58,
+  "className": "Treasure Hunter",
+  "classSource": "TLotRR",
+  "level": 1,
+  "expertise": [
+   {
+    "anyProficientSkill": 2
+   },
+   {
+    "anyProficientTool": 2
+   },
+   {
+    "anyProficientSkill": 1,
+    "anyProficientTool": 1
+   }
+  ],
+  "entries": [
+   "At 1st level, choose any combination of two of your skill and tool proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
+   "At 9th level, you can choose another two proficiencies (in skills or with tools) to gain this benefit."
+  ]
+ },
+ {
+  "name": "Expertise",
+  "source": "TLotRR",
+  "page": 59,
+  "className": "Treasure Hunter",
+  "classSource": "TLotRR",
+  "level": 9,
+  "expertise": [
+   {
+    "anyProficientSkill": 2
+   },
+   {
+    "anyProficientTool": 2
+   },
+   {
+    "anyProficientSkill": 1,
+    "anyProficientTool": 1
+   }
+  ],
+  "entries": [
+   "At 9th level, you can choose another two proficiencies (in skills or with tools) to gain this benefit."
+  ]
+ },
+ {
+  "name": "Extra Attack (2)",
+  "source": "TLotRR",
+  "page": 49,
+  "className": "Champion",
+  "classSource": "TLotRR",
+  "level": 10,
+  "entries": [
+   "At 10th level, you can attack three times whenever you take the {@action Attack} action on your turn."
+  ]
+ },
+ {
+  "name": "Extra Attack",
+  "source": "GrimHollowPG24",
+  "page": 53,
+  "className": "Monster Hunter",
+  "classSource": "GrimHollowPG24",
+  "level": 11,
+  "entries": [
+   "You can attack twice instead of once whenever you take the {@action Attack|XPHB} action on your turn."
+  ]
+ },
+ {
+  "name": "Extra Attack",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 5,
+  "entries": [
+   "You can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
+  ]
+ },
+ {
+  "name": "Extra Attack",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 5,
+  "entries": [
+   "You can attack twice instead of once whenever you take the {@action Attack|XPHB} action on your turn."
+  ]
+ },
+ {
+  "name": "Extra Attack",
+  "source": "TLotRR",
+  "page": 46,
+  "className": "Captain",
+  "classSource": "TLotRR",
+  "level": 5,
+  "entries": [
+   "Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
+  ]
+ },
+ {
+  "name": "Extra Attack",
+  "source": "TLotRR",
+  "page": 49,
+  "className": "Champion",
+  "classSource": "TLotRR",
+  "level": 5,
+  "entries": [
+   "Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn.",
+   "The number of attacks increases to three when you reach 10th level in this calling."
+  ]
+ },
+ {
+  "name": "Extra Attack",
+  "source": "TLotRR",
+  "page": 61,
+  "className": "Warden",
+  "classSource": "TLotRR",
+  "level": 5,
+  "entries": [
+   "When you reach 5th level you make two attacks when you take the {@action Attack} action on your turn, instead of one."
+  ]
+ },
+ {
+  "name": "Extra Attack",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 5,
+  "entries": [
+   "You can attack twice instead of once whenever you take the {@action Attack|XPHB} action on your turn."
+  ]
+ },
+ {
+  "name": "Feed",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 1,
+  "entries": [
+   "You feed on the blood of other creatures. This is most often accomplished through your sharp fangs. As an action, you can feed on another creature within 5 feet of yourself if the target is willing, {@condition Charmed|XPHB} by you, or has the {@condition Incapacitated|XPHB}, {@condition Grappled|XPHB}, {@condition Paralyzed|XPHB}, {@condition Restrained|XPHB}, {@condition Stunned|XPHB}, or {@condition Unconscious|XPHB} condition. You can feed only once per turn.",
+   "When you feed, roll up to your maximum Feed Dice plus your Constitution modifier (minimum of 1). The creature takes Necrotic damage equal to the roll's total. This damage only reduces the creature's {@variantrule Hit Points|XPHB|Hit Point} maximum by an amount equal to the roll's total. The number of Feed Dice increases as you gain Kindred levels, as shown in the Feed Dice column of the Kindred Features table. If you roll a 6 on a d6 on a Feed Die, you can regain 1 expended Blood Point. If a creature's {@variantrule Hit Points|XPHB|Hit Point} maximum is reduced to 0, you can regain 1 expended Blood Point.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Feeding from the Willing",
+      "entries": [
+       "If you feed on a willing creature or a creature {@condition Charmed|XPHB} by you, it can spend 1 {@variantrule Hit Point Dice|XPHB|Hit Point Die}. It rolls the {@variantrule Hit Point Dice|XPHB|Hit Point Die} and reduces its {@variantrule Hit Points|XPHB|Hit Point} maximum by the amount rolled, and you can regain 1 expended Blood Point. Feeding in this way doesn't end the {@condition Charmed|XPHB} condition."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Hit Die Deficit",
+      "entries": [
+       "If a creature has no remaining {@variantrule Hit Point Dice|XPHB}, the creature takes Necrotic damage equal to a roll of your Feed Dice plus your Constitution modifier, and the creature's {@variantrule Hit Points|XPHB|Hit Point} maximum is reduced by an amount equal to the roll's total."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Maximum Successful Feedings",
+      "entries": [
+       "A creature can provide a number of Blood Points based on its size. A Small creature provides 1 Blood Point, a Medium provides 3, a Large provides 5, a Huge provides 7, and a Gargantuan provides 10. A creature regains all lost Blood Points when it finishes a {@variantrule Long Rest|XPHB}."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Creature Susceptible to Feed",
+      "entries": [
+       "You can feed on any creature with blood or other life-giving fluid. Aberrations, Beasts, Dragons, Fey, Giants, Monstrosities, and Humanoids are the most common targets. Constructs, Elementals, Oozes, and Plants usually don't have blood. Work with your GM to determine the types of creatures you can feed on."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "inset",
+    "name": "The Blood Bond",
+    "entries": [
+     "A mysterious power in the blood of Kindred causes creatures to become Blood Bound to that Kindred when:",
+     {
+      "type": "list",
+      "items": [
+       "They drink from the same Kindred at least three times within one year.",
+       "At least one {@variantrule Long Rest|XPHB} occurs between each of the three drinks."
+      ]
+     },
+     "While Blood Bound to a Kindred, a creature is considered {@condition Charmed|XPHB} by that Kindred and has {@variantrule Advantage|XPHB} on saving throws to avoid being {@condition Charmed|XPHB} or {@condition Frightened|XPHB} by other creatures. This is in addition to the effects from the {@item Kindred Vitae|BoundByBlood} consumable.",
+     "A Blood Bond can be suppressed for 1 minute if the creature succeeds on a DC 25 Charisma saving throw. The bond is only permanently removed if the creature doesn't drink from that Kindred again for a year, or if the Kindred in question is killed."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fighting Spirit",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 18,
+  "entries": [
+   "When you are reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright, you can drop to 1 {@variantrule Hit Points|XPHB|Hit Point} instead. When you do, you gain {@variantrule Temporary Hit Points|XPHB} equal to half of your maximum {@variantrule Hit Points|XPHB}, regain all your expended {@classFeature Moxie|Pugilist|Pugilist2024|2|Pugilist2024|Moxie Points}, and have {@variantrule Resistance|XPHB} to all damage except Force for the next minute.",
+   "Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
+  "name": "Fighting Style",
+  "source": "GrimHollowPG24",
+  "page": 52,
+  "className": "Monster Hunter",
+  "classSource": "GrimHollowPG24",
+  "level": 2,
+  "entries": [
+   "You gain a {@filter Fighting Style feat|feats|category=FS} of your choice."
+  ]
+ },
+ {
+  "name": "Fighting Style",
+  "source": "TLotRR",
+  "page": 46,
+  "className": "Captain",
+  "classSource": "TLotRR",
+  "level": 2,
+  "entries": [
+   "At 2nd level, you adopt a particular style of fighting as your speciality. Choose one of the following options. You cannot take a Fighting Style option more than once, even if you later get to choose again.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "options",
+      "count": 1,
+      "entries": [
+       {
+        "type": "refOptionalfeature",
+        "optionalfeature": "Defense|PHB"
+       },
+       {
+        "type": "refOptionalfeature",
+        "optionalfeature": "Dueling|PHB"
+       },
+       {
+        "type": "refOptionalfeature",
+        "optionalfeature": "Great Weapon Fighting|TLotRR"
+       },
+       {
+        "type": "refOptionalfeature",
+        "optionalfeature": "Protection|TLotRR"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fighting Style",
+  "source": "TLotRR",
+  "page": 49,
+  "className": "Champion",
+  "classSource": "TLotRR",
+  "level": 1,
+  "entries": [
+   "You adopt a particular style of fighting as your speciality. Choose one of the following options. You cannot take a Fighting Style option more than once, even if you later get to choose again.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "options",
+      "count": 1,
+      "entries": [
+       {
+        "type": "refOptionalfeature",
+        "optionalfeature": "Archery|PHB"
+       },
+       {
+        "type": "refOptionalfeature",
+        "optionalfeature": "Defense|PHB"
+       },
+       {
+        "type": "refOptionalfeature",
+        "optionalfeature": "Dueling|PHB"
+       },
+       {
+        "type": "refOptionalfeature",
+        "optionalfeature": "Great Weapon Fighting|TLotRR"
+       },
+       {
+        "type": "refOptionalfeature",
+        "optionalfeature": "Protection|TLotRR"
+       },
+       {
+        "type": "refOptionalfeature",
+        "optionalfeature": "Two-Weapon Fighting|PHB"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fighting Style",
+  "source": "TLotRR",
+  "page": 61,
+  "className": "Warden",
+  "classSource": "TLotRR",
+  "level": 2,
+  "entries": [
+   "At 2nd level, you adopt a particular style of fighting as your speciality. Choose one of the following options. You cannot take a Fighting Style option more than once, even if you later get to choose again.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "options",
+      "count": 1,
+      "entries": [
+       {
+        "type": "refOptionalfeature",
+        "optionalfeature": "Archery|PHB"
+       },
+       {
+        "type": "refOptionalfeature",
+        "optionalfeature": "Dueling|PHB"
+       },
+       {
+        "type": "refOptionalfeature",
+        "optionalfeature": "Protection|TLotRR"
+       },
+       {
+        "type": "refOptionalfeature",
+        "optionalfeature": "Two-Weapon Fighting|PHB"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fighting Style",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 1,
+  "entries": [
+   "You gain a {@filter Fighting Style feat|feats|category=FS} of your choice. If you choose a feat, such as {@feat Great Weapon Fighting|XPHB}, that requires you to hold a Melee weapon in one or two hands, you can use that feat with Ranged weapons.",
+   "Whenever you gain a Gunslinger level, you can replace the feat you chose with a different {@filter Fighting Style feat|feats|category=FS}."
+  ]
+ },
+ {
+  "name": "Fisticuffs",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 1,
+  "entries": [
+   "Your years of fighting in back alleys and taverns have given you mastery over combat styles that use {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} and Pugilist weapons, which are the following:",
+   {
+    "type": "list",
+    "items": [
+     "{@filter Simple Melee Weapons|items|type=simple weapon;melee weapon=sand}",
+     "{@variantrule Improvised Weapons|XPHB}"
+    ]
+   },
+   "You gain the following benefits while you are unarmed or wielding only Pugilist weapons and you are wearing Light or no armor and are not wielding a {@item Shield|XPHB}.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Bonus Unarmed Strike",
+      "entries": [
+       "You can make an {@variantrule Unarmed Strike|XPHB} as a {@variantrule Bonus Action|XPHB}."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Fisticuffs Die",
+      "entries": [
+       "You can roll {@dice 1d8} in place of the normal damage of your {@variantrule Unarmed Strike|XPHB} or Pugilist weapons. This die changes as you gain Pugilist levels, as shown in the Fisticuffs column of the Pugilist Features table."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Improved Improvisation",
+      "entries": [
+       "Your talent for turning everything into a weapon allows you to use the mastery properties of {@variantrule Improvised Weapons|XPHB}. All Improvised Weapons count as having the {@itemMastery Sap|XPHB} mastery property for you."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Folk-Lore",
+  "source": "TLotRR",
+  "page": 52,
+  "className": "Messenger",
+  "classSource": "TLotRR",
+  "level": 1,
+  "entries": [
+   "You possess some knowledge of the many traditional customs, beliefs, and stories of the various communities that compose the Free Peoples. Whenever you make an Intelligence check related to one of these topics, you are considered proficient in the {@skill Old Lore|TLotRR} skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus. Likely the result of your wanderings, this information may help you when dealing with strangers, allowing you to come up with some useful facts regarding their folk or a smattering of the appropriate language."
+  ]
+ },
+ {
+  "name": "Forked Tongue",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 1,
+  "entries": [
+   "You can instinctively speak, read, and write Infernal.",
+   "In addition, you can speak two other languages of your choice, but you can't read or write them. When you finish a long rest, you can draw on your archdevil's knowledge to replace one of these two languages. When you do, choose another language whose name you know; you magically forget the previous language and gain this new one instead. Once you replace a language in this way, you must finish a long rest before you can do so again.",
+   "Starting at 9th level, this feature grants you another language, for a total of three (in addition to Infernal). Furthermore, you gain advantage on Wisdom ({@skill Insight}) checks made to ascertain the intentions or sincerity of creatures."
+  ]
+ },
+ {
+  "name": "Forked Tongue Improvement",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 9,
+  "entries": [
+   "You can instinctively speak, read, and write Infernal.",
+   "In addition, you can speak two other languages of your choice, but you can't read or write them. When you finish a long rest, you can draw on your archdevil's knowledge to replace one of these two languages. When you do, choose another language whose name you know; you magically forget the previous language and gain this new one instead. Once you replace a language in this way, you must finish a long rest before you can do so again.",
+   "Starting at 9th level, this feature grants you another language, for a total of three (in addition to Infernal). Furthermore, you gain advantage on Wisdom ({@skill Insight}) checks made to ascertain the intentions or sincerity of creatures."
+  ]
+ },
+ {
+  "name": "Grave Strike",
+  "source": "GrimHollowPG24",
+  "page": 53,
+  "className": "Monster Hunter",
+  "classSource": "GrimHollowPG24",
+  "level": 20,
+  "entries": [
+   "You gain the ability to strike mortal blows against the creatures you have studied.",
+   "Your attack rolls with weapons and {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} against creature types in your {@classFeature Monster Grimoire|Monster Hunter|GrimHollowPG24|1} can now score a {@variantrule Critical Hit|XPHB} on a roll of 18 through 20 on the {@dice d20}. When you score a {@variantrule Critical Hit|XPHB} against a creature type in your {@classFeature Monster Grimoire|Monster Hunter|GrimHollowPG24|1}, the creature must make a Constitution saving throw. The DC equals the damage taken, up to a maximum DC of 30. On a failed save, the creature drops to 0 {@variantrule Hit Points|XPHB}. On a successful save, the creature takes the attack's normal damage.",
+   "You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
+  "name": "Gunslinger Subclass",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 3,
+  "entries": [
+   "You gain a Gunslinger subclass of your choice. A subclass is a specialization that grants you features at certain Gunslinger levels. For the rest of your career, you gain each of your subclass's features that are of your Gunslinger level or lower."
+  ]
+ },
+ {
+  "name": "Gut Shot",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 5,
+  "entries": [
+   "Whenever you score a {@variantrule Critical Hit|XPHB} against a Large or smaller creature with a ranged attack using a weapon, the projectile lodges itself in the target. For 1 minute or until the target replaces one of its attacks with dislodging the projectile, its {@variantrule Speed|XPHB} is halved and it has {@variantrule Disadvantage|XPHB} on attack rolls."
+  ]
+ },
+ {
+  "name": "Hands of a Healer (d8)",
+  "source": "TLotRR",
+  "page": 55,
+  "className": "Scholar",
+  "classSource": "TLotRR",
+  "level": 9,
+  "entries": [
+   "The extra hit points increase to {@dice 1d8} when you reach 9th level in this calling."
+  ]
+ },
+ {
+  "name": "Hands of a Healer",
+  "source": "TLotRR",
+  "page": 55,
+  "className": "Scholar",
+  "classSource": "TLotRR",
+  "level": 2,
+  "entries": [
+   "Beginning at 2nd level, you can use healing techniques to treat the wounds of your allies during a short rest. Choose a number of friendly creatures (including yourself) who spent one or more Hit Dice at the end of the short rest, up to twice your proficiency bonus. Each of those creatures regains an extra {@dice 1d6} hit points for each Hit Die spent.",
+   "The extra hit points increase to {@dice 1d8} when you reach 9th level in this calling."
+  ]
+ },
+ {
+  "name": "Haymaker",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 5,
+  "entries": [
+   "When you make an attack with an {@variantrule Unarmed Strike|XPHB} or Pugilist weapon, you can expend 1 {@classFeature Moxie|Pugilist|Pugilist2024|2|Pugilist2024|Moxie Point} to swing with wild abandon. On a hit, regain the expended Moxie Point and you deal maximum damage with that attack."
+  ]
+ },
+ {
+  "name": "Headshot",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 20,
+  "entries": [
+   "When you score a {@variantrule Critical Hit|XPHB} against a creature using a Ranged weapon, you can choose for it to be a Headshot. If the creature has less than 100 {@variantrule Hit Points|XPHB}, it dies. Otherwise, it takes an extra {@damage 10d10} damage of the weapon's type.",
+   "Once you use this feature, you can't use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending three {@classFeature Risk|Gunslinger|ValdaGunslinger|2|ValdaGunslinger|Risk Dice} (no action required)."
+  ]
+ },
+ {
+  "name": "Heavy Hitter",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 3,
+  "entries": [
+   "When you hit a creature with an {@variantrule Unarmed Strike|XPHB}, you can use both the Damage and your choice of the Grapple or Shove option."
+  ]
+ },
+ {
+  "name": "Herculean",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 10,
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Heavy Lifter",
+      "entries": [
+       "Your Strength score is doubled when determining your carrying capacity."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Pillar Breaker",
+      "entries": [
+       "When you hit an object with an {@variantrule Unarmed Strike|XPHB}, the hit is a {@variantrule Critical Hit|XPHB}."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Unmatched Athlete",
+      "entries": [
+       "Your jump distance is doubled."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Improved Feed",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 5,
+  "entries": [
+   "You can use the {@classFeature Feed|Kindred|BoundByBlood|1} feature as a {@variantrule Bonus Action|XPHB}. In addition, a creature {@condition Grappled|XPHB} by you has {@variantrule Disadvantage|XPHB} on its checks to escape the grapple."
+  ]
+ },
+ {
+  "name": "Improved Monster Grimoire",
+  "source": "GrimHollowPG24",
+  "page": 53,
+  "className": "Monster Hunter",
+  "classSource": "GrimHollowPG24",
+  "level": 6,
+  "entries": [
+   "You have expanded your {@classFeature Monster Grimoire|Monster Hunter|GrimHollowPG24|1} with your experience and knowledge.",
+   "You can select a third creature type to add to your {@classFeature Monster Grimoire|Monster Hunter|GrimHollowPG24|1} from the following list: Aberrations, Beasts, Celestials, Constructs, Dragons, Elementals, Fey, Fiends, Giants, Monstrosities, Oozes, Plants, or Undead. You can't choose a creature type you have chosen before. All the benefits you gain from your {@classFeature Monster Grimoire|Monster Hunter|GrimHollowPG24|1} now also apply to this new type.",
+   "Additionally, your attack rolls with weapons and {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} against creature types in your {@classFeature Monster Grimoire|Monster Hunter|GrimHollowPG24|1} can score a {@variantrule Critical Hit|XPHB} on a roll of 19 or 20 on the {@dice d20}."
+  ]
+ },
+ {
+  "name": "Improved Monster Grimoire",
+  "source": "GrimHollowPG24",
+  "page": 53,
+  "className": "Monster Hunter",
+  "classSource": "GrimHollowPG24",
+  "level": 13,
+  "entries": [
+   "Your {@classFeature Monster Grimoire|Monster Hunter|GrimHollowPG24|1} is further expanded by your encounters and studies.",
+   "You can select a fourth creature type to add to your {@classFeature Monster Grimoire|Monster Hunter|GrimHollowPG24|1} from the following list: Aberrations, Beasts, Constructs, Celestials, Dragons, Elementals, Fey, Fiends, Giants, Monstrosities, Oozes, Plants, or Undead. You can't choose a monster type you have chosen before. All the benefits you gain from your {@classFeature Monster Grimoire|Monster Hunter|GrimHollowPG24|1} now also apply to this new monster type."
+  ]
+ },
+ {
+  "name": "Indomitable",
+  "source": "TLotRR",
+  "page": 49,
+  "className": "Champion",
+  "classSource": "TLotRR",
+  "level": 9,
+  "conditionImmune": [
+   "charmed",
+   "frightened"
+  ],
+  "entries": [
+   "At 9th level, you become immune to being {@condition charmed} or {@condition frightened} (but can still accumulate {@book Shadow points|TLotRR|7|Shadow Points} from Dread and Sorcery)."
+  ]
+ },
+ {
+  "name": "Infernal Conduit",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 6,
+  "entries": [
+   "You can strengthen your allies at the cost of yourself—or drain your enemy's life force for your own gain. You have a pool of Infernal Conduit dice, which are d10s. The number of Infernal Conduit dice in your pool increase as you gain illrigger levels, as shown in the Infernal Conduit Dice column of the Illrigger table.",
+   "As an action, you can touch another creature and spend one or more dice from your pool. The target must make a Constitution saving throw against your interdict save DC. A creature can willingly fail this saving throw. Roll the spent dice and choose one of the following effects:",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Invigorate",
+      "entries": [
+       "On a failed save, the target regains hit points equal to the total you rolled, and you take necrotic damage equal to that total. On a successful save, the target regains half as many hit points, and you take necrotic damage equal to that total. Save or fail, this necrotic damage can't be reduced in any way, and if this damage reduces you to 0 hit points, you fall {@condition unconscious} and are stabilized."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Devour",
+      "entries": [
+       "On a failed save, the target takes necrotic damage equal to the total you rolled, and you regain hit points equal to that total. On a successful save, the target takes half as much damage, and you regain hit points equal to the damage the target took. Save or fail, or if the target chose to fail their saving throw against this effect, the necrotic damage can't be reduced in any way. When you reach 11th level in this class, the target also gains a level of {@condition exhaustion} on a failed save against this effect. This level of {@condition exhaustion} can be reduced as normal, and a creature can't suffer more than three levels of {@condition exhaustion} combined from all illriggers' Infernal Conduit features.",
+       "You regain any spent Infernal Conduit dice when you finish a long rest."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Infernal Conduit Improvement",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 11,
+  "entries": [
+   "When you use the Devour effect of your Infernal Conduit feature, the target also gains a level of {@condition exhaustion} on a failed save against this effect."
+  ]
+ },
+ {
+  "name": "Infernal Majesty",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 17,
+  "entries": [
+   "Your archdevil bestows on you the ability to don a measure of their power. As a bonus action, you channel the might of Hell, gaining the following benefits for 10 minutes:",
+   {
+    "type": "list",
+    "items": [
+     "You gain resistance to fire, cold, and necrotic damage.",
+     "Wings appear on your back, granting you a flight speed of 60 feet.",
+     "When you use your Blood Price, you can cause an enemy you can see within 10 feet of you to take damage equal to the number rolled on your Hit Die.",
+     "When you hit with a weapon attack, your Terrorizing Force deals an extra 2d8 damage instead of 1d8."
+    ]
+   },
+   "For the duration, if you die, you can choose to have your body disappear in a burst of flame, leaving behind only your equipment. If you do, your body reforms 1d6 days later somewhere in Hell. Once your body reforms, you return to life and regain all of your hit points.",
+   "Once you channel your Infernal Majesty, you must finish a long rest before you can do so again."
+  ]
+ },
+ {
+  "name": "Interdict Boons",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 2,
+  "entries": [
+   "The interdict boons are presented in alphabetical order.",
+   {
+    "type": "options",
+    "count": 3,
+    "entries": [
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Abating Seal|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Acheron's Chain|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Bedevil|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Conflagrant Channel|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Dis's Onslaught (Passive)|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Eyes of the Gate|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Flash of Brimstone|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Hellish Frenzy|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Hellsight|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Impaling Shot|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Iron Gaol|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Last Word|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Shadow Shroud|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Soul Eater|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Soul's Doom|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Styx's Apathy|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Swift Retribution (Passive)|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Unleash Hell|IllriggerRevised"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Vengeful Shot|IllriggerRevised"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Interdiction",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 2,
+  "entries": [
+   "You can infuse your seals with hellish magical power, enhancing their effects.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Interdict Boons Known",
+      "entries": [
+       "You learn one interdict boon of your choice from the \"{@filter Interdict Boons|optionalfeatures|feature type=ItdBoon}\" section. As you gain levels in this class, you gain additional boons of your choice, as shown in the Interdict Boons column of the Illrigger table. Each new boon must be of a level you can learn. When you reach 7th level, for example, you learn one new boon of 2nd or 7th level.",
+       "Whenever you gain an illrigger level, you can choose a boon you know and replace it with another boon you can learn."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Using Interdict Boons",
+      "entries": [
+       "Some boons allow you to expend unplaced seals to fuel abilities, while others empower all your seals or grant you benefits against interdicted creatures.",
+       "The boons that grant passive (or \"always on\") benefits, such as the 2nd-level Swift Retribution boon, are marked with a \"Passive\" tag. You don't need to expend a seal or take an action to benefit from the passive boons you know. All other boons, such as the 2nd-level Abating Seal boon, must be activated on a turn (for example, by expending a seal). You can activate only one non-passive boon per turn, regardless of how many you know."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "refClassFeature",
+    "classFeature": "Interdict Boons|Illrigger|IllriggerRevised|2"
+   },
+   {
+    "type": "inset",
+    "name": "Burn vs. Expend",
+    "entries": [
+     "Burning a seal is part of the main gameplay loop of this class. The illrigger places a seal by using a bonus action or hitting a creature with an attack, then burns the seal for additional damage (as described in the {@book Baleful Interdict|IllriggerRevised|0|Baleful Interdict} class feature). Many interdict boons activate when you burn a seal; these burned seals deal the normal damage to the interdicted creature in addition to any effects granted by the boon.",
+     "Other interdict boons instead require you to expend a seal. In this case, the illrigger expends an {@i unplaced} seal from their pool of available seals. This may require using an action, bonus action, or reaction, but not always (such as in the case of the Hellspeaker's {@book Charm Enemy|IllriggerRevised|0|Charm Enemy} feature, where you can expend seals to increase the number of targets).",
+     "Each active interdict boon details if any kind of action is required to expend the seal and activate the boon's benefit. Part of the illrigger's resource management is maximizing efficiency between burned seals (and their extra damage) and expended seals (and their unique effects)."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Invoke Hell",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 3,
+  "entries": [
+   "Your diabolic connection allows you to channel infernal energy to empower magical effects. Your chosen diabolic contract grants you two Invoke Hell options and describes how to use each.",
+   "When you use your Invoke Hell, you choose which option to use. You must then finish a short or long rest to use your Invoke Hell again.",
+   "Some Invoke Hell effects require a saving throw. When you use such an effect, the DC equals your interdict save DC."
+  ]
+ },
+ {
+  "name": "Iron Chin",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 1,
+  "entries": [
+   "While you are wearing Light or no armor and not wielding a {@item Shield|XPHB}, your base {@variantrule Armor Class|XPHB} equals 12 plus your Constitution modifier."
+  ]
+ },
+ {
+  "name": "Kindred Biology",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 1,
+  "vulnerable": [
+   "fire",
+   "radiant"
+  ],
+  "entries": [
+   "You are a specific kind of vampire known as a Kindred, which brings physical benefits and drawbacks.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Awaken",
+      "entries": [
+       "You don't regain expended Blood Points when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. To gain the benefits of a {@variantrule Long Rest|XPHB}, you must have at least 1 Blood Point in your pool or you only gain the benefits of a {@variantrule Short Rest|XPHB}."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Darkvision",
+      "entries": [
+       "You have {@sense Darkvision|XPHB} with a range of 60 feet."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Sanguivore",
+      "entries": [
+       "You can't eat food or drink. If you consume more than a nibble or sip, you have the {@condition Poisoned|XPHB} condition that ends once you expel what you consumed. While {@condition Poisoned|XPHB} in this way, you must succeed on a Constitution saving throw every 10 minutes to avoid having the {@condition Incapacitated|XPHB} condition, which lasts for 1 minute as you vomit up what you've consumed. The initial DC of this saving throw is 10, and it increases by 5 with each successive save.",
+       "Instead, you must consume a number of Blood Points per day equal to the number of pounds of food a creature your size normally requires per day (usually, 1 per day for Small and Medium creatures). You can expend 1 Blood Point to automatically succeed on the DC 10 Constitution saving throw to avoid gaining 1 level of {@condition Exhaustion|XPHB} from {@hazard Malnutrition|XPHB}.",
+       "Expending Blood Points to activate your Kindred features or Kindred Feats does not count towards the Blood Points you need to expend for sustenance."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Sunlight Vulnerability",
+      "entries": [
+       "You take 5 Radiant damage if you start your turn in sunlight."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Supernatural Spellcasting",
+      "entries": [
+       "Charisma is your spellcasting ability for spells from your Kindred subclass and Kindred feats, your spells require no Verbal or Somatic components, and they require no Material components unless they are consumed by the spell or have a cost specified in it; taking damage can't break your {@condition Concentration|XPHB}."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Torpor",
+      "entries": [
+       "If your {@condition Exhaustion|XPHB} level is 6, you aren't killed. Instead, you drop to 1 {@variantrule Hit Points|XPHB|Hit Point}, become {@condition Unconscious|XPHB}, and can't remove the condition until you have expended a number of Blood Points equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} over any length of time. Another creature can feed you while you are {@condition Unconscious|XPHB} to recover Blood Points, but the details of how that occurs is left for you and your GM to determine."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Undead",
+      "entries": [
+       "You have the Undead (Kindred) creature type in addition to your normal creature type. You don't age."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Vampiric Resilience",
+      "entries": [
+       "You automatically succeed on {@variantrule Death Saving Throw|XPHB|Death Saving Throws}. Being reduced to 0 {@variantrule Hit Points|XPHB} by Fire or Radiant damage, or being beheaded kills you outright."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Vampiric Vulnerabilities",
+      "entries": [
+       "You have {@variantrule Vulnerability|XPHB} to Fire and Radiant damage."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Wooden Stake Through the Heart",
+      "entries": [
+       "When you are attacked with a wooden weapon that deals Piercing damage and you are reduced to 0 {@variantrule Hit Points|XPHB} or the attack roll is a {@variantrule Critical Hit|XPHB}, you are staked through the heart and have the {@condition Paralyzed|XPHB} condition until the weapon is removed."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Kindred Feat",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 2,
+  "entries": [
+   "You gain a {@filter Kindred feat|feats|category=kf} of your choice for which you qualify. You gain this feature again at Kindred levels 7, 10, 13, and 17."
+  ]
+ },
+ {
+  "name": "Kindred Feat",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 7,
+  "entries": [
+   "You gain a {@filter Kindred feat|feats|category=kf} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Kindred Feat",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 10,
+  "entries": [
+   "You gain a {@filter Kindred feat|feats|category=kf} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Kindred Feat",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 13,
+  "entries": [
+   "You gain a {@filter Kindred feat|feats|category=kf} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Kindred Feat",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 17,
+  "entries": [
+   "You gain a {@filter Kindred feat|feats|category=kf} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Kindred Subclass",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 3,
+  "entries": [
+   "You gain a Kindred subclass of your choice. A subclass is a specialization that grants you features at certain Kindred levels. For the rest of your career, you gain each of your subclass's features that are of your Kindred level or lower."
+  ]
+ },
+ {
+  "name": "Knowledgeable Defense",
+  "source": "GrimHollowPG24",
+  "page": 53,
+  "className": "Monster Hunter",
+  "classSource": "GrimHollowPG24",
+  "level": 9,
+  "entries": [
+   "You can rely on your knowledge to anticipate a monster's actions and summon your best defense.",
+   "Whenever a creature type in your {@classFeature Monster Grimoire|Monster Hunter|GrimHollowPG24|1} forces you to make a saving throw, you can make an Intelligence saving throw in place of that saving throw instead."
+  ]
+ },
+ {
+  "name": "Lair Sense",
+  "source": "GrimHollowPG24",
+  "page": 53,
+  "className": "Monster Hunter",
+  "classSource": "GrimHollowPG24",
+  "level": 14,
+  "entries": [
+   "You are experienced at navigating the threats that arise near a monster's lair. You have {@variantrule Advantage|XPHB} on saving throws and {@variantrule Resistance|XPHB} to the damage of lair actions and regional effects caused by creatures. In addition, you have {@variantrule Advantage|XPHB} on saving throws and {@variantrule Resistance|XPHB} to damage against the Legendary Actions of creature types in your {@classFeature Monster Grimoire|Monster Hunter|GrimHollowPG24|1}."
+  ]
+ },
+ {
+  "name": "Leadership",
+  "source": "TLotRR",
+  "page": 46,
+  "className": "Captain",
+  "classSource": "TLotRR",
+  "level": 1,
+  "entries": [
+   "You possess the ability to direct others to action—when under pressure, other people naturally turn to you for guidance. As an action in combat, choose a number of friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you, up to twice your proficiency bonus. Each creature can gain {@book temporary hit points|PHB|9|Temporary Hit Points} equal to your Captain level + your Charisma modifier. These temporary hit points last until they are depleted or the creature finishes a short or long rest. You must then finish a short or long rest to use this feature again."
+  ]
+ },
+ {
+  "name": "Long Stride",
+  "source": "TLotRR",
+  "page": 62,
+  "className": "Warden",
+  "classSource": "TLotRR",
+  "level": 9,
+  "entries": [
+   "Starting at 9th level, your speed increases by 10 feet while you are not wearing heavy armour, and moving through {@book difficult terrain|PHB|8|Difficult Terrain} costs you no extra movement."
+  ]
+ },
+ {
+  "name": "Magnificent Presence",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 17,
+  "entries": [
+   "While your companion is within 100 feet of you, you can order it to change its behaviour as part of the bonus action or action you use to command it. Choose either the provoking poise or shrinking violet behaviours.",
+   {
+    "type": "list",
+    "items": [
+     {
+      "type": "entries",
+      "entries": [
+       {
+        "type": "entries",
+        "name": "Provoking Poise",
+        "entries": [
+         "For the next minute, your companion draws the attention of nearby creatures While within 15 feet of your companion, any creature that is hostile towards your companion and that can see it has disadvantage on attack rolls it makes against creatures other than your companion."
+        ]
+       }
+      ]
+     },
+     {
+      "type": "entries",
+      "entries": [
+       {
+        "type": "entries",
+        "name": "Shrinking Violet",
+        "entries": [
+         "For the next minute, your companion appears small and unassuming, making little noise. Any creature that is hostile toward your companion has disadvantage on attack rolls against your companion if there is another creature hostile towards the attacker within 15 feet of the attacker."
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "After you use this feature, you can't do so again until you finish a long rest."
+  ]
+ },
+ {
+  "name": "Malleable Presence",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 5,
+  "entries": [
+   "While your companion is within 100 feet of you, you can order it to change its behaviour towards one creature you can see as part of the bonus action or action you use to command it. Choose either the aggressive or cautious behaviours. At the start of each of the target creature's turns for the next minute, it must succeed on a Wisdom saving throw versus your tamer spell save DC if it is within 30 feet of your companion and can see your companion. On a failure, it suffers the effects of the associated behaviour until the start of its next turn On a success, it is unaffected.",
+   {
+    "type": "list",
+    "items": [
+     {
+      "type": "entries",
+      "entries": [
+       {
+        "type": "entries",
+        "name": "Aggressive",
+        "entries": [
+         "The creature has disadvantage on attack rolls it makes against creatures other than your companion."
+        ]
+       }
+      ]
+     },
+     {
+      "type": "entries",
+      "entries": [
+       {
+        "type": "entries",
+        "name": "Cautious",
+        "entries": [
+         "The creature has disadvantage on attack rolls against your companion if there is another creature hostile towards the attacker within 5 feet of the attacker."
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "After you use this feature, you can't do so again until you finish a short or long rest."
+  ]
+ },
+ {
+  "name": "Master of Hell",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 20,
+  "entries": [
+   "You learn to tear open a rift to Hell and wreak its fury on your enemies. As an action, you can summon a hellstorm centered on a point you can see within 150 feet of you. Choose one of the following effects, which fills a 50-foot-radius sphere centered on that point:",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Inferno",
+      "entries": [
+       "Hellfire rains down on your foes. Each enemy in that area must make a Dexterity saving throw. On a failed save, a creature takes {@damage 5d10} fire damage plus {@damage 5d10} necrotic damage, and they burn for 1 minute. On a successful save, a creature takes half as much damage and does not burn. A creature burning in this way must repeat this saving throw at the end of their turn, taking {@damage 1d10} fire damage plus {@damage 1d10} necrotic damage on a failed save, or ending the effect on themself on a successful one. This hellfire can't be extinguished by nonmagical means."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Pestilence",
+      "entries": [
+       "A foul miasma swirls around your foes. Each enemy in that area must make a Constitution saving throw. On a failed save, a creature takes {@damage 5d10} poison damage plus {@damage 5d10} necrotic damage and becomes {@condition poisoned} for 1 minute. On a successful save, a creature takes half as much damage and does not become {@condition poisoned}."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Darkness",
+      "entries": [
+       "A bitter storm assails your foes. Each enemy in that area must make a Constitution saving throw, taking {@damage 10d10} cold damage on a failed save, or half as much damage on a successful one. Additionally, the storm's gloom persists for 1 minute, and each enemy within that area is {@condition blinded} for the duration or until they leave the area.",
+       "Once you summon a hellstorm, you must finish a long rest before you can do so again."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Messenger Path",
+  "source": "TLotRR",
+  "page": 52,
+  "className": "Messenger",
+  "classSource": "TLotRR",
+  "level": 3,
+  "entries": [
+   "At 3rd level, you choose a path that shapes your calling as a Messenger. Choose the path of the {@subclass Counsellor|Messenger|TLotRR|TLotRR} or the path of the {@subclass Herald|Messenger|TLotRR|TLotRR}, both detailed at the end of the calling description. Your choice grants you features at 3rd level and again at 7th level."
+  ]
+ },
+ {
+  "name": "Messenger Path feature",
+  "source": "TLotRR",
+  "page": 52,
+  "className": "Messenger",
+  "classSource": "TLotRR",
+  "level": 7,
+  "entries": [
+   "At 7th level, you gain a feature granted by your Messenger Path feature."
+  ]
+ },
+ {
+  "name": "Monster Grimoire",
+  "source": "GrimHollowPG24",
+  "page": 52,
+  "className": "Monster Hunter",
+  "classSource": "GrimHollowPG24",
+  "level": 1,
+  "entries": [
+   "You create or inherit a repository of knowledge known as a Monster Grimoire. Each Monster Hunter carries a grimoire, a manual on dangerous creatures. A Monster Hunter's grimoire is an object entirely unique to each hunter. It may be a leather tome recovered from a dusty library with notes made in the margins, a set of blood-stained scrolls inherited from a previous hunter, or a precious stone with a communing spirit held within.",
+   "If a Monster Hunter ever loses a grimoire, the hunter has retained enough knowledge to not suffer immediate drawbacks. However, the hunter can't add to the grimoire until it is restored and therefore can't take another Monster Hunter level until a lost grimoire has been replaced. A grimoire can be recreated by spending 8 hours and 50 GP worth of materials such as books, scrolls, and ink.",
+   "Choose two types of creatures that you are specialized in hunting from the following list: Aberrations, Beasts, Celestials, Constructs, Dragons, Elementals, Fey, Fiends, Giants, Monstrosities, Oozes, Plants, or Undead.",
+   "You add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to Intelligence and Wisdom checks you make that relate to the creature types in your grimoire. For example, if Undead are in your grimoire, you add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to an Intelligence ({@skill History|XPHB}) check to recall lore about an Undead creature you're investigating or a Wisdom ({@skill Medicine|XPHB}) check to identify claw marks left on a corpse by an Undead creature. If you are already proficient in a skill when asked to make an Intelligence or Wisdom ability check relating to the monster types in your grimoire, you add double your {@variantrule Proficiency|XPHB|Proficiency Bonus} instead.",
+   "When you gain this feature, you also learn one language based on the chart below. (You can add languages to this chart based on your own campaign world.)",
+   {
+    "type": "table",
+    "caption": "Monster Type Language",
+    "colLabels": [
+     "Monster Type",
+     "Languages"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-8"
+    ],
+    "rows": [
+     [
+      "Aberration",
+      "{@language Deep Speech|XPHB} or {@language Undercommon|XPHB}"
+     ],
+     [
+      "Beast",
+      "{@language Sylvan|XPHB}"
+     ],
+     [
+      "Celestial",
+      "{@language Celestial|XPHB}"
+     ],
+     [
+      "Construct",
+      "{@language Draconic|XPHB}"
+     ],
+     [
+      "Dragon",
+      "{@language Draconic|XPHB}"
+     ],
+     [
+      "Elemental",
+      "{@language Primordial|XPHB}"
+     ],
+     [
+      "Fey",
+      "{@language Sylvan|XPHB}"
+     ],
+     [
+      "Fiend",
+      "{@language Abyssal|XPHB} or {@language Infernal|XPHB}"
+     ],
+     [
+      "Giant",
+      "{@language Giant|XPHB}"
+     ],
+     [
+      "Monstrosity",
+      "{@language Deep Speech|XPHB}"
+     ],
+     [
+      "Ooze",
+      "{@language Deep Speech|XPHB} or {@language Undercommon|XPHB}"
+     ],
+     [
+      "Plant",
+      "{@language Sylvan|XPHB}"
+     ],
+     [
+      "Undead",
+      "{@language Abyssal|XPHB} or {@language Infernal|XPHB}"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Monster Hunter Subclass",
+  "source": "GrimHollowPG24",
+  "page": 53,
+  "className": "Monster Hunter",
+  "classSource": "GrimHollowPG24",
+  "level": 3,
+  "entries": [
+   "You gain a Monster Hunter subclass of your choice. The Carver Guild, Devourer Guild, Occultist Guild, and Trapper Guild subclasses are detailed below. A subclass is a specialization that grants you features at certain Monster Hunter levels. The guild you choose grants you features when you reach Monster Hunter levels 3, 7, 10, 15, and 18."
+  ]
+ },
+ {
+  "name": "Monster Trainer",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 1,
+  "entries": [
+   "As you gain levels in this class, your companions become more powerful Your companions use your proficiency bonus instead of their own, potentially increasing their attack, saving throw, and skill modifiers, and their saving throw DCs.",
+   {
+    "type": "entries",
+    "name": "Training",
+    "entries": [
+     "Whenever you gain an Ability Score Improvement from gaining a level in the tamer class, you pass on your hardened resolve to all your companions, causing them to gain one additional Hit Dice Increase your companion's hit point maximum by rolling this Hit Dice and adding your companion's Constitution modifier (minimum of 0)."
+    ]
+   },
+   "Whenever you gain a level beyond 1st in this class, each companion to which you are bonded gains one of the following improvements. The familiars in Chapter 8 have unique improvements that can be taken instead of these.",
+   "Any newly gained companions receive these additional hit dice and improvements as if you had them since your 1st level in tamer.",
+   {
+    "type": "table",
+    "caption": "Companion Improvement Training Table",
+    "colLabels": [
+     "Improvement",
+     "Effect"
+    ],
+    "colStyles": [
+     "col-3 text-center",
+     "col-9 text-left"
+    ],
+    "rows": [
+     [
+      "Speed Training",
+      "Increase one existing speed by 15 feet up to a maximum of 150% of the creature's base speed, rounded up to the nearest 5-foot increment*."
+     ],
+     [
+      "Toughen Up",
+      "Your companion gains an additional Hit Die, increasing its hit point maximum. Increase your companion's hit point maximum by rolling this Hit Dice and adding your companion's Constitution modifier (minimum of 0)."
+     ],
+     [
+      "Ability Boost",
+      "Increase one of your companion's ability scores by 1, to a maximum of 20."
+     ],
+     [
+      "Go For the Throat",
+      "Your companion gains a +1 bonus to its attack and damage rolls made with its natural weapons or unarmed strikes**."
+     ],
+     [
+      "Survival Instincts",
+      "Your companion gains proficiency in one saving throw."
+     ],
+     [
+      "War Training",
+      "Your companion gains proficiency with one armour type or two weapons***."
+     ]
+    ],
+    "footnotes": [
+     "*E.g., a base speed of 30 feet can be increased to 45 feet maximum, a base speed of 25 feet can be increased to 40 feet, and a base speed of 20 feet to 30 feet.",
+     "** Your companions can each benefit from this feature once. When you reach 5th level in this class, your companions can each benefit from this feature twice. When you reach 9th level in this class, your companions can each benefit from this feature three times. This improvement does not affect attacks made with weapons.",
+     "*** Your companion can't gain proficiency in medium and heavy armour until it has gained proficiency in the prerequisite lighter armour types. For example, to gain proficiency in heavy armour, you must take this improvement 3 times: light, then medium, then heavy."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Moxie",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 2,
+  "entries": [
+   "Your experiences of beating the odds have given you a moxie you can channel in the midst of battle. This swagger is represented by a number of Moxie Points. Your Pugilist level determines the maximum number of points you have, as shown in the Moxie Points column of the Pugilist Features table.",
+   "You can spend these points to enhance or fuel certain Pugilist features. You start knowing three such features: Brace Up, One-Two Punch, and Stick and Move, each of which is detailed below.",
+   "When you expend a Moxie Point, it is unavailable until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, at the end of which you regain all your expended points.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Brace Up",
+      "entries": [
+       "You can use a {@variantrule Bonus Action|XPHB} and expend 1 Moxie Point to brace for attacks. When you do so, roll your Fisticuffs die, and gain a number of {@variantrule Temporary Hit Points|XPHB} equal to the number rolled plus your Pugilist level and your Constitution modifier. These {@variantrule Temporary Hit Points|XPHB} vanish if any remain after 10 minutes."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "One-Two Punch",
+      "entries": [
+       "You can expend 1 Moxie Point to make two {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} as a {@variantrule Bonus Action|XPHB}."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Stick and Move",
+      "entries": [
+       "You can use a {@variantrule Bonus Action|XPHB} and expend 1 Moxie Point to make an {@variantrule Unarmed Strike|XPHB} and take the {@action Dash|XPHB} or {@action Disengage|XPHB} action."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Moxie-Fueled Fists",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 6,
+  "entries": [
+   "Whenever you deal damage with your {@variantrule Unarmed Strike|XPHB} or an attack with an improvised weapon, it can deal your choice of Force damage or its normal damage type."
+  ]
+ },
+ {
+  "name": "Multiattack",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 5,
+  "entries": [
+   "Through rigorous training, you can access the innate fury of your companions When you take a bonus action or action to command your companion, you can command it to use its Multiattack action, if it has one."
+  ]
+ },
+ {
+  "name": "Overkill",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 11,
+  "entries": [
+   "When you deal damage with a Ranged weapon that doesn't add your ability modifier to the roll, you add your ability modifier nonetheless. If you already add your modifier to the damage roll, the target takes an extra {@damage 1d8} damage of the weapon's type.",
+   "Note that weapons that have the {@itemProperty GC:VSS-F|ValdaGunslinger|Firearm} property don't add your ability modifier to damage rolls."
+  ]
+ },
+ {
+  "name": "Peak Physical Condition",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 20,
+  "entries": [
+   "Your strength and resilience are the stuff of legends. You gain the following benefits.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Hale and Hearty",
+      "entries": [
+       "Your Strength and Constitution scores increase by 2, to a maximum of 23."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Sleep It Off",
+      "entries": [
+       "When you finish a {@variantrule Long Rest|XPHB} and you have the {@condition Exhaustion|XPHB} condition, you lose all levels of {@condition Exhaustion|XPHB}."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Vim and Vigor",
+      "entries": [
+       "When you finish a {@variantrule Short Rest|XPHB}, you regain {@variantrule Hit Points|XPHB} equal to twice your Pugilist level."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Pocket Familiar",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 1,
+  "entries": [
+   "You become {@variantrule Familiars|HelianasGuidetoMonsterHunting|bonded} to a companion that accompanies you on your adventures and is trained to fight alongside you. Choose a Small or smaller creature with a challenge rating of 1/2 or lower that isn't a humanoid, giant, or swarm. When a creature becomes your companion, it has a maximum number of hit points equal to the average of its Hit Dice, as indicated in its statistics, and it can't cast spells. Work with your GM to find a companion that suits your campaign world. This companion obeys your commands and is friendly to you and your allies.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Vessel",
+      "entries": [
+       "When not summoned, your companion exists inside a magical vessel of your own design, such as a painted animal skull, bejewelled egg, or crystal sphere. While in this vessel, the companion has full cover from all attacks and other effects, is unaffected by area of effects that originate from outside the vessel, and exists in stasis; it doesn't need to eat, drink, sleep, or breath, and it is {@b immune} to poison and disease, although a poison or disease already in its system is suspended, not neutralised. A companion at 0 hit points is instantly stabilised when it enters its vessel.",
+       "If a vessel is broken, or a companion is released from its vessel for any other reason, the creature within it ceases to be a tamer's companion. It acts according to its own wishes and retains any improvements it gained while a companion.",
+       {
+        "type": "inset",
+        "style": "text-center",
+        "name": "Home Planes",
+        "entries": [
+         "Some magical effects, like the {@spell banishment} spell, have the ability to permanently banish a creature back to its home plane. When a creature becomes your companion, its home plane becomes the demiplane within its vessel. If the companion becomes permanently banished by such a spell, it simply reappears in this vessel."
+        ]
+       }
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Summoning",
+      "entries": [
+       "As an action, you can summon your companion from this vessel, causing it to appear in an unoccupied space that you can see within 30 feet of you, or any unoccupied space within 5 feet of you. You can dismiss a companion within 30 feet of you as a bonus action or action, drawing it back into its vessel. To summon or dismiss a companion, you must be holding its vessel in hand. You can only have one companion summoned at a time.",
+       {
+        "type": "inset",
+        "style": "text-center",
+        "name": "Dominated Companions",
+        "entries": [
+         "A companion that is controlled by another creature, such as by the {@spell dominate monster} spell, can try to resist being recalled into its vessel. When you try to recall such a creature into its vessel, it can make acan make a Charisma saving throw against yourtamer spell save DC. On a failed saving throw, it is recalled, while on a success, it is not."
+        ]
+       }
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Combat",
+      "entries": [
+       "In combat, your companion shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action or action on your turn to command it to take a different action. That action can be one in its statistics or some other action. If you are {@condition incapacitated}, the companion can take any action of its choice, not just Dodge. Your companion can't take the Multiattack action until you reach 5th level in this class, even if it would otherwise be able to."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Rest",
+      "entries": [
+       "A companion gains the benefits of a long rest when its tamer finish a long rest; if it has at least 1 hit point, it regains all its hit points when you finish a long rest. Unlike other creatures, a companion can't spend its own Hit Dice to recover hit points at the end of a short rest. See the {@classFeature Soul Bond|Tamer|HelianasGuidetoMonsterHunting|1} feature for details on recovering hit points."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Items",
+      "entries": [
+       "Armour, barding, and weapons can be equipped to enhance your companion. A companion can wear or carry any equipment that their size and body shape permits. However, your companion must be proficient with the armour or weapon to make full use of it. If your companion wears armour that it lacks proficiency with, it has disadvantage on any ability check, saving throw, or attack roll that involves Strength or Dexterity. A companion that is not proficient with a weapon type does not add its proficiency bonus to attack rolls made with that weapon type."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Item Bonding",
+      "entries": [
+       "Over the course of an hour, you can bond a companion to one object that it can wear or carry that is not any sort of container or storage. When a companion is recalled, all items it is wearing or carrying that it is not bonded to are dropped in the space from which it was recalled. A companion can be bonded to up to 3 items at any one time. Companions can't attune to magic items, unless they have a specific ability that allows them to do so."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Companion Barding",
+      "entries": [
+       "You can purchase armour for your companion. Any type of armour can be purchased as barding. The cost and weight is doubled for each size category above Medium, and halved for each size category below Small. In addition, the cost is further doubled if the companion is not humanoid in shape.",
+       {
+        "type": "table",
+        "caption": "Companion Barding Cost",
+        "colLabels": [
+         "Size",
+         "Humanoid Shape Cost",
+         "Abstract Shape Cost"
+        ],
+        "colStyles": [
+         "col-2 text-center",
+         "col-5 text-left",
+         "col-5 text-left"
+        ],
+        "rows": [
+         [
+          "Tiny",
+          "0.5x",
+          "1x"
+         ],
+         [
+          "Small",
+          "1x",
+          "2x"
+         ],
+         [
+          "Medium",
+          "1x",
+          "2x"
+         ],
+         [
+          "Large",
+          "2x",
+          "4x"
+         ],
+         [
+          "Huge",
+          "4x",
+          "8x"
+         ]
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Pocket Family I",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 3,
+  "entries": [
+   "As you gain levels in this class, the number of companions and maximum size of companion to which you can become bonded increases. You can be bonded to two creatures at 3rd level. Your companions can be sized Medium at 5th level. If you are already bonded to your maximum number of companions and become bonded to a new companion, you must choose one existing companion to release from its vessel.",
+   "When you bond with a new companion, the companion gains improvements and Hit Dice based on its CR and your tamer level. See the {@classFeature Tamer Companion Summary|Tamer|HelianasGuidetoMonsterHunting|1} table on the previous page for details."
+  ]
+ },
+ {
+  "name": "Pocket Family II",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 7,
+  "entries": [
+   "As you gain levels in this class, the number of companions and maximum size of companion to which you can become bonded increases. You can be bonded to three creatures at 7th level. If you are already bonded to your maximum number of companions and become bonded to a new companion, you must choose one existing companion to release from its vessel.",
+   "When you bond with a new companion, the companion gains improvements and Hit Dice based on its CR and your tamer level See the {@classFeature Tamer Companion Summary|Tamer|HelianasGuidetoMonsterHunting|1} table on the previous page for details."
+  ]
+ },
+ {
+  "name": "Pocket Family III",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 11,
+  "entries": [
+   "As you gain levels in this class, the number of companions and maximum size of companion to which you can become bonded increases. You can be bonded to four creatures at 11th level. Your companions can be sized Large at 11th level. If you are already bonded to your maximum number of companions and become bonded to a new companion, you must choose one existing companion to release from its vessel.",
+   "When you bond with a new companion, the companion gains improvements and Hit Dice based on its CR and your tamer level See the {@classFeature Tamer Companion Summary|Tamer|HelianasGuidetoMonsterHunting|1} table on the previous page for details."
+  ]
+ },
+ {
+  "name": "Pocket Family IV",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 15,
+  "entries": [
+   "As you gain levels in this class, the number of companions and maximum size of companion to which you can become bonded increases. You can be bonded to five creatures at 15th level. Your companions can be sized Huge at 17th level. If you are already bonded to your maximum number of companions and become bonded to a new companion, you must choose one existing companion to release from its vessel.",
+   "When you bond with a new companion, the companion gains improvements and Hit Dice based on its CR and your tamer level See the {@classFeature Tamer Companion Summary|Tamer|HelianasGuidetoMonsterHunting|1} table on the previous page for details."
+  ]
+ },
+ {
+  "name": "Pocket Family V",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 19,
+  "entries": [
+   "As you gain levels in this class, the number of companions and maximum size of companion to which you can become bonded increases. You can be bonded to six creatures at 19th level. If you are already bonded to your maximum number of companions and become bonded to a new companion, you must choose one existing companion to release from its vessel.",
+   "When you bond with a new companion, the companion gains improvements and Hit Dice based on its CR and your tamer level. See the {@classFeature Tamer Companion Summary|Tamer|HelianasGuidetoMonsterHunting|1} table on the previous page for details."
+  ]
+ },
+ {
+  "name": "Psychic Bond",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 2,
+  "entries": [
+   "While your companion is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through your companion's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the companion has During this time, you are deaf and blind with regard to your own senses.",
+   {
+    "type": "entries",
+    "name": "Spell Swap",
+    "entries": [
+     "While your companion is summoned, is within 100 feet of you, and you hold its vessel, any spells your companion knows are added to your known spells In addition, when you cast a spell with a range of self or touch, your companion can be the target of that spell."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Pugilist Subclass",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 3,
+  "entries": [
+   "You gain a Pugilist subclass of your choice. A subclass is a specialization that grants you features at certain Pugilist levels. For the rest of your career, you gain each of your subclass's features that are of your Pugilist level or lower."
+  ]
+ },
+ {
+  "name": "Pugnacious",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 15,
+  "entries": [
+   "When you roll {@variantrule Initiative|XPHB}, you can remove one level of {@condition Exhaustion|XPHB} on yourself and regain your uses of {@classFeature Down But Not Out|Pugilist|Pugilist2024|7|Pugilist2024}, {@classFeature Dig Deep|Pugilist|Pugilist2024|4|Pugilist2024}, and {@classFeature Shake It Off|Pugilist|Pugilist2024|10|Pugilist2024}.",
+   "Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
+  "name": "Quick Draw",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 1,
+  "entries": [
+   "You're adept at drawing and firing before others have time to react, granting you the following benefits.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Initiative",
+      "entries": [
+       "You have {@variantrule Advantage|XPHB} on {@variantrule Initiative|XPHB} rolls."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Double Draw",
+      "entries": [
+       "You can draw or stow two weapons that lack {@itemProperty 2H|XPHB|Two-Handed} when you would normally be able to draw or stow only one."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Reliable Talent",
+  "source": "TLotRR",
+  "page": 58,
+  "className": "Treasure Hunter",
+  "classSource": "TLotRR",
+  "level": 10,
+  "entries": [
+   "By 10th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a {@dice d20} roll of 9 or lower as a 10."
+  ]
+ },
+ {
+  "name": "Rhymes of Lore (d8)",
+  "source": "TLotRR",
+  "page": 55,
+  "className": "Scholar",
+  "classSource": "TLotRR",
+  "level": 5,
+  "entries": [
+   "The die becomes a {@dice d8} at 5th level."
+  ]
+ },
+ {
+  "name": "Rhymes of Lore (d10)",
+  "source": "TLotRR",
+  "page": 55,
+  "className": "Scholar",
+  "classSource": "TLotRR",
+  "level": 10,
+  "entries": [
+   "The die becomes a {@dice d10} at 10th level."
+  ]
+ },
+ {
+  "name": "Rhymes of Lore",
+  "source": "TLotRR",
+  "page": 55,
+  "className": "Scholar",
+  "classSource": "TLotRR",
+  "level": 1,
+  "entries": [
+   "Rhymes of Lore are short verses created by many cultures to help them remember significant facts from ancient history which might otherwise be lost. You can use a bonus action on your turn to choose one creature (including yourself) within 30 feet of you who can hear and understand you. That creature gains one Lore die, a {@dice d6}.",
+   "Once within the next minute, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after seeing the roll before deciding to use the Lore die, but must decide before the Loremaster says whether the roll succeeds or fails. Once the Lore die is rolled, it is lost. A creature can have only one Lore die at a time.",
+   "You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain any expended uses when you finish a long rest.",
+   "Your Rhymes of Lore die changes when you reach certain levels in this calling. The die becomes a {@dice d8} at 5th level, and a {@dice d10} at 10th level."
+  ]
+ },
+ {
+  "name": "Risk",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 2,
+  "entries": [
+   "You can perform incredible feats of daring fueled by special dice called Risk Dice.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Risk Dice",
+      "entries": [
+       "You have four Risk Dice, which are d8s. A Risk Die is expended when you use it. You regain all expended Risk Dice when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. Your Risk Die changes and more Risk Dice become available as shown on the Risk Dice column of the Gunslinger Features table."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Maneuvers",
+      "entries": [
+       "You can expend Risk Dice to perform maneuvers. Your maneuver options are detailed later in the class description."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Saving Throws",
+      "entries": [
+       "If a maneuver requires a saving throw, the DC equals 8 plus your Dexterity modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Maneuver Options",
+    "entries": [
+     {
+      "type": "options",
+      "entries": [
+       {
+        "type": "refOptionalfeature",
+        "optionalfeature": "Bite the Bullet|ValdaGunslinger"
+       },
+       {
+        "type": "refOptionalfeature",
+        "optionalfeature": "Blindfire|ValdaGunslinger"
+       },
+       {
+        "type": "refOptionalfeature",
+        "optionalfeature": "Dodge Roll|ValdaGunslinger"
+       },
+       {
+        "type": "refOptionalfeature",
+        "optionalfeature": "Grazing Shot|ValdaGunslinger"
+       },
+       {
+        "type": "refOptionalfeature",
+        "optionalfeature": "Maverick Spirit|ValdaGunslinger"
+       },
+       {
+        "type": "refOptionalfeature",
+        "optionalfeature": "Skin of Your Teeth|ValdaGunslinger"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Rumour of the Earth",
+  "source": "TLotRR",
+  "page": 62,
+  "className": "Warden",
+  "classSource": "TLotRR",
+  "level": 3,
+  "entries": [
+   "Beginning at 3rd level, you can use your action to focus your awareness on the region around you. You can sense whether and which of your favoured foes are present within a number of miles of you equal to your Wisdom modifier (minimum of 1; double this value if you are in your warded lands). This feature doesn't reveal the creatures' location or number. Once you use this feature, you cannot use it again until you finish a short or long rest."
+  ]
+ },
+ {
+  "name": "Scholar Tradition",
+  "source": "TLotRR",
+  "page": 55,
+  "className": "Scholar",
+  "classSource": "TLotRR",
+  "level": 3,
+  "entries": [
+   "Also at 3rd level, you choose a tradition that determines the focus of your study. Choose {@subclass Healing|Scholar|TLotRR|TLotRR} or {@subclass Lore|Scholar|TLotRR|TLotRR} (both are detailed at the end of the calling description). The tradition you choose grants you features at 3rd level and again at 7th level."
+  ]
+ },
+ {
+  "name": "Scholar Tradition feature",
+  "source": "TLotRR",
+  "page": 55,
+  "className": "Scholar",
+  "classSource": "TLotRR",
+  "level": 7,
+  "entries": [
+   "At 7th level, you gain a feature granted by your Scholar Tradition feature."
+  ]
+ },
+ {
+  "name": "School of Hard Knocks",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 9,
+  "entries": [
+   "Once per turn, you can deal an extra {@damage 1d12} damage when you hit with an {@variantrule Unarmed Strike|XPHB} or attack with a Pugilist weapon. This damage is the same type dealt by the weapon or {@variantrule Unarmed Strike|XPHB}. You can forgo this extra damage to apply one of the following effects.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Endanger",
+      "entries": [
+       "The next time the creature is hit by an attack, the attack deals the maximum result of the attack's damage dice rather than rolling."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Provoke",
+      "entries": [
+       "The creature has {@variantrule Disadvantage|XPHB} on attack rolls against creatures other than you until the end of your next turn."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Shadow-Lore",
+  "source": "TLotRR",
+  "page": 61,
+  "className": "Warden",
+  "classSource": "TLotRR",
+  "level": 1,
+  "languageProficiencies": [
+   {
+    "any": 1
+   }
+  ],
+  "entries": [
+   "Beginning at 1st level, you have significant experience studying, tracking, and hunting the servants of the Shadow. Choose a kind of favoured foe: Beasts, Evil Men, Giants, Monstrosities, Orcs, or Undead.",
+   "You can add your Wisdom modifier to the damage roll whenever you hit one of your favoured foes, and to saving throws you make against their special abilities. Additionally, you have advantage on Wisdom ({@skill Hunting|TLotRR}) and Wisdom ({@skill Perception}) checks to find your favoured foes, as well as on Intelligence checks to recall information about them. You also learn one language of your choice that is spoken by your favoured foes, if they speak one at all.",
+   "You choose one additional favoured foe at 6th level, and again at 10th level. As you gain levels, your choices should reflect the types of enemies you have encountered on your adventures."
+  ]
+ },
+ {
+  "name": "Shadow-Lore improvement",
+  "source": "TLotRR",
+  "page": 61,
+  "className": "Warden",
+  "classSource": "TLotRR",
+  "level": 6,
+  "languageProficiencies": [
+   {
+    "any": 1
+   }
+  ],
+  "entries": [
+   "You choose one additional favoured foe at 6th level. As you gain levels, your choices should reflect the types of enemies you have encountered on your adventures."
+  ]
+ },
+ {
+  "name": "Shadow-Lore improvement",
+  "source": "TLotRR",
+  "page": 61,
+  "className": "Warden",
+  "classSource": "TLotRR",
+  "level": 10,
+  "languageProficiencies": [
+   {
+    "any": 1
+   }
+  ],
+  "entries": [
+   "You choose one additional favoured foe at 10th level. As you gain levels, your choices should reflect the types of enemies you have encountered on your adventures."
+  ]
+ },
+ {
+  "name": "Shake It Off",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 10,
+  "entries": [
+   "With unflappable resolve, you can remove one of the following conditions from yourself at the start of each of your turns: {@condition Blinded|XPHB}, {@condition Charmed|XPHB}, {@condition Deafened|XPHB}, one level of {@condition Exhaustion|XPHB}, {@condition Frightened|XPHB}, {@condition Paralyzed|XPHB}, {@condition Poisoned|XPHB}, {@condition Restrained|XPHB}, or {@condition Stunned|XPHB}.",
+   "Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB} unless you take a level of {@condition Exhaustion|XPHB} (no action required by you) to restore your use of it."
+  ]
+ },
+ {
+  "name": "Slayer's Aid",
+  "source": "GrimHollowPG24",
+  "page": 53,
+  "className": "Monster Hunter",
+  "classSource": "GrimHollowPG24",
+  "level": 17,
+  "entries": [
+   "You're able to coordinate with your allies to quickly slay dangerous monsters.",
+   "When you use {@classFeature Studied Response|Monster Hunter|GrimHollowPG24|2}, choose a {@variantrule Friendly [Attitude]|XPHB|Friendly} creature that can see or hear you. That creature can use its {@variantrule Reaction|XPHB} to make one attack with a weapon or {@variantrule Unarmed Strike|XPHB} against the creature that triggered your {@classFeature Studied Response|Monster Hunter|GrimHollowPG24|2}. If the ally does not have their {@variantrule Reaction|XPHB}, they regain it but then must use it to make the attack. Your ally's attack occurs after yours but before the target creature rolls its own attack. This ability refreshes at the start of your turn."
+  ]
+ },
+ {
+  "name": "Sneak Attack",
+  "source": "TLotRR",
+  "page": 52,
+  "className": "Messenger",
+  "classSource": "TLotRR",
+  "level": 2,
+  "entries": [
+   "Starting at 2nd level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra {@damage 1d6} damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a {@itemProperty F||finesse} or a ranged weapon.",
+   "You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't {@condition incapacitated}, and you don't have disadvantage on the attack roll.",
+   "The amount of the extra damage increases as you gain levels in this calling, as shown in the Sneak Attack column of the Messenger table."
+  ]
+ },
+ {
+  "name": "Sneak Attack",
+  "source": "TLotRR",
+  "page": 58,
+  "className": "Treasure Hunter",
+  "classSource": "TLotRR",
+  "level": 1,
+  "entries": [
+   "Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra {@dice 1d6} damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a {@itemProperty F||finesse} or a ranged weapon.",
+   "You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't {@condition incapacitated}, and you don't have disadvantage on the attack roll.",
+   "The amount of the extra damage increases as you gain levels in this calling, as shown in the Sneak Attack column of the Treasure Hunter table."
+  ]
+ },
+ {
+  "name": "Soul Bond",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 1,
+  "entries": [
+   "Companions make death saving throws, die, and can be revived like any player character. A companion that has been stabilised remains {@condition unconscious} until it regains hit points, or until you finish a long rest. Companions that are stable and have 0 hit points when you finish a long rest regain half their maximum hit points.",
+   "Instead, you have a pool of healing power equal to five times your tamer level that replenishes when you finish a long rest. Whenever you finish a short rest, you can choose to draw power from that pool, restoring a total number of hit points amongst your companions up to the maximum amount remaining in your pool."
+  ]
+ },
+ {
+  "name": "Spellcasting",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 2,
+  "entries": [
+   "By 2nd level, you have learned to harness your mental fortitude to augment the potential of others. You can cast {@filter tamer spell list|spells|class=tamer (hgtmh)}.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "name": "Cantrips",
+      "type": "entries",
+      "entries": [
+       "At 1st level, you know 2 cantrips of your choice from the {@filter tamer spell list|spells|class=tamer (hgtmh)}. You learn additional tamer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Tamer table."
+      ]
+     },
+     {
+      "name": "Spell Slots",
+      "type": "entries",
+      "entries": [
+       "The Tamer table shows how many spell slots you have to cast your tamer spells of 1st level and higher. To cast one of these tamer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+       "For example, if you know the 1st-level spell {@spell animal friendship} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell animal friendship} using either slot."
+      ]
+     },
+     {
+      "name": "Spells Known of 1st Level and Higher",
+      "type": "entries",
+      "entries": [
+       "You know two 1st-level spells of your choice from the {@filter tamer spell list|spells|class=tamer (hgtmh)}.",
+       "The Spells Known column of the Tamer table shows when you learn more tamer spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level.",
+       "Additionally, when you gain a level in this class, you can choose one of the tamer spells you know and replace it with another spell from the tamer spell list, which also must be of a level for which you have spell slots."
+      ]
+     },
+     {
+      "name": "Spellcasting Ability",
+      "type": "entries",
+      "entries": [
+       "When you gain your first level in this class, choose whether you use your knowledge (Intelligence), willpower (Wisdom), or force of personality (Charisma) as your spellcasting ability for your tamer spells You use this spellcasting ability whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a tamer spell you cast and when making an attack roll with one.",
+       {
+        "type": "abilityDc",
+        "name": "Spell",
+        "attributes": [
+         "cha",
+         "int",
+         "wis"
+        ]
+       },
+       {
+        "type": "abilityAttackMod",
+        "name": "Spell",
+        "attributes": [
+         "cha",
+         "int",
+         "wis"
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Spellcasting Focus",
+      "type": "entries",
+      "entries": [
+       "You can use a creature's vessel as a spellcasting focus for your tamer spells."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Studied Response",
+  "source": "GrimHollowPG24",
+  "page": 52,
+  "className": "Monster Hunter",
+  "classSource": "GrimHollowPG24",
+  "level": 2,
+  "entries": [
+   "You have learned the most effective way to slay a monster is to strike its most vulnerable area at the right moment. Too early, and your attack glances away. Too late, and the monster may eviscerate you.",
+   "When a creature you can see within 60 feet of you targets you or another creature with a melee or ranged attack, you can take a {@variantrule Reaction|XPHB} before the attack roll to make one attack with a weapon or an {@variantrule Unarmed Strike|XPHB} against that creature.",
+   "If the attack misses, you regain the use of your {@variantrule Reaction|XPHB}."
+  ]
+ },
+ {
+  "name": "Subclass Feature",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 6,
+  "entries": [
+   "You gain a feature from your Kindred Subclass."
+  ]
+ },
+ {
+  "name": "Subclass Feature",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 9,
+  "entries": [
+   "You gain a feature from your Kindred Subclass."
+  ]
+ },
+ {
+  "name": "Subclass Feature",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 11,
+  "entries": [
+   "You gain a feature from your Kindred Subclass."
+  ]
+ },
+ {
+  "name": "Subclass Feature",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 15,
+  "entries": [
+   "You gain a feature from your Kindred Subclass."
+  ]
+ },
+ {
+  "name": "Subclass Feature",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 18,
+  "entries": [
+   "You gain a feature from your Kindred Subclass."
+  ]
+ },
+ {
+  "name": "Subclass Feature",
+  "source": "GrimHollowPG24",
+  "page": 53,
+  "className": "Monster Hunter",
+  "classSource": "GrimHollowPG24",
+  "level": 7,
+  "entries": [
+   "You gain a feature from your Monster Hunter Subclass."
+  ]
+ },
+ {
+  "name": "Subclass Feature",
+  "source": "GrimHollowPG24",
+  "page": 53,
+  "className": "Monster Hunter",
+  "classSource": "GrimHollowPG24",
+  "level": 10,
+  "entries": [
+   "You gain a feature from your Monster Hunter Subclass."
+  ]
+ },
+ {
+  "name": "Subclass Feature",
+  "source": "GrimHollowPG24",
+  "page": 53,
+  "className": "Monster Hunter",
+  "classSource": "GrimHollowPG24",
+  "level": 15,
+  "entries": [
+   "You gain a feature from your Monster Hunter Subclass."
+  ]
+ },
+ {
+  "name": "Subclass Feature",
+  "source": "GrimHollowPG24",
+  "page": 53,
+  "className": "Monster Hunter",
+  "classSource": "GrimHollowPG24",
+  "level": 18,
+  "entries": [
+   "You gain a feature from your Monster Hunter Subclass."
+  ]
+ },
+ {
+  "name": "Subclass Feature",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 6,
+  "entries": [
+   "You gain a feature from your Pugilist Subclass."
+  ]
+ },
+ {
+  "name": "Subclass Feature",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 11,
+  "entries": [
+   "You gain a feature from your Pugilist Subclass."
+  ]
+ },
+ {
+  "name": "Subclass Feature",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 17,
+  "entries": [
+   "You gain a feature from your Pugilist Subclass."
+  ]
+ },
+ {
+  "name": "Subclass Feature",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 6,
+  "entries": [
+   "You gain a feature from your Gunslinger Subclass."
+  ]
+ },
+ {
+  "name": "Subclass Feature",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 10,
+  "entries": [
+   "You gain a feature from your Gunslinger Subclass."
+  ]
+ },
+ {
+  "name": "Subclass Feature",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 14,
+  "entries": [
+   "You gain a feature from your Gunslinger Subclass."
+  ]
+ },
+ {
+  "name": "Summon the Horde",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 20,
+  "entries": [
+   "In times of great need, a tamer can summon many of its companions simultaneously. As an action, you can summon up to three companions whose vessels are on your person, which remain summoned for 1 minute.",
+   "As an action on subsequent turns, you can issue mental commands to all your companions at once, allowing them to take an action in their stat block or some other action. You choose the order in which your companions act each round. After the minute elapses, all your companions bar one (which you choose) return to their vessels and a wave of lethargy sweeps over you; you can't move or take actions until the end of your next turn Once you use this feature, you can't do so again until you finish a long rest."
+  ]
+ },
+ {
+  "name": "Superior Interdict",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 14,
+  "entries": [
+   "Damage from your seals ignores any damage resistances the target has.",
+   "In addition, you can use a bonus action to regain a seal if you have none remaining. Once you regain a seal in this way, you can't do so again until you finish a long rest."
+  ]
+ },
+ {
+  "name": "Surge of Vigour",
+  "source": "TLotRR",
+  "page": 49,
+  "className": "Champion",
+  "classSource": "TLotRR",
+  "level": 1,
+  "entries": [
+   "You have a limited well of stamina that you can draw on to protect yourself from harm, or to push yourself beyond your normal limits for a moment. You can use a bonus action to either take the {@action Attack}, {@action Dash}, {@action Disengage}, or {@action Dodge} action, or to regain hit points equal to {@dice 1d8} + your Champion level + your Constitution modifier. Once you use this feature, you must finish a short or long rest before you can use it again."
+  ]
+ },
+ {
+  "name": "Swagger Streak",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 2,
+  "entries": [
+   "When you fail a Strength, Dexterity, Constitution, or Charisma check, you can expend a {@classFeature Moxie|Pugilist|Pugilist2024|2|Pugilist2024|Moxie Point} to attempt to swagger your way to success. Roll your Fisticuffs die and add the number rolled to the ability check, potentially turning it into a success. If the ability check still fails, you regain the expended Moxie Point and can't use this feature again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
+  "name": "Switcheroo",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 13,
+  "entries": [
+   "You learn how to switch places with your companion in the nick of time. While you and your companion are within 100 feet of each other, you can use a bonus action, or a reaction when you or your companion is the target of an attack by an attacker you can see, to magically switch places with your companion. If performed as a reaction, the creature that appears in the targeted creature's space becomes the new target of the attack You have a number of uses of this feature equal to your tamer spellcasting ability modifier (minimum of once). You regain all expended uses when you finish a long rest."
+  ]
+ },
+ {
+  "name": "Tame Creature",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 1,
+  "entries": [
+   "There's one way to defeat deadly foes: have deadlier friends As you explore, you will encounter new creatures which you may wish to make your companions. You can tame a Small or smaller creature of CR 1/2 or lower, as described below. As you gain levels in this class, the size and challenge rating of creatures you can tame increases, as shown in the {@classFeature Tamer Companion Summary|Tamer|HelianasGuidetoMonsterHunting|1} table.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Vessel",
+      "entries": [
+       "To tame a companion, you must first prepare a vessel using special inks, gems, or other materials. Preparing the vessel takes 8 hours of work and components with a value in gold pieces equal to at least one hundred times the target creature's CR.",
+       {
+        "type": "inset",
+        "name": "Vessels and Cost",
+        "entries": [
+         "At 4th level, you can capture creatures of CR 1 and below. To capture a CR ½ or CR 1 creature, you need a vessel worth 50 gp or 100 gp, respectively. If you try to use a vessel worth 50 gp to capture a CR 1 creature, the creature automatically succeeds on its saving throw, and the vessel can be recovered. You can always break down the components of an old vessel to craft a new one as part of the vessel preparation process."
+        ]
+       }
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Taming a Creature",
+      "entries": [
+       "As an action, you can throw an empty vessel at a creature you can see within 30 feet of you. The creature must succeed on a Charisma saving throw against your tamer spell save DC or be trapped within the vessel A creature automatically succeeds on this saving throw if:",
+       {
+        "type": "list",
+        "items": [
+         "It is a humanoid, giant, or swarm.",
+         "It is larger than your maximum companion size (use a creature's unaltered size if it is under the influence of a size-changing magical effect such as {@spell enlarge/reduce}).",
+         "It has a higher CR than your maximum companion CR (see the {@classFeature Tamer Companion Summary|Tamer|HelianasGuidetoMonsterHunting|1} table).",
+         "It has a higher CR than the vessel can capture.",
+         "It has more than half of its hit points."
+        ]
+       },
+       "If a creature doesn't automatically succeed on this saving throw for one of the above reasons, and has either fewer than ten hit points or one-quarter of its hit points, it automatically fails this saving throw A creature that fails the saving throw is trapped in your vessel and becomes you companion when you next finish a long rest.",
+       {
+        "type": "inset",
+        "style": "text-center",
+        "name": "Optional Rule: Non-Combat Taming",
+        "entries": [
+         "If a player impresses a celestial with an especially noble act, or rears a creature from an egg, that creature might be willing to become a tamer's companion. If so, feel free to ignore the usual rules regarding saving throws on taming, and let the beautiful story of companionship unfold!"
+        ]
+       },
+       {
+        "type": "inset",
+        "style": "text-center",
+        "name": "Abilities and Proficiency",
+        "entries": [
+         "As your companions' ability scores change, often through Companion Improvement Training, their skill modifiers, saving throws, attack modifiers and saving throw DCs will also change. Working out what ability a creature's attack or saving throw uses can require a bit of detective work. First you have to know the creature's proficiency bonus (PB). Luckily this is quite easy - it all depends on the creature's CR and players' PB. A creatures' base PB is +2 at CR 0-4and +3 at CR 5-6.",
+         "Firstly, subtract the creature's PB from its modifiers/save DCs. Next, for save DCs, subtract an additional 8 from the DC. Finally, match the remaining values to the ability score modifiers.",
+         "Let's use the CR 4 red dragon wyrmling's bite attack and breath weapon as an example. It has a PB of +2, a Strength of 19 (+4), a Dexterity of 10 (+0), and a Constitution of 17 (+3). Its bite attack has a +6 modifier, while its breath weapon has a DC 13 Dexterity saving throw. Subtracting the PB from these values (and 8 from the DC) we are left with +4 and DC 3. We can deduce that the bite attack uses Strength (the +4 matches the wyrmling's Strength modifier), and the fire breath uses Constitution (DC 3 matches the wyrmling's +3 Constitution modifier).",
+         "As a tamer can only tame a CR 4 creature at 13th level, the wyrmling's PB increases from +2 to +5 when it be comes a companion. This results in its attack modifier and save DC increasing to +9 and DC 16 respectively."
+        ]
+       }
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Lost Traits",
+      "entries": [
+       "When a creature becomes your companion, it loses the following from its stat block:",
+       {
+        "type": "list",
+        "items": [
+         "The ability to cast any spells (though it retains its spells known, see {@classFeature Psychic Bond|Tamer|HelianasGuidetoMonsterHunting|1}).",
+         "Any summoning actions or actions that create additional creatures (such as a wraith's Create Spectre or an ooze's Split reaction).",
+         "The Regeneration, Rejuvenation, and Legendary Resistance traits.",
+         "Any legendary actions and legendary action options.",
+         "Any lair actions and regional effects.",
+         "Any mythic traits and mythic action options."
+        ]
+       },
+       {
+        "type": "inset",
+        "style": "text-center",
+        "name": "Powerful Companion Abilities",
+        "entries": [
+         "Some monster features are very powerful, and aren't designed for use by players. The two most common are recharge actions and gazes. You can help make a companion more balanced by changing these features slightly. It's advised to approach this on a case-by-case basis, as each feature is different, and some might not require changing.",
+         {
+          "type": "entries",
+          "name": "Recharge Abilities",
+          "entries": [
+           "Some creatures' actions haveSome creatures' actions have the addendum \"Recharge (5-6)\". This means that after a creature uses that action, it can't use it again until it has recharged. At the start of the creature's turn, you roll a d6, and if the result is a 5 or higher, the action recharges. No class has recharge abilities, in part because they add a lot of randomness to the game. Instead of using this recharge mechanic, you can simply change any ability with a recharge to one of the following:",
+           {
+            "type": "table",
+            "colStyles": [
+             "col-5 text-center",
+             "col-7 text-center"
+            ],
+            "colLabels": [
+             "Recharge Condition",
+             "Companion Recharge"
+            ],
+            "rows": [
+             [
+              "Recharge (4-6)",
+              "Recharges after 1 minute"
+             ],
+             [
+              "Recharge (5-6) ",
+              "Recharges after 10 minute"
+             ],
+             [
+              "Recharge -6) ",
+              "Recharges on a short or long rest"
+             ]
+            ]
+           }
+          ]
+         },
+         {
+          "type": "entries",
+          "name": "Perpetually Active Abilities",
+          "entries": [
+           "Some traits, like medusa's Petrifying Gaze, which is perpetually active and has the power of a 6th level spell, have the potential to become overpowered and repetitive. To balance this, you can add the caveat that \"after a creature makes a saving throw against this effect, it is immuneimmune to the effect for the nextto the effect for 24 hours\". Work with your GM to find a balanced solution for your game."
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Tamer Companion Summary",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 1,
+  "entries": [
+   {
+    "type": "table",
+    "caption": "Tamer Companion Summary Table",
+    "colStyles": [
+     "col-6 text-left",
+     "col-6 text-left"
+    ],
+    "rows": [
+     [
+      {
+       "type": "table",
+       "colStyles": [
+        "col-1-5 text-center",
+        "col-3-5 text-left",
+        "col-3-5 text-left",
+        "col-3-5 text-left"
+       ],
+       "colLabels": [
+        "Tamer Level",
+        "Maximum # of Bonded Companions",
+        "Maximum Companion Size",
+        "Maximum Companion CR"
+       ],
+       "rows": [
+        [
+         1,
+         1,
+         "Small",
+         "½"
+        ],
+        [
+         2,
+         1,
+         "Small",
+         "½"
+        ],
+        [
+         3,
+         2,
+         "Small",
+         "½"
+        ],
+        [
+         4,
+         2,
+         "Small",
+         1
+        ],
+        [
+         5,
+         2,
+         "Medium",
+         1
+        ],
+        [
+         6,
+         2,
+         "Medium",
+         1
+        ],
+        [
+         7,
+         3,
+         "Medium",
+         2
+        ],
+        [
+         8,
+         3,
+         "Medium",
+         2
+        ],
+        [
+         9,
+         3,
+         "Medium",
+         2
+        ],
+        [
+         10,
+         3,
+         "Medium",
+         3
+        ],
+        [
+         11,
+         4,
+         "Large",
+         3
+        ],
+        [
+         12,
+         4,
+         "Large",
+         3
+        ],
+        [
+         13,
+         4,
+         "Large",
+         4
+        ],
+        [
+         14,
+         4,
+         "Large",
+         4
+        ],
+        [
+         15,
+         5,
+         "Large",
+         4
+        ],
+        [
+         16,
+         5,
+         "Large",
+         5
+        ],
+        [
+         17,
+         5,
+         "Huge",
+         5
+        ],
+        [
+         18,
+         5,
+         "Huge",
+         5
+        ],
+        [
+         19,
+         6,
+         "Huge",
+         6
+        ],
+        [
+         20,
+         6,
+         "Huge",
+         6
+        ]
+       ]
+      },
+      {
+       "type": "table",
+       "caption": "Improvements/Hit Dice Gained on Taming*",
+       "colStyles": [
+        "col-1-8 text-center",
+        "col-1-7 text-center",
+        "col-1-7 text-center",
+        "col-1-7 text-center",
+        "col-1-7 text-center",
+        "col-1-7 text-center",
+        "col-1-7 text-center"
+       ],
+       "colLabels": [
+        "CR ½-",
+        "CR 1",
+        "CR 2",
+        "CR 3",
+        "CR 4",
+        "CR 5",
+        "CR 6"
+       ],
+       "rows": [
+        [
+         "0/0",
+         "—",
+         "—",
+         "—",
+         "—",
+         "—",
+         "—"
+        ],
+        [
+         "1/0",
+         "—",
+         "—",
+         "—",
+         "—",
+         "—",
+         "—"
+        ],
+        [
+         "2/0",
+         "—",
+         "—",
+         "—",
+         "—",
+         "—",
+         "—"
+        ],
+        [
+         "3/1",
+         "0/0",
+         "—",
+         "—",
+         "—",
+         "—",
+         "—"
+        ],
+        [
+         "4/1",
+         "1/0",
+         "—",
+         "—",
+         "—",
+         "—",
+         "—"
+        ],
+        [
+         "5/1",
+         "2/0",
+         "—",
+         "—",
+         "—",
+         "—",
+         "—"
+        ],
+        [
+         "6/1",
+         "3/0",
+         "0/0",
+         "—",
+         "—",
+         "—",
+         "—"
+        ],
+        [
+         "7/2",
+         "4/1",
+         "1/1",
+         "—",
+         "—",
+         "—",
+         "—"
+        ],
+        [
+         "8/2",
+         "5/1",
+         "2/1",
+         "—",
+         "—",
+         "—",
+         "—"
+        ],
+        [
+         "9/2",
+         "6/1",
+         "3/1",
+         "0/0",
+         "—",
+         "—",
+         "—"
+        ],
+        [
+         "10/2",
+         "7/1",
+         "4/1",
+         "1/0",
+         "—",
+         "—",
+         "—"
+        ],
+        [
+         "11/3",
+         "8/2",
+         "5/2",
+         "2/1",
+         "—",
+         "—",
+         "—"
+        ],
+        [
+         "12/3",
+         "9/2",
+         "6/2",
+         "3/1",
+         "0/0",
+         "—",
+         "—"
+        ],
+        [
+         "13/3",
+         "10/2",
+         "7/2",
+         "4/1",
+         "1/0",
+         "—",
+         "—"
+        ],
+        [
+         "14/3",
+         "11/2",
+         "8/2",
+         "5/1",
+         "2/0",
+         "—",
+         "—"
+        ],
+        [
+         "15/4",
+         "12/3",
+         "9/3",
+         "6/2",
+         "3/1",
+         "0/0",
+         "—"
+        ],
+        [
+         "16/4",
+         "13/3",
+         "10/3",
+         "7/2",
+         "4/1",
+         "1/0",
+         "—"
+        ],
+        [
+         "17/4",
+         "14/3",
+         "11/3",
+         "8/2",
+         "5/1",
+         "2/0",
+         "—"
+        ],
+        [
+         "18/5",
+         "15/4",
+         "12/4",
+         "9/3",
+         "6/2",
+         "3/1",
+         "0/0"
+        ],
+        [
+         "19/5",
+         "16/4",
+         "13/4",
+         "10/3",
+         "7/2",
+         "4/1",
+         "1/0"
+        ]
+       ]
+      }
+     ]
+    ],
+    "footnotes": [
+     "*For example, if a 10th level tamer trained a CR 1 creature, that creature would immediately gains 6 improvements (see previous page) and 1 Hit Dice. This is indicated by the value '6/1' in the 'CR 1' column and the level '10' row."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Terrorizing Force",
+  "source": "IllriggerRevised",
+  "className": "Illrigger",
+  "classSource": "IllriggerRevised",
+  "level": 11,
+  "entries": [
+   "Your attacks are empowered with devastating might. When you gain this feature, choose a damage type: cold, fire, necrotic, or poison. When you hit with a weapon attack, you deal an extra {@damage 1d8} damage of the chosen type. You can choose a different damage type when you finish a long rest."
+  ]
+ },
+ {
+  "name": "The Beast",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 1,
+  "entries": [
+   "You have a terrible Beast within that can only be sated with blood. As a {@variantrule Bonus Action|XPHB}, you can use this Beast's predatory instincts to sharpen your senses and abilities. Until the start of your next turn, you have {@variantrule Advantage|XPHB} on {@variantrule D20 Test|XPHB|D20 Tests} you make.",
+   "You can use this feature a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Hunger",
+      "entries": [
+       "If a {@variantrule D20 Test|XPHB} benefiting from your Beast feature fails, you go into a bloodlusted, hunger-driven state. This bloodlusted state ends after 1 minute or after you have successfully used your Feed feature, whichever comes first.",
+       "While bloodlusted, you regard the creature nearest to you that you can see or hear and that you can feed on as your prey. If there are multiple possible creatures, choose one at random. On each of your turns, you must move as close to the creature as possible and take the {@action Attack|XPHB} action to make an {@variantrule Unarmed Strike|XPHB} to grapple the target. If you're unable to get close enough to the creature to grapple it, your turn ends after you've used up all your available movement. If the creature dies or can no longer be seen or heard by you, the next nearest creature that you can see or hear and that you can feed on becomes your new target. If the target is in range and has the {@condition Grappled|XPHB} condition at the start of your turn, you use your action to feed on it."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Tireless and Swift",
+  "source": "TLotRR",
+  "page": 52,
+  "className": "Messenger",
+  "classSource": "TLotRR",
+  "level": 1,
+  "entries": [
+   "Beginning at 1st level, your speed increases by 5 feet while you are not wearing heavy armour. In addition, whenever you must make a fatigue saving throw during a journey (see {@book Chapter 5|TLotRR|4|3. Ending the Journey}), you gain a bonus to the saving throw equal to your Messenger level.",
+   "The speed bonus increases to 10 feet when you reach 6th level in this calling. At 10th level, the speed bonus increases to 15 feet, and whenever you finish a short rest, your {@condition exhaustion} level (if any) is decreased by 1."
+  ]
+ },
+ {
+  "name": "Tireless and Swift improvement",
+  "source": "TLotRR",
+  "page": 52,
+  "className": "Messenger",
+  "classSource": "TLotRR",
+  "level": 6,
+  "entries": [
+   "The speed bonus increases to 10 feet when you reach 6th level in this calling."
+  ]
+ },
+ {
+  "name": "Tireless and Swift improvement",
+  "source": "TLotRR",
+  "page": 52,
+  "className": "Messenger",
+  "classSource": "TLotRR",
+  "level": 10,
+  "entries": [
+   "At 10th level, the speed bonus increases to 15 feet, and whenever you finish a short rest, your {@condition exhaustion} level (if any) is decreased by 1."
+  ]
+ },
+ {
+  "name": "Training Paradigm",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 3,
+  "entries": [
+   "You choose the type of Training Paradigm you follow from the list of available paradigms, which are detailed after the class's description. Your choice grants you features at 3rd level and again at 7th, 10th, 14th, and 18th level."
+  ]
+ },
+ {
+  "name": "Training Paradigm Feature",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 7,
+  "entries": [
+   "At 7th level, you gain one feature granted by your Training Paradigm."
+  ]
+ },
+ {
+  "name": "Training Paradigm Feature",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 10,
+  "entries": [
+   "At 10th level, you gain one feature granted by your Training Paradigm."
+  ]
+ },
+ {
+  "name": "Training Paradigm Feature",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 14,
+  "entries": [
+   "At 14th level, you gain one feature granted by your Training Paradigm."
+  ]
+ },
+ {
+  "name": "Training Paradigm Feature",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 18,
+  "entries": [
+   "At 18th level, you gain one feature granted by your Training Paradigm"
+  ]
+ },
+ {
+  "name": "Treasure Hunter Speciality",
+  "source": "TLotRR",
+  "page": 58,
+  "className": "Treasure Hunter",
+  "classSource": "TLotRR",
+  "level": 3,
+  "entries": [
+   "When you reach 3rd level, you choose a speciality to pattern your career as a Treasure Hunter after. You can choose to be a {@subclass Burglar|Treasure Hunter|TLotRR|TLotRR} or a {@subclass Spy|Treasure Hunter|TLotRR|TLotRR}. Specialities grant you features at 3rd and 7th level. Both specialties are detailed at the end of the calling description."
+  ]
+ },
+ {
+  "name": "Treasure Hunter Speciality feature",
+  "source": "TLotRR",
+  "page": 59,
+  "className": "Treasure Hunter",
+  "classSource": "TLotRR",
+  "level": 7,
+  "entries": [
+   "At 7th level, you gain a feature granted by your Treasure Hunter Speciality feature."
+  ]
+ },
+ {
+  "name": "Unarmoured Defence",
+  "source": "TLotRR",
+  "page": 52,
+  "className": "Messenger",
+  "classSource": "TLotRR",
+  "level": 1,
+  "entries": [
+   "Where such laws hold, it is custom for ambassadors not to be assailed. While you are wearing no armour and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Charisma modifier."
+  ]
+ },
+ {
+  "name": "Unarmoured Defence",
+  "source": "TLotRR",
+  "page": 55,
+  "className": "Scholar",
+  "classSource": "TLotRR",
+  "level": 1,
+  "entries": [
+   "Beginning at 1st level, while you are wearing no armour and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier."
+  ]
+ },
+ {
+  "name": "Unbreakable",
+  "source": "Pugilist2024",
+  "className": "Pugilist",
+  "classSource": "Pugilist2024",
+  "level": 14,
+  "entries": [
+   "You have {@variantrule Advantage|XPHB} on Strength, Dexterity, and Constitution saving throws.",
+   "Additionally, whenever you make a saving throw and fail, you can expend 1 {@classFeature Moxie|Pugilist|Pugilist2024|2|Pugilist2024|Moxie Point} to reroll it, and you must use the new roll."
+  ]
+ },
+ {
+  "name": "Uncanny Dodge",
+  "source": "TLotRR",
+  "page": 52,
+  "className": "Messenger",
+  "classSource": "TLotRR",
+  "level": 5,
+  "entries": [
+   "Beginning at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
+  ]
+ },
+ {
+  "name": "Uncanny Dodge",
+  "source": "TLotRR",
+  "page": 59,
+  "className": "Treasure Hunter",
+  "classSource": "TLotRR",
+  "level": 5,
+  "entries": [
+   "Beginning at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
+  ]
+ },
+ {
+  "name": "Unending Rhymes",
+  "source": "TLotRR",
+  "page": 55,
+  "className": "Scholar",
+  "classSource": "TLotRR",
+  "level": 5,
+  "entries": [
+   "Beginning when you reach 5th level, you regain all of your expended uses of Rhymes of Lore when you finish a short or long rest."
+  ]
+ },
+ {
+  "name": "Unfailing Rhymes",
+  "source": "TLotRR",
+  "page": 55,
+  "className": "Scholar",
+  "classSource": "TLotRR",
+  "level": 10,
+  "entries": [
+   "At 10th level, your Rhymes of Lore mastery is such that those who listen to them are bound to succeed. When a creature adds one of your Lore dice to its ability check, attack roll, or saving throw and the roll fails, the creature can keep the Lore die."
+  ]
+ },
+ {
+  "name": "Valiant",
+  "source": "TLotRR",
+  "page": 46,
+  "className": "Captain",
+  "classSource": "TLotRR",
+  "level": 3,
+  "entries": [
+   "Starting at 3rd level, you can add half your proficiency bonus, rounded down, to any saving throw you make that doesn't already include your proficiency bonus."
+  ]
+ },
+ {
+  "name": "Vampiric Will",
+  "source": "BoundByBlood",
+  "className": "Kindred",
+  "classSource": "BoundByBlood",
+  "level": 10,
+  "entries": [
+   "You have {@variantrule Advantage|XPHB} on saving throws to avoid or end the {@condition Charmed|XPHB} condition, and against effects that turn undead."
+  ]
+ },
+ {
+  "name": "Virtue",
+  "source": "TLotRR",
+  "page": 46,
+  "className": "Captain",
+  "classSource": "TLotRR",
+  "level": 4,
+  "entries": [
+   "At 4th level, you can take a common or cultural virtue of your choice (see {@book Chapter 4|TLotRR|3|Virtues})."
+  ]
+ },
+ {
+  "name": "Virtue",
+  "source": "TLotRR",
+  "page": 46,
+  "className": "Captain",
+  "classSource": "TLotRR",
+  "level": 8,
+  "entries": [
+   "At 8th level, you can take a common or cultural virtue of your choice (see {@book Chapter 4|TLotRR|3|Virtues})."
+  ]
+ },
+ {
+  "name": "Virtue",
+  "source": "TLotRR",
+  "page": 49,
+  "className": "Champion",
+  "classSource": "TLotRR",
+  "level": 4,
+  "entries": [
+   "At 4th level, you can take a common or cultural virtue of your choice (see {@book Chapter 4|TLotRR|3|Virtues})."
+  ]
+ },
+ {
+  "name": "Virtue",
+  "source": "TLotRR",
+  "page": 49,
+  "className": "Champion",
+  "classSource": "TLotRR",
+  "level": 8,
+  "entries": [
+   "At 8th level, you can take a common or cultural virtue of your choice (see {@book Chapter 4|TLotRR|3|Virtues})."
+  ]
+ },
+ {
+  "name": "Virtue",
+  "source": "TLotRR",
+  "page": 52,
+  "className": "Messenger",
+  "classSource": "TLotRR",
+  "level": 4,
+  "entries": [
+   "At 4th level, you can take a common or cultural virtue of your choice (see {@book Chapter 4|TLotRR|3|Virtues})."
+  ]
+ },
+ {
+  "name": "Virtue",
+  "source": "TLotRR",
+  "page": 52,
+  "className": "Messenger",
+  "classSource": "TLotRR",
+  "level": 8,
+  "entries": [
+   "At 8th level, you can take a common or cultural virtue of your choice (see {@book Chapter 4|TLotRR|3|Virtues})."
+  ]
+ },
+ {
+  "name": "Virtue",
+  "source": "TLotRR",
+  "page": 55,
+  "className": "Scholar",
+  "classSource": "TLotRR",
+  "level": 4,
+  "entries": [
+   "At 4th level, and again at 6th and 8th level, you can take a {@book common or cultural virtue|TLotRR|3|Virtues} of your choice. You can take each virtue only once. As normal, you cannot increase an ability score above 20 using this feature."
+  ]
+ },
+ {
+  "name": "Virtue",
+  "source": "TLotRR",
+  "page": 55,
+  "className": "Scholar",
+  "classSource": "TLotRR",
+  "level": 6,
+  "entries": [
+   "At 6th level, you can take a {@book common or cultural virtue|TLotRR|3|Virtues} of your choice. You can take each virtue only once. As normal, you cannot increase an ability score above 20 using this feature."
+  ]
+ },
+ {
+  "name": "Virtue",
+  "source": "TLotRR",
+  "page": 55,
+  "className": "Scholar",
+  "classSource": "TLotRR",
+  "level": 8,
+  "entries": [
+   "At 8th level, you can take a {@book common or cultural virtue|TLotRR|3|Virtues} of your choice. You can take each virtue only once. As normal, you cannot increase an ability score above 20 using this feature."
+  ]
+ },
+ {
+  "name": "Virtue",
+  "source": "TLotRR",
+  "page": 59,
+  "className": "Treasure Hunter",
+  "classSource": "TLotRR",
+  "level": 4,
+  "entries": [
+   "At 4th level, and again at 6th and 8th level, you can take a {@book common or cultural virtue|TLotRR|3|Virtues} of your choice. You can take each virtue only once. As normal, you cannot increase an ability score above 20 using this feature.",
+   "At 6th level, instead of taking a virtue you can gain a craft slot and a craft of your choice from the Scholar's Crafts list (see {@book Crafts|TLotRR|2|Crafts})."
+  ]
+ },
+ {
+  "name": "Virtue",
+  "source": "TLotRR",
+  "page": 59,
+  "className": "Treasure Hunter",
+  "classSource": "TLotRR",
+  "level": 8,
+  "entries": [
+   "At 8th level, you can take a {@book common or cultural virtue|TLotRR|3|Virtues} of your choice. You can take each virtue only once. As normal, you cannot increase an ability score above 20 using this feature."
+  ]
+ },
+ {
+  "name": "Virtue",
+  "source": "TLotRR",
+  "page": 61,
+  "className": "Warden",
+  "classSource": "TLotRR",
+  "level": 4,
+  "entries": [
+   "At 4th level, you can take a {@book common or cultural virtue|TLotRR|3|Virtues} of your choice. You can take each virtue only once. As normal, you cannot increase an ability score above 20 using this feature."
+  ]
+ },
+ {
+  "name": "Virtue",
+  "source": "TLotRR",
+  "page": 61,
+  "className": "Warden",
+  "classSource": "TLotRR",
+  "level": 8,
+  "entries": [
+   "At 8th level, you can take a {@book common or cultural virtue|TLotRR|3|Virtues} of your choice. You can take each virtue only once. As normal, you cannot increase an ability score above 20 using this feature."
+  ]
+ },
+ {
+  "name": "Warded Lands",
+  "source": "TLotRR",
+  "page": 61,
+  "className": "Warden",
+  "classSource": "TLotRR",
+  "level": 1,
+  "entries": [
+   "You are particularly familiar with the lands you have sworn to protect and are adept at travelling and surviving in such regions. Choose one warded land from among the following: Arthedain, Cardolan, Enedwaith, Eregion, Lindon, and Rhudaur (the Loremaster may wish to expand or alter this list depending on the chosen setting). When you make an Intelligence or Wisdom check related to your warded lands, your proficiency bonus is doubled if you are using a skill that you're proficient in.",
+   "During journeys in your warded lands, you gain the following benefits:",
+   {
+    "type": "list",
+    "items": [
+     "You are allowed to cover more than one role without penalties (see {@book Chapter 5|TLotRR|4|Assign Journey Roles}).",
+     "You have advantage on fatigue saving throws if the journey path (see {@book Chapter 5|TLotRR|4|1. Set Journey Path}) is entirely within your warded lands.",
+     "You can move stealthily at a normal pace, and hexes suggesting {@book difficult terrain|PHB|8|Difficult Terrain} do not slow your Company's travel (see {@book Chapter 5|TLotRR|4|3. Ending the Journey}).",
+     "While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area."
+    ]
+   },
+   "Finally, a Company including a Warden that spends a Fellowship Phase in a warded land can choose the {@action Gather Rumours|TLotRR} undertaking as a free undertaking.",
+   "You choose one additional warded land at 4th level, and again at 6th, 8th, and 10th level. As you gain levels, your choices should reflect the regions you have visited on your adventures."
+  ]
+ },
+ {
+  "name": "Warded Lands improvement",
+  "source": "TLotRR",
+  "page": 61,
+  "className": "Warden",
+  "classSource": "TLotRR",
+  "level": 4,
+  "entries": [
+   "You choose one additional warded land at 4th level. As you gain levels, your choices should reflect the regions you have visited on your adventures."
+  ]
+ },
+ {
+  "name": "Warded Lands improvement",
+  "source": "TLotRR",
+  "page": 61,
+  "className": "Warden",
+  "classSource": "TLotRR",
+  "level": 6,
+  "entries": [
+   "You choose one additional warded land at 6th level. As you gain levels, your choices should reflect the regions you have visited on your adventures."
+  ]
+ },
+ {
+  "name": "Warded Lands improvement",
+  "source": "TLotRR",
+  "page": 61,
+  "className": "Warden",
+  "classSource": "TLotRR",
+  "level": 8,
+  "entries": [
+   "You choose one additional warded land at 8th level. As you gain levels, your choices should reflect the regions you have visited on your adventures."
+  ]
+ },
+ {
+  "name": "Warded Lands improvement",
+  "source": "TLotRR",
+  "page": 61,
+  "className": "Warden",
+  "classSource": "TLotRR",
+  "level": 10,
+  "entries": [
+   "You choose one additional warded land at 10th level. As you gain levels, your choices should reflect the regions you have visited on your adventures."
+  ]
+ },
+ {
+  "name": "Warden Oath",
+  "source": "TLotRR",
+  "page": 61,
+  "className": "Warden",
+  "classSource": "TLotRR",
+  "level": 3,
+  "entries": [
+   "At 3rd level, you swear your oath as a Warden. You might choose to be a {@subclass Forayer|Warden|TLotRR|TLotRR} or a {@subclass Hunter|Warden|TLotRR|TLotRR}, both detailed at the end of the calling description. Your choice grants you features at 3rd level and again at 7th level."
+  ]
+ },
+ {
+  "name": "Warden Oath feature",
+  "source": "TLotRR",
+  "page": 62,
+  "className": "Warden",
+  "classSource": "TLotRR",
+  "level": 7,
+  "entries": [
+   "At 7th level, you gain a feature granted by your Warden Oath feature."
+  ]
+ },
+ {
+  "name": "Weapon Mastery",
+  "source": "GrimHollowPG24",
+  "page": 52,
+  "className": "Monster Hunter",
+  "classSource": "GrimHollowPG24",
+  "level": 1,
+  "entries": [
+   "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as {@item Longbow|XPHB|Longbows} and {@item Longsword|XPHB|Longswords}. Whenever you finish a {@variantrule Long Rest|XPHB}, you can practice weapon drills and change one of those weapon choices.",
+   "When you reach certain Monster Hunter levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Monster Hunter Features table."
+  ]
+ },
+ {
+  "name": "Weapon Mastery",
+  "source": "ValdaGunslinger",
+  "className": "Gunslinger",
+  "classSource": "ValdaGunslinger",
+  "level": 1,
+  "entries": [
+   "Your training with weapons allows you to use the mastery properties of two kinds of {@filter Simple|items|type=simple weapon} or {@filter Martial Ranged weapons|items|type=ranged weapon} of your choice. Whenever you finish a {@variantrule Long Rest|XPHB}, you can practice weapon drills and change one of those weapon choices.",
+   "When you reach certain Gunslinger levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Gunslinger Features table."
+  ]
+ },
+ {
+  "name": "Wilful Blows",
+  "source": "HelianasGuidetoMonsterHunting",
+  "className": "Tamer",
+  "classSource": "HelianasGuidetoMonsterHunting",
+  "level": 6,
+  "entries": [
+   "Your magical potency is channeled through your companions' strikes. Your companions' attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+  ]
+ }
+]

@@ -3,13 +3,17 @@ import {
   AbilityEnum,
   AbilityNumber,
   Base,
-  ClassFeature,
+  ClassInternalFeature,
   ClassProficiencies,
   Die,
   FeatureProgression,
+  LanguageProficiency,
   Prerequisite,
+  SkillProficiency,
+  SkillToolLanguageProficiency,
   SRD,
   StartingEquipment,
+  ToolProficiency,
 } from './base';
 import { Entry } from './entry';
 
@@ -60,7 +64,7 @@ export interface Class extends Base, SRD {
     requirements?: MulticlassRequirement;
   };
   classTableGroups?: ClassTable[];
-  classFeatures: (string | ClassFeature)[];
+  classFeatures: (string | ClassInternalFeature)[];
   subclassTitle: string;
 }
 
@@ -71,4 +75,18 @@ export interface Sidekick extends Base, SRD {
   cantripProgression?: number[];
   spellsKnownProgression?: number[];
   classTableGroups?: ClassTable[];
+}
+
+export interface ClassFeature extends Base, SRD {
+  className: string;
+  classSource: string;
+  level: number;
+  entries: Entry[];
+  consumes?: { name: string; amount?: number };
+  isClassFeatureVariant?: boolean;
+  header?: number;
+  type?: string;
+  expertise?: SkillToolLanguageProficiency[];
+  languageProficiencies?: LanguageProficiency[];
+  conditionImmune?: string[];
 }
