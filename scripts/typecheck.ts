@@ -17,6 +17,7 @@ import { Trap } from '../types/trap';
 import { readFileSync } from 'fs';
 import { Condition } from '../types/condition';
 import { DNDObject } from '../types/object';
+import { Disease } from '../types/disease';
 
 // Typia is extremely strict and does not allow for generics. Because of this, we need
 // to define all assert functions beforehand
@@ -27,6 +28,7 @@ const asserts = {
   condition: typia.createValidateEquals<Condition>(),
   cult: typia.createValidateEquals<Cult>(),
   deity: typia.createValidateEquals<Deity>(),
+  disease: typia.createValidateEquals<Disease>(),
   feat: typia.createValidateEquals<Feat>(),
   fluff: typia.createValidateEquals<Fluff>(),
   hazard: typia.createValidateEquals<Hazard>(),
@@ -102,6 +104,7 @@ check('boons', asserts.boon);
 check('conditions', asserts.condition);
 check('condition-fluffs', asserts.fluff);
 check('cults', asserts.cult);
+check('diseases', asserts.disease);
 check('deities', asserts.deity);
 check('feats', asserts.feat);
 check('hazards', asserts.hazard);
