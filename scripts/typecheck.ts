@@ -18,6 +18,7 @@ import { readFileSync } from 'fs';
 import { Condition } from '../types/condition';
 import { DNDObject } from '../types/object';
 import { Disease } from '../types/disease';
+import { Class, Sidekick } from '../types/class';
 
 // Typia is extremely strict and does not allow for generics. Because of this, we need
 // to define all assert functions beforehand
@@ -25,6 +26,7 @@ const asserts = {
   action: typia.createValidateEquals<Action>(),
   background: typia.createValidateEquals<Background>(),
   boon: typia.createValidateEquals<Boon>(),
+  class: typia.createValidateEquals<Class>(),
   condition: typia.createValidateEquals<Condition>(),
   cult: typia.createValidateEquals<Cult>(),
   deity: typia.createValidateEquals<Deity>(),
@@ -38,6 +40,7 @@ const asserts = {
   itemType: typia.createValidateEquals<ItemType>(),
   language: typia.createValidateEquals<Language>(),
   object: typia.createValidateEquals<DNDObject>(),
+  sidekick: typia.createValidateEquals<Sidekick>(),
   skill: typia.createValidateEquals<Skill>(),
   spell: typia.createValidateEquals<Spell>(),
   spellSource: typia.createValidateEquals<SpellSource>(),
@@ -101,6 +104,7 @@ check('actions', asserts.action);
 check('backgrounds', asserts.background);
 check('background-fluffs', asserts.fluff);
 check('boons', asserts.boon);
+check('classes', asserts.class);
 check('conditions', asserts.condition);
 check('condition-fluffs', asserts.fluff);
 check('cults', asserts.cult);
@@ -118,6 +122,7 @@ check('items-base', asserts.item);
 check('languages', asserts.language);
 check('objects', asserts.object);
 check('object-fluffs', asserts.fluff);
+check('sidekicks', asserts.sidekick);
 check('skills', asserts.skill);
 check('spells', asserts.spell);
 check('spell-fluffs', asserts.fluff);

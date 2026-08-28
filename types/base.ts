@@ -12,6 +12,7 @@ export interface Foundry {
   foundryEffects?: any[];
   foundryType?: string;
   foundryFlags?: any;
+  foundryAdvancement: any;
 }
 
 export interface TokenArt {
@@ -70,7 +71,7 @@ export type ReprintedAs = string | { uid: string; tag?: string; edition?: string
 
 // util.json#/$defs/prerequisite
 export interface Prerequisite {
-  ability?: { str?: number; dex?: number; con?: number; int?: number; wis?: number; cha?: number }[];
+  ability?: AbilityNumber[];
   background?: { name: string; displayEntry?: string }[];
   campaign?: string[];
   culture?: string[];
@@ -153,17 +154,47 @@ export interface ArmorProficiency {
   shield?: boolean;
 }
 
-export interface Ability {
+export interface ClassProficiency {
+  proficiency: string;
+  full?: string;
+  optional?: boolean;
+}
+
+export interface ClassProficiencies {
+  skills?: SkillProficiency[];
+  weapons?: (string | ClassProficiency)[];
+  tools?: (string | ClassProficiency)[];
+  armor?: (string | ClassProficiency)[];
+  armorProficiencies?: ArmorProficiency[];
+  toolProficiencies?: ToolProficiency[];
+  weaponProficiencies?: (WeaponProficiency & Record<string, boolean>)[];
+}
+
+export type AbilityEnum = 'str' | 'dex' | 'con' | 'int' | 'wis' | 'cha';
+
+export interface AbilityBool {
+  str?: boolean;
+  dex?: boolean;
+  con?: boolean;
+  int?: boolean;
+  wis?: boolean;
+  cha?: boolean;
+}
+
+export interface AbilityNumber {
   str?: number;
   dex?: number;
   con?: number;
   int?: number;
   wis?: number;
   cha?: number;
+}
+
+export type Ability = AbilityNumber & {
   choose?: Choose | Choose[];
   hidden?: boolean;
   max?: number;
-}
+};
 
 export type Resist =
   | string
@@ -207,17 +238,10 @@ export interface Light {
 }
 
 export interface SetAbility {
-  static: {
-    str?: number;
-    dex?: number;
-    con?: number;
-    int?: number;
-    wis?: number;
-    cha?: number;
-  };
+  static: AbilityNumber;
 }
 
-export interface ReqAttuneTag {
+export type ReqAttuneTag = AbilityNumber & {
   alignment?: string[];
   background?: string;
   class?: string;
@@ -229,13 +253,7 @@ export interface ReqAttuneTag {
   skillProficiency?: string;
   spellcasting?: boolean;
   feat?: string[] | string;
-  str?: number;
-  dex?: number;
-  con?: number;
-  int?: number;
-  wis?: number;
-  cha?: number;
-}
+};
 
 export type UIDString =
   | string
@@ -279,7 +297,8 @@ export type StartingEquipmentEntry =
   | { value: number }
   | { item: string; displayName?: string; containsValue?: number; quantity?: number }
   | { special: string; quantity?: number; worthValue?: number; containsValue?: number }
-  | { equipmentType: string; displayName?: string };
+  | { equipmentType: string; displayName?: string; quantity?: number }
+  | { equipmentTypes: string[] };
 
 export type StartingEquipment = Record<string, StartingEquipmentEntry[]>;
 
@@ -300,3 +319,15 @@ export type Speed =
       climb?: number;
       swim?: number;
     };
+
+export interface Die {
+  number: number;
+  faces: number;
+}
+
+export interface ClassFeature {
+  classFeature: string;
+  gainSubclassFeature?: boolean;
+  tableDisplayName?: string;
+  gainSubclassFeatureHasContent?: boolean;
+}
