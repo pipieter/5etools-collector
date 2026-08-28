@@ -39,7 +39,7 @@ export interface SubclassTable extends ClassTable {
   subclasses?: ID[];
 }
 
-export type MulticlassRequirement = AbilityNumber | AbilityNumber[] | (AbilityNumber & { or: AbilityNumber[] });
+export type MulticlassRequirement = AbilityNumber | AbilityNumber[] | (AbilityNumber & { or: [AbilityNumber] });
 
 export interface ClassStartingEquipment {
   additionalFromBackground: boolean;
