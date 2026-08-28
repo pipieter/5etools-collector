@@ -2,16 +2,22 @@ import {
   AbilityBool,
   AbilityEnum,
   AbilityNumber,
+  ArmorProficiency,
   Base,
   ClassInternalFeature,
   ClassProficiencies,
+  Consumes,
   Die,
   FeatureProgression,
   ID,
   LanguageProficiency,
+  SavingThrowProficiency,
+  SkillProficiency,
   SkillToolLanguageProficiency,
   SRD,
   StartingEquipment,
+  ToolProficiency,
+  WeaponProficiency,
 } from './base';
 import { Entry } from './entry';
 
@@ -83,13 +89,21 @@ export interface ClassFeature extends Base, SRD {
   className: string;
   classSource: string;
   level: number;
-  entries: Entry[];
-  consumes?: { name: string; amount?: number };
+  entries?: Entry[];
+  consumes?: Consumes;
   isClassFeatureVariant?: boolean;
   header?: number;
   type?: string;
   expertise?: SkillToolLanguageProficiency[];
   languageProficiencies?: LanguageProficiency[];
+  skillProficiencies?: SkillProficiency[];
+  toolProficiencies?: ToolProficiency[];
+  weaponProficiencies?: WeaponProficiency[];
+  savingThrowProficiencies?: SavingThrowProficiency[];
+  armorProficiencies?: ArmorProficiency[];
+  immune?: string[];
+  resist?: string[];
+  vulnerable?: string[];
   conditionImmune?: string[];
 }
 
@@ -110,4 +124,10 @@ export interface Subclass extends Base, SRD {
   subclassSpells?: (string | { className: string; classSource: string })[];
   subSubclassSpells?: Record<string, string[]>;
   subclassTableGroups?: SubclassTable[];
+}
+
+export interface SubclassFeature extends ClassFeature {
+  subclassShortName: string;
+  subclassName?: string;
+  subclassSource?: string;
 }

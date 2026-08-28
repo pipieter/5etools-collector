@@ -10,6 +10,7 @@ export type Entry =
   | EntryImage
   | EntryOptions
   | EntryRefClassFeature
+  | EntryRefSubclassFeature
   | EntryRefFeat
   | EntryRefOptionalFeature
   | EntryStatBlock
@@ -25,13 +26,13 @@ export interface EntryBase {
   name?: string;
   page?: number;
   source?: string;
+  data?: any;
+  style?: string;
 }
 
 export interface EntryEntries extends EntryBase {
   type: 'entries';
   entries: Entry[];
-  style?: string;
-  data?: any;
 }
 
 export interface EntryItem extends EntryBase {
@@ -48,7 +49,6 @@ export interface EntrySection extends EntryBase {
 
 export interface EntryInset extends EntryBase {
   type: 'inset' | 'insetReadaloud';
-  style?: string;
   entries: Entry[];
 }
 
@@ -56,7 +56,6 @@ export interface EntryTableGroup extends EntryBase {
   type: 'tableGroup';
   caption?: string;
   tables: EntryTable[];
-  data?: any;
 }
 
 export interface EntryTable extends EntryBase {
@@ -68,7 +67,6 @@ export interface EntryTable extends EntryBase {
   rows: ((Entry | Cell | number)[] | Row)[];
   footnote?: string;
   footnotes?: string[];
-  data?: any; // TODO
 }
 
 export type ColLabelRow = (string | { entry: string; width: number })[];
@@ -95,7 +93,6 @@ export interface Row {
 
 export interface EntryList extends EntryBase {
   type: 'list';
-  style?: string;
   columns?: number;
   items: Entry[];
 }
@@ -106,10 +103,9 @@ export interface EntryQuote extends EntryBase {
   by?: string;
   from?: string;
   skipMarks?: boolean;
-  style?: string;
 }
 
-export interface EntryImage {
+export interface EntryImage extends EntryBase {
   type: 'image';
   href: { type: 'internal'; path: string } | { type: 'external'; url: string };
   title?: string;
@@ -117,17 +113,17 @@ export interface EntryImage {
   width?: number;
   height?: number;
   altText?: string;
-  style?: string;
 }
 
-export interface EntryOptions {
+export interface EntryOptions extends EntryBase {
   type: 'options';
   count?: number;
   entries: Entry[];
 }
 
-export interface EntryRefOptionalFeature {
+export interface EntryRefOptionalFeature extends EntryBase {
   type: 'refOptionalfeature';
+  name?: string;
   optionalfeature: string;
   preserve?: { prerequisite?: boolean; consumes?: boolean };
 }
@@ -136,6 +132,7 @@ export interface EntryStatBlock extends EntryBase {
   type: 'statblock';
   tag: string;
   name: string;
+  collapsed?: boolean;
 }
 
 export interface EntryAbilityGeneric extends EntryBase {
@@ -156,23 +153,28 @@ export interface EntryAttack extends EntryBase {
   hitEntries: Entry[];
 }
 
-export interface EntryRefClassFeature {
+export interface EntryRefClassFeature extends EntryBase {
   type: 'refClassFeature';
   classFeature: string;
 }
 
-export interface EntryRefFeat {
+export interface EntryRefSubclassFeature extends EntryBase {
+  type: 'refSubclassFeature';
+  subclassFeature: string;
+}
+
+export interface EntryRefFeat extends EntryBase {
   type: 'refFeat';
   feat: string;
 }
 
-export interface EntryAbilityDc {
+export interface EntryAbilityDc extends EntryBase {
   type: 'abilityDc';
   name: string;
   attributes: string[];
 }
 
-export interface EntryAbilityAttackMod {
+export interface EntryAbilityAttackMod extends EntryBase {
   type: 'abilityAttackMod';
   name: string;
   attributes: string[];

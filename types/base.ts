@@ -137,13 +137,13 @@ export type SkillProficiency = internalSkillProficiency & Record<string, boolean
 export type ToolProficiency = internalToolProficiency & Record<string, boolean>;
 export type LanguageProficiency = internalLanguageProficiency & Record<string, boolean>;
 
-export interface SkillToolLanguageProficiency {
+export type SkillToolLanguageProficiency = {
   choose?: Choose[];
   anyLanguage?: number;
   anyTool?: number;
   anyProficientTool?: number;
   anyProficientSkill?: number;
-}
+} & Record<string, boolean>;
 
 export interface WeaponProficiency {
   firearms?: boolean;
@@ -338,4 +338,11 @@ export interface ClassInternalFeature {
   gainSubclassFeature?: boolean;
   tableDisplayName?: string;
   gainSubclassFeatureHasContent?: boolean;
+}
+
+export interface Consumes {
+  name: string;
+  amount?: number;
+  amountMin?: number;
+  amountMax?: number;
 }

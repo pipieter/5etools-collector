@@ -54,7 +54,7 @@ class Collector {
 
   public writeObjects(filename: string, objects: any[]) {
     if (!existsSync(this.outPath)) mkdirSync(this.outPath, { recursive: true });
-    writeJson(this.outPath, `${filename}.json`, objects);  
+    writeJson(this.outPath, `${filename}.json`, objects);
   }
 }
 
@@ -223,13 +223,14 @@ function main() {
     collector.write('spell-fluffs', 'spellFluff');
     collector.write('spell-sources', 'spellSource');
     collector.write('subclasses', 'subclass');
+    collector.write('subclass-features', 'subclassFeature');
     collector.write('skills', 'skill');
     collector.write('tables', 'table');
     collector.write('traps', 'trap');
 
     // Split classes and sidekicks
-    const classes = collector.get("class").filter(e => !e.isSidekick)
-    const sidekicks = collector.get("class").filter(e => e.isSidekick)
+    const classes = collector.get('class').filter((e) => !e.isSidekick);
+    const sidekicks = collector.get('class').filter((e) => e.isSidekick);
     collector.writeObjects('classes', classes);
     collector.writeObjects('sidekicks', sidekicks);
   }
