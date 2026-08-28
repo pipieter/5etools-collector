@@ -41,6 +41,19 @@ export interface SubclassTable extends ClassTable {
 
 export type MulticlassRequirement = AbilityNumber | AbilityNumber[] | (AbilityNumber & { or: MulticlassRequirement[] });
 
+export interface ClassStartingEquipment {
+  additionalFromBackground: boolean;
+  defaultData?: StartingEquipment[];
+  default?: string[];
+  entries?: Entry[];
+  goldAlternative?: string;
+}
+
+export interface Multiclassing {
+  proficienciesGained?: ClassProficiencies;
+  requirements?: MulticlassRequirement;
+}
+
 export interface Sidekick extends Base, SRD {
   isSidekick: true;
   classFeatures: string[];
@@ -69,17 +82,8 @@ export interface Class extends Base, SRD {
   featProgression?: FeatureProgression[];
   optionalfeatureProgression?: FeatureProgression[];
   startingProficiencies: ClassProficiencies;
-  startingEquipment: {
-    additionalFromBackground: boolean;
-    defaultData?: StartingEquipment[];
-    default?: string[];
-    entries?: Entry[];
-    goldAlternative?: string;
-  };
-  multiclassing?: {
-    proficienciesGained?: ClassProficiencies;
-    requirements?: MulticlassRequirement;
-  };
+  startingEquipment: ClassStartingEquipment;
+  multiclassing?: Multiclassing;
   classTableGroups?: ClassTable[];
   classFeatures: (string | ClassInternalFeature)[];
   subclassTitle: string;
