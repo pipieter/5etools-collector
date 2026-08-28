@@ -129,5 +129,5 @@ export interface Subclass extends Base, SRD {
 export interface SubclassFeature extends ClassFeature {
   subclassShortName: string;
   subclassName?: string;
-  subclassSource?: string;
+  subclassSource: string;
 }
