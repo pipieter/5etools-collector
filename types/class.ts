@@ -109,7 +109,7 @@ export interface ClassFeature extends Base, SRD {
 
 export interface Subclass extends Base, SRD {
   className: string;
-  shortName?: string;
+  shortName: string;
   classSource: string;
   additionalSpells?: any[]; // TODO
   subclassFeatures?: string[];
