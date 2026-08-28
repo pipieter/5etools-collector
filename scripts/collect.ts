@@ -212,6 +212,7 @@ function main() {
     collector.write('hazards', 'hazard');
     collector.write('items', 'item');
     collector.write('items-base', 'baseitem');
+    collector.write('item-entries', 'itemEntry');
     collector.write('item-groups', 'itemGroup');
     collector.write('item-masteries', 'itemMastery');
     collector.write('item-properties', 'itemProperty');

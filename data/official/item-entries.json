@@ -1,0 +1,123 @@
+[
+ {
+  "name": "Absorbing Tattoo",
+  "source": "TCE",
+  "entriesTemplate": [
+   "Produced by a special needle, this magic tattoo features designs that emphasize one color ({{item.detail1}}).",
+   {
+    "type": "entries",
+    "name": "Tattoo Attunement",
+    "entries": [
+     "To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.",
+     "If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Damage Resistance",
+    "entries": [
+     "While the tattoo is on your skin, you have resistance to {{item.resist}} damage."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Damage Absorption",
+    "entries": [
+     "When you take {{item.resist}} damage, you can use your reaction to gain immunity against that instance of the damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Armor of Resistance",
+  "source": "DMG",
+  "entriesTemplate": [
+   "You have resistance to {{item.resist}} damage while you wear this armor."
+  ]
+ },
+ {
+  "name": "Armor of Resistance",
+  "source": "XDMG",
+  "entriesTemplate": [
+   "You have {@variantrule Resistance|XPHB} to {{getFullImmRes item.resist}} damage while you wear this armor."
+  ]
+ },
+ {
+  "name": "Chromatic Rose",
+  "source": "WBtW",
+  "entriesTemplate": [
+   "While this rose is held, it {{item.detail1}} as a harmless visual effect.",
+   "While holding the rose by its stem, you gain resistance to {{item.resist}} damage. If you would take more than 10 {{item.resist}} damage from a single source (after applying the resistance), the rose disintegrates, and you take no damage instead.",
+   "As an action, you can blow the petals from the rose to produce a 20-foot cone of {{item.resist}}. Each creature in the cone must make a {@dc 15} Constitution saving throw, taking {@damage 3d10} {{item.resist}} damage on a failed save, or half as much damage on a successful one. Using this property destroys the rose."
+  ]
+ },
+ {
+  "name": "Dragon Scale Mail",
+  "source": "XDMG",
+  "entriesTemplate": [
+   "Dragon Scale Mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them. Other times, hunters carefully preserve the hide of a dead dragon. In either case, Dragon Scale Mail is highly valued.",
+   "While wearing this armor, you gain a +1 bonus to {@variantrule Armor Class|XPHB}, you have {@variantrule Advantage|XPHB} on saving throws against the breath weapons of Dragons, and you have {@variantrule Resistance|XPHB} to {{getFullImmRes item.resist}} damage.",
+   "Additionally, you can focus your senses as a {@action Magic|XPHB} action to discern the distance and direction to the closest {{item.detail1}} dragon within 30 miles of yourself. This action can't be used again until the next dawn."
+  ]
+ },
+ {
+  "name": "Grenade",
+  "source": "DMG",
+  "entriesTemplate": [
+   "As an action, a character can throw a grenade at a point up to 60 feet away. With a grenade launcher, the character can propel the grenade up to 120 feet away."
+  ]
+ },
+ {
+  "name": "Grenade",
+  "source": "XDMG",
+  "entriesTemplate": [
+   "As an action, you can either throw a grenade at a point up to 60 feet away or use a Grenade Launcher to propel the grenade to a point up to 1,000 feet away. The grenade explodes at that point, creating a particular effect in a 20-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere}."
+  ]
+ },
+ {
+  "name": "Ioun Stone",
+  "source": "XDMG",
+  "entriesTemplate": [
+   "Roughly marble sized, {@i Ioun Stones} are named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@i Ioun Stones} exist, each type a distinct combination of shape and color.",
+   "When you take a {@action Magic|XPHB} action to toss an {@i Ioun Stone} into the air, the stone orbits your head at a distance of {@dice 1d3} feet, conferring its benefit to you while doing so. You can have up to three {@i Ioun Stones} orbiting your head at the same time.",
+   "Each {@i Ioun Stone} orbiting your head is considered to be an object you are wearing. The orbiting stone avoids contact with other creatures and objects, adjusting its orbit to avoid collisions and thwarting all attempts by other creatures to attack or snatch it.",
+   "As a {@action Utilize|XPHB} action, you can seize and stow any number of {@i Ioun Stones} orbiting your head. If your {@variantrule Attunement|XPHB} to an Ioun Stone ends while it's orbiting your head, the stone falls as though you had dropped it."
+  ]
+ },
+ {
+  "name": "Potion of Resistance",
+  "source": "DMG",
+  "entriesTemplate": [
+   "When you drink this potion, you gain resistance to {{item.resist}} damage for 1 hour."
+  ]
+ },
+ {
+  "name": "Potion of Resistance",
+  "source": "XDMG",
+  "entriesTemplate": [
+   "When you drink this potion, you have {@variantrule Resistance|XPHB} to {{getFullImmRes item.resist}} damage for 1 hour."
+  ]
+ },
+ {
+  "name": "Ring of Resistance",
+  "source": "DMG",
+  "entriesTemplate": [
+   "You have resistance to {{item.resist}} damage while wearing this ring. The ring is set with {{item.detail1}}."
+  ]
+ },
+ {
+  "name": "Ring of Resistance",
+  "source": "XDMG",
+  "entriesTemplate": [
+   "You have {@variantrule Resistance|XPHB} to {{getFullImmRes item.resist}} damage while wearing this ring. The ring is set with {{item.detail1}}."
+  ]
+ },
+ {
+  "name": "Scroll of Protection",
+  "source": "XDMG",
+  "entriesTemplate": [
+   "Using a {@action Magic|XPHB} action to read the scroll creates a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. For 5 minutes, {{item.detail2}} can't enter or affect anything in the area. However, if you move in such a way that an {{item.detail1}} would be inside the area, the effect ends.",
+   "As a {@action Magic|XPHB} action, a creature within 5 feet of the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} can attempt to overcome it, which forces the creature to make a {@dc 15} Charisma saving throw. On a successful save, the creature ceases to be affected by the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}."
+  ]
+ }
+]

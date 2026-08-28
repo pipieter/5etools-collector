@@ -1,0 +1,10 @@
+[
+ {
+  "name": "Painted Stone",
+  "source": "TalesFromTheShadows",
+  "entriesTemplate": [
+   "This stone emanates an aura of {{item.detail1}} magic. If the stone is taken from the Whispering Plains, it instantly loses its magical properties. Returning a stone to the Plains does not bring back its magic.",
+   "Only one stone can affect a creature at a time. The stones has one charge. With a bonus action, a creature holding a stone can expend its single charge, activating following effect:"
+  ]
+ }
+]

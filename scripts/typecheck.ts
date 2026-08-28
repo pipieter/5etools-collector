@@ -6,7 +6,7 @@ import { Boon } from '../types/boon';
 import { Cult } from '../types/cult';
 import { Deity } from '../types/deity';
 import { Fluff } from '../types/fluff';
-import { Item, ItemGroup, ItemMastery, ItemProperty, ItemType, ItemTypeAdditionalEntries } from '../types/item';
+import { Item, ItemEntry, ItemGroup, ItemMastery, ItemProperty, ItemType, ItemTypeAdditionalEntries } from '../types/item';
 import { Feat } from '../types/feat';
 import { Hazard } from '../types/hazard';
 import { Language } from '../types/language';
@@ -36,6 +36,7 @@ const asserts = {
   fluff: typia.createValidateEquals<Fluff>(),
   hazard: typia.createValidateEquals<Hazard>(),
   item: typia.createValidateEquals<Item>(),
+  itemEntry: typia.createValidateEquals<ItemEntry>(),
   itemGroup: typia.createValidateEquals<ItemGroup>(),
   itemMastery: typia.createValidateEquals<ItemMastery>(),
   itemProperty: typia.createValidateEquals<ItemProperty>(),
@@ -121,6 +122,7 @@ check('disease-fluffs', asserts.fluff);
 check('feats', asserts.feat);
 check('hazards', asserts.hazard);
 check('items', asserts.item);
+check('item-entries', asserts.itemEntry);
 check('item-fluffs', asserts.fluff);
 check('item-groups', asserts.itemGroup);
 check('item-masteries', asserts.itemMastery);

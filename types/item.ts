@@ -165,3 +165,7 @@ export interface ItemTypeAdditionalEntries extends Base, SRD {
   entries: Entry[];
   appliesTo: string;
 }
+
+export interface ItemEntry extends Base, SRD {
+  entriesTemplate: Entry[]
+}
