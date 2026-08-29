@@ -35,7 +35,7 @@ export interface ItemType extends Base, SRD {
   abbreviation: string;
 }
 
-export interface Item extends Base, SRD {
+export interface ItemData {
   entries?: Entry[];
   additionalEntries?: Entry[];
   type?: string;
@@ -48,6 +48,7 @@ export interface Item extends Base, SRD {
   reqAttuneAlt?: string | boolean;
   reqAttuneTags?: ReqAttuneTag[];
   bonusSpellAttack?: string;
+  bonusSpellDamage?: string;
   bonusSpellSaveDc?: string;
   bonusProficiencyBonus?: string;
   bonusWeapon?: string;
@@ -61,8 +62,8 @@ export interface Item extends Base, SRD {
   weightNote?: string;
   baseItem?: string;
   weaponCategory?: string;
-  mastery?: UIDString[];
-  property?: UIDString[];
+  mastery?: UIDString[] | string;
+  property?: UIDString[] | string;
   dmg1?: string;
   dmg2?: string;
   dmgType?: string;
@@ -151,10 +152,13 @@ export interface Item extends Base, SRD {
   spear?: boolean;
   sword?: boolean;
   whip?: boolean;
+  ammo?: boolean;
   customProperties?: any; // TODO
   reach?: number;
   currencyConversion?: string;
 }
+
+export interface Item extends ItemData, Base, SRD {}
 
 export interface ItemGroup extends Item {
   items: string[];
@@ -167,5 +171,28 @@ export interface ItemTypeAdditionalEntries extends Base, SRD {
 }
 
 export interface ItemEntry extends Base, SRD {
-  entriesTemplate: Entry[]
+  entriesTemplate: Entry[];
+}
+
+export interface MagicItemRequirement extends Partial<ItemData> {
+  type?: string;
+  name?: string | string[];
+  source?: string;
+}
+
+export interface MagicVariantInherits extends Partial<Item> {
+  namePrefix?: string;
+  nameSuffix?: string;
+  nameRemove?: string;
+  weightMult?: number;
+  weightExpression?: string;
+  valueMult?: number;
+  valueExpression?: string;
+  barding?: boolean;
+}
+
+export interface MagicVariant extends Partial<Item> {
+  inherits: MagicVariantInherits;
+  requires?: MagicItemRequirement[];
+  excludes?: MagicItemRequirement;
 }

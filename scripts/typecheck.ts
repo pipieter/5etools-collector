@@ -6,7 +6,7 @@ import { Boon } from '../types/boon';
 import { Cult } from '../types/cult';
 import { Deity } from '../types/deity';
 import { Fluff } from '../types/fluff';
-import { Item, ItemEntry, ItemGroup, ItemMastery, ItemProperty, ItemType, ItemTypeAdditionalEntries } from '../types/item';
+import { Item, ItemEntry, ItemGroup, ItemMastery, ItemProperty, ItemType, ItemTypeAdditionalEntries, MagicVariant } from '../types/item';
 import { Feat } from '../types/feat';
 import { Hazard } from '../types/hazard';
 import { Language } from '../types/language';
@@ -43,6 +43,7 @@ const asserts = {
   itemType: typia.createValidateEquals<ItemType>(),
   itemTypeAdditionalEntries: typia.createValidateEquals<ItemTypeAdditionalEntries>(),
   language: typia.createValidateEquals<Language>(),
+  magicVariant: typia.createValidateEquals<MagicVariant>(),
   object: typia.createValidateEquals<DNDObject>(),
   sidekick: typia.createValidateEquals<Sidekick>(),
   skill: typia.createValidateEquals<Skill>(),
@@ -131,6 +132,7 @@ check('item-types', asserts.itemType);
 check('item-type-additional-entries', asserts.itemTypeAdditionalEntries);
 check('items-base', asserts.item);
 check('languages', asserts.language);
+check('magic-variants', asserts.magicVariant);
 check('objects', asserts.object);
 check('object-fluffs', asserts.fluff);
 check('sidekicks', asserts.sidekick);
