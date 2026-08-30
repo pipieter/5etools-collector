@@ -229,6 +229,8 @@ function main() {
     collector.write('subclasses', 'subclass');
     collector.write('subclass-features', 'subclassFeature');
     collector.write('skills', 'skill');
+    collector.write('statuses', 'status');
+    collector.write('status-fluffs', 'statusFluff');
     collector.write('tables', 'table');
     collector.write('traps', 'trap');
 

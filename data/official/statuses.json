@@ -1,0 +1,115 @@
+[
+ {
+  "name": "Bloodied",
+  "source": "XPHB",
+  "page": 362,
+  "srd52": true,
+  "basicRules2024": true,
+  "entries": [
+   "A creature is Bloodied while it has half its {@variantrule Hit Points|XPHB} or fewer remaining."
+  ]
+ },
+ {
+  "name": "Concentration",
+  "source": "PHB",
+  "page": 203,
+  "srd": true,
+  "basicRules": true,
+  "reprintedAs": [
+   "Concentration|XPHB"
+  ],
+  "entries": [
+   "Some spells require you to maintain {@status concentration} in order to keep their magic active. If you lose {@status concentration}, such a spell ends.",
+   "If a spell must be maintained with {@status concentration}, that fact appears in its Duration entry, and the spell specifies how long you can concentrate on it. You can end {@status concentration} at any time (no action required).",
+   "Normal activity, such as moving and attacking, doesn't interfere with {@status concentration}. The following factors can break {@status concentration}:",
+   {
+    "type": "list",
+    "items": [
+     {
+      "type": "entries",
+      "name": "Casting another spell that requires concentration",
+      "entries": [
+       "You lose {@status concentration} on a spell if you cast another spell that requires {@status concentration}. You can't concentrate on two spells at once."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Taking damage",
+      "entries": [
+       "Whenever you take damage while you are {@status concentration||concentrating} on a spell, you must make a Constitution saving throw to maintain your {@status concentration}. The DC equals 10 or half the damage you take, whichever number is higher. If you take damage from multiple sources, such as an arrow and a dragon's breath, you make a separate saving throw for each source of damage."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Being incapacitated or killed",
+      "entries": [
+       "You lose {@status concentration} on a spell if you are {@condition incapacitated} or if you die."
+      ]
+     }
+    ]
+   },
+   "The DM might also decide that certain environmental phenomena, such as a wave crashing over you while you're on a storm-tossed ship, require you to succeed on a {@dc 10} Constitution saving throw to maintain {@status concentration} on a spell."
+  ]
+ },
+ {
+  "name": "Concentration",
+  "source": "XPHB",
+  "page": 363,
+  "srd52": true,
+  "basicRules2024": true,
+  "entries": [
+   "Some spells and other effects require Concentration to remain active, as specified in their descriptions. If the effect's creator loses Concentration, the effect ends. If the effect has a maximum duration, the effect's description specifies how long the creator can concentrate on it: up to 1 minute, 1 hour, or some other duration. The creator can end Concentration at any time (no action required). The following factors break Concentration.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Another Concentration Effect",
+      "entries": [
+       "You lose Concentration on an effect the moment you start casting a spell that requires Concentration or activate another effect that requires Concentration."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Damage",
+      "entries": [
+       "If you take damage, you must succeed on a Constitution {@variantrule Saving Throw|XPHB|saving throw} to maintain Concentration. The DC equals 10 or half the damage taken (round down), whichever number is higher, up to a maximum DC of 30."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Incapacitated or Dead",
+      "entries": [
+       "Your Concentration ends if you have the {@condition Incapacitated|XPHB} condition or you die."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Surprised",
+  "source": "PHB",
+  "page": 189,
+  "srd": true,
+  "basicRules": true,
+  "reprintedAs": [
+   "Surprised|XPHB"
+  ],
+  "entries": [
+   "A band of adventurers sneaks up on a bandit camp, springing from the trees to attack them. A {@creature gelatinous cube} glides down a dungeon passage, unnoticed by the adventurers until the cube engulfs one of them. In these situations, one side of the battle gains surprise over the other.",
+   "The DM determines who might be surprised. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the DM compares the Dexterity ({@skill Stealth}) checks of anyone hiding with the passive Wisdom ({@skill Perception}) score of each creature on the opposing side. Any character or monster that doesn't notice a threat is {@status surprised} at the start of the encounter.",
+   "If you're surprised, you can't move or take an action on your first turn of the combat, and you can't take a reaction until that turn ends. A member of a group can be {@status surprised} even if the other members aren't."
+  ]
+ },
+ {
+  "name": "Surprised",
+  "source": "XPHB",
+  "page": 376,
+  "srd52": true,
+  "basicRules2024": true,
+  "entries": [
+   "If a creature is caught unawares by the start of combat, that creature is surprised, which causes it to have {@variantrule Disadvantage|XPHB} on its {@variantrule Initiative|XPHB} roll."
+  ]
+ }
+]
