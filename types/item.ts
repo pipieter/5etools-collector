@@ -70,14 +70,14 @@ export interface ItemData {
   dmgType?: string;
   lootTables?: string[];
   classFeatures?: string[];
-  value?: number | null;
+  value?: number;
   recharge?: string;
   rechargeAmount?: string | number;
   charges?: number | string;
   miscTags?: string[];
-  immune?: Resist[] | null;
-  resist?: Resist[] | null;
-  vulnerable?: Resist[] | null;
+  immune?: Resist[];
+  resist?: Resist[];
+  vulnerable?: Resist[];
   conditionImmune?: string[];
   grantsProficiency?: boolean;
   detail1?: string;

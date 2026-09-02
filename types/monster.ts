@@ -15,8 +15,6 @@ import {
 import { Copyable } from './internal/copy';
 import { Entry, HRef, NamedEntries } from './internal/entry';
 
-// TODO The null values come from _copy and should be handled there
-
 export interface MonsterTags {
   senseTags: string[];
   actionTags: string[];
@@ -38,7 +36,7 @@ export interface MonsterTags {
 export interface LegendaryMonster {
   mythic: NamedEntries[];
   mythicHeader: string[];
-  legendary: NamedEntries[] | null;
+  legendary: NamedEntries[];
   legendaryHeader: string[];
   legendaryGroup: ID;
   legendaryActions: number;
@@ -74,12 +72,12 @@ export interface MonsterBase extends Base, SRD, Partial<MonsterTags>, Partial<Le
   save?: AbilityString;
   skill?: Record<string, string | any[]>; // TODO
   tool?: Record<string, string>;
-  senses?: string[] | null;
+  senses?: string[];
   passive?: number | string;
-  languages?: string[] | null;
+  languages?: string[];
   cr?: string | CR;
-  trait?: (Entry | NamedEntries)[] | null;
-  action?: (Entry | NamedEntries)[] | null;
+  trait?: (Entry | NamedEntries)[];
+  action?: (Entry | NamedEntries)[];
   actionNote?: string;
   attachedItems?: string[];
   environment?: string[];
@@ -90,16 +88,16 @@ export interface MonsterBase extends Base, SRD, Partial<MonsterTags>, Partial<Le
   bonus?: NamedEntries[];
   bonusNote?: string;
   initiative?: any; //TODO
-  resist?: Resist[] | null;
-  immune?: Resist[] | null;
-  vulnerable?: Resist[] | null;
+  resist?: Resist[];
+  immune?: Resist[];
+  vulnerable?: Resist[];
   conditionImmune?: (string | any)[]; // TODO
   pbNote?: string;
   conditionInflictSpell?: string[];
   reactionHeader?: string[];
-  reaction?: NamedEntries[] | null;
+  reaction?: NamedEntries[];
   reactionNote?: string;
-  group?: string[] | null;
+  group?: string[];
   variant?: Entry[];
   level?: number;
   gear?: EquipmentEntry[];

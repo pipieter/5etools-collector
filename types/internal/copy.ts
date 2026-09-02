@@ -1,5 +1,5 @@
 export interface Copy {
-  _copy: any;
+  _copy: any; // TODO
 }
 
 export type Nullable<T> = { [K in keyof T]: T[K] | null };
