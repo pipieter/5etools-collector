@@ -19,6 +19,7 @@ import {
   ToolProficiency,
   WeaponProficiency,
 } from './internal/base';
+import { Copyable } from './internal/copy';
 import { Entry } from './internal/entry';
 
 export type ClassResourceValue =
@@ -63,7 +64,7 @@ export interface Sidekick extends Base, SRD {
   classTableGroups?: ClassTable[];
 }
 
-export interface Class extends Base, SRD {
+export interface ClassBase extends Base, SRD {
   primaryAbility?: AbilityBool[];
   hd: Die;
   proficiency: AbilityEnum[];
@@ -111,7 +112,7 @@ export interface ClassFeature extends Base, SRD {
   conditionImmune?: string[];
 }
 
-export interface Subclass extends Base, SRD {
+export interface SubclassBase extends Base, SRD {
   className: string;
   shortName: string;
   classSource: string;
@@ -135,3 +136,6 @@ export interface SubclassFeature extends ClassFeature {
   subclassName?: string;
   subclassSource: string;
 }
+
+export type Class = ClassBase | Copyable<ClassBase>;
+export type Subclass = SubclassBase | Copyable<SubclassBase>;

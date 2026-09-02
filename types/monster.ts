@@ -12,6 +12,7 @@ import {
   SRD,
   TaggedType,
 } from './internal/base';
+import { Copyable } from './internal/copy';
 import { Entry, HRef, NamedEntries } from './internal/entry';
 
 // TODO The null values come from _copy and should be handled there
@@ -53,7 +54,7 @@ export interface SummonedInfo {
   summonedScaleByPlayerLevel: boolean;
 }
 
-export interface Monster extends Base, SRD, Partial<MonsterTags>, Partial<LegendaryMonster>, Partial<SummonedInfo> {
+export interface MonsterBase extends Base, SRD, Partial<MonsterTags>, Partial<LegendaryMonster>, Partial<SummonedInfo> {
   str?: number | Special;
   dex?: number | Special;
   con?: number | Special;
@@ -104,3 +105,5 @@ export interface Monster extends Base, SRD, Partial<MonsterTags>, Partial<Legend
   gear?: EquipmentEntry[];
   resource?: any[]; // TODO
 }
+
+export type Monster = MonsterBase | Copyable<MonsterBase>;

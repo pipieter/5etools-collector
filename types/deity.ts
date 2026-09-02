@@ -1,7 +1,8 @@
 import { Base, SRD } from './internal/base';
+import { Copyable } from './internal/copy';
 import { Entry, EntryImage } from './internal/entry';
 
-export interface Deity extends Base, SRD {
+export interface DeityBase extends Base, SRD {
   entries?: Entry[];
   pantheon: string;
   reprintAlias?: string;
@@ -20,3 +21,5 @@ export interface Deity extends Base, SRD {
   favoredWeapons?: string;
   dogma?: string;
 }
+
+export type Deity = DeityBase | Copyable<DeityBase>;

@@ -10,10 +10,11 @@ import {
   Prerequisite,
   WeaponProficiency,
 } from './internal/base';
+import { Copyable } from './internal/copy';
 import { Entry } from './internal/entry';
 
-export interface Background extends Base, SRD {
-  entries?: Entry[];
+export interface BackgroundBase extends Base, SRD {
+  entries: Entry[];
   ability?: Ability[];
   feats?: any[]; // TODO
   skillProficiencies?: SkillProficiency[];
@@ -26,3 +27,5 @@ export interface Background extends Base, SRD {
   additionalSpells?: any[]; // TODO
   prerequisite?: Prerequisite[];
 }
+
+export type Background = Copyable<BackgroundBase> | BackgroundBase;

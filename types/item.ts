@@ -11,6 +11,7 @@ import {
   Ability,
   Choose,
 } from './internal/base';
+import { Copyable } from './internal/copy';
 import { Entry } from './internal/entry';
 
 export interface ItemMastery extends Base, SRD {
@@ -29,7 +30,7 @@ export interface ItemProperty extends SRD {
   entriesTemplate?: Entry[];
 }
 
-export interface ItemType extends Base, SRD {
+export interface ItemTypeBase extends Base, SRD {
   entries?: Entry[];
   entriesTemplate?: Entry[];
   abbreviation: string;
@@ -158,9 +159,9 @@ export interface ItemData {
   currencyConversion?: string;
 }
 
-export interface Item extends ItemData, Base, SRD {}
+export interface ItemBase extends ItemData, Base, SRD {}
 
-export interface ItemGroup extends Item {
+export interface ItemGroup extends ItemBase {
   items: string[];
   itemsHidden?: boolean;
 }
@@ -180,7 +181,7 @@ export interface MagicItemRequirement extends Partial<ItemData> {
   source?: string;
 }
 
-export interface MagicVariantInherits extends Partial<Item> {
+export interface MagicVariantInherits extends Partial<ItemBase> {
   namePrefix?: string;
   nameSuffix?: string;
   nameRemove?: string;
@@ -191,8 +192,11 @@ export interface MagicVariantInherits extends Partial<Item> {
   barding?: boolean;
 }
 
-export interface MagicVariant extends Partial<Item> {
+export interface MagicVariant extends Partial<ItemBase> {
   inherits: MagicVariantInherits;
   requires?: MagicItemRequirement[];
   excludes?: MagicItemRequirement;
 }
+
+export type Item = ItemBase | Copyable<ItemBase>;
+export type ItemType = ItemTypeBase | Copyable<ItemTypeBase>;
