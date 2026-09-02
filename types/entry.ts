@@ -1,3 +1,6 @@
+import { Source } from 'node:stream/iter';
+import { AbilityEnum } from './base';
+
 export type Entry =
   | string
   | EntryEntries
@@ -19,7 +22,10 @@ export type Entry =
   | EntryAttack
   | EntryTableGroup
   | EntryAbilityDc
-  | EntryAbilityAttackMod;
+  | EntryAbilityAttackMod
+  | EntryVariant
+  | EntrySpellcasting
+  | EntryHr;
 
 export interface EntryBase {
   id?: string;
@@ -28,6 +34,8 @@ export interface EntryBase {
   source?: string;
   data?: any;
   style?: string;
+  token?: any;
+  _version?: any;
 }
 
 export interface EntryEntries extends EntryBase {
@@ -58,15 +66,18 @@ export interface EntryTableGroup extends EntryBase {
   tables: EntryTable[];
 }
 
+// TODO figure out the overlap of this and Table
 export interface EntryTable extends EntryBase {
   type: 'table';
   caption?: string;
   colLabels?: string[];
   colLabelRows?: ColLabelRow[];
-  colStyles: string[];
+  colStyles?: string[];
   rows: ((Entry | Cell | number)[] | Row)[];
   footnote?: string;
   footnotes?: string[];
+  outro?: string[];
+  isNameGenerator?: boolean;
 }
 
 export type ColLabelRow = (string | { entry: string; width: number })[];
@@ -105,14 +116,17 @@ export interface EntryQuote extends EntryBase {
   skipMarks?: boolean;
 }
 
+export type HRef = { type: 'internal'; path: string } | { type: 'external'; url: string };
+
 export interface EntryImage extends EntryBase {
   type: 'image';
-  href: { type: 'internal'; path: string } | { type: 'external'; url: string };
+  href: HRef;
   title?: string;
   credit?: string;
   width?: number;
   height?: number;
   altText?: string;
+  expectsLightBackground?: boolean;
 }
 
 export interface EntryOptions extends EntryBase {
@@ -133,6 +147,7 @@ export interface EntryStatBlock extends EntryBase {
   tag: string;
   name: string;
   collapsed?: boolean;
+  displayName?: string;
 }
 
 export interface EntryAbilityGeneric extends EntryBase {
@@ -170,16 +185,38 @@ export interface EntryRefFeat extends EntryBase {
 
 export interface EntryAbilityDc extends EntryBase {
   type: 'abilityDc';
-  name: string;
   attributes: string[];
 }
 
 export interface EntryAbilityAttackMod extends EntryBase {
   type: 'abilityAttackMod';
-  name: string;
   attributes: string[];
+}
+
+export interface EntryVariant extends EntryBase {
+  type: 'variant' | 'variantInner' | 'variantSub';
+  entries: Entry[];
+}
+
+export interface EntrySpellcasting extends EntryBase {
+  type: 'spellcasting';
+  headerEntries?: string[];
+  footerEntries?: string[];
+  spells: any; // TODO
+  will?: any; // TODO
+  daily?: any; // TODO
+  ability?: AbilityEnum;
+}
+
+export interface EntryHr {
+  type: 'hr';
 }
 
 export interface SingleEntry {
   entry: string;
+}
+
+export interface NamedEntries {
+  name: string;
+  entries: Entry[];
 }

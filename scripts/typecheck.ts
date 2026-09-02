@@ -6,7 +6,16 @@ import { Boon } from '../types/boon';
 import { Cult } from '../types/cult';
 import { Deity } from '../types/deity';
 import { Fluff } from '../types/fluff';
-import { Item, ItemEntry, ItemGroup, ItemMastery, ItemProperty, ItemType, ItemTypeAdditionalEntries, MagicVariant } from '../types/item';
+import {
+  Item,
+  ItemEntry,
+  ItemGroup,
+  ItemMastery,
+  ItemProperty,
+  ItemType,
+  ItemTypeAdditionalEntries,
+  MagicVariant,
+} from '../types/item';
 import { Feat } from '../types/feat';
 import { Hazard } from '../types/hazard';
 import { Language } from '../types/language';
@@ -20,6 +29,7 @@ import { DNDObject } from '../types/object';
 import { Disease } from '../types/disease';
 import { Class, ClassFeature, Sidekick, Subclass, SubclassFeature } from '../types/class';
 import { Status } from '../types/status';
+import { Monster } from '../types/monster';
 
 // Typia is extremely strict and does not allow for generics. Because of this, we need
 // to define all assert functions beforehand
@@ -45,6 +55,7 @@ const asserts = {
   itemTypeAdditionalEntries: typia.createValidateEquals<ItemTypeAdditionalEntries>(),
   language: typia.createValidateEquals<Language>(),
   magicVariant: typia.createValidateEquals<MagicVariant>(),
+  monster: typia.createValidateEquals<Monster>(),
   object: typia.createValidateEquals<DNDObject>(),
   sidekick: typia.createValidateEquals<Sidekick>(),
   skill: typia.createValidateEquals<Skill>(),
@@ -135,6 +146,8 @@ check('item-type-additional-entries', asserts.itemTypeAdditionalEntries);
 check('items-base', asserts.item);
 check('languages', asserts.language);
 check('magic-variants', asserts.magicVariant);
+check('monsters', asserts.monster);
+check('monster-fluffs', asserts.fluff);
 check('objects', asserts.object);
 check('object-fluffs', asserts.fluff);
 check('sidekicks', asserts.sidekick);

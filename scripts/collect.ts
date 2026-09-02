@@ -221,6 +221,8 @@ function main() {
     collector.write('item-fluffs', 'itemFluff');
     collector.write('languages', 'language');
     collector.write('magic-variants', 'magicvariant');
+    collector.write('monsters', 'monster');
+    collector.write('monster-fluffs', 'monsterFluff');
     collector.write('objects', 'object');
     collector.write('object-fluffs', 'objectFluff');
     collector.write('spells', 'spell');

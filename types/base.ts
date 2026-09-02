@@ -1,8 +1,9 @@
-import { Entry, EntryImage } from './entry';
+import { Entry, EntryImage, HRef } from './entry';
 
 export interface ID {
   name: string;
   source: string;
+  page?: number;
 }
 
 export interface Foundry {
@@ -13,20 +14,28 @@ export interface Foundry {
   foundryType?: string;
   foundryFlags?: any;
   foundryAdvancement: any;
+  foundryTokenScale?: number;
 }
 
 export interface TokenArt {
   hasToken?: boolean;
+  tokenHref?: HRef;
   tokenCredit?: string;
   tokenCustom?: boolean;
   token?: ID;
-  altArt?: ID[];
+  altArt?: any;
 }
 
 export interface HasFluff {
   hasFluffImages?: boolean;
   hasFluff?: boolean;
-  fluff?: { entries?: Entry[]; images?: EntryImage[]; _subclassFluff?: any };
+  fluff?: {
+    entries?: Entry[];
+    images?: EntryImage[];
+    _subclassFluff?: any; // TODO
+    _monsterFluff?: any; // TODO
+    _appendMonsterFluff?: any; // TODO
+  };
 }
 
 export interface Base extends Foundry, TokenArt, HasFluff {
@@ -179,23 +188,18 @@ export interface ClassProficiencies {
 
 export type AbilityEnum = 'str' | 'dex' | 'con' | 'int' | 'wis' | 'cha';
 
-export interface AbilityBool {
-  str?: boolean;
-  dex?: boolean;
-  con?: boolean;
-  int?: boolean;
-  wis?: boolean;
-  cha?: boolean;
+interface AbilityValue<T> {
+  str?: T;
+  dex?: T;
+  con?: T;
+  int?: T;
+  wis?: T;
+  cha?: T;
 }
 
-export interface AbilityNumber {
-  str?: number;
-  dex?: number;
-  con?: number;
-  int?: number;
-  wis?: number;
-  cha?: number;
-}
+export type AbilityBool = AbilityValue<boolean>;
+export type AbilityNumber = AbilityValue<number>;
+export type AbilityString = AbilityValue<string>;
 
 export type Ability = AbilityNumber & {
   choose?: Choose | Choose[];
@@ -208,7 +212,10 @@ export type Resist =
   | Special
   | {
       choose?: Choose;
-    };
+    }
+  | { resist: (string | Resist)[]; preNote?: string; note?: string; cond?: boolean }
+  | { immune: (string | Resist)[]; preNote?: string; note?: string; cond?: boolean }
+  | { vulnerable: (string | Resist)[]; preNote?: string; note?: string; cond?: boolean };
 
 export interface Choose {
   from?: string[];
@@ -221,6 +228,7 @@ export interface Choose {
     from: string[];
     weights: number[];
   };
+  note?: string;
 }
 
 export interface Sense {
@@ -300,7 +308,7 @@ export interface ScalingLevelDice {
   scaling: Scaling;
 }
 
-export type StartingEquipmentEntry =
+export type EquipmentEntry =
   | string
   | { value: number }
   | { item: string; displayName?: string; containsValue?: number; quantity?: number }
@@ -308,7 +316,7 @@ export type StartingEquipmentEntry =
   | { equipmentType: string; displayName?: string; quantity?: number }
   | { equipmentTypes: string[] };
 
-export type StartingEquipment = Record<string, StartingEquipmentEntry[]>;
+export type StartingEquipment = Record<string, EquipmentEntry[]>;
 
 export interface DangerRating {
   tier: number;
@@ -319,13 +327,22 @@ export interface Special {
   special: string;
 }
 
+export interface ConditionalSpeed {
+  number: number;
+  condition: string;
+}
+
 export type Speed =
   | number
   | {
-      walk?: number;
-      burrow?: number;
-      climb?: number;
-      swim?: number;
+      walk?: number | ConditionalSpeed;
+      burrow?: number | ConditionalSpeed;
+      climb?: number | ConditionalSpeed;
+      swim?: number | ConditionalSpeed;
+      fly?: number | ConditionalSpeed;
+      alternate?: Record<string, ConditionalSpeed[]>;
+      choose?: Choose;
+      canHover?: boolean;
     };
 
 export interface Die {
@@ -346,3 +363,38 @@ export interface Consumes {
   amountMin?: number;
   amountMax?: number;
 }
+
+export type AC =
+  | {
+      ac: number;
+      from?: string[];
+      condition?: string;
+      braces?: boolean;
+    }
+  | { special: string };
+
+export type HP =
+  | {
+      average: number;
+      formula: string;
+    }
+  | { special: string };
+
+export interface CR {
+  cr: string;
+  xp?: number;
+  xpLair?: number;
+  lair?: string;
+  coven?: string;
+}
+
+export type TaggedType =
+  | string
+  | {
+      type: string;
+      tags?: string[];
+    }
+  | {
+      sidekickType: string;
+      sidekickTags: string[];
+    };

@@ -3,5 +3,5 @@ import { Entry, EntryImage } from './entry';
 
 export interface Fluff extends Base {
   entries?: Entry[];
-  images?: EntryImage[];
+  images?: EntryImage[] | null; // TODO this comes from _copy, the null should be removed
 }
