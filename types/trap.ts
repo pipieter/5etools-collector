@@ -1,5 +1,5 @@
-import { Base, DangerRating, Duration, SRD } from './base';
-import { Entry } from './entry';
+import { Base, DangerRating, Duration, SRD } from './internal/base';
+import { Entry } from './internal/entry';
 
 export interface Trap extends Base, SRD {
   entries: Entry[];

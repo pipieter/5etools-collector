@@ -1,5 +1,5 @@
-import { Base, SRD } from './base';
-import { Entry } from './entry';
+import { Base, SRD } from './internal/base';
+import { Entry } from './internal/entry';
 
 export interface Language extends Base, SRD {
   entries?: Entry[];

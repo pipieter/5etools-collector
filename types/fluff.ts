@@ -1,5 +1,5 @@
-import { Base } from './base';
-import { Entry, EntryImage } from './entry';
+import { Base } from './internal/base';
+import { Entry, EntryImage } from './internal/entry';
 
 export interface Fluff extends Base {
   entries?: Entry[];

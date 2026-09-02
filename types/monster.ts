@@ -1,5 +1,5 @@
-import { AbilityString, AC, Base, CR, EquipmentEntry, HP, ID, Resist, Special, Speed, SRD, TaggedType } from './base';
-import { Entry, HRef, NamedEntries } from './entry';
+import { AbilityString, AC, Base, CR, EquipmentEntry, HP, ID, Resist, Special, Speed, SRD, TaggedType } from './internal/base';
+import { Entry, HRef, NamedEntries } from './internal/entry';
 
 // TODO The null values come from _copy and should be handled there
 

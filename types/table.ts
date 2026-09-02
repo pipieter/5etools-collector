@@ -1,5 +1,5 @@
-import { Base, SRD } from './base';
-import { Entry, Cell, Row, CellHeader } from './entry';
+import { Base, SRD } from './internal/base';
+import { Entry, Cell, Row, CellHeader } from './internal/entry';
 
 export interface Table extends Base, SRD {
   type?: 'table' | 'tableGroup';

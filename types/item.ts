@@ -10,8 +10,8 @@ import {
   SetAbility,
   Ability,
   Choose,
-} from './base';
-import { Entry } from './entry';
+} from './internal/base';
+import { Entry } from './internal/entry';
 
 export interface ItemMastery extends Base, SRD {
   entries: Entry[];

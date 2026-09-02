@@ -1,5 +1,5 @@
-import { Base, SRD, Unit } from './base';
-import { Entry } from './entry';
+import { Base, SRD, Unit } from './internal/base';
+import { Entry } from './internal/entry';
 
 export interface Action extends Base, SRD {
   entries: Entry[];

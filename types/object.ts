@@ -1,5 +1,5 @@
-import { Base, Resist, Special, Speed, SRD } from './base';
-import { Entry } from './entry';
+import { Base, Resist, Special, Speed, SRD } from './internal/base';
+import { Entry } from './internal/entry';
 
 export interface DNDObject extends Base, SRD {
   entries?: Entry[];

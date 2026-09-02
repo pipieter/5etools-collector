@@ -14,8 +14,8 @@ import {
   Ability,
   Resist,
   FeatureProgression,
-} from './base';
-import { Entry } from './entry';
+} from './internal/base';
+import { Entry } from './internal/entry';
 
 export interface Feat extends Base, SRD {
   entries: Entry[];

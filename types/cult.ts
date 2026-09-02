@@ -1,5 +1,5 @@
-import { Base, SRD } from './base';
-import { Entry, SingleEntry } from './entry';
+import { Base, SRD } from './internal/base';
+import { Entry, SingleEntry } from './internal/entry';
 
 export interface Cult extends Base, SRD {
   entries: Entry[];

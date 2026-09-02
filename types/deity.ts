@@ -1,5 +1,5 @@
-import { Base, SRD } from './base';
-import { Entry, EntryImage } from './entry';
+import { Base, SRD } from './internal/base';
+import { Entry, EntryImage } from './internal/entry';
 
 export interface Deity extends Base, SRD {
   entries?: Entry[];

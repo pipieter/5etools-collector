@@ -18,8 +18,8 @@ import {
   StartingEquipment,
   ToolProficiency,
   WeaponProficiency,
-} from './base';
-import { Entry } from './entry';
+} from './internal/base';
+import { Entry } from './internal/entry';
 
 export type ClassResourceValue =
   | string

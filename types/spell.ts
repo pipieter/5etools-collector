@@ -1,5 +1,5 @@
-import { Base, SRD, SpellComponents, Unit, Duration, Range, Resist, ScalingLevelDice } from './base';
-import { Entry } from './entry';
+import { Base, SRD, SpellComponents, Unit, Duration, Range, Resist, ScalingLevelDice } from './internal/base';
+import { Entry } from './internal/entry';
 
 interface FromSource {
   name: string;
