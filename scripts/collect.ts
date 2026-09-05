@@ -27,29 +27,6 @@ function appendJson(dir: string, file: string, contents: any[]): any {
   writeFileSync(fullPath, JSON.stringify(contents, null, 1));
 }
 
-function searchVariantRules(obj: any): any[] {
-  if (Array.isArray(obj)) {
-    return obj.flatMap(searchVariantRules);
-  }
-
-  if (!obj) return [];
-  if (typeof obj !== 'object') return [];
-
-  if (obj.data?.variantRuleInclude) {
-    obj = structuredClone(obj);
-    for (const [field, value] of Object.entries(obj.data?.variantRuleInclude)) {
-      obj[field] = value;
-    }
-    return [obj];
-  }
-
-  const rules = [];
-  for (const value of Object.values(obj)) {
-    rules.push(...searchVariantRules(value));
-  }
-  return rules;
-}
-
 class Collector {
   public readonly basePath: string;
   public readonly outPath: string;
@@ -111,14 +88,6 @@ class OfficialCollector extends Collector {
     for (const index of indices) {
       const indexPath = path.join(dir, index as string);
       this.addFile(indexPath);
-    }
-  }
-
-  public addDirectory(dir: string): void {
-    const dirPath = path.join(this.basePath, dir);
-    for (const file of readdirSync(dirPath)) {
-      const filePath = path.join(dir, file);
-      this.addFile(filePath);
     }
   }
 
@@ -207,7 +176,7 @@ function officialCollector(): Collector {
   collector.addIndex('spells', 'fluff-index.json');
   collector.addSpellSources('spells/sources.json');
 
-  collector.addDirectory('book')
+  collector.addFile('generated/gendata-variantrules.json');
 
   return collector;
 }
@@ -295,15 +264,6 @@ function main() {
     const sidekicks = collector.get('class').filter((e) => e.isSidekick);
     collector.writeObjects('class', classes);
     collector.writeObjects('sidekick', sidekicks);
-
-    // Add embedded variant rules
-    const variantRules = [];
-    for (const values of collector.data.values()) {
-      for (const value of values) {
-        variantRules.push(...searchVariantRules(value));
-      }
-    }
-    collector.append('variantrule', variantRules);
   }
 }
 
