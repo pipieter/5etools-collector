@@ -35,6 +35,7 @@ export interface HasFluff {
     _subclassFluff?: any; // TODO
     _monsterFluff?: any; // TODO
     _appendMonsterFluff?: any; // TODO
+    _raceFluff?: ID;
   };
 }
 
@@ -153,14 +154,14 @@ export type SkillToolLanguageProficiency = {
   anyProficientSkill?: number;
 } & Record<string, boolean>;
 
-export interface WeaponProficiency {
+export type WeaponProficiency = {
   firearms?: boolean;
   simple?: boolean;
   martial?: boolean;
   improvised?: boolean;
   choose?: Choose;
   all?: { fromFilter: string };
-}
+} & Record<string, boolean>;
 
 export interface ArmorProficiency {
   light?: boolean;
@@ -183,6 +184,11 @@ export interface ClassProficiencies {
   armorProficiencies?: ArmorProficiency[];
   toolProficiencies?: ToolProficiency[];
   weaponProficiencies?: (WeaponProficiency & Record<string, boolean>)[];
+}
+
+export interface AnyFeat {
+  any?: number;
+  anyFromCategory?: { category: string[]; count?: number };
 }
 
 export type AbilityEnum = 'str' | 'dex' | 'con' | 'int' | 'wis' | 'cha';
@@ -311,7 +317,8 @@ export type EquipmentEntry =
   | { item: string; displayName?: string; containsValue?: number; quantity?: number }
   | { special: string; quantity?: number; worthValue?: number; containsValue?: number }
   | { equipmentType: string; displayName?: string; quantity?: number }
-  | { equipmentTypes: string[] };
+  | { equipmentTypes: string[] }
+  | { _: EquipmentEntry[] };
 
 export type StartingEquipment = Record<string, EquipmentEntry[]>;
 
@@ -333,10 +340,10 @@ export type Speed =
   | number
   | {
       walk?: number | ConditionalSpeed;
-      burrow?: number | ConditionalSpeed;
-      climb?: number | ConditionalSpeed;
-      swim?: number | ConditionalSpeed;
-      fly?: number | ConditionalSpeed;
+      burrow?: number | ConditionalSpeed | boolean;
+      climb?: number | ConditionalSpeed | boolean;
+      swim?: number | ConditionalSpeed | boolean;
+      fly?: number | ConditionalSpeed | boolean;
       alternate?: Record<string, ConditionalSpeed[]>;
       choose?: Choose;
       canHover?: boolean;
@@ -395,3 +402,15 @@ export type TaggedType =
       sidekickType: string;
       sidekickTags: string[];
     };
+
+export interface Age {
+  mature?: number;
+  max: number;
+}
+
+export interface HeightAndWeight {
+  baseHeight: number;
+  baseWeight: number;
+  heightMod?: string;
+  weightMod?: string;
+}

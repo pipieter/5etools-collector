@@ -12,6 +12,7 @@ export type Entry =
   | EntryImage
   | EntryOptions
   | EntryRefClassFeature
+  | EntryItemSpell
   | EntryRefSubclassFeature
   | EntryRefFeat
   | EntryRefOptionalFeature
@@ -205,6 +206,11 @@ export interface EntrySpellcasting extends EntryBase {
   will?: any; // TODO
   daily?: any; // TODO
   ability?: AbilityEnum;
+}
+
+export interface EntryItemSpell extends EntryBase {
+  type: 'itemSpell';
+  entry: Entry;
 }
 
 export interface EntryHr {
