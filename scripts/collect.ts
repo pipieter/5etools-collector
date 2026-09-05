@@ -177,6 +177,7 @@ function officialCollector(): Collector {
   collector.addSpellSources('spells/sources.json');
 
   collector.addFile('generated/gendata-variantrules.json');
+  collector.addFile('generated/gendata-tables.json');
 
   return collector;
 }
