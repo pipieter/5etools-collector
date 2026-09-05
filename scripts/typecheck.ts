@@ -163,7 +163,6 @@ check('sidekick', asserts.sidekick);
 check('skill', asserts.skill);
 check('race', asserts.species);
 check('raceFluff', asserts.speciesFluff);
-check('rule', asserts.rule);
 check('variantrule', asserts.rule);
 check('spell', asserts.spell);
 check('spellFluff', asserts.fluff);
