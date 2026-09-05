@@ -1,0 +1,612 @@
+[
+ {
+  "name": "Dog Sled",
+  "source": "NorthlandsWorldbook",
+  "vehicleType": "SHIP",
+  "terrain": [
+   "land"
+  ],
+  "size": "L",
+  "pace": 5,
+  "hull": {
+   "ac": 11,
+   "hp": 50,
+   "dt": 5
+  },
+  "capCrew": 1,
+  "capPassenger": 3,
+  "capCargo": 0.8,
+  "hasFluff": true
+ },
+ {
+  "name": "Drakkar",
+  "source": "NorthlandsWorldbook",
+  "vehicleType": "SHIP",
+  "terrain": [
+   "sea"
+  ],
+  "size": "G",
+  "dimensions": [
+   "140 ft.",
+   "20 ft."
+  ],
+  "pace": 4,
+  "str": 26,
+  "dex": 4,
+  "con": 20,
+  "int": 0,
+  "wis": 0,
+  "cha": 0,
+  "immune": [
+   "poison",
+   "psychic"
+  ],
+  "conditionImmune": [
+   "blinded",
+   "deafened",
+   "exhaustion",
+   "frightened",
+   "incapacitated",
+   "paralyzed",
+   "petrified",
+   "poisoned",
+   "prone",
+   "stunned",
+   "unconscious"
+  ],
+  "hull": {
+   "ac": 15,
+   "hp": 400,
+   "dt": 20
+  },
+  "capCrew": 80,
+  "capPassenger": 20,
+  "capCargo": 60,
+  "action": [
+   "On its turn, the drakkar can take two actions, choosing from the options below (it can take the same action multiple times). It can take only one action if it has fewer than 40 crew. It can't move or take actions if it has fewer than 3 crew.",
+   {
+    "type": "list",
+    "style": "list-hang-notitle",
+    "items": [
+     {
+      "type": "item",
+      "name": "Fire Ballista",
+      "entry": "{@atk rw} {@hit 8} to hit, range 120/480 ft., one target. {@h}24 ({@damage 3d10 + 8}) Piercing damage."
+     },
+     {
+      "type": "item",
+      "name": "Row",
+      "entry": "The drakkar takes the {@action Dash|XPHB} action."
+     },
+     {
+      "type": "item",
+      "name": "Volley",
+      "entry": "Archers release a volley of arrows at a point within 600 feet. Creatures within 30 feet of that point must make a {@dc 13} Dexterity saving throw, taking 13 ({@damage 3d8}) Piercing damage on a failed save, or half as much damage on a success. Creatures that fail the saving throw by 5 or more have their {@variantrule Speed|XPHB} reduced by 10 feet until the start of the drakkar's next turn."
+     },
+     {
+      "type": "item",
+      "name": "Shield Wall",
+      "entry": "The rowers raise their shields in defense. This grants creatures in the ship a +5 bonus to their {@variantrule Armor Class|XPHB} and Dexterity Saving throws, but the ship's current {@variantrule Speed|XPHB} is halved until the end of the next round."
+     }
+    ]
+   }
+  ],
+  "other": [
+   {
+    "name": "Sails and Rowing",
+    "entries": [
+     "While in {@variantrule Initiative|XPHB}, the drakkar's listed {@variantrule Speed|XPHB} is its sailing speed. Reduce this in half when sailing against the wind. When rowing, a drakkar's {@variantrule Speed|XPHB} is 20 ft."
+    ]
+   },
+   {
+    "name": "Initiative",
+    "entries": [
+     "The drakkar has an {@variantrule Initiative|XPHB} modifier of +4."
+    ]
+   }
+  ],
+  "hasFluff": true,
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/JuliTutu/homebrew-img/main/img/NorthlandsWorldbook/Items/Drakkar_Token.webp"
+  },
+  "hasFluffImages": true
+ },
+ {
+  "name": "Karvi",
+  "source": "NorthlandsWorldbook",
+  "vehicleType": "SHIP",
+  "terrain": [
+   "sea"
+  ],
+  "size": "G",
+  "dimensions": [
+   "55 ft.",
+   "12 ft."
+  ],
+  "pace": 3,
+  "str": 16,
+  "dex": 6,
+  "con": 12,
+  "int": 10,
+  "wis": 10,
+  "cha": 10,
+  "immune": [
+   "poison",
+   "psychic"
+  ],
+  "conditionImmune": [
+   "blinded",
+   "deafened",
+   "exhaustion",
+   "frightened",
+   "incapacitated",
+   "paralyzed",
+   "petrified",
+   "poisoned",
+   "prone",
+   "stunned",
+   "unconscious"
+  ],
+  "hull": {
+   "ac": 15,
+   "hp": 100,
+   "dt": 10
+  },
+  "capCrew": 16,
+  "capPassenger": 4,
+  "capCargo": 25,
+  "action": [
+   "On its turn, the karvi can take one action, choosing from the options below. It can't move or take actions if it has fewer than 2 crew.",
+   {
+    "type": "list",
+    "style": "list-hang-notitle",
+    "items": [
+     {
+      "type": "item",
+      "name": "Row",
+      "entry": "The karvi takes the {@action Dash|XPHB} action."
+     },
+     {
+      "type": "item",
+      "name": "Volley",
+      "entry": "Archers release a volley of arrows at a point within 600 feet. Creatures within 30 feet of that point must make a {@dc 12} Dexterity saving throw, taking 13 ({@damage 3d8}) Piercing damage on a failed save, or half as much damage on a success. Creatures that fail the saving throw by 5 or more have their {@variantrule Speed|XPHB} reduced by 10 feet until the start of the karvi's next turn."
+     }
+    ]
+   }
+  ],
+  "other": [
+   {
+    "name": "Sails",
+    "entries": [
+     "While in {@variantrule Initiative|XPHB}, the karvi's {@variantrule Speed|XPHB} is reduced to 15 ft. when sailing against the wind. While sailing with the wind, its {@variantrule Speed|XPHB} becomes 55 feet."
+    ]
+   },
+   {
+    "name": "Initiative",
+    "entries": [
+     "The karvi has an {@variantrule Initiative|XPHB} modifier of +7."
+    ]
+   }
+  ],
+  "hasFluff": true
+ },
+ {
+  "name": "Knarr",
+  "source": "NorthlandsWorldbook",
+  "vehicleType": "SHIP",
+  "terrain": [
+   "sea"
+  ],
+  "size": "G",
+  "dimensions": [
+   "50 ft.",
+   "15 ft."
+  ],
+  "pace": 2,
+  "str": 16,
+  "dex": 6,
+  "con": 12,
+  "int": 10,
+  "wis": 10,
+  "cha": 10,
+  "immune": [
+   "poison",
+   "psychic"
+  ],
+  "conditionImmune": [
+   "blinded",
+   "deafened",
+   "exhaustion",
+   "frightened",
+   "incapacitated",
+   "paralyzed",
+   "petrified",
+   "poisoned",
+   "prone",
+   "stunned",
+   "unconscious"
+  ],
+  "hull": {
+   "ac": 15,
+   "hp": 200,
+   "dt": 10
+  },
+  "capCrew": 10,
+  "capPassenger": 15,
+  "capCargo": 50,
+  "action": [
+   "On its turn, the knarr can take one action, choosing from the options below. It can't move or take actions if it has fewer than 2 crew.",
+   {
+    "type": "list",
+    "style": "list-hang-notitle",
+    "items": [
+     {
+      "type": "item",
+      "name": "Row",
+      "entry": "The knarr takes the {@action Dash|XPHB} action."
+     },
+     {
+      "type": "item",
+      "name": "Volley",
+      "entry": "Archers release a volley of arrows at a point within 600 feet. Creatures within 30 feet of that point must make a {@dc 12} Dexterity saving throw, taking 9 ({@damage 2d8}) Piercing damage on a failed save, or half as much damage on a success. Creatures that fail the saving throw by 5 or more have their {@variantrule Speed|XPHB} reduced by 10 feet until the start of the karvi's next turn."
+     }
+    ]
+   }
+  ],
+  "other": [
+   {
+    "name": "Deep Keel",
+    "entries": [
+     "The deeper keel of the boat does not allow the knarr to be used in shallow rivers."
+    ]
+   },
+   {
+    "name": "Sails",
+    "entries": [
+     "While in {@variantrule Initiative|XPHB}, the knarr's {@variantrule Speed|XPHB} is reduced to 15 ft. when sailing against the wind. While sailing with the wind, its {@variantrule Speed|XPHB} becomes 50 feet."
+    ]
+   },
+   {
+    "name": "Initiative",
+    "entries": [
+     "The knarr has an {@variantrule Initiative|XPHB} modifier of +7."
+    ]
+   }
+  ],
+  "hasFluff": true
+ },
+ {
+  "name": "Ogre War Sled (pulled by two Worgs)",
+  "source": "NorthlandsWorldbook",
+  "vehicleType": "SHIP",
+  "terrain": [
+   "land"
+  ],
+  "size": "H",
+  "pace": 4,
+  "action": [
+   "On its turn, the driver of the war sled may use one of the following actions in place of its normal actions",
+   {
+    "type": "list",
+    "style": "list-hang-notitle",
+    "items": [
+     {
+      "type": "item",
+      "name": "Sled Trample",
+      "entry": "The sled moves at least 30 feet in a straight line. Each creature trampled by the sled must make a {@dc 15} Dexterity saving throw. On a failed save, a creature takes {@damage 2d10} Bludgeoning and {@damage 2d10} Slashing damage, and has the {@condition Prone|XPHB} condition. On a successful save, the target takes half as much damage and does not have the {@condition Prone|XPHB} condition."
+     },
+     {
+      "type": "item",
+      "name": "Worg Attack",
+      "entry": "The sled moves at least 10 feet in a straight line, ending adjacent to a creature or object. The two {@creature Worg|XMM|Worgs} pulling the sled may each make one attack against the target. If both {@creature Worg|XMM|Worgs} hit with their attacks, the driver may also make one melee weapon attack against the target."
+     }
+    ]
+   }
+  ],
+  "hull": {
+   "ac": 17,
+   "hp": 175,
+   "dt": 10
+  },
+  "capCrew": 2,
+  "capCargo": 1,
+  "other": [
+   {
+    "name": "Bulky Construction",
+    "entries": [
+     "Creatures that aren't Large must make a {@dc 13} Wisdom ({@skill Animal Handling|XPHB}) each turn to control the sled in battle. On a failure, the sled moves its {@variantrule Speed|XPHB} in a random direction (other than backward)."
+    ]
+   },
+   {
+    "name": "Mounted Vantage",
+    "entries": [
+     "Passengers on a moving war sled have a +2 bonus to weapon damage rolls against creatures not also on a mount or vehicle."
+    ]
+   },
+   {
+    "name": "Skull Shield",
+    "entries": [
+     "Large creatures riding on the war-sled have {@variantrule Cover|XPHB|Half Cover} from ranged attacks."
+    ]
+   }
+  ],
+  "hasFluff": true,
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/JuliTutu/homebrew-img/main/img/NorthlandsWorldbook/Items/Ogre_War_Sled_Token.webp"
+  },
+  "hasFluffImages": true
+ },
+ {
+  "name": "Skeid",
+  "source": "NorthlandsWorldbook",
+  "vehicleType": "SHIP",
+  "terrain": [
+   "sea"
+  ],
+  "size": "G",
+  "dimensions": [
+   "100 ft.",
+   "15 ft."
+  ],
+  "pace": 5,
+  "str": 22,
+  "dex": 6,
+  "con": 16,
+  "int": 0,
+  "wis": 0,
+  "cha": 0,
+  "immune": [
+   "poison",
+   "psychic"
+  ],
+  "conditionImmune": [
+   "blinded",
+   "deafened",
+   "exhaustion",
+   "frightened",
+   "incapacitated",
+   "paralyzed",
+   "petrified",
+   "poisoned",
+   "prone",
+   "stunned",
+   "unconscious"
+  ],
+  "hull": {
+   "ac": 15,
+   "hp": 350,
+   "dt": 15
+  },
+  "capCrew": 50,
+  "capPassenger": 30,
+  "capCargo": 20,
+  "action": [
+   "On its turn, the skeid can take two actions, choosing from the options below (it can take the same action multiple times). It can take only one action if it has fewer than 25 crew. It can't move or take actions if it has fewer than 3 crew.",
+   {
+    "type": "list",
+    "style": "list-hang-notitle",
+    "items": [
+     {
+      "type": "item",
+      "name": "Fire Ballista",
+      "entry": "{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}22 ({@damage 3d10 + 6}) Piercing damage."
+     },
+     {
+      "type": "item",
+      "name": "Row",
+      "entry": "The skeid takes the {@action Dash|XPHB} action."
+     },
+     {
+      "type": "item",
+      "name": "Volley",
+      "entry": "Archers release a volley of arrows at a point within 600 feet. Creatures within 30 feet of that point must make a {@dc 13} Dexterity saving throw, taking 13 ({@damage 3d8}) Piercing damage on a failed save, or half as much damage on a success. Creatures that fail the saving throw by 5 or more have their {@variantrule Speed|XPHB} reduced by 10 feet until the start of the skeid's next turn."
+     },
+     {
+      "type": "item",
+      "name": "Shield Wall",
+      "entry": "The rowers raise their shields in defense. This grants creatures in the ship a +5 bonus to their {@variantrule Armor Class|XPHB} and Dexterity Saving throws, but the ship's current {@variantrule Speed|XPHB} is reduced by half until the end of the next round."
+     }
+    ]
+   }
+  ],
+  "other": [
+   {
+    "name": "Sails",
+    "entries": [
+     "While in {@variantrule Initiative|XPHB}, the skeid's {@variantrule Speed|XPHB} is reduced to 15 ft. when sailing against the wind. While sailing with the wind, its {@variantrule Speed|XPHB} becomes 70 feet."
+    ]
+   },
+   {
+    "name": "Initiative",
+    "entries": [
+     "The skeid has an {@variantrule Initiative|XPHB} modifier of +6."
+    ]
+   }
+  ],
+  "hasFluff": true
+ },
+ {
+  "name": "Snekkja",
+  "source": "NorthlandsWorldbook",
+  "vehicleType": "SHIP",
+  "terrain": [
+   "sea"
+  ],
+  "size": "G",
+  "dimensions": [
+   "60 ft.",
+   "8 ft."
+  ],
+  "pace": 5,
+  "str": 18,
+  "dex": 6,
+  "con": 18,
+  "int": 0,
+  "wis": 0,
+  "cha": 0,
+  "immune": [
+   "poison",
+   "psychic"
+  ],
+  "conditionImmune": [
+   "blinded",
+   "deafened",
+   "exhaustion",
+   "frightened",
+   "incapacitated",
+   "paralyzed",
+   "petrified",
+   "poisoned",
+   "prone",
+   "stunned",
+   "unconscious"
+  ],
+  "hull": {
+   "ac": 15,
+   "hp": 250,
+   "dt": 10
+  },
+  "capCrew": 30,
+  "capPassenger": 10,
+  "capCargo": 10,
+  "action": [
+   "On its turn, the snekkja can take two actions, choosing from the options below (it can take the same action multiple times). It can take only one action if it has fewer than 15 crew. It can't move or take actions if it has fewer than 3 crew.",
+   {
+    "type": "list",
+    "style": "list-hang-notitle",
+    "items": [
+     {
+      "type": "item",
+      "name": "Row",
+      "entry": "The snekkja takes the {@action Dash|XPHB} action."
+     },
+     {
+      "type": "item",
+      "name": "Volley",
+      "entry": "Archers release a volley of arrows at a point within 600 feet. Creatures within 30 feet of that point must make a {@dc 12} Dexterity saving throw, taking 13 ({@damage 3d8}) Piercing damage on a failed save, or half as much damage on a success. Creatures that fail the saving throw by 5 or more have their {@variantrule Speed|XPHB} reduced by 10 feet until the start of the snekkja's next turn."
+     },
+     {
+      "type": "item",
+      "name": "Shield Wall",
+      "entry": "The rowers raise their shields in defense. This grants creatures in the ship a +5 bonus to their {@variantrule Armor Class|XPHB} and Dexterity Saving throws, but the ship's current {@variantrule Speed|XPHB} is halved until the end of the next round."
+     }
+    ]
+   }
+  ],
+  "other": [
+   {
+    "name": "Sails",
+    "entries": [
+     "While in {@variantrule Initiative|XPHB}, the snekkja's {@variantrule Speed|XPHB} is reduced to 15 ft. when sailing against the wind. While sailing with the wind, its {@variantrule Speed|XPHB} becomes 70 feet."
+    ]
+   },
+   {
+    "name": "Initiative",
+    "entries": [
+     "The snekkja has an {@variantrule Initiative|XPHB} modifier of +6."
+    ]
+   }
+  ],
+  "hasFluff": true
+ },
+ {
+  "name": "Stokkvari",
+  "source": "NorthlandsSagas",
+  "vehicleType": "SHIP",
+  "terrain": [
+   "sea"
+  ],
+  "size": "G",
+  "dimensions": [
+   "110 ft.",
+   "25 ft."
+  ],
+  "pace": 6,
+  "str": 26,
+  "dex": 4,
+  "con": 20,
+  "int": 10,
+  "wis": 10,
+  "cha": 10,
+  "immune": [
+   "poison",
+   "psychic"
+  ],
+  "conditionImmune": [
+   "blinded",
+   "deafened",
+   "exhaustion",
+   "frightened",
+   "incapacitated",
+   "paralyzed",
+   "petrified",
+   "poisoned",
+   "prone",
+   "stunned",
+   "unconscious"
+  ],
+  "hull": {
+   "ac": 15,
+   "hp": 400,
+   "dt": 20
+  },
+  "capCrew": 24,
+  "capPassenger": 6,
+  "capCargo": 30,
+  "action": [
+   "On its turn, Stokkvari can take two actions, choosing from the options below (it can take the same action multiple times). It can take only one action if it has fewer than 40 crew. It can't move or take actions if it has fewer than 3 crew.",
+   {
+    "type": "list",
+    "style": "list-hang-notitle",
+    "items": [
+     {
+      "type": "item",
+      "name": "Fire Ballista",
+      "entry": "{@atk rw} {@hit 8} to hit, range 120/480 ft., one target. {@h}24 ({@damage 3d10 + 8}) Piercing damage."
+     },
+     {
+      "type": "item",
+      "name": "Row",
+      "entry": "Stokkvari takes the {@action Dash|XPHB} action."
+     },
+     {
+      "type": "item",
+      "name": "Shield Wall",
+      "entry": "Order the rowers to raise their shields in defense. This grants creatures in the ship a +5 bonus to their Armor Class and Dexterity saving throws, but the ship's current {@variantrule Speed|XPHB} is reduced by half until the end of the next round."
+     },
+     {
+      "type": "item",
+      "name": "Volley",
+      "entry": "Archers release a volley of arrows at a point within 600 feet. Creatures within 30 feet of that point must make a {@dc 13} Dexterity saving throw, taking 13 ({@damage 3d8}) Piercing damage on a failure, or half as much on a success. Creatures that fail the saving throw by 5 or more have their {@variantrule Speed|XPHB} reduced by 10 feet until the start of Stokkvari's next turn."
+     }
+    ]
+   }
+  ],
+  "other": [
+   {
+    "name": "Dragon's Head",
+    "entries": [
+     "The magic drakahofud figurehead on the prow of the ship can be used as a ritual to transport the ship and anyone on board as if using the {@spell Plane Shift} spell. After using this relic twice, you must finish a {@variantrule Long Rest|XPHB} before you can use it again."
+    ]
+   },
+   {
+    "name": "Sails and Rowing",
+    "entries": [
+     "While in {@variantrule Initiative|XPHB}, Stokkvari's listed {@variantrule Speed|XPHB} is its Sailing Speed. Reduce this by half when sailing against the wind, unless the crew is rowing."
+    ]
+   },
+   {
+    "name": "Initiative",
+    "entries": [
+     "Stokkvari has an {@variantrule Initiative|XPHB} modifier of +4."
+    ]
+   }
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ }
+]

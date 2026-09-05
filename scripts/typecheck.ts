@@ -31,6 +31,7 @@ import { Class, ClassFeature, Sidekick, Subclass, SubclassFeature } from '../typ
 import { Status } from '../types/status';
 import { Monster } from '../types/monster';
 import { Species, SpeciesFluff } from '../types/species';
+import { Vehicle } from '../types/vehicle';
 
 // Typia is extremely strict and does not allow for generics. Because of this, we need
 // to define all assert functions beforehand
@@ -69,6 +70,7 @@ const asserts = {
   subclassFeature: typia.createValidateEquals<SubclassFeature>(),
   table: typia.createValidateEquals<Table>(),
   trap: typia.createValidateEquals<Trap>(),
+  vehicle: typia.createValidateEquals<Vehicle>(),
 };
 
 type validateFn<T> = (input: unknown) => typia.IValidation<T>;
@@ -166,5 +168,7 @@ check('subclass', asserts.subclass);
 check('subclassFeature', asserts.subclassFeature);
 check('table', asserts.table);
 check('trap', asserts.trap);
+check('vehicle', asserts.vehicle);
+check('vehicleFluff', asserts.fluff);
 
 console.log('All typechecks succeeded!');

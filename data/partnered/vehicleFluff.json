@@ -1,0 +1,89 @@
+[
+ {
+  "name": "Dog Sled",
+  "source": "NorthlandsWorldbook",
+  "entries": [
+   "Dog sleds are long, narrow frames set on metal ski-like runners and pulled by teams of trained dogs. Ideal for rossing frozen terrain, dog sleds are commonly used in arctic regions for travel, trade, and transport.",
+   "A dog sled is a Large vehicle, weighs 150 pounds, has room on the back for one driver, and can hold 3 passengers or about 800 pounds of cargo. Sleds can be swift, but much depends on the terrain, snow conditions, and other obstacles.",
+   "Dog sleds typically have teams of dogs numbering between 6 and 10. For ease of play, use the stats for a {@creature Wolf|XMM} for an average sled dog. After 6 hours of travel, a sled dog must take a {@variantrule Long Rest|XPHB} or suffer one level of {@condition Exhaustion|XPHB}."
+  ]
+ },
+ {
+  "name": "Drakkar",
+  "source": "NorthlandsWorldbook",
+  "entries": [
+   "The largest of longships, a drakkar is also called a \"dragon ship\" for its stylized dragon figureheads. Drakkar are the flagships of their fleet, and they are commissioned by jarls, chieftains, and other prominent, wealthy leaders.",
+   "The larger cargo hold of a drakkar also makes it ideal for long journeys. It is capable of carrying enough supplies to reach destinations that smaller longships would be ill-equipped for. However, drakkar are not as agile as other longships in terms of turning speed or in lighter wind conditions."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/JuliTutu/homebrew-img/main/img/NorthlandsWorldbook/Book/116-05-003.longship.webp"
+    }
+   }
+  ]
+ },
+ {
+  "name": "Karvi",
+  "source": "NorthlandsWorldbook",
+  "entries": [
+   "The smallest of the flat-keel longships, the karvi can traverse shallow waters to transport goods, fish, and even raiders. While a karvi can be used in battle, it is often used as a general-purpose river and coastal ship. Its size and shallow keel make it less ocean-worthy than other longboats. While a knarr is used for transporting livestock, it is common to find a karvi ferrying people to their destination."
+  ]
+ },
+ {
+  "name": "Knarr",
+  "source": "NorthlandsWorldbook",
+  "entries": [
+   "Suited for open water rather than shallow rivers, knarr are longships used to ferry goods and livestock across the ocean. Its deep hull allows for more cargo storage, compared with other longships of similar size, and allows the ship to be operated by smaller crews. When used in exploration or war, knarr are used to carry supplies for the crews and warriors on other ships in the fleet, rather than as battleships."
+  ]
+ },
+ {
+  "name": "Ogre War Sled (pulled by two Worgs)",
+  "source": "NorthlandsWorldbook",
+  "entries": [
+   "This brutal, oversized war sled is constructed from heavy timber, mammoth bones, and forged metal. The front features a shield-like prow crafted from a mammoth skull that provides {@variantrule Cover|XPHB|Half Cover} for the driver. Typically, war sleds are pulled by two {@creature Worg|XMM|Worgs}, though some are harnessed to a {@creature Mammoth|XMM} or other cold weather creatures.",
+   "Used by many of the giant and troll communities in the Northlands, the ogre war sled is a Huge vehicle. This heavy sled is large enough to hold two ogres."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/JuliTutu/homebrew-img/main/img/NorthlandsWorldbook/Items/115-05-002.ogre-war-sled.webp"
+    }
+   }
+  ]
+ },
+ {
+  "name": "Skeid",
+  "source": "NorthlandsWorldbook",
+  "entries": [
+   "Smaller than a drakkar, a skeid, or \"slider,\" is still large enough to carry dozens of crew members, passengers, supplies and treasure. This warship is also amongst the fastest of the longboats, matched only by the smaller snekkja."
+  ]
+ },
+ {
+  "name": "Snekkja",
+  "source": "NorthlandsWorldbook",
+  "entries": [
+   "The most common of raiding longships, the snekkja, also known as the snake ship, is also the smallest of the warships. Simple and quick to build, navigate, and maintain, snekkja carry raiders into battle with efficiency, slipping away after being loaded with plundered goods and treasure."
+  ]
+ },
+ {
+  "name": "Stokkvari",
+  "source": "NorthlandsSagas",
+  "entries": [
+   "Kosktup Farleap's longship, Stokkvari, is an impressive specimen of its type. Its stat block appears below. See \"Ships and Sea Combat\" in Northlands Worldbook, Chapter 7: Running a Northlands Campaign for ship rules."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/JuliTutu/homebrew-img/main/img/NorthlandsSagas/Adventures/Map_Stokkvari_Player.webp"
+    }
+   }
+  ]
+ }
+]

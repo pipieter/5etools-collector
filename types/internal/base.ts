@@ -339,11 +339,11 @@ export interface ConditionalSpeed {
 export type Speed =
   | number
   | {
-      walk?: number | ConditionalSpeed;
-      burrow?: number | ConditionalSpeed | boolean;
-      climb?: number | ConditionalSpeed | boolean;
-      swim?: number | ConditionalSpeed | boolean;
-      fly?: number | ConditionalSpeed | boolean;
+      walk?: number | ConditionalSpeed| string | boolean;
+      burrow?: number | ConditionalSpeed | string | boolean;
+      climb?: number | ConditionalSpeed | string | boolean;
+      swim?: number | ConditionalSpeed | string | boolean;
+      fly?: number | ConditionalSpeed | string | boolean;
       alternate?: Record<string, ConditionalSpeed[]>;
       choose?: Choose;
       canHover?: boolean;
@@ -368,21 +368,9 @@ export interface Consumes {
   amountMax?: number;
 }
 
-export type AC =
-  | {
-      ac: number;
-      from?: string[];
-      condition?: string;
-      braces?: boolean;
-    }
-  | { special: string };
-
+export type AC = number | { ac: number; from?: string[]; condition?: string; braces?: boolean } | { special: string };
 export type HP =
-  | {
-      average: number;
-      formula: string;
-    }
-  | { special: string };
+  number | { average: number; formula: string } | { special: string } | { hp: number; dt?: number; mt?: number };
 
 export interface CR {
   cr: string;
