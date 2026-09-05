@@ -51,7 +51,6 @@ export interface Base extends Foundry, TokenArt, HasFluff {
   additionalSources?: Source[];
   edition?: string;
   _versions?: any[]; // TODO
-  _copy?: any; // TODO
 }
 
 export type Source =
