@@ -228,6 +228,8 @@ function main() {
     collector.write('objectFluff');
     collector.write('race');
     collector.write('raceFluff');
+    collector.write("rule")
+    collector.write("variantrule")
     collector.write('spell');
     collector.write('spellFluff');
     collector.write('spellSource');

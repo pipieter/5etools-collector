@@ -339,7 +339,7 @@ export interface ConditionalSpeed {
 export type Speed =
   | number
   | {
-      walk?: number | ConditionalSpeed| string | boolean;
+      walk?: number | ConditionalSpeed | string | boolean;
       burrow?: number | ConditionalSpeed | string | boolean;
       climb?: number | ConditionalSpeed | string | boolean;
       swim?: number | ConditionalSpeed | string | boolean;
@@ -401,4 +401,10 @@ export interface HeightAndWeight {
   baseWeight: number;
   heightMod?: string;
   weightMod?: string;
+}
+
+export interface Link {
+  type: 'link';
+  href: HRef;
+  text: string;
 }

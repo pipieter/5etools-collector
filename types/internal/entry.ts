@@ -1,4 +1,4 @@
-import { AbilityEnum } from './base';
+import { Ability, AbilityEnum, Link } from './base';
 
 export type Entry =
   | string
@@ -25,7 +25,8 @@ export type Entry =
   | EntryAbilityAttackMod
   | EntryVariant
   | EntrySpellcasting
-  | EntryHr;
+  | EntryHr
+  | EntryInline;
 
 export interface EntryBase {
   id?: string;
@@ -80,7 +81,7 @@ export interface EntryTable extends EntryBase {
   isNameGenerator?: boolean;
 }
 
-export type ColLabelRow = (string | { entry: string; width: number })[];
+export type ColLabelRow = (string | { entry: string; width: number; type?: string; style?: string })[];
 
 export interface Cell {
   type: 'cell';
@@ -116,7 +117,7 @@ export interface EntryQuote extends EntryBase {
   skipMarks?: boolean;
 }
 
-export type HRef = { type: 'internal'; path: string } | { type: 'external'; url: string };
+export type HRef = { type: 'internal'; path: string; hash?: string } | { type: 'external'; url: string };
 
 export interface EntryImage extends EntryBase {
   type: 'image';
@@ -153,6 +154,7 @@ export interface EntryStatBlock extends EntryBase {
 export interface EntryAbilityGeneric extends EntryBase {
   type: 'abilityGeneric';
   text: string;
+  attributes?: AbilityEnum[];
 }
 
 export interface EntryActions extends EntryBase {
@@ -215,6 +217,11 @@ export interface EntryItemSpell extends EntryBase {
 
 export interface EntryHr {
   type: 'hr';
+}
+
+export interface EntryInline extends EntryBase {
+  type: 'inline';
+  entries: (string | Link)[];
 }
 
 export interface SingleEntry {
