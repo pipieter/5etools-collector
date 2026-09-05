@@ -1,4 +1,4 @@
-import { Ability, AbilityEnum, Link } from './base';
+import { Ability, AbilityEnum, Link, SRD } from './base';
 
 export type Entry =
   | string
@@ -28,7 +28,7 @@ export type Entry =
   | EntryHr
   | EntryInline;
 
-export interface EntryBase {
+export interface EntryBase extends SRD {
   id?: string;
   name?: string;
   page?: number;
