@@ -220,6 +220,7 @@ function main() {
     collector.write('itemTypeAdditionalEntries');
     collector.write('itemFluff');
     collector.write('language');
+    collector.write('languageFluff');
     collector.write('magicvariant');
     collector.write('monster');
     collector.write('monsterFluff');

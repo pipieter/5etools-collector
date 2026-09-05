@@ -151,6 +151,7 @@ check('itemType', asserts.itemType);
 check('itemTypeAdditionalEntries', asserts.itemTypeAdditionalEntries);
 check('baseitem', asserts.item);
 check('language', asserts.language);
+check('languageFluff', asserts.fluff);
 check('magicvariant', asserts.magicVariant);
 check('monster', asserts.monster);
 check('monsterFluff', asserts.fluff);
