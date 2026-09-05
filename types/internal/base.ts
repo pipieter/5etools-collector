@@ -210,9 +210,7 @@ export type Ability = AbilityNumber & {
 export type Resist =
   | string
   | Special
-  | {
-      choose?: Choose;
-    }
+  | { choose: Choose }
   | { resist: (string | Resist)[]; preNote?: string; note?: string; cond?: boolean }
   | { immune: (string | Resist)[]; preNote?: string; note?: string; cond?: boolean }
   | { vulnerable: (string | Resist)[]; preNote?: string; note?: string; cond?: boolean };
