@@ -73,7 +73,7 @@ class Collector {
 }
 
 class OfficialCollector extends Collector {
-  public addFile(file: string): void {
+  public addFile(file: string) {
     const contents = read(path.join(this.basePath, file));
 
     for (const [key, value] of Object.entries(contents)) {
@@ -256,6 +256,7 @@ function main() {
     collector.write('status');
     collector.write('statusFluff');
     collector.write('table');
+    collector.write('tableGroup');
     collector.write('trap');
     collector.write('vehicle');
     collector.write('vehicleFluff');

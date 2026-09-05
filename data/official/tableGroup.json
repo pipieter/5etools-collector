@@ -1,0 +1,6468 @@
+[
+ {
+  "type": "tableGroup",
+  "name": "Adventuring Options; Firearms",
+  "tables": [
+   {
+    "type": "table",
+    "caption": "Firearms",
+    "colLabels": [
+     "Renaissance Item",
+     "Cost",
+     "Damage",
+     "Weight",
+     "Properties"
+    ],
+    "colStyles": [
+     "col-3",
+     "col-1",
+     "col-2",
+     "col-1",
+     "col-5"
+    ],
+    "rows": [
+     [
+      "{@i Martial Ranged Weapons}",
+      "",
+      "",
+      "",
+      ""
+     ],
+     {
+      "type": "row",
+      "style": "row-indent-first",
+      "row": [
+       "Pistol",
+       "250 gp",
+       "{@dice 1d10} piercing",
+       "3 lb.",
+       "Ammunition (range 30/90), loading"
+      ]
+     },
+     {
+      "type": "row",
+      "style": "row-indent-first",
+      "row": [
+       "Musket",
+       "500 gp",
+       "{@dice 1d12} piercing",
+       "10 lb.",
+       "Ammunition (range 40/120), loading, two-handed"
+      ]
+     },
+     [
+      "{@i Ammunition}",
+      "",
+      "",
+      "",
+      ""
+     ],
+     {
+      "type": "row",
+      "style": "row-indent-first",
+      "row": [
+       "Bullets (10)",
+       "3 gp",
+       "—",
+       "2 lb.",
+       "—"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "table",
+    "colLabels": [
+     "Modern Item",
+     "Cost",
+     "Damage",
+     "Weight",
+     "Properties"
+    ],
+    "colStyles": [
+     "col-3",
+     "col-1",
+     "col-2",
+     "col-1",
+     "col-5"
+    ],
+    "rows": [
+     [
+      "{@i Martial Ranged Weapons}",
+      "",
+      "",
+      "",
+      ""
+     ],
+     {
+      "type": "row",
+      "style": "row-indent-first",
+      "row": [
+       "Pistol, automatic",
+       "—",
+       "{@dice 2d6} piercing",
+       "3 lb.",
+       "Ammunition (range 50/150), reload (15 shots)"
+      ]
+     },
+     {
+      "type": "row",
+      "style": "row-indent-first",
+      "row": [
+       "Revolver",
+       "—",
+       "{@dice 2d8} piercing",
+       "3 lb.",
+       "Ammunition (range 40/120), reload (6 shots)"
+      ]
+     },
+     {
+      "type": "row",
+      "style": "row-indent-first",
+      "row": [
+       "Rifle, hunting",
+       "—",
+       "{@dice 2d10} piercing",
+       "8 lb.",
+       "Ammunition (range 80/240), reload (5 shots), two-handed"
+      ]
+     },
+     {
+      "type": "row",
+      "style": "row-indent-first",
+      "row": [
+       "Rifle, automatic",
+       "—",
+       "{@dice 2d8} piercing",
+       "8 lb.",
+       "Ammunition (range 80/240), burst fire, reload (30 shots), two-handed"
+      ]
+     },
+     {
+      "type": "row",
+      "style": "row-indent-first",
+      "row": [
+       "Shotgun",
+       "—",
+       "{@dice 2d8} piercing",
+       "7 lb.",
+       "Ammunition (range 30/90), reload (2 shots), two-handed"
+      ]
+     },
+     [
+      "{@i Ammunition}",
+      "",
+      "",
+      "",
+      ""
+     ],
+     {
+      "type": "row",
+      "style": "row-indent-first",
+      "row": [
+       "Bullets (10)",
+       "—",
+       "—",
+       "1 lb.",
+       "—"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "table",
+    "colLabels": [
+     "Futuristic Item",
+     "Cost",
+     "Damage",
+     "Weight",
+     "Properties"
+    ],
+    "colStyles": [
+     "col-3",
+     "col-1",
+     "col-2",
+     "col-1",
+     "col-5"
+    ],
+    "rows": [
+     [
+      "{@i Martial Ranged Weapons}",
+      "",
+      "",
+      "",
+      ""
+     ],
+     {
+      "type": "row",
+      "style": "row-indent-first",
+      "row": [
+       "Laser pistol",
+       "—",
+       "{@dice 3d6} radiant",
+       "2 lb.",
+       "Ammunition (range 40/120), reload (50 shots)"
+      ]
+     },
+     {
+      "type": "row",
+      "style": "row-indent-first",
+      "row": [
+       "Antimatter rifle",
+       "—",
+       "{@dice 6d8} necrotic",
+       "10 lb.",
+       "Ammunition (range 120/360), reload (2 shots), two-handed"
+      ]
+     },
+     {
+      "type": "row",
+      "style": "row-indent-first",
+      "row": [
+       "Laser rifle",
+       "—",
+       "{@dice 3d8} radiant",
+       "7 lb.",
+       "Ammunition (range 100/300), reload (30 shots), two-handed"
+      ]
+     },
+     [
+      "{@i Ammunition}",
+      "",
+      "",
+      "",
+      ""
+     ],
+     {
+      "type": "row",
+      "style": "row-indent-first",
+      "row": [
+       "Energy cell",
+       "—",
+       "—",
+       "5 oz.",
+       "—"
+      ]
+     }
+    ]
+   }
+  ],
+  "page": 266,
+  "source": "DMG",
+  "chapter": {
+   "name": "Dungeon Master's Workshop",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 9
+   },
+   "index": 9
+  }
+ },
+ {
+  "type": "tableGroup",
+  "name": "Background; I became...",
+  "tables": [
+   {
+    "type": "table",
+    "caption": "Acolyte",
+    "colLabels": [
+     "d6",
+     "I became an acolyte because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "I ran away from home at an early age and found refuge in a temple."
+     ],
+     [
+      "2",
+      "My family gave me to a temple, since they were unable or unwilling to care for me."
+     ],
+     [
+      "3",
+      "I grew up in a household with strong religious convictions. Entering the service of one or more gods seemed natural."
+     ],
+     [
+      "4",
+      "An impassioned sermon struck a chord deep in my soul and moved me to serve the faith."
+     ],
+     [
+      "5",
+      "I followed a childhood friend, a respected acquaintance, or someone I loved into religious service."
+     ],
+     [
+      "6",
+      "After encountering a true servant of the gods, I was so inspired that I immediately entered the service of a religious group."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Charlatan",
+    "colLabels": [
+     "d6",
+     "I became a charlatan because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "I was left to my own devices, and my knack for manipulating others helped me survive."
+     ],
+     [
+      "2",
+      "I learned early on that people are gullible and easy to exploit."
+     ],
+     [
+      "3",
+      "I often got in trouble, but I managed to talk my way out of it every time."
+     ],
+     [
+      "4",
+      "I took up with a confidence artist, from whom I learned my craft."
+     ],
+     [
+      "5",
+      "After a charlatan fleeced my family, I decided to learn the trade so I would never be fooled by such deception again."
+     ],
+     [
+      "6",
+      "I was poor or I feared becoming poor, so I learned the tricks I needed to keep myself out of poverty."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Criminal",
+    "colLabels": [
+     "d6",
+     "I became a criminal because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "I resented authority in my younger days and saw a life of crime as the best way to fight against tyranny and oppression."
+     ],
+     [
+      "2",
+      "Necessity forced me to take up the life, since it was the only way I could survive."
+     ],
+     [
+      "3",
+      "I fell in with a gang of reprobates and ne'er-do-wells, and I learned my specialty from them."
+     ],
+     [
+      "4",
+      "A parent or relative taught me my criminal specialty to prepare me for the family business."
+     ],
+     [
+      "5",
+      "I left home and found a place in a thieves' guild or some other criminal organization."
+     ],
+     [
+      "6",
+      "I was always bored, so I turned to crime to pass the time and discovered I was quite good at it."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Entertainer",
+    "colLabels": [
+     "d6",
+     "I became an entertainer because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "Members of my family made ends meet by performing, so it was fitting for me to follow their example."
+     ],
+     [
+      "2",
+      "I always had a keen insight into other people, enough so that I could make them laugh or cry with my stories or songs."
+     ],
+     [
+      "3",
+      "I ran away from home to follow a minstrel troupe."
+     ],
+     [
+      "4",
+      "I saw a bard perform once, and I knew from that moment on what I was born to do."
+     ],
+     [
+      "5",
+      "I earned coin by performing on street corners and eventually made a name for myself."
+     ],
+     [
+      "6",
+      "A traveling entertainer took me in and taught me the trade."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Folk Hero",
+    "colLabels": [
+     "d6",
+     "I became a folk hero because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "I learned what was right and wrong from my family."
+     ],
+     [
+      "2",
+      "I was always enamored by tales of heroes and wished I could be something more than ordinary."
+     ],
+     [
+      "3",
+      "I hated my mundane life, so when it was time for someone to step up and do the right thing, I took my chance."
+     ],
+     [
+      "4",
+      "A parent or one of my relatives was an adventurer, and I was inspired by that person's courage."
+     ],
+     [
+      "5",
+      "A mad old hermit spoke a prophecy when I was born, saying that I would accomplish great things."
+     ],
+     [
+      "6",
+      "I have always stood up for those who are weaker than I am."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Guild Artisan",
+    "colLabels": [
+     "d6",
+     "I became a guild artisan because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "I was apprenticed to a master who taught me the guild's business."
+     ],
+     [
+      "2",
+      "I helped a guild artisan keep a secret or complete a task, and in return I was taken on as an apprentice."
+     ],
+     [
+      "3",
+      "One of my family members who belonged to the guild made a place for me."
+     ],
+     [
+      "4",
+      "I was always good with my hands, so I took the opportunity to learn a trade."
+     ],
+     [
+      "5",
+      "I wanted to get away from my home situation and start a new life."
+     ],
+     [
+      "6",
+      "I learned the essentials of my craft from a mentor but had to join the guild to finish my training."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Hermit",
+    "colLabels": [
+     "d6",
+     "I became a hermit because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "My enemies ruined my reputation, and I fled to the wilds to avoid further disparagement."
+     ],
+     [
+      "2",
+      "I am comfortable with being isolated, as I seek inner peace."
+     ],
+     [
+      "3",
+      "I never liked the people I called my friends, so it was easy for me to strike out on my own."
+     ],
+     [
+      "4",
+      "I felt compelled to forsake my past, but did so with great reluctance, and sometimes I regret making that decision."
+     ],
+     [
+      "5",
+      "I lost everything-my home, my family, my friends. Going it alone was all I could do."
+     ],
+     [
+      "6",
+      "Society's decadence disgusted me, so I decided to leave it behind."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Noble",
+    "colLabels": [
+     "d6",
+     "I became a noble because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "I come from an old and storied family, and it fell to me to preserve the family name."
+     ],
+     [
+      "2",
+      "My family has been disgraced, and I intend to clear our name."
+     ],
+     [
+      "3",
+      "My family recently came by its title, and that elevation thrust us into a new and strange world."
+     ],
+     [
+      "4",
+      "My family has a title, but none of my ancestors have distinguished themselves since we gained it."
+     ],
+     [
+      "5",
+      "My family is filled with remarkable people. I hope to live up to their example."
+     ],
+     [
+      "6",
+      "I hope to increase my family's power and influence."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Outlander",
+    "colLabels": [
+     "d6",
+     "I became an outlander because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "I spent a lot of time in the wilderness as a youngster, and I came to love that way of life."
+     ],
+     [
+      "2",
+      "From a young age, I couldn't abide the stink of the cities and preferred to spend my time in nature."
+     ],
+     [
+      "3",
+      "I came to understand the darkness that lurks in the wilds, and I vowed to combat it."
+     ],
+     [
+      "4",
+      "My people lived on the edges of civilization, and I learned the methods of survival from my family."
+     ],
+     [
+      "5",
+      "After a tragedy I retreated to the wilderness, leaving my old life behind."
+     ],
+     [
+      "6",
+      "My family moved away from civilization, and I learned to adapt to my new environment."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Sage",
+    "colLabels": [
+     "d6",
+     "I became a sage because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "I was naturally curious, so I packed up and went to a university to learn more about the world."
+     ],
+     [
+      "2",
+      "My mentor's teachings opened my mind to new possibilities in that field of study."
+     ],
+     [
+      "3",
+      "I was always an avid reader, and I learned much about my favorite topic on my own."
+     ],
+     [
+      "4",
+      "I discovered an old library and pored over the texts I found there. That experience awakened a hunger for more knowledge."
+     ],
+     [
+      "5",
+      "I impressed a wizard who told me I was squandering my talents and should seek out an education to take advantage of my gifts."
+     ],
+     [
+      "6",
+      "One of my parents or a relative gave me a basic education that whetted my appetite, and I left home to build on what I had learned."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Sailor",
+    "colLabels": [
+     "d6",
+     "I became a sailor because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "I was press-ganged by pirates and forced to serve on their ship until I finally escaped."
+     ],
+     [
+      "2",
+      "I wanted to see the world, so I signed on as a deck-hand for a merchant ship."
+     ],
+     [
+      "3",
+      "One of my relatives was a sailor who took me to sea."
+     ],
+     [
+      "4",
+      "I needed to escape my community quickly, so I stowed away on a ship. When the crew found me, I was forced to work for my passage."
+     ],
+     [
+      "5",
+      "Reavers attacked my community, so I found refuge on a ship until I could seek vengeance."
+     ],
+     [
+      "6",
+      "I had few prospects where I was living, so I left to find my fortune elsewhere."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Soldier",
+    "colLabels": [
+     "d6",
+     "I became a soldier because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "I joined the militia to help protect my community from monsters."
+     ],
+     [
+      "2",
+      "A relative of mine was a soldier, and I wanted to carry on the family tradition."
+     ],
+     [
+      "3",
+      "The local lord forced me to enlist in the army."
+     ],
+     [
+      "4",
+      "War ravaged my homeland while I was growing up. Fighting was the only life I ever knew."
+     ],
+     [
+      "5",
+      "I wanted fame and fortune, so I joined a mercenary company, selling my sword to the highest bidder."
+     ],
+     [
+      "6",
+      "Invaders attacked my homeland. It was my duty to take up arms in defense of my people."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Urchin",
+    "colLabels": [
+     "d6",
+     "I became an urchin because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "Wanderlust caused me to leave my family to see the world. I look after myself."
+     ],
+     [
+      "2",
+      "I ran away from a bad situation at home and made my own way in the world."
+     ],
+     [
+      "3",
+      "Monsters wiped out my village, and I was the sole survivor. I had to find a way to survive."
+     ],
+     [
+      "4",
+      "A notorious thief looked after me and other orphans, and we spied and stole to earn our keep."
+     ],
+     [
+      "5",
+      "One day I woke up on the streets, alone and hungry, with no memory of my early childhood."
+     ],
+     [
+      "6",
+      "My parents died, leaving no one to look after me. I raised myself."
+     ]
+    ]
+   }
+  ],
+  "page": 64,
+  "source": "XGE",
+  "chapter": {
+   "name": "Character Options",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
+  "type": "tableGroup",
+  "name": "Charisma Check; Conversation Reaction",
+  "tables": [
+   {
+    "type": "table",
+    "caption": "Conversation Reaction",
+    "colLabels": [
+     "DC",
+     "Friendly Creature's Reaction"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "0",
+      "The creature does as asked without taking risks or making sacrifices."
+     ],
+     [
+      "10",
+      "The creature accepts a minor risk or sacrifice to do as asked."
+     ],
+     [
+      "20",
+      "The creature accepts a significant risk or sacrifice to do as asked."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "colLabels": [
+     "DC",
+     "Indifferent Creature's Reaction"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "0",
+      "The creature offers no help but does no harm."
+     ],
+     [
+      "10",
+      "The creature does as asked as long as no risks or sacrifices are involved."
+     ],
+     [
+      "20",
+      "The creature accepts a minor risk or sacrifice to do as asked."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "colLabels": [
+     "DC",
+     "Hostile Creature's Reaction"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "0",
+      "The creature opposes the adventurers' actions and might take risks to do so."
+     ],
+     [
+      "10",
+      "The creature offers no help but does no harm."
+     ],
+     [
+      "20",
+      "The creature does as asked as long as no risks or sacrifices are involved."
+     ]
+    ]
+   }
+  ],
+  "page": 245,
+  "source": "DMG",
+  "chapter": {
+   "name": "Running the Game",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 8
+   },
+   "index": 8
+  }
+ },
+ {
+  "type": "tableGroup",
+  "name": "Class Training; I became...",
+  "tables": [
+   {
+    "type": "table",
+    "caption": "Barbarian",
+    "colLabels": [
+     "d6",
+     "I became a barbarian because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "My devotion to my people lifted me in battle, making me powerful and dangerous."
+     ],
+     [
+      "2",
+      "The spirits of my ancestors called on me to carry out a great task."
+     ],
+     [
+      "3",
+      "I lost control in battle one day, and it was as if something else was manipulating my body, forcing it to kill every foe I could reach."
+     ],
+     [
+      "4",
+      "I went on a spiritual journey to find myself and instead found a spirit animal to guide, protect, and inspire me."
+     ],
+     [
+      "5",
+      "I was struck by lightning and lived. Afterward, I found a new strength within me that let me push beyond my limitations."
+     ],
+     [
+      "6",
+      "My anger needed to be channeled into battle, or I risked becoming an indiscriminate killer."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Bard",
+    "colLabels": [
+     "d6",
+     "I became a bard because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "I awakened my latent bardic abilities through trial and error."
+     ],
+     [
+      "2",
+      "I was a gifted performer and attracted the attention of a master bard who schooled me in the old techniques."
+     ],
+     [
+      "3",
+      "I joined a loose society of scholars and orators to learn new techniques of performance and magic."
+     ],
+     [
+      "4",
+      "I felt a calling to recount the deeds of champions and heroes, to bring them alive in song and story."
+     ],
+     [
+      "5",
+      "I joined one of the great colleges to learn old lore, the secrets of magic, and the art of performance."
+     ],
+     [
+      "6",
+      "I picked up a musical instrument one day and instantly discovered that I could play it."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Cleric",
+    "colLabels": [
+     "d6",
+     "I became a cleric because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "A supernatural being in service to the gods called me to become a divine agent in the world."
+     ],
+     [
+      "2",
+      "I saw the injustice and horror in the world and felt moved to take a stand against them."
+     ],
+     [
+      "3",
+      "My god gave me an unmistakable sign. I dropped everything to serve the divine."
+     ],
+     [
+      "4",
+      "Although I was always devout, it wasn't until I completed a pilgrimage that I knew my true calling."
+     ],
+     [
+      "5",
+      "I used to serve in my religion's bureaucracy but found I needed to work in the world, to bring the message of my faith to the darkest corners of the land."
+     ],
+     [
+      "6",
+      "I realize that my god works through me, and I do as commanded, even though I don't know why I was chosen to serve."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Druid",
+    "colLabels": [
+     "d6",
+     "I became a druid because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "I saw too much devastation in the wild places, too much of nature's splendor ruined by the despoilers. I joined a circle of druids to fight back against the enemies of nature."
+     ],
+     [
+      "2",
+      "I found a place among a group of druids after I fled a catastrophe."
+     ],
+     [
+      "3",
+      "I have always had an affinity for animals, so I explored my talent to see how I could best use it."
+     ],
+     [
+      "4",
+      "I befriended a druid and was moved by druidic teachings. I decided to follow my friend's guidance and give something back to the world."
+     ],
+     [
+      "5",
+      "While I was growing up, I saw spirits all around me-entities no one else could perceive. I sought out the druids to help me understand the visions and communicate with these beings."
+     ],
+     [
+      "6",
+      "I have always felt disgust for creatures of unnatural origin. For this reason, I immersed myself in the study of the druidic mysteries and became a champion of the natural order."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Fighter",
+    "colLabels": [
+     "d6",
+     "I became a fighter because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "I wanted to hone my combat skills, and so I joined a war college."
+     ],
+     [
+      "2",
+      "I squired for a knight who taught me how to fight, care for a steed, and conduct myself with honor. I decided to take up that path for myself."
+     ],
+     [
+      "3",
+      "Horrible monsters descended on my community, killing someone I loved. I took up arms to destroy those creatures and others of a similar nature."
+     ],
+     [
+      "4",
+      "I joined the army and learned how to fight as part of a group."
+     ],
+     [
+      "5",
+      "I grew up fighting, and I refined my talents by defending myself against people who crossed me."
+     ],
+     [
+      "6",
+      "I could always pick up just about any weapon and know how to use it effectively."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Monk",
+    "colLabels": [
+     "d6",
+     "I became a monk because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "I was chosen to study at a secluded monastery. There, I was taught the fundamental techniques required to eventually master a tradition."
+     ],
+     [
+      "2",
+      "I sought instruction to gain a deeper understanding of existence and my place in the world."
+     ],
+     [
+      "3",
+      "I stumbled into a portal to the Shadowfell and took refuge in a strange monastery, where I learned how to defend myself against the forces of darkness."
+     ],
+     [
+      "4",
+      "I was overwhelmed with grief after losing someone close to me, and I sought the advice of philosophers to help me cope with my loss."
+     ],
+     [
+      "5",
+      "I could feel that a special sort of power lay within me, so I sought out those who could help me call it forth and master it."
+     ],
+     [
+      "6",
+      "I was wild and undisciplined as a youngster, but then I realized the error of my ways. I applied to a monastery and became a monk as a way to live a life of discipline."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Paladin",
+    "colLabels": [
+     "d6",
+     "I became a paladin because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "A fantastical being appeared before me and called on me to undertake a holy quest."
+     ],
+     [
+      "2",
+      "One of my ancestors left a holy quest unfulfilled, so I intend to finish that work."
+     ],
+     [
+      "3",
+      "The world is a dark and terrible place. I decided to serve as a beacon of light shining out against the gathering shadows."
+     ],
+     [
+      "4",
+      "I served as a paladin's squire, learning all I needed to swear my own sacred oath."
+     ],
+     [
+      "5",
+      "Evil must be opposed on all fronts. I feel compelled to seek out wickedness and purge it from the world."
+     ],
+     [
+      "6",
+      "Becoming a paladin was a natural consequence of my unwavering faith. In taking my vows, I became the holy sword of my religion."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Ranger",
+    "colLabels": [
+     "d6",
+     "I became a ranger because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "I found purpose while I honed my hunting skills by bringing down dangerous animals at the edge of civilization."
+     ],
+     [
+      "2",
+      "I always had a way with animals, able to calm them with a soothing word and a touch."
+     ],
+     [
+      "3",
+      "I suffer from terrible wanderlust, so being a ranger gave me a reason not to remain in one place for too long."
+     ],
+     [
+      "4",
+      "I have seen what happens when the monsters come out from the dark. I took it upon myself to become the first line of defense against the evils that lie beyond civilization's borders."
+     ],
+     [
+      "5",
+      "I met a grizzled ranger who taught me woodcraft and the secrets of the wild lands."
+     ],
+     [
+      "6",
+      "I served in an army, learning the precepts of my profession while blazing trails and scouting enemy encampments."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Rogue",
+    "colLabels": [
+     "d6",
+     "I became a rogue because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "I've always been nimble and quick of wit, so I decided to use those talents to help me make my way in the world."
+     ],
+     [
+      "2",
+      "An assassin or a thief wronged me, so I focused my training on mastering the skills of my enemy to better combat foes of that sort."
+     ],
+     [
+      "3",
+      "An experienced rogue saw something in me and taught me several useful tricks."
+     ],
+     [
+      "4",
+      "I decided to turn my natural lucky streak into the basis of a career, though I still realize that improving my skills is essential."
+     ],
+     [
+      "5",
+      "I took up with a group of ruffians who showed me how to get what I want through sneakiness rather than direct confrontation."
+     ],
+     [
+      "6",
+      "I'm a sucker for a shiny bauble or a sack of coins, as long as I can get my hands on it without risking life and limb."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Sorcerer",
+    "colLabels": [
+     "d6",
+     "I became a sorcerer because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "When I was born, all the water in the house froze solid, the milk spoiled, or all the iron turned to copper. My family is convinced that this event was a harbinger of stranger things to come for me."
+     ],
+     [
+      "2",
+      "I suffered a terrible emotional or physical strain, which brought forth my latent magical power. I have fought to control it ever since."
+     ],
+     [
+      "3",
+      "My immediate family never spoke of my ancestors, and when I asked, they would change the subject. It wasn't until I started displaying strange talents that the full truth of my heritage came out."
+     ],
+     [
+      "4",
+      "When a monster threatened one of my friends, I became filled with anxiety. I lashed out instinctively and blasted the wretched thing with a force that came from within me."
+     ],
+     [
+      "5",
+      "Sensing something special in me, a stranger taught me how to control my gift."
+     ],
+     [
+      "6",
+      "After I escaped from a magical conflagration, I realized that though I was unharmed, I was not unchanged. I began to exhibit unusual abilities that I am just beginning to understand."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Warlock",
+    "colLabels": [
+     "d6",
+     "I became a warlock because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "While wandering around in a forbidden place, I encountered an otherworldly being that offered to enter into a pact with me."
+     ],
+     [
+      "2",
+      "I was examining a strange tome I found in an abandoned library when the entity that would become my patron suddenly appeared before me."
+     ],
+     [
+      "3",
+      "I stumbled into the clutches of my patron after I accidentally stepped through a magical doorway."
+     ],
+     [
+      "4",
+      "When I was faced with a terrible crisis, I prayed to any being who would listen, and the creature that answered became my patron."
+     ],
+     [
+      "5",
+      "My future patron visited me in my dreams and offered great power in exchange for my service."
+     ],
+     [
+      "6",
+      "One of my ancestors had a pact with my patron, so that entity was determined to bind me to the same agreement."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Wizard",
+    "colLabels": [
+     "d6",
+     "I became a wizard because..."
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "An old wizard chose me from among several candidates to serve an apprenticeship."
+     ],
+     [
+      "2",
+      "When I became lost in a forest, a hedge wizard found me, took me in, and taught me the rudiments of magic."
+     ],
+     [
+      "3",
+      "I grew up listening to tales of great wizards and knew I wanted to follow their path. I strove to be accepted at an academy of magic and succeeded."
+     ],
+     [
+      "4",
+      "One of my relatives was an accomplished wizard who decided I was smart enough to learn the craft."
+     ],
+     [
+      "5",
+      "While exploring an old tomb, library, or temple, I found a spellbook. I was immediately driven to learn all I could about becoming a wizard."
+     ],
+     [
+      "6",
+      "I was a prodigy who demonstrated mastery of the arcane arts at an early age. When I became old enough to set out on my own, I did so to learn more magic and expand my power."
+     ]
+    ]
+   }
+  ],
+  "page": 66,
+  "source": "XGE",
+  "chapter": {
+   "name": "Character Options",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
+  "type": "tableGroup",
+  "name": "Deities of Eberron",
+  "tables": [
+   {
+    "type": "table",
+    "colLabels": [
+     "The Sovereign Host",
+     "Alignment",
+     "Suggested Domains",
+     "Symbol"
+    ],
+    "colStyles": [
+     "col-3",
+     "col-1 text-center",
+     "col-3",
+     "col-5"
+    ],
+    "rows": [
+     [
+      "{@deity Arawai|Eberron}, goddess of fertility",
+      "NG",
+      "Life, Nature",
+      "Sheaf of wheat tied with green ribbon"
+     ],
+     [
+      "{@deity Aureon|Eberron}, god of law and knowledge",
+      "LN",
+      "Knowledge",
+      "Open tome"
+     ],
+     [
+      "{@deity Balinor|Eberron}, god of beasts and the hunt",
+      "N",
+      "Life, Nature",
+      "Pair of antlers"
+     ],
+     [
+      "{@deity Boldrei|Eberron}, goddess of community and home",
+      "LG",
+      "Life",
+      "Fire in a stone hearth"
+     ],
+     [
+      "{@deity Dol Arrah|Eberron}, goddess of sunlight and honor",
+      "LG",
+      "Light, War",
+      "Rising sun"
+     ],
+     [
+      "{@deity Dol Dorn|Eberron}, god of strength at arms",
+      "CG",
+      "War",
+      "Longsword crossed over a shield"
+     ],
+     [
+      "{@deity Kol Korran|Eberron}, god of trade and wealth",
+      "N",
+      "Trickery",
+      "Nine-sided gold coin"
+     ],
+     [
+      "{@deity Olladra|Eberron}, goddess of good fortune",
+      "NG",
+      "Life, Trickery",
+      "Domino"
+     ],
+     [
+      "{@deity Onatar|Eberron}, god of craft",
+      "NG",
+      "Knowledge",
+      "Crossed hammer and tongs"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "colLabels": [
+     "The Dark Six",
+     "Alignment",
+     "Suggested Domains",
+     "Symbol"
+    ],
+    "colStyles": [
+     "col-3",
+     "col-1 text-center",
+     "col-3",
+     "col-5"
+    ],
+    "rows": [
+     [
+      "{@deity The Devourer|Eberron}, god of nature's wrath",
+      "NE",
+      "Tempest",
+      "Bundle of five sharpened bones"
+     ],
+     [
+      "{@deity The Fury|Eberron}, goddess of wrath and madness",
+      "NE",
+      "War",
+      "Winged wyrm with woman's head and upper body"
+     ],
+     [
+      "{@deity The Keeper|Eberron}, god of greed and death",
+      "NE",
+      "Death",
+      "Dragonshard stone in the shape of a fang"
+     ],
+     [
+      "{@deity The Mockery|Eberron}, god of violence and treachery",
+      "NE",
+      "War",
+      "Five blood-spattered tools"
+     ],
+     [
+      "{@deity The Shadow|Eberron}, god of dark magic",
+      "CE",
+      "Knowledge",
+      "Obsidian tower"
+     ],
+     [
+      "{@deity The Traveler|Eberron}, deity of chaos and change",
+      "CN",
+      "Knowledge, Trickery",
+      "Four crossed, rune-inscribed bones"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "colLabels": [
+     "Other Faiths of Eberron",
+     "Alignment",
+     "Suggested Domains",
+     "Symbol"
+    ],
+    "colStyles": [
+     "col-3",
+     "col-1 text-center",
+     "col-3",
+     "col-5"
+    ],
+    "rows": [
+     [
+      "{@deity The Silver Flame|Eberron}, deity of protection and good",
+      "LG",
+      "Life, Light, War",
+      "Flame drawn on silver or molded from silver"
+     ],
+     [
+      "{@deity The Blood of Vol|Eberron}, philosophy of immortality and undeath",
+      "LN",
+      "Death, Life",
+      "Stylized dragon skull on red teardrop gem"
+     ],
+     [
+      "{@deity Cults of the Dragon Below|Eberron}, deities of madness",
+      "NE",
+      "Trickery",
+      "Varies"
+     ],
+     [
+      "{@deity The Path of Light|Eberron}, philosophy of light and self-improvement",
+      "LN",
+      "Life, Light",
+      "Brilliant crystal"
+     ],
+     [
+      "{@deity The Undying Court|Eberron}, elven ancestors",
+      "NG",
+      "Knowledge, Life",
+      "Varies"
+     ],
+     [
+      "{@deity The Spirits of the Past|Eberron}, elven ancestors",
+      "CG",
+      "War",
+      "Varies"
+     ]
+    ]
+   }
+  ],
+  "page": 293,
+  "source": "PHB",
+  "chapter": {
+   "name": "Gods of the Multiverse",
+   "ordinal": {
+    "type": "appendix",
+    "identifier": "B"
+   },
+   "index": 13
+  }
+ },
+ {
+  "type": "tableGroup",
+  "name": "Devil Customization Tables",
+  "tables": [
+   {
+    "type": "table",
+    "caption": "Devil Honorifics",
+    "colLabels": [
+     "d20",
+     "Title"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "the Perceiver"
+     ],
+     [
+      "2",
+      "Veteran of Avernus"
+     ],
+     [
+      "3",
+      "the Insightful"
+     ],
+     [
+      "4",
+      "Collector of Debts"
+     ],
+     [
+      "5",
+      "the Summoner"
+     ],
+     [
+      "6",
+      "Speaker of Profit"
+     ],
+     [
+      "7",
+      "Chainer of Demons"
+     ],
+     [
+      "8",
+      "the Conqueror"
+     ],
+     [
+      "9",
+      "Glory Seeker"
+     ],
+     [
+      "10",
+      "the Victorious"
+     ],
+     [
+      "11",
+      "the Infiltrator"
+     ],
+     [
+      "12",
+      "the Voluminous"
+     ],
+     [
+      "13",
+      "the Stoic"
+     ],
+     [
+      "14",
+      "the Shatterer"
+     ],
+     [
+      "15",
+      "the Keeper"
+     ],
+     [
+      "16",
+      "the Faithful"
+     ],
+     [
+      "17",
+      "the Clever"
+     ],
+     [
+      "18",
+      "the Chanter"
+     ],
+     [
+      "19",
+      "the Indomitable"
+     ],
+     [
+      "20",
+      "the Vicious"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Devil Personality Traits",
+    "colLabels": [
+     "d6",
+     "Trait"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "I always have a scheme to make a profit."
+     ],
+     [
+      "2",
+      "Nobody is as smart as me, and I need to prove that all the time."
+     ],
+     [
+      "3",
+      "There's a rule for everything."
+     ],
+     [
+      "4",
+      "If I can't seize control, I'll serve in the meantime."
+     ],
+     [
+      "5",
+      "I'm a bully who backs down when faced with any sort of resistance."
+     ],
+     [
+      "6",
+      "Every problem can be solved with the use of force."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Devil Ideals",
+    "colLabels": [
+     "d6",
+     "Ideal"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "Loyalty. I keep my vows to my superior and respect those who do the same."
+     ],
+     [
+      "2",
+      "Law. I might not like the rules, but I obey them."
+     ],
+     [
+      "3",
+      "Ambition. The need to improve my station drives my every action."
+     ],
+     [
+      "4",
+      "Conquest. I am equal to the sum of the foes I have defeated in combat."
+     ],
+     [
+      "5",
+      "Cunning. Those who can see an advantage in the direst situation deserve respect."
+     ],
+     [
+      "6",
+      "Brutality. Overwhelming violence, and those who can deliver it, are worthy of obedience."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Devil Bonds",
+    "colLabels": [
+     "d6",
+     "Bond"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "I and my comrades fought well in the Blood War, and our service demands respect."
+     ],
+     [
+      "2",
+      "Evil without law is a pointless exercise in destruction. Rules make us what we are."
+     ],
+     [
+      "3",
+      "Those who follow me rely on my wisdom to ensure their prosperity."
+     ],
+     [
+      "4",
+      "One day I will have revenge on those who defied me."
+     ],
+     [
+      "5",
+      "If I do my duty, in time I will be rewarded."
+     ],
+     [
+      "6",
+      "We don't corrupt mortals. We teach them enlightened self-interest."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Devil Flaws",
+    "colLabels": [
+     "d6",
+     "Flaw"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "My frustration boils over into violence."
+     ],
+     [
+      "2",
+      "I obey the law, but I strain at its limits to the point of heresy."
+     ],
+     [
+      "3",
+      "I put the minimum effort possible into anything that isn't my own idea."
+     ],
+     [
+      "4",
+      "A low profile is the best defense of all."
+     ],
+     [
+      "5",
+      "I'm so reliant on the laws of the Nine Hells that I panic without their guidance."
+     ],
+     [
+      "6",
+      "I am secretly jealous of the freedom that mortals enjoy."
+     ]
+    ]
+   }
+  ],
+  "page": 23,
+  "source": "MTF",
+  "chapter": {
+   "name": "The Blood War",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 0
+  }
+ },
+ {
+  "type": "tableGroup",
+  "name": "DM Screen; Encounter Distance",
+  "tables": [
+   {
+    "type": "table",
+    "colLabels": [
+     "Terrain",
+     "Encounter Distance"
+    ],
+    "colStyles": [
+     "col-6",
+     "col-6"
+    ],
+    "rows": [
+     [
+      "Arctic, desert, farmland, or grassland",
+      "{@dice 6d6 × 10} feet"
+     ],
+     [
+      "Forest, swamp, or woodland",
+      "{@dice 2d8 × 10} feet"
+     ],
+     [
+      "Hills or wastelands",
+      "{@dice 2d10 × 10} feet"
+     ],
+     [
+      "Jungle",
+      "{@dice 2d6 × 10} feet"
+     ],
+     [
+      "Mountains",
+      "{@dice 4d10 × 10} feet"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "colLabels": [
+     "Audible Distance",
+     ""
+    ],
+    "colStyles": [
+     "col-6",
+     "col-6"
+    ],
+    "rows": [
+     [
+      "Trying to be quiet",
+      "{@dice 2d6 × 5} feet"
+     ],
+     [
+      "Normal noise level",
+      "{@dice 2d6 × 10} feet"
+     ],
+     [
+      "Very loud",
+      "{@dice 2d6 × 50} feet"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "colLabels": [
+     "Visibility Outdoors",
+     ""
+    ],
+    "colStyles": [
+     "col-6",
+     "col-6"
+    ],
+    "rows": [
+     [
+      "Clear day, no obstructions",
+      "2 miles"
+     ],
+     [
+      "Rain",
+      "1 mile"
+     ],
+     [
+      "Fog",
+      "100 to 300 feet"
+     ],
+     [
+      "From a height",
+      "× 20"
+     ]
+    ]
+   }
+  ],
+  "source": "Screen"
+ },
+ {
+  "type": "tableGroup",
+  "name": "Dungeon Spread Decks",
+  "page": 11,
+  "source": "DMTCRG",
+  "tables": [
+   {
+    "type": "table",
+    "caption": "Locations Deck",
+    "page": 11,
+    "rows": [
+     [
+      "{@card Bridge|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Cavern|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Crossroads|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Donjon|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Maze|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Path|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Ruin|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Tavern|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Temple|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Tomb|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Tower|Deck of Many More Things|DMTCRG}"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Story Deck *",
+    "page": 11,
+    "rows": [
+     [
+      "{@card Balance|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Comet|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Fates|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Flames|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Moon|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Ship|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Star|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Sun|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Talons|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Void|Deck of Many More Things|DMTCRG}"
+     ]
+    ],
+    "footnotes": [
+     "* Optional"
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Features Deck",
+    "page": 11,
+    "rows": [
+     [
+      "{@card Aberration|Deck of Many More Things|DMTCRG}",
+      "{@card Mage|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Beast|Deck of Many More Things|DMTCRG}",
+      "{@card Map|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Book|Deck of Many More Things|DMTCRG}",
+      "{@card Monstrosity|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Campfire|Deck of Many More Things|DMTCRG}",
+      "{@card Ooze|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Celestial|Deck of Many More Things|DMTCRG}",
+      "{@card Pit|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Construct|Deck of Many More Things|DMTCRG}",
+      "{@card Plant|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Corpse|Deck of Many More Things|DMTCRG}",
+      "{@card Priest|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Door|Deck of Many More Things|DMTCRG}",
+      "{@card Prisoner|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Dragon|Deck of Many More Things|DMTCRG}",
+      "{@card Puzzle|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Elemental|Deck of Many More Things|DMTCRG}",
+      "{@card Ring|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Euryale|Deck of Many More Things|DMTCRG}",
+      "{@card Rogue|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Expert|Deck of Many More Things|DMTCRG}",
+      "{@card Sage|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Fey|Deck of Many More Things|DMTCRG}",
+      "{@card Shield|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Fiend|Deck of Many More Things|DMTCRG}",
+      "{@card Skull|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Fool|Deck of Many More Things|DMTCRG}",
+      "{@card Staff|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Gem|Deck of Many More Things|DMTCRG}",
+      "{@card Stairway|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Giant|Deck of Many More Things|DMTCRG}",
+      "{@card Statue|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Humanoid|Deck of Many More Things|DMTCRG}",
+      "{@card Throne|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Jester|Deck of Many More Things|DMTCRG}",
+      "{@card Tree|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Key|Deck of Many More Things|DMTCRG}",
+      "{@card Undead|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Knight|Deck of Many More Things|DMTCRG}",
+      "{@card Warrior|Deck of Many More Things|DMTCRG}"
+     ],
+     [
+      "{@card Lance|Deck of Many More Things|DMTCRG}",
+      "{@card Well|Deck of Many More Things|DMTCRG}"
+     ]
+    ]
+   }
+  ],
+  "chapter": {
+   "name": "Adventure Spreads",
+   "index": 2
+  }
+ },
+ {
+  "type": "tableGroup",
+  "name": "Explosives",
+  "tables": [
+   {
+    "type": "table",
+    "caption": "Explosives",
+    "colLabels": [
+     "Renaissance Item",
+     "Cost",
+     "Weight"
+    ],
+    "colStyles": [
+     "col-8",
+     "col-2 text-right",
+     "col-2 text-right"
+    ],
+    "rows": [
+     [
+      "{@item Bomb}",
+      "150 gp",
+      "1 lb."
+     ],
+     [
+      "{@item Gunpowder Keg||Gunpowder, keg}",
+      "250 gp",
+      "20 lb."
+     ],
+     [
+      "{@item Gunpowder Horn||Gunpowder, powder horn}",
+      "35 gp",
+      "2 lb."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "colLabels": [
+     "Modern Item",
+     "Cost",
+     "Weight"
+    ],
+    "colStyles": [
+     "col-8 text",
+     "col-2 text-right",
+     "col-2 text-right"
+    ],
+    "rows": [
+     [
+      "{@item Dynamite (stick)}",
+      "—",
+      "1 lb."
+     ],
+     [
+      "{@item Fragmentation Grenade||Grenade, fragmentation}",
+      "—",
+      "1 lb."
+     ],
+     [
+      "{@item Smoke Grenade||Grenade, smoke}",
+      "—",
+      "2 lb."
+     ],
+     [
+      "{@item Grenade Launcher||Grenade launcher}",
+      "—",
+      "7 lb."
+     ]
+    ]
+   }
+  ],
+  "page": 267,
+  "source": "DMG",
+  "chapter": {
+   "name": "Dungeon Master's Workshop",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 9
+   },
+   "index": 9
+  }
+ },
+ {
+  "type": "tableGroup",
+  "name": "Ideals",
+  "tables": [
+   {
+    "type": "table",
+    "caption": "Good Ideals",
+    "colLabels": [
+     "d6",
+     "Ideal"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "Beauty"
+     ],
+     [
+      "2",
+      "Charity"
+     ],
+     [
+      "3",
+      "Greater good"
+     ],
+     [
+      "4",
+      "Life"
+     ],
+     [
+      "5",
+      "Respect"
+     ],
+     [
+      "6",
+      "Self-sacrifice"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Evil Ideals",
+    "colLabels": [
+     "d6",
+     "Ideal"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "Domination"
+     ],
+     [
+      "2",
+      "Greed"
+     ],
+     [
+      "3",
+      "Might"
+     ],
+     [
+      "4",
+      "Pain"
+     ],
+     [
+      "5",
+      "Retribution"
+     ],
+     [
+      "6",
+      "Slaughter"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Lawful Ideals",
+    "colLabels": [
+     "d6",
+     "Ideal"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "Community"
+     ],
+     [
+      "2",
+      "Fairness"
+     ],
+     [
+      "3",
+      "Honor"
+     ],
+     [
+      "4",
+      "Logic"
+     ],
+     [
+      "5",
+      "Responsibility"
+     ],
+     [
+      "6",
+      "Tradition"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Chaotic Ideals",
+    "colLabels": [
+     "d6",
+     "Ideal"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "Change"
+     ],
+     [
+      "2",
+      "Creativity"
+     ],
+     [
+      "3",
+      "Freedom"
+     ],
+     [
+      "4",
+      "Independence"
+     ],
+     [
+      "5",
+      "No limits"
+     ],
+     [
+      "6",
+      "Whimsy"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Neutral Ideals",
+    "colLabels": [
+     "d6",
+     "Ideal"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "Balance"
+     ],
+     [
+      "2",
+      "Knowledge"
+     ],
+     [
+      "3",
+      "Live and let live"
+     ],
+     [
+      "4",
+      "Moderation"
+     ],
+     [
+      "5",
+      "Neutrality"
+     ],
+     [
+      "6",
+      "People"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Other Ideals",
+    "colLabels": [
+     "d6",
+     "Ideal"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "Aspiration"
+     ],
+     [
+      "2",
+      "Discovery"
+     ],
+     [
+      "3",
+      "Glory"
+     ],
+     [
+      "4",
+      "Nation"
+     ],
+     [
+      "5",
+      "Redemption"
+     ],
+     [
+      "6",
+      "Self-knowledge"
+     ]
+    ]
+   }
+  ],
+  "page": 90,
+  "source": "DMG",
+  "chapter": {
+   "name": "Creating Nonplayer Characters",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 4
+   },
+   "index": 4
+  }
+ },
+ {
+  "type": "tableGroup",
+  "name": "Psychic Wind",
+  "tables": [
+   {
+    "type": "table",
+    "caption": "Psychic Wind Effects",
+    "colLabels": [
+     "d20",
+     "Location Effect"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1-8",
+      "Diverted, add {@dice 1d6} hours to travel time"
+     ],
+     [
+      "9-12",
+      "Blown off course, add {@dice 3d10} hours to travel time"
+     ],
+     [
+      "13-16",
+      "Lost, at the end of the travel time, characters arrive at a location other than the intended destination"
+     ],
+     [
+      "17-20",
+      "Sent through color pool to a random plane. Roll on {@table Astral Color Pools} table"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "colLabels": [
+     "d20",
+     "Mental Effect"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1-8",
+      "Stunned for 1 minute—you can repeat the saving throw at the end of each of your turns to end the effect on yourself"
+     ],
+     [
+      "9-10",
+      "{@table Short-term madness} (see chapter 8)"
+     ],
+     [
+      "11-12",
+      "{@dice 2d10} psychic damage"
+     ],
+     [
+      "13-16",
+      "{@dice 4d10} psychic damage"
+     ],
+     [
+      "17-18",
+      "{@table Long-term madness} (see chapter 8)"
+     ],
+     [
+      "19-20",
+      "{@condition Unconscious} for {@dice 1d10} minutes—the effect on you ends if you take damage or if another creature uses an action to shake you awake"
+     ]
+    ]
+   }
+  ],
+  "page": 47,
+  "source": "DMG",
+  "chapter": {
+   "name": "Creating a Multiverse",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 2
+   },
+   "index": 2
+  }
+ },
+ {
+  "type": "tableGroup",
+  "name": "Random Magic Items - Arcana",
+  "source": "XDMG",
+  "page": 326,
+  "tables": [
+   {
+    "type": "table",
+    "caption": "Arcana - Common",
+    "colLabels": [
+     "1d100",
+     "Item"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "01–02",
+      "{@item Bead of Nourishment|XDMG}"
+     ],
+     [
+      "03–04",
+      "{@item Bead of Refreshment|XDMG}"
+     ],
+     [
+      "05–07",
+      "{@item Candle of the Deep|XDMG}"
+     ],
+     [
+      "08–10",
+      "{@item Cloak of Billowing|XDMG}"
+     ],
+     [
+      "11–13",
+      "{@item Cloak of Many Fashions|XDMG}"
+     ],
+     [
+      "14–15",
+      "{@item Clothes of Mending|XDMG}"
+     ],
+     [
+      "16–17",
+      "{@item Dark Shard Amulet|XDMG}"
+     ],
+     [
+      "18–19",
+      "{@item Enduring Spellbook|XDMG}"
+     ],
+     [
+      "20–21",
+      "{@item Ersatz Eye|XDMG}"
+     ],
+     [
+      "22–24",
+      "{@item Hat of Vermin|XDMG}"
+     ],
+     [
+      "25–27",
+      "{@item Hat of Wizardry|XDMG}"
+     ],
+     [
+      "28–29",
+      "{@item Heward's Handy Spice Pouch|XDMG}"
+     ],
+     [
+      "30–31",
+      "{@item Horn of Silent Alarm|XDMG}"
+     ],
+     [
+      "32–33",
+      "{@item Instrument of Illusions|XDMG}"
+     ],
+     [
+      "34–35",
+      "{@item Instrument of Scribing|XDMG}"
+     ],
+     [
+      "36–37",
+      "{@item Lock of Trickery|XDMG}"
+     ],
+     [
+      "38–40",
+      "{@item Mystery Key|XDMG}"
+     ],
+     [
+      "41–42",
+      "{@item Orb of Direction|XDMG}"
+     ],
+     [
+      "43–44",
+      "{@item Orb of Time|XDMG}"
+     ],
+     [
+      "45–46",
+      "{@item Perfume of Bewitching|XDMG}"
+     ],
+     [
+      "47–49",
+      "{@item Pipe of Smoke Monsters|XDMG}"
+     ],
+     [
+      "50–52",
+      "{@item Potion of Climbing|XDMG}"
+     ],
+     [
+      "53–55",
+      "{@item Potion of Comprehension|XDMG}"
+     ],
+     [
+      "56–58",
+      "{@item Pot of Awakening|XDMG}"
+     ],
+     [
+      "59–60",
+      "{@item Prosthetic Limb|XDMG}"
+     ],
+     [
+      "61–64",
+      "{@item Rival Coin|XDMG}"
+     ],
+     [
+      "65–66",
+      "{@item Rope of Mending|XDMG}"
+     ],
+     [
+      "67–68",
+      "{@item Ruby of the War Mage|XDMG}"
+     ],
+     [
+      "69–82",
+      "{@item Spell Scroll|XDMG} ({@item Spell Scroll (Cantrip)|XDMG|cantrip} or {@item Spell Scroll (Level 1)|XDMG|level 1} spell)"
+     ],
+     [
+      "83–84",
+      "{@item Staff of Adornment|XDMG}"
+     ],
+     [
+      "85–86",
+      "{@item Staff of Birdcalls|XDMG}"
+     ],
+     [
+      "87–89",
+      "{@item Staff of Flowers|XDMG}"
+     ],
+     [
+      "90–92",
+      "{@item Talking Doll|XDMG}"
+     ],
+     [
+      "93–94",
+      "{@item Tankard of Sobriety|XDMG}"
+     ],
+     [
+      "95–97",
+      "{@item Wand of Conducting|XDMG}"
+     ],
+     [
+      "98–00",
+      "{@item Wand of Pyrotechnics|XDMG}"
+     ]
+    ],
+    "path": [
+     {
+      "name": "Chapter 7: Treasure",
+      "page": 213
+     },
+     {
+      "name": "Random Magic Items",
+      "page": 326
+     },
+     {
+      "name": "Arcana Tables",
+      "page": 326
+     }
+    ],
+    "section": "Arcana Tables",
+    "sectionIndex": 1
+   },
+   {
+    "type": "table",
+    "caption": "Arcana - Uncommon",
+    "colLabels": [
+     "1d100",
+     "Item"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "01",
+      "{@item Amulet of Proof against Detection and Location|XDMG}"
+     ],
+     [
+      "02",
+      "{@item Baba Yaga's Dancing Broom|XDMG}"
+     ],
+     [
+      "03–05",
+      "{@item Bag of Holding|XDMG}"
+     ],
+     [
+      "06–07",
+      "{@item Bag of Tricks|XDMG}"
+     ],
+     [
+      "08",
+      "{@item Brooch of Shielding|XDMG}"
+     ],
+     [
+      "09",
+      "{@item Broom of Flying|XDMG}"
+     ],
+     [
+      "10",
+      "{@item Cap of Water Breathing|XDMG}"
+     ],
+     [
+      "11",
+      "{@item Circlet of Blasting|XDMG}"
+     ],
+     [
+      "12–13",
+      "{@item Cloak of Protection|XDMG}"
+     ],
+     [
+      "14",
+      "{@item Cloak of the Manta Ray|XDMG}"
+     ],
+     [
+      "15",
+      "{@item Decanter of Endless Water|XDMG}"
+     ],
+     [
+      "16",
+      "{@item Deck of Illusions|XDMG}"
+     ],
+     [
+      "17–18",
+      "{@item Driftglobe|XDMG}"
+     ],
+     [
+      "19–20",
+      "{@item Dust of Disappearance|XDMG}"
+     ],
+     [
+      "21",
+      "{@item Dust of Dryness|XDMG}"
+     ],
+     [
+      "22",
+      "{@item Dust of Sneezing and Choking|XDMG}"
+     ],
+     [
+      "23–24",
+      "{@item Elemental Gem|XDMG}"
+     ],
+     [
+      "25",
+      "{@item Enspelled Staff|XDMG} ({@item Enspelled Staff (Cantrip)|XDMG|cantrip} or {@item Enspelled Staff (Level 1)|XDMG|level 1} spell)"
+     ],
+     [
+      "26",
+      "{@item Eversmoking Bottle|XDMG}"
+     ],
+     [
+      "27",
+      "{@item Eyes of Charming|XDMG}"
+     ],
+     [
+      "28",
+      "{@item Eyes of Minute Seeing|XDMG}"
+     ],
+     [
+      "29–30",
+      "{@item Figurine of Wondrous Power, Silver Raven|XDMG|Figurine of Wondrous Power (silver raven)}"
+     ],
+     [
+      "31",
+      "{@item Gem of Brightness|XDMG}"
+     ],
+     [
+      "32",
+      "{@item Hag Eye|XDMG}"
+     ],
+     [
+      "33",
+      "{@item Hat of Disguise|XDMG}"
+     ],
+     [
+      "34",
+      "{@item Headband of Intellect|XDMG}"
+     ],
+     [
+      "35",
+      "{@item Helm of Comprehending Languages|XDMG}"
+     ],
+     [
+      "36",
+      "{@item Helm of Telepathy|XDMG}"
+     ],
+     [
+      "37",
+      "{@item Immovable Rod|XDMG}"
+     ],
+     [
+      "38",
+      "{@item Lantern of Revealing|XDMG}"
+     ],
+     [
+      "39",
+      "{@item Medallion of Thoughts|XDMG}"
+     ],
+     [
+      "40",
+      "{@item Mithral Armor|XDMG}"
+     ],
+     [
+      "41–42",
+      "{@item Necklace of Adaptation|XDMG}"
+     ],
+     [
+      "43",
+      "{@item Oil of Slipperiness|XDMG}"
+     ],
+     [
+      "44",
+      "{@item Pearl of Power|XDMG}"
+     ],
+     [
+      "45",
+      "{@item Periapt of Health|XDMG}"
+     ],
+     [
+      "46–47",
+      "{@item Philter of Love|XDMG}"
+     ],
+     [
+      "48–49",
+      "{@item Potion of Animal Friendship|XDMG}"
+     ],
+     [
+      "50–51",
+      "{@item Potion of Fire Breath|XDMG}"
+     ],
+     [
+      "52–53",
+      "{@item Potion of Hill Giant Strength|XDMG|Potion of Giant Strength (hill)}"
+     ],
+     [
+      "54–55",
+      "{@item Potion of Growth|XDMG}"
+     ],
+     [
+      "56–57",
+      "{@item Potion of Poison|XDMG}"
+     ],
+     [
+      "58–59",
+      "{@item Potion of Resistance|XDMG}"
+     ],
+     [
+      "60–61",
+      "{@item Potion of Water Breathing|XDMG}"
+     ],
+     [
+      "62",
+      "{@item Quaal's Feather Token|XDMG} ({@item Quaal's Feather Token, Anchor|XDMG|anchor}, {@item Quaal's Feather Token, Fan|XDMG|fan}, or {@item Quaal's Feather Token, Tree|XDMG|tree})"
+     ],
+     [
+      "63",
+      "{@item Ring of Mind Shielding|XDMG}"
+     ],
+     [
+      "64–65",
+      "{@item Robe of Useful Items|XDMG}"
+     ],
+     [
+      "66–67",
+      "{@item Rod of the Pact Keeper|XDMG}"
+     ],
+     [
+      "68–69",
+      "{@item Rope of Climbing|XDMG}"
+     ],
+     [
+      "70",
+      "{@item Saddle of the Cavalier|XDMG}"
+     ],
+     [
+      "71–72",
+      "{@item Sending Stones|XDMG}"
+     ],
+     [
+      "73–74",
+      "{@item Slippers of Spider Climbing|XDMG}"
+     ],
+     [
+      "75–82",
+      "{@item Spell Scroll|XDMG} ({@item Spell Scroll (Level 2)|XDMG|level 2} or {@item Spell Scroll (Level 3)|XDMG|level 3} spell)"
+     ],
+     [
+      "83",
+      "{@item Staff of the Adder|XDMG}"
+     ],
+     [
+      "84",
+      "{@item Staff of the Python|XDMG}"
+     ],
+     [
+      "85–88",
+      "{@item Wand of Magic Detection|XDMG}"
+     ],
+     [
+      "89–91",
+      "{@item Wand of Magic Missiles|XDMG}"
+     ],
+     [
+      "92–93",
+      "{@item Wand of Secrets|XDMG}"
+     ],
+     [
+      "94–95",
+      "{@item +1 Wand of the War Mage|XDMG|Wand of the War Mage, +1}"
+     ],
+     [
+      "96–97",
+      "{@item Wand of Web|XDMG}"
+     ],
+     [
+      "98–99",
+      "{@item Wind Fan|XDMG}"
+     ],
+     [
+      "00",
+      "{@item Winged Boots|XDMG}"
+     ]
+    ],
+    "path": [
+     {
+      "name": "Chapter 7: Treasure",
+      "page": 213
+     },
+     {
+      "name": "Random Magic Items",
+      "page": 326
+     },
+     {
+      "name": "Arcana Tables",
+      "page": 326
+     }
+    ],
+    "section": "Arcana Tables",
+    "sectionIndex": 2
+   },
+   {
+    "type": "table",
+    "caption": "Arcana - Rare",
+    "colLabels": [
+     "1d100",
+     "Item"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "01",
+      "{@item Bag of Beans|XDMG}"
+     ],
+     [
+      "02–03",
+      "{@item Bead of Force|XDMG}"
+     ],
+     [
+      "04",
+      "{@item Bowl of Commanding Water Elementals|XDMG}"
+     ],
+     [
+      "05–06",
+      "{@item Bracers of Defense|XDMG}"
+     ],
+     [
+      "07",
+      "{@item Brazier of Commanding Fire Elementals|XDMG}"
+     ],
+     [
+      "08–09",
+      "{@item Cape of the Mountebank|XDMG}"
+     ],
+     [
+      "10",
+      "{@item Censer of Controlling Air Elementals|XDMG}"
+     ],
+     [
+      "11–12",
+      "{@item Chime of Opening|XDMG}"
+     ],
+     [
+      "13–14",
+      "{@item Cloak of Displacement|XDMG}"
+     ],
+     [
+      "15–16",
+      "{@item Cloak of the Bat|XDMG}"
+     ],
+     [
+      "17",
+      "{@item Cube of Force|XDMG}"
+     ],
+     [
+      "18",
+      "{@item Cube of Summoning|XDMG}"
+     ],
+     [
+      "19",
+      "{@item Daern's Instant Fortress|XDMG}"
+     ],
+     [
+      "20–21",
+      "{@item Enspelled Staff|XDMG} ({@item Enspelled Staff (Level 2)|XDMG|level 2} or {@item Enspelled Staff (Level 3)|XDMG|3} spell)"
+     ],
+     [
+      "22–23",
+      "{@item Figurine of Wondrous Power|XDMG} ({@item Figurine of Wondrous Power, Bronze Griffon|XDMG|bronze griffon}, {@item Figurine of Wondrous Power, Ebony Fly|XDMG|ebony fly}, {@item Figurine of Wondrous Power, Golden Lions|XDMG|golden lions}, {@item Figurine of Wondrous Power, Ivory Goats|XDMG|ivory goats}, {@item Figurine of Wondrous Power, Marble Elephant|XDMG|marble elephant}, {@item Figurine of Wondrous Power, Onyx Dog|XDMG|onyx dog}, or {@item Figurine of Wondrous Power, Serpentine Owl|XDMG|serpentine owl})"
+     ],
+     [
+      "24–25",
+      "{@item Folding Boat|XDMG}"
+     ],
+     [
+      "26–27",
+      "{@item Gem of Seeing|XDMG}"
+     ],
+     [
+      "28",
+      "{@item Helm of Teleportation|XDMG}"
+     ],
+     [
+      "29–30",
+      "{@item Heward's Handy Haversack|XDMG}"
+     ],
+     [
+      "31–32",
+      "{@item Horseshoes of Speed|XDMG}"
+     ],
+     [
+      "33–34",
+      "{@item Ioun Stone, Reserve|XDMG|Ioun Stone (reserve)}"
+     ],
+     [
+      "35",
+      "{@item Iron Bands of Bilarro|XDMG}"
+     ],
+     [
+      "36",
+      "{@item Mantle of Spell Resistance|XDMG}"
+     ],
+     [
+      "37–38",
+      "{@item Necklace of Fireballs|XDMG}"
+     ],
+     [
+      "39",
+      "{@item Oil of Etherealness|XDMG}"
+     ],
+     [
+      "40",
+      "{@item Portable Hole|XDMG}"
+     ],
+     [
+      "41–42",
+      "{@item Potion of Clairvoyance|XDMG}"
+     ],
+     [
+      "43–44",
+      "{@item Potion of Diminution|XDMG}"
+     ],
+     [
+      "45–46",
+      "{@item Potion of Gaseous Form|XDMG}"
+     ],
+     [
+      "47",
+      "{@item Potion of Fire Giant Strength|XDMG|Potion of Giant Strength (fire)}"
+     ],
+     [
+      "48–49",
+      "{@item Potion of Giant Strength|XDMG} ({@item Potion of Frost Giant Strength|XDMG|frost} or {@item Potion of Stone Giant Strength|XDMG|stone})"
+     ],
+     [
+      "50–51",
+      "{@item Potion of Heroism|XDMG}"
+     ],
+     [
+      "52–53",
+      "{@item Potion of Invisibility|XDMG}"
+     ],
+     [
+      "54–55",
+      "{@item Potion of Invulnerability|XDMG}"
+     ],
+     [
+      "56–57",
+      "{@item Potion of Mind Reading|XDMG}"
+     ],
+     [
+      "58–59",
+      "{@item Quaal's Feather Token|XDMG} ({@item Quaal's Feather Token, Bird|XDMG|bird}, {@item Quaal's Feather Token, Swan Boat|XDMG|swan boat}, or {@item Quaal's Feather Token, Whip|XDMG|whip})"
+     ],
+     [
+      "60–61",
+      "{@item Ring of Feather Falling|XDMG}"
+     ],
+     [
+      "62",
+      "{@item Ring of Spell Storing|XDMG}"
+     ],
+     [
+      "63",
+      "{@item Ring of X-ray Vision|XDMG}"
+     ],
+     [
+      "64–65",
+      "{@item Robe of Eyes|XDMG}"
+     ],
+     [
+      "66",
+      "{@item Rod of Rulership|XDMG}"
+     ],
+     [
+      "67–68",
+      "{@item +2 Rod of the Pact Keeper|XDMG|Rod of the Pact Keeper, +2}"
+     ],
+     [
+      "69–70",
+      "{@item Scroll of Protection|XDMG}"
+     ],
+     [
+      "71–75",
+      "{@item Spell Scroll|XDMG} ({@item Spell Scroll (Level 4)|XDMG|level 4} or {@item Spell Scroll (Level 5)|XDMG|level 5} spell)"
+     ],
+     [
+      "76–77",
+      "{@item Staff of Charming|XDMG}"
+     ],
+     [
+      "78–79",
+      "{@item Staff of Swarming Insects|XDMG}"
+     ],
+     [
+      "80–81",
+      "{@item Staff of Withering|XDMG}"
+     ],
+     [
+      "82",
+      "{@item Stone of Controlling Earth Elementals|XDMG}"
+     ],
+     [
+      "83–84",
+      "{@item Wand of Binding|XDMG}"
+     ],
+     [
+      "85–86",
+      "{@item Wand of Fear|XDMG}"
+     ],
+     [
+      "87–90",
+      "{@item Wand of Fireballs|XDMG}"
+     ],
+     [
+      "91–94",
+      "{@item Wand of Lightning Bolts|XDMG}"
+     ],
+     [
+      "95–96",
+      "{@item +2 Wand of the War Mage|XDMG|Wand of the War Mage, +2}"
+     ],
+     [
+      "97–98",
+      "{@item Wand of Wonder|XDMG}"
+     ],
+     [
+      "99–00",
+      "{@item Wings of Flying|XDMG}"
+     ]
+    ],
+    "path": [
+     {
+      "name": "Chapter 7: Treasure",
+      "page": 213
+     },
+     {
+      "name": "Random Magic Items",
+      "page": 326
+     },
+     {
+      "name": "Arcana Tables",
+      "page": 326
+     }
+    ],
+    "section": "Arcana Tables",
+    "sectionIndex": 3
+   },
+   {
+    "type": "table",
+    "caption": "Arcana - Very Rare",
+    "colLabels": [
+     "1d100",
+     "Item"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "01–02",
+      "{@item Amulet of the Planes|XDMG}"
+     ],
+     [
+      "03–04",
+      "{@item Bag of Devouring|XDMG}"
+     ],
+     [
+      "05–06",
+      "{@item Carpet of Flying|XDMG}"
+     ],
+     [
+      "07–08",
+      "{@item Cauldron of Rebirth|XDMG}"
+     ],
+     [
+      "09–10",
+      "{@item Cloak of Arachnida|XDMG}"
+     ],
+     [
+      "11–12",
+      "{@item Crystal Ball|XDMG}"
+     ],
+     [
+      "13",
+      "{@item Dancing Sword|XDMG}"
+     ],
+     [
+      "14",
+      "{@item Efreeti Bottle|XDMG}"
+     ],
+     [
+      "15–16",
+      "{@item Enspelled Staff|XDMG} ({@item Enspelled Staff (Level 4)|XDMG|level 4} or {@item Enspelled Staff (Level 5)|XDMG|5} spell)"
+     ],
+     [
+      "17–18",
+      "{@item Figurine of Wondrous Power, Obsidian Steed|XDMG|Figurine of Wondrous Power (obsidian steed)}"
+     ],
+     [
+      "19–20",
+      "{@item Hat of Many Spells|XDMG}"
+     ],
+     [
+      "21–22",
+      "{@item Helm of Brilliance|XDMG}"
+     ],
+     [
+      "23–24",
+      "{@item Horseshoes of a Zephyr|XDMG}"
+     ],
+     [
+      "25–26",
+      "{@item Ioun Stone|XDMG} ({@item Ioun Stone, Absorption|XDMG|absorption}, {@item Ioun Stone, Fortitude|XDMG|fortitude}, {@item Ioun Stone, Intellect|XDMG|intellect}, or {@item Ioun Stone, Leadership|XDMG|leadership})"
+     ],
+     [
+      "27–28",
+      "{@item Manual of Golems|XDMG} ({@item Manual of Clay Golems|XDMG|clay}, {@item Manual of Flesh Golems|XDMG|flesh}, {@item Manual of Iron Golems|XDMG|iron}, or {@item Manual of Stone Golems|XDMG|stone})"
+     ],
+     [
+      "29",
+      "{@item Mirror of Life Trapping|XDMG}"
+     ],
+     [
+      "30–31",
+      "{@item Nolzur's Marvelous Pigments|XDMG}"
+     ],
+     [
+      "32–34",
+      "{@item Oil of Sharpness|XDMG}"
+     ],
+     [
+      "35–38",
+      "{@item Potion of Flying|XDMG}"
+     ],
+     [
+      "39–42",
+      "{@item Potion of Cloud Giant Strength|XDMG|Potion of Giant Strength (cloud)}"
+     ],
+     [
+      "43–46",
+      "{@item Potion of Greater Invisibility|XDMG}"
+     ],
+     [
+      "47–49",
+      "{@item Potion of Longevity|XDMG}"
+     ],
+     [
+      "50–53",
+      "{@item Potion of Speed|XDMG}"
+     ],
+     [
+      "54–57",
+      "{@item Potion of Vitality|XDMG}"
+     ],
+     [
+      "58–59",
+      "{@item Ring of Regeneration|XDMG}"
+     ],
+     [
+      "60–61",
+      "{@item Ring of Shooting Stars|XDMG}"
+     ],
+     [
+      "62–63",
+      "{@item Ring of Telekinesis|XDMG}"
+     ],
+     [
+      "64–65",
+      "{@item Robe of Scintillating Colors|XDMG}"
+     ],
+     [
+      "66–67",
+      "{@item Robe of Stars|XDMG}"
+     ],
+     [
+      "68–69",
+      "{@item Rod of Absorption|XDMG}"
+     ],
+     [
+      "70–71",
+      "{@item Rod of Security|XDMG}"
+     ],
+     [
+      "72–73",
+      "{@item +3 Rod of the Pact Keeper|XDMG|Rod of the Pact Keeper, +3}"
+     ],
+     [
+      "74–85",
+      "{@item Spell Scroll|XDMG} ({@item Spell Scroll (Level 6)|XDMG|level 6}, {@item Spell Scroll (Level 7)|XDMG|level 7}, or {@item Spell Scroll (Level 8)|XDMG|level 8} spell)"
+     ],
+     [
+      "86–87",
+      "{@item Staff of Fire|XDMG}"
+     ],
+     [
+      "88–89",
+      "{@item Staff of Frost|XDMG}"
+     ],
+     [
+      "90",
+      "{@item Staff of Power|XDMG}"
+     ],
+     [
+      "91–92",
+      "{@item Staff of Thunder and Lightning|XDMG}"
+     ],
+     [
+      "93–94",
+      "{@item Tome of Clear Thought|XDMG}"
+     ],
+     [
+      "95–97",
+      "{@item Wand of Polymorph|XDMG}"
+     ],
+     [
+      "98–00",
+      "{@item +3 Wand of the War Mage|XDMG|Wand of the War Mage, +3}"
+     ]
+    ],
+    "path": [
+     {
+      "name": "Chapter 7: Treasure",
+      "page": 213
+     },
+     {
+      "name": "Random Magic Items",
+      "page": 326
+     },
+     {
+      "name": "Arcana Tables",
+      "page": 326
+     }
+    ],
+    "section": "Arcana Tables",
+    "sectionIndex": 4
+   },
+   {
+    "type": "table",
+    "caption": "Arcana - Legendary",
+    "colLabels": [
+     "1d100",
+     "Item"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "01–04",
+      "{@item Apparatus of Kwalish|XDMG}"
+     ],
+     [
+      "05–08",
+      "{@item Cloak of Invisibility|XDMG}"
+     ],
+     [
+      "09–12",
+      "{@item Crystal Ball of Mind Reading|XDMG}"
+     ],
+     [
+      "13–16",
+      "{@item Crystal Ball of Telepathy|XDMG}"
+     ],
+     [
+      "17–20",
+      "{@item Crystal Ball of True Seeing|XDMG}"
+     ],
+     [
+      "21–22",
+      "{@item Cubic Gate|XDMG}"
+     ],
+     [
+      "23",
+      "{@item Deck of Many Things|XDMG}"
+     ],
+     [
+      "24–27",
+      "{@item Enspelled Staff|XDMG} (level 6, 7, or 8 spell)"
+     ],
+     [
+      "28–31",
+      "{@item Ioun Stone|XDMG} ({@item Ioun Stone, Greater Absorption|XDMG|greater absorption}, {@item Ioun Stone, Mastery|XDMG|mastery}, or {@item Ioun Stone, Regeneration|XDMG|regeneration})"
+     ],
+     [
+      "32–33",
+      "{@item Iron Flask|XDMG}"
+     ],
+     [
+      "34–41",
+      "{@item Potion of Storm Giant Strength|XDMG|Potion of Storm Giant Strength (storm)}"
+     ],
+     [
+      "42–45",
+      "{@item Ring of Djinni Summoning|XDMG}"
+     ],
+     [
+      "46–49",
+      "{@item Ring of Elemental Command|XDMG} ({@item Ring of Elemental Command (Air)|XDMG|air}, {@item Ring of Elemental Command (Earth)|XDMG|earth}, {@item Ring of Elemental Command (Fire)|XDMG|fire}, or {@item Ring of Elemental Command (Water)|XDMG|water})"
+     ],
+     [
+      "50–53",
+      "{@item Ring of Invisibility|XDMG}"
+     ],
+     [
+      "54–57",
+      "{@item Ring of Spell Turning|XDMG}"
+     ],
+     [
+      "58",
+      "{@item Ring of Three Wishes|XDMG}"
+     ],
+     [
+      "59",
+      "{@item Robe of the Archmagi|XDMG}"
+     ],
+     [
+      "60–61",
+      "{@item Scroll of Titan Summoning|XDMG}"
+     ],
+     [
+      "62–65",
+      "{@item Sovereign Glue|XDMG}"
+     ],
+     [
+      "66–83",
+      "{@item Spell Scroll (Level 9)|XDMG|Spell Scroll (level 9} spell)"
+     ],
+     [
+      "84",
+      "{@item Sphere of Annihilation|XDMG}"
+     ],
+     [
+      "85",
+      "{@item Staff of the Magi|XDMG}"
+     ],
+     [
+      "86–88",
+      "{@item Talisman of the Sphere|XDMG}"
+     ],
+     [
+      "89–92",
+      "{@item Tome of the Stilled Tongue|XDMG}"
+     ],
+     [
+      "93–96",
+      "{@item Universal Solvent|XDMG}"
+     ],
+     [
+      "97–00",
+      "{@item Well of Many Worlds|XDMG}"
+     ]
+    ],
+    "path": [
+     {
+      "name": "Chapter 7: Treasure",
+      "page": 213
+     },
+     {
+      "name": "Random Magic Items",
+      "page": 326
+     },
+     {
+      "name": "Arcana Tables",
+      "page": 326
+     }
+    ],
+    "section": "Arcana Tables",
+    "sectionIndex": 5
+   }
+  ],
+  "chapter": {
+   "name": "Treasure",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 7
+   },
+   "index": 6
+  }
+ },
+ {
+  "type": "tableGroup",
+  "name": "Random Magic Items - Armaments",
+  "source": "XDMG",
+  "page": 328,
+  "tables": [
+   {
+    "type": "table",
+    "caption": "Armaments - Common",
+    "colLabels": [
+     "1d100",
+     "Item"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "01–10",
+      "{@item Armor of Gleaming|XDMG}"
+     ],
+     [
+      "11–20",
+      "{@item Cast-Off Armor|XDMG}"
+     ],
+     [
+      "21–30",
+      "{@item Dread Helm|XDMG}"
+     ],
+     [
+      "31–40",
+      "{@item Moon-Touched Sword|XDMG}"
+     ],
+     [
+      "41–50",
+      "{@item Shield of Expression|XDMG}"
+     ],
+     [
+      "51–60",
+      "{@item Silvered Weapon|XDMG}"
+     ],
+     [
+      "61–70",
+      "{@item Smoldering Armor|XDMG}"
+     ],
+     [
+      "71–80",
+      "{@item Sylvan Talon|XDMG}"
+     ],
+     [
+      "81–90",
+      "{@item Veteran's Cane|XDMG}"
+     ],
+     [
+      "91–00",
+      "{@item Walloping Ammunition|XDMG}"
+     ]
+    ],
+    "path": [
+     {
+      "name": "Chapter 7: Treasure",
+      "page": 213
+     },
+     {
+      "name": "Random Magic Items",
+      "page": 326
+     },
+     {
+      "name": "Armaments Tables",
+      "page": 328
+     }
+    ],
+    "section": "Armaments Tables",
+    "sectionIndex": 1
+   },
+   {
+    "type": "table",
+    "caption": "Armaments - Uncommon",
+    "colLabels": [
+     "1d100",
+     "Item"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "01–04",
+      "{@item Adamantine Armor|XDMG}"
+     ],
+     [
+      "05–08",
+      "{@item Adamantine Weapon|XDMG}"
+     ],
+     [
+      "09–13",
+      "{@item +1 Ammunition|XDMG|Ammunition, +1}"
+     ],
+     [
+      "14–18",
+      "{@item Bracers of Archery|XDMG}"
+     ],
+     [
+      "19–23",
+      "{@item Enspelled Armor|XDMG} ({@item Enspelled Armor (Cantrip)|XDMG|cantrip} or {@item Enspelled Armor (Level 1)|XDMG|level 1} spell)"
+     ],
+     [
+      "24–28",
+      "{@item Enspelled Weapon|XDMG} ({@item Enspelled Weapon (Cantrip)|XDMG|cantrip} or {@item Enspelled Weapon (Level 1)|XDMG|level 1} spell)"
+     ],
+     [
+      "29–33",
+      "{@item Gauntlets of Ogre Power|XDMG}"
+     ],
+     [
+      "34–38",
+      "{@item Javelin of Lightning|XDMG}"
+     ],
+     [
+      "39–43",
+      "{@item Mariner's Armor|XDMG}"
+     ],
+     [
+      "44–48",
+      "{@item Mithral Armor|XDMG}"
+     ],
+     [
+      "49–53",
+      "{@item Potion of Hill Giant Strength|XDMG|Potion of Giant Strength (hill)}"
+     ],
+     [
+      "54–58",
+      "{@item Potion of Pugilism|XDMG}"
+     ],
+     [
+      "59–62",
+      "{@item Quiver of Ehlonna|XDMG}"
+     ],
+     [
+      "63–66",
+      "{@item Saddle of the Cavalier|XDMG}"
+     ],
+     [
+      "67–71",
+      "{@item Sentinel Shield|XDMG}"
+     ],
+     [
+      "72–76",
+      "{@item +1 Shield|XDMG|Shield, +1}"
+     ],
+     [
+      "77–81",
+      "{@item Sword of Vengeance|XDMG}"
+     ],
+     [
+      "82–85",
+      "{@item Trident of Fish Command|XDMG}"
+     ],
+     [
+      "86–90",
+      "{@item +1 Weapon|XDMG|Weapon, +1}"
+     ],
+     [
+      "91–95",
+      "{@item Weapon of Warning|XDMG}"
+     ],
+     [
+      "96–00",
+      "{@item +1 Wraps of Unarmed Power|XDMG|Wraps of Unarmed Power, +1}"
+     ]
+    ],
+    "path": [
+     {
+      "name": "Chapter 7: Treasure",
+      "page": 213
+     },
+     {
+      "name": "Random Magic Items",
+      "page": 326
+     },
+     {
+      "name": "Armaments Tables",
+      "page": 328
+     }
+    ],
+    "section": "Armaments Tables",
+    "sectionIndex": 2
+   },
+   {
+    "type": "table",
+    "caption": "Armaments - Rare",
+    "colLabels": [
+     "1d100",
+     "Item"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "01–03",
+      "{@item +2 Ammunition|XDMG|Ammunition, +2}"
+     ],
+     [
+      "04–07",
+      "{@item +1 Armor|XDMG|Armor, +1}"
+     ],
+     [
+      "08–10",
+      "{@item Armor of Resistance|XDMG}"
+     ],
+     [
+      "11–13",
+      "{@item Armor of Vulnerability|XDMG}"
+     ],
+     [
+      "14–15",
+      "{@item Arrow-Catching Shield|XDMG}"
+     ],
+     [
+      "16–18",
+      "{@item Belt of Hill Giant Strength|XDMG|Belt of Giant Strength (hill)}"
+     ],
+     [
+      "19–20",
+      "{@item Berserker Axe|XDMG}"
+     ],
+     [
+      "21–22",
+      "{@item Daern's Instant Fortress|XDMG}"
+     ],
+     [
+      "23–25",
+      "{@item Dagger of Venom|XDMG}"
+     ],
+     [
+      "26–28",
+      "{@item Dragon Slayer|XDMG}"
+     ],
+     [
+      "29–31",
+      "{@item Elven Chain|XDMG}"
+     ],
+     [
+      "32–34",
+      "{@item Enspelled Armor|XDMG} ({@item Enspelled Armor (Level 2)|XDMG|level 2} or {@item Enspelled Armor (Level 3)|XDMG|3} spell)"
+     ],
+     [
+      "35–37",
+      "{@item Enspelled Weapon|XDMG} ({@item Enspelled Weapon (Level 2)|XDMG|level 2} or {@item Enspelled Weapon (Level 3)|XDMG|3} spell)"
+     ],
+     [
+      "38–40",
+      "{@item Flame Tongue|XDMG}"
+     ],
+     [
+      "41–43",
+      "{@item Giant Slayer|XDMG}"
+     ],
+     [
+      "44–46",
+      "{@item Horn of Blasting|XDMG}"
+     ],
+     [
+      "47–48",
+      "{@item Horn of Valhalla|XDMG} ({@item Horn of Valhalla, Brass|XDMG|brass} or {@item Horn of Valhalla, Silver|XDMG|silver})"
+     ],
+     [
+      "49–51",
+      "{@item Ioun Stone|XDMG} ({@item Ioun Stone, Protection|XDMG|protection})"
+     ],
+     [
+      "52–54",
+      "{@item Mace of Disruption|XDMG}"
+     ],
+     [
+      "55–57",
+      "{@item Mace of Smiting|XDMG}"
+     ],
+     [
+      "58–60",
+      "{@item Mace of Terror|XDMG}"
+     ],
+     [
+      "61–63",
+      "{@item Potion of Fire Giant Strength|XDMG|Potion of Giant Strength (fire)}"
+     ],
+     [
+      "64–66",
+      "{@item Potion of Giant Strength|XDMG} ({@item Potion of Frost Giant Strength|XDMG|frost} or {@item Potion of Stone Giant Strength|XDMG|stone})"
+     ],
+     [
+      "67–69",
+      "{@item Potion of Heroism|XDMG}"
+     ],
+     [
+      "70–72",
+      "{@item Potion of Invulnerability|XDMG}"
+     ],
+     [
+      "73–75",
+      "{@item Ring of Protection|XDMG}"
+     ],
+     [
+      "76–78",
+      "{@item Ring of the Ram|XDMG}"
+     ],
+     [
+      "79–81",
+      "{@item +2 Shield|XDMG|Shield, +2}"
+     ],
+     [
+      "82–84",
+      "{@item Shield of Missile Attraction|XDMG}"
+     ],
+     [
+      "85–86",
+      "{@item Sun Blade|XDMG}"
+     ],
+     [
+      "87–88",
+      "{@item Sword of Life Stealing|XDMG}"
+     ],
+     [
+      "89–90",
+      "{@item Sword of Wounding|XDMG}"
+     ],
+     [
+      "91–92",
+      "{@item Tentacle Rod|XDMG}"
+     ],
+     [
+      "93–94",
+      "{@item Vicious Weapon|XDMG}"
+     ],
+     [
+      "95–97",
+      "{@item +2 Weapon|XDMG|Weapon, +2}"
+     ],
+     [
+      "98–00",
+      "{@item +2 Wraps of Unarmed Power|XDMG|Wraps of Unarmed Power, +2}"
+     ]
+    ],
+    "path": [
+     {
+      "name": "Chapter 7: Treasure",
+      "page": 213
+     },
+     {
+      "name": "Random Magic Items",
+      "page": 326
+     },
+     {
+      "name": "Armaments Tables",
+      "page": 328
+     }
+    ],
+    "section": "Armaments Tables",
+    "sectionIndex": 3
+   },
+   {
+    "type": "table",
+    "caption": "Armaments - Very Rare",
+    "colLabels": [
+     "1d100",
+     "Item"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "01–03",
+      "{@item +3 Ammunition|XDMG|Ammunition, +3}"
+     ],
+     [
+      "04–06",
+      "{@item Ammunition of Slaying|XDMG}"
+     ],
+     [
+      "07–09",
+      "{@item Animated Shield|XDMG}"
+     ],
+     [
+      "10–12",
+      "{@item +2 Armor|XDMG|Armor, +2}"
+     ],
+     [
+      "13–14",
+      "{@item Belt of Fire Giant Strength|XDMG|Belt of Giant Strength (fire)}"
+     ],
+     [
+      "15–17",
+      "{@item Belt of Giant Strength|XDMG} ({@item Belt of Frost Giant Strength|XDMG|frost} or {@item Belt of Stone Giant Strength|XDMG|stone})"
+     ],
+     [
+      "18–19",
+      "{@item Dancing Sword|XDMG}"
+     ],
+     [
+      "20–22",
+      "{@item Demon Armor|XDMG}"
+     ],
+     [
+      "23–25",
+      "{@item Dragon Scale Mail|XDMG}"
+     ],
+     [
+      "26–28",
+      "{@item Dwarven Plate|XDMG}"
+     ],
+     [
+      "29–31",
+      "{@item Dwarven Thrower|XDMG}"
+     ],
+     [
+      "32–34",
+      "{@item Energy Bow|XDMG}"
+     ],
+     [
+      "35–37",
+      "{@item Enspelled Armor|XDMG} ({@item Enspelled Armor (Level 4)|XDMG|level 4} or {@item Enspelled Armor (Level 5)|XDMG|5} spell)"
+     ],
+     [
+      "38–40",
+      "{@item Enspelled Weapon|XDMG} ({@item Enspelled Weapon (Level 4)|XDMG|level 4} or {@item Enspelled Weapon (Level 5)|XDMG|5} spell)"
+     ],
+     [
+      "41–43",
+      "{@item Executioner's Axe|XDMG}"
+     ],
+     [
+      "44–46",
+      "{@item Frost Brand|XDMG}"
+     ],
+     [
+      "47–49",
+      "{@item Horn of Valhalla, Bronze|XDMG|Horn of Valhalla (bronze)}"
+     ],
+     [
+      "50–52",
+      "{@item Ioun Stone|XDMG} ({@item Ioun Stone, Strength|XDMG|strength})"
+     ],
+     [
+      "53–55",
+      "{@item Lute of Thunderous Thumping|XDMG}"
+     ],
+     [
+      "56–58",
+      "{@item Manual of Gainful Exercise|XDMG}"
+     ],
+     [
+      "59–61",
+      "{@item Nine Lives Stealer|XDMG}"
+     ],
+     [
+      "62–64",
+      "{@item Oathbow|XDMG}"
+     ],
+     [
+      "65–68",
+      "{@item Oil of Sharpness|XDMG}"
+     ],
+     [
+      "69–72",
+      "{@item Potion of Cloud Giant Strength|XDMG|Potion of Giant Strength (cloud)}"
+     ],
+     [
+      "73–75",
+      "{@item Quarterstaff of the Acrobat|XDMG}"
+     ],
+     [
+      "76–78",
+      "{@item Scimitar of Speed|XDMG}"
+     ],
+     [
+      "79–82",
+      "{@item +3 Shield|XDMG|Shield, +3}"
+     ],
+     [
+      "83–85",
+      "{@item Shield of the Cavalier|XDMG}"
+     ],
+     [
+      "86–88",
+      "{@item Spellguard Shield|XDMG}"
+     ],
+     [
+      "89–91",
+      "{@item Sword of Sharpness|XDMG}"
+     ],
+     [
+      "92–94",
+      "{@item Thunderous Greatclub|XDMG}"
+     ],
+     [
+      "95–97",
+      "{@item +3 Weapon|XDMG|Weapon, +3}"
+     ],
+     [
+      "98–00",
+      "{@item +3 Wraps of Unarmed Power|XDMG|Wraps of Unarmed Power, +3}"
+     ]
+    ],
+    "path": [
+     {
+      "name": "Chapter 7: Treasure",
+      "page": 213
+     },
+     {
+      "name": "Random Magic Items",
+      "page": 326
+     },
+     {
+      "name": "Armaments Tables",
+      "page": 328
+     }
+    ],
+    "section": "Armaments Tables",
+    "sectionIndex": 4
+   },
+   {
+    "type": "table",
+    "caption": "Armaments - Legendary",
+    "colLabels": [
+     "1d100",
+     "Item"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "01–06",
+      "{@item +3 Armor|XDMG|Armor, +3}"
+     ],
+     [
+      "07–12",
+      "{@item Armor of Invulnerability|XDMG}"
+     ],
+     [
+      "13–18",
+      "{@item Belt of Cloud Giant Strength|XDMG|Belt of Giant Strength (cloud)}"
+     ],
+     [
+      "19–21",
+      "{@item Belt of Storm Giant Strength|XDMG|Belt of Giant Strength (storm)}"
+     ],
+     [
+      "22–27",
+      "{@item Defender|XDMG}"
+     ],
+     [
+      "28–33",
+      "{@item Efreeti Chain|XDMG}"
+     ],
+     [
+      "34–39",
+      "{@item Enspelled Armor|XDMG} (level 6, 7, or 8 spell)"
+     ],
+     [
+      "40–45",
+      "{@item Enspelled Weapon|XDMG} (level 6, 7, or 8 spell)"
+     ],
+     [
+      "46–51",
+      "{@item Hammer of Thunderbolts|XDMG}"
+     ],
+     [
+      "52–56",
+      "{@item Holy Avenger|XDMG}"
+     ],
+     [
+      "57–62",
+      "{@item Horn of Valhalla, Iron|XDMG|Horn of Valhalla (iron)}"
+     ],
+     [
+      "63–68",
+      "{@item Luck Blade|XDMG}"
+     ],
+     [
+      "69–72",
+      "{@item Moonblade|XDMG}"
+     ],
+     [
+      "73–78",
+      "{@item Plate Armor of Etherealness|XDMG}"
+     ],
+     [
+      "79–87",
+      "{@item Potion of Storm Giant Strength|XDMG|Potion of Giant Strength (storm)}"
+     ],
+     [
+      "88–90",
+      "{@item Rod of Lordly Might|XDMG}"
+     ],
+     [
+      "91–95",
+      "{@item Sword of Answering|XDMG}"
+     ],
+     [
+      "96–00",
+      "{@item Vorpal Sword|XDMG}"
+     ]
+    ],
+    "path": [
+     {
+      "name": "Chapter 7: Treasure",
+      "page": 213
+     },
+     {
+      "name": "Random Magic Items",
+      "page": 326
+     },
+     {
+      "name": "Armaments Tables",
+      "page": 328
+     }
+    ],
+    "section": "Armaments Tables",
+    "sectionIndex": 5
+   }
+  ],
+  "chapter": {
+   "name": "Treasure",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 7
+   },
+   "index": 6
+  }
+ },
+ {
+  "type": "tableGroup",
+  "name": "Random Magic Items - Implements",
+  "source": "XDMG",
+  "page": 329,
+  "tables": [
+   {
+    "type": "table",
+    "caption": "Implements - Common",
+    "colLabels": [
+     "1d100",
+     "Item"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "01–02",
+      "{@item Bead of Nourishment|XDMG}"
+     ],
+     [
+      "03–04",
+      "{@item Bead of Refreshment|XDMG}"
+     ],
+     [
+      "05–06",
+      "{@item Boots of False Tracks|XDMG}"
+     ],
+     [
+      "07–08",
+      "{@item Candle of the Deep|XDMG}"
+     ],
+     [
+      "09–10",
+      "{@item Charlatan's Die|XDMG}"
+     ],
+     [
+      "11–13",
+      "{@item Cloak of Many Fashions|XDMG}"
+     ],
+     [
+      "14–15",
+      "{@item Clockwork Amulet|XDMG}"
+     ],
+     [
+      "16–17",
+      "{@item Ear Horn of Hearing|XDMG}"
+     ],
+     [
+      "18–19",
+      "{@item Ersatz Eye|XDMG}"
+     ],
+     [
+      "20–21",
+      "{@item Heward's Handy Spice Pouch|XDMG}"
+     ],
+     [
+      "22–23",
+      "{@item Horn of Silent Alarm|XDMG}"
+     ],
+     [
+      "24–25",
+      "{@item Instrument of Illusions|XDMG}"
+     ],
+     [
+      "26–27",
+      "{@item Instrument of Scribing|XDMG}"
+     ],
+     [
+      "28–29",
+      "{@item Lock of Trickery|XDMG}"
+     ],
+     [
+      "30–32",
+      "{@item Moon-Touched Sword|XDMG}"
+     ],
+     [
+      "33–34",
+      "{@item Mystery Key|XDMG}"
+     ],
+     [
+      "35–36",
+      "{@item Orb of Direction|XDMG}"
+     ],
+     [
+      "37–38",
+      "{@item Orb of Time|XDMG}"
+     ],
+     [
+      "39–40",
+      "{@item Perfume of Bewitching|XDMG}"
+     ],
+     [
+      "41–42",
+      "{@item Pipe of Smoke Monsters|XDMG}"
+     ],
+     [
+      "43–44",
+      "{@item Pole of Angling|XDMG}"
+     ],
+     [
+      "45–46",
+      "{@item Pole of Collapsing|XDMG}"
+     ],
+     [
+      "47–52",
+      "{@item Potion of Climbing|XDMG}"
+     ],
+     [
+      "53–58",
+      "{@item Potion of Comprehension|XDMG}"
+     ],
+     [
+      "59–74",
+      "{@item Potion of Healing|XDMG}"
+     ],
+     [
+      "75–76",
+      "{@item Prosthetic Limb|XDMG}"
+     ],
+     [
+      "77–78",
+      "{@item Rope of Mending|XDMG}"
+     ],
+     [
+      "79–80",
+      "{@item Staff of Birdcalls|XDMG}"
+     ],
+     [
+      "81–82",
+      "{@item Sylvan Talon|XDMG}"
+     ],
+     [
+      "83–84",
+      "{@item Talking Doll|XDMG}"
+     ],
+     [
+      "85–86",
+      "{@item Tankard of Sobriety|XDMG}"
+     ],
+     [
+      "87–90",
+      "{@item Veteran's Cane|XDMG}"
+     ],
+     [
+      "91–93",
+      "{@item Walloping Ammunition|XDMG}"
+     ],
+     [
+      "94–96",
+      "{@item Wand of Conducting|XDMG}"
+     ],
+     [
+      "97–00",
+      "{@item Wand of Pyrotechnics|XDMG}"
+     ]
+    ],
+    "path": [
+     {
+      "name": "Chapter 7: Treasure",
+      "page": 213
+     },
+     {
+      "name": "Random Magic Items",
+      "page": 326
+     },
+     {
+      "name": "Implements Tables",
+      "page": 329
+     }
+    ],
+    "section": "Implements Tables",
+    "sectionIndex": 1
+   },
+   {
+    "type": "table",
+    "caption": "Implements - Uncommon",
+    "colLabels": [
+     "1d100",
+     "Item"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "01–02",
+      "{@item Alchemy Jug|XDMG}"
+     ],
+     [
+      "03–06",
+      "{@item +1 Ammunition|XDMG|Ammunition, +1}"
+     ],
+     [
+      "07–10",
+      "{@item Bag of Holding|XDMG}"
+     ],
+     [
+      "11–12",
+      "{@item Boots of Elvenkind|XDMG}"
+     ],
+     [
+      "13–14",
+      "{@item Boots of Striding and Springing|XDMG}"
+     ],
+     [
+      "15–16",
+      "{@item Boots of the Winterlands|XDMG}"
+     ],
+     [
+      "17–18",
+      "{@item Broom of Flying|XDMG}"
+     ],
+     [
+      "19–20",
+      "{@item Cap of Water Breathing|XDMG}"
+     ],
+     [
+      "21–22",
+      "{@item Cloak of Elvenkind|XDMG}"
+     ],
+     [
+      "23–24",
+      "{@item Cloak of Protection|XDMG}"
+     ],
+     [
+      "25–26",
+      "{@item Cloak of the Manta Ray|XDMG}"
+     ],
+     [
+      "27",
+      "{@item Decanter of Endless Water|XDMG}"
+     ],
+     [
+      "28–30",
+      "{@item Driftglobe|XDMG}"
+     ],
+     [
+      "31–32",
+      "{@item Dust of Disappearance|XDMG}"
+     ],
+     [
+      "33–34",
+      "{@item Dust of Dryness|XDMG}"
+     ],
+     [
+      "35–36",
+      "{@item Dust of Sneezing and Choking|XDMG}"
+     ],
+     [
+      "37–38",
+      "{@item Enspelled Weapon|XDMG} ({@item Enspelled Weapon (Cantrip)|XDMG|cantrip} or {@item Enspelled Weapon (Level 1)|XDMG|level 1} spell)"
+     ],
+     [
+      "39–40",
+      "{@item Eyes of Minute Seeing|XDMG}"
+     ],
+     [
+      "41–42",
+      "{@item Eyes of the Eagle|XDMG}"
+     ],
+     [
+      "43–44",
+      "{@item Gloves of Missile Snaring|XDMG}"
+     ],
+     [
+      "45–46",
+      "{@item Gloves of Swimming and Climbing|XDMG}"
+     ],
+     [
+      "47–48",
+      "{@item Gloves of Thievery|XDMG}"
+     ],
+     [
+      "49–50",
+      "{@item Goggles of Night|XDMG}"
+     ],
+     [
+      "51",
+      "{@item Hag Eye|XDMG}"
+     ],
+     [
+      "52–54",
+      "{@item Helm of Comprehending Languages|XDMG}"
+     ],
+     [
+      "55",
+      "{@item Immovable Rod|XDMG}"
+     ],
+     [
+      "56–57",
+      "{@item Instrument of the Bards|XDMG} ({@item Instrument of the Bards, Doss Lute|XDMG|Doss lute}, {@item Instrument of the Bards, Fochlucan Bandore|XDMG|Fochlucan bandore}, or {@item Instrument of the Bards, Mac-Fuirmidh Cittern|XDMG|Mac-Fuirmidh cittern})"
+     ],
+     [
+      "58–59",
+      "{@item Lantern of Revealing|XDMG}"
+     ],
+     [
+      "60–61",
+      "{@item Nature's Mantle|XDMG}"
+     ],
+     [
+      "62–63",
+      "{@item Oil of Slipperiness|XDMG}"
+     ],
+     [
+      "64–65",
+      "{@item Pipes of Haunting|XDMG}"
+     ],
+     [
+      "66–67",
+      "{@item Pipes of the Sewers|XDMG}"
+     ],
+     [
+      "68–71",
+      "{@item Potion of Growth|XDMG}"
+     ],
+     [
+      "72–80",
+      "{@item Potion of Greater Healing|XDMG|Potion of Healing (greater)}"
+     ],
+     [
+      "81–84",
+      "{@item Potion of Water Breathing|XDMG}"
+     ],
+     [
+      "85–86",
+      "{@item Quaal's Feather Token|XDMG} ({@item Quaal's Feather Token, Anchor|XDMG|anchor}, {@item Quaal's Feather Token, Fan|XDMG|fan}, or {@item Quaal's Feather Token, Tree|XDMG|tree})"
+     ],
+     [
+      "87–88",
+      "{@item Ring of Jumping|XDMG}"
+     ],
+     [
+      "89–90",
+      "{@item Ring of Swimming|XDMG}"
+     ],
+     [
+      "91–92",
+      "{@item Ring of Warmth|XDMG}"
+     ],
+     [
+      "93–94",
+      "{@item Robe of Useful Items|XDMG}"
+     ],
+     [
+      "95–96",
+      "{@item Rope of Climbing|XDMG}"
+     ],
+     [
+      "97–98",
+      "{@item Stone of Good Luck|XDMG}"
+     ],
+     [
+      "99–00",
+      "{@item Wand of Secrets|XDMG}"
+     ]
+    ],
+    "path": [
+     {
+      "name": "Chapter 7: Treasure",
+      "page": 213
+     },
+     {
+      "name": "Random Magic Items",
+      "page": 326
+     },
+     {
+      "name": "Implements Tables",
+      "page": 329
+     }
+    ],
+    "section": "Implements Tables",
+    "sectionIndex": 2
+   },
+   {
+    "type": "table",
+    "caption": "Implements - Rare",
+    "colLabels": [
+     "1d100",
+     "Item"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "01–04",
+      "{@item +2 Ammunition|XDMG|Ammunition, +2}"
+     ],
+     [
+      "05–08",
+      "{@item Bag of Beans|XDMG}"
+     ],
+     [
+      "09–12",
+      "{@item Belt of Dwarvenkind|XDMG}"
+     ],
+     [
+      "13–16",
+      "{@item Boots of Levitation|XDMG}"
+     ],
+     [
+      "17–20",
+      "{@item Boots of Speed|XDMG}"
+     ],
+     [
+      "21–24",
+      "{@item Chime of Opening|XDMG}"
+     ],
+     [
+      "25–28",
+      "{@item Dimensional Shackles|XDMG}"
+     ],
+     [
+      "29–32",
+      "{@item Enspelled Weapon|XDMG} ({@item Enspelled Weapon (Level 2)|XDMG|level 2} or {@item Enspelled Weapon (Level 3)|XDMG|3} spell)"
+     ],
+     [
+      "33–36",
+      "{@item Folding Boat|XDMG}"
+     ],
+     [
+      "37–40",
+      "{@item Glamoured Studded Leather|XDMG}"
+     ],
+     [
+      "41–44",
+      "{@item Heward's Handy Haversack|XDMG}"
+     ],
+     [
+      "45–48",
+      "{@item Horseshoes of Speed|XDMG}"
+     ],
+     [
+      "49–52",
+      "{@item Instrument of the Bards|XDMG} ({@item Instrument of the Bards, Canaith Mandolin|XDMG|Canaith mandolin} or {@item Instrument of the Bards, Cli Lyre|XDMG|Cli lyre})"
+     ],
+     [
+      "53–56",
+      "{@item Ioun Stone|XDMG} ({@item Ioun Stone, Awareness|XDMG|awareness})"
+     ],
+     [
+      "57–60",
+      "{@item Portable Hole|XDMG}"
+     ],
+     [
+      "61–64",
+      "{@item Potion of Diminution|XDMG}"
+     ],
+     [
+      "65–68",
+      "{@item Potion of Gaseous Form|XDMG}"
+     ],
+     [
+      "69–76",
+      "{@item Potion of Superior Healing|XDMG|Potion of Healing (superior)}"
+     ],
+     [
+      "77–80",
+      "{@item Quaal's Feather Token|XDMG} ({@item Quaal's Feather Token, Bird|XDMG|bird}, {@item Quaal's Feather Token, Swan Boat|XDMG|swan boat}, or {@item Quaal's Feather Token, Whip|XDMG|whip})"
+     ],
+     [
+      "81–84",
+      "{@item Ring of Evasion|XDMG}"
+     ],
+     [
+      "85–88",
+      "{@item Ring of Free Action|XDMG}"
+     ],
+     [
+      "89–92",
+      "{@item Rope of Entanglement|XDMG}"
+     ],
+     [
+      "93–96",
+      "{@item Staff of Healing|XDMG}"
+     ],
+     [
+      "97–00",
+      "{@item Wand of Enemy Detection|XDMG}"
+     ]
+    ],
+    "path": [
+     {
+      "name": "Chapter 7: Treasure",
+      "page": 213
+     },
+     {
+      "name": "Random Magic Items",
+      "page": 326
+     },
+     {
+      "name": "Implements Tables",
+      "page": 329
+     }
+    ],
+    "section": "Implements Tables",
+    "sectionIndex": 3
+   },
+   {
+    "type": "table",
+    "caption": "Implements - Very Rare",
+    "colLabels": [
+     "1d100",
+     "Item"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "01–07",
+      "{@item +3 Ammunition|XDMG|Ammunition, +3}"
+     ],
+     [
+      "08–14",
+      "{@item Bag of Devouring|XDMG}"
+     ],
+     [
+      "15–21",
+      "{@item Carpet of Flying|XDMG}"
+     ],
+     [
+      "22–28",
+      "{@item Enspelled Weapon|XDMG} ({@item Enspelled Weapon (Level 4)|XDMG|level 4} or {@item Enspelled Weapon (Level 5)|XDMG|5} spell)"
+     ],
+     [
+      "29–35",
+      "{@item Horseshoes of a Zephyr|XDMG}"
+     ],
+     [
+      "36–42",
+      "{@item Instrument of the Bards, Anstruth Harp|XDMG|Instrument of the Bards (Anstruth harp)}"
+     ],
+     [
+      "43–49",
+      "{@item Ioun Stone|XDMG} ({@item Ioun Stone, Agility|XDMG|agility})"
+     ],
+     [
+      "50–56",
+      "{@item Lute of Thunderous Thumping|XDMG}"
+     ],
+     [
+      "57–63",
+      "{@item Manual of Quickness of Action|XDMG}"
+     ],
+     [
+      "64–70",
+      "{@item Nolzur's Marvelous Pigments|XDMG}"
+     ],
+     [
+      "71–77",
+      "{@item Potion of Flying|XDMG}"
+     ],
+     [
+      "78–86",
+      "{@item Potion of Supreme Healing|XDMG|Potion of Healing (supreme)}"
+     ],
+     [
+      "87–93",
+      "{@item Potion of Speed|XDMG}"
+     ],
+     [
+      "94–00",
+      "{@item Tome of Leadership and Influence|XDMG}"
+     ]
+    ],
+    "path": [
+     {
+      "name": "Chapter 7: Treasure",
+      "page": 213
+     },
+     {
+      "name": "Random Magic Items",
+      "page": 326
+     },
+     {
+      "name": "Implements Tables",
+      "page": 329
+     }
+    ],
+    "section": "Implements Tables",
+    "sectionIndex": 4
+   },
+   {
+    "type": "table",
+    "caption": "Implements - Legendary",
+    "colLabels": [
+     "1d100",
+     "Item"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "01–17",
+      "{@item Enspelled Weapon|XDMG} (level 6, 7, or 8 spell)"
+     ],
+     [
+      "18–34",
+      "{@item Instrument of the Bards|XDMG} ({@item Instrument of the Bards, Ollamh Harp|XDMG|Ollamh harp})"
+     ],
+     [
+      "35–54",
+      "{@item Sovereign Glue|XDMG}"
+     ],
+     [
+      "55–70",
+      "{@item Sphere of Annihilation|XDMG}"
+     ],
+     [
+      "71–83",
+      "{@item Talisman of the Sphere|XDMG}"
+     ],
+     [
+      "84–00",
+      "{@item Universal Solvent|XDMG}"
+     ]
+    ],
+    "path": [
+     {
+      "name": "Chapter 7: Treasure",
+      "page": 213
+     },
+     {
+      "name": "Random Magic Items",
+      "page": 326
+     },
+     {
+      "name": "Implements Tables",
+      "page": 329
+     }
+    ],
+    "section": "Implements Tables",
+    "sectionIndex": 5
+   }
+  ],
+  "chapter": {
+   "name": "Treasure",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 7
+   },
+   "index": 6
+  }
+ },
+ {
+  "type": "tableGroup",
+  "name": "Random Magic Items - Relics",
+  "source": "XDMG",
+  "page": 330,
+  "tables": [
+   {
+    "type": "table",
+    "caption": "Relics - Common",
+    "colLabels": [
+     "1d100",
+     "Item"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "01–08",
+      "{@item Ear Horn of Hearing|XDMG}"
+     ],
+     [
+      "09–28",
+      "{@item Potion of Healing|XDMG}"
+     ],
+     [
+      "29–36",
+      "{@item Pot of Awakening|XDMG}"
+     ],
+     [
+      "37–44",
+      "{@item Ruby of the War Mage|XDMG}"
+     ],
+     [
+      "45–52",
+      "{@item Shield of Expression|XDMG}"
+     ],
+     [
+      "53–60",
+      "{@item Smoldering Armor|XDMG}"
+     ],
+     [
+      "61–80",
+      "{@item Spell Scroll|XDMG} ({@item Spell Scroll (Cantrip)|XDMG|cantrip} or {@item Spell Scroll (Level 1)|XDMG|level 1} spell)"
+     ],
+     [
+      "81–90",
+      "{@item Staff of Adornment|XDMG}"
+     ],
+     [
+      "91–00",
+      "{@item Staff of Flowers|XDMG}"
+     ]
+    ],
+    "path": [
+     {
+      "name": "Chapter 7: Treasure",
+      "page": 213
+     },
+     {
+      "name": "Random Magic Items",
+      "page": 326
+     },
+     {
+      "name": "Relics Tables",
+      "page": 330
+     }
+    ],
+    "section": "Relics Tables",
+    "sectionIndex": 1
+   },
+   {
+    "type": "table",
+    "caption": "Relics - Uncommon",
+    "colLabels": [
+     "1d100",
+     "Item"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "01–05",
+      "{@item Enspelled Staff|XDMG} ({@item Enspelled Staff (Cantrip)|XDMG|cantrip} or {@item Enspelled Staff (Level 1)|XDMG|level 1} spell)"
+     ],
+     [
+      "06–10",
+      "{@item Keoghtom's Ointment|XDMG}"
+     ],
+     [
+      "11–15",
+      "{@item Mariner's Armor|XDMG}"
+     ],
+     [
+      "16–20",
+      "{@item Nature's Mantle|XDMG}"
+     ],
+     [
+      "21–25",
+      "{@item Pearl of Power|XDMG}"
+     ],
+     [
+      "26–30",
+      "{@item Periapt of Health|XDMG}"
+     ],
+     [
+      "31–35",
+      "{@item Periapt of Wound Closure|XDMG}"
+     ],
+     [
+      "36–40",
+      "{@item Potion of Animal Friendship|XDMG}"
+     ],
+     [
+      "41–55",
+      "{@item Potion of Greater Healing|XDMG|Potion of Healing (greater)}"
+     ],
+     [
+      "56–60",
+      "{@item Potion of Resistance|XDMG}"
+     ],
+     [
+      "61–65",
+      "{@item Ring of Water Walking|XDMG}"
+     ],
+     [
+      "66–70",
+      "{@item Sending Stones|XDMG}"
+     ],
+     [
+      "71–80",
+      "{@item Spell Scroll|XDMG} ({@item Spell Scroll (Level 2)|XDMG|level 2} or {@item Spell Scroll (Level 3)|XDMG|level 3} spell)"
+     ],
+     [
+      "81–85",
+      "{@item Staff of the Adder|XDMG}"
+     ],
+     [
+      "86–90",
+      "{@item Staff of the Python|XDMG}"
+     ],
+     [
+      "91–95",
+      "{@item Wand of Magic Detection|XDMG}"
+     ],
+     [
+      "96–00",
+      "{@item +1 Wand of the War Mage|XDMG|Wand of the War Mage, +1}"
+     ]
+    ],
+    "path": [
+     {
+      "name": "Chapter 7: Treasure",
+      "page": 213
+     },
+     {
+      "name": "Random Magic Items",
+      "page": 326
+     },
+     {
+      "name": "Relics Tables",
+      "page": 330
+     }
+    ],
+    "section": "Relics Tables",
+    "sectionIndex": 2
+   },
+   {
+    "type": "table",
+    "caption": "Relics - Rare",
+    "colLabels": [
+     "1d100",
+     "Item"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "01–03",
+      "{@item Amulet of Health|XDMG}"
+     ],
+     [
+      "04–07",
+      "{@item +1 Armor|XDMG|Armor, +1}"
+     ],
+     [
+      "08–09",
+      "{@item Bowl of Commanding Water Elementals|XDMG}"
+     ],
+     [
+      "10–11",
+      "{@item Brazier of Commanding Fire Elementals|XDMG}"
+     ],
+     [
+      "12–13",
+      "{@item Censer of Controlling Air Elementals|XDMG}"
+     ],
+     [
+      "14–16",
+      "{@item Elixir of Health|XDMG}"
+     ],
+     [
+      "17–19",
+      "{@item Enspelled Staff|XDMG} ({@item Enspelled Staff (Level 2)|XDMG|level 2} or {@item Enspelled Staff (Level 3)|XDMG|3} spell)"
+     ],
+     [
+      "20–22",
+      "{@item Horn of Blasting|XDMG}"
+     ],
+     [
+      "23–25",
+      "{@item Horn of Valhalla|XDMG} ({@item Horn of Valhalla, Brass|XDMG|brass} or {@item Horn of Valhalla, Silver|XDMG|silver})"
+     ],
+     [
+      "26–28",
+      "{@item Ioun Stone|XDMG} ({@item Ioun Stone, Reserve|XDMG|reserve} or {@item Ioun Stone, Sustenance|XDMG|sustenance})"
+     ],
+     [
+      "29–31",
+      "{@item Mace of Disruption|XDMG}"
+     ],
+     [
+      "32–34",
+      "{@item Mace of Smiting|XDMG}"
+     ],
+     [
+      "35–37",
+      "{@item Mace of Terror|XDMG}"
+     ],
+     [
+      "38–40",
+      "{@item Necklace of Prayer Beads|XDMG}"
+     ],
+     [
+      "41–43",
+      "{@item Periapt of Proof against Poison|XDMG}"
+     ],
+     [
+      "44–51",
+      "{@item Potion of Superior Healing|XDMG|Potion of Healing (superior)}"
+     ],
+     [
+      "52–54",
+      "{@item Ring of Animal Influence|XDMG}"
+     ],
+     [
+      "55–58",
+      "{@item Ring of Resistance|XDMG}"
+     ],
+     [
+      "59–61",
+      "{@item Ring of Spell Storing|XDMG}"
+     ],
+     [
+      "62–65",
+      "{@item Scroll of Protection|XDMG}"
+     ],
+     [
+      "66–73",
+      "{@item Spell Scroll|XDMG} ({@item Spell Scroll (Level 4)|XDMG|level 4} or {@item Spell Scroll (Level 5)|XDMG|level 5} spell)"
+     ],
+     [
+      "74–76",
+      "{@item Staff of Charming|XDMG}"
+     ],
+     [
+      "77–79",
+      "{@item Staff of Healing|XDMG}"
+     ],
+     [
+      "80–82",
+      "{@item Staff of Swarming Insects|XDMG}"
+     ],
+     [
+      "83–85",
+      "{@item Staff of the Woodlands|XDMG}"
+     ],
+     [
+      "86–88",
+      "{@item Staff of Withering|XDMG}"
+     ],
+     [
+      "89–90",
+      "{@item Stone of Controlling Earth Elementals|XDMG}"
+     ],
+     [
+      "91–93",
+      "{@item Tentacle Rod|XDMG}"
+     ],
+     [
+      "94–96",
+      "{@item Wand of Paralysis|XDMG}"
+     ],
+     [
+      "97–00",
+      "{@item +2 Wand of the War Mage|XDMG|Wand of the War Mage, +2}"
+     ]
+    ],
+    "path": [
+     {
+      "name": "Chapter 7: Treasure",
+      "page": 213
+     },
+     {
+      "name": "Random Magic Items",
+      "page": 326
+     },
+     {
+      "name": "Relics Tables",
+      "page": 330
+     }
+    ],
+    "section": "Relics Tables",
+    "sectionIndex": 3
+   },
+   {
+    "type": "table",
+    "caption": "Relics - Very Rare",
+    "colLabels": [
+     "1d100",
+     "Item"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "01–05",
+      "{@item +2 Armor|XDMG|Armor, +2}"
+     ],
+     [
+      "06–10",
+      "{@item Candle of Invocation|XDMG}"
+     ],
+     [
+      "11–15",
+      "{@item Cauldron of Rebirth|XDMG}"
+     ],
+     [
+      "16–20",
+      "{@item Enspelled Staff|XDMG} ({@item Enspelled Staff (Level 4)|XDMG|level 4} or {@item Enspelled Staff (Level 5)|XDMG|5} spell)"
+     ],
+     [
+      "21–25",
+      "{@item Horn of Valhalla, Bronze|XDMG|Horn of Valhalla (bronze)}"
+     ],
+     [
+      "26–30",
+      "{@item Ioun Stone|XDMG} ({@item Ioun Stone, Insight|XDMG|insight})"
+     ],
+     [
+      "31–35",
+      "{@item Manual of Bodily Health|XDMG}"
+     ],
+     [
+      "36–43",
+      "{@item Potion of Supreme Healing|XDMG|Potion of Healing (supreme)}"
+     ],
+     [
+      "44–50",
+      "{@item Potion of Vitality|XDMG}"
+     ],
+     [
+      "51–55",
+      "{@item Rod of Alertness|XDMG}"
+     ],
+     [
+      "56–65",
+      "{@item Spell Scroll|XDMG} ({@item Spell Scroll (Level 6)|XDMG|level 6}, {@item Spell Scroll (Level 7)|XDMG|level 7}, or {@item Spell Scroll (Level 8)|XDMG|level 8} spell)"
+     ],
+     [
+      "66–70",
+      "{@item Spirit Board|XDMG}"
+     ],
+     [
+      "71–75",
+      "{@item Staff of Fire|XDMG}"
+     ],
+     [
+      "76–80",
+      "{@item Staff of Frost|XDMG}"
+     ],
+     [
+      "81–85",
+      "{@item Staff of Striking|XDMG}"
+     ],
+     [
+      "86–90",
+      "{@item Staff of Thunder and Lightning|XDMG}"
+     ],
+     [
+      "91–95",
+      "{@item Tome of Understanding|XDMG}"
+     ],
+     [
+      "96–00",
+      "{@item +3 Wand of the War Mage|XDMG|Wand of the War Mage, +3}"
+     ]
+    ],
+    "path": [
+     {
+      "name": "Chapter 7: Treasure",
+      "page": 213
+     },
+     {
+      "name": "Random Magic Items",
+      "page": 326
+     },
+     {
+      "name": "Relics Tables",
+      "page": 330
+     }
+    ],
+    "section": "Relics Tables",
+    "sectionIndex": 4
+   },
+   {
+    "type": "table",
+    "caption": "Relics - Legendary",
+    "colLabels": [
+     "1d100",
+     "Item"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "01–08",
+      "{@item Armor of Invulnerability|XDMG}"
+     ],
+     [
+      "09–18",
+      "{@item +3 Armor|XDMG|Armor, +3}"
+     ],
+     [
+      "19–27",
+      "{@item Enspelled Staff|XDMG} (level 6, 7, or 8 spell)"
+     ],
+     [
+      "28–36",
+      "{@item Holy Avenger|XDMG}"
+     ],
+     [
+      "37–45",
+      "{@item Horn of Valhalla, Iron|XDMG|Horn of Valhalla (iron)}"
+     ],
+     [
+      "46–54",
+      "{@item Rod of Resurrection|XDMG}"
+     ],
+     [
+      "55–63",
+      "{@item Scarab of Protection|XDMG}"
+     ],
+     [
+      "64–72",
+      "{@item Scroll of Titan Summoning|XDMG}"
+     ],
+     [
+      "73–80",
+      "{@item Spell Scroll|XDMG} ({@item Spell Scroll (Level 9)|XDMG|level 9} spell)"
+     ],
+     [
+      "81–90",
+      "{@item Talisman of Pure Good|XDMG}"
+     ],
+     [
+      "91–00",
+      "{@item Talisman of Ultimate Evil|XDMG}"
+     ]
+    ],
+    "path": [
+     {
+      "name": "Chapter 7: Treasure",
+      "page": 213
+     },
+     {
+      "name": "Random Magic Items",
+      "page": 326
+     },
+     {
+      "name": "Relics Tables",
+      "page": 330
+     }
+    ],
+    "section": "Relics Tables",
+    "sectionIndex": 5
+   }
+  ],
+  "chapter": {
+   "name": "Treasure",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 7
+   },
+   "index": 6
+  }
+ },
+ {
+  "type": "tableGroup",
+  "name": "Roleplaying Gnolls and Cultists of Yeenoghu",
+  "tables": [
+   {
+    "type": "table",
+    "caption": "Gnoll/Cultist Physical Features",
+    "colLabels": [
+     "d12",
+     "Physical Feature"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "Missing an arm"
+     ],
+     [
+      "2",
+      "Infested with maggots"
+     ],
+     [
+      "3",
+      "Fur matted with dried blood"
+     ],
+     [
+      "4",
+      "Missing an eye"
+     ],
+     [
+      "5",
+      "Walks with a severe limp"
+     ],
+     [
+      "6",
+      "Covered in burn wounds"
+     ],
+     [
+      "7",
+      "Vestigial twin embedded on back"
+     ],
+     [
+      "8",
+      "Loud, wheezing breaths"
+     ],
+     [
+      "9",
+      "Drool is mildly acidic"
+     ],
+     [
+      "10",
+      "Covered in weeping sores"
+     ],
+     [
+      "11",
+      "Horrific smell of rot"
+     ],
+     [
+      "12",
+      "Weapon still embedded in old wound"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Gnoll/Cultist Personality Trait",
+    "colLabels": [
+     "d6",
+     "Personality Trait"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "Once an enemy defies me, I dedicate everything to its destruction."
+     ],
+     [
+      "2",
+      "The best enemy to fight is one caught by surprise."
+     ],
+     [
+      "3",
+      "I hate the sun and travel only by night."
+     ],
+     [
+      "4",
+      "I have stopped using language and instead rely on growls and shrieks."
+     ],
+     [
+      "5",
+      "I have no fear of death and welcome it in battle."
+     ],
+     [
+      "6",
+      "My berserk fury makes a rabid dog look gentle."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Gnoll/Cultist Ideals",
+    "colLabels": [
+     "d6",
+     "Ideal"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "Strength. I must remain strong to survive. (Any)"
+     ],
+     [
+      "2",
+      "Slaughter. If I destroy the weak, I please Yeenoghu. (Evil)"
+     ],
+     [
+      "3",
+      "Destruction. Yeenoghu will return when only those worthy of his fury remain. (Evil)"
+     ],
+     [
+      "4",
+      "Paranoia. Others are planning to kill and eat me. I must find a way to kill and eat them first. (Chaotic)"
+     ],
+     [
+      "5",
+      "Self-Sufficiency. When the time comes, even my allies will die by my hand. (Evil)"
+     ],
+     [
+      "6",
+      "Leadership. I am not part of the pack. I am above it. (Chaotic)"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Gnoll/Cultist Bonds",
+    "colLabels": [
+     "d6",
+     "Bond"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "I would die before betraying the Lord of Savagery."
+     ],
+     [
+      "2",
+      "I would follow the leader of our war band anywhere and gladly sacrifice myself to protect him or her."
+     ],
+     [
+      "3",
+      "I cull the weak from our war band, so that we remain strong."
+     ],
+     [
+      "4",
+      "Yeenoghu's omens guide my every choice."
+     ],
+     [
+      "5",
+      "If I die in battle, I was simply too weak to please Yeenoghu."
+     ],
+     [
+      "6",
+      "I devour the weak to purge them from the world, the strong to blunt their power."
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Gnoll/Cultist Flaws",
+    "colLabels": [
+     "d6",
+     "Flaw"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1",
+      "I lack tactical guile and rely on overwhelming attacks."
+     ],
+     [
+      "2",
+      "I flee from opponents that can match my strength."
+     ],
+     [
+      "3",
+      "My supposed allies are my first victims."
+     ],
+     [
+      "4",
+      "Deep down inside, I am terrified I will fail Yeenoghu."
+     ],
+     [
+      "5",
+      "My desire to torment my foes sometimes gives them the opportunity to outwit me."
+     ],
+     [
+      "6",
+      "My arrogance causes me to overlook opportunities."
+     ]
+    ]
+   }
+  ],
+  "page": 36,
+  "source": "VGM",
+  "chapter": {
+   "name": "Monster Lore",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 0
+  }
+ },
+ {
+  "type": "tableGroup",
+  "name": "Speed Factor Initiative Modifiers",
+  "tables": [
+   {
+    "type": "table",
+    "caption": "Speed Factor Initiative Modifiers",
+    "colLabels": [
+     "Factor",
+     "Initiative Modifier"
+    ],
+    "colStyles": [
+     "col-6",
+     "col-6"
+    ],
+    "rows": [
+     [
+      "Spellcasting",
+      "Subtract the spell's level"
+     ],
+     [
+      "Melee, heavy weapon",
+      "-2"
+     ],
+     [
+      "Melee, light or finesse weapon",
+      "+2"
+     ],
+     [
+      "Melee, two-handed weapon",
+      "-2"
+     ],
+     [
+      "Ranged, loading weapon",
+      "-5"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "colLabels": [
+     "Creature Size",
+     "Initiative Modifier"
+    ],
+    "colStyles": [
+     "col-6",
+     "col-6"
+    ],
+    "rows": [
+     [
+      "Tiny",
+      "+5"
+     ],
+     [
+      "Small",
+      "+2"
+     ],
+     [
+      "Medium",
+      "+0"
+     ],
+     [
+      "Large",
+      "-2"
+     ],
+     [
+      "Huge",
+      "-5"
+     ],
+     [
+      "Gargantuan",
+      "-8"
+     ]
+    ]
+   }
+  ],
+  "page": 270,
+  "source": "DMG",
+  "chapter": {
+   "name": "Dungeon Master's Workshop",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 9
+   },
+   "index": 9
+  }
+ },
+ {
+  "type": "tableGroup",
+  "name": "Tables; Weather",
+  "tables": [
+   {
+    "type": "table",
+    "caption": "Weather",
+    "colLabels": [
+     "1d20",
+     "Temperature"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "1–14",
+      "Normal for the season"
+     ],
+     [
+      "15–17",
+      "{@dice 1d4 × 10} degrees Fahrenheit colder"
+     ],
+     [
+      "18–20",
+      "{@dice 1d4 × 10} degrees Fahrenheit hotter"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "colLabels": [
+     "1d20",
+     "Wind",
+     "Precipitation"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-2",
+     "col-8"
+    ],
+    "rows": [
+     [
+      "1–12",
+      "None",
+      "None"
+     ],
+     [
+      "13–17",
+      "Light",
+      "Light rain or light snowfall"
+     ],
+     [
+      "18–20",
+      "Strong",
+      "Heavy rain or heavy snowfall"
+     ]
+    ]
+   }
+  ],
+  "source": "XScreen",
+  "chapter": {
+   "name": "DM Screen",
+   "index": 0
+  }
+ },
+ {
+  "type": "tableGroup",
+  "name": "Treasure Hoard: Challenge 0—4",
+  "tables": [
+   {
+    "type": "table",
+    "caption": "Treasure Hoard: Challenge 0—4",
+    "colLabels": [
+     "",
+     "CP",
+     "SP",
+     "EP",
+     "GP",
+     "PP"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-2 text-center"
+    ],
+    "rows": [
+     [
+      "{@b Coins}",
+      "{@dice 6d6 × 100} (2,100)",
+      "{@dice 3d6 × 100} (1,050)",
+      "—",
+      "{@dice 2d6 × 10} (70)",
+      "—"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "colLabels": [
+     "d100",
+     "Gems or Art Objects",
+     "Magic Items"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-3",
+     "col-9"
+    ],
+    "rows": [
+     [
+      "01-06",
+      "—",
+      "—"
+     ],
+     [
+      "07-16",
+      "{@dice 2d6} (7) 10 gp gems",
+      "—"
+     ],
+     [
+      "17-26",
+      "{@dice 2d4} (5) 25 gp art objects",
+      "—"
+     ],
+     [
+      "27-36",
+      "{@dice 2d6} (7) 50 gp gems",
+      "—"
+     ],
+     [
+      "37-44",
+      "{@dice 2d6} (7) 10 gp gems",
+      "Roll {@dice 1d6} times on {@table Magic Item Table A}."
+     ],
+     [
+      "45-52",
+      "{@dice 2d4} (5) 25 gp art objects",
+      "Roll {@dice 1d6} times on {@table Magic Item Table A}."
+     ],
+     [
+      "53-60",
+      "{@dice 2d6} (7) 50 gp gems",
+      "Roll {@dice 1d6} times on {@table Magic Item Table A}."
+     ],
+     [
+      "61-65",
+      "{@dice 2d6} (7) 10 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table B}."
+     ],
+     [
+      "66-70",
+      "{@dice 2d4} (5) 25 gp art objects",
+      "Roll {@dice 1d4} times on {@table Magic Item Table B}."
+     ],
+     [
+      "71-75",
+      "{@dice 2d6} (7) 50 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table B}."
+     ],
+     [
+      "76-78",
+      "{@dice 2d6} (7) 10 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table C}."
+     ],
+     [
+      "79-80",
+      "{@dice 2d4} (5) 25 gp art objects",
+      "Roll {@dice 1d4} times on {@table Magic Item Table C}."
+     ],
+     [
+      "81-85",
+      "{@dice 2d6} (7) 50 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table C}."
+     ],
+     [
+      "86-92",
+      "{@dice 2d4} (5) 25 gp art objects",
+      "Roll {@dice 1d4} times on {@table Magic Item Table F}."
+     ],
+     [
+      "93-97",
+      "{@dice 2d6} (7) 50 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table F}."
+     ],
+     [
+      "98-99",
+      "{@dice 2d4} (5) 25 gp art objects",
+      "Roll once on {@table Magic Item Table G}."
+     ],
+     [
+      "00",
+      "{@dice 2d6} (7) 50 gp gems",
+      "Roll once on {@table Magic Item Table G}."
+     ]
+    ]
+   }
+  ],
+  "page": 133,
+  "source": "DMG",
+  "chapter": {
+   "name": "Treasure",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 7
+   },
+   "index": 7
+  }
+ },
+ {
+  "type": "tableGroup",
+  "name": "Treasure Hoard: Challenge 5—10",
+  "tables": [
+   {
+    "type": "table",
+    "caption": "Treasure Hoard: Challenge 5—10",
+    "colLabels": [
+     "",
+     "CP",
+     "SP",
+     "EP",
+     "GP",
+     "PP"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-2 text-center"
+    ],
+    "rows": [
+     [
+      "{@b Coins}",
+      "{@dice 2d6 × 100} (700)",
+      "{@dice 2d6 × 1,000} (7,000)",
+      "—",
+      "{@dice 6d6 × 100} (2,100)",
+      "{@dice 3d6 × 10} (105)"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "colLabels": [
+     "d100",
+     "Gems or Art Objects",
+     "Magic Items"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-3",
+     "col-9"
+    ],
+    "rows": [
+     [
+      "01-04",
+      "—",
+      "—"
+     ],
+     [
+      "05-10",
+      "{@dice 2d4} (5) 25 gp art objects",
+      "—"
+     ],
+     [
+      "11-16",
+      "{@dice 3d6} (10) 50 gp gems",
+      "—"
+     ],
+     [
+      "17-22",
+      "{@dice 3d6} (10) 100 gp gems",
+      "—"
+     ],
+     [
+      "23-28",
+      "{@dice 2d4} (5) 250 gp art objects",
+      "—"
+     ],
+     [
+      "29-32",
+      "{@dice 2d4} (5) 25 gp art objects",
+      "Roll {@dice 1d6} times on {@table Magic Item Table A}."
+     ],
+     [
+      "33-36",
+      "{@dice 3d6} (10) 50 gp gems",
+      "Roll {@dice 1d6} times on {@table Magic Item Table A}."
+     ],
+     [
+      "37-40",
+      "{@dice 3d6} (10) 100 gp gems",
+      "Roll {@dice 1d6} times on {@table Magic Item Table A}."
+     ],
+     [
+      "41-44",
+      "{@dice 2d4} (5) 250 gp art objects",
+      "Roll {@dice 1d6} times on {@table Magic Item Table A}."
+     ],
+     [
+      "45-49",
+      "{@dice 2d4} (5) 25 gp art objects",
+      "Roll {@dice 1d4} times on {@table Magic Item Table B}."
+     ],
+     [
+      "50-54",
+      "{@dice 3d6} (10) 50 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table B}."
+     ],
+     [
+      "55-59",
+      "{@dice 3d6} (10) 100 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table B}."
+     ],
+     [
+      "60-63",
+      "{@dice 2d4} (5) 250 gp art objects",
+      "Roll {@dice 1d4} times on {@table Magic Item Table B}."
+     ],
+     [
+      "64-66",
+      "{@dice 2d4} (5) 25 gp art objects",
+      "Roll {@dice 1d4} times on {@table Magic Item Table C}."
+     ],
+     [
+      "67-69",
+      "{@dice 3d6} (10) 50 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table C}."
+     ],
+     [
+      "70-72",
+      "{@dice 3d6} (10) 100 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table C}."
+     ],
+     [
+      "73-74",
+      "{@dice 2d4} (5) 250 gp art objects",
+      "Roll {@dice 1d4} times on {@table Magic Item Table C}."
+     ],
+     [
+      "75-76",
+      "{@dice 2d4} (5) 25 gp art objects",
+      "Roll once on {@table Magic Item Table D}."
+     ],
+     [
+      "77-78",
+      "{@dice 3d6} (10) 50 gp gems",
+      "Roll once on {@table Magic Item Table D}."
+     ],
+     [
+      "79",
+      "{@dice 3d6} (10) 100 gp gems",
+      "Roll once on {@table Magic Item Table D}."
+     ],
+     [
+      "80",
+      "{@dice 2d4} (5) 250 gp art objects",
+      "Roll once on {@table Magic Item Table D}."
+     ],
+     [
+      "81-84",
+      "{@dice 2d4} (5) 25 gp art objects",
+      "Roll {@dice 1d4} times on {@table Magic Item Table F}."
+     ],
+     [
+      "85-88",
+      "{@dice 3d6} (10) 50 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table F}."
+     ],
+     [
+      "89-91",
+      "{@dice 3d6} (10) 100 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table F}."
+     ],
+     [
+      "92-94",
+      "{@dice 2d4} (5) 250 gp art objects",
+      "Roll {@dice 1d4} times on {@table Magic Item Table F}."
+     ],
+     [
+      "95-96",
+      "{@dice 3d6} (10) 100 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table G}."
+     ],
+     [
+      "97-98",
+      "{@dice 2d4} (5) 250 gp art objects",
+      "Roll {@dice 1d4} times on {@table Magic Item Table G}."
+     ],
+     [
+      "99",
+      "{@dice 3d6} (10) 100 gp gems",
+      "Roll once on {@table Magic Item Table H}."
+     ],
+     [
+      "00",
+      "{@dice 2d4} (5) 250 gp art objects",
+      "Roll once on {@table Magic Item Table H}."
+     ]
+    ]
+   }
+  ],
+  "page": 133,
+  "source": "DMG",
+  "chapter": {
+   "name": "Treasure",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 7
+   },
+   "index": 7
+  }
+ },
+ {
+  "type": "tableGroup",
+  "name": "Treasure Hoard: Challenge 11—16",
+  "tables": [
+   {
+    "type": "table",
+    "caption": "Treasure Hoard: Challenge 11—16",
+    "colLabels": [
+     "",
+     "CP",
+     "SP",
+     "EP",
+     "GP",
+     "PP"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-2 text-center"
+    ],
+    "rows": [
+     [
+      "{@b Coins}",
+      "—",
+      "—",
+      "—",
+      "{@dice 4d6 × 1,000} (14,000)",
+      "{@dice 5d6 × 100} (1,750)"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "colLabels": [
+     "d100",
+     "Gems or Art Objects",
+     "Magic Items"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-3",
+     "col-9"
+    ],
+    "rows": [
+     [
+      "01-03",
+      "—",
+      "—"
+     ],
+     [
+      "04-06",
+      "{@dice 2d4} (5) 250 gp art objects",
+      "—"
+     ],
+     [
+      "07-09",
+      "{@dice 2d4} (5) 750 gp art objects",
+      "—"
+     ],
+     [
+      "10-12",
+      "{@dice 3d6} (10) 500 gp gems",
+      "—"
+     ],
+     [
+      "13-15",
+      "{@dice 3d6} (10) 1,000 gp gems",
+      "—"
+     ],
+     [
+      "16-19",
+      "{@dice 2d4} (5) 250 gp art objects",
+      "Roll {@dice 1d4} times on {@table Magic Item Table A} and {@dice 1d6} times on {@table Magic Item Table B}."
+     ],
+     [
+      "20-23",
+      "{@dice 2d4} (5) 750 gp art objects",
+      "Roll {@dice 1d4} times on {@table Magic Item Table A} and {@dice 1d6} times on {@table Magic Item Table B}."
+     ],
+     [
+      "24-26",
+      "{@dice 3d6} (10) 500 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table A} and {@dice 1d6} times on {@table Magic Item Table B}."
+     ],
+     [
+      "27-29",
+      "{@dice 3d6} (10) 1,000 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table A} and {@dice 1d6} times on {@table Magic Item Table B}."
+     ],
+     [
+      "30-35",
+      "{@dice 2d4} (5) 250 gp art objects",
+      "Roll {@dice 1d6} times on {@table Magic Item Table C}."
+     ],
+     [
+      "36-40",
+      "{@dice 2d4} (5) 750 gp art objects",
+      "Roll {@dice 1d6} times on {@table Magic Item Table C}."
+     ],
+     [
+      "41-45",
+      "{@dice 3d6} (10) 500 gp gems",
+      "Roll {@dice 1d6} times on {@table Magic Item Table C}."
+     ],
+     [
+      "46-50",
+      "{@dice 3d6} (10) 1,000 gp gems",
+      "Roll {@dice 1d6} times on {@table Magic Item Table C}."
+     ],
+     [
+      "51-54",
+      "{@dice 2d4} (5) 250 gp art objects",
+      "Roll {@dice 1d4} times on {@table Magic Item Table D}."
+     ],
+     [
+      "55-58",
+      "{@dice 2d4} (5) 750 gp art objects",
+      "Roll {@dice 1d4} times on {@table Magic Item Table D}."
+     ],
+     [
+      "59-62",
+      "{@dice 3d6} (10) 500 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table D}."
+     ],
+     [
+      "63-66",
+      "{@dice 3d6} (10) 1,000 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table D}."
+     ],
+     [
+      "67-68",
+      "{@dice 2d4} (5) 250 gp art objects",
+      "Roll once on {@table Magic Item Table E}."
+     ],
+     [
+      "69-70",
+      "{@dice 2d4} (5) 750 gp art objects",
+      "Roll once on {@table Magic Item Table E}."
+     ],
+     [
+      "71-72",
+      "{@dice 3d6} (10) 500 gp gems",
+      "Roll once on {@table Magic Item Table E}."
+     ],
+     [
+      "73-74",
+      "{@dice 3d6} (10) 1,000 gp gems",
+      "Roll once on {@table Magic Item Table E}."
+     ],
+     [
+      "75-76",
+      "{@dice 2d4} (5) 250 gp art objects",
+      "Roll once on {@table Magic Item Table F} and {@dice 1d4} times on {@table Magic Item Table G}."
+     ],
+     [
+      "77-78",
+      "{@dice 2d4} (5) 750 gp art objects",
+      "Roll once on {@table Magic Item Table F} and {@dice 1d4} times on {@table Magic Item Table G}."
+     ],
+     [
+      "79-80",
+      "{@dice 3d6} (10) 500 gp gems",
+      "Roll once on {@table Magic Item Table F} and {@dice 1d4} times on {@table Magic Item Table G}."
+     ],
+     [
+      "81-82",
+      "{@dice 3d6} (10) 1,000 gp gems",
+      "Roll once on {@table Magic Item Table F} and {@dice 1d4} times on {@table Magic Item Table G}."
+     ],
+     [
+      "83-85",
+      "{@dice 2d4} (5) 250 gp art objects",
+      "Roll {@dice 1d4} times on {@table Magic Item Table H}."
+     ],
+     [
+      "86-88",
+      "{@dice 2d4} (5) 750 gp art objects",
+      "Roll {@dice 1d4} times on {@table Magic Item Table H}."
+     ],
+     [
+      "89-90",
+      "{@dice 3d6} (10) 500 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table H}."
+     ],
+     [
+      "91-92",
+      "{@dice 3d6} (10) 1,000 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table H}."
+     ],
+     [
+      "93-94",
+      "{@dice 2d4} (5) 250 gp art objects",
+      "Roll once on {@table Magic Item Table I}."
+     ],
+     [
+      "95-96",
+      "{@dice 2d4} (5) 750 gp art objects",
+      "Roll once on {@table Magic Item Table I}."
+     ],
+     [
+      "97-98",
+      "{@dice 3d6} (10) 500 gp gems",
+      "Roll once on {@table Magic Item Table I}."
+     ],
+     [
+      "99-00",
+      "{@dice 3d6} (10) 1,000 gp gems",
+      "Roll once on {@table Magic Item Table I}."
+     ]
+    ]
+   }
+  ],
+  "page": 133,
+  "source": "DMG",
+  "chapter": {
+   "name": "Treasure",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 7
+   },
+   "index": 7
+  }
+ },
+ {
+  "type": "tableGroup",
+  "name": "Treasure Hoard: Challenge 17+",
+  "tables": [
+   {
+    "type": "table",
+    "caption": "Treasure Hoard: Challenge 17+",
+    "colLabels": [
+     "",
+     "CP",
+     "SP",
+     "EP",
+     "GP",
+     "PP"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-2 text-center"
+    ],
+    "rows": [
+     [
+      "{@b Coins}",
+      "—",
+      "—",
+      "—",
+      "{@dice 12d6 × 1,000} (42,000)",
+      "{@dice 8d6 × 1,000} (28,000)"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "colLabels": [
+     "d100",
+     "Gems or Art Objects",
+     "Magic Items"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-3",
+     "col-9"
+    ],
+    "rows": [
+     [
+      "01-02",
+      "—",
+      "—"
+     ],
+     [
+      "03-05",
+      "{@dice 3d6} (10) 1,000 gp gems",
+      "Roll {@dice 1d8} times on {@table Magic Item Table C}."
+     ],
+     [
+      "06-08",
+      "{@dice 1d10} (5) 2,500 gp art objects",
+      "Roll {@dice 1d8} times on {@table Magic Item Table C}."
+     ],
+     [
+      "09-11",
+      "{@dice 1d4} (2) 7,500 gp art objects",
+      "Roll {@dice 1d8} times on {@table Magic Item Table C}."
+     ],
+     [
+      "12-14",
+      "{@dice 1d8} (4) 5,000 gp gems",
+      "Roll {@dice 1d8} times on {@table Magic Item Table C}."
+     ],
+     [
+      "15-22",
+      "{@dice 3d6} (10) 1,000 gp gems",
+      "Roll {@dice 1d6} times on {@table Magic Item Table D}."
+     ],
+     [
+      "23-30",
+      "{@dice 1d10} (5) 2,500 gp art objects",
+      "Roll {@dice 1d6} times on {@table Magic Item Table D}."
+     ],
+     [
+      "31-38",
+      "{@dice 1d4} (2) 7,500 gp art objects",
+      "Roll {@dice 1d6} times on {@table Magic Item Table D}."
+     ],
+     [
+      "39-46",
+      "{@dice 1d8} (4) 5,000 gp gems",
+      "Roll {@dice 1d6} times on {@table Magic Item Table D}."
+     ],
+     [
+      "47-52",
+      "{@dice 3d6} (10) 1,000 gp gems",
+      "Roll {@dice 1d6} times on {@table Magic Item Table E}."
+     ],
+     [
+      "53-58",
+      "{@dice 1d10} (5) 2,500 gp art objects",
+      "Roll {@dice 1d6} times on {@table Magic Item Table E}."
+     ],
+     [
+      "59-63",
+      "{@dice 1d4} (2) 7,500 gp art objects",
+      "Roll {@dice 1d6} times on {@table Magic Item Table E}."
+     ],
+     [
+      "64-68",
+      "{@dice 1d8} (4) 5,000 gp gems",
+      "Roll {@dice 1d6} times on {@table Magic Item Table E}."
+     ],
+     [
+      "69",
+      "{@dice 3d6} (10) 1,000 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table G}."
+     ],
+     [
+      "70",
+      "{@dice 1d10} (5) 2,500 gp art objects",
+      "Roll {@dice 1d4} times on {@table Magic Item Table G}."
+     ],
+     [
+      "71",
+      "{@dice 1d4} (2) 7,500 gp art objects",
+      "Roll {@dice 1d4} times on {@table Magic Item Table G}."
+     ],
+     [
+      "72",
+      "{@dice 1d8} (4) 5,000 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table G}."
+     ],
+     [
+      "73-74",
+      "{@dice 3d6} (10) 1,000 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table H}."
+     ],
+     [
+      "75-76",
+      "{@dice 1d10} (5) 2,500 gp art objects",
+      "Roll {@dice 1d4} times on {@table Magic Item Table H}."
+     ],
+     [
+      "77-78",
+      "{@dice 1d4} (2) 7,500 gp art objects",
+      "Roll {@dice 1d4} times on {@table Magic Item Table H}."
+     ],
+     [
+      "79-80",
+      "{@dice 1d8} (4) 5,000 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table H}."
+     ],
+     [
+      "81-85",
+      "{@dice 3d6} (10) 1,000 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table I}."
+     ],
+     [
+      "86-90",
+      "{@dice 1d10} (5) 2,500 gp art objects",
+      "Roll {@dice 1d4} times on {@table Magic Item Table I}."
+     ],
+     [
+      "91-95",
+      "{@dice 1d4} (2) 7,500 gp art objects",
+      "Roll {@dice 1d4} times on {@table Magic Item Table I}."
+     ],
+     [
+      "96-00",
+      "{@dice 1d8} (4) 5,000 gp gems",
+      "Roll {@dice 1d4} times on {@table Magic Item Table I}."
+     ]
+    ]
+   }
+  ],
+  "page": 133,
+  "source": "DMG",
+  "chapter": {
+   "name": "Treasure",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 7
+   },
+   "index": 7
+  }
+ }
+]

@@ -175,6 +175,7 @@ check('statusFluff', asserts.fluff);
 check('subclass', asserts.subclass);
 check('subclassFeature', asserts.subclassFeature);
 check('table', asserts.table);
+check('tableGroup', asserts.table);
 check('trap', asserts.trap);
 check('vehicle', asserts.vehicle);
 check('vehicleFluff', asserts.fluff);
