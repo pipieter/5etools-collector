@@ -39,7 +39,13 @@ export interface HasFluff {
   };
 }
 
-export interface Base extends Foundry, TokenArt, HasFluff {
+export interface GenData {
+  chapter: any;
+  data: any;
+  parentEntity: any;
+}
+
+export interface Base extends Foundry, TokenArt, HasFluff, Partial<GenData> {
   name: string;
   source: string;
   page?: number | string;

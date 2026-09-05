@@ -1,5 +1,5 @@
 import { Base, SRD } from './internal/base';
-import { Entry, Cell, Row, CellHeader } from './internal/entry';
+import { Entry, Row, CellHeader } from './internal/entry';
 
 export interface Table extends Base, SRD {
   type?: 'table' | 'tableGroup';
@@ -7,10 +7,11 @@ export interface Table extends Base, SRD {
   colLabels?: string[];
   colLabelRows?: (string | CellHeader)[][];
   colStyles?: string[];
-  rows?: ((Entry | Cell | number)[] | Row)[];
+  rows?: ((Entry | number)[] | Row)[];
   footnotes?: Entry[];
   intro?: Entry[];
   outro?: Entry[];
   tables?: Table[];
   isNameGenerator?: boolean;
+  isStriped?: boolean;
 }

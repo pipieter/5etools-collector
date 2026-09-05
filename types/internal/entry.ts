@@ -26,7 +26,8 @@ export type Entry =
   | EntryVariant
   | EntrySpellcasting
   | EntryHr
-  | EntryInline;
+  | EntryInline
+  | EntryCell;
 
 export interface EntryBase extends SRD {
   id?: string;
@@ -74,7 +75,7 @@ export interface EntryTable extends EntryBase {
   colLabels?: string[];
   colLabelRows?: ColLabelRow[];
   colStyles?: string[];
-  rows: ((Entry | Cell | number)[] | Row)[];
+  rows: ((Entry | number)[] | Row)[];
   footnote?: string;
   footnotes?: string[];
   outro?: string[];
@@ -83,7 +84,7 @@ export interface EntryTable extends EntryBase {
 
 export type ColLabelRow = (string | { entry: string; width: number; type?: string; style?: string })[];
 
-export interface Cell {
+export interface EntryCell {
   type: 'cell';
   roll?: { exact: number } | { min: number; max: number; pad?: boolean };
   entry?: Entry;
