@@ -39,7 +39,7 @@ export interface EntryBase {
 }
 
 export interface EntryEntries extends EntryBase {
-  type: 'entries';
+  type?: 'entries';
   entries: Entry[];
 }
 
@@ -219,9 +219,4 @@ export interface EntryHr {
 
 export interface SingleEntry {
   entry: string;
-}
-
-export interface NamedEntries {
-  name: string;
-  entries: Entry[];
 }

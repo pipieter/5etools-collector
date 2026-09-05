@@ -1,6 +1,6 @@
 import { AC, Base, HP, Speed, SRD } from './internal/base';
 import { Copyable } from './internal/copy';
-import { Entry, NamedEntries } from './internal/entry';
+import { Entry } from './internal/entry';
 
 export interface VehicleCapacity {
   capPassenger?: number;
@@ -14,7 +14,7 @@ export interface VehicleWeapon {
   name: string;
   count?: number;
   entries: Entry[];
-  action?: (Entry | NamedEntries)[];
+  action?: Entry[];
   ac?: AC;
   hp?: HP;
   crew?: number;
@@ -52,7 +52,7 @@ export interface VehicleHull {
 export interface VehicleStation {
   name: string;
   entries: Entry[];
-  action?: NamedEntries[];
+  action?: Entry[];
   size: string[];
   ac: AC;
   hp: HP;
@@ -82,15 +82,15 @@ export interface VehicleBase extends Base, SRD, VehicleCapacity {
   hull?: VehicleHull;
   control?: VehicleControl[];
   movement?: VehicleMovement[];
-  action?: (Entry | NamedEntries)[];
+  action?: Entry[];
   actionThresholds?: Record<string, number>;
   cost?: number;
   weight?: number;
-  trait?: (Entry | NamedEntries)[];
-  actionStation?: NamedEntries[];
+  trait?: Entry[];
+  actionStation?: Entry[];
   reaction?: Entry[];
   station?: VehicleStation[];
-  other?: NamedEntries[];
+  other?: Entry[];
 }
 
 export type Vehicle = VehicleBase | Copyable<VehicleBase>;

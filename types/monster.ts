@@ -13,7 +13,7 @@ import {
   TaggedType,
 } from './internal/base';
 import { Copyable } from './internal/copy';
-import { Entry, HRef, NamedEntries } from './internal/entry';
+import { Entry, HRef } from './internal/entry';
 
 export interface MonsterTags {
   senseTags: string[];
@@ -34,9 +34,9 @@ export interface MonsterTags {
 }
 
 export interface LegendaryMonster {
-  mythic: NamedEntries[];
+  mythic: Entry[];
   mythicHeader: string[];
-  legendary: NamedEntries[];
+  legendary: Entry[];
   legendaryHeader: string[];
   legendaryGroup: ID;
   legendaryActions: number;
@@ -76,8 +76,8 @@ export interface MonsterBase extends Base, SRD, Partial<MonsterTags>, Partial<Le
   passive?: number | string;
   languages?: string[];
   cr?: string | CR;
-  trait?: (Entry | NamedEntries)[];
-  action?: (Entry | NamedEntries)[];
+  trait?: Entry[];
+  action?: Entry[];
   actionNote?: string;
   attachedItems?: string[];
   environment?: string[];
@@ -85,7 +85,7 @@ export interface MonsterBase extends Base, SRD, Partial<MonsterTags>, Partial<Le
   spellcasting?: any; // TODO
   treasure?: string[];
   alignmentPrefix?: string;
-  bonus?: NamedEntries[];
+  bonus?: Entry[];
   bonusNote?: string;
   initiative?: any; //TODO
   resist?: Resist[];
@@ -95,7 +95,7 @@ export interface MonsterBase extends Base, SRD, Partial<MonsterTags>, Partial<Le
   pbNote?: string;
   conditionInflictSpell?: string[];
   reactionHeader?: string[];
-  reaction?: NamedEntries[];
+  reaction?: Entry[];
   reactionNote?: string;
   group?: string[];
   variant?: Entry[];
