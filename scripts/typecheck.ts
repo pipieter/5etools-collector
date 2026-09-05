@@ -33,6 +33,7 @@ import { Monster } from '../types/monster';
 import { Species, SpeciesFluff } from '../types/species';
 import { Vehicle, VehicleUpgrade } from '../types/vehicle';
 import { Rule } from '../types/rule';
+import { Sense } from '../types/sense';
 
 // Typia is extremely strict and does not allow for generics. Because of this, we need
 // to define all assert functions beforehand
@@ -61,6 +62,7 @@ const asserts = {
   monster: typia.createValidateEquals<Monster>(),
   object: typia.createValidateEquals<DNDObject>(),
   rule: typia.createValidateEquals<Rule>(),
+  sense: typia.createValidateEquals<Sense>(),
   sidekick: typia.createValidateEquals<Sidekick>(),
   skill: typia.createValidateEquals<Skill>(),
   species: typia.createValidateEquals<Species>(),
@@ -164,6 +166,7 @@ check('skill', asserts.skill);
 check('race', asserts.species);
 check('raceFluff', asserts.speciesFluff);
 check('variantrule', asserts.rule);
+check('sense', asserts.sense);
 check('spell', asserts.spell);
 check('spellFluff', asserts.fluff);
 check('spellSource', asserts.spellSource);

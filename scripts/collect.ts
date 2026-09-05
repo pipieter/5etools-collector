@@ -245,6 +245,7 @@ function main() {
     collector.write('race');
     collector.write('raceFluff');
     collector.write('variantrule');
+    collector.write('sense');
     collector.write('spell');
     collector.write('spellFluff');
     collector.write('spellSource');
