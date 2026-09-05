@@ -47,9 +47,9 @@ class Collector {
     return this.data.get(key) ?? [];
   }
 
-  public write(filename: string, key: string) {
+  public write(key: string) {
     if (!existsSync(this.outPath)) mkdirSync(this.outPath, { recursive: true });
-    writeJson(this.outPath, `${filename}.json`, this.get(key));
+    writeJson(this.outPath, `${key}.json`, this.get(key));
   }
 
   public writeObjects(filename: string, objects: any[]) {
@@ -196,51 +196,51 @@ function main() {
   const partnered = partneredCollector(true);
 
   for (const collector of [official, partnered]) {
-    collector.write('actions', 'action');
-    collector.write('backgrounds', 'background');
-    collector.write('background-fluffs', 'backgroundFluff');
-    collector.write('boons', 'boon');
-    collector.write('class-features', 'classFeature');
-    collector.write('class-fluffs', 'classFluff');
-    collector.write('conditions', 'condition');
-    collector.write('condition-fluffs', 'conditionFluff');
-    collector.write('cults', 'cult');
-    collector.write('diseases', 'disease');
-    collector.write('disease-fluffs', 'diseaseFluff');
-    collector.write('deities', 'deity');
-    collector.write('feats', 'feat');
-    collector.write('hazards', 'hazard');
-    collector.write('items', 'item');
-    collector.write('items-base', 'baseitem');
-    collector.write('item-entries', 'itemEntry');
-    collector.write('item-groups', 'itemGroup');
-    collector.write('item-masteries', 'itemMastery');
-    collector.write('item-properties', 'itemProperty');
-    collector.write('item-types', 'itemType');
-    collector.write('item-type-additional-entries', 'itemTypeAdditionalEntries');
-    collector.write('item-fluffs', 'itemFluff');
-    collector.write('languages', 'language');
-    collector.write('magic-variants', 'magicvariant');
-    collector.write('monsters', 'monster');
-    collector.write('monster-fluffs', 'monsterFluff');
-    collector.write('objects', 'object');
-    collector.write('object-fluffs', 'objectFluff');
-    collector.write('spells', 'spell');
-    collector.write('spell-fluffs', 'spellFluff');
-    collector.write('spell-sources', 'spellSource');
-    collector.write('subclasses', 'subclass');
-    collector.write('subclass-features', 'subclassFeature');
-    collector.write('skills', 'skill');
-    collector.write('statuses', 'status');
-    collector.write('status-fluffs', 'statusFluff');
-    collector.write('tables', 'table');
-    collector.write('traps', 'trap');
+    collector.write( 'action');
+    collector.write( 'background');
+    collector.write( 'backgroundFluff');
+    collector.write( 'boon');
+    collector.write( 'classFeature');
+    collector.write( 'classFluff');
+    collector.write( 'condition');
+    collector.write( 'conditionFluff');
+    collector.write( 'cult');
+    collector.write( 'disease');
+    collector.write( 'diseaseFluff');
+    collector.write( 'deity');
+    collector.write( 'feat');
+    collector.write( 'hazard');
+    collector.write( 'item');
+    collector.write( 'baseitem');
+    collector.write( 'itemEntry');
+    collector.write( 'itemGroup');
+    collector.write( 'itemMastery');
+    collector.write( 'itemProperty');
+    collector.write( 'itemType');
+    collector.write( 'itemTypeAdditionalEntries');
+    collector.write( 'itemFluff');
+    collector.write( 'language');
+    collector.write( 'magicvariant');
+    collector.write( 'monster');
+    collector.write( 'monsterFluff');
+    collector.write( 'object');
+    collector.write( 'objectFluff');
+    collector.write( 'spell');
+    collector.write( 'spellFluff');
+    collector.write( 'spellSource');
+    collector.write( 'subclass');
+    collector.write( 'subclassFeature');
+    collector.write( 'skill');
+    collector.write( 'status');
+    collector.write( 'statusFluff');
+    collector.write( 'table');
+    collector.write( 'trap');
 
     // Split classes and sidekicks
     const classes = collector.get('class').filter((e) => !e.isSidekick);
     const sidekicks = collector.get('class').filter((e) => e.isSidekick);
-    collector.writeObjects('classes', classes);
-    collector.writeObjects('sidekicks', sidekicks);
+    collector.writeObjects('class', classes);
+    collector.writeObjects('sidekick', sidekicks);
   }
 }
 
