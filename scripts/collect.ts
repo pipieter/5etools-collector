@@ -239,6 +239,7 @@ function main() {
     collector.write('trap');
     collector.write('vehicle');
     collector.write('vehicleFluff');
+    collector.write('vehicleUpgrade');
 
     // Split classes and sidekicks
     const classes = collector.get('class').filter((e) => !e.isSidekick);

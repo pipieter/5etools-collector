@@ -93,4 +93,10 @@ export interface VehicleBase extends Base, SRD, VehicleCapacity {
   other?: Entry[];
 }
 
+export interface VehicleUpgrade extends Base, SRD {
+  entries: Entry[];
+  upgradeType: string[];
+  cost?: number;
+}
+
 export type Vehicle = VehicleBase | Copyable<VehicleBase>;

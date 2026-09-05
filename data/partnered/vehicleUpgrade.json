@@ -1,0 +1,42 @@
+[
+ {
+  "name": "Ballista",
+  "source": "NorthlandsWorldbook",
+  "upgradeType": [
+   "SHP:SW"
+  ],
+  "cost": 150000,
+  "entries": [
+   "A massive crossbow that fires weighted bolts. A ship-mounted ballista can be loaded and aimed by the crew using the {@action Operate Ship Weapon|NorthlandsWorldbook} action.",
+   "Range: 120/480 ft. {@damage 3d10 + #$prompt_number:min=1,title=Strength/Dexterity modifier,default=123$#|3d10 + ship's Strength/Dexterity modifier} Piercing damage.",
+   "Cost: 1,500 GP"
+  ]
+ },
+ {
+  "name": "Naval Ram",
+  "source": "NorthlandsWorldbook",
+  "upgradeType": [
+   "SHP:SW"
+  ],
+  "cost": 50000,
+  "entries": [
+   "This metal and wood ram is mounted to the front of the ship at or below the water level. It can be used to smash a hole in the side of another vessel. If the ship moves more than 30 feet first, a ram deals an additional {@damage 1d10} Piercing damage.",
+   "{@damage 2d10 + #$prompt_number:min=1,title=Strength/Dexterity modifier,efault=123$#|3d10 + ship's Strength/Dexterity modifier} Piercing damage.",
+   "Cost: 500 GP"
+  ]
+ },
+ {
+  "name": "Ship Catapult",
+  "source": "NorthlandsWorldbook",
+  "upgradeType": [
+   "SHP:SW"
+  ],
+  "cost": 75000,
+  "entries": [
+   "A small ship-mounted catapult used to throw stones at enemy vessels. Loading and aiming a ship catapult requires a {@action Utilize|XPHB} action, and firing it uses another. Multiple crew can operate the same siege weapon to perform these actions in the same round.",
+   "Range: 200/800 ft. {@damage 3d10 + #$prompt_number:min=1,title=Strength/Dexterity modifier,efault=123$#|3d10 + ship's Strength/Dexterity modifier} Bludgeoning damage.",
+   "Cost: 750 GP"
+  ],
+  "hasFluffImages": true
+ }
+]
