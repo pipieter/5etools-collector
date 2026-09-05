@@ -5,20 +5,49 @@ function read(path: string): any {
   return JSON.parse(readFileSync(path).toString());
 }
 
+function sort(a: any, b: any) {
+  const keyA = `${a.name} (${a.source})`;
+  const keyB = `${b.name} (${b.source})`;
+  return keyA.localeCompare(keyB, 'en', {
+    sensitivity: 'base',
+    numeric: true,
+  });
+}
+
 function writeJson(dir: string, file: string, contents: any[]): any {
-  function sort(a: any, b: any) {
-    const keyA = `${a.name} (${a.source})`;
-    const keyB = `${b.name} (${b.source})`;
-    return keyA.localeCompare(keyB, 'en', {
-      sensitivity: 'base',
-      numeric: true,
-    });
+  const fullPath = path.join(dir, file);
+  contents = [...contents].sort(sort);
+  writeFileSync(fullPath, JSON.stringify(contents, null, 1));
+}
+
+function appendJson(dir: string, file: string, contents: any[]): any {
+  const fullPath = path.join(dir, file);
+  const existing = JSON.parse(readFileSync(fullPath).toString());
+  contents = [...contents, ...existing].sort(sort);
+  writeFileSync(fullPath, JSON.stringify(contents, null, 1));
+}
+
+function searchVariantRules(obj: any): any[] {
+  if (Array.isArray(obj)) {
+    return obj.flatMap(searchVariantRules);
   }
 
-  contents = [...contents].sort(sort);
+  if (!obj) return [];
+  if (typeof obj !== 'object') return [];
 
-  const fullPath = path.join(dir, file);
-  writeFileSync(fullPath, JSON.stringify(contents, null, 1));
+  if (obj.data?.variantRuleInclude) {
+    obj = structuredClone(obj);
+    for (const [field, value] of Object.entries(obj.data?.variantRuleInclude)) {
+      obj[field] = value;
+    }
+    return [obj];
+  }
+
+  const rules = [];
+  for (const value of Object.values(obj)) {
+    rules.push(...searchVariantRules(value));
+  }
+  return rules;
 }
 
 class Collector {
@@ -52,6 +81,14 @@ class Collector {
     writeJson(this.outPath, `${key}.json`, this.get(key));
   }
 
+  public append(key: string, values: any[]) {
+    if (!existsSync(this.outPath)) {
+      mkdirSync(this.outPath, { recursive: true });
+      writeJson(this.outPath, `${key}.json`, values);
+    }
+    appendJson(this.outPath, `${key}.json`, values);
+  }
+
   public writeObjects(filename: string, objects: any[]) {
     if (!existsSync(this.outPath)) mkdirSync(this.outPath, { recursive: true });
     writeJson(this.outPath, `${filename}.json`, objects);
@@ -74,6 +111,14 @@ class OfficialCollector extends Collector {
     for (const index of indices) {
       const indexPath = path.join(dir, index as string);
       this.addFile(indexPath);
+    }
+  }
+
+  public addDirectory(dir: string): void {
+    const dirPath = path.join(this.basePath, dir);
+    for (const file of readdirSync(dirPath)) {
+      const filePath = path.join(dir, file);
+      this.addFile(filePath);
     }
   }
 
@@ -162,6 +207,8 @@ function officialCollector(): Collector {
   collector.addIndex('spells', 'fluff-index.json');
   collector.addSpellSources('spells/sources.json');
 
+  collector.addDirectory('book')
+
   return collector;
 }
 
@@ -228,7 +275,7 @@ function main() {
     collector.write('objectFluff');
     collector.write('race');
     collector.write('raceFluff');
-    collector.write("variantrule")
+    collector.write('variantrule');
     collector.write('spell');
     collector.write('spellFluff');
     collector.write('spellSource');
@@ -248,6 +295,15 @@ function main() {
     const sidekicks = collector.get('class').filter((e) => e.isSidekick);
     collector.writeObjects('class', classes);
     collector.writeObjects('sidekick', sidekicks);
+
+    // Add embedded variant rules
+    const variantRules = [];
+    for (const values of collector.data.values()) {
+      for (const value of values) {
+        variantRules.push(...searchVariantRules(value));
+      }
+    }
+    collector.append('variantrule', variantRules);
   }
 }
 
