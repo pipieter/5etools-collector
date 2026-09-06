@@ -35,10 +35,6 @@ class RawData {
     return this.parser?.SOURCE_JSON_TO_FULL?.[sourceId] || sourceId;
   }
 
-  getOptionalFeatureTypeFullName(optFeatType: string): string {
-    return this.parser?.OPT_FEATURE_TYPE_TO_FULL?.[optFeatType] || optFeatType;
-  }
-
   getSourcePublishDate(sourceId: string): string | null {
     return this.parser?.SOURCE_JSON_TO_DATE?.[sourceId] || null;
   }
@@ -59,6 +55,53 @@ class RawData {
 
   getSourceLegacyStatus(sourceId: string): boolean {
     return this.hasSourceId(sourceId, this.parser?.SOURCES_LEGACY_WOTC);
+  }
+
+  getOptionalFeatureTypeFullNames() {
+    return this.parser?.OPT_FEATURE_TYPE_TO_FULL;
+  }
+
+  getSizeNames() {
+    return this.parser?.SIZE_ABV_TO_FULL;
+  }
+
+  getDamageNames() {
+    return this.parser?.DMGTYPE_JSON_TO_FULL;
+  }
+
+  getFeatCategoryNames() {
+    return this.parser?.FEAT_CATEGORY_TO_FULL;
+  }
+
+  getVehicleUpgradeTypes() {
+    return this.parser?.VEHICLE_UPGRADE_TYPE_TO_FULL;
+  }
+
+  getSpellSchoolNames() {
+    return this.parser?.SP_SCHOOL_ABV_TO_FULL;
+  }
+
+  getSkillAbilities() {
+    return this.parser?.SKILL_TO_ATB_ABV;
+  }
+
+  getAbilityNames() {
+    return this.parser?.ATB_ABV_TO_FULL;
+  }
+
+  getAlignmentNames() {
+    return this.parser?._ALIGNMENT_ABV_TO_FULL;
+  }
+
+  getSpeedTypes(): string[] {
+    return this.parser.SPEED_MODES;
+  }
+
+  getSpecialSpeedTypes(): string[] {
+    const nonSpecial = ['walk'];
+
+    const modes = this.getSpeedTypes();
+    return modes.filter((mode) => !nonSpecial.includes(mode));
   }
 }
 

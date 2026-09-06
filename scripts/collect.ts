@@ -367,6 +367,22 @@ function main() {
     }
     collector.write('meta', metaResults);
   }
+
+  // Write variables.json
+  const variables = {
+    optionalFeatureTypeFullNames: RawData.getOptionalFeatureTypeFullNames(),
+    sizeNames: RawData.getSizeNames(),
+    damageNames: RawData.getDamageNames(),
+    featCategoryNames: RawData.getFeatCategoryNames(),
+    vehicleUpgradeTypes: RawData.getVehicleUpgradeTypes(),
+    spellSchoolNames: RawData.getSpellSchoolNames(),
+    skillAbilities: RawData.getSkillAbilities(),
+    abilityNames: RawData.getAbilityNames(),
+    alignmentNames: RawData.getAlignmentNames(),
+    speedTypes: RawData.getSpeedTypes(),
+    specialSpeedTypes: RawData.getSpecialSpeedTypes(),
+  };
+  writeFileSync('./data/variables.json', JSON.stringify(variables, null, 1));
 }
 
 main();
