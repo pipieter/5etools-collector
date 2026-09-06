@@ -355,7 +355,8 @@ function main() {
         if (!allowedMeta.includes(key)) continue;
         const source = meta.sources[0].full ?? null;
         const sourceAbbreviation = meta.sources[0].abbreviation ?? null;
-        metaResults.push({ source, sourceAbbreviation, type: key, value });
+        const sourceKey = meta.sources[0].json ?? null;
+        metaResults.push({ source, sourceAbbreviation, sourceKey, type: key, value });
       }
     }
     collector.write('meta', metaResults);

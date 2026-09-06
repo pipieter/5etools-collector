@@ -2,6 +2,7 @@
  {
   "source": " Steinhardt's Guide to the Eldritch Hunt Player Pack",
   "sourceAbbreviation": "SGEHPP",
+  "sourceKey": "SGEHPP",
   "type": "optionalFeatureTypes",
   "value": {
    "BS": "Blood Strike"
@@ -10,6 +11,7 @@
  {
   "source": "D&D Beyond Drops",
   "sourceAbbreviation": "BndD",
+  "sourceKey": "DnDBeyondDrops",
   "type": "featCategories",
   "value": {
    "PPact": "Planar Pact"
@@ -18,6 +20,7 @@
  {
   "source": "Flee, Mortals!",
   "sourceAbbreviation": "FM!",
+  "sourceKey": "FleeMortals",
   "type": "optionalFeatureTypes",
   "value": {
    "OAF": "Optional Animal Feature",
@@ -35,6 +38,7 @@
  {
   "source": "Flee, Mortals!",
   "sourceAbbreviation": "FM!",
+  "sourceKey": "FleeMortals",
   "type": "psionicTypes",
   "value": {
    "CP": {
@@ -78,6 +82,7 @@
  {
   "source": "Grim Hollow: Player Pack",
   "sourceAbbreviation": "GH:PP",
+  "sourceKey": "GrimHollowPlayerPack",
   "type": "optionalFeatureTypes",
   "value": {
    "Misf": "Misfortune",
@@ -88,6 +93,7 @@
  {
   "source": "Grim Hollow: Player's Guide (2024)",
   "sourceAbbreviation": "GH:PG'24",
+  "sourceKey": "GrimHollowPG24",
   "type": "optionalFeatureTypes",
   "value": {
    "HT": "Heritage Trait",
@@ -132,6 +138,7 @@
  {
   "source": "Heliana's Guide to Monster Hunting",
   "sourceAbbreviation": "HGtMH",
+  "sourceKey": "HelianasGuidetoMonsterHunting",
   "type": "spellSchools",
   "value": {
    "BM": {
@@ -144,6 +151,7 @@
  {
   "source": "Heliana's Guide to Monster Hunting",
   "sourceAbbreviation": "HGtMH",
+  "sourceKey": "HelianasGuidetoMonsterHunting",
   "type": "featCategories",
   "value": {
    "Craft": "Crafting",
@@ -153,6 +161,7 @@
  {
   "source": "Heliana's Guide to Monster Hunting",
   "sourceAbbreviation": "HGtMH",
+  "sourceKey": "HelianasGuidetoMonsterHunting",
   "type": "optionalFeatureTypes",
   "value": {
    "T:P": "Trap: Physical",
@@ -162,6 +171,7 @@
  {
   "source": "Northlands Worldbook",
   "sourceAbbreviation": "NWB",
+  "sourceKey": "NorthlandsWorldbook",
   "type": "optionalFeatureTypes",
   "value": {
    "C.T": "Character Thread"
@@ -170,6 +180,7 @@
  {
   "source": "Northlands Worldbook",
   "sourceAbbreviation": "NWB",
+  "sourceKey": "NorthlandsWorldbook",
   "type": "vehicleUpgradeTypes",
   "value": {
    "SHP:SW": "Ship Upgrade, Siege Weapon"
@@ -178,6 +189,7 @@
  {
   "source": "Obojima: Tales from the Tall Grass",
   "sourceAbbreviation": "O:TTG",
+  "sourceKey": "ObojimaTallGrass",
   "type": "optionalFeatureTypes",
   "value": {
    "4M": "4th Manifestation",
@@ -190,6 +202,7 @@
  {
   "source": "The Gunslinger Class: Valda's Spire of Secrets",
   "sourceAbbreviation": "GC:VSS'24",
+  "sourceKey": "ValdaGunslinger",
   "type": "optionalFeatureTypes",
   "value": {
    "MV:G": "Maneuver, Gunslinger"
@@ -198,6 +211,7 @@
  {
   "source": "The Illrigger Revised",
   "sourceAbbreviation": "IllR",
+  "sourceKey": "IllriggerRevised",
   "type": "optionalFeatureTypes",
   "value": {
    "ItdBoon": "Interdict Boon",
@@ -207,6 +221,7 @@
  {
   "source": "The Lord of the Rings Roleplaying",
   "sourceAbbreviation": "TLotRR",
+  "sourceKey": "TLotRR",
   "type": "featCategories",
   "value": {
    "VtCom": "Common Virtues",
@@ -223,6 +238,7 @@
  {
   "source": "The Lord of the Rings Roleplaying",
   "sourceAbbreviation": "TLotRR",
+  "sourceKey": "TLotRR",
   "type": "optionalFeatureTypes",
   "value": {
    "FS:C": "Fighting Style; Captain"
@@ -231,6 +247,7 @@
  {
   "source": "Valda's Spire of Secrets: Player Pack 2",
   "sourceAbbreviation": "VSS:PP2",
+  "sourceKey": "ValdaPlayerPack2",
   "type": "optionalFeatureTypes",
   "value": {
    "VSS:M": "Mask"
@@ -239,6 +256,7 @@
  {
   "source": "Vampire: The Masquerade - Bound by Blood",
   "sourceAbbreviation": "VtM:BB",
+  "sourceKey": "BoundByBlood",
   "type": "featCategories",
   "value": {
    "KF": "Kindred"
@@ -247,6 +265,7 @@
  {
   "source": "Where Evil Lives: The MCDM Book of Boss Battles",
   "sourceAbbreviation": "WEL",
+  "sourceKey": "WhereEvilLives",
   "type": "optionalFeatureTypes",
   "value": {
    "MCDM:EM": "Enucleator Modification",
