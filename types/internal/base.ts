@@ -92,13 +92,24 @@ export interface Prerequisite {
   campaign?: string[];
   culture?: string[];
   exclusiveFeatCategory?: string[];
+  item?: string[];
   feat?: string[];
   featCategory?: string[];
   feature?: string[];
-  level?: number | { level: number; class: { name: string; visible?: boolean; source?: string } };
+  level?:
+    | number
+    | {
+        level: number;
+        class: { name: string; source?: string; visible?: boolean; visibleStats?: boolean };
+        subclass?: { name: string; source?: string; visible?: boolean };
+      };
+  optionalfeature?: string[];
   other?: string;
   otherSummary?: { entry: string; entrySummary: string };
+  pact?: string;
+  patron?: string;
   proficiency?: { weapon?: string; armor?: string; weaponGroup?: string; skill?: string[] }[];
+  spell?: (string | { choose: string; entry: string; entrySummary: string })[];
   spellcasting?: boolean;
   spellcasting2020?: boolean;
   spellcastingFeature?: boolean;

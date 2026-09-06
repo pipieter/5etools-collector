@@ -228,6 +228,7 @@ function officialCollector(): Collector {
   collector.addFile('magicvariants.json');
   collector.addFile('names.json');
   collector.addFile('objects.json');
+  collector.addFile('optionalfeatures.json');
   collector.addFile('races.json');
   collector.addFile('senses.json');
   collector.addFile('skills.json');
@@ -315,6 +316,7 @@ function main() {
     collector.write('name');
     collector.write('object');
     collector.write('objectFluff');
+    collector.write('optionalfeature');
     collector.write('race');
     collector.write('raceFluff');
     collector.write('variantrule');
