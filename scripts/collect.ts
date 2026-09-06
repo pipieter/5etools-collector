@@ -306,6 +306,9 @@ function main() {
     collector.write('itemFluff');
     collector.write('language');
     collector.write('languageFluff');
+    collector.write('lifeBackground');
+    collector.write('lifeClass');
+    collector.write('lifeTrinket');
     collector.write('magicvariant');
     collector.write('monster');
     collector.write('monsterFluff');
