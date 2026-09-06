@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 jobs:
-  collect:
+  typecheck:
     runs-on: ubuntu-latest
     name: typecheck
     steps:
@@ -31,5 +31,5 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run collect script
+      - name: Run typecheck script
         run: npm run typecheck
