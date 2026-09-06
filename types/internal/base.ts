@@ -261,6 +261,7 @@ export type AdditionalSpell = any; // TODO
 
 export interface FeatureProgression {
   name: string;
+  source?: string;
   featureType?: string[];
   category?: string[];
   progression: any; // TODO

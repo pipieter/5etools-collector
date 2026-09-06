@@ -1,10 +1,25 @@
-import { Base, SRD, SpellComponents, Unit, Duration, Range, Resist, ScalingLevelDice } from './internal/base';
+import {
+  Base,
+  SRD,
+  SpellComponents,
+  Unit,
+  Duration,
+  Range,
+  Resist,
+  ScalingLevelDice,
+  ID,
+  FeatureProgression,
+} from './internal/base';
+import { Copyable } from './internal/copy';
 import { Entry } from './internal/entry';
 
 interface FromSource {
   name: string;
   source: string;
   definedInSource?: string;
+  baseName?: string;
+  baseSource?: string;
+  shortName?: string;
 }
 
 export interface SpellSource {
@@ -14,7 +29,7 @@ export interface SpellSource {
   casterSource: string;
 }
 
-export interface Spell extends Base, SRD {
+export interface SpellBase extends Base, SRD {
   entries?: Entry[];
   entriesHigherLevel?: Entry[];
   level: number;
@@ -37,7 +52,15 @@ export interface Spell extends Base, SRD {
   meta?: { ritual: boolean };
   spellAttack?: string[];
   abilityCheck?: string[];
-  classes?: { fromClassList?: FromSource[]; fromClassListVariant?: FromSource[] };
+  classes?: {
+    fromClassList?: FromSource[];
+    fromClassListVariant?: FromSource[];
+    fromSubclass?: { class: FromSource; subclass: FromSource }[];
+  };
   feats?: FromSource[];
   subschools?: string[];
+  races?: FromSource[];
+  optionalfeatures?: FeatureProgression[];
 }
+
+export type Spell = SpellBase | Copyable<SpellBase>;

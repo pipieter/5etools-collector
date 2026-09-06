@@ -192,7 +192,7 @@ export interface MagicVariantInherits extends Partial<ItemBase> {
   barding?: boolean;
 }
 
-export interface MagicVariant extends Partial<ItemBase> {
+export interface MagicVariantBase extends Partial<ItemBase> {
   inherits: MagicVariantInherits;
   requires?: MagicItemRequirement[];
   excludes?: MagicItemRequirement;
@@ -200,3 +200,4 @@ export interface MagicVariant extends Partial<ItemBase> {
 
 export type Item = ItemBase | Copyable<ItemBase>;
 export type ItemType = ItemTypeBase | Copyable<ItemTypeBase>;
+export type MagicVariant = MagicVariantBase | Copyable<MagicVariantBase>;
