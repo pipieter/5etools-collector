@@ -6723,7 +6723,7 @@
    ],
    [
     "12",
-    "A medallion or sculpture depicting a {@book Fiend|XMM|3|Fiend} locked in battle with a {@book Celestial|XMM|3|Celestial} or {@book Dragon|XMM|3|Dragon}"
+    "A medallion or sculpture depicting a {@filter Fiend|bestiary|type=fiend} locked in battle with a {@filter Celestial|bestiary|type=celestial} or {@filter Dragon|bestiary|type=dragon}"
    ]
   ],
   "name": "Age of Demons Finds",
@@ -7022,15 +7022,15 @@
   "rows": [
    [
     "1",
-    "A gleaming {@book Lyrandar Air Cruiser|EFA|7|Lyrandar Air Cruiser Summary} helmed by a Friendly but pompous {@creature Noble Prodigy|XMM} or {@creature Lyrandar Scion|EFA}"
+    "A gleaming {@vehicle Lyrandar Air Cruiser|EFA} helmed by a Friendly but pompous {@creature Noble Prodigy|XMM} or {@creature Lyrandar Scion|EFA}"
    ],
    [
     "2",
-    "A {@book Strider Airship|EFA|7|Strider Airship Summary} with a Hostile crew of {@dice 2d4} {@creature Pirate|XMM|Pirates} and one {@creature Pirate Captain|XMM}"
+    "A {@vehicle Strider Airship|EFA} with a Hostile crew of {@dice 2d4} {@creature Pirate|XMM|Pirates} and one {@creature Pirate Captain|XMM}"
    ],
    [
     "3",
-    "{@dice 2d6} {@book Lyrandar Skyskiffs|EFA|7|Lyrandar Skyskiff Summary} gathered for a race; the ships' pilots are Indifferent but disgruntled toward anyone who interrupts their activities"
+    "{@dice 2d6} {@vehicle Lyrandar Skyskiff|EFA|Lyrandar Skyskiffs} gathered for a race; the ships' pilots are Indifferent but disgruntled toward anyone who interrupts their activities"
    ],
    [
     "4",
@@ -7147,11 +7147,11 @@
    ],
    [
     "5",
-    "A missing person or otherworldly being transformed into a {@creature brain in a jar|VRGR} (see {@book chapter 5|VRGR|5|Brain in a Jar})"
+    "A missing person or otherworldly being transformed into a {@creature brain in a jar|VRGR}"
    ],
    [
     "6",
-    "The damaged corpse of a {@creature vampiric mind flayer|VRGR} (see {@book chapter 5|VRGR|5|Vampiric Mind Flayer})"
+    "The damaged corpse of a {@creature vampiric mind flayer|VRGR}"
    ]
   ],
   "name": "Alien Artifacts; Aberrant Evidence",
@@ -9908,6 +9908,100 @@
     "identifier": 2
    },
    "index": 1
+  }
+ },
+ {
+  "caption": "Archmage Contact",
+  "colLabels": [
+   "1d6",
+   "Contract Type"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "Apprentice. A Humanoid apprentice relays messages to the characters. The apprentice might be harried, exceedingly proud, or exhausted and overworked."
+   ],
+   [
+    "2",
+    "{@spell Magic Mouth|XPHB}. The archmage sends messages through the {@spell Magic Mouth|XPHB} spell, casting it on objects that vanish once the message is delivered."
+   ],
+   [
+    "3",
+    "Magical Servant. The contact is a loyal servant creature. It might be a Beast or Plant awakened through the {@spell Awaken|XPHB} spell or a fantastical creature such as a {@creature Blink Dog|XMM}, a {@creature Couatl|XMM}, or a {@creature Flumph|XMM}."
+   ],
+   [
+    "4",
+    "Projected Illusion. The archmage communicates with the characters through the {@spell Project Image|XPHB} spell. The characters might never see the archmage in person."
+   ],
+   [
+    "5",
+    "Sentient Magic Item. A sentient weapon, helmet, or other magic item communicates with the characters on the archmage's behalf. The item is hundreds of years old and exasperated with the characters' mistakes, though it loves its archmage creator."
+   ],
+   [
+    "6",
+    "{@spell Simulacrum|XPHB}. The archmage uses the {@spell Simulacrum|XPHB} spell to create simulacra that issue instructions on the archmage's behalf."
+   ]
+  ],
+  "name": "Archmage Contact",
+  "source": "AU",
+  "chapter": {
+   "name": "Creating Magical Worlds",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 3
+   },
+   "index": 3
+  }
+ },
+ {
+  "caption": "Archmage Type",
+  "colLabels": [
+   "1d6",
+   "Patron Type"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "Aspiring Tyrant. Secretly aspiring to immense political power, the archmage sends the characters on missions that covertly support the archmage's goal."
+   ],
+   [
+    "2",
+    "Disguised Sage. The archmage disguises themself as a humble apprentice of limited magical ability, while their loud and boastful student pretends to be the archmage. The two keep their true identities secret from the party."
+   ],
+   [
+    "3",
+    "Distracted Genius. The archmage lives in a secluded cottage in the middle of the forest and spends most of their time talking to animals and plants. They employ the characters to handle problems so the mage can spend more time on their harmless personal pursuits."
+   ],
+   [
+    "4",
+    "Forlorn Lover. Having lost the love of their life through hubris to rejection or death, the archmage is focused on winning that individual back or resurrecting them. They need the characters to take care of other problems in the meanwhile."
+   ],
+   [
+    "5",
+    "Redeemed Demonologist. Once a devotee of a demon prince or archdevil, the archmage has renounced evil. They want the characters to solve the problems created when the archmage abandoned their former patron while the archmage focuses on larger challenges."
+   ],
+   [
+    "6",
+    "Wizened Elf. The elf archmage is thousands of years old, their long life magically extended. The archmage remembers errors made over the centuries by well-meaning individuals and employs the characters to stop similar mistakes from happening again."
+   ]
+  ],
+  "name": "Archmage Type",
+  "source": "AU",
+  "chapter": {
+   "name": "Creating Magical Worlds",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 3
+   },
+   "index": 3
   }
  },
  {
@@ -12852,7 +12946,7 @@
    ],
    [
     "3",
-    "In the wilderness on their home world, the characters find a {@item spelljamming helm|AAG} in the wreckage of a crashed {@vehicle scorpion ship|AAG} (see {@book chapter 2|AAG|2|Scorpion Ship}) and run afoul of goblins who want to plunder the wreck."
+    "In the wilderness on their home world, the characters find a {@item spelljamming helm|AAG} in the wreckage of a crashed {@vehicle scorpion ship|AAG} and run afoul of goblins who want to plunder the wreck."
    ],
    [
     "4",
@@ -12864,7 +12958,7 @@
    ],
    [
     "6",
-    "Villagers ask the characters to investigate a strange object in the hills, which turns out to be a crashed {@vehicle nightspider|AAG} (see {@book chapter 2|AAG|2|Nightspider}) with survivors: a {@creature neogi pirate|BAM} and a {@creature neogi hatchling swarm|BAM} (see {@book Boo's Astral Menagerie|BAM} for both)."
+    "Villagers ask the characters to investigate a strange object in the hills, which turns out to be a crashed {@vehicle nightspider|AAG} with survivors: a {@creature neogi pirate|BAM} and a {@creature neogi hatchling swarm|BAM} (see {@book Boo's Astral Menagerie|BAM} for both)."
    ],
    [
     "7",
@@ -12876,7 +12970,7 @@
    ],
    [
     "9",
-    "The characters are hired by a trading company to protect a valuable cargo that's being delivered to a distant world. The characters become crew members aboard the {@vehicle squid ship|AAG} (see {@book chapter 2|AAG|2|Squid Ship}) that is transporting the precious cargo."
+    "The characters are hired by a trading company to protect a valuable cargo that's being delivered to a distant world. The characters become crew members aboard the {@vehicle squid ship|AAG} that is transporting the precious cargo."
    ],
    [
     "10",
@@ -13581,7 +13675,7 @@
    ],
    [
     "6",
-    "A {@creature lampad|MOT} (see {@book chapter 6|MOT|6|Lampad}) hunts the offspring of an ancient hero who escaped death, claiming they shouldn't exist."
+    "A {@creature lampad|MOT} hunts the offspring of an ancient hero who escaped death, claiming they shouldn't exist."
    ]
   ],
   "name": "Athreos's Villains",
@@ -14420,6 +14514,69 @@
     "identifier": 4
    },
    "index": 4
+  }
+ },
+ {
+  "caption": "Backgrounds",
+  "colLabels": [
+   "Background",
+   "Faction"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
+  ],
+  "rows": [
+   [
+    "{@background Agent of the Ninth Quill|AU}",
+    "{@area Ninth Quill|224|x}"
+   ],
+   [
+    "{@background Bejeweled Conclave Spy|AU}",
+    "{@area Bejeweled Conclave|1c8|x}"
+   ],
+   [
+    "{@background Cosmic Dawn Experiment|AU}",
+    "{@area Bringers of Cosmic Dawn|1d8|x}"
+   ],
+   [
+    "{@background Covenant of the Grave Recruit|AU}",
+    "{@area Covenant of the Grave|1ed|x}"
+   ],
+   [
+    "{@background Crucible Storm Chaser|AU}",
+    "{@area Crucible Keepers|201|x}"
+   ],
+   [
+    "{@background Familiar Trainer|AU}",
+    "—"
+   ],
+   [
+    "{@background Horizon Weaver Initiate|AU}",
+    "{@area Horizon Weavers|213|x}"
+   ],
+   [
+    "{@background Phantasmic Circus Trouper|AU}",
+    "{@area Phantasmic Circus|239|x}"
+   ],
+   [
+    "{@background Seer Apprentice|AU}",
+    "{@area Seers of Sea and Sky|24c|x}"
+   ],
+   [
+    "{@background Ward of the Sheltering Hands|AU}",
+    "{@area Sheltering Hands|261|x}"
+   ]
+  ],
+  "name": "Backgrounds",
+  "source": "AU",
+  "chapter": {
+   "name": "Character Options",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
   }
  },
  {
@@ -16258,7 +16415,7 @@
    ],
    [
     "2",
-    "{@creature Priest of Osybus|VRGR|Priests of Osybus} (see {@book chapter 5|VRGR|5|Priests of Osybus}) have gained a following in Vallaki. They consider Strahd a demigod of their faith and drain the blood of nonbelievers in his name."
+    "{@creature Priest of Osybus|VRGR|Priests of Osybus} have gained a following in Vallaki. They consider Strahd a demigod of their faith and drain the blood of nonbelievers in his name."
    ],
    [
     "3",
@@ -16270,11 +16427,11 @@
    ],
    [
     "5",
-    "A dying {@creature wereraven|VRGR} (see {@book chapter 5|VRGR|5|Wereraven}) gives the characters a scroll and an amulet bearing the Mark of the Raven. It begs the characters to deliver the message to the Keepers of the Feather."
+    "A dying {@creature wereraven|VRGR} gives the characters a scroll and an amulet bearing the Mark of the Raven. It begs the characters to deliver the message to the Keepers of the Feather."
    ],
    [
     "6",
-    "A megalith erected by Barovia's original inhabitants topples near Vallaki. Beneath lies the tomb of an ancient {@creature nosferatu|VRGR} (see {@book chapter 5|VRGR|5|Nosferatu}) who calls himself Duke Gundar; he immediately takes a disliking to Count Strahd von Zarovich."
+    "A megalith erected by Barovia's original inhabitants topples near Vallaki. Beneath lies the tomb of an ancient {@creature nosferatu|VRGR} who calls himself Duke Gundar; he immediately takes a disliking to Count Strahd von Zarovich."
    ],
    [
     "7",
@@ -16486,7 +16643,7 @@
    ],
    [
     "99–00",
-    "{@book Treasure|XDMG|7|Chapter 7: Treasure}"
+    "{@book Treasure|XDMG|6|Chapter 7: Treasure}"
    ]
   ],
   "name": "Bastion Events",
@@ -16747,6 +16904,65 @@
     "identifier": 1
    },
    "index": 0
+  }
+ },
+ {
+  "caption": "Bejeweled Conclave Renown",
+  "colLabels": [
+   "Renown Score",
+   "Reward"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "3+",
+    "You can consult the Bejeweled Conclave before meeting a significant figure for the first time to learn a personal secret—humorous, embarrassing, or otherwise socially relevant—about that person."
+   ],
+   [
+    "5+",
+    "You can stay in Lurewood Mansion or any other residence operated by the conclave, providing you a {@book Modest|XPHB|6|Modest (1 GP per Day)} lifestyle for free. If you have just returned from a dangerous locale, conclave members insist you first take a bath."
+   ],
+   [
+    "10",
+    "The first time your Renown Score reaches 10, the Bejeweled Conclave gives you one Uncommon magic item—usually a Ring or a Wondrous Item."
+   ],
+   [
+    "15+",
+    "Your lifestyle at Lurewood Mansion or any conclave residence increases to {@book Comfortable|XPHB|6|Comfortable (2 GP per Day)}. Additionally, you can request the aid of {@dice 1d4} {@creature Spy|XMM|Spies} for a mission. Once you use this reward, you can't do so again until your Renown Score increases."
+   ],
+   [
+    "20+",
+    "If you are arrested for anything short of treason in any land where the Bejeweled Conclave operates, the conclave finds a way to have your charges dismissed."
+   ],
+   [
+    "25+",
+    "You can arrange for a meeting with Madame Hestia Ilverne. Once you use this reward, you can't do so again until your Renown Score increases."
+   ],
+   [
+    "30",
+    "The first time your Renown Score reaches 30, the conclave teaches you its entrancing magic. You always have the {@spell Enthrall|XPHB} spell prepared, and you can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you gain this reward). You can also cast this spell using any spell slots you have of the appropriate level."
+   ],
+   [
+    "40+",
+    "At your instruction, one of the conclave members casts {@spell Modify Memory|XPHB} (save {@dc 15}) for free on a target of your choice. You must have met or seen the target at least once within the last 30 days, and the spell is cast within 24 hours of you choosing your target. Once you use this reward, you can't do so again until your Renown Score increases."
+   ],
+   [
+    "50+",
+    "Members of the conclave openly share information with you. Additionally, the first time your Renown Score reaches 50, the Bejeweled Conclave imparts a significant secret about you that you didn't know. This secret is up to the DM and might take the form of a {@filter supernatural gift|rewards|type=blessing;charm} (see the {@book Dungeon Master's Guide|XDMG})."
+   ]
+  ],
+  "name": "Bejeweled Conclave Renown",
+  "source": "AU",
+  "chapter": {
+   "name": "Magical Factions",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 4
+   },
+   "index": 4
   }
  },
  {
@@ -18498,7 +18714,7 @@
    ],
    [
     "4",
-    "The characters find a strange but adorable creature trapped within an abandoned alien installation. The being is a lovable companion, until it reveals itself to be a {@b star spawn emissary} (see {@book chapter 5|VRGR|5|Star Spawn Emissary})."
+    "The characters find a strange but adorable creature trapped within an abandoned alien installation. The being is a lovable companion, until it reveals itself to be a {@filter star spawn emissary|bestiary|source=RHW|group=Star Spawn Emissary}."
    ],
    [
     "5",
@@ -19283,7 +19499,7 @@
    ],
    [
     "8",
-    "Members of the Ulmist Inquisition accuse the characters of crimes they haven't yet committed. They relent only if the characters undertake a mission against the {@creature Priest of Osybus|VRGR|priests of Osybus} (see {@book chapter 5|VRGR|5|Priests of Osybus})."
+    "Members of the Ulmist Inquisition accuse the characters of crimes they haven't yet committed. They relent only if the characters undertake a mission against the {@creature Priest of Osybus|VRGR|priests of Osybus}."
    ]
   ],
   "name": "Borca Adventures",
@@ -20295,6 +20511,65 @@
   }
  },
  {
+  "caption": "Bringers of Cosmic Dawn Renown",
+  "colLabels": [
+   "Renown Score",
+   "Reward"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "3+",
+    "You can freely enter Dawnrise Canyon, though you are afforded no specific protections from its dangers."
+   ],
+   [
+    "5+",
+    "The Bringers of Cosmic Dawn warns you when you travel near places with Far Realm influence or a significant number of Aberrations."
+   ],
+   [
+    "10",
+    "The first time your Renown Score reaches 10, the Bringers of Cosmic Dawn gives you an Uncommon magic item from the Scroll, Potion, or Wondrous Item category."
+   ],
+   [
+    "15+",
+    "{@dice 1d4} {@creature Cultist|XMM|Cultists}, convinced you embody a prophecy, become your loyal followers. You can order this retinue to assist you for one mission. Once you use this reward, you can't do so again until your Renown Score increases."
+   ],
+   [
+    "20+",
+    "You can buy Common and Uncommon Spell Scrolls that contain Transmutation spells from faction members."
+   ],
+   [
+    "25+",
+    "{@dice 1d4} {@creature Cultist Fanatic|XMM|Cultist Fanatics} join your retinue of loyal followers."
+   ],
+   [
+    "30",
+    "The first time your Renown Score reaches 30, the faction teaches you its transmuting magic. You always have the {@spell Alter Self|XPHB} spell prepared, and you can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you gain this reward). You can also cast this spell using any spell slots you have of the appropriate level."
+   ],
+   [
+    "40+",
+    "You can buy Rare Spell Scrolls that contain Transmutation spells from faction members."
+   ],
+   [
+    "50+",
+    "Faction members openly share information with you. Additionally, the first time your Renown score reaches 50, you can undertake voluntary mutations to enhance your physiology. You have {@variantrule Advantage|XPHB} on saving throws made to avoid or end the {@condition Grappled|XPHB} and {@condition Poisoned|XPHB} conditions."
+   ]
+  ],
+  "name": "Bringers of Cosmic Dawn Renown",
+  "source": "AU",
+  "chapter": {
+   "name": "Magical Factions",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 4
+   },
+   "index": 4
+  }
+ },
+ {
   "caption": "Bronze Dragon Adventure Hooks",
   "colLabels": [
    "d8",
@@ -20412,6 +20687,56 @@
     "identifier": 5
    },
    "index": 5
+  }
+ },
+ {
+  "caption": "D&D Settings",
+  "colLabels": [
+   "Setting",
+   "Description",
+   "Sourcebook"
+  ],
+  "colStyles": [
+   "col-2",
+   "col-6",
+   "col-4"
+  ],
+  "rows": [
+   [
+    "Dragonlance",
+    "Draconic magic is a major theme in this setting consumed by war. The use of magic granted by gods is rare.",
+    "{@adventure Dragonlance: Shadow of the Dragon Queen|DSotDQ}"
+   ],
+   [
+    "Eberron",
+    "Magic is ubiquitous and functions like technology, providing services such as rapid transportation and long-distance communication.",
+    "{@book Eberron: Forge of the Artificer|EFA} and {@book Eberron: Rising from the Last War|ERLW}"
+   ],
+   [
+    "Forgotten Realms",
+    "Many types of magic infuse dozens of realms. The gods walk in disguise among mortals.",
+    "{@book Forgotten Realms: Heroes of Faerûn|FRHoF} and {@book Forgotten Realms: Adventures in Faerûn|FRAiF}"
+   ],
+   [
+    "Greyhawk",
+    "Magic is widespread and commonly used but still wondrous and sometimes frightening.",
+    "{@book Dungeon Master's Guide|XDMG}"
+   ],
+   [
+    "Ravenloft",
+    "Magical mists ensure each domain is a prison for its magical Darklord, or ruler, and the hapless residents here. Magic here is ominous and scary.",
+    "{@book Ravenloft: The Horrors Within|RHW} and {@adventure Curse of Strahd|CoS}"
+   ]
+  ],
+  "name": "Building a Magical World; D&D Settings",
+  "source": "AU",
+  "chapter": {
+   "name": "Creating Magical Worlds",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 3
+   },
+   "index": 3
   }
  },
  {
@@ -24497,6 +24822,266 @@
   }
  },
  {
+  "caption": "Spells",
+  "colLabels": [
+   "Level",
+   "Spell",
+   "School",
+   "Special",
+   "Class"
+  ],
+  "colStyles": [
+   "col-1 text-center",
+   "col-2 text-center",
+   "col-2 text-center",
+   "col-1 text-center",
+   "col-6"
+  ],
+  "rows": [
+   [
+    "2",
+    "{@spell Battle Familiar|AU}",
+    "Conjuration",
+    "M",
+    "{@class Druid|XPHB}, {@class Warlock|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "2",
+    "{@spell Disruptive Tune|AU}",
+    "Abjuration",
+    "C",
+    "{@class Bard|XPHB}, {@class Sorcerer|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "2",
+    "{@spell Dueling Ground|AU}",
+    "Abjuration",
+    "R, M",
+    "{@class Artificer|EFA}, {@class Bard|XPHB}, {@class Cleric|XPHB}, {@class Druid|XPHB}, {@class Paladin|XPHB}, {@class Ranger|XPHB}, {@class Sorcerer|XPHB}, {@class Warlock|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "2",
+    "{@spell Uncertain Footing|AU}",
+    "Illusion",
+    "C",
+    "{@class Artificer|EFA}, {@class Bard|XPHB}, {@class Warlock|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "2",
+    "{@spell Wither and Bloom|AU}",
+    "Necromancy",
+    "—",
+    "{@class Druid|XPHB}, {@class Sorcerer|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "3",
+    "{@spell Catnap|AU}",
+    "Enchantment",
+    "—",
+    "{@class Artificer|EFA}, {@class Bard|XPHB}, {@class Sorcerer|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "3",
+    "{@spell Inflict Doubt|AU}",
+    "Enchantment",
+    "C",
+    "{@class Bard|XPHB}, {@class Sorcerer|XPHB}, {@class Warlock|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "4",
+    "{@spell Distorted Distance|AU}",
+    "Illusion",
+    "C",
+    "{@class Artificer|EFA}, {@class Bard|XPHB}, {@class Warlock|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "4",
+    "{@spell Festering Blast|AU}",
+    "Necromancy",
+    "—",
+    "{@class Druid|XPHB}, {@class Sorcerer|XPHB}, {@class Warlock|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "4",
+    "{@spell Zone of Amicability|AU}",
+    "Enchantment",
+    "—",
+    "{@class Bard|XPHB}, {@class Warlock|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Enervation|AU}",
+    "Necromancy",
+    "C",
+    "{@class Sorcerer|XPHB}, {@class Warlock|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Grave Ground|AU}",
+    "Necromancy",
+    "C",
+    "{@class Cleric|XPHB}, {@class Warlock|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Mordenkainen's Lucubration|AU}",
+    "Divination",
+    "—",
+    "{@class Wizard|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Negative Energy Flood|AU}",
+    "Necromancy",
+    "—",
+    "{@class Warlock|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Spirit Lantern|AU}",
+    "Necromancy",
+    "—",
+    "{@class Artificer|EFA}, {@class Cleric|XPHB}, {@class Warlock|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Summon Plant|AU}",
+    "Conjuration",
+    "C, M",
+    "{@class Druid|XPHB}, {@class Ranger|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Waves of Exhaustion|AU}",
+    "Necromancy",
+    "C",
+    "{@class Sorcerer|XPHB}, {@class Warlock|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "6",
+    "{@spell Summon Dinosaur|AU}",
+    "Conjuration",
+    "C, M",
+    "{@class Druid|XPHB}"
+   ],
+   [
+    "7",
+    "{@spell Aura of Evasion|AU}",
+    "Abjuration",
+    "C",
+    "{@class Sorcerer|XPHB}, {@class Warlock|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "7",
+    "{@spell Fractured Awareness|AU}",
+    "Divination",
+    "C",
+    "{@class Bard|XPHB}, {@class Sorcerer|XPHB}, {@class Warlock|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "7",
+    "{@spell Power Word Pain|AU}",
+    "Enchantment",
+    "—",
+    "{@class Bard|XPHB}, {@class Sorcerer|XPHB}, {@class Warlock|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "7",
+    "{@spell Reweave Fate|AU}",
+    "Divination",
+    "—",
+    "{@class Bard|XPHB}, {@class Cleric|XPHB}, {@class Warlock|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "7",
+    "{@spell Transfix|AU}",
+    "Enchantment",
+    "C",
+    "{@class Bard|XPHB}, {@class Warlock|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "8",
+    "{@spell Entrancing Mirrors|AU}",
+    "Illusion",
+    "C",
+    "{@class Bard|XPHB}, {@class Sorcerer|XPHB}, {@class Warlock|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "8",
+    "{@spell Illusory Dragon|AU}",
+    "Illusion",
+    "C",
+    "{@class Wizard|XPHB}"
+   ],
+   [
+    "8",
+    "{@spell Iron Body|AU}",
+    "Transmutation",
+    "C, M",
+    "{@class Sorcerer|XPHB}, {@class Warlock|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "8",
+    "{@spell Lightning Ring|AU}",
+    "Evocation",
+    "C",
+    "{@class Druid|XPHB}, {@class Sorcerer|XPHB}, {@class Warlock|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "8",
+    "{@spell Moment of Prescience|AU}",
+    "Divination",
+    "—",
+    "{@class Wizard|XPHB}"
+   ],
+   [
+    "9",
+    "{@spell Detonate|AU}",
+    "Evocation",
+    "—",
+    "{@class Sorcerer|XPHB}, {@class Warlock|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "9",
+    "{@spell Hindsight|AU}",
+    "Divination",
+    "C, M",
+    "{@class Wizard|XPHB}"
+   ],
+   [
+    "9",
+    "{@spell Invulnerability|AU}",
+    "Abjuration",
+    "C, M",
+    "{@class Wizard|XPHB}"
+   ],
+   [
+    "9",
+    "{@spell Vision of Elapsing Eons|AU}",
+    "Illusion",
+    "—",
+    "{@class Bard|XPHB}, {@class Sorcerer|XPHB}, {@class Warlock|XPHB}, {@class Wizard|XPHB}"
+   ],
+   [
+    "9",
+    "{@spell Wail of the Banshee|AU}",
+    "Necromancy",
+    "—",
+    "{@class Sorcerer|XPHB}, {@class Warlock|XPHB}, {@class Wizard|XPHB}"
+   ]
+  ],
+  "name": "Chapter 2: Spells; Spells",
+  "source": "AU",
+  "chapter": {
+   "name": "Spells",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 2
+   },
+   "index": 2
+  }
+ },
+ {
   "caption": "Subclasses",
   "colLabels": [
    "Class",
@@ -26286,7 +26871,7 @@
    ],
    [
     "2",
-    "A {@creature Naiad|MOT} (see {@book chapter 6|MOT|6|Naiad}) hides inside the temple and murders fishers who worship here for their crimes against the sea."
+    "A {@creature Naiad|MOT} hides inside the temple and murders fishers who worship here for their crimes against the sea."
    ],
    [
     "3",
@@ -26302,7 +26887,7 @@
    ],
    [
     "6",
-    "A rageful {@creature triton master of waves|MOT} (see {@book chapter 6|MOT|6|Triton Master of Waves}) believes everyone in a temple is secretly serving a kraken and begins murdering them."
+    "A rageful {@creature triton master of waves|MOT} believes everyone in a temple is secretly serving a kraken and begins murdering them."
    ]
   ],
   "name": "Coastal Temple Villains",
@@ -32542,6 +33127,65 @@
   }
  },
  {
+  "caption": "Covenant of the Grave Renown",
+  "colLabels": [
+   "Renown Score",
+   "Reward"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "3+",
+    "You receive free lodging at the Pale Tower and can access its extensive subterranean libraries. The covenant safely contains or destroys malevolent magic items you surrender to its care."
+   ],
+   [
+    "5+",
+    "You can purchase the costly Material components required for Necromancy spells you can cast from covenant members."
+   ],
+   [
+    "10",
+    "The first time your Renown Score reaches 10, the covenant gives you an Uncommon magic item from the Rod or Wand category."
+   ],
+   [
+    "15+",
+    "Covenant members freely cast the {@spell Remove Curse|XPHB} spell on you and your allies."
+   ],
+   [
+    "20+",
+    "You earn the honorary title of Necrodemic. When you surrender a magic item to the covenant, the covenant gifts you a different magic item of an equal or lesser rarity from the same category as the surrendered item."
+   ],
+   [
+    "25+",
+    "You can arrange for a meeting with any of the faction's Gravetenders. Once you use this reward, you can't do so again until your Renown Score increases."
+   ],
+   [
+    "30",
+    "The first time your Renown Score reaches 30, the faction shares necromantic secrets with you. You always have the {@spell Speak with Dead|XPHB} spell prepared, and you can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you gain this reward). You can also cast this spell using any spell slots you have of the appropriate level."
+   ],
+   [
+    "40+",
+    "You earn the honorary title of Arisen Necrodemic. You can request the help of {@dice 1d4} {@creature Mage|XMM|Mages} for one mission. Once you use this reward, you can't do so again until your Renown Score increases."
+   ],
+   [
+    "50+",
+    "If you or one of your allies dies and the body is brought to the Pale Tower, a covenant member casts a {@spell Resurrection|XPHB} spell, targeting the deceased. This reward is free the first time you use it. On subsequent occasions, you must provide any Material components normally consumed by the spell."
+   ]
+  ],
+  "name": "Covenant of the Grave Renown",
+  "source": "AU",
+  "chapter": {
+   "name": "Magical Factions",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 4
+   },
+   "index": 4
+  }
+ },
+ {
   "caption": "Cover",
   "srd52": true,
   "basicRules2024": true,
@@ -38228,6 +38872,65 @@
   }
  },
  {
+  "caption": "Crucible Keepers Renown",
+  "colLabels": [
+   "Renown Score",
+   "Reward"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "3+",
+    "The Crucible Keepers sends you advance notice of natural disasters in your area."
+   ],
+   [
+    "5+",
+    "The Crucible Keepers permits you and your companions to stay at the Caldera Arcadium."
+   ],
+   [
+    "10",
+    "The first time your Renown Score reaches 10, the Crucible Keepers gives you an Uncommon magic item from the Wand or Weapon category."
+   ],
+   [
+    "15+",
+    "You can buy Common and Uncommon Spell Scrolls that contain Evocation spells while at the Caldera Arcadium."
+   ],
+   [
+    "20+",
+    "A reckless {@creature Mage Apprentice|XMM} becomes your loyal fan. You can order this apprentice to assist you for one mission. Once you use this reward, you can't do so again until your Renown Score increases."
+   ],
+   [
+    "25+",
+    "Eljar Charscale or Nadia Flameheart meets with you at your request. Once you use this reward, you can't do so again until your Renown Score increases."
+   ],
+   [
+    "30",
+    "The first time your Renown Score reaches 30, the Crucible Keepers teaches you magic to guard you from the elements. You always have the {@spell Daylight|XPHB} spell prepared, and you can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you gain this reward). You can also cast this spell using any spell slots you have of the appropriate level."
+   ],
+   [
+    "40+",
+    "Faction members openly share information with you. You can buy Rare Spell Scrolls that contain Evocation spells while at the Caldera Arcadium."
+   ],
+   [
+    "50+",
+    "You can call for an {@creature Efreeti|XMM} to aid you with a single task; the DM determines whether the efreeti can grant a {@spell Wish|XPHB}. Once you use this reward, you can't do so again until your Renown Score increases."
+   ]
+  ],
+  "name": "Crucible Keepers Renown",
+  "source": "AU",
+  "chapter": {
+   "name": "Magical Factions",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 4
+   },
+   "index": 4
+  }
+ },
+ {
   "caption": "Crystal Dragon Adventure Hooks",
   "colLabels": [
    "d8",
@@ -40650,7 +41353,7 @@
    ],
    [
     "4",
-    "The {@creature Priest of Osybus|VRGR|priests of Osybus} (see {@book chapter 5|VRGR|5|Priests of Osybus}) are draining life from Darkon to empower the imprisoned vestige of a wicked deity."
+    "The {@creature Priest of Osybus|VRGR|priests of Osybus} are draining life from Darkon to empower the imprisoned vestige of a wicked deity."
    ]
   ],
   "name": "Darkon's Destruction",
@@ -45622,6 +46325,45 @@
     "{@dice 1d4} {@creature stegosaurus|MPMM} (attitude: {@dice 1d8 + 2}) trying to help an additional one that is stuck in thick mud"
    ]
   ]
+ },
+ {
+  "caption": "Pending Disasters",
+  "colLabels": [
+   "1d4",
+   "Disaster"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "An undersea volcano near a busy bay is showing signs of an imminent eruption. Crucible Keepers who can operate underwater rush to study it and warn those nearby of its dangers."
+   ],
+   [
+    "2",
+    "Oracles predict a terrible earthquake will devastate a metropolis in the next few weeks. Crucible Keepers race to construct magical pylons to absorb its earth-rending energy."
+   ],
+   [
+    "3",
+    "A gate to the Elemental Plane of Fire is expected to appear in remote farmland. Crucible Keepers hope to stabilize and eventually close the gate—but before closing it, they want to venture through it to study planar conflagrations."
+   ],
+   [
+    "4",
+    "An ancient white dragon that planned to bury a peaceful valley beneath an avalanche has been slain. Crucible Keepers study the weakened snowpack so they can redirect the avalanche away from the nearby villages."
+   ]
+  ],
+  "name": "Disaster Chasers; Pending Disasters",
+  "source": "AU",
+  "chapter": {
+   "name": "Magical Factions",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 4
+   },
+   "index": 4
+  }
  },
  {
   "caption": "Disaster Guilds",
@@ -50911,7 +51653,7 @@
    ],
    [
     "3",
-    "Neglected. One dungeon hazard—such as {@book brown mold|XDMG|2|Brown Mold}, {@book green slime|XDMG|2|Green Slime}, or {@book yellow mold|XDMG|2|Yellow Mold} (see \"{@book Hazards|XDMG|2|Hazards}\" in this chapter)—is abundant."
+    "Neglected. One dungeon hazard—such as {@hazard brown mold|XDMG}, {@hazard green slime|XDMG}, or {@hazard yellow mold|XDMG} (see \"{@book Hazards|XDMG|2|Hazards}\" in this chapter)—is abundant."
    ],
    [
     "4",
@@ -55756,7 +56498,7 @@
    ],
    [
     "5",
-    "An {@creature Aeorian absorber|EGW} (see {@book chapter 7|EGW|8|Aeorian Absorber}) ambushes the characters."
+    "An {@creature Aeorian absorber|EGW} ambushes the characters."
    ],
    [
     "6",
@@ -55836,7 +56578,7 @@
   "rows": [
    [
     "1",
-    "The characters find the buried top of an Aeorian tower that crashed into the ice. Ice fills the lower levels of the tower, and {@dice 1d4 + 1} {@creature Aeorian Nullifier|EGW|Aeorian nullifiers} (see {@book chapter 7|EGW|8|Aeorian Nullifier}) are frozen in the ice."
+    "The characters find the buried top of an Aeorian tower that crashed into the ice. Ice fills the lower levels of the tower, and {@dice 1d4 + 1} {@creature Aeorian Nullifier|EGW|Aeorian nullifiers} are frozen in the ice."
    ],
    [
     "2",
@@ -58932,6 +59674,100 @@
   }
  },
  {
+  "caption": "Esoteric Institution Contact",
+  "colLabels": [
+   "1d6",
+   "Contact"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "Administrative Assistant. This polished professional has served the institution for decades, seems to know everything, and brooks no arguments."
+   ],
+   [
+    "2",
+    "Anonymous Mail. The characters get their missions via couriers sent by the institution. The group patron might be a single individual pretending to speak for the entire institution."
+   ],
+   [
+    "3",
+    "Mascot. A highly intelligent creature beloved by the staff bonds with the party and serves as an adviser and guide."
+   ],
+   [
+    "4",
+    "New Hire. Newly hired, the contact is inexperienced and can't answer the party's questions without consulting their superiors, but they're well meaning and sincere."
+   ],
+   [
+    "5",
+    "Overeager Graduate Student. This idealistic, advanced student idolizes the party and supports their every action."
+   ],
+   [
+    "6",
+    "Senior Faculty Member. The most famous member of the institution personally delivers all missions and takes great interest in the party's activities."
+   ]
+  ],
+  "name": "Esoteric Institution Contact",
+  "source": "AU",
+  "chapter": {
+   "name": "Creating Magical Worlds",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 3
+   },
+   "index": 3
+  }
+ },
+ {
+  "caption": "Esoteric Institution Type",
+  "colLabels": [
+   "1d6",
+   "Patron Type"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "Apocalyptic Cult. This cult collects powerful magic lore and items to prepare for a world-ending battle the institution's leaders know is coming. These leaders don't tell the characters the full context of their plans, but they need the characters' help in preparing for the fight."
+   ],
+   [
+    "2",
+    "Magical Warehouse. This institution is dedicated to finding and hiding dangerous magic. It maintains a warehouse filled with anonymous crates, each containing a powerful magic item or tome of magical lore. The institution needs the characters to track down and recover dangerous items to store in the warehouse, which itself might be magical."
+   ],
+   [
+    "3",
+    "Military School. At this institution, mages train to serve in the realm's armed forces as officers and mobile artillery units. The institution emphasizes obedience, duty, and patriotism, and it needs disciplined characters to perform missions to ensure its longevity."
+   ],
+   [
+    "4",
+    "Religious Order. A religious order devoted to one or more gods of magic teaches spellcasting, performs religious rituals for the community, and pursues the gods' goals. The institution needs the characters to further these goals."
+   ],
+   [
+    "5",
+    "Underground Society. This informal network of aristocrats, mages, and scholars meets in inns, taverns, and other social venues to pursue clandestine schemes that might include sabotage, thievery, and mayhem. The institution needs discreet characters to perform delicate tasks."
+   ],
+   [
+    "6",
+    "University. Students from all over the world come to this famous university to study magic. The institution needs the characters to perform missions to preserve and further its reputation."
+   ]
+  ],
+  "name": "Esoteric Institution Type",
+  "source": "AU",
+  "chapter": {
+   "name": "Creating Magical Worlds",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 3
+   },
+   "index": 3
+  }
+ },
+ {
   "caption": "Agency Contacts",
   "colLabels": [
    "d8",
@@ -59478,7 +60314,7 @@
    ],
    [
     "6",
-    "A giant who lives in a city asks the characters to take the giant's teenage child with them on their next adventure. (See the \"{@book Giant Children|BGG|2|Giant Children}\" sidebar for suggestions on how to represent the teenage giant with a stat block.)"
+    "A giant who lives in a city asks the characters to take the giant's teenage child with them on their next adventure. (See the \"{@area Giant Children|075|x}\" sidebar for suggestions on how to represent the teenage giant with a stat block.)"
    ]
   ],
   "name": "Exiles",
@@ -60184,7 +61020,7 @@
    ],
    [
     "4",
-    "A patch of {@book yellow mold|XDMG|2|Yellow Mold} (see \"{@book Hazards|XDMG|2|Hazards}\" in {@book chapter 3|XDMG|2}) on a miner's remains"
+    "A patch of {@hazard yellow mold|XDMG} (see \"{@book Hazards|XDMG|2|Hazards}\" in {@book chapter 3|XDMG|2}) on a miner's remains"
    ],
    [
     "5",
@@ -60631,6 +61467,153 @@
     "identifier": 2
    },
    "index": 2
+  }
+ },
+ {
+  "caption": "Faction Attitudes",
+  "colLabels": [
+   "",
+   "{@area Bejeweled Conclave|1c8|x}",
+   "{@area Bringers of Cosmic Dawn|1d8|x}",
+   "{@area Covenant of the Grave|1ed|x}",
+   "{@area Crucible Keepers|201|x}",
+   "{@area Horizon Weavers|213|x}",
+   "{@area Ninth Quill|224|x}",
+   "{@area Phantasmic Circus|239|x}",
+   "{@area Seers of Sea and Sky|24c|x}",
+   "{@area Sheltering Hands|261|x}"
+  ],
+  "colStyles": [
+   "col-3",
+   "col-1 text-center",
+   "col-1 text-center",
+   "col-1 text-center",
+   "col-1 text-center",
+   "col-1 text-center",
+   "col-1 text-center",
+   "col-1 text-center",
+   "col-1 text-center",
+   "col-1 text-center"
+  ],
+  "rows": [
+   [
+    "{@area Bejeweled Conclave|1c8|x}",
+    "F",
+    "I",
+    "H",
+    "H",
+    "F",
+    "H",
+    "F",
+    "I",
+    "I"
+   ],
+   [
+    "{@area Bringers of Cosmic Dawn|1d8|x}",
+    "I",
+    "F",
+    "I",
+    "I",
+    "I",
+    "H",
+    "I",
+    "I",
+    "H"
+   ],
+   [
+    "{@area Covenant of the Grave|1ed|x}",
+    "H",
+    "I",
+    "F",
+    "I",
+    "I",
+    "H",
+    "H",
+    "I",
+    "I"
+   ],
+   [
+    "{@area Crucible Keepers|201|x}",
+    "H",
+    "I",
+    "I",
+    "F",
+    "I",
+    "H",
+    "I",
+    "F",
+    "I"
+   ],
+   [
+    "{@area Horizon Weavers|213|x}",
+    "F",
+    "I",
+    "I",
+    "I",
+    "F",
+    "H",
+    "I",
+    "I",
+    "F"
+   ],
+   [
+    "{@area Ninth Quill|224|x}",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "F",
+    "H",
+    "H",
+    "H"
+   ],
+   [
+    "{@area Phantasmic Circus|239|x}",
+    "F",
+    "I",
+    "H",
+    "I",
+    "I",
+    "H",
+    "F",
+    "I",
+    "I"
+   ],
+   [
+    "{@area Seers of Sea and Sky|24c|x}",
+    "I",
+    "I",
+    "I",
+    "F",
+    "I",
+    "H",
+    "I",
+    "F",
+    "I"
+   ],
+   [
+    "{@area Sheltering Hands|261|x}",
+    "I",
+    "H",
+    "I",
+    "I",
+    "F",
+    "H",
+    "I",
+    "I",
+    "F"
+   ]
+  ],
+  "name": "Faction Relationships; Faction Attitudes",
+  "source": "AU",
+  "chapter": {
+   "name": "Magical Factions",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 4
+   },
+   "index": 4
   }
  },
  {
@@ -61658,6 +62641,145 @@
   "source": "ABH",
   "chapter": {
    "name": "Vampiric Character Options",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
+  "caption": "Feat List",
+  "colLabels": [
+   "Feat",
+   "Category"
+  ],
+  "colStyles": [
+   "col-8",
+   "col-4"
+  ],
+  "rows": [
+   [
+    "{@feat Abjuration Adept|AU}",
+    "General"
+   ],
+   [
+    "{@feat Arcane Artist|AU}",
+    "Origin"
+   ],
+   [
+    "{@feat Arcane Eloquence|AU}",
+    "Origin"
+   ],
+   [
+    "{@feat Arcane Infiltrator|AU}",
+    "Origin"
+   ],
+   [
+    "{@feat Arcane Omens|AU}",
+    "Origin"
+   ],
+   [
+    "{@feat Arcane Overload|AU}",
+    "Origin"
+   ],
+   [
+    "{@feat Arcane Safeguard|AU}",
+    "Origin"
+   ],
+   [
+    "{@feat Arcane Undertaker|AU}",
+    "Origin"
+   ],
+   [
+    "{@feat Arcane Warrior|AU}",
+    "Fighting Style"
+   ],
+   [
+    "{@feat Boon of Erupting Spellpower|AU}",
+    "Epic Boon"
+   ],
+   [
+    "{@feat Boon of Magic School Mastery|AU}",
+    "Epic Boon"
+   ],
+   [
+    "{@feat Boon of the Iron Mind|AU}",
+    "Epic Boon"
+   ],
+   [
+    "{@feat Conjuration Adept|AU}",
+    "General"
+   ],
+   [
+    "{@feat Divination Adept|AU}",
+    "General"
+   ],
+   [
+    "{@feat Elemental Familiar|AU}",
+    "General"
+   ],
+   [
+    "{@feat Enchantment Adept|AU}",
+    "General"
+   ],
+   [
+    "{@feat Evocation Adept|AU}",
+    "General"
+   ],
+   [
+    "{@feat Familiar Friend|AU}",
+    "Origin"
+   ],
+   [
+    "{@feat Illusion Adept|AU}",
+    "General"
+   ],
+   [
+    "{@feat Magic Connoisseur|AU}",
+    "General"
+   ],
+   [
+    "{@feat Necromancy Adept|AU}",
+    "General"
+   ],
+   [
+    "{@feat Otherworldly Familiar|AU}",
+    "General"
+   ],
+   [
+    "{@feat Portal Jumper|AU}",
+    "Origin"
+   ],
+   [
+    "{@feat Soothing Familiar|AU}",
+    "General"
+   ],
+   [
+    "{@feat Spell Resistant|AU}",
+    "General"
+   ],
+   [
+    "{@feat Spell Subterfuge|AU}",
+    "General"
+   ],
+   [
+    "{@feat Transmutation Adept|AU}",
+    "General"
+   ],
+   [
+    "{@feat Transmuted Anatomy|AU}",
+    "Origin"
+   ],
+   [
+    "{@feat Warlike Familiar|AU}",
+    "General"
+   ]
+  ],
+  "name": "Feats; Feat List",
+  "source": "AU",
+  "chapter": {
+   "name": "Character Options",
    "ordinal": {
     "type": "chapter",
     "identifier": 1
@@ -73992,7 +75114,7 @@
    ],
    [
     "4",
-    "A trophy-hunting {@creature undercity medusa|GGR} for the stat block) is on a killing spree, petrifying victims in interesting poses."
+    "A trophy-hunting {@creature undercity medusa|GGR} is on a killing spree, petrifying victims in interesting poses."
    ],
    [
     "5",
@@ -75485,7 +76607,7 @@
    ],
    [
     "6",
-    "Reunite a {@creature Returned sentry|MOT} (see {@book chapter 6|MOT|6|Returned Sentry}) and their {@creature ghostblade eidolon|MOT} (see {@book chapter 6|MOT|6|Eidolons})."
+    "Reunite a {@creature Returned sentry|MOT} and their {@creature ghostblade eidolon|MOT} (see {@book chapter 6|MOT|6|Eidolons})."
    ],
    [
     "7",
@@ -75529,7 +76651,7 @@
   "rows": [
    [
     "1",
-    "A terrified {@creature Returned palamnite|MOT} (see {@book chapter 6|MOT|6|Returned Palamnite}) runs amok in the graveyard, having lost all sense of itself after finding its way back to the world."
+    "A terrified {@creature Returned palamnite|MOT} runs amok in the graveyard, having lost all sense of itself after finding its way back to the world."
    ],
    [
     "2",
@@ -75541,7 +76663,7 @@
    ],
    [
     "4",
-    "A gate to the Underworld releases a bloodthirsty {@creature Underworld cerberus|MOT} (see {@book chapter 6|MOT|6|Underworld Cerberus}) into the graveyard."
+    "A gate to the Underworld releases a bloodthirsty {@creature Underworld cerberus|MOT} into the graveyard."
    ],
    [
     "5",
@@ -79021,7 +80143,7 @@
    ],
    [
     "3",
-    "Innumerable {@creature Gremishka|VRGR|gremishkas} (see {@book chapter 5|VRGR|5|Gremishka}) collect in caves along what's known as the Gnawing Path. The creatures plot to overwhelm Sly-Var and will pass through Toyalis in the process. Members of both communities request exterminators."
+    "Innumerable {@creature Gremishka|VRGR|gremishkas} collect in caves along what's known as the Gnawing Path. The creatures plot to overwhelm Sly-Var and will pass through Toyalis in the process. Members of both communities request exterminators."
    ],
    [
     "4",
@@ -79029,7 +80151,7 @@
    ],
    [
     "5",
-    "One of Hazlik's apprentices sends multiple groups to capture a {@b star spawn emissary} (see {@book chapter 5|VRGR|5|Star Spawn Emissary}) that emerged from a meteor in Moonstone Valley. But the shape-shifter disappears, slipping in among its would-be captors."
+    "One of Hazlik's apprentices sends multiple groups to capture a {@filter star spawn emissary|bestiary|source=RHW|group=Star Spawn Emissary} that emerged from a meteor in Moonstone Valley. But the shape-shifter disappears, slipping in among its would-be captors."
    ],
    [
     "6",
@@ -79337,11 +80459,11 @@
   "rows": [
    [
     "1",
-    "A group of {@creature Returned Palamnite|MOT|Returned palamnites} (see {@book chapter 6|MOT|6|Returned Palamnite}) invade the pools, believing the waters' magic can restore their lost memories and mortal bodies."
+    "A group of {@creature Returned Palamnite|MOT|Returned palamnites} invade the pools, believing the waters' magic can restore their lost memories and mortal bodies."
    ],
    [
     "2",
-    "{@creature Naiad|MOT|Naiads} (see {@book chapter 6|MOT|6|Naiad}) guard the pools, making their own judgments about who is and isn't worthy of the pools' healing magic."
+    "{@creature Naiad|MOT|Naiads} guard the pools, making their own judgments about who is and isn't worthy of the pools' healing magic."
    ],
    [
     "3",
@@ -83121,6 +84243,65 @@
     "identifier": 3
    },
    "index": 3
+  }
+ },
+ {
+  "caption": "Horizon Weavers Renown",
+  "colLabels": [
+   "Renown Score",
+   "Reward"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "3+",
+    "You can consult with the Horizon Weavers to receive general information about a plane you intend to visit."
+   ],
+   [
+    "5+",
+    "You can stay in any way station maintained by a Horizon Weaver (including the Spiral Conservatory)."
+   ],
+   [
+    "10",
+    "The first time your Renown Score reaches 10, the faction gives you an Uncommon magic item from the Armor or Wondrous Item category. Alternatively, if you're a member, the faction can craft your faction cloak into an Uncommon magic item of your choice."
+   ],
+   [
+    "15+",
+    "You receive a 10 percent discount when buying armor, weapons, and adventuring gear from a Horizon Weaver way station."
+   ],
+   [
+    "20+",
+    "You are given one of a pair of {@item Sending Stones|XDMG}; the other is held by a mid-level faction member. If you are lost in an extraplanar location the faction can reach, you can use the Sending Stone to call the faction for help. {@dice 1d4} {@creature Scout Captain|XMM|Scout Captains} then arrive to escort you to a safe destination. If your Renown Score drops below 20, your Sending Stone is confiscated."
+   ],
+   [
+    "25+",
+    "The discount you receive at way stations increases to 20 percent."
+   ],
+   [
+    "30",
+    "The first time your Renown Score reaches 30, the faction teaches you to traverse liminal spaces. You always have the {@spell Misty Step|XPHB} spell prepared, and you can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you gain this reward). You can also cast this spell using any spell slots you have of the appropriate level."
+   ],
+   [
+    "40+",
+    "You can arrange for a meeting with any of the faction's Gatemakers. Once you use this reward, you can't do so again until your Renown Score increases."
+   ],
+   [
+    "50+",
+    "Faction members can cast the {@spell Plane Shift|XPHB} spell at your behest, transporting you and your allies to an extraplanar location of your choice. Once you use this reward, you can't do so again until your Renown Score increases."
+   ]
+  ],
+  "name": "Horizon Weavers Renown",
+  "source": "AU",
+  "chapter": {
+   "name": "Magical Factions",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 4
+   },
+   "index": 4
   }
  },
  {
@@ -97917,7 +99098,7 @@
    ]
   ],
   "footnotes": [
-   "*This spell appears in {@book chapter 7|BMT|6|Antagonize}."
+   "*This spell appears in {@book chapter 7|BMT|6}."
   ],
   "name": "Lavender's Spell Scrolls",
   "page": 109,
@@ -98631,6 +99812,49 @@
     "identifier": 6
    },
    "index": 5
+  }
+ },
+ {
+  "caption": "Leadership Council",
+  "colLabels": [
+   "Name",
+   "Council Member"
+  ],
+  "colStyles": [
+   "col-2",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "Elbeezar Ghont",
+    "Elbeezar (Medium {@creature Mage|XMM}), a human, comes from a farming village that supplies the faction's soup kitchens."
+   ],
+   [
+    "Nylusk the Golden",
+    "Nylusk (Medium {@creature Mage|XMM}), an orc, proudly walks with a limp earned while breaking up a riot."
+   ],
+   [
+    "Opener-of-Thought",
+    "Opener-of-Thought is a {@creature Deva|XMM} who prefers the form of a placid orangutan."
+   ],
+   [
+    "Slade Margid",
+    "Slade (Medium {@creature Archpriest|XMM}), who is a human, believes the organization should put more resources into helping communities form long-term solutions."
+   ],
+   [
+    "Zosh Curvin",
+    "Zosh (Small {@creature Mage|XMM}), a halfling, believes the organization should focus on providing emergency aid rather than pursuing long-term solutions."
+   ]
+  ],
+  "name": "Leadership and Organization; Leadership Council",
+  "source": "AU",
+  "chapter": {
+   "name": "Magical Factions",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 4
+   },
+   "index": 4
   }
  },
  {
@@ -101318,6 +102542,211 @@
   }
  },
  {
+  "caption": "Legendary Magic Item Properties",
+  "colLabels": [
+   "1d10",
+   "Property"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "All-Seeing. While attuned to this item, you have {@sense Truesight|XPHB} with a range of 30 feet."
+   ],
+   [
+    "2",
+    "Empowering. While attuned to this item, one of your ability scores (DM's choice) increases by 2, to a maximum of 24."
+   ],
+   [
+    "3",
+    "Gravitational. While holding or wearing this item, you can cast {@spell Reverse Gravity|XPHB} (save {@dc 18}) from it. Once the item has been used to cast this spell, this property can't be used again until the next dawn."
+   ],
+   [
+    "4",
+    "Heliacal. While holding or wearing this item, you can cast {@spell Sunburst|XPHB} (save {@dc 18}) from it. Once the item has been used to cast this spell, this property can't be used again until the next dawn."
+   ],
+   [
+    "5",
+    "Prismatic. While holding or wearing this item, you can cast {@spell Prismatic Spray|XPHB} (save {@dc 18}) from it. Once the item has been used to cast this spell, this property can't be used again until the next dawn."
+   ],
+   [
+    "6",
+    "Spellguarding. While holding or wearing this item, you have {@variantrule Advantage|XPHB} on saving throws against spells and other magical effects."
+   ],
+   [
+    "7",
+    "Stupefying. While holding or wearing this item, you can cast {@spell Power Word Stun|XPHB} (save {@dc 18}) from it. Once the item has been used to cast this spell, this property can't be used again until the next dawn."
+   ],
+   [
+    "8",
+    "Subjugating. While holding or wearing this item, you can cast {@spell Dominate Monster|XPHB} (save {@dc 18}) from it. Once the item has been used to cast this spell, this property can't be used again until the next dawn."
+   ],
+   [
+    "9",
+    "Tranquil. While holding or wearing this item, you can cast {@spell Mind Blank|XPHB} (targeting yourself only) from it. Once the item has been used to cast this spell, this property can't be used again until the next dawn."
+   ],
+   [
+    "10",
+    "Vanishing. While holding or wearing this item, you can take a {@action Magic|XPHB} action to give yourself the {@condition Invisible|XPHB} condition for 1 hour or until you end it (no action required). Once this property has been used, it can't be used again until the next dawn."
+   ]
+  ],
+  "name": "Magic Item Property Tables; Legendary Magic Item Properties",
+  "source": "AU",
+  "chapter": {
+   "name": "Magic Items",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 5
+   },
+   "index": 5
+  }
+ },
+ {
+  "caption": "Rare Magic Item Properties",
+  "colLabels": [
+   "1d12",
+   "Property"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "Amicable. When you fail an ability check made to influence a creature while holding or wearing this item, you can roll {@dice 1d6} and add the number rolled to the check, potentially turning the failure into a success. This property can be used three times, and the item regains expended uses of this property daily at dawn."
+   ],
+   [
+    "2",
+    "Conversational. While holding or wearing this item, you can cast {@spell Tongues|XPHB} from it. Once the item has been used to cast this spell, this property can't be used again until the next dawn."
+   ],
+   [
+    "3",
+    "Crusading. While holding or wearing this item, you can cast {@spell Crusader's Mantle|XPHB} from it. Once the item has been used to cast this spell, this property can't be used again until the next dawn."
+   ],
+   [
+    "4",
+    "Displacing. While holding or wearing this item, you can cast {@spell Blur|XPHB} from it. Once the item has been used to cast this spell, this property can't be used again until the next dawn."
+   ],
+   [
+    "5",
+    "Frightening. While holding or wearing this item, you can cast {@spell Fear|XPHB} (save {@dc 15}) from it. Once the item has been used to cast this spell, this property can't be used again until the next dawn."
+   ],
+   [
+    "6",
+    "Fulminating. While holding or wearing this item, you can cast {@spell Lightning Bolt|XPHB} (save {@dc 15}) from it. Once the item has been used to cast this spell, this property can't be used again until the next dawn."
+   ],
+   [
+    "7",
+    "Immolating. While holding or wearing this item, you can cast {@spell Fireball|XPHB} (save {@dc 15}) from it. Once the item has been used to cast this spell, this property can't be used again until the next dawn."
+   ],
+   [
+    "8",
+    "Quickening. As a {@variantrule Bonus Action|XPHB} while holding or wearing this item, you can infuse yourself with magical velocity for 1 minute or until your {@status Concentration|XPHB} ends. While you are infused, your {@variantrule Speed|XPHB} is doubled, and {@action opportunity attack|XPHB|Opportunity Attacks} against you are made with {@variantrule Disadvantage|XPHB}. Once this property has been used, it can't be used again until the next dawn."
+   ],
+   [
+    "9",
+    "Restorative. While holding or wearing this item, you can take a {@action Magic|XPHB} action to cast both {@spell Cure Wounds|XPHB} and {@spell Lesser Restoration|XPHB}, targeting the same creature. Once this property has been used, it can't be used again until the next dawn."
+   ],
+   [
+    "10",
+    "Skulking. While holding or wearing this item, you can cast {@spell Pass without Trace|XPHB|Pass Without A Trace} from it. Once the item has been used to cast this spell, this property can't be used again until the next dawn."
+   ],
+   [
+    "11",
+    "Studious. When you fail an ability check made as part of the {@action Study|XPHB} action while holding or wearing this item, you can roll {@dice 1d6} and add the number rolled to the check, potentially turning the failure into a success. This property can be used three times, and the item regains expended uses of this property daily at dawn."
+   ],
+   [
+    "12",
+    "Vigilant. While holding or wearing this item, you have {@variantrule Advantage|XPHB} on {@variantrule Initiative|XPHB} rolls and Wisdom ({@skill Perception|XPHB}) checks."
+   ]
+  ],
+  "name": "Magic Item Property Tables; Rare Magic Item Properties",
+  "source": "AU",
+  "chapter": {
+   "name": "Magic Items",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 5
+   },
+   "index": 5
+  }
+ },
+ {
+  "caption": "Very Rare Magic Item Properties",
+  "colLabels": [
+   "1d12",
+   "Property"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "Chilling. While holding or wearing this item, you can cast {@spell Cone of Cold|XPHB} (save {@dc 17}) from it. Once the item has been used to cast this spell, this property can't be used again until the next dawn."
+   ],
+   [
+    "2",
+    "Deceptive. While holding or wearing this item, you can cast {@spell Mislead|XPHB} (save {@dc 17}) from it. Once the item has been used to cast this spell, this property can't be used again until the next dawn."
+   ],
+   [
+    "3",
+    "Far-Seeing. While holding or wearing this item, you can cast {@spell Scrying|XPHB} (save {@dc 17}) from it. Once the item has been used to cast this spell, this property can't be used again until the next dawn."
+   ],
+   [
+    "4",
+    "Fortunate. While attuned to this magic item, you can reroll one failed {@variantrule D20 Test|XPHB}, and you must used the second roll. This property can be used twice, and the item regains expended uses of this property daily at dawn."
+   ],
+   [
+    "5",
+    "Lunar. While holding or wearing this item, you can cast {@spell Fount of Moonlight|XPHB} or {@spell Moonbeam|XPHB} (save {@dc 17}) from it. Once the item has been used to cast a spell, it can't be used to cast that spell again until the next dawn."
+   ],
+   [
+    "6",
+    "Paralyzing. While holding or wearing this item, you can cast {@spell Hold Monster|XPHB} (save {@dc 17}) from it. Once the item has been used to cast this spell, this property can't be used again until the next dawn."
+   ],
+   [
+    "7",
+    "Psionic. While holding or wearing this item, you have telepathy with a range of 30 feet, and you can cast {@spell Synaptic Static|XPHB} (save {@dc 17}) from it. Once the item has been used to cast this spell, this property can't be used again until the next dawn."
+   ],
+   [
+    "8",
+    "Regal. While holding or wearing this item, you can cast {@spell Yolande's Regal Presence|XPHB} (save {@dc 17}) from it. Once the item has been used to cast this spell, this property can't be used again until the next dawn."
+   ],
+   [
+    "9",
+    "Resilient. While holding or wearing this item, you can cast {@spell Otiluke's Resilient Sphere|XPHB} (save {@dc 17}) from it. Once the item has been used to cast this spell, this property can't be used again until the next dawn."
+   ],
+   [
+    "10",
+    "Resistant. While attuned to this item, you have {@variantrule Resistance|XPHB} to one of the following damage types (DM's choice): Acid, Cold, Fire, Lightning, Necrotic, Poison, Psychic, Radiant, or Thunder."
+   ],
+   [
+    "11",
+    "Traversing. While holding or wearing this item, you can cast {@spell Dimension Door|XPHB} or {@spell Freedom of Movement|XPHB} from it. Once the item has been used to cast a spell, it can't be used to cast that spell again until the next dawn."
+   ],
+   [
+    "12",
+    "Withering. While holding or wearing this item, you can cast {@spell Blight|XPHB} or {@spell Vampiric Touch|XPHB} (save {@dc 17}, +9 to hit with spell attacks) from it. Once the item has been used to cast a spell, it can't be used to cast that spell again until the next dawn."
+   ]
+  ],
+  "name": "Magic Item Property Tables; Very Rare Magic Item Properties",
+  "source": "AU",
+  "chapter": {
+   "name": "Magic Items",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 5
+   },
+   "index": 5
+  }
+ },
+ {
   "caption": "Magic Item Purchase Complications",
   "colLabels": [
    "d12",
@@ -103743,6 +105172,266 @@
   ],
   "colStyles": [
    "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
+  ],
+  "rows": [
+   [
+    "Varies",
+    "{@item Necklace of the Beastly Familiar|AU}",
+    "Yes"
+   ],
+   [
+    "Common",
+    "{@item Conjurer's Canopy|AU}",
+    "No"
+   ],
+   [
+    "Common",
+    "{@item Dictation Quill|AU}",
+    "No"
+   ],
+   [
+    "Common",
+    "{@item Elocutionist's Lexicon|AU}",
+    "No"
+   ],
+   [
+    "Common",
+    "{@item Ensorcelled Missive|AU}",
+    "No"
+   ],
+   [
+    "Common",
+    "{@item Evergreen Fertilizer|AU}",
+    "No"
+   ],
+   [
+    "Common",
+    "{@item Homeward Compass|AU}",
+    "No"
+   ],
+   [
+    "Common",
+    "{@item Lucky Foot|AU}",
+    "No"
+   ],
+   [
+    "Common",
+    "{@item Spell Component Ring|AU}",
+    "No"
+   ],
+   [
+    "Common",
+    "{@item Sweeping Broom|AU}",
+    "No"
+   ],
+   [
+    "Uncommon",
+    "{@item Boon Companions' Bands|AU}",
+    "No"
+   ],
+   [
+    "Uncommon",
+    "{@item Dispelling Ammunition|AU}",
+    "No"
+   ],
+   [
+    "Uncommon",
+    "{@item Goading Ammunition|AU}",
+    "No"
+   ],
+   [
+    "Uncommon",
+    "{@item Magewright's Gloves|AU}",
+    "Yes"
+   ],
+   [
+    "Uncommon",
+    "{@item Martialist's Quarterstaff|AU}",
+    "Yes"
+   ],
+   [
+    "Uncommon",
+    "{@item Orb of Divination Detection|AU}",
+    "Yes"
+   ],
+   [
+    "Uncommon",
+    "{@item Orb of Sorcery|AU}",
+    "Yes"
+   ],
+   [
+    "Uncommon",
+    "{@item Potion of Dragon's Breath|AU}",
+    "No"
+   ],
+   [
+    "Uncommon",
+    "{@item Potion of Tirelessness|AU}",
+    "No"
+   ],
+   [
+    "Uncommon",
+    "{@item Ring of Dedicated Focus|AU}",
+    "Yes"
+   ],
+   [
+    "Uncommon",
+    "{@item Spell-Slinger's Puppet|AU}",
+    "Yes"
+   ],
+   [
+    "Uncommon",
+    "{@item Thespian's Playbill|AU}",
+    "Yes"
+   ],
+   [
+    "Uncommon",
+    "{@item Thief's Thimble|AU}",
+    "Yes"
+   ],
+   [
+    "Uncommon",
+    "{@item Wand of Freshness|AU}",
+    "No"
+   ],
+   [
+    "Rare",
+    "{@item Arcane Chatelaine|AU}",
+    "No"
+   ],
+   [
+    "Rare",
+    "{@item Arcanist's Bestiary|AU}",
+    "Yes"
+   ],
+   [
+    "Rare",
+    "{@item Bellows of Strangulation|AU}",
+    "No"
+   ],
+   [
+    "Rare",
+    "{@item Blood Amulet|AU}",
+    "Yes"
+   ],
+   [
+    "Rare",
+    "{@item Dissuader|AU}",
+    "Yes"
+   ],
+   [
+    "Rare",
+    "{@item Dream Weaver|AU}",
+    "Yes"
+   ],
+   [
+    "Rare",
+    "{@item Mage Breaker|AU}",
+    "No"
+   ],
+   [
+    "Rare",
+    "{@item Mage's Manacle|AU}",
+    "No"
+   ],
+   [
+    "Rare",
+    "{@item Namer's Needle|AU}",
+    "No"
+   ],
+   [
+    "Rare",
+    "{@item Prismatic Rune|AU}",
+    "Yes"
+   ],
+   [
+    "Rare",
+    "{@item Scholar's Anchoring Bangle|AU}",
+    "Yes"
+   ],
+   [
+    "Rare",
+    "{@item Secret Keeper's Circlet|AU}",
+    "Yes"
+   ],
+   [
+    "Rare",
+    "{@item Spell Duelist's Trophy|AU}",
+    "Yes"
+   ],
+   [
+    "Rare",
+    "{@item Wand of Slumber|AU}",
+    "Yes"
+   ],
+   [
+    "Rare",
+    "{@item Wand of Teeth|AU}",
+    "No"
+   ],
+   [
+    "Very Rare",
+    "{@item Staff of the Lost|AU}",
+    "Yes"
+   ],
+   [
+    "Very Rare",
+    "{@item Tramontane Armor|AU}",
+    "Yes"
+   ],
+   [
+    "Very Rare",
+    "{@item Workshop Wrecker|AU}",
+    "No"
+   ],
+   [
+    "Legendary",
+    "{@item Diamond Staff|AU}",
+    "Yes"
+   ],
+   [
+    "Legendary",
+    "{@item Grave Reaper|AU}",
+    "Yes"
+   ],
+   [
+    "Legendary",
+    "{@item Traveler's Pearl|AU}",
+    "Yes"
+   ],
+   [
+    "Artifact",
+    "{@item Queen Ehlissa's Marvelous Nightingale|AU}",
+    "Yes"
+   ],
+   [
+    "Artifact",
+    "{@item Universal Pantograph|AU}",
+    "No"
+   ]
+  ],
+  "name": "Magic Items",
+  "source": "AU",
+  "chapter": {
+   "name": "Magic Items",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 5
+   },
+   "index": 5
+  }
+ },
+ {
+  "caption": "Magic Items",
+  "colLabels": [
+   "Rarity",
+   "Item",
+   "Attunement"
+  ],
+  "colStyles": [
+   "col-2 text-center",
    "col-7 text-center",
    "col-3 text-center"
   ],
@@ -104409,292 +106098,292 @@
    [
     "{@item Antimagic Armor|BMT}",
     "Very rare",
-    "{@book 9|BMT|8|Starshot Crossbow}"
+    "{@book 9|BMT|8}"
    ],
    [
     "{@item Armor of Fungal Spores|BMT}",
     "Uncommon",
-    "{@book 9|BMT|8|Armor of Fungal Spores}"
+    "{@book 9|BMT|8}"
    ],
    [
     "{@item Armor of the Fallen|BMT}",
     "Uncommon",
-    "{@book 9|BMT|8|Armor of the Fallen}"
+    "{@book 9|BMT|8}"
    ],
    [
     "{@item Armor of Weightlessness|BMT}",
     "Uncommon",
-    "{@book 9|BMT|8|Armor of Weightlessness}"
+    "{@book 9|BMT|8}"
    ],
    [
     "{@item Baleful Talon|BMT}",
     "Very rare",
-    "{@book 5|BMT|4|Baleful Talon}"
+    "{@book 5|BMT|4}"
    ],
    [
     "{@item Blasted Goggles|BMT}",
     "Uncommon",
-    "{@book 20|BMT|19|Blasted Goggles}"
+    "{@book 20|BMT|19}"
    ],
    [
     "{@item Bloodrage Greataxe|BMT}",
     "Uncommon",
-    "{@book 9|BMT|8|Bloodrage Greataxe}"
+    "{@book 9|BMT|8}"
    ],
    [
     "{@item Bloodseeker Ammunition|BMT}",
     "Very rare",
-    "{@book 9|BMT|8|Bloodseeker Ammunition}"
+    "{@book 9|BMT|8}"
    ],
    [
     "{@item Boomerang Shield|BMT}",
     "Uncommon",
-    "{@book 9|BMT|8|Boomerang Shield}"
+    "{@book 9|BMT|8}"
    ],
    [
     "{@item Bow of Conflagration|BMT}",
     "Rare",
-    "{@book 9|BMT|8|Bow of Conflagration}"
+    "{@book 9|BMT|8}"
    ],
    [
     "{@item Bow of Melodies|BMT}",
     "Very rare",
-    "{@book 9|BMT|8|Bow of Melodies}"
+    "{@book 9|BMT|8}"
    ],
    [
     "{@item Breastplate of Balance|BMT}",
     "Rare",
-    "{@book 5|BMT|4|Breastplate of Balance}"
+    "{@book 5|BMT|4}"
    ],
    [
     "{@item Card Sharp's Deck|BMT}",
     "Uncommon",
-    "{@book 6|BMT|5|Card Sharp's Deck}"
+    "{@book 6|BMT|5}"
    ],
    [
     "{@item Clockwork Armor|BMT}",
     "Very rare",
-    "{@book 9|BMT|8|Clockwork Armor}"
+    "{@book 9|BMT|8}"
    ],
    [
     "{@item Crown of Whirling Comets|BMT}",
     "Very rare",
-    "{@book 5|BMT|4|Crown of Whirling Comets}"
+    "{@book 5|BMT|4}"
    ],
    [
     "{@item Deck of Dimensions|BMT}",
     "Very rare",
-    "{@book 6|BMT|5|Deck of Dimensions}"
+    "{@book 6|BMT|5}"
    ],
    [
     "{@item Deck of Many More Things|BMT}",
     "Legendary",
-    "{@book 7|BMT|6|Deck of Many More Things}"
+    "{@book 7|BMT|6}"
    ],
    [
     "{@item Deck of Miscellany|BMT}",
     "Uncommon",
-    "{@book 6|BMT|5|Deck of Miscellany}"
+    "{@book 6|BMT|5}"
    ],
    [
     "{@item Deck of Oracles|BMT}",
     "Rare",
-    "{@book 8|BMT|7|Deck of Oracles}"
+    "{@book 8|BMT|7}"
    ],
    [
     "{@item Deck of Wild Cards|BMT}",
     "Very rare",
-    "{@book 6|BMT|5|Deck of Wild Cards}"
+    "{@book 6|BMT|5}"
    ],
    [
     "{@item Deck of Wonder|BMT}",
     "Uncommon",
-    "{@book 7|BMT|6|Deck of Wonder}"
+    "{@book 7|BMT|6}"
    ],
    [
     "{@item Donjon's Sundering Sphere|BMT}",
     "Rare",
-    "{@book 5|BMT|4|Donjon's Sundering Sphere}"
+    "{@book 5|BMT|4}"
    ],
    [
     "{@item Dried Leech|BMT}",
     "Uncommon",
-    "{@book 9|BMT|8|Dried Leech}"
+    "{@book 9|BMT|8}"
    ],
    [
     "{@item Euryale's Aegis|BMT}",
     "Legendary",
-    "{@book 5|BMT|4|Euryale's Aegis}"
+    "{@book 5|BMT|4}"
    ],
    [
     "{@item Fabulist Gem|BMT}",
     "Uncommon",
-    "{@book 5|BMT|4|Fabulist Gem}"
+    "{@book 5|BMT|4}"
    ],
    [
     "{@item Fate Cutter Shears|BMT}",
     "Very rare",
-    "{@book 8|BMT|7|Fate Cutter Shears}"
+    "{@book 8|BMT|7}"
    ],
    [
     "{@item +1 Fate Dealer's Deck|BMT|Fate Dealer's Deck}",
     "Varies",
-    "{@book 8|BMT|7|Fate Dealer's Deck}"
+    "{@book 8|BMT|7}"
    ],
    [
     "{@item Feywrought Armor|BMT}",
     "Rare",
-    "{@book 9|BMT|8|Feywrought Armor}"
+    "{@book 9|BMT|8}"
    ],
    [
     "{@item Fool's Blade|BMT}",
     "Very rare",
-    "{@book 5|BMT|4|Fool's Blade}"
+    "{@book 5|BMT|4}"
    ],
    [
     "{@item Forcebreaker Weapon|BMT}",
     "Very rare",
-    "{@book 9|BMT|8|Forcebreaker Weapon}"
+    "{@book 9|BMT|8}"
    ],
    [
     "{@item Glimmering Moonbow|BMT}",
     "Rare",
-    "{@book 5|BMT|4|Glimmering Moonbow}"
+    "{@book 5|BMT|4}"
    ],
    [
     "{@item Gloomwrought Armor|BMT}",
     "Rare",
-    "{@book 9|BMT|8|Gloomwrought Armor}"
+    "{@book 9|BMT|8}"
    ],
    [
     "{@item Grasping Whip|BMT}",
     "Rare",
-    "{@book 9|BMT|8|Grasping Whip}"
+    "{@book 9|BMT|8}"
    ],
    [
     "{@item Hammer of Runic Focus|BMT}",
     "Very rare",
-    "{@book 9|BMT|8|Hammer of Runic Focus}"
+    "{@book 9|BMT|8}"
    ],
    [
     "{@item House of Cards|BMT}",
     "Uncommon",
-    "{@book 8|BMT|7|House of Cards}"
+    "{@book 8|BMT|7}"
    ],
    [
     "{@item Jester's Mask|BMT}",
     "Legendary",
-    "{@book 5|BMT|4|Jester's Mask}"
+    "{@book 5|BMT|4}"
    ],
    [
     "{@item Plate of Knight's Fellowship|BMT}",
     "Uncommon",
-    "{@book 5|BMT|4|Plate of Knight's Fellowship}"
+    "{@book 5|BMT|4}"
    ],
    [
     "{@item Ring of Puzzler's Wit|BMT}",
     "Uncommon",
-    "{@book 5|BMT|4|Ring of Puzzler's Wit}"
+    "{@book 5|BMT|4}"
    ],
    [
     "{@item Rod of Hellish Flames|BMT}",
     "Very rare",
-    "{@book 5|BMT|4|Rod of Hellish Flames}"
+    "{@book 5|BMT|4}"
    ],
    [
     "{@item Rogue's Mantle|BMT}",
     "Rare",
-    "{@book 5|BMT|4|Rogue's Mantle}"
+    "{@book 5|BMT|4}"
    ],
    [
     "{@item Ruinous Flail|BMT}",
     "Rare",
-    "{@book 5|BMT|4|Ruinous Flail}"
+    "{@book 5|BMT|4}"
    ],
    [
     "{@item Sage's Signet|BMT}",
     "Varies",
-    "{@book 5|BMT|4|Sage's Signet}"
+    "{@book 5|BMT|4}"
    ],
    [
     "{@item Shield of the Tortoise|BMT}",
     "Uncommon",
-    "{@book 9|BMT|8|Shield of the Tortoise}"
+    "{@book 9|BMT|8}"
    ],
    [
     "{@item Shrieking Greaves|BMT}",
     "Rare",
-    "{@book 20|BMT|19|Shrieking Greaves}"
+    "{@book 20|BMT|19}"
    ],
    [
     "{@item Skull Helm|BMT}",
     "Very rare",
-    "{@book 5|BMT|4|Skull Helm}"
+    "{@book 5|BMT|4}"
    ],
    [
     "{@item Sling of Giant Felling|BMT}",
     "Uncommon",
-    "{@book 9|BMT|8|Sling of Giant Felling}"
+    "{@book 9|BMT|8}"
    ],
    [
     "{@item Spindle of Fate|BMT}",
     "Legendary",
-    "{@book 5|BMT|4|Spindle of Fate}"
+    "{@book 5|BMT|4}"
    ],
    [
     "{@item Starshot Crossbow|BMT}",
     "Rare",
-    "{@book 5|BMT|4|Antimagic Armor}"
+    "{@book 5|BMT|4}"
    ],
    [
     "{@item Stonemaker War Pick|BMT}",
     "Very rare",
-    "{@book 9|BMT|8|Stonemaker War Pick}"
+    "{@book 9|BMT|8}"
    ],
    [
     "{@item Sun Staff|BMT}",
     "Rare",
-    "{@book 5|BMT|4|Sun Staff}"
+    "{@book 5|BMT|4}"
    ],
    [
     "{@item Sword of the Planes|BMT}",
     "Legendary",
-    "{@book 9|BMT|8|Sword of the Planes}"
+    "{@book 9|BMT|8}"
    ],
    [
     "{@item Telescopic Transporter|BMT}",
     "Legendary",
-    "{@book 13|BMT|12|Telescopic Transporter}"
+    "{@book 13|BMT|12}"
    ],
    [
     "{@item Tidecaller Trident|BMT}",
     "Very rare",
-    "{@book 9|BMT|8|Tidecaller Trident}"
+    "{@book 9|BMT|8}"
    ],
    [
     "{@item Voidwalker Armor|BMT}",
     "Rare",
-    "{@book 5|BMT|4|Voidwalker Armor}"
+    "{@book 5|BMT|4}"
    ],
    [
     "{@item Warrior's Passkey|BMT}",
     "Rare",
-    "{@book 5|BMT|4|Warrior's Passkey}"
+    "{@book 5|BMT|4}"
    ],
    [
     "{@item Weapon of Throne's Command|BMT}",
     "Very rare",
-    "{@book 5|BMT|4|Weapon of Throne's Command}"
+    "{@book 5|BMT|4}"
    ],
    [
     "{@item Winged Ammunition|BMT}",
     "Uncommon",
-    "{@book 9|BMT|8|Winged Ammunition}"
+    "{@book 9|BMT|8}"
    ],
    [
     "{@item +1 Wraps of Unarmed Prowess|BMT|Wraps of Unarmed Prowess}",
     "Varies",
-    "{@book 9|BMT|8|Wraps of Unarmed Prowess}"
+    "{@book 9|BMT|8}"
    ]
   ],
   "name": "Magic Items in This Book; Magic Items by Name",
@@ -104874,6 +106563,100 @@
   }
  },
  {
+  "caption": "Magical Entity Contact",
+  "colLabels": [
+   "1d6",
+   "Contact"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "Awakened Beasts. One or more awakened Beasts deliver the details of the characters' missions. The characters might consistently meet with an awakened Beast quest giver, or they might receive each quest from a different creature."
+   ],
+   [
+    "2",
+    "Enigmatic Dreams. The entity communicates with the characters through the {@spell Dream|XPHB} spell, sending them strange dreams suggesting specific courses of action."
+   ],
+   [
+    "3",
+    "Lackey. A {@creature Commoner|XMM} servant attends the entity and delivers messages to the characters along with dire warnings of the consequences of failure."
+   ],
+   [
+    "4",
+    "Mirror Reflections. The entity communicates to the characters via mirrors using illusions. The entity appears as the reflection of one of the characters, or the entity's image replaces that of a character."
+   ],
+   [
+    "5",
+    "Prophecy. The entity communicates indirectly by spreading prophecies to those nearby. The characters are expected to undertake missions that would fulfill the prophecies."
+   ],
+   [
+    "6",
+    "Shape-Shifter. The entity never openly appears to the characters, but creatures that claim to be the entity's servants deliver the characters' assignments. These creatures are the entity in disguise, using the {@spell Shapechange|XPHB} spell or a similar ability."
+   ]
+  ],
+  "name": "Magical Entity Contact",
+  "source": "AU",
+  "chapter": {
+   "name": "Creating Magical Worlds",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 3
+   },
+   "index": 3
+  }
+ },
+ {
+  "caption": "Magical Entity Type",
+  "colLabels": [
+   "1d6",
+   "Patron Type"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "Angel. This powerful Celestial from the Upper Planes disguises itself to mingle among ordinary people and seeks virtuous characters to join its fight against evil."
+   ],
+   [
+    "2",
+    "Beast Lord. An immortal, legendary spirit in animal form, such as an {@creature Animal Lord|XMM}, protects the environment and its inhabitants. The spirit needs emissaries as well as strike teams to combat threats to the land."
+   ],
+   [
+    "3",
+    "Ancient Dragon. A chromatic dragon who has turned away from evil behavior or a metallic dragon who champions good recruits the characters for their valiant heroics."
+   ],
+   [
+    "4",
+    "Giant. A {@creature Storm Giant|XMM} leader who lives in a flying castle high above the realm, hidden by clouds or a perpetual storm, has a vested interest in matters on the ground and sponsors the characters to act as the giant's emissary."
+   ],
+   [
+    "5",
+    "Reformed Rakshasa. A Lawful Good {@creature Rakshasa|XMM} works layered schemes against other Fiends and recruits the characters to further its mission."
+   ],
+   [
+    "6",
+    "Undying Steward. A powerful mage helped found the realm and is thought long dead, but they have survived as a {@creature Baelnorn|AU} or a {@creature Taisus|AU} (see {@book chapter 6|AU|6} for both)."
+   ]
+  ],
+  "name": "Magical Entity Type",
+  "source": "AU",
+  "chapter": {
+   "name": "Creating Magical Worlds",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 3
+   },
+   "index": 3
+  }
+ },
+ {
   "caption": "Magical Gifts",
   "colLabels": [
    "d8",
@@ -104927,6 +106710,53 @@
     "identifier": 2
    },
    "index": 1
+  }
+ },
+ {
+  "caption": "Magical Patron Options",
+  "colLabels": [
+   "Category",
+   "Description"
+  ],
+  "colStyles": [
+   "col-2",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "{@area Archmage|17f|x}",
+    "A powerful, often famous mage with clear goals that span the multiverse"
+   ],
+   [
+    "{@area Esoteric Institution|18a|x}",
+    "An organization dedicated to education, research, or containing dangerous magic"
+   ],
+   [
+    "{@area Magical Entity|196|x}",
+    "A non-Humanoid mage or magical creature with a mysterious, timeless outlook"
+   ],
+   [
+    "{@area Political Faction|1a0|x}",
+    "A group of powerful, like-minded mages deeply invested in political goals"
+   ],
+   [
+    "{@area Trickster|1aa|x}",
+    "A capricious individual with inscrutable motives and a malevolent or whimsical nature"
+   ],
+   [
+    "{@area Wizards' Circle|1b5|x}",
+    "An alliance of mages focused on pursuing a difficult goal or resolving a problem or threat"
+   ]
+  ],
+  "name": "Magical Group Patrons; Magical Patron Options",
+  "source": "AU",
+  "chapter": {
+   "name": "Creating Magical Worlds",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 3
+   },
+   "index": 3
   }
  },
  {
@@ -105059,6 +106889,61 @@
     "identifier": 3
    },
    "index": 2
+  }
+ },
+ {
+  "caption": "Factions by School",
+  "colLabels": [
+   "School",
+   "Faction"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
+  ],
+  "rows": [
+   [
+    "Abjuration",
+    "{@area Sheltering Hands|261|x}"
+   ],
+   [
+    "Conjuration",
+    "{@area Horizon Weavers|213|x}"
+   ],
+   [
+    "Divination",
+    "{@area Seers of Sea and Sky|24c|x}"
+   ],
+   [
+    "Enchantment",
+    "{@area Bejeweled Conclave|1c8|x}"
+   ],
+   [
+    "Evocation",
+    "{@area Crucible Keepers|201|x}"
+   ],
+   [
+    "Illusion",
+    "{@area Phantasmic Circus|239|x}"
+   ],
+   [
+    "Necromancy",
+    "{@area Covenant of the Grave|1ed|x}"
+   ],
+   [
+    "Transmutation",
+    "{@area Bringers of Cosmic Dawn|1d8|x}"
+   ]
+  ],
+  "name": "Magical Specializations; Factions by School",
+  "source": "AU",
+  "chapter": {
+   "name": "Magical Factions",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 4
+   },
+   "index": 4
   }
  },
  {
@@ -114083,6 +115968,65 @@
   }
  },
  {
+  "caption": "Ninth Quill Renown",
+  "colLabels": [
+   "Renown Score",
+   "Reward"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "3+",
+    "You and your companions receive free lodging at Ninth Quill safe houses, which are present in many cities."
+   ],
+   [
+    "5+",
+    "You can buy Common potions and Spell Scrolls from Ninth Quill members."
+   ],
+   [
+    "10+",
+    "If the authorities are searching for you, the Ninth Quill dispatches numerous faction members who are magically disguised to look like you. This might allow you to evade capture for days or months, at the DM's discretion. Once you use this reward, you can't do so again until your Renown Score increases."
+   ],
+   [
+    "15",
+    "The first time your Renown Score reaches 15, the Ninth Quill gives you an Uncommon magic item from the Repository."
+   ],
+   [
+    "20+",
+    "You receive a magical decoder that allows you to read written Thieves' Cant. If your Renown Score drops below 20, this decoder is confiscated."
+   ],
+   [
+    "25+",
+    "The Ninth Quill can provide you with a believable but useless duplicate of a magic item you show them. Creating the duplicate takes {@dice 1d4} days of work. Once you use this reward, you can't do so again until your Renown Score increases."
+   ],
+   [
+    "30",
+    "The first time your Renown Score reaches 30, Ninth Quill faction members teach you how to magically shroud yourself. You always have the {@spell Nondetection|XPHB} spell prepared, and you can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you gain this reward). You can also cast this spell using any spell slots you have of the appropriate level."
+   ],
+   [
+    "40+",
+    "You can buy Uncommon and Rare potions and Spell Scrolls from Ninth Quill members."
+   ],
+   [
+    "50",
+    "The first time your Renown Score reaches 50, the Ninth Quill gives you a Very Rare magic item that another faction desperately wants to recover."
+   ]
+  ],
+  "name": "Ninth Quill Renown",
+  "source": "AU",
+  "chapter": {
+   "name": "Magical Factions",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 4
+   },
+   "index": 4
+  }
+ },
+ {
   "caption": "Disguised Weapons",
   "colLabels": [
    "d6",
@@ -118386,7 +120330,7 @@
    ],
    [
     "8",
-    "An unusually quick-witted {@creature Orzhov giant|GGR} for the stat block) with grand visions of starting a criminal gang interferes with the flow of protection money."
+    "An unusually quick-witted {@creature Orzhov giant|GGR} with grand visions of starting a criminal gang interferes with the flow of protection money."
    ]
   ],
   "name": "Orzhov Villains",
@@ -121318,6 +123262,112 @@
   }
  },
  {
+  "caption": "Phantasmic Circus Acts",
+  "colLabels": [
+   "1d6",
+   "Circus Acts"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "Several Gladiators fight a beholder, which is an illusion—a hidden {@creature Performer Legend|XMM} uses the {@spell Major Image|XPHB} spell to simulate the monster."
+   ],
+   [
+    "2",
+    "Six trained mammoths form a pyramid, and a giant toad hops up to the top; all the animals are realistic illusions."
+   ],
+   [
+    "3",
+    "A {@creature Performer Maestro|XMM} sings an eerie ballad about a shipwreck while {@creature Performer|XMM|Performers} on trapezes swing over and through the illusion of a grand, doomed galley."
+   ],
+   [
+    "4",
+    "Two {@creature Satyr|XMM|Satyrs} play a compelling melody while they lead volunteers from the audience through a cage of glaring lions; the volunteers and lions are illusions."
+   ],
+   [
+    "5",
+    "Two {@creature Knight|XMM|Knights} joust while riding horses cloaked in illusions to look like rhinoceroses."
+   ],
+   [
+    "6",
+    "A {@creature Performer Maestro|XMM} navigates a wondrous illusory forest and grows 50 feet tall to step over the tallest tree at the act's conclusion."
+   ]
+  ],
+  "name": "Phantasmic Circus Acts",
+  "source": "AU",
+  "chapter": {
+   "name": "Magical Factions",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 4
+   },
+   "index": 4
+  }
+ },
+ {
+  "caption": "Phantasmic Circus Renown",
+  "colLabels": [
+   "Renown Score",
+   "Reward"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "3+",
+    "You can travel with the Phantasmic Circus, receiving food and cramped lodging (a {@book Poor|XPHB|6|Poor (2 SP per Day)} lifestyle) while you do. You can attend performances for free."
+   ],
+   [
+    "5+",
+    "After a performance, faction members freely share with you {@dice 1d6} rumors heard from the audience members."
+   ],
+   [
+    "10",
+    "The first time your Renown Score reaches 10, the Phantasmic Circus gives you an Uncommon magic item from the Wand or Wondrous Item category."
+   ],
+   [
+    "15+",
+    "A troupe of {@dice 1d3 + 1} {@creature Performer|XMM|Performers} become your loyal followers. The troupe performs simple tasks, such as restocking supplies or gathering information, but they won't willingly put themselves in danger."
+   ],
+   [
+    "20+",
+    "You can buy Common and Uncommon Spell Scrolls that contain Illusion spells from faction members."
+   ],
+   [
+    "25+",
+    "Your troupe gains an additional {@dice 1d4} {@creature Performer|XMM|Performers}. Additionally, you can ask your troupe to help you with one dangerous mission. Once you use this reward, you can't do so again until your Renown Score increases."
+   ],
+   [
+    "30",
+    "The first time your Renown Score reaches 30, circus members share their illusory tricks with you. You always have the {@spell Mirror Image|XPHB} spell prepared, and you can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you gain this reward). You can also cast this spell using any spell slots you have of the appropriate level."
+   ],
+   [
+    "40+",
+    "You can arrange for a meeting with any of the faction's Wondermakers or, when at the Mirage Lyceum, with the First Maestros. Once you use this reward, you can't do so again until your Renown Score increases."
+   ],
+   [
+    "50+",
+    "{@dice 1d4} {@creature Performer Maestro|XMM|Performer Maestros} and an additional {@dice 1d6} {@creature Performer|XMM|Performers} join your troupe."
+   ]
+  ],
+  "name": "Phantasmic Circus Renown",
+  "source": "AU",
+  "chapter": {
+   "name": "Magical Factions",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 4
+   },
+   "index": 4
+  }
+ },
+ {
   "caption": "The Darklord's Soul",
   "colLabels": [
    "1d8",
@@ -121737,7 +123787,7 @@
    ],
    [
     "2",
-    "A {@creature Returned palamnite|MOT} (see {@book chapter 6|MOT|6|Returned Palamnite}) wreaks havoc across the countryside in Phenax's name."
+    "A {@creature Returned palamnite|MOT} wreaks havoc across the countryside in Phenax's name."
    ],
    [
     "3",
@@ -123711,6 +125761,100 @@
   }
  },
  {
+  "caption": "Political Faction Contact",
+  "colLabels": [
+   "1d6",
+   "Contact Type"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "Excitable Artificer. The contact is eager for the characters to test their latest inventions—which are often unsafe."
+   ],
+   [
+    "2",
+    "Harried Bureaucrat. This administrator has a busy schedule and lacks the time or resources to supervise every task. They assign missions in a rush and leave the party to sort out the details."
+   ],
+   [
+    "3",
+    "Naive Intellectual. This reclusive intellectual with encyclopedic knowledge but no field expertise suggests impractical or unrealistic courses of action."
+   ],
+   [
+    "4",
+    "Political Officer. Responsible for prioritizing the faction's political agenda, the officer frequently questions the characters' loyalty."
+   ],
+   [
+    "5",
+    "Public Relations Expert. The contact magically manipulates public perception and strives to make the characters popular."
+   ],
+   [
+    "6",
+    "Well-Mannered Aristocrat. This genteel individual personally meets with the characters to give them their missions, usually over tea in their magic-filled abode."
+   ]
+  ],
+  "name": "Political Faction Contact",
+  "source": "AU",
+  "chapter": {
+   "name": "Creating Magical Worlds",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 3
+   },
+   "index": 3
+  }
+ },
+ {
+  "caption": "Political Faction Type",
+  "colLabels": [
+   "1d6",
+   "Patron Type"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "Environmentalists. The faction seeks to magically preserve the realm's natural spaces and wildlife. It doesn't receive funding and resources from the government, so it recruits the characters to act as its agents."
+   ],
+   [
+    "2",
+    "Magical Intelligence Agency. This government agency, which protects the realm from magical threats, needs the characters to investigate cases and neutralize dangers."
+   ],
+   [
+    "3",
+    "Magical Military. The characters are soldiers in the realm's army. They're given orders by individuals of higher rank who expect to be obeyed."
+   ],
+   [
+    "4",
+    "Rebel Faction. The faction opposes the current rulers of the realm and operates from a secret base. The characters are tasked with gathering resources and allies for a coming revolt, though if the characters are caught, the rebels disavow all knowledge of them."
+   ],
+   [
+    "5",
+    "Ruling Party. The faction is in power due to its members' magical prowess. The faction needs the characters to sniff out threats to ensure the nation's safety—and the faction's political supremacy."
+   ],
+   [
+    "6",
+    "Shadow Cabinet. The shadow cabinet operates clandestinely. The characters know the truth and must keep their missions secret lest the rulers discover and disband the faction."
+   ]
+  ],
+  "name": "Political Faction Type",
+  "source": "AU",
+  "chapter": {
+   "name": "Creating Magical Worlds",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 3
+   },
+   "index": 3
+  }
+ },
+ {
   "page": 29,
   "colLabels": [
    "1d6",
@@ -125662,7 +127806,7 @@
    ],
    [
     "6",
-    "A group of {@creature Oread|MOT|oreads} (see {@book chapter 6|MOT|6|Oread}) seeks inspiration in flames. The oreads leave Purphoros's forge and conduct thorough studies of everything they burn."
+    "A group of {@creature Oread|MOT|oreads} seeks inspiration in flames. The oreads leave Purphoros's forge and conduct thorough studies of everything they burn."
    ]
   ],
   "name": "Purphoros's Villains",
@@ -127669,7 +129813,7 @@
    ],
    [
     "10",
-    "Spiders from the Feygrove are on the prowl; they include {@dice 2d4} {@creature Giant Spider||giant spiders} plus either {@dice 1d3} {@creature Phase Spider||phase spiders} or 1 {@creature ruin spider|BMT} (see {@book chapter 21|BMT|20|Ruin Spider})."
+    "Spiders from the Feygrove are on the prowl; they include {@dice 2d4} {@creature Giant Spider||giant spiders} plus either {@dice 1d3} {@creature Phase Spider||phase spiders} or 1 {@creature ruin spider|BMT}."
    ],
    [
     "11",
@@ -130274,6 +132418,56 @@
   }
  },
  {
+  "caption": "Ready-Made Evolving Magic Items",
+  "colLabels": [
+   "Rarity",
+   "Item",
+   "Attunement"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
+  ],
+  "rows": [
+   [
+    "Varies",
+    "{@item Blossom Rod|AU}",
+    "Yes"
+   ],
+   [
+    "Varies",
+    "{@item Idol of Good Fortunes|AU}",
+    "Yes"
+   ],
+   [
+    "Varies",
+    "{@item Keyholes Dagger|AU}",
+    "Yes"
+   ],
+   [
+    "Varies",
+    "{@item Staff of Skulls|AU}",
+    "Yes"
+   ],
+   [
+    "Varies",
+    "{@item Wave-Swept Weapon|AU}",
+    "Yes"
+   ]
+  ],
+  "name": "Ready-Made Evolving Magic Items",
+  "source": "AU",
+  "chapter": {
+   "name": "Magic Items",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 5
+   },
+   "index": 5
+  }
+ },
+ {
   "caption": "Faction Insignias",
   "colLabels": [
    "Faction",
@@ -131897,6 +134091,49 @@
     "identifier": 2
    },
    "index": 2
+  }
+ },
+ {
+  "caption": "Notable Seers",
+  "colLabels": [
+   "Name",
+   "Description"
+  ],
+  "colStyles": [
+   "col-2",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "Gnarlbeak",
+    "Gnarlbeak, a {@creature Giant Owl|XMM}, survived a demon attack in her youth and has become an expert on predicting fiendish incursions by studying lightning storms."
+   ],
+   [
+    "Kaekylin",
+    "The sardonic, blue-feathered {@creature Aarakocra Aeromancer|XMM} Kaekylin is eager to discuss cloud formations."
+   ],
+   [
+    "Quellishar",
+    "An {@creature Adult Bronze Dragon|XMM}, Quellishar can't speak and uses graceful dances to communicate truths he sees in the movements of the tides."
+   ],
+   [
+    "Tuppet Seaclaw",
+    "Tuppet, a pensive {@creature Sea Hag|XMM}, shares insights gained by watching schools of fish migrate; she's understanding if clients are cautious about interacting with a hag."
+   ],
+   [
+    "Vort",
+    "The {@creature Water Weird|XMM} Vort uses tide pools to perform scrying rituals."
+   ]
+  ],
+  "name": "Remarkable Members; Notable Seers",
+  "source": "AU",
+  "chapter": {
+   "name": "Magical Factions",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 4
+   },
+   "index": 4
   }
  },
  {
@@ -137788,7 +140025,7 @@
    ],
    [
     "6",
-    "Search for clues pointing to the location of the {@item Adze of Annam|BGG} (described in {@book chapter 5|BGG|5|Adze of Annam}) or some other artifact related to the gods of the Ordning."
+    "Search for clues pointing to the location of the {@item Adze of Annam|BGG} or some other artifact related to the gods of the Ordning."
    ]
   ],
   "name": "Seer Assignments",
@@ -137801,6 +140038,65 @@
     "identifier": 3
    },
    "index": 3
+  }
+ },
+ {
+  "caption": "Seers of Sea and Sky Renown",
+  "colLabels": [
+   "Renown Score",
+   "Reward"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "3+",
+    "You can hire sailors and dockworkers as hirelings for half the usual cost."
+   ],
+   [
+    "5+",
+    "You can purchase the costly Material components required for Divination spells you can cast from faction members."
+   ],
+   [
+    "10",
+    "The first time your Renown Score reaches 10, the seers give you an Uncommon magic item from the Rod, Staff, or Wand category."
+   ],
+   [
+    "15+",
+    "The seers arrange ship's passage for you on any seagoing voyage at no cost."
+   ],
+   [
+    "20+",
+    "Allies of the seers rescue you from drowning or shipwreck, if they can reach you."
+   ],
+   [
+    "25+",
+    "You can request the aid of {@dice 1d6} {@creature Aarakocra Skirmisher|XMM|Aarakocra Skirmishers} for one mission of your choice. Once you use this reward, you can't do so again until your Renown Score increases."
+   ],
+   [
+    "30",
+    "The first time your Renown Score reaches 30, seers share their magical insight with you. You always have the {@spell Locate Object|XPHB} spell prepared, and you can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you gain this reward). You can also cast this spell using any spell slots you have of the appropriate level."
+   ],
+   [
+    "40+",
+    "You can request for one of the seers to cast the {@spell Divination|XPHB} spell for free on your behalf. Once you use this reward, you can't do so again until your Renown Score increases."
+   ],
+   [
+    "50+",
+    "Faction members openly share information with you. Additionally, you can arrange for an audience with the Founders. Once you use this reward, you can't do so again until your Renown Score increases."
+   ]
+  ],
+  "name": "Seers of Sea and Sky Renown",
+  "source": "AU",
+  "chapter": {
+   "name": "Magical Factions",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 4
+   },
+   "index": 4
   }
  },
  {
@@ -140567,6 +142863,65 @@
   }
  },
  {
+  "caption": "Sheltering Hands Renown",
+  "colLabels": [
+   "Renown Score",
+   "Reward"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "3+",
+    "The Sheltering Hands provides you with simple food and lodging anywhere members are providing it to others."
+   ],
+   [
+    "5+",
+    "A Sheltering Hands member can cast {@spell Lesser Restoration|XPHB} on you or an ally in any town or city where the faction operates. Once you use this reward, you can't do so again until your Renown Score increases."
+   ],
+   [
+    "10",
+    "The first time your Renown Score reaches 10, the seers give you an Uncommon magic item from the Armor or Staff category."
+   ],
+   [
+    "15+",
+    "The Sheltering Hands hides and protects any magical item you want to ensure remains out of the hands of evil."
+   ],
+   [
+    "20",
+    "If you or your companions are at risk of suffering from {@hazard dehydration|XPHB} or {@hazard malnutrition|XPHB} while within 5 miles of a town or city where the faction operates, faction members bring you enough food and water to meet your needs."
+   ],
+   [
+    "25+",
+    "A Sheltering Hands member can cast the {@spell Greater Restoration|XPHB} spell on you or an ally in any town or city where the faction operates. This reward is free the first time you use it. On subsequent occasions, you must provide any Material components normally consumed by the spell."
+   ],
+   [
+    "30",
+    "The first time your Renown Score reaches 30, faction members teach you to magically protect those you care for. You always have the {@spell Warding Bond|XPHB} spell prepared, and you can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you gain this reward). You can also cast this spell using any spell slots you have of the appropriate level."
+   ],
+   [
+    "40+",
+    "You receive a 20 percent discount on spellcasting services purchased from faction members."
+   ],
+   [
+    "50+",
+    "Faction members openly share information with you. Additionally, you can arrange for an audience with the council members. Once you use this reward, you can't do so again until your Renown Score increases."
+   ]
+  ],
+  "name": "Sheltering Hands Renown",
+  "source": "AU",
+  "chapter": {
+   "name": "Magical Factions",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 4
+   },
+   "index": 4
+  }
+ },
+ {
   "colLabels": [
    "Armor",
    "Cost",
@@ -142834,6 +145189,69 @@
   }
  },
  {
+  "caption": "Simple Magic Item Evolution",
+  "colLabels": [
+   "Item",
+   "Evolved Item"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
+  ],
+  "rows": [
+   [
+    "{@item +1 Armor|XDMG}",
+    "{@item +2 Armor|XDMG}"
+   ],
+   [
+    "{@item +2 Armor|XDMG}",
+    "{@item +3 Armor|XDMG}"
+   ],
+   [
+    "{@item +1 Shield|XDMG}",
+    "{@item +2 Shield|XDMG}"
+   ],
+   [
+    "{@item +2 Shield|XDMG}",
+    "{@item +3 Shield|XDMG}"
+   ],
+   [
+    "{@item +1 Rod of the Pact Keeper|XDMG|Rod of the Pact Keeper (Uncommon)}",
+    "{@item +2 Rod of the Pact Keeper|XDMG|Rod of the Pact Keeper (Rare)}"
+   ],
+   [
+    "{@item +2 Rod of the Pact Keeper|XDMG|Rod of the Pact Keeper (Rare)}",
+    "{@item +3 Rod of the Pact Keeper|XDMG|Rod of the Pact Keeper (Very Rare)}"
+   ],
+   [
+    "{@item +1 Wand of the War Mage|XDMG}",
+    "{@item +2 Wand of the War Mage|XDMG}"
+   ],
+   [
+    "{@item +2 Wand of the War Mage|XDMG}",
+    "{@item +3 Wand of the War Mage|XDMG|3 Wand of the War Mage}"
+   ],
+   [
+    "{@item +1 Weapon|XDMG}",
+    "{@item +2 Weapon|XDMG}"
+   ],
+   [
+    "{@item +2 Weapon|XDMG}",
+    "{@item +3 Weapon|XDMG}"
+   ]
+  ],
+  "name": "Simple Evolution; Simple Magic Item Evolution",
+  "source": "AU",
+  "chapter": {
+   "name": "Magic Items",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 5
+   },
+   "index": 5
+  }
+ },
+ {
   "colLabels": [
    "Name",
    "Cost",
@@ -143494,7 +145912,7 @@
    ],
    [
     "3",
-    "Track Rifflers. {@creature Riffler|BMT|Rifflers} (see {@book chapter 21|BMT|20|Riffler}) have been active in a remote countryside. Find out if they have a {@item Deck of Many Things}, and ensure they don't give it to a hapless mortal."
+    "Track Rifflers. {@creature Riffler|BMT|Rifflers} have been active in a remote countryside. Find out if they have a {@item Deck of Many Things}, and ensure they don't give it to a hapless mortal."
    ],
    [
     "4",
@@ -144216,6 +146634,77 @@
     "identifier": 3
    },
    "index": 3
+  }
+ },
+ {
+  "caption": "Factions by Class",
+  "colLabels": [
+   "Class",
+   "Suitable Factions"
+  ],
+  "colStyles": [
+   "col-2",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "{@class Barbarian|XPHB}",
+    "{@area Crucible Keepers|201|x}"
+   ],
+   [
+    "{@class Bard|XPHB}",
+    "{@area Bejeweled Conclave|1c8|x}, {@area Ninth Quill|224|x}, {@area Phantasmic Circus|239|x}"
+   ],
+   [
+    "{@class Cleric|XPHB}",
+    "{@area Covenant of the Grave|1ed|x}, {@area Seers of Sea and Sky|24c|x}, {@area Sheltering Hands|261|x}"
+   ],
+   [
+    "{@class Druid|XPHB}",
+    "{@area Crucible Keepers|201|x}, {@area Horizon Weavers|213|x}, {@area Seers of Sea and Sky|24c|x}"
+   ],
+   [
+    "{@class Fighter|XPHB}",
+    "{@area Ninth Quill|224|x}, {@area Sheltering Hands|261|x}"
+   ],
+   [
+    "{@class Monk|XPHB}",
+    "{@area Covenant of the Grave|1ed|x}, {@area Sheltering Hands|261|x}"
+   ],
+   [
+    "{@class Paladin|XPHB}",
+    "{@area Sheltering Hands|261|x}"
+   ],
+   [
+    "{@class Ranger|XPHB}",
+    "{@area Horizon Weavers|213|x}, {@area Seers of Sea and Sky|24c|x}"
+   ],
+   [
+    "{@class Rogue|XPHB}",
+    "{@area Bejeweled Conclave|1c8|x}, {@area Ninth Quill|224|x}, {@area Phantasmic Circus|239|x}"
+   ],
+   [
+    "{@class Sorcerer|XPHB}",
+    "{@area Bejeweled Conclave|1c8|x}, {@area Bringers of Cosmic Dawn|1d8|x}, {@area Crucible Keepers|201|x}"
+   ],
+   [
+    "{@class Warlock|XPHB}",
+    "{@area Bejeweled Conclave|1c8|x}, {@area Bringers of Cosmic Dawn|1d8|x}, {@area Ninth Quill|224|x}"
+   ],
+   [
+    "{@class Wizard|XPHB}",
+    "All"
+   ]
+  ],
+  "name": "Special Facilities; Factions by Class",
+  "source": "AU",
+  "chapter": {
+   "name": "Magical Factions",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 4
+   },
+   "index": 4
   }
  },
  {
@@ -155681,7 +158170,7 @@
    ],
    [
     "8",
-    "The soul of a character, perhaps one with an Echoing Soul (a Dark Gift detailed in {@book chapter 1|VRGR|1|Echoing Soul})"
+    "The soul of a character, perhaps one with the {@charoption Echoing Soul|VRGR} Dark Gift"
    ]
   ],
   "name": "The Soul's Shape; Ankhtepot's Soul",
@@ -155998,6 +158487,53 @@
     "identifier": 3
    },
    "index": 2
+  }
+ },
+ {
+  "caption": "Alien Entities",
+  "colLabels": [
+   "1d6",
+   "Entity"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "Atropus, the World Born Dead, is a malevolent entity the size of a planetoid that drifts ever closer to the world."
+   ],
+   [
+    "2",
+    "Dendar, the Night Serpent, is a colossal beast that feeds on nightmares generated by its warped mind."
+   ],
+   [
+    "3",
+    "Tharizdun, the Chained God, is a dark spiral of roiling nothingness. It seeks freedom from its millennia-long imprisonment and the extinction of all life."
+   ],
+   [
+    "4",
+    "Xhalovix is an amalgamation of 9,999 mutated planets preparing to ascend to godhood once it has transformed its ten-thousandth world."
+   ],
+   [
+    "5",
+    "Trapped beneath a ruined city, Zargon the Returner seeks loyal worshippers to restore his mutation-steeped realm of slime and decadence. The dark sky reveals his malign will to those who know how to interpret it."
+   ],
+   [
+    "6",
+    "Ejected from the Negative Plane, a nameless evil entity drives mortals to despair by twisting reality into impossible forms."
+   ]
+  ],
+  "name": "Things Beyond the Stars; Alien Entities",
+  "source": "AU",
+  "chapter": {
+   "name": "Magical Factions",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 4
+   },
+   "index": 4
   }
  },
  {
@@ -158872,15 +161408,15 @@
    ],
    [
     "76–90",
-    "Roll on a Common Magic Items table of your choice ({@book Arcana|XDMG|6|Arcana—Common}, {@book Armaments|XDMG|6|Armaments—Common}, {@book Implements|XDMG|6|Implements—Common}, or {@book Relics|XDMG|6|Relics—Common})."
+    "Roll on a Common Magic Items table of your choice ({@book Arcana|XDMG|6|Arcana - Common}, {@book Armaments|XDMG|6|Armaments - Common}, {@book Implements|XDMG|6|Implements - Common}, or {@book Relics|XDMG|6|Relics - Common})."
    ],
    [
     "91–98",
-    "Roll on an Uncommon Magic Items table of your choice ({@book Arcana|XDMG|6|Arcana—Uncommon}, {@book Armaments|XDMG|6|Armaments—Uncommon}, {@book Implements|XDMG|6|Implements—Uncommon}, or {@book Relics|XDMG|6|Relics—Uncommon})."
+    "Roll on an Uncommon Magic Items table of your choice ({@book Arcana|XDMG|6|Arcana - Uncommon}, {@book Armaments|XDMG|6|Armaments - Uncommon}, {@book Implements|XDMG|6|Implements - Uncommon}, or {@book Relics|XDMG|6|Relics - Uncommon})."
    ],
    [
     "99–00",
-    "Roll on a Rare Magic Items table of your choice ({@book Arcana|XDMG|6|Arcana—Rare}, {@book Armaments|XDMG|6|Armaments—Rare}, {@book Implements|XDMG|6|Implements—Rare}, or {@book Relics|XDMG|6|Relics—Rare})."
+    "Roll on a Rare Magic Items table of your choice ({@book Arcana|XDMG|6|Arcana - Rare}, {@book Armaments|XDMG|6|Armaments - Rare}, {@book Implements|XDMG|6|Implements - Rare}, or {@book Relics|XDMG|6|Relics - Rare})."
    ]
   ],
   "name": "Treasure",
@@ -159179,6 +161715,100 @@
     "identifier": 2
    },
    "index": 2
+  }
+ },
+ {
+  "caption": "Trickster Contact",
+  "colLabels": [
+   "1d6",
+   "Contact Type"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "Bound by Debt. A creature the trickster saved from a terrible fate brings the characters messages to work off the debt incurred by this rescue."
+   ],
+   [
+    "2",
+    "Bound Demon. A demon the trickster bound long ago is magically prevented from doing evil and satisfies itself with pranking the party and encouraging them to solve problems with violence."
+   ],
+   [
+    "3",
+    "Faerie Dragon. The trickster's {@creature Faerie Dragon Youth|XMM} attendant occasionally slips away to give advice and gifts to the characters. The trickster might be unaware of the faerie dragon's mercurial actions."
+   ],
+   [
+    "4",
+    "Minuscule Fey. The contact, a {@creature Pixie|XMM} or {@creature Sprite|XMM}, is desperately in love with the trickster and considers the party to be the means by which the contact can earn the trickster's affection."
+   ],
+   [
+    "5",
+    "Transformed Enemy. The trickster overcame a hated rival long ago and transformed the rival into a sentient magic item, a talking animal, or another form. Now the rival delivers messages to the party and warns them against the trickster."
+   ],
+   [
+    "6",
+    "Wise Centaur. This wise, patient, and elderly {@creature Centaur Warden|XMM} has trained generations of adventurers. The centaur doesn't always agree with the trickster but respects their power."
+   ]
+  ],
+  "name": "Trickster Contact",
+  "source": "AU",
+  "chapter": {
+   "name": "Creating Magical Worlds",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 3
+   },
+   "index": 3
+  }
+ },
+ {
+  "caption": "Trickster Type",
+  "colLabels": [
+   "1d6",
+   "Patron Type"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "Bored Immortal. This being has lived for centuries or perhaps millennia and has seen it all. They desperately crave entertainment and generously pay anyone who provides spectacle—the more dangerous, the better."
+   ],
+   [
+    "2",
+    "Child Prodigy. A young child of incredibly powerful magical beings, the prodigy has inherited great power but doesn't yet have the maturity to use it wisely. The prodigy uses their force of will and considerable monetary resources to convince the characters to undertake their capricious missions."
+   ],
+   [
+    "3",
+    "God of Mischief. A god devoted to mischief and deception conceals their identity from the party while sending the characters on missions to humiliate the god's rivals."
+   ],
+   [
+    "4",
+    "Long-Forgotten {@creature Archmage|XMM}. This ancient archmage, long thought dead, possesses great power but is increasingly eccentric and bitter that no one remembers their most glorious past deeds. The archmage hires the characters to fool individuals from the archmage's past into making amends for perceived misdeeds."
+   ],
+   [
+    "5",
+    "Puckish Fey. This powerful fey serves the archfey ruler of a Domain of Delight as a court jester or is themself an archfey. The fey delights in sending the characters on well-paid missions that further the trickster's schemes or simply amuse them."
+   ],
+   [
+    "6",
+    "Willful Hag. A hag coven member doesn't approve of deeds performed by the other hags in the coven and assigns the characters missions to secretly undermine the rival hags."
+   ]
+  ],
+  "name": "Trickster Type",
+  "source": "AU",
+  "chapter": {
+   "name": "Creating Magical Worlds",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 3
+   },
+   "index": 3
   }
  },
  {
@@ -159802,6 +162432,41 @@
    "ordinal": {
     "type": "chapter",
     "identifier": 3
+   },
+   "index": 4
+  }
+ },
+ {
+  "caption": "Undead Members",
+  "colLabels": [
+   "Name",
+   "Description"
+  ],
+  "colStyles": [
+   "col-2",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "Adlin Humbington",
+    "A bookish {@creature Ghost|XMM} who haunts his surgical theater, Adlin is so tied to his experiments that he's unaware he's dead."
+   ],
+   [
+    "Kadra Faldrig",
+    "The Lawful Neutral {@creature Lich|XMM} Kadra hides that she's undead so her highly regarded insights into lichdom seem inspired by intellect rather than a study of her own nature."
+   ],
+   [
+    "Melodin the Risen",
+    "A determined {@creature Revenant|XMM}, Melodin is a Gravetender of the Pale Tower who seeks to avenge herself against her predecessor by proving herself the superior administrator."
+   ]
+  ],
+  "name": "Undead Members",
+  "source": "AU",
+  "chapter": {
+   "name": "Magical Factions",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 4
    },
    "index": 4
   }
@@ -161591,7 +164256,7 @@
    ],
    [
     "2",
-    "Smuggle the puppy of an {@creature Underworld cerberus|MOT} (see {@book chapter 6|MOT|6|Underworld Cerberus}) into the mortal world."
+    "Smuggle the puppy of an {@creature Underworld cerberus|MOT} into the mortal world."
    ],
    [
     "3",
@@ -161655,7 +164320,7 @@
    ],
    [
     "18",
-    "Prevent one of your ancestors from transforming into an {@creature eater of hope|MOT} (see {@book chapter 6|MOT|6|Eater of Hope})."
+    "Prevent one of your ancestors from transforming into an {@creature eater of hope|MOT}."
    ],
    [
     "19",
@@ -161703,11 +164368,11 @@
    ],
    [
     "4",
-    "Escort a {@creature Returned sentry|MOT} (see {@book chapter 6|MOT|6|Returned Sentry}) escaping from the Underworld into the mortal world."
+    "Escort a {@creature Returned sentry|MOT} escaping from the Underworld into the mortal world."
    ],
    [
     "5",
-    "Bargain with a {@creature lampad|MOT} (see {@book chapter 6|MOT|6|Lampad}) to learn where the body of a lost hero lies entombed."
+    "Bargain with a {@creature lampad|MOT} to learn where the body of a lost hero lies entombed."
    ],
    [
     "6",
@@ -161735,7 +164400,7 @@
    ],
    [
     "12",
-    "Capture an {@creature Underworld cerberus|MOT} (see {@book chapter 6|MOT|6|Underworld Cerberus})."
+    "Capture an {@creature Underworld cerberus|MOT}."
    ]
   ],
   "name": "Underworld Crossing Adventures",
@@ -161763,11 +164428,11 @@
   "rows": [
    [
     "1",
-    "A {@creature Returned palamnite|MOT} (see {@book chapter 6|MOT|6|Returned Palamnite}) seeks to destroy all Underworld crossings so the dead can freely enter the mortal world."
+    "A {@creature Returned palamnite|MOT} seeks to destroy all Underworld crossings so the dead can freely enter the mortal world."
    ],
    [
     "2",
-    "A conquering general captures a number of {@creature Underworld Cerberus|MOT|Underworld cerberi} (see {@book chapter 6|MOT|6|Underworld Cerberus}), plotting to unleash the terrifying beasts during a war."
+    "A conquering general captures a number of {@creature Underworld Cerberus|MOT|Underworld cerberi}, plotting to unleash the terrifying beasts during a war."
    ],
    [
     "3",
@@ -161775,7 +164440,7 @@
    ],
    [
     "4",
-    "A {@creature nightmare shepherd|MOT} (see {@book chapter 6|MOT|6|Nightmare Shepherd}) takes over a crossing and doesn't allow souls to pass into the Underworld. As a result, they become {@creature Specter||specters} that harass the living in the mortal world."
+    "A {@creature nightmare shepherd|MOT} takes over a crossing and doesn't allow souls to pass into the Underworld. As a result, they become {@creature Specter||specters} that harass the living in the mortal world."
    ],
    [
     "5",
@@ -161783,7 +164448,7 @@
    ],
    [
     "6",
-    "A {@creature satyr reveler|MOT} (see {@book chapter 6|MOT|6|Satyr Reveler}) seeks to throw an eternal revel! By stealing coins from the dead, the satyr traps souls at his morbid, Tartyx-side bacchanal."
+    "A {@creature satyr reveler|MOT} seeks to throw an eternal revel! By stealing coins from the dead, the satyr traps souls at his morbid, Tartyx-side bacchanal."
    ]
   ],
   "name": "Underworld Crossings Villains",
@@ -162158,7 +164823,7 @@
    ],
    [
     "9",
-    "An overzealous guard (see the Monster Manual (or game statistics) mistakes you for someone else. If you move 20 feet or more on your turn, the guard makes an opportunity attack against you with a spear ({@hit 3} to hit; {@dice 1d6 + 1} piercing damage on a hit)."
+    "An overzealous guard (see the Monster Manual for game statistics) mistakes you for someone else. If you move 20 feet or more on your turn, the guard makes an opportunity attack against you with a spear ({@hit 3} to hit; {@dice 1d6 + 1} piercing damage on a hit)."
    ],
    [
     "10",
@@ -166820,7 +169485,7 @@
   "rows": [
    [
     "1",
-    "A disguised {@creature abhorrent overlord|MOT} (see {@book chapter 6|MOT|6|Abhorrent Overlord}) convinces the soldiers in a watchtower to rise up against the officers."
+    "A disguised {@creature abhorrent overlord|MOT} convinces the soldiers in a watchtower to rise up against the officers."
    ],
    [
     "2",
@@ -167022,6 +169687,53 @@
     "identifier": 1
    },
    "index": 2
+  }
+ },
+ {
+  "caption": "Planar Way Stations",
+  "colLabels": [
+   "1d6",
+   "Station"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "A gnome named Molly Nettle (Small {@creature Conjurer Archmage|AU}) keeps a gingerbread house in the {@book Feywild|XDMG|5|Feywild} where she welcomes Horizon Weavers but shoos away all others. She doesn't understand why visitors find her residence and her child-shaped cookie sculptures off-putting."
+   ],
+   [
+    "2",
+    "The Tidepool Larder is an air-filled grotto on the Elemental Plane of Water, stocked with salted fish and other seafood. The reclusive {@creature Marid|XMM} caretaker, Baliob, hides from visitors and doesn't charge for supplies."
+   ],
+   [
+    "3",
+    "A dour {@creature Githzerai Psion|XMM} named Ut maintains a peaceful monastery called Ninebells on a rocky island in Limbo. Ut lets non-Horizon Weavers stay no more than nine hours."
+   ],
+   [
+    "4",
+    "Scuttlebeam is a beached ship in a Feywild forest. Its married keepers, a goliath named Rusty Jenk (Medium {@creature Pirate Captain|XMM}) and an orc named Trellie (Medium {@creature Mage|XMM}), don't remember how the ship got here."
+   ],
+   [
+    "5",
+    "Falling Up, a floating inn in the Elemental Plane of Air, is managed by three human, semiretired Horizon Weavers (Medium {@creature Mage|XMM|Mages}), all eager to swap tales."
+   ],
+   [
+    "6",
+    "A way station in Bytopia called the Shuttle's Rest was recently reduced to ruins by an enormous, clawed creature."
+   ]
+  ],
+  "name": "Way Stations and Shuttles; Planar Way Stations",
+  "source": "AU",
+  "chapter": {
+   "name": "Magical Factions",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 4
+   },
+   "index": 4
   }
  },
  {
@@ -170874,7 +173586,7 @@
    ],
    [
     "5",
-    "Your path takes you near a patch of {@book razorvine|XDMG|2|Razorvine} (see \"{@book Hazards|XDMG|2|Hazards}\" in this chapter). Make a {@dc 15} Dexterity saving throw or use 10 feet of movement (your choice) to avoid the razorvine. On a failed save, you take {@dice 1d10} Slashing damage."
+    "Your path takes you near a patch of {@hazard razorvine|XDMG} (see \"{@book Hazards|XDMG|2|Hazards}\" in this chapter). Make a {@dc 15} Dexterity saving throw or use 10 feet of movement (your choice) to avoid the razorvine. On a failed save, you take {@dice 1d10} Slashing damage."
    ],
    [
     "6",
@@ -172547,6 +175259,100 @@
     "identifier": 1
    },
    "index": 1
+  }
+ },
+ {
+  "caption": "Wizards' Circle Contact",
+  "colLabels": [
+   "1d6",
+   "Contact Type"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "Abjurer. Specializing in healing and protective magic, the contact wards the characters before adventures, heals them afterward, and urges the characters to be cautious."
+   ],
+   [
+    "2",
+    "Conjurer. The contact specializes in teleportation magic and summoning magical allies. If the party is in great danger, the contact teleports them to safety or sends magical creations to help."
+   ],
+   [
+    "3",
+    "Diviner. Before every mission, the contact delivers enigmatic advice that the characters find useful—if they can decipher its meaning and recall it at the right moment."
+   ],
+   [
+    "4",
+    "Evoker. This evoker proposes the most direct and destructive way to solve any problem. They don't worry about collateral damage incurred during a mission."
+   ],
+   [
+    "5",
+    "Illusionist. The characters know little about the contact, not even their true appearance or identity. The contact could show up in any context or situation, even appearing to be someone else whom the party knows well."
+   ],
+   [
+    "6",
+    "Necromancer. The contact ghoulishly asks the characters to bring back corpses or body parts from their adventures but is willing to cast the {@spell Raise Dead|XPHB} spell if a character perishes on a mission."
+   ]
+  ],
+  "name": "Wizards' Circle Contact",
+  "source": "AU",
+  "chapter": {
+   "name": "Creating Magical Worlds",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 3
+   },
+   "index": 3
+  }
+ },
+ {
+  "caption": "Wizards' Circle Type",
+  "colLabels": [
+   "1d6",
+   "Patron Type"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "Council of the Wise. The circle members are the world's mightiest, most benevolent mages, but the most charismatic of them is secretly a traitor. Most of the characters' missions are altruistic, but occasionally the traitor sends them on missions meant to sow discord among the group."
+   ],
+   [
+    "2",
+    "Disaster Preventers. The circle members don't like each other, but they've come together to stop the apocalypse. They need the characters to achieve lesser missions while they focus on the larger threat."
+   ],
+   [
+    "3",
+    "Grudging Allies. Longtime enemies, the circle members wreaked great destruction during their conflicts. They've agreed to avoid fighting each other, instead using the characters to pursue the goals they can agree on."
+   ],
+   [
+    "4",
+    "Pub Crew. The circle formed as an excuse to drink and socialize. Members have no time for dangerous missions to save the world, sending the characters instead."
+   ],
+   [
+    "5",
+    "War Veterans. The circle members are veterans who have served together in several wars. In their retirement, they prefer to send more energetic operatives—the characters—to stop the next great war."
+   ],
+   [
+    "6",
+    "Well-Meaning Imposters. The circle members are frauds with only minor magical power. They maintain this ruse because without the circle, the realm would collapse into warring factions. If the characters learn of the wizards' lack of ability, they might continue to work for the circle to avoid larger conflicts."
+   ]
+  ],
+  "name": "Wizards' Circle Type",
+  "source": "AU",
+  "chapter": {
+   "name": "Creating Magical Worlds",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 3
+   },
+   "index": 3
   }
  },
  {

@@ -411,10 +411,75 @@
  {
   "name": "Arcana Domain",
   "shortName": "Arcana",
+  "source": "AU",
+  "className": "Cleric",
+  "classSource": "XPHB",
+  "edition": "one",
+  "additionalSpells": [
+   {
+    "known": {
+     "3": [
+      {
+       "choose": "level=0|class=Wizard",
+       "count": 2
+      }
+     ]
+    },
+    "prepared": {
+     "3": [
+      "detect magic|xphb",
+      "magic missile|xphb",
+      "magic weapon|xphb",
+      "nystul's magic aura|xphb"
+     ],
+     "5": [
+      "counterspell|xphb",
+      "dispel magic|xphb"
+     ],
+     "7": [
+      "arcane eye|xphb",
+      "leomund's secret chest|xphb"
+     ],
+     "9": [
+      "bigby's hand|xphb",
+      "teleportation circle|xphb"
+     ],
+     "17": [
+      {
+       "choose": "level=6|class=Wizard"
+      },
+      {
+       "choose": "level=7|class=Wizard"
+      },
+      {
+       "choose": "level=8|class=Wizard"
+      },
+      {
+       "choose": "level=9|class=Wizard"
+      }
+     ]
+    },
+    "ability": "wis"
+   }
+  ],
+  "subclassFeatures": [
+   "Arcana Domain|Cleric|XPHB|Arcana|AU|3|AU",
+   "Dispelling Recovery|Cleric|XPHB|Arcana|AU|6|AU",
+   "Magical Mastery|Cleric|XPHB|Arcana|AU|17|AU"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Arcana Domain",
+  "shortName": "Arcana",
   "source": "SCAG",
   "className": "Cleric",
   "classSource": "PHB",
   "page": 125,
+  "reprintedAs": [
+   "Arcana|Cleric|XPHB|AU"
+  ],
   "edition": "classic",
   "additionalSpells": [
    {
@@ -482,6 +547,9 @@
   "source": "SCAG",
   "className": "Cleric",
   "classSource": "XPHB",
+  "reprintedAs": [
+   "Arcana|Cleric|XPHB|AU"
+  ],
   "_copy": {
    "name": "Arcana Domain",
    "source": "SCAG",
@@ -516,10 +584,63 @@
  {
   "name": "Arcane Archer",
   "shortName": "Arcane Archer",
+  "source": "AU",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "edition": "one",
+  "spellcastingAbility": "int",
+  "additionalSpells": [
+   {
+    "known": {
+     "3": [
+      "druidcraft|xphb#c"
+     ]
+    }
+   },
+   {
+    "known": {
+     "3": [
+      "prestidigitation|xphb#c"
+     ]
+    }
+   }
+  ],
+  "optionalfeatureProgression": [
+   {
+    "name": "Arcane Shots",
+    "featureType": [
+     "AS"
+    ],
+    "progression": {
+     "3": 2,
+     "7": 3,
+     "10": 4,
+     "15": 5,
+     "18": 6
+    }
+   }
+  ],
+  "subclassFeatures": [
+   "Arcane Archer|Fighter|XPHB|Arcane Archer|AU|3|AU",
+   "Curving Shot|Fighter|XPHB|Arcane Archer|AU|7|AU",
+   "Magical Ammunition|Fighter|XPHB|Arcane Archer|AU|7|AU",
+   "Ever-Ready Shot|Fighter|XPHB|Arcane Archer|AU|10|AU",
+   "Indomitable Teleport|Fighter|XPHB|Arcane Archer|AU|15|AU",
+   "Masterful Shots|Fighter|XPHB|Arcane Archer|AU|18|AU"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Arcane Archer",
+  "shortName": "Arcane Archer",
   "source": "XGE",
   "className": "Fighter",
   "classSource": "PHB",
   "page": 28,
+  "reprintedAs": [
+   "Arcane Archer|Fighter|XPHB|AU"
+  ],
   "edition": "classic",
   "additionalSpells": [
    {
@@ -571,6 +692,9 @@
   "source": "XGE",
   "className": "Fighter",
   "classSource": "XPHB",
+  "reprintedAs": [
+   "Arcane Archer|Fighter|XPHB|AU"
+  ],
   "_copy": {
    "name": "Arcane Archer",
    "source": "XGE",
@@ -3525,6 +3649,7 @@
   "source": "RHW",
   "className": "Bard",
   "classSource": "XPHB",
+  "page": 17,
   "edition": "one",
   "additionalSpells": [
    {
@@ -3800,6 +3925,72 @@
     "classSource": "PHB"
    }
   }
+ },
+ {
+  "name": "Conjurer",
+  "shortName": "Conjurer",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "edition": "one",
+  "additionalSpells": [
+   {
+    "known": {
+     "3": [
+      {
+       "choose": "level=0;1;2|class=Wizard|school=C"
+      },
+      {
+       "choose": "level=0;1;2|class=Wizard|school=C"
+      }
+     ],
+     "5": [
+      {
+       "choose": "level=0;1;2;3|class=Wizard|school=C"
+      }
+     ],
+     "7": [
+      {
+       "choose": "level=0;1;2;3;4|class=Wizard|school=C"
+      }
+     ],
+     "9": [
+      {
+       "choose": "level=0;1;2;3;4;5|class=Wizard|school=C"
+      }
+     ],
+     "11": [
+      {
+       "choose": "level=0;1;2;3;4;5;6|class=Wizard|school=C"
+      }
+     ],
+     "13": [
+      {
+       "choose": "level=0;1;2;3;4;5;6;7|class=Wizard|school=C"
+      }
+     ],
+     "15": [
+      {
+       "choose": "level=0;1;2;3;4;5;6;7;8|class=Wizard|school=C"
+      }
+     ],
+     "17": [
+      {
+       "choose": "level=0;1;2;3;4;5;6;7;8;9|class=Wizard|school=C"
+      }
+     ]
+    }
+   }
+  ],
+  "subclassFeatures": [
+   "Conjurer|Wizard|XPHB|Conjurer|AU|3|AU",
+   "Distant Transposition|Wizard|XPHB|Conjurer|AU|6|AU",
+   "Durable Summons|Wizard|XPHB|Conjurer|AU|6|AU",
+   "Focused Conjuration|Wizard|XPHB|Conjurer|AU|10|AU",
+   "Splintered Summons|Wizard|XPHB|Conjurer|AU|14|AU"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
  },
  {
   "name": "Death Domain",
@@ -5147,6 +5338,71 @@
   "hasFluffImages": true
  },
  {
+  "name": "Enchanter",
+  "shortName": "Enchanter",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "edition": "one",
+  "additionalSpells": [
+   {
+    "known": {
+     "3": [
+      {
+       "choose": "level=0;1;2|class=Wizard|school=E"
+      },
+      {
+       "choose": "level=0;1;2|class=Wizard|school=E"
+      }
+     ],
+     "5": [
+      {
+       "choose": "level=0;1;2;3|class=Wizard|school=E"
+      }
+     ],
+     "7": [
+      {
+       "choose": "level=0;1;2;3;4|class=Wizard|school=E"
+      }
+     ],
+     "9": [
+      {
+       "choose": "level=0;1;2;3;4;5|class=Wizard|school=E"
+      }
+     ],
+     "11": [
+      {
+       "choose": "level=0;1;2;3;4;5;6|class=Wizard|school=E"
+      }
+     ],
+     "13": [
+      {
+       "choose": "level=0;1;2;3;4;5;6;7|class=Wizard|school=E"
+      }
+     ],
+     "15": [
+      {
+       "choose": "level=0;1;2;3;4;5;6;7;8|class=Wizard|school=E"
+      }
+     ],
+     "17": [
+      {
+       "choose": "level=0;1;2;3;4;5;6;7;8;9|class=Wizard|school=E"
+      }
+     ]
+    }
+   }
+  ],
+  "subclassFeatures": [
+   "Enchanter|Wizard|XPHB|Enchanter|AU|3|AU",
+   "Split Enchantment|Wizard|XPHB|Enchanter|AU|6|AU",
+   "Instinctive Charm|Wizard|XPHB|Enchanter|AU|10|AU",
+   "Alter Memories|Wizard|XPHB|Enchanter|AU|14|AU"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Evoker",
   "shortName": "Evoker",
   "source": "XPHB",
@@ -5551,6 +5807,7 @@
   "source": "RHW",
   "className": "Cleric",
   "classSource": "XPHB",
+  "page": 19,
   "edition": "one",
   "additionalSpells": [
    {
@@ -5793,6 +6050,7 @@
   "source": "RHW",
   "className": "Ranger",
   "classSource": "XPHB",
+  "page": 20,
   "edition": "one",
   "additionalSpells": [
    {
@@ -6760,6 +7018,87 @@
    "Dampen Elements|Cleric||Nature||6",
    "Master of Nature|Cleric||Nature||17"
   ]
+ },
+ {
+  "name": "Necromancer",
+  "shortName": "Necromancer",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "edition": "one",
+  "additionalSpells": [
+   {
+    "known": {
+     "3": [
+      "find familiar|xphb",
+      {
+       "choose": "level=0;1;2|class=Wizard|school=N"
+      },
+      {
+       "choose": "level=0;1;2|class=Wizard|school=N"
+      }
+     ],
+     "5": [
+      {
+       "choose": "level=0;1;2;3|class=Wizard|school=N"
+      }
+     ],
+     "7": [
+      {
+       "choose": "level=0;1;2;3;4|class=Wizard|school=N"
+      }
+     ],
+     "9": [
+      {
+       "choose": "level=0;1;2;3;4;5|class=Wizard|school=N"
+      }
+     ],
+     "11": [
+      {
+       "choose": "level=0;1;2;3;4;5;6|class=Wizard|school=N"
+      }
+     ],
+     "13": [
+      {
+       "choose": "level=0;1;2;3;4;5;6;7|class=Wizard|school=N"
+      }
+     ],
+     "15": [
+      {
+       "choose": "level=0;1;2;3;4;5;6;7;8|class=Wizard|school=N"
+      }
+     ],
+     "17": [
+      {
+       "choose": "level=0;1;2;3;4;5;6;7;8;9|class=Wizard|school=N"
+      }
+     ]
+    },
+    "prepared": {
+     "6": [
+      "animate dead|xphb"
+     ]
+    },
+    "innate": {
+     "6": {
+      "daily": {
+       "1": [
+        "animate dead|xphb"
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "subclassFeatures": [
+   "Necromancer|Wizard|XPHB|Necromancer|AU|3|AU",
+   "Grave Power|Wizard|XPHB|Necromancer|AU|6|AU",
+   "Undead Thralls|Wizard|XPHB|Necromancer|AU|6|AU",
+   "Harvest Undead|Wizard|XPHB|Necromancer|AU|10|AU",
+   "Death's Master|Wizard|XPHB|Necromancer|AU|14|AU"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
  },
  {
   "name": "Oath of Conquest",
@@ -8443,6 +8782,7 @@
   "source": "RHW",
   "className": "Rogue",
   "classSource": "XPHB",
+  "page": 21,
   "edition": "one",
   "additionalSpells": [
    {
@@ -8813,6 +9153,7 @@
   "source": "RHW",
   "className": "Artificer",
   "classSource": "EFA",
+  "page": 15,
   "additionalSpells": [
    {
     "prepared": {
@@ -9006,6 +9347,9 @@
   "className": "Wizard",
   "classSource": "PHB",
   "page": 116,
+  "reprintedAs": [
+   "Conjurer|Wizard|XPHB|AU"
+  ],
   "edition": "classic",
   "subclassFeatures": [
    "School of Conjuration|Wizard||Conjuration||2",
@@ -9020,6 +9364,9 @@
   "source": "PHB",
   "className": "Wizard",
   "classSource": "XPHB",
+  "reprintedAs": [
+   "Conjurer|Wizard|XPHB|AU"
+  ],
   "_copy": {
    "name": "School of Conjuration",
    "source": "PHB",
@@ -9095,6 +9442,9 @@
   "className": "Wizard",
   "classSource": "PHB",
   "page": 117,
+  "reprintedAs": [
+   "Enchanter|Wizard|XPHB|AU"
+  ],
   "edition": "classic",
   "subclassFeatures": [
    "School of Enchantment|Wizard||Enchantment||2",
@@ -9109,6 +9459,9 @@
   "source": "PHB",
   "className": "Wizard",
   "classSource": "XPHB",
+  "reprintedAs": [
+   "Enchanter|Wizard|XPHB|AU"
+  ],
   "_copy": {
    "name": "School of Enchantment",
    "source": "PHB",
@@ -9241,6 +9594,9 @@
   "className": "Wizard",
   "classSource": "PHB",
   "page": 118,
+  "reprintedAs": [
+   "Necromancer|Wizard|XPHB|AU"
+  ],
   "edition": "classic",
   "subclassFeatures": [
    "School of Necromancy|Wizard||Necromancy||2",
@@ -9255,6 +9611,9 @@
   "source": "PHB",
   "className": "Wizard",
   "classSource": "XPHB",
+  "reprintedAs": [
+   "Necromancer|Wizard|XPHB|AU"
+  ],
   "_copy": {
    "name": "School of Necromancy",
    "source": "PHB",
@@ -9284,6 +9643,9 @@
   "className": "Wizard",
   "classSource": "PHB",
   "page": 119,
+  "reprintedAs": [
+   "Transmuter|Wizard|XPHB|AU"
+  ],
   "edition": "classic",
   "subclassFeatures": [
    "School of Transmutation|Wizard||Transmutation||2",
@@ -9298,6 +9660,9 @@
   "source": "PHB",
   "className": "Wizard",
   "classSource": "XPHB",
+  "reprintedAs": [
+   "Transmuter|Wizard|XPHB|AU"
+  ],
   "_copy": {
    "name": "School of Transmutation",
    "source": "PHB",
@@ -9459,6 +9824,7 @@
   "source": "RHW",
   "className": "Sorcerer",
   "classSource": "XPHB",
+  "page": 23,
   "edition": "one",
   "additionalSpells": [
    {
@@ -10978,6 +11344,96 @@
   "hasFluffImages": true
  },
  {
+  "name": "Transmuter",
+  "shortName": "Transmuter",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "edition": "one",
+  "additionalSpells": [
+   {
+    "known": {
+     "3": [
+      {
+       "choose": "level=0;1;2|class=Wizard|school=T"
+      },
+      {
+       "choose": "level=0;1;2|class=Wizard|school=T"
+      }
+     ],
+     "5": [
+      {
+       "choose": "level=0;1;2;3|class=Wizard|school=T"
+      }
+     ],
+     "7": [
+      {
+       "choose": "level=0;1;2;3;4|class=Wizard|school=T"
+      }
+     ],
+     "9": [
+      {
+       "choose": "level=0;1;2;3;4;5|class=Wizard|school=T"
+      }
+     ],
+     "11": [
+      {
+       "choose": "level=0;1;2;3;4;5;6|class=Wizard|school=T"
+      }
+     ],
+     "13": [
+      {
+       "choose": "level=0;1;2;3;4;5;6;7|class=Wizard|school=T"
+      }
+     ],
+     "15": [
+      {
+       "choose": "level=0;1;2;3;4;5;6;7;8|class=Wizard|school=T"
+      }
+     ],
+     "17": [
+      {
+       "choose": "level=0;1;2;3;4;5;6;7;8;9|class=Wizard|school=T"
+      }
+     ]
+    },
+    "prepared": {
+     "3": [
+      "alter self|xphb"
+     ],
+     "10": [
+      "polymorph|xphb"
+     ]
+    },
+    "innate": {
+     "3": {
+      "daily": {
+       "1": [
+        "alter self|xphb"
+       ]
+      }
+     },
+     "10": {
+      "daily": {
+       "1": [
+        "polymorph|xphb"
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "subclassFeatures": [
+   "Transmuter|Wizard|XPHB|Transmuter|AU|3|AU",
+   "Empowered Transmutation|Wizard|XPHB|Transmuter|AU|6|AU",
+   "Potent Stone|Wizard|XPHB|Transmuter|AU|10|AU",
+   "Shape-Shifter|Wizard|XPHB|Transmuter|AU|10|AU",
+   "Master Transmuter|Wizard|XPHB|Transmuter|AU|14|AU"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Trickery Domain",
   "shortName": "Trickery",
   "source": "PHB",
@@ -11177,6 +11633,7 @@
   "source": "RHW",
   "className": "Warlock",
   "classSource": "XPHB",
+  "page": 24,
   "edition": "one",
   "additionalSpells": [
    {
@@ -11208,6 +11665,116 @@
    "Necrotic Husk|Warlock|XPHB|Undead|RHW|10|RHW",
    "Superior Dread|Warlock|XPHB|Undead|RHW|14|RHW"
   ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Vestige Patron",
+  "shortName": "Vestige",
+  "source": "AU",
+  "className": "Warlock",
+  "classSource": "XPHB",
+  "edition": "one",
+  "additionalSpells": [
+   {
+    "name": "Life Domain",
+    "prepared": {
+     "3": [
+      "aid|xphb",
+      "bless|xphb",
+      "cure wounds|xphb",
+      "lesser restoration|xphb"
+     ],
+     "5": [
+      "mass healing word|xphb",
+      "revivify|xphb"
+     ],
+     "7": [
+      "aura of life|xphb",
+      "death ward|xphb"
+     ],
+     "9": [
+      "greater restoration|xphb",
+      "mass cure wounds|xphb"
+     ]
+    }
+   },
+   {
+    "name": "Light Domain",
+    "prepared": {
+     "3": [
+      "burning hands|xphb",
+      "faerie fire|xphb",
+      "scorching ray|xphb",
+      "see invisibility|xphb"
+     ],
+     "5": [
+      "daylight|xphb",
+      "fireball|xphb"
+     ],
+     "7": [
+      "arcane eye|xphb",
+      "wall of fire|xphb"
+     ],
+     "9": [
+      "flame strike|xphb",
+      "scrying|xphb"
+     ]
+    }
+   },
+   {
+    "name": "Trickery Domain",
+    "prepared": {
+     "3": [
+      "charm person|xphb",
+      "disguise self|xphb",
+      "invisibility|xphb",
+      "pass without trace|xphb"
+     ],
+     "5": [
+      "hypnotic pattern|xphb",
+      "nondetection|xphb"
+     ],
+     "7": [
+      "confusion|xphb",
+      "dimension door|xphb"
+     ],
+     "9": [
+      "dominate person|xphb",
+      "modify memory|xphb"
+     ]
+    }
+   },
+   {
+    "name": "War Domain",
+    "prepared": {
+     "3": [
+      "guiding bolt|xphb",
+      "magic weapon|xphb",
+      "shield of faith|xphb",
+      "spiritual weapon|xphb"
+     ],
+     "5": [
+      "crusader's mantle|xphb",
+      "spirit guardians|xphb"
+     ],
+     "7": [
+      "fire shield|xphb",
+      "freedom of movement|xphb"
+     ],
+     "9": [
+      "hold monster|xphb",
+      "steel wind strike|xphb"
+     ]
+    }
+   }
+  ],
+  "subclassFeatures": [
+   "Vestige Patron|Warlock|XPHB|Vestige|AU|3|AU",
+   "Vestige Power|Warlock|XPHB|Vestige|AU|6|AU",
+   "Vestige Recovery|Warlock|XPHB|Vestige|AU|10|AU",
+   "Semblance of Life|Warlock|XPHB|Vestige|AU|14|AU"
+  ],
+  "hasFluff": true,
   "hasFluffImages": true
  },
  {
@@ -11453,6 +12020,311 @@
    "Stride of the Elements|Monk|XPHB|Elements|XPHB|11",
    "Elemental Epitome|Monk|XPHB|Elements|XPHB|17"
   ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Warrior of the Mystic Arts",
+  "shortName": "Mystic Arts",
+  "source": "AU",
+  "className": "Monk",
+  "classSource": "XPHB",
+  "edition": "one",
+  "spellcastingAbility": "wis",
+  "casterProgression": "1/3",
+  "preparedSpellsProgression": [
+   0,
+   0,
+   3,
+   4,
+   4,
+   4,
+   5,
+   6,
+   6,
+   7,
+   8,
+   8,
+   9,
+   10,
+   10,
+   11,
+   11,
+   11,
+   12,
+   13
+  ],
+  "preparedSpellsChange": "level",
+  "cantripProgression": [
+   0,
+   0,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "additionalSpells": [
+   {
+    "expanded": {
+     "3": [
+      {
+       "all": "level=0|class=Sorcerer"
+      },
+      {
+       "all": "level=1|class=Sorcerer"
+      }
+     ],
+     "7": [
+      {
+       "all": "level=2|class=Sorcerer"
+      }
+     ],
+     "13": [
+      {
+       "all": "level=3|class=Sorcerer"
+      }
+     ],
+     "19": [
+      {
+       "all": "level=4|class=Sorcerer"
+      }
+     ]
+    }
+   }
+  ],
+  "subclassTableGroups": [
+   {
+    "subclasses": [
+     {
+      "name": "Warrior of the Mystic Arts",
+      "source": "AU"
+     }
+    ],
+    "colLabels": [
+     "{@filter Prepared Spells|spells|subclass=Monk: Warrior of the Mystic Arts}"
+    ],
+    "rows": [
+     [
+      0
+     ],
+     [
+      0
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ],
+     [
+      4
+     ],
+     [
+      4
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ],
+     [
+      10
+     ],
+     [
+      10
+     ],
+     [
+      11
+     ],
+     [
+      11
+     ],
+     [
+      11
+     ],
+     [
+      12
+     ],
+     [
+      13
+     ]
+    ]
+   },
+   {
+    "title": "Spell Slots per Spell Level",
+    "subclasses": [
+     {
+      "name": "Warrior of the Mystic Arts",
+      "source": "AU"
+     }
+    ],
+    "colLabels": [
+     "{@filter 1st|spells|level=1|subclass=Monk: Warrior of the Mystic Arts}",
+     "{@filter 2nd|spells|level=2|subclass=Monk: Warrior of the Mystic Arts}",
+     "{@filter 3rd|spells|level=3|subclass=Monk: Warrior of the Mystic Arts}",
+     "{@filter 4th|spells|level=4|subclass=Monk: Warrior of the Mystic Arts}"
+    ],
+    "rowsSpellProgression": [
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      2,
+      0,
+      0
+     ],
+     [
+      4,
+      2,
+      0,
+      0
+     ],
+     [
+      4,
+      2,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      2,
+      0
+     ],
+     [
+      4,
+      3,
+      2,
+      0
+     ],
+     [
+      4,
+      3,
+      2,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      1
+     ],
+     [
+      4,
+      3,
+      3,
+      1
+     ]
+    ]
+   }
+  ],
+  "subclassFeatures": [
+   "Warrior of the Mystic Arts|Monk|XPHB|Mystic Arts|AU|3|AU",
+   "Mystic Fighting Style|Monk|XPHB|Mystic Arts|AU|6|AU",
+   "Mystic Focus|Monk|XPHB|Mystic Arts|AU|6|AU",
+   "Focused Strike|Monk|XPHB|Mystic Arts|AU|11|AU",
+   "Improved Mystic Fighting Style|Monk|XPHB|Mystic Arts|AU|17|AU"
+  ],
+  "hasFluff": true,
   "hasFluffImages": true
  },
  {

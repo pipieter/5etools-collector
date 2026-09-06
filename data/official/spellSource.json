@@ -200,6 +200,12 @@
  {
   "spellName": "Incite Greed",
   "spellSource": "AI",
+  "casterName": "Sorcerer",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Incite Greed",
+  "spellSource": "AI",
   "casterName": "Wizard",
   "casterSource": "PHB"
  },
@@ -213,6 +219,12 @@
   "spellName": "Incite Greed",
   "spellSource": "AI",
   "casterName": "Cleric",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Incite Greed",
+  "spellSource": "AI",
+  "casterName": "Sorcerer",
   "casterSource": "XPHB"
  },
  {
@@ -17296,5 +17308,1223 @@
   "spellSource": "EFA",
   "casterName": "Artificer",
   "casterSource": "EFA"
+ },
+ {
+  "spellName": "Aura of Evasion",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Aura of Evasion",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Aura of Evasion",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Aura of Evasion",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Aura of Evasion",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Aura of Evasion",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Battle Familiar",
+  "spellSource": "AU",
+  "casterName": "Druid",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Battle Familiar",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Battle Familiar",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Battle Familiar",
+  "spellSource": "AU",
+  "casterName": "Druid",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Battle Familiar",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Battle Familiar",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Catnap",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Catnap",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Catnap",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Catnap",
+  "spellSource": "AU",
+  "casterName": "Artificer",
+  "casterSource": "TCE"
+ },
+ {
+  "spellName": "Catnap",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Catnap",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Catnap",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Catnap",
+  "spellSource": "AU",
+  "casterName": "Artificer",
+  "casterSource": "EFA"
+ },
+ {
+  "spellName": "Detonate",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Detonate",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Detonate",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Detonate",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Detonate",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Detonate",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Disruptive Tune",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Disruptive Tune",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Disruptive Tune",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Disruptive Tune",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Disruptive Tune",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Disruptive Tune",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Distorted Distance",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Distorted Distance",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Distorted Distance",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Distorted Distance",
+  "spellSource": "AU",
+  "casterName": "Artificer",
+  "casterSource": "TCE"
+ },
+ {
+  "spellName": "Distorted Distance",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Distorted Distance",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Distorted Distance",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Distorted Distance",
+  "spellSource": "AU",
+  "casterName": "Artificer",
+  "casterSource": "EFA"
+ },
+ {
+  "spellName": "Dueling Ground",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Dueling Ground",
+  "spellSource": "AU",
+  "casterName": "Cleric",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Dueling Ground",
+  "spellSource": "AU",
+  "casterName": "Druid",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Dueling Ground",
+  "spellSource": "AU",
+  "casterName": "Paladin",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Dueling Ground",
+  "spellSource": "AU",
+  "casterName": "Ranger",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Dueling Ground",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Dueling Ground",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Dueling Ground",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Dueling Ground",
+  "spellSource": "AU",
+  "casterName": "Artificer",
+  "casterSource": "TCE"
+ },
+ {
+  "spellName": "Dueling Ground",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Dueling Ground",
+  "spellSource": "AU",
+  "casterName": "Cleric",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Dueling Ground",
+  "spellSource": "AU",
+  "casterName": "Druid",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Dueling Ground",
+  "spellSource": "AU",
+  "casterName": "Paladin",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Dueling Ground",
+  "spellSource": "AU",
+  "casterName": "Ranger",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Dueling Ground",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Dueling Ground",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Dueling Ground",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Dueling Ground",
+  "spellSource": "AU",
+  "casterName": "Artificer",
+  "casterSource": "EFA"
+ },
+ {
+  "spellName": "Enervation",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Enervation",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Enervation",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Enervation",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Enervation",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Enervation",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Entrancing Mirrors",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Entrancing Mirrors",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Entrancing Mirrors",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Entrancing Mirrors",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Entrancing Mirrors",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Entrancing Mirrors",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Entrancing Mirrors",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Entrancing Mirrors",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Festering Blast",
+  "spellSource": "AU",
+  "casterName": "Druid",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Festering Blast",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Festering Blast",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Festering Blast",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Festering Blast",
+  "spellSource": "AU",
+  "casterName": "Druid",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Festering Blast",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Festering Blast",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Festering Blast",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Fractured Awareness",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Fractured Awareness",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Fractured Awareness",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Fractured Awareness",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Fractured Awareness",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Fractured Awareness",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Fractured Awareness",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Fractured Awareness",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Grave Ground",
+  "spellSource": "AU",
+  "casterName": "Cleric",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Grave Ground",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Grave Ground",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Grave Ground",
+  "spellSource": "AU",
+  "casterName": "Cleric",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Grave Ground",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Grave Ground",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Hindsight",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Hindsight",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Illusory Dragon",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Illusory Dragon",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Inflict Doubt",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Inflict Doubt",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Inflict Doubt",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Inflict Doubt",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Inflict Doubt",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Inflict Doubt",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Inflict Doubt",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Inflict Doubt",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Invulnerability",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Iron Body",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Iron Body",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Iron Body",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Iron Body",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Iron Body",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Iron Body",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Lightning Ring",
+  "spellSource": "AU",
+  "casterName": "Druid",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Lightning Ring",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Lightning Ring",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Lightning Ring",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Lightning Ring",
+  "spellSource": "AU",
+  "casterName": "Druid",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Lightning Ring",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Lightning Ring",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Lightning Ring",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Moment of Prescience",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Moment of Prescience",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Mordenkainen's Lucubration",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Mordenkainen's Lucubration",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Negative Energy Flood",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Negative Energy Flood",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Negative Energy Flood",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Negative Energy Flood",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Power Word Pain",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Power Word Pain",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Power Word Pain",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Power Word Pain",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Power Word Pain",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Power Word Pain",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Power Word Pain",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Power Word Pain",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Reweave Fate",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Reweave Fate",
+  "spellSource": "AU",
+  "casterName": "Cleric",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Reweave Fate",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Reweave Fate",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Reweave Fate",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Reweave Fate",
+  "spellSource": "AU",
+  "casterName": "Cleric",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Reweave Fate",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Reweave Fate",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Spirit Lantern",
+  "spellSource": "AU",
+  "casterName": "Cleric",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Spirit Lantern",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Spirit Lantern",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Spirit Lantern",
+  "spellSource": "AU",
+  "casterName": "Artificer",
+  "casterSource": "TCE"
+ },
+ {
+  "spellName": "Spirit Lantern",
+  "spellSource": "AU",
+  "casterName": "Cleric",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Spirit Lantern",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Spirit Lantern",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Spirit Lantern",
+  "spellSource": "AU",
+  "casterName": "Artificer",
+  "casterSource": "EFA"
+ },
+ {
+  "spellName": "Summon Dinosaur",
+  "spellSource": "AU",
+  "casterName": "Druid",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Summon Dinosaur",
+  "spellSource": "AU",
+  "casterName": "Druid",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Summon Plant",
+  "spellSource": "AU",
+  "casterName": "Druid",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Summon Plant",
+  "spellSource": "AU",
+  "casterName": "Ranger",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Summon Plant",
+  "spellSource": "AU",
+  "casterName": "Druid",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Summon Plant",
+  "spellSource": "AU",
+  "casterName": "Ranger",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Transfix",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Transfix",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Transfix",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Transfix",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Transfix",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Transfix",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Uncertain Footing",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Uncertain Footing",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Uncertain Footing",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Uncertain Footing",
+  "spellSource": "AU",
+  "casterName": "Artificer",
+  "casterSource": "TCE"
+ },
+ {
+  "spellName": "Uncertain Footing",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Uncertain Footing",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Uncertain Footing",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Uncertain Footing",
+  "spellSource": "AU",
+  "casterName": "Artificer",
+  "casterSource": "EFA"
+ },
+ {
+  "spellName": "Vision of Elapsing Eons",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Vision of Elapsing Eons",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Vision of Elapsing Eons",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Vision of Elapsing Eons",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Vision of Elapsing Eons",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Vision of Elapsing Eons",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Vision of Elapsing Eons",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Vision of Elapsing Eons",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Wail of the Banshee",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Wail of the Banshee",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Wail of the Banshee",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Wail of the Banshee",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Wail of the Banshee",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Wail of the Banshee",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Waves of Exhaustion",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Waves of Exhaustion",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Waves of Exhaustion",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Waves of Exhaustion",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Waves of Exhaustion",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Waves of Exhaustion",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Wither and Bloom",
+  "spellSource": "AU",
+  "casterName": "Druid",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Wither and Bloom",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Wither and Bloom",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Wither and Bloom",
+  "spellSource": "AU",
+  "casterName": "Druid",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Wither and Bloom",
+  "spellSource": "AU",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Wither and Bloom",
+  "spellSource": "AU",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Zone of Amicability",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Zone of Amicability",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "PHB"
+ },
+ {
+  "spellName": "Zone of Amicability",
+  "spellSource": "AU",
+  "casterName": "Bard",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Zone of Amicability",
+  "spellSource": "AU",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
  }
 ]

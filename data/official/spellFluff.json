@@ -286,6 +286,23 @@
   ]
  },
  {
+  "name": "Detonate",
+  "source": "AU",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/AU/Detonate.webp"
+    },
+    "title": "An enraged mage uses the {@spell Detonate|AU} spell on a foe.",
+    "credit": "Ivan Shavrin",
+    "width": 850,
+    "height": 1967
+   }
+  ]
+ },
+ {
   "name": "Dimension Door",
   "source": "PHB",
   "images": [
@@ -363,6 +380,23 @@
     "credit": "Olga Drebas",
     "width": 1093,
     "height": 1440
+   }
+  ]
+ },
+ {
+  "name": "Dueling Ground",
+  "source": "AU",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/AU/Dueling Ground.webp"
+    },
+    "title": "Rival mages engage in battle using the {@spell Dueling Ground|AU} spell.",
+    "credit": "Kevin Glint",
+    "width": 1700,
+    "height": 1239
    }
   ]
  },
@@ -600,6 +634,23 @@
     "credit": "Calder Moore",
     "width": 696,
     "height": 821
+   }
+  ]
+ },
+ {
+  "name": "Illusory Dragon",
+  "source": "AU",
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "spells/AU/Illusory Dragon.webp"
+    },
+    "title": "Illusory dragons look terrifyingly real.",
+    "credit": "Julie Dillon",
+    "width": 850,
+    "height": 1861
    }
   ]
  },

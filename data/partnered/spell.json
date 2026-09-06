@@ -45,10 +45,6 @@
   "classes": {
    "fromClassList": [
     {
-     "name": "Artificer",
-     "source": "EFA"
-    },
-    {
      "name": "Druid",
      "source": "XPHB"
     },
@@ -63,6 +59,10 @@
     {
      "name": "Wizard",
      "source": "XPHB"
+    },
+    {
+     "name": "Artificer",
+     "source": "EFA"
     }
    ]
   }
@@ -487,19 +487,19 @@
    "fromClassList": [
     {
      "name": "Cleric",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Druid",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Ranger",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -723,11 +723,6 @@
     {
      "name": "Druid",
      "source": "PHB",
-     "definedInSource": "GrimHollowLairsEtharis"
-    },
-    {
-     "name": "Druid",
-     "source": "XPHB",
      "definedInSource": "GrimHollowLairsEtharis"
     }
    ]
@@ -1462,26 +1457,6 @@
    "fromClassList": [
     {
      "name": "Bard",
-     "source": "PHB"
-    },
-    {
-     "name": "Cleric",
-     "source": "PHB"
-    },
-    {
-     "name": "Sorcerer",
-     "source": "PHB"
-    },
-    {
-     "name": "Warlock",
-     "source": "PHB"
-    },
-    {
-     "name": "Wizard",
-     "source": "PHB"
-    },
-    {
-     "name": "Bard",
      "source": "XPHB"
     },
     {
@@ -1624,10 +1599,6 @@
   "classes": {
    "fromClassList": [
     {
-     "name": "Artificer",
-     "source": "EFA"
-    },
-    {
      "name": "Bard",
      "source": "XPHB"
     },
@@ -1638,9 +1609,160 @@
     {
      "name": "Wizard",
      "source": "XPHB"
+    },
+    {
+     "name": "Artificer",
+     "source": "EFA"
+    }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of Lore",
+      "shortName": "Lore",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Cleric",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcana Domain",
+      "shortName": "Arcana",
+      "source": "SCAG"
+     }
+    },
+    {
+     "class": {
+      "name": "Fighter",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Eldritch Knight",
+      "shortName": "Eldritch Knight",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Rogue",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcane Trickster",
+      "shortName": "Arcane Trickster",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Wizard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Illusionist",
+      "shortName": "Illusionist",
+      "source": "XPHB"
+     }
     }
    ]
-  }
+  },
+  "races": [
+   {
+    "name": "Elf (High)",
+    "source": "PHB",
+    "baseName": "Elf",
+    "baseSource": "PHB"
+   },
+   {
+    "name": "Elf",
+    "source": "XPHB"
+   },
+   {
+    "name": "Half-Elf (Variant; Moon Elf or Sun Elf Descent)",
+    "source": "SCAG",
+    "baseName": "Half-Elf",
+    "baseSource": "PHB"
+   },
+   {
+    "name": "Khoravar",
+    "source": "EFA"
+   },
+   {
+    "name": "Kobold",
+    "source": "MPMM"
+   },
+   {
+    "name": "Merfolk (Ixalan; Blue)",
+    "source": "PSX",
+    "baseName": "Merfolk",
+    "baseSource": "PSZ"
+   },
+   {
+    "name": "Merfolk (Zendikar; Cosi Creed)",
+    "source": "PSZ",
+    "baseName": "Merfolk",
+    "baseSource": "PSZ"
+   },
+   {
+    "name": "Merfolk (Zendikar; Ula Creed)",
+    "source": "PSZ",
+    "baseName": "Merfolk",
+    "baseSource": "PSZ"
+   }
+  ],
+  "optionalfeatures": [
+   {
+    "name": "Pact of the Tome",
+    "source": "PHB",
+    "featureType": [
+     "PB"
+    ]
+   },
+   {
+    "name": "Pact of the Tome",
+    "source": "XPHB",
+    "featureType": [
+     "EI"
+    ]
+   }
+  ],
+  "feats": [
+   {
+    "name": "Aberrant Dragonmark",
+    "source": "ERLW"
+   },
+   {
+    "name": "Aberrant Dragonmark",
+    "source": "EFA"
+   },
+   {
+    "name": "Artificer Initiate",
+    "source": "TCE"
+   },
+   {
+    "name": "Cold Caster",
+    "source": "FRHoF"
+   },
+   {
+    "name": "Initiate of High Sorcery",
+    "source": "DSotDQ"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "PHB"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "XPHB"
+   }
+  ]
  },
  {
   "name": "Aura of Desecration",
@@ -3081,15 +3203,15 @@
    "fromClassList": [
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -3353,15 +3475,15 @@
    "fromClassList": [
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -4585,19 +4707,19 @@
    "fromClassList": [
     {
      "name": "Druid",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -4983,22 +5105,6 @@
    "fromClassList": [
     {
      "name": "Druid",
-     "source": "PHB"
-    },
-    {
-     "name": "Ranger",
-     "source": "PHB"
-    },
-    {
-     "name": "Sorcerer",
-     "source": "PHB"
-    },
-    {
-     "name": "Wizard",
-     "source": "PHB"
-    },
-    {
-     "name": "Druid",
      "source": "XPHB"
     },
     {
@@ -5177,19 +5283,19 @@
    "fromClassList": [
     {
      "name": "Bard",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Druid",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Ranger",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -5865,23 +5971,23 @@
    "fromClassList": [
     {
      "name": "Bard",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Cleric",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -6102,11 +6208,11 @@
    "fromClassList": [
     {
      "name": "Paladin",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -6708,23 +6814,23 @@
    "fromClassList": [
     {
      "name": "Bard",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Cleric",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -7484,8 +7590,80 @@
      "name": "Wizard",
      "source": "XPHB"
     }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of Lore",
+      "shortName": "Lore",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Fighter",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Eldritch Knight",
+      "shortName": "Eldritch Knight",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Rogue",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcane Trickster",
+      "shortName": "Arcane Trickster",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Wizard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Evoker",
+      "shortName": "Evoker",
+      "source": "XPHB"
+     }
+    }
    ]
   },
+  "feats": [
+   {
+    "name": "Aberrant Dragonmark",
+    "source": "ERLW"
+   },
+   {
+    "name": "Aberrant Dragonmark",
+    "source": "EFA"
+   },
+   {
+    "name": "Boon of Siberys",
+    "source": "EFA"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "PHB"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "XPHB"
+   },
+   {
+    "name": "Strixhaven Initiate",
+    "source": "SCC"
+   }
+  ],
   "damageInflict": [
    "force"
   ],
@@ -8182,26 +8360,6 @@
      "name": "Wizard",
      "source": "PHB",
      "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Druid",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Sorcerer",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Warlock",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Wizard",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
     }
    ]
   },
@@ -8269,21 +8427,6 @@
     {
      "name": "Wizard",
      "source": "PHB",
-     "definedInSource": "GrimHollowLairsEtharis"
-    },
-    {
-     "name": "Cleric",
-     "source": "XPHB",
-     "definedInSource": "GrimHollowLairsEtharis"
-    },
-    {
-     "name": "Warlock",
-     "source": "XPHB",
-     "definedInSource": "GrimHollowLairsEtharis"
-    },
-    {
-     "name": "Wizard",
-     "source": "XPHB",
      "definedInSource": "GrimHollowLairsEtharis"
     }
    ]
@@ -8389,15 +8532,15 @@
    "fromClassList": [
     {
      "name": "Druid",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Paladin",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -8689,21 +8832,6 @@
      "name": "Wizard",
      "source": "PHB",
      "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Sorcerer",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Warlock",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Wizard",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
     }
    ]
   },
@@ -8782,36 +8910,6 @@
     {
      "name": "Wizard",
      "source": "PHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Bard",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Cleric",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Druid",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Sorcerer",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Warlock",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Wizard",
-     "source": "XPHB",
      "definedInSource": "DungeonsDrakkenheim"
     }
    ]
@@ -9429,23 +9527,23 @@
    "fromClassList": [
     {
      "name": "Druid",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Ranger",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -9733,15 +9831,15 @@
    "fromClassList": [
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -9976,19 +10074,19 @@
    "fromClassList": [
     {
      "name": "Druid",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Ranger",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -10313,19 +10411,19 @@
    "fromClassList": [
     {
      "name": "Druid",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -11585,15 +11683,15 @@
    "fromClassList": [
     {
      "name": "Bard",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -12406,26 +12504,6 @@
      "name": "Wizard",
      "source": "PHB",
      "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Bard",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Sorcerer",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Warlock",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Wizard",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
     }
    ]
   },
@@ -12502,21 +12580,6 @@
     {
      "name": "Wizard",
      "source": "PHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Sorcerer",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Warlock",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Wizard",
-     "source": "XPHB",
      "definedInSource": "DungeonsDrakkenheim"
     }
    ]
@@ -12655,15 +12718,15 @@
    "fromClassList": [
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -13001,7 +13064,7 @@
    "fromClassList": [
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -14441,6 +14504,7 @@
  {
   "name": "Earthbind",
   "source": "FoEQuickstone",
+  "page": 171,
   "level": 2,
   "school": "T",
   "time": [
@@ -15900,15 +15964,15 @@
    "fromClassList": [
     {
      "name": "Druid",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -16891,15 +16955,15 @@
    "fromClassList": [
     {
      "name": "Cleric",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Druid",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -18552,19 +18616,164 @@
   "classes": {
    "fromClassList": [
     {
-     "name": "Artificer",
-     "source": "EFA"
-    },
-    {
      "name": "Sorcerer",
      "source": "XPHB"
     },
     {
      "name": "Wizard",
      "source": "XPHB"
+    },
+    {
+     "name": "Artificer",
+     "source": "EFA"
+    }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of Lore",
+      "shortName": "Lore",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Cleric",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcana Domain",
+      "shortName": "Arcana",
+      "source": "SCAG"
+     }
+    },
+    {
+     "class": {
+      "name": "Fighter",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Eldritch Knight",
+      "shortName": "Eldritch Knight",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Rogue",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcane Trickster",
+      "shortName": "Arcane Trickster",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Wizard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Evoker",
+      "shortName": "Evoker",
+      "source": "XPHB"
+     }
     }
    ]
   },
+  "races": [
+   {
+    "name": "Elf (High)",
+    "source": "PHB",
+    "baseName": "Elf",
+    "baseSource": "PHB"
+   },
+   {
+    "name": "Elf",
+    "source": "XPHB"
+   },
+   {
+    "name": "Half-Elf (Variant; Moon Elf or Sun Elf Descent)",
+    "source": "SCAG",
+    "baseName": "Half-Elf",
+    "baseSource": "PHB"
+   },
+   {
+    "name": "Khoravar",
+    "source": "EFA"
+   },
+   {
+    "name": "Kobold",
+    "source": "MPMM"
+   },
+   {
+    "name": "Merfolk (Ixalan; Blue)",
+    "source": "PSX",
+    "baseName": "Merfolk",
+    "baseSource": "PSZ"
+   },
+   {
+    "name": "Merfolk (Zendikar; Ula Creed)",
+    "source": "PSZ",
+    "baseName": "Merfolk",
+    "baseSource": "PSZ"
+   }
+  ],
+  "optionalfeatures": [
+   {
+    "name": "Pact of the Tome",
+    "source": "PHB",
+    "featureType": [
+     "PB"
+    ]
+   },
+   {
+    "name": "Pact of the Tome",
+    "source": "XPHB",
+    "featureType": [
+     "EI"
+    ]
+   }
+  ],
+  "feats": [
+   {
+    "name": "Aberrant Dragonmark",
+    "source": "ERLW"
+   },
+   {
+    "name": "Aberrant Dragonmark",
+    "source": "EFA"
+   },
+   {
+    "name": "Artificer Initiate",
+    "source": "TCE"
+   },
+   {
+    "name": "Cold Caster",
+    "source": "FRHoF"
+   },
+   {
+    "name": "Initiate of High Sorcery",
+    "source": "DSotDQ"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "PHB"
+   },
+   {
+    "name": "Spell Sniper",
+    "source": "PHB"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "XPHB"
+   }
+  ],
   "damageInflict": [
    "force"
   ],
@@ -18625,21 +18834,6 @@
     {
      "name": "Wizard",
      "source": "PHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Sorcerer",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Warlock",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Wizard",
-     "source": "XPHB",
      "definedInSource": "DungeonsDrakkenheim"
     }
    ]
@@ -19684,15 +19878,15 @@
    "fromClassList": [
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -20625,6 +20819,7 @@
  {
   "name": "Gray Gaze",
   "source": "FoEQuickstone",
+  "page": 170,
   "level": 0,
   "school": "T",
   "time": [
@@ -21146,15 +21341,15 @@
    "fromClassList": [
     {
      "name": "Bard",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -21296,15 +21491,15 @@
    "fromClassList": [
     {
      "name": "Cleric",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Druid",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Ranger",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -21500,16 +21695,6 @@
     {
      "name": "Wizard",
      "source": "PHB",
-     "definedInSource": "GrimHollowLairsEtharis"
-    },
-    {
-     "name": "Sorcerer",
-     "source": "XPHB",
-     "definedInSource": "GrimHollowLairsEtharis"
-    },
-    {
-     "name": "Wizard",
-     "source": "XPHB",
      "definedInSource": "GrimHollowLairsEtharis"
     }
    ]
@@ -22247,15 +22432,15 @@
    "fromClassList": [
     {
      "name": "Paladin",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Ranger",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -22430,11 +22615,6 @@
     {
      "name": "Druid",
      "source": "PHB",
-     "definedInSource": "GrimHollowLairsEtharis"
-    },
-    {
-     "name": "Druid",
-     "source": "XPHB",
      "definedInSource": "GrimHollowLairsEtharis"
     }
    ]
@@ -23253,10 +23433,6 @@
    "fromClassList": [
     {
      "name": "Bard",
-     "source": "PHB"
-    },
-    {
-     "name": "Bard",
      "source": "XPHB"
     }
    ]
@@ -23375,19 +23551,19 @@
    "fromClassList": [
     {
      "name": "Bard",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -23635,11 +23811,11 @@
    "fromClassList": [
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -24464,18 +24640,6 @@
    "fromClassList": [
     {
      "name": "Bard",
-     "source": "PHB"
-    },
-    {
-     "name": "Sorcerer",
-     "source": "PHB"
-    },
-    {
-     "name": "Wizard",
-     "source": "PHB"
-    },
-    {
-     "name": "Bard",
      "source": "XPHB"
     },
     {
@@ -25236,19 +25400,19 @@
    "fromClassList": [
     {
      "name": "Bard",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Paladin",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Ranger",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -25746,23 +25910,159 @@
   "classes": {
    "fromClassList": [
     {
-     "name": "Artificer",
-     "source": "EFA"
-    },
-    {
      "name": "Bard",
      "source": "XPHB"
     },
     {
      "name": "Wizard",
      "source": "XPHB"
+    },
+    {
+     "name": "Artificer",
+     "source": "EFA"
+    }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of Lore",
+      "shortName": "Lore",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Cleric",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcana Domain",
+      "shortName": "Arcana",
+      "source": "SCAG"
+     }
+    },
+    {
+     "class": {
+      "name": "Fighter",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Eldritch Knight",
+      "shortName": "Eldritch Knight",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Rogue",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcane Trickster",
+      "shortName": "Arcane Trickster",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Wizard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Diviner",
+      "shortName": "Diviner",
+      "source": "XPHB"
+     }
     }
    ]
-  }
+  },
+  "races": [
+   {
+    "name": "Elf (High)",
+    "source": "PHB",
+    "baseName": "Elf",
+    "baseSource": "PHB"
+   },
+   {
+    "name": "Elf",
+    "source": "XPHB"
+   },
+   {
+    "name": "Half-Elf (Variant; Moon Elf or Sun Elf Descent)",
+    "source": "SCAG",
+    "baseName": "Half-Elf",
+    "baseSource": "PHB"
+   },
+   {
+    "name": "Khoravar",
+    "source": "EFA"
+   },
+   {
+    "name": "Merfolk (Ixalan; Blue)",
+    "source": "PSX",
+    "baseName": "Merfolk",
+    "baseSource": "PSZ"
+   },
+   {
+    "name": "Merfolk (Zendikar; Cosi Creed)",
+    "source": "PSZ",
+    "baseName": "Merfolk",
+    "baseSource": "PSZ"
+   },
+   {
+    "name": "Merfolk (Zendikar; Ula Creed)",
+    "source": "PSZ",
+    "baseName": "Merfolk",
+    "baseSource": "PSZ"
+   }
+  ],
+  "optionalfeatures": [
+   {
+    "name": "Pact of the Tome",
+    "source": "PHB",
+    "featureType": [
+     "PB"
+    ]
+   },
+   {
+    "name": "Pact of the Tome",
+    "source": "XPHB",
+    "featureType": [
+     "EI"
+    ]
+   }
+  ],
+  "feats": [
+   {
+    "name": "Artificer Initiate",
+    "source": "TCE"
+   },
+   {
+    "name": "Cold Caster",
+    "source": "FRHoF"
+   },
+   {
+    "name": "Initiate of High Sorcery",
+    "source": "DSotDQ"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "PHB"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "XPHB"
+   }
+  ]
  },
  {
   "name": "Magecraft",
   "source": "FoEQuickstone",
+  "page": 171,
   "level": 0,
   "_copy": {
    "name": "Magecraft",
@@ -25811,11 +26111,6 @@
     {
      "name": "Sorcerer",
      "source": "PHB",
-     "definedInSource": "GrimHollowLairsEtharis"
-    },
-    {
-     "name": "Sorcerer",
-     "source": "XPHB",
      "definedInSource": "GrimHollowLairsEtharis"
     }
    ]
@@ -26407,15 +26702,15 @@
    "fromClassList": [
     {
      "name": "Cleric",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Paladin",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -26974,24 +27269,12 @@
      "source": "PHB"
     },
     {
-     "name": "Druid",
-     "source": "XPHB"
-    },
-    {
      "name": "Sorcerer",
      "source": "PHB"
     },
     {
-     "name": "Sorcerer",
-     "source": "XPHB"
-    },
-    {
      "name": "Wizard",
      "source": "PHB"
-    },
-    {
-     "name": "Wizard",
-     "source": "XPHB"
     }
    ]
   },
@@ -27191,15 +27474,15 @@
    "fromClassList": [
     {
      "name": "Bard",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -27312,15 +27595,15 @@
    "fromClassList": [
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -27424,6 +27707,7 @@
  {
   "name": "Mold Earth",
   "source": "FoEQuickstone",
+  "page": 171,
   "level": 0,
   "school": "T",
   "time": [
@@ -27983,23 +28267,23 @@
    "fromClassList": [
     {
      "name": "Druid",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Ranger",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -28282,15 +28566,15 @@
    "fromClassList": [
     {
      "name": "Bard",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Druid",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -28554,46 +28838,6 @@
     {
      "name": "Wizard",
      "source": "PHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Bard",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Cleric",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Druid",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Paladin",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Ranger",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Sorcerer",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Warlock",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Wizard",
-     "source": "XPHB",
      "definedInSource": "DungeonsDrakkenheim"
     }
    ]
@@ -28863,26 +29107,6 @@
     {
      "name": "Wizard",
      "source": "PHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Bard",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Sorcerer",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Warlock",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Wizard",
-     "source": "XPHB",
      "definedInSource": "DungeonsDrakkenheim"
     }
    ]
@@ -31396,19 +31620,19 @@
    "fromClassList": [
     {
      "name": "Bard",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -31564,46 +31788,6 @@
     {
      "name": "Wizard",
      "source": "PHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Bard",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Cleric",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Druid",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Paladin",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Ranger",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Sorcerer",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Warlock",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Wizard",
-     "source": "XPHB",
      "definedInSource": "DungeonsDrakkenheim"
     }
    ]
@@ -31899,26 +32083,6 @@
     {
      "name": "Wizard",
      "source": "PHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Druid",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Sorcerer",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Warlock",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Wizard",
-     "source": "XPHB",
      "definedInSource": "DungeonsDrakkenheim"
     }
    ]
@@ -32705,26 +32869,6 @@
      "name": "Wizard",
      "source": "PHB",
      "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Bard",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Sorcerer",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Warlock",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Wizard",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
     }
    ]
   },
@@ -33109,26 +33253,6 @@
      "name": "Warlock",
      "source": "PHB",
      "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Bard",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Cleric",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Druid",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Warlock",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
     }
    ]
   }
@@ -33174,19 +33298,19 @@
    "fromClassList": [
     {
      "name": "Cleric",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Paladin",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -33350,15 +33474,15 @@
    "fromClassList": [
     {
      "name": "Bard",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Cleric",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Paladin",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -33477,15 +33601,15 @@
    "fromClassList": [
     {
      "name": "Cleric",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Paladin",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -33846,19 +33970,19 @@
    "fromClassList": [
     {
      "name": "Ranger",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -34046,27 +34170,27 @@
    "fromClassList": [
     {
      "name": "Cleric",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Druid",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Paladin",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Ranger",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -34355,16 +34479,6 @@
   ],
   "classes": {
    "fromClassListVariant": [
-    {
-     "name": "Cleric",
-     "source": "PHB",
-     "definedInSource": "DnDBeyondDrops"
-    },
-    {
-     "name": "Paladin",
-     "source": "PHB",
-     "definedInSource": "DnDBeyondDrops"
-    },
     {
      "name": "Cleric",
      "source": "XPHB",
@@ -34924,15 +35038,15 @@
    "fromClassList": [
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -36201,21 +36315,6 @@
     {
      "name": "Wizard",
      "source": "PHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Sorcerer",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Warlock",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Wizard",
-     "source": "XPHB",
      "definedInSource": "DungeonsDrakkenheim"
     }
    ]
@@ -38011,18 +38110,6 @@
    "fromClassList": [
     {
      "name": "Cleric",
-     "source": "PHB"
-    },
-    {
-     "name": "Druid",
-     "source": "PHB"
-    },
-    {
-     "name": "Ranger",
-     "source": "PHB"
-    },
-    {
-     "name": "Cleric",
      "source": "XPHB"
     },
     {
@@ -38470,26 +38557,6 @@
      "name": "Wizard",
      "source": "PHB",
      "definedInSource": "GrimHollowLairsEtharis"
-    },
-    {
-     "name": "Bard",
-     "source": "XPHB",
-     "definedInSource": "GrimHollowLairsEtharis"
-    },
-    {
-     "name": "Sorcerer",
-     "source": "XPHB",
-     "definedInSource": "GrimHollowLairsEtharis"
-    },
-    {
-     "name": "Warlock",
-     "source": "XPHB",
-     "definedInSource": "GrimHollowLairsEtharis"
-    },
-    {
-     "name": "Wizard",
-     "source": "XPHB",
-     "definedInSource": "GrimHollowLairsEtharis"
     }
    ]
   },
@@ -38696,19 +38763,19 @@
    "fromClassList": [
     {
      "name": "Cleric",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Druid",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Paladin",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Ranger",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -40388,21 +40455,6 @@
    "fromClassListVariant": [
     {
      "name": "Druid",
-     "source": "PHB",
-     "definedInSource": "DnDBeyondDrops"
-    },
-    {
-     "name": "Ranger",
-     "source": "PHB",
-     "definedInSource": "DnDBeyondDrops"
-    },
-    {
-     "name": "Artificer",
-     "source": "TCE",
-     "definedInSource": "DnDBeyondDrops"
-    },
-    {
-     "name": "Druid",
      "source": "XPHB",
      "definedInSource": "DnDBeyondDrops"
     },
@@ -41240,19 +41292,19 @@
    "fromClassList": [
     {
      "name": "Bard",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -41789,19 +41841,19 @@
    "fromClassList": [
     {
      "name": "Ranger",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Sorcerer",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Warlock",
-     "source": "PHB"
+     "source": "XPHB"
     },
     {
      "name": "Wizard",
-     "source": "PHB"
+     "source": "XPHB"
     }
    ]
   },
@@ -42116,16 +42168,6 @@
   ],
   "classes": {
    "fromClassListVariant": [
-    {
-     "name": "Warlock",
-     "source": "PHB",
-     "definedInSource": "DnDBeyondDrops"
-    },
-    {
-     "name": "Wizard",
-     "source": "PHB",
-     "definedInSource": "DnDBeyondDrops"
-    },
     {
      "name": "Warlock",
      "source": "XPHB",
@@ -42519,21 +42561,6 @@
     {
      "name": "Wizard",
      "source": "PHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Sorcerer",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Warlock",
-     "source": "XPHB",
-     "definedInSource": "DungeonsDrakkenheim"
-    },
-    {
-     "name": "Wizard",
-     "source": "XPHB",
      "definedInSource": "DungeonsDrakkenheim"
     }
    ]
@@ -43553,11 +43580,6 @@
     {
      "name": "Cleric",
      "source": "PHB",
-     "definedInSource": "GrimHollowLairsEtharis"
-    },
-    {
-     "name": "Cleric",
-     "source": "XPHB",
      "definedInSource": "GrimHollowLairsEtharis"
     }
    ]

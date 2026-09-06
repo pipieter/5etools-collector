@@ -606,6 +606,91 @@
   ]
  },
  {
+  "name": "Blade of the Guardian",
+  "source": "AU",
+  "page": 132,
+  "baseItem": "greatsword|xphb",
+  "type": "M|XPHB",
+  "rarity": "varies",
+  "reqAttune": true,
+  "weight": 6,
+  "weaponCategory": "martial",
+  "property": [
+   "H|XPHB",
+   "2H|XPHB",
+   "Evo|AU"
+  ],
+  "mastery": [
+   "Graze|XPHB"
+  ],
+  "dmg1": "2d6",
+  "dmgType": "S",
+  "entries": [
+   "In this example, a Paladin finds a treasured {@item Weapon of Warning|XDMG} ({@item Greatsword|XPHB}), an Uncommon magic item, early in her adventuring career. Each time the weapon evolves, the shield patterns etched into its blade become more intricate."
+  ],
+  "items": [
+   "Studious Blade of the Guardian|AU",
+   "Resistant Blade of the Guardian|AU",
+   "All-Seeing Blade of the Guardian|AU"
+  ]
+ },
+ {
+  "name": "Blossom Rod",
+  "source": "AU",
+  "page": 127,
+  "type": "RD|XDMG",
+  "rarity": "varies",
+  "reqAttune": "by a Spellcaster",
+  "reqAttuneTags": [
+   {
+    "spellcasting": true
+   }
+  ],
+  "property": [
+   "Evo|AU"
+  ],
+  "entries": [
+   "This rod is made of intertwined, living plant stems."
+  ],
+  "items": [
+   "Budding Blossom Rod|AU",
+   "Flowering Blossom Rod|AU",
+   "Somniferous Blossom Rod|AU"
+  ],
+  "attachedSpells": {
+   "will": [
+    "druidcraft|xphb"
+   ],
+   "daily": {
+    "1e": [
+     "plant growth|xphb"
+    ]
+   }
+  },
+  "hasFluffImages": true
+ },
+ {
+  "name": "Breastplate of the Tyrant",
+  "source": "AU",
+  "page": 132,
+  "baseItem": "breastplate|xphb",
+  "type": "MA|XPHB",
+  "rarity": "varies",
+  "reqAttune": true,
+  "weight": 20,
+  "property": [
+   "Evo|AU"
+  ],
+  "ac": 14,
+  "entries": [
+   "In this example, a Fighter finds an {@item Breastplate of Psychic Resistance|XDMG} while raiding an old dungeon. The armor, a Rare magic item, grants {@variantrule Resistance|XPHB} to Psychic damage and bears the emblem of a barbed crown. Each time the armor evolves, the pattern of spikes around the crown grows more complex."
+  ],
+  "items": [
+   "Regal Breastplate of the Tyrant|AU",
+   "Subjugating Breastplate of the Tyrant|AU"
+  ]
+ },
+ {
   "name": "Carpet of Flying",
   "source": "DMG",
   "page": 157,
@@ -1966,6 +2051,32 @@
   "hasFluffImages": true
  },
  {
+  "name": "Idol of Good Fortunes",
+  "source": "AU",
+  "page": 127,
+  "rarity": "varies",
+  "reqAttune": true,
+  "wondrous": true,
+  "property": [
+   "Evo|AU"
+  ],
+  "entries": [
+   "This idol resembles an elephant sitting on its haunches, smiling regally behind its uplifted trunk."
+  ],
+  "items": [
+   "Blemished Idol of Good Fortunes|AU",
+   "Tarnished Idol of Good Fortunes|AU",
+   "Golden Idol of Good Fortunes|AU"
+  ],
+  "attachedSpells": {
+   "daily": {
+    "1e": [
+     "augury|xphb"
+    ]
+   }
+  }
+ },
+ {
   "name": "Imbued Wood Focus",
   "source": "ERLW",
   "page": 277,
@@ -2251,6 +2362,37 @@
    }
   },
   "hasFluffImages": true
+ },
+ {
+  "name": "Keyholes Dagger",
+  "source": "AU",
+  "page": 128,
+  "baseItem": "dagger|xphb",
+  "type": "M|XPHB",
+  "rarity": "varies",
+  "reqAttune": true,
+  "weight": 1,
+  "weaponCategory": "simple",
+  "property": [
+   "F|XPHB",
+   "L|XPHB",
+   "T|XPHB",
+   "Evo|AU"
+  ],
+  "mastery": [
+   "Nick|XPHB"
+  ],
+  "range": "20/60",
+  "dmg1": "1d4",
+  "dmgType": "P",
+  "entries": [
+   "The hilt of this magic weapon is adorned with ornate, decorative keyholes outlined in golden filigree."
+  ],
+  "items": [
+   "Three Keyholes Dagger|AU",
+   "Ten Keyholes Dagger|AU",
+   "Many Keyholes Dagger|AU"
+  ]
  },
  {
   "name": "Lantern of Tracking",
@@ -2610,6 +2752,36 @@
    "Shawm|XPHB",
    "Viol|XPHB"
   ]
+ },
+ {
+  "name": "Necklace of the Beastly Familiar",
+  "source": "AU",
+  "rarity": "varies",
+  "reqAttune": "by a Spellcaster",
+  "reqAttuneTags": [
+   {
+    "spellcasting": true
+   }
+  ],
+  "wondrous": true,
+  "entries": [
+   "This bejeweled necklace comes with a matching charm that can be worn by your familiar. A variety of these necklaces exist, each set with a different kind of gemstone."
+  ],
+  "items": [
+   "Necklace of the Beastly Familiar (Giant Octopus)|AU",
+   "Necklace of the Beastly Familiar (Giant Scorpion)|AU",
+   "Necklace of the Beastly Familiar (Hippopotamus)|AU",
+   "Necklace of the Beastly Familiar (Mammoth)|AU",
+   "Necklace of the Beastly Familiar (Tyrannosaurus Rex)|AU"
+  ],
+  "attachedSpells": {
+   "daily": {
+    "1e": [
+     "find familiar|xphb"
+    ]
+   }
+  },
+  "hasFluffImages": true
  },
  {
   "name": "Orb of Shielding",
@@ -3322,6 +3494,30 @@
   ]
  },
  {
+  "name": "Rod of the Honed Mind",
+  "source": "AU",
+  "page": 133,
+  "type": "RD|XDMG",
+  "rarity": "varies",
+  "reqAttune": "by a warlock",
+  "reqAttuneTags": [
+   {
+    "class": "warlock"
+   }
+  ],
+  "property": [
+   "Evo|AU"
+  ],
+  "entries": [
+   "In this example, a Warlock receives a {@item +1 Rod of the Pact Keeper|XDMG}, an Uncommon magic item. The rod is a gift from a circle of sages who study the Warlock's mysterious patron, an entity from beyond the stars. The rod bears abstruse symbols of unknown origin; each time it evolves, they become more intricate."
+  ],
+  "items": [
+   "Vigilant Rod of the Honed Mind|AU",
+   "Psionic Rod of the Honed Mind|AU",
+   "Tranquil Rod of the Honed Mind|AU"
+  ]
+ },
+ {
   "name": "Rod of the Pact Keeper",
   "source": "DMG",
   "page": 197,
@@ -4005,6 +4201,46 @@
   ]
  },
  {
+  "name": "Staff of Skulls",
+  "source": "AU",
+  "page": 128,
+  "type": "M|XPHB",
+  "rarity": "varies",
+  "reqAttune": "by a Spellcaster",
+  "reqAttuneTags": [
+   {
+    "spellcasting": true
+   }
+  ],
+  "weight": 4,
+  "weaponCategory": "simple",
+  "property": [
+   "V|XPHB",
+   "Evo|AU"
+  ],
+  "mastery": [
+   "Topple|XPHB"
+  ],
+  "dmg1": "1d6",
+  "dmgType": "B",
+  "dmg2": "1d8",
+  "staff": true,
+  "entries": [
+   "This {@item staff|XPHB} is made of polished, interlocking bones. Runes are carved along its length."
+  ],
+  "items": [
+   "Ominous Staff of Skulls|AU",
+   "Chattering Staff of Skulls|AU",
+   "Pulverizing Staff of Skulls|AU"
+  ],
+  "attachedSpells": {
+   "will": [
+    "chill touch|xphb"
+   ]
+  },
+  "hasFluffImages": true
+ },
+ {
   "name": "Stormgirdle",
   "source": "EGW",
   "page": 273,
@@ -4219,6 +4455,30 @@
   }
  },
  {
+  "name": "Wand of Celestial Prowess",
+  "source": "AU",
+  "page": 133,
+  "type": "WD|XDMG",
+  "rarity": "varies",
+  "reqAttune": "by a spellcaster",
+  "reqAttuneTags": [
+   {
+    "spellcasting": true
+   }
+  ],
+  "property": [
+   "Evo|AU"
+  ],
+  "entries": [
+   "In this example, a Cleric dedicated to a deity of the sky receives a {@item +1 Wand of the War Mage|XDMG}, an Uncommon magic item, from his mentor. The ebony wand is simple but feels extraordinarily powerful when the Cleric touches it. Each time the wand evolves, carvings of celestial bodies appear along its length."
+  ],
+  "items": [
+   "Crusading Wand of Celestial Prowess|AU",
+   "Lunar Wand of Celestial Prowess|AU",
+   "Heliacal Wand of Celestial Prowess|AU"
+  ]
+ },
+ {
   "name": "Wand of the War Mage",
   "source": "DMG",
   "page": 212,
@@ -4260,6 +4520,25 @@
    "+1 Wand of the War Mage|XDMG",
    "+2 Wand of the War Mage|XDMG",
    "+3 Wand of the War Mage|XDMG"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Wave-Swept Weapon",
+  "source": "AU",
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "property": [
+   "Evo|AU"
+  ],
+  "entries": [
+   "This weapon is covered in oceanic motifs, from wavelike etchings on its blade to stylized sea monsters embroidered onto its leather hilt."
+  ],
+  "items": [
+   "Barnacled Wave-Swept Weapon|AU",
+   "Aquatic Wave-Swept Weapon|AU",
+   "Ascendant Wave-Swept Weapon|AU"
   ],
   "hasFluffImages": true
  },

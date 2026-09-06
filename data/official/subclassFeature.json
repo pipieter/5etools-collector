@@ -735,6 +735,20 @@
  },
  {
   "name": "Alter Memories",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Enchanter",
+  "subclassSource": "AU",
+  "level": 14,
+  "header": 2,
+  "entries": [
+   "You can make a creature unaware of your magical influence. When you cast an {@filter Enchantment spell|spells|school=E} that imposes the {@condition Charmed|XPHB} condition using a spell slot, you can choose one creature targeted by the spell. That creature remains unaware of being {@condition Charmed|XPHB} by you.",
+   "In addition, once before the spell ends, you can take a {@action Magic|XPHB} action to force the chosen creature to make an Intelligence saving throw against your spell save DC. On a failed save, you can make the creature lose a number of hours of its memories equal to 1 plus your Intelligence modifier (minimum of 1 hour lost). You can make the creature forget less time, and the amount of time can't exceed the duration of your {@filter Enchantment spell|spells|school=E}."
+  ]
+ },
+ {
+  "name": "Alter Memories",
   "source": "PHB",
   "page": 117,
   "className": "Wizard",
@@ -874,6 +888,7 @@
  {
   "name": "Ancient Might",
   "source": "RHW",
+  "page": 21,
   "className": "Ranger",
   "classSource": "XPHB",
   "subclassShortName": "Hollow Warden",
@@ -954,6 +969,32 @@
  },
  {
   "name": "Arcana Domain",
+  "source": "AU",
+  "className": "Cleric",
+  "classSource": "XPHB",
+  "subclassShortName": "Arcana",
+  "subclassSource": "AU",
+  "level": 3,
+  "entries": [
+   "{@i Amplify Your Magical Power}",
+   "Magic suffuses the multiverse and fuels both destruction and creation. Clerics with the Arcana Domain view magical knowledge not as power to be used in pursuit of personal ends, but as a gift they have the responsibility to share.",
+   "Gods associated with the Arcana Domain know the secrets and potential of magic intimately. These gods are often connected to knowledge, secrecy, or power.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Arcana Domain Spells|Cleric|XPHB|Arcana|AU|3|AU"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Modify Magic|Cleric|XPHB|Arcana|AU|3|AU"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Student of Arcana|Cleric|XPHB|Arcana|AU|3|AU"
+   }
+  ]
+ },
+ {
+  "name": "Arcana Domain",
   "source": "SCAG",
   "page": 125,
   "className": "Cleric",
@@ -1027,6 +1068,49 @@
   }
  },
  {
+  "name": "Arcana Domain Spells",
+  "source": "AU",
+  "className": "Cleric",
+  "classSource": "XPHB",
+  "subclassShortName": "Arcana",
+  "subclassSource": "AU",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "Your connection to this divine domain means you always have certain spells ready. When you reach a Cleric level specified in the Arcana Domain Spells table, you thereafter always have the listed spells prepared.",
+   {
+    "type": "table",
+    "caption": "Arcana Domain Spells",
+    "colLabels": [
+     "Cleric Level",
+     "Prepared Spells"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "3",
+      "{@spell Detect Magic|XPHB}, {@spell Magic Missile|XPHB}, {@spell Magic Weapon|XPHB}, {@spell Nystul's Magic Aura|XPHB}"
+     ],
+     [
+      "5",
+      "{@spell Counterspell|XPHB}, {@spell Dispel Magic|XPHB}"
+     ],
+     [
+      "7",
+      "{@spell Arcane Eye|XPHB}, {@spell Leomund's Secret Chest|XPHB}"
+     ],
+     [
+      "9",
+      "{@spell Bigby's Hand|XPHB}, {@spell Teleportation Circle|XPHB}"
+     ]
+    ]
+   }
+  ]
+ },
+ {
   "name": "Arcane Abeyance",
   "source": "EGW",
   "page": 184,
@@ -1041,6 +1125,31 @@
    "When you cast a spell using a spell slot of 4th level or lower, you can condense the spell's magic into a mote. The spell is frozen in time at the moment of casting and held within a gray bead for 1 hour. This bead is a Tiny object with AC 15 and 1 hit point, and it is immune to poison and psychic damage. When the duration ends, or if the bead is destroyed, it vanishes in a flash of light, and the spell is lost.",
    "A creature holding the bead can use its action to release the spell within, whereupon the bead disappears. The spell uses your spell attack bonus and save DC, and the spell treats the creature who released it as the caster for all other purposes.",
    "Once you create a bead with this feature, you can't do so again until you finish a short or long rest."
+  ]
+ },
+ {
+  "name": "Arcane Archer",
+  "source": "AU",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Arcane Archer",
+  "subclassSource": "AU",
+  "level": 3,
+  "entries": [
+   "{@i Deploy Magical Effects Through Enchanted Ammunition}",
+   "An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Over the centuries, other folk have learned this technique and broadened it so it applies to ranged weapons of many kinds and to aspects of adventuring life outside of combat.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Arcane Archer Lore|Fighter|XPHB|Arcane Archer|AU|3|AU"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Arcane Shot|Fighter|XPHB|Arcane Archer|AU|3|AU"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Arcane Shot Options|Fighter|XPHB|Arcane Archer|AU|3|AU"
+   }
   ]
  },
  {
@@ -1065,6 +1174,33 @@
    {
     "type": "refSubclassFeature",
     "subclassFeature": "Arcane Shot Options|Fighter||Arcane Archer|XGE|3"
+   }
+  ]
+ },
+ {
+  "name": "Arcane Archer Lore",
+  "source": "AU",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Arcane Archer",
+  "subclassSource": "AU",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "You learn magical theory and secrets of nature, granting you the following benefits.",
+   {
+    "type": "entries",
+    "name": "Cantrip",
+    "entries": [
+     "You know either the {@spell Druidcraft|XPHB} or the {@spell Prestidigitation|XPHB} cantrip. Intelligence is your spellcasting ability for it."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Skills",
+    "entries": [
+     "You gain proficiency in the {@skill Arcana|XPHB} and {@skill Nature|XPHB} skills. If you already have one of these proficiencies, you instead gain proficiency in a different skill of your choice from the skills available to Fighters at level 1 (or in two skills available to Fighters at level 1 if you have both)."
+    ]
    }
   ]
  },
@@ -1364,6 +1500,49 @@
  },
  {
   "name": "Arcane Shot",
+  "source": "AU",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Arcane Archer",
+  "subclassSource": "AU",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "You learn to unleash special magical effects with your shots.",
+   "You learn two {@filter Arcane Shot options|optionalfeatures|feature type=AS|source=AU} of your choice. You learn an additional Arcane Shot option of your choice when you reach Fighter levels 7, 10, 15, and 18. Each time you learn a new Arcane Shot option, you can also replace one option you know with a different one.",
+   {
+    "type": "entries",
+    "name": "Using Arcane Shot",
+    "entries": [
+     "Once per turn when you make a ranged attack using a weapon with the {@itemProperty AF|XDMG|Ammunition} property, you can apply one of your Arcane Shot options to that attack. You decide to use the option when you hit a creature and deal damage to it unless the option doesn't involve an attack roll.",
+     "You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Arcane Shot Die",
+    "entries": [
+     "Arcane Shot options refer to your Arcane Shot Die. Your Arcane Shot Die is a {@dice d6}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Saving Throws",
+    "entries": [
+     "If an Arcane Shot option requires a saving throw, the DC equals 8 plus your Intelligence modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "At Higher Levels",
+    "entries": [
+     "Your Arcane Shot Die changes when you reach certain Fighter levels. The die becomes a {@dice d8} at level 10, a {@dice d10} at level 15, and a {@dice d12} at level 18."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Arcane Shot",
   "source": "XGE",
   "page": 28,
   "className": "Fighter",
@@ -1376,6 +1555,57 @@
    "At 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two Arcane Shot options of your choice (see \"Arcane Shot Options\" below).",
    "Once per turn when you fire an arrow from a shortbow or longbow as part of the {@action Attack} action, you can apply one of your Arcane Shot options to that arrow. You decide to use the option when the arrow hits a creature, unless the option doesn't involve an attack roll. You have two uses of this ability, and you regain all expended uses of it when you finish a short or long rest.",
    "You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level. Each option also improves when you become an 18th-level fighter."
+  ]
+ },
+ {
+  "name": "Arcane Shot Options",
+  "source": "AU",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Arcane Archer",
+  "subclassSource": "AU",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "The Arcane Shot feature lets you choose options for it at certain levels. The options are presented here in alphabetical order.",
+   {
+    "type": "options",
+    "count": 2,
+    "entries": [
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Banishing Shot|AU"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Beguiling Shot|AU"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Bursting Shot|AU"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Enfeebling Shot|AU"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Grasping Shot|AU"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Piercing Shot|AU"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Seeking Shot|AU"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Shadow Shot|AU"
+     }
+    ]
+   }
   ]
  },
  {
@@ -3283,6 +3513,7 @@
  {
   "name": "Beasts of Ill Omen",
   "source": "RHW",
+  "page": 24,
   "className": "Sorcerer",
   "classSource": "XPHB",
   "subclassShortName": "Shadow",
@@ -3403,6 +3634,20 @@
   },
   "entries": [
    "You have the ability to twist fate using your wild magic. Immediately after another creature you can see rolls the {@dice d20} for a {@variantrule D20 Test|XPHB}, you can take a {@variantrule Reaction|XPHB} and spend 1 Sorcery Point to roll {@dice 1d4} and apply the number rolled as a bonus or penalty (your choice) to the {@dice d20} roll."
+  ]
+ },
+ {
+  "name": "Benign Transposition",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Conjurer",
+  "subclassSource": "AU",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "As a {@variantrule Bonus Action|XPHB}, you teleport up to 30 feet to an unoccupied space that you can see. Alternatively, you can choose a space within range that is occupied by a Medium or smaller creature. If that creature is willing, you both teleport, swapping places.",
+   "You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
   ]
  },
  {
@@ -6151,6 +6396,7 @@
  {
   "name": "Channeler",
   "source": "RHW",
+  "page": 17,
   "className": "Bard",
   "classSource": "XPHB",
   "subclassShortName": "Spirits",
@@ -6461,6 +6707,7 @@
  {
   "name": "Circle of Mortality",
   "source": "RHW",
+  "page": 19,
   "className": "Cleric",
   "classSource": "XPHB",
   "subclassShortName": "Grave",
@@ -7972,6 +8219,7 @@
  {
   "name": "College of Spirits",
   "source": "RHW",
+  "page": 17,
   "className": "Bard",
   "classSource": "XPHB",
   "subclassShortName": "Spirits",
@@ -8315,6 +8563,20 @@
  },
  {
   "name": "Conjuration Savant",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Conjurer",
+  "subclassSource": "AU",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "Choose two {@filter Wizard spells from the Conjuration school|spells|level=0;1;2|class=Wizard|school=C}, each of which must be no higher than level 2, and add them to your spellbook for free.",
+   "In addition, whenever you gain access to a new level of spell slots in this class, you can add one {@filter Wizard spell from the Conjuration school|spells|class=Wizard|school=C} to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
+  ]
+ },
+ {
+  "name": "Conjuration Savant",
   "source": "PHB",
   "page": 116,
   "className": "Wizard",
@@ -8325,6 +8587,27 @@
   "header": 1,
   "entries": [
    "Beginning when you select this school at 2nd level, the gold and time you must spend to copy a conjuration spell into your spellbook is halved."
+  ]
+ },
+ {
+  "name": "Conjurer",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Conjurer",
+  "subclassSource": "AU",
+  "level": 3,
+  "entries": [
+   "{@i Step Across Space and Call Creatures from Thin Air}",
+   "A Conjurer considers distance and matter to be flexible guidelines rather than physical laws. Conjurers master magic that moves creatures instantly through space and summons creatures to fight on their behalf.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Benign Transposition|Wizard|XPHB|Conjurer|AU|3|AU"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Conjuration Savant|Wizard|XPHB|Conjurer|AU|3|AU"
+   }
   ]
  },
  {
@@ -8628,6 +8911,19 @@
      "When you're subjected to a spell or magical effect that allows you to make a saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this benefit if you have the {@condition Incapacitated|XPHB} condition."
     ]
    }
+  ]
+ },
+ {
+  "name": "Curving Shot",
+  "source": "AU",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Arcane Archer",
+  "subclassSource": "AU",
+  "level": 7,
+  "header": 2,
+  "entries": [
+   "You learn how to direct an errant shot toward a new target. If you make a ranged attack roll with a weapon with the {@itemProperty AF|XDMG|Ammunition} property and miss, you can cause the shot to ricochet toward a new target as a {@variantrule Bonus Action|XPHB} immediately after the attack misses. The new target must be a creature you can see within the weapon's range and within 60 feet of the attack's original target. Make an attack roll against the new target."
   ]
  },
  {
@@ -8983,6 +9279,7 @@
  {
   "name": "Death's Friend",
   "source": "RHW",
+  "page": 23,
   "className": "Rogue",
   "classSource": "XPHB",
   "subclassShortName": "Phantom",
@@ -9025,6 +9322,33 @@
     "items": [
      "When you use your Wails from the Grave, you can deal the necrotic damage to both the first and the second creature.",
      "At the end of a long rest, a soul trinket appears in your hand if you don't have any soul trinkets, as the spirits of the dead are drawn to you."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Death's Master",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Necromancer",
+  "subclassSource": "AU",
+  "level": 14,
+  "header": 2,
+  "entries": [
+   "Abstruse rituals within your spellbook allow you mastery over undeath. While holding your spellbook, you gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Bolster Undead",
+    "entries": [
+     "As a {@variantrule Bonus Action|XPHB}, choose any number of Undead you have created or summoned with a {@filter Necromancy spell|spells|school=N} that are within 60 feet of you. Those Undead each gain {@variantrule Temporary Hit Points|XPHB} equal to your Wizard level. Once you use this {@variantrule Bonus Action|XPHB}, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Extinguish Undead",
+    "entries": [
+     "When an Undead creature you can see is reduced to 0 {@variantrule Hit Points|XPHB}, you can cause it to explode with necrotic energy. Roll a number of d6s equal to half the creature's unexpended {@variantrule Hit Point Dice|XPHB|Hit Dice} (round up, minimum of {@dice 1d6}), and add them together. Each creature in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the Undead makes a Dexterity saving throw. On a failed save, a target takes Necrotic damage equal to the number rolled and can't take {@variantrule Reaction|XPHB|Reactions} until the start of its next turn. On a successful save, a target takes half as much damage only. When you use this feature to explode an Undead creature you don't control, you must take a {@variantrule Reaction|XPHB} and expend a level 5+ spell slot to do so."
     ]
    }
   ]
@@ -9312,6 +9636,20 @@
   ]
  },
  {
+  "name": "Dispelling Recovery",
+  "source": "AU",
+  "className": "Cleric",
+  "classSource": "XPHB",
+  "subclassShortName": "Arcana",
+  "subclassSource": "AU",
+  "level": 6,
+  "header": 2,
+  "entries": [
+   "Immediately after you cast a spell with a spell slot that restores {@variantrule Hit Points|XPHB} to a creature or ends a condition on a creature, you can cast {@spell Dispel Magic|XPHB} as part of that action, {@variantrule Bonus Action|XPHB}, or {@variantrule Reaction|XPHB}, and without expending a spell slot.",
+   "Once you use this feature, you can't use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. You also restore your use of it by expending one use of Channel Divinity (no action required)."
+  ]
+ },
+ {
   "name": "Distant Strike",
   "source": "XGE",
   "page": 42,
@@ -9324,6 +9662,19 @@
   "entries": [
    "At 11th level, you gain the ability to pass between the planes in the blink of an eye. When you take the {@action Attack} action, you can teleport up to 10 feet before each attack to an unoccupied space you can see.",
    "If you attack at least two different creatures with the action, you can make one additional attack with it against a third creature."
+  ]
+ },
+ {
+  "name": "Distant Transposition",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Conjurer",
+  "subclassSource": "AU",
+  "level": 6,
+  "header": 2,
+  "entries": [
+   "The range of your Benign Transposition feature increases to 60 feet. Additionally, you can restore one use of it by expending a level 3+ spell slot (no action required)."
   ]
  },
  {
@@ -9462,6 +9813,7 @@
  {
   "name": "Divine Reaper",
   "source": "RHW",
+  "page": 20,
   "className": "Cleric",
   "classSource": "XPHB",
   "subclassShortName": "Grave",
@@ -9474,7 +9826,7 @@
     "type": "entries",
     "name": "Enhanced Necromancy",
     "entries": [
-     "When you cast a spell of level 5 or lower from the Necromancy school that targets one creature, or when you cast a spell from the {@book Grave Domain Spells table|RHW|1|Grave Domain Spells}, you can expend a use of Channel Divinity to target a second creature within the spell's range. If the spell requires costly or consumed Material components, you must provide Material components for each target."
+     "When you cast a spell of level 5 or lower from the Necromancy school that targets one creature, or when you cast a spell from the {@subclassFeature Grave Domain Spells|Cleric|XPHB|Grave|RHW|3|RHW|Grave Domain Spells table}, you can expend a use of Channel Divinity to target a second creature within the spell's range. If the spell requires costly or consumed Material components, you must provide Material components for each target."
     ]
    },
    {
@@ -10492,6 +10844,19 @@
  },
  {
   "name": "Durable Summons",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Conjurer",
+  "subclassSource": "AU",
+  "level": 6,
+  "header": 2,
+  "entries": [
+   "When you cast a {@filter Conjuration spell|spells|school=C} to summon or create a creature using a spell slot, that creature gains {@variantrule Temporary Hit Points|XPHB} equal to twice your Wizard level when it first appears. While it has these {@variantrule Temporary Hit Points|XPHB}, the creature has {@variantrule Resistance|XPHB} to every damage type except Force, Necrotic, Psychic, and Radiant."
+  ]
+ },
+ {
+  "name": "Durable Summons",
   "source": "PHB",
   "page": 116,
   "className": "Wizard",
@@ -11326,6 +11691,7 @@
  {
   "name": "Empowered Channeling",
   "source": "RHW",
+  "page": 18,
   "className": "Bard",
   "classSource": "XPHB",
   "subclassShortName": "Spirits",
@@ -11398,6 +11764,73 @@
   },
   "entries": [
    "Starting at 6th level, the divine energy coursing through you can empower healing spells. Whenever you or an ally within 5 feet of you rolls dice to determine the number of hit points a spell restores, you can spend 1 sorcery point to reroll any number of those dice once, provided you aren't {@condition incapacitated}. You can use this feature only once per turn."
+  ]
+ },
+ {
+  "name": "Empowered Transmutation",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Transmuter",
+  "subclassSource": "AU",
+  "level": 6,
+  "header": 2,
+  "entries": [
+   "When you use a spell slot to cast a {@filter Transmutation spell|spells|school=T} that doesn't make an attack roll or force a saving throw, such as {@spell Fly|XPHB} or {@spell Magic Weapon|XPHB}, you can increase the spell's effective level by 1.",
+   "You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
+  "name": "Enchanter",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Enchanter",
+  "subclassSource": "AU",
+  "level": 3,
+  "entries": [
+   "{@i Entrance and Beguile Others}",
+   "An Enchanter's magic clouds or captivates minds. Some Enchanters use their abilities to encourage peace and soften cruelty, while others use their mind-altering magic for selfish ends.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Enchanting Conversationalist|Wizard|XPHB|Enchanter|AU|3|AU"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Enchantment Savant|Wizard|XPHB|Enchanter|AU|3|AU"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Hypnotic Presence|Wizard|XPHB|Enchanter|AU|3|AU"
+   }
+  ]
+ },
+ {
+  "name": "Enchanting Conversationalist",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Enchanter",
+  "subclassSource": "AU",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "You gain proficiency in one of the following skills of your choice: {@skill Deception|XPHB}, {@skill Intimidation|XPHB}, or {@skill Persuasion|XPHB}.",
+   "In addition, when you make an ability check with the chosen skill, you gain a bonus to the check equal to your Intelligence modifier (minimum of +1)."
+  ]
+ },
+ {
+  "name": "Enchantment Savant",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Enchanter",
+  "subclassSource": "AU",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "Choose two {@filter Wizard spells from the Enchantment school|spells|level=0;1;2|class=Wizard|school=E}, each of which must be no higher than level 2, and add them to your spellbook for free.",
+   "In addition, whenever you gain access to a new level of spell slots in this class, you can add one {@filter Wizard spell from the Enchantment school|spells|class=Wizard|school=E} to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
   ]
  },
  {
@@ -11563,6 +11996,19 @@
      "When you use Lunar Vitality, you can roll {@dice 1d6} and use the number rolled in place of expending a Bardic Inspiration die."
     ]
    }
+  ]
+ },
+ {
+  "name": "Ever-Ready Shot",
+  "source": "AU",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Arcane Archer",
+  "subclassSource": "AU",
+  "level": 10,
+  "header": 2,
+  "entries": [
+   "When you roll {@variantrule Initiative|XPHB}, you can regain one expended use of Arcane Shot."
   ]
  },
  {
@@ -12818,6 +13264,19 @@
  },
  {
   "name": "Focused Conjuration",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Conjurer",
+  "subclassSource": "AU",
+  "level": 10,
+  "header": 2,
+  "entries": [
+   "Taking damage can't break your {@status Concentration|XPHB} on {@filter Conjuration spells|spells|school=C}."
+  ]
+ },
+ {
+  "name": "Focused Conjuration",
   "source": "PHB",
   "page": 116,
   "className": "Wizard",
@@ -12828,6 +13287,19 @@
   "header": 2,
   "entries": [
    "Beginning at 10th level, while you are {@status concentration||concentrating} on a conjuration spell, your {@status concentration} can't be broken as a result of taking damage."
+  ]
+ },
+ {
+  "name": "Focused Strike",
+  "source": "AU",
+  "className": "Monk",
+  "classSource": "XPHB",
+  "subclassShortName": "Mystic Arts",
+  "subclassSource": "AU",
+  "level": 11,
+  "header": 2,
+  "entries": [
+   "When you use your Stunning Strike, whether the target succeeds or fails on the saving throw, the target has {@variantrule Disadvantage|XPHB} on saving throws against your spells until the start of your next turn."
   ]
  },
  {
@@ -12910,6 +13382,7 @@
  {
   "name": "Form of Dread",
   "source": "RHW",
+  "page": 24,
   "className": "Warlock",
   "classSource": "XPHB",
   "subclassShortName": "Undead",
@@ -13087,6 +13560,23 @@
   "entries": [
    "Your experience surviving harrowing environments allows you to bolster your allies in addition to yourself. As a {@action Magic|XPHB} action, choose a number of creatures you can see equal to your Wisdom modifier (minimum of one). Each chosen creature regains {@variantrule Hit Points|XPHB} equal to {@dice 1d10} plus your Ranger level and has {@variantrule Advantage|XPHB} on saving throws to avoid or end the {@condition Frightened|XPHB} condition for 1 hour.",
    "Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
+  "name": "Fortifying Spell",
+  "source": "AU",
+  "className": "Cleric",
+  "classSource": "XPHB",
+  "subclassShortName": "Arcana",
+  "subclassSource": "AU",
+  "level": 3,
+  "header": 2,
+  "consumes": {
+   "name": "Channel Divinity",
+   "amount": 1
+  },
+  "entries": [
+   "One target of the spell gains a number of {@variantrule Temporary Hit Points|XPHB} equal to {@dice 2d8} plus your Cleric level."
   ]
  },
  {
@@ -13465,6 +13955,7 @@
  {
   "name": "Ghost Walk",
   "source": "RHW",
+  "page": 23,
   "className": "Rogue",
   "classSource": "XPHB",
   "subclassShortName": "Phantom",
@@ -13812,6 +14303,7 @@
  {
   "name": "Grave Domain",
   "source": "RHW",
+  "page": 19,
   "className": "Cleric",
   "classSource": "XPHB",
   "subclassShortName": "Grave",
@@ -13914,6 +14406,7 @@
  {
   "name": "Grave Domain Spells",
   "source": "RHW",
+  "page": 19,
   "className": "Cleric",
   "classSource": "XPHB",
   "subclassShortName": "Grave",
@@ -13954,8 +14447,36 @@
   ]
  },
  {
+  "name": "Grave Power",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Necromancer",
+  "subclassSource": "AU",
+  "level": 6,
+  "header": 2,
+  "entries": [
+   "You have discovered more necromantic insights and inscribed them in your spellbook. While holding your spellbook, you gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Grave Resilience",
+    "entries": [
+     "When you use Arcane Recovery, your {@condition Exhaustion|XPHB} level, if any, decreases by 1."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Overwhelming Necrosis",
+    "entries": [
+     "Damage from your Wizard spells and Wizard features ignores {@variantrule Resistance|XPHB} to Necrotic damage."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Grave Touched",
   "source": "RHW",
+  "page": 24,
   "className": "Warlock",
   "classSource": "XPHB",
   "subclassShortName": "Undead",
@@ -14496,6 +15017,19 @@
   ]
  },
  {
+  "name": "Harvest Undead",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Necromancer",
+  "subclassSource": "AU",
+  "level": 10,
+  "header": 2,
+  "entries": [
+   "You have learned more secrets about the nuances of life and death. Immediately after you become {@status Bloodied|XPHB} but aren't reduced to 0 {@variantrule Hit Points|XPHB} from taking damage, you can take a {@variantrule Reaction|XPHB} to reduce an Undead creature under your control that you can see to 0 {@variantrule Hit Points|XPHB}. You then immediately regain a number of {@variantrule Hit Points|XPHB} equal to your Wizard level."
+  ]
+ },
+ {
   "name": "Healing Light",
   "source": "XGE",
   "page": 54,
@@ -14670,6 +15204,7 @@
  {
   "name": "Hollow Warden",
   "source": "RHW",
+  "page": 20,
   "className": "Ranger",
   "classSource": "XPHB",
   "subclassShortName": "Hollow Warden",
@@ -14691,6 +15226,7 @@
  {
   "name": "Hollow Warden Spells",
   "source": "RHW",
+  "page": 20,
   "className": "Ranger",
   "classSource": "XPHB",
   "subclassShortName": "Hollow Warden",
@@ -15005,6 +15541,7 @@
  {
   "name": "Hungering Might",
   "source": "RHW",
+  "page": 21,
   "className": "Ranger",
   "classSource": "XPHB",
   "subclassShortName": "Hollow Warden",
@@ -15217,6 +15754,20 @@
    "Starting at 2nd level when you choose this school, your soft words and enchanting gaze can magically enthrall another creature. As an action, choose one creature that you can see within 5 feet of you. If the target can see or hear you, it must succeed on a Wisdom saving throw against your wizard spell save DC or be {@condition charmed} by you until the end of your next turn. The {@condition charmed} creature's speed drops to 0, and the creature is {@condition incapacitated} and visibly dazed.",
    "On subsequent turns, you can use your action to maintain this effect, extending its duration until the end of your next turn. However, the effect ends if you move more than 5 feet away from the creature, if the creature can neither see nor hear you, or if the creature takes damage.",
    "Once the effect ends, or if the creature succeeds on its initial saving throw against this effect, you can't use this feature on that creature again until you finish a long rest."
+  ]
+ },
+ {
+  "name": "Hypnotic Presence",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Enchanter",
+  "subclassSource": "AU",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "Your charming words and enchanting gaze can enthrall another creature. As a {@action Magic|XPHB} action, choose one creature that you can see within 10 feet of yourself. If the target can see or hear you, it must succeed on a Wisdom saving throw against your spell save DC or have the {@condition Charmed|XPHB} condition for 1 minute or until the target is more than 10 feet away from you, the target can neither see nor hear you, or the target takes damage. While {@condition Charmed|XPHB}, the target has the {@condition Incapacitated|XPHB} condition and a {@variantrule Speed|XPHB} of 0.",
+   "You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
   ]
  },
  {
@@ -15770,8 +16321,22 @@
   ]
  },
  {
+  "name": "Improved Mystic Fighting Style",
+  "source": "AU",
+  "className": "Monk",
+  "classSource": "XPHB",
+  "subclassShortName": "Mystic Arts",
+  "subclassSource": "AU",
+  "level": 17,
+  "header": 2,
+  "entries": [
+   "When you use Flurry of Blows, you can replace two of the {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} with a casting of one of your level 1 or 2 Sorcerer spells that has a casting time of an action, and you cast it as part of the same {@variantrule Bonus Action|XPHB} you use to activate Flurry of Blows."
+  ]
+ },
+ {
   "name": "Improved Reanimation",
   "source": "RHW",
+  "page": 16,
   "className": "Artificer",
   "classSource": "EFA",
   "subclassShortName": "Reanimator",
@@ -15869,6 +16434,19 @@
   "entries": [
    "When you reach 14th level, you partake some of the true secrets of the Undying. On your turn, you can use a bonus action to regain hit points equal to {@dice 1d8} + your warlock level. Additionally, if you put a severed body part of yours back in place when you use this feature, the part reattaches.",
    "Once you use this feature, you can't use it again until you finish a short or long rest."
+  ]
+ },
+ {
+  "name": "Indomitable Teleport",
+  "source": "AU",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Arcane Archer",
+  "subclassSource": "AU",
+  "level": 15,
+  "header": 2,
+  "entries": [
+   "Your magical mastery lets you escape dire situations. When you use your Indomitable feature and succeed on the saving throw, you can teleport up to 60 feet to an unoccupied space you can see."
   ]
  },
  {
@@ -16213,6 +16791,20 @@
   "header": 2,
   "entries": [
    "Starting at 18th level, you can choose two allies within 60 feet of you, rather than one."
+  ]
+ },
+ {
+  "name": "Instinctive Charm",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Enchanter",
+  "subclassSource": "AU",
+  "level": 10,
+  "header": 2,
+  "entries": [
+   "When a creature within 30 feet of you that you can see hits you with an attack roll, you can take a {@variantrule Reaction|XPHB} to force the attacker to make a Wisdom saving throw against your spell save DC. On a failed save, the attack misses instead, and if there is another creature within range of the attack other than the attacker, the attacker targets that creature with the triggering attack, using the same attack roll. If multiple creatures are within the attack's range, you choose which one to target.",
+   "Once you take this {@variantrule Reaction|XPHB}, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by casting an {@filter Enchantment spell|spells|school=E} with a spell slot."
   ]
  },
  {
@@ -17417,6 +18009,7 @@
  {
   "name": "Macabre Modifications",
   "source": "RHW",
+  "page": 16,
   "className": "Artificer",
   "classSource": "EFA",
   "subclassShortName": "Reanimator",
@@ -17559,6 +18152,41 @@
   ]
  },
  {
+  "name": "Magical Ammunition",
+  "source": "AU",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Arcane Archer",
+  "subclassSource": "AU",
+  "level": 7,
+  "header": 2,
+  "entries": [
+   "You learn to imbue your ammunition with magical properties. As a {@action Magic|XPHB} action, you can imbue a piece of nonmagical ammunition with one of the following magical properties and fire it at a solid surface you can see within the weapon's range. When the ammunition hits the surface, the ammunition's effect activates, and the ammunition attaches to the surface it hit for the duration of the effect; you can remove an attached piece of ammunition as a {@action Magic|XPHB} action, ending the effect early. When the effect ends, the ammunition is destroyed.",
+   "Once you use this feature, you can't do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. You can also restore your use of this feature by expending a use of your Second Wind (no action required).",
+   {
+    "type": "entries",
+    "name": "Darkening Ammunition",
+    "entries": [
+     "Magical shadows fill a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the ammunition for 1 minute. Nonmagical flames in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} are extinguished, and creatures in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} have a −5 penalty to Wisdom ({@skill Perception|XPHB}) checks and {@variantrule Passive Perception|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Unlocking Ammunition",
+    "entries": [
+     "A burst of magic fills a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the ammunition. The ammunition also emits a loud knocking sound, audible up to 300 feet away. Any object in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} that is held shut by a nonmagical lock or that is stuck or barred becomes unlocked, unstuck, or unbarred. If such an object has multiple locks, only one of them is unlocked."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Vine Ammunition",
+    "entries": [
+     "A 120-foot-long vine grows from the ammunition. You and other creatures can then climb it. The vine withers away after 10 minutes."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Magical Discoveries",
   "source": "XPHB",
   "page": 66,
@@ -17573,6 +18201,19 @@
   "entries": [
    "You learn two spells of your choice. These spells can come from the {@filter Cleric|spells|class=Cleric}, {@filter Druid|spells|class=Druid}, or {@filter Wizard spell list|spells|class=Wizard} or any combination thereof (see a class's section for its spell list). A spell you choose must be a cantrip or a spell for which you have spell slots, as shown in the Bard Features table.",
    "You always have the chosen spells prepared, and whenever you gain a Bard level, you can replace one of the spells with another spell that meets these requirements."
+  ]
+ },
+ {
+  "name": "Magical Mastery",
+  "source": "AU",
+  "className": "Cleric",
+  "classSource": "XPHB",
+  "subclassShortName": "Arcana",
+  "subclassSource": "AU",
+  "level": 17,
+  "header": 2,
+  "entries": [
+   "You learn four {@filter Wizard spells|spells|level=6;7;8;9|class=Wizard}, one from each of levels 6, 7, 8, and 9. You thereafter always have those spells prepared. Whenever you gain a Cleric level, you can replace one of these spells with another {@filter Wizard spell|spells|level=6;7;8;9|class=Wizard} of the same level."
   ]
  },
  {
@@ -18144,6 +18785,47 @@
  },
  {
   "name": "Master Transmuter",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Transmuter",
+  "subclassSource": "AU",
+  "level": 14,
+  "header": 2,
+  "entries": [
+   "While you carry your Transmuter's Stone, you can take a {@action Magic|XPHB} action to consume the reserve of transmutation magic stored inside and choose one of the following benefits. After you use the stone in this way, it crumbles to dust. You can prevent the stone from crumbling by expending a level 7+ spell slot as part of the {@action Magic|XPHB} action you take using this feature.",
+   {
+    "type": "entries",
+    "name": "Major Transformation",
+    "entries": [
+     "You can transmute one nonmagical object—no larger than a 10-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} or eight connected 5-foot Cubes—into another nonmagical object of similar size and mass and of equal or lesser value. You must spend 10 minutes handling the object to transform it."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Panacea",
+    "entries": [
+     "You touch a creature as part of this {@action Magic|XPHB} action, and the target regains a number of {@variantrule Hit Points|XPHB} equal to half its {@variantrule Hit Points|XPHB|Hit Point} maximum (round down). The target is cured of all magical contagions, and any curses affecting the target are lifted, including the target's {@variantrule Attunement|XPHB} to a cursed item. If the target has the {@condition Poisoned|XPHB} or {@condition Petrified|XPHB} condition, those conditions end."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Restore Life",
+    "entries": [
+     "You cast the {@spell Raise Dead|XPHB} spell without expending a spell slot, using the stone in place of the required Material components."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Restore Youth",
+    "entries": [
+     "You touch one willing creature as part of this {@action Magic|XPHB} action, and the target's {@condition Exhaustion|XPHB} level, if any, decreases to 0, and it permanently appears {@dice 3d10} years younger, to a minimum of young adulthood."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Master Transmuter",
   "source": "PHB",
   "page": 119,
   "className": "Wizard",
@@ -18201,6 +18883,19 @@
   "header": 2,
   "entries": [
    "Starting at 14th level, whenever you use a Blade Flourish option, you can roll a {@dice d6} and use it instead of expending a Bardic Inspiration die."
+  ]
+ },
+ {
+  "name": "Masterful Shots",
+  "source": "AU",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Arcane Archer",
+  "subclassSource": "AU",
+  "level": 18,
+  "header": 2,
+  "entries": [
+   "You employ agility in your sharpshooting. When a creature you can see misses you with an attack roll, you can take a {@variantrule Reaction|XPHB} to move up to half your {@variantrule Speed|XPHB} away from the attacker without provoking {@action opportunity attack|XPHB|Opportunity Attacks}. You can then make a ranged attack roll against the attacker as part of this {@variantrule Reaction|XPHB} if the attacker is within the weapon's range."
   ]
  },
  {
@@ -18499,6 +19194,27 @@
   ]
  },
  {
+  "name": "Modify Magic",
+  "source": "AU",
+  "className": "Cleric",
+  "classSource": "XPHB",
+  "subclassShortName": "Arcana",
+  "subclassSource": "AU",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "You can use your Channel Divinity to alter your spells as you cast them. When you cast a spell, you can expend one use of your Channel Divinity and change the spell in one of the following ways (no action required).",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Fortifying Spell|Cleric|XPHB|Arcana|AU|3|AU"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Tenacious Spell|Cleric|XPHB|Arcana|AU|3|AU"
+   }
+  ]
+ },
+ {
   "name": "Momentary Stasis",
   "source": "EGW",
   "page": 184,
@@ -18750,8 +19466,85 @@
   ]
  },
  {
+  "name": "Mystic Fighting Style",
+  "source": "AU",
+  "className": "Monk",
+  "classSource": "XPHB",
+  "subclassShortName": "Mystic Arts",
+  "subclassSource": "AU",
+  "level": 6,
+  "header": 2,
+  "entries": [
+   "When you take the {@action Attack|XPHB} action on your turn, you can replace one {@variantrule Unarmed Strike|XPHB} with a casting of one of your Sorcerer cantrips that has a casting time of an action."
+  ]
+ },
+ {
+  "name": "Mystic Focus",
+  "source": "AU",
+  "className": "Monk",
+  "classSource": "XPHB",
+  "subclassShortName": "Mystic Arts",
+  "subclassSource": "AU",
+  "level": 6,
+  "header": 2,
+  "entries": [
+   "You keep your magical power and martial focus in perfect balance, allowing you to convert spell slots into Focus Points, or convert Focus Points into spell slots.",
+   {
+    "type": "entries",
+    "name": "Converting Spell Slots to Focus Points",
+    "entries": [
+     "You can expend a spell slot to regain a number of expended Focus Points equal to the slot's level (no action required)."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Recovering Spell Slots",
+    "entries": [
+     "When you finish a {@variantrule Short Rest|XPHB} or use Uncanny Metabolism, you can transform unexpended Focus Points to recover one expended spell slot. The Recovering Spell Slots table shows the cost of recovering a spell slot of a given level, and it lists the minimum Monk level you must be to recover a slot. You can recover a spell slot no higher than level 4.",
+     {
+      "type": "table",
+      "caption": "Recovering Spell Slots",
+      "colLabels": [
+       "Spell Slot Level",
+       "Focus Point Cost",
+       "Min. Monk Level"
+      ],
+      "colStyles": [
+       "col-4 text-center",
+       "col-4 text-center",
+       "col-4 text-center"
+      ],
+      "rows": [
+       [
+        "1",
+        "2",
+        "6"
+       ],
+       [
+        "2",
+        "3",
+        "7"
+       ],
+       [
+        "3",
+        "5",
+        "13"
+       ],
+       [
+        "4",
+        "6",
+        "19"
+       ]
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Mystical Connection",
   "source": "RHW",
+  "page": 18,
   "className": "Bard",
   "classSource": "XPHB",
   "subclassShortName": "Spirits",
@@ -18759,7 +19552,7 @@
   "level": 14,
   "header": 2,
   "entries": [
-   "You gain mastery over the spirits you call forth. Whenever you roll on the {@book Spirits from Beyond table|RHW|1|Spirits from Beyond}, you can roll the die twice and choose which of the two effects to bestow. If you roll the same number on both dice, you can instead choose any effect on the table."
+   "You gain mastery over the spirits you call forth. Whenever you roll on the {@subclassFeature Spirits from Beyond|Bard|XPHB|Spirits|RHW|3|RHW|Spirits from Beyond table}, you can roll the die twice and choose which of the two effects to bestow. If you roll the same number on both dice, you can instead choose any effect on the table."
   ]
  },
  {
@@ -19041,6 +19834,41 @@
   ]
  },
  {
+  "name": "Necromancer",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Necromancer",
+  "subclassSource": "AU",
+  "level": 3,
+  "entries": [
+   "{@i Command the Powers of Death and Undeath}",
+   "You explore the forces of life, death, and undeath. As a necromancer, you learn to manipulate the energy that animates all creatures, and you draw increasing power from the forbidden secrets in your spellbook. Though many see Necromancers as menacing or villainous, not all Necromancers are evil.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Necromancy Savant|Wizard|XPHB|Necromancer|AU|3|AU"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Necromancy Spellbook|Wizard|XPHB|Necromancer|AU|3|AU"
+   }
+  ]
+ },
+ {
+  "name": "Necromancy Savant",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Necromancer",
+  "subclassSource": "AU",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "Choose two {@filter Wizard spells from the Necromancy school|spells|level=0;1;2|class=Wizard|school=N}, each of which must be no higher than level 2, and add them to your spellbook for free.",
+   "In addition, whenever you gain access to a new level of spell slots in this class, you can add one {@filter Wizard spell from the Necromancy school|spells|class=Wizard|school=N} to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
+  ]
+ },
+ {
   "name": "Necromancy Savant",
   "source": "PHB",
   "page": 118,
@@ -19055,8 +19883,44 @@
   ]
  },
  {
+  "name": "Necromancy Spellbook",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Necromancer",
+  "subclassSource": "AU",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "Your spellbook's necromantic secrets grant you additional powers. You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Necrotic Resistance",
+    "entries": [
+     "You have {@variantrule Resistance|XPHB} to Necrotic damage."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Undead Familiar",
+    "entries": [
+     "The {@spell Find Familiar|XPHB} spell appears in your spellbook. When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: {@creature Skeleton|XMM} or {@creature Zombie|XMM} (see appendix B of the {@book Player's Handbook|XPHB|11} for the familiar's stat block). When you choose one of the normal forms, you can choose Undead as its creature type.",
+     "Additionally, when you take the {@action Attack|XPHB} action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its {@variantrule Reaction|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Undead Vitality",
+    "entries": [
+     "When you cast a {@filter Necromancy spell|spells|school=N} using a spell slot, you can choose an Undead creature you can see within 60 feet of yourself to regain a number of {@variantrule Hit Points|XPHB} equal to the level of the spell slot expended plus your Wizard level."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Necrotic Husk",
   "source": "RHW",
+  "page": 25,
   "className": "Warlock",
   "classSource": "XPHB",
   "subclassShortName": "Undead",
@@ -21032,6 +21896,7 @@
  {
   "name": "Path to the Grave",
   "source": "RHW",
+  "page": 19,
   "className": "Cleric",
   "classSource": "XPHB",
   "subclassShortName": "Grave",
@@ -21385,6 +22250,7 @@
  {
   "name": "Phantom",
   "source": "RHW",
+  "page": 21,
   "className": "Rogue",
   "classSource": "XPHB",
   "subclassShortName": "Phantom",
@@ -21653,8 +22519,37 @@
   ]
  },
  {
+  "name": "Potent Stone",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Transmuter",
+  "subclassSource": "AU",
+  "level": 10,
+  "header": 2,
+  "entries": [
+   "Your Transmuter's Stone is more versatile. When you create your Transmuter's Stone, you can choose up to two benefits. You can choose each option other than {@b Resistance} only once. If you choose {@b Resistance} twice, you must choose different damage types. You can change either or both benefits when you cast a {@filter Transmutation spell|spells|school=T} using a spell slot.",
+   "In addition, the following are now among your benefit options for Transmuter's Stone.",
+   {
+    "type": "entries",
+    "name": "Mighty Build",
+    "entries": [
+     "The bearer has {@variantrule Advantage|XPHB} on Strength saving throws. The bearer also counts as one size larger when determining its carrying capacity."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Tremorsense",
+    "entries": [
+     "The bearer gains {@sense Tremorsense|XPHB} with a range of 30 feet."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Power of Shadow",
   "source": "RHW",
+  "page": 24,
   "className": "Sorcerer",
   "classSource": "XPHB",
   "subclassShortName": "Shadow",
@@ -23068,6 +23963,7 @@
  {
   "name": "Reanimated Companion",
   "source": "RHW",
+  "page": 15,
   "className": "Artificer",
   "classSource": "EFA",
   "subclassShortName": "Reanimator",
@@ -23089,6 +23985,7 @@
  {
   "name": "Reanimator",
   "source": "RHW",
+  "page": 15,
   "className": "Artificer",
   "classSource": "EFA",
   "subclassShortName": "Reanimator",
@@ -23114,6 +24011,7 @@
  {
   "name": "Reanimator Spells",
   "source": "RHW",
+  "page": 15,
   "className": "Artificer",
   "classSource": "EFA",
   "subclassShortName": "Reanimator",
@@ -23160,6 +24058,7 @@
  {
   "name": "Reanimator's Skill Set",
   "source": "RHW",
+  "page": 15,
   "className": "Artificer",
   "classSource": "EFA",
   "subclassShortName": "Reanimator",
@@ -23264,6 +24163,7 @@
  {
   "name": "Refined Reanimation",
   "source": "RHW",
+  "page": 16,
   "className": "Artificer",
   "classSource": "EFA",
   "subclassShortName": "Reanimator",
@@ -23650,6 +24550,7 @@
  {
   "name": "Rot and Violence",
   "source": "RHW",
+  "page": 21,
   "className": "Ranger",
   "classSource": "XPHB",
   "subclassShortName": "Hollow Warden",
@@ -24512,8 +25413,24 @@
   ]
  },
  {
+  "name": "Semblance of Life",
+  "source": "AU",
+  "className": "Warlock",
+  "classSource": "XPHB",
+  "subclassShortName": "Vestige",
+  "subclassSource": "AU",
+  "level": 14,
+  "header": 2,
+  "entries": [
+   "Your {@creature Vestige Companion|AU} continues to grow in strength, and with your assistance, it can briefly adopt a more powerful form. Depending on the vestige's type, you can take a {@action Magic|XPHB} action while the vestige is within 90 feet of you to shape-shift it for 1 hour into one of the following forms: {@b Celestial Spirit} (Celestial vestige; see the {@spell Summon Celestial|XPHB} spell in the {@book Player's Handbook|XPHB|9}), {@b Fiendish Spirit} (Fiend vestige; see the {@spell Summon Fiend|XPHB} spell in the {@book Player's Handbook|XPHB|9}), or {@b Undead Spirit} (Undead vestige; see the {@spell Summon Undead|XPHB} spell in the {@book Player's Handbook|XPHB|9}). The vestige's game statistics are replaced by the spirit's stat block, and the spell's level is equal to half your Warlock level (round down; maximum level 9), but the vestige retains its personality, Divine Power {@variantrule Bonus Action|XPHB}, {@variantrule Hit Points|XPHB}, and {@variantrule Hit Point Dice|XPHB}.",
+   "The vestige gains a number of {@variantrule Temporary Hit Points|XPHB} equal to the {@variantrule Hit Points|XPHB} of the spirit form. These {@variantrule Temporary Hit Points|XPHB} vanish if any remain after 1 hour, and the transformation ends early if it has no {@variantrule Temporary Hit Points|XPHB} left.",
+   "Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
   "name": "Sentinel at Death's Door",
   "source": "RHW",
+  "page": 20,
   "className": "Cleric",
   "classSource": "XPHB",
   "subclassShortName": "Grave",
@@ -24702,6 +25619,7 @@
  {
   "name": "Shadow Sorcery",
   "source": "RHW",
+  "page": 23,
   "className": "Sorcerer",
   "classSource": "XPHB",
   "subclassShortName": "Shadow",
@@ -24723,6 +25641,7 @@
  {
   "name": "Shadow Spells",
   "source": "RHW",
+  "page": 23,
   "className": "Sorcerer",
   "classSource": "XPHB",
   "subclassShortName": "Shadow",
@@ -24793,6 +25712,7 @@
  {
   "name": "Shadow Walk",
   "source": "RHW",
+  "page": 24,
   "className": "Sorcerer",
   "classSource": "XPHB",
   "subclassShortName": "Shadow",
@@ -24857,6 +25777,34 @@
   "header": 2,
   "entries": [
    "You know the {@spell Minor Illusion|XPHB} spell. Wisdom is your spellcasting ability for it."
+  ]
+ },
+ {
+  "name": "Shape-Shifter",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Transmuter",
+  "subclassSource": "AU",
+  "level": 10,
+  "header": 2,
+  "entries": [
+   "You always have the {@spell Polymorph|XPHB} spell prepared and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}.",
+   "In addition, when you target yourself with the spell, you can modify the spell to gain the benefits below. Once you modify the spell using this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}.",
+   {
+    "type": "entries",
+    "name": "Game Statistics",
+    "entries": [
+     "In addition to retaining the features specified in the spell, you retain your memories and ability to communicate. You also retain your Intelligence, Wisdom, and Charisma scores; proficiencies; class features; and feats."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Transmute Spells",
+    "entries": [
+     "While shape-shifted, you can cast spells, but only {@filter Transmutation spells|spells|school=T} that don't have a Material component that has a specified cost or that is consumed by the spell."
+    ]
+   }
   ]
  },
  {
@@ -25525,6 +26473,70 @@
  },
  {
   "name": "Spellcasting",
+  "source": "AU",
+  "className": "Monk",
+  "classSource": "XPHB",
+  "subclassShortName": "Mystic Arts",
+  "subclassSource": "AU",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "You have learned to cast spells. See the {@book Player's Handbook|XPHB} for the rules on spellcasting. The information below details how you use those rules as a Warrior of the Mystic Arts.",
+   {
+    "type": "entries",
+    "name": "Cantrips",
+    "entries": [
+     "You know two cantrips of your choice from the {@filter Sorcerer spell list|spells|class=Sorcerer}. {@spell Blade Ward|XPHB} and {@spell Thunderclap|XPHB} are recommended. Whenever you gain a Monk level, you can replace one of these cantrips with another cantrip of your choice from the {@filter Sorcerer spell list|spells|class=Sorcerer}.",
+     "When you reach Monk level 10, you learn another {@filter Sorcerer cantrip|spells|level=0|class=Sorcerer} of your choice."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Spell Slots",
+    "entries": [
+     "The Warrior of the Mystic Arts Spellcasting table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a {@variantrule Long Rest|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Prepared Spells of Level 1+",
+    "entries": [
+     "You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose three level 1 spells from the {@filter Sorcerer spell list|spells|class=Sorcerer}. {@spell Jump|XPHB}, {@spell Magic Missile|XPHB}, and {@spell Shield|XPHB} are recommended.",
+     "The number of spells on your list increases as you gain Monk levels, as shown in the Prepared Spells column of the Warrior of the Mystic Arts Spellcasting table. Whenever that number increases, choose additional spells from the {@filter Sorcerer spell list|spells|class=Sorcerer} until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 7 Monk, your list of prepared spells can include five Sorcerer spells of levels 1 and 2 in any combination."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Changing Your Prepared Spells",
+    "entries": [
+     "Whenever you gain a Monk level, you can replace one spell on your list with another {@filter Sorcerer spell|spells|class=Sorcerer} for which you have spell slots."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Spellcasting Ability",
+    "entries": [
+     "Wisdom is your spellcasting ability for your Sorcerer spells."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Spellcasting Focus",
+    "entries": [
+     "You can use an {@item Arcane Focus|XPHB} as a {@variantrule Spellcasting Focus|XPHB} for your Sorcerer spells."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Multiclassing",
+    "entries": [
+     "If you multiclass and have the Spellcasting feature from more than one class, add one third of your Monk levels (round down) to determine your available spell slots."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Spellcasting",
   "source": "PHB",
   "page": 74,
   "className": "Fighter",
@@ -26047,6 +27059,7 @@
  {
   "name": "Spirits from Beyond",
   "source": "RHW",
+  "page": 17,
   "className": "Bard",
   "classSource": "XPHB",
   "subclassShortName": "Spirits",
@@ -26146,6 +27159,34 @@
    "{@i 3rd-level College of Spirits feature}",
    "You employ tools that aid you in channeling spirits, be they historical figures or fictional archetypes. You can use the following objects as a spellcasting focus for your bard spells: a candle, crystal ball, skull, spirit board, or {@deck tarokka deck|CoS}.",
    "Starting at 6th level, when you cast a bard spell that deals damage or restores hit points through the Spiritual Focus, roll a {@dice d6}, and you gain a bonus to one damage or healing roll of the spell equal to the number rolled."
+  ]
+ },
+ {
+  "name": "Splintered Summons",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Conjurer",
+  "subclassSource": "AU",
+  "level": 14,
+  "header": 2,
+  "entries": [
+   "When you use a spell slot to cast a {@filter Conjuration spell|spells|school=C} that summons a spirit whose stat block is included in the spell description, such as {@spell Summon Aberration|XPHB}, you can modify the spell to summon two creatures with the spell instead of one. Each creature is of the same kind, uses the stat block and rules denoted by the spell, and manifests in a different unoccupied space of your choice within the spell's range, but the summoned creatures' {@variantrule Hit Points|XPHB|Hit Point} maximums and current {@variantrule Hit Points|XPHB} are halved. If you lose {@status Concentration|XPHB} on the spell, both creatures disappear.",
+   "Once you use this feature to modify a spell in this way, you must finish a {@variantrule Long Rest|XPHB} before you can do so again. You can also restore your use of it by expending a level 5+ spell slot (no action required)."
+  ]
+ },
+ {
+  "name": "Split Enchantment",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Enchanter",
+  "subclassSource": "AU",
+  "level": 6,
+  "header": 2,
+  "entries": [
+   "When you use a spell slot to cast an {@filter Enchantment spell|spells|school=E}, such as {@spell Charm Person|XPHB}, that can be cast with a higher-level spell slot to target an additional creature, you can increase the spell's effective level by 1.",
+   "You can use this feature a number of times equal to your Intelligence modifier, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
   ]
  },
  {
@@ -26734,6 +27775,7 @@
  {
   "name": "Strange Modifications",
   "source": "RHW",
+  "page": 16,
   "className": "Artificer",
   "classSource": "EFA",
   "subclassShortName": "Reanimator",
@@ -26899,11 +27941,38 @@
    "You gain the following {@classFeature Cunning Strike|Rogue|XPHB|5|XPHB} option.",
    {
     "type": "entries",
-    "name": "Terrify (Cost: {@dice 1d6})",
+    "name": "Terrify (Cost: 1d6)",
     "page": 7,
     "entries": [
      "The target must succeed on a Wisdom saving throw, or it has the {@condition Frightened|XPHB} condition for 1 minute. While the target is Frightened in this way, you have {@variantrule Advantage|XPHB} on attack rolls against the target.",
      "The {@condition Frightened|XPHB} target repeats the save at the end of each of its turns, ending the effect on itself on a success."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Student of Arcana",
+  "source": "AU",
+  "className": "Cleric",
+  "classSource": "XPHB",
+  "subclassShortName": "Arcana",
+  "subclassSource": "AU",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Magical Knowledge",
+    "entries": [
+     "You gain proficiency in the {@skill Arcana|XPHB} skill or one skill of your choice from the skills available to Clerics at level 1."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Cantrips",
+    "entries": [
+     "You learn two {@filter Wizard cantrips|spells|level=0|class=Wizard} of your choice. Whenever you gain a Cleric level, you can replace one of these cantrips with another {@filter Wizard cantrip|spells|level=0|class=Wizard}."
     ]
    }
   ]
@@ -27050,6 +28119,7 @@
  {
   "name": "Superior Dread",
   "source": "RHW",
+  "page": 25,
   "className": "Warlock",
   "classSource": "XPHB",
   "subclassShortName": "Undead",
@@ -27927,6 +28997,23 @@
   "entries": [
    "{@i 2nd-level Chronurgy Magic feature}",
    "You can add your Intelligence modifier to your initiative rolls."
+  ]
+ },
+ {
+  "name": "Tenacious Spell",
+  "source": "AU",
+  "className": "Cleric",
+  "classSource": "XPHB",
+  "subclassShortName": "Arcana",
+  "subclassSource": "AU",
+  "level": 3,
+  "header": 2,
+  "consumes": {
+   "name": "Channel Divinity",
+   "amount": 1
+  },
+  "entries": [
+   "When you cast a spell that forces a creature to make a saving throw, and a creature you can see succeeds on that saving throw, roll {@dice 1d6} and subtract the number rolled from the target's first saving throw against the spell's effect."
   ]
  },
  {
@@ -29549,6 +30636,7 @@
  {
   "name": "Tokens of the Departed",
   "source": "RHW",
+  "page": 22,
   "className": "Rogue",
   "classSource": "XPHB",
   "subclassShortName": "Phantom",
@@ -30047,6 +31135,20 @@
  },
  {
   "name": "Transmutation Savant",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Transmuter",
+  "subclassSource": "AU",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "Choose two {@filter Wizard spells from the Transmutation school|spells|level=0;1;2|class=Wizard|school=T}, each of which must be no higher than level 2, and add them to your spellbook for free.",
+   "In addition, whenever you gain access to a new level of spell slots in this class, you can add one {@filter Wizard spell from the Transmutation school|spells|class=Wizard|school=T} to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
+  ]
+ },
+ {
+  "name": "Transmutation Savant",
   "source": "PHB",
   "page": 119,
   "className": "Wizard",
@@ -30057,6 +31159,66 @@
   "header": 1,
   "entries": [
    "Beginning when you select this school at 2nd level, the gold and time you must spend to copy a transmutation spell into your spellbook is halved."
+  ]
+ },
+ {
+  "name": "Transmuter",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Transmuter",
+  "subclassSource": "AU",
+  "level": 3,
+  "entries": [
+   "{@i Transform Energy and Matter}",
+   "You study spells that modify energy and matter—to you, the world is eminently mutable. Using your magic, you become a smith at reality's forge.",
+   "Some Transmuters are tinkerers and pranksters. Others seek the power to make and destroy worlds.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Transmutation Savant|Wizard|XPHB|Transmuter|AU|3|AU"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Transmuter's Stone|Wizard|XPHB|Transmuter|AU|3|AU"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Wondrous Alteration|Wizard|XPHB|Transmuter|AU|3|AU"
+   }
+  ]
+ },
+ {
+  "name": "Transmuter's Stone",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Transmuter",
+  "subclassSource": "AU",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "When you finish a {@variantrule Long Rest|XPHB}, you can create a magic stone that lasts until you use this feature again. The stone is a Tiny object, and you can use it as a {@variantrule Spellcasting Focus|XPHB} for your Wizard spells. A creature with the stone in its possession gains proficiency in Constitution saving throws and one of the following benefits, which you choose when you create the stone. You can change the stone's benefit when you cast a {@filter Transmutation spell|spells|school=T} using a spell slot.",
+   {
+    "type": "entries",
+    "name": "Darkvision",
+    "entries": [
+     "The bearer gains {@sense Darkvision|XPHB} with a range of 60 feet or increases the range of its {@sense Darkvision|XPHB} by 60 feet."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Resistance",
+    "entries": [
+     "The bearer gains {@variantrule Resistance|XPHB} to Acid, Cold, Fire, Lightning, Poison, or Thunder damage (your choice each time you choose this benefit)."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Speed",
+    "entries": [
+     "The bearer's {@variantrule Speed|XPHB} increases by 10 feet."
+    ]
+   }
   ]
  },
  {
@@ -30549,6 +31711,7 @@
  {
   "name": "Umbral Form",
   "source": "RHW",
+  "page": 24,
   "className": "Sorcerer",
   "classSource": "XPHB",
   "subclassShortName": "Shadow",
@@ -30688,6 +31851,7 @@
  {
   "name": "Undead Patron",
   "source": "RHW",
+  "page": 24,
   "className": "Warlock",
   "classSource": "XPHB",
   "subclassShortName": "Undead",
@@ -30709,6 +31873,7 @@
  {
   "name": "Undead Spells",
   "source": "RHW",
+  "page": 24,
   "className": "Warlock",
   "classSource": "XPHB",
   "subclassShortName": "Undead",
@@ -30745,6 +31910,34 @@
       "9",
       "{@spell Antilife Shell|XPHB}, {@spell Cloudkill|XPHB}"
      ]
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Undead Thralls",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Necromancer",
+  "subclassSource": "AU",
+  "level": 6,
+  "header": 2,
+  "entries": [
+   "You always have {@spell Animate Dead|XPHB} prepared and can cast it without expending a spell slot, but you must finish a {@variantrule Long Rest|XPHB} before you can cast it in this way again. Whenever you start casting the spell, you can increase the spell's effective level by 1.",
+   "In addition, while holding your spellbook, you gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Undead Fortitude",
+    "entries": [
+     "Whenever you cast a {@filter Necromancy spell|spells|school=N} that creates or summons an Undead, the Undead's {@variantrule Hit Points|XPHB|Hit Point} maximum and current {@variantrule Hit Points|XPHB} increase by a number equal to your Intelligence modifier plus half your Wizard level (round down)."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Withering Strike",
+    "entries": [
+     "Whenever an Undead you control within 60 feet of you hits a creature with an attack roll, the Undead deals extra Necrotic damage equal to your Intelligence modifier (minimum of 1 Necrotic damage)."
     ]
    }
   ]
@@ -31079,6 +32272,102 @@
   ]
  },
  {
+  "name": "Vestige Companion",
+  "source": "AU",
+  "className": "Warlock",
+  "classSource": "XPHB",
+  "subclassShortName": "Vestige",
+  "subclassSource": "AU",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "The vestige manifests, drawing strength from your pact. It uses the {@creature Vestige Companion|AU} stat block and is a Celestial, Fiend, or Undead (choose when you gain this feature). You determine what the vestige looks like, but regardless of its form, the vestige bears features indicating its supernatural origin. For example, you might decide your vestige is an oversize floating skull etched with sigils, a circle of glowing runes, or a constantly shifting abstract shape. The vestige is {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies and obeys your commands. It vanishes if you die.",
+   {
+    "type": "entries",
+    "name": "The Vestige in Combat",
+    "entries": [
+     "In combat, the vestige acts during your turn. It can move and use its {@variantrule Reaction|XPHB} on its own, but the only action it takes is the {@action Dodge|XPHB} action unless you take a {@variantrule Bonus Action|XPHB} to command it to take an action in its stat block or some other action. You can also sacrifice one of your attacks when you take the {@action Attack|XPHB} action to command the vestige to take the Vestige's Strike action. If you have the {@condition Incapacitated|XPHB} condition, the vestige acts on its own and isn't limited to the {@action Dodge|XPHB} action."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Disappearance of the Vestige",
+    "entries": [
+     "When the vestige drops to 0 {@variantrule Hit Points|XPHB}, it disappears. You can spend 1 minute performing a magical ceremony to manifest the vestige again; it reappears with its maximum {@variantrule Hit Points|XPHB} in an unoccupied space within 5 feet of you. As a {@action Magic|XPHB} action, you can temporarily dismiss the vestige to a pocket dimension. As a {@action Magic|XPHB} action while it is temporarily dismissed, you can cause the vestige to reappear in an unoccupied space within 30 feet of you. Whenever the vestige drops to 0 {@variantrule Hit Points|XPHB} or disappears into the pocket dimension, it leaves behind in its space anything it was wearing or carrying.",
+     {
+      "type": "statblock",
+      "name": "Vestige Companion",
+      "tag": "creature",
+      "source": "AU",
+      "style": "narrow"
+     },
+     "Whenever you finish a {@variantrule Long Rest|XPHB}, you can summon the vestige in a new form, which appears in an unoccupied space within 5 feet of you. You choose its appearance and whether it is a Celestial, Fiend, or Undead. If the vestige is already manifested from this feature, its form changes to the new one."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Vestige Patron",
+  "source": "AU",
+  "className": "Warlock",
+  "classSource": "XPHB",
+  "subclassShortName": "Vestige",
+  "subclassSource": "AU",
+  "level": 3,
+  "entries": [
+   "{@i Wield the Remnants of a Dying God's Power}",
+   "Your pact draws on the power of a dying god, a being once worshipped by countless followers but now abandoned and forgotten. This dying god, known as a vestige, might have been benevolent, evil, or strange and unknowable, but now it is driven to regain its former power. The vestige needs your help, and it is willing to share its remaining strength with you.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Vestige Companion|Warlock|XPHB|Vestige|AU|3|AU"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Vestige Spells|Warlock|XPHB|Vestige|AU|3|AU"
+   }
+  ]
+ },
+ {
+  "name": "Vestige Power",
+  "source": "AU",
+  "className": "Warlock",
+  "classSource": "XPHB",
+  "subclassShortName": "Vestige",
+  "subclassSource": "AU",
+  "level": 6,
+  "header": 2,
+  "entries": [
+   "Your {@creature Vestige Companion|AU} now regains its use of Divine Power whenever you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB} or when you use your Magical Cunning feature. In addition, while within 30 feet of your {@creature Vestige Companion|AU}, you have {@variantrule Resistance|XPHB} to the same damage types as the vestige."
+  ]
+ },
+ {
+  "name": "Vestige Recovery",
+  "source": "AU",
+  "className": "Warlock",
+  "classSource": "XPHB",
+  "subclassShortName": "Vestige",
+  "subclassSource": "AU",
+  "level": 10,
+  "header": 2,
+  "entries": [
+   "When your {@creature Vestige Companion|AU} would drop to 0 {@variantrule Hit Points|XPHB}, you can take a {@variantrule Reaction|XPHB} and expend a Pact Magic spell slot to instead change its {@variantrule Hit Points|XPHB} to its {@variantrule Hit Points|XPHB|Hit Point} maximum. The vestige then teleports to an unoccupied space you can see within 30 feet of it. Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
+  "name": "Vestige Spells",
+  "source": "AU",
+  "className": "Warlock",
+  "classSource": "XPHB",
+  "subclassShortName": "Vestige",
+  "subclassSource": "AU",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "The magic of your {@creature Vestige Companion|AU} ensures you always have certain spells ready. Select one of the following Cleric domains: {@class Cleric|XPHB|Life|Life}, {@class Cleric|XPHB|Light|Light}, {@class Cleric|XPHB|Trickery|Trickery}, or {@class Cleric|XPHB|War|War}. The Domain Spells of your chosen domain are Warlock spells for you. When you reach a Warlock level equal to a Cleric level listed on the Domain Spells table for the domain you have chosen, you thereafter always have the listed spells prepared.",
+   "For example, if you chose the {@class Cleric|XPHB|War Domain|War|XPHB} for this feature, when you reach Warlock level 3, you would have the {@spell Guiding Bolt|XPHB}, {@spell Magic Weapon|XPHB}, {@spell Shield of Faith|XPHB}, and {@spell Spiritual Weapon|XPHB} spells prepared."
+  ]
+ },
+ {
   "name": "Vigilant Blessing",
   "source": "TCE",
   "page": 34,
@@ -31276,6 +32565,7 @@
  {
   "name": "Voice of Death",
   "source": "RHW",
+  "page": 22,
   "className": "Rogue",
   "classSource": "XPHB",
   "subclassShortName": "Phantom",
@@ -31339,6 +32629,7 @@
  {
   "name": "Wails from the Grave",
   "source": "RHW",
+  "page": 21,
   "className": "Rogue",
   "classSource": "XPHB",
   "subclassShortName": "Phantom",
@@ -31855,6 +33146,23 @@
   ]
  },
  {
+  "name": "Warrior of the Mystic Arts",
+  "source": "AU",
+  "className": "Monk",
+  "classSource": "XPHB",
+  "subclassShortName": "Mystic Arts",
+  "subclassSource": "AU",
+  "level": 3,
+  "entries": [
+   "{@i Weave Martial and Mystic Arts}",
+   "Warriors of the Mystic Arts wield magic to supplement their martial skill. They harness mystical focus to enhance their magical and physical abilities.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Spellcasting|Monk|XPHB|Mystic Arts|AU|3|AU"
+   }
+  ]
+ },
+ {
   "name": "Warrior of the Open Hand",
   "source": "XPHB",
   "page": 107,
@@ -32183,6 +33491,7 @@
  {
   "name": "Whispers of the Dead",
   "source": "RHW",
+  "page": 21,
   "className": "Rogue",
   "classSource": "XPHB",
   "subclassShortName": "Phantom",
@@ -32922,6 +34231,41 @@
   ]
  },
  {
+  "name": "Wondrous Alteration",
+  "source": "AU",
+  "className": "Wizard",
+  "classSource": "XPHB",
+  "subclassShortName": "Transmuter",
+  "subclassSource": "AU",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "You always have the {@spell Alter Self|XPHB} spell prepared and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}.",
+   "While under the effects of {@spell Alter Self|XPHB}, you gain an additional benefit for each of its options.",
+   {
+    "type": "entries",
+    "name": "Aquatic Adaptation",
+    "entries": [
+     "While underwater, you can take the {@action Dash|XPHB} action as a {@variantrule Bonus Action|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Change Appearance",
+    "entries": [
+     "You have {@variantrule Advantage|XPHB} on Charisma ({@skill Deception|XPHB}) checks."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Natural Weapons",
+    "entries": [
+     "The damage of your new growth increases to {@dice 2d6} damage of the type associated with the growth. You also have {@variantrule Advantage|XPHB} on Constitution saving throws to maintain {@status Concentration|XPHB}."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Words of Terror",
   "source": "XGE",
   "page": 16,
@@ -32970,13 +34314,14 @@
  {
   "name": "Wrath of the Wild",
   "source": "RHW",
+  "page": 21,
   "className": "Ranger",
   "classSource": "XPHB",
   "subclassShortName": "Hollow Warden",
   "subclassSource": "RHW",
   "level": 3,
   "entries": [
-   "You draw power from the strange and ancient horrors of the land, causing you to sprout unnatural growths, such as bloody antlers or putrid fangs, or causing your shadow to lengthen or twist around you. As a {@variantrule Bonus Action|XPHB}, you can expend a use of Favored {@variantrule Enemy|XPHB} to transform into a ghastly form, gaining the following benefits for 1 minute or until you have the {@condition Incapacitated|XPHB} condition, die, or end the transformation (no action required).",
+   "You draw power from the strange and ancient horrors of the land, causing you to sprout unnatural growths, such as bloody antlers or putrid fangs, or causing your shadow to lengthen or twist around you. As a {@variantrule Bonus Action|XPHB}, you can expend a use of {@classFeature Favored Enemy|Ranger|XPHB|1} to transform into a ghastly form, gaining the following benefits for 1 minute or until you have the {@condition Incapacitated|XPHB} condition, die, or end the transformation (no action required).",
    {
     "type": "entries",
     "name": "Ancient Armor",

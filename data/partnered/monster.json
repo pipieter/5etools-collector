@@ -18920,7 +18920,7 @@
    "AOE"
   ],
   "conditionInflict": [
-   "dazed|FleeMortals"
+   "dazed|fleemortals"
   ],
   "savingThrowForced": [
    "charisma",
@@ -19196,7 +19196,7 @@
   ],
   "conditionImmune": [
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "exhaustion",
    "frightened",
    "paralyzed",
@@ -50954,7 +50954,7 @@
    "MW"
   ],
   "conditionInflict": [
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "poisoned",
    "prone"
   ],
@@ -66362,7 +66362,7 @@
    "RW"
   ],
   "conditionInflict": [
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "frightened"
   ],
   "savingThrowForced": [
@@ -71706,7 +71706,7 @@
   ],
   "conditionImmune": [
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "frightened",
    "paralyzed",
    "petrified",
@@ -80388,7 +80388,7 @@
    "thunder"
   ],
   "conditionImmune": [
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "grappled",
    "paralyzed",
    "poisoned",
@@ -80465,7 +80465,7 @@
    "MW"
   ],
   "conditionInflict": [
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "restrained"
   ],
   "savingThrowForced": [
@@ -84719,7 +84719,7 @@
    "THW"
   ],
   "conditionInflict": [
-   "poisoned|phb"
+   "poisoned"
   ],
   "savingThrowForced": [
    "constitution"
@@ -91018,7 +91018,7 @@
   ],
   "conditionImmune": [
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "frightened",
    "paralyzed",
    "petrified",
@@ -98681,7 +98681,7 @@
    "RCH"
   ],
   "conditionInflict": [
-   "dazed|FleeMortals"
+   "dazed|fleemortals"
   ],
   "fluff": {
    "images": [
@@ -100633,7 +100633,7 @@
    "Y"
   ],
   "conditionInflict": [
-   "dazed|FleeMortals"
+   "dazed|fleemortals"
   ],
   "savingThrowForced": [
    "strength",
@@ -106522,7 +106522,7 @@
   "conditionImmune": [
    "blinded",
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "flanked|FleeMortals",
    "frightened",
    "poisoned",
@@ -120223,7 +120223,7 @@
   ],
   "conditionImmune": [
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "exhaustion",
    "frightened",
    "paralyzed",
@@ -130243,7 +130243,7 @@
   ],
   "conditionImmune": [
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "exhaustion",
    "flanked|FleeMortals",
    "frightened",
@@ -130366,7 +130366,7 @@
   ],
   "conditionInflict": [
    "charmed",
-   "dazed|FleeMortals"
+   "dazed|fleemortals"
   ],
   "savingThrowForced": [
    "charisma",
@@ -139460,7 +139460,7 @@
   ],
   "conditionImmune": [
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "exhaustion",
    "grappled",
    "paralyzed",
@@ -143741,7 +143741,7 @@
   "conditionImmune": [
    "blinded",
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "flanked|FleeMortals",
    "frightened",
    "poisoned",
@@ -149837,7 +149837,7 @@
   ],
   "conditionImmune": [
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "exhaustion",
    "frightened",
    "paralyzed",
@@ -155856,7 +155856,7 @@
   ],
   "conditionInflict": [
    "charmed",
-   "dazed|FleeMortals"
+   "dazed|fleemortals"
   ],
   "savingThrowForced": [
    "constitution",
@@ -161897,7 +161897,7 @@
    "RW"
   ],
   "conditionInflict": [
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "frightened",
    "poisoned"
   ],
@@ -162023,7 +162023,7 @@
    "MW"
   ],
   "conditionInflict": [
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "frightened"
   ],
   "savingThrowForced": [
@@ -168625,7 +168625,7 @@
    "RCH"
   ],
   "conditionInflict": [
-   "dazed|FleeMortals"
+   "dazed|fleemortals"
   ],
   "savingThrowForced": [
    "constitution"
@@ -173847,7 +173847,7 @@
   ],
   "conditionImmune": [
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "exhaustion",
    "frightened",
    "paralyzed",
@@ -174016,7 +174016,7 @@
   ],
   "conditionImmune": [
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "exhaustion",
    "frightened",
    "paralyzed",
@@ -182399,7 +182399,7 @@
    "thunder"
   ],
   "conditionImmune": [
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "grappled",
    "paralyzed",
    "petrified",
@@ -188088,8 +188088,14 @@
    "special": "5 + three times your warlock level"
   },
   "speed": {
-   "walk": 15,
-   "climb": 15
+   "walk": {
+    "number": 5,
+    "condition": "+5 x PB"
+   },
+   "climb": {
+    "number": 5,
+    "condition": "+5 x PB"
+   }
   },
   "str": 11,
   "dex": 6,
@@ -188116,10 +188122,13 @@
    "frightened",
    "prone"
   ],
+  "senses": [
+   "blindsight 60 ft. (blind beyond this radius)"
+  ],
   "languages": [
    "understands the languages you speak"
   ],
-  "pbNote": "equals your bonus",
+  "pbNote": "+PB",
   "trait": [
    {
     "name": "Amorphous",
@@ -196774,7 +196783,7 @@
   ],
   "conditionImmune": [
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "frightened",
    "paralyzed",
    "petrified",
@@ -205177,7 +205186,7 @@
    "RW"
   ],
   "conditionInflict": [
-   "poisoned|phb"
+   "poisoned"
   ],
   "savingThrowForced": [
    "constitution"
@@ -217762,7 +217771,7 @@
    "AOE"
   ],
   "conditionInflict": [
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "frightened"
   ],
   "savingThrowForced": [
@@ -217905,7 +217914,7 @@
    "O"
   ],
   "conditionInflict": [
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "incapacitated"
   ],
   "savingThrowForced": [
@@ -220058,7 +220067,7 @@
   ],
   "conditionImmune": [
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "exhaustion",
    "frightened",
    "paralyzed",
@@ -220406,7 +220415,7 @@
   ],
   "conditionImmune": [
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "exhaustion",
    "frightened",
    "paralyzed",
@@ -220720,7 +220729,7 @@
   ],
   "conditionImmune": [
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "exhaustion",
    "grappled",
    "paralyzed",
@@ -221007,7 +221016,7 @@
    "poison"
   ],
   "conditionImmune": [
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "exhaustion",
    "frightened",
    "grappled",
@@ -233744,7 +233753,7 @@
    "M"
   ],
   "type": {
-   "type": "spirits",
+   "type": "spirit",
    "swarmSize": "T"
   },
   "alignment": [
@@ -236086,7 +236095,7 @@
   ],
   "conditionImmune": [
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "exhaustion",
    "grappled",
    "paralyzed",
@@ -246157,7 +246166,7 @@
   ],
   "conditionImmune": [
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "flanked|FleeMortals",
    "frightened",
    "grappled",
@@ -247099,7 +247108,7 @@
   ],
   "conditionImmune": [
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "frightened",
    "grappled",
    "paralyzed",
@@ -247330,7 +247339,7 @@
   ],
   "conditionImmune": [
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "flanked|FleeMortals",
    "frightened",
    "grappled",
@@ -261075,7 +261084,7 @@
    "RW"
   ],
   "conditionInflict": [
-   "dazed|FleeMortals"
+   "dazed|fleemortals"
   ]
  },
  {
@@ -285838,7 +285847,7 @@
   ],
   "conditionImmune": [
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "exhaustion",
    "grappled",
    "paralyzed",
@@ -285909,7 +285918,7 @@
    "AOE"
   ],
   "conditionInflict": [
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "prone"
   ],
   "savingThrowForced": [
@@ -286822,7 +286831,7 @@
   ],
   "conditionImmune": [
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "frightened",
    "paralyzed",
    "petrified",
@@ -287604,7 +287613,7 @@
   "conditionImmune": [
    "blinded",
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "flanked|FleeMortals",
    "frightened",
    "grappled",
@@ -287762,7 +287771,7 @@
    "RW"
   ],
   "conditionInflict": [
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "restrained"
   ],
   "savingThrowForced": [
@@ -290598,7 +290607,7 @@
   "conditionImmune": [
    "blinded",
    "charmed",
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "frightened",
    "paralyzed",
    "petrified",
@@ -290731,7 +290740,7 @@
    "RCH"
   ],
   "conditionInflict": [
-   "dazed|FleeMortals",
+   "dazed|fleemortals",
    "poisoned"
   ],
   "savingThrowForced": [
