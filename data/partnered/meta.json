@@ -1,0 +1,237 @@
+[
+ {
+  "source": " Steinhardt's Guide to the Eldritch Hunt Player Pack",
+  "type": "optionalFeatureTypes",
+  "value": {
+   "BS": "Blood Strike"
+  }
+ },
+ {
+  "source": "D&D Beyond Drops",
+  "type": "featCategories",
+  "value": {
+   "PPact": "Planar Pact"
+  }
+ },
+ {
+  "source": "Flee, Mortals!",
+  "type": "optionalFeatureTypes",
+  "value": {
+   "OAF": "Optional Animal Feature",
+   "HCF": "Hag Coven Feature",
+   "CCF": "Cave Creature Feature",
+   "EFCF": "Enchanted Forest Creature Feature",
+   "TCF": "Tomb Creature Feature",
+   "RKCF": "Ruined Keep Creature Feature",
+   "SeCF": "Sewer Creature Feature",
+   "SwCF": "Swamp Creature Feature",
+   "UCF": "Underground Creature Feature",
+   "BST:MC": "Mystic Connection"
+  }
+ },
+ {
+  "source": "Flee, Mortals!",
+  "type": "psionicTypes",
+  "value": {
+   "CP": {
+    "full": "Chronopathy",
+    "short": "Chrono.",
+    "hasOrder": true,
+    "color": "006dbd"
+   },
+   "MM": {
+    "full": "Metamorphosis",
+    "short": "Meta.",
+    "hasOrder": true,
+    "color": "b30083"
+   },
+   "PK": {
+    "full": "Pyrokinesis",
+    "short": "Pyro.",
+    "hasOrder": true,
+    "color": "bb0100"
+   },
+   "RP": {
+    "full": "Resopathy",
+    "short": "Reso.",
+    "hasOrder": true,
+    "color": "00b921"
+   },
+   "TK": {
+    "full": "Telekinesis",
+    "short": "Telek.",
+    "hasOrder": true,
+    "color": "ccbe00"
+   },
+   "TP": {
+    "full": "Telepathy",
+    "short": "Telep.",
+    "hasOrder": true,
+    "color": "00adb3"
+   }
+  }
+ },
+ {
+  "source": "Grim Hollow: Player Pack",
+  "type": "optionalFeatureTypes",
+  "value": {
+   "Misf": "Misfortune",
+   "MV:BB": "Maneuver: Blade Breaker",
+   "MV:CR": "Maneuver: Carrion Raven"
+  }
+ },
+ {
+  "source": "Grim Hollow: Player's Guide (2024)",
+  "type": "optionalFeatureTypes",
+  "value": {
+   "HT": "Heritage Trait",
+   "E": "Exploration",
+   "C": "Combat",
+   "R": "Roleplaying",
+   "LC:CO": "Living Crucible: Compound Option",
+   "TG:TG": "Trapper Guild: Trapper Gadget",
+   "TG:AM": "Trapper Guild: Armor Modification",
+   "MB:M": "Misfortune Bringer: Misfortune",
+   "CA:AT": "College of Adventurers: Adventurer Talent",
+   "CM:MO": "Circle of Mutation: Mutation Option",
+   "AH:TB": "Aberrant Horror; Transformation Boon",
+   "AH:TF": "Aberrant Horror; Transformation Flaw",
+   "F:TB": "Fey; Transformation Boon",
+   "F:TF": "Fey; Transformation Flaw",
+   "Fi:TB": "Fiend; Transformation Boon",
+   "Fi:TF": "Fiend; Transformation Flaw",
+   "H:TB": "Hag; Transformation Boon",
+   "H:TF": "Hag; Transformation Flaw",
+   "L:TB": "Lich; Transformation Boon",
+   "L:TF": "Lich; Transformation Flaw",
+   "Ly:TB": "Lycanthrope; Transformation Boon",
+   "Ly:TF": "Lycanthrope; Transformation Flaw",
+   "O:TB": "Ooze; Transformation Boon",
+   "O:TF": "Ooze; Transformation Flaw",
+   "P:TB": "Primordial; Transformation Boon",
+   "P:TF": "Primordial; Transformation Flaw",
+   "Ser:TB": "Seraph; Transformation Boon",
+   "Ser:TF": "Seraph; Transformation Flaw",
+   "SG:TB": "Shadowsteel Ghoul; Transformation Boon",
+   "SG:TF": "Shadowsteel Ghoul; Transformation Flaw",
+   "Spec:TB": "Specter; Transformation Boon",
+   "Spec:TF": "Specter; Transformation Flaw",
+   "V:TB": "Vampire; Transformation Boon",
+   "V:TF": "Vampire; Transformation Flaw",
+   "GoD": "Gift of Damnation",
+   "DG:M": "Devourer Guild: Mutation",
+   "MGS": "Monster Grimoire Specialization"
+  }
+ },
+ {
+  "source": "Heliana's Guide to Monster Hunting",
+  "type": "spellSchools",
+  "value": {
+   "BM": {
+    "full": "Biomancy",
+    "short": "Bio.",
+    "color": "93c572"
+   }
+  }
+ },
+ {
+  "source": "Heliana's Guide to Monster Hunting",
+  "type": "featCategories",
+  "value": {
+   "Craft": "Crafting",
+   "Harvest": "Harvesting"
+  }
+ },
+ {
+  "source": "Heliana's Guide to Monster Hunting",
+  "type": "optionalFeatureTypes",
+  "value": {
+   "T:P": "Trap: Physical",
+   "T:M": "Trap: Magical"
+  }
+ },
+ {
+  "source": "Northlands Worldbook",
+  "type": "optionalFeatureTypes",
+  "value": {
+   "C.T": "Character Thread"
+  }
+ },
+ {
+  "source": "Northlands Worldbook",
+  "type": "vehicleUpgradeTypes",
+  "value": {
+   "SHP:SW": "Ship Upgrade, Siege Weapon"
+  }
+ },
+ {
+  "source": "Obojima: Tales from the Tall Grass",
+  "type": "optionalFeatureTypes",
+  "value": {
+   "4M": "4th Manifestation",
+   "CO": "Channeling Option",
+   "EssenceDice": "Essence Dice",
+   "Mask": "Craft Mask",
+   "WE": "Wax Enchantment"
+  }
+ },
+ {
+  "source": "The Gunslinger Class: Valda's Spire of Secrets",
+  "type": "optionalFeatureTypes",
+  "value": {
+   "MV:G": "Maneuver, Gunslinger"
+  }
+ },
+ {
+  "source": "The Illrigger Revised",
+  "type": "optionalFeatureTypes",
+  "value": {
+   "ItdBoon": "Interdict Boon",
+   "IllMastery": "Combat Mastery"
+  }
+ },
+ {
+  "source": "The Lord of the Rings Roleplaying",
+  "type": "featCategories",
+  "value": {
+   "VtCom": "Common Virtues",
+   "VtBar": "Virtues of the Bardings",
+   "VtDwa": "Virtues of the Dwarves",
+   "VtElf": "Virtues of the Elves",
+   "VtHob": "Virtues of the Hobbits",
+   "VtMBr": "Virtues of the Men of Bree",
+   "VtNRg": "Virtues of the Rangers of the North",
+   "Craft": "Craft",
+   "B10L": "Beyond 10th Level"
+  }
+ },
+ {
+  "source": "The Lord of the Rings Roleplaying",
+  "type": "optionalFeatureTypes",
+  "value": {
+   "FS:C": "Fighting Style; Captain"
+  }
+ },
+ {
+  "source": "Valda's Spire of Secrets: Player Pack 2",
+  "type": "optionalFeatureTypes",
+  "value": {
+   "VSS:M": "Mask"
+  }
+ },
+ {
+  "source": "Vampire: The Masquerade - Bound by Blood",
+  "type": "featCategories",
+  "value": {
+   "KF": "Kindred"
+  }
+ },
+ {
+  "source": "Where Evil Lives: The MCDM Book of Boss Battles",
+  "type": "optionalFeatureTypes",
+  "value": {
+   "MCDM:EM": "Enucleator Modification",
+   "MCDM:PP": "Psionic Power"
+  }
+ }
+]

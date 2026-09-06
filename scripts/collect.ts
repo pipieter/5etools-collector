@@ -339,6 +339,25 @@ function main() {
     // Source data
     const sources = collector.getSources();
     collector.write('source', sources.sort(sort));
+
+    // Meta data
+    const metaResults = [];
+    const metadata = collector.get('_meta');
+    const allowedMeta = [
+      'vehicleUpgradeTypes',
+      'featCategories',
+      'spellSchools',
+      'optionalFeatureTypes',
+      'psionicTypes',
+    ];
+    for (const meta of metadata) {
+      for (const [key, value] of Object.entries(meta)) {
+        if (!allowedMeta.includes(key)) continue;
+        const source = meta.sources[0].full ?? null
+        metaResults.push({ source, type: key, value });
+      }
+    }
+    collector.write('meta', metaResults);
   }
 }
 
