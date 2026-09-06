@@ -312,6 +312,7 @@ function main() {
     collector.write('magicvariant');
     collector.write('monster');
     collector.write('monsterFluff');
+    collector.write('name');
     collector.write('object');
     collector.write('objectFluff');
     collector.write('race');

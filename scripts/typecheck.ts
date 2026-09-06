@@ -35,6 +35,7 @@ import { Vehicle, VehicleUpgrade } from '../types/vehicle';
 import { Rule } from '../types/rule';
 import { Sense } from '../types/sense';
 import { LifeBackground, LifeClass, LifeTrinket } from '../types/life';
+import { SpeciesName } from '../types/name';
 
 // Typia is extremely strict and does not allow for generics. Because of this, we need
 // to define all assert functions beforehand
@@ -64,6 +65,7 @@ const asserts = {
   lifeTrinket: typia.createValidateEquals<LifeTrinket>(),
   magicVariant: typia.createValidateEquals<MagicVariant>(),
   monster: typia.createValidateEquals<Monster>(),
+  name: typia.createValidateEquals<SpeciesName>(),
   object: typia.createValidateEquals<DNDObject>(),
   rule: typia.createValidateEquals<Rule>(),
   sense: typia.createValidateEquals<Sense>(),
@@ -166,6 +168,7 @@ check('lifeTrinket', asserts.lifeTrinket);
 check('magicvariant', asserts.magicVariant);
 check('monster', asserts.monster);
 check('monsterFluff', asserts.fluff);
+check('name', asserts.name);
 check('object', asserts.object);
 check('objectFluff', asserts.fluff);
 check('sidekick', asserts.sidekick);
