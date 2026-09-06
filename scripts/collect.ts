@@ -1,5 +1,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync, readdirSync } from 'fs';
 import path from 'path';
+import { Source } from '../types/source';
+import RawData from './util/rawdata';
 
 function read(path: string): any {
   return JSON.parse(readFileSync(path).toString());
@@ -27,7 +29,7 @@ function appendJson(dir: string, file: string, contents: any[]): any {
   writeFileSync(fullPath, JSON.stringify(contents, null, 1));
 }
 
-class Collector {
+abstract class Collector {
   public readonly basePath: string;
   public readonly outPath: string;
   public readonly data = new Map<string, any[]>();
@@ -53,9 +55,10 @@ class Collector {
     return this.data.get(key) ?? [];
   }
 
-  public write(key: string) {
+  public write(key: string, additionalData?: any[]) {
     if (!existsSync(this.outPath)) mkdirSync(this.outPath, { recursive: true });
-    writeJson(this.outPath, `${key}.json`, this.get(key));
+    const data = [...this.get(key), ...(additionalData ?? [])];
+    writeJson(this.outPath, `${key}.json`, data);
   }
 
   public append(key: string, values: any[]) {
@@ -70,6 +73,23 @@ class Collector {
     if (!existsSync(this.outPath)) mkdirSync(this.outPath, { recursive: true });
     writeJson(this.outPath, `${filename}.json`, objects);
   }
+
+  protected getSourceIds(): Set<string> {
+    const sourceIds = new Set<string>();
+
+    for (const values of this.data.values()) {
+      for (const value of values) {
+        if (typeof value !== 'object') continue;
+        if ('source' in value) {
+          sourceIds.add(value.source);
+        }
+      }
+    }
+
+    return sourceIds;
+  }
+
+  public abstract getSources(): Source[];
 }
 
 class OfficialCollector extends Collector {
@@ -112,6 +132,19 @@ class OfficialCollector extends Collector {
 
     this.add('spellSource', sources);
   }
+
+  public getSources(): Source[] {
+    const sourceIds = this.getSourceIds();
+    const sources = [...sourceIds].map((sourceId) => ({
+      name: RawData.getSourceFullName(sourceId),
+      source: sourceId,
+      abbreviation: RawData.getSourceAbbreviation(sourceId),
+      published: RawData.getSourcePublishDate(sourceId),
+      category: RawData.getSourceCategory(sourceId),
+      legacy: RawData.getSourceLegacyStatus(sourceId),
+    }));
+    return sources;
+  }
 }
 
 class PartneredCollector extends Collector {
@@ -132,6 +165,41 @@ class PartneredCollector extends Collector {
     for (const [key, value] of Object.entries(contents)) {
       this.add(key, value);
     }
+  }
+
+  public getSources(): Source[] {
+    const sources: Source[] = [];
+    const sourceIds = this.getSourceIds();
+    const metas = this.data.get('_meta') ?? [];
+
+    for (const meta of metas) {
+      for (const source of meta.sources ?? []) {
+        const sourceId = source.json;
+        sources.push({
+          source: sourceId,
+          name: source.full ?? source,
+          abbreviation: source.abbreviation ?? source,
+          published: source.dateReleased ?? null,
+          legacy: meta.edition === 'classic',
+          category: 'partnered',
+        });
+        sourceIds.delete(sourceId);
+      }
+    }
+
+    // Add leftover sources
+    for (const source of sourceIds) {
+      sources.push({
+        name: source,
+        source: source,
+        abbreviation: source,
+        published: null,
+        category: 'partnered',
+        legacy: false,
+      });
+    }
+
+    return sources;
   }
 }
 
@@ -267,6 +335,10 @@ function main() {
     const sidekicks = collector.get('class').filter((e) => e.isSidekick);
     collector.writeObjects('class', classes);
     collector.writeObjects('sidekick', sidekicks);
+
+    // Source data
+    const sources = collector.getSources();
+    collector.write('source', sources.sort(sort));
   }
 }
 

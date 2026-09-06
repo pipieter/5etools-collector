@@ -1,0 +1,314 @@
+[
+ {
+  "source": "SGEHPP",
+  "name": " Steinhardt's Guide to the Eldritch Hunt Player Pack",
+  "abbreviation": "SGEHPP",
+  "published": "2026-07-01",
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "BookOfEbonTides",
+  "name": "Book of Ebon Tides",
+  "abbreviation": "BoET",
+  "published": "2022-09-20",
+  "legacy": true,
+  "category": "partnered"
+ },
+ {
+  "source": "CthulhuTorchlight",
+  "name": "Cthulhu by Torchlight",
+  "abbreviation": "CBT",
+  "published": null,
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "DnDBeyondDrops",
+  "name": "D&D Beyond Drops",
+  "abbreviation": "BndD",
+  "published": null,
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "DungeonsDrakkenheim",
+  "name": "Dungeons of Drakkenheim",
+  "abbreviation": "DoDk",
+  "published": "2023-12-21",
+  "legacy": true,
+  "category": "partnered"
+ },
+ {
+  "source": "DoDkSearchSmugglersSecrets",
+  "name": "Dungeons of Drakkenheim: In Search of the Smuggler's Secrets",
+  "abbreviation": "ISotSS",
+  "published": "2025-02-26",
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "ExploringEberron24",
+  "name": "Exploring Eberron (2024)",
+  "abbreviation": "ExE'24",
+  "published": "2026-01-28",
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "FleeMortals",
+  "name": "Flee, Mortals!",
+  "abbreviation": "FM!",
+  "published": null,
+  "legacy": true,
+  "category": "partnered"
+ },
+ {
+  "source": "FoEQuickstone",
+  "name": "Frontiers of Eberron: Quickstone",
+  "abbreviation": "FoEQ",
+  "published": "2024-09-02",
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "GrimHollowCG24",
+  "name": "Grim Hollow: Campaign Guide (2024)",
+  "abbreviation": "GH:CG'24",
+  "published": null,
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "GrimHollowLairsEtharis",
+  "name": "Grim Hollow: Lairs of Etharis",
+  "abbreviation": "GHLoE",
+  "published": "2023-11-30",
+  "legacy": true,
+  "category": "partnered"
+ },
+ {
+  "source": "GrimHollowPlayerPack",
+  "name": "Grim Hollow: Player Pack",
+  "abbreviation": "GH:PP",
+  "published": null,
+  "legacy": true,
+  "category": "partnered"
+ },
+ {
+  "source": "GrimHollowPG24",
+  "name": "Grim Hollow: Player's Guide (2024)",
+  "abbreviation": "GH:PG'24",
+  "published": null,
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "HelianasGuidetoMonsterHunting",
+  "name": "Heliana's Guide to Monster Hunting",
+  "abbreviation": "HGtMH",
+  "published": null,
+  "legacy": true,
+  "category": "partnered"
+ },
+ {
+  "source": "HumblewoodCampaignSetting",
+  "name": "Humblewood Campaign Setting",
+  "abbreviation": "HWCS",
+  "published": "2019-06-17",
+  "legacy": true,
+  "category": "partnered"
+ },
+ {
+  "source": "HumblewoodTales",
+  "name": "Humblewood Tales",
+  "abbreviation": "HWT",
+  "published": "2023-02-28",
+  "legacy": true,
+  "category": "partnered"
+ },
+ {
+  "source": "MonstersOfDrakkenheim",
+  "name": "Monsters of Drakkenheim",
+  "abbreviation": "MoDk",
+  "published": null,
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "NorthlandsSagas",
+  "name": "Northlands Sagas",
+  "abbreviation": "NS",
+  "published": "2026-05-20",
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "NorthlandsWorldbook",
+  "name": "Northlands Worldbook",
+  "abbreviation": "NWB",
+  "published": "2026-05-19",
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "ObojimaTallGrass",
+  "name": "Obojima: Tales from the Tall Grass",
+  "abbreviation": "O:TTG",
+  "published": "2024-11-01",
+  "legacy": true,
+  "category": "partnered"
+ },
+ {
+  "source": "OneShotWonders10Forest",
+  "name": "One Shot Wonders - 10 Forest One Shot Adventures",
+  "abbreviation": "OSW:F",
+  "published": "2025-05-20",
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "OneShotWondersHolidayPack",
+  "name": "One Shot Wonders: Holiday Adventures Pack",
+  "abbreviation": "OSW:HAP",
+  "published": "2025-12-03",
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "RuinsOfSymbaroumSettingHandbook",
+  "name": "Ruins of Symbaroum: Setting Handbook",
+  "abbreviation": "RoS:SH",
+  "published": "2025-05-29",
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "TalDoreiCampaignSettingReborn",
+  "name": "Tal'Dorei Campaign Setting Reborn",
+  "abbreviation": "TDCSR",
+  "published": "2022-01-18",
+  "legacy": true,
+  "category": "partnered"
+ },
+ {
+  "source": "TalesFromTheShadows",
+  "name": "Tales from the Shadows",
+  "abbreviation": "TftS",
+  "published": "2022-10-22",
+  "legacy": true,
+  "category": "partnered"
+ },
+ {
+  "source": "CrookedMoon14",
+  "name": "The Crooked Moon (2014)",
+  "abbreviation": "TCM'14",
+  "published": "2025-05-01",
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "CrookedMoon24",
+  "name": "The Crooked Moon (2024)",
+  "abbreviation": "TCM'24",
+  "published": "2025-05-01",
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "24GriffonsSaddlebag1",
+  "name": "The Griffon's Saddlebag, Book 1 (2024)",
+  "abbreviation": "TGS1'24",
+  "published": null,
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "GriffonsSaddlebag2",
+  "name": "The Griffon's Saddlebag, Book 2",
+  "abbreviation": "TGS2",
+  "published": "2023-04-30",
+  "legacy": true,
+  "category": "partnered"
+ },
+ {
+  "source": "ValdaGunslinger",
+  "name": "The Gunslinger Class: Valda's Spire of Secrets",
+  "abbreviation": "GC:VSS'24",
+  "published": "2025-06-10",
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "IllriggerRevised",
+  "name": "The Illrigger Revised",
+  "abbreviation": "IllR",
+  "published": "2023-12-05",
+  "legacy": true,
+  "category": "partnered"
+ },
+ {
+  "source": "TLotRR",
+  "name": "The Lord of the Rings Roleplaying",
+  "abbreviation": "TLotRR",
+  "published": "2024-11-26",
+  "legacy": true,
+  "category": "partnered"
+ },
+ {
+  "source": "MaladyOfMinarrh",
+  "name": "The Malady of Minarrh",
+  "abbreviation": "TMoM",
+  "published": "2025-03-26",
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "Pugilist2024",
+  "name": "The Pugilist Class (2024)",
+  "abbreviation": "TPC'24",
+  "published": null,
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "ToB1-2023",
+  "name": "Tome of Beasts 1 (2023 Edition)",
+  "abbreviation": "ToB1'23",
+  "published": "2023-05-31",
+  "legacy": true,
+  "category": "partnered"
+ },
+ {
+  "source": "ValdaPlayerPack",
+  "name": "Valda's Spire of Secrets: Player Pack 1",
+  "abbreviation": "VSS:PP1",
+  "published": null,
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "ValdaPlayerPack2",
+  "name": "Valda's Spire of Secrets: Player Pack 2",
+  "abbreviation": "VSS:PP2",
+  "published": "2026-07-14",
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "BoundByBlood",
+  "name": "Vampire: The Masquerade - Bound by Blood",
+  "abbreviation": "VtM:BB",
+  "published": "2026-07-29",
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "WhereEvilLives",
+  "name": "Where Evil Lives: The MCDM Book of Boss Battles",
+  "abbreviation": "WEL",
+  "published": null,
+  "legacy": true,
+  "category": "partnered"
+ }
+]
