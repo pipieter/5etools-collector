@@ -353,8 +353,9 @@ function main() {
     for (const meta of metadata) {
       for (const [key, value] of Object.entries(meta)) {
         if (!allowedMeta.includes(key)) continue;
-        const source = meta.sources[0].full ?? null
-        metaResults.push({ source, type: key, value });
+        const source = meta.sources[0].full ?? null;
+        const sourceAbbreviation = meta.sources[0].abbreviation ?? null;
+        metaResults.push({ source, sourceAbbreviation, type: key, value });
       }
     }
     collector.write('meta', metaResults);
