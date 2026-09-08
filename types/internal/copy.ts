@@ -134,31 +134,37 @@ export interface CopyInternals {
   pantheon: string;
 }
 
-export interface Copy {
-  _copy: {
-    name?: string;
-    abbreviation?: string;
-    shortName?: string;
-    className?: string;
-    classSource?: string;
-    source: string;
-    _mod?: Mods;
-    _preserve?: Record<string, boolean>;
-    _templates?: ID[];
-  } & Partial<CopyInternals>;
-}
+export type ModBody = {
+  name?: string;
+  abbreviation?: string;
+  shortName?: string;
+  className?: string;
+  classSource?: string;
+  source: string;
+  _mod?: Mods;
+  _preserve?: Record<string, boolean>;
+  _templates?: ID[];
+} & Partial<CopyInternals>;
 
-export type Copyable<T> = Partial<Nullable<T>> & Copy;
+export interface Copy {
+  _copy: ModBody;
+}
 
 export interface Version {
   _versionName?: string;
   _versionSource?: string;
   _mod?: Mods;
-  _abstract?: this;
+  _abstract?: ModBody;
   _implementations?: {
     _variables: Record<string, Variadic<string>>; // TODO
     resist?: Variadic<string>;
   }[];
-};
+}
 
-export type Versioned<T> = Partial<Nullable<T>> & { _versions?: (Version | Copyable<Version>)[] };
+export interface Versions<T> {
+  _versions: (Version & Partial<Nullable<T>>)[];
+}
+
+export type Copyable<T> = Partial<Nullable<T>> & Copy;
+export type Versioned<T> = Partial<Nullable<T>> & Versions<T>;
+export type CopyableVersioned<T> = Partial<Nullable<T>> & Copy & Versions<T>;
