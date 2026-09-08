@@ -381,6 +381,7 @@ function main() {
     alignmentNames: RawData.getAlignmentNames(),
     speedTypes: RawData.getSpeedTypes(),
     specialSpeedTypes: RawData.getSpecialSpeedTypes(),
+    ruleTypes: RawData.getRuleTypes(),
   };
   writeFileSync('./data/variables.json', JSON.stringify(variables, null, 1));
 }

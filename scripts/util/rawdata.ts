@@ -103,6 +103,10 @@ class RawData {
     const modes = this.getSpeedTypes();
     return modes.filter((mode) => !nonSpecial.includes(mode));
   }
+
+  getRuleTypes() {
+    return this.parser?.RULE_TYPE_TO_FULL;
+  }
 }
 
 export default new RawData();
