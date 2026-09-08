@@ -131,5 +131,14 @@
   "climb",
   "fly",
   "swim"
- ]
+ ],
+ "ruleTypes": {
+  "C": "Core",
+  "O": "Optional",
+  "P": "Prerelease",
+  "V": "Variant",
+  "VO": "Variant Optional",
+  "VV": "Variant Variant",
+  "U": "Unknown"
+ }
 }
