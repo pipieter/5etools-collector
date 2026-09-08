@@ -105,4 +105,4 @@ export interface MonsterBase extends Base, SRD, Partial<MonsterTags>, Partial<Le
   resource?: any[]; // TODO
 }
 
-export type Monster = MonsterBase | Copyable<MonsterBase> | Versioned<MonsterBase> | CopyableVersioned<MonsterBase>; // Versioned<MonsterBase> | Copyable<MonsterBase> | CopyableVersioned<MonsterBase> | MonsterBase;
+export type Monster = MonsterBase | Copyable<MonsterBase> | Versioned<MonsterBase> | CopyableVersioned<MonsterBase>;
