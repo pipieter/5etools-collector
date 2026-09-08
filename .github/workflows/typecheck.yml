@@ -29,6 +29,14 @@ jobs:
           node-version: '22'
           cache: 'npm'
 
+      - name: Cache ttsc plugin binaries
+        uses: actions/cache@v4
+        with:
+          path: node_modules/.cache/ttsc
+          key: ${{ runner.os }}-ttsc-${{ hashFiles('**/package-lock.json', '**/*.go', '**/tsup.config.*') }}
+          restore-keys: |
+            ${{ runner.os }}-ttsc-
+
       - name: Install dependencies
         run: npm ci
 
