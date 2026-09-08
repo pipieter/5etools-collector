@@ -1,5 +1,5 @@
 import { Base, SRD } from './internal/base';
-import { Copyable, Versioning } from './internal/copy';
+import { Copyable, Versioned } from './internal/copy';
 import { Entry, EntryImage } from './internal/entry';
 
 export interface DeityBase extends Base, SRD {
@@ -22,4 +22,4 @@ export interface DeityBase extends Base, SRD {
   dogma?: string;
 }
 
-export type Deity = DeityBase | Copyable<Versioning<DeityBase>>;
+export type Deity = DeityBase | Copyable<Versioned<DeityBase>>;

@@ -1,5 +1,5 @@
 import { AC, Base, HP, Speed, SRD } from './internal/base';
-import { Copyable, Versioning } from './internal/copy';
+import { Copyable, Versioned } from './internal/copy';
 import { Entry } from './internal/entry';
 
 export interface VehicleCapacity {
@@ -99,4 +99,4 @@ export interface VehicleUpgrade extends Base, SRD {
   cost?: number;
 }
 
-export type Vehicle = VehicleBase | Copyable<Versioning<VehicleBase>>;
+export type Vehicle = VehicleBase | Copyable<Versioned<VehicleBase>>;

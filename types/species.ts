@@ -15,7 +15,7 @@ import {
   ToolProficiency,
   WeaponProficiency,
 } from './internal/base';
-import { Copyable, Versioning } from './internal/copy';
+import { Copyable, Versioned } from './internal/copy';
 import { Entry, HRef } from './internal/entry';
 
 export interface SpeciesTags {
@@ -56,5 +56,5 @@ export interface SpeciesFluffBase extends FluffBase {
   uncommon?: boolean;
 }
 
-export type Species = SpeciesBase | Copyable<Versioning<SpeciesBase>>;
-export type SpeciesFluff = SpeciesFluffBase | Copyable<Versioning<SpeciesFluffBase>>;
+export type Species = SpeciesBase | Copyable<Versioned<SpeciesBase>>;
+export type SpeciesFluff = SpeciesFluffBase | Copyable<Versioned<SpeciesFluffBase>>;

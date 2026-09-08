@@ -10,7 +10,7 @@ import {
   ID,
   FeatureProgression,
 } from './internal/base';
-import { Copyable, Versioning } from './internal/copy';
+import { Copyable, Versioned } from './internal/copy';
 import { Entry } from './internal/entry';
 
 interface FromSource {
@@ -63,4 +63,4 @@ export interface SpellBase extends Base, SRD {
   optionalfeatures?: FeatureProgression[];
 }
 
-export type Spell = SpellBase | Copyable<Versioning<SpellBase>>;
+export type Spell = SpellBase | Copyable<Versioned<SpellBase>>;

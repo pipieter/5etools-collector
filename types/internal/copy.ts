@@ -150,13 +150,15 @@ export interface Copy {
 
 export type Copyable<T> = Partial<Nullable<T>> & Copy;
 
-export type Versioning<T> = Partial<Nullable<T>> & {
+export interface Version {
   _versionName?: string;
   _versionSource?: string;
   _mod?: Mods;
-  _abstract?: Versioning<T>;
+  _abstract?: this;
   _implementations?: {
     _variables: Record<string, Variadic<string>>; // TODO
     resist?: Variadic<string>;
   }[];
 };
+
+export type Versioned<T> = Partial<Nullable<T>> & { _versions?: (Version | Copyable<Version>)[] };

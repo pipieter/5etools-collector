@@ -19,7 +19,7 @@ import {
   ToolProficiency,
   WeaponProficiency,
 } from './internal/base';
-import { Copyable, Versioning } from './internal/copy';
+import { Copyable, Versioned } from './internal/copy';
 import { Entry } from './internal/entry';
 
 export type ClassResourceValue =
@@ -137,5 +137,5 @@ export interface SubclassFeature extends ClassFeature {
   subclassSource: string;
 }
 
-export type Class = ClassBase | Copyable<Versioning<ClassBase>>;
-export type Subclass = SubclassBase | Copyable<Versioning<SubclassBase>>;
+export type Class = ClassBase | Copyable<Versioned<ClassBase>>;
+export type Subclass = SubclassBase | Copyable<Versioned<SubclassBase>>;

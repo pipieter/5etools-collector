@@ -11,7 +11,7 @@ import {
   Ability,
   Choose,
 } from './internal/base';
-import { Copyable, Versioning } from './internal/copy';
+import { Copyable, Versioned } from './internal/copy';
 import { Entry } from './internal/entry';
 
 export interface ItemMastery extends Base, SRD {
@@ -198,6 +198,6 @@ export interface MagicVariantBase extends Partial<ItemBase> {
   excludes?: MagicItemRequirement;
 }
 
-export type Item = ItemBase | Copyable<Versioning<ItemBase>>;
-export type ItemType = ItemTypeBase | Copyable<Versioning<ItemTypeBase>>;
-export type MagicVariant = MagicVariantBase | Copyable<Versioning<MagicVariantBase>>;
+export type Item = ItemBase | Copyable<Versioned<ItemBase>>;
+export type ItemType = ItemTypeBase | Copyable<Versioned<ItemTypeBase>>;
+export type MagicVariant = MagicVariantBase | Copyable<Versioned<MagicVariantBase>>;

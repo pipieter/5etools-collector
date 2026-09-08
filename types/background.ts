@@ -10,7 +10,7 @@ import {
   Prerequisite,
   WeaponProficiency,
 } from './internal/base';
-import { Copyable, Versioning } from './internal/copy';
+import { Copyable, Versioned } from './internal/copy';
 import { Entry } from './internal/entry';
 
 export interface BackgroundBase extends Base, SRD {
@@ -28,4 +28,4 @@ export interface BackgroundBase extends Base, SRD {
   prerequisite?: Prerequisite[];
 }
 
-export type Background = Copyable<Versioning<BackgroundBase>> | BackgroundBase;
+export type Background = Copyable<Versioned<BackgroundBase>> | BackgroundBase;

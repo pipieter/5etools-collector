@@ -1,4 +1,4 @@
-import { Copyable, EntryMod, Mod, Mods, SpellcastingEntryMod, Versioning } from './copy';
+import { Copyable, EntryMod, Mod, Mods, SpellcastingEntryMod, Versioned } from './copy';
 import { Entry, EntryImage, HRef } from './entry';
 import { Nullable, Variadic } from './util';
 
@@ -59,7 +59,6 @@ export interface Base extends Foundry, TokenArt, HasFluff, Partial<GenData> {
   otherSources?: Source[];
   additionalSources?: Source[];
   edition?: string;
-  _versions?: (Versioning<this> | Copyable<Versioning<this>>)[];
 }
 
 export type Source =
