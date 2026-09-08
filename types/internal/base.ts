@@ -1,4 +1,6 @@
+import { Copyable, EntryMod, Mod, Mods, SpellcastingEntryMod, Versioned } from './copy';
 import { Entry, EntryImage, HRef } from './entry';
+import { Nullable, Variadic } from './util';
 
 export interface ID {
   name: string;
@@ -57,7 +59,6 @@ export interface Base extends Foundry, TokenArt, HasFluff, Partial<GenData> {
   otherSources?: Source[];
   additionalSources?: Source[];
   edition?: string;
-  _versions?: any[]; // TODO
 }
 
 export type Source =
@@ -185,6 +186,7 @@ export interface ArmorProficiency {
   medium?: boolean;
   heavy?: boolean;
   shield?: boolean;
+  shields?: boolean; // TODO Typo in Tiefling; Shavaran Legacy, may be fixed later?
 }
 
 export interface ClassProficiency {

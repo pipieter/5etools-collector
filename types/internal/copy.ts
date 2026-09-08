@@ -94,7 +94,8 @@ export interface SetProp {
 export interface AddSpells {
   mode: 'addSpells';
   will?: string[];
-  daily: any; // TODO
+  daily?: Record<string, string[]>; // TODO Make explicit?
+  yearly?: Record<string, string[]>; // TODO Make explicit?
   spells: any; // TODO
 }
 
@@ -133,18 +134,37 @@ export interface CopyInternals {
   pantheon: string;
 }
 
+export type ModBody = {
+  name?: string;
+  abbreviation?: string;
+  shortName?: string;
+  className?: string;
+  classSource?: string;
+  source: string;
+  _mod?: Mods;
+  _preserve?: Record<string, boolean>;
+  _templates?: ID[];
+} & Partial<CopyInternals>;
+
 export interface Copy {
-  _copy: {
-    name?: string;
-    abbreviation?: string;
-    shortName?: string;
-    className?: string;
-    classSource?: string;
-    source: string;
-    _mod?: Mods;
-    _preserve?: Record<string, boolean>;
-    _templates?: ID[];
-  } & Partial<CopyInternals>;
+  _copy: ModBody;
+}
+
+export interface Version {
+  _versionName?: string;
+  _versionSource?: string;
+  _mod?: Mods;
+  _abstract?: ModBody;
+  _implementations?: {
+    _variables: Record<string, Variadic<string>>; // TODO
+    resist?: Variadic<string>;
+  }[];
+}
+
+export interface Versions<T> {
+  _versions: (Version & Partial<Nullable<T>>)[];
 }
 
 export type Copyable<T> = Partial<Nullable<T>> & Copy;
+export type Versioned<T> = Partial<Nullable<T>> & Versions<T>;
+export type CopyableVersioned<T> = Partial<Nullable<T>> & Copy & Versions<T>;

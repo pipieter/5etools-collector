@@ -1,5 +1,5 @@
 import { Base, SRD } from './internal/base';
-import { Copyable } from './internal/copy';
+import { Copyable, Versioned } from './internal/copy';
 import { Entry, EntryImage } from './internal/entry';
 
 export interface DeityBase extends Base, SRD {

@@ -12,8 +12,9 @@ import {
   SRD,
   TaggedType,
 } from './internal/base';
-import { Copyable } from './internal/copy';
+import { Copyable, CopyableVersioned, Version, Versioned } from './internal/copy';
 import { Entry, HRef } from './internal/entry';
+import { Variadic } from './internal/util';
 
 export interface MonsterTags {
   senseTags: string[];
@@ -62,7 +63,7 @@ export interface MonsterBase extends Base, SRD, Partial<MonsterTags>, Partial<Le
   isNpc?: boolean;
   shortName?: boolean | string;
   isNamedCreature?: boolean;
-  size?: string[];
+  size?: Variadic<string>;
   sizeNote?: string;
   type?: any; //TODO
   alignment?: any[];
@@ -104,4 +105,4 @@ export interface MonsterBase extends Base, SRD, Partial<MonsterTags>, Partial<Le
   resource?: any[]; // TODO
 }
 
-export type Monster = MonsterBase | Copyable<MonsterBase>;
+export type Monster = MonsterBase | Copyable<MonsterBase> | Versioned<MonsterBase> | CopyableVersioned<MonsterBase>;

@@ -1,5 +1,5 @@
 import { AC, Base, HP, Speed, SRD } from './internal/base';
-import { Copyable } from './internal/copy';
+import { Copyable, Versioned } from './internal/copy';
 import { Entry } from './internal/entry';
 
 export interface VehicleCapacity {
