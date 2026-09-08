@@ -1,4 +1,6 @@
+import { Copyable, EntryMod, Mod, Mods, SpellcastingEntryMod } from './copy';
 import { Entry, EntryImage, HRef } from './entry';
+import { Nullable, Variadic } from './util';
 
 export interface ID {
   name: string;
@@ -45,6 +47,17 @@ export interface GenData {
   parentEntity: any;
 }
 
+export type Version<T> = Partial<Nullable<T>> & {
+  _versionName?: string;
+  _versionSource?: string;
+  _mod?: Mods;
+  _abstract?: Version<T>;
+  _implementations?: {
+    _variables: Record<string, Variadic<string>>;
+    resist?: Variadic<string>;
+  }[];
+};
+
 export interface Base extends Foundry, TokenArt, HasFluff, Partial<GenData> {
   name: string;
   source: string;
@@ -57,7 +70,7 @@ export interface Base extends Foundry, TokenArt, HasFluff, Partial<GenData> {
   otherSources?: Source[];
   additionalSources?: Source[];
   edition?: string;
-  _versions?: any[]; // TODO
+  _versions?: (Version<this> | Copyable<Version<this>>)[];
 }
 
 export type Source =
@@ -185,6 +198,7 @@ export interface ArmorProficiency {
   medium?: boolean;
   heavy?: boolean;
   shield?: boolean;
+  shields?: boolean; // TODO Typo in Tiefling; Shavaran Legacy, may be fixed later?
 }
 
 export interface ClassProficiency {

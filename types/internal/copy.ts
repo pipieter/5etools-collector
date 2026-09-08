@@ -94,7 +94,8 @@ export interface SetProp {
 export interface AddSpells {
   mode: 'addSpells';
   will?: string[];
-  daily: any; // TODO
+  daily?: Record<string, string[]>; // TODO Make explicit?
+  yearly?: Record<string, string[]>; // TODO Make explicit?
   spells: any; // TODO
 }
 
