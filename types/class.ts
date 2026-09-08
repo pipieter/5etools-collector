@@ -137,5 +137,5 @@ export interface SubclassFeature extends ClassFeature {
   subclassSource: string;
 }
 
-export type Class = ClassBase | Copyable<Versioned<ClassBase>>;
-export type Subclass = SubclassBase | Copyable<Versioned<SubclassBase>>;
+export type Class = ClassBase | Copyable<ClassBase>;
+export type Subclass = SubclassBase | Copyable<SubclassBase>;

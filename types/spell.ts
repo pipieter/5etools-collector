@@ -63,4 +63,4 @@ export interface SpellBase extends Base, SRD {
   optionalfeatures?: FeatureProgression[];
 }
 
-export type Spell = SpellBase | Copyable<Versioned<SpellBase>>;
+export type Spell = SpellBase | Copyable<SpellBase>;

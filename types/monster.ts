@@ -12,7 +12,7 @@ import {
   SRD,
   TaggedType,
 } from './internal/base';
-import { Copyable, Versioned } from './internal/copy';
+import { Copyable, CopyableVersioned, Version, Versioned } from './internal/copy';
 import { Entry, HRef } from './internal/entry';
 import { Variadic } from './internal/util';
 
@@ -105,4 +105,4 @@ export interface MonsterBase extends Base, SRD, Partial<MonsterTags>, Partial<Le
   resource?: any[]; // TODO
 }
 
-export type Monster = MonsterBase | Copyable<Versioned<MonsterBase>>;
+export type Monster = MonsterBase | Copyable<MonsterBase> | Versioned<MonsterBase> | CopyableVersioned<MonsterBase>; // Versioned<MonsterBase> | Copyable<MonsterBase> | CopyableVersioned<MonsterBase> | MonsterBase;
