@@ -1,5 +1,5 @@
 import { Base } from './internal/base';
-import { Copyable } from './internal/copy';
+import { Copyable, Versioning } from './internal/copy';
 import { Entry, EntryImage } from './internal/entry';
 
 export interface FluffBase extends Base {
@@ -7,4 +7,4 @@ export interface FluffBase extends Base {
   images?: EntryImage[];
 }
 
-export type Fluff = FluffBase | Copyable<FluffBase>;
+export type Fluff = FluffBase | Copyable<Versioning<FluffBase>>;

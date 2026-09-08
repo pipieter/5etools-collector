@@ -149,3 +149,14 @@ export interface Copy {
 }
 
 export type Copyable<T> = Partial<Nullable<T>> & Copy;
+
+export type Versioning<T> = Partial<Nullable<T>> & {
+  _versionName?: string;
+  _versionSource?: string;
+  _mod?: Mods;
+  _abstract?: Versioning<T>;
+  _implementations?: {
+    _variables: Record<string, Variadic<string>>; // TODO
+    resist?: Variadic<string>;
+  }[];
+};

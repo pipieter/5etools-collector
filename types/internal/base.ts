@@ -1,4 +1,4 @@
-import { Copyable, EntryMod, Mod, Mods, SpellcastingEntryMod } from './copy';
+import { Copyable, EntryMod, Mod, Mods, SpellcastingEntryMod, Versioning } from './copy';
 import { Entry, EntryImage, HRef } from './entry';
 import { Nullable, Variadic } from './util';
 
@@ -47,17 +47,6 @@ export interface GenData {
   parentEntity: any;
 }
 
-export type Version<T> = Partial<Nullable<T>> & {
-  _versionName?: string;
-  _versionSource?: string;
-  _mod?: Mods;
-  _abstract?: Version<T>;
-  _implementations?: {
-    _variables: Record<string, Variadic<string>>;
-    resist?: Variadic<string>;
-  }[];
-};
-
 export interface Base extends Foundry, TokenArt, HasFluff, Partial<GenData> {
   name: string;
   source: string;
@@ -70,7 +59,7 @@ export interface Base extends Foundry, TokenArt, HasFluff, Partial<GenData> {
   otherSources?: Source[];
   additionalSources?: Source[];
   edition?: string;
-  _versions?: (Version<this> | Copyable<Version<this>>)[];
+  _versions?: (Versioning<this> | Copyable<Versioning<this>>)[];
 }
 
 export type Source =
