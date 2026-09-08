@@ -99,4 +99,4 @@ export interface VehicleUpgrade extends Base, SRD {
   cost?: number;
 }
 
-export type Vehicle = VehicleBase | Copyable<Versioned<VehicleBase>>;
+export type Vehicle = VehicleBase | Copyable<VehicleBase>;

@@ -7,4 +7,4 @@ export interface FluffBase extends Base {
   images?: EntryImage[];
 }
 
-export type Fluff = FluffBase | Copyable<Versioned<FluffBase>>;
+export type Fluff = FluffBase | Copyable<FluffBase>;

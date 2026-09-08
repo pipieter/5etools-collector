@@ -198,6 +198,6 @@ export interface MagicVariantBase extends Partial<ItemBase> {
   excludes?: MagicItemRequirement;
 }
 
-export type Item = ItemBase | Copyable<Versioned<ItemBase>>;
-export type ItemType = ItemTypeBase | Copyable<Versioned<ItemTypeBase>>;
-export type MagicVariant = MagicVariantBase | Copyable<Versioned<MagicVariantBase>>;
+export type Item = ItemBase | Copyable<ItemBase>;
+export type ItemType = ItemTypeBase | Copyable<ItemTypeBase>;
+export type MagicVariant = MagicVariantBase | Copyable<MagicVariantBase>;

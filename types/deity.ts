@@ -22,4 +22,4 @@ export interface DeityBase extends Base, SRD {
   dogma?: string;
 }
 
-export type Deity = DeityBase | Copyable<Versioned<DeityBase>>;
+export type Deity = DeityBase | Copyable<DeityBase>;
