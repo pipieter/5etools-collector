@@ -140,5 +140,19 @@
   "VO": "Variant Optional",
   "VV": "Variant Variant",
   "U": "Unknown"
+ },
+ "trapTypes": {
+  "MECH": "Mechanical Trap",
+  "MAG": "Magical Trap",
+  "SMPL": "Simple Trap",
+  "CMPX": "Complex Trap",
+  "HAZ": "Hazard",
+  "WTH": "Weather",
+  "ENV": "Environmental Hazard",
+  "WLD": "Wilderness Hazard",
+  "GEN": "Generic",
+  "EST": "Eldritch Storm",
+  "TRP": "Trap",
+  "HAUNT": "Haunted Trap"
  }
 }
