@@ -111,6 +111,10 @@ class RawData {
   getTrapTypes() {
     return this.parser?.TRAP_HAZARD_TYPE_TO_FULL;
   }
+
+  getVehicleTypes() {
+    return this.parser?.VEHICLE_TYPE_TO_FULL;
+  }
 }
 
 export default new RawData();

@@ -2,6 +2,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync, readdirSync } from 
 import path from 'path';
 import { Source } from '../types/source';
 import RawData from './util/rawdata';
+import rawdata from './util/rawdata';
 
 function read(path: string): any {
   return JSON.parse(readFileSync(path).toString());
@@ -374,6 +375,7 @@ function main() {
     sizeNames: RawData.getSizeNames(),
     damageNames: RawData.getDamageNames(),
     featCategoryNames: RawData.getFeatCategoryNames(),
+    vehicleTypes: RawData.getVehicleTypes(),
     vehicleUpgradeTypes: RawData.getVehicleUpgradeTypes(),
     spellSchoolNames: RawData.getSpellSchoolNames(),
     skillAbilities: RawData.getSkillAbilities(),
