@@ -59,6 +59,14 @@
   "FS:R": "Fighting Style Replacement (Ranger)",
   "EB": "Epic Boon"
  },
+ "vehicleTypes": {
+  "SHIP": "Ship",
+  "SPELLJAMMER": "Spelljammer Ship",
+  "ELEMENTAL_AIRSHIP": "Elemental Airship",
+  "INFWAR": "Infernal War Machine",
+  "CREATURE": "Creature",
+  "OBJECT": "Object"
+ },
  "vehicleUpgradeTypes": {
   "SHP:H": "Ship Upgrade, Hull",
   "SHP:M": "Ship Upgrade, Movement",

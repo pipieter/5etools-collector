@@ -374,6 +374,7 @@ function main() {
     sizeNames: RawData.getSizeNames(),
     damageNames: RawData.getDamageNames(),
     featCategoryNames: RawData.getFeatCategoryNames(),
+    vehicleTypes: RawData.getVehicleTypes(),
     vehicleUpgradeTypes: RawData.getVehicleUpgradeTypes(),
     spellSchoolNames: RawData.getSpellSchoolNames(),
     skillAbilities: RawData.getSkillAbilities(),
