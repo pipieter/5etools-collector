@@ -382,6 +382,7 @@ function main() {
     speedTypes: RawData.getSpeedTypes(),
     specialSpeedTypes: RawData.getSpecialSpeedTypes(),
     ruleTypes: RawData.getRuleTypes(),
+    trapTypes: RawData.getTrapTypes(),
   };
   writeFileSync('./data/variables.json', JSON.stringify(variables, null, 1));
 }

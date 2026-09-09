@@ -107,6 +107,10 @@ class RawData {
   getRuleTypes() {
     return this.parser?.RULE_TYPE_TO_FULL;
   }
+
+  getTrapTypes() {
+    return this.parser?.TRAP_HAZARD_TYPE_TO_FULL;
+  }
 }
 
 export default new RawData();
