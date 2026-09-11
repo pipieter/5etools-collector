@@ -313,15 +313,19 @@ export interface Duration {
   ends?: string[];
 }
 
+
+export type Distance =
+| { type: 'sight' }
+| { type: 'unlimited' }
+| { type: 'self', amount?: number }
+| { type: 'touch'; amount?: number }
+| { type: 'feet'; amount: number }
+| { type: 'miles'; amount: number };
+
 export type RangeType =
   'point' | 'emanation' | 'line' | 'cone' | 'radius' | 'sphere' | 'cylinder' | 'cube' | 'hemisphere';
 
-export interface Distance {
-  type: 'feet' | 'self' | 'touch' | 'miles' | 'sight' | 'unlimited';
-  amount?: number;
-}
-
-export type Range =
+  export type Range =
   | { type: 'special' }
   | {
       type: RangeType;
