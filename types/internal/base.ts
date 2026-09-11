@@ -314,15 +314,19 @@ export interface Duration {
 }
 
 export type RangeType =
-  'special' | 'point' | 'emanation' | 'line' | 'cone' | 'radius' | 'sphere' | 'cylinder' | 'cube' | 'hemisphere';
+  'point' | 'emanation' | 'line' | 'cone' | 'radius' | 'sphere' | 'cylinder' | 'cube' | 'hemisphere';
 
-export interface Range {
-  type: RangeType;
-  distance?: {
-    type: 'feet' | 'self' | 'touch' | 'miles' | 'sight' | 'unlimited';
-    amount?: number;
-  };
+export interface Distance {
+  type: 'feet' | 'self' | 'touch' | 'miles' | 'sight' | 'unlimited';
+  amount?: number;
 }
+
+export type Range =
+  | { type: 'special' }
+  | {
+      type: RangeType;
+      distance: Distance;
+    };
 
 export type Scaling = Record<string, string>;
 
