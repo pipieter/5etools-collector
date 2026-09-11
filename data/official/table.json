@@ -3026,7 +3026,7 @@
    ],
    [
     "Varies",
-    "Spell attack (the ability used is determined by the spellcaster's spellcasting feature, as explained in {@book chapter 7|XPHB|7})"
+    "Spell attack (the ability used is determined by the spellcaster's spellcasting feature, as explained in {@area chapter 7|728|x})"
    ]
   ],
   "name": "Ability Modifier; Attack Roll Abilities",
@@ -4727,7 +4727,7 @@
    ],
    [
     "2",
-    "A magewright from House Cannith wants the party to escort him to a {@book warforged colossus|ERLW|10|Warforged Colossus}. The magewright wants to retrieve the docent network from the colossus before an unscrupulous House Phiarlan operative does so."
+    "A magewright from House Cannith wants the party to escort him to a {@area warforged colossus|406|x}. The magewright wants to retrieve the docent network from the colossus before an unscrupulous House Phiarlan operative does so."
    ],
    [
     "3",
@@ -4878,7 +4878,7 @@
    ],
    [
     "6",
-    "A {@creature radiant idol|ERLW} (see {@book chapter 6|ERLW|13}) has formed a cult that attracts professors and staff of Morgrave University, promising them knowledge beyond imagining in exchange for their worship."
+    "A {@creature radiant idol|ERLW} (see {@area chapter 6|513|x}) has formed a cult that attracts professors and staff of Morgrave University, promising them knowledge beyond imagining in exchange for their worship."
    ]
   ],
   "name": "Adventures in Sharn; Life in the City",
@@ -6938,11 +6938,11 @@
    ],
    [
     "4",
-    "A snake charmer overreaches when he unsuccessfully attempts to control an {@creature amphisbaena|GoS} (see {@book chapter 6|MOT|6|Amphisbaena}) during a performance."
+    "A snake charmer overreaches when he unsuccessfully attempts to control an {@creature amphisbaena|GoS} (see {@area chapter 6|00e|x}) during a performance."
    ],
    [
     "5",
-    "A disgraced priest of Ephara releases a horde of anvilwrought creatures (see {@book chapter 6|MOT|6|Anvilwroughts}) on a crowd gathered at the agora."
+    "A disgraced priest of Ephara releases a horde of anvilwrought creatures (see {@area chapter 6|028|x}) on a crowd gathered at the agora."
    ],
    [
     "6",
@@ -8219,183 +8219,183 @@
   "rows": [
    [
     "01–02",
-    "{@book Cloud Giant Wealth|BGG|2|Cloud Giant Wealth} (chapter 2, \"{@book The Ordning|BGG|2|The Ordning}\")"
+    "{@book Cloud Giant Wealth|BGG|2|Cloud Giant Wealth} (chapter 2, \"{@area The Ordning|04b|x}\")"
    ],
    [
     "03–04",
-    "{@book Fire Giant Skill|BGG|2|Fire Giant Skill} (chapter 2, \"{@book The Ordning|BGG|2|The Ordning}\")"
+    "{@book Fire Giant Skill|BGG|2|Fire Giant Skill} (chapter 2, \"{@area The Ordning|04b|x}\")"
    ],
    [
     "05–06",
-    "{@book Frost Giant Might|BGG|2|Frost Giant Might} (chapter 2, \"{@book The Ordning|BGG|2|The Ordning}\")"
+    "{@book Frost Giant Might|BGG|2|Frost Giant Might} (chapter 2, \"{@area The Ordning|04b|x}\")"
    ],
    [
     "07–08",
-    "{@book Stone Giant Artistry|BGG|2|Stone Giant Artistry} (chapter 2, \"{@book The Ordning|BGG|2|The Ordning}\")"
+    "{@book Stone Giant Artistry|BGG|2|Stone Giant Artistry} (chapter 2, \"{@area The Ordning|04b|x}\")"
    ],
    [
     "09–11",
-    "{@book Rejecting the Ordning|BGG|2|Rejecting the Ordning} (chapter 2, \"{@book The Ordning|BGG|2|The Ordning}\")"
+    "{@area Rejecting the Ordning|04c|x} (chapter 2, \"{@area The Ordning|04b|x}\")"
    ],
    [
     "12–14",
-    "{@book Annam's Children Adventures|BGG|2|Annam's Children Adventures} (chapter 2, \"{@book Gods and Religion|BGG|2|Gods and Religion}\")"
+    "{@book Annam's Children Adventures|BGG|2|Annam's Children Adventures} (chapter 2, \"{@area Gods and Religion|04e|x}\")"
    ],
    [
     "15–17",
-    "{@book Interloper Gods Adventures|BGG|2|Interloper Gods Adventures} (chapter 2, \"{@book Gods and Religion|BGG|2|Gods and Religion}\")"
+    "{@book Interloper Gods Adventures|BGG|2|Interloper Gods Adventures} (chapter 2, \"{@area Gods and Religion|04e|x}\")"
    ],
    [
     "18–20",
-    "{@book Recluses|BGG|2|Recluses} (chapter 2, \"{@book Social Structures|BGG|2|Social Structures}\")"
+    "{@book Recluses|BGG|2|Recluses} (chapter 2, \"{@area Social Structures|074|x}\")"
    ],
    [
     "21–23",
-    "{@book Exiles|BGG|2|Exiles} (chapter 2, \"{@book Social Structures|BGG|2|Social Structures}\")"
+    "{@book Exiles|BGG|2|Exiles} (chapter 2, \"{@area Social Structures|074|x}\")"
    ],
    [
     "24–25",
-    "{@book Bands|BGG|2|Bands} (chapter 2, \"{@book Social Structures|BGG|2|Social Structures}\")"
+    "{@book Bands|BGG|2|Bands} (chapter 2, \"{@area Social Structures|074|x}\")"
    ],
    [
     "26–27",
-    "{@book Families|BGG|2|Families} (chapter 2, \"{@book Social Structures|BGG|2|Social Structures}\")"
+    "{@book Families|BGG|2|Families} (chapter 2, \"{@area Social Structures|074|x}\")"
    ],
    [
     "28–29",
-    "{@book Steadings|BGG|2|Steadings} (chapter 2, \"{@book Social Structures|BGG|2|Social Structures}\")"
+    "{@book Steadings|BGG|2|Steadings} (chapter 2, \"{@area Social Structures|074|x}\")"
    ],
    [
     "30–31",
-    "{@book Settlements|BGG|2|Settlements} (chapter 2, \"{@book Social Structures|BGG|2|Social Structures}\")"
+    "{@book Settlements|BGG|2|Settlements} (chapter 2, \"{@area Social Structures|074|x}\")"
    ],
    [
     "32–33",
-    "{@book Hidden Rune Adventures|BGG|2|Hidden Rune Adventures} (chapter 2, \"{@book Organizations|BGG|2|Organizations}\")"
+    "{@area Hidden Rune Adventures|07e|x} (chapter 2, \"{@area Organizations|07c|x}\")"
    ],
    [
     "34–35",
-    "{@book Eternal Throne Adventures|BGG|2|Eternal Throne Adventures} (chapter 2, \"{@book Organizations|BGG|2|Organizations}\")"
+    "{@area Eternal Throne Adventures|080|x} (chapter 2, \"{@area Organizations|07c|x}\")"
    ],
    [
     "36–37",
-    "{@book Worldroot Circle Adventures|BGG|2|Worldroot Circle Adventures} (chapter 2, \"{@book Organizations|BGG|2|Organizations}\")"
+    "{@area Worldroot Circle Adventures|082|x} (chapter 2, \"{@area Organizations|07c|x}\")"
    ],
    [
     "38–40",
-    "{@book Against the Giants|BGG|3|Against the Giants} (chapter 3, \"{@book Adventure Models|BGG|3|Adventure Models}\")"
+    "{@area Against the Giants|09e|x} (chapter 3, \"{@area Adventure Models|09d|x}\")"
    ],
    [
     "41–43",
-    "{@book Clash of Titans|BGG|3|Clash of Titans} (chapter 3, \"{@book Adventure Models|BGG|3|Adventure Models}\")"
+    "{@area Clash of Titans|09f|x} (chapter 3, \"{@area Adventure Models|09d|x}\")"
    ],
    [
     "44–46",
-    "{@book Delve into the Past|BGG|3|Delve into the Past} (chapter 3, \"{@book Adventure Models|BGG|3|Adventure Models}\")"
+    "{@area Delve into the Past|0a0|x} (chapter 3, \"{@area Adventure Models|09d|x}\")"
    ],
    [
     "47–49",
-    "{@book Giant-Sized Schemes|BGG|3|Giant-Sized Schemes} (chapter 3, \"{@book Adventure Models|BGG|3|Adventure Models}\")"
+    "{@area Giant-Sized Schemes|0a1|x} (chapter 3, \"{@area Adventure Models|09d|x}\")"
    ],
    [
     "50–52",
-    "{@book Into the Giant Realms|BGG|3|Into the Giant Realms} (chapter 3, \"{@book Adventure Models|BGG|3|Adventure Models}\")"
+    "{@area Into the Giant Realms|0a2|x} (chapter 3, \"{@area Adventure Models|09d|x}\")"
    ],
    [
     "53–54",
-    "{@book Boss Assignments|BGG|3|Boss Assignments} (chapter 3, \"{@book Giant Patrons|BGG|3|Giant Patrons}\")"
+    "{@book Boss Assignments|BGG|3|Boss Assignments} (chapter 3, \"{@area Giant Patrons|0a4|x}\")"
    ],
    [
     "55–56",
-    "{@book Financier Assignments|BGG|3|Financier Assignments} (chapter 3, \"{@book Giant Patrons|BGG|3|Giant Patrons}\")"
+    "{@book Financier Assignments|BGG|3|Financier Assignments} (chapter 3, \"{@area Giant Patrons|0a4|x}\")"
    ],
    [
     "57–58",
-    "{@book Seer Assignments|BGG|3|Seer Assignments} (chapter 3, \"{@book Giant Patrons|BGG|3|Giant Patrons}\")"
+    "{@book Seer Assignments|BGG|3|Seer Assignments} (chapter 3, \"{@area Giant Patrons|0a4|x}\")"
    ],
    [
     "59–60",
-    "{@book Sovereign Assignments|BGG|3|Sovereign Assignments} (chapter 3, \"{@book Giant Patrons|BGG|3|Giant Patrons}\")"
+    "{@book Sovereign Assignments|BGG|3|Sovereign Assignments} (chapter 3, \"{@area Giant Patrons|0a4|x}\")"
    ],
    [
     "61–62",
-    "{@book Tutor Assignments|BGG|3|Tutor Assignments} (chapter 3, \"{@book Giant Patrons|BGG|3|Giant Patrons}\")"
+    "{@book Tutor Assignments|BGG|3|Tutor Assignments} (chapter 3, \"{@area Giant Patrons|0a4|x}\")"
    ],
    [
     "63–64",
-    "{@book Warleader Assignments|BGG|3|Warleader Assignments} (chapter 3, \"{@book Giant Patrons|BGG|3|Giant Patrons}\")"
+    "{@book Warleader Assignments|BGG|3|Warleader Assignments} (chapter 3, \"{@area Giant Patrons|0a4|x}\")"
    ],
    [
     "65–66",
-    "{@book Annam's Cradle Adventures|BGG|4|Annam's Cradle Adventures} ({@book chapter 4|BGG|4|Annam's Cradle})"
+    "{@area Annam's Cradle Adventures|0c1|x} ({@area chapter 4|0be|x})"
    ],
    [
     "67–68",
-    "{@book Ashen Grotto Adventures|BGG|4|Ashen Grotto Adventures} ({@book chapter 4|BGG|4|Ashen Grotto})"
+    "{@area Ashen Grotto Adventures|0c8|x} ({@area chapter 4|0c5|x})"
    ],
    [
     "69–70",
-    "{@book Dreamer's Reach Adventures|BGG|4|Dreamer's Reach Adventures} ({@book chapter 4|BGG|4|Dreamer's Reach})"
+    "{@area Dreamer's Reach Adventures|0d0|x} ({@area chapter 4|0cd|x})"
    ],
    [
     "71–72",
-    "{@book Endless Rockslide Adventures|BGG|4|Endless Rockslide Adventures} ({@book chapter 4|BGG|4|Endless Rockslide})"
+    "{@area Endless Rockslide Adventures|0d9|x} ({@area chapter 4|0d6|x})"
    ],
    [
     "73–74",
-    "{@book Forest Crystal Adventures|BGG|4|Forest Crystal Adventures} ({@book chapter 4|BGG|4|Forest Crystal})"
+    "{@area Forest Crystal Adventures|0e2|x} ({@area chapter 4|0df|x})"
    ],
    [
     "75–76",
-    "{@book Forsaken Deep Adventures|BGG|4|Forsaken Deep Adventures} ({@book chapter 4|BGG|4|Forsaken Deep})"
+    "{@area Forsaken Deep Adventures|0ea|x} ({@area chapter 4|0e7|x})"
    ],
    [
     "77–78",
-    "{@book Gale's Eye Tower Adventures|BGG|4|Gale's Eye Tower Adventures} ({@book chapter 4|BGG|4|Gale's Eye Tower})"
+    "{@area Gale's Eye Tower Adventures|0f2|x} ({@area chapter 4|0ef|x})"
    ],
    [
     "79–80",
-    "{@book Grolantor's Larder Adventures|BGG|4|Grolantor's Larder Adventures} ({@book chapter 4|BGG|4|Grolantor's Larder})"
+    "{@area Grolantor's Larder Adventures|0fa|x} ({@area chapter 4|0f7|x})"
    ],
    [
     "81–82",
-    "{@book Hiatea's Hearth Adventures|BGG|4|Hiatea's Hearth Adventures} ({@book chapter 4|BGG|4|Hiatea's Hearth})"
+    "{@area Hiatea's Hearth Adventures|103|x} ({@area chapter 4|100|x})"
    ],
    [
     "83–84",
-    "{@book Horizon's Edge Adventures|BGG|4|Horizon's Edge Adventures} ({@book chapter 4|BGG|4|Horizon's Edge})"
+    "{@area Horizon's Edge Adventures|10d|x} ({@area chapter 4|109|x})"
    ],
    [
     "85–86",
-    "{@book Howling Iceberg Adventures|BGG|4|Howling Iceberg Adventures} ({@book chapter 4|BGG|4|Howling Iceberg})"
+    "{@area Howling Iceberg Adventures|114|x} ({@area chapter 4|111|x})"
    ],
    [
     "87–88",
-    "{@book Karontor's Hold Adventures|BGG|4|Karontor's Hold Adventures} ({@book chapter 4|BGG|4|Karontor's Hold})"
+    "{@area Karontor's Hold Adventures|11b|x} ({@area chapter 4|118|x})"
    ],
    [
     "89–90",
-    "{@book Misty Vale Adventures|BGG|4|Misty Vale Adventures} ({@book chapter 4|BGG|4|Misty Vale})"
+    "{@area Misty Vale Adventures|122|x} ({@area chapter 4|11f|x})"
    ],
    [
     "91–92",
-    "{@book Runic Circle Adventures|BGG|4|Runic Circle Adventures} ({@book chapter 4|BGG|4|Runic Circle})"
+    "{@area Runic Circle Adventures|129|x} ({@area chapter 4|126|x})"
    ],
    [
     "93–94",
-    "{@book Singing Sands Adventures|BGG|4|Singing Sands Adventures} ({@book chapter 4|BGG|4|Singing Sands})"
+    "{@area Singing Sands Adventures|131|x} ({@area chapter 4|12e|x})"
    ],
    [
     "95–96",
-    "{@book Star Forge Adventures|BGG|4|Star Forge Adventures} ({@book chapter 4|BGG|4|Star Forge})"
+    "{@area Star Forge Adventures|13a|x} ({@area chapter 4|137|x})"
    ],
    [
     "97–98",
-    "{@book Thundering Observatory Adventures|BGG|4|Thundering Observatory Adventures} ({@book chapter 4|BGG|4|Thundering Observatory})"
+    "{@area Thundering Observatory Adventures|143|x} ({@area chapter 4|140|x})"
    ],
    [
     "99–00",
-    "{@book Worldroot Sapling Adventures|BGG|4|Worldroot Sapling Adventures} ({@book chapter 4|BGG|4|Worldroot Sapling})"
+    "{@area Worldroot Sapling Adventures|14c|x} ({@area chapter 4|149|x})"
    ]
   ],
   "name": "Appendix B: Adventure Hooks; Adventure Hooks",
@@ -10557,7 +10557,7 @@
   "rows": [
    [
     "1",
-    "A champion pankratiast ({@creature Akroan hoplite|MOT}; see {@book chapter 6|MOT|6|Hoplites}) has her cronies lock everyone in the arena. She allows none to leave until a challenger defeats her."
+    "A champion pankratiast ({@creature Akroan hoplite|MOT}; see {@area chapter 6|033|x}) has her cronies lock everyone in the arena. She allows none to leave until a challenger defeats her."
    ],
    [
     "2",
@@ -12131,7 +12131,7 @@
    ],
    [
     "51-60",
-    "When you become attuned to the artifact, you gain a form of {@book long-term madness|dmg|8|madness effects} (see chapter 8, \"Running the Game\")."
+    "When you become attuned to the artifact, you gain a form of {@area long-term madness|302|x} (see chapter 8, \"Running the Game\")."
    ],
    [
     "61-65",
@@ -12962,7 +12962,7 @@
    ],
    [
     "7",
-    "A {@creature hadozee explorer|BAM} (see {@book Boo's Astral Menagerie|BAM}) needs the characters' help to slay a white {@creature kindori|BAM} (see {@book Boo's Astral Menagerie|BAM}) that keeps attacking her {@vehicle flying fish ship|AAG} (see {@book chapter 2|AAG|2|Flying Fish Ship}). The hadozee can't tell whether the kindori is mean-spirited or amorous. Perhaps it has mistaken the ship for a rival—or a mate!"
+    "A {@creature hadozee explorer|BAM} (see {@book Boo's Astral Menagerie|BAM}) needs the characters' help to slay a white {@creature kindori|BAM} (see {@book Boo's Astral Menagerie|BAM}) that keeps attacking her {@vehicle flying fish ship|AAG}. The hadozee can't tell whether the kindori is mean-spirited or amorous. Perhaps it has mistaken the ship for a rival—or a mate!"
    ],
    [
     "8",
@@ -13655,7 +13655,7 @@
   "rows": [
    [
     "1",
-    "An {@creature oracle|MOT} (see {@book chapter 6|MOT|6|Oracle}) follows omens to find those who have been resurrected, claiming they owe Athreos a debt."
+    "An {@creature oracle|MOT} (see {@area chapter 6|03c|x}) follows omens to find those who have been resurrected, claiming they owe Athreos a debt."
    ],
    [
     "2",
@@ -16603,47 +16603,47 @@
   "rows": [
    [
     "01–50",
-    "{@book All Is Well|XDMG|7|All Is Well}"
+    "{@area All Is Well|78c|x}"
    ],
    [
     "51–55",
-    "{@book Attack|XDMG|7|Attack}"
+    "{@area Attack|78e|x}"
    ],
    [
     "56–58",
-    "{@book Criminal Hireling|XDMG|7|Criminal Hireling}"
+    "{@area Criminal Hireling|78f|x}"
    ],
    [
     "59–63",
-    "{@book Extraordinary Opportunity|XDMG|7|Extraordinary Opportunity}"
+    "{@area Extraordinary Opportunity|790|x}"
    ],
    [
     "64–72",
-    "{@book Friendly Visitors|XDMG|7|Friendly Visitors}"
+    "{@area Friendly Visitors|791|x}"
    ],
    [
     "73–76",
-    "{@book Guest|XDMG|7|Guest}"
+    "{@area Guest|792|x}"
    ],
    [
     "77–79",
-    "{@book Lost Hirelings|XDMG|7|Lost Hirelings}"
+    "{@area Lost Hirelings|793|x}"
    ],
    [
     "80–83",
-    "{@book Magical Discovery|XDMG|7|Magical Discovery}"
+    "{@area Magical Discovery|794|x}"
    ],
    [
     "84–91",
-    "{@book Refugees|XDMG|7|Refugees}"
+    "{@area Refugees|795|x}"
    ],
    [
     "92–98",
-    "{@book Request for Aid|XDMG|7|Request for Aid}"
+    "{@area Request for Aid|796|x}"
    ],
    [
     "99–00",
-    "{@book Treasure|XDMG|6|Chapter 7: Treasure}"
+    "{@area Treasure|40a|x}"
    ]
   ],
   "name": "Bastion Events",
@@ -16711,7 +16711,7 @@
    ],
    [
     "2",
-    "Each night, a {@creature darkweaver|MPP} (see {@book Morte's Planar Parade|MPP}) snatches a resident of Midtown and drags them into the {@book Wailing Hollows|SatO|3|Wailing Hollows}. Gatekeeper Cirrus calls for the creature's capture or extermination."
+    "Each night, a {@creature darkweaver|MPP} (see {@book Morte's Planar Parade|MPP}) snatches a resident of Midtown and drags them into the {@area Wailing Hollows|0f2|x}. Gatekeeper Cirrus calls for the creature's capture or extermination."
    ],
    [
     "3",
@@ -18026,7 +18026,7 @@
    ],
    [
     "5",
-    "Tatyana's soul reincarnated as someone another Darklord covets, such as the bearer of Ankhtepot's ka in {@book Har'Akir|VRGR|3} or {@creature Elise|VRGR} in {@book Lamordia|VRGR|3} (both detailed later in this chapter)."
+    "Tatyana's soul reincarnated as someone another Darklord covets, such as the bearer of Ankhtepot's ka in {@area Har'Akir|0fa|x} or {@creature Elise|VRGR} in {@area Lamordia|0fa|x} (both detailed later in this chapter)."
    ],
    [
     "6",
@@ -18706,7 +18706,7 @@
    ],
    [
     "2",
-    "A cavern the characters were exploring seamlessly abuts with Bluetspur, trapping them in caves overrun with {@creature Vampiric Mind Flayer|VRGR|vampiric mind flayers} (see {@book chapter 5|VRGR|5})."
+    "A cavern the characters were exploring seamlessly abuts with Bluetspur, trapping them in caves overrun with {@creature Vampiric Mind Flayer|VRGR|vampiric mind flayers} (see {@area chapter 5|57c|x})."
    ],
    [
     "3",
@@ -18730,7 +18730,7 @@
    ],
    [
     "8",
-    "The High Master mind flayer of Mount Grysl seeks to claim all the God-Brain knows. To do this, it creates a copy of the Apparatus (see \"{@book Mordent|VRGR|3}\" later in this chapter). All it needs is a relic called the Rod of Rastinon, which it wants the characters to retrieve for it."
+    "The High Master mind flayer of Mount Grysl seeks to claim all the God-Brain knows. To do this, it creates a copy of the Apparatus (see \"{@area Mordent|0fa|x}\" later in this chapter). All it needs is a relic called the Rod of Rastinon, which it wants the characters to retrieve for it."
    ]
   ],
   "name": "Bluetspur Adventures",
@@ -18870,7 +18870,7 @@
    ]
   ],
   "footnotes": [
-   "*Detailed in {@book chapter 5|RHW|5}"
+   "*Detailed in {@area chapter 5|38c|x}"
   ],
   "name": "Body Horror Monsters",
   "page": 219,
@@ -20864,7 +20864,7 @@
   "rows": [
    [
     "1",
-    "{@b One-Guild Party}. Choose a guild and refer to its description in {@book chapter 2|GGR|2} for suggestions on building the party around it."
+    "{@b One-Guild Party}. Choose a guild and refer to its description in {@area chapter 2|030|x} for suggestions on building the party around it."
    ],
    [
     "2",
@@ -21833,7 +21833,7 @@
    ],
    [
     "6",
-    "One of the giants' organizations described in {@book chapter 2|BGG|2|Organizations} is founded or comes to this world for the first time."
+    "One of the giants' organizations described in {@area chapter 2|07c|x} is founded or comes to this world for the first time."
    ],
    [
     "7",
@@ -25735,7 +25735,7 @@
    ],
    [
     "4",
-    "A group of giants (perhaps members of the Stewards of the Eternal Throne, described in {@book chapter 2|BGG|2|Stewards of the Eternal Throne}) warns a city that the {@creature tarrasque} is approaching and asks for heroes to evacuate the city while the giants hold the monster at bay."
+    "A group of giants (perhaps members of the Stewards of the Eternal Throne, described in {@area chapter 2|07f|x}) warns a city that the {@creature tarrasque} is approaching and asks for heroes to evacuate the city while the giants hold the monster at bay."
    ],
    [
     "5",
@@ -25743,7 +25743,7 @@
    ],
    [
     "6",
-    "After slumbering for centuries, a {@creature scion of Grolantor|BGG} (described in {@book chapter 6)|BGG|6|Hill Scion}, begins to stir. The residents of the farming village built on the sleeping giant's back seek help evacuating."
+    "After slumbering for centuries, a {@creature scion of Grolantor|BGG} (described in {@area chapter 6)|190|x}, begins to stir. The residents of the farming village built on the sleeping giant's back seek help evacuating."
    ]
   ],
   "name": "Clash of Titans",
@@ -26875,7 +26875,7 @@
    ],
    [
     "3",
-    "A group of sirens (see the {@creature Harpy||harpies} entry in {@book chapter 6|MOT|6|Harpies}) take over the temple and lure new victims inside to drown themselves during high tide."
+    "A group of sirens (see the {@creature Harpy||harpies} entry in {@area chapter 6|031|x}) take over the temple and lure new victims inside to drown themselves during high tide."
    ],
    [
     "4",
@@ -27638,7 +27638,7 @@
   ],
   "rows": [
    [
-    "{@book Skull|BMT|12|Skull}",
+    "{@area Skull|1aa|x}",
     "The Watcher",
     "Midwinter",
     "Onyx",
@@ -27647,7 +27647,7 @@
     "Constitution"
    ],
    [
-    "{@book Balance|BMT|12|Balance}",
+    "{@area Balance|1ac|x}",
     "The Merchant",
     "Late winter",
     "Quartz",
@@ -27656,7 +27656,7 @@
     "Intelligence"
    ],
    [
-    "{@book Sage|BMT|12|Sage}",
+    "{@area Sage|1ae|x}",
     "The Wise One",
     "Early spring",
     "Garnet",
@@ -27665,7 +27665,7 @@
     "Intelligence"
    ],
    [
-    "{@book Throne|BMT|12|Throne}",
+    "{@area Throne|1b0|x}",
     "The Everlasting",
     "Midspring",
     "Ruby",
@@ -27674,7 +27674,7 @@
     "Charisma"
    ],
    [
-    "{@book Key|BMT|12|Key}",
+    "{@area Key|1b2|x}",
     "The Child",
     "Late spring",
     "Opal",
@@ -27683,7 +27683,7 @@
     "Wisdom"
    ],
    [
-    "{@book Flames|BMT|12|Flames}",
+    "{@area Flames|1b4|x}",
     "The Lovers",
     "Early summer",
     "Moonstone",
@@ -27692,7 +27692,7 @@
     "Charisma"
    ],
    [
-    "{@book Knight|BMT|12|Knight}",
+    "{@area Knight|1b6|x}",
     "The Dragon Slayer",
     "Midsummer",
     "Diamond",
@@ -27701,7 +27701,7 @@
     "Strength"
    ],
    [
-    "{@book Euryale|BMT|12|Euryale}",
+    "{@area Euryale|1b8|x}",
     "The Gardener",
     "Late summer",
     "Emerald",
@@ -27710,7 +27710,7 @@
     "Wisdom"
    ],
    [
-    "{@book Rogue|BMT|12|Rogue}",
+    "{@area Rogue|1ba|x}",
     "Night's Edge",
     "Early autumn",
     "Jet",
@@ -27719,7 +27719,7 @@
     "Dexterity"
    ],
    [
-    "{@book Gem|BMT|12|Gem}",
+    "{@area Gem|1bc|x}",
     "The Genie",
     "Midautumn",
     "Blue sapphire",
@@ -27728,7 +27728,7 @@
     "Strength"
    ],
    [
-    "{@book Talons|BMT|12|Talons}",
+    "{@area Talons|1be|x}",
     "The Elder",
     "Late autumn",
     "Jade",
@@ -27737,7 +27737,7 @@
     "Constitution"
    ],
    [
-    "{@book Jester|BMT|12|Jester}",
+    "{@area Jester|1c0|x}",
     "The Nilbog",
     "Early winter",
     "Pearl",
@@ -29163,7 +29163,7 @@
    ],
    [
     "2",
-    "An illithid community has spent nearly a millennium raising and preparing a black dragon to become an {@creature elder brain dragon|FTD} (described in {@book chapter 6|FTD|6|Elder Brain Dragon}), so the {@creature elder brain|VGM} can wreak ruin upon its rivals."
+    "An illithid community has spent nearly a millennium raising and preparing a black dragon to become an {@creature elder brain dragon|FTD} (described in {@area chapter 6|03d|x}), so the {@creature elder brain|VGM} can wreak ruin upon its rivals."
    ],
    [
     "3",
@@ -31799,7 +31799,7 @@
    ],
    [
     "7",
-    "The incarnation has joined the {@book Keepers of the Feather|VRGR|3|Keepers of the Feather}* and seeks to organize a siege of Castle Ravenloft."
+    "The incarnation has joined the {@area Keepers of the Feather|3f8|x}* and seeks to organize a siege of Castle Ravenloft."
    ],
    [
     "8",
@@ -31807,11 +31807,11 @@
    ],
    [
     "9",
-    "The incarnation falls in with a sinister group such as the {@book priests of Osybus|VRGR|3|Priests of Osybus}* and seeks to manipulate Strahd to further their organization's schemes."
+    "The incarnation falls in with a sinister group such as the {@area priests of Osybus|40a|x}* and seeks to manipulate Strahd to further their organization's schemes."
    ],
    [
     "10",
-    "The incarnation has drawn an enemy of Strahd's to Barovia, such as {@book Firan Zal'honan|VRGR|3|Firan Zal'honan}* or {@book Jander Sunstar|VRGR|3|Jander Sunstar},* hoping the rivals will slay one another."
+    "The incarnation has drawn an enemy of Strahd's to Barovia, such as {@area Firan Zal'honan|41a|x}* or {@area Jander Sunstar|41d|x},* hoping the rivals will slay one another."
    ]
   ],
   "name": "Connection to Strahd; Hunting Strahd",
@@ -32526,7 +32526,7 @@
    ]
   ],
   "footnotes": [
-   "*Detailed in {@book chapter 5|RHW|5}"
+   "*Detailed in {@area chapter 5|38c|x}"
   ],
   "name": "Cosmic Horror Monsters",
   "page": 221,
@@ -39135,7 +39135,7 @@
    ],
    [
     "3",
-    "A dragon whose echo on another world has become a dracolich suffers from a wasting affliction (see \"{@book Undeath|FTD|3|Undeath}\" above). Members of the Cult of the Dragon are trying to persuade the afflicted dragon to become a dracolich as well."
+    "A dragon whose echo on another world has become a dracolich suffers from a wasting affliction (see \"{@area Undeath|0bd|x}\" above). Members of the Cult of the Dragon are trying to persuade the afflicted dragon to become a dracolich as well."
    ],
    [
     "4",
@@ -39473,7 +39473,7 @@
    ],
    [
     "2",
-    "A disgraced {@creature githzerai uniter|MPP} (see {@book Morte's Planar Parade|MPP}) in the {@book Traitor's Gate|SatO|3|Traitor's Gate} pays the characters to free Tovus Gilaf from the burgomaster's estate."
+    "A disgraced {@creature githzerai uniter|MPP} (see {@book Morte's Planar Parade|MPP}) in the {@area Traitor's Gate|0fc|x} pays the characters to free Tovus Gilaf from the burgomaster's estate."
    ],
    [
     "3",
@@ -40392,7 +40392,7 @@
    ]
   ],
   "footnotes": [
-   "*Detailed in {@book chapter 5|RHW|5}"
+   "*Detailed in {@area chapter 5|38c|x}"
   ],
   "name": "Dark Fantasy Monsters",
   "page": 223,
@@ -47677,159 +47677,159 @@
   "rows": [
    [
     "01–04",
-    "{@book Barovia|VRGR|3}*"
+    "{@area Barovia|0fa|x}*"
    ],
    [
     "05–06",
-    "{@book Bluetspur|VRGR|3}*"
+    "{@area Bluetspur|0fa|x}*"
    ],
    [
     "07–09",
-    "{@book Borca|VRGR|3}*"
+    "{@area Borca|0fa|x}*"
    ],
    [
     "10–12",
-    "{@book Carnival|VRGR|3}*"
+    "{@area Carnival|0fa|x}*"
    ],
    [
     "13–14",
-    "{@book Cyre 1313|VRGR|3|Cyre 1313, The Mourning Rail}"
+    "{@area Cyre 1313|399|x}"
    ],
    [
     "15–18",
-    "{@book Darkon|VRGR|3}*"
+    "{@area Darkon|0fa|x}*"
    ],
    [
     "19–21",
-    "{@book Dementlieu|VRGR|3}*"
+    "{@area Dementlieu|0fa|x}*"
    ],
    [
     "22–24",
-    "{@book Falkovnia|VRGR|3}*"
+    "{@area Falkovnia|0fa|x}*"
    ],
    [
     "25–26",
-    "{@book Forlorn|VRGR|3|Forlorn}"
+    "{@area Forlorn|39e|x}"
    ],
    [
     "27–28",
-    "{@book Ghastria|VRGR|3|Ghastria}"
+    "{@area Ghastria|3a3|x}"
    ],
    [
     "29–30",
-    "{@book G'henna|VRGR|3|G'henna}"
+    "{@area G'henna|3a8|x}"
    ],
    [
     "31–33",
-    "{@book Har'Akir|VRGR|3}*"
+    "{@area Har'Akir|0fa|x}*"
    ],
    [
     "34–36",
-    "{@book Hazlan|VRGR|3}*"
+    "{@area Hazlan|0fa|x}*"
    ],
    [
     "37–39",
-    "{@book I'Cath|VRGR|3}*"
+    "{@area I'Cath|0fa|x}*"
    ],
    [
     "40–41",
-    "{@book Invidia|VRGR|3|Invidia}"
+    "{@area Invidia|3ac|x}"
    ],
    [
     "42–44",
-    "{@book Kalakeri|VRGR|3}*"
+    "{@area Kalakeri|0fa|x}*"
    ],
    [
     "45–47",
-    "{@book Kartakass|VRGR|3}*"
+    "{@area Kartakass|0fa|x}*"
    ],
    [
     "48–49",
-    "{@book Keening|VRGR|3|Keening}"
+    "{@area Keening|3b0|x}"
    ],
    [
     "50–51",
-    "{@book Klorr|VRGR|3|Klorr}"
+    "{@area Klorr|3b4|x}"
    ],
    [
     "52–54",
-    "{@book Lamordia|VRGR|3}*"
+    "{@area Lamordia|0fa|x}*"
    ],
    [
     "55–56",
-    "{@book Markovia|VRGR|3|Markovia}"
+    "{@area Markovia|3b8|x}"
    ],
    [
     "57–59",
-    "{@book Mordent|VRGR|3}*"
+    "{@area Mordent|0fa|x}*"
    ],
    [
     "60–62",
-    "{@book Nightmare Lands|VRGR|3|The Nightmare Lands}"
+    "{@area Nightmare Lands|3bc|x}"
    ],
    [
     "63–64",
-    "{@book Niranjan|VRGR|3|Niranjan}"
+    "{@area Niranjan|3c1|x}"
    ],
    [
     "65–66",
-    "{@book Nova Vaasa|VRGR|3|Nova Vaasa}"
+    "{@area Nova Vaasa|3c5|x}"
    ],
    [
     "67–69",
-    "{@book Odaire|VRGR|3|Odaire}"
+    "{@area Odaire|3c9|x}"
    ],
    [
     "70–71",
-    "{@book Rider's Bridge|VRGR|3|The Rider's Bridge}"
+    "{@area Rider's Bridge|3cd|x}"
    ],
    [
     "72–74",
-    "{@book Richemulot|VRGR|3}*"
+    "{@area Richemulot|0fa|x}*"
    ],
    [
     "75–76",
-    "{@book Risibilos|VRGR|3|Risibilos}"
+    "{@area Risibilos|3d2|x}"
    ],
    [
     "77–78",
-    "{@book Scaena|VRGR|3|Scaena}"
+    "{@area Scaena|3d6|x}"
    ],
    [
     "79–81",
-    "{@book Sea of Sorrows|VRGR|3|Sea of Sorrows}"
+    "{@area Sea of Sorrows|3da|x}"
    ],
    [
     "82–83",
-    "{@book Shadowlands|VRGR|3|The Shadowlands}"
+    "{@area Shadowlands|3df|x}"
    ],
    [
     "84–85",
-    "{@book Souragne|VRGR|3|Souragne}"
+    "{@area Souragne|3e3|x}"
    ],
    [
     "86–87",
-    "{@book Staunton Bluffs|VRGR|3|Staunton Bluffs}"
+    "{@area Staunton Bluffs|3e7|x}"
    ],
    [
     "88–90",
-    "{@book Tepest|VRGR|3}*"
+    "{@area Tepest|0fa|x}*"
    ],
    [
     "91–92",
-    "{@book Tovag|VRGR|3|Tovag}"
+    "{@area Tovag|3eb|x}"
    ],
    [
     "93–95",
-    "{@book Valachan|VRGR|3}*"
+    "{@area Valachan|0fa|x}*"
    ],
    [
     "96–97",
-    "{@book Vhage Agency|VRGR|3|Vhage Agency}"
+    "{@area Vhage Agency|3ef|x}"
    ],
    [
     "98–99",
-    "{@book Zherisia|VRGR|3|Zherisia}"
+    "{@area Zherisia|3f3|x}"
    ],
    [
     "100",
@@ -47860,67 +47860,67 @@
   ],
   "rows": [
    [
-    "{@book Barovia|RHW|2|Barovia}",
+    "{@area Barovia|0d0|x}",
     "{@book Strahd von Zarovich|XDMG|8|Strahd von Zarovich}"
    ],
    [
-    "{@book Borca|RHW|2|Borca}",
+    "{@area Borca|0f3|x}",
     "{@area Ivana Boritsi|0f9|x} and {@area Ivan Dilisnya|0fb|x}"
    ],
    [
-    "{@book Darkon|RHW|2|Darkon}",
+    "{@area Darkon|112|x}",
     "None (formerly {@area Azalin Rex|118|x})"
    ],
    [
-    "{@book Dementlieu|RHW|2|Dementlieu}",
+    "{@area Dementlieu|135|x}",
     "{@area Saidra d'Honaire|13b|x}"
    ],
    [
-    "{@book Falkovnia|RHW|2|Falkovnia}",
+    "{@area Falkovnia|14d|x}",
     "{@area Vladeska Drakov|153|x}"
    ],
    [
-    "{@book Har'Akir|RHW|2|Har'Akir}",
+    "{@area Har'Akir|168|x}",
     "{@area Ankhtepot|16f|x}"
    ],
    [
-    "{@book Hazlan|RHW|2|Hazlan}",
+    "{@area Hazlan|182|x}",
     "{@area Hazlik|189|x}"
    ],
    [
-    "{@book Innsmouth|RHW|2|Innsmouth}",
+    "{@area Innsmouth|19b|x}",
     "{@area Cthulhu|1a2|x}"
    ],
    [
-    "{@book Kalakeri|RHW|2|Kalakeri}",
+    "{@area Kalakeri|1bf|x}",
     "{@area Ramya Vasavadan|1c5|x}"
    ],
    [
-    "{@book Kartakass|RHW|2|Kartakass}",
+    "{@area Kartakass|1d7|x}",
     "{@area Harkon Lukas|1de|x}"
    ],
    [
-    "{@book Lamordia|RHW|2|Lamordia}",
+    "{@area Lamordia|1f3|x}",
     "{@area Viktra Mordenheim|1fa|x}"
    ],
    [
-    "{@book Mordent|RHW|2|Mordent}",
+    "{@area Mordent|20f|x}",
     "{@area Wilfred Godefroy|215|x}"
    ],
    [
-    "{@book Shadowlands|RHW|2|Shadowlands}",
+    "{@area Shadowlands|22b|x}",
     "{@area Ebonbane|231|x}"
    ],
    [
-    "{@book Sithicus|RHW|2|Sithicus}",
+    "{@area Sithicus|24c|x}",
     "{@book Lord Soth|XDMG|8|Lord Soth}"
    ],
    [
-    "{@book Tepest|RHW|2|Tepest}",
+    "{@area Tepest|26a|x}",
     "{@area Mother Lorinda|271|x}"
    ],
    [
-    "{@book Valachan|RHW|2|Valachan}",
+    "{@area Valachan|281|x}",
     "{@area Chakuna|287|x}"
    ]
   ],
@@ -50025,7 +50025,7 @@
    ],
    [
     "2",
-    "The characters were involved in the Hour of Ascension and share a Dark Gift (see {@book chapter 1|VRGR|1})."
+    "The characters were involved in the Hour of Ascension and share a Dark Gift (see {@area chapter 1|019|x})."
    ],
    [
     "3",
@@ -50149,27 +50149,27 @@
   "rows": [
    [
     "1",
-    "{@book The Chamber|ERLW|9|The Chamber}"
+    "{@area The Chamber|3a4|x}"
    ],
    [
     "2",
-    "{@book The Cults of the Dragon Below|ERLW|9|Cults of the Dragon Below}"
+    "{@area The Cults of the Dragon Below|396|x}"
    ],
    [
     "3",
-    "{@book The Daughters of Sora Kell|ERLW|9|Daughters of Sora Kell}"
+    "{@area The Daughters of Sora Kell|3ba|x}"
    ],
    [
     "4",
-    "{@book The Dreaming Dark|ERLW|9|The Dreaming Dark}"
+    "{@area The Dreaming Dark|3ac|x}"
    ],
    [
     "5",
-    "{@book The Lords of Dust|ERLW|10|The Lords of Dust}"
+    "{@area The Lords of Dust|3eb|x}"
    ],
    [
     "6",
-    "{@book The Order of the Emerald Claw|ERLW|10|Order of the Emerald Claw}"
+    "{@area The Order of the Emerald Claw|411|x}"
    ]
   ],
   "name": "Driving Forces; Villain You Don't Understand",
@@ -51653,7 +51653,7 @@
    ],
    [
     "3",
-    "Neglected. One dungeon hazard—such as {@hazard brown mold|XDMG}, {@hazard green slime|XDMG}, or {@hazard yellow mold|XDMG} (see \"{@book Hazards|XDMG|2|Hazards}\" in this chapter)—is abundant."
+    "Neglected. One dungeon hazard—such as {@hazard brown mold|XDMG}, {@hazard green slime|XDMG}, or {@hazard yellow mold|XDMG} (see \"{@area Hazards|18b|x}\" in this chapter)—is abundant."
    ],
    [
     "4",
@@ -56298,7 +56298,7 @@
    ],
    [
     "2",
-    "A mishap creates a temporary manifest zone (see \"{@book The Planes of Existence|ERLW|10|Planes of Existence}\" in {@book chapter 4|ERLW|10} for information on manifest zones)."
+    "A mishap creates a temporary manifest zone (see \"{@area The Planes of Existence|419|x}\" in {@area chapter 4|3cd|x} for information on manifest zones)."
    ],
    [
     "3",
@@ -56398,15 +56398,15 @@
    ],
    [
     "2",
-    "The Lightcaller holds a peace banquet in {@book Solrise Tower|SatO|3|Solrise Tower}, inviting powerful devils and demons in hopes of ending the Blood War. A {@creature solar} requests the characters attend in case things turn ugly."
+    "The Lightcaller holds a peace banquet in {@area Solrise Tower|106|x}, inviting powerful devils and demons in hopes of ending the Blood War. A {@creature solar} requests the characters attend in case things turn ugly."
    ],
    [
     "3",
-    "A {@creature green hag} poisons Ecstasy's orchards daily at twilight, outside the jurisdiction of either monarch. After a string of illnesses at {@book Revelhome|SatO|3|Revelhome}, Madame Millani hires the characters to investigate."
+    "A {@creature green hag} poisons Ecstasy's orchards daily at twilight, outside the jurisdiction of either monarch. After a string of illnesses at {@area Revelhome|105|x}, Madame Millani hires the characters to investigate."
    ],
    [
     "4",
-    "Three evenings have passed since the gates of {@book Moondark Tower|SatO|3|Moondark Tower} last opened. An owl-like {@creature avoral guardinal|MPP} (see {@book Morte's Planar Parade|MPP}) night merchant asks the party to solve the mystery."
+    "Three evenings have passed since the gates of {@area Moondark Tower|103|x} last opened. An owl-like {@creature avoral guardinal|MPP} (see {@book Morte's Planar Parade|MPP}) night merchant asks the party to solve the mystery."
    ]
   ],
   "name": "Ecstasy Adventures",
@@ -56490,7 +56490,7 @@
    ],
    [
     "3",
-    "The characters encounter {@dice 2d4} {@creature Allowak Yeti|EGW|yetis from Allowak's Sanctuary} (see \"{@book Allowak's Sanctuary Yeti Statistics|EGW|4|Allowak's Sanctuary Yeti Statistics}\" later in this chapter). The yetis attempt to scare the characters away but do not wish to do harm."
+    "The characters encounter {@dice 2d4} {@creature Allowak Yeti|EGW|yetis from Allowak's Sanctuary} (see \"{@area Allowak's Sanctuary Yeti Statistics|413|x}\" later in this chapter). The yetis attempt to scare the characters away but do not wish to do harm."
    ],
    [
     "4",
@@ -56582,7 +56582,7 @@
    ],
    [
     "2",
-    "The characters encounter {@dice 2d6} gladiator wormkin (see \"{@book Tomb of the Worm|EGW|4|Tomb of the Worm}\" later in this chapter) attempting to force-feed a group of {@dice 3d6} wildfolk {@creature Commoner||commoners} the meat of the Undermaw."
+    "The characters encounter {@dice 2d6} gladiator wormkin (see \"{@area Tomb of the Worm|43d|x}\" later in this chapter) attempting to force-feed a group of {@dice 3d6} wildfolk {@creature Commoner||commoners} the meat of the Undermaw."
    ],
    [
     "3",
@@ -56590,7 +56590,7 @@
    ],
    [
     "4",
-    "The characters encounter two {@creature Mage||mages} from Balenpost planning to steal an Aeorian item from a camp of {@dice 3d6} {@creature Frost Giant||frost giants} and their tamed {@creature frost worm|EGW} (see {@book chapter 7|EGW|8|Frost Worm}) The mages ask for the characters' help with the heist."
+    "The characters encounter two {@creature Mage||mages} from Balenpost planning to steal an Aeorian item from a camp of {@dice 3d6} {@creature Frost Giant||frost giants} and their tamed {@creature frost worm|EGW} (see {@area chapter 7|05b|x}) The mages ask for the characters' help with the heist."
    ],
    [
     "5",
@@ -56598,7 +56598,7 @@
    ],
    [
     "6",
-    "The characters encounter {@dice 2d6} {@creature Frost Giant Zombie|EGW|frost giant zombies} (see {@book chapter 7|EGW|8|Frost Giant Zombie}). These zombies did not come from the Fortress of the Dead Jarl. Their origin is up to you."
+    "The characters encounter {@dice 2d6} {@creature Frost Giant Zombie|EGW|frost giant zombies} (see {@area chapter 7|05a|x}). These zombies did not come from the Fortress of the Dead Jarl. Their origin is up to you."
    ],
    [
     "7",
@@ -59312,7 +59312,7 @@
    ]
   ],
   "footnotes": [
-   "* See {@book chapter 6|MOT|6|Sphinx} for details about these creatures in Theros."
+   "* See {@area chapter 6|391|x} for details about these creatures in Theros."
   ],
   "name": "Ephara's Monsters",
   "page": 120,
@@ -59407,7 +59407,7 @@
    ],
    [
     "6",
-    "An {@creature oracle|MOT} (see {@book chapter 6|MOT|6|Oracle}) leads a cadre of scholars secretly destroying work that they deem antithetical to proper society."
+    "An {@creature oracle|MOT} (see {@area chapter 6|03c|x}) leads a cadre of scholars secretly destroying work that they deem antithetical to proper society."
    ]
   ],
   "name": "Ephara's Villains",
@@ -59515,7 +59515,7 @@
    ]
   ],
   "footnotes": [
-   "* See {@book chapter 6|MOT|6} for details about these creatures in Theros."
+   "* See {@area chapter 6|37e|x} for details about these creatures in Theros."
   ],
   "name": "Erebos's Monsters",
   "page": 124,
@@ -59646,7 +59646,7 @@
    ],
    [
     "3",
-    "Find {@area Azalin Rex|117|x} and discover how he escaped {@book Darkon|RHW|2}."
+    "Find {@area Azalin Rex|117|x} and discover how he escaped {@area Darkon|0cb|x}."
    ],
    [
     "4",
@@ -60220,11 +60220,11 @@
    ],
    [
     "3",
-    "Allowed into the {@book forum|SatO|3|Forum} on an ancient contract, a silver-tongued {@creature pit fiend} invites Excelsior's orators to debate the worth of a soul. An angel asks the characters to take the podium."
+    "Allowed into the {@area forum|10d|x} on an ancient contract, a silver-tongued {@creature pit fiend} invites Excelsior's orators to debate the worth of a soul. An angel asks the characters to take the podium."
    ],
    [
     "4",
-    "The faith of a divine champion ({@creature gladiator}) begins to waver in the {@book Chandelier|SatO|3|Chandelier}, causing their cloud keep to shudder. A {@creature lantern archon|MPP} (see {@book Morte's Planar Parade|MPP}) asks the characters to erase the warrior's doubt before their fortress falls from the sky."
+    "The faith of a divine champion ({@creature gladiator}) begins to waver in the {@area Chandelier|10c|x}, causing their cloud keep to shudder. A {@creature lantern archon|MPP} (see {@book Morte's Planar Parade|MPP}) asks the characters to erase the warrior's doubt before their fortress falls from the sky."
    ]
   ],
   "name": "Excelsior Adventures",
@@ -61020,7 +61020,7 @@
    ],
    [
     "4",
-    "A patch of {@hazard yellow mold|XDMG} (see \"{@book Hazards|XDMG|2|Hazards}\" in {@book chapter 3|XDMG|2}) on a miner's remains"
+    "A patch of {@hazard yellow mold|XDMG} (see \"{@area Hazards|18b|x}\" in {@area chapter 3|0e7|x}) on a miner's remains"
    ],
    [
     "5",
@@ -61442,7 +61442,7 @@
    ],
    [
     "3",
-    "A faction leader hires the characters as bodyguards for an important city event at the {@book Hall of Speakers|SatO|2|Hall of Speakers}."
+    "A faction leader hires the characters as bodyguards for an important city event at the {@area Hall of Speakers|07d|x}."
    ],
    [
     "4",
@@ -61450,7 +61450,7 @@
    ],
    [
     "5",
-    "A factotum secretly offers the characters a hefty reward to break someone out of the {@book Prison|SatO|2|Prison}."
+    "A factotum secretly offers the characters a hefty reward to break someone out of the {@area Prison|0aa|x}."
    ],
    [
     "6",
@@ -61914,7 +61914,7 @@
    ],
    [
     "3",
-    "A plague strikes the slums of Lekar. Those killed by the disease rise as {@creature Zombie Plague Spreader|VRGR|zombie plague spreaders} (see {@book chapter 5|VRGR|5})."
+    "A plague strikes the slums of Lekar. Those killed by the disease rise as {@creature Zombie Plague Spreader|VRGR|zombie plague spreaders} (see {@area chapter 5|57c|x})."
    ],
    [
     "4",
@@ -61922,7 +61922,7 @@
    ],
    [
     "5",
-    "The characters are sent to investigate a fallen star that crashed near the village of Delmunster. The village proves remarkably peaceful and free of zombies, in large part because it's populated by the {@creature Podling|VRGR|podlings} of a {@creature bodytaker plant|VRGR} (see {@book chapter 5|VRGR|5})."
+    "The characters are sent to investigate a fallen star that crashed near the village of Delmunster. The village proves remarkably peaceful and free of zombies, in large part because it's populated by the {@creature Podling|VRGR|podlings} of a {@creature bodytaker plant|VRGR} (see {@area chapter 5|57c|x})."
    ],
    [
     "6",
@@ -62502,7 +62502,7 @@
    ],
    [
     "2",
-    "Commanded by a general in Rigus, a {@creature hobgoblin warlord} attempts to capture {@book Camp Greenbriar|SatO|3|Camp Greenbriar} and convert it into a logging camp."
+    "Commanded by a general in Rigus, a {@creature hobgoblin warlord} attempts to capture {@area Camp Greenbriar|115|x} and convert it into a logging camp."
    ],
    [
     "3",
@@ -65085,7 +65085,7 @@
    ]
   ],
   "footnotes": [
-   "*Detailed in {@book chapter 5|RHW|5}"
+   "*Detailed in {@area chapter 5|38c|x}"
   ],
   "name": "Folk Horror Monsters",
   "page": 225,
@@ -67703,7 +67703,7 @@
    [
     "{@area Blood Night|454|x}",
     "4",
-    "Location (Baldur's Gate; see {@book chapter 6|FRAiF|6})"
+    "Location (Baldur's Gate; see {@area chapter 6|3af|x})"
    ],
    [
     "{@area Broken Mirrors|07e|x}",
@@ -67713,22 +67713,22 @@
    [
     "{@area Calim Crossing|2fb|x}",
     "3",
-    "Location (Calimshan; see {@book chapter 4|FRAiF|4})"
+    "Location (Calimshan; see {@area chapter 4|27a|x})"
    ],
    [
     "{@area The Calimemnon Conspiracy|30f|x}",
     "8",
-    "Location (Calimshan; see {@book chapter 4|FRAiF|4})"
+    "Location (Calimshan; see {@area chapter 4|27a|x})"
    ],
    [
     "{@area Clockwork Memories|45e|x}",
     "7",
-    "Location (Baldur's Gate; see {@book chapter 6|FRAiF|6})"
+    "Location (Baldur's Gate; see {@area chapter 6|3af|x})"
    ],
    [
     "{@area The Cost of Warmth|254|x}",
     "3",
-    "Location (Icewind Dale; see {@book chapter 3|FRAiF|3})"
+    "Location (Icewind Dale; see {@area chapter 3|1b3|x})"
    ],
    [
     "{@area The Curse on Humble Hill|01a|x}",
@@ -67738,7 +67738,7 @@
    [
     "{@area The Dallabad Curse|308|x}",
     "5",
-    "Location (Calimshan; see {@book chapter 4|FRAiF|4})"
+    "Location (Calimshan; see {@area chapter 4|27a|x})"
    ],
    [
     "{@area Disinterred Danger|047|x}",
@@ -67748,7 +67748,7 @@
    [
     "{@area Dougan's Hell|266|x}",
     "6",
-    "Location (Icewind Dale; see {@book chapter 3|FRAiF|3})"
+    "Location (Icewind Dale; see {@area chapter 3|1b3|x})"
    ],
    [
     "{@area Dragon Orb|0a7|x}",
@@ -67793,7 +67793,7 @@
    [
     "{@area Gods Long Forgotten|304|x}",
     "4",
-    "Location (Calimshan; see {@book chapter 4|FRAiF|4})"
+    "Location (Calimshan; see {@area chapter 4|27a|x})"
    ],
    [
     "{@area Heart of Fire|0f4|x}",
@@ -67818,7 +67818,7 @@
    [
     "{@area Message in a Bottle|394|x}",
     "4",
-    "Location (Moonshae Isles; see {@book chapter 5|FRAiF|5})"
+    "Location (Moonshae Isles; see {@area chapter 5|31a|x})"
    ],
    [
     "{@area Moving Mountains|093|x}",
@@ -67838,12 +67838,12 @@
    [
     "{@area Restoring Freedale|19f|x}",
     "5",
-    "Location (The Dalelands; see {@book chapter 2|FRAiF|2})"
+    "Location (The Dalelands; see {@area chapter 2|0fb|x})"
    ],
    [
     "{@area Retaking the Terror|25d|x}",
     "4",
-    "Location (Icewind Dale; see {@book chapter 3|FRAiF|3})"
+    "Location (Icewind Dale; see {@area chapter 3|1b3|x})"
    ],
    [
     "{@area Robber Baron|01f|x}",
@@ -67853,7 +67853,7 @@
    [
     "{@area The Rushdown Well|38c|x}",
     "3",
-    "Location (Moonshae Isles; see {@book chapter 5|FRAiF|5})"
+    "Location (Moonshae Isles; see {@area chapter 5|31a|x})"
    ],
    [
     "{@area Safe House Standoff|067|x}",
@@ -67868,7 +67868,7 @@
    [
     "{@area The Shadow Parliament|46b|x}",
     "9",
-    "Location (Baldur's Gate; see {@book chapter 6|FRAiF|6})"
+    "Location (Baldur's Gate; see {@area chapter 6|3af|x})"
    ],
    [
     "{@area The Siege of Shalespire Priory|029|x}",
@@ -67893,7 +67893,7 @@
    [
     "{@area The Temple of Transmutation|1a6|x}",
     "7",
-    "Location (The Dalelands; see {@book chapter 2|FRAiF|2})"
+    "Location (The Dalelands; see {@area chapter 2|0fb|x})"
    ],
    [
     "{@area The Tenebrous Stone|041|x}",
@@ -67908,12 +67908,12 @@
    [
     "{@area The Tomb of Damara|192|x}",
     "3",
-    "Location (The Dalelands; see {@book chapter 2|FRAiF|2})"
+    "Location (The Dalelands; see {@area chapter 2|0fb|x})"
    ],
    [
     "{@area The Treaty of Ostoria|3a6|x}",
     "8",
-    "Location (Moonshae Isles; see {@book chapter 5|FRAiF|5})"
+    "Location (Moonshae Isles; see {@area chapter 5|31a|x})"
    ],
    [
     "{@area The Vault of Velsharoon|09e|x}",
@@ -67933,7 +67933,7 @@
    [
     "{@area What Wakes Below|26f|x}",
     "9",
-    "Location (Icewind Dale; see {@book chapter 3|FRAiF|3})"
+    "Location (Icewind Dale; see {@area chapter 3|1b3|x})"
    ],
    [
     "{@area Wolves of Amphail|05a|x}",
@@ -67943,7 +67943,7 @@
    [
     "{@area Wreck of the Silverhand|39c|x}",
     "6",
-    "Location (Moonshae Isles; see {@book chapter 5|FRAiF|5})"
+    "Location (Moonshae Isles; see {@area chapter 5|31a|x})"
    ]
   ],
   "name": "Forgotten Realms Adventures",
@@ -68170,7 +68170,7 @@
    ],
    [
     "2",
-    "After a series of guilty admissions, {@creature Black Pudding||black puddings} begin to slither from the {@book Pavilion of Purity|SatO|3|Pavilion of Purity} at night, slaying their confessors one by one. The Spotless Seven hires the party to scrub the black puddings from the town."
+    "After a series of guilty admissions, {@creature Black Pudding||black puddings} begin to slither from the {@area Pavilion of Purity|120|x} at night, slaying their confessors one by one. The Spotless Seven hires the party to scrub the black puddings from the town."
    ],
    [
     "3",
@@ -70120,7 +70120,7 @@
    ]
   ],
   "footnotes": [
-   "*Detailed in {@book chapter 5|RHW|5}"
+   "*Detailed in {@area chapter 5|38c|x}"
   ],
   "name": "Ghost Story Monsters",
   "page": 227,
@@ -70678,27 +70678,27 @@
   ],
   "rows": [
    [
-    "{@book Boss|BGG|3|Boss}",
+    "{@area Boss|0a5|x}",
     "Criminal Syndicate"
    ],
    [
-    "{@book Financier|BGG|3|Financier}",
+    "{@area Financier|0a6|x}",
     "Aristocrat"
    ],
    [
-    "{@book Seer|BGG|3|Seer}",
+    "{@area Seer|0a7|x}",
     "Ancient Being"
    ],
    [
-    "{@book Sovereign|BGG|3|Sovereign}",
+    "{@area Sovereign|0a8|x}",
     "Sovereign"
    ],
    [
-    "{@book Tutor|BGG|3|Tutor}",
+    "{@area Tutor|0a9|x}",
     "Academy"
    ],
    [
-    "{@book Warleader|BGG|3|Warleader}",
+    "{@area Warleader|0aa|x}",
     "Military Force"
    ]
   ],
@@ -70775,35 +70775,35 @@
   "rows": [
    [
     "1",
-    "{@book Cloud Giant Encounters|BGG|3|Cloud Giant Encounters}"
+    "{@area Cloud Giant Encounters|08c|x}"
    ],
    [
     "2",
-    "{@book Death Giant Encounters|BGG|3|Death Giant Encounters}"
+    "{@area Death Giant Encounters|08d|x}"
    ],
    [
     "3",
-    "{@book Fire Giant Encounters|BGG|3|Fire Giant Encounters}"
+    "{@area Fire Giant Encounters|08e|x}"
    ],
    [
     "4",
-    "{@book Fomorian Encounters|BGG|3|Fomorian Encounters}"
+    "{@area Fomorian Encounters|08f|x}"
    ],
    [
     "5",
-    "{@book Frost Giant Encounters|BGG|3|Frost Giant Encounters}"
+    "{@area Frost Giant Encounters|090|x}"
    ],
    [
     "6",
-    "{@book Hill Giant Encounters|BGG|3|Hill Giant Encounters}"
+    "{@area Hill Giant Encounters|091|x}"
    ],
    [
     "7",
-    "{@book Stone Giant Encounters|BGG|3|Stone Giant Encounters}"
+    "{@area Stone Giant Encounters|092|x}"
    ],
    [
     "8",
-    "{@book Storm Giant Encounters|BGG|3|Storm Giant Encounters}"
+    "{@area Storm Giant Encounters|093|x}"
    ]
   ],
   "name": "Giantkind Encounters",
@@ -71479,7 +71479,7 @@
   "rows": [
    [
     "1",
-    "The item bears the name or emblem of a lost troop of Akroan stratians (described in {@book chapter 3|MOT|3|Stratians})."
+    "The item bears the name or emblem of a lost troop of Akroan stratians (described in {@area chapter 3|1ae|x})."
    ],
    [
     "2",
@@ -71491,7 +71491,7 @@
    ],
    [
     "4",
-    "The item is wrapped in handwritten scrolls, suggesting it was once possessed by a founder of one of Meletis's philosophical schools (described in {@book chapter 3|MOT|3|Meletis})."
+    "The item is wrapped in handwritten scrolls, suggesting it was once possessed by a founder of one of Meletis's philosophical schools (described in {@area chapter 3|1b9|x})."
    ],
    [
     "5",
@@ -71503,7 +71503,7 @@
    ],
    [
     "7",
-    "The item is at least partially made from the heartwood of a Setessan caryatid (described in {@book chapter 3|MOT|3|Caryatid Groves}). The wood regularly sprouts fresh leaves, or its whorls suggest humanoid features."
+    "The item is at least partially made from the heartwood of a Setessan caryatid (described in {@area chapter 3|1d5|x}). The wood regularly sprouts fresh leaves, or its whorls suggest humanoid features."
    ],
    [
     "8",
@@ -71515,7 +71515,7 @@
    ],
    [
     "10",
-    "Whoever first touches the item receives an omen from the god who watches over it (see {@book chapter 4|MOT|4|Omens} for details on omens)."
+    "Whoever first touches the item receives an omen from the god who watches over it (see {@area chapter 4|23a|x} for details on omens)."
    ],
    [
     "11",
@@ -72722,11 +72722,11 @@
    ],
    [
     "3",
-    "A {@creature frost giant} jarl learns of the entrance to the World Tree within {@book Serpent's Rise|SatO|3|Serpent's Rise}. Rather than attack Glorium, he sets out to find the root and use it to conquer untold worlds."
+    "A {@creature frost giant} jarl learns of the entrance to the World Tree within {@area Serpent's Rise|129|x}. Rather than attack Glorium, he sets out to find the root and use it to conquer untold worlds."
    ],
    [
     "4",
-    "A {@creature sea hag} in the {@book Sacred Well|SatO|3|Sacred Well} tells one of the characters they will die at the hand of Gzemnid in five days."
+    "A {@creature sea hag} in the {@area Sacred Well|128|x} tells one of the characters they will die at the hand of Gzemnid in five days."
    ]
   ],
   "name": "Glorium Adventures",
@@ -73953,7 +73953,7 @@
    ],
    [
     "5",
-    "You've acquired a {@item spellshard|ERLW} (described in {@book chapter 5|ERLW|12}) that contains a vast amount of text in a strange code."
+    "You've acquired a {@item spellshard|ERLW} (described in {@area chapter 5|4d3|x}) that contains a vast amount of text in a strange code."
    ],
    [
     "6",
@@ -74291,133 +74291,133 @@
   "rows": [
    [
     "{@deity Beory|Greyhawk|XDMG}, Heart of Oerth*",
-    "{@book Material Plane|XDMG|5|Material Plane}",
+    "{@area Material Plane|3d5|x}",
     "Farmers, herders",
     "Green disk"
    ],
    [
     "{@deity Berei|Greyhawk|XDMG} of the Hearth",
-    "{@book Bytopia|XDMG|5|Bytopia}",
+    "{@area Bytopia|398|x}",
     "Families, farmers",
     "Sheaf of wheat stalks"
    ],
    [
     "{@deity Boccob|Greyhawk|XDMG} the Uncaring, Archmage of the Gods*",
-    "{@book Outlands|XDMG|5|Outlands}",
+    "{@area Outlands|3f0|x}",
     "Sages, spellcasters, seers",
     "Eye within a pentagram"
    ],
    [
     "{@deity Celestian|Greyhawk|XDMG}, the Far Wanderer",
-    "{@book Astral Plane|XDMG|5|Astral Plane}",
+    "{@area Astral Plane|38f|x}",
     "Wanderers, astronomers",
     "Arc of seven stars inside a circle"
    ],
    [
     "{@deity Cuthbert|Greyhawk|XDMG} of the Cudgel",
-    "{@book Arcadia|XDMG|5|Arcadia}",
+    "{@area Arcadia|38d|x}",
     "Practical, honest folk",
     "Circle at the center of a starburst of lines"
    ],
    [
     "{@deity Ehlonna|Greyhawk|XDMG} of the Forests",
-    "{@book Beastlands|XDMG|5|Beastlands}",
+    "{@area Beastlands|396|x}",
     "Hunters, foragers",
     "Unicorn horn"
    ],
    [
     "{@deity Erythnul|Greyhawk|XDMG}, the Many",
-    "{@book Pandemonium|XDMG|5|Pandemonium}",
+    "{@area Pandemonium|3f2|x}",
     "Raiders, bandits, berserkers",
     "Blood drop"
    ],
    [
     "{@deity Fharlanghn|Greyhawk|XDMG}, the Dweller on the Horizon",
-    "{@book Outlands|XDMG|5|Outlands}",
+    "{@area Outlands|3f0|x}",
     "Travelers",
     "Circle crossed by a curved horizon line"
    ],
    [
     "{@deity Heironeous|Greyhawk|XDMG} the Invincible",
-    "{@book Mount Celestia|XDMG|5|Mount Celestia}",
+    "{@area Mount Celestia|3dd|x}",
     "Knights, soldiers",
     "Lightning bolt"
    ],
    [
     "{@deity Hextor|Greyhawk|XDMG}, Scourge of Battle",
-    "{@book Acheron|XDMG|5|Acheron}",
+    "{@area Acheron|389|x}",
     "Soldiers, tyrants",
     "Six down-pointing arrows in a fan"
    ],
    [
     "{@deity Incabulos|Greyhawk|XDMG}, the Black Rider*",
-    "{@book Hades|XDMG|5|Hades}",
+    "{@area Hades|3cf|x}",
     "Necromancers, those who seek to ward off illness",
     "Reptilian eye within a horizontal diamond"
    ],
    [
     "{@deity Istus|Greyhawk|XDMG}, Weaver of Our Fate*",
-    "{@book Mechanus|XDMG|5|Mechanus}",
+    "{@area Mechanus|3db|x}",
     "Seers, advisers",
     "Spindle with three strands"
    ],
    [
     "{@deity Iuz|Greyhawk|XDMG} the Evil†",
-    "{@book Material Plane|XDMG|5|Material Plane}",
+    "{@area Material Plane|3d5|x}",
     "His subjects and allies",
     "Grinning human skull"
    ],
    [
     "{@deity Kord|Greyhawk|XDMG}, the Brawler",
-    "{@book Ysgard|XDMG|5|Ysgard}",
+    "{@area Ysgard|408|x}",
     "Athletes, berserkers",
     "Spears and maces radiating from a point"
    ],
    [
     "{@deity Nerull|Greyhawk|XDMG}, the Reaper*",
-    "{@book Carceri|XDMG|5|Carceri}",
+    "{@area Carceri|39a|x}",
     "Murderers, necromancers",
     "Skull with a scythe"
    ],
    [
     "{@deity Obad-Hai|Greyhawk|XDMG}, the Shalm",
-    "{@book Outlands|XDMG|5|Outlands}",
+    "{@area Outlands|3f0|x}",
     "Hunters, gatherers, hermits",
     "Oak leaf and acorn"
    ],
    [
     "{@deity Olidammara|Greyhawk|XDMG}, the Laughing Rogue",
-    "{@book Ysgard|XDMG|5|Ysgard}",
+    "{@area Ysgard|408|x}",
     "Revelers, gamblers, pranksters",
     "Laughing mask"
    ],
    [
     "{@deity Pelor|Greyhawk|XDMG}, the Radiant Sun*",
-    "{@book Elysium|XDMG|5|Elysium}",
+    "{@area Elysium|3b8|x}",
     "Healers, the compassionate",
     "Sun"
    ],
    [
     "{@deity Pholtus|Greyhawk|XDMG} of the Blinding Light",
-    "{@book Arcadia|XDMG|5|Arcadia}",
+    "{@area Arcadia|38d|x}",
     "Judges, lawyers, arbiters",
     "Silver sun partially eclipsed by a crescent moon"
    ],
    [
     "{@deity Ralishaz|Greyhawk|XDMG}, the Unlooked For",
-    "{@book Limbo|XDMG|5|Limbo}",
+    "{@area Limbo|3d2|x}",
     "Gamblers",
     "Three bone fate-casting sticks"
    ],
    [
     "{@deity Rao|Greyhawk|XDMG}, the Mediator*",
-    "{@book Mount Celestia|XDMG|5|Mount Celestia}",
+    "{@area Mount Celestia|3dd|x}",
     "Mediators, sages, scientists",
     "White heart"
    ],
    [
     "{@deity Syrul|Greyhawk|XDMG} Oathbreaker",
-    "{@book Gehenna|XDMG|5|Gehenna}",
+    "{@area Gehenna|3cd|x}",
     "Liars, charlatans, traitors",
     "Forked tongue"
    ],
@@ -74429,13 +74429,13 @@
    ],
    [
     "{@deity Trithereon|Greyhawk|XDMG}, the Summoner",
-    "{@book Arborea|XDMG|5|Arborea}",
+    "{@area Arborea|38b|x}",
     "Rebels, individualists",
     "Triskelion"
    ],
    [
     "{@deity Ulaa|Greyhawk|XDMG}, the Bejeweled",
-    "{@book Arcadia|XDMG|5|Arcadia}",
+    "{@area Arcadia|38d|x}",
     "Miners, jewelers, quarriers",
     "Ruby-hearted mountain"
    ],
@@ -74447,7 +74447,7 @@
    ],
    [
     "{@deity Wee Jas|Greyhawk|XDMG}, the Witch",
-    "{@book Acheron|XDMG|5|Acheron}",
+    "{@area Acheron|389|x}",
     "Spellcasters, advisers",
     "Red skull in front of fireball"
    ]
@@ -75331,7 +75331,7 @@
    ]
   ],
   "footnotes": [
-   "*Detailed in {@book chapter 5|RHW|5}"
+   "*Detailed in {@area chapter 5|38c|x}"
   ],
   "name": "Gothic Horror Monsters",
   "page": 229,
@@ -76607,7 +76607,7 @@
    ],
    [
     "6",
-    "Reunite a {@creature Returned sentry|MOT} and their {@creature ghostblade eidolon|MOT} (see {@book chapter 6|MOT|6|Eidolons})."
+    "Reunite a {@creature Returned sentry|MOT} and their {@creature ghostblade eidolon|MOT} (see {@area chapter 6|02e|x})."
    ],
    [
     "7",
@@ -77437,7 +77437,7 @@
   "rows": [
    [
     "1",
-    "The guest is an individual of great renown who stays for 7 days. At the end of their stay, the guest gives you a letter of recommendation (see \"{@book Marks of Prestige|XDMG|2|Marks of Prestige}\" in {@book chapter 3|XDMG|2})."
+    "The guest is an individual of great renown who stays for 7 days. At the end of their stay, the guest gives you a letter of recommendation (see \"{@area Marks of Prestige|19f|x}\" in {@area chapter 3|0e7|x})."
    ],
    [
     "2",
@@ -77477,43 +77477,43 @@
   "rows": [
    [
     "1",
-    "{@b Crime}. You have to break the law to administer justice or thwart a criminal act (see \"{@book Crime Syndicate|ERLW|4|Crime Syndicate}\")."
+    "{@b Crime}. You have to break the law to administer justice or thwart a criminal act (see \"{@area Crime Syndicate|1a7|x}\")."
    ],
    [
     "2",
-    "{@b Dragonmarked Affairs}. The job involves some dragonmarked house concern (see \"{@book Dragonmarked House|ERLW|4|Dragonmarked House}\")."
+    "{@b Dragonmarked Affairs}. The job involves some dragonmarked house concern (see \"{@area Dragonmarked House|1b6|x}\")."
    ],
    [
     "3",
-    "{@b Espionage}. Someone requires some spying or sabotage (see \"{@book Espionage Agency|ERLW|4|Espionage Agency}\")."
+    "{@b Espionage}. Someone requires some spying or sabotage (see \"{@area Espionage Agency|1c3|x}\")."
    ],
    [
     "4",
-    "{@b Statecraft}. You're involved in national or international affairs (see \"{@book Head of State|ERLW|4|Head of State}\")."
+    "{@b Statecraft}. You're involved in national or international affairs (see \"{@area Head of State|1d2|x}\")."
    ],
    [
     "5",
-    "{@b Cryptic Mystery}. The job is linked to the concerns of immortals (see \"{@book Immortal Being|ERLW|4|Immortal Being}\")."
+    "{@b Cryptic Mystery}. The job is linked to the concerns of immortals (see \"{@area Immortal Being|1de|x}\")."
    ],
    [
     "6",
-    "{@b Investigation}. An assignment involves finding something or solving a mystery (see \"{@book Inquisitive Agency|ERLW|4|Inquisitive Agency}\")."
+    "{@b Investigation}. An assignment involves finding something or solving a mystery (see \"{@area Inquisitive Agency|1eb|x}\")."
    ],
    [
     "7",
-    "{@b Military Action}. Your party is invited to serve as a military unit (see \"{@book Military Force|ERLW|4|Military Force}\")."
+    "{@b Military Action}. Your party is invited to serve as a military unit (see \"{@area Military Force|1f7|x}\")."
    ],
    [
     "8",
-    "{@b Gathering News}. You're called on to act as freelance reporters (see \"{@book Newspaper|ERLW|4|Newspaper}\")."
+    "{@b Gathering News}. You're called on to act as freelance reporters (see \"{@area Newspaper|206|x}\")."
    ],
    [
     "9",
-    "{@b Religious Work}. The job involves the work of faith (see \"{@book Religious Order|ERLW|4|Religious Order}\")."
+    "{@b Religious Work}. The job involves the work of faith (see \"{@area Religious Order|218|x}\")."
    ],
    [
     "10",
-    "{@b Field Research}. The job involves research or relic-hunting (see \"{@book University|ERLW|4|University}\")."
+    "{@b Field Research}. The job involves research or relic-hunting (see \"{@area University|225|x}\")."
    ]
   ],
   "name": "Guild Adventures",
@@ -80295,7 +80295,7 @@
    ],
    [
     "13–14",
-    "A spectral Eye of Hazlik appears, hovering over the character for 1 hour. The eye functions as detailed in the \"{@book The Eye of Hazlik|VRGR|3|The Eye of Hazlik}\" section."
+    "A spectral Eye of Hazlik appears, hovering over the character for 1 hour. The eye functions as detailed in the \"{@area The Eye of Hazlik|25d|x}\" section."
    ],
    [
     "15–16",
@@ -80479,7 +80479,7 @@
    ],
    [
     "6",
-    "An {@creature oracle|MOT} (see {@book chapter 6|MOT|6|Oracle}) allows the pools' poisons to seep from the caves and contaminate a community."
+    "An {@creature oracle|MOT} (see {@area chapter 6|03c|x}) allows the pools' poisons to seep from the caves and contaminate a community."
    ]
   ],
   "name": "Healing Pools Villains",
@@ -80974,7 +80974,7 @@
    ],
    [
     "6",
-    "A nervous {@creature oracle|MOT} (see {@book chapter 6|MOT|6|Oracle}) identifies the characters as a threat to the stability of the polis."
+    "A nervous {@creature oracle|MOT} (see {@area chapter 6|03c|x}) identifies the characters as a threat to the stability of the polis."
    ]
   ],
   "name": "Heliod's Villains",
@@ -82155,7 +82155,7 @@
      },
      "entry": "Sun"
     },
-    "Agents of the Solar Bastion (see {@book chapter 10|BMT|9}) once saved your life."
+    "Agents of the Solar Bastion (see {@area chapter 10|148|x}) once saved your life."
    ],
    [
     {
@@ -84218,7 +84218,7 @@
   "rows": [
    [
     "1",
-    "The party is caught red-handed after a mean-spirited {@creature goblin} makeup artist ambushes them with a splash of magic paint. Two {@creature Beholder||beholders} demand the characters perform at the {@book Gallows|SatO|3|Gallows} or be disintegrated where they stand."
+    "The party is caught red-handed after a mean-spirited {@creature goblin} makeup artist ambushes them with a splash of magic paint. Two {@creature Beholder||beholders} demand the characters perform at the {@area Gallows|130|x} or be disintegrated where they stand."
    ],
    [
     "2",
@@ -92887,7 +92887,7 @@
   "rows": [
    [
     "1",
-    "A desperate local needs medicine for a sick spouse, but the only merchant in Gwai-Huit Center with the necessary herbs demands fresh fruit from the Gemstone Gardens. The local entreats the characters to infiltrate the {@creature jiangshi|VRGR}-haunted park (see {@book chapter 5|VRGR|5})."
+    "A desperate local needs medicine for a sick spouse, but the only merchant in Gwai-Huit Center with the necessary herbs demands fresh fruit from the Gemstone Gardens. The local entreats the characters to infiltrate the {@creature jiangshi|VRGR}-haunted park (see {@area chapter 5|57c|x})."
    ],
    [
     "2",
@@ -94381,7 +94381,7 @@
    ],
    [
     "{@damage 24d10}",
-    "Tumbling into a vortex of fire on the {@book Elemental Plane of Fire|XDMG|5|Elemental Plane of Fire}, crushed in the jaws of a godlike creature or a moon-size monster"
+    "Tumbling into a vortex of fire on the {@area Elemental Plane of Fire|3aa|x}, crushed in the jaws of a godlike creature or a moon-size monster"
    ]
   ],
   "name": "Improvising Damage",
@@ -96139,7 +96139,7 @@
    ],
    [
     "2",
-    "A general ({@creature Akroan hoplite|MOT}; see {@book chapter 6|MOT|6|Hoplites}) commands a town be put to the torch for its soldiers' crimes. Followers of Phenax are actually responsible for the crimes and are framing the community so it will be destroyed and turned into a haven for the Returned."
+    "A general ({@creature Akroan hoplite|MOT}; see {@area chapter 6|033|x}) commands a town be put to the torch for its soldiers' crimes. Followers of Phenax are actually responsible for the crimes and are framing the community so it will be destroyed and turned into a haven for the Returned."
    ],
    [
     "3",
@@ -97109,7 +97109,7 @@
    ],
    [
     "8",
-    "The shadows of people in Meenakara are disappearing, and the shadow-bereft soon sicken and die. A local leader claims that the strange plague's cure lies among the hidden isles known as the Ashram of {@book Niranjan|VRGR|3|Niranjan} (detailed in \"{@book Other Domains of Dread|VRGR|3}\" later in this chapter)."
+    "The shadows of people in Meenakara are disappearing, and the shadow-bereft soon sicken and die. A local leader claims that the strange plague's cure lies among the hidden isles known as the Ashram of {@area Niranjan|3c1|x} (detailed in \"{@area Other Domains of Dread|0fa|x}\" later in this chapter)."
    ],
    [
     "9",
@@ -97293,7 +97293,7 @@
    ]
   ],
   "footnotes": [
-   "* See {@book chapter 6|MOT|6|Unicorn} for details about these creatures in Theros."
+   "* See {@area chapter 6|394|x} for details about these creatures in Theros."
   ],
   "name": "Karametra's Monsters",
   "page": 136,
@@ -97376,7 +97376,7 @@
    ],
    [
     "3",
-    "A local leader ({@creature Setessan hoplite|MOT}; see {@book chapter 6|MOT|6|Hoplites}) imposes harsh penalties on the poor, claiming their poverty is a sign they have invited the gods' wrath."
+    "A local leader ({@creature Setessan hoplite|MOT}; see {@area chapter 6|033|x}) imposes harsh penalties on the poor, claiming their poverty is a sign they have invited the gods' wrath."
    ],
    [
     "4",
@@ -98016,7 +98016,7 @@
    ]
   ],
   "footnotes": [
-   "* See {@book chapter 6|MOT|6|Blue Dragons} for details about these creatures in Theros."
+   "* See {@area chapter 6|387|x} for details about these creatures in Theros."
   ],
   "name": "Keranos's Monsters",
   "page": 140,
@@ -98091,7 +98091,7 @@
   "rows": [
    [
     "1",
-    "An {@creature oracle|MOT} (see {@book chapter 6|MOT|6|Oracle}) foretells disaster for a polis unless a number of innocent citizens are sacrificed."
+    "An {@creature oracle|MOT} (see {@area chapter 6|03c|x}) foretells disaster for a polis unless a number of innocent citizens are sacrificed."
    ],
    [
     "2",
@@ -98107,7 +98107,7 @@
    ],
    [
     "5",
-    "A wild-eyed {@creature oracle|MOT} (see {@book chapter 6|MOT|6|Oracle}) points to the characters as harbingers of a coming disaster."
+    "A wild-eyed {@creature oracle|MOT} (see {@area chapter 6|03c|x}) points to the characters as harbingers of a coming disaster."
    ],
    [
     "6",
@@ -98331,7 +98331,7 @@
    ]
   ],
   "footnotes": [
-   "* See {@book chapter 6|MOT|6|Cyclops} for details about these creatures in Theros."
+   "* See {@area chapter 6|385|x} for details about these creatures in Theros."
   ],
   "name": "Klothys's Monsters",
   "page": 144,
@@ -98418,11 +98418,11 @@
    ],
    [
     "4",
-    "Insulted {@creature Satyr Reveler|MOT|satyr revelers} (see {@book chapter 6|MOT|6|Satyr}) channel Klothys's magic to drive a polis's priests into embarrassing debauchery."
+    "Insulted {@creature Satyr Reveler|MOT|satyr revelers} (see {@area chapter 6|03f|x}) channel Klothys's magic to drive a polis's priests into embarrassing debauchery."
    ],
    [
     "5",
-    "An {@creature oracle|MOT} (see {@book chapter 6|MOT|6|Oracle}) knows it is a character's destiny to serve Klothys. The seer manufactures tragedy for the individual to provoke this revelation."
+    "An {@creature oracle|MOT} (see {@area chapter 6|03c|x}) knows it is a character's destiny to serve Klothys. The seer manufactures tragedy for the individual to provoke this revelation."
    ],
    [
     "6",
@@ -98634,7 +98634,7 @@
    ]
   ],
   "footnotes": [
-   "* See {@book chapter 6|MOT|6|Sphinx} for details about these creatures in Theros."
+   "* See {@area chapter 6|391|x} for details about these creatures in Theros."
   ],
   "name": "Kruphix's Monsters",
   "page": 148,
@@ -98709,7 +98709,7 @@
   "rows": [
    [
     "1",
-    "An {@creature oracle|MOT} (see {@book chapter 6|MOT|6|Oracle}) seeks to erase the memories of an entire community, reducing them to a simpler, happier, more natural state."
+    "An {@creature oracle|MOT} (see {@area chapter 6|03c|x}) seeks to erase the memories of an entire community, reducing them to a simpler, happier, more natural state."
    ],
    [
     "2",
@@ -99098,7 +99098,7 @@
    ]
   ],
   "footnotes": [
-   "*This spell appears in {@book chapter 7|BMT|6}."
+   "*This spell appears in {@area chapter 7|09a|x}."
   ],
   "name": "Lavender's Spell Scrolls",
   "page": 109,
@@ -99730,39 +99730,39 @@
   ],
   "rows": [
    [
-    "{@book Avernus|XDMG|5|Avernus}",
+    "{@area Avernus|3e3|x}",
     "The Blood War rages across battlefields littered with corpses and the wreckage of hellish war machines."
    ],
    [
-    "{@book Dis|XDMG|5|Dis}",
+    "{@area Dis|3e4|x}",
     "Iron roads in deep canyons lead to the dreaded Iron City of Dis."
    ],
    [
-    "{@book Minauros|XDMG|5|Minauros}",
+    "{@area Minauros|3e5|x}",
     "Acid falls like rain on putrid bogs and decaying cities."
    ],
    [
-    "{@book Phlegethos|XDMG|5|Phlegethos}",
+    "{@area Phlegethos|3e6|x}",
     "Obsidian fortresses bask in the heat of raging volcanoes and magma rivers."
    ],
    [
-    "{@book Stygia|XDMG|5|Stygia}",
+    "{@area Stygia|3e7|x}",
     "Levistus's prison is a frigid hellscape of jagged ice and cold fire."
    ],
    [
-    "{@book Malbolge|XDMG|5|Malbolge}",
+    "{@area Malbolge|3e8|x}",
     "An ever-crumbling mountain threatens to bury visitors."
    ],
    [
-    "{@book Maladomini|XDMG|5|Maladomini}",
+    "{@area Maladomini|3e9|x}",
     "Swarms of hungry flies plague dead cities surrounded by utter desolation."
    ],
    [
-    "{@book Cania|XDMG|5|Cania}",
+    "{@area Cania|3ea|x}",
     "Ice-trapped cities provide shelter in a realm cold enough to freeze the soul."
    ],
    [
-    "{@book Nessus|XDMG|5|Nessus}",
+    "{@area Nessus|3eb|x}",
     "Mighty fortresses stand watch over the deepest pits of the Nine Hells."
    ]
   ],
@@ -101935,7 +101935,7 @@
   "rows": [
    [
     "1",
-    "A newly awakened {@item docent|ERLW} (see {@book chapter 5|ERLW|12}) tells its new owner that {@creature the Lord of Blades|ERLW} is the only hope for averting a coming catastrophe."
+    "A newly awakened {@item docent|ERLW} (see {@area chapter 5|4d3|x}) tells its new owner that {@creature the Lord of Blades|ERLW} is the only hope for averting a coming catastrophe."
    ],
    [
     "2",
@@ -102439,39 +102439,39 @@
   ],
   "rows": [
    [
-    "{@book Armor|XDMG|6|Armor}",
+    "{@area Armor|418|x}",
     "{@item +1 Leather Armor|XDMG}, {@item +1 Shield|XDMG}"
    ],
    [
-    "{@book Potions|XDMG|6|Potions}",
+    "{@area Potions|419|x}",
     "{@item Potion of Healing|XDMG}"
    ],
    [
-    "{@book Rings|XDMG|6|Rings}",
+    "{@area Rings|41c|x}",
     "{@item Ring of Invisibility|XDMG}"
    ],
    [
-    "{@book Rods|XDMG|6|Rods}",
+    "{@area Rods|41d|x}",
     "{@item Immovable Rod|XDMG}"
    ],
    [
-    "{@book Scrolls|XDMG|6|Scrolls}",
+    "{@area Scrolls|41e|x}",
     "{@item Spell Scroll|XDMG}"
    ],
    [
-    "{@book Staffs|XDMG|6|Staffs}",
+    "{@area Staffs|420|x}",
     "{@item Staff of Striking|XDMG}"
    ],
    [
-    "{@book Wands|XDMG|6|Wands}",
+    "{@area Wands|421|x}",
     "{@item Wand of Fireballs|XDMG}"
    ],
    [
-    "{@book Weapons|XDMG|6|Weapons}",
+    "{@area Weapons|422|x}",
     "{@item +1 Ammunition|XDMG}, {@item +1 Longsword|XDMG}"
    ],
    [
-    "{@book Wondrous Items|XDMG|6|Wondrous Items}",
+    "{@area Wondrous Items|424|x}",
     "{@item Bag of Holding|XDMG}, {@item Boots of Elvenkind|XDMG}"
    ]
   ],
@@ -106098,292 +106098,292 @@
    [
     "{@item Antimagic Armor|BMT}",
     "Very rare",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ],
    [
     "{@item Armor of Fungal Spores|BMT}",
     "Uncommon",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ],
    [
     "{@item Armor of the Fallen|BMT}",
     "Uncommon",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ],
    [
     "{@item Armor of Weightlessness|BMT}",
     "Uncommon",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ],
    [
     "{@item Baleful Talon|BMT}",
     "Very rare",
-    "{@book 5|BMT|4}"
+    "{@area 5|064|x}"
    ],
    [
     "{@item Blasted Goggles|BMT}",
     "Uncommon",
-    "{@book 20|BMT|19}"
+    "{@area 20|2ee|x}"
    ],
    [
     "{@item Bloodrage Greataxe|BMT}",
     "Uncommon",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ],
    [
     "{@item Bloodseeker Ammunition|BMT}",
     "Very rare",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ],
    [
     "{@item Boomerang Shield|BMT}",
     "Uncommon",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ],
    [
     "{@item Bow of Conflagration|BMT}",
     "Rare",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ],
    [
     "{@item Bow of Melodies|BMT}",
     "Very rare",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ],
    [
     "{@item Breastplate of Balance|BMT}",
     "Rare",
-    "{@book 5|BMT|4}"
+    "{@area 5|064|x}"
    ],
    [
     "{@item Card Sharp's Deck|BMT}",
     "Uncommon",
-    "{@book 6|BMT|5}"
+    "{@area 6|089|x}"
    ],
    [
     "{@item Clockwork Armor|BMT}",
     "Very rare",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ],
    [
     "{@item Crown of Whirling Comets|BMT}",
     "Very rare",
-    "{@book 5|BMT|4}"
+    "{@area 5|064|x}"
    ],
    [
     "{@item Deck of Dimensions|BMT}",
     "Very rare",
-    "{@book 6|BMT|5}"
+    "{@area 6|089|x}"
    ],
    [
     "{@item Deck of Many More Things|BMT}",
     "Legendary",
-    "{@book 7|BMT|6}"
+    "{@area 7|09a|x}"
    ],
    [
     "{@item Deck of Miscellany|BMT}",
     "Uncommon",
-    "{@book 6|BMT|5}"
+    "{@area 6|089|x}"
    ],
    [
     "{@item Deck of Oracles|BMT}",
     "Rare",
-    "{@book 8|BMT|7}"
+    "{@area 8|0ed|x}"
    ],
    [
     "{@item Deck of Wild Cards|BMT}",
     "Very rare",
-    "{@book 6|BMT|5}"
+    "{@area 6|089|x}"
    ],
    [
     "{@item Deck of Wonder|BMT}",
     "Uncommon",
-    "{@book 7|BMT|6}"
+    "{@area 7|09a|x}"
    ],
    [
     "{@item Donjon's Sundering Sphere|BMT}",
     "Rare",
-    "{@book 5|BMT|4}"
+    "{@area 5|064|x}"
    ],
    [
     "{@item Dried Leech|BMT}",
     "Uncommon",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ],
    [
     "{@item Euryale's Aegis|BMT}",
     "Legendary",
-    "{@book 5|BMT|4}"
+    "{@area 5|064|x}"
    ],
    [
     "{@item Fabulist Gem|BMT}",
     "Uncommon",
-    "{@book 5|BMT|4}"
+    "{@area 5|064|x}"
    ],
    [
     "{@item Fate Cutter Shears|BMT}",
     "Very rare",
-    "{@book 8|BMT|7}"
+    "{@area 8|0ed|x}"
    ],
    [
     "{@item +1 Fate Dealer's Deck|BMT|Fate Dealer's Deck}",
     "Varies",
-    "{@book 8|BMT|7}"
+    "{@area 8|0ed|x}"
    ],
    [
     "{@item Feywrought Armor|BMT}",
     "Rare",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ],
    [
     "{@item Fool's Blade|BMT}",
     "Very rare",
-    "{@book 5|BMT|4}"
+    "{@area 5|064|x}"
    ],
    [
     "{@item Forcebreaker Weapon|BMT}",
     "Very rare",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ],
    [
     "{@item Glimmering Moonbow|BMT}",
     "Rare",
-    "{@book 5|BMT|4}"
+    "{@area 5|064|x}"
    ],
    [
     "{@item Gloomwrought Armor|BMT}",
     "Rare",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ],
    [
     "{@item Grasping Whip|BMT}",
     "Rare",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ],
    [
     "{@item Hammer of Runic Focus|BMT}",
     "Very rare",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ],
    [
     "{@item House of Cards|BMT}",
     "Uncommon",
-    "{@book 8|BMT|7}"
+    "{@area 8|0ed|x}"
    ],
    [
     "{@item Jester's Mask|BMT}",
     "Legendary",
-    "{@book 5|BMT|4}"
+    "{@area 5|064|x}"
    ],
    [
     "{@item Plate of Knight's Fellowship|BMT}",
     "Uncommon",
-    "{@book 5|BMT|4}"
+    "{@area 5|064|x}"
    ],
    [
     "{@item Ring of Puzzler's Wit|BMT}",
     "Uncommon",
-    "{@book 5|BMT|4}"
+    "{@area 5|064|x}"
    ],
    [
     "{@item Rod of Hellish Flames|BMT}",
     "Very rare",
-    "{@book 5|BMT|4}"
+    "{@area 5|064|x}"
    ],
    [
     "{@item Rogue's Mantle|BMT}",
     "Rare",
-    "{@book 5|BMT|4}"
+    "{@area 5|064|x}"
    ],
    [
     "{@item Ruinous Flail|BMT}",
     "Rare",
-    "{@book 5|BMT|4}"
+    "{@area 5|064|x}"
    ],
    [
     "{@item Sage's Signet|BMT}",
     "Varies",
-    "{@book 5|BMT|4}"
+    "{@area 5|064|x}"
    ],
    [
     "{@item Shield of the Tortoise|BMT}",
     "Uncommon",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ],
    [
     "{@item Shrieking Greaves|BMT}",
     "Rare",
-    "{@book 20|BMT|19}"
+    "{@area 20|2ee|x}"
    ],
    [
     "{@item Skull Helm|BMT}",
     "Very rare",
-    "{@book 5|BMT|4}"
+    "{@area 5|064|x}"
    ],
    [
     "{@item Sling of Giant Felling|BMT}",
     "Uncommon",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ],
    [
     "{@item Spindle of Fate|BMT}",
     "Legendary",
-    "{@book 5|BMT|4}"
+    "{@area 5|064|x}"
    ],
    [
     "{@item Starshot Crossbow|BMT}",
     "Rare",
-    "{@book 5|BMT|4}"
+    "{@area 5|064|x}"
    ],
    [
     "{@item Stonemaker War Pick|BMT}",
     "Very rare",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ],
    [
     "{@item Sun Staff|BMT}",
     "Rare",
-    "{@book 5|BMT|4}"
+    "{@area 5|064|x}"
    ],
    [
     "{@item Sword of the Planes|BMT}",
     "Legendary",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ],
    [
     "{@item Telescopic Transporter|BMT}",
     "Legendary",
-    "{@book 13|BMT|12}"
+    "{@area 13|1a6|x}"
    ],
    [
     "{@item Tidecaller Trident|BMT}",
     "Very rare",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ],
    [
     "{@item Voidwalker Armor|BMT}",
     "Rare",
-    "{@book 5|BMT|4}"
+    "{@area 5|064|x}"
    ],
    [
     "{@item Warrior's Passkey|BMT}",
     "Rare",
-    "{@book 5|BMT|4}"
+    "{@area 5|064|x}"
    ],
    [
     "{@item Weapon of Throne's Command|BMT}",
     "Very rare",
-    "{@book 5|BMT|4}"
+    "{@area 5|064|x}"
    ],
    [
     "{@item Winged Ammunition|BMT}",
     "Uncommon",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ],
    [
     "{@item +1 Wraps of Unarmed Prowess|BMT|Wraps of Unarmed Prowess}",
     "Varies",
-    "{@book 9|BMT|8}"
+    "{@area 9|118|x}"
    ]
   ],
   "name": "Magic Items in This Book; Magic Items by Name",
@@ -106642,7 +106642,7 @@
    ],
    [
     "6",
-    "Undying Steward. A powerful mage helped found the realm and is thought long dead, but they have survived as a {@creature Baelnorn|AU} or a {@creature Taisus|AU} (see {@book chapter 6|AU|6} for both)."
+    "Undying Steward. A powerful mage helped found the realm and is thought long dead, but they have survived as a {@creature Baelnorn|AU} or a {@creature Taisus|AU} (see {@area chapter 6|30e|x} for both)."
    ]
   ],
   "name": "Magical Entity Type",
@@ -107838,7 +107838,7 @@
    ],
    [
     "5",
-    "The Apparatus (see \"{@book Mordent|VRGR|3}\" in this chapter)"
+    "The Apparatus (see \"{@area Mordent|0fa|x}\" in this chapter)"
    ],
    [
     "6",
@@ -108270,7 +108270,7 @@
    ]
   ],
   "footnotes": [
-   "*Appears in the \"{@book Faction Agents|MPP|1|Faction Agents}\" section"
+   "*Appears in the \"{@area Faction Agents|094|x}\" section"
   ],
   "name": "Meeting Magic Item Prerequisites; Stat Blocks by Challenge Rating",
   "page": 4,
@@ -109467,7 +109467,7 @@
    ],
    [
     "02–08",
-    "Both potions lose their effects, and the mixture becomes an ingested poison of your choice (see \"{@book Poison|XDMG|2|Poison}\" in {@book chapter 3|XDMG|2})."
+    "Both potions lose their effects, and the mixture becomes an ingested poison of your choice (see \"{@area Poison|1bd|x}\" in {@area chapter 3|0e7|x})."
    ],
    [
     "09–15",
@@ -109644,7 +109644,7 @@
    ]
   ],
   "footnotes": [
-   "* See {@book chapter 6|MOT|6|Classic Monsters} for details about these creatures in Theros."
+   "* See {@area chapter 6|382|x} for details about these creatures in Theros."
   ],
   "name": "Mogis's Monsters",
   "page": 152,
@@ -109731,7 +109731,7 @@
    ],
    [
     "4",
-    "An {@creature oracle|MOT} (see {@book chapter 6|MOT|6|Oracle}) of Mogis marches into town and predicts doom on the populace within a fortnight."
+    "An {@creature oracle|MOT} (see {@area chapter 6|03c|x}) of Mogis marches into town and predicts doom on the populace within a fortnight."
    ],
    [
     "5",
@@ -111920,211 +111920,211 @@
     "1/4",
     "{@creature Minotaur archaeologist|BMT}",
     "Humanoid",
-    "{@book 16|BMT|15}"
+    "{@area 16|220|x}"
    ],
    [
     "1/2",
     "{@creature Aspirant of the Comet|BMT}",
     "Humanoid",
-    "{@book 12|BMT|11}"
+    "{@area 12|18c|x}"
    ],
    [
     "1",
     "{@creature Harrow hawk|BMT}",
     "Undead",
-    "{@book 21|BMT|20}"
+    "{@area 21|31e|x}"
    ],
    [
     "2",
     "{@creature Minotaur infiltrator|BMT}",
     "Humanoid",
-    "{@book 16|BMT|15}"
+    "{@area 16|220|x}"
    ],
    [
     "2",
     "{@creature Oddlewin|BMT}",
     "Fey",
-    "{@book 14|BMT|13}"
+    "{@area 14|1d1|x}"
    ],
    [
     "3",
     "{@creature Brusipha|BMT}",
     "Humanoid",
-    "{@book 16|BMT|15}"
+    "{@area 16|220|x}"
    ],
    [
     "3",
     "{@creature Harrow hound|BMT}",
     "Undead",
-    "{@book 19|BMT|18}"
+    "{@area 19|2d8|x}"
    ],
    [
     "3",
     "{@creature Living portent|BMT}",
     "Celestial",
-    "{@book 21|BMT|20}"
+    "{@area 21|31e|x}"
    ],
    [
     "4",
     "{@creature Fate hag|BMT}",
     "Fey",
-    "{@book 21|BMT|20}"
+    "{@area 21|31e|x}"
    ],
    [
     "4",
     "{@creature Initiate of the Comet|BMT}",
     "Humanoid",
-    "{@book 12|BMT|11}"
+    "{@area 12|18c|x}"
    ],
    [
     "4",
     "{@creature Werevulture|BMT}",
     "Fiend",
-    "{@book 21|BMT|20}"
+    "{@area 21|31e|x}"
    ],
    [
     "5",
     "{@creature Ambitious assassin|BMT}",
     "Humanoid",
-    "{@book 6|BMT|5}"
+    "{@area 6|089|x}"
    ],
    [
     "5",
     "{@creature Riffler|BMT}",
     "Fey",
-    "{@book 21|BMT|20}"
+    "{@area 21|31e|x}"
    ],
    [
     "5",
     "{@creature Ruin spider|BMT}",
     "Monstrosity",
-    "{@book 21|BMT|20}"
+    "{@area 21|31e|x}"
    ],
    [
     "5",
     "{@creature Sir Jared|BMT}",
     "Humanoid",
-    "{@book 10|BMT|9}"
+    "{@area 10|148|x}"
    ],
    [
     "7",
     "{@creature Talon beast|BMT}",
     "Monstrosity",
-    "{@book 21|BMT|20}"
+    "{@area 21|31e|x}"
    ],
    [
     "9",
     "{@creature Boss Augustus|BMT}",
     "Monstrosity",
-    "{@book 11|BMT|10}"
+    "{@area 11|163|x}"
    ],
    [
     "9",
     "{@creature Boss Delour|BMT}",
     "Monstrosity",
-    "{@book 11|BMT|10}"
+    "{@area 11|163|x}"
    ],
    [
     "9",
     "{@creature Gremorly's ghost|BMT}",
     "Undead",
-    "{@book 15|BMT|14}"
+    "{@area 15|1f0|x}"
    ],
    [
     "9",
     "{@creature Solar Bastion knight|BMT}",
     "Humanoid",
-    "{@book 10|BMT|9}"
+    "{@area 10|148|x}"
    ],
    [
     "11",
     "{@creature Enchanting infiltrator|BMT}",
     "Fey",
-    "{@book 6|BMT|5}"
+    "{@area 6|089|x}"
    ],
    [
     "11",
     "{@creature Hierophant of the Comet|BMT}",
     "Humanoid",
-    "{@book 12|BMT|11}"
+    "{@area 12|18c|x}"
    ],
    [
     "14",
     "{@creature Breath drinker|BMT}",
     "Aberration",
-    "{@book 18|BMT|17}"
+    "{@area 18|27f|x}"
    ],
    [
     "14",
     "{@creature Hulgaz|BMT}",
     "Fiend",
-    "{@book 20|BMT|19}"
+    "{@area 20|2ee|x}"
    ],
    [
     "15",
     "{@creature Grim Champion of Pestilence|BMT}",
     "Undead",
-    "{@book 19|BMT|18}"
+    "{@area 19|2d8|x}"
    ],
    [
     "17",
     "{@creature Hierophant medusa|BMT}",
     "Monstrosity",
-    "{@book 21|BMT|20}"
+    "{@area 21|31e|x}"
    ],
    [
     "17",
     "{@creature Otherworldly corrupter|BMT}",
     "Aberration",
-    "{@book 6|BMT|5}"
+    "{@area 6|089|x}"
    ],
    [
     "18",
     "{@creature Asteria|BMT}",
     "Humanoid",
-    "{@book 22|BMT|21}"
+    "{@area 22|32c|x}"
    ],
    [
     "18",
     "{@creature Euryale|BMT}",
     "Monstrosity",
-    "{@book 22|BMT|21}"
+    "{@area 22|32c|x}"
    ],
    [
     "18",
     "{@creature Malaxxix|BMT}",
     "Fiend",
-    "{@book 20|BMT|19}"
+    "{@area 20|2ee|x}"
    ],
    [
     "20",
     "{@creature Grim Champion of Bloodshed|BMT}",
     "Undead",
-    "{@book 19|BMT|18}"
+    "{@area 19|2d8|x}"
    ],
    [
     "21",
     "{@creature Pazrodine|BMT}",
     "Dragon",
-    "{@book 14|BMT|13}"
+    "{@area 14|1d1|x}"
    ],
    [
     "21",
     "{@creature Veiled presence|BMT}",
     "Celestial",
-    "{@book 6|BMT|5}"
+    "{@area 6|089|x}"
    ],
    [
     "22",
     "{@creature Aurnozci|BMT}",
     "Fiend",
-    "{@book 20|BMT|19}"
+    "{@area 20|2ee|x}"
    ],
    [
     "25",
     "{@creature Grim Champion of Desolation|BMT}",
     "Undead",
-    "{@book 19|BMT|18}"
+    "{@area 19|2d8|x}"
    ]
   ],
   "name": "Monsters in This Book; Stat Blocks by Challenge Rating",
@@ -112748,7 +112748,7 @@
    ],
    [
     "10",
-    "The Darklord retains their memories and intellect but is otherwise any monster from {@book chapter 5|VRGR|5} or the {@book Monster Manual|MM}."
+    "The Darklord retains their memories and intellect but is otherwise any monster from {@area chapter 5|57c|x} or the {@book Monster Manual|MM}."
    ]
   ],
   "name": "Monstrous Transformations",
@@ -113311,7 +113311,7 @@
    ],
    [
     "5",
-    "The citizens of the village of Crawford spread tales of a gigantic {@creature raven}. Sheriff Perkins hires the characters to hunt down the creature, which is actually a {@creature wereraven|VRGR} (see {@book chapter 5|VRGR|5}) protecting the community from a greater threat."
+    "The citizens of the village of Crawford spread tales of a gigantic {@creature raven}. Sheriff Perkins hires the characters to hunt down the creature, which is actually a {@creature wereraven|VRGR} (see {@area chapter 5|57c|x}) protecting the community from a greater threat."
    ],
    [
     "6",
@@ -114982,7 +114982,7 @@
    ],
    [
     "4",
-    "A Karrnathi {@creature bone knight|ERLW} (see {@book chapter 6|ERLW|13}) wants to raise up an undead army from the corpses in the Mournland."
+    "A Karrnathi {@creature bone knight|ERLW} (see {@area chapter 6|513|x}) wants to raise up an undead army from the corpses in the Mournland."
    ],
    [
     "5",
@@ -117388,7 +117388,7 @@
    ]
   ],
   "footnotes": [
-   "* See {@book chapter 6|MOT|6} for details about these creatures in Theros."
+   "* See {@area chapter 6|37e|x} for details about these creatures in Theros."
   ],
   "name": "Nylea's Monsters",
   "page": 157,
@@ -117463,7 +117463,7 @@
   "rows": [
    [
     "1",
-    "A Setessan hunt-leader ({@creature Setessan hoplite|MOT}; see {@book chapter 6|MOT|6|Hoplites}) swears vengeance on a poacher in the Nessian Wood who turns out to be an Akroan general."
+    "A Setessan hunt-leader ({@creature Setessan hoplite|MOT}; see {@area chapter 6|033|x}) swears vengeance on a poacher in the Nessian Wood who turns out to be an Akroan general."
    ],
    [
     "2",
@@ -119590,7 +119590,7 @@
   "rows": [
    [
     "1",
-    "A bitter {@creature oracle|MOT} (see {@book chapter 6|MOT|6|Oracle}) who has foreseen her imminent death gives false predictions to worshipers so they will share her misery."
+    "A bitter {@creature oracle|MOT} (see {@area chapter 6|03c|x}) who has foreseen her imminent death gives false predictions to worshipers so they will share her misery."
    ],
    [
     "2",
@@ -119610,7 +119610,7 @@
    ],
    [
     "6",
-    "An {@creature oracle|MOT} (see {@book chapter 6|MOT|6|Oracle}) makes false predictions to convince nobles to give him money and lavish gifts."
+    "An {@creature oracle|MOT} (see {@area chapter 6|03c|x}) makes false predictions to convince nobles to give him money and lavish gifts."
    ]
   ],
   "name": "Oracular Conflux Villains",
@@ -121092,71 +121092,71 @@
   ],
   "rows": [
    [
-    "{@book Abyss|XDMG|5|Abyss}",
+    "{@area Abyss|37e|x}",
     "Chaotic Evil"
    ],
    [
-    "{@book Acheron|XDMG|5|Acheron}",
+    "{@area Acheron|389|x}",
     "Lawful Evil, Lawful Neutral"
    ],
    [
-    "{@book Arborea|XDMG|5|Arborea}",
+    "{@area Arborea|38b|x}",
     "Chaotic Good"
    ],
    [
-    "{@book Arcadia|XDMG|5|Arcadia}",
+    "{@area Arcadia|38d|x}",
     "Lawful Good, Lawful Neutral"
    ],
    [
-    "{@book Beastlands|XDMG|5|Beastlands}",
+    "{@area Beastlands|396|x}",
     "Chaotic Good, Neutral Good"
    ],
    [
-    "{@book Bytopia|XDMG|5|Bytopia}",
+    "{@area Bytopia|398|x}",
     "Lawful Good, Neutral Good"
    ],
    [
-    "{@book Carceri|XDMG|5|Carceri}",
+    "{@area Carceri|39a|x}",
     "Chaotic Evil, Neutral Evil"
    ],
    [
-    "{@book Elysium|XDMG|5|Elysium}",
+    "{@area Elysium|3b8|x}",
     "Neutral Good"
    ],
    [
-    "{@book Gehenna|XDMG|5|Gehenna}",
+    "{@area Gehenna|3cd|x}",
     "Lawful Evil, Neutral Evil"
    ],
    [
-    "{@book Hades|XDMG|5|Hades}",
+    "{@area Hades|3cf|x}",
     "Neutral Evil"
    ],
    [
-    "{@book Limbo|XDMG|5|Limbo}",
+    "{@area Limbo|3d2|x}",
     "Chaotic Neutral"
    ],
    [
-    "{@book Mechanus|XDMG|5|Mechanus}",
+    "{@area Mechanus|3db|x}",
     "Lawful Neutral"
    ],
    [
-    "{@book Mount Celestia|XDMG|5|Mount Celestia}",
+    "{@area Mount Celestia|3dd|x}",
     "Lawful Good"
    ],
    [
-    "{@book Nine Hells|XDMG|5|Nine Hells}",
+    "{@area Nine Hells|3e1|x}",
     "Lawful Evil"
    ],
    [
-    "{@book Outlands|XDMG|5|Outlands}",
+    "{@area Outlands|3f0|x}",
     "Neutral"
    ],
    [
-    "{@book Pandemonium|XDMG|5|Pandemonium}",
+    "{@area Pandemonium|3f2|x}",
     "Chaotic Evil, Chaotic Neutral"
    ],
    [
-    "{@book Ysgard|XDMG|5|Ysgard}",
+    "{@area Ysgard|408|x}",
     "Chaotic Good, Chaotic Neutral"
    ]
   ],
@@ -121189,7 +121189,7 @@
    ],
    [
     "2",
-    "A {@creature beholder} influenced by {@book the Abyss|MPP|0|The Abyss} has compound eyes and looks like a floating, cyclopean fly head. It promises not to destroy the characters if they bring it a corpse it has never tasted before."
+    "A {@creature beholder} influenced by {@area the Abyss|00b|x} has compound eyes and looks like a floating, cyclopean fly head. It promises not to destroy the characters if they bring it a corpse it has never tasted before."
    ],
    [
     "3",
@@ -121197,7 +121197,7 @@
    ],
    [
     "4",
-    "A hirsute, axe-wielding {@creature flumph} influenced by {@book Ysgard|MPP|0|Ysgard} quests across the land, seeking legendary beasts to slay and epic songs to sing."
+    "A hirsute, axe-wielding {@creature flumph} influenced by {@area Ysgard|04d|x} quests across the land, seeking legendary beasts to slay and epic songs to sing."
    ]
   ],
   "name": "Outlands Aberrations",
@@ -121225,7 +121225,7 @@
    ],
    [
     "2",
-    "A {@creature triceratops} influenced by {@book Mechanus|MPP|0|Mechanus} and composed of simple geometric shapes charges creatures that enter the angular canyons it inhabits. It moves only in straight lines and turns only at right angles."
+    "A {@creature triceratops} influenced by {@area Mechanus|03d|x} and composed of simple geometric shapes charges creatures that enter the angular canyons it inhabits. It moves only in straight lines and turns only at right angles."
    ],
    [
     "3",
@@ -121233,7 +121233,7 @@
    ],
    [
     "4",
-    "A desiccated {@creature giant frog} influenced by {@book Pandemonium|MPP|0|Pandemonium} screams whenever it opens its mouth. Its interior is even noisier."
+    "A desiccated {@creature giant frog} influenced by {@area Pandemonium|049|x} screams whenever it opens its mouth. Its interior is even noisier."
    ]
   ],
   "name": "Outlands Beasts",
@@ -121261,7 +121261,7 @@
    ],
    [
     "2",
-    "Wearing grim armor and displaying a rust-colored horn, a {@creature unicorn} influenced by {@book Acheron|MPP|0|Acheron} challenges all it encounters to mortal combat."
+    "Wearing grim armor and displaying a rust-colored horn, a {@creature unicorn} influenced by {@area Acheron|010|x} challenges all it encounters to mortal combat."
    ],
    [
     "3",
@@ -121269,7 +121269,7 @@
    ],
    [
     "4",
-    "A {@creature couatl} influenced by {@book Limbo|MPP|0|Limbo} has color-changing wings and insists passersby convince it that they're worthy of existing. If the couatl isn't convinced, it has a 50 percent chance of either attacking or wandering off."
+    "A {@creature couatl} influenced by {@area Limbo|038|x} has color-changing wings and insists passersby convince it that they're worthy of existing. If the couatl isn't convinced, it has a 50 percent chance of either attacking or wandering off."
    ]
   ],
   "name": "Outlands Celestials",
@@ -121297,7 +121297,7 @@
    ],
    [
     "2",
-    "A beautiful but vain {@creature flesh golem} influenced by {@book Arborea|MPP|0|Arborea} insists on following a character until the character sketches, sculpts, or otherwise artistically renders it."
+    "A beautiful but vain {@creature flesh golem} influenced by {@area Arborea|015|x} insists on following a character until the character sketches, sculpts, or otherwise artistically renders it."
    ],
    [
     "3",
@@ -121305,7 +121305,7 @@
    ],
    [
     "4",
-    "A {@creature clay golem} influenced by {@book the Beastlands|MPP|0|The Beastlands} has been transformed into the walking hive that's home to numerous {@creature Swarm of Wasps||swarms of insects (wasps)}."
+    "A {@creature clay golem} influenced by {@area the Beastlands|01d|x} has been transformed into the walking hive that's home to numerous {@creature Swarm of Wasps||swarms of insects (wasps)}."
    ]
   ],
   "name": "Outlands Constructs",
@@ -121333,7 +121333,7 @@
    ],
    [
     "2",
-    "A lawful good {@creature Faerie Dragon (Violet)||faerie dragon} with wings like stained glass has been influenced by {@book Mount Celestia|MPP|0|Mount Celestia}. It seeks the characters' aid in recovering a stolen {@item holy avenger}."
+    "A lawful good {@creature Faerie Dragon (Violet)||faerie dragon} with wings like stained glass has been influenced by {@area Mount Celestia|041|x}. It seeks the characters' aid in recovering a stolen {@item holy avenger}."
    ],
    [
     "3",
@@ -121341,7 +121341,7 @@
    ],
    [
     "4",
-    "A neutral evil {@creature adult silver dragon} with dull, gray scales has been influenced by {@book Hades|MPP|0|Hades}. It demands a toll from any who crosses its domain."
+    "A neutral evil {@creature adult silver dragon} with dull, gray scales has been influenced by {@area Hades|032|x}. It demands a toll from any who crosses its domain."
    ]
   ],
   "name": "Outlands Dragons",
@@ -121369,7 +121369,7 @@
    ],
    [
     "2",
-    "Some skull-headed {@creature Azer||azers} have been influenced by {@book the Nine Hells|MPP|0|The Nine Hells}. They escort a heavily armored caravan of rare ore to the gate-town of Ribcage."
+    "Some skull-headed {@creature Azer||azers} have been influenced by {@area the Nine Hells|045|x}. They escort a heavily armored caravan of rare ore to the gate-town of Ribcage."
    ],
    [
     "3",
@@ -121377,7 +121377,7 @@
    ],
    [
     "4",
-    "A wealthy {@creature dao} that glistens with gemstones has been influenced by {@book Arborea|MPP|0|Arborea}. It leads a parade of glimmering {@creature galeb duhr} between gate-towns as part of a shopping spree for precious rocks."
+    "A wealthy {@creature dao} that glistens with gemstones has been influenced by {@area Arborea|015|x}. It leads a parade of glimmering {@creature galeb duhr} between gate-towns as part of a shopping spree for precious rocks."
    ]
   ],
   "name": "Outlands Elementals",
@@ -121405,15 +121405,15 @@
    ],
    [
     "2",
-    "A kindly {@creature green hag} influenced by {@book Elysium|MPP|0|Elysium} invites passersby to join her for tea in her cottage made of sweets. She makes some of the best cookies in the Outlands."
+    "A kindly {@creature green hag} influenced by {@area Elysium|02a|x} invites passersby to join her for tea in her cottage made of sweets. She makes some of the best cookies in the Outlands."
    ],
    [
     "3",
-    "A pack of {@creature Blink Dog||blink dogs} tracks a band of {@creature Maelephant|MPP|maelephants} (presented {@book later|MPP|1|Maelephant} in this book) to prevent them from spoiling lands influenced by the Upper Planes."
+    "A pack of {@creature Blink Dog||blink dogs} tracks a band of {@creature Maelephant|MPP|maelephants} (presented {@area later|074|x} in this book) to prevent them from spoiling lands influenced by the Upper Planes."
    ],
    [
     "4",
-    "A gnarled {@creature dryad} influenced by {@book Carceri|MPP|0|Carceri} seeks to entrap creatures within the root-snarled, prison-like cavern beneath her grove."
+    "A gnarled {@creature dryad} influenced by {@area Carceri|026|x} seeks to entrap creatures within the root-snarled, prison-like cavern beneath her grove."
    ]
   ],
   "name": "Outlands Fey",
@@ -121437,7 +121437,7 @@
   "rows": [
    [
     "1",
-    "A {@creature nycaloth} seeks to capture several monochromatic {@creature Hell Hound||hell hounds} influenced by {@book Gehenna|MPP|0|Gehenna}. The yugoloth seeks to sell the hounds to Fiends participating in the Blood War."
+    "A {@creature nycaloth} seeks to capture several monochromatic {@creature Hell Hound||hell hounds} influenced by {@area Gehenna|02e|x}. The yugoloth seeks to sell the hounds to Fiends participating in the Blood War."
    ],
    [
     "2",
@@ -121477,7 +121477,7 @@
    ],
    [
     "2",
-    "An {@creature ettin} influenced by {@book the Beastlands|MPP|0|The Beastlands} has one head with bovine features and one head with lupine features. It desperately needs help finding something both heads are willing to eat."
+    "An {@creature ettin} influenced by {@area the Beastlands|01d|x} has one head with bovine features and one head with lupine features. It desperately needs help finding something both heads are willing to eat."
    ],
    [
     "3",
@@ -121513,7 +121513,7 @@
    ],
    [
     "2",
-    "Several gnome {@creature Mage||mages} seek help recovering their walking castle from a band of aggressive, spine-covered {@creature lizardfolk} influenced by {@book the Abyss|MPP|0|The Abyss}."
+    "Several gnome {@creature Mage||mages} seek help recovering their walking castle from a band of aggressive, spine-covered {@creature lizardfolk} influenced by {@area the Abyss|00b|x}."
    ],
    [
     "3",
@@ -121549,7 +121549,7 @@
    ],
    [
     "2",
-    "The characters have to retrieve a treasure from a group of mischievous {@creature Sprite||sprites}. The sprites are secretly defended by {@creature Mimic||mimics} influenced by {@book Elysium|MPP|0|Elysium} that take the form of tiny, whimsical cottages."
+    "The characters have to retrieve a treasure from a group of mischievous {@creature Sprite||sprites}. The sprites are secretly defended by {@creature Mimic||mimics} influenced by {@area Elysium|02a|x} that take the form of tiny, whimsical cottages."
    ],
    [
     "3",
@@ -121557,7 +121557,7 @@
    ],
    [
     "4",
-    "A {@creature drider} influenced by {@book Arborea|MPP|0|Arborea} runs a {@creature giant spider} ranch. She hires the characters to hunt a rare breed of {@creature sunfly|MPP} (detailed {@book later|MPP|1|Sunflies} in this book) that, when fed to her spiders, will allow them to produce a remarkable type of silk."
+    "A {@creature drider} influenced by {@area Arborea|015|x} runs a {@creature giant spider} ranch. She hires the characters to hunt a rare breed of {@creature sunfly|MPP} (detailed {@area later|07a|x} in this book) that, when fed to her spiders, will allow them to produce a remarkable type of silk."
    ]
   ],
   "name": "Outlands Monstrosities",
@@ -121585,11 +121585,11 @@
    ],
    [
     "2",
-    "Within a {@creature gelatinous cube} influenced by {@book Gehenna|MPP|0|Gehenna} floats a gigantic fiendish skull. Numerous Fiends revere the cube and interpret depraved schemes and threatening orders from its quivering. A Celestial seeks aid in destroying the cube."
+    "Within a {@creature gelatinous cube} influenced by {@area Gehenna|02e|x} floats a gigantic fiendish skull. Numerous Fiends revere the cube and interpret depraved schemes and threatening orders from its quivering. A Celestial seeks aid in destroying the cube."
    ],
    [
     "3",
-    "A bog in a region influenced by {@book Carceri|MPP|0|Carceri} is swamped with countless {@creature Black Pudding||black puddings}. The characters are hired to recover a lost relic from the bottom of the bog."
+    "A bog in a region influenced by {@area Carceri|026|x} is swamped with countless {@creature Black Pudding||black puddings}. The characters are hired to recover a lost relic from the bottom of the bog."
    ],
    [
     "4",
@@ -121629,7 +121629,7 @@
    ],
    [
     "4",
-    "A resident of the gate-town of {@book Ecstasy|SatO|3|Ecstasy} is missing. His garden of {@creature Twig Blight||twig blights}—influenced by {@book Elysium|MPP|0|Elysium} to resemble topiary sculptures—haven't been fed and now sow chaos in town."
+    "A resident of the gate-town of {@book Ecstasy|SatO|3|Ecstasy} is missing. His garden of {@creature Twig Blight||twig blights}—influenced by {@area Elysium|02a|x} to resemble topiary sculptures—haven't been fed and now sow chaos in town."
    ]
   ],
   "name": "Outlands Plants",
@@ -121657,7 +121657,7 @@
    ],
    [
     "2",
-    "A {@creature banshee} influenced by {@book Acheron|MPP|0|Acheron} appears as a fallen knight-commander with a legion of {@creature Specter||specters}. Guardians of the gate-town of Rigus hire the characters to help banish the phantom army."
+    "A {@creature banshee} influenced by {@area Acheron|010|x} appears as a fallen knight-commander with a legion of {@creature Specter||specters}. Guardians of the gate-town of Rigus hire the characters to help banish the phantom army."
    ],
    [
     "3",
@@ -121665,7 +121665,7 @@
    ],
    [
     "4",
-    "Several confused {@creature ghost} {@book petitioners|MPP|0|Petitioners} have become lost. They seek someone to pass judgment on their lives and deliver them to the proper planes."
+    "Several confused {@creature ghost} {@area petitioners|004|x} have become lost. They seek someone to pass judgment on their lives and deliver them to the proper planes."
    ]
   ],
   "name": "Outlands Undead",
@@ -123516,7 +123516,7 @@
    ]
   ],
   "footnotes": [
-   "* See {@book chapter 6|MOT|6} for details about these creatures in Theros."
+   "* See {@area chapter 6|37e|x} for details about these creatures in Theros."
   ],
   "name": "Pharika's Monsters",
   "page": 160,
@@ -125101,7 +125101,7 @@
    ],
    [
     "3",
-    "Armed with a forked spear, the vindictive Martari Mayhem (lawful evil, tiefling {@creature gladiator}) plans to storm {@book Blightsteel Keep|SatO|3|Blightsteel Keep}. At the {@book Razed Altar|SatO|3|Razed Altar}, she hires the characters to infiltrate the stronghold and report on its defenses."
+    "Armed with a forked spear, the vindictive Martari Mayhem (lawful evil, tiefling {@creature gladiator}) plans to storm {@area Blightsteel Keep|138|x}. At the {@area Razed Altar|13a|x}, she hires the characters to infiltrate the stronghold and report on its defenses."
    ],
    [
     "4",
@@ -125196,67 +125196,67 @@
   ],
   "rows": [
    [
-    "{@book The Abyss|MPP|0|The Abyss}",
+    "{@area The Abyss|00b|x}",
     "CE"
    ],
    [
-    "{@book Acheron|MPP|0|Acheron}",
+    "{@area Acheron|010|x}",
     "LN, LE"
    ],
    [
-    "{@book Arborea|MPP|0|Arborea}",
+    "{@area Arborea|015|x}",
     "CG"
    ],
    [
-    "{@book Arcadia|MPP|0|Arcadia}",
+    "{@area Arcadia|019|x}",
     "LN, LG"
    ],
    [
-    "{@book The Beastlands|MPP|0|The Beastlands}",
+    "{@area The Beastlands|01d|x}",
     "NG, CG"
    ],
    [
-    "{@book Bytopia|MPP|0|Bytopia}",
+    "{@area Bytopia|022|x}",
     "NG, LG"
    ],
    [
-    "{@book Carceri|MPP|0|Carceri}",
+    "{@area Carceri|026|x}",
     "NE, CE"
    ],
    [
-    "{@book Elysium|MPP|0|Elysium}",
+    "{@area Elysium|02a|x}",
     "NG"
    ],
    [
-    "{@book Gehenna|MPP|0|Gehenna}",
+    "{@area Gehenna|02e|x}",
     "NE, LE"
    ],
    [
-    "{@book Hades|MPP|0|Hades}",
+    "{@area Hades|032|x}",
     "NE"
    ],
    [
-    "{@book Limbo|MPP|0|Limbo}",
+    "{@area Limbo|038|x}",
     "CN"
    ],
    [
-    "{@book Mechanus|MPP|0|Mechanus}",
+    "{@area Mechanus|03d|x}",
     "LN"
    ],
    [
-    "{@book Mount Celestia|MPP|0|Mount Celestia}",
+    "{@area Mount Celestia|041|x}",
     "LG"
    ],
    [
-    "{@book The Nine Hells|MPP|0|The Nine Hells}",
+    "{@area The Nine Hells|045|x}",
     "LE"
    ],
    [
-    "{@book Pandemonium|MPP|0|Pandemonium}",
+    "{@area Pandemonium|049|x}",
     "CN, CE"
    ],
    [
-    "{@book Ysgard|MPP|0|Ysgard}",
+    "{@area Ysgard|04d|x}",
     "CN, CG"
    ]
   ],
@@ -125357,189 +125357,189 @@
    [
     "01–03",
     "Carved wooden arch",
-    "{@book Bottle and Jug|SatO|2|Bottle and Jug}",
+    "{@area Bottle and Jug|085|x}",
     "{@book Ysgard|DMG|2|Ysgard}",
     "Stein, war horn"
    ],
    [
     "04–06",
     "Revolving door",
-    "{@book Face of Gith|SatO|2|Face of Gith}",
+    "{@area Face of Gith|0b5|x}",
     "{@book Limbo|DMG|2|Limbo}",
     "Melting ice, red slaad egg"
    ],
    [
     "07–09",
     "Shattered window",
-    "{@book Nowhere|SatO|2|Nowhere}",
+    "{@area Nowhere|0d3|x}",
     "{@book Pandemonium|DMG|2|Pandemonium}",
     "Brick from an infirmary, tattered paper fan"
    ],
    [
     "10–12",
     "Sewer pipe",
-    "{@book Infinite Well|SatO|2|Infinite Well}",
+    "{@area Infinite Well|0a9|x}",
     "{@book The Abyss|DMG|2|The Abyss}",
     "Celestial blood, demon ichor"
    ],
    [
     "13–15",
     "Cell door",
-    "{@book Prison|SatO|2|Prison}",
+    "{@area Prison|0aa|x}",
     "{@book Carceri|DMG|2|Carceri}",
     "Broken key, length of chain"
    ],
    [
     "16–18",
     "Open grave",
-    "{@book Dead Nations|SatO|2|Dead Nations}",
+    "{@area Dead Nations|0d0|x}",
     "{@book Hades|DMG|2|Hades}",
     "Faceless mask, scrap of gray cloth"
    ],
    [
     "19–21",
     "Trapdoor",
-    "{@book Grease Pit|SatO|2|Grease Pit}",
+    "{@area Grease Pit|08b|x}",
     "{@book Gehenna|DMG|2|Gehenna}",
     "Bloody knife, lava rock"
    ],
    [
     "22–24",
     "Furnace door",
-    "{@book Bank of Abbathor|SatO|2|Bank of Abbathor Inc.}",
+    "{@area Bank of Abbathor|0c2|x}",
     "{@book The Nine Hells|DMG|2|The Nine Hells}",
     "Pinch of sulfur, signed contract"
    ],
    [
     "25–27",
     "Iron gate",
-    "{@book Armory|SatO|2|Armory}",
+    "{@area Armory|099|x}",
     "{@book Acheron|DMG|2|Acheron}",
     "Broken blade, medal"
    ],
    [
     "28–30",
     "Clock tower face",
-    "{@book High Courts|SatO|2|High Courts}",
+    "{@area High Courts|0a6|x}",
     "{@book Mechanus|DMG|2|Mechanus}",
     "Metal cog, perfectly balanced scales"
    ],
    [
     "31–33",
     "Razorvine trellis",
-    "{@book Great Foundry|SatO|2|Great Foundry}",
+    "{@area Great Foundry|0b6|x}",
     "{@book Arcadia|DMG|2|Arcadia}",
     "Rune-inscribed ingot, sprig of grapes"
    ],
    [
     "34–36",
     "Temple window",
-    "{@book Heart's Fire|SatO|2|Heart's Fire}",
+    "{@area Heart's Fire|0a5|x}",
     "{@book Mount Celestia|DMG|2|Mount Celestia}",
     "Angel feather, holy water"
    ],
    [
     "37–39",
     "Ornate mirror",
-    "{@book Hall of Speakers|SatO|2|Hall of Speakers}",
+    "{@area Hall of Speakers|07d|x}",
     "{@book Bytopia|DMG|2|Bytopia}",
     "Garden trowel, pair of twins"
    ],
    [
     "40–42",
     "Reflecting pool",
-    "{@book Gatehouse|SatO|2|Gatehouse}",
+    "{@area Gatehouse|088|x}",
     "{@book Elysium|DMG|2|Elysium}",
     "Tears of joy, white lily"
    ],
    [
     "43–45",
     "Stable gate",
-    "{@book Flame Pits|SatO|2|Flame Pits}",
+    "{@area Flame Pits|0c5|x}",
     "{@book The Beastlands|DMG|2|The Beastlands}",
     "Animal tooth, fresh wildflower"
    ],
    [
     "46–48",
     "Garden arch",
-    "{@book Civic Festhall|SatO|2|Civic Festhall}",
+    "{@area Civic Festhall|075|x}",
     "{@book Arborea|DMG|2|Arborea}",
     "Boisterous laughter, pinprick from a thorn"
    ],
    [
     "49–58",
     "Courtyard gate",
-    "{@book Fortune's Wheel|SatO|2|Fortune's Wheel}",
+    "{@area Fortune's Wheel|0a1|x}",
     "{@book The Outlands|DMG|2|The Outlands and Sigil}",
     "Stone from the Spire, spoked wheel"
    ],
    [
     "59–63",
     "Bedroom closet",
-    "{@book Planar Energy Cooperative|SatO|2|Planar Energy Cooperative}",
+    "{@area Planar Energy Cooperative|0cd|x}",
     "{@book Ethereal Plane|DMG|2|Ethereal Plane}",
     "Burial shroud, phase spider mandible"
    ],
    [
     "64–68",
     "Skylight",
-    "{@book Shattered Temple|SatO|2|Shattered Temple}",
+    "{@area Shattered Temple|0bb|x}",
     "{@book Astral Plane|DMG|2|Astral Plane}",
     "Scrap of githyanki armor, silver sphere"
    ],
    [
     "69–71",
     "Chimney",
-    "{@book Great Bazaar|SatO|2|Great Bazaar}",
+    "{@area Great Bazaar|0c7|x}",
     "{@book Elemental Plane of Air|DMG|2|Plane of Air}",
     "Incense smoke, silken scarf"
    ],
    [
     "72–74",
     "Cellar door",
-    "{@book Tower Sorcerous|SatO|2|Tower Sorcerous}",
+    "{@area Tower Sorcerous|081|x}",
     "{@book Elemental Plane of Earth|DMG|2|Plane of Earth}",
     "Granite cube, metal ore"
    ],
    [
     "75–77",
     "Blazing hearth",
-    "{@book Smoldering Corpse Bar|SatO|2|Smoldering Corpse Bar}",
+    "{@area Smoldering Corpse Bar|093|x}",
     "{@book Elemental Plane of Fire|DMG|2|Plane of Fire}",
     "Brass brazier, burning coal"
    ],
    [
     "78–80",
     "Crumbling well",
-    "{@book The Ditch|SatO|2|The Ditch}",
+    "{@area The Ditch|0b3|x}",
     "{@book Elemental Plane of Water|DMG|2|Plane of Water}",
     "Pearl, pure water"
    ],
    [
     "81–90",
     "Mausoleum entrance",
-    "{@book Mortuary|SatO|2|Mortuary}",
+    "{@area Mortuary|08d|x}",
     "{@book Shadowfell|DMG|2|Shadowfell}",
     "Grave dirt, mourner's veil"
    ],
    [
     "91–94",
     "Yew wardrobe",
-    "{@book Parted Veil|SatO|2|Parted Veil}",
+    "{@area Parted Veil|0b9|x}",
     "{@book Feywild|DMG|2|Feywild}",
     "Book of limericks, toadstool"
    ],
    [
     "95–98",
     "Human-shaped hole",
-    "{@book Gastrognome|SatO|2|Gastrognome}",
+    "{@area Gastrognome|0c6|x}",
     "{@book Far Realm|DMG|2|The Far Realm}",
     "Alien fossil, bezoar"
    ],
    [
     "99–00",
     "Inn room door",
-    "{@book Ubiquitous Wayfarer|SatO|2|Ubiquitous Wayfarer}",
+    "{@area Ubiquitous Wayfarer|0be|x}",
     "{@book Material Plane|DMG|2|Known Worlds of the Material Plane}",
     "Childhood toy, map scroll"
    ]
@@ -127078,7 +127078,7 @@
     "AZ-lin"
    ],
    [
-    "{@book Barovia|RHW|2|Barovia}",
+    "{@area Barovia|0d0|x}",
     "buh-ROVE-ee-ah"
    ],
    [
@@ -127086,7 +127086,7 @@
     "BLOOT-spoor"
    ],
    [
-    "{@book Borca|RHW|2|Borca}",
+    "{@area Borca|0f3|x}",
     "BOR-cah"
    ],
    [
@@ -127102,11 +127102,11 @@
     "SEER"
    ],
    [
-    "{@book Darkon|RHW|2|Darkon}",
+    "{@area Darkon|112|x}",
     "DAHR-kon"
    ],
    [
-    "{@book Dementlieu|RHW|2|Dementlieu}",
+    "{@area Dementlieu|135|x}",
     "DAY-mon-lee-oo"
    ],
    [
@@ -127118,7 +127118,7 @@
     "EZ de-AV-neer"
    ],
    [
-    "{@book Falkovnia|RHW|2|Falkovnia}",
+    "{@area Falkovnia|14d|x}",
     "fohl-KOHV-nee-uh"
    ],
    [
@@ -127134,7 +127134,7 @@
     "GAS-tree-uh"
    ],
    [
-    "{@book Har'Akir|RHW|2|Har'Akir}",
+    "{@area Har'Akir|168|x}",
     "hahr-ah-KEER"
    ],
    [
@@ -127142,7 +127142,7 @@
     "HAHR-kon LOO-kahs"
    ],
    [
-    "{@book Hazlan|RHW|2|Hazlan}",
+    "{@area Hazlan|182|x}",
     "HAZ-luhn"
    ],
    [
@@ -127154,7 +127154,7 @@
     "EE-cath"
    ],
    [
-    "{@book Innsmouth|RHW|2|Innsmouth}",
+    "{@area Innsmouth|19b|x}",
     "INS-muth"
    ],
    [
@@ -127170,7 +127170,7 @@
     "igh-VAHN-uh boor-ET-see"
    ],
    [
-    "{@book Kalakeri|RHW|2|Kalakeri}",
+    "{@area Kalakeri|1bf|x}",
     "KAH-lah-KIR-ee"
    ],
    [
@@ -127178,7 +127178,7 @@
     "KAH-lid-nay"
    ],
    [
-    "{@book Kartakass|RHW|2|Kartakass}",
+    "{@area Kartakass|1d7|x}",
     "KAHR-ta-kuss"
    ],
    [
@@ -127190,7 +127190,7 @@
     "KLOR"
    ],
    [
-    "{@book Lamordia|RHW|2|Lamordia}",
+    "{@area Lamordia|1f3|x}",
     "lah-MOR-dee-uh"
    ],
    [
@@ -127202,7 +127202,7 @@
     "mar-KOH-vee-uh"
    ],
    [
-    "{@book Mordent|RHW|2|Mordent}",
+    "{@area Mordent|20f|x}",
     "MOR-dent"
    ],
    [
@@ -127246,11 +127246,11 @@
     "SEE of SAHR-ohs"
    ],
    [
-    "{@book Shadowlands|RHW|2|Shadowlands}",
+    "{@area Shadowlands|22b|x}",
     "SHAD-oh-lands"
    ],
    [
-    "{@book Sithicus|RHW|2|Sithicus}",
+    "{@area Sithicus|24c|x}",
     "SITH-i-kus"
    ],
    [
@@ -127266,7 +127266,7 @@
     "STRAWD von zuh-ROH-vitch or ZAR-oh-vitch"
    ],
    [
-    "{@book Tepest|RHW|2|Tepest}",
+    "{@area Tepest|26a|x}",
     "TEH-pest"
    ],
    [
@@ -127274,7 +127274,7 @@
     "TOH-vahg"
    ],
    [
-    "{@book Valachan|RHW|2|Valachan}",
+    "{@area Valachan|281|x}",
     "VAHL-ah-kahn"
    ],
    [
@@ -127711,7 +127711,7 @@
    ]
   ],
   "footnotes": [
-   "* See {@book chapter 6|MOT|6|Classic Monsters} for details about these creatures in Theros."
+   "* See {@area chapter 6|382|x} for details about these creatures in Theros."
   ],
   "name": "Purphoros's Monsters",
   "page": 168,
@@ -129138,7 +129138,7 @@
    ],
    [
     "03–05",
-    "{@book Barovia|RHW|2}*",
+    "{@area Barovia|0cb|x}*",
     "Darklord",
     "Mists"
    ],
@@ -129150,7 +129150,7 @@
    ],
    [
     "09–10",
-    "{@book Borca|RHW|2}*",
+    "{@area Borca|0cb|x}*",
     "Beggar",
     "Tempter"
    ],
@@ -129168,19 +129168,19 @@
    ],
    [
     "16–18",
-    "{@book Darkon|RHW|2}*",
+    "{@area Darkon|0cb|x}*",
     "Necromancer",
     "Donjon"
    ],
    [
     "19–21",
-    "{@book Dementlieu|RHW|2}*",
+    "{@area Dementlieu|0cb|x}*",
     "Charlatan†",
     "Seer"
    ],
    [
     "22–23",
-    "{@book Falkovnia|RHW|2}*",
+    "{@area Falkovnia|0cb|x}*",
     "Dictator",
     "Executioner"
    ],
@@ -129204,13 +129204,13 @@
    ],
    [
     "31–33",
-    "{@book Har'Akir|RHW|2}*",
+    "{@area Har'Akir|0cb|x}*",
     "Monk",
     "Raven"
    ],
    [
     "34–35",
-    "{@book Hazlan|RHW|2}*",
+    "{@area Hazlan|0cb|x}*",
     "Diviner",
     "Ghost"
    ],
@@ -129222,7 +129222,7 @@
    ],
    [
     "39–40",
-    "{@book Innsmouth|RHW|2}*",
+    "{@area Innsmouth|0cb|x}*",
     "Bishop",
     "Donjon"
    ],
@@ -129234,7 +129234,7 @@
    ],
    [
     "43–45",
-    "{@book Kalakeri|RHW|2}*",
+    "{@area Kalakeri|0cb|x}*",
     "Avenger",
     "Artifact"
    ],
@@ -129246,7 +129246,7 @@
    ],
    [
     "48–49",
-    "{@book Kartakass|RHW|2}*",
+    "{@area Kartakass|0cb|x}*",
     "Swashbuckler",
     "Beast"
    ],
@@ -129264,7 +129264,7 @@
    ],
    [
     "55–56",
-    "{@book Lamordia|RHW|2}*",
+    "{@area Lamordia|0cb|x}*",
     "Transmuter",
     "Marionette"
    ],
@@ -129276,7 +129276,7 @@
    ],
    [
     "60–61",
-    "{@book Mordent|RHW|2}*",
+    "{@area Mordent|0cb|x}*",
     "Miser",
     "Horseman"
    ],
@@ -129336,13 +129336,13 @@
    ],
    [
     "81–83",
-    "{@book Shadowlands|RHW|2}*",
+    "{@area Shadowlands|0cb|x}*",
     "Torturer",
     "Broken One"
    ],
    [
     "84–85",
-    "{@book Sithicus|RHW|2}*",
+    "{@area Sithicus|0cb|x}*",
     "Paladin",
     "Innocent"
    ],
@@ -129360,7 +129360,7 @@
    ],
    [
     "91–92",
-    "{@book Tepest|RHW|2}*",
+    "{@area Tepest|0cb|x}*",
     "Druid",
     "Executioner"
    ],
@@ -129372,7 +129372,7 @@
    ],
    [
     "96–97",
-    "{@book Valachan|RHW|2}*",
+    "{@area Valachan|0cb|x}*",
     "Shepherd",
     "Darklord"
    ],
@@ -131986,79 +131986,79 @@
   "rows": [
    [
     "2",
-    "{@book Animals on the loose|DMG|5|Animals on the loose}"
+    "{@area Animals on the loose|1ec|x}"
    ],
    [
     "3",
-    "{@book Announcement|DMG|5|Announcement}"
+    "{@area Announcement|1ed|x}"
    ],
    [
     "4",
-    "{@book Brawl|DMG|5|Brawl}"
+    "{@area Brawl|1ee|x}"
    ],
    [
     "5",
-    "{@book Bullies|DMG|5|Bullies}"
+    "{@area Bullies|1ef|x}"
    ],
    [
     "6",
-    "{@book Companion|DMG|5|Companion}"
+    "{@area Companion|1f0|x}"
    ],
    [
     "7",
-    "{@book Contest|DMG|5|Contest}"
+    "{@area Contest|1f1|x}"
    ],
    [
     "8",
-    "{@book Corpse|DMG|5|Corpse}"
+    "{@area Corpse|1f2|x}"
    ],
    [
     "9",
-    "{@book Draft|DMG|5|Draft}"
+    "{@area Draft|1f3|x}"
    ],
    [
     "10",
-    "{@book Drunk|DMG|5|Drunk}"
+    "{@area Drunk|1f4|x}"
    ],
    [
     "11",
-    "{@book Fire|DMG|5|Fire}"
+    "{@area Fire|1f5|x}"
    ],
    [
     "12",
-    "{@book Found trinket|DMG|5|Found trinket}"
+    "{@area Found trinket|1f6|x}"
    ],
    [
     "13",
-    "{@book Guard harassment|DMG|5|Guard harassment}"
+    "{@area Guard harassment|1f7|x}"
    ],
    [
     "14",
-    "{@book Pickpocket|DMG|5|Pickpocket}"
+    "{@area Pickpocket|1f8|x}"
    ],
    [
     "15",
-    "{@book Procession|DMG|5|Procession}"
+    "{@area Procession|1f9|x}"
    ],
    [
     "16",
-    "{@book Protest|DMG|5|Protest}"
+    "{@area Protest|1fa|x}"
    ],
    [
     "17",
-    "{@book Runaway cart|DMG|5|Runaway cart}"
+    "{@area Runaway cart|1fb|x}"
    ],
    [
     "18",
-    "{@book Shady transaction|DMG|5|Shady transaction}"
+    "{@area Shady transaction|1fc|x}"
    ],
    [
     "19",
-    "{@book Spectacle|DMG|5|Spectacle}"
+    "{@area Spectacle|1fd|x}"
    ],
    [
     "20",
-    "{@book Urchin|DMG|5|Urchin}"
+    "{@area Urchin|1fe|x}"
    ]
   ],
   "name": "Random Urban Encounters",
@@ -134377,303 +134377,303 @@
   "rows": [
    [
     "{@feat Ability Score Improvement|XPHB}*",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Actor|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Alert|XPHB}",
-    "{@book Origin|XPHB|5|Origin Feats}"
+    "{@area Origin|4fe|x}"
    ],
    [
     "{@feat Archery|XPHB}",
-    "{@book Fighting Style|XPHB|5|Fighting Style Feats}"
+    "{@area Fighting Style|5fa|x}"
    ],
    [
     "{@feat Athlete|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Blind Fighting|XPHB}",
-    "{@book Fighting Style|XPHB|5|Fighting Style Feats}"
+    "{@area Fighting Style|5fa|x}"
    ],
    [
     "{@feat Boon of Combat Prowess|XPHB}",
-    "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+    "{@area Epic Boon|605|x}"
    ],
    [
     "{@feat Boon of Dimensional Travel|XPHB}",
-    "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+    "{@area Epic Boon|605|x}"
    ],
    [
     "{@feat Boon of Energy Resistance|XPHB}",
-    "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+    "{@area Epic Boon|605|x}"
    ],
    [
     "{@feat Boon of Fate|XPHB}",
-    "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+    "{@area Epic Boon|605|x}"
    ],
    [
     "{@feat Boon of Fortitude|XPHB}",
-    "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+    "{@area Epic Boon|605|x}"
    ],
    [
     "{@feat Boon of Irresistible Offense|XPHB}",
-    "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+    "{@area Epic Boon|605|x}"
    ],
    [
     "{@feat Boon of Recovery|XPHB}",
-    "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+    "{@area Epic Boon|605|x}"
    ],
    [
     "{@feat Boon of Skill|XPHB}",
-    "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+    "{@area Epic Boon|605|x}"
    ],
    [
     "{@feat Boon of Speed|XPHB}",
-    "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+    "{@area Epic Boon|605|x}"
    ],
    [
     "{@feat Boon of Spell Recall|XPHB}",
-    "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+    "{@area Epic Boon|605|x}"
    ],
    [
     "{@feat Boon of the Night Spirit|XPHB}",
-    "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+    "{@area Epic Boon|605|x}"
    ],
    [
     "{@feat Boon of Truesight|XPHB}",
-    "{@book Epic Boon|XPHB|5|Epic Boon Feats}"
+    "{@area Epic Boon|605|x}"
    ],
    [
     "{@feat Charger|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Chef|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Crafter|XPHB}",
-    "{@book Origin|XPHB|5|Origin Feats}"
+    "{@area Origin|4fe|x}"
    ],
    [
     "{@feat Crossbow Expert|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Crusher|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Defense|XPHB}",
-    "{@book Fighting Style|XPHB|5|Fighting Style Feats}"
+    "{@area Fighting Style|5fa|x}"
    ],
    [
     "{@feat Defensive Duelist|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Dual Wielder|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Dueling|XPHB}",
-    "{@book Fighting Style|XPHB|5|Fighting Style Feats}"
+    "{@area Fighting Style|5fa|x}"
    ],
    [
     "{@feat Durable|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Elemental Adept|XPHB}*",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Fey-Touched|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Grappler|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Great Weapon Fighting|XPHB}",
-    "{@book Fighting Style|XPHB|5|Fighting Style Feats}"
+    "{@area Fighting Style|5fa|x}"
    ],
    [
     "{@feat Great Weapon Master|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Healer|XPHB}",
-    "{@book Origin|XPHB|5|Origin Feats}"
+    "{@area Origin|4fe|x}"
    ],
    [
     "{@feat Heavily Armored|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Heavy Armor Master|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Inspiring Leader|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Interception|XPHB}",
-    "{@book Fighting Style|XPHB|5|Fighting Style Feats}"
+    "{@area Fighting Style|5fa|x}"
    ],
    [
     "{@feat Keen Mind|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Lightly Armored|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Lucky|XPHB}",
-    "{@book Origin|XPHB|5|Origin Feats}"
+    "{@area Origin|4fe|x}"
    ],
    [
     "{@feat Mage Slayer|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Magic Initiate|XPHB}*",
-    "{@book Origin|XPHB|5|Origin Feats}"
+    "{@area Origin|4fe|x}"
    ],
    [
     "{@feat Martial Weapon Training|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Medium Armor Master|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Moderately Armored|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Mounted Combatant|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Musician|XPHB}",
-    "{@book Origin|XPHB|5|Origin Feats}"
+    "{@area Origin|4fe|x}"
    ],
    [
     "{@feat Observant|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Piercer|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Poisoner|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Polearm Master|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Protection|XPHB}",
-    "{@book Fighting Style|XPHB|5|Fighting Style Feats}"
+    "{@area Fighting Style|5fa|x}"
    ],
    [
     "{@feat Resilient|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Ritual Caster|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Savage Attacker|XPHB}",
-    "{@book Origin|XPHB|5|Origin Feats}"
+    "{@area Origin|4fe|x}"
    ],
    [
     "{@feat Sentinel|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Shadow-Touched|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Sharpshooter|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Shield Master|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Skilled|XPHB}*",
-    "{@book Origin|XPHB|5|Origin Feats}"
+    "{@area Origin|4fe|x}"
    ],
    [
     "{@feat Skill Expert|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Skulker|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Slasher|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Speedy|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Spell Sniper|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Tavern Brawler|XPHB}",
-    "{@book Origin|XPHB|5|Origin Feats}"
+    "{@area Origin|4fe|x}"
    ],
    [
     "{@feat Telekinetic|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Telepathic|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Thrown Weapon Fighting|XPHB}",
-    "{@book Fighting Style|XPHB|5|Fighting Style Feats}"
+    "{@area Fighting Style|5fa|x}"
    ],
    [
     "{@feat Tough|XPHB}",
-    "{@book Origin|XPHB|5|Origin Feats}"
+    "{@area Origin|4fe|x}"
    ],
    [
     "{@feat Two-Weapon Fighting|XPHB}",
-    "{@book Fighting Style|XPHB|5|Fighting Style Feats}"
+    "{@area Fighting Style|5fa|x}"
    ],
    [
     "{@feat Unarmed Fighting|XPHB}",
-    "{@book Fighting Style|XPHB|5|Fighting Style Feats}"
+    "{@area Fighting Style|5fa|x}"
    ],
    [
     "{@feat War Caster|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ],
    [
     "{@feat Weapon Master|XPHB}",
-    "{@book General|XPHB|5|General Feats}"
+    "{@area General|526|x}"
    ]
   ],
   "footnotes": [
@@ -135142,7 +135142,7 @@
    ],
    [
     "2",
-    "Commanded by a fallen angel (lawful evil {@creature planetar}) who runs a rival tavern, a gaggle of {@creature Imp||imps} begins vandalizing the {@book Bleeding Horn|SatO|3|Bleeding Horn}. The {@creature ice devil} Sparax pays characters to deal with the situation."
+    "Commanded by a fallen angel (lawful evil {@creature planetar}) who runs a rival tavern, a gaggle of {@creature Imp||imps} begins vandalizing the {@area Bleeding Horn|140|x}. The {@creature ice devil} Sparax pays characters to deal with the situation."
    ],
    [
     "3",
@@ -135190,7 +135190,7 @@
    ],
    [
     "4",
-    "A constable requests the characters' aid in solving murders in which the victims have been drained of blood. The murderer is a {@creature strigoi|VRGR} (see {@book chapter 5|VRGR|5}) that haunts a sunken chapel in the swamp known as the Gardens."
+    "A constable requests the characters' aid in solving murders in which the victims have been drained of blood. The murderer is a {@creature strigoi|VRGR} (see {@area chapter 5|57c|x}) that haunts a sunken chapel in the swamp known as the Gardens."
    ],
    [
     "5",
@@ -135226,19 +135226,19 @@
   "rows": [
    [
     "1",
-    "The {@creature arcanaloth} Fetchtatter pays the characters to steal an infernal war machine from {@book Ribcage|SatO|3|Ribcage} so it can be sold to a general in Rigus."
+    "The {@creature arcanaloth} Fetchtatter pays the characters to steal an infernal war machine from {@area Ribcage|13c|x} so it can be sold to a general in Rigus."
    ],
    [
     "2",
-    "The avatar of an evil deity of war (use the {@creature planar incarnate|MPP} stat block from {@book Morte's Planar Parade|MPP}) emerges from the {@book Lion's Gate|SatO|3|Gate} to destroy Rigus."
+    "The avatar of an evil deity of war (use the {@creature planar incarnate|MPP} stat block from {@book Morte's Planar Parade|MPP}) emerges from the {@area Lion's Gate|0e4|x} to destroy Rigus."
    ],
    [
     "3",
-    "A {@creature mummy lord} in the {@book Crown|SatO|3|Crown} commands General Braahg to implement an outdated strategy. Risking treason, the hobgoblin hires the characters to lay his superior to rest."
+    "A {@creature mummy lord} in the {@area Crown|149|x} commands General Braahg to implement an outdated strategy. Risking treason, the hobgoblin hires the characters to lay his superior to rest."
    ],
    [
     "4",
-    "The {@creature ghost} of a fallen warrior asks the party to investigate why their name isn't on the {@book Final Procession|SatO|3|Final Procession}. The culprit is a petty Crown General who took credit for the warrior's heroism."
+    "The {@creature ghost} of a fallen warrior asks the party to investigate why their name isn't on the {@area Final Procession|14a|x}. The culprit is a petty Crown General who took credit for the warrior's heroism."
    ]
   ],
   "name": "Rigus Adventures",
@@ -143896,7 +143896,7 @@
    ],
    [
     "2",
-    "A barrister begs the characters to serve as witnesses during a trial in the {@book High Courts|SatO|2|High Courts}, but the characters have no memory of witnessing a crime."
+    "A barrister begs the characters to serve as witnesses during a trial in the {@area High Courts|0a6|x}, but the characters have no memory of witnessing a crime."
    ],
    [
     "3",
@@ -143960,11 +143960,11 @@
    ],
    [
     "2",
-    "Waves of arcane blackouts sweep across Sigil. During these events, magic items have their effects suppressed, spells behave unpredictably, and portals cease to function. The {@book Incanterium|SatO|2|Incanterium} is to blame."
+    "Waves of arcane blackouts sweep across Sigil. During these events, magic items have their effects suppressed, spells behave unpredictably, and portals cease to function. The {@area Incanterium|06f|x} is to blame."
    ],
    [
     "3",
-    "Without warning, the Lady of Pain sends two-thirds of Sigil's population to {@book the Mazes|SatO|2|The Mazes}. It's up to the characters to figure out why."
+    "Without warning, the Lady of Pain sends two-thirds of Sigil's population to {@area the Mazes|044|x}. It's up to the characters to figure out why."
    ],
    [
     "4",
@@ -143972,11 +143972,11 @@
    ],
    [
     "5",
-    "A portal to the front lines of the Blood War opens in the {@book Lower Ward|SatO|2|Lower Ward}, bringing the conflict to the city."
+    "A portal to the front lines of the Blood War opens in the {@area Lower Ward|0af|x}, bringing the conflict to the city."
    ],
    [
     "6",
-    "Dozens of dead factions unite in {@book Undersigil|SatO|2|Undersigil}. They mount an uprising on the surface and attempt to oust several factions."
+    "Dozens of dead factions unite in {@area Undersigil|0ce|x}. They mount an uprising on the surface and attempt to oust several factions."
    ],
    [
     "7",
@@ -144060,28 +144060,28 @@
   ],
   "rows": [
    [
-    "{@book Clerks' Ward|SatO|2|Clerks' Ward}",
-    "{@book Fated|SatO|2|Fated}, {@book Incanterium|SatO|2|Incanterium},* {@book Society of Sensation|SatO|2|Society of Sensation}"
+    "{@area Clerks' Ward|072|x}",
+    "{@area Fated|052|x}, {@area Incanterium|06f|x},* {@area Society of Sensation|067|x}"
    ],
    [
-    "{@book Hive Ward|SatO|2|Hive Ward}",
-    "{@book Bleak Cabal|SatO|2|Bleak Cabal}, {@book Hands of Havoc|SatO|2|Hands of Havoc}, {@book Heralds of Dust|SatO|2|Heralds of Dust}"
+    "{@area Hive Ward|082|x}",
+    "{@area Bleak Cabal|04c|x}, {@area Hands of Havoc|058|x}, {@area Heralds of Dust|05e|x}"
    ],
    [
-    "{@book Lady's Ward|SatO|2|Lady's Ward}",
-    "{@book Doomguard|SatO|2|Doomguard}, {@book Fraternity of Order|SatO|2|Fraternity of Order}, {@book Harmonium|SatO|2|Harmonium}, {@book Mercykillers|SatO|2|Mercykillers}"
+    "{@area Lady's Ward|096|x}",
+    "{@area Doomguard|04f|x}, {@area Fraternity of Order|055|x}, {@area Harmonium|05b|x}, {@area Mercykillers|061|x}"
    ],
    [
-    "{@book Lower Ward|SatO|2|Lower Ward}",
-    "{@book Athar|SatO|2|Athar}, {@book Ring Givers|SatO|2|Ring Givers},* {@book Mind's Eye|SatO|2|Mind's Eye}"
+    "{@area Lower Ward|0af|x}",
+    "{@area Athar|049|x}, {@area Ring Givers|070|x},* {@area Mind's Eye|064|x}"
    ],
    [
-    "{@book Market Ward|SatO|2|Market Ward}",
-    "{@book Free League|SatO|2|Free League},* {@book Transcendent Order|SatO|2|Transcendent Order}"
+    "{@area Market Ward|0bf|x}",
+    "{@area Free League|06e|x},* {@area Transcendent Order|06a|x}"
    ],
    [
-    "{@book Undersigil|SatO|2|Undersigil}",
-    "Coterie of Cakes,* Revolutionary League,* Undivided* (see the \"{@book Undersigil|SatO|2|Undersigil}\" section later in this chapter for these factions)"
+    "{@area Undersigil|0ce|x}",
+    "Coterie of Cakes,* Revolutionary League,* Undivided* (see the \"{@area Undersigil|0ce|x}\" section later in this chapter for these factions)"
    ]
   ],
   "name": "Sigil Gazetteer; Sigil Wards",
@@ -145916,7 +145916,7 @@
    ],
    [
     "4",
-    "Stay Ahead of the Grim Harrow. Riders of the Grim Harrow (see {@book chapter 19|BMT|18}) are terrorizing a village as they search for a {@item Deck of Many Things}. Figure out where they're going, and get there before they do!"
+    "Stay Ahead of the Grim Harrow. Riders of the Grim Harrow (see {@area chapter 19|2d8|x}) are terrorizing a village as they search for a {@item Deck of Many Things}. Figure out where they're going, and get there before they do!"
    ],
    [
     "5",
@@ -145924,7 +145924,7 @@
    ],
    [
     "6",
-    "Prevent Misuse. A {@creature Hierophant of the Comet|BMT|hierophant} of the Heralds of the Comet (see {@book chapter 12|BMT|11|Hierophant of the Comet}) has acquired a few cards from the original {@item Deck of Many Things}. Ensure the complete artifact doesn't fall into her hands."
+    "Prevent Misuse. A {@creature Hierophant of the Comet|BMT|hierophant} of the Heralds of the Comet (see {@area chapter 12|198|x}) has acquired a few cards from the original {@item Deck of Many Things}. Ensure the complete artifact doesn't fall into her hands."
    ],
    [
     "7",
@@ -151288,7 +151288,7 @@
    ],
    [
     "5",
-    "{@creature Eldritch Eddy|NF} ({@book see appendix B|NF|6})",
+    "{@creature Eldritch Eddy|NF} ({@area see appendix B|0ae|x})",
     "This dangerous magical storm originated in Eileanar and now rampages on Fool's Needle.",
     "High"
    ],
@@ -151407,7 +151407,7 @@
    ],
    [
     "4",
-    "A corrupt {@creature oracle|MOT} (see {@book chapter 6|MOT|6|Oracle}) of Heliod sells counterfeit heroic artifacts to those he can't see as being destined for greatness."
+    "A corrupt {@creature oracle|MOT} (see {@area chapter 6|03c|x}) of Heliod sells counterfeit heroic artifacts to those he can't see as being destined for greatness."
    ],
    [
     "5",
@@ -152817,7 +152817,7 @@
   "rows": [
    [
     "1",
-    "A {@creature vampire} bachelorette invites the characters to a costumed ball at the {@book Yearning Timbers|SatO|3|Yearning Timbers}, hoping to enlist their help in choosing her next partner."
+    "A {@creature vampire} bachelorette invites the characters to a costumed ball at the {@area Yearning Timbers|152|x}, hoping to enlist their help in choosing her next partner."
    ],
    [
     "2",
@@ -154968,7 +154968,7 @@
    ]
   ],
   "footnotes": [
-   "* See {@book chapter 6|MOT|6} for details about these creatures in Theros."
+   "* See {@area chapter 6|37e|x} for details about these creatures in Theros."
   ],
   "name": "Thassa's Monsters",
   "page": 172,
@@ -155043,7 +155043,7 @@
   "rows": [
    [
     "1",
-    "A {@creature triton master of waves|MOT} (see {@book chapter 6|MOT|6|Triton}) demands ever greater sacrifices to Thassa from merchants moving along a crucial trade route, threatening to sink ships that don't comply."
+    "A {@creature triton master of waves|MOT} (see {@area chapter 6|040|x}) demands ever greater sacrifices to Thassa from merchants moving along a crucial trade route, threatening to sink ships that don't comply."
    ],
    [
     "2",
@@ -155059,7 +155059,7 @@
    ],
    [
     "5",
-    "Sirens (see the harpies entry in {@book chapter 6|MOT|6|Harpies}) favored by Thassa take up residence in a lighthouse, preventing its use."
+    "Sirens (see the harpies entry in {@area chapter 6|031|x}) favored by Thassa take up residence in a lighthouse, preventing its use."
    ],
    [
     "6",
@@ -156780,7 +156780,7 @@
    ],
    [
     "6",
-    "After the characters die, Pharaoh Ankhtepot resurrects them (perhaps as reborn; see {@book chapter 1|VRGR|1|Reborn}). Their continued existence is contingent on searching for and finding his ka."
+    "After the characters die, Pharaoh Ankhtepot resurrects them (perhaps as reborn; see {@area chapter 1|053|x}). Their continued existence is contingent on searching for and finding his ka."
    ]
   ],
   "name": "The Hunters' Role; Hunt for the Ka",
@@ -160220,7 +160220,7 @@
    ],
    [
     "3",
-    "The {@book Bank of Abbathor|SatO|3|Bank of Abbathor} hires the characters as security. The very same day, two {@creature Maelephant|MPP|maelephants} (see {@book Morte's Planar Parade|MPP}) attempt to rob the bank."
+    "The {@area Bank of Abbathor|159|x} hires the characters as security. The very same day, two {@creature Maelephant|MPP|maelephants} (see {@book Morte's Planar Parade|MPP}) attempt to rob the bank."
    ],
    [
     "4",
@@ -160721,7 +160721,7 @@
   "rows": [
    [
     "1",
-    "While the characters are shopping, several hostile {@creature xorn} attack the {@book Trademill Mint|SatO|3|Trademill Mint}."
+    "While the characters are shopping, several hostile {@creature xorn} attack the {@area Trademill Mint|163|x}."
    ],
    [
     "2",
@@ -160729,11 +160729,11 @@
    ],
    [
     "3",
-    "Melvin Manyroads (chaotic good, gnome {@creature mage}) asks the characters to help map one of the many sites in the Outlands (see the \"{@book Other Realms|SatO|3|Other Realms}\" section later in this chapter)."
+    "Melvin Manyroads (chaotic good, gnome {@creature mage}) asks the characters to help map one of the many sites in the Outlands (see the \"{@area Other Realms|16d|x}\" section later in this chapter)."
    ],
    [
     "4",
-    "A local beekeeper wants to sell a special planar honey in the {@book Everything Emporium|SatO|3|Everything Emporium}. To help her get started, the beekeeper asks the characters to capture {@dice 1d10} live {@creature Sunfly|MPP|sunflies} (see {@book Morte's Planar Parade|MPP})."
+    "A local beekeeper wants to sell a special planar honey in the {@area Everything Emporium|161|x}. To help her get started, the beekeeper asks the characters to capture {@dice 1d10} live {@creature Sunfly|MPP|sunflies} (see {@book Morte's Planar Parade|MPP})."
    ]
   ],
   "name": "Tradegate Adventures",
@@ -161357,7 +161357,7 @@
    ],
    [
     "4",
-    "Curious members of the Keepers of the Feather led by a {@creature wereraven|VRGR} (see {@book chapter 5|VRGR|5}) in disguise"
+    "Curious members of the Keepers of the Feather led by a {@creature wereraven|VRGR} (see {@area chapter 5|57c|x}) in disguise"
    ],
    [
     "5",
@@ -161489,19 +161489,19 @@
   ],
   "rows": [
    [
-    "{@book Arcana|XDMG|6|Arcana Tables}",
+    "{@area Arcana|704|x}",
     "Gemstones plus magic items of an eldritch or esoteric nature"
    ],
    [
-    "{@book Armaments|XDMG|6|Armaments Tables}",
+    "{@area Armaments|705|x}",
     "Coins or trade bars plus magic items that are useful in battle"
    ],
    [
-    "{@book Implements|XDMG|6|Implements Tables}",
+    "{@area Implements|706|x}",
     "Coins, trade bars, or trade goods plus magic items that focus on utility"
    ],
    [
-    "{@book Relics|XDMG|6|Relics Tables}",
+    "{@area Relics|707|x}",
     "Art objects plus magic items that have religious origins or purposes"
    ]
   ],
@@ -161703,7 +161703,7 @@
    ]
   ],
   "footnotes": [
-   "*Detailed in {@book chapter 5|RHW|5}"
+   "*Detailed in {@area chapter 5|38c|x}"
   ],
   "name": "Trial Encounters; Jungle Events",
   "page": 180,
@@ -161824,7 +161824,7 @@
   "rows": [
    [
     "1",
-    "Capture and document the elemental hulks (see {@book chapter 6|BGG|6}) or other creatures that inhabit a remote valley, island, or cavern."
+    "Capture and document the elemental hulks (see {@area chapter 6|1aa|x}) or other creatures that inhabit a remote valley, island, or cavern."
    ],
    [
     "2",
@@ -163877,7 +163877,7 @@
    ],
    [
     "4",
-    "Calm a kraken attempting to break out of its sea lock (see {@book chapter 6|MOT|6|Kraken})."
+    "Calm a kraken attempting to break out of its sea lock (see {@area chapter 6|38a|x})."
    ],
    [
     "5",
@@ -164280,7 +164280,7 @@
    ],
    [
     "8",
-    "Discover a secret from an infamous member of your family who became a {@creature typhon|MOT} (see {@book chapter 6|MOT|6|Typhon})."
+    "Discover a secret from an infamous member of your family who became a {@creature typhon|MOT} (see {@area chapter 6|041|x})."
    ],
    [
     "9",
@@ -164312,7 +164312,7 @@
    ],
    [
     "16",
-    "Discover from a {@creature woe strider|MOT} (see {@book chapter 6|MOT|6|Woe Strider}) how to escape the bonds of destiny."
+    "Discover from a {@creature woe strider|MOT} (see {@area chapter 6|042|x}) how to escape the bonds of destiny."
    ],
    [
     "17",
@@ -165862,7 +165862,7 @@
     "Larger-than-life heroes and villains struggle to determine the fate of the world as they explore the ruins and dungeons of fallen kingdoms and long-forgotten empires."
    ],
    [
-    "{@book Greyhawk|XDMG|4|Greyhawk}",
+    "{@area Greyhawk|2e3|x}",
     "As tensions rise among warring nations, heroes plunder dungeons to gain the magic and might they need to defeat the growing forces of evil."
    ],
    [
@@ -166475,11 +166475,11 @@
    ],
    [
     "4",
-    "{@creature Chuul||Chuuls}, {@creature Vine Blight||vine blights}, or {@creature Zombie Plague Spreader|VRGR|zombie plague spreaders} (see {@book chapter 5|VRGR|5}) ambush the party."
+    "{@creature Chuul||Chuuls}, {@creature Vine Blight||vine blights}, or {@creature Zombie Plague Spreader|VRGR|zombie plague spreaders} (see {@area chapter 5|57c|x}) ambush the party."
    ],
    [
     "5",
-    "The characters find a tree bound in rope. One or more withered, oversized hearts hang from cords attached to its branches. Roll a die. If you roll an even number, the hearts look grim but are harmless. If you roll an odd number, the {@dice 1d6} hearts have the statistics of gnashing {@creature Death's Head|VRGR|death's heads} (see {@book chapter 5|VRGR|5}) and attack."
+    "The characters find a tree bound in rope. One or more withered, oversized hearts hang from cords attached to its branches. Roll a die. If you roll an even number, the hearts look grim but are harmless. If you roll an odd number, the {@dice 1d6} hearts have the statistics of gnashing {@creature Death's Head|VRGR|death's heads} (see {@area chapter 5|57c|x}) and attack."
    ],
    [
     "6",
@@ -168634,7 +168634,7 @@
    ],
    [
     "4",
-    "A unit of defeated and desperate {@b hoplites} (see {@book chapter 6|MOT|6|Hoplites}) raid the temple, steal magical weapons, and prepare to avenge their fallen companions."
+    "A unit of defeated and desperate {@b hoplites} (see {@area chapter 6|033|x}) raid the temple, steal magical weapons, and prepare to avenge their fallen companions."
    ],
    [
     "5",
@@ -168990,7 +168990,7 @@
    ],
    [
     "86–95",
-    "Other creatures appear within the Mists. Roll any die. If you roll an even number, a lost and terrified {@creature commoner} appears. If you roll an odd number, {@dice 2d6} {@creature Skeleton||skeletons} or 1 {@creature unspeakable horror|VRGR} (see {@book chapter 5|VRGR|5}) appears. After the encounter, another {@dice 1d6} hours pass, then roll on this table again."
+    "Other creatures appear within the Mists. Roll any die. If you roll an even number, a lost and terrified {@creature commoner} appears. If you roll an odd number, {@dice 2d6} {@creature Skeleton||skeletons} or 1 {@creature unspeakable horror|VRGR} (see {@area chapter 5|57c|x}) appears. After the encounter, another {@dice 1d6} hours pass, then roll on this table again."
    ],
    [
     "96–99",
@@ -169078,7 +169078,7 @@
    ],
    [
     "2",
-    "Locate a {@item docent|ERLW} (see {@book chapter 5|ERLW|12}) carried by a warforged wizard who has joined up with {@creature the Lord of Blades|ERLW}."
+    "Locate a {@item docent|ERLW} (see {@area chapter 5|4d3|x}) carried by a warforged wizard who has joined up with {@creature the Lord of Blades|ERLW}."
    ],
    [
     "3",
@@ -169493,7 +169493,7 @@
    ],
    [
     "3",
-    "{@creature Siren|TftYP|Sirens} (see the harpies entry in {@book chapter 6|MOT|6|Harpies}) call soldiers to the top of the watchtower, then entice them over the edge so they can feast on the corpses."
+    "{@creature Siren|TftYP|Sirens} (see the harpies entry in {@area chapter 6|031|x}) call soldiers to the top of the watchtower, then entice them over the edge so they can feast on the corpses."
    ],
    [
     "4",
@@ -169509,7 +169509,7 @@
    ],
    [
     "7",
-    "{@creature Blood-Toll Harpy|MOT|Blood-toll harpies} (see {@book chapter 6|MOT|6|Harpies}) take over a watchtower and light its beacon to bring more victims to the place."
+    "{@creature Blood-Toll Harpy|MOT|Blood-toll harpies} (see {@area chapter 6|031|x}) take over a watchtower and light its beacon to bring more victims to the place."
    ],
    [
     "8",
@@ -171300,7 +171300,7 @@
    ],
    [
     "2",
-    "Most children in town are hexbloods (see {@book chapter 1|VRGR|1|Hexblood}). Evasive locals refuse to say why."
+    "Most children in town are hexbloods (see {@area chapter 1|041|x}). Evasive locals refuse to say why."
    ],
    [
     "3",
@@ -172332,11 +172332,11 @@
    ],
    [
     "2",
-    "{@book Ez d'Avenir|VRGR|3|Ez d'Avenir},* vampire slayer and protégé of Rudolph van Richten"
+    "{@area Ez d'Avenir|417|x},* vampire slayer and protégé of Rudolph van Richten"
    ],
    [
     "3",
-    "Vasilka, a {@creature flesh golem} or reborn (see {@book chapter 1|VRGR|1|Reborn}) who lives in the abbey near the village of Krezk"
+    "Vasilka, a {@creature flesh golem} or reborn (see {@area chapter 1|053|x}) who lives in the abbey near the village of Krezk"
    ],
    [
     "4",
@@ -172836,7 +172836,7 @@
    ],
    [
     "2",
-    "You've got a gambling problem. If you can't repay Daask (see {@book chapter 3|ERLW|8|Daask}), you're going to be playing tag with a cockatrice."
+    "You've got a gambling problem. If you can't repay Daask (see {@area chapter 3|378|x}), you're going to be playing tag with a cockatrice."
    ],
    [
     "3",
@@ -172844,7 +172844,7 @@
    ],
    [
     "4",
-    "You were making a delivery on behalf of the Boromar Clan (see {@book chapter 3|ERLW|8|The Boromar Clan}) and you lost the merchandise."
+    "You were making a delivery on behalf of the Boromar Clan (see {@area chapter 3|377|x}) and you lost the merchandise."
    ],
    [
     "5",
@@ -173586,7 +173586,7 @@
    ],
    [
     "5",
-    "Your path takes you near a patch of {@hazard razorvine|XDMG} (see \"{@book Hazards|XDMG|2|Hazards}\" in this chapter). Make a {@dc 15} Dexterity saving throw or use 10 feet of movement (your choice) to avoid the razorvine. On a failed save, you take {@dice 1d10} Slashing damage."
+    "Your path takes you near a patch of {@hazard razorvine|XDMG} (see \"{@area Hazards|18b|x}\" in this chapter). Make a {@dc 15} Dexterity saving throw or use 10 feet of movement (your choice) to avoid the razorvine. On a failed save, you take {@dice 1d10} Slashing damage."
    ],
    [
     "6",
@@ -173683,7 +173683,7 @@
    ],
    [
     "2",
-    "The path leads into a lonely grove that serves as the grave of a former dryad queen. If appropriate respects are paid, the characters have a {@chance 50} chance to receive a supernatural gift (see {@book chapter 7|DMG|7|Supernatural Gifts} of the {@book Dungeon Master's Guide|DMG})—a charm that allows a character to cast the {@spell Galder's Tower|LLK|Galder's tower} spell (see {@adventure appendix E|LLK|7}) once as an action."
+    "The path leads into a lonely grove that serves as the grave of a former dryad queen. If appropriate respects are paid, the characters have a {@chance 50} chance to receive a supernatural gift (see {@book chapter 7|DMG|7|Supernatural Gifts} of the {@book Dungeon Master's Guide|DMG})—a charm that allows a character to cast the {@spell Galder's Tower|LLK|Galder's tower} spell (see {@area appendix E|0d4|x}) once as an action."
    ],
    [
     "3",
@@ -176305,7 +176305,7 @@
   "rows": [
    [
     "1",
-    "A team of four {@creature Quadrone||quadrones} recruits the party on a rescue mission into the {@book Cube|SatO|3|The Cube}."
+    "A team of four {@creature Quadrone||quadrones} recruits the party on a rescue mission into the {@area Cube|169|x}."
    ],
    [
     "2",
