@@ -5846,7 +5846,7 @@
   "name": "Firearms",
   "page": 72,
   "entries": [
-   "The Firearms table provides examples of modern and futuristic firearms. If you make them available for purchase (perhaps in the fantastical marketplaces of the City of Brass), treat modern items as Rare magic items and futuristic items as Very Rare ones (see {@book chapter 7|XDMG|6|Magic Items}).",
+   "The Firearms table provides examples of modern and futuristic firearms. If you make them available for purchase (perhaps in the fantastical marketplaces of the City of Brass), treat modern items as Rare magic items and futuristic items as Very Rare ones (see {@area chapter 7|411|x}).",
    {
     "type": "entries",
     "name": "Properties",
@@ -7497,7 +7497,7 @@
      ],
      [
       "02–08",
-      "Both potions lose their effects, and the mixture becomes an ingested poison of your choice (see \"{@book Poison|XDMG|2|Poison}\" in {@book chapter 3|XDMG|2})."
+      "Both potions lose their effects, and the mixture becomes an ingested poison of your choice (see \"{@area Poison|1bd|x}\" in {@area chapter 3|0e7|x})."
      ],
      [
       "09–15",
@@ -8124,7 +8124,7 @@
     "name": "Proficiencies",
     "page": 44,
     "entries": [
-     "When you gain your first level in a class other than your initial class, you gain only some of the new class's starting proficiencies, as detailed in each class's description in {@book chapter 3|XPHB|3}."
+     "When you gain your first level in a class other than your initial class, you gain only some of the new class's starting proficiencies, as detailed in each class's description in {@area chapter 3|119|x}."
     ]
    },
    {
