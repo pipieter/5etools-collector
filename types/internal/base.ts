@@ -1,6 +1,4 @@
-import { Copyable, EntryMod, Mod, Mods, SpellcastingEntryMod, Versioned } from './copy';
 import { Entry, EntryImage, HRef } from './entry';
-import { Nullable, Variadic } from './util';
 
 export interface ID {
   name: string;
@@ -76,13 +74,13 @@ export interface SRD {
 }
 
 export type Unit =
+  | string
   | {
       number: number;
-      unit: string;
+      unit: 'action' | 'bonus' | 'reaction' | 'minute' | 'hour';
       note?: string;
       condition?: string;
-    }
-  | string;
+    };
 
 export type ReprintedAs = string | { uid: string; tag?: string; edition?: string };
 
@@ -301,17 +299,17 @@ export type UIDString =
       note: string;
     };
 
-export interface Duration {
-  type: 'instant' | 'timed' | 'permanent' | 'special';
-  duration?: {
-    type: string;
-    amount: number;
-    upTo?: boolean;
-  };
-  condition?: string;
-  concentration?: boolean;
-  ends?: string[];
+export interface DurationTiming {
+  type: 'round' | 'minute' | 'mniute' | 'hour' | 'day';
+  amount: number;
+  upTo?: boolean;
 }
+
+export type Duration =
+  | { type: 'permanent'; ends: string[] }
+  | { type: 'special'; concentration?: boolean; condition?: string }
+  | { type: 'instant'; concentration?: boolean; duration?: DurationTiming }
+  | { type: 'timed'; duration: DurationTiming; concentration?: boolean; condition?: string };
 
 export type RangeType =
   'special' | 'point' | 'emanation' | 'line' | 'cone' | 'radius' | 'sphere' | 'cylinder' | 'cube' | 'hemisphere';
