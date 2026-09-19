@@ -10995,6 +10995,65 @@
   ]
  },
  {
+  "name": "Disposition System",
+  "source": "ObojimaTalesYatamon",
+  "ruleType": "O",
+  "entries": [
+   "The Disposition System serves as a mechanical representation of a creature's emotional mindset and manifest as a series of {@variantrule Reaction|XPHB|Reactions} given to the creature's stat block. Dispositions can bring a level of depth and nuance to a combat encounter, especially to a creature that an adventuring party has already faced.",
+   {
+    "type": "entries",
+    "name": "Assigning a Disposition",
+    "entries": [
+     "In addition to a creature's regular stat block, you might also find one or more Disposition tables.",
+     "Each table offers a special list of {@variantrule Reaction|XPHB|Reactions} (called \"Impulsive Reactions\") the creature can take during combat, which are indicative of the emotions or motivations the Disposition represents.",
+     "For example, if a bear is awakened while sleeping, you might choose to give it the Skittish Disposition.",
+     "It's important to note that, even though a Disposition is meant to offer a mixture of roleplay and mechanics, it can affect the Challenge Rating of a creature."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Hit Point Thresholds",
+    "entries": [
+     "Hit Point Thresholds represent a moment in combat when the creature makes a snap decision based on how it's feeling.",
+     "When a creature's {@variantrule Hit Points|XPHB} are reduced to or below a specific Threshold, it gains access to one of the Impulsive Reactions from its Disposition table.",
+     "For example, the moment the bear drops to 25 {@variantrule Hit Points|XPHB}, it triggers its Impulsive Reaction, which allows it to move up to 40 feet away from the creature that attacked it.",
+     "When a Threshold is reached, an Impulsive Reaction is triggered, and the creature must use the Impulsive Reaction by taking its {@variantrule Reaction|XPHB}, if available. If the creature's {@variantrule Reaction|XPHB} is not available, it loses its opportunity to use that Impulsive Reaction. Once a Hit Point Threshold has been reached, that Impulsive Reaction can't be triggered again (whether it was used or not) until the creature finishes a {@variantrule Short Rest|XPHB} or {@variantrule Long Rest|XPHB}.",
+     "If damage from a single attack or effect causes multiple Thresholds to be reached at the same time, you can choose which of the triggered Impulsive Reactions the creature uses."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Learning a Creature's Disposition",
+    "entries": [
+     "To determine the Disposition of a creature, a character can take the {@action Search|XPHB} action to make a Wisdom ({@skill Insight|XPHB}) check, provided it can see the creature. The DC to determine the Disposition of a creature is equal to 10 plus half the creature's CR.",
+     "Learning the Disposition of a creature does not inform a character of the creature's Impulsive Reactions, but it may provide insight into how the creature might act during combat."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Creating Your Own Dispositions",
+    "entries": [
+     "Below you'll find a list of guidelines to follow when designing your own Dispositions:",
+     {
+      "type": "list",
+      "items": [
+       "A creature must have a {@variantrule Hit Points|XPHB|Hit Point} minimum of 20 or higher for it to gain a Disposition.",
+       "There must be a minimum of 20 {@variantrule Hit Points|XPHB} between Hit Point Thresholds.",
+       "A Hit Point Threshold must be no less than 5 {@variantrule Hit Points|XPHB} below a creature's {@variantrule Hit Points|XPHB|Hit Point} maximum.",
+       "Impulsive Reactions are meant to be an extension of the creature's feelings or personality."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "statblock",
+    "tag": "table",
+    "source": "ObojimaTalesYatamon",
+    "name": "List of Dispositions"
+   }
+  ]
+ },
+ {
   "name": "Drunkenness Level",
   "source": "GriffonsSaddlebag2",
   "page": 274,
@@ -13565,6 +13624,297 @@
     "tag": "hazard",
     "source": "NorthlandsWorldbook",
     "name": "Travel Pace in the North"
+   }
+  ]
+ },
+ {
+  "name": "Operating Vehicles",
+  "source": "ObojimaTalesYatamon",
+  "ruleType": "VO",
+  "entries": [
+   "Though there are many unique aspects to the different types of vehicles, there is a general set of rules that apply when driving any of them. Vehicle properties, which are listed later in this section, allow certain vehicles to ignore or alter some of the rules detailed in this section.",
+   {
+    "type": "entries",
+    "name": "Driving & Riding in a Vehicle",
+    "entries": [
+     "All vehicles have a Crew, which is the number of creatures required to operate the vehicle. Each type of vehicle also has a maximum number of Passengers, which is the number of other Small and Medium creatures that can be transported by the vehicle at a time, in addition to its Crew."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Mounting or Entering a Vehicle",
+    "entries": [
+     "During your move, you can enter, exit, mount, or dismount a vehicle by spending an amount of movement equal to half your {@variantrule Speed|XPHB} (round down). You can't enter or mount a vehicle if it already has its maximum number of Crew and Passengers within or on it. You also can't enter a vehicle if it has the Flipped or Locked condition (see Vehicle Conditions)."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Controlling a Vehicle",
+    "entries": [
+     "If you wish to serve as a member of a vehicle's Crew, you must have at least one free hand, and you must take a {@variantrule Bonus Action|XPHB} to operate the vehicle on each of your turns. If the vehicle must first be powered on, you can do so as part of the {@variantrule Bonus Action|XPHB} you take to begin operating it. You can also power off such a vehicle at any point on your turn (no action required).",
+     "In order for two creatures to exchange control of a vehicle, one must take a {@action Utilize|XPHB} action and the other must simultaneously take a {@variantrule Reaction|XPHB} to change places.",
+     {
+      "type": "entries",
+      "entries": [
+       {
+        "type": "entries",
+        "name": "Vehicle Movement",
+        "entries": [
+         "Vehicles have two kinds of speeds: a Combat Speed for shorter-distance movement (measured in feet per round) and a Travel Speed for long-distance, out-of-combat movement (measured in miles per hour). While you're serving as a member of a vehicle's Crew or are a vehicle's Passenger, you ignore your {@variantrule Speed|XPHB}, instead moving with the vehicle as it moves.",
+         "A vehicle can never move more than its maximum Combat Speed in a round, regardless of whether another creature takes control of it.",
+         "If you're the sole member of a vehicle's Crew in combat, you spend its movement as you would typically spend your own movement, controlling where the vehicle moves on each of your turns; you can't take the {@action Dash|XPHB} action while controlling a vehicle to gain extra movement for the current turn. If a vehicle requires a Crew of more than one creature, one of those creatures must be designated to control the vehicle's movement."
+        ]
+       },
+       {
+        "type": "entries",
+        "name": "Running into Other Targets",
+        "entries": [
+         "A vehicle's {@variantrule Speed|XPHB} is halved when it hits a creature or object that is smaller than it. It instead completely stops if the creature or object it hits is the same size as the vehicle or larger, or if the target is otherwise unable to be moved."
+        ]
+       },
+       {
+        "type": "entries",
+        "name": "Changing Direction",
+        "entries": [
+         "Sharply turning a vehicle or reversing its direction during combat requires additional caution and effort. To do so, the creature controlling the vehicle must spend an amount of the vehicle's movement equal to half its Combat Speed (round down)."
+        ]
+       },
+       {
+        "type": "entries",
+        "name": "Performing Complex Maneuvers",
+        "entries": [
+         "If the creature controlling the vehicle wishes to perform a complex maneuver, it can make a Maneuvering check. To make this ability check, the creature rolls {@dice 1d20} plus its Dexterity or Intelligence modifier (its choice) and the vehicle's Size Modifier."
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Cargo & Towing",
+    "entries": [
+     "All vehicles have a Cargo Capacity, which is the amount of weight the vehicle can carry. Cargo ignores the weight of the vehicle's Crew and Passengers, only factoring in the weight of any objects inside or on top of the vehicle that aren't otherwise being worn by a creature.",
+     "A vehicle can also tow or drag an additional amount of weight up to its Cargo Capacity. If a vehicle is carrying no cargo, it can therefore tow a total amount of weight up to twice its Cargo Capacity."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Vehicles in Combat",
+    "entries": [
+     "Vehicles use the following special rules in combat.",
+     {
+      "type": "entries",
+      "name": "Vehicle Armor Class & Hit Points",
+      "entries": [
+       "Refer to the {@table Vehicles Table|ObojimaTalesYatamon} for each vehicle's AC and {@variantrule Hit Points|XPHB|Hit Point} maximum. A vehicle is destroyed when it has 0 {@variantrule Hit Points|XPHB}."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Targeting a Vehicle",
+      "entries": [
+       "Vehicles can be attacked like any other object. Spells and other effects that target creatures (such as the {@spell Fireball|XPHB} spell) can also target vehicles."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Damaging a Vehicle",
+      "entries": [
+       "Vehicles have {@variantrule Immunity|XPHB} to Poison and Psychic damage. They also have a damage threshold, as shown in the {@table Vehicles Table|ObojimaTalesYatamon}.",
+       {
+        "type": "entries",
+        "name": "Massive Damage",
+        "entries": [
+         "If a vehicle takes damage that equals or exceeds half its {@variantrule Hit Points|XPHB|Hit Point} maximum (round down) from a single attack or effect, it gains the {@condition Flipped|ObojimaTalesYatamon} condition (see Vehicle Conditions)."
+        ]
+       },
+       {
+        "type": "entries",
+        "name": "Damage Threshold",
+        "entries": [
+         "A creature or an object that has a damage threshold has {@variantrule Immunity|XPHB} to all damage unless it takes an amount of damage from a single attack or effect equal to or greater than its damage threshold, in which case it takes that entire instance of damage. Any damage that fails to meet or exceed the damage threshold is superficial and doesn't reduce {@variantrule Hit Points|XPHB}."
+        ]
+       }
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Saving Throws",
+      "entries": [
+       "Vehicles always fail Strength and Dexterity saving throws, and they are immune to effects that require other saves as well as conditions that aren't detailed in the Vehicle Conditions section.",
+       "The Crew and Passengers of a Piloted vehicle automatically fail Strength and Dexterity saving throws against effects that target them, but they take only half damage from such effects."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Going Prone on a Mounted Vehicle",
+      "entries": [
+       "If a creature on a Mounted vehicle gains the {@condition Prone|XPHB} condition, it can stay mounted on the vehicle, but the vehicle immediately stops and can't move until it is righted. While {@condition Prone|XPHB} on a vehicle, the creature can't crawl, and it spends an amount of the vehicle's movement equal to half its Combat Speed to end that condition, rather than spending its own movement."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Ramming",
+      "entries": [
+       "A creature controlling a vehicle can take the {@action Utilize|XPHB} action to attempt to ram a target with the vehicle; this can't be attempted more than once per turn. If the target is a creature, it can make a Dexterity saving throw to avoid the vehicle; the DC for the save equals 8 plus the controlling creature's Dexterity or Intelligence modifier (its choice) and the vehicle's Size Modifier.",
+       "If the vehicle moved at least 10 feet in a straight line immediately before successfully ramming a target, the target takes an amount of Bludgeoning damage based on the vehicle's Size Modifier: {@damage 1d6} (Size 1), {@damage 2d6} (Size 2), {@damage 3d6} (Size 3), {@damage 4d6} (Size 4), {@damage 5d6} (Size 5), or {@damage 6d6} (Size 6). The target takes twice as much damage if the vehicle moved at least 20 feet before ramming it, or three times as much damage if the vehicle moved 30 feet or more before ramming it.",
+       "Immediately after the vehicle rams a Small or larger target, the vehicle's {@variantrule Speed|XPHB} is reduced (as detailed in the Controlling a Vehicle section), and the vehicle takes {@damage 1d6} Bludgeoning damage for every 10 feet it moved before ramming its target, to a maximum of {@damage 3d6}. This damage ignores the vehicle's damage threshold."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Vehicle Conditions",
+    "entries": [
+     "Vehicles can be subjected to the following conditions.",
+     {
+      "type": "statblock",
+      "tag": "condition",
+      "source": "ObojimaTalesYatamon",
+      "name": "Flipped"
+     },
+     {
+      "type": "statblock",
+      "tag": "condition",
+      "source": "ObojimaTalesYatamon",
+      "name": "Immobile"
+     },
+     {
+      "type": "statblock",
+      "tag": "condition",
+      "source": "ObojimaTalesYatamon",
+      "name": "Locked"
+     },
+     {
+      "type": "statblock",
+      "tag": "condition",
+      "source": "ObojimaTalesYatamon",
+      "name": "Uncontrolled"
+     }
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Repairing a Vehicle",
+    "entries": [
+     "Repairs to a damaged vehicle can be made while the vehicle is in a repair shop. Repairing 1 {@variantrule Hit Points|XPHB|Hit Point} of damage requires 8 hours of work and costs 10 GF for materials and labor. Alternatively, a creature can repair a vehicle by making an Intelligence ({@skill Mechanics|ObojimaTallGrass}) check using {@item Tinker's Tools|XPHB} over the course of 8 hours, which costs 5 GF for materials. Doing so repairs a number of {@variantrule Hit Points|XPHB} equal to the result of the check –10 (minimum of 1 {@variantrule Hit Points|XPHB|Hit Point})."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Spirit-Whelmed Vehicles",
+    "entries": [
+     "If a vehicle is operational, a spirit can whelm it, disappearing into the vehicle and powering it. To do so, the spirit must take a {@action Magic|XPHB} action while touching the vehicle. Additionally, the spirit's {@variantrule Challenge Rating|XPHB} must be equal to or greater than the vehicle's Size Modifier or the vehicle fails to power on. If multiple spirits attempt to whelm a vehicle, their combined CR must be equal to or greater than the vehicle's Size Modifier in order to power it; spirits with a CR of less than 1 count as CR 1/2 for the purpose of calculating their combined CR.",
+     "While whelming a vehicle, a spirit must take a {@action Utilize|XPHB} action to power the vehicle on each of its turns, and it ignores its {@variantrule Speed|XPHB}, instead moving with the vehicle as it moves. The spirit can see and use its other senses as if it were at the front of the vehicle. On the spirit's turn, it can choose to stop whelming the vehicle (no action required), exiting it and reappearing in an unoccupied space within 5 feet of it.",
+     "If the vehicle takes damage equal to or greater than the spirit's {@variantrule Hit Points|XPHB|Hit Point} maximum, or if the vehicle is destroyed, the spirit is shunted out of the vehicle, ending its whelm early.",
+     {
+      "type": "entries",
+      "name": "Spirits Controlling Vehicles",
+      "entries": [
+       "If a spirit that is whelming a vehicle has an Intelligence of 7 or higher, it can control the vehicle as if it were a member of the vehicle's Crew (see Controlling a Vehicle). If a spirit is controlling a vehicle when the vehicle takes damage, it must make a Constitution saving throw to maintain {@status Concentration|XPHB}. The DC equals 10 or half the damage taken by the vehicle (round down), whichever number is higher, up to a maximum DC of 30. On a failed save, the spirit's whelm ends early.",
+       "A spirit that is whelming a vehicle that is already being operated can take a {@variantrule Bonus Action|XPHB} to wrestle for its control (provided the spirit can normally power it). The creature currently operating the vehicle must make a Dexterity saving throw, or an Intelligence saving throw if it's whelming the vehicle. The DC for the save equals 10 + the CR of the intruding spirit. On a failed save, the intruding spirit takes control."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Vehicle Classifications",
+    "entries": [
+     "A vehicle's classification expresses how a character is situated in or on the vehicle while operating or riding in it. This classification determines how certain mechanics affect the vehicle as well as its Crew and Passengers.",
+     {
+      "type": "list",
+      "style": "list-hang-notitle",
+      "items": [
+       {
+        "type": "item",
+        "name": "Mounted",
+        "entry": "The vehicle has no entry point and is straddled rather than entered."
+       },
+       {
+        "type": "item",
+        "name": "Piloted",
+        "entry": "The vehicle requires a creature to enter it in order to operate it. Creatures inside this vehicle have {@variantrule Cover|XPHB|Half Cover}."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Vehicle Properties",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Aquatic",
+      "entries": [
+       "This vehicle can only move in the water."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Encased",
+      "entries": [
+       "This vehicle is completely closed off from the surrounding environment. Creatures inside it are {@variantrule Heavily Obscured|XPHB} and have {@variantrule Cover|XPHB|Total Cover} from creatures outside it."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Feather",
+      "entries": [
+       "This vehicle can't deal damage when it rams a target."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Flying",
+      "entries": [
+       "This vehicle can only move through the air."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Nimble",
+      "entries": [
+       "The creature controlling this vehicle doesn't need to spend any of the vehicle's movement to change its direction."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Pedalled",
+      "entries": [
+       "The creature controlling this vehicle can take the {@action Dash|XPHB} action to gain extra movement for the current turn."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Simple",
+      "entries": [
+       "This vehicle doesn't require the creature controlling it to take a {@variantrule Bonus Action|XPHB} on each of its turns; it still has the {@condition Uncontrolled|ObojimaTalesYatamon} condition if the creature controlling it has the {@condition Incapacitated|XPHB} condition. If the vehicle must be powered on in order to begin operating it, it still requires a {@variantrule Bonus Action|XPHB} to do so."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Wide",
+      "entries": [
+       "When ramming a creature using this vehicle, each creature within 5 feet of the target must also make the Dexterity saving throw."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Vehicles Table",
+    "entries": [
+     {
+      "type": "statblock",
+      "tag": "table",
+      "source": "ObojimaTalesYatamon",
+      "name": "Vehicles Table"
+     }
+    ]
    }
   ]
  },

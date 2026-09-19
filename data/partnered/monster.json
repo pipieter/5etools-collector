@@ -19876,6 +19876,129 @@
   }
  },
  {
+  "name": "Awakened Cat Neko Duelist",
+  "source": "ObojimaTalesYatamon",
+  "size": [
+   "S"
+  ],
+  "type": "beast",
+  "alignment": [
+   "N"
+  ],
+  "ac": [
+   14
+  ],
+  "hp": {
+   "formula": "6d6 + 6",
+   "average": 27
+  },
+  "speed": {
+   "walk": 30,
+   "climb": 30
+  },
+  "str": 10,
+  "dex": 16,
+  "con": 12,
+  "int": 12,
+  "wis": 10,
+  "cha": 16,
+  "save": {
+   "dex": "+5",
+   "cha": "+5"
+  },
+  "skill": {
+   "acrobatics": "+5",
+   "performance": "+5",
+   "persuasion": "+5",
+   "stealth": "+5"
+  },
+  "senses": [
+   "darkvision 60 ft."
+  ],
+  "senseTags": [
+   "D"
+  ],
+  "passive": 10,
+  "languages": [
+   "Common"
+  ],
+  "languageTags": [
+   "C"
+  ],
+  "cr": "1",
+  "trait": [
+   {
+    "name": "Deft Cover",
+    "entries": [
+     "While at least two Small or larger creatures (excluding the awakened cat) are within 5 feet of the awakened cat, it has {@variantrule Cover|XPHB|Half Cover}."
+    ]
+   },
+   {
+    "name": "Feline Agility",
+    "entries": [
+     "When the awakened cat falls and doesn't have the {@condition Incapacitated|XPHB} condition, it always lands on its feet, and it can subtract up to 20 feet from the fall when calculating the damage it would take."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The awakened cat makes two attacks, using its Dagger or Shortsword in any combination."
+    ]
+   },
+   {
+    "name": "Dagger",
+    "entries": [
+     "{@atkr m,r} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) Piercing damage."
+    ]
+   },
+   {
+    "name": "Shortsword",
+    "entries": [
+     "{@atkr m} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) Piercing damage."
+    ]
+   }
+  ],
+  "reaction": [
+   {
+    "name": "Nimble Redirect",
+    "entries": [
+     "{@actTrigger} The awakened cat is hit by an attack made with a weapon or an {@variantrule Unarmed Strike|XPHB}. {@actResponse} It reduces the damage it takes by 5, and it can cause a creature or object within 5 feet of it to take 5 damage of the attack's type."
+    ]
+   }
+  ],
+  "gear": [
+   "Dagger|XPHB",
+   "Leather Armor|XPHB",
+   "Shortsword|XPHB"
+  ],
+  "treasure": [
+   "any"
+  ],
+  "environment": [
+   "any"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "P"
+  ],
+  "miscTags": [
+   "MW",
+   "RW",
+   "THW"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Tokens/Awakened_Cat_Neko_Duelist.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Awakened Chapped Brute",
   "source": "GrimHollowLairsEtharis",
   "page": 68,
@@ -30304,6 +30427,111 @@
   "hasFluffImages": true
  },
  {
+  "name": "Bondbeast",
+  "source": "DnDBeyondDrops",
+  "page": "2026-09-03",
+  "size": [
+   "S"
+  ],
+  "type": "monstrosity",
+  "alignment": [
+   "U"
+  ],
+  "ac": [
+   13
+  ],
+  "hp": {
+   "average": 84,
+   "formula": "13d6 + 39"
+  },
+  "speed": {
+   "walk": 30,
+   "climb": 30
+  },
+  "str": 12,
+  "dex": 17,
+  "con": 16,
+  "int": 8,
+  "wis": 14,
+  "cha": 10,
+  "save": {
+   "dex": "+5"
+  },
+  "skill": {
+   "perception": "+4",
+   "stealth": "+5"
+  },
+  "senses": [
+   "Darkvision 60 ft."
+  ],
+  "passive": 14,
+  "languages": [
+   "Common"
+  ],
+  "cr": "4",
+  "trait": [
+   {
+    "name": "Desperate Attacks",
+    "entries": [
+     "The bondbeast has {@variantrule Advantage|XPHB} on attack rolls if its bonded spellcaster is within 10 feet and is {@status Bloodied|XPHB}."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The bondbeast makes two Bite attacks."
+    ]
+   },
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 5}, reach 5 ft. {@h}10 ({@damage 2d6 + 3}) Piercing damage, and the target has the {@condition Poisoned|XPHB} condition until the start of the bondbeast's next turn. While {@condition Poisoned|XPHB} in this way, the target has {@variantrule Disadvantage|XPHB} on saving throws against spells and other magical effects originating from the bondbeast's bonded spellcaster, and spell attack rolls made against the {@condition Poisoned|XPHB} target by the bonded spellcaster have {@variantrule Advantage|XPHB}."
+    ]
+   }
+  ],
+  "bonus": [
+   {
+    "name": "Cunning Action",
+    "entries": [
+     "The bondbeast takes the {@action Dash|XPHB}, {@action Disengage|XPHB}, or {@action Hide|XPHB} action."
+    ]
+   }
+  ],
+  "reaction": [
+   {
+    "name": "Deflection",
+    "entries": [
+     "{@actTrigger} An attack roll hits the bondbeast's bonded spellcaster while the bonded spellcaster is within 10 feet of the bondbeast. {@actResponse} Reduce the triggering attack's damage by 8 ({@dice 1d10 + 3})."
+    ]
+   }
+  ],
+  "environment": [
+   "any"
+  ],
+  "senseTags": [
+   "D"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "languageTags": [
+   "C"
+  ],
+  "damageTags": [
+   "P"
+  ],
+  "miscTags": [
+   "MA"
+  ],
+  "conditionInflict": [
+   "poisoned"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Bone Collective",
   "source": "ToB1-2023",
   "page": 39,
@@ -36228,6 +36456,116 @@
   "hasFluffImages": true
  },
  {
+  "name": "Button Crow",
+  "size": [
+   "T"
+  ],
+  "type": "fiend",
+  "source": "ObojimaTalesYatamon",
+  "alignment": [
+   "C",
+   "N"
+  ],
+  "ac": [
+   12
+  ],
+  "hp": {
+   "formula": "4d4",
+   "average": 10
+  },
+  "speed": {
+   "walk": 10,
+   "fly": 50
+  },
+  "str": 3,
+  "dex": 14,
+  "con": 10,
+  "int": 8,
+  "wis": 16,
+  "cha": 7,
+  "skill": {
+   "perception": "+5",
+   "sleight of hand": "+4"
+  },
+  "passive": 15,
+  "languages": [
+   "Common",
+   "Torum|ObojimaTallGrass"
+  ],
+  "languageTags": [
+   "C",
+   "X"
+  ],
+  "cr": "1/8",
+  "trait": [
+   {
+    "name": "Distant Mimicry",
+    "entries": [
+     "The crow can mimic simple sounds it has heard, such as a whisper or chitter, creating the sound at a point of its choice within 30 feet of itself. A hearer can discern that the sounds are imitations with a successful {@dc 10} Wisdom ({@skill Insight|XPHB}) check."
+    ]
+   },
+   {
+    "name": "Trinket Obsession",
+    "entries": [
+     "The crow is mesmerized by a specific Tiny object (GM's choice), such as a coin, button, or bauble. The crow has {@variantrule Disadvantage|XPHB} on Wisdom ({@skill Insight|XPHB}) checks that involve that object."
+    ]
+   }
+  ],
+  "spellcasting": [
+   {
+    "name": "Chattering Charm",
+    "type": "spellcasting",
+    "headerEntries": [
+     "The crow casts {@spell Charm Person|XPHB}, requiring no Somatic component and using Charisma as the spellcasting ability (spell save {@dc 10}). The spell ends early if the crow uses this action again. If a target's saving throw is successful or the spell ends for it, that target is immune to the Chattering Charm of all Button Crows for the next 24 hours."
+    ],
+    "ability": "cha",
+    "will": [
+     "{@spell Charm Person|XPHB}"
+    ],
+    "hidden": [
+     "will"
+    ],
+    "displayAs": "action"
+   },
+   {
+    "name": "Trickery",
+    "type": "spellcasting",
+    "headerEntries": [
+     "The crow casts {@spell Duplicate|ObojimaTallGrass}, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 10})."
+    ],
+    "ability": "cha",
+    "will": [
+     "{@spell Duplicate|ObojimaTallGrass}"
+    ],
+    "hidden": [
+     "will"
+    ],
+    "displayAs": "action"
+   }
+  ],
+  "bonus": [
+   {
+    "name": "Consume Trinket",
+    "entries": [
+     "The crow consumes the object from its Trinket Obsession. If the object is nonmagical, it is destroyed, and the crow gains 3 {@variantrule Temporary Hit Points|XPHB}."
+    ]
+   }
+  ],
+  "treasure": [
+   "any"
+  ],
+  "environment": [
+   "urban"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Tokens/Button_Crow.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "c'Naazo",
   "source": "TalesFromTheShadows",
   "page": 182,
@@ -37610,6 +37948,124 @@
   }
  },
  {
+  "name": "Canden & Moon's Advanced Student",
+  "size": [
+   "S",
+   "M"
+  ],
+  "type": "humanoid",
+  "source": "ObojimaTalesYatamon",
+  "alignment": [
+   "L",
+   "N"
+  ],
+  "ac": [
+   13
+  ],
+  "hp": {
+   "formula": "5d8",
+   "average": 22
+  },
+  "speed": {
+   "walk": 30
+  },
+  "str": 12,
+  "dex": 15,
+  "con": 11,
+  "int": 10,
+  "wis": 12,
+  "cha": 11,
+  "save": {
+   "dex": "+4",
+   "wis": "+3"
+  },
+  "skill": {
+   "acrobatics": "+4",
+   "insight": "+3",
+   "perception": "+3"
+  },
+  "passive": 13,
+  "languages": [
+   "Common plus one other language"
+  ],
+  "languageTags": [
+   "C",
+   "X"
+  ],
+  "cr": "1/2",
+  "trait": [
+   {
+    "name": "Master Canden's Discipline",
+    "entries": [
+     "The student has {@variantrule Advantage|XPHB} on saving throws it makes to avoid or end the {@condition Frightened|XPHB} condition."
+    ]
+   },
+   {
+    "name": "Master Moon's Footwork",
+    "entries": [
+     "When an enemy the student can see within 10 feet of it misses with a melee attack roll, the student can move up to 5 feet without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks}."
+    ]
+   },
+   {
+    "name": "Vigilant",
+    "entries": [
+     "When the student rolls {@variantrule Initiative|XPHB}, it can immediately draw a weapon and move up to its {@variantrule Speed|XPHB} (no action required)."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The student makes two Training Blade attacks."
+    ]
+   },
+   {
+    "name": "Training Blade",
+    "entries": [
+     "{@atkr m} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) Piercing damage."
+    ]
+   }
+  ],
+  "reaction": [
+   {
+    "name": "Parrying Blade",
+    "entries": [
+     "{@actTrigger} The student is hit by an attack roll. {@actResponse} The student adds 5 to its AC against that attack, possibly causing it to miss."
+    ]
+   }
+  ],
+  "gear": [
+   "Leather Armor|XPHB",
+   "Shortsword|XPHB"
+  ],
+  "treasure": [
+   "any"
+  ],
+  "environment": [
+   "any"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "P"
+  ],
+  "miscTags": [
+   "MW"
+  ],
+  "savingThrowForced": [
+   "wisdom"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Tokens/Advanced_Student.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Candlelight Daemon",
   "source": "GrimHollowLairsEtharis",
   "page": 25,
@@ -37801,6 +38257,70 @@
    "restrained",
    "unconscious"
   ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Canned Cat",
+  "size": [
+   "T"
+  ],
+  "type": "ooze",
+  "source": "ObojimaTalesYatamon",
+  "alignment": [
+   "U"
+  ],
+  "ac": [
+   8
+  ],
+  "hp": {
+   "formula": "2d4",
+   "average": 5
+  },
+  "speed": {
+   "walk": 0
+  },
+  "str": 3,
+  "dex": 6,
+  "con": 11,
+  "int": 5,
+  "wis": 8,
+  "cha": 13,
+  "passive": 9,
+  "cr": "0",
+  "trait": [
+   {
+    "name": "Mesmerize",
+    "entries": [
+     "{@actSave wis} {@dc 11} Any creature that starts its turn within 5 feet of the canned cat and is aware of it. {@actSaveFail} The target has the {@condition Charmed|XPHB} condition until the start of its next turn. {@actSaveSuccess} The target is immune to the canned cat's Mesmerize for 24 hours."
+    ]
+   },
+   {
+    "name": "Too Sweet To Eat",
+    "entries": [
+     "{@actSave con} {@dc 10} A creature that consumes the canned cat. {@actSaveFail} The target gains 1 {@condition Exhaustion|XPHB} level."
+    ]
+   }
+  ],
+  "treasure": [
+   "none"
+  ],
+  "environment": [
+   "any"
+  ],
+  "conditionInflict": [
+   "charmed",
+   "exhaustion"
+  ],
+  "savingThrowForced": [
+   "wisdom",
+   "constitution"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Tokens/Canned_Cat.webp"
+  },
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -39143,6 +39663,179 @@
    "RW",
    "THW"
   ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Cauldron Hydra",
+  "size": [
+   "S"
+  ],
+  "type": "ooze",
+  "source": "ObojimaTalesYatamon",
+  "alignment": [
+   "U"
+  ],
+  "ac": [
+   10
+  ],
+  "hp": {
+   "formula": "12d6 + 36",
+   "average": 78
+  },
+  "speed": {
+   "walk": {
+    "number": 0,
+    "condition": "(30 ft. in Utility form)"
+   }
+  },
+  "str": 14,
+  "dex": 11,
+  "con": 17,
+  "int": 2,
+  "wis": 10,
+  "cha": 3,
+  "skill": {
+   "perception": "+4"
+  },
+  "initiative": {
+   "proficiency": 1
+  },
+  "immune": [
+   "acid"
+  ],
+  "conditionImmune": [
+   "blinded",
+   "charmed",
+   "deafened",
+   "exhaustion",
+   "frightened",
+   "prone",
+   "stunned",
+   "unconscious"
+  ],
+  "senses": [
+   "blindsight 60 ft."
+  ],
+  "senseTags": [
+   "B"
+  ],
+  "passive": 14,
+  "cr": "3",
+  "trait": [
+   {
+    "name": "Reactive Heads",
+    "entries": [
+     "The hydra has four extra {@variantrule Reaction|XPHB|Reactions} that can be used only for {@action Opportunity Attack|XPHB|Opportunity Attacks}."
+    ]
+   },
+   {
+    "name": "Ooze Concoction",
+    "entries": [
+     "At the start of each of the hydra's turns, one of the following potion types of its choice bubbles to the top, determining its form:",
+     {
+      "type": "list",
+      "items": [
+       {
+        "type": "item",
+        "name": "Combat",
+        "entries": [
+         "The hydra has {@variantrule Advantage|XPHB} on {@variantrule D20 Test|XPHB|D20 Tests} until the start of its next turn."
+        ]
+       },
+       {
+        "type": "item",
+        "name": "Utility",
+        "entries": [
+         "The hydra sprouts legs from its cauldron, gaining a {@variantrule Speed|XPHB} of 30 feet. It then creates four illusory copies of itself (as if from the {@spell Minor Illusion|XPHB} spell; save {@dc 13}) in unoccupied spaces within 30 feet of it, which appear to have walked there. The effects end at the start of the hydra's next turn."
+        ]
+       },
+       {
+        "type": "item",
+        "name": "Whimsy",
+        "entries": [
+         "When the hydra hits a creature with a Pseudopod attack, roll a {@dice d4} to determine the effect it's subjected to; the target can't be subjected to another effect in this way for 24 hours:",
+         {
+          "type": "list",
+          "style": "list-decimal",
+          "items": [
+           "For the next hour, the target is under the effects of the {@spell Feather Fall|XPHB} spell and weighs no more than 1 pound.",
+           "The target transforms into the child version of itself for 4 hours: it is one size smaller (to a minimum of Small), and its Strength and Dexterity scores are 10 unless those scores were already lower.",
+           "One random object the target is wearing or carrying is assigned a signature sound that accompanies the object when it's used. This effect lasts until removed as if a curse by the {@spell Remove Curse|XPHB} spell",
+           "For the next hour, the target's speech sounds like that of a random person it's not familiar with."
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The hydra makes five Pseudopod attacks. If it's in Utility form, it can use its Transposition after each attack."
+    ]
+   },
+   {
+    "name": "Pseudopod",
+    "entries": [
+     "{@atkr m} {@hit 4} (with {@variantrule Advantage|XPHB} in Combat form) to hit, reach 10 ft., one target. {@h}5 ({@damage 1d6 + 2}) Acid damage."
+    ]
+   },
+   {
+    "name": "Dragon's Breath (Combat Form Only)",
+    "entries": [
+     "{@actSave dex} {@dc 13} Each creature in a 15-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSaveFail} The target takes 5 ({@damage 1d10}) Acid damage, 5 ({@damage 1d10}) Cold damage, 5 ({@damage 1d10}) Fire damage, 5 ({@damage 1d10}) Lightning damage, and 5 ({@damage 1d10}) Poison damage. {@actSaveSuccess} Half damage."
+    ]
+   },
+   {
+    "name": "Transposition (Utility Form Only)",
+    "entries": [
+     "The hydra teleports, imperceptibly swapping places with one of its illusory copies, which appears in its previous space."
+    ]
+   }
+  ],
+  "reaction": [
+   {
+    "name": "Polymorph (Whimsy Form Only)",
+    "entries": [
+     "{@actTrigger} An enemy touches the hydra or hits it with a melee attack roll. {@actResponse} {@actSave wis} {@dc 13} The triggering creature. {@actSaveFail} The target magically transforms (as if by the {@spell Polymorph|XPHB} spell; no {@status Concentration|XPHB} required) into a {@creature Frog|XMM} until the end of its next turn."
+    ]
+   }
+  ],
+  "treasure": [
+   "none"
+  ],
+  "environment": [
+   "any"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "A",
+   "C",
+   "F",
+   "L",
+   "I"
+  ],
+  "miscTags": [
+   "MW",
+   "RCH",
+   "AOE"
+  ],
+  "savingThrowForced": [
+   "dexterity",
+   "wisdom"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Tokens/Cauldron_Hydra.webp"
+  },
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -106885,6 +107578,173 @@
   "hasFluffImages": true
  },
  {
+  "name": "Graffiti Golem",
+  "size": [
+   "M"
+  ],
+  "type": "construct",
+  "source": "ObojimaTalesYatamon",
+  "alignment": [
+   "U"
+  ],
+  "ac": [
+   14
+  ],
+  "hp": {
+   "formula": "9d8 + 27",
+   "average": 67
+  },
+  "speed": {
+   "walk": 30,
+   "climb": 30
+  },
+  "str": 11,
+  "dex": 18,
+  "con": 16,
+  "int": 3,
+  "wis": 14,
+  "cha": 1,
+  "save": {
+   "dex": "+6"
+  },
+  "skill": {
+   "perception": "+6",
+   "stealth": "+6"
+  },
+  "initiative": {
+   "proficiency": 1
+  },
+  "immune": [
+   "poison",
+   "psychic"
+  ],
+  "conditionImmune": [
+   "charmed",
+   "exhaustion",
+   "frightened",
+   "paralyzed",
+   "petrified",
+   "poisoned"
+  ],
+  "senses": [
+   "darkvision 120 ft."
+  ],
+  "senseTags": [
+   "D"
+  ],
+  "passive": 16,
+  "languages": [
+   "Understands Common plus one other language but can't speak"
+  ],
+  "languageTags": [
+   "C",
+   "X",
+   "CS"
+  ],
+  "cr": "3",
+  "trait": [
+   {
+    "name": "Death Burst",
+    "entries": [
+     "The golem bursts when it dies, covering surfaces in a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} with magical paint for 1 minute. {@actSave dex} {@dc 13} Each creature that moves across a surface in the area for the first time on a turn or starts its turn there. {@actSaveFail} The target leaves a visible paint trail where it moves for {@dice 1d12} hours. A creature can remove the paint by dousing the target in water or by manually clearing it off over the course of 1 minute."
+    ]
+   },
+   {
+    "name": "False Appearance",
+    "entries": [
+     "If the golem is motionless at the start of combat, it has {@variantrule Advantage|XPHB} on its {@variantrule Initiative|XPHB} roll. Moreover, if a creature hasn't observed the golem move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation|XPHB}) check to discern that the golem isn't ordinary graffiti."
+    ]
+   },
+   {
+    "name": "Golem Sense",
+    "entries": [
+     "The creature that created the golem can perceive through its senses, as long as they are on the same plane of existence."
+    ]
+   },
+   {
+    "name": "Immutable Form",
+    "entries": [
+     "The golem can't shapeshift."
+    ]
+   },
+   {
+    "name": "Magic Resistance",
+    "entries": [
+     "The golem has {@variantrule Advantage|XPHB} on saving throws against spells and other magical effects."
+    ]
+   },
+   {
+    "name": "Two-Dimensional Movement",
+    "entries": [
+     "The golem can only move across solid contiguous surfaces. It doesn't fill the space it is occupying (except with regard to other graffiti golems)."
+    ]
+   },
+   {
+    "name": "Water Susceptibility",
+    "entries": [
+     "The golem takes 3 ({@damage 1d6}) Cold damage for every 5 feet it moves in water or for every gallon of water splashed on it."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The golem makes two Rend attacks."
+    ]
+   },
+   {
+    "name": "Rend",
+    "entries": [
+     "{@atkr m} {@hit 6} to hit, reach 0 ft. (one target touching the surface the golem is on), one target. {@h}7 ({@damage 1d6 + 4}) Slashing damage plus 4 ({@damage 1d8}) Force damage."
+    ]
+   },
+   {
+    "name": "Graffiti Spray {@recharge 5}",
+    "entries": [
+     "A flurry of colors trails along all surfaces emanating from the golem, leaving a rainbow pattern behind. {@actSave dex} {@dc 13} Each creature touching a solid surface in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSaveFail} 10 ({@damage 3d6}) Acid, Cold, Fire, or Lightning damage (roll a {@dice d4} to determine the type for each target). {@actSaveSuccess} Half damage."
+    ]
+   }
+  ],
+  "treasure": [
+   "none"
+  ],
+  "environment": [
+   "any"
+  ],
+  "traitTags": [
+   "Death Burst",
+   "False Appearance",
+   "Immutable Form",
+   "Magic Resistance"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "S",
+   "O",
+   "A",
+   "C",
+   "F",
+   "L"
+  ],
+  "miscTags": [
+   "MW",
+   "AOE"
+  ],
+  "savingThrowForced": [
+   "dexterity"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Tokens/Graffiti_Golem.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Granite Stone Giant",
   "source": "FleeMortals",
   "page": 111,
@@ -124575,6 +125435,179 @@
   "hasFluffImages": true
  },
  {
+  "name": "Howler Skulker",
+  "size": [
+   "M"
+  ],
+  "type": {
+   "type": "monstrosity",
+   "tags": [
+    "howler"
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "alignment": [
+   "C",
+   "N"
+  ],
+  "ac": [
+   15
+  ],
+  "hp": {
+   "formula": "5d8 + 5",
+   "average": 27
+  },
+  "speed": {
+   "walk": 40,
+   "climb": 30
+  },
+  "str": 14,
+  "dex": 16,
+  "con": 12,
+  "int": 8,
+  "wis": 12,
+  "cha": 10,
+  "skill": {
+   "acrobatics": "+5",
+   "deception": "+4",
+   "sleight of hand": "+7",
+   "stealth": "+5"
+  },
+  "initiative": {
+   "proficiency": 1
+  },
+  "senses": [
+   "darkvision 60 ft."
+  ],
+  "senseTags": [
+   "D"
+  ],
+  "passive": 11,
+  "languages": [
+   "Howler"
+  ],
+  "cr": "1",
+  "trait": [
+   {
+    "name": "Ambusher",
+    "entries": [
+     "In the first round of a combat, the howler has {@variantrule Advantage|XPHB} on attack rolls against any creature that is {@status Surprised|XPHB}."
+    ]
+   },
+   {
+    "name": "Common Mimicry",
+    "entries": [
+     "The howler can mimic speech that sounds like Common (but isn't). A hearer can discern that the speech is an imitation with a successful {@dc 12} Wisdom ({@skill Insight|XPHB}) check."
+    ]
+   },
+   {
+    "name": "Deceptive Appearance",
+    "entries": [
+     "If a creature hasn't discerned the howler for what it is, that creature must take a {@action Study|XPHB} action and succeed on a {@dc 12} Intelligence ({@skill Investigation|XPHB}) check to discern that the howler isn't a Humanoid ({@creature Commoner|XMM}); the creature has {@variantrule Advantage|XPHB} on this check if it's within 30 feet of the howler."
+    ]
+   },
+   {
+    "name": "Sleep-Deprived",
+    "entries": [
+     "The howler has {@variantrule Advantage|XPHB} on saving throws it makes to avoid or end the {@condition Charmed|XPHB} and {@condition Unconscious|XPHB} conditions."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The howler makes two attacks, using Chomp, Dagger, or Hand Crossbow in any combination. It can forgo one attack to take the {@action Hide|XPHB} action."
+    ]
+   },
+   {
+    "name": "Chomp",
+    "entries": [
+     "{@atkr m} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) Piercing damage."
+    ]
+   },
+   {
+    "name": "Dagger",
+    "entries": [
+     "{@atkr m,r} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) Piercing damage plus 7 ({@damage 2d6}) Poison damage."
+    ]
+   },
+   {
+    "name": "Hand Crossbow",
+    "entries": [
+     "{@atkr r} {@hit 5} to hit, range 30/120 ft., one target. {@h}6 ({@damage 1d6 + 3}) Piercing damage plus 7 ({@damage 2d6}) Poison damage."
+    ]
+   }
+  ],
+  "bonus": [
+   {
+    "name": "Deft Escape",
+    "entries": [
+     "The howler takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action."
+    ]
+   }
+  ],
+  "reaction": [
+   {
+    "name": "Discouraging Chuckle",
+    "entries": [
+     "{@actTrigger} A creature misses the howler with an attack. {@actResponse} The next time the attacker makes an ability check or an attack roll before the end of its next turn, it must subtract {@dice 1d4} from the total."
+    ]
+   }
+  ],
+  "variant": [
+   {
+    "name": "Disposition: Skittish",
+    "type": "variant",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "HP below 15",
+      "entries": [
+       "The howler can immediately attempt to escape from an effect that prevents it from moving, making an ability check or saving throw as needed. If able, it then moves up to its {@variantrule Speed|XPHB} without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks}."
+      ]
+     }
+    ],
+    "_version": {
+     "name": "Howler Skulker (Skittish)",
+     "addAs": "reaction"
+    }
+   }
+  ],
+  "gear": [
+   "Dagger|XPHB",
+   "Hand Crossbow|XPHB",
+   "Studded Leather Armor|XPHB",
+   "Thieves' Tools|XPHB"
+  ],
+  "treasure": [
+   "any"
+  ],
+  "environment": [
+   "cave",
+   "forest",
+   "urban"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "P",
+   "I"
+  ],
+  "miscTags": [
+   "MW",
+   "RW"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Tokens/Howler_Skulker.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Howler Snarler",
   "source": "ObojimaTallGrass",
   "page": 298,
@@ -130165,6 +131198,115 @@
   "savingThrowForced": [
    "constitution"
   ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Infected Beast",
+  "size": [
+   "G"
+  ],
+  "type": "monstrosity",
+  "source": "ObojimaTalesYatamon",
+  "alignment": [
+   "C",
+   "E"
+  ],
+  "ac": [
+   15
+  ],
+  "hp": {
+   "formula": "8d20 + 24",
+   "average": 108
+  },
+  "speed": {
+   "walk": 30
+  },
+  "str": 19,
+  "dex": 16,
+  "con": 17,
+  "int": 10,
+  "wis": 14,
+  "cha": 11,
+  "conditionImmune": [
+   "blinded",
+   "deafened"
+  ],
+  "senses": [
+   "blindsight 30 ft."
+  ],
+  "senseTags": [
+   "B"
+  ],
+  "passive": 10,
+  "languages": [
+   "Common",
+   "Torum"
+  ],
+  "languageTags": [
+   "C",
+   "X"
+  ],
+  "cr": "6",
+  "trait": [
+   {
+    "name": "Demonic Control",
+    "entries": [
+     "If the infected beast dies, its pilot leech detaches and takes a {@variantrule Reaction|XPHB} to move up to its {@variantrule Speed|XPHB}. If the leech dies, the Beast is no longer infected, and it drops to 0 {@variantrule Hit Points|XPHB} but is {@variantrule Stable|XPHB}. A Beast that is no longer infected returns to its normal form over the course of 30 days."
+    ]
+   },
+   {
+    "name": "Kojo Aversion",
+    "entries": [
+     "If the infected beast consumes an entire {@item Kojo Root|ObojimaTallGrass}, its pilot leech is repulsed. {@actSave con} {@dc 10} The infected beast. {@actSaveFail} The pilot leech immediately detaches."
+    ]
+   },
+   {
+    "name": "Leech Weakness",
+    "entries": [
+     "The pilot leech attached to the infected beast has its own pool of 10 {@variantrule Hit Points|XPHB}. It can't be targeted directly, but if the infected beast is subjected to Psychic damage, the leech takes that damage instead."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The infected beast makes two Natural Weapon attacks."
+    ]
+   },
+   {
+    "name": "Natural Weapon",
+    "entries": [
+     "{@atkr m} {@hit 7} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d8 + 4}) Bludgeoning, Piercing, or Slashing damage (as appropriate for the infected beast)."
+    ]
+   }
+  ],
+  "treasure": [
+   "none"
+  ],
+  "environment": [
+   "any"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "B",
+   "P",
+   "S"
+  ],
+  "miscTags": [
+   "MW"
+  ],
+  "savingThrowForced": [
+   "constitution"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Tokens/Infected_Beast.webp"
+  },
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -146086,6 +147228,152 @@
   "hasFluffImages": true
  },
  {
+  "name": "Lanternback Turtle",
+  "size": [
+   "L"
+  ],
+  "type": "monstrosity",
+  "source": "ObojimaTalesYatamon",
+  "alignment": [
+   "U"
+  ],
+  "ac": [
+   15
+  ],
+  "hp": {
+   "formula": "6d10 + 12",
+   "average": 45
+  },
+  "speed": {
+   "walk": 20,
+   "swim": 40
+  },
+  "str": 17,
+  "dex": 6,
+  "con": 14,
+  "int": 5,
+  "wis": 15,
+  "cha": 4,
+  "skill": {
+   "perception": "+4"
+  },
+  "initiative": {
+   "proficiency": 1
+  },
+  "immune": [
+   "radiant"
+  ],
+  "passive": 14,
+  "languages": [
+   "Understands Torum but can't speak"
+  ],
+  "languageTags": [
+   "X",
+   "CS"
+  ],
+  "cr": "2",
+  "trait": [
+   {
+    "name": "Hold Breath",
+    "entries": [
+     "The turtle can hold its breath for 2 hours."
+    ]
+   },
+   {
+    "name": "Prone Susceptibility",
+    "entries": [
+     "If the turtle has the {@condition Prone|XPHB} condition on land, it can't move. To end the condition, it must spend all of its movement to right itself, rather than an amount equal to half its {@variantrule Speed|XPHB}."
+    ]
+   },
+   {
+    "name": "Radiant Illumination",
+    "entries": [
+     "The turtle sheds {@variantrule Bright Light|XPHB} in a 30-foot radius and {@variantrule Dim Light|XPHB} for an additional 30 feet. A creature that starts its turn in the {@variantrule Bright Light|XPHB} or enters the area for the first time on a turn takes 3 ({@damage 1d6}) Radiant damage. The turtle can choose to produce only its {@variantrule Dim Light|XPHB} in a 30-foot radius or resume shedding its {@variantrule Bright Light|XPHB} and {@variantrule Dim Light|XPHB} (no action required)."
+    ]
+   },
+   {
+    "name": "Realm Projection",
+    "entries": [
+     "While the turtle is only shedding {@variantrule Dim Light|XPHB}, it can choose to project an illusory copy of the Spirit Realm where it overlaps the turtle's {@variantrule Dim Light|XPHB}, including creatures and objects on that plane. It is clear that the projection is an illusion, retaining a faint warm glow from the turtle's light."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The turtle makes two attacks, using Chomp or Lantern Bolt in any combination."
+    ]
+   },
+   {
+    "name": "Chomp",
+    "entries": [
+     "{@atkr m} {@hit 5} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d8}) Piercing damage."
+    ]
+   },
+   {
+    "name": "Lantern Bolt",
+    "entries": [
+     "{@atkr r} {@hit 4} to hit, range 60 ft., one target. {@h}7 ({@damage 2d6}) Radiant damage."
+    ]
+   },
+   {
+    "name": "Repelling Flare",
+    "entries": [
+     "{@actSave con} {@dc 12} Each creature within the turtle's {@variantrule Bright Light|XPHB}. {@actSaveFail} The target has the {@condition Pacified|XPHB} condition until the end of the turtle's next turn. {@actSaveSuccessOrFail} The turtle's Radiant Illumination trait ceases to function until the end of its next turn, and it can't use its Lantern Bolt for the duration."
+    ]
+   }
+  ],
+  "bonus": [
+   {
+    "name": "Aggressive Rotation",
+    "entries": [
+     "While in the water, the turtle automatically escapes from up to two grapples. {@actSave dex} {@dc 13} The grapplers. {@actSaveFail} 3 ({@damage 1d6}) Bludgeoning damage, and the target has the {@condition Prone|XPHB} condition."
+    ]
+   }
+  ],
+  "treasure": [
+   "none"
+  ],
+  "environment": [
+   "forest",
+   "grassland",
+   "hill",
+   "swamp",
+   "underwater"
+  ],
+  "traitTags": [
+   "Hold Breath"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "P",
+   "R",
+   "B"
+  ],
+  "miscTags": [
+   "MW",
+   "RW"
+  ],
+  "conditionInflict": [
+   "pacified",
+   "prone"
+  ],
+  "savingThrowForced": [
+   "constitution",
+   "dexterity"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Tokens/Lanternback_Turtle.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Last Memory",
   "source": "MonstersOfDrakkenheim",
   "page": 63,
@@ -153039,6 +154327,303 @@
   "hasFluffImages": true
  },
  {
+  "name": "Living Memory",
+  "size": [
+   "M"
+  ],
+  "type": "construct",
+  "source": "ObojimaTalesYatamon",
+  "alignment": [
+   "N"
+  ],
+  "ac": [
+   15
+  ],
+  "hp": {
+   "formula": "16d8 + 24",
+   "average": 96
+  },
+  "speed": {
+   "walk": 30
+  },
+  "str": 16,
+  "dex": 16,
+  "con": 16,
+  "int": 7,
+  "wis": 8,
+  "cha": 10,
+  "skill": {
+   "intimidation": "+5 (Fury)",
+   "performance": "+4 (Joy)",
+   "stealth": "+5 (Sorrow)"
+  },
+  "vulnerable": [
+   "psychic"
+  ],
+  "immune": [
+   "poison"
+  ],
+  "conditionImmune": [
+   "blinded",
+   "exhaustion",
+   "frightened",
+   "poisoned"
+  ],
+  "senses": [
+   "blindsight 30 ft."
+  ],
+  "senseTags": [
+   "B"
+  ],
+  "passive": 15,
+  "languages": [
+   "Understands Common but can't speak"
+  ],
+  "languageTags": [
+   "C",
+   "CS"
+  ],
+  "cr": "4",
+  "trait": [
+   {
+    "name": "Emotional",
+    "entries": [
+     "The living memory can use its Impulsive Reactions (triggered by its Disposition) without taking a {@variantrule Reaction|XPHB}."
+    ]
+   },
+   {
+    "name": "Not Yourself (Fury Only)",
+    "entries": [
+     "{@actSave wis} {@dc 13} The first creature the living memory deals damage to each turn. {@actSaveFail} The target must take the {@action Attack|XPHB} action on its next turn."
+    ]
+   },
+   {
+    "name": "Overwhelming Aura (Joy Only)",
+    "entries": [
+     "{@actSave int} {@dc 15} The first time a creature sees the living memory on each of its turns. {@actSaveFail} The target has the {@condition Pacified|XPHB} condition until the end of its turn."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The living memory makes two Slam attacks."
+    ]
+   },
+   {
+    "name": "Slam",
+    "entries": [
+     "{@atkr m} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) Bludgeoning damage."
+    ]
+   },
+   {
+    "name": "Mental Haze {@recharge 6}",
+    "entries": [
+     "The living memory emits a near-undetectable mental static that passes over nearby creatures. {@actSave wis} {@dc 13} Each creature of the living memory's choice in a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the living memory. {@actSaveFail} The target has the {@condition Charmed|XPHB} condition for 1 minute. While {@condition Charmed|XPHB}, the target has the {@condition Incapacitated|XPHB} condition and a {@variantrule Speed|XPHB} of 0. The effect ends for the target if it takes any damage or if another creature uses an action to shake the creature out of its stupor."
+    ]
+   }
+  ],
+  "bonus": [
+   {
+    "name": "Misery Loves Company (Sorrow Only)",
+    "entries": [
+     "The living memory creates a statuelike copy of itself in an unoccupied space within 5 feet of it. This copy is immobile and is easily understood to be a lifeless duplicate. The copy can be dispelled as if it were created by a level 3 spell, and it's destroyed after 1 hour or when it takes 10 or more damage from a single source. The living memory gains a +1 bonus to all its save DCs for each of its copies within 300 feet of it, to a maximum of {@dc 16}."
+    ]
+   }
+  ],
+  "variant": [
+   {
+    "name": "Disposition: Joy",
+    "type": "variant",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "HP below 90",
+      "entries": [
+       "{@actSave wis} {@dc 15} Last creature dealt damage when this Impulsive Reaction was triggered. {@actSaveFail} The target has the {@condition Charmed|XPHB} condition for 1 minute."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "HP below 75",
+      "entries": [
+       "The save DC for Overwhelming Aura decreases to 14."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "HP below 60",
+      "entries": [
+       "The living memory cast {@spell Otto's Irresistible Dance|XPHB|Irresistible Dance}, using Constitution as the spellcasting ability (spell save {@dc 14}); when cast in this way, the spell doesn't require {@status Concentration|XPHB}."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "HP below 45",
+      "entries": [
+       "The save DC for Overwhelming Aura decreases to 13."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "HP below 30",
+      "entries": [
+       "The living memory uses Mental Haze and then moves up to its {@variantrule Speed|XPHB}. Creatures affected by this version of Mental Haze dance in place while {@condition Charmed|XPHB}."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "HP below 10",
+      "entries": [
+       "The living memory moves up to its {@variantrule Speed|XPHB}."
+      ]
+     }
+    ],
+    "_version": {
+     "name": "Living Memory (Joy)",
+     "addAs": "reaction"
+    }
+   },
+   {
+    "name": "Disposition: Sorrow",
+    "type": "variant",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "HP below 90",
+      "entries": [
+       "{@actSave wis} {@dc 13} Each creature in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the living memory. {@actSaveFail} On the target's next turn, it can take either an action of a {@variantrule Bonus Action|XPHB}, not both."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "HP below 75",
+      "entries": [
+       "The living memory immediately uses its Misery Loves Company ability twice."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "HP below 60",
+      "entries": [
+       "{@actSave wis} {@dc 13} The creature that reduced the living memory past this Threshold. {@actSaveFail} The target gains 1 {@condition Exhaustion|XPHB} level."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "HP below 45",
+      "entries": [
+       "The living memory moves up to its {@variantrule Speed|XPHB} and takes the {@action Hide|XPHB} action."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "HP below 30",
+      "entries": [
+       "Each enemy in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from The living memory and its statue-like copies takes a -10 penalty to its {@variantrule Initiative|XPHB} count for the resto of the combat."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "HP below 10",
+      "entries": [
+       "The living memory moves up to its {@variantrule Speed|XPHB}."
+      ]
+     }
+    ],
+    "_version": {
+     "name": "Living Memory (Sorrow)",
+     "addAs": "reaction"
+    }
+   },
+   {
+    "name": "Disposition: Fury",
+    "type": "variant",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "HP below 90",
+      "entries": [
+       "The living memory moves up to half its {@variantrule Speed|XPHB} and makes one Slam attack."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "HP below 75",
+      "entries": [
+       "{@actSave wis} {@dc 13} Each creature in a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the living memory. {@actSaveFail} The target has the {@condition Frightened|XPHB} condition until the end of its next turn."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "HP below 60",
+      "entries": [
+       "The creature that reduced the living memory past this Threshold takes 16 ({@damage 3d10}) Psychic damage. Until the end of the living memory's next turn, that creature has {@variantrule Vulnerability|XPHB} to damage dealt by the living memory."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "HP below 45",
+      "entries": [
+       "The living memory makes up to three Slam attacks against objects and structures within its reach."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "HP below 30",
+      "entries": [
+       "The living memory moves up to its {@variantrule Speed|XPHB} and makes a Slam attack against up to two different targets."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "HP below 10",
+      "entries": [
+       "The living memory moves up to its {@variantrule Speed|XPHB} toward the enemy that has the fewest {@variantrule Hit Points|XPHB} within that distance and then makes a Slam attack against it."
+      ]
+     }
+    ],
+    "_version": {
+     "name": "Living Memory (Fury)",
+     "addAs": "reaction"
+    }
+   }
+  ],
+  "treasure": [
+   "any"
+  ],
+  "environment": [
+   "any"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "B"
+  ],
+  "miscTags": [
+   "MW",
+   "AOE"
+  ],
+  "conditionInflict": [
+   "pacified",
+   "charmed",
+   "incapacitated"
+  ],
+  "savingThrowForced": [
+   "wisdom",
+   "intelligence"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Tokens/Living_Memory.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Living Wick",
   "source": "ToB1-2023",
   "page": 257,
@@ -159449,6 +161034,244 @@
   "hasFluff": true
  },
  {
+  "name": "Mageguard Sphere",
+  "source": "DnDBeyondDrops",
+  "page": "2026-09-03",
+  "size": [
+   "T"
+  ],
+  "type": "construct",
+  "alignment": [
+   "U"
+  ],
+  "ac": [
+   14
+  ],
+  "hp": {
+   "average": 42,
+   "formula": "12d4 + 12"
+  },
+  "speed": {
+   "walk": 10,
+   "fly": {
+    "number": 40,
+    "condition": "(hover)"
+   },
+   "canHover": true
+  },
+  "str": 4,
+  "dex": 16,
+  "con": 13,
+  "int": 6,
+  "wis": 10,
+  "cha": 6,
+  "senses": [
+   "Darkvision 60 ft."
+  ],
+  "passive": 10,
+  "immune": [
+   "poison"
+  ],
+  "conditionImmune": [
+   "charmed",
+   "exhaustion",
+   "frightened",
+   "paralyzed",
+   "petrified",
+   "poisoned"
+  ],
+  "languages": [
+   "Common"
+  ],
+  "cr": "2",
+  "trait": [
+   {
+    "name": "Magic Resistance",
+    "entries": [
+     "The mageguard sphere has {@variantrule Advantage|XPHB} on saving throws against spells and other magical effects."
+    ]
+   },
+   {
+    "name": "Spell Storing",
+    "entries": [
+     "A spellcaster bonded to the mageguard sphere can cause it to store one spell of level 2 or lower. To do so, the bonded spellcaster must cast the spell on the sphere while within 5 feet of it. The spell has no effect but is stored within the sphere. Any previously stored spell is lost when a new spell is stored. The sphere can cast the spell stored with any parameters set by the original caster, requiring no spell components and using the caster's spellcasting ability. The stored spell is then lost."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The mageguard sphere makes two Force Burst attacks."
+    ]
+   },
+   {
+    "name": "Force Burst",
+    "entries": [
+     "{@atkr m,r} {@hit 5}, reach 5 ft. or range 60 ft. {@h}12 ({@damage 2d8 + 3}) Force damage."
+    ]
+   }
+  ],
+  "reaction": [
+   {
+    "name": "Magical Redirection",
+    "entries": [
+     "{@actTrigger} A spell or other magical effect targets the bonded spellcaster while the bonded spellcaster is within 10 feet of the mageguard sphere. {@actResponse} The mageguard sphere becomes the target instead. If the redirected spell or magical effect used a spell slot, the mageguard sphere also regains 1 {@variantrule Hit Points|XPHB|Hit Point} per spell slot."
+    ]
+   }
+  ],
+  "environment": [
+   "any"
+  ],
+  "traitTags": [
+   "Magic Resistance"
+  ],
+  "senseTags": [
+   "D"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "languageTags": [
+   "C"
+  ],
+  "damageTags": [
+   "O"
+  ],
+  "miscTags": [
+   "MA",
+   "RA"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Magiplasm",
+  "source": "DnDBeyondDrops",
+  "page": "2026-09-03",
+  "size": [
+   "M"
+  ],
+  "type": "ooze",
+  "alignment": [
+   "U"
+  ],
+  "ac": [
+   10
+  ],
+  "hp": {
+   "average": 150,
+   "formula": "20d8 + 60"
+  },
+  "speed": {
+   "walk": 30,
+   "climb": 30
+  },
+  "str": 20,
+  "dex": 10,
+  "con": 17,
+  "int": 6,
+  "wis": 12,
+  "cha": 6,
+  "save": {
+   "con": "+7",
+   "wis": "+5"
+  },
+  "senses": [
+   "Blindsight 60 ft."
+  ],
+  "passive": 11,
+  "immune": [
+   "acid"
+  ],
+  "conditionImmune": [
+   "charmed",
+   "deafened",
+   "exhaustion",
+   "grappled",
+   "prone",
+   "restrained"
+  ],
+  "languages": [
+   "understands commands given in any language but can't speak"
+  ],
+  "cr": "9",
+  "trait": [
+   {
+    "name": "Amorphous",
+    "entries": [
+     "The magiplasm can move through a space as narrow as 1 inch without expending extra movement to do so."
+    ]
+   },
+   {
+    "name": "Spider Climb",
+    "entries": [
+     "The magiplasm can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The magiplasm makes two Slam attacks and uses Smother."
+    ]
+   },
+   {
+    "name": "Slam",
+    "entries": [
+     "{@atkr m} {@hit 9}, reach 5 ft. {@h}14 ({@damage 2d8 + 5}) Bludgeoning damage plus 4 ({@damage 1d8}) Acid damage."
+    ]
+   },
+   {
+    "name": "Smother",
+    "entries": [
+     "{@actSave str} {@dc 17}, one Medium or smaller creature within 5 feet. {@actSaveFail} The target takes 22 ({@damage 5d8}) Acid damage and has the {@condition Grappled|XPHB} condition (escape {@dc 17}). Until the grapple ends, the target has the {@condition Blinded|XPHB} and {@condition Restrained|XPHB} conditions, is suffocating, and takes 9 ({@damage 1d8 + 5}) Acid damage at the start of each of its turns. The magiplasm can only smother one creature at a time."
+    ]
+   }
+  ],
+  "reaction": [
+   {
+    "name": "Transfer Magic",
+    "entries": [
+     "{@actTrigger} The magiplasm is smothering a creature and takes damage from a spell of level 5 or lower or a magical effect. {@actResponse} The engulfed target takes the same amount of damage and the magiplasm reduces the damage it takes from the triggering spell or magical effect to 0."
+    ]
+   }
+  ],
+  "environment": [
+   "any"
+  ],
+  "traitTags": [
+   "Amorphous",
+   "Spider Climb"
+  ],
+  "senseTags": [
+   "B"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "languageTags": [
+   "CS",
+   "X"
+  ],
+  "damageTags": [
+   "A",
+   "B"
+  ],
+  "miscTags": [
+   "MA"
+  ],
+  "conditionInflict": [
+   "grappled"
+  ],
+  "savingThrowForced": [
+   "strength"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Magma Elemental",
   "source": "DnDBeyondDrops",
   "page": "2026-07-02",
@@ -164970,6 +166793,111 @@
   "savingThrowForced": [
    "charisma"
   ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Melon Bird",
+  "size": [
+   "T"
+  ],
+  "type": "plant",
+  "source": "ObojimaTalesYatamon",
+  "alignment": [
+   "U"
+  ],
+  "ac": [
+   13
+  ],
+  "hp": {
+   "formula": "3d4 + 3",
+   "average": 10
+  },
+  "speed": {
+   "walk": 10,
+   "fly": 30
+  },
+  "str": 13,
+  "dex": 14,
+  "con": 12,
+  "int": 3,
+  "wis": 10,
+  "cha": 5,
+  "conditionImmune": [
+   "blinded",
+   "deafened"
+  ],
+  "senses": [
+   "blindsight 30 ft."
+  ],
+  "senseTags": [
+   "B"
+  ],
+  "passive": 10,
+  "cr": "1/8",
+  "trait": [
+   {
+    "name": "Death Burst",
+    "entries": [
+     "The melon bird explodes when it dies, creating {@variantrule Difficult Terrain|XPHB} in a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} on the ground below it, which lasts for 1 minute. When a creature moves into or within this {@variantrule Difficult Terrain|XPHB} for the first time on a turn, it must succeed on a {@dc 11} Dexterity saving throw or have the {@condition Prone|XPHB} condition."
+    ]
+   },
+   {
+    "name": "False Appearance",
+    "entries": [
+     "If the melon bird is motionless at the start of combat, it has {@variantrule Advantage|XPHB} on its {@variantrule Initiative|XPHB} roll. Moreover, if a creature hasn't observed the melon bird move or act, that creature must succeed on a {@dc 18} Intelligence ({@skill Investigation|XPHB}) check to discern that the melon bird isn't an ordinary melon."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Slam",
+    "entries": [
+     "{@atkr m} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) Bludgeoning damage. If the target is a Medium or smaller creature and the melon bird moved 20+ feet straight toward it immediately before the hit, the target has the {@condition Prone|XPHB} condition."
+    ]
+   }
+  ],
+  "bonus": [
+   {
+    "name": "Seed Flourish {@recharge 4}",
+    "entries": [
+     "The melon bird spins rapidly, spitting seeds around itself. {@actSave dex} {@dc 11} Each creature in a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the melon bird. {@actSaveFail} The target takes 1 Bludgeoning damage. {@actSaveSuccessOrFail} The target can't make an {@action Opportunity Attack|XPHB} against the melon bird for the rest of the turn."
+    ]
+   }
+  ],
+  "treasure": [
+   "none"
+  ],
+  "environment": [
+   "coastal",
+   "desert",
+   "forest",
+   "grassland",
+   "hill",
+   "urban"
+  ],
+  "traitTags": [
+   "Death Burst",
+   "False Appearance"
+  ],
+  "damageTags": [
+   "B"
+  ],
+  "miscTags": [
+   "MW",
+   "AOE"
+  ],
+  "conditionInflict": [
+   "prone"
+  ],
+  "savingThrowForced": [
+   "dexterity"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Tokens/Melon_Bird.webp"
+  },
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -190541,6 +192469,111 @@
   "hasFluffImages": true
  },
  {
+  "name": "Pilot Leech",
+  "size": [
+   "T"
+  ],
+  "type": {
+   "type": "fiend",
+   "tags": [
+    "Demon"
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "alignment": [
+   "C",
+   "E"
+  ],
+  "ac": [
+   12
+  ],
+  "hp": {
+   "formula": "3d4 + 3",
+   "average": 10
+  },
+  "speed": {
+   "walk": 10,
+   "swim": 10
+  },
+  "str": 3,
+  "dex": 14,
+  "con": 12,
+  "int": 10,
+  "wis": 14,
+  "cha": 11,
+  "skill": {
+   "stealth": "+6"
+  },
+  "immune": [
+   "acid",
+   "bludgeoning",
+   "cold",
+   "fire",
+   "force",
+   "lightning",
+   "necrotic",
+   "piercing",
+   "poison",
+   "radiant",
+   "slashing",
+   "thunder"
+  ],
+  "conditionImmune": [
+   "blinded",
+   "deafened",
+   "exhaustion",
+   "unconscious"
+  ],
+  "senses": [
+   "blindsight 30 ft."
+  ],
+  "senseTags": [
+   "B"
+  ],
+  "passive": 12,
+  "languages": [
+   "Understands Common and Torum but can't speak"
+  ],
+  "languageTags": [
+   "C",
+   "X",
+   "CS"
+  ],
+  "cr": "0",
+  "trait": [
+   {
+    "name": "Bestial Shroud",
+    "entries": [
+     "Beasts have {@variantrule Disadvantage|XPHB} on Wisdom ({@skill Perception|XPHB}) checks to detect the leech."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Infect",
+    "entries": [
+     "{@actSave int} {@dc 11} One Beast within 5 feet of the leech. {@actSaveFail} The leech attaches itself to the target, infecting it. The leech controls the target, and can't be targeted by any attack or effect. They share the statistics of an infected beast but temporarily retain the Beast's original size; its size increases by one category every 24 hours until it is Gargantuan."
+    ]
+   }
+  ],
+  "treasure": [
+   "none"
+  ],
+  "environment": [
+   "any"
+  ],
+  "savingThrowForced": [
+   "intelligence"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Tokens/Pilot_Leech.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Piper Tenderfoot",
   "shortName": "Piper",
   "isNpc": true,
@@ -192671,6 +194704,163 @@
    "RNG",
    "RW"
   ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Postal Knight Cavalry",
+  "size": [
+   "S",
+   "M"
+  ],
+  "type": "humanoid",
+  "source": "ObojimaTalesYatamon",
+  "alignment": [
+   "L",
+   "G"
+  ],
+  "ac": [
+   16
+  ],
+  "hp": {
+   "formula": "6d8 + 6",
+   "average": 33
+  },
+  "speed": {
+   "walk": 30
+  },
+  "str": 16,
+  "dex": 14,
+  "con": 12,
+  "int": 11,
+  "wis": 13,
+  "cha": 13,
+  "skill": {
+   "athletics": "+5",
+   "intimidation": "+3",
+   "perception": "+5",
+   "survival": "+5"
+  },
+  "passive": 15,
+  "languages": [
+   "Common plus one other language"
+  ],
+  "languageTags": [
+   "C",
+   "X"
+  ],
+  "cr": "1",
+  "trait": [
+   {
+    "name": "Secretary's Swiftness",
+    "entries": [
+     "While mounted, the postal knight has {@variantrule Advantage|XPHB} on Dexterity saving throws and on any ability check it makes to remain mounted."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The postal knight makes two attacks, using Field Spear, Longsword, or Light Crossbow in any combination. Alternatively, the postal knight can make its mount attack twice."
+    ]
+   },
+   {
+    "name": "Field Spear",
+    "entries": [
+     "{@atkr m,r} {@hit 5} to hit, reach 5 ft. or range 30/90 ft., one target. {@h}6 ({@damage 1d6 + 3}) Slashing damage."
+    ]
+   },
+   {
+    "name": "Longsword",
+    "entries": [
+     "{@atkr m} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) Slashing damage."
+    ]
+   },
+   {
+    "name": "Light Crossbow",
+    "entries": [
+     "{@atkr r} {@hit 4} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d8 + 2}) Piercing damage."
+    ]
+   }
+  ],
+  "bonus": [
+   {
+    "name": "Package Snatch",
+    "entries": [
+     "While mounted, the postal knight picks up and carries an ally or object within its reach that weighs no more than 250 pounds, provided it has a hand free to grab the target; the target's weight counts toward the mount's carrying capacity rather than the postal knight's. If the target is an object that is being worn or carried by an unwilling creature, that creature can make a {@dc 13} Strength or Dexterity saving throw (it chooses which), preventing the object from being taken on a success. The postal knight can choose to release the target at any time (no action required.)"
+    ]
+   }
+  ],
+  "reaction": [
+   {
+    "name": "Brother in Arms",
+    "entries": [
+     "{@actTrigger} A friendly creature within 5 feet of the postal knight takes damage. {@actResponse} The postal knight and the target each take half of the damage dealt, splitting the damage between them."
+    ]
+   }
+  ],
+  "variant": [
+   {
+    "name": "Disposition: Selfless",
+    "type": "variant",
+    "entries": [
+     {
+      "name": "HP below 25",
+      "type": "entries",
+      "entries": [
+       "The postal knight moves up to its {@variantrule Speed|XPHB} if mounted, toward an enemy. If the postal knight ends this movement within 5 feet of an enemy it can make a melee attack against that creature. {@hom} that creature has {@variantrule Advantage|XPHB} on the next attack roll it makes against the postal knight before the end of its next turn."
+      ]
+     },
+     {
+      "name": "HP below 5",
+      "type": "entries",
+      "entries": [
+       "The postal knight dismounts (if it's mounted) and it commands its mount to immediately move up to its {@variantrule Speed|XPHB} without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks}."
+      ]
+     }
+    ],
+    "_version": {
+     "name": "Postal Knight Cavalry (Selfless)",
+     "addAs": "reaction"
+    }
+   }
+  ],
+  "gear": [
+   "Breastplate|XPHB",
+   "Exotic Saddle|XPHB",
+   "Explorer's Pack|XPHB",
+   "Light Crossbow|XPHB",
+   "Longsword|XPHB",
+   "Spear|XPHB"
+  ],
+  "treasure": [
+   "any"
+  ],
+  "environment": [
+   "any"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "S",
+   "P"
+  ],
+  "miscTags": [
+   "MW",
+   "RW",
+   "THW"
+  ],
+  "savingThrowForced": [
+   "strength",
+   "dexterity"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Tokens/Postal_Knight_Cavalry.webp"
+  },
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -216995,6 +219185,133 @@
   }
  },
  {
+  "name": "Scrap Demon Swarm",
+  "size": [
+   "M"
+  ],
+  "type": {
+   "type": "swarm",
+   "tags": [
+    "fiend",
+    "Demon"
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "alignment": [
+   "N",
+   "E"
+  ],
+  "ac": [
+   14
+  ],
+  "hp": {
+   "formula": "5d8 + 10",
+   "average": 32
+  },
+  "speed": {
+   "walk": 30,
+   "climb": 30
+  },
+  "str": 12,
+  "dex": 15,
+  "con": 14,
+  "int": 9,
+  "wis": 11,
+  "cha": 8,
+  "vulnerable": [
+   "lightning"
+  ],
+  "resist": [
+   "bludgeoning",
+   "piercing",
+   "slashing"
+  ],
+  "conditionImmune": [
+   "charmed",
+   "frightened",
+   "grappled",
+   "paralyzed",
+   "petrified",
+   "prone",
+   "restrained",
+   "stunned"
+  ],
+  "senses": [
+   "darkvision 60 ft."
+  ],
+  "senseTags": [
+   "D"
+  ],
+  "passive": 10,
+  "cr": "2",
+  "trait": [
+   {
+    "name": "Insatiable Appetite",
+    "entries": [
+     "If the swarm ends its turn in the same space it started, it can choose to consume any Medium or smaller nonmagical objects of its choice in a 5-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} within 5 feet of it, provided they aren't being worn or carried. If an object is larger than that (such as a wall or a door), it eats through a 5-{@variantrule Cube [Area of Effect]|XPHB|Cube} portion of the object, but it stops if it eats through 1 foot of stone, dirt, or wood; or 1 inch of metal. If an object is destroyed in this way, the swarm regains 3 {@variantrule Hit Points|XPHB}."
+    ]
+   },
+   {
+    "name": "Spry Body",
+    "entries": [
+     "Nonmagical {@variantrule Difficult Terrain|XPHB} doesn't cost the swarm extra movement."
+    ]
+   },
+   {
+    "name": "Swarm",
+    "entries": [
+     "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny mouse. The swarm can't regain {@variantrule Hit Points|XPHB} or gain {@variantrule Temporary Hit Points|XPHB}, except via its Insatiable Appetite and Deteriorate abilities."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Chomps",
+    "entries": [
+     "{@atkr m} {@hit 4} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d8 + 2}) Piercing damage—or 6 ({@damage 1d8 + 2}) Piercing damage if the swarm is {@status Bloodied|XPHB}—plus 7 ({@damage 2d6}) Necrotic damage."
+    ]
+   },
+   {
+    "name": "Static",
+    "entries": [
+     "{@atkr r} {@hit 4} to hit, range 15 ft., one target. {@h}14 ({@damage 4d6}) Lightning damage, or 7 ({@damage 2d6}) Lightning damage if the swarm is {@status Bloodied|XPHB}."
+    ]
+   },
+   {
+    "name": "Deteriorate {@recharge 6}",
+    "entries": [
+     "{@actSave dex} {@dc 12} Each creature and structure in a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the swarm. {@actSaveFail} 14 ({@damage 4d6}) Necrotic damage. {@actSaveSuccess} Half damage. {@actSaveSuccessOrFail} If a structure collapses due to this damage, the swarm gains 10 {@variantrule Temporary Hit Points|XPHB}."
+    ]
+   }
+  ],
+  "treasure": [
+   "none"
+  ],
+  "environment": [
+   "urban"
+  ],
+  "damageTags": [
+   "P",
+   "N",
+   "L"
+  ],
+  "miscTags": [
+   "MW",
+   "RW",
+   "AOE"
+  ],
+  "savingThrowForced": [
+   "dexterity"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Tokens/Scrap_Demon_Swarm.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Scrap Reautomata",
   "source": "MonstersOfDrakkenheim",
   "page": 210,
@@ -218491,6 +220808,109 @@
   "savingThrowForced": [
    "strength"
   ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Secretary Bird",
+  "size": [
+   "L"
+  ],
+  "type": "beast",
+  "source": "ObojimaTalesYatamon",
+  "alignment": [
+   "U"
+  ],
+  "ac": [
+   13
+  ],
+  "hp": {
+   "formula": "4d10 + 4",
+   "average": 26
+  },
+  "speed": {
+   "walk": 60
+  },
+  "str": 14,
+  "dex": 16,
+  "con": 13,
+  "int": 2,
+  "wis": 11,
+  "cha": 5,
+  "skill": {
+   "perception": "+4"
+  },
+  "resist": [
+   "poison"
+  ],
+  "passive": 14,
+  "cr": "1/2",
+  "trait": [
+   {
+    "name": "Leaping Glide",
+    "entries": [
+     "While the bird is falling and doesn't have the {@condition Incapacitated|XPHB} condition, it descends at a rate of 10 feet per round and can travel up to its {@variantrule Speed|XPHB} horizontally, and it takes no damage from the fall."
+    ]
+   },
+   {
+    "name": "Sturdy",
+    "entries": [
+     "The bird has {@variantrule Advantage|XPHB} on saving throws to avoid the {@condition Prone|XPHB} condition and to avoid being pushed, pulled, or otherwise moved against its will."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Stomp",
+    "entries": [
+     "{@atkr m} {@hit 4} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) Bludgeoning damage. If the target is a Large or smaller creature and the bird moved 20+ feet straight toward it immediately before the hit, the target has the {@condition Prone|XPHB} condition. {@hom} The bird doesn't provoke {@action Opportunity Attack|XPHB|Opportunity Attacks} for the rest of the turn."
+    ]
+   }
+  ],
+  "variant": [
+   {
+    "name": "Disposition: Enraged",
+    "type": "variant",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "HP below 15",
+      "entries": [
+       "The bird jumps up to 20 feet in the air. It then glides up to its {@variantrule Speed|XPHB}, as per its Leaping Glide trait. It can end this movement eartly to slam back to the ground, kicking up a cloud of dust. Each creature in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the bird must succeed on a {@dc 12} Constitution saving throw or have the {@condition Blinded|XPHB} condition until the end of the bir's next turn."
+      ]
+     }
+    ],
+    "_version": {
+     "name": "Secretary Bird (Enraged)",
+     "addAs": "reaction"
+    }
+   }
+  ],
+  "treasure": [
+   "none"
+  ],
+  "environment": [
+   "coastal",
+   "desert",
+   "forest",
+   "grassland",
+   "hill",
+   "urban"
+  ],
+  "damageTags": [
+   "B"
+  ],
+  "miscTags": [
+   "MW"
+  ],
+  "conditionInflict": [
+   "prone"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Tokens/Secretary_Bird.webp"
+  },
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -227366,6 +229786,113 @@
   "hasFluffImages": true
  },
  {
+  "name": "Siphon Fish",
+  "size": [
+   "S"
+  ],
+  "type": "monstrosity",
+  "source": "ObojimaTalesYatamon",
+  "alignment": [
+   "U"
+  ],
+  "ac": [
+   12
+  ],
+  "hp": {
+   "formula": "3d6 + 6",
+   "average": 16
+  },
+  "speed": {
+   "walk": 0,
+   "fly": 30,
+   "swim": 30
+  },
+  "str": 14,
+  "dex": 15,
+  "con": 14,
+  "int": 4,
+  "wis": 11,
+  "cha": 3,
+  "save": {
+   "con": "+4"
+  },
+  "skill": {
+   "arcana": "+1",
+   "perception": "+2"
+  },
+  "passive": 12,
+  "cr": "1/4",
+  "trait": [
+   {
+    "name": "Amphibious",
+    "entries": [
+     "The siphon fish can breathe air and water."
+    ]
+   },
+   {
+    "name": "Arcane Siphon",
+    "entries": [
+     "At the start of each of the siphon fish's turns while it's attached to a creature, it attempts to drain some magical essence. {@actSave con} {@dc 12} The target that the siphon fish is attached to. {@actSaveFail} The target loses one random spell slot or one use of a random spell it can cast a limited number of times per day, and the siphon fish gains a number of {@variantrule Temporary Hit Points|XPHB} equal to the level of the spell slot or spell lost. If the target has no spell slots or spells available to lose, it instead gains 1 {@condition Exhaustion|XPHB} level, and the siphon fish immediately detaches."
+    ]
+   },
+   {
+    "name": "Magic Sense",
+    "entries": [
+     "The siphon fish can sense the presence of magical effects, as if by a {@spell Detect Magic|XPHB} spell, as far as it can see."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Attach",
+    "entries": [
+     "{@atkr m} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) Piercing damage, and the siphon fish attaches to the target. While the siphon fish is attached, it can't make Attach attacks, the target's {@variantrule Speed|XPHB} is reduced by 10 feet, and the magical properties of the target's {@filter Uncommon|items|rarity=uncommon} and {@filter Common|items|rarity=common} magic items don't work. The siphon fish can detach itself by spending 5 feet of movement. The target or a creature within 5 feet of it can take an action to try to detach the siphon fish, doing so by succeeding on a {@dc 14} Strength ({@skill Athletics|XPHB}) check."
+    ]
+   },
+   {
+    "name": "Consume Spell",
+    "entries": [
+     "{@actSave con} {@dc 12} One creature within 5 feet of the siphon fish that is currently under the effects of a spell; if the siphon fish is attached to a creature, it must target that creature with this effect. {@actSaveFail} The spell immediately ends on the target, and the siphon fish gains a number of {@variantrule Temporary Hit Points|XPHB} equal to the spell's level."
+    ]
+   }
+  ],
+  "treasure": [
+   "none"
+  ],
+  "environment": [
+   "coastal",
+   "forest",
+   "grassland",
+   "hill",
+   "mountain",
+   "swamp",
+   "underwater",
+   "urban"
+  ],
+  "traitTags": [
+   "Amphibious"
+  ],
+  "damageTags": [
+   "P"
+  ],
+  "miscTags": [
+   "MW"
+  ],
+  "conditionInflict": [
+   "exhaustion"
+  ],
+  "savingThrowForced": [
+   "constitution"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Tokens/Siphon_Fish.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Sister Rain",
   "isNpc": true,
   "isNamedCreature": true,
@@ -235123,6 +237650,11 @@
   "treasure": [
    "any"
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DnDBeyondDrops/bestiary/tokens/Sovereign Ooze Lord.webp"
+  },
+  "foundryTokenScale": 1.4,
   "traitTags": [
    "Amorphous",
    "Magic Resistance",
@@ -235156,12 +237688,7 @@
    "dexterity"
   ],
   "hasFluff": true,
-  "hasFluffImages": true,
-  "tokenHref": {
-   "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DnDBeyondDrops/bestiary/tokens/Sovereign Ooze Lord.webp"
-  },
-  "foundryTokenScale": 1.4
+  "hasFluffImages": true
  },
  {
   "name": "Sovereign Ooze Monarch",
@@ -235297,6 +237824,11 @@
   "treasure": [
    "any"
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DnDBeyondDrops/bestiary/tokens/Sovereign Ooze Monarch.webp"
+  },
+  "foundryTokenScale": 1.4,
   "traitTags": [
    "Amorphous",
    "Magic Resistance",
@@ -235332,12 +237864,7 @@
    "dexterity"
   ],
   "hasFluff": true,
-  "hasFluffImages": true,
-  "tokenHref": {
-   "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DnDBeyondDrops/bestiary/tokens/Sovereign Ooze Monarch.webp"
-  },
-  "foundryTokenScale": 1.4
+  "hasFluffImages": true
  },
  {
   "name": "Sovereign Ooze Vassal",
@@ -235439,6 +237966,11 @@
   "treasure": [
    "any"
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DnDBeyondDrops/bestiary/tokens/Sovereign Ooze Vassal.webp"
+  },
+  "foundryTokenScale": 1.4,
   "traitTags": [
    "Amorphous",
    "Spider Climb"
@@ -235467,12 +237999,7 @@
    "dexterity"
   ],
   "hasFluff": true,
-  "hasFluffImages": true,
-  "tokenHref": {
-   "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DnDBeyondDrops/bestiary/tokens/Sovereign Ooze Vassal.webp"
-  },
-  "foundryTokenScale": 1.4
+  "hasFluffImages": true
  },
  {
   "name": "Spark",
@@ -236870,6 +239397,134 @@
    "MW",
    "RW"
   ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Spindle Stalker",
+  "size": [
+   "S"
+  ],
+  "type": "monstrosity",
+  "source": "ObojimaTalesYatamon",
+  "alignment": [
+   "U"
+  ],
+  "ac": [
+   13
+  ],
+  "hp": {
+   "formula": "4d6 + 4",
+   "average": 17
+  },
+  "speed": {
+   "walk": 40,
+   "climb": 40
+  },
+  "str": 10,
+  "dex": 16,
+  "con": 13,
+  "int": 3,
+  "wis": 12,
+  "cha": 5,
+  "skill": {
+   "perception": "+5",
+   "stealth": "+7"
+  },
+  "immune": [
+   "poison"
+  ],
+  "conditionImmune": [
+   "poisoned"
+  ],
+  "senses": [
+   "blindsight special (see Doku Moss trait)"
+  ],
+  "senseTags": [
+   "B"
+  ],
+  "passive": 15,
+  "cr": "1/2",
+  "trait": [
+   {
+    "name": "Blind",
+    "entries": [
+     "The stalker always has the {@condition Blinded|XPHB} condition. It doesn't suffer the effects of this condition against creatures within the area of its {@sense Blindsight|XPHB}."
+    ]
+   },
+   {
+    "name": "Doku Moss",
+    "entries": [
+     "While the stalker is on a ceiling, a tendril of this moss hangs down in a 20-foot-long, 5-foot-wide {@variantrule Line [Area of Effect]|XPHB|Line} below the stalker. While the stalker is on the ground, the moss instead curls around it in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. The stalker has {@sense Blindsight|XPHB} in the moss's area. If a creature hasn't observed the stalker move or act, that creature must succeed on a {@dc 15} Intelligence ({@skill Investigation|XPHB}) check to discern the stalker's presence within the moss."
+    ]
+   },
+   {
+    "name": "Poison Fetters",
+    "entries": [
+     "While the stalker is on the ground, the area of the stalker's Doku Moss is {@variantrule Difficult Terrain|XPHB} for creatures unless they have {@variantrule Immunity|XPHB} to the {@condition Poisoned|XPHB} condition."
+    ]
+   },
+   {
+    "name": "Poison Pillar",
+    "entries": [
+     "{@actSave con} {@dc 13} A creature that enters the area of the stalker's Doku Moss while the stalker is hanging from the ceiling (a creature with {@variantrule Immunity|XPHB} to the {@condition Poisoned|XPHB} condition automatically succeeds on this save). {@actSaveFail} The target has the {@condition Stunned|XPHB} condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+    ]
+   },
+   {
+    "name": "Spider Climb",
+    "entries": [
+     "The stalker can climb difficult surfaces, including along ceilings, without needing to make an Ability Check."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Chomp",
+    "entries": [
+     "{@atkr m} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) Piercing damage plus 5 ({@damage 2d4}) Poison damage. If the target has the {@condition Stunned|XPHB} condition, it also gains 1 {@condition Exhaustion|XPHB} level. A creature that gains {@condition Exhaustion|XPHB} from a spindle stalker's Chomp can't gain it again in this way for 24 hours."
+    ]
+   },
+   {
+    "name": "Tendril Tracking",
+    "entries": [
+     "While on the ground, the stalker whips its moss around itself to detect and hinder nearby creatures. {@actSave dex} {@dc 13} Each creature in a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} (a creature with {@variantrule Immunity|XPHB} to the {@condition Poisoned|XPHB} condition automatically succeeds on this save). {@actSaveFail} The target's {@variantrule Speed|XPHB} is halved until the end of its next turn. {@actSaveFailBy 5} The target also has the {@condition Stunned|XPHB} condition for the duration. {@actSaveSuccessOrFail} Until the end of the stalker's turn, it has {@variantrule Blindsight|XPHB} in the area; its {@variantrule Blindsight|XPHB} returns to normal if it leaves the area."
+    ]
+   }
+  ],
+  "treasure": [
+   "none"
+  ],
+  "environment": [
+   "cave",
+   "forest",
+   "mountain",
+   "swamp",
+   "urban"
+  ],
+  "traitTags": [
+   "Spider Climb"
+  ],
+  "damageTags": [
+   "P",
+   "I"
+  ],
+  "miscTags": [
+   "MW",
+   "AOE"
+  ],
+  "conditionInflict": [
+   "stunned",
+   "exhaustion"
+  ],
+  "savingThrowForced": [
+   "constitution",
+   "dexterity"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Tokens/Spindle_Stalker.webp"
+  },
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -248109,6 +250764,271 @@
    }
   },
   "hasFluff": true
+ },
+ {
+  "name": "Tamh Gon",
+  "size": [
+   "H"
+  ],
+  "type": "spirit",
+  "source": "ObojimaTalesYatamon",
+  "alignment": [
+   "N"
+  ],
+  "ac": [
+   18
+  ],
+  "hp": {
+   "formula": "18d12 + 108",
+   "average": 225
+  },
+  "speed": {
+   "walk": 0,
+   "fly": {
+    "number": 60,
+    "condition": "(hover)"
+   },
+   "canHover": true
+  },
+  "str": 20,
+  "dex": 10,
+  "con": 23,
+  "int": 16,
+  "wis": 19,
+  "cha": 22,
+  "save": {
+   "con": "+12",
+   "wis": "+10",
+   "cha": "+12"
+  },
+  "skill": {
+   "arcana": "+9",
+   "history": "+15",
+   "insight": "+16",
+   "perception": "+10"
+  },
+  "initiative": {
+   "proficiency": 1
+  },
+  "conditionImmune": [
+   "blinded",
+   "charmed",
+   "deafened",
+   "frightened",
+   "prone"
+  ],
+  "senses": [
+   "truesight 120 ft."
+  ],
+  "senseTags": [
+   "U"
+  ],
+  "passive": 20,
+  "languages": [
+   "Understands all but can't speak"
+  ],
+  "languageTags": [
+   "XX",
+   "CS"
+  ],
+  "cr": "18",
+  "trait": [
+   {
+    "name": "Festival Aura",
+    "entries": [
+     "Tamh Gon produces an aura of festivities in a 500-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from itself. The aura produces a slow but persistent downfall of Tamh Gon's Confetti, which materializes 30 feet above the ground, and the air is filled with a soft, subtle drum beat. Creatures that enter the aura feel a euphoric splendor. {@actSave con} {@dc 20} A creature other than Tamh Gon that starts its turn in the aura. {@actSaveFail} The target has the {@condition Pacified|XPHB} condition until the start of its next turn. {@actSaveSuccess} The target is immune to Tamh Gon's Festival Aura for 24 hours."
+    ]
+   },
+   {
+    "name": "Inscrutable",
+    "entries": [
+     "No magic can observe Tamh Gon remotely or detect its thoughts without its permission. Wisdom ({@skill Insight|XPHB}) checks made to ascertain Tamh Gon's intentions or sincerity are made with {@variantrule Disadvantage|XPHB}."
+    ]
+   },
+   {
+    "name": "Legendary Resistance (3/Day)",
+    "entries": [
+     "If Tamh Gon fails a saving throw, it can choose to succeed instead."
+    ]
+   },
+   {
+    "name": "Magic Resistance",
+    "entries": [
+     "Tamh Gon has {@variantrule Advantage|XPHB} on saving throws against spells and other magical effects."
+    ]
+   },
+   {
+    "name": "Physical Binding",
+    "entries": [
+     "Tamh Gon can't fly higher than 120 feet above the ground while in the Physical Realm. Additionally, while Tamh Gon is within 120 feet of a {@item Tears of the Moon|ObojimaTallGrass|Tear of the Moon}, Tamh Gon can't teleport or travel to another plane of existence by any means short of a {@spell Wish|XPHB} spell."
+    ]
+   },
+   {
+    "name": "Speech Bubble",
+    "entries": [
+     "Tamh Gon can't verbally communicate, but instead produces illusory speech bubbles above its head. The text that appears in these bubbles is in the {@language Torum|ObojimaTallGrass} language. All creatures with an Intelligence of 5 or higher can comprehend what Tamh Gon is saying—provided Tamh Gon is aware of the creature's presence—even if the creature can't read {@language Torum|ObojimaTallGrass}, can't normally speak a language, or can't see the speech bubble."
+    ]
+   }
+  ],
+  "spellcasting": [
+   {
+    "name": "Spellcasting",
+    "headerEntries": [
+     "Tamh Gon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 20}):"
+    ],
+    "will": [
+     "{@spell Command|XPHB}",
+     "{@spell Create Food and Water|XPHB}",
+     "{@spell Detect Evil and Good|XPHB}",
+     "{@spell Detect Magic|XPHB}",
+     "{@spell Dispel Magic|XPHB}",
+     "{@spell Duplicate|ObojimaTallGrass}",
+     "{@spell Grease|XPHB}",
+     "{@spell Thaumaturgy|XPHB}",
+     "{@spell Whelm Weapon|ObojimaTallGrass}",
+     "{@spell Zone of Truth|XPHB}"
+    ],
+    "daily": {
+     "1e": [
+      "{@spell Mass Levitate|ObojimaTallGrass}",
+      "{@spell Mass Cure Wounds|XPHB}",
+      "{@spell Mass Suggestion|XPHB}",
+      "{@spell Plane Shift|XPHB}",
+      "{@spell Tamh Gon's Fiery Festival Feast|ObojimaTallGrass} (as an action)"
+     ],
+     "3e": [
+      "{@spell Confusion|XPHB}",
+      "{@spell Polymorph|XPHB}"
+     ]
+    },
+    "ability": "cha",
+    "type": "spellcasting",
+    "displayAs": "action"
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "Tamh Gon makes two Bell Slam attacks and uses one of its Chimes. It can replace one attack with a casting of one of its At Will spells."
+    ]
+   },
+   {
+    "name": "Bell Slam",
+    "entries": [
+     "{@atkr m} {@hit 11} to hit, reach 20 ft., one target. {@h}15 ({@damage 3d6 + 5}) Bludgeoning damage plus 13 ({@damage 3d8}) Thunder damage."
+    ]
+   },
+   {
+    "name": "Chimes",
+    "entries": [
+     "Tamh Gon uses one of the following chimes, affecting each creature of its choice (other than itself) in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from itself:",
+     {
+      "type": "list",
+      "style": "list-hang-notitle",
+      "items": [
+       {
+        "type": "item",
+        "name": "Blast Chime",
+        "entries": [
+         "{@actSave str} {@dc 20} Each affected creature. {@actSaveFail} The target has the {@condition Prone|XPHB} condition."
+        ]
+       },
+       {
+        "type": "item",
+        "name": "Blessed Chime",
+        "entries": [
+         "Each affected creature regains 9 ({@damage 2d8}) {@variantrule Hit Points|XPHB}."
+        ]
+       },
+       {
+        "type": "item",
+        "name": "Resonant Chime",
+        "entries": [
+         "{@actSave str} {@dc 20} Each affected creature that is wearing or carrying a metal object. {@actSaveFail} The target drops all metal objects it's holding. {@actSaveSuccessOrFail} The target takes 13 ({@damage 3d8}) Thunder damage."
+        ]
+       },
+       {
+        "type": "item",
+        "name": "Restorative Chime",
+        "entries": [
+         "Tamh Gon magically removes one of the following effects from each affected creature: 1 {@condition Exhaustion|XPHB} level, the {@condition Charmed|XPHB} or {@condition Petrified|XPHB} condition, or a curse (including the target's attunement to a cursed magic item)."
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Spirit Shift",
+    "entries": [
+     "Tamh Gon enters the Spirit Realm (Ethereal Plane) from the Physical Realm, or vice versa."
+    ]
+   }
+  ],
+  "legendaryActions": 3,
+  "legendary": [
+   {
+    "name": "Festival King",
+    "entries": [
+     "{@actSave wis} {@dc 20} One creature Tamh Gon can see within 60 feet (the target succeeds automatically if it has immunity to the {@condition Charmed|XPHB} condition). {@actSaveFail} Until the end of the target's next turn, it magically can't take an action or a {@variantrule Bonus Action|XPHB} and instead gives all of its attention and admiration to Tamh Gon. {@actSaveSuccessOrFail} Tamh Gon can't take this action again until the start of its next turn."
+    ]
+   },
+   {
+    "name": "Phase",
+    "entries": [
+     "Tamh Gon teleports up to 120 feet to an unoccupied space it can see."
+    ]
+   },
+   {
+    "name": "Tintinnabulation",
+    "entries": [
+     "Tamh Gon uses one of its Chimes."
+    ]
+   }
+  ],
+  "treasure": [
+   "none"
+  ],
+  "environment": [
+   "any"
+  ],
+  "traitTags": [
+   "Legendary Resistances",
+   "Magic Resistance"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "B",
+   "T"
+  ],
+  "miscTags": [
+   "MW",
+   "RCH",
+   "AOE"
+  ],
+  "conditionInflict": [
+   "pacified",
+   "prone",
+   "charmed"
+  ],
+  "savingThrowForced": [
+   "constitution",
+   "strength",
+   "wisdom"
+  ],
+  "spellcastingTags": [
+   "O"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Tokens/Tamh_Gon.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
  },
  {
   "name": "Tanker",
@@ -288052,6 +290972,109 @@
   }
  },
  {
+  "name": "Yanari",
+  "size": [
+   "T"
+  ],
+  "type": "spirit",
+  "source": "ObojimaTalesYatamon",
+  "alignment": [
+   "C",
+   "N"
+  ],
+  "ac": [
+   10
+  ],
+  "hp": {
+   "formula": "2d4",
+   "average": 5
+  },
+  "speed": {
+   "walk": 30,
+   "fly": {
+    "number": 30,
+    "condition": "(hover)"
+   },
+   "canHover": true
+  },
+  "str": 3,
+  "dex": 11,
+  "con": 10,
+  "int": 10,
+  "wis": 9,
+  "cha": 12,
+  "skill": {
+   "perception": "+1"
+  },
+  "senses": [
+   "darkvision 60 ft."
+  ],
+  "senseTags": [
+   "D"
+  ],
+  "passive": 11,
+  "languages": [
+   "Torum"
+  ],
+  "languageTags": [
+   "X"
+  ],
+  "cr": "0",
+  "trait": [
+   {
+    "name": "Ethereal Sight",
+    "entries": [
+     "The spirit can see 60 feet into the Spirit Realm (Ethereal Plane) while in the Physical Realm and vice versa."
+    ]
+   },
+   {
+    "name": "Noise Sensitivity",
+    "entries": [
+     "While the spirit is in the Physical Realm, a creature within 30 feet of it can take an action to shout or scream at it. When this happens, the spirit must succeed on a {@dc 10} Constitution saving throw or have the {@condition Stunned|XPHB} condition until the start of its next turn."
+    ]
+   },
+   {
+    "name": "Sonic Emergence",
+    "entries": [
+     "If a creature in the Physical Realm creates a sufficient amount of noise (at the GM's discretion) while within 60 feet of the spirit's corresponding location in the Spirit Realm, the spirit immediately returns to the Physical Realm."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Illusory Clatter",
+    "entries": [
+     "The spirit creates a sound within 30 feet of itself, as if by the {@spell Minor Illusion|XPHB} spell (save {@dc 11}). If it is in the Spirit Realm, the sound can be heard in the Physical Realm."
+    ]
+   },
+   {
+    "name": "Shift",
+    "entries": [
+     "The spirit enters the Spirit Realm (Ethereal Plane) from the Physical Realm or vice versa."
+    ]
+   }
+  ],
+  "treasure": [
+   "any"
+  ],
+  "environment": [
+   "urban"
+  ],
+  "conditionInflict": [
+   "stunned"
+  ],
+  "savingThrowForced": [
+   "constitution"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Tokens/Yanari.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Yarn Golem",
   "source": "ValdaPlayerPack2",
   "otherSources": [
@@ -288530,6 +291553,127 @@
   "tokenHref": {
    "type": "external",
    "url": "https://raw.githubusercontent.com/JuliTutu/homebrew-img/main/img/NorthlandsSagas/Creatures/Tokens/Ylsa_Ice-Eye.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Yoka Scout",
+  "size": [
+   "S",
+   "M"
+  ],
+  "type": "humanoid",
+  "source": "ObojimaTalesYatamon",
+  "alignment": [
+   "C",
+   "G"
+  ],
+  "ac": [
+   13
+  ],
+  "hp": {
+   "formula": "3d8 + 3",
+   "average": 16
+  },
+  "speed": {
+   "walk": 30
+  },
+  "str": 10,
+  "dex": 13,
+  "con": 12,
+  "int": 13,
+  "wis": 12,
+  "cha": 10,
+  "skill": {
+   "acrobatics": "+3",
+   "investigation": "+3",
+   "perception": "+5",
+   "stealth": "+5"
+  },
+  "passive": 15,
+  "languages": [
+   "Common"
+  ],
+  "languageTags": [
+   "C"
+  ],
+  "cr": "1/4",
+  "trait": [
+   {
+    "name": "Confidence in Numbers",
+    "entries": [
+     "The scout has a +2 bonus to its attack rolls while it can see at least 2 of its allies."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Baseball Bat",
+    "entries": [
+     "{@atkr m} {@hit 3} (with {@variantrule Advantage|XPHB} if the target is a Demon [Fiend]) to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) Bludgeoning damage, or 8 ({@damage 2d6 + 1}) Bludgeoning damage if the target is a Demon (Fiend)."
+    ]
+   },
+   {
+    "name": "Sling",
+    "entries": [
+     "{@atkr r} {@hit 3} (with {@variantrule Advantage|XPHB} if the target is a Demon [Fiend]) to hit, range 80/320 ft., one target. {@h}3 ({@damage 1d4 + 1}) Bludgeoning damage, or 6 ({@damage 2d4 + 1}) Bludgeoning damage if the target is a Demon (Fiend)."
+    ]
+   }
+  ],
+  "bonus": [
+   {
+    "name": "Quick Thinking",
+    "entries": [
+     "The scout takes the {@action Influence|XPHB}, {@action Search|XPHB}, or {@action Study|XPHB} action."
+    ]
+   }
+  ],
+  "reaction": [
+   {
+    "name": "Near Miss",
+    "entries": [
+     "{@actTrigger} The scout is hit by an attack roll. {@actResponse} The damage the scout takes from that attack is reduced by 3."
+    ]
+   }
+  ],
+  "variant": [
+   {
+    "name": "Traps",
+    "type": "variant",
+    "entries": [
+     "If the Yoka Scout was prepared for this fight, they may have set a simple but well-hidden booby trap before the battle began, gaining the Reaction option detailed below. This trap can be mechanical, magical, or some combination of the two. It is no larger than a 5-foot {@variantrule Cube [Area of Effect]|XPHB|Cube}, and it can be hidden on any solid surface that is large enough for it. No matter what the trap may be, it requires a successful DC 13 Wisdom ({@skill Perception|XPHB}) check to discern its presence.",
+     "{@actTrigger} A creature enters the area within 5 feet of the scout's trap. {@actResponse}-{@actSave dex} {@dc 13}, 13, the triggering creature. {@actSaveFail} The creature takes 5 ({@damage 1d10}) Bludgeoning damage or has the {@condition Restrained|XPHB} condition until the start of its next turn (the scout's choice). {@actSaveSuccessOrFail} The trap is then rendered inert."
+    ],
+    "_version": {
+     "name": "Spring Trap",
+     "source": "ObojimaTalesYatamon",
+     "addAs": "reaction"
+    }
+   }
+  ],
+  "gear": [
+   "Shortsword|XPHB",
+   "Sling|XPHB",
+   "Studded Leather Armor|XPHB"
+  ],
+  "treasure": [
+   "any"
+  ],
+  "environment": [
+   "urban"
+  ],
+  "damageTags": [
+   "B"
+  ],
+  "miscTags": [
+   "MW",
+   "RW"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Tokens/Yoka_Scout.webp"
   },
   "hasFluff": true,
   "hasFluffImages": true

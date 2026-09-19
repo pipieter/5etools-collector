@@ -10652,6 +10652,116 @@
   "hasFluff": true
  },
  {
+  "name": "Raised by Cats",
+  "source": "ObojimaTalesYatamon",
+  "edition": "one",
+  "ability": [
+   {
+    "choose": {
+     "weighted": {
+      "from": [
+       "dex",
+       "wis",
+       "cha"
+      ],
+      "weights": [
+       2,
+       1
+      ]
+     }
+    }
+   },
+   {
+    "choose": {
+     "weighted": {
+      "from": [
+       "dex",
+       "wis",
+       "cha"
+      ],
+      "weights": [
+       1,
+       1,
+       1
+      ]
+     }
+    }
+   }
+  ],
+  "feats": [
+   {
+    "Feline Instincts|ObojimaTalesYatamon": true
+   }
+  ],
+  "skillProficiencies": [
+   {
+    "arcana": true,
+    "stealth": true
+   }
+  ],
+  "toolProficiencies": [
+   {
+    "carpenter's tools": true
+   }
+  ],
+  "startingEquipment": [
+   {
+    "a": [
+     "carpenter's tools|xphb",
+     "climber's kit|xphb",
+     "perfume|xphb",
+     {
+      "special": "string ball (10 feet)"
+     },
+     "traveler's clothes|xphb",
+     {
+      "value": 900
+     }
+    ],
+    "b": [
+     {
+      "value": 5000
+     }
+    ]
+   }
+  ],
+  "entries": [
+   {
+    "type": "list",
+    "style": "list-hang-notitle",
+    "items": [
+     {
+      "type": "item",
+      "name": "Ability Scores:",
+      "entry": "Dexterity, Wisdom, Charisma"
+     },
+     {
+      "type": "item",
+      "name": "Feat:",
+      "entry": "{@feat Feline Instincts|ObojimaTalesYatamon}"
+     },
+     {
+      "type": "item",
+      "name": "Skill Proficiencies:",
+      "entry": "{@skill Arcana|XPHB}, {@skill Stealth|XPHB}"
+     },
+     {
+      "type": "item",
+      "name": "Tool Proficiencies:",
+      "entry": "{@item Carpenter's Tools|XPHB}"
+     },
+     {
+      "type": "item",
+      "name": "Equipment:",
+      "entry": "Choose A or B: (A) {@item Carpenter's Tools|xphb}, {@item Climber's Kit|xphb}, {@item Perfume|xphb}, String Ball (10 feet), {@item Traveler's Clothes|xphb}, and 9 GF; or (B) 50 GF"
+     }
+    ]
+   }
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Reflected Wanderer",
   "source": "CrookedMoon14",
   "page": 107,
@@ -11202,6 +11312,122 @@
     "You had to be ever watchful of other threats, hiding when danger presented itself. No place is safe, and you must take every opportunity to advance toward your goals."
    ]
   }
+ },
+ {
+  "name": "Reporter",
+  "source": "ObojimaTalesYatamon",
+  "edition": "one",
+  "ability": [
+   {
+    "choose": {
+     "weighted": {
+      "from": [
+       "int",
+       "wis",
+       "cha"
+      ],
+      "weights": [
+       2,
+       1
+      ]
+     }
+    }
+   },
+   {
+    "choose": {
+     "weighted": {
+      "from": [
+       "int",
+       "wis",
+       "cha"
+      ],
+      "weights": [
+       1,
+       1,
+       1
+      ]
+     }
+    }
+   }
+  ],
+  "feats": [
+   {
+    "Skilled|XPHB": true
+   }
+  ],
+  "skillProficiencies": [
+   {
+    "insight": true,
+    "investigation": true
+   }
+  ],
+  "toolProficiencies": [
+   {
+    "calligrapher's supplies": true
+   }
+  ],
+  "startingEquipment": [
+   {
+    "a": [
+     "calligrapher's supplies|xphb",
+     "backpack|xphb",
+     "book|xphb",
+     "lamp|xphb",
+     {
+      "item": "oil|xphb",
+      "quantity": 5
+     },
+     {
+      "item": "paper|xphb",
+      "quantity": 5
+     },
+     "traveler's clothes|xphb",
+     {
+      "value": 900
+     }
+    ],
+    "b": [
+     {
+      "value": 5000
+     }
+    ]
+   }
+  ],
+  "entries": [
+   {
+    "type": "list",
+    "style": "list-hang-notitle",
+    "items": [
+     {
+      "type": "item",
+      "name": "Ability Score:",
+      "entry": "Intelligence, Wisdom, Charisma"
+     },
+     {
+      "type": "item",
+      "name": "Feat:",
+      "entry": "{@feat Skilled|XPHB}"
+     },
+     {
+      "type": "item",
+      "name": "Skill Proficiencies:",
+      "entry": "{@skill Insight|XPHB}, {@skill Investigation|XPHB}"
+     },
+     {
+      "type": "item",
+      "name": "Tool Proficiencies:",
+      "entry": "{@item Calligrapher's Supplies|XPHB}"
+     },
+     {
+      "type": "item",
+      "name": "Equipment:",
+      "entry": "Choose A or B: (A) {@item Calligrapher's Supplies|xphb}, {@item Backpack|xphb}, {@item Book|xphb} (trusted contacts), {@item Lamp|xphb}, 5 flasks of {@item Oil|xphb}, 5 sheets of {@item Paper|xphb}, {@item Traveler's Clothes|xphb}, and 9 GF; or (B) 50 GF"
+     }
+    ]
+   }
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
  },
  {
   "name": "Rest Warden",
@@ -14027,6 +14253,131 @@
     ]
    }
   ]
+ },
+ {
+  "name": "Tournament Competitor",
+  "source": "ObojimaTalesYatamon",
+  "edition": "one",
+  "ability": [
+   {
+    "choose": {
+     "weighted": {
+      "from": [
+       "str",
+       "con",
+       "cha"
+      ],
+      "weights": [
+       2,
+       1
+      ]
+     }
+    }
+   },
+   {
+    "choose": {
+     "weighted": {
+      "from": [
+       "str",
+       "con",
+       "cha"
+      ],
+      "weights": [
+       1,
+       1,
+       1
+      ]
+     }
+    }
+   }
+  ],
+  "feats": [
+   {
+    "Skilled|XPHB": true
+   }
+  ],
+  "skillProficiencies": [
+   {
+    "athletics": true,
+    "performance": true
+   }
+  ],
+  "toolProficiencies": [
+   {
+    "anyGamingSet": 1
+   }
+  ],
+  "startingEquipment": [
+   {
+    "a": [
+     {
+      "item": "javelin|xphb",
+      "quantity": 2
+     },
+     "light hammer|xphb",
+     {
+      "equipmentType": "setGaming"
+     },
+     "ball bearings|xphb",
+     "bedroll|xphb",
+     {
+      "item": "chain|xphb",
+      "quantity": 2
+     },
+     "healer's kit|xphb",
+     "iron spikes|xphb",
+     "net|xphb",
+     {
+      "item": "pouch|xphb",
+      "quantity": 2
+     },
+     "traveler's clothes|xphb",
+     {
+      "value": 2400
+     }
+    ],
+    "b": [
+     {
+      "value": 5000
+     }
+    ]
+   }
+  ],
+  "entries": [
+   {
+    "type": "list",
+    "style": "list-hang-notitle",
+    "items": [
+     {
+      "type": "item",
+      "name": "Ability Scores:",
+      "entry": "Strength, Constitution, Charisma"
+     },
+     {
+      "type": "item",
+      "name": "Feat:",
+      "entry": "{@feat Skilled|XPHB}"
+     },
+     {
+      "type": "item",
+      "name": "Skill Proficiencies:",
+      "entry": "{@skill Athletics|XPHB}, {@skill Performance|XPHB}"
+     },
+     {
+      "type": "item",
+      "name": "Tool Proficiencies:",
+      "entry": "Choose one kind of {@filter Gaming Set|items|source=xphb|miscellaneous=mundane|type=gaming set}"
+     },
+     {
+      "type": "item",
+      "name": "Equipment:",
+      "entry": "Choose A or B: (A) 2 {@item Javelin|xphb|Javelins}, {@item Light Hammer|xphb}, {@filter Gaming Set|items|source=xphb|miscellaneous=mundane|type=gaming set} (same as above), {@item Ball Bearings|xphb}, {@item Bedroll|xphb}, 2 {@item Chain|xphb|Chains}, {@item Healer's Kit|xphb}, {@item Iron Spikes|xphb}, {@item Net|xphb}, 2 {@item Pouch|xphb|Pouches}, {@item Traveler's Clothes|xphb}, and 24 GF; or (B) 50 GF"
+     }
+    ]
+   }
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
  },
  {
   "name": "Tower Guard",

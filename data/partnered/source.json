@@ -160,6 +160,14 @@
   "category": "partnered"
  },
  {
+  "source": "ObojimaTalesYatamon",
+  "name": "Obojima: Tales from Yatamon",
+  "abbreviation": "O:TFY",
+  "published": "2026-07-01",
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
   "source": "OneShotWonders10Forest",
   "name": "One Shot Wonders - 10 Forest One Shot Adventures",
   "abbreviation": "OSW:F",
