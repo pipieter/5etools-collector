@@ -102,6 +102,7 @@ export interface Prerequisite {
         class: { name: string; source?: string; visible?: boolean; visibleStats?: boolean };
         subclass?: { name: string; source?: string; visible?: boolean };
       };
+  membership?: string[];
   optionalfeature?: string[];
   other?: string;
   otherSummary?: { entry: string; entrySummary: string };
@@ -311,16 +312,18 @@ export type Duration =
   | { type: 'instant'; concentration?: boolean; duration?: DurationTiming }
   | { type: 'timed'; duration: DurationTiming; concentration?: boolean; condition?: string };
 
-export type RangeType =
-  'special' | 'point' | 'emanation' | 'line' | 'cone' | 'radius' | 'sphere' | 'cylinder' | 'cube' | 'hemisphere';
+export type Distance =
+  | { type: 'sight' }
+  | { type: 'unlimited' }
+  | { type: 'self'; amount?: number }
+  | { type: 'touch'; amount?: number }
+  | { type: 'feet'; amount: number }
+  | { type: 'miles'; amount: number };
 
-export interface Range {
-  type: RangeType;
-  distance?: {
-    type: 'feet' | 'self' | 'touch' | 'miles' | 'sight' | 'unlimited';
-    amount?: number;
-  };
-}
+export type RangeType =
+  'point' | 'emanation' | 'line' | 'cone' | 'radius' | 'sphere' | 'cylinder' | 'cube' | 'hemisphere';
+
+export type Range = { type: 'special' } | { type: RangeType; distance: Distance };
 
 export type Scaling = Record<string, string>;
 

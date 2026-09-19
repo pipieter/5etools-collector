@@ -307,6 +307,63 @@
   ]
  },
  {
+  "name": "Airbag",
+  "level": 1,
+  "school": "A",
+  "time": [
+   {
+    "number": 1,
+    "unit": "reaction",
+    "condition": "which you take when you or a creature you can see within 30 feet of you takes Bludgeoning, Piercing, or Slashing damage"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "feet",
+    "amount": 30
+   }
+  },
+  "components": {
+   "v": true,
+   "m": "a piece of nylon"
+  },
+  "duration": [
+   {
+    "type": "instant"
+   }
+  ],
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Sorcerer",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    }
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "You momentarily create an airbag in the target's space, absorbing some of the incoming damage. The triggering damage is reduced by {@dice 1d6}. The airbag then disappears."
+  ],
+  "entriesHigherLevel": [
+   {
+    "type": "entries",
+    "name": "Using a Higher-Level Spell Slot",
+    "entries": [
+     "The amount of damage the airbag absorbs increases by {@dice 1d6} for each spell slot level above 1."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Ambush Prey",
   "source": "HumblewoodCampaignSetting",
   "page": 49,
@@ -671,7 +728,13 @@
      "source": "XPHB"
     }
    ]
-  }
+  },
+  "feats": [
+   {
+    "name": "Gun-Mage Adept",
+    "source": "ValdaGunslinger"
+   }
+  ]
  },
  {
   "name": "Arboreal Curse",
@@ -1887,6 +1950,75 @@
   }
  },
  {
+  "name": "Avian Courier",
+  "level": 1,
+  "school": "C",
+  "time": [
+   {
+    "number": 1,
+    "unit": "action"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "feet",
+    "amount": 10
+   }
+  },
+  "components": {
+   "v": true,
+   "s": true,
+   "m": "a feather"
+  },
+  "duration": [
+   {
+    "type": "timed",
+    "duration": {
+     "type": "round",
+     "amount": 1
+    }
+   }
+  ],
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Druid",
+     "source": "XPHB"
+    },
+    {
+     "name": "Ranger",
+     "source": "XPHB"
+    },
+    {
+     "name": "Sorcerer",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    }
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "You conjure a magical bird, which picks up one object you can see within range that isn't being worn or carried. The object can weigh no more than 50 pounds. The bird carries it to a destination of your choice on a surface within 200 feet of you, as long as there is an unobstructed path to the destination. The bird arrives at the start of your next turn, and then vanishes."
+  ],
+  "entriesHigherLevel": [
+   {
+    "type": "entries",
+    "name": "Using a Higher-Level Spell Slot",
+    "entries": [
+     "The maximum weight of the object increases by 50 pounds, and the maximum distance to the destination increases by 100 feet, for each spell slot level above 1."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Awaken Ship Guardian",
   "level": 8,
   "school": "C",
@@ -1954,6 +2086,90 @@
   ]
  },
  {
+  "name": "Bait",
+  "level": 3,
+  "school": "C",
+  "time": [
+   {
+    "number": 1,
+    "unit": "action"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "feet",
+    "amount": 60
+   }
+  },
+  "components": {
+   "s": true,
+   "m": "fish scales"
+  },
+  "duration": [
+   {
+    "type": "timed",
+    "duration": {
+     "type": "minute",
+     "amount": 1,
+     "upTo": true
+    },
+    "concentration": true
+   }
+  ],
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Druid",
+     "source": "XPHB"
+    },
+    {
+     "name": "Ranger",
+     "source": "XPHB"
+    },
+    {
+     "name": "Sorcerer",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    }
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "You create a floating, spectral lure that resembles a flying fish of your choice and lasts for the duration. The fish appears within range in a space of your choice, and you can immediately move it up to 20 feet. Each creature that can see the lure and is within 5 feet of it as it moves by must make a Wisdom saving throw. On a failed save, the creature is either baited or dragged (your choice for each creature).",
+   {
+    "type": "list",
+    "items": [
+     {
+      "type": "item",
+      "name": "Baited",
+      "entries": [
+       "The creature lashes out at the lure. If the creature takes the {@action Attack|XPHB} action on its next turn, the number of attacks it can make is reduced by one (to a minimum of no attacks)."
+      ]
+     },
+     {
+      "type": "item",
+      "name": "Dragged",
+      "entries": [
+       "The creature moves with the lure, following it for the rest of the lure's movement, provided it doesn't have a {@variantrule Speed|XPHB} of 0; this movement provokes {@action Opportunity Attack|XPHB|Opportunity Attacks}. At the start of the creature's next turn, its {@variantrule Speed|XPHB} is reduced by the number of feet the lure caused it to move."
+      ]
+     }
+    ]
+   },
+   "As a {@variantrule Bonus Action|XPHB} on your later turns, you can move the lure up to 20 feet."
+  ],
+  "savingThrow": [
+   "wisdom"
+  ]
+ },
+ {
   "name": "Ballistic Smite",
   "source": "ValdaGunslinger",
   "otherSources": [
@@ -2004,6 +2220,12 @@
     }
    ]
   },
+  "feats": [
+   {
+    "name": "Gun-Mage Adept",
+    "source": "ValdaGunslinger"
+   }
+  ],
   "fluff": {
    "images": [
     {
@@ -4259,6 +4481,64 @@
   ],
   "conditionInflict": [
    "exhaustion"
+  ]
+ },
+ {
+  "name": "Borrow Magic",
+  "level": 0,
+  "school": "T",
+  "time": [
+   {
+    "number": 1,
+    "unit": "bonus"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "touch"
+   }
+  },
+  "components": {
+   "s": true
+  },
+  "duration": [
+   {
+    "type": "timed",
+    "duration": {
+     "type": "round",
+     "amount": 1
+    }
+   }
+  ],
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Sorcerer",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    }
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "You touch a willing creature, pulling from its pool of magical energy to fuel your spellcasting. The target expends a level 1 spell slot, temporarily lending it to you. Once before the start of your next turn, you can cast a spell using the borrowed spell slot instead of your own. If you don't expend the borrowed spell slot before then, it is lost. Once a creature has lent three spell slots in this way, it can't do so again until it finishes a {@variantrule Long Rest|XPHB}."
+  ],
+  "entriesHigherLevel": [
+   {
+    "type": "entries",
+    "name": "Cantrip Upgrade",
+    "entries": [
+     "The maximum level of spell slot that can be lent to you in this way increases when you reach levels 5 (level 2 slot), 11 (level 3 slot), and 17 (level 4 slot)."
+    ]
+   }
   ]
  },
  {
@@ -6542,6 +6822,69 @@
   }
  },
  {
+  "name": "Charge",
+  "level": 1,
+  "school": "V",
+  "time": [
+   {
+    "number": 1,
+    "unit": "action"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "touch"
+   }
+  },
+  "components": {
+   "v": true,
+   "s": true
+  },
+  "duration": [
+   {
+    "type": "timed",
+    "duration": {
+     "type": "hour",
+     "amount": 1
+    }
+   }
+  ],
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Sorcerer",
+     "source": "XPHB"
+    },
+    {
+     "name": "Warlock",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    }
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "You touch a machine, temporarily powering it and allowing it to function as if it were whelmed by a spirit or permanently enchanted. A machine targeted by this spell stays powered for the duration before shutting off. For a machine to function using this spell, it must still be in working condition."
+  ],
+  "entriesHigherLevel": [
+   {
+    "type": "entries",
+    "name": "Using a Higher-Level Spell Slot",
+    "entries": [
+     "The spell's duration increases with a spell slot of level 3–4 (1 day), 5–6 (7 days), 7–8 (30 days), and 9 (1 year)."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Charnel Banquet",
   "source": "BookOfEbonTides",
   "page": 57,
@@ -7878,6 +8221,12 @@
     }
    ]
   },
+  "feats": [
+   {
+    "name": "Gun-Mage Adept",
+    "source": "ValdaGunslinger"
+   }
+  ],
   "damageInflict": [
    "bludgeoning"
   ],
@@ -7955,6 +8304,12 @@
     }
    ]
   },
+  "feats": [
+   {
+    "name": "Gun-Mage Adept",
+    "source": "ValdaGunslinger"
+   }
+  ],
   "miscTags": [
    "SGT"
   ]
@@ -8369,6 +8724,71 @@
   "miscTags": [
    "OBS"
   ]
+ },
+ {
+  "name": "Conjure Tools",
+  "source": "DnDBeyondDrops",
+  "page": "2026-09-03",
+  "level": 2,
+  "school": "C",
+  "time": [
+   {
+    "number": 1,
+    "unit": "action"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "feet",
+    "amount": 30
+   }
+  },
+  "components": {
+   "v": true,
+   "s": true
+  },
+  "duration": [
+   {
+    "type": "timed",
+    "duration": {
+     "type": "hour",
+     "amount": 8
+    }
+   }
+  ],
+  "entries": [
+   "This spell creates a set of {@item Artisan's Tools|XPHB} of your choice. You have proficiency with these tools. At the end of the spell's duration, the tools vanish, but any items created or transformed by the tools remain. The spell ends early if you cast it again or if the tools are more than 10 feet away from you."
+  ],
+  "entriesHigherLevel": [
+   {
+    "type": "entries",
+    "name": "Using a Higher-Level Spell Slot",
+    "entries": [
+     "If cast with a level 3 spell slot, you work as efficiently as two characters when determining how much time it takes to craft nonmagical items using the tools."
+    ]
+   }
+  ],
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Ranger",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Artificer",
+     "source": "EFA"
+    }
+   ]
+  }
  },
  {
   "name": "Consume Mind",
@@ -8986,6 +9406,64 @@
    "SGT"
   ],
   "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Custom/Spells/Control%20Animal.webp"
+ },
+ {
+  "name": "Correspondence",
+  "level": 1,
+  "school": "I",
+  "time": [
+   {
+    "number": 1,
+    "unit": "minute"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "feet",
+    "amount": 5
+   }
+  },
+  "components": {
+   "s": true,
+   "m": {
+    "text": "a ball of wax worth 10+ GF, which the spell consumes; a blank piece of paper; and an envelope",
+    "cost": 1000,
+    "consume": true
+   }
+  },
+  "duration": [
+   {
+    "type": "timed",
+    "duration": {
+     "type": "day",
+     "amount": 30
+    }
+   }
+  ],
+  "meta": {
+   "ritual": true
+  },
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    }
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "Choose a creature within range. The target speaks a message up to 100 words long, which is recorded on the paper used as a Material component in the spell's casting and then sealed in the envelope with the ball of wax. While holding the envelope, the intended recipient (designated when you cast the spell) can open it as a {@action Magic|XPHB} action. The envelope can also be opened if it's targeted by a {@spell Knock|XPHB} spell or similar magic. When it's opened, the recorded message is magically read aloud in the target's voice; the spell then ends.",
+   "If a creature other than the intended recipient attempts to open the envelope by nonmagical means, it must make a Wisdom saving throw. On a failed save, the creature fails to break the seal. On a successful save, the envelope is destroyed. When the envelope is destroyed, the spell ends."
+  ],
+  "savingThrow": [
+   "wisdom"
+  ]
  },
  {
   "name": "Corrupting Ichor",
@@ -12589,6 +13067,93 @@
   ]
  },
  {
+  "name": "Demon Lure",
+  "level": 3,
+  "school": "E",
+  "time": [
+   {
+    "number": 1,
+    "unit": "action"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "touch"
+   }
+  },
+  "components": {
+   "v": true,
+   "s": true,
+   "m": "a demon totem"
+  },
+  "duration": [
+   {
+    "type": "timed",
+    "duration": {
+     "type": "minute",
+     "amount": 1,
+     "upTo": true
+    },
+    "concentration": true
+   }
+  ],
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Cleric",
+     "source": "XPHB"
+    },
+    {
+     "name": "Paladin",
+     "source": "XPHB"
+    },
+    {
+     "name": "Warlock",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    }
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "You place the totem used as a Material component at a point you can see on the ground within your reach. The totem can be picked up and moved, and it becomes magically enticing to demons (Fiends) for the duration. A demon that doesn't have {@variantrule Cover|XPHB|Total Cover} from the totem and starts its turn in a 150-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from it must make a Wisdom saving throw. On a failed save, the demon has the {@condition Charmed|XPHB} condition until the spell ends. This effect ends early if the demon comes within 5 feet of the totem or if it's no longer on the same plane of existence as the totem.",
+   "While {@condition Charmed|XPHB} in this way, a demon must take the {@action Dash|XPHB} action and move toward the totem by the safest route on each of its turns unless there is nowhere to move.",
+   "If the demon takes any damage or if another creature uses an action to shake the demon out of its stupor, it repeats the save, ending the spell on itself on a success. A demon that succeeds on a save against this spell is {@variantrule Immunity|XPHB|immune} to its effects for the duration.",
+   {
+    "type": "inset",
+    "entries": [
+     "When used in games other than Obojima, the caster can choose to affect one of the following creature types of their choice: Aberrations, Fey, Fiends, or Undead (at the GM's discretion)."
+    ]
+   }
+  ],
+  "entriesHigherLevel": [
+   {
+    "type": "entries",
+    "name": "Using a Higher-Level Spell Slot",
+    "entries": [
+     "If you cast this spell using a level 5+ spell slot, the size of the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} increases: 300-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} (level 5–6 slot), 500-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} (level 7–8 slot), or 1,000-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} (level 9 slot)."
+    ]
+   }
+  ],
+  "savingThrow": [
+   "wisdom"
+  ],
+  "conditionInflict": [
+   "charmed"
+  ],
+  "areaTags": [
+   "E"
+  ]
+ },
+ {
   "name": "Depth Charge",
   "source": "HelianasGuidetoMonsterHunting",
   "level": 3,
@@ -12668,6 +13233,75 @@
   "foundryFlags": {
    "midiProperties.halfdam": true
   }
+ },
+ {
+  "name": "Detect Curse",
+  "level": 2,
+  "school": "D",
+  "time": [
+   {
+    "number": 1,
+    "unit": "action"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "self"
+   }
+  },
+  "components": {
+   "v": true,
+   "s": true,
+   "m": "sheep dragon wool"
+  },
+  "duration": [
+   {
+    "type": "timed",
+    "duration": {
+     "type": "minute",
+     "amount": 10,
+     "upTo": true
+    },
+    "concentration": true
+   }
+  ],
+  "meta": {
+   "ritual": true
+  },
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Cleric",
+     "source": "XPHB"
+    },
+    {
+     "name": "Druid",
+     "source": "XPHB"
+    },
+    {
+     "name": "Paladin",
+     "source": "XPHB"
+    },
+    {
+     "name": "Warlock",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    }
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "For the duration, you sense the presence of curses within 30 feet of yourself. If you sense a curse, you can take the {@action Magic|XPHB} action to see a faint aura around any visible creature or object in the area that bears the curse, and if a curse was bestowed by an item or spell, you learn what item or spell caused it and its rarity or spell level.",
+   "This spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead."
+  ]
  },
  {
   "name": "Devil's Due",
@@ -16410,6 +17044,49 @@
   ]
  },
  {
+  "name": "Feign Interest",
+  "source": "DnDBeyondDrops",
+  "page": "2026-09-03",
+  "level": 1,
+  "school": "I",
+  "time": [
+   {
+    "number": 1,
+    "unit": "action"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "self"
+   }
+  },
+  "components": {
+   "v": true
+  },
+  "duration": [
+   {
+    "type": "timed",
+    "duration": {
+     "type": "hour",
+     "amount": 1
+    }
+   }
+  ],
+  "entries": [
+   "This spell is a favorite of apprentices and students. For the duration, you appear to be fully focused and paying rapt attention. Behind the illusion, you can be napping, thinking about other things, or otherwise letting your mind wander.",
+   "A creature that takes a {@action Search|XPHB} action to evaluate your state of mind can determine that your interest is feigned with a successful Wisdom ({@skill Insight|XPHB}) check against your spell save DC. If a creature discerns the illusion for what it is, they see your true demeanor."
+  ],
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    }
+   ]
+  }
+ },
+ {
   "name": "Feline Chaos",
   "source": "CthulhuTorchlight",
   "page": 0,
@@ -17261,6 +17938,12 @@
     }
    ]
   },
+  "feats": [
+   {
+    "name": "Gun-Mage Adept",
+    "source": "ValdaGunslinger"
+   }
+  ],
   "damageInflict": [
    "force"
   ],
@@ -17411,6 +18094,66 @@
   ],
   "savingThrow": [
    "wisdom"
+  ]
+ },
+ {
+  "name": "Fire Hydrant",
+  "level": 2,
+  "school": "V",
+  "time": [
+   {
+    "number": 1,
+    "unit": "action"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "feet",
+    "amount": 60
+   }
+  },
+  "components": {
+   "v": true,
+   "s": true,
+   "m": "a drop of water"
+  },
+  "duration": [
+   {
+    "type": "timed",
+    "duration": {
+     "type": "minute",
+     "amount": 1
+    }
+   }
+  ],
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Sorcerer",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    }
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "You create a Small fire hydrant in an unoccupied space on a solid surface you can see within range. The hydrant expels a continuous stream of pressurized water in a direction you choose. The stream is a {@variantrule Line [Area of Effect]|XPHB|Line} that is 20 feet long and 5 feet wide. Each creature in the {@variantrule Line [Area of Effect]|XPHB|Line} must succeed on a Strength saving throw or be pushed to the nearest unoccupied space at the end of the {@variantrule Line [Area of Effect]|XPHB|Line}. A creature that enters the {@variantrule Line [Area of Effect]|XPHB|Line} for the first time on a turn or ends a turn there must make the same save.",
+   "As a {@variantrule Bonus Action|XPHB} on your later turns while you're within range, you can change the direction in which the stream blasts from the hydrant, causing the previous stream of water to cease.",
+   "The hydrant has an {@variantrule Armor Class|XPHB} equal to your spell save DC, 30 {@variantrule Hit Points|XPHB}, and {@variantrule Immunity|XPHB} to Poison and Psychic damage. Reducing the hydrant to 0 {@variantrule Hit Points|XPHB} destroys it, ending the spell early."
+  ],
+  "savingThrow": [
+   "strength"
+  ],
+  "areaTags": [
+   "L"
   ]
  },
  {
@@ -20575,6 +21318,147 @@
   ]
  },
  {
+  "name": "Gotcha!",
+  "level": 1,
+  "school": "C",
+  "time": [
+   {
+    "number": 1,
+    "unit": "action"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "feet",
+    "amount": 5
+   }
+  },
+  "components": {
+   "v": true,
+   "s": true
+  },
+  "duration": [
+   {
+    "type": "instant"
+   }
+  ],
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Sorcerer",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    }
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "A capsule toy machine appears in a small explosion of confetti in an unoccupied space within range. The machine's appearance is accompanied by brief but energetic sounds of slide whistles and noisemakers. The machine produces a random potion from {@filter Obojima: Tales from the Tall Grass|items|source=obojimatallgrass|type=potion|miscellaneous=}, which you can immediately retrieve or allow to be gently deposited on the ground. The machine then vanishes.",
+   "When you cast the spell, choose either the {@filter Combat|items|source=obojimatallgrass|type=potion|property=combat|miscellaneous=}, {@filter Utility|items|source=obojimatallgrass|type=potion|property=utility|miscellaneous=}, or {@filter Whimsy|items|source=obojimatallgrass|type=potion|property=whimsical|miscellaneous=} potion list and roll {@dice 1d20} on that list. The potion produced by the machine corresponds to the number you rolled. This potion can be used by any creature, but it disappears if it isn't used within 1 hour."
+  ],
+  "entriesHigherLevel": [
+   {
+    "type": "entries",
+    "name": "Using a Higher-Level Spell Slot",
+    "entries": [
+     "If you cast this spell using a level 2+ spell slot, you can choose to add 10 to your {@dice d20} roll."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Graffiti Trap",
+  "level": 2,
+  "school": "T",
+  "time": [
+   {
+    "number": 1,
+    "unit": "minute"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "feet",
+    "amount": 5
+   }
+  },
+  "components": {
+   "v": true,
+   "s": true,
+   "m": {
+    "text": "a jar of paint worth 5+ GF, which the spell consumes",
+    "cost": 500,
+    "consume": true
+   }
+  },
+  "duration": [
+   {
+    "type": "timed",
+    "duration": {
+     "type": "hour",
+     "amount": 1
+    }
+   }
+  ],
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Ranger",
+     "source": "XPHB"
+    },
+    {
+     "name": "Sorcerer",
+     "source": "XPHB"
+    },
+    {
+     "name": "Warlock",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    }
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "You paint an arcane trap that later unleashes a magical effect. You graffiti a surface (such as a section of a wall, floor, or table) within range with the paint. The graffiti can cover an area no larger than 5 feet in diameter. If the surface is moved more than 10 feet from where you cast this spell, the paint becomes nonmagical, and the spell ends without being triggered.",
+   "The graffiti appears mundane and requires a successful Intelligence ({@skill Investigation|XPHB}) check against your spell save DC to determine that it's magical.",
+   "The trap is triggered when a creature enters the area within 5 feet of the graffiti or when you choose to trigger it as a {@action Magic|XPHB} action. When you cast this spell, you can designate creatures that don't trigger the trap when they enter its area. Once the trap is triggered, you are magically made aware that it was triggered (provided you're on the same plane of existence as it), and this spell ends.",
+   "When triggered, the trap erupts in an explosion of color, sending tendrils of magical paint toward the target. Alternatively, if you trigger the trap as a {@action Magic|XPHB} action, you can target a creature you can see within 10 feet of the graffiti. The target must make a Dexterity saving throw.",
+   "On a failed save, the target is pulled to the surface that bears the graffiti and has the {@condition Restrained|XPHB} condition. It can take an action to make a Strength ({@skill Athletics|XPHB}) check against your spell save DC, freeing itself on a success. The paint becomes nonmagical, and the {@condition Restrained|XPHB} condition ends after 1 minute or when the creature has at least one gallon of water splashed on it.",
+   "On a successful save, the creature's {@variantrule Speed|XPHB} is instead halved until the start of its next turn."
+  ],
+  "entriesHigherLevel": [
+   {
+    "type": "entries",
+    "name": "Using a Higher-Level Spell Slot",
+    "entries": [
+     "The spell's duration increases with a spell slot of level 3 (8 hours), 4 (1 day), 5 (7 days), and 6+ (30 days)."
+    ]
+   }
+  ],
+  "savingThrow": [
+   "dexterity"
+  ],
+  "conditionInflict": [
+   "restrained"
+  ]
+ },
+ {
   "name": "Gravity Repulsion",
   "source": "HelianasGuidetoMonsterHunting",
   "level": 4,
@@ -22780,6 +23664,88 @@
   ]
  },
  {
+  "name": "Identify Curse",
+  "level": 4,
+  "school": "D",
+  "time": [
+   {
+    "number": 1,
+    "unit": "action"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "touch"
+   }
+  },
+  "components": {
+   "v": true,
+   "s": true,
+   "m": {
+    "text": "a small Kyojin Candle worth 50+ GF, which the spell consumes",
+    "cost": 5000,
+    "consume": true
+   }
+  },
+  "duration": [
+   {
+    "type": "instant"
+   }
+  ],
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Cleric",
+     "source": "XPHB"
+    },
+    {
+     "name": "Druid",
+     "source": "XPHB"
+    },
+    {
+     "name": "Paladin",
+     "source": "XPHB"
+    },
+    {
+     "name": "Warlock",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    }
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "Using the special properties of a Kyojin Candle, you uncover the inner workings of a curse. Choose one of the following options.",
+   {
+    "type": "list",
+    "items": [
+     {
+      "type": "item",
+      "name": "Creature or Object",
+      "entries": [
+       "The spell reveals the many aspects of any curses on a creature or object you touch. This includes the effects of the curse, who or what caused the curse, and how the curse can be ended (for example, by a {@spell Remove Curse|XPHB} or {@spell Greater Restoration|XPHB} spell)."
+      ]
+     },
+     {
+      "type": "item",
+      "name": "Area",
+      "entries": [
+       "The spell reveals the effects of a curse affecting the area within a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. If the area isn't cursed, the spell instead reveals whether a cursed creature or object has passed through the area within the past 24 hours."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Illusory Instrument",
   "source": "GrimHollowPG24",
   "page": 194,
@@ -23933,6 +24899,12 @@
     }
    ]
   },
+  "feats": [
+   {
+    "name": "Gun-Mage Adept",
+    "source": "ValdaGunslinger"
+   }
+  ],
   "miscTags": [
    "SGT"
   ]
@@ -23991,7 +24963,13 @@
      "source": "XPHB"
     }
    ]
-  }
+  },
+  "feats": [
+   {
+    "name": "Gun-Mage Adept",
+    "source": "ValdaGunslinger"
+   }
+  ]
  },
  {
   "name": "Jolt",
@@ -29255,6 +30233,63 @@
   ]
  },
  {
+  "name": "One-Way Street",
+  "level": 3,
+  "school": "I",
+  "time": [
+   {
+    "number": 1,
+    "unit": "action"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "feet",
+    "amount": 120
+   }
+  },
+  "components": {
+   "v": true,
+   "s": true,
+   "m": "crushed rocks or sand"
+  },
+  "duration": [
+   {
+    "type": "timed",
+    "duration": {
+     "type": "minute",
+     "amount": 10,
+     "upTo": true
+    },
+    "concentration": true
+   }
+  ],
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Sorcerer",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    }
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "You create an image of a paved road on the ground within range, which lasts for the duration. The road is a {@variantrule Line [Area of Effect]|XPHB|Line} and can be up to 15 feet wide and 120 feet long. When you cast the spell, choose one direction along the road. A creature moving on the road in any other direction must spend 3 feet of movement for every 1 foot it moves."
+  ],
+  "areaTags": [
+   "L"
+  ]
+ },
+ {
   "name": "Orien Step",
   "source": "FoEQuickstone",
   "page": 170,
@@ -30128,6 +31163,12 @@
     }
    ]
   },
+  "feats": [
+   {
+    "name": "Gun-Mage Adept",
+    "source": "ValdaGunslinger"
+   }
+  ],
   "savingThrow": [
    "dexterity"
   ]
@@ -30478,6 +31519,61 @@
    "SGT"
   ],
   "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Custom/Spells/Pillar%20of%20Force.webp"
+ },
+ {
+  "name": "Pinky Swear",
+  "source": "DnDBeyondDrops",
+  "page": "2026-09-03",
+  "level": 2,
+  "school": "A",
+  "time": [
+   {
+    "number": 1,
+    "unit": "action"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "touch"
+   }
+  },
+  "components": {
+   "v": true,
+   "s": true
+  },
+  "duration": [
+   {
+    "type": "timed",
+    "duration": {
+     "type": "hour",
+     "amount": 24
+    }
+   }
+  ],
+  "entries": [
+   "You touch a creature and speak a promise of no more than 25 words that you vow to keep.",
+   "For the duration of the spell, if you knowingly break the promise, the target immediately knows of your breach if it is within 1 mile, and you start {@hazard burning|XPHB}, taking 1 Fire damage at the start of each of your turns instead of the normal burning damage."
+  ],
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Paladin",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    }
+   ]
+  },
+  "damageInflict": [
+   "fire"
+  ]
  },
  {
   "name": "Pins & Needles",
@@ -31864,6 +32960,58 @@
     {
      "name": "Wizard",
      "source": "XPHB"
+    }
+   ]
+  }
+ },
+ {
+  "name": "Quick Clothier",
+  "source": "DnDBeyondDrops",
+  "page": "2026-09-03",
+  "level": 1,
+  "school": "T",
+  "time": [
+   {
+    "number": 1,
+    "unit": "action"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "touch"
+   }
+  },
+  "components": {
+   "v": true,
+   "s": true,
+   "m": "a set of clothing"
+  },
+  "duration": [
+   {
+    "type": "timed",
+    "duration": {
+     "type": "hour",
+     "amount": 24
+    }
+   }
+  ],
+  "entries": [
+   "You alter the appearance of a set of nonmagical clothing that isn't being worn by someone else. You determine the color, styling, decoration, and form the clothing takes, though you can't generate clothes worth more than 15 GP. For example, you could transform a tattered {@item Robe|XPHB} into {@item Fine Clothes|XPHB}, or vice versa. At the end of the spell's duration, the altered clothing returns to its original form."
+  ],
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Artificer",
+     "source": "EFA"
     }
    ]
   }
@@ -36580,6 +37728,79 @@
   }
  },
  {
+  "name": "Soda Pop",
+  "level": 3,
+  "school": "V",
+  "time": [
+   {
+    "number": 1,
+    "unit": "action"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "feet",
+    "amount": 30
+   }
+  },
+  "components": {
+   "v": true,
+   "s": true
+  },
+  "duration": [
+   {
+    "type": "timed",
+    "duration": {
+     "type": "minute",
+     "amount": 1,
+     "upTo": true
+    },
+    "concentration": true
+   }
+  ],
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Sorcerer",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    }
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "In the final weaving of the spell's Somatic components, you summon a can of soda in your hand, which you throw into a space within range. When the spell ends, the can pops, and each creature in a 10-foot {@variantrule Sphere [Area of Effect]|XPHB|Sphere} originating from the can makes a Dexterity saving throw. A creature takes Force damage equal to the total accumulated damage on a failed save or half as much damage on a successful one. The spell ends early if the can is being carried by a creature at the end of a turn.",
+   "At the end of each of your turns, the radius of the spell's {@variantrule Emanation [Area of Effect]|XPHB|Emanation} increases by 5 feet.",
+   "The spell's base damage is {@damage 8d4}. If the can is moved more than 20 feet or a creature within 5 feet of it takes a {@variantrule Bonus Action|XPHB} to shake the can, the spell's damage increases by {@dice 1d4} (to a maximum of {@damage 14d4}). Once the damage increases in this way, it can't do so again until initiative count 30 on the next round."
+  ],
+  "entriesHigherLevel": [
+   {
+    "type": "entries",
+    "name": "Using a Higher-Level Spell Slot",
+    "entries": [
+     "The base damage and maximum damage increases by {@dice 1d4} for each spell slot level above 3."
+    ]
+   }
+  ],
+  "damageInflict": [
+   "force"
+  ],
+  "savingThrow": [
+   "dexterity"
+  ],
+  "areaTags": [
+   "S"
+  ]
+ },
+ {
   "name": "Somnolence",
   "source": "GrimHollowPG24",
   "page": 201,
@@ -38198,6 +39419,69 @@
   ]
  },
  {
+  "name": "Stop Sign",
+  "level": 0,
+  "school": "E",
+  "time": [
+   {
+    "number": 1,
+    "unit": "action"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "feet",
+    "amount": 30
+   }
+  },
+  "components": {
+   "v": true,
+   "s": true
+  },
+  "duration": [
+   {
+    "type": "timed",
+    "duration": {
+     "type": "round",
+     "amount": 1
+    }
+   }
+  ],
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Sorcerer",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    }
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "You conjure a spectral stop sign in an unoccupied space within 5 feet of you, which disappears at the start of your next turn. One creature of your choice within range must make a Wisdom saving throw. On a failed save, the target is unable to move toward the stop sign for the duration."
+  ],
+  "entriesHigherLevel": [
+   {
+    "type": "entries",
+    "name": "Cantrip Upgrade",
+    "entries": [
+     "The number of creatures you can target with the spell increases when you reach levels 5 (two creatures), 11 (three creatures), and 17 (four creatures)."
+    ]
+   }
+  ],
+  "savingThrow": [
+   "wisdom"
+  ]
+ },
+ {
   "name": "Storm Door",
   "source": "BookOfEbonTides",
   "page": 71,
@@ -38995,6 +40279,74 @@
   ],
   "miscTags": [
    "SGT"
+  ]
+ },
+ {
+  "name": "Summon Ompo Swarm",
+  "level": 1,
+  "school": "C",
+  "time": [
+   {
+    "number": 1,
+    "unit": "action"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "feet",
+    "amount": 30
+   }
+  },
+  "components": {
+   "v": true,
+   "s": true,
+   "m": "a scrap of trash"
+  },
+  "duration": [
+   {
+    "type": "instant"
+   }
+  ],
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Druid",
+     "source": "XPHB"
+    },
+    {
+     "name": "Sorcerer",
+     "source": "XPHB"
+    },
+    {
+     "name": "Warlock",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    }
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "You summon a swarm of mouselike spirits called ompo, which appears in a 10-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} within range. The spirits consume all Small or smaller nonmagical objects in the area that aren't being worn or carried, destroying them; you can designate any objects for the spirits to ignore. They then disappear."
+  ],
+  "entriesHigherLevel": [
+   {
+    "type": "entries",
+    "name": "Using a Higher-Level Spell Slot",
+    "entries": [
+     "The size of the {@variantrule Cube [Area of Effect]|XPHB|Cube} increases by 5 feet for each spell slot level above 1."
+    ]
+   }
+  ],
+  "areaTags": [
+   "C"
   ]
  },
  {
@@ -39996,6 +41348,57 @@
    "UBA"
   ],
   "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Custom/Spells/Task.webp"
+ },
+ {
+  "name": "Taxi Service",
+  "level": 3,
+  "school": "C",
+  "time": [
+   {
+    "number": 1,
+    "unit": "action"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "feet",
+    "amount": 60
+   }
+  },
+  "components": {
+   "v": true,
+   "s": true,
+   "m": "a whistle"
+  },
+  "duration": [
+   {
+    "type": "instant"
+   }
+  ],
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Sorcerer",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    }
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "You conjure a Huge spectral taxi within range, which moves up to 120 feet in a {@variantrule Line [Area of Effect]|XPHB|Line}. Each Medium or smaller willing creature of your choice within 5 feet of the {@variantrule Line [Area of Effect]|XPHB|Line} is pulled into the taxi as it passes by the creature. The taxi (and any creature it's carrying) passes through objects in its path but immediately stops before attempting to pass through 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead. Each creature carried by the taxi exits to an unoccupied space of its choice within 5 feet of where the taxi ends its movement, after which the taxi vanishes."
+  ],
+  "areaTags": [
+   "L"
+  ]
  },
  {
   "name": "Tentacle Lash",
@@ -41241,6 +42644,96 @@
   "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowPG24/Foundry/Spells/Undead%20Enthrallment.webp"
  },
  {
+  "name": "Unearth Demon",
+  "level": 3,
+  "school": "D",
+  "time": [
+   {
+    "number": 1,
+    "unit": "action"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "self"
+   }
+  },
+  "components": {
+   "v": true,
+   "s": true,
+   "m": "cursed tuft of hair"
+  },
+  "duration": [
+   {
+    "type": "instant"
+   }
+  ],
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Cleric",
+     "source": "XPHB"
+    },
+    {
+     "name": "Paladin",
+     "source": "XPHB"
+    },
+    {
+     "name": "Warlock",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    }
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "Using techniques developed by the nakudama, you magically detect and uncover information about Demons in the area. Choose one of the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} sizes listed below; you learn the associated information in that area.",
+   {
+    "type": "list",
+    "items": [
+     {
+      "type": "item",
+      "name": "1,000-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}",
+      "entries": [
+       "You learn the exact number of Demons within the area."
+      ]
+     },
+     {
+      "type": "item",
+      "name": "500-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}",
+      "entries": [
+       "You learn the exact number of Demons within the area, and you learn the direction and distance to each of their locations."
+      ]
+     },
+     {
+      "type": "item",
+      "name": "250-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}",
+      "entries": [
+       "You learn the exact number of Demons within the area, the direction and distance to each of their locations, the kind of Demon each of them is, and their respective {@variantrule Challenge Rating|XPHB|Challenge Ratings}."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "inset",
+    "entries": [
+     "When used in games other than Obojima, the caster can choose to learn this information regarding one of the following creature types of their choice: Aberrations, Fey, Fiends, or Undead (at the GM's discretion)."
+    ]
+   }
+  ],
+  "areaTags": [
+   "E"
+  ]
+ },
+ {
   "name": "Unraveling Whisper",
   "source": "CrookedMoon14",
   "page": 133,
@@ -42053,6 +43546,57 @@
   "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowPG24/Foundry/Spells/Vibrating%20Humors.webp"
  },
  {
+  "name": "Vine Ladder",
+  "level": 0,
+  "school": "C",
+  "time": [
+   {
+    "number": 1,
+    "unit": "action"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "feet",
+    "amount": 30
+   }
+  },
+  "components": {
+   "s": true,
+   "m": "a stem, leaf, or other piece of a plant"
+  },
+  "duration": [
+   {
+    "type": "timed",
+    "duration": {
+     "type": "minute",
+     "amount": 1
+    }
+   }
+  ],
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Druid",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    }
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "You conjure a ladder composed of vines on a solid surface up to 15 feet tall that you can see within range. The ladder remains stationary for the duration. If you create a new ladder with this spell, the first ladder vanishes."
+  ]
+ },
+ {
   "name": "Viscous Sheath",
   "source": "GrimHollowPG24",
   "page": 205,
@@ -42490,6 +44034,101 @@
   ],
   "areaTags": [
    "W"
+  ]
+ },
+ {
+  "name": "Warding Barrier",
+  "level": 2,
+  "school": "A",
+  "time": [
+   {
+    "number": 1,
+    "unit": "action"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "feet",
+    "amount": 30
+   }
+  },
+  "components": {
+   "v": true,
+   "s": true
+  },
+  "duration": [
+   {
+    "type": "timed",
+    "duration": {
+     "type": "minute",
+     "amount": 1,
+     "upTo": true
+    },
+    "concentration": true
+   }
+  ],
+  "classes": {
+   "fromClassList": [
+    {
+     "name": "Bard",
+     "source": "XPHB"
+    },
+    {
+     "name": "Cleric",
+     "source": "XPHB"
+    },
+    {
+     "name": "Druid",
+     "source": "XPHB"
+    },
+    {
+     "name": "Paladin",
+     "source": "XPHB"
+    },
+    {
+     "name": "Ranger",
+     "source": "XPHB"
+    },
+    {
+     "name": "Sorcerer",
+     "source": "XPHB"
+    },
+    {
+     "name": "Warlock",
+     "source": "XPHB"
+    },
+    {
+     "name": "Wizard",
+     "source": "XPHB"
+    }
+   ]
+  },
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "A 15-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on a point you can see within range becomes warded against certain creatures for the duration. Choose one creature type. Whenever a creature of that type with a {@variantrule Challenge Rating|XPHB} of 2 or lower attempts to move into the area, it must make a Charisma saving throw. On a failed save, the creature has the {@condition Prone|XPHB} condition, and it can't enter the area for the rest of the turn.",
+   "If such a creature starts its turn in the area, it must make a Charisma saving throw. On a failed save, the creature is shunted to the nearest unoccupied space outside the area, has the {@condition Prone|XPHB} condition, and takes {@damage 2d8} Force damage."
+  ],
+  "entriesHigherLevel": [
+   {
+    "type": "entries",
+    "name": "Using a Higher-Level Spell Slot",
+    "entries": [
+     "The maximum {@variantrule Challenge Rating|XPHB} of creatures the spell can affect increases by 1 for each spell slot level above 2."
+    ]
+   }
+  ],
+  "damageInflict": [
+   "force"
+  ],
+  "savingThrow": [
+   "charisma"
+  ],
+  "conditionInflict": [
+   "prone"
+  ],
+  "areaTags": [
+   "S"
   ]
  },
  {

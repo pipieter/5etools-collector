@@ -1,5 +1,22 @@
 [
  {
+  "name": "Bicycle",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "Cost: 50 GF",
+   "Bicycles are the most common vehicle found on the island due to the ease with which craftspeople can recreate them."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Bicycle.webp"
+    }
+   }
+  ]
+ },
+ {
   "name": "Dog Sled",
   "source": "NorthlandsWorldbook",
   "entries": [
@@ -26,6 +43,65 @@
   ]
  },
  {
+  "name": "Flying Broom",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "Cost: 500 GF",
+   "Flying brooms are a popular form of transportation for witches, wizards, and merchants across Obojima—the most common of which don't move faster than a walking pace and tend to lose stability at higher elevations. Faster brooms are often more valuable, as they take quite a bit of skill and understanding to craft. The highest-quality brooms are made in Yatamon, though many besom makers and broom squires in small towns and villages might disagree."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "title": "The recognizable sound of broom bells are used to notify those nearby that the rider is landing. The bustle/head is made from finely crafted Shuro (Hemp Palm) or collections of old fabric; on very fine brooms, Sheep Dragon Wool is used instead.",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Flying_Broom.webp"
+    }
+   }
+  ]
+ },
+ {
+  "name": "Flying Lantern",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "The flying lantern of the Courier Brigade is well known by the people of Obojima and is considered by many to be the most iconic flying machine on the island—soaring above other notable crafts such as Rock Raley's glider or the Crowsworn's \"Whirling Flock.\" The lantern itself is used sparingly by the postal knights due to its unorthodox fuel source, which makes its departure and arrival within the city that much more of a spectacle. When the lantern is used, it's often to deliver special packages, to send quick aid to knights in the field, or to participate in one of the many festivals that the Courier Brigade takes part in. Though the organization technically has two identical lanterns, only one is ever flown at a time to conserve the large candle that is used to power the lantern.",
+   {
+    "type": "entries",
+    "name": "Kyojin Candle",
+    "entries": [
+     "The large candle that fuels the flying lantern is known as a Kyojin Candle, and it has been crafted in Yatamon by the Courier Brigade for just over three decades. The candles themselves are formed from a special pink wax used in potion brewing and certain traditional ceremonies held in the Gift of Shuritashi. The arcane properties that make the wax effective in potion brewing also make it ideal for the Kyojin Candle. After intricately braiding and weaving enchantments into the candle's wick, the waxwork practitioners of the Courier Brigade pour thin layers of wax into the Kyojin mold, sealing glyphs of Evocation magic each time. The practice of crafting a Kyojin Candle is held closely by the brigade, and the act of making one can take up to a year to complete."
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "title": "Going \"up a wick\" or \"down a wick\" commonly refers to the pilot of a flying lantern lighting or extinguishing one of the Kyojin candles' three core wicks. Doing so will add or remove heat from the lantern's interior and cause the lantern to gain or lose elevation accordingly. As the Kyojin candle burns away, a crank and gear system can be used to raise the candle's height and maintain the needed heat in the core of the lantern.",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Flying_Lantern.webp"
+    }
+   }
+  ]
+ },
+ {
+  "name": "K-Truck",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "Cost: 2,500 GF",
+   "This mini truck, also known as a kei truck, is often the prized possession of whomever is lucky enough to obtain one."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/K-Truck.webp"
+    }
+   }
+  ]
+ },
+ {
   "name": "Karvi",
   "source": "NorthlandsWorldbook",
   "entries": [
@@ -37,6 +113,23 @@
   "source": "NorthlandsWorldbook",
   "entries": [
    "Suited for open water rather than shallow rivers, knarr are longships used to ferry goods and livestock across the ocean. Its deep hull allows for more cargo storage, compared with other longships of similar size, and allows the ship to be operated by smaller crews. When used in exploration or war, knarr are used to carry supplies for the crews and warriors on other ships in the fleet, rather than as battleships."
+  ]
+ },
+ {
+  "name": "Motorcycle",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "Cost: 3,000 GF",
+   "Motorcycles are coveted by farmers and other tradespeople due to their speed and power, which make them a versatile tool in the field or when delivering goods."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Motorcycle.webp"
+    }
+   }
   ]
  },
  {
@@ -57,10 +150,44 @@
   ]
  },
  {
+  "name": "Scooter / Vespa",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "Cost: 500 GF",
+   "Scooters and Vespas are most commonly used in towns and villages with First Age roads or smooth paths."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Scooter_Vespa.webp"
+    }
+   }
+  ]
+ },
+ {
   "name": "Skeid",
   "source": "NorthlandsWorldbook",
   "entries": [
    "Smaller than a drakkar, a skeid, or \"slider,\" is still large enough to carry dozens of crew members, passengers, supplies and treasure. This warship is also amongst the fastest of the longboats, matched only by the smaller snekkja."
+  ]
+ },
+ {
+  "name": "Small Car",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "Cost: 2,000 GF",
+   "Because they're less common, cars are appreciated by most Obojimans, especially if they're visually unique."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Small_Car.webp"
+    }
+   }
   ]
  },
  {
@@ -84,6 +211,55 @@
      "url": "https://raw.githubusercontent.com/JuliTutu/homebrew-img/main/img/NorthlandsSagas/Adventures/Map_Stokkvari_Player.webp"
     }
    }
+  ]
+ },
+ {
+  "name": "The Doomspine",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "The Lionfish King's floating menace, the Doomspine, is a shoddily constructed vessel that he uses to raid and intimidate the western coast of the island. Made to resemble the top half of a sailship, which he had constructed from stolen docks and pillaged lumber, and the base of a First Age tug boat, the Doomspine is clunky looking, to say the least. Nevertheless, the ship is the most successful of any craft the Lionfish King has created—surviving numerous encounters with Captain Clintock's Pointue and emerging victorious in more than one of them."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "title": "An original drawing of the first Pointue, which features the nose spine that now decorates the Doomspine.",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/The_Doomspine.webp"
+    }
+   }
+  ]
+ },
+ {
+  "name": "The Pointue",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "Captain Clintock's swordfish submersible, the Pointue, has explored the Shallows in some form or another for the last twenty years. It was created by the captain and his late wife, Kara, shortly after the two established the Mariners' Guild. Originally, the vessel was crafted from a dense wood, which was supported by internal steel plates and sealed with Yugi Sap°. This version of the Pointue sailed for just under four years before the Lionfish King sank it off the western coastline. Since then, the Pointue has been altered and upgraded by the Clintock family, with its newest form being the most advanced and capable iteration yet. Now the Pointue can dive indefinitely thanks to supportive magics. Its steel casing makes it the most defensible vehicle on the island, and the craft's swift form and spear-like nose ensure it is a formidable force against other ships and large creatures."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "title": "Although it's not desired, the Pointue's sharpened nose spike is designed in such a way that breaking it off in battle would not cause the submersible to sink.",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/The_Pointue.webp"
+    }
+   },
+   {
+    "type": "image",
+    "title": "The Pointue's interior features many First Age wonders, but none are as precious to Captain Clintock as his library of First Age books and film.",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/The_Pointue_2.webp"
+    }
+   }
+  ]
+ },
+ {
+  "name": "Trolley",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "Trolleys, or street cars, aren't well known outside of Yatamon and are commonly confused with the iconic Wandering Line, or \"spirit train\" as some people refer to it. Within the city, the Municipal Trolley Line functions as a beloved service that the people cherish and use often. Beyond the city limits, there are trolleys found throughout the island; however, many of them, if not all, are used in other manners besides transportation, usually as places of business or shelter."
   ]
  }
 ]

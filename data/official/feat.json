@@ -2031,6 +2031,7 @@
    }
   ],
   "repeatable": true,
+  "repeatableHidden": true,
   "ability": [
    {
     "choose": {

@@ -487,6 +487,14 @@
   ]
  },
  {
+  "name": "Flipped",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "A vehicle with the Flipped condition is one that is upside down, turned on its side, or otherwise unable to move in its current orientation. A Flipped vehicle has a Combat and Travel Speed of 0. A creature within 5 feet of a Flipped vehicle can take a {@action Utilize|XPHB} action to attempt to reorient the vehicle with a Strength ({@skill Athletics|XPHB}) check. The DC for the check is based on the vehicle's Size Modifier: 1 ({@dc 10}), 2 ({@dc 20}), 3 ({@dc 30}), or 4+ ({@dc 40}).",
+   "If more than one creature attempts to reorient the vehicle simultaneously, each creature makes the required Strength ({@skill Athletics|XPHB}) check, reducing the DC by 1 for each creature participating. As long as one creature succeeds on the check, the vehicle is reoriented. When a vehicle is reoriented, it returns to its proper orientation and loses the Flipped condition."
+  ]
+ },
+ {
   "name": "Frozen",
   "source": "MonstersOfDrakkenheim",
   "page": 375,
@@ -512,6 +520,13 @@
   ]
  },
  {
+  "name": "Immobile",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "If a vehicle is subjected to an effect that would cause the target to have the {@condition Grappled|XPHB} or {@condition Restrained|XPHB} condition, it instead gains this condition and has a Combat and Travel Speed of 0. If the effect would normally allow the target to make an ability check or saving throw to end the imposed condition, the creature controlling the vehicle can instead take the {@action Utilize|XPHB} action to make a Maneuvering check against the effect's save DC. On a success, this condition ends on the vehicle."
+  ]
+ },
+ {
   "name": "Immobilized",
   "source": "MonstersOfDrakkenheim",
   "page": 375,
@@ -531,6 +546,13 @@
   "page": 375,
   "entries": [
    "Roll the die indicated by the condition, such as \"Jinxed {@dice 1d4}\" each time you make an attack roll or saving throw. Subtract the value on the die from the result."
+  ]
+ },
+ {
+  "name": "Locked",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "Unlocking a vehicle with the Locked condition requires a creature within 5 feet of the vehicle's locked entry point to take a {@action Utilize|XPHB} action. If the creature uses the appropriate key, the vehicle automatically loses that condition. Without the key, a creature can use {@item Thieves' Tools|XPHB} to attempt to pick the lock with a {@dc 15} Dexterity ({@skill Sleight of Hand|XPHB}) check, causing the vehicle to lose the Locked condition on a success."
   ]
  },
  {
@@ -588,6 +610,15 @@
   "page": 375,
   "entries": [
    "You can't make more than one weapon attack during your turn, regardless of your class features, spells, or magic items."
+  ]
+ },
+ {
+  "name": "Uncontrolled",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "A vehicle has the Uncontrolled condition if it is in motion but no Crew are controlling the vehicle's movement. This can happen if the creature controlling the vehicle doesn't take a {@variantrule Bonus Action|XPHB} to continue operating it, either by choice or involuntarily (such as if it has the {@condition Incapacitated|XPHB} condition).",
+   "When a vehicle gains the Uncontrolled condition, it continues moving in the same direction and at the same speed that it moved on the last turn that a creature was controlling it. On that creature's turn each subsequent round, the vehicle moves 10 fewer feet in that direction than it did the previous round until it is no longer moving.",
+   "A vehicle loses the Uncontrolled condition when it stops moving or when a creature regains control of the vehicle."
   ]
  },
  {

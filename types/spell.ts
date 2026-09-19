@@ -12,6 +12,7 @@ import {
 } from './internal/base';
 import { Copyable, Versioned } from './internal/copy';
 import { Entry } from './internal/entry';
+import { Variadic } from './internal/util';
 
 interface FromSource {
   name: string;
@@ -33,11 +34,11 @@ export interface SpellBase extends Base, SRD {
   entries?: Entry[];
   entriesHigherLevel?: Entry[];
   level: number;
-  school?: string;
-  components?: SpellComponents;
-  time?: Unit[];
-  duration?: Duration[];
-  range?: Range;
+  school: string;
+  components: SpellComponents;
+  time: Unit[];
+  duration: Duration[];
+  range: Range;
   damageInflict?: string[];
   damageImmune?: Resist[];
   damageResist?: Resist[];
@@ -47,7 +48,7 @@ export interface SpellBase extends Base, SRD {
   savingThrow?: string[];
   affectsCreatureType?: string[];
   areaTags?: string[];
-  scalingLevelDice?: ScalingLevelDice | ScalingLevelDice[];
+  scalingLevelDice?: Variadic<ScalingLevelDice | ScalingLevelDice>;
   miscTags?: string[];
   meta?: { ritual: boolean };
   spellAttack?: string[];

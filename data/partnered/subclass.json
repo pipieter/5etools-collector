@@ -2877,6 +2877,46 @@
   "hasFluff": true
  },
  {
+  "name": "Coven Patron",
+  "shortName": "Coven",
+  "source": "ObojimaTalesYatamon",
+  "className": "Warlock",
+  "classSource": "XPHB",
+  "edition": "one",
+  "additionalSpells": [
+   {
+    "prepared": {
+     "3": [
+      "animal friendship",
+      "bless",
+      "borrow magic|ObojimaTalesYatamon",
+      "mirror image",
+      "shared vision|ObojimaTallGrass"
+     ],
+     "5": [
+      "bestow curse",
+      "clairvoyance"
+     ],
+     "7": [
+      "pacify monster|ObojimaTallGrass",
+      "polymorph"
+     ],
+     "9": [
+      "awaken",
+      "Rary's Telepathic Bond"
+     ]
+    }
+   }
+  ],
+  "subclassFeatures": [
+   "Coven Patron|Warlock|XPHB|Coven|ObojimaTalesYatamon|3",
+   "Coven's Bond|Warlock|XPHB|Coven|ObojimaTalesYatamon|6",
+   "Distant Protections|Warlock|XPHB|Coven|ObojimaTalesYatamon|10",
+   "Voice of the Many|Warlock|XPHB|Coven|ObojimaTalesYatamon|14"
+  ],
+  "hasFluffImages": true
+ },
+ {
   "name": "Crimson Dynasty",
   "shortName": "Crimson",
   "source": "CrookedMoon14",
@@ -3520,6 +3560,21 @@
   ],
   "hasFluffImages": true,
   "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ExploringEberron24/Icon/Forge%20Adept.webp"
+ },
+ {
+  "name": "Fortune Rogue",
+  "shortName": "Fortune",
+  "source": "ObojimaTalesYatamon",
+  "className": "Rogue",
+  "classSource": "XPHB",
+  "edition": "one",
+  "subclassFeatures": [
+   "Fortune Rogue|Rogue|XPHB|Fortune|ObojimaTalesYatamon|3",
+   "Lucky Strike|Rogue|XPHB|Fortune|ObojimaTalesYatamon|9",
+   "Boon of Fortuity|Rogue|XPHB|Fortune|ObojimaTalesYatamon|13",
+   "The Skin of Your Teeth|Rogue|XPHB|Fortune|ObojimaTalesYatamon|17"
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Frost Sorcery",
@@ -5625,6 +5680,22 @@
   "hasFluffImages": true
  },
  {
+  "name": "Neko Duelist",
+  "shortName": "Neko Duelist",
+  "source": "ObojimaTalesYatamon",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "edition": "one",
+  "subclassFeatures": [
+   "Neko Duelist|Fighter|XPHB|Neko Duelist|ObojimaTalesYatamon|3",
+   "Evasive Maneuvers|Fighter|XPHB|Neko Duelist|ObojimaTalesYatamon|7",
+   "Vigilant Reflexes|Fighter|XPHB|Neko Duelist|ObojimaTalesYatamon|10",
+   "Cautious Tenacity|Fighter|XPHB|Neko Duelist|ObojimaTalesYatamon|15",
+   "Swatting Flurry|Fighter|XPHB|Neko Duelist|ObojimaTalesYatamon|18"
+  ],
+  "hasFluffImages": true
+ },
+ {
   "name": "Nemesis Sorcery",
   "source": "FoEQuickstone",
   "page": 153,
@@ -5937,6 +6008,58 @@
    ]
   },
   "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Foundry/Subclasses/Castigation.webp"
+ },
+ {
+  "name": "Oath of Delivery",
+  "shortName": "Delivery",
+  "source": "ObojimaTalesYatamon",
+  "className": "Paladin",
+  "classSource": "XPHB",
+  "edition": "one",
+  "additionalSpells": [
+   {
+    "prepared": {
+     "3": [
+      "avian courier|ObojimaTalesYatamon",
+      "correspondence|ObojimaTalesYatamon"
+     ],
+     "5": [
+      "at your side|ObojimaTallGrass",
+      "pass without trace|XPHB"
+     ],
+     "9": [
+      "haste|XPHB",
+      "plummet|ObojimaTallGrass"
+     ],
+     "13": [
+      "freedom of movement|XPHB",
+      "pacify monster|ObojimaTallGrass"
+     ],
+     "17": [
+      "dream|XPHB",
+      "scrying|XPHB"
+     ]
+    }
+   }
+  ],
+  "subclassSpells": [
+   "avian courier|ObojimaTalesYatamon",
+   "correspondence|ObojimaTalesYatamon",
+   "at your side|ObojimaTallGrass",
+   "pass without trace|XPHB",
+   "haste|XPHB",
+   "plummet|ObojimaTallGrass",
+   "freedom of movement|XPHB",
+   "pacify monster|ObojimaTallGrass",
+   "dream|XPHB",
+   "scrying|XPHB"
+  ],
+  "subclassFeatures": [
+   "Oath of Delivery|Paladin|XPHB|Delivery|ObojimaTalesYatamon|3",
+   "Aura of Deliverance|Paladin|XPHB|Delivery|ObojimaTalesYatamon|7",
+   "Brigade's Bond|Paladin|XPHB|Delivery|ObojimaTalesYatamon|15",
+   "Paragon of Deliverance|Paladin|XPHB|Delivery|ObojimaTalesYatamon|20"
+  ]
  },
  {
   "name": "Oath of Pestilence",

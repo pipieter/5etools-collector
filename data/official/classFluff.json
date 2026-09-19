@@ -514,6 +514,7 @@
   "images": [
    {
     "type": "image",
+    "title": "A Fierce Warrior of Primal Rage",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Barbarian.webp"
@@ -902,6 +903,7 @@
   "images": [
    {
     "type": "image",
+    "title": "An Inspiring Performer of Music, Dance, and Magic",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Bard.webp"
@@ -1254,6 +1256,7 @@
   "images": [
    {
     "type": "image",
+    "title": "A Miraculous Priest of Divine Power",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Cleric.webp"
@@ -2728,6 +2731,7 @@
   "images": [
    {
     "type": "image",
+    "title": "A Nature Priest of Primal Power",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Druid.webp"
@@ -3117,6 +3121,7 @@
   "images": [
    {
     "type": "image",
+    "title": "A Master of All Arms and Armor",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Fighter.webp"
@@ -3472,6 +3477,7 @@
   "images": [
    {
     "type": "image",
+    "title": "A Martial Artist of Supernatural Focus",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Monk.webp"
@@ -4042,6 +4048,7 @@
   "images": [
    {
     "type": "image",
+    "title": "A Devout Warrior of Sacred Oaths",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Paladin.webp"
@@ -4382,6 +4389,7 @@
   "images": [
    {
     "type": "image",
+    "title": "A Wandering Warrior Imbued with Primal Magic",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Ranger.webp"
@@ -4736,6 +4744,7 @@
   "images": [
    {
     "type": "image",
+    "title": "A Dexterous Expert in Stealth and Subterfuge",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Rogue.webp"
@@ -5185,6 +5194,7 @@
   "images": [
    {
     "type": "image",
+    "title": "A Dazzling Mage Filled with Innate Magic",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Sorcerer.webp"
@@ -5537,6 +5547,7 @@
   "images": [
    {
     "type": "image",
+    "title": "An Occultist Empowered by Otherworldly Pacts",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Warlock.webp"
@@ -5916,6 +5927,7 @@
   "images": [
    {
     "type": "image",
+    "title": "A Scholarly Magic-User of Arcane Power",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Wizard.webp"

@@ -185,6 +185,7 @@ export interface MagicVariantInherits extends Partial<ItemBase> {
   namePrefix?: string;
   nameSuffix?: string;
   nameRemove?: string;
+  propertyAdd?: string[];
   weightMult?: number;
   weightExpression?: string;
   valueMult?: number;

@@ -488,6 +488,22 @@
   ]
  },
  {
+  "name": "Brewer's Torch",
+  "source": "ObojimaTalesYatamon",
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "reqAttune": true,
+  "hasFluffImages": true,
+  "entries": [
+   "These First Age torches have been magically altered to use potions as their fuel. As a {@action Magic|XPHB} action, you can pour a potion of any rarity into the glass vessel of a Brewer's Torch. As long as a potion is in the vessel, you can use a {@action Magic|XPHB} action to activate the torch's corresponding effect, as detailed below, consuming the potion from the vessel."
+  ],
+  "items": [
+   "Bubble Blowtorch|ObojimaTalesYatamon",
+   "Butterfly Blowtorch|ObojimaTalesYatamon",
+   "Water Jet Blowtorch|ObojimaTalesYatamon"
+  ]
+ },
+ {
   "name": "Broodmother's Embrace",
   "source": "HelianasGuidetoMonsterHunting",
   "page": 470,
@@ -1631,6 +1647,22 @@
   "items": [
    "Headbanger Lute (uncommon)|HelianasGuidetoMonsterHunting",
    "Headbanger Lute (very rare)|HelianasGuidetoMonsterHunting"
+  ]
+ },
+ {
+  "name": "Healing Patches",
+  "source": "ObojimaTalesYatamon",
+  "type": "GV|XDMG",
+  "rarity": "varies",
+  "hasFluffImages": true,
+  "entries": [
+   "You can attach up to three Healing Patches to your clothing or equipment over the course of 1 hour. You can take a {@variantrule Bonus Action|XPHB} to rip a patch off your person and regain {@variantrule Hit Points|XPHB}; doing so destroys the patch and leaves a charred mark in its place. If you have the {@condition Unconscious|XPHB} condition, an ally within reach of you can take a {@action Magic|XPHB} action to rip the patch off your person instead.",
+   "The number of {@variantrule Hit Points|XPHB} you regain when the patch is ripped off depends on the patch's rarity."
+  ],
+  "items": [
+   "Healing Patch|ObojimaTalesYatamon",
+   "Healing Patch (2nd Class)|ObojimaTalesYatamon",
+   "Healing Patch (1st Class)|ObojimaTalesYatamon"
   ]
  },
  {
