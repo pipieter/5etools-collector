@@ -1212,6 +1212,24 @@
   ]
  },
  {
+  "name": "Duskling",
+  "source": "DnDBeyondDrops",
+  "entries": [
+   "Dusklings are a people who've left the Feywild to settle in forested lands of both the Outer Planes and the Material Plane. The inherent magic of the Feywild still runs through them, giving dusklings the ability to suffuse themselves with magical effects.",
+   "Dusklings that travel the planes often live in migratory communities that follow livestock herds they tend. When the resources run out in one place, they move to another. Young dusklings play daring games that encourage them to harness and utilize their inner powers."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DnDBeyondDrops/races/Duskling.webp"
+    },
+    "credit": "Alejandro Pacheco"
+   }
+  ]
+ },
+ {
   "name": "Dwarf (Blue Mountain)",
   "source": "TLotRR",
   "_copy": {

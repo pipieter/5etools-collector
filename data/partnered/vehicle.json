@@ -1,5 +1,110 @@
 [
  {
+  "name": "Bicycle",
+  "source": "ObojimaTalesYatamon",
+  "vehicleType": "SHIP",
+  "terrain": [
+   "land"
+  ],
+  "size": "M",
+  "pace": 15,
+  "hull": {
+   "ac": 11,
+   "hp": 10,
+   "dt": 0
+  },
+  "capCrew": 1,
+  "capCargo": 0.01,
+  "movement": [
+   {
+    "name": "Combat Speed",
+    "ac": 11,
+    "hp": 10,
+    "speed": [
+     {
+      "mode": "land",
+      "entries": [
+       "60 feet"
+      ]
+     }
+    ]
+   }
+  ],
+  "weapon": [
+   {
+    "name": "Ramming",
+    "entries": [
+     "A creature controlling a vehicle can take the {@action Utilize|XPHB} action to attempt to ram a target with the vehicle; this can't be attempted more than once per turn. If the target is a creature, it can make a Dexterity saving throw to avoid the vehicle; the DC for the save equals 8 plus the controlling creature's Dexterity or Intelligence modifier (its choice) and the vehicle's Size Modifier.",
+     "Immediately after the vehicle rams a Small or larger target, the vehicle's {@variantrule Speed|XPHB} is reduced (as detailed in the {@variantrule Vehicle|ObojimaTalesYatamon|Controlling a Vehicle} section), and the vehicle takes {@damage 1d6} Bludgeoning damage for every 10 feet it moved before ramming its target, to a maximum of {@damage 3d6}. This damage ignores the vehicle's {@variantrule Damage Threshold|XPHB}."
+    ]
+   }
+  ],
+  "other": [
+   {
+    "name": "Vehicle Properties",
+    "entries": [
+     {
+      "name": "Classification: Mounted",
+      "type": "entries",
+      "entries": [
+       "The vehicle has no entry point and is straddled rather than entered."
+      ]
+     },
+     {
+      "name": "Vehicle Properties",
+      "type": "entries",
+      "entries": [
+       {
+        "type": "entries",
+        "name": "Feather",
+        "entries": [
+         "This vehicle can't deal damage when it rams a target."
+        ]
+       },
+       {
+        "type": "entries",
+        "name": "Nimble",
+        "entries": [
+         "The creature controlling this vehicle doesn't need to spend any of the vehicle's movement to change its direction."
+        ]
+       },
+       {
+        "type": "entries",
+        "name": "Pedalled",
+        "entries": [
+         "The creature controlling this vehicle can take the {@action Dash|XPHB} action to gain extra movement for the current turn."
+        ]
+       },
+       {
+        "type": "entries",
+        "name": "Simple",
+        "entries": [
+         "This vehicle doesn't require the creature controlling it to take a {@variantrule Bonus Action|XPHB} on each of its turns; it still has the {@condition Uncontrolled|ObojimaTalesYatamon} condition if the creature controlling it has the {@condition Incapacitated|XPHB} condition. If the vehicle must be powered on in order to begin operating it, it still requires a {@variantrule Bonus Action|XPHB} to do so."
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Size Modifier: 1",
+      "type": "entries",
+      "entries": [
+       "Ramming dice: {@damage 1d6}",
+       "Spirit-Whelmed Vehicles CR: 1",
+       "{@condition Flipped|ObojimaTalesYatamon} {@dc 10}"
+      ]
+     }
+    ]
+   }
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Bicycle_Token.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Dog Sled",
   "source": "NorthlandsWorldbook",
   "vehicleType": "SHIP",
@@ -111,6 +216,282 @@
    "type": "external",
    "url": "https://raw.githubusercontent.com/JuliTutu/homebrew-img/main/img/NorthlandsWorldbook/Items/Drakkar_Token.webp"
   },
+  "hasFluffImages": true
+ },
+ {
+  "name": "Flying Broom",
+  "source": "ObojimaTalesYatamon",
+  "vehicleType": "SHIP",
+  "terrain": [
+   "air"
+  ],
+  "size": "M",
+  "pace": 10,
+  "hull": {
+   "ac": 11,
+   "hp": 10,
+   "dt": 0
+  },
+  "capCrew": 1,
+  "capCargo": 0.01,
+  "movement": [
+   {
+    "name": "Combat Speed",
+    "ac": 11,
+    "hp": 10,
+    "speed": [
+     {
+      "mode": "air",
+      "entries": [
+       "40 feet"
+      ]
+     }
+    ]
+   }
+  ],
+  "weapon": [
+   {
+    "name": "Ramming",
+    "entries": [
+     "A creature controlling a vehicle can take the {@action Utilize|XPHB} action to attempt to ram a target with the vehicle; this can't be attempted more than once per turn. If the target is a creature, it can make a Dexterity saving throw to avoid the vehicle; the DC for the save equals 8 plus the controlling creature's Dexterity or Intelligence modifier (its choice) and the vehicle's Size Modifier.",
+     "Immediately after the vehicle rams a Small or larger target, the vehicle's {@variantrule Speed|XPHB} is reduced (as detailed in the {@variantrule Vehicle|ObojimaTalesYatamon|Controlling a Vehicle} section), and the vehicle takes {@damage 1d6} Bludgeoning damage for every 10 feet it moved before ramming its target, to a maximum of {@damage 3d6}. This damage ignores the vehicle's {@variantrule Damage Threshold|XPHB}."
+    ]
+   }
+  ],
+  "other": [
+   {
+    "name": "Vehicle Properties",
+    "entries": [
+     {
+      "name": "Classification: Mounted",
+      "type": "entries",
+      "entries": [
+       "The vehicle has no entry point and is straddled rather than entered."
+      ]
+     },
+     {
+      "name": "Vehicle Properties",
+      "type": "entries",
+      "entries": [
+       {
+        "type": "entries",
+        "name": "Feather",
+        "entries": [
+         "This vehicle can't deal damage when it rams a target."
+        ]
+       },
+       {
+        "type": "entries",
+        "name": "Flying",
+        "entries": [
+         "This vehicle can only move through the air."
+        ]
+       },
+       {
+        "type": "entries",
+        "name": "Nimble",
+        "entries": [
+         "The creature controlling this vehicle doesn't need to spend any of the vehicle's movement to change its direction."
+        ]
+       },
+       {
+        "type": "entries",
+        "name": "Simple",
+        "entries": [
+         "This vehicle doesn't require the creature controlling it to take a {@variantrule Bonus Action|XPHB} on each of its turns; it still has the {@condition Uncontrolled|ObojimaTalesYatamon} condition if the creature controlling it has the {@condition Incapacitated|XPHB} condition. If the vehicle must be powered on in order to begin operating it, it still requires a {@variantrule Bonus Action|XPHB} to do so."
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Size Modifier: 1",
+      "type": "entries",
+      "entries": [
+       "Spirit-Whelmed Vehicles CR: 1",
+       "{@condition Flipped|ObojimaTalesYatamon} {@dc 10}"
+      ]
+     }
+    ]
+   }
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Flying_Broom_Token.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Flying Lantern",
+  "source": "ObojimaTalesYatamon",
+  "vehicleType": "SHIP",
+  "terrain": [
+   "air"
+  ],
+  "size": "H",
+  "pace": 10,
+  "hull": {
+   "ac": 14,
+   "hp": 80,
+   "dt": 10
+  },
+  "capCrew": 1,
+  "capPassenger": 5,
+  "capCargo": 1,
+  "movement": [
+   {
+    "name": "Combat Speed",
+    "ac": 14,
+    "hp": 80,
+    "speed": [
+     {
+      "mode": "air",
+      "entries": [
+       "40 feet"
+      ]
+     }
+    ]
+   }
+  ],
+  "weapon": [
+   {
+    "name": "Ramming",
+    "entries": [
+     "A creature controlling a vehicle can take the {@action Utilize|XPHB} action to attempt to ram a target with the vehicle; this can't be attempted more than once per turn. If the target is a creature, it can make a Dexterity saving throw to avoid the vehicle; the DC for the save equals 8 plus the controlling creature's Dexterity or Intelligence modifier (its choice) and the vehicle's Size Modifier.",
+     "If the vehicle moved at least 10 feet in a straight line immediately before successfully ramming a target, the target takes {@damage 3d6} Bludgeoning damage. The target takes twice as much damage if the vehicle moved at least 20 feet before ramming it, or three times as much damage if the vehicle moved 30 feet or more before ramming it.",
+     "Immediately after the vehicle rams a Small or larger target, the vehicle's {@variantrule Speed|XPHB} is reduced (as detailed in the {@variantrule Vehicle|ObojimaTalesYatamon|Controlling a Vehicle} section), and the vehicle takes {@damage 1d6} Bludgeoning damage for every 10 feet it moved before ramming its target, to a maximum of {@damage 3d6}. This damage ignores the vehicle's {@variantrule Damage Threshold|XPHB}."
+    ]
+   }
+  ],
+  "other": [
+   {
+    "name": "Vehicle Properties",
+    "entries": [
+     {
+      "name": "Classification: Piloted",
+      "type": "entries",
+      "entries": [
+       "The vehicle requires a creature to enter it in order to operate it. Creatures inside this vehicle have {@variantrule Cover|XPHB|Half Cover}."
+      ]
+     },
+     {
+      "name": "Vehicle Properties",
+      "type": "entries",
+      "entries": [
+       {
+        "type": "entries",
+        "name": "Flying",
+        "entries": [
+         "This vehicle can only move through the air."
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Size Modifier: 3",
+      "type": "entries",
+      "entries": [
+       "Ramming dice: {@damage 3d6}",
+       "Spirit-Whelmed Vehicles CR: 3",
+       "{@condition Flipped|ObojimaTalesYatamon} {@dc 30}"
+      ]
+     }
+    ]
+   }
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Flying_Lantern_Token.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "K-Truck",
+  "source": "ObojimaTalesYatamon",
+  "vehicleType": "SHIP",
+  "terrain": [
+   "land"
+  ],
+  "size": "L",
+  "pace": 40,
+  "hull": {
+   "ac": 13,
+   "hp": 75,
+   "dt": 10
+  },
+  "capCrew": 1,
+  "capPassenger": 1,
+  "capCargo": 0.5,
+  "movement": [
+   {
+    "name": "Combat Speed",
+    "ac": 13,
+    "hp": 75,
+    "speed": [
+     {
+      "mode": "land",
+      "entries": [
+       "160 feet"
+      ]
+     }
+    ]
+   }
+  ],
+  "weapon": [
+   {
+    "name": "Ramming",
+    "entries": [
+     "A creature controlling a vehicle can take the {@action Utilize|XPHB} action to attempt to ram a target with the vehicle; this can't be attempted more than once per turn. If the target is a creature, it can make a Dexterity saving throw to avoid the vehicle; the DC for the save equals 8 plus the controlling creature's Dexterity or Intelligence modifier (its choice) and the vehicle's Size Modifier.",
+     "If the vehicle moved at least 10 feet in a straight line immediately before successfully ramming a target, the target takes {@damage 2d6} Bludgeoning damage. The target takes twice as much damage if the vehicle moved at least 20 feet before ramming it, or three times as much damage if the vehicle moved 30 feet or more before ramming it.",
+     "Immediately after the vehicle rams a Small or larger target, the vehicle's {@variantrule Speed|XPHB} is reduced (as detailed in the {@variantrule Vehicle|ObojimaTalesYatamon|Controlling a Vehicle} section), and the vehicle takes {@damage 1d6} Bludgeoning damage for every 10 feet it moved before ramming its target, to a maximum of {@damage 3d6}. This damage ignores the vehicle's {@variantrule Damage Threshold|XPHB}."
+    ]
+   }
+  ],
+  "other": [
+   {
+    "name": "Vehicle Properties",
+    "entries": [
+     {
+      "name": "Classification: Piloted",
+      "type": "entries",
+      "entries": [
+       "The vehicle requires a creature to enter it in order to operate it. Creatures inside this vehicle have {@variantrule Cover|XPHB|Half Cover}."
+      ]
+     },
+     {
+      "name": "Vehicle Properties",
+      "type": "entries",
+      "entries": [
+       {
+        "type": "entries",
+        "name": "Wide",
+        "entries": [
+         "When ramming a creature using this vehicle, each creature within 5 feet of the target must also make the Dexterity saving throw."
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Size Modifier: 2",
+      "type": "entries",
+      "entries": [
+       "Ramming dice: {@damage 2d6}",
+       "Spirit-Whelmed Vehicles CR: 2",
+       "{@condition Flipped|ObojimaTalesYatamon} {@dc 20}"
+      ]
+     }
+    ]
+   }
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/K-Truck_Token.webp"
+  },
+  "hasFluff": true,
   "hasFluffImages": true
  },
  {
@@ -278,6 +659,99 @@
   "hasFluff": true
  },
  {
+  "name": "Motorcycle",
+  "source": "ObojimaTalesYatamon",
+  "vehicleType": "SHIP",
+  "terrain": [
+   "land"
+  ],
+  "size": "M",
+  "pace": 75,
+  "hull": {
+   "ac": 13,
+   "hp": 40,
+   "dt": 5
+  },
+  "capCrew": 1,
+  "capPassenger": 1,
+  "capCargo": 0.05,
+  "movement": [
+   {
+    "name": "Combat Speed",
+    "ac": 13,
+    "hp": 40,
+    "speed": [
+     {
+      "mode": "land",
+      "entries": [
+       "300 feet"
+      ]
+     }
+    ]
+   }
+  ],
+  "weapon": [
+   {
+    "name": "Ramming",
+    "entries": [
+     "A creature controlling a vehicle can take the {@action Utilize|XPHB} action to attempt to ram a target with the vehicle; this can't be attempted more than once per turn. If the target is a creature, it can make a Dexterity saving throw to avoid the vehicle; the DC for the save equals 8 plus the controlling creature's Dexterity or Intelligence modifier (its choice) and the vehicle's Size Modifier.",
+     "If the vehicle moved at least 10 feet in a straight line immediately before successfully ramming a target, the target takes {@damage 1d6} Bludgeoning damage. The target takes twice as much damage if the vehicle moved at least 20 feet before ramming it, or three times as much damage if the vehicle moved 30 feet or more before ramming it.",
+     "Immediately after the vehicle rams a Small or larger target, the vehicle's {@variantrule Speed|XPHB} is reduced (as detailed in the {@variantrule Vehicle|ObojimaTalesYatamon|Controlling a Vehicle} section), and the vehicle takes {@damage 1d6} Bludgeoning damage for every 10 feet it moved before ramming its target, to a maximum of {@damage 3d6}. This damage ignores the vehicle's {@variantrule Damage Threshold|XPHB}."
+    ]
+   }
+  ],
+  "other": [
+   {
+    "name": "Vehicle Properties",
+    "entries": [
+     {
+      "name": "Classification: Mounted",
+      "type": "entries",
+      "entries": [
+       "The vehicle has no entry point and is straddled rather than entered."
+      ]
+     },
+     {
+      "name": "Vehicle Properties",
+      "type": "entries",
+      "entries": [
+       {
+        "type": "entries",
+        "name": "Nimble",
+        "entries": [
+         "The creature controlling this vehicle doesn't need to spend any of the vehicle's movement to change its direction."
+        ]
+       },
+       {
+        "type": "entries",
+        "name": "Simple",
+        "entries": [
+         "This vehicle doesn't require the creature controlling it to take a {@variantrule Bonus Action|XPHB} on each of its turns; it still has the {@condition Uncontrolled|ObojimaTalesYatamon} condition if the creature controlling it has the {@condition Incapacitated|XPHB} condition. If the vehicle must be powered on in order to begin operating it, it still requires a {@variantrule Bonus Action|XPHB} to do so."
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Size Modifier: 1",
+      "type": "entries",
+      "entries": [
+       "Ramming dice: {@damage 1d6}",
+       "Spirit-Whelmed Vehicles CR: 1",
+       "{@condition Flipped|ObojimaTalesYatamon} {@dc 10}"
+      ]
+     }
+    ]
+   }
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Motorcycle_Token.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Ogre War Sled (pulled by two Worgs)",
   "source": "NorthlandsWorldbook",
   "vehicleType": "SHIP",
@@ -338,6 +812,99 @@
    "type": "external",
    "url": "https://raw.githubusercontent.com/JuliTutu/homebrew-img/main/img/NorthlandsWorldbook/Items/Ogre_War_Sled_Token.webp"
   },
+  "hasFluffImages": true
+ },
+ {
+  "name": "Scooter / Vespa",
+  "source": "ObojimaTalesYatamon",
+  "vehicleType": "SHIP",
+  "terrain": [
+   "land"
+  ],
+  "size": "M",
+  "pace": 20,
+  "hull": {
+   "ac": 12,
+   "hp": 30,
+   "dt": 5
+  },
+  "capCrew": 1,
+  "capPassenger": 1,
+  "capCargo": 0.025,
+  "movement": [
+   {
+    "name": "Combat Speed",
+    "ac": 12,
+    "hp": 30,
+    "speed": [
+     {
+      "mode": "land",
+      "entries": [
+       "80 feet"
+      ]
+     }
+    ]
+   }
+  ],
+  "weapon": [
+   {
+    "name": "Ramming",
+    "entries": [
+     "A creature controlling a vehicle can take the {@action Utilize|XPHB} action to attempt to ram a target with the vehicle; this can't be attempted more than once per turn. If the target is a creature, it can make a Dexterity saving throw to avoid the vehicle; the DC for the save equals 8 plus the controlling creature's Dexterity or Intelligence modifier (its choice) and the vehicle's Size Modifier.",
+     "If the vehicle moved at least 10 feet in a straight line immediately before successfully ramming a target, the target takes {@damage 1d6} Bludgeoning damage. The target takes twice as much damage if the vehicle moved at least 20 feet before ramming it, or three times as much damage if the vehicle moved 30 feet or more before ramming it.",
+     "Immediately after the vehicle rams a Small or larger target, the vehicle's {@variantrule Speed|XPHB} is reduced (as detailed in the {@variantrule Vehicle|ObojimaTalesYatamon|Controlling a Vehicle} section), and the vehicle takes {@damage 1d6} Bludgeoning damage for every 10 feet it moved before ramming its target, to a maximum of {@damage 3d6}. This damage ignores the vehicle's {@variantrule Damage Threshold|XPHB}."
+    ]
+   }
+  ],
+  "other": [
+   {
+    "name": "Vehicle Properties",
+    "entries": [
+     {
+      "name": "Classification: Mounted",
+      "type": "entries",
+      "entries": [
+       "The vehicle has no entry point and is straddled rather than entered."
+      ]
+     },
+     {
+      "name": "Vehicle Properties",
+      "type": "entries",
+      "entries": [
+       {
+        "type": "entries",
+        "name": "Nimble",
+        "entries": [
+         "The creature controlling this vehicle doesn't need to spend any of the vehicle's movement to change its direction."
+        ]
+       },
+       {
+        "type": "entries",
+        "name": "Simple",
+        "entries": [
+         "This vehicle doesn't require the creature controlling it to take a {@variantrule Bonus Action|XPHB} on each of its turns; it still has the {@condition Uncontrolled|ObojimaTalesYatamon} condition if the creature controlling it has the {@condition Incapacitated|XPHB} condition. If the vehicle must be powered on in order to begin operating it, it still requires a {@variantrule Bonus Action|XPHB} to do so."
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Size Modifier: 1",
+      "type": "entries",
+      "entries": [
+       "Ramming dice: {@damage 1d6}",
+       "Spirit-Whelmed Vehicles CR: 1",
+       "{@condition Flipped|ObojimaTalesYatamon} {@dc 10}"
+      ]
+     }
+    ]
+   }
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Scooter_Vespa_Token.webp"
+  },
+  "hasFluff": true,
   "hasFluffImages": true
  },
  {
@@ -428,6 +995,92 @@
    }
   ],
   "hasFluff": true
+ },
+ {
+  "name": "Small Car",
+  "source": "ObojimaTalesYatamon",
+  "vehicleType": "SHIP",
+  "terrain": [
+   "land"
+  ],
+  "size": "L",
+  "pace": 50,
+  "hull": {
+   "ac": 13,
+   "hp": 60,
+   "dt": 10
+  },
+  "capCrew": 1,
+  "capPassenger": 3,
+  "capCargo": 0.25,
+  "movement": [
+   {
+    "name": "Combat Speed",
+    "ac": 13,
+    "hp": 60,
+    "speed": [
+     {
+      "mode": "land",
+      "entries": [
+       "200 feet"
+      ]
+     }
+    ]
+   }
+  ],
+  "weapon": [
+   {
+    "name": "Ramming",
+    "entries": [
+     "A creature controlling a vehicle can take the {@action Utilize|XPHB} action to attempt to ram a target with the vehicle; this can't be attempted more than once per turn. If the target is a creature, it can make a Dexterity saving throw to avoid the vehicle; the DC for the save equals 8 plus the controlling creature's Dexterity or Intelligence modifier (its choice) and the vehicle's Size Modifier.",
+     "If the vehicle moved at least 10 feet in a straight line immediately before successfully ramming a target, the target takes {@damage 2d6} Bludgeoning damage. The target takes twice as much damage if the vehicle moved at least 20 feet before ramming it, or three times as much damage if the vehicle moved 30 feet or more before ramming it.",
+     "Immediately after the vehicle rams a Small or larger target, the vehicle's {@variantrule Speed|XPHB} is reduced (as detailed in the {@variantrule Vehicle|ObojimaTalesYatamon|Controlling a Vehicle} section), and the vehicle takes {@damage 1d6} Bludgeoning damage for every 10 feet it moved before ramming its target, to a maximum of {@damage 3d6}. This damage ignores the vehicle's {@variantrule Damage Threshold|XPHB}."
+    ]
+   }
+  ],
+  "other": [
+   {
+    "name": "Vehicle Properties",
+    "entries": [
+     {
+      "name": "Classification: Piloted",
+      "type": "entries",
+      "entries": [
+       "The vehicle requires a creature to enter it in order to operate it. Creatures inside this vehicle have {@variantrule Cover|XPHB|Half Cover}."
+      ]
+     },
+     {
+      "name": "Vehicle Properties",
+      "type": "entries",
+      "entries": [
+       {
+        "type": "entries",
+        "name": "Wide",
+        "entries": [
+         "When ramming a creature using this vehicle, each creature within 5 feet of the target must also make the Dexterity saving throw."
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Size Modifier: 2",
+      "type": "entries",
+      "entries": [
+       "Ramming dice: {@damage 2d6}",
+       "Spirit-Whelmed Vehicles CR: 2",
+       "{@condition Flipped|ObojimaTalesYatamon} {@dc 20}"
+      ]
+     }
+    ]
+   }
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Small_Car_Token.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
  },
  {
   "name": "Snekkja",
@@ -608,5 +1261,283 @@
   ],
   "hasFluff": true,
   "hasFluffImages": true
+ },
+ {
+  "name": "The Doomspine",
+  "source": "ObojimaTalesYatamon",
+  "vehicleType": "SHIP",
+  "terrain": [
+   "sea"
+  ],
+  "size": "G",
+  "pace": 8,
+  "hull": {
+   "ac": 16,
+   "hp": 400,
+   "dt": 15
+  },
+  "capCrew": 6,
+  "capPassenger": 25,
+  "capCargo": 25,
+  "movement": [
+   {
+    "name": "Combat Speed",
+    "ac": 16,
+    "hp": 400,
+    "speed": [
+     {
+      "mode": "water",
+      "entries": [
+       "30 feet"
+      ]
+     }
+    ]
+   }
+  ],
+  "weapon": [
+   {
+    "name": "Ramming",
+    "entries": [
+     "A creature controlling a vehicle can take the {@action Utilize|XPHB} action to attempt to ram a target with the vehicle; this can't be attempted more than once per turn. If the target is a creature, it can make a Dexterity saving throw to avoid the vehicle; the DC for the save equals 8 plus the controlling creature's Dexterity or Intelligence modifier (its choice) and the vehicle's Size Modifier.",
+     "If the vehicle moved at least 10 feet in a straight line immediately before successfully ramming a target, the target takes {@damage 4d6} Bludgeoning damage. The target takes twice as much damage if the vehicle moved at least 20 feet before ramming it, or three times as much damage if the vehicle moved 30 feet or more before ramming it.",
+     "Immediately after the vehicle rams a Small or larger target, the vehicle's {@variantrule Speed|XPHB} is reduced (as detailed in the {@variantrule Vehicle|ObojimaTalesYatamon|Controlling a Vehicle} section), and the vehicle takes {@damage 1d6} Bludgeoning damage for every 10 feet it moved before ramming its target, to a maximum of {@damage 3d6}. This damage ignores the vehicle's {@variantrule Damage Threshold|XPHB}."
+    ]
+   }
+  ],
+  "other": [
+   {
+    "name": "Vehicle Properties",
+    "entries": [
+     {
+      "name": "Classification: Piloted",
+      "type": "entries",
+      "entries": [
+       "The vehicle requires a creature to enter it in order to operate it. Creatures inside this vehicle have {@variantrule Cover|XPHB|Half Cover}."
+      ]
+     },
+     {
+      "name": "Vehicle Properties",
+      "type": "entries",
+      "entries": [
+       {
+        "type": "entries",
+        "name": "Aquatic",
+        "entries": [
+         "This vehicle can only move in the water."
+        ]
+       },
+       {
+        "type": "entries",
+        "name": "Wide",
+        "entries": [
+         "When ramming a creature using this vehicle, each creature within 5 feet of the target must also make the Dexterity saving throw."
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Size Modifier: 4",
+      "type": "entries",
+      "entries": [
+       "Ramming dice: {@damage 4d6}",
+       "Spirit-Whelmed Vehicles CR: 4",
+       "{@condition Flipped|ObojimaTalesYatamon} {@dc 40}"
+      ]
+     }
+    ]
+   }
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Doomspine_token.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "The Pointue",
+  "source": "ObojimaTalesYatamon",
+  "vehicleType": "SHIP",
+  "terrain": [
+   "sea"
+  ],
+  "size": "G",
+  "pace": 15,
+  "hull": {
+   "ac": 15,
+   "hp": 200,
+   "dt": 30
+  },
+  "capCrew": 1,
+  "capPassenger": 10,
+  "capCargo": 2,
+  "movement": [
+   {
+    "name": "Combat Speed",
+    "ac": 15,
+    "hp": 200,
+    "speed": [
+     {
+      "mode": "water",
+      "entries": [
+       "60 feet"
+      ]
+     }
+    ]
+   }
+  ],
+  "weapon": [
+   {
+    "name": "Ramming",
+    "entries": [
+     "A creature controlling a vehicle can take the {@action Utilize|XPHB} action to attempt to ram a target with the vehicle; this can't be attempted more than once per turn. If the target is a creature, it can make a Dexterity saving throw to avoid the vehicle; the DC for the save equals 8 plus the controlling creature's Dexterity or Intelligence modifier (its choice) and the vehicle's Size Modifier.",
+     "If the vehicle moved at least 10 feet in a straight line immediately before successfully ramming a target, the target takes {@damage 4d6} Bludgeoning damage. The target takes twice as much damage if the vehicle moved at least 20 feet before ramming it, or three times as much damage if the vehicle moved 30 feet or more before ramming it.",
+     "Immediately after the vehicle rams a Small or larger target, the vehicle's {@variantrule Speed|XPHB} is reduced (as detailed in the {@variantrule Vehicle|ObojimaTalesYatamon|Controlling a Vehicle} section), and the vehicle takes {@damage 1d6} Bludgeoning damage for every 10 feet it moved before ramming its target, to a maximum of {@damage 3d6}. This damage ignores the vehicle's {@variantrule Damage Threshold|XPHB}."
+    ]
+   }
+  ],
+  "other": [
+   {
+    "name": "Vehicle Properties",
+    "entries": [
+     {
+      "name": "Classification: Piloted",
+      "type": "entries",
+      "entries": [
+       "The vehicle requires a creature to enter it in order to operate it. Creatures inside this vehicle have {@variantrule Cover|XPHB|Half Cover}."
+      ]
+     },
+     {
+      "name": "Vehicle Properties",
+      "type": "entries",
+      "entries": [
+       {
+        "type": "entries",
+        "name": "Aquatic",
+        "entries": [
+         "This vehicle can only move in the water."
+        ]
+       },
+       {
+        "type": "entries",
+        "name": "Encased",
+        "entries": [
+         "This vehicle is completely closed off from the surrounding environment. Creatures inside it are {@variantrule Heavily Obscured|XPHB} and have {@variantrule Cover|XPHB|Total Cover} from creatures outside it."
+        ]
+       },
+       {
+        "type": "entries",
+        "name": "Wide",
+        "entries": [
+         "When ramming a creature using this vehicle, each creature within 5 feet of the target must also make the Dexterity saving throw."
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Size Modifier: 4",
+      "type": "entries",
+      "entries": [
+       "Ramming dice: {@damage 4d6}",
+       "Spirit-Whelmed Vehicles CR: 4",
+       "{@condition Flipped|ObojimaTalesYatamon} {@dc 40}"
+      ]
+     }
+    ]
+   }
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/The_Pointue_Token.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Trolley",
+  "source": "ObojimaTalesYatamon",
+  "vehicleType": "SHIP",
+  "terrain": [
+   "land"
+  ],
+  "size": "C",
+  "pace": 12,
+  "hull": {
+   "ac": 14,
+   "hp": 500,
+   "dt": 15
+  },
+  "capCrew": 2,
+  "capPassenger": 40,
+  "capCargo": 7.5,
+  "movement": [
+   {
+    "name": "Combat Speed",
+    "ac": 14,
+    "hp": 500,
+    "speed": [
+     {
+      "mode": "land",
+      "entries": [
+       "50 feet"
+      ]
+     }
+    ]
+   }
+  ],
+  "weapon": [
+   {
+    "name": "Ramming",
+    "entries": [
+     "A creature controlling a vehicle can take the {@action Utilize|XPHB} action to attempt to ram a target with the vehicle; this can't be attempted more than once per turn. If the target is a creature, it can make a Dexterity saving throw to avoid the vehicle; the DC for the save equals 8 plus the controlling creature's Dexterity or Intelligence modifier (its choice) and the vehicle's Size Modifier.",
+     "If the vehicle moved at least 10 feet in a straight line immediately before successfully ramming a target, the target takes {@damage 6d6} Bludgeoning damage. The target takes twice as much damage if the vehicle moved at least 20 feet before ramming it, or three times as much damage if the vehicle moved 30 feet or more before ramming it.",
+     "Immediately after the vehicle rams a Small or larger target, the vehicle's {@variantrule Speed|XPHB} is reduced (as detailed in the {@variantrule Vehicle|ObojimaTalesYatamon|Controlling a Vehicle} section), and the vehicle takes {@damage 1d6} Bludgeoning damage for every 10 feet it moved before ramming its target, to a maximum of {@damage 3d6}. This damage ignores the vehicle's {@variantrule Damage Threshold|XPHB}."
+    ]
+   }
+  ],
+  "other": [
+   {
+    "name": "Vehicle Properties",
+    "entries": [
+     {
+      "name": "Classification: Piloted",
+      "type": "entries",
+      "entries": [
+       "The vehicle requires a creature to enter it in order to operate it. Creatures inside this vehicle have {@variantrule Cover|XPHB|Half Cover}."
+      ]
+     },
+     {
+      "name": "Vehicle Properties",
+      "type": "entries",
+      "entries": [
+       {
+        "type": "entries",
+        "name": "Wide",
+        "entries": [
+         "When ramming a creature using this vehicle, each creature within 5 feet of the target must also make the Dexterity saving throw."
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Size Modifier: 6",
+      "type": "entries",
+      "entries": [
+       "Ramming dice: {@damage 6d6}",
+       "Spirit-Whelmed Vehicles CR: 6",
+       "{@condition Flipped|ObojimaTalesYatamon} {@dc 40}"
+      ]
+     }
+    ]
+   }
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Trolley_Token.webp"
+  },
+  "hasFluff": true
  }
 ]

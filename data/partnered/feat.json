@@ -2376,6 +2376,69 @@
   ]
  },
  {
+  "name": "Born in Yatamon",
+  "source": "ObojimaTalesYatamon",
+  "category": "O",
+  "prerequisite": [
+   {
+    "other": "Lived in Yatamon for at least 1 year"
+   }
+  ],
+  "skillProficiencies": [
+   {
+    "Salvage|ObojimaTallGrass": true
+   }
+  ],
+  "languageProficiencies": [
+   {
+    "naku naku|ObojimaTallGrass": true,
+    "torum|ObojimaTallGrass": true
+   }
+  ],
+  "additionalSpells": [
+   {
+    "known": {
+     "_": [
+      {
+       "choose": "level=0|class=Wizard"
+      }
+     ]
+    }
+   }
+  ],
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "First Age Aficionado",
+    "entries": [
+     "You gain proficiency in the {@skill Salvage|ObojimaTallGrass} skill, or {@variantrule Expertise|XPHB} if you already have proficiency in it."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Melting Pot",
+    "entries": [
+     "You learn {@language Naku Naku|ObojimaTallGrass} and {@language Torum|ObojimaTallGrass} if you don't already know them."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Mixed with Magic",
+    "entries": [
+     "When you are targeted by a level 1+ spell cast by yourself or an ally, you can choose to regain a number of {@variantrule Hit Points|XPHB} equal to twice the spell's level. You can use this benefit twice, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Yatamon's Blessing",
+    "entries": [
+     "You learn one cantrip of your choice from the {@filter Wizard spell list|spells|level=0|class=wizard|components & miscellaneous=}."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Brave at a Pinch",
   "source": "TLotRR",
   "page": 86,
@@ -3210,6 +3273,62 @@
     "type": "list",
     "items": [
      "You gain proficiency in saving throws using Intelligence, Wisdom, or Charisma (your choice)."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Connoisseur",
+  "source": "ObojimaTalesYatamon",
+  "category": "G",
+  "prerequisite": [
+   {
+    "level": 4
+   }
+  ],
+  "ability": [
+   {
+    "choose": {
+     "from": [
+      "con",
+      "wis"
+     ],
+     "amount": 1
+    }
+   }
+  ],
+  "toolProficiencies": [
+   {
+    "choose": {
+     "from": [
+      "brewer's supplies",
+      "cook's utensils"
+     ],
+     "count": 1
+    }
+   }
+  ],
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Gastronomic Bliss",
+    "entries": [
+     "If you eat a satisfying meal as part of a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, you can choose to gain {@variantrule Heroic Inspiration|XPHB} or a number of {@variantrule Temporary Hit Points|XPHB} equal {@dice 1d10} + your character level (your choice) at the end of the rest."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Impressive Banter",
+    "entries": [
+     "You have {@variantrule Advantage|XPHB} on Charisma checks at any formal event, such as a banquet or tea ceremony."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Kitchen Skills",
+    "entries": [
+     "You gain proficiency with {@item Brewer's Supplies|XPHB} or {@item Cook's Utensils|XPHB}. In addition, you can spend 10 minutes with an ingredient or potion to determine its properties without making an ability check."
     ]
    }
   ]
@@ -4724,6 +4843,35 @@
     "items": [
      "When you take the Attack action and attack with a {@item nunchaku|HelianasGuidetoMonsterHunting}, you can use a bonus action to make one additional melee attack with the weapon. This attack uses the same ability modifier as the primary attack and the weapon's damage die for this attack is a d4.",
      "When you take the Flourish special action with a {@item nunchaku|HelianasGuidetoMonsterHunting}, you can use a bonus action to make it especially intimidating towards one creature within your reach. If you don't fail on your Dexterity check to flourish the weapon, your target must succeed on a Wisdom saving throw or become {@condition frightened} of you until the start of your next turn. The DC for the saving throw equals 8 + your Dexterity modifier. If you are proficient in the Intimidation skill, you can add your proficiency bonus to the DC."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Feline Instincts",
+  "source": "ObojimaTalesYatamon",
+  "category": "O",
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Balance Adept",
+    "entries": [
+     "You have {@variantrule Advantage|XPHB} on ability checks and saving throws to avoid the {@condition Prone|XPHB} condition, and you spend a maximum of 10 feet of movement to remove that condition."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Second Tongue",
+    "entries": [
+     "You can communicate with felines as if by the {@spell Speak with Animals|XPHB} spell."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Uncanny Senses",
+    "entries": [
+     "You can add half your {@variantrule Proficiency|XPHB|Proficiency Bonus} (round down) to any Wisdom ({@skill Perception}) check you make, even if you're already adding your {@variantrule Proficiency|XPHB|Proficiency Bonus} to that check."
     ]
    }
   ]
@@ -6897,13 +7045,39 @@
     }
    }
   ],
+  "additionalSpells": [
+   {
+    "known": {
+     "_": [
+      "finger guns|valdagunslinger#c"
+     ]
+    },
+    "expanded": {
+     "s1": [
+      "ballistic smite|valdagunslinger",
+      "conjure cover|valdagunslinger",
+      "perforating shot|valdagunslinger"
+     ],
+     "s2": [
+      "jam weapon|valdagunslinger",
+      "jethro's instant reload"
+     ],
+     "s3": [
+      "conjure cannonball|valdagunslinger"
+     ],
+     "s6": [
+      "antiballistics field|valdagunslinger"
+     ]
+    }
+   }
+  ],
   "entries": [
    "You gain the following benefits.",
    {
     "type": "entries",
     "name": "Ranged Weapon Proficiency",
     "entries": [
-     "You gain proficiency with Ranged Martial weapons."
+     "You gain proficiency with {@filter Ranged Martial weapons|items|type=martial weapon;ranged weapon}."
     ]
    },
    {
@@ -6925,6 +7099,56 @@
     "name": "Spells Prepared",
     "entries": [
      "Choose a number of spells equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} from among those in the Expanded Spell List benefit. You always have these spells prepared. Whenever you gain a new level, you can replace one of these spells with a different spell from the Expanded Spell List."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Haggler",
+  "source": "ObojimaTalesYatamon",
+  "category": "G",
+  "prerequisite": [
+   {
+    "level": 4,
+    "ability": [
+     {
+      "cha": 13
+     }
+    ]
+   }
+  ],
+  "ability": [
+   {
+    "choose": {
+     "from": [
+      "int",
+      "cha"
+     ],
+     "amount": 1
+    }
+   }
+  ],
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Opportunist",
+    "entries": [
+     "When a creature you can see within 10 feet of yourself fails a {@variantrule D20 Test|XPHB} using Charisma, you gain {@variantrule Advantage|XPHB} on the next Charisma ({@skill Intimidation} or {@skill Persuasion}) check you make against that target in the next hour. Alternatively, you can choose to gain {@variantrule Heroic Inspiration|XPHB}, and you can't gain it in this way again until you finish a {@variantrule Long Rest|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Saving Face",
+    "entries": [
+     "Whenever you fail a Charisma check or Charisma saving throw, you can roll the {@dice d20} again and you must use the new roll. When you do so, the DC for the check or save increases by 3."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Silver Tongue",
+    "entries": [
+     "When purchasing a good or paying for a service, you receive a 5 percent discount on it. In addition, when doing so, you can expend {@variantrule Heroic Inspiration|XPHB} and roll {@dice 1d10}. The cost of the good or service, is reduced by an additional percent equal to 10 plus the number rolled on the die."
     ]
    }
   ]
@@ -8870,6 +9094,51 @@
   ]
  },
  {
+  "name": "Motorist",
+  "source": "ObojimaTalesYatamon",
+  "category": "G",
+  "prerequisite": [
+   {
+    "level": 4
+   }
+  ],
+  "ability": [
+   {
+    "choose": {
+     "from": [
+      "dex",
+      "int"
+     ],
+     "amount": 1
+    }
+   }
+  ],
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Defensive Driver",
+    "entries": [
+     "Vehicles you operate gain a +1 bonus to their AC."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Maneuver Master",
+    "entries": [
+     "You add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to all Maneuvering checks you make with a vehicle. Additionally, all vehicles with a Size Modifier of 2 or smaller are considered to have the Nimble and Simple properties when you are operating them."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Offensive Driver",
+    "entries": [
+     "When using a vehicle to ram, you add your {@variantrule Proficiency|XPHB|Proficiency Bonus} when calculating the save DC."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Mounted Leap",
   "source": "NorthlandsWorldbook",
   "category": "G",
@@ -9411,6 +9680,21 @@
      "When brewing a potion, you can roll percentile dice. If you roll a number equal to or lower than your level, you create two potions instead of one."
     ]
    }
+  ]
+ },
+ {
+  "name": "Pouncing",
+  "source": "ObojimaTalesYatamon",
+  "category": "FS",
+  "prerequisite": [
+   {
+    "feature": [
+     "Fighting Style"
+    ]
+   }
+  ],
+  "entries": [
+   "Whenever you move 15 feet or more toward a creature immediately before making an attack against it with a Melee weapon or an {@variantrule Unarmed Strike|XPHB}, you gain a +2 bonus to the attack roll. If you instead use the {@variantrule Unarmed Strike|XPHB|Grapple} or {@variantrule Unarmed Strike|XPHB|Shove} option of your {@variantrule Unarmed Strike|XPHB} against the creature, the DC for the saving throw it makes increases by 2."
   ]
  },
  {
@@ -13855,6 +14139,54 @@
      "You gain proficiency in either the {@skill Survival} or {@skill Nature} skill.",
      "You ignore difficult terrain.",
      "You cannot become lost in natural surroundings except by magical means."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Yoka Scout",
+  "source": "ObojimaTalesYatamon",
+  "category": "G",
+  "prerequisite": [
+   {
+    "level": 4,
+    "membership": [
+     "Yoka Scouts"
+    ]
+   }
+  ],
+  "ability": [
+   {
+    "choose": {
+     "from": [
+      "str",
+      "dex"
+     ],
+     "amount": 1
+    }
+   }
+  ],
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Close Combat Ally",
+    "entries": [
+     "Whenever an ally misses an attack roll against a creature you can see within 10 feet of you, you can take a {@variantrule Reaction|XPHB} to allow the ally to reroll the attack. If the attack roll then hits, you immediately regain the use of your {@variantrule Reaction|XPHB}. You can regain the use of your {@variantrule Reaction|XPHB} in this way a number of times equal to half your {@variantrule Proficiency|XPHB|Proficiency Bonus} (round down), after which this ability always consumes your {@variantrule Reaction|XPHB}. You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Competitive",
+    "entries": [
+     "When you make an ability check that you've seen an ally succeed on in the last minute, you gain a +2 bonus to the roll."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Well-Researched",
+    "entries": [
+     "Whenever you take the {@action Search|XPHB} action, you have {@variantrule Advantage|XPHB} on the check if it is related to a Demon."
     ]
    }
   ]

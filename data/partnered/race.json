@@ -3317,6 +3317,80 @@
   "hasFluffImages": true
  },
  {
+  "name": "Duskling",
+  "source": "DnDBeyondDrops",
+  "page": "2026-09-03",
+  "edition": "one",
+  "creatureTypes": [
+   "fey"
+  ],
+  "size": [
+   "M"
+  ],
+  "speed": 30,
+  "darkvision": 60,
+  "sizeEntry": {
+   "type": "item",
+   "name": "Size:",
+   "entries": [
+    "Medium (about 4–7 feet tall)"
+   ]
+  },
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Darkvision",
+    "entries": [
+     "You have {@sense Darkvision|XPHB} with a range of 60 feet."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Enhanced Jump",
+    "entries": [
+     "Add 2 feet to the distance you can leap with a running {@variantrule High Jump|XPHB} and 10 feet to the distance you can leap with a running {@variantrule Long Jump|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Inner Magic",
+    "entries": [
+     "You have magic inside you that you can manipulate to enhance your physical or mental attributes. When you finish a {@variantrule Long Rest|XPHB}, choose one of the following benefits, which lasts until you choose a different ability.",
+     "As a {@variantrule Bonus Action|XPHB}, you can switch to a different benefit. You can switch the benefit a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
+     {
+      "type": "list",
+      "style": "list-hang-notitle",
+      "items": [
+       {
+        "type": "item",
+        "name": "Ardor",
+        "entries": [
+         "You have {@variantrule Advantage|XPHB} on Charisma ability checks and on saving throws to avoid or end the {@condition Frightened|XPHB} condition."
+        ]
+       },
+       {
+        "type": "item",
+        "name": "Mobility",
+        "entries": [
+         "Your {@variantrule Speed|XPHB} increases by 10 feet, and climbing and swimming don't cost you extra movement."
+        ]
+       },
+       {
+        "type": "item",
+        "name": "Vigor",
+        "entries": [
+         "You gain a number of {@variantrule Temporary Hit Points|XPHB} equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you have {@variantrule Advantage|XPHB} on Strength ({@skill Athletics|XPHB}) and Dexterity ({@skill Acrobatics|XPHB}) checks."
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Dwarf",
   "source": "GrimHollowPG24",
   "page": 14,

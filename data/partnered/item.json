@@ -817,6 +817,25 @@
   }
  },
  {
+  "name": "Airbag Shield",
+  "source": "ObojimaTalesYatamon",
+  "type": "S|XPHB",
+  "baseItem": "shield|XPHB",
+  "rarity": "uncommon",
+  "reqAttune": true,
+  "hasFluffImages": true,
+  "attachedSpells": {
+   "daily": {
+    "1": [
+     "airbag|ObojimaTalesYatamon"
+    ]
+   }
+  },
+  "entries": [
+   "While holding this Shield, you can cast the {@spell Airbag|ObojimaTalesYatamon} spell from it, targeting only yourself. Once the spell is cast in this way, it can't be cast from the Shield again until the next dawn. A creature can also restore the item's use of this spell by touching the Shield as a {@action Magic|XPHB} action and expending a level 1+ spell slot."
+  ]
+ },
+ {
   "name": "Alarm Pylon",
   "source": "DnDBeyondDrops",
   "page": "2026-08-13",
@@ -10555,6 +10574,24 @@
   }
  },
  {
+  "name": "Bubble Blowtorch",
+  "source": "ObojimaTalesYatamon",
+  "wondrous": true,
+  "rarity": "common",
+  "reqAttune": true,
+  "hasFluffImages": true,
+  "entries": [
+   "These First Age torches have been magically altered to use potions as their fuel. As a {@action Magic|XPHB} action, you can pour a potion of any rarity into the glass vessel of a Brewer's Torch. As long as a potion is in the vessel, you can use a {@action Magic|XPHB} action to activate the torch's corresponding effect, as detailed below, consuming the potion from the vessel.",
+   {
+    "type": "entries",
+    "name": "Bubble Blowtorch",
+    "entries": [
+     "A stream of glistening bubbles floats from the tip of the torch, coating a loose object within 5 feet of you. If the object weighs 100 pounds or fewer, the bubbles lift it up to 10 feet into the air. The object hovers in place for 1 minute or until you choose to end the effect (no action required), after which the bubbles disappear and the object falls. While the object is hovering, it can be moved as if it weighed no more than 5 pounds, and if weight is added to the object that would bring it over 100 pounds, it falls."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Bubble Message",
   "source": "ObojimaTallGrass",
   "page": 241,
@@ -10843,6 +10880,24 @@
     }
    ]
   }
+ },
+ {
+  "name": "Butterfly Blowtorch",
+  "source": "ObojimaTalesYatamon",
+  "wondrous": true,
+  "rarity": "common",
+  "reqAttune": true,
+  "hasFluffImages": true,
+  "entries": [
+   "These First Age torches have been magically altered to use potions as their fuel. As a {@action Magic|XPHB} action, you can pour a potion of any rarity into the glass vessel of a Brewer's Torch. As long as a potion is in the vessel, you can use a {@action Magic|XPHB} action to activate the torch's corresponding effect, as detailed below, consuming the potion from the vessel.",
+   {
+    "type": "entries",
+    "name": "Butterfly Blowtorch",
+    "entries": [
+     "A flutter of colorful butterflies pours from the tip of the torch, swarming a creature or object within 5 feet of you. If the target is a creature, one effect causing it to have the {@condition Charmed|XPHB}, {@condition Frightened|XPHB}, or {@condition Pacified|ObojimaTallGrass} condition (your choice) ends. If the target is an object, the butterflies repair a single break or tear in it, as if by the {@spell Mending|XPHB} cantrip."
+    ]
+   }
+  ]
  },
  {
   "name": "Bygul's Paw Boots",
@@ -11500,6 +11555,36 @@
     }
    ]
   }
+ },
+ {
+  "name": "Canned Cat",
+  "source": "ObojimaTalesYatamon",
+  "type": "Ingred",
+  "rarity": "common",
+  "entries": [
+   {
+    "type": "table",
+    "colLabels": [
+     "{@font Combat|RoglianoUltraBold}",
+     "{@font Utility|RoglianoUltraBold}",
+     "{@font Whimsy|RoglianoUltraBold}"
+    ],
+    "colStyles": [
+     "col-1 text-center",
+     "col-1 text-center",
+     "col-1 text-center"
+    ],
+    "rows": [
+     [
+      "{@font {@style 1|large}|SneakerProMedium}",
+      "{@font {@style 8|large}|SneakerProMedium}",
+      "{@font {@style 9|large}|SneakerProMedium}"
+     ]
+    ]
+   },
+   "Much like soda slimes, this peculiar cat-shaped creature—aptly named the canned cat—is known to form inside colorful metal cans, which are kept pristine by the magics of the First Age and Obojima. You can find canned cats all over the island in old storehouses, convenience stores, and pantries."
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Cannith's Marvelous Miniatures",
@@ -18243,6 +18328,18 @@
   ]
  },
  {
+  "name": "Demon Rattle",
+  "source": "ObojimaTalesYatamon",
+  "wondrous": true,
+  "rarity": "rare",
+  "reqAttune": true,
+  "hasFluffImages": true,
+  "entries": [
+   "While this rattle is on your person, you have a +1 bonus to saving throws against effects created by Demons (Fiends).",
+   "As a {@action Magic|XPHB} action, you can shake this rattle. At the end of your turn while shaking it, each Demon in a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you must make a {@dc 15} Wisdom saving throw, provided it can hear the rattle and isn't already affected by it. On a failed save, the Demon has the {@condition Pacified|ObojimaTallGrass} condition. This effect ends on an affected Demon if you don't take a {@action Magic|XPHB} action on your turn to continue shaking the rattle, if the Demon takes any damage, or if the Demon can no longer hear the rattle. Once you stop shaking the rattle, ending this effect, this property can't be used again until the next dawn."
+  ]
+ },
+ {
   "name": "Demon Signet Ring",
   "source": "WhereEvilLives",
   "page": 159,
@@ -20339,6 +20436,36 @@
     }
    ]
   }
+ },
+ {
+  "name": "Dried Pilot Leech",
+  "source": "ObojimaTalesYatamon",
+  "type": "Ingred",
+  "rarity": "uncommon",
+  "entries": [
+   {
+    "type": "table",
+    "colLabels": [
+     "{@font Combat|RoglianoUltraBold}",
+     "{@font Utility|RoglianoUltraBold}",
+     "{@font Whimsy|RoglianoUltraBold}"
+    ],
+    "colStyles": [
+     "col-1 text-center",
+     "col-1 text-center",
+     "col-1 text-center"
+    ],
+    "rows": [
+     [
+      "{@font {@style 15|large}|SneakerProMedium}",
+      "{@font {@style 12|large}|SneakerProMedium}",
+      "{@font {@style 17|large}|SneakerProMedium}"
+     ]
+    ]
+   },
+   "Dried Pilot Leech is hard to come by, as collecting the nasty thing can be quite a harrowing task. Because of this, most witches leave the hunting of pilot leeches to adventurers and thrill seekers."
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Drowner's Pearl",
@@ -29882,6 +30009,36 @@
   }
  },
  {
+  "name": "Hair From a Yanari",
+  "source": "ObojimaTalesYatamon",
+  "type": "Ingred",
+  "rarity": "common",
+  "entries": [
+   {
+    "type": "table",
+    "colLabels": [
+     "{@font Combat|RoglianoUltraBold}",
+     "{@font Utility|RoglianoUltraBold}",
+     "{@font Whimsy|RoglianoUltraBold}"
+    ],
+    "colStyles": [
+     "col-1 text-center",
+     "col-1 text-center",
+     "col-1 text-center"
+    ],
+    "rows": [
+     [
+      "{@font {@style 5|large}|SneakerProMedium}",
+      "{@font {@style 2|large}|SneakerProMedium}",
+      "{@font {@style 8|large}|SneakerProMedium}"
+     ]
+    ]
+   },
+   "A pluck of yanari hair is a versatile ingredient that can be used in dozens of potions recipes. However, you won't find many witches using it, as the magical properties of the hair are a trade secret held closely by the vendors of the Yanari Market."
+  ],
+  "hasFluffImages": true
+ },
+ {
   "name": "Halberd of the Peacock",
   "source": "24GriffonsSaddlebag1",
   "baseItem": "halberd|xphb",
@@ -30994,6 +31151,36 @@
     "max": 1
    }
   }
+ },
+ {
+  "name": "Healing Patch (1st Class)",
+  "source": "ObojimaTalesYatamon",
+  "wondrous": true,
+  "rarity": "rare",
+  "hasFluffImages": true,
+  "entries": [
+   "You can attach up to three Healing Patches to your clothing or equipment over the course of 1 hour. You can take a {@variantrule Bonus Action|XPHB} to rip a patch off your person and regain {@damage 4d8 + 12} {@variantrule Hit Points|XPHB}; doing so destroys the patch and leaves a charred mark in its place. If you have the {@condition Unconscious|XPHB} condition, an ally within reach of you can take a {@action Magic|XPHB} action to rip the patch off your person instead."
+  ]
+ },
+ {
+  "name": "Healing Patch (2nd Class)",
+  "source": "ObojimaTalesYatamon",
+  "wondrous": true,
+  "rarity": "uncommon",
+  "hasFluffImages": true,
+  "entries": [
+   "You can attach up to three Healing Patches to your clothing or equipment over the course of 1 hour. You can take a {@variantrule Bonus Action|XPHB} to rip a patch off your person and regain {@damage 2d8 + 6} {@variantrule Hit Points|XPHB}; doing so destroys the patch and leaves a charred mark in its place. If you have the {@condition Unconscious|XPHB} condition, an ally within reach of you can take a {@action Magic|XPHB} action to rip the patch off your person instead."
+  ]
+ },
+ {
+  "name": "Healing Patch",
+  "source": "ObojimaTalesYatamon",
+  "wondrous": true,
+  "rarity": "common",
+  "hasFluffImages": true,
+  "entries": [
+   "You can attach up to three Healing Patches to your clothing or equipment over the course of 1 hour. You can take a {@variantrule Bonus Action|XPHB} to rip a patch off your person and regain {@damage 1d8 + 3} {@variantrule Hit Points|XPHB}; doing so destroys the patch and leaves a charred mark in its place. If you have the {@condition Unconscious|XPHB} condition, an ally within reach of you can take a {@action Magic|XPHB} action to rip the patch off your person instead."
+  ]
  },
  {
   "name": "Heart of Damned Intervention",
@@ -50949,6 +51136,20 @@
   }
  },
  {
+  "name": "Press Pass",
+  "source": "ObojimaTalesYatamon",
+  "wondrous": true,
+  "rarity": "rare",
+  "charges": 1,
+  "recharge": "dawn",
+  "rechargeAmount": 1,
+  "hasFluffImages": true,
+  "entries": [
+   "While holding this Press Pass, you can take a {@action Magic|XPHB} action to press it against a wooden, plaster, or stone surface (such as a wall, ceiling, or floor) that is no more than 5 feet thick. When you do so, you open a doorway on the surface, creating a passage to the other side that is 3 feet wide and 7 feet tall. The passage remains for 10 minutes or until you take a {@action Magic|XPHB} action to touch the Press Pass, at which point it closes and the doorway disappears, leaving behind no trace.",
+   "Once used, the Press Pass can't be used in this way again until the next dawn."
+  ]
+ },
+ {
   "name": "Prickleskin",
   "source": "ObojimaTallGrass",
   "page": 223,
@@ -62839,6 +63040,36 @@
   ]
  },
  {
+  "name": "Slice of Melon Bird",
+  "source": "ObojimaTalesYatamon",
+  "type": "Ingred",
+  "rarity": "common",
+  "entries": [
+   {
+    "type": "table",
+    "colLabels": [
+     "{@font Combat|RoglianoUltraBold}",
+     "{@font Utility|RoglianoUltraBold}",
+     "{@font Whimsy|RoglianoUltraBold}"
+    ],
+    "colStyles": [
+     "col-1 text-center",
+     "col-1 text-center",
+     "col-1 text-center"
+    ],
+    "rows": [
+     [
+      "{@font {@style 2|large}|SneakerProMedium}",
+      "{@font {@style 9|large}|SneakerProMedium}",
+      "{@font {@style 3|large}|SneakerProMedium}"
+     ]
+    ]
+   },
+   "If you plan to use melon bird in a potion recipe, you'll have to be quick, as the moment you slice into the creature, its magic begins to fade. Most witches believe you have less than an hour to use melon bird in a potion, but that has never been confirmed."
+  ],
+  "hasFluffImages": true
+ },
+ {
   "name": "Slime-in-a-Skull (Saddle Slime)",
   "source": "HelianasGuidetoMonsterHunting",
   "page": 445,
@@ -63598,6 +63829,18 @@
     }
    ]
   }
+ },
+ {
+  "name": "Soda (Cursed)",
+  "source": "ObojimaTalesYatamon",
+  "wondrous": true,
+  "rarity": "uncommon",
+  "curse": true,
+  "hasFluffImages": true,
+  "entries": [
+   "This soda is cursed. Consuming it curses you until you are targeted by a level 5+ {@spell Remove Curse|XPHB} spell or similar magic, or until you consume a pound of {@item Black Cinnamon|ObojimaTallGrass} and bathe in a still pool of water.",
+   "Each day while cursed, at a random time, one random spell slot you have or one random spell that can be cast from a magic item you are attuned to is expended (GM's discretion). If you have no spell slots or applicable magic items available, you instead take {@damage 2d10} Necrotic damage."
+  ]
  },
  {
   "name": "Soda Cans",
@@ -68930,7 +69173,7 @@
   "rarity": "uncommon",
   "reqAttune": true,
   "entries": [
-   "When you attune to this ring, choose a blank book you are touching. Thereafter, whenever you write something using the hand that wears the ring, a copy of your writing magically appears in the chosen book. Magical writing, such as a spell copied from a {@item Spell Scroll|XPHB} or a glyph inscribed for the {@spell Glyph of Warding|XPHB} spell, is transcribed literally but is nonmagical.",
+   "When you attune to this ring, choose a blank book you are touching. Thereafter, whenever you write something using the hand that wears the ring, a copy of your writing magically appears in the chosen book. Magical writing, such as a spell copied from a {@item Spell Scroll|XDMG} or a glyph inscribed for the {@spell Glyph of Warding|XPHB} spell, is transcribed literally but is nonmagical.",
    "If no blank pages are left in the book or the book is on a different plane of existence than you for more than 24 hours, your {@variantrule Attunement|XPHB} to the ring ends."
   ]
  },
@@ -69118,6 +69361,36 @@
     }
    ]
   }
+ },
+ {
+  "name": "Tamh Gon's Confetti",
+  "source": "ObojimaTalesYatamon",
+  "type": "Ingred",
+  "rarity": "uncommon",
+  "entries": [
+   {
+    "type": "table",
+    "colLabels": [
+     "{@font Combat|RoglianoUltraBold}",
+     "{@font Utility|RoglianoUltraBold}",
+     "{@font Whimsy|RoglianoUltraBold}"
+    ],
+    "colStyles": [
+     "col-1 text-center",
+     "col-1 text-center",
+     "col-1 text-center"
+    ],
+    "rows": [
+     [
+      "{@font {@style 0|large}|SneakerProMedium}",
+      "{@font {@style 0|large}|SneakerProMedium}",
+      "{@font {@style 17|large}|SneakerProMedium}"
+     ]
+    ]
+   },
+   "In Yatamon, Tamh Gon's Confetti can be found littered across the streets for months after his arrival, and the enigmatic festival spirit never stays away too long, making his confetti as common as fallen leaves."
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Tarrasque Plate",
@@ -76392,6 +76665,24 @@
   }
  },
  {
+  "name": "Water Jet Blowtorch",
+  "source": "ObojimaTalesYatamon",
+  "wondrous": true,
+  "rarity": "common",
+  "reqAttune": true,
+  "hasFluffImages": true,
+  "entries": [
+   "These First Age torches have been magically altered to use potions as their fuel. As a {@action Magic|XPHB} action, you can pour a potion of any rarity into the glass vessel of a Brewer's Torch. As long as a potion is in the vessel, you can use a {@action Magic|XPHB} action to activate the torch's corresponding effect, as detailed below, consuming the potion from the vessel.",
+   {
+    "type": "entries",
+    "name": "Water Jet Blowtorch",
+    "entries": [
+     "A jet of water blasts from the tip of the torch at a target within 15 feet of you. If the target is a creature, it must make a {@dc 12} Dexterity saving throw, taking {@damage 2d4} Slashing damage on a failed save or half as much damage on a successful one. If the target is an object or surface made of metal, stone, or wood that is no more than 1 foot thick, the water cuts a {@variantrule Line [Area of Effect]|XPHB|Line} through it up to 5 feet long and 1 inch wide, provided it isn't being worn or carried."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Waterskin of Voices",
   "source": "GriffonsSaddlebag2",
   "page": 186,
@@ -76704,6 +76995,17 @@
   }
  },
  {
+  "name": "Welders Shawl",
+  "source": "ObojimaTalesYatamon",
+  "wondrous": true,
+  "rarity": "uncommon",
+  "reqAttune": true,
+  "hasFluffImages": true,
+  "entries": [
+   "While wearing this shawl, you gain a +3 bonus to Intelligence ({@skill Mechanics|ObojimaTallGrass}) checks. In addition, whenever you repair a vehicle, it regains a number of {@variantrule Hit Points|XPHB} equal to the result of the check –5 (minimum of 3 {@variantrule Hit Points|XPHB}), instead of –10."
+  ]
+ },
+ {
   "name": "Whirling Bonesaw",
   "source": "MonstersOfDrakkenheim",
   "page": 395,
@@ -76828,6 +77130,17 @@
     }
    ]
   }
+ },
+ {
+  "name": "Whiskered Nakurina",
+  "source": "ObojimaTalesYatamon",
+  "wondrous": true,
+  "rarity": "uncommon",
+  "reqAttune": true,
+  "hasFluffImages": true,
+  "entries": [
+   "While playing this nakurina, you can attempt to manipulate a Demon's actions at the risk of your own well-being. As a {@action Magic|XPHB} action, choose a Demon (Fiend) that can hear the nakurina and make a Charisma ({@skill Performance|XPHB}) check. The Demon must then succeed on a Wisdom saving throw against a DC equal to the result of your check (maximum {@dc 20}). On a failed save, you choose whether the Demon drops an item of your choice, moves up to its {@variantrule Speed|XPHB} in a direction of your choice, or makes an attack against a creature of your choice within {@b 5 feet} of it. On a successful save, the Demon resists your control, and you take {@damage 2d4} Psychic damage."
+  ]
  },
  {
   "name": "Whisper (Awakened)",

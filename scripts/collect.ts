@@ -255,6 +255,11 @@ function recursiveGetAllFilesInDirectory(directory: string): string[] {
   const entries = readdirSync(directory, { withFileTypes: true }).flatMap((file) => {
     const fullPath = path.join(directory, file.name);
     if (file.isFile()) {
+      // Only parse JSON files
+      if (!file.name.toLocaleLowerCase().endsWith('.json')) {
+        console.warn(`Skipping ${file.parentPath}/${file.name}`);
+        return [];
+      }
       return fullPath;
     }
     if (file.isDirectory()) {

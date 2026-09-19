@@ -104,6 +104,7 @@ export interface Prerequisite {
         class: { name: string; source?: string; visible?: boolean; visibleStats?: boolean };
         subclass?: { name: string; source?: string; visible?: boolean };
       };
+  membership?: string[];
   optionalfeature?: string[];
   other?: string;
   otherSummary?: { entry: string; entrySummary: string };

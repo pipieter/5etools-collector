@@ -5638,6 +5638,29 @@
   ]
  },
  {
+  "name": "Awakened Cat Neko Duelist",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "In Yatamon's fervent cat culture, neko duelists are highly regarded. Though these awakened cat warriors aren't considered masters of the neko duelist fighting style, their proficiency as duelists still places them at the top of their class. Unlike their bipedal counterparts, traditional neko duelists can utilize the fighting style's techniques to their fullest potential, as the style itself was shaped by the natural movements of a cat.",
+   {
+    "type": "entries",
+    "name": "A Symbol",
+    "entries": [
+     "Neko duelists are often held to a high standard, both by themselves and those around them. The story of the first duelist, whichever version it may be, is well known among awakened cats; in it, the duelist is a warrior of the people, helping those around them and defending Yatamon from a great danger. Because of this, today's duelists are expected to act in the same manner."
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Awakened_Cat_Neko_Duelist.webp"
+    }
+   }
+  ]
+ },
+ {
   "name": "Awakened Chapped Brute",
   "source": "GrimHollowLairsEtharis",
   "entries": [
@@ -8885,6 +8908,83 @@
   ]
  },
  {
+  "name": "Bondbeast",
+  "source": "DnDBeyondDrops",
+  "entries": [
+   {
+    "type": "entries",
+    "entries": [
+     "{@i Magical Minions Protecting Spell Slingers}",
+     "A bondbeast begins as a normal animal that a spellcaster transforms with a rigorous magical ritual. No matter the animal's original size, it gains increased intelligence, becomes the size of a large dog, and employs a magical toxin via a fearsome bite. Although recognizably similar to the animal it once was, each bondbeast bears unique arcane runes on its skin or fur.",
+     "During the transformation into a bondbeast, the creature retains its personality, so most prospective bonded spellcasters use an animal that has already demonstrated loyalty and protectiveness. Transferring the bondbeast's loyalty requires an equally complicated magical ritual, which isn't always successful.",
+     "Roll or choose a result on the Bondbeast Origins table to determine its original form.",
+     {
+      "type": "table",
+      "caption": "Bondbeast Origins",
+      "colLabels": [
+       "1d6",
+       "The Bondbeast Was Formed From..."
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
+      ],
+      "rows": [
+       [
+        "1",
+        "A black-and-white furred ferret."
+       ],
+       [
+        "2",
+        "A scraggly alley cat."
+       ],
+       [
+        "3",
+        "A hyena with a spot shaped like an eye."
+       ],
+       [
+        "4",
+        "A raccoon missing an eye."
+       ],
+       [
+        "5",
+        "A skunk with a stump for its tail."
+       ],
+       [
+        "6",
+        "A vixen fox with snow-white fur."
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "type": "section",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Magical Bodyguards",
+      "entries": [
+       "Wizards have a long history of using other creatures, including magical constructs, for protection and assistance. Familiars are the most common magical assistants, and shield guardians are among the most common magical bodyguards. However, rarer creatures exist as magical protectors or companions.",
+       "The means of creating, controlling, or bonding with more unusual creatures are often heavily guarded secrets only passed along to trusted allies. Magic-users might learn such secrets as members of a magical organization or faction, but usually only the most powerful, influential, or wealthy members are entrusted with this knowledge.",
+       "Bonding with these unique magical bodyguards is not as simple as attuning to a magic item or summoning a familiar. It can take months to create and days to forge a bond with these magical bodyguards. This bonding process requires an expenditure of magical and physical energy that can weaken the creator for many days."
+      ]
+     }
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DnDBeyondDrops/bestiary/Bondbeast.webp"
+    },
+    "credit": "Alejandro Pacheco"
+   }
+  ]
+ },
+ {
   "name": "Bone Collective",
   "source": "ToB1-2023",
   "entries": [
@@ -10379,6 +10479,23 @@
   ]
  },
  {
+  "name": "Button Crow",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "Button crows are a special type of pest spirit known for their intelligence and obsessive personalities. Each button crow usually fixates on one particular trinket during its life and spends most of its days collecting that item. These objects can vary widely, such as keys, paper, coins, glass, brooches, and gems—the most common of these curios being buttons. When an object is chosen by the button crow, a magical pact of sorts is naturally formed between the creature and the bauble. This pact is non-verbal and unwritten and is instead willed into being by the crows' obsessive nature. When this occurs, the crow undergoes several physical changes, including the evolution of its eyes to match the likeness of its chosen trinket and a gradual shift in its diet, which forces it to consume the beloved objects it collects.",
+   "Button crows can be found across the island in villages and merchant camps, often following the flow of people. It's said that when a group of 20 or more people gather, a button crow is sure to follow and try to swindle some poor soul out of the fasteners on their shirt or the laces in their boots."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Button_Crow.webp"
+    }
+   }
+  ]
+ },
+ {
   "name": "Cackle",
   "source": "HumblewoodTales",
   "_copy": {
@@ -10667,6 +10784,23 @@
   ]
  },
  {
+  "name": "Canden & Moon's Advanced Student",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "The advanced students of Yatamon's very own sword masters, Canden and Moon, are, in many regards, icons of the city. From youthful upstarts with a passion for the blade to skilled warriors who desire more knowledge, this formidable group of swordsmen is as close to mastery as a group of students can get before taking their final exam.",
+   "Although most would say these pupils are on the cusp of greatness, a majority of students remain at this level for years before finally gaining mastery of the school's special technique."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Advanced_Student.webp"
+    }
+   }
+  ]
+ },
+ {
   "name": "Candlelight Daemon",
   "source": "GrimHollowLairsEtharis",
   "entries": [
@@ -10725,6 +10859,23 @@
     },
     "width": 1000,
     "height": 610
+   }
+  ]
+ },
+ {
+  "name": "Canned Cat",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "Canned cats were first discovered in the city of Yatamon during the Age of Nakudama. The first record of them comes from an explorer who uncanned one of the curious creatures during an expedition of the once-dangerous city. She claimed she first tried to commune with the tiny cat, but after several hours of silence, decided to eat it instead. Her tales of the gelatinous feline sparked widespread curiosity, and soon canned cats became highly sought after.",
+   "Hundreds of years later, canned cats are used in potion brewing, balms, and as the base of many Yatamon stews. Although they have grown rarer over time, it's still common enough for scavengers and explorers to occasionally uncover one of these unique creatures."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Canned_Cat.webp"
+    }
    }
   ]
  },
@@ -11341,6 +11492,65 @@
     "credit": "Lauren Henderson",
     "width": 850,
     "height": 661
+   }
+  ]
+ },
+ {
+  "name": "Cauldron Hydra",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "At Yatamon's famous school of witches, the Witchery, there's a saying that many of the teachers tell their students: a messy witch is a recipe for danger. The maxim was coined by the school after numerous incidents involving the erratic Cauldron Hydra. Cauldron hydras are formed from the concoction of potion remnants left in witches' cauldrons after repeated use. There is no exact recipe, but most experienced witches grow concerned if a cauldron hasn't been cleaned in more than a few months. Should a cauldron hydra bubble into existence, it's best to keep your distance—the creatures can become very aggressive and often attack within minutes of coming to life.",
+   {
+    "type": "entries",
+    "name": "Research",
+    "entries": [
+     "Cauldron hydras aren't found in the wild, unless a witch or wizard abandons their unwashed cauldron. When studied intentionally, the time spent with the creature is often short-lived due to their volatile and dangerous nature. There are few, if any, records of them being kept in captivity, and the general consensus among witches is that the creature is a nuisance, unworthy of further attention. Still, some wonder what potential the hydra might yet hold."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Chance of Creation",
+    "entries": [
+     "To determine whether a cauldron hydra is created in-game, the GM should roll a die each time a player brews a potion. If the die shows a 1, a cauldron hydra is crected. Use the table below to determine which die to roll.",
+     {
+      "type": "table",
+      "colLabels": [
+       "State of Cauldron",
+       "Cauldron Dice Used"
+      ],
+      "colStyles": [
+       "col-6",
+       "col-6"
+      ],
+      "rows": [
+       [
+        "Clean",
+        "No Dice"
+       ],
+       [
+        "Moderately Dirty",
+        "{@dice D20}"
+       ],
+       [
+        "Very Dirty",
+        "{@dice D12}"
+       ],
+       [
+        "Filthy",
+        "{@dice D4}"
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Cauldron_Hydra.webp"
+    }
    }
   ]
  },
@@ -32525,6 +32735,23 @@
   ]
  },
  {
+  "name": "Graffiti Golem",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "These two-dimensional creatures are painted images that have been animated by magic. The paint used to create them relies on a specific type of pigment commonly used in potion brewing. Some of these golems are created to patrol a single flat surface, such as a door or wall, while others travel from one flat surface to another to track their quarry. Most graffiti golems serve as spies or sentries, though students from the Witchery are known to create them for the pure joy of mischief.",
+   "City goers know they exist, but they aren't always easy to spot. Because the paint on a graffiti golem never truly dries, they are susceptible to being scrubbed away."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Graffiti_Golem.webp"
+    }
+   }
+  ]
+ },
+ {
   "name": "Gratch Bad-Howl",
   "source": "NorthlandsSagas",
   "entries": [
@@ -37276,6 +37503,22 @@
   ]
  },
  {
+  "name": "Howler Skulker",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "Most howlers live on the outskirts of society, inhabiting wildlands that only travelers pass through. In Yatamon, however, there are groups of howlers known as skulkers that have taken up residence in the city's subway and forested parks. Rather than hunting and raiding in the overt and flashy shows of power most howlers are known for, the skulkers prefer to stay hidden, using sneaky tactics and disguises to steal from the city in the late hours of the evening."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Howler_Skulker.webp"
+    }
+   }
+  ]
+ },
+ {
   "name": "Howler Snarler",
   "source": "ObojimaTallGrass",
   "_copy": {
@@ -38798,6 +39041,22 @@
     "credit": "Lauren Henderson",
     "width": 850,
     "height": 632
+   }
+  ]
+ },
+ {
+  "name": "Infected Beast",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "When a beast is infected by a pilot leech, it begins the final stage of its life. Its body starts to grow beyond its means, and quickly takes on unnatural and demonic features. In a short time, it transforms from its animal form into a gargantuan monster, whose driving force is to consume and feed the leech that has attached itself to the creature. With this metamorphosis also comes the fast decay of the beast's body. As the beast grows bigger, it struggles to carry its own weight, and eventually, as its body refuses to grow anymore, it becomes too bloated and too sick to rest. In tragic fashion, the animal will eat itself to death, so long as it's not hunted down first."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Infected_Beast.webp"
+    }
    }
   ]
  },
@@ -42502,6 +42761,22 @@
   ]
  },
  {
+  "name": "Lanternback Turtle",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "Thought to originally be nature spirits from a millennium ago who, in an effort to be closer to the Physical Realm, chose to take the form of a beast, lanternback turtles are now a rare wonder of the island. Their numbers are so sparse, in fact, that a sighting of one of these beloved giants is considered a blessing of the island and can even draw good fortune to your side. And yet, even with their rarity, the lanternback turtle is famous among Obojimans. Statues, clothing, toys, and even tools are adorned with their iconic visage, while craftsfolk and guilds use the turtle to represent themselves across the island."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Lanternback_Turtle.webp"
+    }
+   }
+  ]
+ },
+ {
   "name": "Last Memory",
   "source": "MonstersOfDrakkenheim",
   "entries": [
@@ -44311,6 +44586,37 @@
   ]
  },
  {
+  "name": "Living Memory",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "The many magics of Obojima that permeate both the island's Physical and Spiritual Realms also reach beyond the fabric to unite with the abstract concepts of life, such as fortune, devotion, time, and emotion. This special connection between the magics of the island and these cultural pillars manifests across the realms in a myriad of ways.",
+   "One such manifestation of this special connection is living memories—creatures born from the lingering emotions left by a person or people who have long since left this world. These living memories are the raw, unfiltered expression of pure emotion, whose purpose revolves around the display of the powerful memories that created them. These creatures often form in a physical space in which a singular momentous moment has occurred, or a shared experience by many has permanently marked the land.",
+   {
+    "type": "entries",
+    "name": "Dispositions",
+    "entries": [
+     "Unlike other creatures, living memories require the use of Enemy Dispositions to be used in combat. In this instance, Dispositions are used to determine the type of emotion that manifests the creature."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Manifestations",
+    "entries": [
+     "Living memories often take on the form of a humanoidlike creature, using abandoned objects and found clothing to construct their bodies. The lingering emotion from which they are derived can also cause a variety of quirks and tics, which they wear on their sleeves, often making it easy for a passerby to discern the type of memory they are."
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Living_Memory.webp"
+    }
+   }
+  ]
+ },
+ {
   "name": "Living Wick",
   "source": "ToB1-2023",
   "entries": [
@@ -45971,6 +46277,138 @@
   ]
  },
  {
+  "name": "Mageguard Sphere",
+  "source": "DnDBeyondDrops",
+  "entries": [
+   {
+    "type": "entries",
+    "entries": [
+     "A mageguard sphere is a small floating device designed to absorb harmful spells that target its ward. The sphere is most often made from wood, steel, brass, or other mundane materials.",
+     "Mageguard spheres are most often found in the vicinity of non-adventuring wizards who fear the surreptitious magic of rival wizards over the fangs and claws of marauding monsters.",
+     "A mageguard sphere bears a rudimentary intelligence that allows them to emit sounds, speak, and understand written or verbal commands. They normally respond to simple questions with monosyllabic answers and give only nonsensical replies to complex questions that require deeper thought or nuanced responses.",
+     "Vain or cunning creators sometimes disguise a mageguard sphere as something else, either to fool potential enemies or to impart an air of mystery or style. Roll or choose from the Mageguard Sphere Appearance table to determine how a creator might disguise their mageguard sphere.",
+     {
+      "type": "table",
+      "caption": "The Mageguard Sphere Is Disguised As",
+      "colLabels": [
+       "1d10",
+       "The Mageguard Sphere Is Disguised As..."
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
+      ],
+      "rows": [
+       [
+        "1",
+        "A ball from some sport."
+       ],
+       [
+        "2",
+        "A bat, stirge, or other flying creature."
+       ],
+       [
+        "3",
+        "A child's toy."
+       ],
+       [
+        "4",
+        "A glowing ball of light."
+       ],
+       [
+        "5",
+        "An {@item Ioun Stone|XDMG}."
+       ],
+       [
+        "6",
+        "A piece of fruit."
+       ],
+       [
+        "7",
+        "A rapidly blinking eye."
+       ],
+       [
+        "8",
+        "A semi-precious gemstone."
+       ],
+       [
+        "9",
+        "A tiny beholder with wavy eyestalks."
+       ],
+       [
+        "10",
+        "A will-o'-wisp crackling with static discharges."
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "type": "section",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Magical Bodyguards",
+      "entries": [
+       "Wizards have a long history of using other creatures, including magical constructs, for protection and assistance. Familiars are the most common magical assistants, and shield guardians are among the most common magical bodyguards. However, rarer creatures exist as magical protectors or companions.",
+       "The means of creating, controlling, or bonding with more unusual creatures are often heavily guarded secrets only passed along to trusted allies. Magic-users might learn such secrets as members of a magical organization or faction, but usually only the most powerful, influential, or wealthy members are entrusted with this knowledge.",
+       "Bonding with these unique magical bodyguards is not as simple as attuning to a magic item or summoning a familiar. It can take months to create and days to forge a bond with these magical bodyguards. This bonding process requires an expenditure of magical and physical energy that can weaken the creator for many days."
+      ]
+     }
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DnDBeyondDrops/bestiary/Mageguard Sphere.webp"
+    },
+    "credit": "Alejandro Pacheco"
+   }
+  ]
+ },
+ {
+  "name": "Magiplasm",
+  "source": "DnDBeyondDrops",
+  "entries": [
+   {
+    "type": "entries",
+    "entries": [
+     "{@i Magical Minions Protecting Spell Slingers}",
+     "One of the most bizarre and powerful magical bodyguards is an unusual ooze called a magiplasm. Though these translucent creatures appear similar to simple, mindless oozes, they are much more intelligent and obedient.",
+     "The formula for creating and bonding to a magiplasm is a well-guarded secret. Most spellcasters are hesitant to create and bond with a magiplasm, for it is rumored that the process replaces some of the spellcaster's personality with an eerie, heartless outlook.",
+     "Some spellcasters bonded to a magiplasm wear the creature like overlarge clothing. The strange and intimidating sight can often be enough to dissuade potential enemies."
+    ]
+   },
+   {
+    "type": "section",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Magical Bodyguards",
+      "entries": [
+       "Wizards have a long history of using other creatures, including magical constructs, for protection and assistance. Familiars are the most common magical assistants, and shield guardians are among the most common magical bodyguards. However, rarer creatures exist as magical protectors or companions.",
+       "The means of creating, controlling, or bonding with more unusual creatures are often heavily guarded secrets only passed along to trusted allies. Magic-users might learn such secrets as members of a magical organization or faction, but usually only the most powerful, influential, or wealthy members are entrusted with this knowledge.",
+       "Bonding with these unique magical bodyguards is not as simple as attuning to a magic item or summoning a familiar. It can take months to create and days to forge a bond with these magical bodyguards. This bonding process requires an expenditure of magical and physical energy that can weaken the creator for many days."
+      ]
+     }
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DnDBeyondDrops/bestiary/Magiplasm.webp"
+    },
+    "credit": "Alejandro Pacheco"
+   }
+  ]
+ },
+ {
   "name": "Magma Elemental",
   "source": "DnDBeyondDrops",
   "entries": [
@@ -47562,6 +48000,23 @@
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ExploringEberron24/Creature/Meld.webp"
     },
     "credit": "Ekaterina Yastrubetskaya"
+   }
+  ]
+ },
+ {
+  "name": "Melon Bird",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "Farmers across Obojima lean on magic to help them grow crops. Occasionally, this magic leads to the spontaneous creation of an animated crop that behaves more like a ravenous beast than a plant. For some reason, melons tend to be more sensitive to this transformation, and the melon birds that result have been known to drive off their farmer creators.",
+   "The transformation that occurs in crops can take a considerable amount of time and may even happen days or weeks after the crop has been harvested. Due to this delay, melon birds are known to erupt into chaotic scenes in markets, caravans, and restaurants. In Yatamon, it's even considered bad luck to leave a melon uneaten, and if you were to do so, you would surely get scolded by your aunt or granny."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Melon_Bird.webp"
+    }
    }
   ]
  },
@@ -54750,6 +55205,24 @@
   ]
  },
  {
+  "name": "Pilot Leech",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "The flesh of an animal that has died from a curse is quite toxic. Its taste is putrid and is sure to sicken most who eat it, if not worse. In the case of a minor spirit who consumes the meat, its fate is most certainly worse.",
+   "Pilot leeches are created when a minor spirit eats the flesh of a cursed creature. If the spirit doesn't die, it transforms into a demon, which takes on the likeness of a dark purple leech. In this form, the demon will attach itself to a beast, taking control of its mind, and using its body to feast on the creatures and plants nearest to it. The beast itself gains demonic qualities after being taken over by the pilot leech, the most glaring of them being the beast's unnatural size.",
+   "Witches and druids often seek out pilot leeches for their potion crafting qualities, but most stay clear if the beast has grown too large."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Pilot_Leech.webp"
+    }
+   }
+  ]
+ },
+ {
   "name": "Pixie",
   "source": "ObojimaTallGrass",
   "entries": [
@@ -55294,6 +55767,30 @@
     "credit": "Scott Higginbotham",
     "width": 3138,
     "height": 4629
+   }
+  ]
+ },
+ {
+  "name": "Postal Knight Cavalry",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "The postal knight cavalry is a small but skilled collection of knights who, through many years of service to the brigade, have been given a \"secretary\" they call their own. To train the postal knights' mount of choice, the secretary bird, is no small effort, as it takes years of conditioning by the courier brigades' stable masters, making the role of cavalry a fairly impressive position within the ranks.",
+   "Normally, mounts are given to an individual based on the task at hand and returned after the objective is complete, so to have a secretary of your own means you, above all others, have earned the right to take a mount into the field, no matter the mission.",
+   {
+    "type": "entries",
+    "name": "Red Foot Ranch",
+    "entries": [
+     "In the southernmost part of the Gale Fields, directly north of Yatamon, are the Courier Brigades' taming grounds and the largest secretary stable on the island, Red Foot Ranch. Here, Stable Masters Aspen and Nonomi Fike tame, stow, and train secretary birds brought in from the wild. The two former postal knights, now a married couple, have run the stables for over 15 years and are said to have worked with every secretary currently active in the brigade. In addition to their slew of accolades, the two are well known for the ceremony and blessing they offer to a knight when they are gifted a mount tamed at Red Foot Ranch—a cherished moment for anyone lucky enough to experience it."
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Postal_Knight_Cavalry.webp"
+    }
    }
   ]
  },
@@ -62826,6 +63323,22 @@
   ]
  },
  {
+  "name": "Scrap Demon Swarm",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "The mouse-like spirits known as ompo have serviced Yatamon since people began to congregate in the city. These energetic creatures collect at the bottoms of trash cans and in heavily populated areas, consuming any waste they might find. Ompo often live short and happy lives, as they're cherished and well fed by locals. However, like most spirits, Ompo are not immune to demonic transformation. If their hunger ever becomes gluttonous, their docile nature suddenly shifts, making them aggressive and self-serving—their desire for sustenance is no longer restrained by morality, and a newfound fixation drives them to consume, no matter the cost. Worse still is the nature of this demonic form, as its cursed aura can cause this transformation in other ompo, a tragedy no citizen would ever desire."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Scrap_Demon_Swarm.webp"
+    }
+   }
+  ]
+ },
+ {
   "name": "Scrap Reautomata",
   "source": "MonstersOfDrakkenheim",
   "entries": [
@@ -63170,6 +63683,23 @@
     "credit": "Jake Morrison",
     "width": 2763,
     "height": 4289
+   }
+  ]
+ },
+ {
+  "name": "Secretary Bird",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "These large running birds live throughout the island, but predominantly within the sweeping hillsides and grasslands of the Gale Fields. Their lanky stature allows them to easily see over the tall grass, and their quick speed and moderate flying capabilities make them well suited to combating the dangerous predators that call the fields home.",
+   "Although horses and mopeds are the most common forms of transportation across Obojima, the secretary bird is still quite popular, albeit harder to ride initially. Nonetheless, these birds are loved for their fearless nature, loyalty, and ability to glide, making them a staple among merchants and postal knights."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Secretary_Bird.webp"
+    }
    }
   ]
  },
@@ -65235,6 +65765,22 @@
     },
     "width": 850,
     "height": 747
+   }
+  ]
+ },
+ {
+  "name": "Siphon Fish",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "Resembling the common sucker fish, these flying sea pests feed on magic, draining objects and creatures of their enchantments and arcane properties to sustain themselves. Yatamon, being a city overflowing with magic, attracts siphon fish in droves, with buildings and large structures being prime targets. When this happens, neighborhoods often rally to dispatch the creatures, as the draining effects of the siphon fish are known to cause buildings to collapse—a problem the citizens of Yatamon don't take lightly. On occasion, siphon fish are raised by witches for specific tasks, but most of the time, these fish are regarded as a real nuisance."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Siphon_Fish.webp"
+    }
    }
   ]
  },
@@ -68215,6 +68761,22 @@
     },
     "width": 682,
     "height": 1000
+   }
+  ]
+ },
+ {
+  "name": "Spindle Stalker",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "The dangling pillar of the spindle stalker's duko moss is a sight no traveller wishes to see. These larger carnivorous creatures, known for the paralyzing moss that grows off their backs, are one of the island's most dangerous hunters. Named for their resemblance to their tiny counterpart, the spindle leg spider, whose webs are a well-known potion ingredient, the spindle stalkers' reputation is much more infamous. Tales of the creatures' deadly attacks against groups of howlers in the Brackwater Wetlands or the devastating battles members of AHA had to face while exploring the subway beneath Yatamon, have painted the stalker as a horrifying visage, matched only by the urugama. Luckily for most, these monstrous creatures aren't often seen above ground or in well-traveled areas. The average islander often goes their entire life without ever seeing a spindle stalker, a fact most agree is a blessing from Obojima."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Spindle_Stalker.webp"
+    }
    }
   ]
  },
@@ -71934,6 +72496,68 @@
   "source": "NorthlandsSagas",
   "entries": [
    "Herald of the {@creature Eirik Ellefsen|NorthlandsSagas|Master of Thyles}"
+  ]
+ },
+ {
+  "name": "Tamh Gon",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "Tamh Gon, or as many people refer to him as \"The Great Festival Spirit,\" is a centuries-old being that has blessed the people of Obojima with his exuberance and electric aura for nearly a millennium. The elder spirit shows up at no particular time and on no particular day, breaking the normalcy of the day and sending the inhabitants of any city, town, or village into a sporadic celebration of life, music, food, and drink.",
+   "Many have tried to predict when Tamh Gon will show up, but there seems to be no rhyme or reason. He does as he pleases, appearing on any plane, at any time, with the simple desire to celebrate, making many Obojimans view him less like an elder spirit and more like a force of nature.",
+   {
+    "type": "entries",
+    "name": "Desires",
+    "entries": [
+     "Plenty of people have tried to understand Tamh Gon's desire to celebrate, with numerous rumors and speculations being shared over the years. The most popular of which claims that Tamh Gon feeds on the joy and elation of others, and is the reason for the elder spirit's lengthy life."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Eldest Spirit",
+    "entries": [
+     "Tamh Gon is one of the oldest, if not the oldest, spirits on Obojima, though he never claims to be. Records of Tamh Gon's presence can be found in songs, books, and paintings less than 300 years after the beginning of the Age of Humanity. During this time, Tamh Gon was not seen as an elder spirit, and the form he took, although similar, was not the massive lantern we know today. Still, his presence was palpable, and he quickly grew a reputation among the early humans as the \"Festival Spirit.\""
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "AHA's Attempts",
+    "entries": [
+     "Since its inception, members of AHA have attempted to work with Tamh Gon to better understand the past through his firsthand accounts of major events—and though they have gleaned some knowledge from the elder spirit, Tamh Gon has proven to be difficult to work with.",
+     "Whether it be his old age or eccentric personality, members of AHA have struggled to speak with Tamh Gon on an even playing field, as, beyond festivities, it's difficult to understand what the spirit desires and how one might convince him to set aside his partying and help with the task at hand."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Reputation",
+    "entries": [
+     "Across the island, in major cities, small towns, local villages, and even the heartiest campsite, anticipation of Tamh Gon's arrival is always on the back of people's minds. To Obojimans, Tamh Gon is the manifestation of festivity and a needed reminder to let go of your frustrations and celebrate with your neighbors. He's revered by most, loved by many, and considered an honorary member of towns and villages of every size.",
+     "Still, there are those who only tolerate the Great Festival Spirit rather than love him. Sticklers and rule followers often grind against Tamh Gon's abandonment of the schedule, while other powerful elder spirits have been known to disapprove of his festivals, seeing them as a blemish on Obojima's calm beauty.",
+     "No matter your opinion on Tamh Gon, most have one, which speaks to the reach of the elder spirit's presence in both realms."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Domain",
+    "entries": [
+     "Most elder spirits settle in a singular location in the Physical or Spirit Realm. While there, their powerful magic slowly seeps into the land around them, forming their domain. Within an elder spirit's domain, the world is altered to the spirit's liking, and their magic becomes even more potent. Tamh Gon, however, breaks this norm. Rather than staying in one location, Tamh Gon is constantly moving, bringing his domain along with him like an aura. Additionally, Tamh Gon's domain does not physically alter the world around him, though its effects can be felt within moments of the elder spirit appearing. To this day, the features of Tamh Gon's domain aren't fully known."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Attack on Tamh Gon",
+    "entries": [
+     "Tamh Gon's power is great, and by many standards, the elder spirit is one of the most powerful beings on the island—a great deal of this reasoning is due to Tamh Gon's four bells, each of which wields a unique and overwhelming magic. Over the years, this has inspired bandits, thieves, and demons alike to attempt to steal the bells, leading to many failed attempts and unfortunate skirmishes, with only a handful coming even remotely close."
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Tamh_Gon.webp"
+    }
+   }
   ]
  },
  {
@@ -83254,6 +83878,31 @@
   ]
  },
  {
+  "name": "Yanari",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "Yanari are pesky, humanoid spirits about the size of a raccoon, that feed on loud noises. Wherever there's a steady diet of audible ruckus, such as markets, taverns, busy kitchens, and festivals, a yanari is likely to be nearby, feasting on the clamor.",
+   "Although yanari make their own noise, it cannot sustain them. They must seek out the noises of others to satisfy their craving. In silence, yanari become irritable and insubstantial, fading away to the Spirit Realm as they bark and screech with frustration.",
+   "Normal, everyday noise like singing, a babbling brook, or a bustling household is not enough to bring them into form, so yanari seek spaces that amplify sounds; thus they can often be found in empty pots, urns, and cabinets. Yanari are at their most aggravating when they are attempting to provoke those around them to make loud noises by being annoying, but with some patience, yanari infestations can usually be eliminated by maintaining a few days of strict silence—an ordeal that yanari cannot bear for long."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Yanari.webp"
+    }
+   },
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Yanari2.webp"
+    }
+   }
+  ]
+ },
+ {
   "name": "Yarn Golem",
   "source": "ValdaPlayerPack2",
   "entries": [
@@ -83340,6 +83989,43 @@
     "href": {
      "type": "external",
      "url": "https://raw.githubusercontent.com/JuliTutu/homebrew-img/main/img/NorthlandsSagas/Creatures/Ylsa_Ice-Eye.webp"
+    }
+   }
+  ]
+ },
+ {
+  "name": "Yoka Scout",
+  "source": "ObojimaTalesYatamon",
+  "entries": [
+   "Though a Yoka Scout, by their own words, should never be afraid to combat a dangerous foe on their own, most scouts travel in groups of three to five—using scrappy resourcefulness, hidden traps, and clever team planning to take on singular targets beyond their individual capabilities. This devious style of fighting might be considered underhanded and unprincipled if it weren't for the fact that the Yoka Scouts primarily focus their efforts on dispelling demons from the city. However, rivalry between the Yoka Scouts and other groups, such as the students of Canden and Moon's sword school, has led to street skirmishes and challenges that highlight the scouts' dishonest methods.",
+   {
+    "type": "entries",
+    "name": "Planning",
+    "entries": [
+     "Despite their youth, the Yoka Scouts are tactical in their approach to conflict. Each scout party usually has one member in their late teens or early twenties who acts as the party leader. Before taking on a major challenge, this individual will work with their party to craft a plan, assign roles, divide resources, and create escape routes—all of which can take hours, if not days. The culmination of this hard work and understanding of their group's skill set allows the scouts to arise victorious from combat, even after unforeseen obstacles surface during the battle."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Tools & Tricks",
+    "entries": [
+     "Every charm, talisman, and nakurina the Yoka Scouts can obtain is put to good use within their ranks. A group of scouts always tries to carry one or more magical trinkets that can help them discover, trap, or slay demons, though finding these objects is easier said than done. Despite the difficulty the scouts have had obtaining demon charms and objects like them, a handful of powerful artifacts have been secured by the organization. These tools are often shared among the scouts, depending on the individual needs of each party. When they're not in use, the highest-ranking members are charged with protecting them and will often keep them on their person."
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Yoka_Scout.webp"
+    }
+   },
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Yoka_Scout2.webp"
     }
    }
   ]

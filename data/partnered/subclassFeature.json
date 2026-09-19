@@ -2258,6 +2258,26 @@
   ]
  },
  {
+  "name": "Aura of Deliverance",
+  "source": "ObojimaTalesYatamon",
+  "className": "Paladin",
+  "classSource": "XPHB",
+  "subclassShortName": "Delivery",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 7,
+  "header": 2,
+  "entries": [
+   "You and allies within your Aura of Protection gain the following benefits:",
+   {
+    "type": "list",
+    "items": [
+     "{@action Opportunity Attack|XPHB|Opportunity Attacks} against you take a penalty to their attack rolls equal to the Paladin's Charisma modifier (minimum of −1). If an {@action Opportunity Attack|XPHB} hits, the damage is reduced by the same amount.",
+     "Whenever you gain the {@condition Prone|XPHB} condition, you can immediately take a {@variantrule Reaction|XPHB} to right yourself, provided your {@variantrule Speed|XPHB} isn't 0."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Aura of Disruption",
   "source": "GriffonsSaddlebag2",
   "page": 221,
@@ -3019,6 +3039,87 @@
    }
   ],
   "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Foundry/Subclass/Druid/Bewitched%20Effigy.webp"
+ },
+ {
+  "name": "Beyond Coincidence",
+  "source": "ObojimaTalesYatamon",
+  "className": "Rogue",
+  "classSource": "XPHB",
+  "subclassShortName": "Fortune",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 3,
+  "header": 2,
+  "entries": [
+   "You have a knack for making things inexplicably go your way. This luck is represented by your Fortune Dice, which are d20s. You have a number of Fortune Dice equal to half your Rogue level (round up). You regain all expended Fortune Dice whenever you finish a {@variantrule Long Rest|XPHB}.",
+   "You can expend your Fortune Dice to make Luck checks, which are Charisma checks that you have {@variantrule Expertise|XPHB} in. No spell, effect, or other ability—positive or negative—can alter your Luck checks.",
+   {
+    "type": "list",
+    "style": "list-hang",
+    "items": [
+     {
+      "type": "item",
+      "name": "Favored Talent",
+      "entry": "Whenever you make an ability check, you can expend one of your Fortune Dice to instead make a Luck check, using that result for the ability check."
+     },
+     {
+      "type": "item",
+      "name": "Lucky Break",
+      "entry": "You can attempt to make luck strike at just the right moment, specifying the way in which your character's fortune shapes their circumstances. To do so, you take a {@action Magic|XPHB} action and expend one of your Fortune Dice to make a Luck check, describing the desired outcome. The GM then sets a DC based on the likelihood of the specified scenario, with the outcome transpiring on a success."
+     }
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Luck Check DC Examples",
+    "colLabels": [
+     "DC",
+     "Likelihood",
+     "Examples"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-3",
+     "col-7"
+    ],
+    "rows": [
+     [
+      "5-9",
+      "Extremely plausible",
+      "A nearby sneeze obscures a different sound. A merchant hands you back too much change. A performer bites their tongue while singing."
+     ],
+     [
+      "10-14",
+      "Plausible",
+      "A coin purse is forgotten at a table. A local knows the person you're looking for. You overhear an enemy plot."
+     ],
+     [
+      "15-19",
+      "Unlikely",
+      "A key falls out of someone's pocket. A guard is asleep at their post. A bandit loses grip on their sword."
+     ],
+     [
+      "20-29",
+      "Very unlikely",
+      "A fire breaks out nearby. You stumble onto the exact group of ingredients you need. You fall from a rooftop onto a soft pile of bedding."
+     ],
+     [
+      "30+",
+      "Nearly impossible",
+      "A spirit suddenly crosses into the Physical Realm and stops an assailant in their tracks."
+     ]
+    ]
+   },
+   {
+    "type": "insetReadaloud",
+    "name": "Lucky Break Example",
+    "entries": [
+     "The Rogue is trying to find a letter addressed to an important wizard and stop it from being delivered. During their search, they bump into a postal knight, whom they believe might have the letter they need.",
+     "In that moment, the Rogue player asks the GM if they can make a Luck check, asking that the letter somehow drops from the postal knight's courier bag. As with any ability check, the GM sets a DC. This time, however, the DC is based on how likely the situation described by the player is to occur.",
+     "In this circumstance, the GM decides the outcome is unlikely and tells the player the DC is 16. With the DC established, the player makes their Luck check and rolls a 19, succeeding on the check.",
+     "The GM then describes how the postal knight turns a corner and accidentally slams into a spirit walking in the opposite direction. As the postal knight hits the ground, the contents of the bag go skittering across the pavement."
+    ]
+   }
+  ]
  },
  {
   "name": "Beyond Space",
@@ -4797,6 +4898,19 @@
   ]
  },
  {
+  "name": "Boon of Fortuity",
+  "source": "ObojimaTalesYatamon",
+  "className": "Rogue",
+  "classSource": "XPHB",
+  "subclassShortName": "Fortune",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 13,
+  "header": 2,
+  "entries": [
+   "Whenever you finish a {@variantrule Long Rest|XPHB}, roll two {@dice d20}s and record the numbers rolled. Whenever an effect created by a creature you can see forces one or more creatures to make a saving throw, you can replace the DC for that effect with one of these fortuitous rolls. You must choose to do so before any targets of the effect make their saves, and you can replace a save DC in this way only once per turn. Each fortuitous roll can be used only once. When you finish a {@variantrule Long Rest|XPHB}, you lose any unused fortuitous rolls."
+  ]
+ },
+ {
   "name": "Borrowed Luck",
   "source": "CrookedMoon14",
   "page": 87,
@@ -5054,6 +5168,20 @@
    "Your fusion is complete, and your heart is absorbed, its sacrifice making way for a new heart—one that can fully channel the rage of the natural world. While you are a behemoth of your Wickerbone Behemoth feature, you can use the {@itemMastery Nick} mastery property in addition to the {@itemMastery Slow} mastery property with your arms.",
    "In addition, if you take the {@action Attack|XPHB} action on your turn, you can take a {@variantrule Bonus Action|XPHB} to cast any {@filter Osteomancy spell|spells|components & miscellaneous=|subschool=osteomancy|cast time=action}{@sup *} that has a casting time of an action.",
    "{@note {@sup *}Osteomancy Spells: {@spell Arm Cannon|SGEHPP}, {@spell Brittle Bone Throw|SGEHPP}, {@spell Calcified Memories|SGEHPP}, {@spell Displacing Maw|SGEHPP}, {@spell Dread Scarecrow|SGEHPP}, {@spell Forest of Dread|SGEHPP}, {@spell Fractured Shell|SGEHPP}, {@spell Maiden of Bones|SGEHPP}, {@spell Marrow Transplant|SGEHPP}, {@spell Osseous Impalement|SGEHPP}, {@spell Phalangeal Shot|SGEHPP}, {@spell Skeletal Tail|SGEHPP}}"
+  ]
+ },
+ {
+  "name": "Brigade's Bond",
+  "source": "ObojimaTalesYatamon",
+  "className": "Paladin",
+  "classSource": "XPHB",
+  "subclassShortName": "Delivery",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 15,
+  "header": 2,
+  "entries": [
+   "Whenever you cast Divine Smite, the target takes an extra {@damage 1d8} Radiant damage if one of your allies is within 5 feet of it.",
+   "In addition, while a target is stamped by your Courier's Seal, you can take a {@action Magic|XPHB} action to cast {@spell Scrying|XPHB} without expending a spell slot or needing Material components, targeting the creature or object that bears the stamp. The target automatically fails its save against the spell. If the target is an object, the spell's sensor is created within 10 feet of the target and moves with it. Once you cast the spell in this way, the stamp vanishes."
   ]
  },
  {
@@ -5546,6 +5674,19 @@
   "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Foundry/Subclass/Paladin/Castigate.webp"
  },
  {
+  "name": "Cat Whisperer",
+  "source": "ObojimaTalesYatamon",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Neko Duelist",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 3,
+  "header": 2,
+  "entries": [
+   "You can comprehend and verbally communicate with felines. You can use any of the {@action Influence|XPHB} action's skill options with them, and you have {@variantrule Advantage|XPHB} on any checks you make against them as part of that action."
+  ]
+ },
+ {
   "name": "Catastrophic Power",
   "source": "GrimHollowPG24",
   "page": 71,
@@ -5579,6 +5720,19 @@
     ]
    },
    "Whenever you finish a {@variantrule Long Rest|XPHB}, you can change the kind of weapon you choose. For example, you could switch to using the mastery property of {@item Sling|XPHB|Slings} or {@item Greatclub|XPHB|Greatclubs}."
+  ]
+ },
+ {
+  "name": "Cautious Tenacity",
+  "source": "ObojimaTalesYatamon",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Neko Duelist",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 15,
+  "header": 2,
+  "entries": [
+   "You gain two additional uses of your Second Wind feature. Whenever you use your Second Wind to regain {@variantrule Hit Points|XPHB}, you also gain the benefits of the {@action Dodge|XPHB} action until the end of your next turn."
   ]
  },
  {
@@ -7714,6 +7868,35 @@
   ]
  },
  {
+  "name": "Collective Knowledge",
+  "source": "ObojimaTalesYatamon",
+  "className": "Warlock",
+  "classSource": "XPHB",
+  "subclassShortName": "Coven",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 3,
+  "header": 2,
+  "entries": [
+   "You can call on your coven's knowledge of the arcane at a moment's notice. You gain the following benefits.",
+   {
+    "type": "list",
+    "style": "list-hang",
+    "items": [
+     {
+      "type": "item",
+      "name": "Borrowed Talent",
+      "entry": "When you make an ability check using a skill or tool you don't have proficiency with, you can choose to gain proficiency with that skill or tool (no action required). Alternatively, you can take a {@action Magic|XPHB} action to learn one language of your choice. You retain this proficiency or language until you finish a {@variantrule Long Rest|XPHB}. Once you use this ability to gain a proficiency or language, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+     },
+     {
+      "type": "item",
+      "name": "Spell Swap",
+      "entry": "Over the course of 10 minutes, you can perform a ritual to telepathically commune with another witch in your coven and swap a spell with them. While doing so, you can ask one question that can be answered with yes, no, or unclear. The witch you're communing with answers to the best of their ability. At the completion of the ritual, choose one level 1+ Warlock spell you have prepared and one spell of your choice of the same level or lower from the {@filter Druid or Wizard|spells|level=!0|class=druid;wizard} spell list. Until you finish a {@variantrule Long Rest|XPHB}, you no longer have that Warlock spell prepared, replacing it with the chosen Druid or Wizard spell. In addition, you can cast the chosen spell once without expending a spell slot. Once you perform this ritual, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "College of Adventurers",
   "source": "GrimHollowPG24",
   "page": 64,
@@ -9101,6 +9284,103 @@
   ]
  },
  {
+  "name": "Courier's Seal",
+  "source": "ObojimaTalesYatamon",
+  "className": "Paladin",
+  "classSource": "XPHB",
+  "subclassShortName": "Delivery",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 3,
+  "header": 2,
+  "entries": [
+   "Immediately after you hit a creature with an attack, you can expend one use of your Channel Divinity to place a magical stamp on the target that is visible only to you and creatures that can see invisible objects. Alternatively, you can expend one use of your Channel Divinity to touch an object as a {@variantrule Bonus Action|XPHB} and stamp it in this way. If the object is being worn or carried by an unwilling creature, that creature can make a Dexterity saving throw, preventing you from placing the stamp on a success; the creature automatically fails the save if it isn't aware of your presence.",
+   "The stamp lasts for 1 hour. For the duration, you always know the target's location, provided it's on the same plane of existence as you. While you have this knowledge, the target can't become hidden from you, and if it has the {@condition Invisible|XPHB} condition, it gains no benefit from that condition against you.",
+   "As a {@variantrule Bonus Action|XPHB} while the target is within 1 mile of you, you can teleport to an unoccupied space within 5 feet of it; if you're riding a steed or Mounted vehicle, it teleports with you (other riders are left behind). The stamp vanishes early if you teleport in this way, if you use this feature again, or if the stamp is targeted by a {@spell Dispel Magic|XPHB} spell or similar magic. When the stamp vanishes, these effects end."
+  ]
+ },
+ {
+  "name": "Coven Patron",
+  "source": "ObojimaTalesYatamon",
+  "className": "Warlock",
+  "classSource": "XPHB",
+  "subclassShortName": "Coven",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 3,
+  "entries": [
+   "Belonging to a witch coven is more than being part of a club; a coven member shares a bond with their covenmates that permeates the very magic they wield. For most witches, this magical bond is subtle, showing itself during gatherings or in times of arcane collaboration. For some, however, their bond is the very source of their power. These Warlocks form pacts with their covens, allowing them to tap into the ambient magic that flows through the collective, granting them access to the coven's secrets, skills, and, more importantly, its spellcraft. In exchange for this power, they serve as an emissary for their covens.",
+   {
+    "type": "entries",
+    "name": "Historic Title",
+    "entries": [
+     "The \"Ambassador Pact\" is an arcane tradition passed down from a bygone era of witchcraft. In a time when covens did not always see eye to eye and conflicts among them would stir unrest across the island, an agreement was made between covens for the betterment of Obojima—disputes would be settled by an individual rather than the many.",
+     "Covens would form a unique pact with a chosen witch, channeling their vast knowledge and specialized magics into a single spellcaster. This ambassador would act as the coven's voice and body, fighting for its place within the arcane arts.",
+     "Centuries later, the Ambassador Pact is still used in modern magic, though its role has changed slightly. Now, covens often make several pacts at the same time, splitting their power and knowledge across a handful of talented Warlocks. These skilled mages are often sent across the island to represent their coven in all manner of ways, from challenges and festivals to dangerous quests and secretive meetings."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Collective Strength",
+    "entries": [
+     "Although larger covens naturally generate more ambient magic from which they can flow into their chosen Warlock, smaller covens are still able to form the Ambassador Pact with one of their members. So long as a coven has at least three spellcasters, it can choose to share its magic with a fourth. The potential of a coven's ambassador is limited only by the combined strength of the collective; more members do not necessarily equate to a more powerful ambassador. That said, as a coven grows in membership, its pool of knowledge and power deepens, granting its ambassador access to more resources."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Your Coven",
+    "entries": [
+     "You have made a pact with one of Obojima's witch covens. These organizations are crucial for the growth of the island's arcane traditions and studies and are relied upon by communities of all sizes across the island. From soothsayers and potion brewers to curse binders and enchanters, the members of Obojima's greatest covens are often highly regarded individuals, and you have now taken up one of the coven's most pivotal roles.",
+     "Choose which coven you've joined or determine it randomly using the coven table. If the coven you've joined isn't listed on the table, choose one of the following covens as a surrogate for determining which abilities this subclass grants you.",
+     {
+      "type": "table",
+      "caption": "Your Coven",
+      "colLabels": [
+       "d6",
+       "Coven"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
+      ],
+      "rows": [
+       [
+        "1",
+        "Crowsworn"
+       ],
+       [
+        "2",
+        "Cloud Cap Coven"
+       ],
+       [
+        "3",
+        "Fish Head Coven"
+       ],
+       [
+        "4",
+        "League of the Gilded Gourd"
+       ],
+       [
+        "5",
+        "Patchwork Robe Coven"
+       ],
+       [
+        "6",
+        "The Tall Hats"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Coven Spells|Warlock|XPHB|Coven|ObojimaTalesYatamon|3|ObojimaTalesYatamon"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Collective Knowledge|Warlock|XPHB|Coven|ObojimaTalesYatamon|3|ObojimaTalesYatamon"
+   }
+  ]
+ },
+ {
   "name": "Coven Spells",
   "source": "GrimHollowPG24",
   "page": 98,
@@ -9144,6 +9424,83 @@
       "17",
       "{@spell Contact Other Plane|XPHB}, {@spell Scrying|XPHB}"
      ]
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Coven Spells",
+  "source": "ObojimaTalesYatamon",
+  "className": "Warlock",
+  "classSource": "XPHB",
+  "subclassShortName": "Coven",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 3,
+  "header": 2,
+  "entries": [
+   "The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Coven Spells table, you thereafter always have the listed spells prepared.",
+   {
+    "type": "table",
+    "caption": "Coven Spells",
+    "colLabels": [
+     "Warlock Level",
+     "Spells"
+    ],
+    "colStyles": [
+     "col-3 text-center",
+     "col-9"
+    ],
+    "rows": [
+     [
+      "3rd",
+      "{@spell Animal Friendship|XPHB}, {@spell Bless|XPHB}, {@spell Borrow Magic|ObojimaTalesYatamon}, {@spell Mirror Image|XPHB}, {@spell Shared Vision|ObojimaTallGrass}"
+     ],
+     [
+      "5th",
+      "{@spell Bestow Curse|XPHB}, {@spell Clairvoyance|XPHB}"
+     ],
+     [
+      "7th",
+      "{@spell Pacify Monster|ObojimaTallGrass}, {@spell Polymorph|XPHB}"
+     ],
+     [
+      "9th",
+      "{@spell Awaken|XPHB}, {@spell Rary's Telepathic Bond|XPHB|Telepathic Bond}"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Coven's Bond",
+  "source": "ObojimaTalesYatamon",
+  "className": "Warlock",
+  "classSource": "XPHB",
+  "subclassShortName": "Coven",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 6,
+  "header": 2,
+  "entries": [
+   "Like the bond to your coven, you're able to bind a creature to yourself. As a {@variantrule Bonus Action|XPHB}, you can forge a bond between you and another creature you can see within 60 feet of you, as specified in the bond. The bond lasts for 1 hour, and once you forge this bond, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. While bound to a creature in this way, you can use the effect below that corresponds to your coven. You can use this effect a number of times equal to your Charisma modifier (minimum of once) before the bond ends. If either creature dies, the bond ends early.",
+   {
+    "type": "list",
+    "style": "list-hang",
+    "items": [
+     {
+      "type": "item",
+      "name": "Crowsworn & Fish Head Coven",
+      "entry": "You forge this bond with an enemy. When you take damage, you can cause the damage you take to be halved (round down); the bound creature takes the same amount of damage."
+     },
+     {
+      "type": "item",
+      "name": "Cloud Cap Coven & The Tall Hats",
+      "entry": "You forge this bond with a willing creature. When you fail a saving throw, you can choose for the bound creature to make the same save and use its result instead. Alternatively, when the bound creature fails a saving throw, you can choose to make the same save and allow it to use your result instead."
+     },
+     {
+      "type": "item",
+      "name": "League of the Gilded Gourd & Patchwork Robe Coven",
+      "entry": "You forge this bond with a willing creature. As a {@variantrule Bonus Action|XPHB}, you can teleport up to 60 feet to an unoccupied space within 5 feet of the bound creature, or cause it to teleport up to 60 feet to an unoccupied space within 5 feet of you, provided it's willing. Alternatively, when you use this {@variantrule Bonus Action|XPHB}, you can cause both creatures to teleport, swapping places, provided they're willing and within 60 feet of one another."
+     }
     ]
    }
   ]
@@ -9734,6 +10091,19 @@
   "level": 3,
   "entries": [
    "Starting at 3rd level, you can add your Intelligence modifier to your Wisdom ({@skill Insight}) and Wisdom ({@skill Perception}) checks. In addition, you can use the bonus action granted by your {@classFeature Cunning Action|Treasure Hunter|TLotRR|2|TLotRR} to take the {@action Search} action."
+  ]
+ },
+ {
+  "name": "Cup Half Full",
+  "source": "ObojimaTalesYatamon",
+  "className": "Rogue",
+  "classSource": "XPHB",
+  "subclassShortName": "Fortune",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 3,
+  "header": 2,
+  "entries": [
+   "Whenever you or a creature within 60 feet of you rolls a 20 on a {@variantrule D20 Test|XPHB}, you regain one expended Fortune Die. At the GM's discretion, you can't regain a Fortune Die in this way if the result of the {@variantrule D20 Test|XPHB} is inconsequential, such as winning a friendly game of cards."
   ]
  },
  {
@@ -10853,6 +11223,28 @@
      }
     ]
    }
+  ]
+ },
+ {
+  "name": "Distant Protections",
+  "source": "ObojimaTalesYatamon",
+  "className": "Warlock",
+  "classSource": "XPHB",
+  "subclassShortName": "Coven",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 10,
+  "header": 2,
+  "entries": [
+   "Whenever you take 10 or more damage from an enemy, you can take a {@variantrule Reaction|XPHB} to call upon your coven's defensive magic, which they prepare for you each day. You immediately regain a number of {@variantrule Hit Points|XPHB} equal to {@dice 1d10} plus your Charisma modifier, and you gain one of the following benefits of your choice until the end of your next turn.",
+   {
+    "type": "list",
+    "items": [
+     "You gain a +5 bonus to AC.",
+     "You have the {@condition Invisible|XPHB} condition.",
+     "You have a {@variantrule Fly Speed|XPHB} equal to your {@variantrule Speed|XPHB}."
+    ]
+   },
+   "This feature is used automatically when you are reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright. Once you use this feature, you can't do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
   ]
  },
  {
@@ -12657,6 +13049,35 @@
   ]
  },
  {
+  "name": "Evasive Maneuvers",
+  "source": "ObojimaTalesYatamon",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Neko Duelist",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 7,
+  "header": 2,
+  "entries": [
+   "Your quick thinking and agile reflexes make you a formidable foe, even when outnumbered. You gain the following benefits.",
+   {
+    "type": "list",
+    "style": "list-hang",
+    "items": [
+     {
+      "type": "item",
+      "name": "Deft Cover",
+      "entry": "While at least two Small or larger enemies are within 5 feet of you, you have {@variantrule Cover|XPHB|Half Cover}."
+     },
+     {
+      "type": "item",
+      "name": "Nimble Redirect",
+      "entry": "When you're hit by an attack made with a weapon or an {@variantrule Unarmed Strike|XPHB}, you can take a {@variantrule Reaction|XPHB} to reduce the damage you take by an amount equal to your Fighter level. When you do so, you can cause a creature or object within 5 feet of you to take damage equal to the amount you reduced from the attack. Once you take this {@variantrule Reaction|XPHB}, you can't do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Ever Prideful",
   "source": "GrimHollowPG24",
   "page": 78,
@@ -13541,6 +13962,35 @@
     ]
    },
    "You can use this feature a number of times equal to your Charisma modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
+  "name": "Feline Nature",
+  "source": "ObojimaTalesYatamon",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Neko Duelist",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 3,
+  "header": 2,
+  "entries": [
+   "Your training alongside your master has earned you the attributes of the cat. You gain the following benefits.",
+   {
+    "type": "list",
+    "style": "list-hang",
+    "items": [
+     {
+      "type": "item",
+      "name": "Catlike Agility",
+      "entry": "You gain a {@variantrule Climb Speed|XPHB} equal to your {@variantrule Speed|XPHB}. In addition, when you fall and don't have the {@condition Incapacitated|XPHB} condition, you always land on your feet, and you can subtract up to 20 feet from the fall when calculating the damage you would take."
+     },
+     {
+      "type": "item",
+      "name": "Nine Lives",
+      "entry": "When you are reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright, you can immediately use your Second Wind feature (no action required) to regain {@variantrule Hit Points|XPHB} before falling {@condition Unconscious|XPHB}."
+     }
+    ]
+   }
   ]
  },
  {
@@ -14495,6 +14945,50 @@
   ],
   "entries": [
    "When you choose this path at 3rd level, you gain proficiency with medium armour, shields, and martial weapons. In addition, you can give yourself a bonus to your initiative rolls equal to your Charisma modifier."
+  ]
+ },
+ {
+  "name": "Fortune Rogue",
+  "source": "ObojimaTalesYatamon",
+  "className": "Rogue",
+  "classSource": "XPHB",
+  "subclassShortName": "Fortune",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 3,
+  "entries": [
+   "Some rogues practice skulking in the shadows; others study where and when to strike—but you? You've got luck on your side.",
+   "For reasons no one fully comprehends, fortune favors you in ways that defy explanation. You trip into treasure, stumble onto the missing key, or escape death by inches, surviving odds that would make a gambler faint.",
+   "But your luck isn't magic, and it isn't something you control. You're a leaf on the breeze in the winds of fortune, and although you live a charmed life, you've learned that chance is as fickle as fate and that not every gamble you make pays off.",
+   {
+    "type": "entries",
+    "name": "Favor Finds Conflict",
+    "entries": [
+     "Though your luck brings about all manner of creature comforts, favorable deals, and unlikely wins, it also has a way of making enemies. Whether they are covetous bandits, jealous friends, or spiteful spirits, those with your fortune frequently find themselves at the wrong end of a blade more often than they'd like to admit. Yet it's in these dangerous situations that you've discovered your unorthodox way of combating danger and overcoming enemies. While your skill with a sword or a dagger might be great in its own regard, you find that your luck has a funny way of catching your foes off guard. These \"sneak attacks,\" as you might call them, present themselves to you as clear as day—fortuitous opportunities when your foe opens their defenses and allows you to land a pivotal strike. Those unfamiliar with combat might misinterpret these attacks as measured assaults, but any skilled warrior would be astonished by your good fortune."
+    ]
+   },
+   {
+    "type": "inset",
+    "entries": [
+     "Players who are unfamiliar with the game, or those who prefer a straightforward style of play, may wish to choose a different subclass. The Fortune Rogue asks that both the player and the GM collaborate in a fashion that might require more improvisation than other character options. We recommend speaking with your GM about the Fortune Rogue before choosing it as your subclass."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "The Will of Obojima?",
+    "entries": [
+     "Tales throughout Obojima's history have represented luck as a palpable force from which its great heroes have knowingly or unknowingly tapped into—it's said that, like magic, it exists all around us and can be called upon by a chosen few. Others receive its favor as a reward for their good deeds or as retribution for unjust actions taken against them.",
+     "Some believe luck is the manifestation of Obojima's will. Like the Great Beasts, they see luck as another tool that the island uses to guide and protect its people. Others believe it is a force of nature, like an intangible wind that sweeps across the Physical Realm, blessing those who stumble into its path.",
+     "No matter which interpretation holds more truth, a great number of Obojimans can agree that luck is as real as the sun and the sky."
+    ]
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Beyond Coincidence|Rogue|XPHB|Fortune|ObojimaTalesYatamon|3|ObojimaTalesYatamon"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Cup Half Full|Rogue|XPHB|Fortune|ObojimaTalesYatamon|3|ObojimaTalesYatamon"
+   }
   ]
  },
  {
@@ -20412,6 +20906,20 @@
   ]
  },
  {
+  "name": "Lucky Strike",
+  "source": "ObojimaTalesYatamon",
+  "className": "Rogue",
+  "classSource": "XPHB",
+  "subclassShortName": "Fortune",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 9,
+  "header": 2,
+  "entries": [
+   "When you make an attack roll against a creature, you can expend a Fortune Die to make a Luck check in place of the normal attack roll. On a hit, this attack triggers your Sneak Attack even if it normally wouldn't, provided you haven't already used it this turn.",
+   "If you use the Withdraw option of your Cunning Strike on this attack, you don't have to expend any Sneak Attack damage dice."
+  ]
+ },
+ {
   "name": "Lycanthrope",
   "source": "ValdaPlayerPack2",
   "className": "Ranger",
@@ -22653,6 +23161,54 @@
   ]
  },
  {
+  "name": "Neko Duelist",
+  "source": "ObojimaTalesYatamon",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Neko Duelist",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 3,
+  "entries": [
+   "As a cat stalks a mouse, Fighters who practice the neko duelist tradition bide their time until the perfect moment to pounce upon a foe with drawn steel. These Fighters weave through battle, engaging multiple enemies at once, ready to dart out at any moment to deliver a staggering blow through their signature pounce technique. The neko duelist tradition is secretive, and it may trace its origins to antiquity—possibly even early in the Age of Humanity.",
+   "What separates the neko duelist approach to combat from other fighting traditions is that most of its practitioners are cats. From time to time, a master of the style will agree to take on a bipedal student. Such Fighters are immersed in cat culture and taught the ways of the feline blade—above all, the art of the pounce. Though it may appear to others that these Fighters take on cat-like attributes, this is strictly a matter of technique.",
+   "There's an unspoken rule that those who wish to become master duelists must be instructed in the tradition by an awakened cat. To attempt to pry knowledge of the style from a non-cat teacher is to incur the enmity of cats.",
+   {
+    "type": "entries",
+    "name": "Building the Basics",
+    "entries": [
+     "As a non-cat neko duelist, it often takes years to be taught even the most basic skills and attributes of the cat. Students spend countless hours with their masters honing their timing, strengthening their bodies, and sharpening their perception. It's commonly said that, as a bipedal disciple, one must reimagine who they are and allow the qualities of the cat to become part of their nature before ever being instructed to pick up a blade.",
+     "A cat's supernatural senses are also not beyond teaching. Master Togi Obata, a legendary neko duelist, described cats' innate sixth sense as \"a coin hidden within a riverbed.\" Some beings have a naturally shallow river, making their coin easy to find, while others have deep rushing waters, where the coin's existence is beyond comprehension. If cats have calm, shallow streams, then beings such as humans have dangerous rapids. That does not mean it is impossible to find the coin; it simply takes dedication."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Celebrity",
+    "entries": [
+     "Becoming a neko duelist is a feat worth honoring in cat culture. There's a level of mysticism that surrounds the role, and their combat prowess is seen as beyond the natural. For non-cat duelists, there is an added degree of dedication and hardship that must be endured, which warrants a certain amount of respect. As a result, a duelist, cat or not, is treated with admiration in most instances and as a celebrity in others."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "The Feline Blade",
+    "entries": [
+     "The blade of a cat is unlike any weapon crafted on Obojima, and though its form is familiar, the subtle details push the duelist's blade into a category of its own. These tools are so perfectly fitted to the cat's body that many non-cat neko duelists choose to abandon the blade type altogether for something more familiar."
+    ]
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Cat Whisperer|Fighter|XPHB|Neko Duelist|ObojimaTalesYatamon|3|ObojimaTalesYatamon"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Feline Nature|Fighter|XPHB|Neko Duelist|ObojimaTalesYatamon|3|ObojimaTalesYatamon"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Outsized Trickery|Fighter|XPHB|Neko Duelist|ObojimaTalesYatamon|3|ObojimaTalesYatamon"
+   }
+  ]
+ },
+ {
   "name": "Nemesis Sorcery",
   "source": "FoEQuickstone",
   "page": 153,
@@ -23359,6 +23915,91 @@
    }
   ],
   "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Foundry/Subclass/Paladin/Oath%20of%20Castigation%20Spells.webp"
+ },
+ {
+  "name": "Oath of Delivery",
+  "source": "ObojimaTalesYatamon",
+  "className": "Paladin",
+  "classSource": "XPHB",
+  "subclassShortName": "Delivery",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 3,
+  "entries": [
+   {
+    "type": "quote",
+    "entries": [
+     "Deliverance through delivery."
+    ]
+   },
+   "This is the code of the Courier Brigade, the beloved group of intrepid couriers and courageous knights, who, for the last several centuries, have devoted themselves to the safe delivery of the island's packages and mail. Postal Knights, as these brave individuals have become known as, are renowned for their dedication to their organization, and the people it serves. This dedication, in its truest form, comes with a blessing from the island—delivered as a package of magical gifts that only the greatest of postal knights may receive. These gifts shape the knight, often forming them into the brigade's greatest heroes and granting them the title of Paladin.",
+   {
+    "type": "entries",
+    "name": "Historic Line of Knights",
+    "entries": [
+     "The Courier's Tomes, a written history of the Courier Brigade, claims that the first of the postal knights and the four founders of the organization each embodied one of the Paladin's core tenets. These individuals would go on to inspire generations of young Obojimans and craft a movement that profoundly changed the island of Obojima for the better.",
+     "This still rings true to this day, as those who strive to be like those individuals are beloved by the people and blessed by the island."
+    ]
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Tenets of Delivery|Paladin|XPHB|Delivery|ObojimaTalesYatamon|3|ObojimaTalesYatamon"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Oath of Delivery Spells|Paladin|XPHB|Delivery|ObojimaTalesYatamon|3|ObojimaTalesYatamon"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Courier's Seal|Paladin|XPHB|Delivery|ObojimaTalesYatamon|3|ObojimaTalesYatamon"
+   }
+  ]
+ },
+ {
+  "name": "Oath of Delivery Spells",
+  "source": "ObojimaTalesYatamon",
+  "className": "Paladin",
+  "classSource": "XPHB",
+  "subclassShortName": "Delivery",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 3,
+  "header": 2,
+  "entries": [
+   "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Delivery Spells table, you thereafter always have the listed spells prepared.",
+   {
+    "type": "table",
+    "caption": "Oath of Delivery Spells",
+    "colLabels": [
+     "Paladin Level",
+     "Spells"
+    ],
+    "colStyles": [
+     "col-3 text-center",
+     "col-9"
+    ],
+    "rows": [
+     [
+      "3rd",
+      "{@spell Avian Courier|ObojimaTalesYatamon}, {@spell Correspondence|ObojimaTalesYatamon}"
+     ],
+     [
+      "5th",
+      "{@spell At Your Side|ObojimaTallGrass}, {@spell Pass without Trace|XPHB}"
+     ],
+     [
+      "9th",
+      "{@spell Haste|XPHB}, {@spell Plummet|ObojimaTallGrass}"
+     ],
+     [
+      "13th",
+      "{@spell Freedom of Movement|XPHB}, {@spell Pacify Monster|ObojimaTallGrass}"
+     ],
+     [
+      "17th",
+      "{@spell Dream|XPHB}, {@spell Scrying|XPHB}"
+     ]
+    ]
+   }
+  ]
  },
  {
   "name": "Oath of Pestilence",
@@ -25262,6 +25903,35 @@
   ]
  },
  {
+  "name": "Outsized Trickery",
+  "source": "ObojimaTalesYatamon",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Neko Duelist",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 3,
+  "header": 2,
+  "entries": [
+   "You're adept at using the weight of your foes against them. You can use the Shove option of your {@variantrule Unarmed Strike|XPHB} against any creature, regardless of its size. In addition, your shoves are more potent, imposing the following additional effect on a failed save, depending on whether you choose to push the target or cause it to have the {@condition Prone|XPHB} condition.",
+   {
+    "type": "list",
+    "style": "list-hang",
+    "items": [
+     {
+      "type": "item",
+      "name": "Push",
+      "entry": "The target is pushed an additional 5 feet away from you, and it takes Bludgeoning damage equal to half your Fighter level (round up) plus your Strength modifier."
+     },
+     {
+      "type": "item",
+      "name": "Prone",
+      "entry": "The target takes Bludgeoning damage equal to half your Fighter level (round up)."
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Overflowing Malice",
   "source": "FoEQuickstone",
   "page": 148,
@@ -25423,6 +26093,40 @@
   "entries": [
    "You've learned how to lead your allies using magical words of empowerment. As a {@variantrule Bonus Action|XPHB}, you can command a creature you can see within 30 feet of you and expend a Mercy Die. If the creature can hear you, it gains {@variantrule Temporary Hit Points|XPHB} equal to the Mercy Die roll plus your Charisma modifier (minimum of 1 {@variantrule Temporary Hit Points|XPHB|Temporary Hit Point}), and it can immediately take a {@variantrule Reaction|XPHB} to move up to half its {@variantrule Speed|XPHB} without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks} and make one attack with a weapon or an {@variantrule Unarmed Strike|XPHB}.",
    "If damage dealt by an attack made in this way would reduce a creature to 0 {@variantrule Hit Points|XPHB}, that creature is magically knocked out instead."
+  ]
+ },
+ {
+  "name": "Paragon of Deliverance",
+  "source": "ObojimaTalesYatamon",
+  "className": "Paladin",
+  "classSource": "XPHB",
+  "subclassShortName": "Delivery",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 20,
+  "header": 2,
+  "entries": [
+   "You have become the exemplary model of a postal knight, which the island has rewarded. As a {@variantrule Bonus Action|XPHB}, you can imbue your Aura of Protection with power, gaining the following benefits for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending a level 5 spell slot (no action required).",
+   {
+    "type": "list",
+    "style": "list-hang",
+    "items": [
+     {
+      "type": "item",
+      "name": "Brigadier's Mark",
+      "entry": "Your Courier's Seal feature doesn't require you to expend a use of your Channel Divinity to use it. In addition, whenever one of your allies in the aura hits a creature with a melee attack, you can place a stamp on the target (no action required), as if by your Courier's Seal feature."
+     },
+     {
+      "type": "item",
+      "name": "Captain's Sacrifice",
+      "entry": "Enemies within the aura have {@variantrule Disadvantage|XPHB} on attack rolls against your allies."
+     },
+     {
+      "type": "item",
+      "name": "Courier's Cavalry",
+      "entry": "When you use this feature, and at the start of each of your turns for the duration, you can cause each Medium or smaller creature of your choice in the aura to immediately become mounted on its own spectral steed (using the statistics of a {@creature Riding Horse|XMM} from the {@spell Phantom Steed|XPHB} spell), provided the creature is willing. If one of these steeds takes damage, and it isn't in your Aura of Protection, the rider is forced to dismount, and the steed immediately disappears."
+     }
+    ]
+   }
   ]
  },
  {
@@ -32896,6 +33600,19 @@
   ]
  },
  {
+  "name": "Swatting Flurry",
+  "source": "ObojimaTalesYatamon",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Neko Duelist",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 18,
+  "header": 2,
+  "entries": [
+   "Once on each of your turns when you hit a target with a Melee weapon as part of the {@action Attack|XPHB} action, you can unleash a flurry of swift strikes. Make up to five additional melee attack rolls, using the same weapon against the target, immediately stopping if you miss. For each of these attacks that hits, the target takes {@damage 1d10} damage of the weapon's type; these attacks can't apply any additional damage or effects that you or your weapon would normally impose."
+  ]
+ },
+ {
   "name": "Sweet Science",
   "source": "Pugilist2024",
   "className": "Pugilist",
@@ -33272,6 +33989,47 @@
     "name": "Umbral Limbs",
     "entries": [
      "When you make an {@variantrule Unarmed Strike|XPHB}, your reach is 5 feet greater than normal, you can deal an extra {@damage 2d10} Cold damage to a target you hit with an {@variantrule Unarmed Strike|XPHB}, and you can grapple a creature if it is Huge or smaller."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Tenets of Delivery",
+  "source": "ObojimaTalesYatamon",
+  "className": "Paladin",
+  "classSource": "XPHB",
+  "subclassShortName": "Delivery",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 3,
+  "header": 2,
+  "entries": [
+   "The tenets of the Oath of Delivery Paladin are followed by all postal knights. However, the Paladins who uphold these tenets must never waver, as only the most dedicated of knights are blessed with the Paladin's gifts.",
+   {
+    "type": "entries",
+    "name": "Deliverance through Delivery",
+    "entries": [
+     "Always look to serve others before yourself."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "No Call Unanswered",
+    "entries": [
+     "There is no job too far or path too dangerous to take."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Humility Before Conflict",
+    "entries": [
+     "I will not allow my hubris to bring me to conflict with others."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Leader of the Bold",
+    "entries": [
+     "I will not abandon my comrades, even if it means my life."
     ]
    }
   ]
@@ -34013,6 +34771,19 @@
   "header": 1,
   "entries": [
    "When you take the {@action Dash|XPHB} action, instead of moving, you can teleport yourself or an ally within 60 feet of you to the location of your shade."
+  ]
+ },
+ {
+  "name": "The Skin of Your Teeth",
+  "source": "ObojimaTalesYatamon",
+  "className": "Rogue",
+  "classSource": "XPHB",
+  "subclassShortName": "Fortune",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 17,
+  "header": 2,
+  "entries": [
+   "Tales of your legendary luck abound, guiding you and your allies. Roll three {@dice 3d20|d20}s for your Boon of Fortuity feature rather than two. In addition, whenever you or an ally within 60 feet of you takes 100 damage or less, you can replace the damage that creature takes with the number rolled on one of your fortuitous rolls."
   ]
  },
  {
@@ -36347,6 +37118,19 @@
   ]
  },
  {
+  "name": "Vigilant Reflexes",
+  "source": "ObojimaTalesYatamon",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Neko Duelist",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 10,
+  "header": 2,
+  "entries": [
+   "You can't be {@status Surprised|XPHB}, provided you don't have the {@condition Incapacitated|XPHB} condition. In addition, immediately after rolling {@variantrule Initiative|XPHB}, you can take a {@variantrule Reaction|XPHB} to move up to your {@variantrule Speed|XPHB} without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks}; before or after moving in this way, you can also take the {@action Hide|XPHB} action as part of the same {@variantrule Reaction|XPHB}."
+  ]
+ },
+ {
   "name": "Viking",
   "source": "NorthlandsWorldbook",
   "className": "Fighter",
@@ -36612,6 +37396,40 @@
     "name": "Unshakably Confident",
     "entries": [
      "You have {@variantrule Advantage|XPHB} on Wisdom saving throws."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Voice of the Many",
+  "source": "ObojimaTalesYatamon",
+  "className": "Warlock",
+  "classSource": "XPHB",
+  "subclassShortName": "Coven",
+  "subclassSource": "ObojimaTalesYatamon",
+  "level": 14,
+  "header": 2,
+  "entries": [
+   "Your important role within your coven has garnered you respect and a modicum of sway within the organization, allowing you to call on powerful coven members and tap into secretive powers. You gain one of the following benefits, determined by your coven. Once you use this benefit, you can't do so again until you finish a {@variantrule Long Rest|XPHB}.",
+   {
+    "type": "list",
+    "style": "list-hang",
+    "items": [
+     {
+      "type": "item",
+      "name": "Fish Head Coven & League of the Gilded Gourd",
+      "entry": "As a {@action Magic|XPHB} action, you briefly become the vessel of a powerful coven member, allowing their magic to flow through you. Choose a level 6 or lower Evocation spell from the {@filter Druid or Wizard|spells|level=!0;!7;!8;!9|class=druid;wizard|school=v} spell list that doesn't require a {@variantrule Reaction|XPHB} to cast. As part of the same action, you cast that spell without expending a spell slot or needing Material components."
+     },
+     {
+      "type": "item",
+      "name": "Cloud Cap Coven & Crowsworn",
+      "entry": "A trio of witches from your coven share their defensive attributes with you from afar. As a {@variantrule Bonus Action|XPHB}, roll three {@dice d6} and assign the numbers rolled as bonuses to your AC and two saving throw bonuses of your choice. This effect lasts for 1 minute."
+     },
+     {
+      "type": "item",
+      "name": "Patchwork Robe Coven & The Tall Hats",
+      "entry": "The same magic that binds you to your coven, can also be used to share spells. When you or a creature that you can see is targeted by a spell of level 6 or lower, you can take a {@variantrule Reaction|XPHB} to cause the spell to also target any other creature of your choice that you can see."
+     }
     ]
    }
   ]

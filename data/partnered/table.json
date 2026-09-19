@@ -3841,6 +3841,32 @@
   ]
  },
  {
+  "name": "Currency Conversion Table",
+  "source": "ObojimaTalesYatamon",
+  "colLabels": [
+   "Obojima",
+   "Player's Handbook"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
+  ],
+  "rows": [
+   [
+    "Copper Bud (CB)",
+    "Copper Piece (CP)"
+   ],
+   [
+    "Sea Petal (SP)",
+    "Silver Piece (SP)"
+   ],
+   [
+    "Gold Flower (GF)",
+    "Gold Piece (GP)"
+   ]
+  ]
+ },
+ {
   "name": "Damage to the Ship",
   "source": "NorthlandsWorldbook",
   "colLabels": [
@@ -4421,6 +4447,52 @@
    [
     "6",
     "Water Wisp—Bludgeoning—Walk, Swim"
+   ]
+  ]
+ },
+ {
+  "name": "Empty House Trinket",
+  "source": "ObojimaTalesYatamon",
+  "colLabels": [
+   "1d8",
+   "Trinket"
+  ],
+  "colStyles": [
+   "col-1 text-center",
+   "col-11 text-left"
+  ],
+  "rows": [
+   [
+    "1",
+    "A First Age radio that crackles into life if it is whelmed or powered by a spell."
+   ],
+   [
+    "2",
+    "A well-worn First Age sweatshirt with a cute pig character on it."
+   ],
+   [
+    "3",
+    "An Old trolley token from the days of the First Age."
+   ],
+   [
+    "4",
+    "A First Age cassette."
+   ],
+   [
+    "5",
+    "A First Age hockey stick."
+   ],
+   [
+    "6",
+    "A new-in-box {@item Spark Plug|ObojimaTallGrass} ingredient."
+   ],
+   [
+    "7",
+    "A First Age book.T"
+   ],
+   [
+    "8",
+    "An Old dagger, tattered bedroll, and calligraphy brush set, all from the Age Of Nakudama."
    ]
   ]
  },
@@ -5983,6 +6055,116 @@
    [
     "16",
     "{@item Wychwood|ObojimaTallGrass}"
+   ]
+  ]
+ },
+ {
+  "name": "Goods",
+  "source": "ObojimaTalesYatamon",
+  "colStyles": [
+   "col-10",
+   "col-2 text-center"
+  ],
+  "rows": [
+   [
+    {
+     "type": "cell",
+     "entry": "{@b ARCANE GOODS}",
+     "width": 2
+    },
+    ""
+   ],
+   [
+    "Common Goods (Spirit Realm)",
+    "7 GF"
+   ],
+   [
+    {
+     "type": "cell",
+     "entry": "{@b Local Ingredients}",
+     "width": 2
+    },
+    ""
+   ],
+   [
+    "Common",
+    "5 GF"
+   ],
+   [
+    "Uncommon",
+    "10 GF"
+   ],
+   [
+    {
+     "type": "cell",
+     "entry": "{@b Imported Ingredients}",
+     "width": 2
+    },
+    ""
+   ],
+   [
+    "Common",
+    "10 GF"
+   ],
+   [
+    "Uncommon",
+    "20 GF"
+   ],
+   [
+    {
+     "type": "cell",
+     "entry": "{@b FIRST AGE GOODS}",
+     "width": 2
+    },
+    ""
+   ],
+   [
+    {
+     "type": "cell",
+     "entry": "{@b First Age Clothing}",
+     "width": 2
+    },
+    ""
+   ],
+   [
+    "Authentic",
+    "50 GF"
+   ],
+   [
+    "Reproduction",
+    "7 GF"
+   ],
+   [
+    {
+     "type": "cell",
+     "entry": "{@b First Age Trinkets}",
+     "width": 2
+    },
+    ""
+   ],
+   [
+    "Common",
+    "5 SP"
+   ],
+   [
+    "Uncommon",
+    "10 GF"
+   ],
+   [
+    "Rare",
+    "150 GF"
+   ],
+   [
+    {
+     "type": "cell",
+     "entry": "{@b ENTERTAINMENT}",
+     "width": 2
+    },
+    ""
+   ],
+   [
+    "Grand Tournament Ticket",
+    "5 SP"
    ]
   ]
  },
@@ -8352,6 +8534,61 @@
      ]
     ]
    }
+  ]
+ },
+ {
+  "name": "List of Dispositions",
+  "source": "ObojimaTalesYatamon",
+  "type": "table",
+  "colLabels": [
+   "Primal",
+   "Humanoid"
+  ],
+  "colStyles": [
+   "col-6 text-center",
+   "col-6 text-center"
+  ],
+  "rows": [
+   [
+    "Any creature can have one of these Dispositions:",
+    "Only a creature with an Intelligence of 7 or higher can have one of these Dispositions:"
+   ],
+   [
+    "Desinterested",
+    "Bully"
+   ],
+   [
+    "Enraged",
+    "Cocky"
+   ],
+   [
+    "Hungry",
+    "Insatiable"
+   ],
+   [
+    "Protective",
+    "Petty"
+   ],
+   [
+    "Skittish",
+    "Proud"
+   ],
+   [
+    "Sleepy",
+    "Selfish"
+   ],
+   [
+    "Territorial",
+    "Selfless"
+   ],
+   [
+    "",
+    "Thieving"
+   ],
+   [
+    "",
+    "Vengeful"
+   ]
   ]
  },
  {
@@ -14947,6 +15184,244 @@
   ]
  },
  {
+  "name": "Services",
+  "source": "ObojimaTalesYatamon",
+  "colStyles": [
+   "col-10",
+   "col-2 text-center"
+  ],
+  "rows": [
+   [
+    {
+     "type": "cell",
+     "entry": "{@b ARCANE TELECOM SERVICES}",
+     "width": 2
+    },
+    ""
+   ],
+   [
+    "Creature Beacon",
+    "5 GF"
+   ],
+   [
+    "Directions",
+    "1 GF"
+   ],
+   [
+    "Message Delivery City (Spirit Realm)",
+    "1 GF (15 GF)"
+   ],
+   [
+    "Recommendations",
+    "3 CB"
+   ],
+   [
+    "Taxi 1 person (2 +)",
+    "1 GF (10 GF)"
+   ],
+   [
+    {
+     "type": "cell",
+     "entry": "{@b CITY SERVICES}",
+     "width": 2
+    },
+    ""
+   ],
+   [
+    {
+     "type": "cell",
+     "entry": "{@b Housing}",
+     "width": 2
+    },
+    ""
+   ],
+   [
+    "Tavern",
+    "5 SP per Night"
+   ],
+   [
+    "Hotel",
+    "1 GF per Night"
+   ],
+   [
+    {
+     "type": "cell",
+     "entry": "{@b Transportation}",
+     "width": 2
+    },
+    ""
+   ],
+   [
+    "River Boat",
+    "50 GF"
+   ],
+   [
+    "Trolley",
+    "7 GF"
+   ],
+   [
+    "Wagon",
+    "7 GF"
+   ],
+   [
+    {
+     "type": "cell",
+     "entry": "{@b WITCH SERVICES}",
+     "width": 2
+    },
+    ""
+   ],
+   [
+    "Cursing Contracts",
+    "500 GF"
+   ],
+   [
+    "Minor Curse Removal",
+    "100 GF"
+   ],
+   [
+    "Potion Brewing",
+    "Potion Cost + 50 GF"
+   ],
+   [
+    "Translation Service",
+    "3 GF"
+   ],
+   [
+    {
+     "type": "cell",
+     "entry": "{@b Spell Storing}",
+     "width": 2
+    },
+    ""
+   ],
+   [
+    "1st Level Spell",
+    "10 GF"
+   ],
+   [
+    "2nd Level Spell",
+    "20 GF"
+   ],
+   [
+    "3rd Level Spell",
+    "30 GF"
+   ],
+   [
+    {
+     "type": "cell",
+     "entry": "{@b REPAIR SERVICES}",
+     "width": 2
+    },
+    ""
+   ],
+   [
+    "Vehicle Repair",
+    "1000 GF"
+   ],
+   [
+    "First Age Object Repair",
+    "50 GF"
+   ],
+   [
+    {
+     "type": "cell",
+     "entry": "{@b COURIER BRIGADE SERVICES}",
+     "width": 2
+    },
+    ""
+   ],
+   [
+    "Notarization",
+    "5 SP"
+   ],
+   [
+    {
+     "type": "cell",
+     "entry": "{@b Letter Delivery}",
+     "width": 2
+    },
+    ""
+   ],
+   [
+    "Local",
+    "3 CB"
+   ],
+   [
+    "Distant",
+    "8 SP"
+   ],
+   [
+    {
+     "type": "cell",
+     "entry": "{@b Package Delivery}",
+     "width": 2
+    },
+    ""
+   ],
+   [
+    "Small Package",
+    "2 GF"
+   ],
+   [
+    "Midsize Package",
+    "10 GF"
+   ],
+   [
+    "Large Package",
+    "50 GF"
+   ],
+   [
+    "Huge Package",
+    "300 GF"
+   ],
+   [
+    "Wax Sealing (Iron)",
+    "10 GF"
+   ],
+   [
+    {
+     "type": "cell",
+     "entry": "{@b SPIRIT SERVICES}",
+     "width": 2
+    },
+    ""
+   ],
+   [
+    "Whelming",
+    "2 GF per Hour"
+   ],
+   [
+    "Spirit Realm Guide",
+    "10 GF per Day"
+   ],
+   [
+    {
+     "type": "cell",
+     "entry": "{@b CAT SERVICES}",
+     "width": 2
+    },
+    ""
+   ],
+   [
+    "Information Brokerage",
+    "25 GF per Question"
+   ],
+   [
+    "Pathfinding",
+    "3 GF per Day"
+   ],
+   [
+    "Pest Removal (Spirit)",
+    "5 GF"
+   ],
+   [
+    "Vacancy Inspection",
+    "2 GF"
+   ]
+  ]
+ },
+ {
   "name": "Shadow Paths",
   "source": "TLotRR",
   "page": 144,
@@ -15209,6 +15684,100 @@
   ],
   "footnotes": [
    "{@sup *}Added to the price each PC pays at the end of the preparation phase"
+  ]
+ },
+ {
+  "name": "Signature Flair",
+  "source": "ObojimaTalesYatamon",
+  "colLabels": [
+   "1d20",
+   "Signature Flair"
+  ],
+  "colStyles": [
+   "col-1 text-center",
+   "col-11 text-left"
+  ],
+  "rows": [
+   [
+    "1",
+    "A flurry of glistening snowflakes blows by in a gust of cold wind."
+   ],
+   [
+    "2",
+    "A series of colored smoke rings puffs out of the bottle."
+   ],
+   [
+    "3",
+    "A bud emerges from the bottle and blooms into a sweet-smelling lotus flower."
+   ],
+   [
+    "4",
+    "A bunch of tiny spirits leap from the bottle and run to the shadows."
+   ],
+   [
+    "5",
+    "A golden butterfly made of light flies out of the bottle."
+   ],
+   [
+    "6",
+    "A watery belch erupts from within the bottle."
+   ],
+   [
+    "7",
+    "A chant of \"{@i Chug! Chug! Chug?}\" can be heard coming from the bottle."
+   ],
+   [
+    "8",
+    "A tiny hourglass spins above the bottle before disappearing in a puff of smoke and a \"{@i Ding?}\""
+   ],
+   [
+    "9",
+    "A small ring of mushrooms sprouts around you as you open the bottle."
+   ],
+   [
+    "10",
+    "A stream of bubbles comes out of the bottle, chiming as they pop."
+   ],
+   [
+    "11",
+    "A flock of tiny, colorful birds flutter from the bottle."
+   ],
+   [
+    "12",
+    "A tiny, shimmering tornado spins above the bottle before sputtering out."
+   ],
+   [
+    "13",
+    "A soft breeze blows by, smelling of wildflowers and cherry blossoms."
+   ],
+   [
+    "14",
+    "Anyone holding the bottle is filled with static electricity which causes their hair to stand on end."
+   ],
+   [
+    "15",
+    "A jaunty tune jingles from within the bottle and then ends on a slide whistle."
+   ],
+   [
+    "16",
+    "When opened, a low, deep voice within the bottle says, \"{@i Ohhh yeahh.}\""
+   ],
+   [
+    "17",
+    "Before opening the bottle, a spirit hand appears to slap your wrist."
+   ],
+   [
+    "18",
+    "A deep, omniscient voice intones: \"{@i And in that moment... everything changed.}\""
+   ],
+   [
+    "19",
+    "When opening the bottle, a voice says, \"{@i A pleasure to be of servicer}\""
+   ],
+   [
+    "20",
+    "A soft voice hisses from the bottle, \"{@i I've missssssed you.}\""
+   ]
   ]
  },
  {
@@ -20568,6 +21137,159 @@
     "60",
     "{@item Elixir of Omnimind|ObojimaTallGrass}"
    ]
+  ]
+ },
+ {
+  "name": "Vehicles Table",
+  "source": "ObojimaTalesYatamon",
+  "colLabels": [
+   "Vehicle",
+   "Combat Speed",
+   "Travel Speed",
+   "Size Modifier",
+   "Crew",
+   "Passengers",
+   "Cargo Capacity",
+   "AC",
+   "HP",
+   "Damage Threshold",
+   "Cost"
+  ],
+  "rows": [
+   [
+    "{@vehicle The Doomspine|ObojimaTalesYatamon}",
+    "30 ft.",
+    "8 oph",
+    "4",
+    "6",
+    "25",
+    "25 tn.",
+    "16",
+    "400",
+    "15",
+    "—"
+   ],
+   [
+    "{@vehicle Flying Lantern|ObojimaTalesYatamon}",
+    "40 ft.",
+    "10 oph",
+    "3",
+    "1",
+    "5",
+    "1 tn.",
+    "14",
+    "80",
+    "10",
+    "—"
+   ],
+   [
+    "{@vehicle Pointue|ObojimaTalesYatamon}",
+    "60 ft.",
+    "15 oph",
+    "4",
+    "1",
+    "10",
+    "2 tn.",
+    "15",
+    "200",
+    "30",
+    "—"
+   ],
+   [
+    "{@vehicle Trolley|ObojimaTalesYatamon}",
+    "50 ft.",
+    "12 oph",
+    "6",
+    "2",
+    "40",
+    "7.5 tn.",
+    "14",
+    "500",
+    "15",
+    "—"
+   ],
+   [
+    "{@vehicle K-Truck|ObojimaTalesYatamon}",
+    "160 ft.",
+    "40 oph",
+    "2",
+    "1",
+    "1",
+    "1000 lb.",
+    "13",
+    "75",
+    "10",
+    "2500 GF"
+   ],
+   [
+    "{@vehicle Small Car|ObojimaTalesYatamon}",
+    "200 ft.",
+    "50 oph",
+    "2",
+    "1",
+    "3",
+    "500 lb.",
+    "13",
+    "60",
+    "10",
+    "2000 GF"
+   ],
+   [
+    "{@vehicle Motorcycle|ObojimaTalesYatamon}",
+    "300 ft.",
+    "75 oph",
+    "1",
+    "1",
+    "1",
+    "100 lb.",
+    "13",
+    "40",
+    "5",
+    "3000 GF"
+   ],
+   [
+    "{@vehicle Scooter / Vespa|ObojimaTalesYatamon}",
+    "80 ft.",
+    "20 oph",
+    "1",
+    "1",
+    "1",
+    "50 lb.",
+    "12",
+    "30",
+    "5",
+    "500 GF"
+   ],
+   [
+    "{@vehicle Bicycle|ObojimaTalesYatamon}",
+    "60 ft.",
+    "15 oph",
+    "1",
+    "1",
+    "—",
+    "20 lb.",
+    "11",
+    "10",
+    "—",
+    "50 GF"
+   ],
+   [
+    "{@vehicle Flying Broom|ObojimaTalesYatamon}",
+    "40 ft.",
+    "10 oph",
+    "1",
+    "1",
+    "—",
+    "20 lb.",
+    "11",
+    "10",
+    "—",
+    "500 GF"
+   ]
+  ],
+  "footnotes": [
+   "1 obe is = to 1 mile / 1 oph is = 1 mph",
+   "tn. = ton / 1 tn. = 2000 lb."
   ]
  },
  {
