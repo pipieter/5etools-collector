@@ -345,7 +345,7 @@ export type StartingEquipment = Record<string, EquipmentEntry[]>;
 
 export interface DangerRating {
   tier: number;
-  threat: string;
+  threat: 'nuisance' | 'setback' | 'moderate' | 'dangerous' | 'deadly';
 }
 
 export interface Special {
