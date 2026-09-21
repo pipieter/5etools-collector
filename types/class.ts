@@ -120,7 +120,7 @@ export interface SubclassBase extends Base, SRD {
   subclassFeatures?: string[];
   featProgression?: FeatureProgression[];
   optionalfeatureProgression?: FeatureProgression[];
-  spellcastingAbility?: string;
+  spellcastingAbility?: AbilityEnum;
   casterProgression?: string;
   cantripProgression?: number[];
   spellsKnownProgression?: number[];
