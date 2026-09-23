@@ -429,3 +429,6 @@ export interface Link {
   href: HRef;
   text: string;
 }
+
+export type CasterProgression = 'artificer' | 'full' | '1/2' | '1/3' | 'pact';
+export type PreparedSpellsChange = 'level'
