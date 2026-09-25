@@ -2260,8 +2260,7 @@
   "source": "VGM",
   "page": 209,
   "reprintedAs": [
-   "Abjurer Wizard|MPMM",
-   "Abjurer Archmage|AU"
+   "Abjurer Wizard|MPMM"
   ],
   "size": [
    "M"
@@ -2637,6 +2636,7 @@
    "constitution",
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -2649,9 +2649,6 @@
     "source": "VGM",
     "page": 209
    }
-  ],
-  "reprintedAs": [
-   "Abjurer Archmage|AU"
   ],
   "size": [
    "M"
@@ -3164,6 +3161,9 @@
   "conditionInflict": [
    "charmed",
    "grappled"
+  ],
+  "conditionInflictLegendary": [
+   "poisoned"
   ],
   "savingThrowForced": [
    "constitution",
@@ -3724,6 +3724,7 @@
   "savingThrowForced": [
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -5344,6 +5345,9 @@
   "miscTags": [
    "MA",
    "RCH"
+  ],
+  "conditionInflictLegendary": [
+   "poisoned"
   ],
   "conditionInflictSpell": [
    "frightened"
@@ -7625,6 +7629,9 @@
    "MA",
    "RCH"
   ],
+  "conditionInflictLegendary": [
+   "incapacitated"
+  ],
   "savingThrowForced": [
    "charisma",
    "constitution",
@@ -9758,6 +9765,9 @@
    "MA",
    "RCH"
   ],
+  "conditionInflictLegendary": [
+   "poisoned"
+  ],
   "conditionInflictSpell": [
    "charmed"
   ],
@@ -11344,6 +11354,9 @@
   "miscTags": [
    "MA",
    "RCH"
+  ],
+  "conditionInflictLegendary": [
+   "poisoned"
   ],
   "conditionInflictSpell": [
    "prone"
@@ -23108,6 +23121,9 @@
    "MA",
    "RCH"
   ],
+  "conditionInflictLegendary": [
+   "poisoned"
+  ],
   "conditionInflictSpell": [
    "frightened"
   ],
@@ -25180,6 +25196,9 @@
   "miscTags": [
    "MA",
    "RCH"
+  ],
+  "conditionInflictLegendary": [
+   "incapacitated"
   ],
   "savingThrowForced": [
    "charisma",
@@ -27768,6 +27787,9 @@
    "MA",
    "RCH"
   ],
+  "conditionInflictLegendary": [
+   "poisoned"
+  ],
   "conditionInflictSpell": [
    "charmed",
    "incapacitated"
@@ -28720,6 +28742,9 @@
   "miscTags": [
    "MA",
    "RCH"
+  ],
+  "conditionInflictLegendary": [
+   "poisoned"
   ],
   "conditionInflictSpell": [
    "prone"
@@ -35023,6 +35048,11 @@
   "miscTags": [
    "MA"
   ],
+  "conditionInflict": [
+   "blinded",
+   "grappled",
+   "restrained"
+  ],
   "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
@@ -35924,6 +35954,9 @@
   "miscTags": [
    "MA",
    "RA"
+  ],
+  "conditionInflictLegendary": [
+   "charmed"
   ],
   "conditionInflictSpell": [
    "blinded",
@@ -41952,6 +41985,12 @@
   "int": 18,
   "wis": 17,
   "cha": 18,
+  "save": {
+   "str": "+12",
+   "dex": "+9",
+   "con": "+12",
+   "wis": "+9"
+  },
   "skill": {
    "perception": "+9",
    "stealth": "+12"
@@ -42058,6 +42097,7 @@
   "savingThrowForced": [
    "constitution"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -50257,6 +50297,7 @@
   "name": "Avatar of Death",
   "source": "XDMG",
   "page": 252,
+  "srd52": true,
   "size": [
    "M"
   ],
@@ -56341,6 +56382,7 @@
    "dexterity",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -62943,6 +62985,7 @@
   "miscTags": [
    "MA"
   ],
+  "hasToken": true,
   "_versions": [
    {
     "name": "Battle Familiar (Brute)",
@@ -64918,6 +64961,7 @@
    "RCH"
   ],
   "conditionInflict": [
+   "blinded",
    "grappled",
    "prone",
    "restrained"
@@ -65482,6 +65526,9 @@
    "poisoned",
    "restrained",
    "unconscious"
+  ],
+  "conditionInflictLegendary": [
+   "prone"
   ],
   "savingThrowForced": [
    "constitution",
@@ -79917,8 +79964,10 @@
    "MA"
   ],
   "conditionInflict": [
+   "blinded",
    "frightened",
-   "grappled"
+   "grappled",
+   "restrained"
   ],
   "savingThrowForced": [
    "wisdom"
@@ -104380,8 +104429,7 @@
    "TftYP-WPM"
   ],
   "reprintedAs": [
-   "Conjurer Wizard|MPMM",
-   "Conjurer Archmage|AU"
+   "Conjurer Wizard|MPMM"
   ],
   "size": [
    "M"
@@ -104709,6 +104757,7 @@
    "constitution",
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -104721,9 +104770,6 @@
     "source": "VGM",
     "page": 212
    }
-  ],
-  "reprintedAs": [
-   "Conjurer Archmage|AU"
   ],
   "size": [
    "M"
@@ -117786,6 +117832,7 @@
   "miscTags": [
    "MA"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -121380,6 +121427,12 @@
   "miscTags": [
    "MA",
    "RCH"
+  ],
+  "conditionInflict": [
+   "charmed",
+   "frightened",
+   "incapacitated",
+   "poisoned"
   ],
   "conditionInflictSpell": [
    "invisible"
@@ -131748,6 +131801,8 @@
     ]
    }
   ],
+  "tokenCredit": "FluffyDragon101",
+  "tokenCustom": true,
   "traitTags": [
    "Siege Monster"
   ],
@@ -131767,6 +131822,7 @@
    "prone",
    "restrained"
   ],
+  "hasToken": true,
   "_versions": [
    {
     "name": "Dinosaur Spirit (Ankylosaur)",
@@ -133660,8 +133716,7 @@
   "source": "VGM",
   "page": 213,
   "reprintedAs": [
-   "Diviner Wizard|MPMM",
-   "Diviner Archmage|AU"
+   "Diviner Wizard|MPMM"
   ],
   "size": [
    "M"
@@ -133999,6 +134054,7 @@
    "constitution",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -134011,9 +134067,6 @@
     "source": "VGM",
     "page": 213
    }
-  ],
-  "reprintedAs": [
-   "Diviner Archmage|AU"
   ],
   "size": [
    "M"
@@ -143685,7 +143738,8 @@
    "WDMM"
   ],
   "reprintedAs": [
-   "Priest Acolyte|XMM"
+   "Priest Acolyte|XMM",
+   "Drow of Lolth|FRAiF"
   ],
   "size": [
    "M"
@@ -144580,7 +144634,8 @@
    "WDMM"
   ],
   "reprintedAs": [
-   "Gladiator|XMM"
+   "Gladiator|XMM",
+   "Drow Elite Warrior of Lolth|FRAiF"
   ],
   "size": [
    "M"
@@ -146497,7 +146552,8 @@
    "WDMM"
   ],
   "reprintedAs": [
-   "Bandit Deceiver|XMM"
+   "Bandit Deceiver|XMM",
+   "Drow Mage of Lolth|FRAiF"
   ],
   "size": [
    "M"
@@ -147829,7 +147885,8 @@
    "WDMM"
   ],
   "reprintedAs": [
-   "Fiend Cultist|XMM"
+   "Fiend Cultist|XMM",
+   "Drow Priestess of Lolth|FRAiF"
   ],
   "size": [
    "M"
@@ -161873,6 +161930,7 @@
   ],
   "conditionInflict": [
    "charmed",
+   "exhaustion",
    "stunned"
   ],
   "conditionInflictSpell": [
@@ -162531,6 +162589,8 @@
    "RCH"
   ],
   "conditionInflict": [
+   "blinded",
+   "deafened",
    "prone",
    "restrained"
   ],
@@ -166388,8 +166448,7 @@
    "TftYP-WPM"
   ],
   "reprintedAs": [
-   "Enchanter Wizard|MPMM",
-   "Enchanter Archmage|AU"
+   "Enchanter Wizard|MPMM"
   ],
   "size": [
    "M"
@@ -166744,6 +166803,7 @@
    "dexterity",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -166756,9 +166816,6 @@
     "source": "VGM",
     "page": 213
    }
-  ],
-  "reprintedAs": [
-   "Enchanter Archmage|AU"
   ],
   "size": [
    "M"
@@ -170501,8 +170558,7 @@
    "TftYP-WPM"
   ],
   "reprintedAs": [
-   "Evoker Wizard|MPMM",
-   "Evoker Archmage|AU"
+   "Evoker Wizard|MPMM"
   ],
   "size": [
    "M"
@@ -170842,6 +170898,7 @@
    "constitution",
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -170854,9 +170911,6 @@
     "source": "VGM",
     "page": 214
    }
-  ],
-  "reprintedAs": [
-   "Evoker Archmage|AU"
   ],
   "size": [
    "M"
@@ -187968,6 +188022,9 @@
    "MLW",
    "RCH"
   ],
+  "conditionInflict": [
+   "exhaustion"
+  ],
   "savingThrowForced": [
    "wisdom"
   ],
@@ -191230,7 +191287,7 @@
    {
     "name": "Change Shape",
     "entries": [
-     "The druid magically polymorphs into a beast form—fox, mountain goat, owl, or wolf—or back into its humanoid form. Any equipment it is wearing or carrying is absorbed or borne by the beast form (the druid's choice). It reverts to its humanoid form when it dies. The druid's statistics are the same in each form, except where noted in this stat block."
+     "The druid magically polymorphs into a beast form—{@creature fox|IDRotF}, {@creature mountain goat|IDRotF}, {@creature owl}, or {@creature wolf}—or back into its humanoid form. Any equipment it is wearing or carrying is absorbed or borne by the beast form (the druid's choice). It reverts to its humanoid form when it dies. The druid's statistics are the same in each form, except where noted in this stat block."
     ]
    }
   ],
@@ -203507,6 +203564,7 @@
   "name": "Giant Fly",
   "source": "XDMG",
   "page": 261,
+  "srd52": true,
   "size": [
    "L"
   ],
@@ -203893,7 +203951,9 @@
    "MA"
   ],
   "conditionInflict": [
+   "blinded",
    "grappled",
+   "prone",
    "restrained"
   ],
   "hasToken": true,
@@ -208380,7 +208440,10 @@
    "MA"
   ],
   "conditionInflict": [
-   "grappled"
+   "blinded",
+   "grappled",
+   "prone",
+   "restrained"
   ],
   "hasToken": true,
   "hasFluff": true,
@@ -214759,6 +214822,10 @@
   "miscTags": [
    "MA",
    "RA"
+  ],
+  "conditionInflict": [
+   "charmed",
+   "prone"
   ],
   "hasToken": true,
   "hasFluff": true,
@@ -224967,6 +225034,12 @@
    "MA",
    "RCH"
   ],
+  "conditionInflict": [
+   "charmed",
+   "frightened",
+   "incapacitated",
+   "poisoned"
+  ],
   "conditionInflictSpell": [
    "invisible"
   ],
@@ -228638,6 +228711,12 @@
    "RA",
    "RCH"
   ],
+  "conditionInflict": [
+   "charmed",
+   "frightened",
+   "incapacitated",
+   "poisoned"
+  ],
   "conditionInflictSpell": [
    "invisible"
   ],
@@ -231993,6 +232072,7 @@
   "conditionInflict": [
    "grappled"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -232102,6 +232182,7 @@
   "conditionInflict": [
    "grappled"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -232197,6 +232278,7 @@
   "conditionInflict": [
    "grappled"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -235831,6 +235913,7 @@
   ],
   "conditionInflict": [
    "grappled",
+   "prone",
    "restrained"
   ],
   "savingThrowForced": [
@@ -239190,6 +239273,10 @@
    "charmed",
    "prone"
   ],
+  "conditionInflictLegendary": [
+   "charmed",
+   "unconscious"
+  ],
   "savingThrowForced": [
    "constitution",
    "wisdom"
@@ -241034,6 +241121,9 @@
   "conditionInflict": [
    "blinded"
   ],
+  "conditionInflictLegendary": [
+   "restrained"
+  ],
   "conditionInflictSpell": [
    "invisible"
   ],
@@ -242714,14 +242804,6 @@
       "with": "Hengar",
       "flags": "i"
      }
-    ],
-    "_": [
-     {
-      "mode": "addSkills",
-      "skills": {
-       "survival": 1
-      }
-     }
     ]
    }
   },
@@ -242735,6 +242817,9 @@
    "N",
    "G"
   ],
+  "skill": {
+   "survival": "+5"
+  },
   "languages": [
    "Common"
   ],
@@ -257339,8 +257424,7 @@
    "TftYP-WPM"
   ],
   "reprintedAs": [
-   "Illusionist Wizard|MPMM",
-   "Illusionist Archmage|AU"
+   "Illusionist Wizard|MPMM"
   ],
   "size": [
    "M"
@@ -257681,6 +257765,7 @@
    "constitution",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -257693,9 +257778,6 @@
     "source": "VGM",
     "page": 214
    }
-  ],
-  "reprintedAs": [
-   "Illusionist Archmage|AU"
   ],
   "size": [
    "M"
@@ -283230,9 +283312,14 @@
    "RCH"
   ],
   "conditionInflict": [
+   "blinded",
    "grappled",
+   "poisoned",
    "prone",
    "restrained"
+  ],
+  "conditionInflictLegendary": [
+   "charmed"
   ],
   "savingThrowForced": [
    "constitution",
@@ -288086,6 +288173,10 @@
   ],
   "miscTags": [
    "MA"
+  ],
+  "conditionInflict": [
+   "charmed",
+   "poisoned"
   ],
   "conditionInflictSpell": [
    "charmed"
@@ -295239,6 +295330,8 @@
   "environment": [
    "any"
   ],
+  "tokenCredit": "scorpion0rk",
+  "tokenCustom": true,
   "traitTags": [
    "Amorphous",
    "Magic Resistance"
@@ -295256,6 +295349,7 @@
   "savingThrowForced": [
    "constitution"
   ],
+  "hasToken": true,
   "hasFluff": true
  },
  {
@@ -296025,6 +296119,7 @@
   "savingThrowForced": [
    "constitution"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -296192,6 +296287,8 @@
   "environment": [
    "any"
   ],
+  "tokenCredit": "Joe Hustak",
+  "tokenCustom": true,
   "traitTags": [
    "Amorphous",
    "Magic Resistance"
@@ -296210,6 +296307,7 @@
   "savingThrowForced": [
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true
  },
  {
@@ -322434,6 +322532,10 @@
    "MA",
    "RA"
   ],
+  "conditionInflict": [
+   "blinded",
+   "deafened"
+  ],
   "conditionInflictSpell": [
    "paralyzed"
   ],
@@ -335619,8 +335721,7 @@
    "TftYP-WPM"
   ],
   "reprintedAs": [
-   "Necromancer Wizard|MPMM",
-   "Necromancer Archmage|AU"
+   "Necromancer Wizard|MPMM"
   ],
   "size": [
    "M"
@@ -335942,6 +336043,7 @@
   "savingThrowForcedSpell": [
    "constitution"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -335957,9 +336059,6 @@
   ],
   "referenceSources": [
    "VEoR"
-  ],
-  "reprintedAs": [
-   "Necromancer Archmage|AU"
   ],
   "size": [
    "M"
@@ -360790,7 +360889,8 @@
    "MA"
   ],
   "conditionInflict": [
-   "charmed"
+   "charmed",
+   "frightened"
   ],
   "savingThrowForced": [
    "wisdom"
@@ -365767,6 +365867,10 @@
    "MA",
    "RA"
   ],
+  "conditionInflict": [
+   "charmed",
+   "poisoned"
+  ],
   "conditionInflictSpell": [
    "incapacitated",
    "invisible",
@@ -365914,6 +366018,10 @@
   "miscTags": [
    "MA",
    "RA"
+  ],
+  "conditionInflict": [
+   "charmed",
+   "poisoned"
   ],
   "conditionInflictSpell": [
    "incapacitated",
@@ -366650,6 +366758,8 @@
     ]
    }
   ],
+  "tokenCredit": "merillizaART",
+  "tokenCustom": true,
   "traitTags": [
    "Siege Monster"
   ],
@@ -366667,6 +366777,7 @@
   "conditionInflict": [
    "poisoned"
   ],
+  "hasToken": true,
   "_versions": [
    {
     "name": "Plant Spirit (Fungus)",
@@ -368234,6 +368345,9 @@
   "miscTags": [
    "MA",
    "RA"
+  ],
+  "conditionInflict": [
+   "invisible"
   ],
   "savingThrowForced": [
    "strength"
@@ -372368,7 +372482,6 @@
   "name": "Psychic Gray Ooze",
   "source": "XMM",
   "page": 151,
-  "srd52": true,
   "size": [
    "M"
   ],
@@ -373111,6 +373224,7 @@
    "RCH"
   ],
   "conditionInflict": [
+   "blinded",
    "grappled",
    "prone",
    "restrained"
@@ -378418,6 +378532,10 @@
   "miscTags": [
    "CUR",
    "MA"
+  ],
+  "conditionInflict": [
+   "frightened",
+   "incapacitated"
   ],
   "conditionInflictSpell": [
    "invisible"
@@ -384697,6 +384815,7 @@
    "THW"
   ],
   "conditionInflict": [
+   "exhaustion",
    "unconscious"
   ],
   "savingThrowForced": [
@@ -385443,6 +385562,7 @@
    "RCH"
   ],
   "conditionInflict": [
+   "blinded",
    "grappled",
    "prone",
    "restrained"
@@ -385532,6 +385652,12 @@
   "int": 20,
   "wis": 17,
   "cha": 18,
+  "save": {
+   "str": "+13",
+   "dex": "+7",
+   "con": "+10",
+   "wis": "+9"
+  },
   "passive": 19,
   "resist": [
    "cold",
@@ -385645,6 +385771,7 @@
    "constitution",
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -395864,6 +395991,9 @@
    "HPR",
    "MA"
   ],
+  "conditionInflict": [
+   "invisible"
+  ],
   "savingThrowForced": [
    "constitution"
   ],
@@ -396374,6 +396504,9 @@
    "MLW",
    "RA",
    "THW"
+  ],
+  "conditionInflict": [
+   "exhaustion"
   ],
   "savingThrowForced": [
    "dexterity"
@@ -398498,6 +398631,12 @@
   "int": 23,
   "wis": 19,
   "cha": 18,
+  "save": {
+   "dex": "+8",
+   "int": "+12",
+   "wis": "+10",
+   "cha": "+10"
+  },
   "skill": {
    "arcana": "+12",
    "perception": "+10"
@@ -398649,6 +398788,7 @@
    "dexterity",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -408719,7 +408859,9 @@
    "RCH"
   ],
   "conditionInflict": [
-   "grappled"
+   "blinded",
+   "grappled",
+   "restrained"
   ],
   "savingThrowForced": [
    "strength"
@@ -411556,7 +411698,9 @@
    "RCH"
   ],
   "conditionInflict": [
-   "grappled"
+   "deafened",
+   "grappled",
+   "stunned"
   ],
   "savingThrowForced": [
    "strength"
@@ -427472,6 +427616,7 @@
    "RA",
    "THW"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -428004,6 +428149,7 @@
    "MA"
   ],
   "conditionInflict": [
+   "exhaustion",
    "incapacitated"
   ],
   "savingThrowForced": [
@@ -428373,6 +428519,7 @@
    "MA"
   ],
   "conditionInflict": [
+   "exhaustion",
    "frightened",
    "paralyzed",
    "prone"
@@ -430733,7 +430880,9 @@
    "RCH"
   ],
   "conditionInflict": [
-   "grappled"
+   "blinded",
+   "grappled",
+   "restrained"
   ],
   "savingThrowForced": [
    "strength"
@@ -439195,6 +439344,10 @@
    "RA",
    "RCH"
   ],
+  "conditionInflict": [
+   "blinded",
+   "deafened"
+  ],
   "savingThrowForced": [
    "dexterity"
   ],
@@ -445603,6 +445756,7 @@
   ],
   "conditionInflict": [
    "blinded",
+   "exhaustion",
    "poisoned"
   ],
   "savingThrowForced": [
@@ -449862,6 +450016,12 @@
   "int": 23,
   "wis": 18,
   "cha": 19,
+  "save": {
+   "dex": "+9",
+   "con": "+10",
+   "int": "+13",
+   "wis": "+11"
+  },
   "skill": {
    "arcana": "+20",
    "insight": "+11",
@@ -450056,6 +450216,7 @@
    "dexterity",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -450528,6 +450689,7 @@
    "intelligence",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -452315,6 +452477,9 @@
    "RCH"
   ],
   "conditionInflict": [
+   "blinded",
+   "deafened",
+   "frightened",
    "grappled",
    "prone",
    "restrained"
@@ -466411,8 +466576,7 @@
    "TftYP-WPM"
   ],
   "reprintedAs": [
-   "Transmuter Wizard|MPMM",
-   "Transmuter Archmage|AU"
+   "Transmuter Wizard|MPMM"
   ],
   "size": [
    "M"
@@ -466755,6 +466919,7 @@
    "dexterity",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -466767,9 +466932,6 @@
     "source": "VGM",
     "page": 218
    }
-  ],
-  "reprintedAs": [
-   "Transmuter Archmage|AU"
   ],
   "size": [
    "M"
@@ -470151,6 +470313,9 @@
   "miscTags": [
    "MA",
    "RCH"
+  ],
+  "conditionInflict": [
+   "exhaustion"
   ],
   "hasToken": true,
   "hasFluff": true,
@@ -474308,6 +474473,9 @@
   "miscTags": [
    "MA",
    "RA"
+  ],
+  "conditionInflict": [
+   "blinded"
   ],
   "savingThrowForced": [
    "wisdom"
@@ -480087,7 +480255,11 @@
   ],
   "conditionInflict": [
    "charmed",
-   "grappled"
+   "grappled",
+   "paralyzed"
+  ],
+  "conditionInflictLegendary": [
+   "charmed"
   ],
   "conditionInflictSpell": [
    "charmed",
@@ -480492,7 +480664,8 @@
   ],
   "conditionInflict": [
    "frightened",
-   "grappled"
+   "grappled",
+   "paralyzed"
   ],
   "savingThrowForced": [
    "charisma",
@@ -480644,6 +480817,7 @@
    "MA"
   ],
   "conditionInflict": [
+   "exhaustion",
    "grappled",
    "incapacitated"
   ],
@@ -482369,7 +482543,11 @@
    "RA"
   ],
   "conditionInflict": [
+   "paralyzed",
    "poisoned"
+  ],
+  "conditionInflictLegendary": [
+   "charmed"
   ],
   "conditionInflictSpell": [
    "blinded",
@@ -486982,6 +487160,7 @@
    "strength",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -488162,6 +488341,7 @@
    "MA",
    "RA"
   ],
+  "hasToken": true,
   "_versions": [
    {
     "name": "Vestige Companion (Celestial)",
@@ -504126,6 +504306,9 @@
   "conditionInflict": [
    "charmed"
   ],
+  "conditionInflictLegendary": [
+   "deafened"
+  ],
   "savingThrowForced": [
    "charisma",
    "dexterity"
@@ -504480,6 +504663,9 @@
   "miscTags": [
    "AOE",
    "MA"
+  ],
+  "conditionInflict": [
+   "invisible"
   ],
   "savingThrowForced": [
    "constitution"
@@ -510280,6 +510466,11 @@
   "int": 21,
   "wis": 16,
   "cha": 19,
+  "save": {
+   "con": "+8",
+   "int": "+11",
+   "wis": "+9"
+  },
   "skill": {
    "arcana": "+17",
    "history": "+11",
@@ -510418,6 +510609,7 @@
    "dexterity",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },

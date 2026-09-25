@@ -142,6 +142,7 @@
   "name": "Arcane Focus",
   "source": "XPHB",
   "page": 224,
+  "srd52": true,
   "type": "SCF|XPHB",
   "scfType": "arcane",
   "rarity": "none",
@@ -1102,6 +1103,7 @@
   "name": "Druidic Focus",
   "source": "XPHB",
   "page": 225,
+  "srd52": true,
   "type": "SCF|XPHB",
   "scfType": "druid",
   "rarity": "none",
@@ -1950,6 +1952,7 @@
   "name": "Holy Symbol",
   "source": "XPHB",
   "page": 226,
+  "srd52": true,
   "referenceSources": [
    "DrDe-ACfaS"
   ],
@@ -3199,7 +3202,7 @@
   "name": "Quaal's Feather Token",
   "source": "XDMG",
   "page": 290,
-  "srd52": true,
+  "srd52": "Feather Token",
   "basicRules2024": true,
   "rarity": "varies",
   "wondrous": true,

@@ -45549,6 +45549,7 @@
  },
  {
   "caption": "XP Budget per Character",
+  "srd52": true,
   "colLabelRows": [
    [
     "",
@@ -62527,6 +62528,7 @@
  },
  {
   "caption": "Sample Fear DCs",
+  "srd52": true,
   "colLabels": [
    "Example",
    "Save DC"
@@ -102429,6 +102431,7 @@
  },
  {
   "caption": "Magic Item Categories",
+  "srd52": true,
   "colLabels": [
    "Category",
    "Examples"
@@ -102489,6 +102492,7 @@
  },
  {
   "caption": "Magic Item Crafting Time and Cost",
+  "srd52": true,
   "colLabels": [
    "Item Rarity",
    "Time*",
@@ -104966,6 +104970,7 @@
  },
  {
   "caption": "Magic Item Tools",
+  "srd52": true,
   "colLabels": [
    "Item Category",
    "Required Tool"
@@ -105114,6 +105119,7 @@
  },
  {
   "caption": "Magic Item Rarities and Values",
+  "srd52": true,
   "colLabels": [
    "Rarity",
    "Value*"
@@ -108738,7 +108744,7 @@
    ],
    [
     "8",
-    "{@b Illumination}. This shop sells lamps, lanterns, candles, and torches. Some are magical."
+    "{@b Illumination}. This shop sells lamps, lanterns, candles, and {@item Torch|PHB|torches}. Some are magical."
    ],
    [
     "9",
@@ -109452,6 +109458,7 @@
  },
  {
   "caption": "Potion Miscibility",
+  "srd52": true,
   "colLabels": [
    "1d100",
    "Result"
@@ -137383,6 +137390,7 @@
  },
  {
   "caption": "Sample Mental Stress Effects",
+  "srd52": true,
   "colLabels": [
    "Example",
    "Save DC",
@@ -140652,6 +140660,7 @@
  },
  {
   "caption": "Sentient Item's Special Purpose",
+  "srd52": true,
   "colLabels": [
    "1d10",
    "Special Purpose"
@@ -145229,7 +145238,7 @@
    ],
    [
     "{@item +2 Wand of the War Mage|XDMG}",
-    "{@item +3 Wand of the War Mage|XDMG|3 Wand of the War Mage}"
+    "{@item +3 Wand of the War Mage|XDMG}"
    ],
    [
     "{@item +1 Weapon|XDMG}",
@@ -147274,6 +147283,7 @@
  },
  {
   "caption": "Sentient Item's Alignment",
+  "srd52": true,
   "colLabels": [
    "1d100",
    "Alignment"
@@ -147334,6 +147344,7 @@
  },
  {
   "caption": "Sentient Item's Communication",
+  "srd52": true,
   "colLabels": [
    "1d10",
    "Communication"
@@ -147370,6 +147381,7 @@
  },
  {
   "caption": "Sentient Item's Senses",
+  "srd52": true,
   "colLabels": [
    "1d4",
    "Senses"
@@ -168816,6 +168828,7 @@
  },
  {
   "caption": "Wand of Wonder Effects",
+  "srd52": true,
   "colStyles": [
    "col-2 text-center",
    "col-10"
