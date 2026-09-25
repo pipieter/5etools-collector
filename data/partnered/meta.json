@@ -1,14 +1,5 @@
 [
  {
-  "source": " Steinhardt's Guide to the Eldritch Hunt Player Pack",
-  "sourceAbbreviation": "SGEHPP",
-  "sourceKey": "SGEHPP",
-  "type": "optionalFeatureTypes",
-  "value": {
-   "BS": "Blood Strike"
-  }
- },
- {
   "source": "D&D Beyond Drops",
   "sourceAbbreviation": "BndD",
   "sourceKey": "DnDBeyondDrops",
@@ -197,6 +188,15 @@
    "EssenceDice": "Essence Dice",
    "Mask": "Craft Mask",
    "WE": "Wax Enchantment"
+  }
+ },
+ {
+  "source": "Steinhardt's Guide to the Eldritch Hunt Player Pack",
+  "sourceAbbreviation": "SGEHPP",
+  "sourceKey": "SGEHPP",
+  "type": "optionalFeatureTypes",
+  "value": {
+   "BS": "Blood Strike"
   }
  },
  {

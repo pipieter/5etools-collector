@@ -1,13 +1,5 @@
 [
  {
-  "source": "SGEHPP",
-  "name": " Steinhardt's Guide to the Eldritch Hunt Player Pack",
-  "abbreviation": "SGEHPP",
-  "published": "2026-07-01",
-  "legacy": false,
-  "category": "partnered"
- },
- {
   "source": "BookOfEbonTides",
   "name": "Book of Ebon Tides",
   "abbreviation": "BoET",
@@ -188,6 +180,14 @@
   "name": "Ruins of Symbaroum: Setting Handbook",
   "abbreviation": "RoS:SH",
   "published": "2025-05-29",
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
+  "source": "SGEHPP",
+  "name": "Steinhardt's Guide to the Eldritch Hunt Player Pack",
+  "abbreviation": "SGEHPP",
+  "published": "2026-07-01",
   "legacy": false,
   "category": "partnered"
  },
