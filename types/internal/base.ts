@@ -301,7 +301,7 @@ export type UIDString =
     };
 
 export interface DurationTiming {
-  type: 'round' | 'minute' | 'mniute' | 'hour' | 'day';
+  type: 'round' | 'minute' | 'hour' | 'day';
   amount: number;
   upTo?: boolean;
 }
