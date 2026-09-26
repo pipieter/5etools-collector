@@ -4,6 +4,7 @@ import {
   AbilityNumber,
   ArmorProficiency,
   Base,
+  CasterProgression,
   ClassInternalFeature,
   ClassProficiencies,
   Consumes,
@@ -11,6 +12,7 @@ import {
   FeatureProgression,
   ID,
   LanguageProficiency,
+  PreparedSpellsChange,
   SavingThrowProficiency,
   SkillProficiency,
   SkillToolLanguageProficiency,
@@ -19,7 +21,7 @@ import {
   ToolProficiency,
   WeaponProficiency,
 } from './internal/base';
-import { Copyable, Versioned } from './internal/copy';
+import { Copyable } from './internal/copy';
 import { Entry } from './internal/entry';
 
 export type ClassResourceValue =
@@ -58,7 +60,7 @@ export interface Multiclassing {
 export interface Sidekick extends Base, SRD {
   isSidekick: true;
   classFeatures: string[];
-  casterProgression?: string;
+  casterProgression?: CasterProgression;
   cantripProgression?: number[];
   spellsKnownProgression?: number[];
   classTableGroups?: ClassTable[];
@@ -69,9 +71,9 @@ export interface ClassBase extends Base, SRD {
   hd: Die;
   proficiency: AbilityEnum[];
   spellcastingAbility?: AbilityEnum;
-  casterProgression?: string;
+  casterProgression?: CasterProgression;
   preparedSpellsProgression?: number[];
-  preparedSpellsChange?: string;
+  preparedSpellsChange?: PreparedSpellsChange;
   preparedSpells?: string;
   classSpells?: string[];
   cantripProgression?: number[];
@@ -120,12 +122,12 @@ export interface SubclassBase extends Base, SRD {
   subclassFeatures?: string[];
   featProgression?: FeatureProgression[];
   optionalfeatureProgression?: FeatureProgression[];
-  spellcastingAbility?: string;
-  casterProgression?: string;
+  spellcastingAbility?: AbilityEnum;
+  casterProgression?: CasterProgression;
   cantripProgression?: number[];
   spellsKnownProgression?: number[];
   preparedSpellsProgression?: number[];
-  preparedSpellsChange?: string;
+  preparedSpellsChange?: PreparedSpellsChange;
   subclassSpells?: (string | { className: string; classSource: string })[];
   subSubclassSpells?: Record<string, string[]>;
   subclassTableGroups?: SubclassTable[];

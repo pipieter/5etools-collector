@@ -3,7 +3,7 @@ import { Entry, SingleEntry } from './internal/entry';
 
 export interface Boon extends Base, SRD {
   entries: Entry[];
-  type: string;
+  type: 'Demonic';
   ability?: SingleEntry;
   signatureSpells?: SingleEntry;
 }

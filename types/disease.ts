@@ -3,5 +3,5 @@ import { Entry } from './internal/entry';
 
 export interface Disease extends Base, SRD {
   entries: Entry[];
-  type?: string;
+  type?: 'Magical Contagion';
 }
