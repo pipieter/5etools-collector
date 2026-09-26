@@ -431,4 +431,4 @@ export interface Link {
 }
 
 export type CasterProgression = 'artificer' | 'full' | '1/2' | '1/3' | 'pact';
-export type PreparedSpellsChange = 'level' | 'restLong'
+export type PreparedSpellsChange = 'level' | 'restLong';
