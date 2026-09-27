@@ -211,9 +211,10 @@ export interface EntrySpellcasting extends EntryBase {
   ability?: AbilityEnum;
 }
 
-export interface EntryItemSpell extends EntryBase {
+export interface EntryItemSpell {
   type: 'itemSpell';
-  entry: Entry;
+  name: string;
+  entry: string;
 }
 
 export interface EntryHr {
