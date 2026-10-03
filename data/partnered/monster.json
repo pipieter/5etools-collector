@@ -794,7 +794,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Abyssal Hyena.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Abyssal Hyena.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -840,6 +840,10 @@
   "_copy": {
    "name": "Abyssal Hyena",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Abyssal Hyena.webp"
   }
  },
  {
@@ -924,7 +928,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Abyssal Hyena.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Abyssal Hyena.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -11340,7 +11344,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Angulotl Blade.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Angulotl Blade.webp"
   },
   "foundryTokenScale": 1.2,
   "attachedItems": [
@@ -11475,7 +11479,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Angulotl Needler.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Angulotl Needler.webp"
   },
   "foundryTokenScale": 1.2,
   "attachedItems": [
@@ -11630,7 +11634,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Angulotl Seer.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Angulotl Seer.webp"
   },
   "foundryTokenScale": 1.2,
   "traitTags": [
@@ -11775,7 +11779,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Angulotl Slink.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Angulotl Slink.webp"
   },
   "foundryTokenScale": 1.2,
   "traitTags": [
@@ -11894,7 +11898,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Angulotl Tadpole.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Angulotl Tadpole.webp"
   },
   "foundryTokenScale": 1.2,
   "traitTags": [
@@ -12017,7 +12021,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Angulotl Yegg.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Angulotl Yegg.webp"
   },
   "foundryTokenScale": 1.2,
   "traitTags": [
@@ -12757,7 +12761,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Ankheg.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Ankheg.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -13276,6 +13280,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Anthracia_ Princess of Venom.webp"
+  },
   "senseTags": [
    "D"
   ],
@@ -14568,7 +14576,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Arcane Amalgam.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Arcane Amalgam.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -15629,6 +15637,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Argan Rael.webp"
+  },
   "traitTags": [
    "Magic Resistance"
   ],
@@ -16287,6 +16299,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Aronar Valkys.webp"
+  },
   "senseTags": [
    "B",
    "SD"
@@ -18358,7 +18374,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Ashyra.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Ashyra.webp"
   },
   "foundryTokenScale": 2,
   "senseTags": [
@@ -18416,6 +18432,10 @@
   "_copy": {
    "name": "Ashyra",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Ashyra.webp"
   }
  },
  {
@@ -18899,7 +18919,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Atæshia.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Atæshia.webp"
   },
   "foundryTokenScale": 2,
   "senseTags": [
@@ -19085,6 +19105,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Athmia Valkys.webp"
+  },
   "senseTags": [
    "B",
    "SD"
@@ -19294,7 +19318,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Aurumvas.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Aurumvas.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -19349,6 +19373,10 @@
   "_copy": {
    "name": "Aurumvas",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Aurumvas.webp"
   }
  },
  {
@@ -21218,7 +21246,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Baron%20Uthrak.webp"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Baron Uthrak.webp"
   },
   "attachedItems": [
    "whip|phb"
@@ -21272,6 +21300,10 @@
   "_copy": {
    "name": "Baron Uthrak",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Baron Uthrak.webp"
   }
  },
  {
@@ -21662,7 +21694,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Basilisk.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Basilisk.webp"
   },
   "foundryTokenScale": 1.2,
   "senseTags": [
@@ -21715,6 +21747,10 @@
   "_copy": {
    "name": "Basilisk",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Basilisk.webp"
   }
  },
  {
@@ -21805,7 +21841,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Basilisk.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Basilisk.webp"
   },
   "foundryTokenScale": 1.2,
   "senseTags": [
@@ -22347,7 +22383,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Bear.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Bear.webp"
   },
   "foundryTokenScale": 1.5,
   "actionTags": [
@@ -22470,7 +22506,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Bear.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Bear.webp"
   },
   "foundryTokenScale": 1.5,
   "miscTags": [
@@ -26102,7 +26138,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Bird of Prey.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Bird of Prey.webp"
   },
   "foundryTokenScale": 1.2,
   "traitTags": [
@@ -28362,7 +28398,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Blood Hawk Companion.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Blood Hawk Companion.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -28928,6 +28964,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Blood-Starved Vampire.webp"
+  },
   "senseTags": [
    "B",
    "D"
@@ -29310,7 +29350,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Bloodlord Varrox.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Bloodlord Varrox.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -29365,6 +29405,10 @@
   "_copy": {
    "name": "Bloodlord Varrox",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Bloodlord Varrox.webp"
   }
  },
  {
@@ -32170,7 +32214,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Bonestalker.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Bonestalker.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -32308,6 +32352,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Boog.webp"
+  },
   "senseTags": [
    "D"
   ],
@@ -33255,7 +33303,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Bredbeddle.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Bredbeddle.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -33305,7 +33353,7 @@
   "foundryTokenScale": 2.1,
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/FoEQuickstone/Tokens/Breggan%20Blackcrown.webp"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FoEQuickstone/Tokens/Breggan Blackcrown.webp"
   },
   "page": 190,
   "size": [
@@ -34494,7 +34542,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Bugbear Channeler.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Bugbear Channeler.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -34555,6 +34603,10 @@
   "_copy": {
    "name": "Bugbear Channeler",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Bugbear Channeler.webp"
   }
  },
  {
@@ -34801,7 +34853,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Bugbear Predator.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Bugbear Predator.webp"
   },
   "foundryTokenScale": 1.5,
   "attachedItems": [
@@ -37424,6 +37476,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Caithas.webp"
+  },
   "attachedItems": [
    "scimitar|phb"
   ],
@@ -37757,7 +37813,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Camel.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Camel.webp"
   },
   "foundryTokenScale": 1.5,
   "damageTags": [
@@ -37802,6 +37858,10 @@
   "_copy": {
    "name": "Camel",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Camel.webp"
   }
  },
  {
@@ -37916,7 +37976,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Camel.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Camel.webp"
   },
   "foundryTokenScale": 1.5,
   "damageTags": [
@@ -38435,6 +38495,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Canon Athenodorus.webp"
+  },
   "languageTags": [
    "C"
   ],
@@ -40684,6 +40748,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Ceemal.webp"
+  },
   "senseTags": [
    "D"
   ],
@@ -43540,7 +43608,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Chimera.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Chimera.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -43735,6 +43803,10 @@
   "_copy": {
    "name": "Chimera",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Chimera.webp"
   }
  },
  {
@@ -43822,7 +43894,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Chimera Companion.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Chimera Companion.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -43992,7 +44064,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Chimeron.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Chimeron.webp"
   },
   "foundryTokenScale": 2,
   "senseTags": [
@@ -44049,6 +44121,10 @@
   "_copy": {
    "name": "Chimeron",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Chimeron.webp"
   }
  },
  {
@@ -45642,7 +45718,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Clawfish.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Clawfish.webp"
   },
   "foundryTokenScale": 1.2,
   "traitTags": [
@@ -45762,7 +45838,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Clawfish Companion.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Clawfish Companion.webp"
   },
   "foundryTokenScale": 1.2,
   "traitTags": [
@@ -45903,6 +45979,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Cloak.webp"
+  },
   "attachedItems": [
    "light crossbow|phb",
    "shortsword|phb"
@@ -51065,7 +51145,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Count Rhodar von Glauer.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Count Rhodar von Glauer.webp"
   },
   "foundryTokenScale": 2,
   "senseTags": [
@@ -51140,6 +51220,10 @@
   "legendaryGroup": {
    "name": "Count Rhodar",
    "source": "WhereEvilLives"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Count Rhodar von Glauer.webp"
   }
  },
  {
@@ -51519,6 +51603,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Crawling Claw.webp"
+  },
   "senseTags": [
    "B"
   ],
@@ -51634,7 +51722,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Crawling Claw Companion.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Crawling Claw Companion.webp"
   },
   "foundryTokenScale": 1.2,
   "senseTags": [
@@ -54060,7 +54148,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Crux of Fire.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Crux of Fire.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -54208,7 +54296,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Crux of Frost.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Crux of Frost.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -54263,6 +54351,10 @@
   "_copy": {
    "name": "Crux of Frost",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Crux of Frost.webp"
   }
  },
  {
@@ -55670,7 +55762,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Dancing Lady.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Dancing Lady.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -57628,7 +57720,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Deathhawk.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Deathhawk.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -58635,7 +58727,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Decrepit Skeleton.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Decrepit Skeleton.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -59035,7 +59127,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Deep Dreamer.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Deep Dreamer.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -59090,6 +59182,10 @@
   "_copy": {
    "name": "Deep Dreamer",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Deep Dreamer.webp"
   }
  },
  {
@@ -62801,7 +62897,7 @@
   "foundryTokenScale": 1.8,
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/FoEQuickstone/Tokens/Demonglass Goblin.webp"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FoEQuickstone/Tokens/Demonglass Goblin.webp"
   },
   "page": 195,
   "size": [
@@ -63679,7 +63775,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Devil Adjudicator.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Devil Adjudicator.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -63733,6 +63829,10 @@
   "_copy": {
    "name": "Devil Adjudicator",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Devil Adjudicator.webp"
   }
  },
  {
@@ -63865,7 +63965,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Devil Jurist.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Devil Jurist.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -63915,6 +64015,10 @@
   "_copy": {
    "name": "Devil Jurist",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Devil Jurist.webp"
   }
  },
  {
@@ -64058,7 +64162,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Devil Legate.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Devil Legate.webp"
   },
   "foundryTokenScale": 2,
   "senseTags": [
@@ -64117,6 +64221,10 @@
   "_copy": {
    "name": "Devil Legate",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Devil Legate.webp"
   }
  },
  {
@@ -64233,6 +64341,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Devil Magistrate.webp"
+  },
   "senseTags": [
    "SD"
   ],
@@ -64280,6 +64392,10 @@
   "_copy": {
    "name": "Devil Magistrate",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Devil Magistrate.webp"
   }
  },
  {
@@ -64366,7 +64482,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Devil Notary.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Devil Notary.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -64410,6 +64526,10 @@
   "_copy": {
    "name": "Devil Notary",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Devil Notary.webp"
   }
  },
  {
@@ -64505,7 +64625,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Devil Retainer.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Devil Retainer.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -65314,7 +65434,7 @@
   "foundryTokenScale": 1.4,
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/FoEQuickstone/Tokens/Diorite.webp"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FoEQuickstone/Tokens/Diorite.webp"
   },
   "page": 0,
   "size": [
@@ -65719,7 +65839,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Dire Bird of Prey.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Dire Bird of Prey.webp"
   },
   "foundryTokenScale": 1.2,
   "traitTags": [
@@ -67032,7 +67152,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Dohma Raskovar.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Dohma Raskovar.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -67088,6 +67208,10 @@
   "_copy": {
    "name": "Dohma Raskovar",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Dohma Raskovar.webp"
   }
  },
  {
@@ -67096,7 +67220,7 @@
   "foundryTokenScale": 1.6,
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/FoEQuickstone/Tokens/Dolguul.webp"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FoEQuickstone/Tokens/Dolguul.webp"
   },
   "page": 197,
   "size": [
@@ -68929,7 +69053,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Dragonet.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Dragonet.webp"
   },
   "foundryTokenScale": 1.2,
   "senseTags": [
@@ -69676,7 +69800,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Shieldscale Drangolin.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Shieldscale Drangolin.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -69841,6 +69965,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Draven Malas.webp"
+  },
   "senseTags": [
    "B",
    "SD"
@@ -72497,7 +72625,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Durixaviinox.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Durixaviinox.webp"
   },
   "foundryTokenScale": 2,
   "senseTags": [
@@ -72563,6 +72691,10 @@
   "legendaryGroup": {
    "name": "Durixaviinox",
    "source": "WhereEvilLives"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Durixaviinox.webp"
   }
  },
  {
@@ -73736,7 +73868,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Earth Elemental Companion.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Earth Elemental Companion.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -79594,7 +79726,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Empyrean Stag.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Empyrean Stag.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -79646,6 +79778,10 @@
   "_copy": {
    "name": "Empyrean Stag",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Empyrean Stag.webp"
   }
  },
  {
@@ -81136,7 +81272,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Essence of Storms.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Essence of Storms.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -81192,6 +81328,10 @@
   "_copy": {
    "name": "Essence of Storms",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Essence of Storms.webp"
   }
  },
  {
@@ -81729,6 +81869,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Excess.webp"
+  },
   "traitTags": [
    "Spider Climb"
   ],
@@ -86999,7 +87143,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Fire Giant Red Fist.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Fire Giant Red Fist.webp"
   },
   "foundryTokenScale": 1.5,
   "actionTags": [
@@ -87057,6 +87201,10 @@
   "_copy": {
    "name": "Fire Giant Red Fist",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Fire Giant Red Fist.webp"
   }
  },
  {
@@ -88586,7 +88734,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Flesh Mournling.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Flesh Mournling.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -89424,7 +89572,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Flintmoth Swarm.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Flintmoth Swarm.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -90615,7 +90763,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Force of Blood.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Force of Blood.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -90676,6 +90824,10 @@
   "_copy": {
    "name": "Force of Blood",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Force of Blood.webp"
   }
  },
  {
@@ -90784,7 +90936,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Force of Earth.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Force of Earth.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -90834,6 +90986,10 @@
   "_copy": {
    "name": "Force of Earth",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Force of Earth.webp"
   }
  },
  {
@@ -90978,7 +91134,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Force of Iron.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Force of Iron.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -91033,6 +91189,10 @@
   "_copy": {
    "name": "Force of Iron",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Force of Iron.webp"
   }
  },
  {
@@ -91648,6 +91808,10 @@
   "legendaryGroup": {
    "name": "Forzaantilirys",
    "source": "WhereEvilLives"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Forzaantirilys.webp"
   }
  },
  {
@@ -91804,7 +91968,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Forzaantirilys.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Forzaantirilys.webp"
   },
   "foundryTokenScale": 2,
   "senseTags": [
@@ -92184,7 +92348,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Fossil Cryptic.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Fossil Cryptic.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -93885,7 +94049,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Frost Giant Storm Hurler.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Frost Giant Storm Hurler.webp"
   },
   "foundryTokenScale": 1.5,
   "actionTags": [
@@ -95649,7 +95813,7 @@
   "foundryTokenScale": 2.1,
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/FoEQuickstone/Tokens/Gantiikaas.webp"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FoEQuickstone/Tokens/Gantiikaas.webp"
   },
   "page": 199,
   "size": [
@@ -97808,7 +97972,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Gem Jelly.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Gem Jelly.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -97859,6 +98023,10 @@
   "_copy": {
    "name": "Gem Jelly",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Gem Jelly.webp"
   }
  },
  {
@@ -97965,7 +98133,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Gem Jelly Companion.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Gem Jelly Companion.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -99354,7 +99522,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Ghoul.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Ghoul.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -101165,6 +101333,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Giant Zombie.webp"
+  },
   "senseTags": [
    "D"
   ],
@@ -101201,6 +101373,10 @@
   "_copy": {
    "name": "Giant Zombie",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Giant Zombie.webp"
   }
  },
  {
@@ -101307,7 +101483,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Gibbering Mouther.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Gibbering Mouther.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -101359,6 +101535,10 @@
   "_copy": {
    "name": "Gibbering Mouther",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Gibbering Mouther.webp"
   }
  },
  {
@@ -101460,7 +101640,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Gibbering Mouther Companion.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Gibbering Mouther Companion.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -103552,7 +103732,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Gnoll Abyssal Summoner.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Gnoll Abyssal Summoner.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -103686,7 +103866,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Gnoll Bonesplitter.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Gnoll Bonesplitter.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -103743,6 +103923,10 @@
   "_copy": {
    "name": "Gnoll Bonesplitter",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Gnoll Bonesplitter.webp"
   }
  },
  {
@@ -104409,7 +104593,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Gnoll Marauder.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Gnoll Marauder.webp"
   },
   "foundryTokenScale": 1.5,
   "attachedItems": [
@@ -105486,6 +105670,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Goblin Assassin.webp"
+  },
   "attachedItems": [
    "dagger|phb",
    "scimitar|phb"
@@ -105522,6 +105710,10 @@
   "_copy": {
    "name": "Goblin Assassin",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Goblin Assassin.webp"
   }
  },
  {
@@ -105623,7 +105815,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Goblin%20Cursespitter.webp"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Goblin Cursespitter.webp"
   },
   "senseTags": [
    "D"
@@ -105671,6 +105863,10 @@
   "_copy": {
    "name": "Goblin Cursespitter",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Goblin Cursespitter.webp"
   }
  },
  {
@@ -106034,7 +106230,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Goblin%20Sniper.webp"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Goblin Sniper.webp"
   },
   "attachedItems": [
    "dagger|phb",
@@ -106084,6 +106280,10 @@
   "_copy": {
    "name": "Goblin Sniper",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Goblin Sniper.webp"
   }
  },
  {
@@ -106227,6 +106427,10 @@
   "_copy": {
    "name": "Goblin Spinecleaver",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Goblin Spinecleaver.webp"
   }
  },
  {
@@ -107345,7 +107549,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Goxomoc.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Goxomoc.webp"
   },
   "traitTags": [
    "Amphibious",
@@ -110722,7 +110926,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Green Hag.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Green Hag.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -111497,7 +111701,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Griffon.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Griffon.webp"
   },
   "foundryTokenScale": 1.5,
   "actionTags": [
@@ -111548,6 +111752,10 @@
   "_copy": {
    "name": "Griffon",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Griffon.webp"
   }
  },
  {
@@ -111637,7 +111845,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Griffon.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Griffon.webp"
   },
   "foundryTokenScale": 1.5,
   "damageTags": [
@@ -111979,7 +112187,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Grilp.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Grilp.webp"
   },
   "foundryTokenScale": 1.2,
   "senseTags": [
@@ -112026,6 +112234,10 @@
   "_copy": {
    "name": "Grilp",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Grilp.webp"
   }
  },
  {
@@ -114649,6 +114861,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Halorin Yandres.webp"
+  },
   "attachedItems": [
    "mace|phb"
   ],
@@ -115556,6 +115772,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Harlo Honeygrin.webp"
+  },
   "actionTags": [
    "Multiattack"
   ],
@@ -115666,7 +115886,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Harpy.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Harpy.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -116443,7 +116663,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Haunt.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Haunt.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -116501,6 +116721,10 @@
   "_copy": {
    "name": "Haunt",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Haunt.webp"
   }
  },
  {
@@ -119490,7 +119714,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Hellhound.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Hellhound.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -119549,6 +119773,10 @@
   "_copy": {
    "name": "Hellhound",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Hellhound.webp"
   }
  },
  {
@@ -119647,7 +119875,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Hellhound Companion.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Hellhound Companion.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -119757,6 +119985,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Hellhound Cur.webp"
+  },
   "senseTags": [
    "D"
   ],
@@ -121205,7 +121437,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/High Mage Vairae.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/High Mage Vairae.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -121277,6 +121509,10 @@
   "legendaryGroup": {
    "name": "High Mage Vairae",
    "source": "WhereEvilLives"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/High Mage Vairae.webp"
   }
  },
  {
@@ -121955,7 +122191,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Hill Giant Flunky.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Hill Giant Flunky.webp"
   },
   "foundryTokenScale": 1.5,
   "languageTags": [
@@ -122375,7 +122611,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Hobgoblin Death Captain.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Hobgoblin Death Captain.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -122425,6 +122661,10 @@
   "_copy": {
    "name": "Hobgoblin Death Captain",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Hobgoblin Death Captain.webp"
   }
  },
  {
@@ -122926,7 +123166,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Hobgoblin Smokebinder.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Hobgoblin Smokebinder.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -122976,6 +123216,10 @@
   "_copy": {
    "name": "Hobgoblin Smokebinder",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Hobgoblin Smokebinder.webp"
   }
  },
  {
@@ -123192,7 +123436,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Hobgoblin Trooper.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Hobgoblin Trooper.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -123242,6 +123486,10 @@
   "_copy": {
    "name": "Hobgoblin Trooper",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Hobgoblin Trooper.webp"
   }
  },
  {
@@ -123341,7 +123589,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Hobgoblin War Mage.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Hobgoblin War Mage.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -123391,6 +123639,10 @@
   "_copy": {
    "name": "Hobgoblin War Mage",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Hobgoblin War Mage.webp"
   }
  },
  {
@@ -126556,7 +126808,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Hulking Brain.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Hulking Brain.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -126618,6 +126870,10 @@
   "_copy": {
    "name": "Hulking Brain",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Hulking Brain.webp"
   }
  },
  {
@@ -126830,7 +127086,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Human Apprentice Mage.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Human Apprentice Mage.webp"
   },
   "foundryTokenScale": 1.5,
   "languageTags": [
@@ -126868,6 +127124,10 @@
   "_copy": {
    "name": "Human Apprentice Mage",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Human Apprentice Mage.webp"
   }
  },
  {
@@ -126961,7 +127221,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Human Brawler.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Human Brawler.webp"
   },
   "foundryTokenScale": 1.5,
   "actionTags": [
@@ -127014,6 +127274,10 @@
   "_copy": {
    "name": "Human Brawler",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Human Brawler.webp"
   }
  },
  {
@@ -127354,7 +127618,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Human Death Cultist.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Human Death Cultist.webp"
   },
   "foundryTokenScale": 1.5,
   "languageTags": [
@@ -127399,6 +127663,10 @@
   "_copy": {
    "name": "Human Death Cultist",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Human Death Cultist.webp"
   }
  },
  {
@@ -127609,7 +127877,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Human Knave.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Human Knave.webp"
   },
   "foundryTokenScale": 1.5,
   "attachedItems": [
@@ -127674,6 +127942,10 @@
   "_copy": {
    "name": "Human Knave",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Human Knave.webp"
   }
  },
  {
@@ -127887,7 +128159,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Human Raider.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Human Raider.webp"
   },
   "foundryTokenScale": 1.5,
   "attachedItems": [
@@ -127939,6 +128211,10 @@
   "_copy": {
    "name": "Human Raider",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Human Raider.webp"
   }
  },
  {
@@ -128174,7 +128450,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Human Storm Wizard.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Human Storm Wizard.webp"
   },
   "foundryTokenScale": 1.5,
   "languageTags": [
@@ -128228,6 +128504,10 @@
   "_copy": {
    "name": "Human Storm Wizard",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Human Storm Wizard.webp"
   }
  },
  {
@@ -128308,7 +128588,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Human Trickshot.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Human Trickshot.webp"
   },
   "foundryTokenScale": 1.5,
   "attachedItems": [
@@ -128360,6 +128640,10 @@
   "_copy": {
    "name": "Human Trickshot",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Human Trickshot.webp"
   }
  },
  {
@@ -131484,7 +131768,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Infernal Chancellor Lazivos.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Infernal Chancellor Lazivos.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -131541,6 +131825,10 @@
   "_copy": {
    "name": "Infernal Chancellor Lazivos",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Infernal Chancellor Lazivos.webp"
   }
  },
  {
@@ -134173,7 +134461,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Ithu'rath.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Ithu'rath.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -134243,6 +134531,10 @@
   "legendaryGroup": {
    "name": "Ithu'rath",
    "source": "WhereEvilLives"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Ithu'rath.webp"
   }
  },
  {
@@ -135159,6 +135451,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Jedar Pike.webp"
+  },
   "attachedItems": [
    "warhammer|phb"
   ],
@@ -137292,6 +137588,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Jutkarr Flintfingers.webp"
+  },
   "senseTags": [
    "D"
   ],
@@ -139730,7 +140030,7 @@
   "foundryTokenScale": 1.6,
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/FoEQuickstone/Tokens/King Grayfinger.webp"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FoEQuickstone/Tokens/King Grayfinger.webp"
   },
   "page": 202,
   "legendaryGroup": {
@@ -140135,7 +140435,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Kingfissure Worm.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Kingfissure Worm.webp"
   },
   "foundryTokenScale": 2,
   "traitTags": [
@@ -140192,6 +140492,10 @@
   "_copy": {
    "name": "Kingfissure Worm",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Kingfissure Worm.webp"
   }
  },
  {
@@ -140281,7 +140585,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Kingfissure Worm Companion.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Kingfissure Worm Companion.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -140699,7 +141003,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Kiona the Dread Lord.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Kiona the Dread Lord.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -140758,7 +141062,7 @@
   },
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WhereEvilLives/Kiona%20the%20Dread%20Lord-token.webp"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Kiona the Dread Lord.webp"
   },
   "foundryTokenScale": 1,
   "fluff": {
@@ -141119,6 +141423,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Kishina Darrowind.webp"
+  },
   "senseTags": [
    "D"
   ],
@@ -141259,6 +141567,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Klar.webp"
+  },
   "traitTags": [
    "Amphibious"
   ],
@@ -142291,7 +142603,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Kobold Artifex.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Kobold Artifex.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -142826,7 +143138,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Kobold Legionary.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Kobold Legionary.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -143100,7 +143412,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Kobold Signifer.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Kobold Signifer.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -143470,7 +143782,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Kobold Veles.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Kobold Veles.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -143598,7 +143910,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Kobold Venator.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Kobold Venator.webp"
   },
   "foundryTokenScale": 1.5,
   "attachedItems": [
@@ -144095,7 +144407,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Koptourok.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Koptourok.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -144155,6 +144467,10 @@
   "_copy": {
    "name": "Koptourok",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Koptourok.webp"
   }
  },
  {
@@ -145001,7 +145317,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Kraken.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Kraken.webp"
   },
   "foundryTokenScale": 2,
   "traitTags": [
@@ -145744,6 +146060,10 @@
   "_copy": {
    "name": "Lacuna",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Lacuna.webp"
   }
  },
  {
@@ -145880,6 +146200,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Lady Avalla Deseo.webp"
+  },
   "languageTags": [
    "C"
   ],
@@ -146106,7 +146430,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Lady%20Emer.webp"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Lady Emer.webp"
   },
   "attachedItems": [
    "longbow|phb"
@@ -146175,6 +146499,10 @@
   "legendaryGroup": {
    "name": "Lady Emer",
    "source": "WhereEvilLives"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Lady Emer.webp"
   }
  },
  {
@@ -146807,7 +147135,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Lamasombra.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Lamasombra.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -150588,6 +150916,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Lestheris Soldrei.webp"
+  },
   "senseTags": [
    "D"
   ],
@@ -150773,7 +151105,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Leyleech.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Leyleech.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -150888,7 +151220,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Leyleech Companion.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Leyleech Companion.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -151905,6 +152237,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Lightbender.webp"
+  },
   "traitTags": [
    "Pounce"
   ],
@@ -151949,6 +152285,10 @@
   "_copy": {
    "name": "Lightbender",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Lightbender.webp"
   }
  },
  {
@@ -152524,7 +152864,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Lightthief.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Lightthief.webp"
   },
   "foundryTokenScale": 1.2,
   "senseTags": [
@@ -152573,6 +152913,10 @@
   "_copy": {
    "name": "Lightthief",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Lightthief.webp"
   }
  },
  {
@@ -153635,7 +153979,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Little Bear.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Little Bear.webp"
   },
   "foundryTokenScale": 1.2,
   "damageTags": [
@@ -153763,6 +154107,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Little Wildcat.webp"
+  },
   "senseTags": [
    "D"
   ],
@@ -155080,6 +155428,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Lizardfolk Grunt.webp"
+  },
   "attachedItems": [
    "javelin|phb"
   ],
@@ -155190,7 +155542,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Lizardfolk Hunter.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Lizardfolk Hunter.webp"
   },
   "foundryTokenScale": 1.5,
   "languageTags": [
@@ -155332,7 +155684,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Lizardfolk Scaletooth.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Lizardfolk Scaletooth.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -155485,7 +155837,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Lizardfolk Terrorsaur.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Lizardfolk Terrorsaur.webp"
   },
   "foundryTokenScale": 1.5,
   "attachedItems": [
@@ -155680,6 +156032,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Llyvessa.webp"
+  },
   "attachedItems": [
    "longbow|phb",
    "scimitar|phb"
@@ -156025,6 +156381,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Logger.webp"
+  },
   "traitTags": [
    "Damage Absorption"
   ],
@@ -156610,6 +156970,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Lord Erasmus Deseo.webp"
+  },
   "attachedItems": [
    "greatsword|phb"
   ],
@@ -157414,7 +157778,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Lord Syuul.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Lord Syuul.webp"
   },
   "foundryTokenScale": 2,
   "senseTags": [
@@ -157479,6 +157843,10 @@
   "legendaryGroup": {
    "name": "Lord Syuul",
    "source": "WhereEvilLives"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Lord Syuul.webp"
   }
  },
  {
@@ -163698,7 +164066,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Manticore.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Manticore.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -163833,7 +164201,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Manticore Companion.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Manticore Companion.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -164588,7 +164956,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Marble Stone Giant.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Marble Stone Giant.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -165058,7 +165426,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Marvorok.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Marvorok.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -166466,7 +166834,7 @@
   },
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Medusa.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Medusa.webp"
   },
   "foundryTokenScale": 1.5,
   "attachedItems": [
@@ -166604,7 +166972,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Medusa Headstrong.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Medusa Headstrong.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -167459,7 +167827,7 @@
   "foundryTokenScale": 1.4,
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/FoEQuickstone/Tokens/Merchant of Misthaven.webp"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FoEQuickstone/Tokens/Merchant of Misthaven.webp"
   },
   "page": 206,
   "size": [
@@ -168515,7 +168883,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Mimic.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Mimic.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -168560,6 +168928,10 @@
   "_copy": {
    "name": "Mimic",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Mimic.webp"
   }
  },
  {
@@ -168672,7 +169044,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Mimic Companion.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Mimic Companion.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -168901,6 +169273,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Mimic Mimiature.webp"
+  },
   "senseTags": [
    "D"
   ],
@@ -169823,6 +170199,10 @@
   "_copy": {
    "name": "Mindkiller",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Mindkiller.webp"
   }
  },
  {
@@ -170528,7 +170908,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Minotaur.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Minotaur.webp"
   },
   "foundryTokenScale": 1.5,
   "attachedItems": [
@@ -170762,7 +171142,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Minotaur Lackey.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Minotaur Lackey.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -170874,6 +171254,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/WhereEvilLives/bestiary/tokens/Minotaur Lackey Slime Servant.webp"
+  },
   "traitTags": [
    "Amphibious"
   ],
@@ -173106,6 +173490,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Mohler.webp"
+  },
   "senseTags": [
    "B",
    "T"
@@ -173136,6 +173524,10 @@
   "_copy": {
    "name": "Mohler",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Mohler.webp"
   }
  },
  {
@@ -173223,7 +173615,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Mohler Companion.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Mohler Companion.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -175838,7 +176230,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Multivok Bodyguard.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Multivok Bodyguard.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -175999,7 +176391,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Multivok Chief.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Multivok Chief.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -176289,7 +176681,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Mummy.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Mummy.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -176870,6 +177262,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Mycete.webp"
+  },
   "traitTags": [
    "Damage Absorption"
   ],
@@ -179063,7 +179459,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Night Hag.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Night Hag.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -179136,6 +179532,10 @@
   "_copy": {
    "name": "Night Hag",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Night Hag.webp"
   }
  },
  {
@@ -183150,7 +183550,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Ogre Basher.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Ogre Basher.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -184864,7 +185264,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Orc Blacksmith.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Orc Blacksmith.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -184990,7 +185390,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Orc Blitzer.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Orc Blitzer.webp"
   },
   "foundryTokenScale": 1.5,
   "attachedItems": [
@@ -185131,6 +185531,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Orc Bloodrunner.webp"
+  },
   "attachedItems": [
    "javelin|phb"
   ],
@@ -185165,6 +185569,10 @@
   "_copy": {
    "name": "Orc Bloodrunner",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Orc Bloodrunner.webp"
   }
  },
  {
@@ -185260,7 +185668,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Orc Conduit.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Orc Conduit.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -185307,6 +185715,10 @@
   "_copy": {
    "name": "Orc Conduit",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Orc Conduit.webp"
   }
  },
  {
@@ -185474,6 +185886,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Orc Fury.webp"
+  },
   "attachedItems": [
    "javelin|phb"
   ],
@@ -185514,6 +185930,10 @@
   "_copy": {
    "name": "Orc Fury",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Orc Fury.webp"
   }
  },
  {
@@ -185602,7 +186022,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Orc Garroter.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Orc Garroter.webp"
   },
   "foundryTokenScale": 1.5,
   "attachedItems": [
@@ -185758,7 +186178,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Orc Godcaller.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Orc Godcaller.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -185802,6 +186222,10 @@
   "_copy": {
    "name": "Orc Godcaller",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Orc Godcaller.webp"
   }
  },
  {
@@ -186043,7 +186467,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Orc Rampart.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Orc Rampart.webp"
   },
   "foundryTokenScale": 1.5,
   "attachedItems": [
@@ -186095,6 +186519,10 @@
   "_copy": {
    "name": "Orc Rampart",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Orc Rampart.webp"
   }
  },
  {
@@ -186832,7 +187260,7 @@
   "foundryTokenScale": 1.4,
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/FoEQuickstone/Tokens/Orlassk.webp"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FoEQuickstone/Tokens/Orlassk.webp"
   },
   "page": 192,
   "size": [
@@ -188068,7 +188496,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Otyugh.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Otyugh.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -188205,7 +188633,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Otyugh Companion.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Otyugh Companion.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -188318,7 +188746,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Otyugh Dregsbelcher.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Otyugh Dregsbelcher.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -188510,6 +188938,10 @@
   "legendaryGroup": {
    "name": "Overmind",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Overmind.webp"
   },
   "senseTags": [
    "SD"
@@ -188778,7 +189210,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Owlbear.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Owlbear.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -188835,6 +189267,10 @@
   "_copy": {
    "name": "Owlbear",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Owlbear.webp"
   }
  },
  {
@@ -188928,7 +189364,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Owlbear Companion.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Owlbear Companion.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -192682,7 +193118,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Pitling.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Pitling.webp"
   },
   "foundryTokenScale": 1.2,
   "senseTags": [
@@ -192728,6 +193164,10 @@
   "_copy": {
    "name": "Pitling",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Pitling.webp"
   }
  },
  {
@@ -196331,6 +196771,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Prince Ellan Farra.webp"
+  },
   "senseTags": [
    "D"
   ],
@@ -196475,7 +196919,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Principle of Growth.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Principle of Growth.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -198891,6 +199335,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Qar_ Master of Jackals.webp"
+  },
   "actionTags": [
    "Multiattack"
   ],
@@ -199073,7 +199521,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Qazyldrath.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Qazyldrath.webp"
   },
   "foundryTokenScale": 2,
   "traitTags": [
@@ -199138,6 +199586,10 @@
   "_copy": {
    "name": "Qazyldrath",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Qazyldrath.webp"
   }
  },
  {
@@ -199277,7 +199729,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Queen%20Bargnot.webp"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Queen Bargnot.webp"
   },
   "attachedItems": [
    "shortbow|phb",
@@ -199329,6 +199781,10 @@
   "_copy": {
    "name": "Queen Bargnot",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Queen Bargnot.webp"
   }
  },
  {
@@ -200655,7 +201111,7 @@
   "foundryTokenScale": 2.1,
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/FoEQuickstone/Tokens/Quickstone Gargoyle.webp"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FoEQuickstone/Tokens/Quickstone Gargoyle.webp"
   },
   "page": 201,
   "size": [
@@ -201297,6 +201753,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Radlee Thugram.webp"
+  },
   "attachedItems": [
    "halberd|phb",
    "longbow|phb"
@@ -208615,7 +209075,7 @@
   "foundryTokenScale": 1.6,
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/FoEQuickstone/Tokens/Rhesh Turakbar.webp"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FoEQuickstone/Tokens/Rhesh Turakbar.webp"
   },
   "page": 214,
   "size": [
@@ -211688,7 +212148,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Rot Angel.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Rot Angel.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -211744,6 +212204,10 @@
   "_copy": {
    "name": "Rot Angel",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Rot Angel.webp"
   }
  },
  {
@@ -211970,7 +212434,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Rotbeast.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Rotbeast.webp"
   },
   "foundryTokenScale": 1.5,
   "actionTags": [
@@ -212091,7 +212555,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Rotbeast Companion.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Rotbeast Companion.webp"
   },
   "foundryTokenScale": 1.5,
   "miscTags": [
@@ -213179,7 +213643,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Ruinant.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Ruinant.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -213231,6 +213695,10 @@
   "_copy": {
    "name": "Ruinant",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Ruinant.webp"
   }
  },
  {
@@ -215025,6 +215493,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Sair.webp"
+  },
   "traitTags": [
    "Flyby"
   ],
@@ -218472,6 +218944,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Scarlet Shadow.webp"
+  },
   "attachedItems": [
    "longbow|phb"
   ],
@@ -219643,7 +220119,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Scyza.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Scyza.webp"
   },
   "foundryTokenScale": 2,
   "traitTags": [
@@ -219698,6 +220174,10 @@
   "_copy": {
    "name": "Scyza",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Scyza.webp"
   }
  },
  {
@@ -220058,7 +220538,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Sea Hag.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Sea Hag.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -220212,7 +220692,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Sea Hag Apprentice.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Sea Hag Apprentice.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -222547,7 +223027,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Servok Builder.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Servok Builder.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -222724,7 +223204,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Servok Miner.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Servok Miner.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -222902,7 +223382,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Servok War Engine.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Servok War Engine.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -223196,7 +223676,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Shade.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Shade.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -223245,6 +223725,10 @@
   "_copy": {
    "name": "Shade",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Shade.webp"
   }
  },
  {
@@ -226135,7 +226619,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Shambling Mound.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Shambling Mound.webp"
   },
   "foundryTokenScale": 2,
   "traitTags": [
@@ -226267,7 +226751,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Shambling Mound Companion.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Shambling Mound Companion.webp"
   },
   "foundryTokenScale": 2,
   "traitTags": [
@@ -227302,7 +227786,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Shieldscale Drangolin.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Shieldscale Drangolin.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -228569,7 +229053,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Shtriga%20Nonna.webp"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Shtriga Nonna.webp"
   },
   "senseTags": [
    "D"
@@ -228646,6 +229130,10 @@
   "legendaryGroup": {
    "name": "Shtriga Nonna",
    "source": "WhereEvilLives"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Shtriga Nonna.webp"
   }
  },
  {
@@ -233808,7 +234296,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Slaughter Demon.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Slaughter Demon.webp"
   },
   "foundryTokenScale": 1.5,
   "attachedItems": [
@@ -233873,6 +234361,10 @@
   "_copy": {
    "name": "Slaughter Demon",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Slaughter Demon.webp"
   }
  },
  {
@@ -241506,7 +241998,7 @@
    {
     "name": "Alien Intellect",
     "entries": [
-     "The sentient planetoid is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom ({@skill Insight|XPHB}) checks made to ascertain the sentient planetoid's intentions or sincerity have {@variantrule Disadvantage|XPHB}."
+     "The star warden is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom ({@skill Insight|XPHB}) checks made to ascertain the star warden's intentions or sincerity have {@variantrule Disadvantage|XPHB}."
     ]
    },
    {
@@ -242073,6 +242565,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Starving Harpy.webp"
+  },
   "senseTags": [
    "B"
   ],
@@ -242555,6 +243051,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FoEQuickstone/Tokens/Steel Horse.webp"
+  },
   "languageTags": [
    "CS"
   ],
@@ -242736,7 +243236,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Stirge.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Stirge.webp"
   },
   "foundryTokenScale": 1.2,
   "senseTags": [
@@ -242838,7 +243338,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Stirge Broodling.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Stirge Broodling.webp"
   },
   "foundryTokenScale": 1.2,
   "senseTags": [
@@ -242948,7 +243448,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Stirge Companion.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Stirge Companion.webp"
   },
   "foundryTokenScale": 1.2,
   "senseTags": [
@@ -243473,6 +243973,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FoEQuickstone/Tokens/Stone Speaker.webp"
+  },
   "senseTags": [
    "D"
   ],
@@ -243965,7 +244469,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Stoneback Isopod.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Stoneback Isopod.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -244103,7 +244607,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Stoneback Isopod Companion.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Stoneback Isopod Companion.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -244228,6 +244732,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FoEQuickstone/Tokens/Stoneborn Hobgoblin.webp"
+  },
   "attachedItems": [
    "longbow|phb",
    "longsword|phb"
@@ -247484,7 +247992,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Swamp Dryad.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Swamp Dryad.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -247547,6 +248055,10 @@
   "_copy": {
    "name": "Swamp Dryad",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Swamp Dryad.webp"
   }
  },
  {
@@ -248860,6 +249372,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Swarm of Insects.webp"
+  },
   "senseTags": [
    "B"
   ],
@@ -250042,7 +250558,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Swarm of Spiders.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Swarm of Spiders.webp"
   },
   "traitTags": [
    "Spider Climb",
@@ -250718,6 +251234,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Sylphise.webp"
+  },
   "senseTags": [
    "D"
   ],
@@ -258618,6 +259138,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/The Horror.webp"
+  },
   "senseTags": [
    "D"
   ],
@@ -262867,6 +263391,10 @@
   "_copy": {
    "name": "Thornblood",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Thornblood.webp"
   }
  },
  {
@@ -264116,7 +264644,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Time Raider Armiger.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Time Raider Armiger.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -264254,7 +264782,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Time Raider Freebooter.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Time Raider Freebooter.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -264421,7 +264949,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Time Raider Nemesis.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Time Raider Nemesis.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -264473,6 +265001,10 @@
   "_copy": {
    "name": "Time Raider Nemesis",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Time Raider Nemesis.webp"
   }
  },
  {
@@ -264592,7 +265124,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Time Raider Vertex.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Time Raider Vertex.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -264881,7 +265413,7 @@
   "foundryTokenScale": 2.1,
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/FoEQuickstone/Tokens/Tol Kharash the Horned King.webp"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FoEQuickstone/Tokens/Tol Kharash the Horned King.webp"
   },
   "page": 210,
   "size": [
@@ -265502,7 +266034,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Tormenauk.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Tormenauk.webp"
   },
   "foundryTokenScale": 1.2,
   "senseTags": [
@@ -265555,6 +266087,10 @@
   "_copy": {
    "name": "Tormenauk",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Tormenauk.webp"
   }
  },
  {
@@ -266806,7 +267342,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Treant.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Treant.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -267170,6 +267706,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Treyvan von Hirnschmann.webp"
+  },
   "attachedItems": [
    "maul|phb"
   ],
@@ -267637,7 +268177,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Troll.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Troll.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -267699,6 +268239,10 @@
   "_copy": {
    "name": "Troll",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Troll.webp"
   }
  },
  {
@@ -269202,7 +269746,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Tusker Demon.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Tusker Demon.webp"
   },
   "foundryTokenScale": 1.2,
   "senseTags": [
@@ -269384,6 +269928,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Tuval-Uthriar.webp"
+  },
   "attachedItems": [
    "longsword|phb"
   ],
@@ -271866,6 +272414,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Vali.webp"
+  },
   "attachedItems": [
    "shortsword|phb"
   ],
@@ -272198,7 +272750,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Valochera.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Valochera.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -272417,6 +272969,10 @@
    "name": "Vampire",
    "source": "FleeMortals"
   },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Vampire.webp"
+  },
   "traitTags": [
    "Turn Resistance"
   ],
@@ -272482,6 +273038,10 @@
   "_copy": {
    "name": "Vampire",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Vampire.webp"
   }
  },
  {
@@ -272685,6 +273245,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Vampire Spawn.webp"
+  },
   "senseTags": [
    "D"
   ],
@@ -272722,6 +273286,10 @@
   "_copy": {
    "name": "Vampire Spawn",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Vampire Spawn.webp"
   }
  },
  {
@@ -274970,6 +275538,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Victory Graves.webp"
+  },
   "actionTags": [
    "Multiattack"
   ],
@@ -276991,6 +277563,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Vivienn Dirroze.webp"
+  },
   "traitTags": [
    "Reckless"
   ],
@@ -277297,7 +277873,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Voiceless Talker.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Voiceless Talker.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -277356,6 +277932,10 @@
   "_copy": {
    "name": "Voiceless Talker",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Voiceless Talker.webp"
   }
  },
  {
@@ -277500,7 +278080,11 @@
   "savingThrowForced": [
    "intelligence",
    "wisdom"
-  ]
+  ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Voiceless Talker Artillerist.webp"
+  }
  },
  {
   "name": "Voiceless Talker Artillerist",
@@ -277519,6 +278103,10 @@
   "_copy": {
    "name": "Voiceless Talker Artillerist",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Voiceless Talker Artillerist.webp"
   }
  },
  {
@@ -277698,7 +278286,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Voiceless Talker Operative.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Voiceless Talker Operative.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -281456,7 +282044,7 @@
   "tokenCustom": true,
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/FoEQuickstone/Tokens/Wandslinger.webp"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FoEQuickstone/Tokens/Wandslinger.webp"
   },
   "page": 221,
   "size": [
@@ -281922,6 +282510,10 @@
   "_copy": {
    "name": "War Spider",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/War Spider.webp"
   }
  },
  {
@@ -281987,6 +282579,10 @@
     ]
    }
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FoEQuickstone/Tokens/Ward Sweeper.webp"
+  },
   "senseTags": [
    "D"
   ],
@@ -284214,7 +284810,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Weeping Willow.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Weeping Willow.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -285835,7 +286431,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Wight Deathguard.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Wight Deathguard.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -286153,7 +286749,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Wildcat.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Wildcat.webp"
   },
   "foundryTokenScale": 1.2,
   "senseTags": [
@@ -286279,7 +286875,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Wildcat Companion.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Wildcat Companion.webp"
   },
   "foundryTokenScale": 1.2,
   "senseTags": [
@@ -287845,7 +288441,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Wobalas.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Wobalas.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -287897,6 +288493,10 @@
   "_copy": {
    "name": "Wobalas",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Wobalas.webp"
   }
  },
  {
@@ -288405,7 +289005,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Worg Companion.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Worg Companion.webp"
   },
   "foundryTokenScale": 1.2,
   "senseTags": [
@@ -288821,7 +289421,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Wraith.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Wraith.webp"
   },
   "foundryTokenScale": 2,
   "senseTags": [
@@ -288888,6 +289488,10 @@
   "_copy": {
    "name": "Wraith",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Wraith.webp"
   }
  },
  {
@@ -289395,7 +289999,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Wyvern.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Wyvern.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -289448,6 +290052,10 @@
   "_copy": {
    "name": "Wyvern",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Wyvern.webp"
   }
  },
  {
@@ -289545,7 +290153,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Wyvern Companion.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Wyvern Companion.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
@@ -289851,7 +290459,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Xaantikorijek.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Xaantikorijek.webp"
   },
   "foundryTokenScale": 2,
   "senseTags": [
@@ -289914,6 +290522,10 @@
   "legendaryGroup": {
    "name": "Xaantikorijek",
    "source": "WhereEvilLives"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Xaantikorijek.webp"
   }
  },
  {
@@ -290969,6 +291581,10 @@
   "legendaryGroup": {
    "name": "Xorannox",
    "source": "WhereEvilLives"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Xorannox.webp"
   }
  },
  {
@@ -293852,7 +294468,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Yserthrax.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Yserthrax.webp"
   },
   "foundryTokenScale": 1.5,
   "traitTags": [
@@ -293923,6 +294539,10 @@
   "legendaryGroup": {
    "name": "Yserthrax",
    "source": "WhereEvilLives"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Yserthrax.webp"
   }
  },
  {
@@ -294001,7 +294621,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Yumgrub.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Yumgrub.webp"
   },
   "foundryTokenScale": 1.2,
   "traitTags": [
@@ -294510,7 +295130,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Zenith Aastrika.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Zenith Aastrika.webp"
   },
   "actionTags": [
    "Multiattack"
@@ -294562,6 +295182,10 @@
   "_copy": {
    "name": "Zenith Aastrika",
    "source": "FleeMortals"
+  },
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Zenith Aastrika.webp"
   }
  },
  {
@@ -295215,7 +295839,7 @@
   ],
   "tokenHref": {
    "type": "external",
-   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/FleeMortals/token/Zombie.png"
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FleeMortals/monsterToken/Zombie.webp"
   },
   "foundryTokenScale": 1.5,
   "senseTags": [
