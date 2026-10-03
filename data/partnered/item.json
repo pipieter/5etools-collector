@@ -12742,6 +12742,16 @@
   "hasFluffImages": true
  },
  {
+  "name": "Cherry Blossom Token",
+  "source": "FGoFD24",
+  "wondrous": true,
+  "rarity": "rare",
+  "entries": [
+   "Made from a pressed flower from the cherry blossom dragon, this token can bring good fortune.",
+   "While carrying this token, you have {@variantrule Advantage|XPHB} on {@skill Performance|XPHB} checks made to tell stories. Additionally, when you fail an attack roll, ability check, or saving throw, you can reroll the d20 and must use the new result. Once you have used this property, you can't use it again until next dusk."
+  ]
+ },
+ {
   "name": "Chi-Balancing Tea",
   "source": "GriffonsSaddlebag2",
   "page": 58,
@@ -13971,6 +13981,23 @@
     }
    ]
   }
+ },
+ {
+  "name": "Clematis Poison",
+  "source": "FGoFD24",
+  "type": "G|XPHB",
+  "rarity": "none",
+  "poison": true,
+  "poisonTypes": [
+   "injury"
+  ],
+  "entries": [
+   "A creature subjected to the poison must make a {@dc 16} Constitution saving throw, taking 13 ({@damage 3d8}) Poison damage on a failed save, or half as much damage on a successful one. A creature that fails its save is also {@condition Paralyzed|XPHB} for 1 hour.",
+   "This poison has no effect on creatures that are immune to the {@condition Poisoned|XPHB} condition."
+  ],
+  "miscTags": [
+   "CNS"
+  ]
  },
  {
   "name": "Cloak of Passage",
@@ -17853,6 +17880,16 @@
     "autoDestroy": false
    }
   }
+ },
+ {
+  "name": "Dandelion Hourglass",
+  "source": "FGoFD24",
+  "wondrous": true,
+  "rarity": "uncommon",
+  "reqAttune": true,
+  "entries": [
+   "Fluffy seeds from {@creature dandelion dragon|FGoFD24|dandelion dragons} drift between the two bulbs of this hourglass. While attuned to this item, you have {@variantrule Advantage|XPHB} on {@variantrule Initiative|XPHB} rolls. Additionally, when a creature you can see within 120 feet of you rolls {@variantrule Initiative|XPHB}, you can use your {@variantrule Reaction|XPHB} to force it to make a {@dc 15} Intelligence saving throw. A creature can choose to fail the save. On a failure, the target must reroll its {@variantrule Initiative|XPHB} and must use the new result. Once you have used this property, you can't use it again until the next dawn."
+  ]
  },
  {
   "name": "Dark Fathom Armor",
@@ -25327,6 +25364,15 @@
   "hasFluffImages": true
  },
  {
+  "name": "Floral Dragon Grooming Rake",
+  "source": "FGoFD24",
+  "wondrous": true,
+  "rarity": "common",
+  "entries": [
+   "The firm prongs of this rake are designed to remove dead leaves, wilted flowers, and dirt from a floral dragon. When you spend 10 minutes using this rake to groom a willing floral dragon, you have {@variantrule Advantage|XPHB} on Wisdom ({@skill Animal Handling|XPHB}) checks made to interact with the floral dragon for the next 24 hours. Additionally, the dragon makes all Dexterity and Constitution saving throws with {@variantrule Advantage|XPHB} for the next 24 hours."
+  ]
+ },
+ {
   "name": "Fluffplum Tonic",
   "source": "ObojimaTallGrass",
   "page": 241,
@@ -29134,6 +29180,24 @@
    }
   ],
   "hasFluffImages": true
+ },
+ {
+  "name": "Great Harvest Apple",
+  "source": "FGoFD24",
+  "wondrous": true,
+  "rarity": "rare",
+  "entries": [
+   "This enormous apple is produced by an apple tree dragon. The apple is large enough to provide up to ten creatures with sustenance for one day. The apple can be sliced and shared, hollowed out and used for cooking, or baked into other dishes. A creature that spends at least 10 minutes consuming part of the apple gains the following benefits:",
+   {
+    "type": "list",
+    "items": [
+     "It regains {@dice 2d8} {@variantrule Hit Points|XPHB}.",
+     "It gains {@variantrule Temporary Hit Points|XPHB} equal to the number of creatures that also consumed part of the apple during the same meal.",
+     "It gains {@variantrule Resistance|XPHB} to Acid damage for the next 24 hours."
+    ]
+   },
+   "A creature can only benefit from a great harvest apple's effects once every 24 hours."
+  ]
  },
  {
   "name": "Great Owl's Shroud",
@@ -34492,6 +34556,33 @@
     }
    ]
   }
+ },
+ {
+  "name": "Hydrangea Dragon Antidote",
+  "source": "FGoFD24",
+  "type": "P|XPHB",
+  "rarity": "rare",
+  "entries": [
+   "This viscous liquid shifts between blue and pink in its vial. It is brewed from the blooms of a living hydrangea dragon.",
+   "A creature that has been poisoned that drinks this vial of liquid is no longer {@condition Poisoned|XPHB}. It also regains {@dice 2d12} {@variantrule Hit Points|XPHB} and reduces its levels of {@condition Exhaustion|XPHB} by 3."
+  ]
+ },
+ {
+  "name": "Hydrangea Dragon Poison",
+  "source": "FGoFD24",
+  "type": "G|XPHB",
+  "rarity": "none",
+  "poison": true,
+  "poisonTypes": [
+   "contact",
+   "ingested"
+  ],
+  "entries": [
+   "This colorless poison is harvested from the blooms of a living hydrangea dragon. A creature subjected to this poison must make a {@dc 15} Constitution saving throw. On a failed save, it takes {@damage 4d12} Poison damage, gains 4 levels of {@condition Exhaustion|XPHB}, and has the {@condition Poisoned|XPHB} condition until it is treated with {@item Hydrangea Dragon Antidote|FGoFD24}. On a successful save, the creature gains 2 levels of {@condition Exhaustion|XPHB} and isn't {@condition Poisoned|XPHB}."
+  ],
+  "miscTags": [
+   "CNS"
+  ]
  },
  {
   "name": "Hypnovulfen Figure",
@@ -46825,6 +46916,24 @@
   }
  },
  {
+  "name": "Ornithogalum Dragon Elixir",
+  "source": "FGoFD24",
+  "type": "P|XPHB",
+  "rarity": "rare",
+  "entries": [
+   "This shimmering, translucent green liquid is distilled from a living ornithogalum dragon's flowers. When you drink this potion, your {@condition Exhaustion|XPHB} level is reduced by one. Additionally, you can spend {@variantrule Hit Dice|XPHB} as though you had taken a {@variantrule Short Rest|XPHB}."
+  ]
+ },
+ {
+  "name": "Ornithogalum Dragon Honey",
+  "source": "FGoFD24",
+  "type": "P|XPHB",
+  "rarity": "rare",
+  "entries": [
+   "This thick liquid tastes sweet with a hint of herbal notes. One hour after consuming this honey, you must make a {@dc 19} Constitution saving throw. On a failure, you suffer a level of {@condition Exhaustion|XPHB}."
+  ]
+ },
+ {
   "name": "Orostead Iced Tea (Common)",
   "source": "GriffonsSaddlebag2",
   "page": 133,
@@ -48387,6 +48496,24 @@
     }
    ]
   }
+ },
+ {
+  "name": "Peony Dragon Essence",
+  "source": "FGoFD24",
+  "wondrous": true,
+  "rarity": "uncommon",
+  "entries": [
+   "This fragrant essence is made from the tall peonies in a peony dragon's lair and is popular among spellcasters. Each vial of peony dragon essence contains {@dice 1d4 + 2} doses. When you cast an abjuration spell, you can add the essence to the spell as a material component to improve one casting of the spell with one of the following benefits:",
+   {
+    "type": "list",
+    "items": [
+     "For 1 minute, the spell does not require {@status Concentration|XPHB}.",
+     "You gain a +1 bonus to the spell attack roll or spell save DC of the spell.",
+     "You can choose one additional target for the spell.",
+     "The spell's duration is doubled."
+    ]
+   }
+  ]
  },
  {
   "name": "Peppermince Sugarbomb",
@@ -68281,6 +68408,15 @@
   ]
  },
  {
+  "name": "Succulent Water of Life",
+  "source": "FGoFD24",
+  "type": "P|XPHB",
+  "rarity": "rare",
+  "entries": [
+   "This thin liquid is light green but becomes dark red when shaken. When you drink this potion, you regain {@dice 1d10} {@variantrule Hit Points|XPHB}, and for 1 minute, you regain {@dice 1d10} {@variantrule Hit Points|XPHB} at the start of each of your turns, provided you have at least 1 {@variantrule Hit Points|XPHB|Hit Point}."
+  ]
+ },
+ {
   "name": "Suit of the Lamb",
   "source": "GrimHollowCG24",
   "page": 272,
@@ -78333,6 +78469,15 @@
     }
    ]
   }
+ },
+ {
+  "name": "Wisteria Dragon Perfume",
+  "source": "FGoFD24",
+  "wondrous": true,
+  "rarity": "rare",
+  "entries": [
+   "This light purple translucent perfume is sealed in a glass orb. As an action, you can throw the orb up to 60 feet away from you, shattering it on impact and releasing a powerful scent of wisteria flowers that spreads out in a 20-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on the point orb shattered. The sphere of invisible perfume spreads around corners and lasts for {@dice 1d4} rounds. Each creature that starts its turn inside the sphere or enters it on its turn must succeed on a {@dc 19} Constitution saving throw or fall {@condition Unconscious|XPHB} for 1 minute. Floral dragons, except for wisteria dragons, have {@variantrule Disadvantage|XPHB} on this saving throw. The effect ends for an affected creature if it takes any damage."
+  ]
  },
  {
   "name": "Witch's Hidden Gem",

@@ -5659,6 +5659,19 @@
   ]
  },
  {
+  "name": "Case Study",
+  "source": "FGoFD24",
+  "className": "Ranger",
+  "classSource": "XPHB",
+  "subclassShortName": "Field Researcher",
+  "subclassSource": "FGoFD24",
+  "level": 3,
+  "header": 2,
+  "entries": [
+   "Your focus in combat lets you find the perfect moment to strike again. When you hit a creature with an attack, you can use your {@variantrule Bonus Action|XPHB} to make another attack with the same weapon against that creature."
+  ]
+ },
+ {
   "name": "Castigate",
   "source": "CrookedMoon24",
   "page": 82,
@@ -6604,6 +6617,26 @@
       "{@spell Commune with Nature|XPHB}"
      ]
     ]
+   }
+  ]
+ },
+ {
+  "name": "Circle of Flowers",
+  "source": "FGoFD24",
+  "className": "Druid",
+  "classSource": "XPHB",
+  "subclassShortName": "Flowers",
+  "subclassSource": "FGoFD24",
+  "level": 3,
+  "entries": [
+   "The first druids of the Circle of Flowers were people who sought out and bonded with floral dragons. The druids learned how to imitate floral dragons' forms and unique existence as beings that blend plants and animals. Now, these druids protect the floral dragons who first inspired their circle as well as the balance of nature in both its beauty and ferocity.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Floral Form|Druid|XPHB|Flowers|FGoFD24|3|FGoFD24"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Draconic Wild Shape|Druid|XPHB|Flowers|FGoFD24|3|FGoFD24"
    }
   ]
  },
@@ -10148,6 +10181,19 @@
   ]
  },
  {
+  "name": "Cycle of Decay",
+  "source": "FGoFD24",
+  "className": "Warlock",
+  "classSource": "XPHB",
+  "subclassShortName": "Fungus",
+  "subclassSource": "FGoFD24",
+  "level": 14,
+  "header": 2,
+  "entries": [
+   "You gain vigor from decomposition. Whenever you deal Necrotic damage to a creature, you gain {@damage 2d6} {@variantrule Temporary Hit Points|XPHB}."
+  ]
+ },
+ {
   "name": "Daemonologist",
   "source": "GrimHollowPG24",
   "page": 102,
@@ -10931,6 +10977,19 @@
   "header": 1,
   "entries": [
    "Your demonshard grants you innate understanding of the languages of fiends. You can speak and understand your choice of either Abyssal or Infernal."
+  ]
+ },
+ {
+  "name": "Dendrology Defenses",
+  "source": "FGoFD24",
+  "className": "Druid",
+  "classSource": "XPHB",
+  "subclassShortName": "Flowers",
+  "subclassSource": "FGoFD24",
+  "level": 6,
+  "header": 2,
+  "entries": [
+   "As your connection with flowers deepens, you take on more plant-like traits. You can cast the {@spell Barkskin|XPHB} spell on yourself once a day without expending a spell slot. Additionally, when you cast {@spell Barkskin|XPHB} you don't need to concentrate on the spell."
   ]
  },
  {
@@ -11826,6 +11885,53 @@
   },
   "entries": [
    "As a {@action Magic|XPHB} action, you can present your {@item Holy Symbol|XPHB} and expend a use of your Channel Divinity to manifest an aura of draconic authority around yourself in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. Choose the {@condition Charmed|XPHB} or {@condition Frightened|XPHB} condition. Each creature of your choice in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} must succeed on a Wisdom saving throw or have the chosen condition for 1 minute. A creature {@condition Charmed|XPHB} or {@condition Frightened|XPHB} by this feature makes another Wisdom saving throw at the end of each of its turns, ending the condition on itself on a success."
+  ]
+ },
+ {
+  "name": "Draconic Wild Shape",
+  "source": "FGoFD24",
+  "className": "Druid",
+  "classSource": "XPHB",
+  "subclassShortName": "Flowers",
+  "subclassSource": "FGoFD24",
+  "level": 3,
+  "header": 2,
+  "entries": [
+   "Your intimacy with the floral dragons lets you take on their forms. You add the following floral dragon shapes to your beast shapes that you can use with your {@classFeature Wild Shape|Druid|XPHB|2|XPHB} feature, ignoring any restrictions based on CR, swim speed, or fly speeds.",
+   {
+    "type": "table",
+    "caption": "Draconic Wild Shape",
+    "colLabels": [
+     "Druid Level",
+     "Dragon Form"
+    ],
+    "colStyles": [
+     "col-3 text-center",
+     "col-9"
+    ],
+    "rows": [
+     [
+      "2nd",
+      "{@creature Clematis Dragon|FGoFD24}, {@creature Dandelion Dragon|FGoFD24}, {@creature Rhododendron Dragon|FGoFD24}"
+     ],
+     [
+      "4th",
+      "{@creature Azalea Dragon|FGoFD24}"
+     ],
+     [
+      "8th",
+      "{@creature Amaranth Dragon|FGoFD24}, {@creature Jade Vine Dragon|FGoFD24}"
+     ],
+     [
+      "12th",
+      "{@creature Heliconia Dragon|FGoFD24}, {@creature Water Lily Dragon|FGoFD24}"
+     ],
+     [
+      "16th",
+      "{@creature Larkspur Dragon|FGoFD24}, {@creature Peony Dragon|FGoFD24}"
+     ]
+    ]
+   }
   ]
  },
  {
@@ -14215,6 +14321,77 @@
   ]
  },
  {
+  "name": "Field Researcher",
+  "source": "FGoFD24",
+  "className": "Ranger",
+  "classSource": "XPHB",
+  "subclassShortName": "Field Researcher",
+  "subclassSource": "FGoFD24",
+  "level": 3,
+  "entries": [
+   "Field Researcher Rangers investigate and protect the natural world. These explorers seek to preserve and understand the magic of floral dragons. Their skills let them roam wherever their research requires, and their observational abilities make them formidable opponents and steadfast allies should danger arise.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Field Researcher Magic|Ranger|XPHB|Field Researcher|FGoFD24|3|FGoFD24"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Case Study|Ranger|XPHB|Field Researcher|FGoFD24|3|FGoFD24"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Research Skills|Ranger|XPHB|Field Researcher|FGoFD24|3|FGoFD24"
+   }
+  ]
+ },
+ {
+  "name": "Field Researcher Magic",
+  "source": "FGoFD24",
+  "className": "Ranger",
+  "classSource": "XPHB",
+  "subclassShortName": "Field Researcher",
+  "subclassSource": "FGoFD24",
+  "level": 3,
+  "header": 2,
+  "entries": [
+   "When you reach a Ranger level specified in the Field Researcher Spells table, you thereafter always have the listed spells prepared.",
+   {
+    "type": "table",
+    "caption": "Field Researcher Spells",
+    "colLabels": [
+     "Ranger Level",
+     "Spell"
+    ],
+    "colStyles": [
+     "col-3 text-center",
+     "col-9"
+    ],
+    "rows": [
+     [
+      "3rd",
+      "{@spell Detect Magic|XPHB}"
+     ],
+     [
+      "5th",
+      "{@spell Locate Animals or Plants|XPHB}"
+     ],
+     [
+      "9th",
+      "{@spell Plant Growth|XPHB}"
+     ],
+     [
+      "13th",
+      "{@spell Control Water|XPHB}"
+     ],
+     [
+      "17th",
+      "{@spell Awaken|XPHB}"
+     ]
+    ]
+   }
+  ]
+ },
+ {
   "name": "Field Surgeon",
   "source": "GriffonsSaddlebag2",
   "page": 224,
@@ -14609,6 +14786,92 @@
    "Starting at 1st level, you can choose whether your magic is light-shifted or dark-shifted. You can change your choice at the end of a long rest.",
    "While light-shifted you can use an action to emit an aura of bright light in a 15-foot-radius sphere centered on yourself. While the aura persists, you can use a bonus action to expand or reduce its radius of bright light by 5 feet, to a maximum of 30 feet each or a minimum of 10 feet.",
    "While dark-shifted you gain the same ability, but you project an aura of nonmagical darkness."
+  ]
+ },
+ {
+  "name": "Floral Collaboration",
+  "source": "FGoFD24",
+  "className": "Ranger",
+  "classSource": "XPHB",
+  "subclassShortName": "Field Researcher",
+  "subclassSource": "FGoFD24",
+  "level": 15,
+  "header": 2,
+  "entries": [
+   "Thanks to your extensive research, you know exactly what to call on for aid. You can cast {@spell Summon Dragon|XPHB} without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a {@variantrule Long Rest|XPHB}. When you cast this spell, you can choose to summon a {@filter floral dragon|bestiary|Challenge Rating=[&0;&5]|group=floral dragon|miscellaneous=!reprinted} or {@filter Plant|bestiary|Challenge Rating=[&0;&5]|type=plant|miscellaneous=!reprinted} of CR 5 or lower instead of a {@creature Draconic Spirit|XPHB|Dragon spirit}. When you summon a floral dragon, you can choose to make Wisdom ({@skill Animal Handling|XPHB}) checks instead of Constitution saving throws to maintain {@status Concentration|XPHB} on this spell."
+  ]
+ },
+ {
+  "name": "Floral Form",
+  "source": "FGoFD24",
+  "className": "Druid",
+  "classSource": "XPHB",
+  "subclassShortName": "Flowers",
+  "subclassSource": "FGoFD24",
+  "level": 3,
+  "header": 2,
+  "entries": [
+   "Your body begins a transformation as you take on plant-like aspects, such as flowers blooming from your head or your skin becoming bark-like. You gain different benefits depending on the type of flower you choose. Once you gain access to a floral form spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+   {
+    "type": "table",
+    "caption": "Floral Form",
+    "colLabels": [
+     "Flowers",
+     "Benefits"
+    ],
+    "colStyles": [
+     "col-4",
+     "col-8"
+    ],
+    "rows": [
+     [
+      "Aconite, clematis, larkspur",
+      "You always have the {@spell Detect Poison and Disease|XPHB} spell prepared and gain {@variantrule Resistance|XPHB} to Poison damage."
+     ],
+     [
+      "Amaranth, apple tree, jade vine, magnolia",
+      "You always have the {@spell Goodberry|XPHB} spell prepared, and whenever you use a spell of 1st level or higher to restore {@variantrule Hit Points|XPHB} to a creature, the creature regains {@damage 1d4} additional {@variantrule Hit Points|XPHB}."
+     ],
+     [
+      "Azalea, hydrangea, peony, succulent",
+      "You always have the {@spell Cure Wounds|XPHB} spell prepared, and you have {@variantrule Advantage|XPHB} on Saving Throws to resist being {@condition Poisoned|XPHB}."
+     ],
+     [
+      "Cherry blossom, dandelion, heliconia, wisteria",
+      "You always have the {@spell Sleep|XPHB} spell prepared, and magic can't put you to sleep."
+     ],
+     [
+      "Lamium, water lily",
+      "You always have the {@spell Create or Destroy Water|XPHB} spell prepared and gain a {@variantrule Swim Speed|XPHB} equal to your base walking speed."
+     ],
+     [
+      "Rhododendron, ornithogalum, manchineel, vampire lily",
+      "You always have the {@spell Bane|XPHB} spell prepared, and you can use a {@variantrule Bonus Action|XPHB} to {@action Dash|XPHB} toward a hostile creature."
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Flower Circle",
+  "source": "FGoFD24",
+  "className": "Druid",
+  "classSource": "XPHB",
+  "subclassShortName": "Flowers",
+  "subclassSource": "FGoFD24",
+  "level": 10,
+  "header": 2,
+  "entries": [
+   "Your connection with flowers lets you summon them from the earth to soothe yourself and your companions. During a {@variantrule Short Rest|XPHB|Short Rest}, you can cause an area of flowers to bloom on the ground in a 15-foot radius centered on you that lasts for 1 hour, until you are {@condition Incapacitated|XPHB}, or you leave the circle. Creatures of your choice within the area gain the following benefits:",
+   {
+    "type": "list",
+    "items": [
+     "When they regain {@variantrule Hit Points|XPHB} by spending Hit Dice or with magic, they regain additional {@variantrule Hit Points|XPHB} equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. Creatures can only benefit from this once per {@variantrule Short Rest|XPHB|Short Rest}.",
+     "They can't be surprised.",
+     "If they spend the full hour resting in the circle, they gain {@variantrule Resistance|XPHB} to Poison damage for 8 hours."
+    ]
+   },
+   "Once you have used this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
   ]
  },
  {
@@ -15254,6 +15517,61 @@
   ]
  },
  {
+  "name": "Full Bloom",
+  "source": "FGoFD24",
+  "className": "Druid",
+  "classSource": "XPHB",
+  "subclassShortName": "Flowers",
+  "subclassSource": "FGoFD24",
+  "level": 14,
+  "header": 2,
+  "entries": [
+   "Your flowery transformation begins to include draconic features as the magic of the floral dragons runs through your veins like sap. You gain new benefits based on the flower of your Floral Form.",
+   {
+    "type": "table",
+    "caption": "Full Bloom",
+    "colLabels": [
+     "Flowers",
+     "Benefits"
+    ],
+    "colStyles": [
+     "col-4",
+     "col-8"
+    ],
+    "rows": [
+     [
+      "Aconite, clematis, larkspur",
+      "Your melee weapon attacks deal an extra {@damage 1d8} Poison damage on a hit, and you gain {@variantrule Immunity|XPHB} to Poison damage."
+     ],
+     [
+      "Amaranth, apple tree, magnolia",
+      "You always have the {@spell Heroes' Feast|XPHB} spell prepared and can cast it without the need for material components once every ten days."
+     ],
+     [
+      "Azalea, hydrangea, peony, succulent",
+      "Whenever you use a spell of 1st level or higher to restore {@variantrule Hit Points|XPHB} to a creature, the creature regains additional {@variantrule Hit Points|XPHB} equal to {@damage 1d8 + 5}."
+     ],
+     [
+      "Cherry blossom, wisteria",
+      "You always have the {@spell Etherealness|XPHB} spell prepared and can cast it once a day without expending a spell slot."
+     ],
+     [
+      "Lamium, water lily",
+      "Your {@variantrule Swim Speed|XPHB} is double your base walking speed, you can breathe underwater, and you gain {@variantrule Immunity|XPHB} to Cold damage."
+     ],
+     [
+      "Rhododendron, manchineel, vampire lily",
+      "You always have the {@spell Mordenkainen's Sword|XPHB|Arcane Sword} spell prepared, which takes the form of razor-sharp swirling leaves and petals. You can cast it without the need for material components."
+     ],
+     [
+      "Dandelion, heliconia, ornithogalum, jade vine",
+      "Wings sprout from your back, and you gain a {@variantrule Fly Speed|XPHB} equal to your walking speed."
+     ]
+    ]
+   }
+  ]
+ },
+ {
   "name": "Full-Blooded",
   "source": "GrimHollowPG24",
   "page": 105,
@@ -15282,6 +15600,70 @@
     "max": "1 + @classes.wizard.levels"
    }
   }
+ },
+ {
+  "name": "Fungus",
+  "source": "FGoFD24",
+  "className": "Warlock",
+  "classSource": "XPHB",
+  "subclassShortName": "Fungus",
+  "subclassSource": "FGoFD24",
+  "level": 3,
+  "entries": [
+   "You have entered into a pact with a great Fungus, intertwining your life with it in exchange for power. The Fungus is a strange entity, neither animal nor vegetable. Tying your life to it changes you in peculiar ways as your body becomes a substrate for its mycelium.",
+   "The alien will of the fungus is difficult to comprehend, but the deeper you go down this path, the more it makes sense. Fungi may wish to grow and expand, revitalize the environment through decay, or carry out some other strange design. You may have tied yourself to a Fungus that is part of the natural cycle of life and death. Or perhaps you have given yourself over to the corrupted Pleurossa, taking on its vengeful mission to eradicate the floral dragons.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Fungus Expanded Spells|Warlock|XPHB|Fungus|FGoFD24|3|FGoFD24"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Spread the Network|Warlock|XPHB|Fungus|FGoFD24|3|FGoFD24"
+   }
+  ]
+ },
+ {
+  "name": "Fungus Expanded Spells",
+  "source": "FGoFD24",
+  "className": "Warlock",
+  "classSource": "XPHB",
+  "subclassShortName": "Fungus",
+  "subclassSource": "FGoFD24",
+  "level": 3,
+  "header": 2,
+  "entries": [
+   "The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Fungus Expanded Spells table, you thereafter always have the listed spells prepared.",
+   {
+    "type": "table",
+    "caption": "Fungus Expanded Spells",
+    "colLabels": [
+     "Warlock Level",
+     "Spells"
+    ],
+    "colStyles": [
+     "col-3 text-center",
+     "col-9"
+    ],
+    "rows": [
+     [
+      "3rd",
+      "{@spell Entangle|XPHB}, {@spell False Life|XPHB}, {@spell Calm Emotions|XPHB}, {@spell Detect Thoughts|XPHB}"
+     ],
+     [
+      "5th",
+      "{@spell Create Food and Water|XPHB}, {@spell Plant Growth|XPHB}"
+     ],
+     [
+      "7th",
+      "{@spell Evard's Black Tentacles|XPHB|Black Tentacles}, {@spell Compulsion|XPHB}"
+     ],
+     [
+      "9th",
+      "{@spell Commune with Nature|XPHB}, {@spell Contagion|XPHB}"
+     ]
+    ]
+   }
+  ]
  },
  {
   "name": "Fury of the Tides",
@@ -16997,6 +17379,20 @@
     "type": "refSubclassFeature",
     "subclassFeature": "Dread Hand|Pugilist|Pugilist2024|Hand of Dread|Pugilist2024|3"
    }
+  ]
+ },
+ {
+  "name": "Hands-on Analysis",
+  "source": "FGoFD24",
+  "className": "Ranger",
+  "classSource": "XPHB",
+  "subclassShortName": "Field Researcher",
+  "subclassSource": "FGoFD24",
+  "level": 11,
+  "header": 2,
+  "entries": [
+   "Your ability to handle wild creatures lets you deal with those that might be hostile to others. When you cast the spells {@spell Animal Friendship|XPHB}, {@spell Animal Messenger|XPHB}, {@spell Conjure Animals|XPHB}, {@spell Locate Animals or Plants|XPHB}, or {@spell Speak with Animals|XPHB}, you can target or summon Plants and Dragons as well as Beasts as long as all the other requirements of the spell are met.",
+   "Additionally, when you use a spell of 1st level or higher to restore {@variantrule Hit Points|XPHB} to a Plant or Dragon, the creature regains additional {@variantrule Hit Points|XPHB} equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}."
   ]
  },
  {
@@ -22815,6 +23211,19 @@
   "header": 1,
   "entries": [
    "Choose the {@skill Acrobatics|XPHB} or {@skill Athletics|XPHB} skill. If you lack proficiency with the chosen skill, you gain proficiency in it, and if you already have proficiency in it, you gain {@variantrule Expertise|XPHB} in it."
+  ]
+ },
+ {
+  "name": "Mushroom Scouts",
+  "source": "FGoFD24",
+  "className": "Warlock",
+  "classSource": "XPHB",
+  "subclassShortName": "Fungus",
+  "subclassSource": "FGoFD24",
+  "level": 6,
+  "header": 2,
+  "entries": [
+   "You gain the ability to sprout watchful mushrooms. As a {@action Magic|XPHB} action, you can create a mushroom on a surface you can touch. You decide the appearance and type of mushroom when you create it. As a {@action Magic|XPHB} action, you can telepathically hear everything that the mushroom hears across any distance as long as you are on the same plane of existence. This effect lasts until the mushroom is destroyed or you sever the connection (no action required). You can have a number of mushrooms equal to your Charisma modifier active at one time."
   ]
  },
  {
@@ -28867,6 +29276,33 @@
   ]
  },
  {
+  "name": "Research Skills",
+  "source": "FGoFD24",
+  "className": "Ranger",
+  "classSource": "XPHB",
+  "subclassShortName": "Field Researcher",
+  "subclassSource": "FGoFD24",
+  "level": 3,
+  "header": 2,
+  "entries": [
+   "You have honed your research abilities, making you adaptable in the field. Whenever you make an Intelligence check, you gain a bonus to the check equal to your Wisdom modifier (minimum of +1).",
+   "In addition, you gain proficiency in one of the following skills of your choice: {@skill History|XPHB}, {@skill Investigation|XPHB}, or {@skill Nature|XPHB}."
+  ]
+ },
+ {
+  "name": "Research Team",
+  "source": "FGoFD24",
+  "className": "Ranger",
+  "classSource": "XPHB",
+  "subclassShortName": "Field Researcher",
+  "subclassSource": "FGoFD24",
+  "level": 7,
+  "header": 2,
+  "entries": [
+   "You have learned that working with a group is key to successful field research. When you are adjacent to an ally, you can use your {@variantrule Reaction|XPHB} to grant your ally {@variantrule Advantage|XPHB} on one attack roll or skill check they make on their turn."
+  ]
+ },
+ {
   "name": "Resolute Stance",
   "source": "TalDoreiCampaignSettingReborn",
   "page": 166,
@@ -30116,6 +30552,19 @@
     "type": "refSubclassFeature",
     "subclassFeature": "Parting Shot [Maneuver]|Gunslinger|ValdaGunslinger|Secret Agent|ValdaGunslinger|3"
    }
+  ]
+ },
+ {
+  "name": "Seeing Unseen Threads",
+  "source": "FGoFD24",
+  "className": "Warlock",
+  "classSource": "XPHB",
+  "subclassShortName": "Fungus",
+  "subclassSource": "FGoFD24",
+  "level": 10,
+  "header": 2,
+  "entries": [
+   "Your interconnectedness with the great unseen network of the Fungus grows deeper. You gain {@variantrule Resistance|XPHB} to Necrotic damage and {@sense Blindsight|XPHB} with a range of 15 feet."
   ]
  },
  {
@@ -32726,6 +33175,19 @@
      ]
     ]
    }
+  ]
+ },
+ {
+  "name": "Spread the Network",
+  "source": "FGoFD24",
+  "className": "Warlock",
+  "classSource": "XPHB",
+  "subclassShortName": "Fungus",
+  "subclassSource": "FGoFD24",
+  "level": 3,
+  "header": 2,
+  "entries": [
+   "Your spells leave an invisible trail connecting your targets to you and each other in a fragile network. When you damage a creature with a spell, you can add the target to your network for 1 minute or until your {@status Concentration|XPHB} is broken (as if you are concentrating on a spell). When you damage a creature in your network with a spell, you can deal {@damage 1d4} Necrotic damage to all other creatures in your network as a {@variantrule Bonus Action|XPHB}. You can have a number of creatures in your network equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. When a creature dies, it is no longer part of your network. The damage you deal to creatures in your network increases to {@damage 2d4} when you reach 10th level in this class and {@damage 3d4} when you reach 17th level in this class."
   ]
  },
  {

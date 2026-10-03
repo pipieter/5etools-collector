@@ -1306,6 +1306,103 @@
   "hasFluffImages": true
  },
  {
+  "name": "Circle of Flowers",
+  "shortName": "Flowers",
+  "source": "FGoFD24",
+  "className": "Druid",
+  "classSource": "XPHB",
+  "edition": "one",
+  "additionalSpells": [
+   {
+    "name": "Aconite, clematis, larkspur",
+    "prepared": {
+     "3": [
+      "Detect Poison And Disease|XPHB"
+     ]
+    }
+   },
+   {
+    "name": "Amaranth, apple tree, jade vine, magnolia",
+    "prepared": {
+     "3": [
+      "Goodberry|XPHB"
+     ],
+     "14": [
+      "Heroes' Feast|XPHB"
+     ]
+    }
+   },
+   {
+    "name": "Azalea, hydrangea, peony, succulent",
+    "prepared": {
+     "3": [
+      "Cure Wounds|XPHB"
+     ]
+    }
+   },
+   {
+    "name": "Cherry blossom, dandelion, heliconia, wisteria",
+    "prepared": {
+     "3": [
+      "Sleep|XPHB"
+     ],
+     "14": [
+      "Heroes' Feast|XPHB"
+     ]
+    }
+   },
+   {
+    "name": "Lamium, water lily",
+    "prepared": {
+     "3": [
+      "Create Or Destroy Water|XPHB"
+     ]
+    }
+   },
+   {
+    "name": "Rhododendron, ornithogalum, manchineel, vampire lily",
+    "prepared": {
+     "3": [
+      "Bane|XPHB"
+     ],
+     "14": [
+      "Mordenkainen's Sword|XPHB"
+     ]
+    }
+   }
+  ],
+  "subSubclassSpells": {
+   "Aconite, clematis, larkspur": [
+    "Detect Poison And Disease|XPHB"
+   ],
+   "Amaranth, apple tree, jade vine, magnolia": [
+    "Goodberry|XPHB",
+    "Heroes' Feast|XPHB"
+   ],
+   "Azalea, hydrangea, peony, succulent": [
+    "Cure Wounds|XPHB"
+   ],
+   "Cherry blossom, dandelion, heliconia, wisteria": [
+    "Sleep|XPHB",
+    "Heroes' Feast|XPHB"
+   ],
+   "Lamium, water lily": [
+    "Create Or Destroy Water|XPHB"
+   ],
+   "Rhododendron, ornithogalum, manchineel, vampire lily": [
+    "Bane|XPHB",
+    "Mordenkainen's Sword|XPHB"
+   ]
+  },
+  "subclassFeatures": [
+   "Circle of Flowers|Druid|XPHB|Flowers|FGoFD24|3",
+   "Dendrology Defenses|Druid|XPHB|Flowers|FGoFD24|6",
+   "Flower Circle|Druid|XPHB|Flowers|FGoFD24|10",
+   "Full Bloom|Druid|XPHB|Flowers|FGoFD24|14"
+  ],
+  "hasFluffImages": true
+ },
+ {
   "name": "Circle of Mutation",
   "shortName": "Mutation",
   "source": "GrimHollowPG24",
@@ -3495,6 +3592,42 @@
   }
  },
  {
+  "name": "Field Researcher",
+  "shortName": "Field Researcher",
+  "source": "FGoFD24",
+  "className": "Ranger",
+  "classSource": "XPHB",
+  "edition": "one",
+  "additionalSpells": [
+   {
+    "prepared": {
+     "3": [
+      "detect magic"
+     ],
+     "5": [
+      "locate animals or plants"
+     ],
+     "9": [
+      "plant growth"
+     ],
+     "13": [
+      "control water"
+     ],
+     "17": [
+      "awaken"
+     ]
+    }
+   }
+  ],
+  "subclassFeatures": [
+   "Field Researcher|Ranger|XPHB|Field Researcher|FGoFD24|3",
+   "Research Team|Ranger|XPHB|Field Researcher|FGoFD24|7",
+   "Hands-on Analysis|Ranger|XPHB|Field Researcher|FGoFD24|11",
+   "Floral Collaboration|Ranger|XPHB|Field Researcher|FGoFD24|15"
+  ],
+  "hasFluffImages": true
+ },
+ {
   "name": "Forayer",
   "shortName": "Forayer",
   "source": "TLotRR",
@@ -3643,6 +3776,45 @@
     }
    ]
   }
+ },
+ {
+  "name": "Fungus",
+  "shortName": "Fungus",
+  "source": "FGoFD24",
+  "className": "Warlock",
+  "classSource": "XPHB",
+  "edition": "one",
+  "additionalSpells": [
+   {
+    "prepared": {
+     "3": [
+      "entangle",
+      "false life",
+      "calm emotions",
+      "detect thoughts"
+     ],
+     "5": [
+      "create food and water",
+      "plant growth"
+     ],
+     "7": [
+      "evard's black tentacles",
+      "compulsion"
+     ],
+     "9": [
+      "commune with nature",
+      "contagion"
+     ]
+    }
+   }
+  ],
+  "subclassFeatures": [
+   "Fungus|Warlock|XPHB|Fungus|FGoFD24|3",
+   "Mushroom Scouts|Warlock|XPHB|Fungus|FGoFD24|6",
+   "Seeing Unseen Threads|Warlock|XPHB|Fungus|FGoFD24|10",
+   "Cycle of Decay|Warlock|XPHB|Fungus|FGoFD24|14"
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Future You Patron",

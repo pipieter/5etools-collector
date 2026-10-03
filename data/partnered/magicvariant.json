@@ -443,6 +443,27 @@
   }
  },
  {
+  "name": "Armor of the Vampire Lily Dragon",
+  "type": "GV|XDMG",
+  "requires": [
+   {
+    "type": "HA|XPHB"
+   },
+   {
+    "type": "MA|XPHB"
+   }
+  ],
+  "inherits": {
+   "nameSuffix": " of the Vampire Lily Dragon",
+   "source": "FGoFD24",
+   "rarity": "very rare",
+   "bonusAc": "+1",
+   "entries": [
+    "This armor has been reinforced with the spines of a {@creature Vampire Lily Dragon|FGoFD24}. You have a +1 bonus to AC while wearing this armor. Additionally, a creature that {@condition grappled|XPHB|grapples} you or hits you with a melee attack while within 5 feet of you must succeed on a {@dc 15} Dexterity saving throw or take {@damage 2d6} Poison damage and become {@condition Poisoned|XPHB} until the end of its next turn."
+   ]
+  }
+ },
+ {
   "name": "Armor of the White Rose",
   "type": "GV|DMG",
   "requires": [
@@ -1504,6 +1525,31 @@
      ]
     },
     "You can make one melee attack with this magic weapon as a bonus action on each of your turns."
+   ]
+  }
+ },
+ {
+  "name": "Clematis-tainted Weapon",
+  "type": "GV|XDMG",
+  "requires": [
+   {
+    "sword": true
+   },
+   {
+    "name": "Arrow",
+    "source": "XPHB"
+   },
+   {
+    "name": "Dart",
+    "source": "XPHB"
+   }
+  ],
+  "inherits": {
+   "namePrefix": "Clematis-tainted ",
+   "source": "FGoFD24",
+   "rarity": "uncommon",
+   "entries": [
+    "This weapon is coated in the powerful toxin of a clematis dragon. When you hit with this weapon, the target must make a {@dc 16} Constitution saving throw, taking {@damage 1d8} Poison damage on a failed save or half as much damage on a successful one. A creature that fails its save is also {@condition Paralyzed|XPHB} until the end of its next turn unless it is immune to the {@condition Poisoned|XPHB} condition. Once a creature has been {@condition Paralyzed|XPHB} by this weapon, it is immune to the weapon's paralyzing effects for the next 24 hours."
    ]
   }
  },
@@ -5443,7 +5489,7 @@
      "type": "item",
      "name": "Pneumatic Strike",
      "entries": [
-      "After you make an attack roll with this weapon, but before the result of the attack is determined, you can use a bonus action to pull the blade's trigger. With a pneumatic thrust, the top of the weapon arcs forward and you gain a {@atk +4} bonus to the attack roll."
+      "After you make an attack roll with this weapon, but before the result of the attack is determined, you can use a bonus action to pull the blade's trigger. With a pneumatic thrust, the top of the weapon arcs forward and you gain a +4 bonus to the attack roll."
      ]
     },
     {
@@ -5489,7 +5535,7 @@
      "type": "item",
      "name": "Pneumatic Strike",
      "entries": [
-      "After you make an attack roll with this weapon, but before the result of the attack is determined, you can use a bonus action to pull the blade's trigger. With a pneumatic thrust, the top of the weapon arcs forward and you gain a {@atk +5} bonus to the attack roll."
+      "After you make an attack roll with this weapon, but before the result of the attack is determined, you can use a bonus action to pull the blade's trigger. With a pneumatic thrust, the top of the weapon arcs forward and you gain a +5 bonus to the attack roll."
      ]
     },
     {

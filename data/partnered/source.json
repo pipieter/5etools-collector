@@ -224,6 +224,14 @@
   "category": "partnered"
  },
  {
+  "source": "FGoFD24",
+  "name": "The Field Guide to Floral Dragons",
+  "abbreviation": "FGFD",
+  "published": "2026-08-01",
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
   "source": "24GriffonsSaddlebag1",
   "name": "The Griffon's Saddlebag, Book 1 (2024)",
   "abbreviation": "TGS1'24",

@@ -1877,6 +1877,70 @@
   ]
  },
  {
+  "name": "Floral Dragonborn",
+  "source": "FGoFD24",
+  "entries": [
+   "Blending the beauty of flowers and the ferocity of dragons, floral dragonborns take after the mysterious and majestic floral dragons. Rather than the bold metallic or chromatic scales of their dragonborn kin, their coloring evokes the delicate or vibrant shades of flowers, and they share as many traits with plants as they do with dragons.",
+   {
+    "type": "entries",
+    "name": "Wild Seeds",
+    "entries": [
+     "The first floral dragonborn emerged long ago as infants born to dragonborn parents. From the moment of their birth, it is clear that floral dragonborns are different from their dragonborn kin. As they grow to adulthood, their plantlike nature becomes more obvious—buds, blossoms, and leaves begin to sprout, mimicking the flowery frills and manes of floral dragons. They come to resemble the floral dragon they take after far more than their own parents.",
+     "What causes a floral dragonborn to be born is hotly debated. Some believe that parents spending a lot of time around a floral dragon is enough to infuse an unborn child with a floral essence. Others think that eating certain plants or vespon honey can influence their birth. The existence of floral dragonborn who take after elusive or antisocial floral dragons indicates that whatever the cause, proximity is not always necessary. Today, enough generations have passed since they first began to appear that many floral dragonborn are also born to floral dragonborn parents. Depending on their dragonborn clan and the type of flower the infant takes after, the arrival of a floral dragonborn child may be celebrated as a sign of good fortune or a sign or an omen of disaster."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Call of Nature",
+    "entries": [
+     "Floral dragonborns are shaped by the cultures they grow up within. However, they also experience a deep sense of belonging and interconnectedness to natural environments. As living bridges between the three worlds of plants, dragons, and humanoids, many floral dragonborns feel a responsibility to maintain the balance between them.",
+     "The plant-like nature of floral dragonborns can also influence their personalities and attitudes. Just as trees and flowers change with the seasons, floral dragonborns can find themselves becoming restful in winter, energetic in spring, creative in summer, and somber in fall. They can also be particularly sensitive to pollution and changes in the environment."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Floral Dragonborn Names",
+    "entries": [
+     "Floral dragonborn draw their names from a variety of cultures, particularly draconic heritage. It is also common for them to receive names that speak to their connection with plants. As the first floral dragonborns were born into other dragonborn clans, early floral dragonborn clans weren't based on family ties. Though these clans have become more established over time, they still gladly adopt floral dragonborns who seek a place to set down roots. Some floral dragonborn reject the clan system entirely, preferring to go wherever the wind blows them.",
+     {
+      "type": "item",
+      "name": "Example Names:",
+      "entries": [
+       "Abaxial, Alstroemeriax, Calyptrax, Chidor, Floriram, Karsissus, Phytomalanno, Rhachix, Samfire, Trissthanthamum, Zinni"
+      ]
+     },
+     {
+      "type": "item",
+      "name": "Example Clan Names:",
+      "entries": [
+       "Campanuli, Chloranthal, Eudicot, Magnolii, Ranuncu, Rosid, Saxifrag"
+      ]
+     }
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/107-23-000.floral-dragons.webp"
+    },
+    "title": "{@style {@font Apple Tree Dragonborn, Wisteria Dragonborn, and Succulent Dragonborn|Amina}|large}",
+    "credit": "Kin Wald"
+   },
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/108-23-008.apple-blossoms.webp"
+    },
+    "title": "{@style {@font A peony dragonborn and a cherry blossom dragonborn moving a great harvest apple.|Amina}|large}",
+    "credit": "Kin Wald"
+   }
+  ]
+ },
+ {
   "name": "Gallus (Bright)",
   "source": "HumblewoodCampaignSetting",
   "_copy": {
