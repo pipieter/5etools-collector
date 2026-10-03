@@ -1,4 +1,4 @@
-import { ID, Resist, Sense } from './base';
+import { ID, Resist, Sense, SkillProficiency } from './base';
 import { Entry } from './entry';
 import { Nullable, Variadic } from './util';
 
@@ -158,6 +158,7 @@ export interface Version {
   _implementations?: {
     _variables: Record<string, Variadic<string>>; // TODO
     resist?: Variadic<string>;
+    skillProficiencies?: SkillProficiency[];
   }[];
 }
 

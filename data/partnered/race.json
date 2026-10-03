@@ -4707,6 +4707,321 @@
   "hasFluffImages": true
  },
  {
+  "name": "Floral Dragonborn",
+  "source": "FGoFD24",
+  "creatureTypes": [
+   "humanoid"
+  ],
+  "size": [
+   "M",
+   "S"
+  ],
+  "speed": 30,
+  "languageProficiencies": [
+   {
+    "common": true,
+    "draconic": true,
+    "any": 1
+   }
+  ],
+  "sizeEntry": {
+   "type": "item",
+   "name": "Size:",
+   "entries": [
+    "Your size is Medium or Small."
+   ]
+  },
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Creature Type",
+    "entries": [
+     "You are a Humanoid, and you count as a Plant with regard to magic."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Floral Legacy",
+    "entries": [
+     "Choose your Floral Legacy from the Floral Legacy table. Your legacy grants you a skill proficiency, as shown in the table, and it also informs your Floral Breath Weapon and Floral Fortitude traits.",
+     "You resemble one species of floral dragon. The table suggests floral dragons that fit well into the different legacies, but many can fit into more than one legacy. For example, a floral dragonborn who resembles a lamium dragon could be a Guardian instead of a Waterplant. You are free to choose your Floral Legacy and which floral dragon you resemble.",
+     {
+      "type": "table",
+      "caption": "Floral Legacy",
+      "colLabels": [
+       "Floral Legacy",
+       "Proficiency",
+       "Suggested Floral Dragons"
+      ],
+      "colStyles": [
+       "col-2",
+       "col-4",
+       "col-6"
+      ],
+      "rows": [
+       [
+        "Beauty",
+        "You have proficiency in the {@skill Persuasion|XPHB} skill.",
+        "{@creature Cherry blossom dragon|FGoFD24|Cherry blossom}, {@creature heliconia dragon|FGoFD24|heliconia}, {@creature jade vine dragon|FGoFD24|jade vine}, {@creature wisteria dragon|FGoFD24|wisteria}"
+       ],
+       [
+        "Guardian",
+        "You have proficiency in the {@skill Perception|XPHB} skill.",
+        "{@creature Amaranth dragon|FGoFD24|Amaranth}, {@creature rhododendron dragon|FGoFD24|rhododendron}, {@creature magnolia dragon|FGoFD24|magnolia}"
+       ],
+       [
+        "Healer",
+        "You have proficiency in the {@skill Medicine|XPHB} skill.",
+        "{@creature Apple tree dragon|FGoFD24|Apple tree}, {@creature hydrangea dragon|FGoFD24|hydrangea}, {@creature peony dragon|FGoFD24}, {@creature succulent dragon|FGoFD24|succulent}"
+       ],
+       [
+        "Poisoner",
+        "You have proficiency in the {@skill Intimidation|XPHB} skill",
+        "{@creature Aconite dragon|FGoFD24|Aconite}, {@creature clematis dragon|FGoFD24|clematis}, {@creature manchineel dragon|FGoFD24|manchineel}, {@creature larkspur dragon|FGoFD24|larkspur}, {@creature ornithogalum dragon|FGoFD24|ornithogalum}, {@creature vampire lily dragon|FGoFD24|vampire lily}"
+       ],
+       [
+        "Waterplant",
+        "You have proficiency in the {@skill Athletics|XPHB} skill.",
+        "{@creature Lamium dragon|FGoFD24|Lamium}, {@creature water lily dragon|FGoFD24|water lily}"
+       ],
+       [
+        "Wildflower",
+        "You have proficiency in the {@skill Acrobatics|XPHB} skill.",
+        "{@creature Azalea dragon|FGoFD24|Azalea}, {@creature dandelion dragon|FGoFD24|dandelion}"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Floral Breath Weapon",
+    "entries": [
+     "Your dragonborn breath weapon blossoms out with the power of flowers. When you take the {@action Attack|XPHB} action on your turn, you can replace one of your attacks with an exhalation of swirling magical petals in a 15-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. Each creature in that area must make a Constitution saving throw (DC 8 + your Charisma modifier + your {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, the creature takes {@damage 1d8} magical slashing damage and triggers the breath weapon effect of your Floral Legacy, as shown in the Floral Breath Weapon table. On a successful save, it takes half as much damage and your breath weapon effect is not triggered. This damage increases by {@damage 1d8} when you reach character levels 5 ({@damage 2d8}), 11 ({@damage 3d8}), and 17 ({@damage 4d8}).",
+     "You can use your Floral Breath Weapon a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
+     {
+      "type": "table",
+      "caption": "Floral Breath Weapon",
+      "colLabels": [
+       "Floral Legacy",
+       "Breath Weapon Effects"
+      ],
+      "colStyles": [
+       "col-3",
+       "col-9"
+      ],
+      "rows": [
+       [
+        "Beauty",
+        "Each creature that fails its saving throw is {@condition Charmed|XPHB} by you until the end of its next turn."
+       ],
+       [
+        "Guardian",
+        "Each creature that fails its saving throw has {@variantrule Disadvantage|XPHB} on attacks against creatures other than you until the end of its next turn."
+       ],
+       [
+        "Healer",
+        "One creature of your choice within 15 feet of you regains {@variantrule Hit Points|XPHB} equal to half the total amount of damage your Floral Breath Weapon dealt to creatures that failed their saving throws."
+       ],
+       [
+        "Poisoner",
+        "Each creature that fails its saving throw has the {@condition Poisoned|XPHB} condition until the end of its next turn."
+       ],
+       [
+        "Waterplant",
+        "Each creature that fails its saving throw has the {@condition Prone|XPHB} condition."
+       ],
+       [
+        "Wildflower",
+        "You can move without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks} until the end of your next turn. At least one creature must fail its saving throw for this effect to be triggered."
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Floral Fortitude",
+    "entries": [
+     "Your connection to nature roots you in resilience. You have {@variantrule Advantage|XPHB} on saving throws against a condition associated with your Floral Legacy, as shown in the Floral Fortitude table.",
+     {
+      "type": "table",
+      "caption": "Floral Fortitude",
+      "colLabels": [
+       "Floral Legacy",
+       "Condition"
+      ],
+      "colStyles": [
+       "col-6",
+       "col-6"
+      ],
+      "rows": [
+       [
+        "Beauty",
+        "Magical sleep"
+       ],
+       [
+        "Guardian",
+        "{@condition Frightened|XPHB}"
+       ],
+       [
+        "Healer",
+        "{@condition Exhaustion|XPHB}"
+       ],
+       [
+        "Poisoner",
+        "{@condition Poisoned|XPHB}"
+       ],
+       [
+        "Waterplant",
+        "{@condition Restrained|XPHB}"
+       ],
+       [
+        "Wildflower",
+        "{@condition Charmed|XPHB}"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Draconic Blossoming",
+    "entries": [
+     "As buds burst into blossoms, you too can experience a brief burst of draconic might. Starting at character level 5, you can use a {@variantrule Bonus Action|XPHB} to manifest the draconic power of a floral dragon that fills you with vitality. For 1 minute, you regain {@damage 1d4} {@variantrule Hit Points|XPHB} at the start of each of your turns. Additionally, for the duration any creature that attacks you must first succeed on a Charisma saving throw (DC 8 + your Charisma modifier + your {@variantrule Proficiency|XPHB|Proficiency Bonus}) or be forced to choose a different target for its attack. Once you use this trait, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+    ]
+   }
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true,
+  "_versions": [
+   {
+    "_abstract": {
+     "name": "Floral Dragonborn ({{legacy}})",
+     "source": "FGoFD24",
+     "_mod": {
+      "entries": [
+       {
+        "mode": "replaceArr",
+        "replace": "Floral Legacy",
+        "items": {
+         "type": "entries",
+         "name": "Floral Legacy",
+         "entries": [
+          "You have the {{legacy}} legacy, granting you proficiency in the {@skill {{skill}}} skill. You resemble one species of floral dragon."
+         ]
+        }
+       },
+       {
+        "mode": "replaceArr",
+        "replace": "Floral Breath Weapon",
+        "items": {
+         "type": "entries",
+         "name": "Floral Breath Weapon",
+         "entries": [
+          "Your dragonborn breath weapon blossoms out with the power of flowers. When you take the {@action Attack|XPHB} action on your turn, you can replace one of your attacks with an exhalation of swirling magical petals in a 15-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. Each creature in that area must make a Constitution saving throw (DC 8 + your Charisma modifier + your {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, the creature takes {@damage 1d8} magical slashing damage, and {{breathEffect}}. On a successful save, it takes half as much damage and your breath weapon effect is not triggered. This damage increases by {@damage 1d8} when you reach character levels 5 ({@damage 2d8}), 11 ({@damage 3d8}), and 17 ({@damage 4d8}).",
+          "You can use your Floral Breath Weapon a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+         ]
+        }
+       },
+       {
+        "mode": "replaceArr",
+        "replace": "Floral Fortitude",
+        "items": {
+         "type": "entries",
+         "name": "Floral Fortitude",
+         "entries": [
+          "Your connection to nature roots you in resilience. You have {@variantrule Advantage|XPHB} on saving throws against {{fortitudeText}}."
+         ]
+        }
+       }
+      ]
+     }
+    },
+    "_implementations": [
+     {
+      "_variables": {
+       "legacy": "Beauty",
+       "skill": "Persuasion",
+       "breathEffect": "each creature that fails its saving throw is {@condition Charmed|XPHB} by you until the end of its next turn",
+       "fortitudeText": "magical sleep"
+      },
+      "skillProficiencies": [
+       {
+        "persuasion": true
+       }
+      ]
+     },
+     {
+      "_variables": {
+       "legacy": "Guardian",
+       "skill": "Perception",
+       "breathEffect": "each creature that fails its saving throw has {@variantrule Disadvantage|XPHB} on attacks against creatures other than you until the end of its next turn",
+       "fortitudeText": "the {@condition Frightened|XPHB} condition"
+      },
+      "skillProficiencies": [
+       {
+        "perception": true
+       }
+      ]
+     },
+     {
+      "_variables": {
+       "legacy": "Healer",
+       "skill": "Medicine",
+       "breathEffect": "one creature of your choice within 15 feet of you regains {@variantrule Hit Points|XPHB} equal to half the total amount of damage your Floral Breath Weapon dealt to creatures that failed their saving throws",
+       "fortitudeText": "the {@condition Exhaustion|XPHB} condition"
+      },
+      "skillProficiencies": [
+       {
+        "medicine": true
+       }
+      ]
+     },
+     {
+      "_variables": {
+       "legacy": "Poisoner",
+       "skill": "Intimidation",
+       "breathEffect": "each creature that fails its saving throw has the {@condition Poisoned|XPHB} condition until the end of its next turn",
+       "fortitudeText": "the {@condition Poisoned|XPHB} condition"
+      },
+      "skillProficiencies": [
+       {
+        "intimidation": true
+       }
+      ]
+     },
+     {
+      "_variables": {
+       "legacy": "Waterplant",
+       "skill": "Athletics",
+       "breathEffect": "each creature that fails its saving throw has the {@condition Prone|XPHB} condition",
+       "fortitudeText": "the {@condition Restrained|XPHB} condition"
+      },
+      "skillProficiencies": [
+       {
+        "athletics": true
+       }
+      ]
+     },
+     {
+      "_variables": {
+       "legacy": "Wildflower",
+       "skill": "Acrobatics",
+       "breathEffect": "you can move without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks} until the end of your next turn. At least one creature must fail its saving throw for this effect to be triggered",
+       "fortitudeText": "the {@condition Charmed|XPHB} condition"
+      },
+      "skillProficiencies": [
+       {
+        "acrobatics": true
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Gallus",
   "source": "HumblewoodCampaignSetting",
   "page": 14,

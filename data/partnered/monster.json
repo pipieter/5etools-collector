@@ -1681,6 +1681,163 @@
   "hasFluffImages": true
  },
  {
+  "name": "Aconite Dragon",
+  "size": [
+   "L"
+  ],
+  "group": [
+   "Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "N",
+   "E"
+  ],
+  "ac": [
+   16
+  ],
+  "hp": {
+   "formula": "20d10 + 60",
+   "average": 170
+  },
+  "speed": {
+   "walk": 30,
+   "climb": 30
+  },
+  "str": 20,
+  "dex": 15,
+  "con": 17,
+  "int": 3,
+  "wis": 14,
+  "cha": 8,
+  "save": {
+   "dex": "+6",
+   "con": "+7"
+  },
+  "skill": {
+   "perception": "+6",
+   "stealth": "+6"
+  },
+  "immune": [
+   "poison"
+  ],
+  "conditionImmune": [
+   "poisoned"
+  ],
+  "senses": [
+   "darkvision 60 ft."
+  ],
+  "senseTags": [
+   "D"
+  ],
+  "passive": 16,
+  "cr": "9",
+  "trait": [
+   {
+    "name": "Ambusher",
+    "entries": [
+     "In the first round of a combat, the dragon has {@variantrule Advantage|XPHB} on attack rolls against any creature it has {@status Surprised|XPHB}."
+    ]
+   },
+   {
+    "name": "Legendary Resistance (3/Day)",
+    "entries": [
+     "If the dragon fails a saving throw, it can choose to succeed instead."
+    ]
+   },
+   {
+    "name": "Spider Climb",
+    "entries": [
+     "The dragon can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The dragon can use its Bioluminescent Floral Presence and make a Bite attack."
+    ]
+   },
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 7} to hit, reach 5 ft., one target. {@h}16 ({@damage 2d10 + 5}) Piercing damage plus 4 ({@damage 1d8}) Poison damage and the target must succeed on a {@dc 15} Constitution saving throw or take 4 ({@damage 1d8}) Poison damage at the start of each of its turns until it or another creature uses an action to wipe the poison away."
+    ]
+   },
+   {
+    "name": "Bioluminescent Floral Presence",
+    "entries": [
+     "The dragon's lure glows with an enticing light. {@actSave wis} {@dc 15} Any creature that can see the lure. A creature that is unaware that the lure is part of the dragon makes this saving throw at {@variantrule Disadvantage|XPHB}. {@actSaveFail} The target is {@condition Charmed|XPHB} by the dragon until it takes damage. A {@condition Charmed|XPHB} target must move on its turn toward the dragon by the most direct route. {@actSaveSuccessOrFail} A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Bioluminescent Floral Presence for the next 24 hours."
+    ]
+   },
+   {
+    "name": "Spit",
+    "entries": [
+     "{@actSave dex} {@dc 15} Each creature in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSaveFail} 7 ({@damage 2d6}) Poison damage and the target has the {@condition Paralyzed|XPHB} condition until the start of its next turn."
+    ]
+   }
+  ],
+  "legendaryActions": 3,
+  "legendary": [
+   {
+    "name": "Bite Attack",
+    "entries": [
+     "The dragon makes a Bite attack."
+    ]
+   },
+   {
+    "name": "Detect",
+    "entries": [
+     "The dragon makes a Wisdom ({@skill Perception|XPHB}) check."
+    ]
+   },
+   {
+    "name": "Prey (Costs 2 Actions)",
+    "entries": [
+     "The dragon snacks on a nearby clematis dragon or similar creature, regaining 9 ({@damage 2d6 + 2}) {@variantrule Hit Points|XPHB}."
+    ]
+   }
+  ],
+  "legendaryGroup": {
+   "name": "Aconite Dragon",
+   "source": "FGoFD24"
+  },
+  "traitTags": [
+   "Ambusher",
+   "Legendary Resistances",
+   "Spider Climb"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "P",
+   "I"
+  ],
+  "miscTags": [
+   "MW",
+   "AOE"
+  ],
+  "conditionInflict": [
+   "charmed",
+   "paralyzed"
+  ],
+  "savingThrowForced": [
+   "constitution",
+   "wisdom",
+   "dexterity"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Aconite_Dragon.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Acorn Crab",
   "source": "ObojimaTallGrass",
   "page": 269,
@@ -7115,6 +7272,110 @@
    "intelligence"
   ],
   "hasToken": true,
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Amaranth Dragon",
+  "size": [
+   "M"
+  ],
+  "group": [
+   "Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "N",
+   "NX",
+   "NY"
+  ],
+  "ac": [
+   15
+  ],
+  "hp": {
+   "formula": "10d8 + 20",
+   "average": 65
+  },
+  "speed": {
+   "walk": 30,
+   "climb": 30
+  },
+  "str": 14,
+  "dex": 15,
+  "con": 15,
+  "int": 7,
+  "wis": 12,
+  "cha": 15,
+  "save": {
+   "dex": "+4",
+   "con": "+4"
+  },
+  "skill": {
+   "perception": "+3",
+   "stealth": "+6"
+  },
+  "senses": [
+   "darkvision 60 ft."
+  ],
+  "senseTags": [
+   "D"
+  ],
+  "passive": 13,
+  "languages": [
+   "understands any one language but can't speak"
+  ],
+  "languageTags": [
+   "X",
+   "CS"
+  ],
+  "cr": "2",
+  "trait": [
+   {
+    "name": "Keen Senses",
+    "entries": [
+     "The dragon has {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception|XPHB}) checks."
+    ]
+   },
+   {
+    "name": "Floral Appearance",
+    "entries": [
+     "While the dragon remains motionless, it is indistinguishable from an ordinary growth of amaranth. It has {@variantrule Advantage|XPHB} on Dexterity ({@skill Stealth|XPHB}) checks made to hide in areas covered in similar plants."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The dragon makes two melee attacks."
+    ]
+   },
+   {
+    "name": "Claws",
+    "entries": [
+     "{@atkr m} {@hit 4} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) Slashing damage."
+    ]
+   }
+  ],
+  "traitTags": [
+   "Keen Senses",
+   "False Appearance"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "S"
+  ],
+  "miscTags": [
+   "MW"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Amaranth_Dragon.webp"
+  },
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -13787,6 +14048,204 @@
   "hasFluffImages": true
  },
  {
+  "name": "Apple Tree Dragon",
+  "size": [
+   "G"
+  ],
+  "group": [
+   "Good & Bad Apples",
+   "Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "L",
+   "G"
+  ],
+  "alignmentPrefix": "typically ",
+  "ac": [
+   22
+  ],
+  "hp": {
+   "formula": "28d20 + 252",
+   "average": 546
+  },
+  "speed": {
+   "walk": 50,
+   "swim": 40
+  },
+  "str": 30,
+  "dex": 15,
+  "con": 28,
+  "int": 30,
+  "wis": 29,
+  "cha": 26,
+  "save": {
+   "str": "+18",
+   "dex": "+10",
+   "con": "+9",
+   "int": "+10",
+   "wis": "+17",
+   "cha": "+16"
+  },
+  "skill": {
+   "history": "+18",
+   "insight": "+17",
+   "nature": "+18",
+   "perception": "+17",
+   "persuasion": "+16",
+   "survival": "+17"
+  },
+  "resist": [
+   "fire",
+   "lightning",
+   "radiant",
+   "thunder"
+  ],
+  "senses": [
+   "darkvision 120 ft.",
+   "tremorsense 120 ft."
+  ],
+  "senseTags": [
+   "D",
+   "T"
+  ],
+  "passive": 27,
+  "languages": [
+   "Common",
+   "Draconic plus up to four other languages"
+  ],
+  "languageTags": [
+   "C",
+   "DR",
+   "X"
+  ],
+  "cr": "27",
+  "trait": [
+   {
+    "name": "Charge",
+    "entries": [
+     "If the dragon moves at least 30 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 18 ({@damage 4d8}) damage. If the target is a creature, it must succeed on a {@dc 26} Strength saving throw or be knocked {@condition Prone|XPHB}."
+    ]
+   },
+   {
+    "name": "Legendary Resistance (3/Day)",
+    "entries": [
+     "If the dragon fails a saving throw, it can choose to succeed instead."
+    ]
+   },
+   {
+    "name": "Magic Weapons",
+    "entries": [
+     "The dragon's weapon attacks are magical."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The dragon can use its Protective Floral Presence. It then makes three attacks: one with its ram and two with its tail."
+    ]
+   },
+   {
+    "name": "Ram",
+    "entries": [
+     "{@atkr m} {@hit 18} to hit, reach 10 ft., one target. {@h}41 ({@damage 7d8 + 10}) Bludgeoning damage."
+    ]
+   },
+   {
+    "name": "Tail",
+    "entries": [
+     "{@atkr m} {@hit 18} to hit, reach 20 ft., one target. {@h}43 ({@damage 6d10 + 10}) Bludgeoning damage."
+    ]
+   },
+   {
+    "name": "Protective Floral Presence (2/Day)",
+    "entries": [
+     "The dragon extends a protective force over any number of creatures of its choice it is aware of within 300 feet, not including itself. Targets gain {@variantrule Resistance|XPHB} to the dragon's choice of either Fire, Cold, Lightning, Necrotic, Poison, Psychic, or Thunder damage. Additionally, whenever a target regains {@variantrule Hit Points|XPHB} from spells or potions, it regains the highest number possible for each die rolled. These effects last for 1 minute or until the dragon is {@condition Incapacitated|XPHB}."
+    ]
+   },
+   {
+    "name": "Healing Light (3/Day)",
+    "entries": [
+     "Light filtering through the dragon's leaves takes on magical healing power. Each creature within a 20-foot radius of the dragon, including itself, regains 27 ({@damage 6d8}) {@variantrule Hit Points|XPHB} and is cured of the {@condition Frightened|XPHB} and {@condition Poisoned|XPHB} conditions. The dragon can't use this action in {@variantrule Darkness|XPHB}."
+    ]
+   },
+   {
+    "name": "Sunlight Breath {@recharge 5}",
+    "entries": [
+     "The dragon exhales brilliant sunlight. {@actSave con} {@dc 24} Each creature in a 90-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. Each creature in that area must make a {@dc 24} Constitution saving throw. {@actSaveFail} 66 ({@damage 12d10}) Radiant damage and is {@condition Blinded|XPHB} for 1 minute. {@actSaveSuccess} Half damage only."
+    ]
+   }
+  ],
+  "reaction": [
+   {
+    "name": "Protect the Small",
+    "entries": [
+     "{@actTrigger} When a Medium or smaller creature within 20 feet of the dragon is targeted with an attack by a creature the dragon can see. {@actResponse} The dragon can impose {@variantrule Disadvantage|XPHB} on the roll. If the attack hits, the dragon takes the damage instead of the targeted creature."
+    ]
+   }
+  ],
+  "legendaryActions": 3,
+  "legendary": [
+   {
+    "name": "Tail",
+    "entries": [
+     "The dragon makes a tail attack."
+    ]
+   },
+   {
+    "name": "Uproot",
+    "entries": [
+     "The dragon moves up to its {@variantrule Speed|XPHB}. Unattended objects and structures in its path take 16 ({@damage 3d10}) Bludgeoning damage."
+    ]
+   },
+   {
+    "name": "Reroot (Costs 2 Actions)",
+    "entries": [
+     "The dragon digs its roots into the soil, regaining 27 ({@damage 6d8}) {@variantrule Hit Points|XPHB} and removing all levels of {@condition Exhaustion|XPHB} affecting it. Once it uses this ability, the dragon's {@variantrule Speed|XPHB} becomes 0 until the end of its next turn."
+    ]
+   }
+  ],
+  "legendaryGroup": {
+   "name": "Apple Tree Dragon",
+   "source": "FGoFD24"
+  },
+  "traitTags": [
+   "Charge",
+   "Legendary Resistances",
+   "Magic Weapons"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "B",
+   "R"
+  ],
+  "miscTags": [
+   "MW",
+   "RCH",
+   "AOE"
+  ],
+  "conditionInflict": [
+   "prone",
+   "blinded"
+  ],
+  "savingThrowForced": [
+   "strength",
+   "constitution"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Apple_Tree_Dragon.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Apprentice Witch",
   "size": [
    "M"
@@ -20167,6 +20626,107 @@
    }
   },
   "hasFluff": true
+ },
+ {
+  "name": "Azalea Dragon",
+  "size": [
+   "M"
+  ],
+  "group": [
+   "Children of the Wolf Tree",
+   "Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "N",
+   "NX",
+   "NY"
+  ],
+  "ac": [
+   14
+  ],
+  "hp": {
+   "formula": "8d8 + 16",
+   "average": 52
+  },
+  "speed": {
+   "walk": 40
+  },
+  "str": 15,
+  "dex": 15,
+  "con": 14,
+  "int": 10,
+  "wis": 13,
+  "cha": 8,
+  "skill": {
+   "perception": "+5",
+   "stealth": "+4"
+  },
+  "vulnerable": [
+   "cold"
+  ],
+  "senses": [
+   "blindsight 10 ft.",
+   "darkvision 60 ft."
+  ],
+  "senseTags": [
+   "B",
+   "D"
+  ],
+  "passive": 15,
+  "languages": [
+   "Draconic"
+  ],
+  "languageTags": [
+   "DR"
+  ],
+  "cr": "1",
+  "trait": [
+   {
+    "name": "Keen Hearing and Smell",
+    "entries": [
+     "The dragon has {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception|XPHB}) checks that rely on hearing or smell."
+    ]
+   },
+   {
+    "name": "Pack Tactics",
+    "entries": [
+     "The dragon has {@variantrule Advantage|XPHB} on an attack roll against a creature if at least one of the dragon's allies is within 5 feet of the creature and the ally isn't {@condition Incapacitated|XPHB}."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) Piercing damage and if the target is a creature, it must succeed on a {@dc 13} Constitution saving throw or have the {@condition Poisoned|XPHB} condition until the end of its next turn."
+    ]
+   }
+  ],
+  "traitTags": [
+   "Keen Senses",
+   "Pack Tactics"
+  ],
+  "damageTags": [
+   "P"
+  ],
+  "miscTags": [
+   "MW"
+  ],
+  "conditionInflict": [
+   "poisoned"
+  ],
+  "savingThrowForced": [
+   "constitution"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Azalea_Dragon.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
  },
  {
   "name": "Azza Gremlin",
@@ -43325,6 +43885,205 @@
   "hasFluffImages": true
  },
  {
+  "name": "Cherry Blossom Dragon",
+  "size": [
+   "H"
+  ],
+  "group": [
+   "Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "N",
+   "G"
+  ],
+  "ac": [
+   18
+  ],
+  "hp": {
+   "formula": "19d12 + 133",
+   "average": 256
+  },
+  "speed": {
+   "walk": 40,
+   "fly": {
+    "number": 60,
+    "condition": "(hover)"
+   },
+   "canHover": true
+  },
+  "str": 22,
+  "dex": 14,
+  "con": 24,
+  "int": 18,
+  "wis": 17,
+  "cha": 24,
+  "save": {
+   "dex": "+7",
+   "con": "+12",
+   "wis": "+8",
+   "cha": "+12"
+  },
+  "skill": {
+   "history": "+14",
+   "insight": "+8",
+   "nature": "+9",
+   "perception": "+8",
+   "performance": "+12",
+   "persuasion": "+12"
+  },
+  "senses": [
+   "darkvision 120 ft."
+  ],
+  "senseTags": [
+   "D"
+  ],
+  "passive": 18,
+  "languages": [
+   "Common",
+   "Draconic",
+   "plus any two languages",
+   "telepathy 120 ft."
+  ],
+  "languageTags": [
+   "C",
+   "DR",
+   "X",
+   "TP"
+  ],
+  "cr": "16",
+  "trait": [
+   {
+    "name": "Legendary Resistance (3/Day)",
+    "entries": [
+     "If the dragon fails a saving throw, it can choose to succeed instead."
+    ]
+   }
+  ],
+  "spellcasting": [
+   {
+    "name": "Spellcasting",
+    "headerEntries": [
+     "The dragon is a 9th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 20}). It requires no material components to cast its spells. The dragon knows the following spells:"
+    ],
+    "will": [
+     "{@spell Druidcraft|XPHB}",
+     "{@spell Minor Illusion|XPHB}",
+     "{@spell Prestidigitation|XPHB}"
+    ],
+    "spells": {
+     "1": {
+      "slots": 4,
+      "spells": [
+       "{@spell Comprehend Languages|XPHB}",
+       "{@spell Sanctuary|XPHB}",
+       "{@spell Sleep|XPHB}"
+      ]
+     },
+     "2": {
+      "slots": 3,
+      "spells": [
+       "{@spell Lesser Restoration|XPHB}",
+       "{@spell Moonbeam|XPHB}",
+       "{@spell See Invisibility|XPHB}"
+      ]
+     },
+     "3": {
+      "slots": 3,
+      "spells": [
+       "{@spell Counterspell|XPHB}",
+       "{@spell Dispel Magic|XPHB}",
+       "{@spell Tongues|XPHB}"
+      ]
+     },
+     "4": {
+      "slots": 3,
+      "spells": [
+       "{@spell Arcane Eye|XPHB}",
+       "{@spell Phantasmal Killer|XPHB}"
+      ]
+     },
+     "5": {
+      "slots": 1,
+      "spells": [
+       "{@spell Dream|XPHB}"
+      ]
+     }
+    },
+    "ability": "cha",
+    "type": "spellcasting",
+    "displayAs": "trait"
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The dragon can use its Influential Floral Presence. It then casts a spell or makes three attacks: one with its bite and two with its claws."
+    ]
+   },
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 11} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) Piercing damage."
+    ]
+   },
+   {
+    "name": "Claws",
+    "entries": [
+     "{@atkr m} {@hit 11} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) Slashing damage."
+    ]
+   },
+   {
+    "name": "Influential Floral Presence",
+    "entries": [
+     "The dragon reaches into the minds of a group of creatures to learn their deepest fears or greatest desires, then creates illusions using what it has learned. {@actSave wis} {@dc 20} Each creature in a 30-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on a point of the dragon's choice within 200 feet. {@actSaveFail} Affected creature has either the {@condition Charmed|XPHB} or {@condition Frightened|XPHB} (the dragon chooses which for the whole group) as it experiences illusions created by the dragon. {@actSaveSuccessOrFail} A creature can repeat its saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the target is immune to this dragon's Floral Presence for the next 24 hours."
+    ]
+   }
+  ],
+  "reaction": [
+   {
+    "name": "Good Fortune (2/Day)",
+    "entries": [
+     "{@actTrigger} When the dragon sees an ally within 60 feet of it fail a saving throw, attack roll, or ability check, it can bestow a stroke of luck. {@actResponse} The target can reroll the d20 with {@variantrule Advantage|XPHB} and can choose which result to use."
+    ]
+   }
+  ],
+  "traitTags": [
+   "Legendary Resistances"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "P",
+   "S"
+  ],
+  "miscTags": [
+   "MW",
+   "RCH",
+   "AOE"
+  ],
+  "conditionInflict": [
+   "charmed",
+   "frightened"
+  ],
+  "savingThrowForced": [
+   "wisdom"
+  ],
+  "spellcastingTags": [
+   "CS"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Cherry_Blossom_Dragon.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Chicken",
   "source": "HelianasGuidetoMonsterHunting",
   "page": 156,
@@ -45871,6 +46630,108 @@
     }
    ]
   }
+ },
+ {
+  "name": "Clematis Dragon",
+  "size": [
+   "S"
+  ],
+  "group": [
+   "Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "U"
+  ],
+  "ac": [
+   11
+  ],
+  "hp": {
+   "formula": "5d6 + 10",
+   "average": 27
+  },
+  "speed": {
+   "walk": 30,
+   "climb": 30,
+   "swim": 20
+  },
+  "str": 5,
+  "dex": 12,
+  "con": 15,
+  "int": 3,
+  "wis": 8,
+  "cha": 6,
+  "skill": {
+   "perception": "+3",
+   "intimidation": "+2"
+  },
+  "immune": [
+   "poison"
+  ],
+  "conditionImmune": [
+   "poisoned"
+  ],
+  "senses": [
+   "blindsight 5 ft.",
+   "darkvision 60 ft."
+  ],
+  "senseTags": [
+   "B",
+   "D"
+  ],
+  "passive": 13,
+  "cr": "1/2",
+  "trait": [
+   {
+    "name": "Amphibious",
+    "entries": [
+     "The dragon can breathe air and water."
+    ]
+   },
+   {
+    "name": "Poison Petals",
+    "entries": [
+     "A creature that touches the dragon or hits it with a melee attack while within 5 feet of it takes 2 ({@damage 1d4}) Piercing damage and must make a {@dc 13} Constitution saving throw, taking 9 ({@damage 2d8}) Poison damage on a failed save, or half as much damage on a successful one. A creature that fails its save is also {@condition Paralyzed|XPHB} until the end of its next turn, unless it is immune to the {@condition Poisoned|XPHB} condition."
+    ]
+   },
+   {
+    "name": "Standing Leap",
+    "entries": [
+     "The dragon's {@variantrule Long Jump|XPHB} is up to 30 feet and its {@variantrule High Jump|XPHB} is up to 15 feet, with or without a running start."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) Piercing damage."
+    ]
+   }
+  ],
+  "traitTags": [
+   "Amphibious"
+  ],
+  "damageTags": [
+   "P"
+  ],
+  "miscTags": [
+   "MW"
+  ],
+  "conditionInflict": [
+   "paralyzed"
+  ],
+  "savingThrowForced": [
+   "constitution"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Clematis_Dragon.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
  },
  {
   "name": "Cloak",
@@ -49153,6 +50014,375 @@
   "hasFluffImages": true
  },
  {
+  "name": "Corrupted Azalea Dragon",
+  "size": [
+   "M"
+  ],
+  "group": [
+   "Corrupted Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "N",
+   "E"
+  ],
+  "ac": [
+   14
+  ],
+  "hp": {
+   "formula": "6d8 + 12",
+   "average": 39
+  },
+  "speed": {
+   "walk": 40,
+   "burrow": 30
+  },
+  "str": 15,
+  "dex": 15,
+  "con": 14,
+  "int": 3,
+  "wis": 12,
+  "cha": 4,
+  "save": {
+   "dex": "+4",
+   "con": "+4",
+   "wis": "+3"
+  },
+  "skill": {
+   "perception": "+5",
+   "stealth": "+4"
+  },
+  "resist": [
+   "necrotic"
+  ],
+  "immune": [
+   "poison"
+  ],
+  "conditionImmune": [
+   "blinded",
+   "charmed",
+   "deafened",
+   "exhaustion",
+   "frightened",
+   "petrified",
+   "poisoned"
+  ],
+  "vulnerable": [
+   "cold"
+  ],
+  "senses": [
+   "blindsight 60 ft. (blind beyond this radius)"
+  ],
+  "senseTags": [
+   "B"
+  ],
+  "passive": 15,
+  "cr": "2",
+  "trait": [
+   {
+    "name": "Fungally Controlled",
+    "entries": [
+     "The corrupted dragon is part of the pluerossa fungus network. It is aware of everything other corrupted floral dragons and the mushroom dragon perceive at all times, and it carries out the desires of the pleurrosa fungus."
+    ]
+   },
+   {
+    "name": "Keen Hearing and Smell",
+    "entries": [
+     "The corrupted dragon has {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception|XPHB}) checks that rely on hearing or smell."
+    ]
+   },
+   {
+    "name": "Magic Resistance",
+    "entries": [
+     "The corrupted dragon has {@variantrule Advantage|XPHB} on saving throws against spells and other magical effects"
+    ]
+   },
+   {
+    "name": "Pack Tactics",
+    "entries": [
+     "The corrupted dragon has {@variantrule Advantage|XPHB} on an attack roll against a creature if at least one of the dragon's allies is within 5 feet of the creature and the ally isn't {@condition Incapacitated|XPHB}."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) Piercing damage and if the target is a creature, it must succeed on a {@dc 12} Constitution Saving Throw or gain the {@condition Poisoned|XPHB} condition until the end of its next turn and gain a level of {@condition Corruption|FGoFD24}. Floral dragons have {@variantrule Disadvantage|XPHB} on this saving throw."
+    ]
+   }
+  ],
+  "traitTags": [
+   "Keen Senses",
+   "Magic Resistance",
+   "Pack Tactics"
+  ],
+  "damageTags": [
+   "P"
+  ],
+  "miscTags": [
+   "MW"
+  ],
+  "conditionInflict": [
+   "poisoned"
+  ],
+  "savingThrowForced": [
+   "constitution"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Corrupted_Azalea_Dragon.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Corrupted Dandelion Dragon",
+  "size": [
+   "T"
+  ],
+  "group": [
+   "Corrupted Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "N",
+   "E"
+  ],
+  "ac": [
+   12
+  ],
+  "hp": {
+   "formula": "9d4 + 9",
+   "average": 31
+  },
+  "speed": {
+   "walk": 15,
+   "burrow": 30,
+   "fly": 15
+  },
+  "str": 3,
+  "dex": 15,
+  "con": 13,
+  "int": 3,
+  "wis": 12,
+  "cha": 4,
+  "skill": {
+   "perception": "+3",
+   "stealth": "+4"
+  },
+  "resist": [
+   "necrotic"
+  ],
+  "immune": [
+   "poison"
+  ],
+  "conditionImmune": [
+   "blinded",
+   "charmed",
+   "deafened",
+   "exhaustion",
+   "frightened",
+   "petrified",
+   "poisoned"
+  ],
+  "senses": [
+   "blindsight 60 ft. (blind beyond this radius)"
+  ],
+  "senseTags": [
+   "B"
+  ],
+  "passive": 13,
+  "cr": "1/2",
+  "trait": [
+   {
+    "name": "Fungally Controlled",
+    "entries": [
+     "The corrupted dragon is part of the pluerossa fungus network. It is aware of everything other corrupted floral dragons and the mushroom dragon perceive at all times, and it carries out the desires of the pleurrosa fungus."
+    ]
+   },
+   {
+    "name": "Magic Resistance",
+    "entries": [
+     "The corrupted dragon has {@variantrule Advantage|XPHB} on Saving Throws against spells and other magical effects"
+    ]
+   },
+   {
+    "name": "Temporal Sensitivity",
+    "entries": [
+     "The corrupted dragon has {@variantrule Advantage|XPHB} on {@variantrule Initiative|XPHB} Rolls and can choose to reroll its {@variantrule Initiative|XPHB} at the start of each Round. If it rerolls, it must use the new result."
+    ]
+   },
+   {
+    "name": "Time Acceleration (1/Day)",
+    "entries": [
+     "The corrupted dragon takes an additional Action on its turn."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) Piercing damage, and the target must succeed on a {@dc 11} Constitution Saving Throw or gain one level of {@condition Corruption|FGoFD24}. Floral dragons have {@variantrule Disadvantage|XPHB} on this Saving Throw."
+    ]
+   }
+  ],
+  "traitTags": [
+   "Magic Resistance"
+  ],
+  "damageTags": [
+   "P"
+  ],
+  "miscTags": [
+   "MW"
+  ],
+  "savingThrowForced": [
+   "constitution"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Corrupted_Dandelion_Dragon.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Corrupted Larkspur Dragon",
+  "size": [
+   "L"
+  ],
+  "group": [
+   "Corrupted Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "N",
+   "E"
+  ],
+  "ac": [
+   15
+  ],
+  "hp": {
+   "formula": "12d10 + 24",
+   "average": 90
+  },
+  "speed": {
+   "walk": 40,
+   "fly": 10
+  },
+  "str": 16,
+  "dex": 17,
+  "con": 15,
+  "int": 3,
+  "wis": 12,
+  "cha": 4,
+  "save": {
+   "str": "+6",
+   "dex": "+6"
+  },
+  "skill": {
+   "perception": "+4"
+  },
+  "immune": [
+   "necrotic",
+   "poison"
+  ],
+  "conditionImmune": [
+   "blinded",
+   "charmed",
+   "deafened",
+   "exhaustion",
+   "frightened",
+   "petrified",
+   "poisoned"
+  ],
+  "senses": [
+   "blindsight 60 ft. (blind beyond this radius)"
+  ],
+  "senseTags": [
+   "B"
+  ],
+  "passive": 14,
+  "cr": "6",
+  "trait": [
+   {
+    "name": "Fleet of Foot",
+    "entries": [
+     "The corrupted dragon can use a bonus action on each of its turns to take the {@action Dash|XPHB} action."
+    ]
+   },
+   {
+    "name": "Fungally Controlled",
+    "entries": [
+     "The corrupted dragon is part of the pluerossa fungus network. It is aware of everything other corrupted floral dragons and the mushroom dragon perceive at all times, and it carries out the desires of the pleurrosa fungus."
+    ]
+   },
+   {
+    "name": "Magic Resistance",
+    "entries": [
+     "The corrupted dragon has {@variantrule Advantage|XPHB} on Saving Throws against spells and other magical effects."
+    ]
+   },
+   {
+    "name": "Poisonous Petals",
+    "entries": [
+     "A creature that touches the corrupted dragon or hits it with a melee attack while within 5 feet of it takes 7 ({@damage 2d6}) Poison damage."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The corrupted dragon makes two attacks: one with its beak and one with its talons."
+    ]
+   },
+   {
+    "name": "Beak",
+    "entries": [
+     "{@atkr m} {@hit 6} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d8 + 3}) Piercing damage plus 5 ({@damage 1d10}) Poison damage and the target must succeed on a {@dc 11} Constitution Saving Throw or gain one level of {@condition Corruption|FGoFD24}. Floral dragons have {@variantrule Disadvantage|XPHB} on this Saving Throw."
+    ]
+   },
+   {
+    "name": "Talons",
+    "entries": [
+     "{@atkr m} {@hit 6} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d6 + 3}) Slashing damage and the target must succeed on a {@dc 13} Constitution Saving Throw or gain one level of {@condition Corruption|FGoFD24}. Floral dragons have {@variantrule Disadvantage|XPHB} on this Saving Throw."
+    ]
+   }
+  ],
+  "traitTags": [
+   "Magic Resistance"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "P",
+   "I",
+   "S"
+  ],
+  "miscTags": [
+   "MW",
+   "RCH"
+  ],
+  "savingThrowForced": [
+   "constitution"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Corrupted_Larkspur_Dragon.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Corrupted Muk",
   "source": "ObojimaTallGrass",
   "page": 274,
@@ -49639,6 +50869,175 @@
   "savingThrowForced": [
    "dexterity"
   ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Corrupted Wisteria Dragon",
+  "size": [
+   "H"
+  ],
+  "group": [
+   "Corrupted Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "L",
+   "NX",
+   "C",
+   "E",
+   "NY"
+  ],
+  "ac": [
+   19
+  ],
+  "hp": {
+   "formula": "19d12 + 133",
+   "average": 256
+  },
+  "speed": {
+   "walk": 40,
+   "burrow": 30,
+   "fly": 40
+  },
+  "str": 24,
+  "dex": 13,
+  "con": 25,
+  "int": 3,
+  "wis": 12,
+  "cha": 4,
+  "save": {
+   "dex": "+7",
+   "con": "+13",
+   "wis": "+7"
+  },
+  "skill": {
+   "arcana": "+2",
+   "deception": "+3",
+   "history": "+2",
+   "insight": "+7",
+   "perception": "+7"
+  },
+  "resist": [
+   "necrotic"
+  ],
+  "immune": [
+   "poison"
+  ],
+  "conditionImmune": [
+   "blinded",
+   "charmed",
+   "deafened",
+   "exhaustion",
+   "frightened",
+   "petrified",
+   "poisoned"
+  ],
+  "senses": [
+   "blindsight 60 ft."
+  ],
+  "senseTags": [
+   "B"
+  ],
+  "passive": 17,
+  "cr": "17",
+  "trait": [
+   {
+    "name": "Fey Ancestry",
+    "entries": [
+     "The dragon has {@variantrule Advantage|XPHB} on saving throws against being {@condition Charmed|XPHB}, and magic can't put the dragon to sleep."
+    ]
+   },
+   {
+    "name": "Fungally Controlled",
+    "entries": [
+     "The corrupted dragon is part of the pluerossa fungus network. It is aware of everything other corrupted floral dragons and the mushroom dragon perceive at all times, and it carries out the desires of the pleurrosa fungus."
+    ]
+   },
+   {
+    "name": "Magic Resistance",
+    "entries": [
+     "The dragon has {@variantrule Advantage|XPHB} on saving throws against spells and other magical effects."
+    ]
+   },
+   {
+    "name": "Regeneration",
+    "entries": [
+     "The dragon regains 10 {@variantrule Hit Points|XPHB} at the start of its turn. If the dragon takes Cold damage, this trait doesn't function at the start of the dragon's next turn. The dragon dies only if it starts its turn with 0 {@variantrule Hit Points|XPHB} and doesn't regenerate."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The dragon can use its Fungal Presence. It then makes three attacks: one with its bite and two with its stomp."
+    ]
+   },
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 13} to hit, reach 10 ft., one target. {@h}18 ({@damage 2d10 + 7}) Piercing damage and the target must succeed on a {@dc 21} Constitution saving throw or gain one level of {@condition Corruption|FGoFD24}. Floral dragons have {@variantrule Disadvantage|XPHB} on the save."
+    ]
+   },
+   {
+    "name": "Stomp",
+    "entries": [
+     "{@atkr m} {@hit 13} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) Bludgeoning damage."
+    ]
+   },
+   {
+    "name": "Tail",
+    "entries": [
+     "{@atkr m} {@hit 13} to hit, reach 15 ft., one target. {@h}16 ({@damage 2d8 + 7}) Bludgeoning damage."
+    ]
+   },
+   {
+    "name": "Grasping Vines {@recharge 5}",
+    "entries": [
+     "{@actSave dex} {@dc 21} Each creature of the dragon's choice within 90 feet. {@actSaveFail} 18 ({@damage 4d8}) Piercing damage and the target has the {@condition Grappled|XPHB} and {@condition Restrained|XPHB} conditions (escape {@dc 19}). While {@condition Restrained|XPHB}, a target takes 18 ({@damage 4d8}) Piercing damage at the start of each of its turns. {@actSaveSuccess} Half damage only."
+    ]
+   },
+   {
+    "name": "Fungal Presence",
+    "entries": [
+     "{@actSave dex} {@dc 19} All creatures in a 60-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSaveFail} 16 ({@damage 3d10}) Poison and 16 ({@damage 3d10}) Necrotic damage and gains a level of {@condition Corruption|FGoFD24}. {@actSaveSuccess} Half damage only. If a target's saving throw is successful, the target is immune to this dragon's Fungal Floral Presence for the next 24 hours."
+    ]
+   }
+  ],
+  "traitTags": [
+   "Fey Ancestry",
+   "Magic Resistance",
+   "Regeneration"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "P",
+   "B",
+   "I",
+   "Y"
+  ],
+  "miscTags": [
+   "MW",
+   "RCH",
+   "AOE"
+  ],
+  "conditionInflict": [
+   "grappled",
+   "restrained"
+  ],
+  "savingThrowForced": [
+   "constitution",
+   "dexterity"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Corrupted_Wisteria_Dragon.webp"
+  },
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -55806,6 +57205,110 @@
     }
    ]
   }
+ },
+ {
+  "name": "Dandelion Dragon",
+  "size": [
+   "T"
+  ],
+  "group": [
+   "Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "A"
+  ],
+  "ac": [
+   12
+  ],
+  "hp": {
+   "formula": "9d4 + 9",
+   "average": 31
+  },
+  "speed": {
+   "walk": 15,
+   "fly": 30
+  },
+  "str": 3,
+  "dex": 15,
+  "con": 13,
+  "int": 6,
+  "wis": 11,
+  "cha": 12,
+  "save": {
+   "dex": "+2",
+   "con": "+1",
+   "int": "-2",
+   "wis": "+0",
+   "cha": "+1"
+  },
+  "skill": {
+   "perception": "+2",
+   "stealth": "+4"
+  },
+  "passive": 12,
+  "languages": [
+   "understands Common and Draconic but can't speak"
+  ],
+  "languageTags": [
+   "C",
+   "DR",
+   "CS"
+  ],
+  "cr": "1/4",
+  "trait": [
+   {
+    "name": "Temporal Sensitivity",
+    "entries": [
+     "The dragon has {@variantrule Advantage|XPHB} on {@variantrule Initiative|XPHB} rolls and can choose to reroll its {@variantrule Initiative|XPHB} at the start of each round. If it rerolls, it must use the new result."
+    ]
+   },
+   {
+    "name": "Time Acceleration (1/Day)",
+    "entries": [
+     "The dragon takes an additional action on its turn."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The dragon makes two bite attacks."
+    ]
+   },
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) Piercing damage, and the target suffers an itchy rash for the next {@dice 1d4} hours. While afflicted in this way, the target has {@variantrule Disadvantage|XPHB} on Dexterity checks and saving throws. A successful {@dc 11} Wisdom check with an herbalism kit ends the effect."
+    ]
+   }
+  ],
+  "bonus": [
+   {
+    "name": "Interplanar Jaunt",
+    "entries": [
+     "The dragon magically shifts from the Material Plane to another plane of existence of its choice, or vice versa."
+    ]
+   }
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "P"
+  ],
+  "miscTags": [
+   "MW"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Dandelion_Dragon.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
  },
  {
   "name": "Dani Jenkin",
@@ -89738,6 +91241,119 @@
   "hasFluffImages": true
  },
  {
+  "name": "Florivore",
+  "size": [
+   "T"
+  ],
+  "type": "monstrosity",
+  "source": "FGoFD24",
+  "alignment": [
+   "U"
+  ],
+  "ac": [
+   16
+  ],
+  "hp": {
+   "formula": "5d4 + 15",
+   "average": 27
+  },
+  "speed": {
+   "walk": 30,
+   "swim": 40
+  },
+  "str": 17,
+  "dex": 16,
+  "con": 16,
+  "int": 4,
+  "wis": 10,
+  "cha": 5,
+  "skill": {
+   "stealth": "+5"
+  },
+  "resist": [
+   "bludgeoning",
+   "piercing",
+   "slashing"
+  ],
+  "immune": [
+   "acid",
+   "poison"
+  ],
+  "conditionImmune": [
+   "poisoned"
+  ],
+  "senses": [
+   "darkvision 60 ft.",
+   "blindsight 10 ft."
+  ],
+  "senseTags": [
+   "D",
+   "B"
+  ],
+  "passive": 10,
+  "cr": "2",
+  "trait": [
+   {
+    "name": "Amphibious",
+    "entries": [
+     "The florivore can breathe air and water."
+    ]
+   },
+   {
+    "name": "Damage Transfer",
+    "entries": [
+     "While attached to a creature, the florivore takes only half the damage dealt to it (rounded down), and that creature takes the other half."
+    ]
+   },
+   {
+    "name": "Floral Pest",
+    "entries": [
+     "The florivore's attacks against floral dragons and plants ignore damage {@variantrule Resistance|XPHB|Resistances}."
+    ]
+   },
+   {
+    "name": "Sap Sucker",
+    "entries": [
+     "Each time the florivore hits a floral dragon or plant with its bite attack, the florivore regains 2 ({@damage 1d4}) {@variantrule Hit Points|XPHB}."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 5} to hit, reach 10 ft., one target. {@h}5 ({@damage 1d4 + 3}) Piercing damage."
+    ]
+   },
+   {
+    "name": "Dig In",
+    "entries": [
+     "Using its sharp claws, the florivore digs into the foliage or skin of a creature. {@actSave con} {@dc 15} One creature within 5 feet. Floral dragons and plants have {@variantrule Disadvantage|XPHB} on this saving throw. {@actSaveFail} 3 ({@damage 1d6}) Piercing damage and the florivore becomes attached to the target. While attached, the florivore can make bite attacks only against the target and has {@variantrule Advantage|XPHB} on the attack roll. The florivore can detach itself by spending 5 feet of its movement. A creature, including the target, can use its action to detach the florivore by succeeding on a {@dc 15} Strength check."
+    ]
+   }
+  ],
+  "traitTags": [
+   "Amphibious"
+  ],
+  "damageTags": [
+   "P"
+  ],
+  "miscTags": [
+   "MW",
+   "RCH"
+  ],
+  "savingThrowForced": [
+   "constitution"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Florivore.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Flutterflesh",
   "source": "ToB1-2023",
   "page": 189,
@@ -109905,6 +111521,82 @@
   "hasFluffImages": true
  },
  {
+  "name": "Greater Aconite Dragon",
+  "group": [
+   "Floral Dragon"
+  ],
+  "source": "FGoFD24",
+  "_copy": {
+   "name": "Aconite Dragon",
+   "source": "FGoFD24",
+   "_mod": {
+    "action": [
+     {
+      "mode": "replaceArr",
+      "replace": "Multiattack",
+      "items": [
+       {
+        "name": "Multiattack",
+        "entries": [
+         "The dragon can use its Bioluminescent Floral Presence and make three Bite attacks."
+        ]
+       }
+      ]
+     },
+     {
+      "mode": "replaceArr",
+      "replace": "Bite",
+      "items": [
+       {
+        "name": "Bite",
+        "entries": [
+         "{@atkr m} {@hit 7} to hit, reach 5 ft., one target. {@h}21 ({@damage 3d10 + 5}) Piercing damage plus 4 ({@damage 1d8}) Poison damage and the target must succeed on a {@dc 15} Constitution saving throw or take 4 ({@damage 1d8}) Poison damage at the start of each of its turns until it or another creature uses an action to wipe the poison away."
+        ]
+       }
+      ]
+     }
+    ],
+    "trait": [
+     {
+      "mode": "appendArr",
+      "items": [
+       {
+        "name": "Keen Sight",
+        "entries": [
+         "The dragon has {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception|XPHB}) checks that rely on sight."
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "_preserve": {
+    "legendaryGroup": true
+   }
+  },
+  "size": [
+   "H"
+  ],
+  "hp": {
+   "formula": "20d12 + 60",
+   "average": 190
+  },
+  "cr": "11",
+  "traitTags": [
+   "Ambusher",
+   "Keen Senses",
+   "Legendary Resistances",
+   "Spider Climb"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Greater_Aconite_Dragon.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Greater Brood Chrysalis",
   "group": [
    "The Brood"
@@ -119611,6 +121303,114 @@
    ]
   },
   "hasFluff": true
+ },
+ {
+  "name": "Heliconia Dragon",
+  "size": [
+   "S"
+  ],
+  "group": [
+   "Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "N",
+   "G"
+  ],
+  "alignmentPrefix": "typically ",
+  "ac": [
+   13
+  ],
+  "hp": {
+   "formula": "10d6 + 10",
+   "average": 45
+  },
+  "speed": {
+   "walk": 30,
+   "fly": 40
+  },
+  "str": 4,
+  "dex": 15,
+  "con": 12,
+  "int": 9,
+  "wis": 14,
+  "cha": 17,
+  "skill": {
+   "perception": "+4",
+   "performance": "+7"
+  },
+  "conditionImmune": [
+   "charmed"
+  ],
+  "passive": 14,
+  "languages": [
+   "Draconic"
+  ],
+  "languageTags": [
+   "DR"
+  ],
+  "cr": "3",
+  "trait": [
+   {
+    "name": "Flyby",
+    "entries": [
+     "The dragon doesn't provoke {@action Opportunity Attack|XPHB|Opportunity Attacks} when it flies out of an enemy's reach."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The dragon makes three attacks: two with its beak and one with its talons."
+    ]
+   },
+   {
+    "name": "Beak",
+    "entries": [
+     "{@atkr m} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) Piercing damage."
+    ]
+   },
+   {
+    "name": "Talons",
+    "entries": [
+     "{@atkr m} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) Slashing damage."
+    ]
+   },
+   {
+    "name": "Charming Song (2/Day)",
+    "entries": [
+     "{@actSave wis} {@dc 13} Each creature within 60 feet of the dragon that can hear it. {@actSaveFail} The target has the {@condition Charmed|XPHB} condition for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    ]
+   }
+  ],
+  "traitTags": [
+   "Flyby"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "P",
+   "S"
+  ],
+  "miscTags": [
+   "MW"
+  ],
+  "conditionInflict": [
+   "charmed"
+  ],
+  "savingThrowForced": [
+   "wisdom"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Heliconia_Dragon.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
  },
  {
   "name": "Hellhound",
@@ -129545,6 +131345,138 @@
   ]
  },
  {
+  "name": "Hydrangea Dragon",
+  "size": [
+   "H"
+  ],
+  "group": [
+   "Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "N",
+   "C",
+   "G",
+   "E"
+  ],
+  "ac": [
+   14
+  ],
+  "hp": {
+   "formula": "13d12 + 39",
+   "average": 123
+  },
+  "speed": {
+   "walk": 40,
+   "climb": 40
+  },
+  "str": 17,
+  "dex": 14,
+  "con": 16,
+  "int": 8,
+  "wis": 16,
+  "cha": 14,
+  "save": {
+   "str": "+6",
+   "dex": "+5"
+  },
+  "skill": {
+   "insight": "+6",
+   "perception": "+6"
+  },
+  "resist": [
+   "acid",
+   "bludgeoning",
+   "piercing",
+   "slashing"
+  ],
+  "vulnerable": [
+   "poison"
+  ],
+  "senses": [
+   "tremorsense 30 ft."
+  ],
+  "senseTags": [
+   "T"
+  ],
+  "passive": 16,
+  "languages": [
+   "Draconic"
+  ],
+  "languageTags": [
+   "DR"
+  ],
+  "cr": "7",
+  "trait": [
+   {
+    "name": "Charge",
+    "entries": [
+     "If the dragon moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 7 ({@damage 2d6}) Piercing damage. If the target is a creature, it must succeed on a {@dc 14} Strength saving throw or be pushed up to 10 feet away and knocked {@condition Prone|XPHB}."
+    ]
+   },
+   {
+    "name": "Environmental Senses",
+    "entries": [
+     "The dragon has {@variantrule Advantage|XPHB} on {@skill Perception|XPHB} checks and can sense the presence and precise location of pollutants, poisons, and poisonous creatures within 1 mile of it."
+    ]
+   },
+   {
+    "name": "Nimble Climber",
+    "entries": [
+     "The dragon does not provoke {@action Opportunity Attack|XPHB|Opportunity Attacks} when it moves out of a {@variantrule Hostile [Attitude]|XPHB|Hostile} creature's reach using its {@variantrule Climb Speed|XPHB}."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The dragon makes two attacks, one with its gore attack and one with its tail."
+    ]
+   },
+   {
+    "name": "Gore",
+    "entries": [
+     "{@atkr m} {@hit 6} to hit, reach 5 ft., one target. {@h}21 ({@damage 4d8 + 3}) Piercing damage."
+    ]
+   },
+   {
+    "name": "Tail",
+    "entries": [
+     "{@atkr m} {@hit 6} to hit, reach 10 ft., one target. {@h}22 ({@damage 3d12 + 3}) Bludgeoning damage."
+    ]
+   }
+  ],
+  "traitTags": [
+   "Charge"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "P",
+   "B"
+  ],
+  "miscTags": [
+   "MW",
+   "RCH"
+  ],
+  "conditionInflict": [
+   "prone"
+  ],
+  "savingThrowForced": [
+   "strength"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Hydrangea_Dragon.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Hyphan",
   "source": "HelianasGuidetoMonsterHunting",
   "page": 237,
@@ -134943,6 +136875,114 @@
   "savingThrowForced": [
    "strength"
   ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Jade Vine Dragon",
+  "size": [
+   "T"
+  ],
+  "group": [
+   "Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "U"
+  ],
+  "ac": [
+   14
+  ],
+  "hp": {
+   "formula": "6d4 + 6",
+   "average": 21
+  },
+  "speed": {
+   "walk": 15,
+   "climb": 20,
+   "fly": 50
+  },
+  "str": 3,
+  "dex": 19,
+  "con": 13,
+  "int": 3,
+  "wis": 14,
+  "cha": 12,
+  "senses": [
+   "blindsight 60 ft.",
+   "darkvision 60 ft."
+  ],
+  "senseTags": [
+   "B",
+   "D"
+  ],
+  "passive": 12,
+  "cr": "2",
+  "trait": [
+   {
+    "name": "Echolocation",
+    "entries": [
+     "The dragon can't use its {@sense Blindsight|XPHB} while it has the {@condition Deafened|XPHB} condition."
+    ]
+   },
+   {
+    "name": "Floral Appearance",
+    "entries": [
+     "While the dragon remains motionless, it is indistinguishable from ordinary jade vine plants. It has {@variantrule Advantage|XPHB} on Dexterity ({@skill Stealth|XPHB}) checks made to hide in areas covered in similar plants."
+    ]
+   },
+   {
+    "name": "Keen Senses",
+    "entries": [
+     "The dragon has {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception|XPHB}) checks that rely on hearing."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) Piercing damage."
+    ]
+   },
+   {
+    "name": "Luminescence {@recharge 6}",
+    "entries": [
+     "The dragon emits a bright glow. {@actSave con} {@dc 13} Each creature within 60 feet that can see the dragon. {@actSaveFail} Target takes 2 ({@damage 1d4}) Radiant damage and has the {@condition Blinded|XPHB} condition until the start of the dragon's next turn. {@actSaveSuccess} Half damage only. {@actSaveSuccessOrFail} The dragon moves up to half its speed."
+    ]
+   }
+  ],
+  "bonus": [
+   {
+    "name": "Nimble Escape",
+    "entries": [
+     "The dragon takes the {@action Dash|XPHB}, {@action Disengage|XPHB}, or {@action Hide|XPHB} action."
+    ]
+   }
+  ],
+  "traitTags": [
+   "False Appearance",
+   "Keen Senses"
+  ],
+  "damageTags": [
+   "P",
+   "R"
+  ],
+  "miscTags": [
+   "MW"
+  ],
+  "conditionInflict": [
+   "blinded"
+  ],
+  "savingThrowForced": [
+   "constitution"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Jade_Vine_Dragon.webp"
+  },
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -147272,6 +149312,176 @@
   "hasFluffImages": true
  },
  {
+  "name": "Lamium Dragon",
+  "size": [
+   "G"
+  ],
+  "group": [
+   "Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "A"
+  ],
+  "ac": [
+   16
+  ],
+  "hp": {
+   "formula": "16d20 + 96",
+   "average": 264
+  },
+  "speed": {
+   "walk": 20,
+   "swim": 60
+  },
+  "str": 28,
+  "dex": 8,
+  "con": 22,
+  "int": 18,
+  "wis": 23,
+  "cha": 19,
+  "save": {
+   "dex": "+4",
+   "con": "+11",
+   "int": "+9",
+   "wis": "+11"
+  },
+  "skill": {
+   "history": "+9",
+   "insight": "+11",
+   "perception": "+16"
+  },
+  "resist": [
+   "bludgeoning",
+   "piercing",
+   "slashing"
+  ],
+  "conditionImmune": [
+   "blinded",
+   "deafened"
+  ],
+  "senses": [
+   "blindsight 120 ft. (blind beyond this radius)"
+  ],
+  "senseTags": [
+   "B"
+  ],
+  "passive": 26,
+  "languages": [
+   "Draconic",
+   "plus any three languages"
+  ],
+  "languageTags": [
+   "DR",
+   "X"
+  ],
+  "cr": "15",
+  "trait": [
+   {
+    "name": "Hold Breath",
+    "entries": [
+     "The dragon can hold its breath for 1 hour."
+    ]
+   },
+   {
+    "name": "Sunlight Dependency",
+    "entries": [
+     "The dragon gains a level of {@condition Exhaustion|XPHB} every 5 days it isn't exposed to sunlight. A level of {@condition Exhaustion|XPHB} gained this way is removed if the dragon is exposed to direct sunlight for 5 hours."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The dragon can use its Aquatic Floral Presence or Greater Heart Sight. It then makes two attacks: one with its bite and one with its tail."
+    ]
+   },
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 14} to hit, reach 15 ft., one target. {@h}20 ({@damage 2d10 + 9}) Piercing damage."
+    ]
+   },
+   {
+    "name": "Tail",
+    "entries": [
+     "{@atkr m} {@hit 14} to hit, reach 20 ft., one target. {@h}22 ({@damage 2d12 + 9}) Bludgeoning damage."
+    ]
+   },
+   {
+    "name": "Aquatic Floral Presence",
+    "entries": [
+     "Each creature of the dragon's choice that is within 120 feet of it is cured of the {@condition Poisoned|XPHB} condition and gains 11 ({@damage 2d10}) {@variantrule Temporary Hit Points|XPHB} that last for 1 minute. As long as these {@variantrule Temporary Hit Points|XPHB} remain, the target can't be {@condition Poisoned|XPHB} and can breathe water. Once the effect ends for it, the creature is immune to the dragon's Floral Presence for the next 24 hours."
+    ]
+   },
+   {
+    "name": "Greater Heart Sight",
+    "entries": [
+     "{@actSave cha} {@dc 16} One creature in range of its {@sense Blindsight|XPHB}. {@actSaveFail} The dragon magically learns the target's current emotional state and its alignment. {@actSaveSuccess} Emotional state only. Celestials, fiends, and undead automatically fail this saving throw."
+    ]
+   },
+   {
+    "name": "Emotion Wave {@recharge 5}",
+    "entries": [
+     "The dragon uses one of the following emotion waves:",
+     {
+      "type": "list",
+      "style": "list-hang-notitle",
+      "items": [
+       {
+        "type": "item",
+        "name": "Negative Wave",
+        "entries": [
+         "The dragon releases a blast of violent psychic energy. {@actSave wis} {@dc 19} Each creature in a 60-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSaveFail} 52 ({@damage 15d6}) Psychic damage. A creature that fails its saving throw by 5 or more is {@condition Frightened|XPHB} of the dragon until the end of its next turn. {@actSaveSuccess} Half damage only."
+        ]
+       },
+       {
+        "type": "item",
+        "name": "Positive Wave",
+        "entries": [
+         "The dragon releases a burst of blissful psychic energy. {@actSave wis} {@dc 19} Each creature in a 60-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSaveFail} Target has {@condition Incapacitated|XPHB} Condition for 10 minutes. This effect ends early for a creature if a target takes damage. An affected creature can repeat its saving throw at the end of each of its turns, ending the effect for itself on a success."
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "traitTags": [
+   "Hold Breath"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "P",
+   "B",
+   "Y"
+  ],
+  "miscTags": [
+   "MW",
+   "RCH",
+   "AOE"
+  ],
+  "conditionInflict": [
+   "frightened",
+   "incapacitated"
+  ],
+  "savingThrowForced": [
+   "charisma",
+   "wisdom"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Lamium_Dragon.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Lamplighter",
   "source": "DoDkSearchSmugglersSecrets",
   "page": 36,
@@ -147697,6 +149907,120 @@
   "tokenHref": {
    "type": "external",
    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Creatures/Tokens/Lanternback_Turtle.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Larkspur Dragon",
+  "size": [
+   "L"
+  ],
+  "group": [
+   "Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "N",
+   "C",
+   "G",
+   "E"
+  ],
+  "ac": [
+   15
+  ],
+  "hp": {
+   "formula": "12d10 + 24",
+   "average": 90
+  },
+  "speed": {
+   "walk": 40,
+   "fly": 20
+  },
+  "str": 16,
+  "dex": 17,
+  "con": 15,
+  "int": 7,
+  "wis": 10,
+  "cha": 9,
+  "save": {
+   "str": "+6",
+   "dex": "+6"
+  },
+  "skill": {
+   "intimidation": "+5",
+   "perception": "+3"
+  },
+  "immune": [
+   "poison"
+  ],
+  "conditionImmune": [
+   "poisoned"
+  ],
+  "passive": 13,
+  "languages": [
+   "Draconic",
+   "understands Common can't speak it"
+  ],
+  "languageTags": [
+   "DR",
+   "C",
+   "CS"
+  ],
+  "cr": "5",
+  "trait": [
+   {
+    "name": "Poisonous Petals",
+    "entries": [
+     "A creature that touches the dragon or hits it with a melee attack while within 5 feet of it takes 7 ({@damage 2d6}) Poison damage."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The dragon makes two attacks: one with its beak and one with its talons."
+    ]
+   },
+   {
+    "name": "Beak",
+    "entries": [
+     "{@atkr m} {@hit 6} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d8 + 3}) Piercing damage plus 5 ({@damage 1d10}) Poison damage."
+    ]
+   },
+   {
+    "name": "Talons",
+    "entries": [
+     "{@atkr m} {@hit 6} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d6 + 3}) Slashing damage plus 5 ({@damage 1d10}) Poison damage."
+    ]
+   }
+  ],
+  "bonus": [
+   {
+    "name": "Fleet of Foot",
+    "entries": [
+     "The dragon take the {@action Dash|XPHB} action."
+    ]
+   }
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "P",
+   "I",
+   "S"
+  ],
+  "miscTags": [
+   "MW",
+   "RCH"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Larkspur_Dragon.webp"
   },
   "hasFluff": true,
   "hasFluffImages": true
@@ -162334,6 +164658,139 @@
   "hasFluffImages": true
  },
  {
+  "name": "Magnolia Dragon",
+  "size": [
+   "G"
+  ],
+  "alignmentPrefix": "typically ",
+  "group": [
+   "Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "N",
+   "G"
+  ],
+  "ac": [
+   16
+  ],
+  "hp": {
+   "formula": "18d10 + 36",
+   "average": 135
+  },
+  "speed": {
+   "walk": 30,
+   "fly": 15
+  },
+  "str": 18,
+  "dex": 8,
+  "con": 15,
+  "int": 9,
+  "wis": 14,
+  "cha": 13,
+  "save": {
+   "str": "+7",
+   "con": "+5"
+  },
+  "skill": {
+   "insight": "+5",
+   "perception": "+5"
+  },
+  "resist": [
+   "fire",
+   "force",
+   "cold",
+   "thunder",
+   "bludgeoning",
+   "slashing"
+  ],
+  "senses": [
+   "darkvision 60 ft."
+  ],
+  "senseTags": [
+   "D"
+  ],
+  "passive": 15,
+  "languages": [
+   "understands Common and Draconic but can't speak"
+  ],
+  "languageTags": [
+   "C",
+   "DR",
+   "CS"
+  ],
+  "cr": "8",
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The dragon makes three attacks: one with its bite and two with its claws."
+    ]
+   },
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 7} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d10 +4}) Piercing damage."
+    ]
+   },
+   {
+    "name": "Claw",
+    "entries": [
+     "{@atkr m} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) Slashing damage."
+    ]
+   },
+   {
+    "name": "Tail Strike",
+    "entries": [
+     "The dragon uses its tail to attempt to knock another creature off balance. {@actSave str} {@dc 15} One Large or smaller creature within 10 feet. {@actSaveFail} 13 ({@damage 2d8 + 4}) Bludgeoning damage and target has the {@condition Prone|XPHB} condition. {@actSaveSuccess} Half damage only."
+    ]
+   }
+  ],
+  "bonus": [
+   {
+    "name": "Distract (2/Day)",
+    "entries": [
+     "The dragon puffs up and flutters its petals. {@actSave wis} Each {@variantrule Hostile [Attitude]|XPHB|Hostile} creature of the dragon's choice within 30 feet. {@actSaveFail} The target has {@variantrule Disadvantage|XPHB} on all attack rolls made against the dragon and its allies until the start of the dragon's next turn."
+    ]
+   }
+  ],
+  "reaction": [
+   {
+    "name": "Petal Guard (3/Day)",
+    "entries": [
+     "{@actTrigger} When an attack roll is made against a creature within 10 feet of the dragon. {@actResponse} The dragon can spread its wings as a protective shield, granting the creature a +5 bonus to AC until the start of the dragon's next turn."
+    ]
+   }
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "P",
+   "S",
+   "B"
+  ],
+  "miscTags": [
+   "MW",
+   "RCH"
+  ],
+  "conditionInflict": [
+   "prone"
+  ],
+  "savingThrowForced": [
+   "strength",
+   "wisdom"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Magnolia_Dragon.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Magpie of Omens",
   "source": "CrookedMoon24",
   "page": 588,
@@ -163967,6 +166424,194 @@
   "savingThrowForced": [
    "constitution"
   ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Manchineel Dragon",
+  "size": [
+   "G"
+  ],
+  "group": [
+   "Good & Bad Apples",
+   "Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "C",
+   "E"
+  ],
+  "ac": [
+   20
+  ],
+  "hp": {
+   "formula": "18d20 + 162",
+   "average": 351
+  },
+  "speed": {
+   "walk": 40,
+   "burrow": 40,
+   "climb": 40
+  },
+  "str": 30,
+  "dex": 10,
+  "con": 28,
+  "int": 18,
+  "wis": 16,
+  "cha": 23,
+  "save": {
+   "str": "+10",
+   "dex": "+7",
+   "con": "+16",
+   "int": "+4",
+   "wis": "+10",
+   "cha": "+13"
+  },
+  "skill": {
+   "intimidation": "+13",
+   "perception": "+17"
+  },
+  "resist": [
+   "fire",
+   "necrotic"
+  ],
+  "immune": [
+   "acid",
+   "poison"
+  ],
+  "conditionImmune": [
+   "charmed",
+   "frightened",
+   "poisoned"
+  ],
+  "senses": [
+   "blindsight 60 ft.",
+   "darkvision 120 ft."
+  ],
+  "senseTags": [
+   "B",
+   "D"
+  ],
+  "passive": 27,
+  "languages": [
+   "Common",
+   "Draconic"
+  ],
+  "languageTags": [
+   "C",
+   "DR"
+  ],
+  "cr": "25",
+  "trait": [
+   {
+    "name": "Deadly Chemicals",
+    "entries": [
+     "When the dragon takes Fire damage, the flames ignite the toxins coating its scales creating a 40-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} of poisonous smoke centered on the dragon that remains until the end of the dragon's next turn. Each creature in that area must make a {@dc 25} Constitution saving throw. On a failure, that creature is {@condition Poisoned|XPHB} and {@condition Blinded|XPHB} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    ]
+   },
+   {
+    "name": "Legendary Resistance (3/Day)",
+    "entries": [
+     "If the dragon fails a saving throw, it can choose to succeed instead."
+    ]
+   },
+   {
+    "name": "Toxic Sap",
+    "entries": [
+     "A creature that touches the dragon or hits it with a melee attack while within 5 feet of it takes 10 ({@damage 3d6}) Acid damage."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The dragon can use its Vengeful Floral Presence. It then makes three attacks: one with its bite and two with its claws."
+    ]
+   },
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 18} to hit, reach 15 ft., one target. {@h}32 ({@damage 4d10 + 10}) Piercing damage plus 14 ({@damage 4d6}) Acid damage."
+    ]
+   },
+   {
+    "name": "Claws",
+    "entries": [
+     "{@atkr m} {@hit 18} to hit, reach 10 ft., one target. {@h}24 ({@damage 4d6 + 10}) Slashing damage."
+    ]
+   },
+   {
+    "name": "Tail",
+    "entries": [
+     "{@atkr m} {@hit 18} to hit, reach 20 ft., one target. {@h}28 ({@damage 4d8 + 10}) Bludgeoning damage."
+    ]
+   },
+   {
+    "name": "Vengeful Floral Presence",
+    "entries": [
+     "The dragon enters a battle frenzy, driven by the ages-old fury inside it. {@actSave wis} {@dc 21} Each creature of the dragon's choice within 120 feet. {@actSaveFail} A creature is vulnerable to all damage from the dragon's attacks, and makes attack rolls against the dragon with {@variantrule Advantage|XPHB}. These effects last for 1 minute. {@actSaveSuccessOrFail} A creature can repeat the saving throw at the end of each of its turns, ending the effects on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Vengeful Floral Presence for the next 24 hours."
+    ]
+   }
+  ],
+  "legendaryActions": 3,
+  "legendary": [
+   {
+    "name": "Lock Horns",
+    "entries": [
+     "The dragon chooses one creature within 15 feet of it that it can see. The target must make a contested Strength ({@skill Athletics|XPHB}) check against the dragon's Strength ({@skill Athletics|XPHB}) check. If the dragon wins the contest, the target is pushed back up to 15 feet away from it to an unoccupied space. If the dragon wins the contest by 10 or more, the creature is sent flying and lands {@condition Prone|XPHB} in the unoccupied space. If the target wins the contest, it can push the dragon up to 15 feet away from it to an unoccupied space."
+    ]
+   },
+   {
+    "name": "Tail",
+    "entries": [
+     "The dragon makes a tail attack."
+    ]
+   },
+   {
+    "name": "Rampage (Costs 2 Actions)",
+    "entries": [
+     "The dragon moves up to its {@variantrule Speed|XPHB} in a straight line without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks}. Each creature in its path is targeted once by the following effect. {@actSave dex} {@dc 26}. {@actSaveFail} 19 ({@damage 3d12}) Bludgeoning damage and has the {@condition Stunned|XPHB} condition until the start of the dragon's next turn."
+    ]
+   }
+  ],
+  "legendaryGroup": {
+   "name": "Manchineel Dragon",
+   "source": "FGoFD24"
+  },
+  "traitTags": [
+   "Legendary Resistances"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "P",
+   "A",
+   "S",
+   "B"
+  ],
+  "miscTags": [
+   "MW",
+   "RCH"
+  ],
+  "conditionInflict": [
+   "poisoned",
+   "blinded",
+   "prone",
+   "stunned"
+  ],
+  "savingThrowForced": [
+   "constitution",
+   "wisdom",
+   "dexterity"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Manchineel_Dragon.webp"
+  },
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -176811,6 +179456,210 @@
   ]
  },
  {
+  "name": "Mushroom Dragon",
+  "size": [
+   "G"
+  ],
+  "group": [
+   "Corrupted Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "N",
+   "E"
+  ],
+  "ac": [
+   19
+  ],
+  "hp": {
+   "formula": "20d20 + 140",
+   "average": 350
+  },
+  "speed": {
+   "walk": 60,
+   "burrow": 60,
+   "fly": 20
+  },
+  "str": 27,
+  "dex": 14,
+  "con": 25,
+  "int": 3,
+  "wis": 12,
+  "cha": 4,
+  "save": {
+   "dex": "+9",
+   "con": "+14",
+   "int": "+3",
+   "cha": "+3"
+  },
+  "skill": {
+   "perception": "+8"
+  },
+  "resist": [
+   {
+    "special": "damage from spells"
+   },
+   "bludgeoning",
+   "piercing",
+   "slashing"
+  ],
+  "immune": [
+   "poison"
+  ],
+  "conditionImmune": [
+   "blinded",
+   "charmed",
+   "deafened",
+   "exhaustion",
+   "frightened",
+   "petrified",
+   "poisoned"
+  ],
+  "senses": [
+   "blindsight 30 ft. (blind beyond this radius)"
+  ],
+  "senseTags": [
+   "B"
+  ],
+  "passive": 18,
+  "cr": "21",
+  "trait": [
+   {
+    "name": "Legendary Resistance (3/Day)",
+    "entries": [
+     "If the dragon fails a saving throw, it can choose to succeed instead."
+    ]
+   },
+   {
+    "name": "Magic Resistance",
+    "entries": [
+     "The dragon has {@variantrule Advantage|XPHB} on saving throws against spells and other magical effects."
+    ]
+   },
+   {
+    "name": "Mycelial Sight",
+    "entries": [
+     "While the dragon is within 100 feet of the pleurossa network, its {@sense Blindsight|XPHB} extends as far as the network reaches and it is immune to the {@condition Blinded|XPHB} condition."
+    ]
+   },
+   {
+    "name": "Toxic Spores",
+    "entries": [
+     "A creature that starts its turn within 20 feet of the dragon must succeed on a {@dc 22} Constitution Saving Throw or gain one level of {@condition Corruption|FGoFD24}. Creatures that don't need to breathe are immune to this effect."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The dragon can use its Overwhelming Spores. It then makes three attacks: one with its bite, one with its corrupting claws, and one with its tail."
+    ]
+   },
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 15} to hit, reach 10 ft., one target. {@h}34 ({@damage 4d12 +8}) Piercing damage."
+    ]
+   },
+   {
+    "name": "Corrupting Claws",
+    "entries": [
+     "{@atkr m} {@hit 15} to hit, reach 15 ft., one target. {@h}26 ({@damage 4d8 + 8}) Slashing damage, and the target must succeed on a {@dc 22} Constitution saving throw or gain one level of {@condition Corruption|FGoFD24}. Floral dragons have {@variantrule Disadvantage|XPHB} on the save."
+    ]
+   },
+   {
+    "name": "Tail",
+    "entries": [
+     "{@atkr m} {@hit 15} to hit, reach 10 ft., one target. {@h}22 ({@damage 4d6 + 8}) Bludgeoning damage. If the target is a creature, it must succeed on a {@dc 23} Strength saving throw or be knocked {@condition Prone|XPHB}."
+    ]
+   },
+   {
+    "name": "Overwhelming Spores",
+    "entries": [
+     "The dragon releases a cloud of spores. {@actSave wis} {@dc 16} Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it. {@actSaveFail} Target has the {@condition Charmed|XPHB} condition for 1 minute. On its turn, a {@condition Charmed|XPHB} creature must move up to its {@variantrule Speed|XPHB} toward the dragon by the most direct route possible. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Overwhelming Spores for the next 24 hours."
+    ]
+   },
+   {
+    "name": "Corrupting Fungal Presence {@recharge 5}",
+    "entries": [
+     "The dragon exhales putrid spores. {@actSave dex} {@dc 22} Each creature in a 120-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSaveFail} 32 ({@damage 5d12}) Poison damage and 32 ({@damage 5d12}) Necrotic damage and gains a level of {@condition Corruption|FGoFD24}. {@actSaveSuccess} Half damage only."
+    ]
+   }
+  ],
+  "reaction": [
+   {
+    "name": "Spore Sacrifice",
+    "entries": [
+     "{@actTrigger} When the dragon would take damage. {@actResponse} It can use its reaction to halve the damage and force a creature of its choice within 300 feet of the dragon and has 3 or more levels of {@condition Corruption|FGoFD24} to take the other half."
+    ]
+   }
+  ],
+  "legendaryActions": 3,
+  "legendary": [
+   {
+    "name": "Detect",
+    "entries": [
+     "The dragon makes a Wisdom ({@skill Perception|XPHB}) check."
+    ]
+   },
+   {
+    "name": "Move",
+    "entries": [
+     "The dragon moves up to half its {@variantrule Speed|XPHB}."
+    ]
+   },
+   {
+    "name": "Tail Attack",
+    "entries": [
+     "The dragon makes a tail attack."
+    ]
+   }
+  ],
+  "legendaryGroup": {
+   "name": "The Pleurossa",
+   "source": "FGoFD24"
+  },
+  "traitTags": [
+   "Legendary Resistances",
+   "Magic Resistance",
+   "Magic Weapons"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "P",
+   "S",
+   "B",
+   "I",
+   "Y"
+  ],
+  "miscTags": [
+   "MW",
+   "RCH",
+   "AOE"
+  ],
+  "conditionInflict": [
+   "prone",
+   "charmed"
+  ],
+  "savingThrowForced": [
+   "constitution",
+   "strength",
+   "wisdom",
+   "dexterity"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Mushroom_Dragon.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Mutagenist",
   "source": "MonstersOfDrakkenheim",
   "page": 185,
@@ -187579,6 +190428,157 @@
   "hasFluffImages": true
  },
  {
+  "name": "Ornithogalum Dragon",
+  "size": [
+   "H"
+  ],
+  "group": [
+   "Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "C",
+   "N"
+  ],
+  "alignmentPrefix": "typically ",
+  "ac": [
+   18
+  ],
+  "hp": {
+   "formula": "18d12 + 108",
+   "average": 225
+  },
+  "speed": {
+   "walk": 30,
+   "fly": 120
+  },
+  "str": 23,
+  "dex": 13,
+  "con": 22,
+  "int": 6,
+  "wis": 10,
+  "cha": 12,
+  "save": {
+   "str": "+10",
+   "con": "+6"
+  },
+  "skill": {
+   "perception": "+5"
+  },
+  "resist": [
+   "acid",
+   "bludgeoning",
+   "force",
+   "poison",
+   "piercing",
+   "slashing"
+  ],
+  "conditionImmune": [
+   "charmed",
+   "exhaustion",
+   "frightened",
+   "poisoned"
+  ],
+  "senses": [
+   "darkvision 60 ft."
+  ],
+  "senseTags": [
+   "D"
+  ],
+  "passive": 15,
+  "languages": [
+   "understands Draconic but can't speak"
+  ],
+  "languageTags": [
+   "DR",
+   "CS"
+  ],
+  "cr": "15",
+  "trait": [
+   {
+    "name": "Aerial Agility",
+    "entries": [
+     "While flying, the dragon makes Strength and Dexterity saving throws with {@variantrule Advantage|XPHB}."
+    ]
+   },
+   {
+    "name": "Magic Resistance",
+    "entries": [
+     "The dragon has {@variantrule Advantage|XPHB} on Saving Throws against spells and other magical effects."
+    ]
+   },
+   {
+    "name": "Toxic Aura",
+    "entries": [
+     "Any creature that starts its turn within 20 feet of the dragon must succeed on a {@dc 19} Constitution saving throw or be {@condition Poisoned|XPHB} for 1 minute. An affected creature can repeat its saving throw at the end of each of its turns, ending the effect on a success."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The dragon can use its Noxious Floral Presence. It then makes four attacks: two with its claws and two with its tail. It can replace two claw attacks with its stomp."
+    ]
+   },
+   {
+    "name": "Claws",
+    "entries": [
+     "{@atkr m} {@hit 12} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) Bludgeoning damage."
+    ]
+   },
+   {
+    "name": "Tail",
+    "entries": [
+     "{@atkr m} {@hit 12} to hit, reach 15 ft., one target. {@h}15 ({@damage 2d8 + 6}) Bludgeoning damage."
+    ]
+   },
+   {
+    "name": "Stomp",
+    "entries": [
+     "The dragon slams its forefeet into the ground. {@actSave dex} {@dc 19} Each creature within 15 feet of the dragon. {@actSaveFail} The target has the {@condition Prone|XPHB} condition. {@actSaveSuccessOrFail} The ground in a 15-foot radius circle centered on the dragon becomes {@variantrule Difficult Terrain|XPHB}."
+    ]
+   },
+   {
+    "name": "Noxious Floral Presence {@recharge 5}",
+    "entries": [
+     "{@actSave con} {@dc 19} Each creature within 120 feet of the dragon. {@actSaveFail} Target gains a level of {@condition Exhaustion|XPHB}. If a target's saving throw is successful or the effect ends for it, the target is immune to this dragon's Noxious Floral Presence for the next 24 hours."
+    ]
+   }
+  ],
+  "traitTags": [
+   "Magic Resistance"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "B"
+  ],
+  "miscTags": [
+   "MW",
+   "RCH",
+   "AOE"
+  ],
+  "conditionInflict": [
+   "poisoned",
+   "prone",
+   "exhaustion"
+  ],
+  "savingThrowForced": [
+   "constitution",
+   "dexterity"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Ornithogalum_Dragon.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Orobas Devil",
   "source": "ToB1-2023",
   "page": 99,
@@ -191171,6 +194171,154 @@
    "wisdom"
   ],
   "hasFluff": true
+ },
+ {
+  "name": "Peony Dragon",
+  "size": [
+   "L"
+  ],
+  "group": [
+   "Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "A"
+  ],
+  "ac": [
+   14
+  ],
+  "hp": {
+   "formula": "18d10 + 36",
+   "average": 135
+  },
+  "speed": {
+   "walk": 30
+  },
+  "str": 17,
+  "dex": 15,
+  "con": 14,
+  "int": 6,
+  "wis": 13,
+  "cha": 8,
+  "save": {
+   "str": "+6",
+   "con": "+5"
+  },
+  "skill": {
+   "perception": "+7",
+   "stealth": "+8"
+  },
+  "resist": [
+   "poison"
+  ],
+  "conditionImmune": [
+   "poisoned"
+  ],
+  "passive": 17,
+  "languages": [
+   "understands Draconic but can't speak"
+  ],
+  "languageTags": [
+   "DR",
+   "CS"
+  ],
+  "cr": "6",
+  "trait": [
+   {
+    "name": "Ambusher",
+    "entries": [
+     "In the first round of combat, the dragon has {@variantrule Advantage|XPHB} on attack rolls against any creature it has {@status Surprised|XPHB}."
+    ]
+   },
+   {
+    "name": "Surprise Attack",
+    "entries": [
+     "If the dragon surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 ({@damage 3d6}) damage from the attack."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The dragon can use its Roaring Floral Presence. It then makes three attacks: one with its bite and two with its claws."
+    ]
+   },
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 6} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d10 + 3}) Piercing damage."
+    ]
+   },
+   {
+    "name": "Claws",
+    "entries": [
+     "{@atkr m} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) Slashing damage."
+    ]
+   },
+   {
+    "name": "Tail",
+    "entries": [
+     "{@atkr m} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) Bludgeoning damage. The target must succeed on a {@dc 14} Strength Saving Throw or be knocked {@condition Prone|XPHB}. If the target is {@condition Prone|XPHB}, the dragon can make one bite attack against it as a {@variantrule Bonus Action|XPHB}."
+    ]
+   },
+   {
+    "name": "Roaring Floral Presence",
+    "entries": [
+     "The dragon emits a mighty roar. {@actSave con} {@dc 13} Each creature within 60 feet that can hear it. {@actSaveFail} 7 ({@damage 2d6}) Thunder damage and has the {@condition Deafened|XPHB} condition for 1 minute. {@actSaveSuccess} Half damage only. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Floral Presence for the next 24 hours."
+    ]
+   }
+  ],
+  "legendaryActions": 2,
+  "legendary": [
+   {
+    "name": "Detect",
+    "entries": [
+     "The dragon makes a Wisdom ({@skill Perception|XPHB}) check."
+    ]
+   },
+   {
+    "name": "Tail Attack",
+    "entries": [
+     "The dragon makes one tail attack."
+    ]
+   }
+  ],
+  "legendaryGroup": {
+   "name": "Peony Dragon",
+   "source": "FGoFD24"
+  },
+  "traitTags": [
+   "Ambusher"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "P",
+   "S",
+   "B",
+   "T"
+  ],
+  "miscTags": [
+   "MW"
+  ],
+  "conditionInflict": [
+   "prone",
+   "deafened"
+  ],
+  "savingThrowForced": [
+   "strength",
+   "constitution"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Peony_Dragon.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
  },
  {
   "name": "Percival de Rolo",
@@ -209248,6 +212396,119 @@
   "savingThrowForcedSpell": [
    "wisdom"
   ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Rhododendron Dragon",
+  "size": [
+   "M"
+  ],
+  "group": [
+   "Children of the Wolf Tree",
+   "Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "L",
+   "N",
+   "G",
+   "E"
+  ],
+  "ac": [
+   15
+  ],
+  "hp": {
+   "formula": "6d8 + 12",
+   "average": 39
+  },
+  "speed": {
+   "walk": 30
+  },
+  "str": 15,
+  "dex": 13,
+  "con": 15,
+  "int": 10,
+  "wis": 10,
+  "cha": 8,
+  "save": {
+   "dex": "+4",
+   "con": "+4",
+   "int": "+2"
+  },
+  "skill": {
+   "intimidation": "+1",
+   "perception": "+4"
+  },
+  "senses": [
+   "blindsight 10 ft.",
+   "darkvision 60 ft."
+  ],
+  "senseTags": [
+   "B",
+   "D"
+  ],
+  "passive": 14,
+  "languages": [
+   "Draconic plus any one language"
+  ],
+  "languageTags": [
+   "DR",
+   "X"
+  ],
+  "cr": "1/2",
+  "trait": [
+   {
+    "name": "Keen Hearing and Smell",
+    "entries": [
+     "The dragon has {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception|XPHB}) checks that rely on hearing or smell."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) Piercing damage."
+    ]
+   },
+   {
+    "name": "Claws",
+    "entries": [
+     "{@atkr m} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) Slashing damage and if the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be pushed 10 feet away from the dragon and has the {@condition Prone|XPHB} condition."
+    ]
+   }
+  ],
+  "reaction": [
+   {
+    "name": "Protector",
+    "entries": [
+     "{@actTrigger} When a creature the dragon can see attacks a target other than the dragon that is within 5 feet of the dragon. {@actResponse} The dragon can impose {@variantrule Disadvantage|XPHB} on the attack roll."
+    ]
+   }
+  ],
+  "traitTags": [
+   "Keen Senses"
+  ],
+  "damageTags": [
+   "P",
+   "S"
+  ],
+  "miscTags": [
+   "MW"
+  ],
+  "conditionInflict": [
+   "prone"
+  ],
+  "savingThrowForced": [
+   "strength"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Rhododendron_Dragon.webp"
+  },
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -246757,6 +250018,192 @@
   "hasFluffImages": true
  },
  {
+  "name": "Succulent Dragon",
+  "size": [
+   "L"
+  ],
+  "group": [
+   "Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "L",
+   "N"
+  ],
+  "ac": [
+   19
+  ],
+  "hp": {
+   "formula": "10d10 + 102",
+   "average": 115
+  },
+  "speed": {
+   "walk": 40,
+   "climb": 40,
+   "fly": 80
+  },
+  "str": 23,
+  "dex": 14,
+  "con": 22,
+  "int": 11,
+  "wis": 17,
+  "cha": 16,
+  "save": {
+   "dex": "+6",
+   "con": "+10",
+   "wis": "+7",
+   "cha": "+7"
+  },
+  "skill": {
+   "nature": "+4",
+   "perception": "+11",
+   "survival": "+7"
+  },
+  "resist": [
+   "fire",
+   "lightning",
+   "bludgeoning",
+   "piercing",
+   "slashing"
+  ],
+  "senses": [
+   "blindsight 60 ft.",
+   "darkvision 120 ft."
+  ],
+  "senseTags": [
+   "B",
+   "D"
+  ],
+  "passive": 21,
+  "languages": [
+   "Draconic",
+   "plus any one language"
+  ],
+  "languageTags": [
+   "DR",
+   "X"
+  ],
+  "cr": "12",
+  "trait": [
+   {
+    "name": "Needle Hairs",
+    "entries": [
+     "A creature that touches the dragon or hits it with a melee attack while within 5 feet of it takes 6 ({@damage 1d12}) Piercing damage. This damage ignores {@variantrule Resistance|XPHB} to Piercing damage."
+    ]
+   },
+   {
+    "name": "Legendary Resistance (3/Day)",
+    "entries": [
+     "If the dragon fails a saving throw, it can choose to succeed instead."
+    ]
+   },
+   {
+    "name": "Regeneration",
+    "entries": [
+     "The dragon regains 10 {@variantrule Hit Points|XPHB} at the start of its turn. If the dragon takes Acid damage, this trait doesn't function at the start of the dragon's next turn. The dragon dies only if it starts its turn with 0 {@variantrule Hit Points|XPHB} and doesn't regenerate."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The succulent dragon can use its Bewildering Floral Presence. It then makes three attacks: one with its bite and two with its claws."
+    ]
+   },
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 10} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d10 + 6}) Piercing damage."
+    ]
+   },
+   {
+    "name": "Claws",
+    "entries": [
+     "{@atkr m} {@hit 10} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) Slashing damage."
+    ]
+   },
+   {
+    "name": "Tail",
+    "entries": [
+     "{@atkr m} {@hit 10} to hit, reach 10 ft., one target. {@h}11 ({@damage 1d10 + 6}) Bludgeoning damage, plus 6 ({@damage 1d12}) Piercing damage. This damage ignores {@variantrule Resistance|XPHB} to Piercing damage."
+    ]
+   },
+   {
+    "name": "Bewildering Floral Presence",
+    "entries": [
+     "{@actSave wis} {@dc 17} Each creature of the dragon's choice within 120 feet. {@actSaveFail} The target has the {@condition Incapacitated|XPHB} condition for 1 minute or until it takes damage. An {@condition Incapacitated|XPHB} creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success. If the creature succeeds on its save or the effect ends for it, it is immune to the dragon's floral presence for the next 24 hours."
+    ]
+   },
+   {
+    "name": "Heat Breath {@recharge 5}",
+    "entries": [
+     "The dragon exhales superheated air. {@actSave con} {@dc 18} All creatures in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSaveFail} 45 ({@damage 10d8}) Fire damage. {@actSaveSuccess} Half damage. {@actSaveSuccessOrFail} Each object made of metal in the area becomes red hot, dealing 9 ({@damage 2d8}) Fire damage to any creature in contact with it. If a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a {@dc 15} Constitution Saving Throw or drop the object if it can. If it doesn't drop the object, it has {@variantrule Disadvantage|XPHB} on attack rolls and ability checks until the start of the dragon's next turn."
+    ]
+   }
+  ],
+  "legendaryActions": 3,
+  "legendary": [
+   {
+    "name": "Defend",
+    "entries": [
+     "The dragon encircles another creature within 10 feet of it with its tail. Attacks against that creature have {@variantrule Disadvantage|XPHB} until the start of the dragon's next turn or until the creature moves more than 10 feet from the dragon."
+    ]
+   },
+   {
+    "name": "Tail Attack",
+    "entries": [
+     "The dragon makes a tail attack."
+    ]
+   },
+   {
+    "name": "Wing Attack (Costs 2 Actions)",
+    "entries": [
+     "The dragon beats its wings. {@actSave dex} {@dc 18} Each creature within 10 feet. {@actSaveFail} 15 ({@damage 2d6 + 8}) Bludgeoning damage and have the {@condition Prone|XPHB} condition. {@actSaveSuccessOrFail} The dragon flies up to half its flying speed."
+    ]
+   }
+  ],
+  "legendaryGroup": {
+   "name": "Succulent Dragon",
+   "source": "FGoFD24"
+  },
+  "traitTags": [
+   "Legendary Resistances",
+   "Regeneration"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "P",
+   "S",
+   "B",
+   "F"
+  ],
+  "miscTags": [
+   "MW",
+   "RCH",
+   "AOE"
+  ],
+  "conditionInflict": [
+   "incapacitated",
+   "prone"
+  ],
+  "savingThrowForced": [
+   "wisdom",
+   "constitution",
+   "dexterity"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Succulent_Dragon.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Sunlight Nexus",
   "source": "FleeMortals",
   "page": 99,
@@ -250699,6 +254146,85 @@
    "MA"
   ],
   "hasToken": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Swarm of Vespons",
+  "size": [
+   "M"
+  ],
+  "type": {
+   "type": "swarm",
+   "swarmSize": "T",
+   "tags": [
+    "monstrosity"
+   ]
+  },
+  "source": "FGoFD24",
+  "alignment": [
+   "N",
+   "G",
+   "C",
+   "L"
+  ],
+  "ac": [
+   15
+  ],
+  "hp": {
+   "formula": "7d8 + 14",
+   "average": 45
+  },
+  "speed": {
+   "walk": 30,
+   "fly": 30
+  },
+  "str": 4,
+  "dex": 15,
+  "con": 15,
+  "int": 3,
+  "wis": 8,
+  "cha": 4,
+  "save": {
+   "dex": "+4",
+   "con": "+4"
+  },
+  "skill": {
+   "perception": "+3"
+  },
+  "senses": [
+   "darkvision 60 ft."
+  ],
+  "senseTags": [
+   "D"
+  ],
+  "passive": 13,
+  "cr": "2",
+  "trait": [
+   {
+    "name": "Swarm",
+    "entries": [
+     "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain {@variantrule Hit Points|XPHB} or gain {@variantrule Temporary Hit Points|XPHB}."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 3} to hit, reach 0 ft., one target in the swarm's space. {@h}10 ({@damage 4d4}) Piercing damage, or 5 ({@damage 2d4}) Piercing damage if the swarm has half of its {@variantrule Hit Points|XPHB} or fewer. Additionally, on a hit the target must succeed on a {@dc 12} Dexterity saving throw or have {@variantrule Disadvantage|XPHB} on the first attack roll it makes before the end of its next turn."
+    ]
+   }
+  ],
+  "damageTags": [
+   "P"
+  ],
+  "miscTags": [
+   "MW"
+  ],
+  "savingThrowForced": [
+   "dexterity"
+  ],
+  "hasFluff": true,
   "hasFluffImages": true
  },
  {
@@ -273045,6 +276571,166 @@
   }
  },
  {
+  "name": "Vampire Lily Dragon",
+  "size": [
+   "L"
+  ],
+  "group": [
+   "Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "C",
+   "E"
+  ],
+  "alignmentPrefix": "typically ",
+  "ac": [
+   17
+  ],
+  "hp": {
+   "formula": "24d10 + 120",
+   "average": 252
+  },
+  "speed": {
+   "walk": 45,
+   "burrow": 15,
+   "swim": 45
+  },
+  "str": 22,
+  "dex": 14,
+  "con": 21,
+  "int": 18,
+  "wis": 18,
+  "cha": 16,
+  "save": {
+   "str": "+11",
+   "con": "+10",
+   "int": "+9"
+  },
+  "skill": {
+   "deception": "+8",
+   "insight": "+9",
+   "perception": "+9",
+   "stealth": "+7"
+  },
+  "resist": [
+   "cold",
+   "necrotic"
+  ],
+  "immune": [
+   "poison"
+  ],
+  "conditionImmune": [
+   "poisoned",
+   "unconscious"
+  ],
+  "senses": [
+   "darkvision 60 ft."
+  ],
+  "senseTags": [
+   "D"
+  ],
+  "passive": 19,
+  "languages": [
+   "Common",
+   "Draconic plus any two languages"
+  ],
+  "languageTags": [
+   "C",
+   "DR",
+   "X"
+  ],
+  "cr": "14",
+  "trait": [
+   {
+    "name": "Keen Smell",
+    "entries": [
+     "The dragon has {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception|XPHB}) checks that rely on smell."
+    ]
+   },
+   {
+    "name": "Poison Spines",
+    "entries": [
+     "A creature that touches the dragon or hits it with a melee attack while within 5 feet of it must succeed on a {@dc 18} Dexterity saving throw or take 16 ({@damage 3d10}) Poison damage and become {@condition Poisoned|XPHB} until the end of its next turn."
+    ]
+   },
+   {
+    "name": "Unsleeping",
+    "entries": [
+     "The dragon can't be {@status Surprised|XPHB}, does not need to sleep, and magic can't put it to sleep."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The dragon makes three attacks: two with its bite and one with its tail."
+    ]
+   },
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 11} to hit, reach 5 ft., one target. {@h}16 ({@damage 3d6 + 6}) Piercing damage plus 10 ({@damage 3d6}) Poison damage."
+    ]
+   },
+   {
+    "name": "Tail",
+    "entries": [
+     "{@atkr m} {@hit 11} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 6}) Bludgeoning damage plus 10 ({@damage 3d6}) Poison damage, and the target has the {@condition Grappled|XPHB} condition (escape {@dc 19}). Until this grapple ends, the creature has the {@condition Restrained|XPHB} condition, and the dragon can't grapple another target."
+    ]
+   },
+   {
+    "name": "Stench Breath {@recharge 5}",
+    "entries": [
+     "The dragon exhales foul gas. {@actSave con} {@dc 18} Each creature in a 60 foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSaveFail} Target has the {@condition Unconscious|XPHB} condition for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save. The effect ends if the creature takes damage."
+    ]
+   }
+  ],
+  "bonus": [
+   {
+    "name": "Aggressive",
+    "entries": [
+     "The dragon moves up to its {@variantrule Speed|XPHB} toward a {@variantrule Hostile [Attitude]|XPHB|Hostile} creature that it can see."
+    ]
+   }
+  ],
+  "traitTags": [
+   "Keen Senses"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "P",
+   "O",
+   "B"
+  ],
+  "miscTags": [
+   "MW",
+   "RCH",
+   "AOE"
+  ],
+  "conditionInflict": [
+   "poisoned",
+   "grappled",
+   "restrained",
+   "unconscious"
+  ],
+  "savingThrowForced": [
+   "dexterity",
+   "constitution"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Vampire_Lily_Dragon.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Vampire Neophyte",
   "source": "FleeMortals",
   "page": 274,
@@ -275140,6 +278826,95 @@
   "miscTags": [
    "MW"
   ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Vespon Queen",
+  "size": [
+   "S"
+  ],
+  "type": "monstrosity",
+  "source": "FGoFD24",
+  "alignment": [
+   "U"
+  ],
+  "ac": [
+   15
+  ],
+  "hp": {
+   "formula": "9d6 + 18",
+   "average": 49
+  },
+  "speed": {
+   "walk": 30,
+   "fly": 30
+  },
+  "str": 1,
+  "dex": 15,
+  "con": 14,
+  "int": 3,
+  "wis": 8,
+  "cha": 4,
+  "skill": {
+   "perception": "+3"
+  },
+  "senses": [
+   "darkvision 60 ft."
+  ],
+  "senseTags": [
+   "D"
+  ],
+  "passive": 13,
+  "cr": "1/2",
+  "trait": [
+   {
+    "name": "Pheromone Network",
+    "entries": [
+     "The queen can communicate simple images, ideas, and instructions to all swarms of vespons within 150 feet of her. A swarm can reply to these communications, relaying simple information to the queen."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 +2}) Piercing damage."
+    ]
+   },
+   {
+    "name": "Buzz",
+    "entries": [
+     "The queen beats its wings violently and creates a buzzing sound. {@actSave con} {@dc 12} Each creature within 10 feet of the queen that can hear it. {@actSaveFail} 3 ({@damage 1d6}) Thunder damage and the target has the {@condition Deafened|XPHB} condition until the start of the queen's next turn."
+    ]
+   }
+  ],
+  "bonus": [
+   {
+    "name": "Royal Command",
+    "entries": [
+     "The queen commands a {@creature Swarm of Vespons|FGoFD24} within 150 feet of her to make an attack. The swarm must use its {@variantrule Reaction|XPHB} to make this attack."
+    ]
+   }
+  ],
+  "damageTags": [
+   "P",
+   "T"
+  ],
+  "miscTags": [
+   "MW"
+  ],
+  "conditionInflict": [
+   "deafened"
+  ],
+  "savingThrowForced": [
+   "constitution"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Vespon_Queen.webp"
+  },
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -283912,6 +287687,114 @@
   "hasFluffImages": true
  },
  {
+  "name": "Water Lily Dragon",
+  "size": [
+   "H"
+  ],
+  "group": [
+   "Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "G"
+  ],
+  "alignmentPrefix": "typically ",
+  "ac": [
+   15
+  ],
+  "hp": {
+   "formula": "7d12 + 28",
+   "average": 73
+  },
+  "speed": {
+   "walk": 5,
+   "swim": 60
+  },
+  "str": 18,
+  "dex": 10,
+  "con": 18,
+  "int": 6,
+  "wis": 12,
+  "cha": 14,
+  "save": {
+   "dex": "+2",
+   "con": "+6",
+   "wis": "+3"
+  },
+  "resist": [
+   "fire",
+   "cold"
+  ],
+  "conditionImmune": [
+   "prone"
+  ],
+  "senses": [
+   "darkvision 120 ft."
+  ],
+  "senseTags": [
+   "D"
+  ],
+  "passive": 11,
+  "languages": [
+   "understands Draconic and one other language but can't speak them"
+  ],
+  "languageTags": [
+   "DR",
+   "X",
+   "CS"
+  ],
+  "cr": "4",
+  "trait": [
+   {
+    "name": "Aquatic Advantage",
+    "entries": [
+     "The dragon has {@variantrule Advantage|XPHB} on attack rolls when it is in the water."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d10 + 6}) Piercing damage."
+    ]
+   },
+   {
+    "name": "Flipper",
+    "entries": [
+     "{@atkr m} {@hit 8} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d6 + 6}) Bludgeoning damage."
+    ]
+   }
+  ],
+  "reaction": [
+   {
+    "name": "Wave of Defense (2/Day)",
+    "entries": [
+     "{@actTrigger} When an attack is made against a creature on the dragon's back. {@actResponse} The dragon can use its reaction to smack its front flippers against the water's surface, imposing {@variantrule Disadvantage|XPHB} on the roll. {@hom} The attacker must then succeed on a {@dc 14} Strength saving throw or be pushed 15 feet away from the dragon."
+    ]
+   }
+  ],
+  "damageTags": [
+   "P",
+   "B"
+  ],
+  "miscTags": [
+   "MW",
+   "RCH"
+  ],
+  "savingThrowForced": [
+   "strength"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Water_Lily_Dragon.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Water Spark",
   "source": "FleeMortals",
   "page": 99,
@@ -287830,6 +291713,238 @@
   ],
   "hasToken": true,
   "hasFluff": true
+ },
+ {
+  "name": "Wisteria Dragon",
+  "size": [
+   "H"
+  ],
+  "group": [
+   "Floral Dragon"
+  ],
+  "type": "dragon",
+  "source": "FGoFD24",
+  "alignment": [
+   "L",
+   "NX",
+   "C",
+   "E",
+   "NY"
+  ],
+  "ac": [
+   19
+  ],
+  "hp": {
+   "formula": "19d12 + 133",
+   "average": 256
+  },
+  "speed": {
+   "walk": 40,
+   "fly": 80
+  },
+  "str": 24,
+  "dex": 13,
+  "con": 25,
+  "int": 17,
+  "wis": 14,
+  "cha": 25,
+  "save": {
+   "dex": "+7",
+   "con": "+13",
+   "wis": "+8",
+   "cha": "+13"
+  },
+  "skill": {
+   "arcana": "+9",
+   "deception": "+13",
+   "history": "+9",
+   "insight": "+8",
+   "perception": "+14"
+  },
+  "senses": [
+   "blindsight 60 ft.",
+   "darkvision 120 ft."
+  ],
+  "senseTags": [
+   "B",
+   "D"
+  ],
+  "passive": 24,
+  "languages": [
+   "Draconic",
+   "Sylvan",
+   "plus any two languages"
+  ],
+  "languageTags": [
+   "DR",
+   "S",
+   "X"
+  ],
+  "cr": "17",
+  "trait": [
+   {
+    "name": "Fey Ancestry",
+    "entries": [
+     "The dragon has {@variantrule Advantage|XPHB} on saving throws against being {@condition Charmed|XPHB}, and magic can't put the dragon to sleep."
+    ]
+   },
+   {
+    "name": "Regeneration",
+    "entries": [
+     "The dragon regains 10 {@variantrule Hit Points|XPHB} at the start of its turn. If the dragon takes Cold or Necrotic damage, this trait doesn't function at the start of the dragon's next turn. The dragon dies only if it starts its turn with 0 {@variantrule Hit Points|XPHB} and doesn't regenerate."
+    ]
+   }
+  ],
+  "spellcasting": [
+   {
+    "name": "Spellcasting",
+    "headerEntries": [
+     "The dragon is a 9th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 21}). It can cast the following Bard spells, requiring no material components:"
+    ],
+    "will": [
+     "{@spell Dancing Lights|XPHB}",
+     "{@spell Mage Hand|XPHB}",
+     "{@spell Prestidigitation|XPHB}"
+    ],
+    "spells": {
+     "1": {
+      "slots": 4,
+      "spells": [
+       "{@spell Bane|XPHB}",
+       "{@spell Identify|XPHB}",
+       "{@spell Sleep|XPHB}"
+      ]
+     },
+     "2": {
+      "slots": 3,
+      "spells": [
+       "{@spell Locate Object|XPHB}",
+       "{@spell See Invisibility|XPHB}",
+       "{@spell Suggestion|XPHB}"
+      ]
+     },
+     "3": {
+      "slots": 3,
+      "spells": [
+       "{@spell Dispel Magic|XPHB}",
+       "{@spell Plant Growth|XPHB}",
+       "{@spell Speak with Plants|XPHB}"
+      ]
+     },
+     "4": {
+      "slots": 3,
+      "spells": [
+       "{@spell Confusion|XPHB}",
+       "{@spell Freedom of Movement|XPHB}"
+      ]
+     },
+     "5": {
+      "slots": 1,
+      "spells": [
+       "{@spell Geas|XPHB}"
+      ]
+     }
+    },
+    "ability": "cha",
+    "type": "spellcasting",
+    "displayAs": "trait"
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The dragon can use its Soporific Floral Presence. It then casts a spell or makes three attacks: one with its bite and two with its stomp."
+    ]
+   },
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 13} to hit, reach 10 ft., one target. {@h}18 ({@damage 2d10 + 7}) Piercing damage."
+    ]
+   },
+   {
+    "name": "Stomp",
+    "entries": [
+     "{@atkr m} {@hit 13} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) Bludgeoning damage."
+    ]
+   },
+   {
+    "name": "Tail",
+    "entries": [
+     "{@atkr m} {@hit 13} to hit, reach 15 ft., one target. {@h}16 ({@damage 2d8 + 7}) Bludgeoning damage."
+    ]
+   },
+   {
+    "name": "Grasping Vines {@recharge 5}",
+    "entries": [
+     "{@actSave dex} {@dc 21} Each creature of the dragon's choice within 90 feet. {@actSaveFail} 18 ({@damage 4d8}) Piercing damage and the target has the {@condition Grappled|XPHB} and {@condition Restrained|XPHB} conditions (escape {@dc 19}). {@actSaveSuccess} Half damage only. While {@condition Restrained|XPHB}, a target takes 18 ({@damage 4d8}) Piercing damage at the start of each of its turns."
+    ]
+   },
+   {
+    "name": "Soporific Floral Presence",
+    "entries": [
+     "{@actSave con} {@dc 19} Each creature of the dragon's choice within 120 feet. {@actSaveFail} Target has the {@condition Unconscious|XPHB} condition for 1 minute. This effect ends for a creature if the creature takes damage or someone uses an action to wake it. If a target's saving throw is successful, or the effect ends for it, the target is immune to this dragon's Floral Presence for the next 24 hours."
+    ]
+   }
+  ],
+  "legendaryActions": 3,
+  "legendary": [
+   {
+    "name": "Detect",
+    "entries": [
+     "The dragon makes a Wisdom ({@skill Perception|XPHB}) check."
+    ]
+   },
+   {
+    "name": "Tail Attack",
+    "entries": [
+     "The dragon makes a tail attack."
+    ]
+   },
+   {
+    "name": "Wing Attack (Costs 2 Actions)",
+    "entries": [
+     "The dragon beats its wings. {@actSave dex} {@dc 21} Each creature within 10 feet. {@actSaveFail} 15 ({@damage 2d6 + 8}) Bludgeoning damage and the target has the {@condition Prone|XPHB} condition. {@actSaveSuccessOrFail} The dragon flies up to half its flying speed."
+    ]
+   }
+  ],
+  "traitTags": [
+   "Fey Ancestry",
+   "Regeneration"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "damageTags": [
+   "P",
+   "B"
+  ],
+  "miscTags": [
+   "MW",
+   "RCH",
+   "AOE"
+  ],
+  "conditionInflict": [
+   "grappled",
+   "restrained",
+   "unconscious",
+   "prone"
+  ],
+  "savingThrowForced": [
+   "dexterity",
+   "constitution"
+  ],
+  "spellcastingTags": [
+   "CB"
+  ],
+  "hasToken": true,
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/FGoFD24/Tokens/Wisteria_Dragon.webp"
+  },
+  "hasFluff": true,
+  "hasFluffImages": true
  },
  {
   "name": "Witch",

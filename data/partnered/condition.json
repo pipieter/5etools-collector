@@ -233,6 +233,64 @@
  },
  {
   "name": "Corruption",
+  "source": "FGoFD24",
+  "entries": [
+   "The mushroom dragon and the pleurossa network can infect creatures with corruption. This disease turns creatures into hosts, slowly kills them, and absorbs them into the pleurossa network. The infection can be obtained by inhaling toxic spores, sustaining injury, or ingesting corrupted organic material. Wearing a face covering grants {@variantrule Advantage|XPHB} on saving throws against corruption through inhalation, and wearing adamantine armor grants advantage on saving throws against corruption through injury. Constructs and undead are immune to corruption.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "entries": [
+       {
+        "type": "entries",
+        "name": "Effects",
+        "entries": [
+         "Corruption is measured in six levels. The {@table Corruption Effects|FGoFD24} table shows the consequences of each level of corruption. A creature suffers the effects of its current level of corruption as well as all lower levels. A floral dragon that gains six levels of corruption becomes a corrupted floral dragon."
+        ]
+       },
+       {
+        "type": "entries",
+        "name": "Progression of Corruption",
+        "entries": [
+         "On its own, corruption progresses slowly. Once every {@deck 2d12} days, a creature with at least 1 level of corruption must make a {@dc 16} Constitution saving throw. On a failure, the creature gains a level of corruption. Repeated exposure to the spores or the attacks of corrupted floral dragons can rapidly increase corruption."
+        ]
+       },
+       {
+        "type": "entries",
+        "name": "Death While Corrupted",
+        "entries": [
+         "When a creature with one or more levels of corruption dies, it is absorbed into the pleurossa. The pleurossa network gains a number of {@variantrule Hit Points|XPHB} equal to a roll of the creature's {@variantrule Hit Point Dice|XPHB|Hit Dice}, which become part of its {@variantrule Hit Points|XPHB|Hit Point} reserve."
+        ]
+       },
+       {
+        "type": "entries",
+        "name": "Ending the Corruption",
+        "entries": [
+         "Corruption lasts until all levels of corruption are removed by a {@spell Greater Restoration|XPHB} spell or similar magic"
+        ]
+       },
+       {
+        "type": "entries",
+        "name": "Temporary Immunity",
+        "entries": [
+         "Once a creature has removed all levels of corruption, it is {@variantrule Immunity|XPHB|immune} to corruption for the next 24 hours."
+        ]
+       },
+       {
+        "type": "statblock",
+        "tag": "table",
+        "source": "FGoFD24",
+        "name": "Corruption Effects"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Corruption",
   "source": "GrimHollowCG24",
   "page": 290,
   "entries": [

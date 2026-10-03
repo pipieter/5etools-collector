@@ -3679,6 +3679,80 @@
   ]
  },
  {
+  "name": "Corruption Effects",
+  "source": "FGoFD24",
+  "colLabels": [
+   "Level",
+   "Effect"
+  ],
+  "colStyles": [
+   "col-1 text-center",
+   "col-11 text-left"
+  ],
+  "rows": [
+   [
+    "1",
+    {
+     "type": "item",
+     "name": "Infected",
+     "entries": [
+      "The creature is {@condition Poisoned|XPHB}. This level can be removed if, within 8 hours of infection, the creature is subject to the {@spell Lesser Restoration|XPHB} spell or an item that cures the poisoned condition."
+     ]
+    }
+   ],
+   [
+    "2",
+    {
+     "type": "item",
+     "name": "Mild",
+     "entries": [
+      "The creature has {@variantrule Disadvantage|XPHB} on Constitution saving throws."
+     ]
+    }
+   ],
+   [
+    "3",
+    {
+     "type": "item",
+     "name": "Moderate",
+     "entries": [
+      "The mushroom dragon can see through the creature's eyes. The creature is {@condition Blinded|XPHB} with regard to its own senses and gains {@sense Blindsight|XPHB} out to a range of 10 feet."
+     ]
+    }
+   ],
+   [
+    "4",
+    {
+     "type": "item",
+     "name": "Advanced",
+     "entries": [
+      "Each time the creature takes damage, it takes an extra 3 Necrotic damage."
+     ]
+    }
+   ],
+   [
+    "5",
+    {
+     "type": "item",
+     "name": "Severe",
+     "entries": [
+      "At the start of each of the creature's turns, it must make a {@dc 12} Constitution saving throw. On a failure, it can either move, take an {@variantrule Action|XPHB}, or take a {@variantrule Bonus Action|XPHB}."
+     ]
+    }
+   ],
+   [
+    "6",
+    {
+     "type": "item",
+     "name": "Complete Corruption",
+     "entries": [
+      "The creature dies and becomes one with the pleurossa. The pleurossa network gains a number of {@variantrule Hit Points|XPHB} equal to a roll of the creature's {@variantrule Hit Point Dice|XPHB|Hit Dice}. Only a {@spell True Resurrection|XPHB} or {@spell Wish|XPHB} spell or divine intervention can restore the creature to life. Alternatively, if the creature is a floral dragon, it becomes a {@filter corrupted floral dragon|bestiary|source=fgofd24|group=corrupted floral dragon|miscellaneous=!reprinted} as detailed in the Corrupted Floral Dragon Template."
+     ]
+    }
+   ]
+  ]
+ },
+ {
   "name": "Council Structure",
   "source": "TLotRR",
   "page": 96,
