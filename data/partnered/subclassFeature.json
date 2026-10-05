@@ -522,6 +522,45 @@
   ]
  },
  {
+  "name": "Agrestal Spirit",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Sylvan Circle",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "skillProficiencies": [
+   {
+    "nature": true
+   }
+  ],
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Additional Cantrips",
+    "entries": [
+     "You know two additional cantrips of your choice from the Magus or Druid spell list. These cantrips count as Magus cantrips for you but don't count against your number of cantrips known."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Green Hand",
+    "entries": [
+     "You gain proficiency in the {@skill Nature|XPHB} skill. If you are already proficient with {@skill Nature|XPHB}, you gain {@variantrule Expertise|XPHB} in it instead."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Wild Instincts",
+    "entries": [
+     "You can take the {@action Disengage|XPHB} action as a {@variantrule Bonus Action|XPHB}. When you do, until the end of your turn your {@variantrule Speed|XPHB} increases by 15 feet and you have {@variantrule Advantage|XPHB} on Strength ({@skill Athletics|XPHB}) and Dexterity ({@skill Acrobatics|XPHB}) checks.",
+     "You can use this {@variantrule Bonus Action|XPHB} a number of times equal to your Intelligence modifier (minimum once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Aid Not Given",
   "source": "GrimHollowPG24",
   "page": 79,
@@ -560,6 +599,32 @@
   "header": 2,
   "entries": [
    "On your turn, you can expend 1 Focus Point to gain a {@variantrule Fly Speed|XPHB} equal to your {@variantrule Speed|XPHB} until the end of your next turn (no action required). You have {@variantrule Advantage|XPHB} on the next melee attack you make before the end of the current turn."
+  ]
+ },
+ {
+  "name": "Alabaster Mark",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Heaven's Guard",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "entries": [
+   "The effects of your mystic marks are enhanced by your greater understanding of the Heaven's Guard's esoteric knowledge. When you use your {@classFeature Mystic Mark|Magus|Magus2024|2} feature, a soft white and gold aura envelops you, and you gain the following effects based on the benefit or benefits chosen.",
+   {
+    "type": "entries",
+    "name": "Aegis",
+    "entries": [
+     "When a willing creature you can see within 30 feet of you is hit by an attack, you can use your {@variantrule Reaction|XPHB} to guard the creature until the start of your next turn. While the creature is guarded this way, attacks against it have {@variantrule Disadvantage|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Enspell",
+    "entries": [
+     "Once per turn when you hit a creature with a weapon or {@variantrule Unarmed Strike|XPHB}, it has {@variantrule Disadvantage|XPHB} on attacks against creatures other than you until the start of your next turn."
+    ]
+   }
   ]
  },
  {
@@ -763,6 +828,32 @@
   "header": 2,
   "entries": [
    "You have become a ferocious ambusher. When you roll {@variantrule Initiative|XPHB}, you can add your Intelligence modifier to the roll. Additionally, you can't be {@status surprised|XPHB} by enemies that include creature types in your {@classFeature Monster Grimoire|Monster Hunter|GrimHollowPG24|1}."
+  ]
+ },
+ {
+  "name": "Amethyst Mark",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Arcane Order",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "entries": [
+   "The effects of your mystic marks are enhanced by your greater understanding of the Arcane Order's esoteric knowledge. When you use your {@classFeature Mystic Mark|Magus|Magus2024|2} feature, a faint purple, crystalline aura surrounds you and you gain the following effects based on the benefit or benefits chosen.",
+   {
+    "type": "entries",
+    "name": "Aegis",
+    "entries": [
+     "When a willing creature you can see within 30 feet of you is hit by an attack, you can use your {@variantrule Reaction|XPHB} to swap places via teleportation. You suffer the effects of the attack instead of the creature and you have {@variantrule Resistance|XPHB} to damage dealt by the attack."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Enspell",
+    "entries": [
+     "Once per turn when you hit a creature with a weapon or {@variantrule Unarmed Strike|XPHB}, you can force it to make a Charisma saving throw against your spell save DC. On a failure, the creature is teleported 10 feet horizontally in a direction of your choosing."
+    ]
+   }
   ]
  },
  {
@@ -1353,6 +1444,78 @@
   ]
  },
  {
+  "name": "Arcane Order",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Arcane Order",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "entries": [
+   "{@i Defend the Arcane Architecture of the Multiverse}",
+   "The Arcane Order seeks to catalog the magical wonders of the multiverse and defend the Tapestry from existential threats. You travel the world with an eye out for lost artifacts, magical monuments, and mystic secrets. Although some in the Arcane Order collect such prizes in a quest for power, most do so out of intellectual curiosity or the desire to preserve such treasures for future generations.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Amethyst Mark|Magus|Magus2024|Arcane Order|Magus2024|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Arcane Order Magic|Magus|Magus2024|Arcane Order|Magus2024|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Mystic Insights|Magus|Magus2024|Arcane Order|Magus2024|3"
+   }
+  ]
+ },
+ {
+  "name": "Arcane Order Magic",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Arcane Order",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "entries": [
+   "You can use an {@item Arcane Focus|XPHB} as a {@variantrule Spellcasting Focus|XPHB} for your Magus spells.",
+   "In addition, your training in the Arcane Order ensures you always have certain spells ready; when you reach a Magus level specified in the Arcane Order Spells table, you thereafter always have the listed spells prepared.",
+   {
+    "type": "table",
+    "caption": "Arcane Order Spells",
+    "colLabels": [
+     "Magus Level",
+     "Spells"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "3",
+      "{@spell Demiplanar Pitch|Magus2024}, {@spell Shocking Grasp|XPHB}, {@spell Find Familiar|XPHB}, {@spell Magic Missile|XPHB}"
+     ],
+     [
+      "5",
+      "{@spell Nystul's Magic Aura|XPHB}, {@spell Misty Step|XPHB}"
+     ],
+     [
+      "9",
+      "{@spell Dispel Magic|XPHB}, {@spell Waypoint|Magus2024}"
+     ],
+     [
+      "13",
+      "{@spell Banishment|XPHB}, {@spell Mordenkainen's Private Sanctum|XPHB}"
+     ],
+     [
+      "17",
+      "{@spell Reflect Magic|Magus2024}, {@spell Teleportation Circle|XPHB}"
+     ]
+    ]
+   }
+  ]
+ },
+ {
   "name": "Arcane Prison",
   "source": "ObojimaTallGrass",
   "page": 125,
@@ -1536,6 +1699,20 @@
   "header": 2,
   "entries": [
    "You have learned to anticipate your enemies well enough to rapidly cast spells in response to their attacks. When you use {@classFeature Studied Response|Monster Hunter|GrimHollowPG24|2}, you can cast a spell. The spell must have a casting time of an action and must target only that creature."
+  ]
+ },
+ {
+  "name": "Arcane Vortex",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Arcane Order",
+  "subclassSource": "Magus2024",
+  "level": 14,
+  "header": 2,
+  "entries": [
+   "As a {@action Magic|XPHB} action, choose a point you can see within 60 feet of yourself, warping space in a 20-foot radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} around it. You and your allies within the area can each teleport up to 30 feet in a direction of your choice. All other creatures in the area must make a Strength saving throw against your spell save DC. On a failed save, a creature takes {@damage 6d8} Force damage, is pulled up to 15 feet closer to the point, and can't use its {@variantrule Speed|XPHB} to move away from that point until the start of your next turn. On a successful save, a creature takes half as much damage only.",
+   "Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
   ]
  },
  {
@@ -5185,6 +5362,33 @@
   ]
  },
  {
+  "name": "Bright as Dawn",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Heaven's Guard",
+  "subclassSource": "Magus2024",
+  "level": 20,
+  "header": 2,
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Alabaster Spell Surge",
+    "entries": [
+     "You can expend the use of your {@classFeature Spell Surge|Magus|Magus2024|18} to cast {@spell Heal|XPHB} or {@spell Sunbeam|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Celestial Shieldbearer",
+    "entries": [
+     "When you finish a {@variantrule Short Rest|XPHB}, you can regain the use of your {@subclassFeature Cloak of Radiance|Magus|Magus2024|Heaven's Guard|Magus2024|14}. Once you regain the use of it in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Bright Blade",
   "source": "TLotRR",
   "page": 47,
@@ -5255,6 +5459,21 @@
   "entries": [
    "You know how to strengthen the hearts of your troops and stir them to greatness. You learn the {@spell Guidance|XPHB} cantrip, which counts as a Bard spell for you. The cantrip doesn't count against your number of cantrips known.",
    "Additionally, when you confer a Bardic Inspiration die to a creature, you can also confer that Bardic Inspiration die to a second creature within range."
+  ]
+ },
+ {
+  "name": "Broken Mirror Jutsu",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Shadow Court",
+  "subclassSource": "Magus2024",
+  "level": 7,
+  "header": 2,
+  "entries": [
+   "You always have the {@spell Mirror Image|XPHB} spell prepared.",
+   "You can use a {@variantrule Bonus Action|XPHB} to cast {@spell Mirror Image|XPHB} without expending a spell slot. When you do, each time a duplicate is destroyed the attacking creature must succeed on an Intelligence saving throw against your Magus spell save DC or take Psychic damage equal to your Magus level plus your Intelligence modifier.",
+   "Once you use this {@variantrule Bonus Action|XPHB}, you can't use it again until you finish a {@variantrule Long Rest|XPHB} unless you expend a level 2+ spell slot (no action required) to restore your use of it."
   ]
  },
  {
@@ -5746,6 +5965,20 @@
   "header": 2,
   "entries": [
    "You gain two additional uses of your Second Wind feature. Whenever you use your Second Wind to regain {@variantrule Hit Points|XPHB}, you also gain the benefits of the {@action Dodge|XPHB} action until the end of your next turn."
+  ]
+ },
+ {
+  "name": "Celestial Clockwork Control",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Sidereal Cabal",
+  "subclassSource": "Magus2024",
+  "level": 7,
+  "header": 2,
+  "entries": [
+   "Your extensive study of the stars has taught you to twist the heavenly mechanics of fate in your favor. After a creature you can see within 60 feet of you makes a {@variantrule D20 Test|XPHB} you can expend a spell slot to modify the result of the roll. When you do, you can choose to increase or decrease the result of the roll by the level of the expended spell slot, potentially turning a failure into a success or vice versa.",
+   "Once you use this feature, you can't use it again until the start of your next turn."
   ]
  },
  {
@@ -7793,6 +8026,40 @@
   "level": 3,
   "entries": [
    "Starting at 3rd level, you can use the bonus action granted by your {@classFeature Cunning Action|Treasure Hunter|TLotRR|2|TLotRR} to make a Dexterity ({@skill Sleight of Hand}) check or take the {@action use an object||utilize} action."
+  ]
+ },
+ {
+  "name": "Cloak of Radiance",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Heaven's Guard",
+  "subclassSource": "Magus2024",
+  "level": 14,
+  "header": 2,
+  "entries": [
+   "As a {@variantrule Bonus Action|XPHB} you can cloak another creature within 30 feet of you and that you can see in radiant light. The target gains {@variantrule Temporary Hit Points|XPHB} equal to {@dice 5d10} plus your Magus level. While a creature has any {@variantrule Temporary Hit Points|XPHB} granted by this feature, it has the benefits listed below. Once you have used this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}.",
+   {
+    "type": "entries",
+    "name": "Brilliant",
+    "entries": [
+     "Creatures that do not have {@variantrule Immunity|XPHB} to the {@condition Blinded|XPHB} condition have {@variantrule Disadvantage|XPHB} on attacks against the target."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Bright",
+    "entries": [
+     "The target sheds {@variantrule Bright Light|XPHB} out to 30 feet and {@variantrule Dim Light|XPHB} for an additional 30 feet."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Buoyant",
+    "entries": [
+     "The target can take a {@variantrule Bonus Action|XPHB} on each of its turns to Fly up to 30 feet. If the creature does not land at the end of this movement, it falls to the ground without taking damage."
+    ]
+   }
   ]
  },
  {
@@ -10370,6 +10637,33 @@
   ]
  },
  {
+  "name": "Darkest Knight",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Knights Stygian",
+  "subclassSource": "Magus2024",
+  "level": 20,
+  "header": 2,
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Obsidian Spell Surge",
+    "entries": [
+     "You can expend the use of your {@classFeature Spell Surge|Magus|Magus2024|18} to cast {@spell Circle of Death|XPHB} or {@spell Create Undead|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Stygian Sentinel",
+    "entries": [
+     "When you finish a {@variantrule Short Rest|XPHB}, you can regain the use of your {@subclassFeature Open the Iron Gates|Magus|Magus2024|Knights Stygian|Magus2024|14}. Once you regain the use of it in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Darkness Falls",
   "source": "BookOfEbonTides",
   "className": "Druid",
@@ -11810,6 +12104,39 @@
   ]
  },
  {
+  "name": "Doombringer",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Knights Stygian",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Deathsight",
+    "entries": [
+     "You know when creatures you can see are {@status Bloodied|XPHB}. In addition, you can see creatures with the {@condition Invisible|XPHB} condition if they are {@status Bloodied|XPHB}, and you do not suffer {@variantrule Disadvantage|XPHB} on attacks against them as a result of the {@condition Invisible|XPHB} condition."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Unnatural Vitality",
+    "entries": [
+     "As a {@variantrule Bonus Action|XPHB} you can expend a spell slot to regain expended {@variantrule Hit Point Dice|XPHB} equal to twice the spell slot's level."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Reaper's Reward",
+    "entries": [
+     "Once per turn when you hit a creature with a weapon or {@variantrule Unarmed Strike|XPHB}, you can expend and roll a {@variantrule Hit Point Dice|XPHB|Hit Point Die}. You regain {@variantrule Hit Points|XPHB}, and deal additional Necrotic damage to the creature, equal to a roll of the {@variantrule Hit Point Dice|XPHB|Hit Point Die}."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Doomed to the Shadows",
   "source": "IllriggerRevised",
   "className": "Illrigger",
@@ -12700,6 +13027,32 @@
   ]
  },
  {
+  "name": "Emerald Mark",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Sylvan Circle",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "entries": [
+   "The effects of your mystic marks are enhanced by your greater understanding of the Sylvan Circle's esoteric knowledge. When you use your {@classFeature Mystic Mark|Magus|Magus2024|2} feature, a verdant green aura surrounds you and you gain the following effects based on the benefit or benefits chosen.",
+   {
+    "type": "entries",
+    "name": "Aegis",
+    "entries": [
+     "When you or a willing creature you can see within 30 feet of you fails a saving throw, you can use your {@variantrule Reaction|XPHB} to give the roll a bonus equal to your Intelligence modifier (minimum +1), potentially turning the failure into a success."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Enspell",
+    "entries": [
+     "Once per turn when you hit a creature with a weapon or {@variantrule Unarmed Strike|XPHB}, you can cause the target to treat all spaces as {@variantrule Difficult Terrain|XPHB} until the end of its next turn."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Empowered Cantrips",
   "source": "TalDoreiCampaignSettingReborn",
   "page": 171,
@@ -12863,6 +13216,33 @@
   },
   "entries": [
    "When you deal damage to a creature with an illrigger spell of 1st level or higher, you can expend a seal (no action required) and imbue the spell with weakening magic. The target has vulnerability to that spell's damage. If they normally have resistance or immunity to the spell's damage, that resistance or immunity is suppressed for this spell, and the target has vulnerability to the damage instead."
+  ]
+ },
+ {
+  "name": "Enshadowed Sifu",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Shadow Court",
+  "subclassSource": "Magus2024",
+  "level": 20,
+  "header": 2,
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Jade Spell Surge",
+    "entries": [
+     "You can expend the use of your {@classFeature Spell Surge|Magus|Magus2024|18} to cast {@spell Eyebite|XPHB} or {@spell Programmed Illusion|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Shadow Puppeteer",
+    "entries": [
+     "When you finish a {@variantrule Short Rest|XPHB}, you can regain the use of your {@subclassFeature False Body Jutsu|Magus|Magus2024|Shadow Court|Magus2024|14}. Once you regain the use of it in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+    ]
+   }
   ]
  },
  {
@@ -13775,6 +14155,40 @@
   ]
  },
  {
+  "name": "Face of Fear",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Knights Stygian",
+  "subclassSource": "Magus2024",
+  "level": 7,
+  "header": 2,
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Dreadful Incantation",
+    "entries": [
+     "When you cast a level 1+ Necromancy spell or a spell from your Knights Stygian Magic, you can choose one creature within 60 feet of you that can see you. That creature must make a Wisdom saving throw against your spell save DC, gaining the {@condition Frightened|XPHB} condition until the start of your next turn on a failed save."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Fearless",
+    "entries": [
+     "You have {@variantrule Immunity|XPHB} to the {@condition Frightened|XPHB} condition."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Mortal Terror",
+    "entries": [
+     "Whenever you would deal Necrotic damage with a Magus spell or feature, you can deal your choice of Psychic or Necrotic damage."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Face of Rage",
   "source": "GrimHollowPG24",
   "page": 60,
@@ -13882,6 +14296,20 @@
      ]
     ]
    }
+  ]
+ },
+ {
+  "name": "False Body Jutsu",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Shadow Court",
+  "subclassSource": "Magus2024",
+  "level": 14,
+  "header": 2,
+  "entries": [
+   "You can replace yourself with an unlikely body double in the instant before you take a blow. When you are hit by an attack, you can take a {@variantrule Reaction|XPHB} to reduce the damage from that attack to 1. When you do, you have the {@condition Invisible|XPHB} condition for 1 minute and teleport to an unoccupied space of your choice within 300 feet of you. You leave a block of wood or another harmless, mundane object in the space you teleported away from.",
+   "Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
   ]
  },
  {
@@ -14899,6 +15327,21 @@
   "header": 2,
   "entries": [
    "When a creature in your Aura of Protection becomes {@condition Bloodied|XPHB}, you can take a {@variantrule Reaction|XPHB} to move up to half your {@variantrule Speed|XPHB} and make an attack with a Melee weapon or {@variantrule Unarmed Strike|XPHB}. This movement doesn't provoke {@action Opportunity Attack|XPHB|Opportunity Attacks}, and you have {@variantrule Advantage|XPHB} on the attack roll"
+  ]
+ },
+ {
+  "name": "Font of Life",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Sylvan Circle",
+  "subclassSource": "Magus2024",
+  "level": 14,
+  "header": 2,
+  "entries": [
+   "As a {@variantrule Bonus Action|XPHB}, you can manifest sylvan energies in a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} that originates from you for 1 minute. It ends early if you dismiss it (no action required) or have the {@condition Incapacitated|XPHB} condition.",
+   "When you manifest the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} and at the start of each of your subsequent turns, creatures of your choice within your {@variantrule Emanation [Area of Effect]|XPHB|Emanation} regain {@variantrule Hit Points|XPHB} equal to {@dice 1d8} plus your Intelligence modifier (minimum of one). Additionally, creatures of your choice within your {@variantrule Emanation [Area of Effect]|XPHB|Emanation} have {@variantrule Advantage|XPHB} on saving throws.",
+   "Once you use this feature, you must finish a {@variantrule Long Rest|XPHB} before you can do so again."
   ]
  },
  {
@@ -17164,6 +17607,20 @@
   ]
  },
  {
+  "name": "Guardian's Wings",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Heaven's Guard",
+  "subclassSource": "Magus2024",
+  "level": 7,
+  "header": 2,
+  "entries": [
+   "As a {@variantrule Bonus Action|XPHB}, you can fly up to twice your {@variantrule Speed|XPHB}. When you do, at the end of your turn creatures of your choice within 10 feet of you regain {@variantrule Hit Points|XPHB} equal to your Magus level plus your Intelligence modifier.",
+   "Once you use this feature, you can't use it again until you finish a {@variantrule Short Rest|XPHB} or {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
   "name": "Guarding Presence",
   "source": "CthulhuTorchlight",
   "page": 0,
@@ -17358,6 +17815,50 @@
   "header": 2,
   "entries": [
    "When another creature you can see within 5 feet of you is hit by an attack roll, you can take a {@variantrule Reaction|XPHB} to change the target to yourself. You have {@variantrule Resistance|XPHB} to all damage against that attack."
+  ]
+ },
+ {
+  "name": "Hand and Foot Training",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Shadow Court",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "skillProficiencies": [
+   {
+    "stealth": true
+   }
+  ],
+  "toolProficiencies": [
+   {
+    "thieves' tools": true
+   }
+  ],
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Covert Warrior",
+    "entries": [
+     "You gain proficiency in the {@skill Stealth|XPHB} skill and with {@item Thieves' Tools|XPHB}. If you are already proficient with {@skill Stealth|XPHB}, you gain {@variantrule Expertise|XPHB} in it instead."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Enshadowed Equipment",
+    "entries": [
+     "You can take a {@variantrule Bonus Action|XPHB} to cause one of the following objects to magically coalesce from shadows in your hands: {@item Caltrops|XPHB}, {@item Costume|XPHB}, {@item Crowbar|XPHB}, {@item Grappling Hook|XPHB}, {@item Ladder|XPHB}, {@item Net|XPHB}, {@item Parchment|XPHB}, {@item Rope|XPHB}, {@item Signal Whistle|XPHB}, {@item Spyglass|XPHB}, or {@item Thieves' Tools|XPHB}. This item remains until it has been exposed to {@variantrule Bright Light|XPHB} for 10 minutes, you dismiss it (no action required), or you use this {@variantrule Bonus Action|XPHB} again.",
+     "You can use this {@variantrule Bonus Action|XPHB} a number of times equal to your Intelligence modifier (minimum once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Martial Artist",
+    "entries": [
+     "You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your {@variantrule Unarmed Strike|XPHB|Unarmed Strikes}, and you can roll {@dice 1d6} in place of the normal damage of your {@variantrule Unarmed Strike|XPHB}. In addition, when you use the Grapple or Shove option of your {@variantrule Unarmed Strike|XPHB}, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC."
+    ]
+   }
   ]
  },
  {
@@ -17948,6 +18449,78 @@
   ]
  },
  {
+  "name": "Heaven's Guard",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Heaven's Guard",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "entries": [
+   "{@i Make Heaven a Place on Earth}",
+   "Legend has it that in a time before recorded history, an elite host of Celestial warriors forsook their immortality and the divine realms, becoming mortal to protect the holy people and places of the Material Plane. The story goes that these martyrs' legacy lives on in the Heaven's Guard, an order of Magi that act as bodyguards to the righteous and sentinels of hallowed temples. Whether or not such tales are true, Magi in the Heaven's Guard eagerly serve as living shields to their chosen charges by drawing their enemies' ire and healing what wounds their adversaries manage to inflict.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Alabaster Mark|Magus|Magus2024|Heaven's Guard|Magus2024|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Heaven's Guard Magic|Magus|Magus2024|Heaven's Guard|Magus2024|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Heavensent|Magus|Magus2024|Heaven's Guard|Magus2024|3"
+   }
+  ]
+ },
+ {
+  "name": "Heaven's Guard Magic",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Heaven's Guard",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "entries": [
+   "You can use a {@item Holy Symbol|XPHB} as a {@variantrule Spellcasting Focus|XPHB} for your Magus spells.",
+   "In addition, your training in the Heaven's Guard ensures you always have certain spells ready; when you reach a Magus level specified in the Heaven's Guard Spells table, you thereafter always have the listed spells prepared.",
+   {
+    "type": "table",
+    "caption": "Heaven's Guard Spells",
+    "colLabels": [
+     "Magus Level",
+     "Spells"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "3",
+      "{@spell Cure Wounds|XPHB}, {@spell Give Life|Magus2024}, {@spell Guiding Bolt|XPHB}, {@spell Righteous Incitement|Magus2024}"
+     ],
+     [
+      "5",
+      "{@spell Animate Shield|Magus2024}, {@spell Gentle Repose|XPHB}"
+     ],
+     [
+      "9",
+      "{@spell Mass Healing Word|XPHB}, {@spell Revivify|XPHB}"
+     ],
+     [
+      "13",
+      "{@spell Death Ward|XPHB}, {@spell Stoneskin|XPHB}"
+     ],
+     [
+      "17",
+      "{@spell Mass Cure Wounds|XPHB}, {@spell Raise Dead|XPHB}"
+     ]
+    ]
+   }
+  ]
+ },
+ {
   "name": "Heavenborne",
   "source": "24GriffonsSaddlebag1",
   "className": "Monk",
@@ -17977,6 +18550,39 @@
     "name": "Soul Strike",
     "entries": [
      "Your {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} deal an extra {@damage 1d4} Radiant damage on a hit."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Heavensent",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Heaven's Guard",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Best Offense",
+    "entries": [
+     "While you are using a {@item Shield|XPHB}, you gain a +2 bonus to damage rolls with weapons and {@variantrule Unarmed Strike|XPHB|Unarmed Strikes}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Gifted Healer",
+    "entries": [
+     "When you cause a creature to regain {@variantrule Hit Points|XPHB} with a spell or Magus feature, you can expend a {@variantrule Hit Point Dice|XPHB|Hit Point Die}, rolling it and adding the result to the total number of {@variantrule Hit Points|XPHB} restored."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Heaven's Hand",
+    "entries": [
+     "When you cast a Magus spell that deals damage, it can deal your choice of Radiant damage or its normal damage type."
     ]
    }
   ]
@@ -20224,6 +20830,32 @@
   ]
  },
  {
+  "name": "Jade Mark",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Shadow Court",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "entries": [
+   "The effects of your mystic marks are enhanced by your greater understanding of the Shadow Court's esoteric knowledge. When you use your {@classFeature Mystic Mark|Magus|Magus2024|2} feature, you are engulfed in an aura of translucent smoke and you gain the following effects based on the benefit or benefits chosen.",
+   {
+    "type": "entries",
+    "name": "Aegis",
+    "entries": [
+     "When a creature you can see within 30 feet of you is hit by an attack, you can use your {@variantrule Reaction|XPHB} to give the creature the {@condition Invisible|XPHB} condition until the end of its next turn. The condition ends early if the target makes an attack roll, deals damage, or casts a spell."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Enspell",
+    "entries": [
+     "Once per turn when you hit a creature with a weapon or {@variantrule Unarmed Strike|XPHB}, you can make the target overexposed until the start of your next turn or until it is hit with a {@variantrule Critical Hit|XPHB}. While overexposed, attack rolls against the target can score a {@variantrule Critical Hit|XPHB} on a roll of 19 or 20."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Jester's Japes",
   "source": "CrookedMoon14",
   "page": 91,
@@ -20530,6 +21162,78 @@
    "In addition, you and affected creatures in the aura can add your Charisma modifier (minimum of +1) to Intelligence ({@skill Investigation|XPHB}) and Wisdom ({@skill Insight|XPHB}) checks."
   ],
   "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Foundry/Subclass/Paladin/Kindling%20Aura.webp"
+ },
+ {
+  "name": "Knights Stygian",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Knights Stygian",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "entries": [
+   "{@i Haunt the Unrighteous}",
+   "When corruption spreads across the world like an infected sore and ne'er-do-wells hold the keys to the kingdoms, the Knights Stygian offer a cure that is as complete as it is brutal. These Magi believe that the means justify the ends, channeling dark magic to avenge injustices and bring evil to heel.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Doombringer|Magus|Magus2024|Knights Stygian|Magus2024|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Knights Stygian Magic|Magus|Magus2024|Knights Stygian|Magus2024|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Obsidian Mark|Magus|Magus2024|Knights Stygian|Magus2024|3"
+   }
+  ]
+ },
+ {
+  "name": "Knights Stygian Magic",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Knights Stygian",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "entries": [
+   "You can use a {@item Memento Mori|Magus2024} as a {@variantrule Spellcasting Focus|XPHB} for your Magus spells.",
+   "In addition, your training in the Knights Stygian ensures you always have certain spells ready; when you reach a Magus level specified in the Knights Stygian Spells table, you thereafter always have the listed spells prepared.",
+   {
+    "type": "table",
+    "caption": "Knights Stygian Spells",
+    "colLabels": [
+     "Magus Level",
+     "Spells"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "3",
+      "{@spell Bitter Wind|Magus2024}, {@spell Hateful Haunting|Magus2024}, {@spell Grave Bolt|Magus2024}, {@spell Grave Grasp|Magus2024}"
+     ],
+     [
+      "5",
+      "{@spell Carrionette|Magus2024}, {@spell Web|XPHB}"
+     ],
+     [
+      "9",
+      "{@spell Animate Dead|XPHB}, {@spell Mortal Terror|Magus2024}"
+     ],
+     [
+      "13",
+      "{@spell Evard's Black Tentacles|XPHB}, {@spell Stygian Blast|Magus2024}"
+     ],
+     [
+      "17",
+      "{@spell Contagion|XPHB}, {@spell Insect Plague|XPHB}"
+     ]
+    ]
+   }
+  ]
  },
  {
   "name": "Knock Out",
@@ -20883,6 +21587,19 @@
   "entries": [
    "Starting at 1st level, you can manipulate your own shadow to extend your reach. When you cast a cleric spell with a range of touch, your shadow can deliver the spell as if you had cast the spell. Your target must be within 15 feet of you, and you must be able to see the target. You can use this feature even if you are in an area where you cast no shadow.",
    "When you reach 10th level in this class, your shadow can affect any target you can see within 30 feet of you."
+  ]
+ },
+ {
+  "name": "Lesser Spell Surge",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Arcane Order",
+  "subclassSource": "Magus2024",
+  "level": 7,
+  "header": 2,
+  "entries": [
+   "You can cast a Magus spell you have prepared without expending a spell slot, as if you had expended your highest level spell slot. Once you do, you cannot do so again until you finish a {@variantrule Long Rest|XPHB}."
   ]
  },
  {
@@ -22090,6 +22807,33 @@
   "header": 2,
   "entries": [
    "You can wear two masks simultaneously, gaining the benefits of both."
+  ]
+ },
+ {
+  "name": "Master of the Arcane",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Arcane Order",
+  "subclassSource": "Magus2024",
+  "level": 20,
+  "header": 2,
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Amethyst Spell Surge",
+    "entries": [
+     "You can expend the use of your {@classFeature Spell Surge|Magus|Magus2024|18} to cast {@spell Chain Lightning|XPHB} or {@spell Contingency|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Vexing Vortices",
+    "entries": [
+     "When you finish a {@variantrule Short Rest|XPHB}, you can regain the use of your {@subclassFeature Arcane Vortex|Magus|Magus2024|Arcane Order|Magus2024|14}. Once you regain the use of it in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+    ]
+   }
   ]
  },
  {
@@ -23343,6 +24087,44 @@
   ]
  },
  {
+  "name": "Mystic Insights",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Arcane Order",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "skillProficiencies": [
+   {
+    "arcana": true
+   }
+  ],
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Additional Cantrips",
+    "entries": [
+     "You know two cantrips of your choice from the Wizard spell list. These cantrips count as Magus cantrips for you but don't count against your number of cantrips known."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Arcana Adept",
+    "entries": [
+     "You gain proficiency in the {@skill Arcana|XPHB} skill. If you are already proficient with {@skill Arcana|XPHB}, you gain {@variantrule Expertise|XPHB} in it instead."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Eldritch Eye",
+    "entries": [
+     "You can take a {@variantrule Bonus Action|XPHB} to cast the {@spell Detect Magic|XPHB} spell or the {@spell Identify|XPHB} spell. You can use this {@variantrule Bonus Action|XPHB} a number of times equal to your Intelligence modifier (minimum once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Mystical Erudition (11th Level)",
   "source": "TalDoreiCampaignSettingReborn",
   "page": 174,
@@ -23483,6 +24265,20 @@
   "entries": [
    "Your connection to nature helps to shield you from harm. You're always under the effect of the {@spell Barkskin|XPHB} spell.",
    "In addition, at the start of each of your turns, you gain a number of {@variantrule Temporary Hit Points|XPHB} equal to half your Druid level (round down). When you assume a Wild Shape form, you gain a number of {@variantrule Temporary Hit Points|XPHB} equal to your Druid level plus half your Druid level (round down)."
+  ]
+ },
+ {
+  "name": "Nature's Mask",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Sylvan Circle",
+  "subclassSource": "Magus2024",
+  "level": 7,
+  "header": 2,
+  "entries": [
+   "You always have the {@spell Polymorph|XPHB} spell prepared. You can cast the spell on yourself without expending a spell slot, when you do, the spell does not require {@status Concentration|XPHB} and its duration changes to 8 hours. You can end the spell at any point prior to the end of its duration (no action required).",
+   "Once you cast the spell in this way, you can't do so again until you finish a {@variantrule Short Rest|XPHB} or {@variantrule Long Rest|XPHB}."
   ]
  },
  {
@@ -25669,6 +26465,32 @@
   ]
  },
  {
+  "name": "Obsidian Mark",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Knights Stygian",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "entries": [
+   "The effects of your mystic marks are enhanced by your greater understanding of the Knights Stygian's esoteric knowledge. When you use your {@classFeature Mystic Mark|Magus|Magus2024|2} feature, you emit drifting motes of black ash and the acrid smell of decay, and you gain the following effects based on the benefit or benefits chosen.",
+   {
+    "type": "entries",
+    "name": "Aegis",
+    "entries": [
+     "When a creature you can see within 30 feet of you is hit by an attack, you can force the attacker to make a Constitution saving throw as a {@variantrule Reaction|XPHB}. On a failed save, the attacker takes Necrotic damage equal to half the damage of its attack."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Enspell",
+    "entries": [
+     "Once per turn when you hit a creature with an attack with a weapon or {@variantrule Unarmed Strike|XPHB}, you can deal an additional {@damage 1d4} Necrotic damage. If the target is {@status Bloodied|XPHB}, the additional damage increases to {@damage 2d4}."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Occult Expertise",
   "source": "NorthlandsWorldbook",
   "className": "Sorcerer",
@@ -25768,6 +26590,19 @@
    }
   ],
   "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Foundry/Subclass/Wizard/Occult%20Presence.webp"
+ },
+ {
+  "name": "Occult Savant",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Arcane Order",
+  "subclassSource": "Magus2024",
+  "level": 7,
+  "header": 2,
+  "entries": [
+   "Choose two spells of a level you can cast from the Wizard spell list. You always have the chosen spells prepared. Whenever you gain a Magus level, you can replace one of the chosen spells with another spell from the Wizard spell list of a level you can cast."
+  ]
  },
  {
   "name": "Occultism",
@@ -26048,6 +26883,21 @@
   "entries": [
    "When you use your {@subclassFeature Divine Bargain|Cleric|XPHB|Commerce|FoEQuickstone|6} feature, you roll {@dice 2d8} rather than {@dice 1d8} to determine how many {@variantrule Hit Points|XPHB} are regained or lost.",
    "In addition, when you use your {@subclassFeature Divine Bargain|Cleric|XPHB|Commerce|FoEQuickstone|6} feature you can target up to six creatures you can see within 30 feet of yourself, buying or selling divine coins separately for each target. You use the same {@dice 2d8} roll to determine the {@variantrule Hit Points|XPHB} each creature regains or loses. If you target multiple creatures in this way, you cannot do so again until you finish a {@variantrule Short Rest|XPHB}."
+  ]
+ },
+ {
+  "name": "Open the Iron Gates",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Knights Stygian",
+  "subclassSource": "Magus2024",
+  "level": 14,
+  "header": 2,
+  "entries": [
+   "As a {@variantrule Bonus Action|XPHB} you can fling open the gates between life and death, filling the air with shadows and ash. When you do, you manifest a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} that originates from you for the next minute.",
+   "When a creature starts its turn in your {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, you can deal {@damage 1d6} Necrotic damage to it. If the creature is {@status Bloodied|XPHB}, you can deal {@damage 3d6} Necrotic damage instead. In addition, you can take a {@variantrule Bonus Action|XPHB} to make a creature of your choice within your {@variantrule Emanation [Area of Effect]|XPHB|Emanation} that is {@status Bloodied|XPHB} take a Wisdom saving throw against your spell save DC. On a failed save, the creature has the {@condition Frightened|XPHB} condition until the start of your next turn.",
+   "Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
   ]
  },
  {
@@ -30449,6 +31299,20 @@
   ]
  },
  {
+  "name": "Seal Fate",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Sidereal Cabal",
+  "subclassSource": "Magus2024",
+  "level": 14,
+  "header": 2,
+  "entries": [
+   "When a creature that you can see within 60 feet makes a roll with {@variantrule Advantage|XPHB} or {@variantrule Disadvantage|XPHB}, you can seal its fate. The creature rolls three {@dice d20}s, rather than two, using the highest result if it had {@variantrule Advantage|XPHB} or the lowest result if it had {@variantrule Disadvantage|XPHB}.",
+   "Once you use this feature, you can't use it again until you finish a {@variantrule Short Rest|XPHB} or {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
   "name": "Sealed Fate",
   "source": "CrookedMoon14",
   "page": 85,
@@ -30592,6 +31456,32 @@
   "level": 6,
   "entries": [
    "As a bonus action, you can spend 1 or more sorcery points to magically transform your body for the next 10 minutes For each sorcery point you spend, you gain one adaptation of your choice from the {@table Skinshift Adaptations|HelianasGuidetoMonsterHunting} table, the effects of which last until the transformation ends The adaptation must have a value in the {@dice d20} column equal to or lower than 20 plus half your sorcerer level If you gain a random skinshift adaptation that replaces one you already had (for example, tumour skin replacing rubber skin), this new adaptation lasts for the duration of the transformation."
+  ]
+ },
+ {
+  "name": "Selenite Mark",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Sidereal Cabal",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "entries": [
+   "The effects of your mystic marks are enhanced by your greater understanding of the Sidereal Cabal's esoteric knowledge. When you use your {@classFeature Mystic Mark|Magus|Magus2024|2} feature, you give off a soft indistinct multicolored glow and hum with potential energy. You gain the following effects based on the benefit or benefits chosen.",
+   {
+    "type": "entries",
+    "name": "Aegis",
+    "entries": [
+     "When a willing creature you can see within 30 feet of you is hit by an attack, you can use your {@variantrule Reaction|XPHB} to make the attacker reroll the attack with {@variantrule Disadvantage|XPHB}. It must use the new result."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Enspell",
+    "entries": [
+     "Once per turn when you miss a creature with a weapon or {@variantrule Unarmed Strike|XPHB}, you can make the attack roll again with {@variantrule Advantage|XPHB}. You must use the new result."
+    ]
+   }
   ]
  },
  {
@@ -30843,6 +31733,78 @@
      "When you are in dim light or darkness, as part of your move, you can teleport up to half your speed to an unoccupied space you can see that is also in dim light or darkness. You then have advantage on the first Dexterity ({@skill Stealth}) check you make before the end of your turn.",
      "When you are in dim light or darkness, if you move at least half your speed, you benefit from a perpetual {@book half cover|PHB|9|Cover} until the start of your next turn: +2 bonus to AC and Dexterity saving throws.",
      "When you hit with a melee or ranged weapon attack, you can cause the attack to deal additional cold damage equal to your proficiency bonus. You can use this feature only once on each of your turns."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Shadow Court",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Shadow Court",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "entries": [
+   "{@i Fight for Control from the Shadows}",
+   "Although outsiders see the Shadow Court as a singular group, it is in fact multiple clans that wage clandestine wars against one another to obtain secrets and access to resources. Magi in the Shadow Court specialize in legerdemain, stealth, and assassination. Using these tools, these Magi manipulate political powers to stymie their enemies and advance their own agendas.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Hand and Foot Training|Magus|Magus2024|Shadow Court|Magus2024|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Jade Mark|Magus|Magus2024|Shadow Court|Magus2024|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Shadow Court Magic|Magus|Magus2024|Shadow Court|Magus2024|3"
+   }
+  ]
+ },
+ {
+  "name": "Shadow Court Magic",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Shadow Court",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "entries": [
+   "You can use {@item Parchment|XPHB} as a {@variantrule Spellcasting Focus|XPHB} for your Magus spells. When you do, if the spell is level 1+ the {@item Parchment|XPHB} is destroyed.",
+   "In addition, your training in the Shadow Court ensures you always have certain spells ready; when you reach a Magus level specified in the Shadow Court Spells table, you thereafter always have the listed spells prepared.",
+   {
+    "type": "table",
+    "caption": "Shadow Court Spells",
+    "colLabels": [
+     "Magus Level",
+     "Spells"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "3",
+      "{@spell Disguise Self|XPHB}, {@spell Forced Hesitation|Magus2024}, {@spell Phantasmal Feint|Magus2024}, {@spell Obscuring Prick|Magus2024}"
+     ],
+     [
+      "5",
+      "{@spell Darkness|XPHB}, {@spell Invisibility|XPHB}"
+     ],
+     [
+      "9",
+      "{@spell Hypnotic Pattern|XPHB}, {@spell Major Image|XPHB}"
+     ],
+     [
+      "13",
+      "{@spell Greater Invisibility|XPHB}, {@spell Phantasmal Killer|XPHB}"
+     ],
+     [
+      "17",
+      "{@spell Mislead|XPHB}, {@spell Seeming|XPHB}"
+     ]
     ]
    }
   ]
@@ -31484,6 +32446,78 @@
   "header": 1,
   "entries": [
    "At 3rd level, you gain a number of magical side effects due to the countless magical ingredients you've ingested. You learn the {@spell Prestidigitation} and {@spell Thaumaturgy} cantrips."
+  ]
+ },
+ {
+  "name": "Sidereal Cabal",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Sidereal Cabal",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "entries": [
+   "{@i Master Your Destiny (and Everyone Else's Too)}",
+   "Magi in the Sidereal Cabal consult the stars to foresee the future and intercede at moments of particular import. Long ago the cabal followed a philosophy of balance, believing that destiny and free will should be given equal weight. Today the cabal is split into two camps, kismetists and volitionists. Kismetists prefer indirect and discreet methods, believing that active and obvious interference in the world's affairs cause a disruption in the natural order of fate. Volitionists find pivotal moments where the road of destiny forks and interject themselves to force the outcome they prefer.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Selenite Mark|Magus|Magus2024|Sidereal Cabal|Magus2024|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Sidereal Cabal Magic|Magus|Magus2024|Sidereal Cabal|Magus2024|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Starlit Sight|Magus|Magus2024|Sidereal Cabal|Magus2024|3"
+   }
+  ]
+ },
+ {
+  "name": "Sidereal Cabal Magic",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Sidereal Cabal",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "entries": [
+   "You can use an {@item Astrolabe|Magus2024} or {@item Arcane Focus|XPHB} as a {@variantrule Spellcasting Focus|XPHB} for your Magus spells.",
+   "In addition, your training in the Sidereal Cabal ensures you always have certain spells ready; when you reach a Magus level specified in the Sidereal Cabal Spells table, you thereafter always have the listed spells prepared.",
+   {
+    "type": "table",
+    "caption": "Sidereal Cabal Spells",
+    "colLabels": [
+     "Magus Level",
+     "Spells"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "3",
+      "{@spell Misfortunate Missile|Magus2024}, {@spell Overexposure|Magus2024}, {@spell Bane|XPHB}, {@spell Bless|XPHB}"
+     ],
+     [
+      "5",
+      "{@spell Augury|XPHB}, {@spell Mind Spike|XPHB}"
+     ],
+     [
+      "9",
+      "{@spell Haste|XPHB}, {@spell Slow|XPHB}"
+     ],
+     [
+      "13",
+      "{@spell Cascade of Hours|Magus2024}, {@spell Divination|XPHB}"
+     ],
+     [
+      "17",
+      "{@spell Dream|XPHB}, {@spell Scrying|XPHB}"
+     ]
+    ]
+   }
   ]
  },
  {
@@ -33308,6 +34342,71 @@
   ]
  },
  {
+  "name": "Starfinder",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Sidereal Cabal",
+  "subclassSource": "Magus2024",
+  "level": 20,
+  "header": 2,
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Selenite Spell Surge",
+    "entries": [
+     "You can expend the use of your {@classFeature Spell Surge|Magus|Magus2024|18} to cast {@spell First Speech|Magus2024} or {@spell True Seeing|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Weave Destiny",
+    "entries": [
+     "You can use your {@subclassFeature Seal Fate|Magus|Magus2024|Sidereal Cabal|Magus2024|14} three times, regaining one use when you finish a {@variantrule Short Rest|XPHB} and all uses when you finish a {@variantrule Long Rest|XPHB}."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Starlit Sight",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Sidereal Cabal",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "skillProficiencies": [
+   {
+    "perception": true
+   }
+  ],
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Darkvision",
+    "entries": [
+     "You have {@sense Darkvision|XPHB} with a range of 60 feet. If you already have {@sense Darkvision|XPHB} when you gain this feature, its range increases by 60 feet."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Mini-Portent",
+    "entries": [
+     "Whenever you finish a {@variantrule Long Rest|XPHB}, roll one {@dice d20} and record the number rolled. You can replace any {@variantrule D20 Test|XPHB} made by you or a creature that you can see with this foretold roll. You must choose to do so before the roll. This foretold roll can be used only once. When you finish a {@variantrule Long Rest|XPHB}, you lose any unused foretold roll."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Revelator's Eyes",
+    "entries": [
+     "You gain proficiency in the {@skill Perception|XPHB} skill. If you are already proficient with {@skill Perception|XPHB}, you gain {@variantrule Expertise|XPHB} in it instead."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Steal Blood",
   "source": "GrimHollowPG24",
   "page": 92,
@@ -34092,6 +35191,105 @@
    {
     "type": "refSubclassFeature",
     "subclassFeature": "Cross Counter|Pugilist|Pugilist2024|Sweet Science|Pugilist2024|3"
+   }
+  ]
+ },
+ {
+  "name": "Sylvan Circle",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Sylvan Circle",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "entries": [
+   "{@i Protect Wild Creatures and Natural Wonders}",
+   "The Sylvan Circle acts as the sword and shield of the natural world. You adventure to ensure that the world's natural wonders are preserved and that the diversity of its flora and fauna are not threatened. Although some Sylvan Circle Magi become hardliners that see themselves at war with civilization, most work to strike a balance between the needs of the natural world and the multiverse's various peoples.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Agrestal Spirit|Magus|Magus2024|Sylvan Circle|Magus2024|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Emerald Mark|Magus|Magus2024|Sylvan Circle|Magus2024|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Sylvan Circle Spells|Magus|Magus2024|Sylvan Circle|Magus2024|3"
+   }
+  ]
+ },
+ {
+  "name": "Sylvan Circle Spells",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Sylvan Circle",
+  "subclassSource": "Magus2024",
+  "level": 3,
+  "entries": [
+   "You can use a {@item Druidic Focus|XPHB} as a {@variantrule Spellcasting Focus|XPHB} for your Magus spells.",
+   "In addition, your training in the Sylvan Circle ensures you always have certain spells ready; when you reach a Magus level specified in the Sylvan Circle Spells table, you thereafter always have the listed spells prepared.",
+   {
+    "type": "table",
+    "caption": "Sylvan Circle Spells",
+    "colLabels": [
+     "Magus Level",
+     "Spells"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "3",
+      "{@spell Entangle|XPHB}, {@spell Speak with Animals|XPHB}, {@spell Thornwhip|XPHB}, {@spell Thornhold|Magus2024}"
+     ],
+     [
+      "5",
+      "{@spell Lesser Restoration|XPHB}, {@spell Moonbeam|XPHB}"
+     ],
+     [
+      "9",
+      "{@spell Conjure Animals|XPHB}, {@spell Speak with Plants|XPHB}"
+     ],
+     [
+      "13",
+      "{@spell Conjure Woodland Beings|XPHB}, {@spell Polymorph|XPHB}"
+     ],
+     [
+      "17",
+      "{@spell Greater Restoration|XPHB}, {@spell Reincarnate|XPHB}"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Sylvan Savant",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "subclassShortName": "Sylvan Circle",
+  "subclassSource": "Magus2024",
+  "level": 20,
+  "header": 2,
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Emerald Spell Surge",
+    "entries": [
+     "You can expend the use of your {@classFeature Spell Surge|Magus|Magus2024|18} to cast {@spell Conjure Fey|XPHB} or {@spell Wall of Thorns|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Font Overflowing",
+    "entries": [
+     "When you finish a {@variantrule Short Rest|XPHB}, you can regain the use of your {@subclassFeature Font of Life|Magus|Magus2024|Sylvan Circle|Magus2024|14}. Once you regain the use of it in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+    ]
    }
   ]
  },

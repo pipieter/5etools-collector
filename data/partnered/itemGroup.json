@@ -2461,6 +2461,20 @@
   ]
  },
  {
+  "name": "Memento Mori",
+  "source": "Magus2024",
+  "type": "G|XPHB",
+  "rarity": "none",
+  "entries": [
+   "A Memento Mori is a physical remnant of a deceased humanoid typically used as a trophy, to honor the dead, or for some other occult purpose. Spiritualists, Knights Stygian, and Necrodancers can use such an item as a {@variantrule Spellcasting Focus|XPHB}."
+  ],
+  "items": [
+   "Humanoid Skull|Magus2024",
+   "Necklace of Teeth|Magus2024",
+   "Preserved Organ in a Jar|Magus2024"
+  ]
+ },
+ {
   "name": "Mythcarver",
   "source": "TalDoreiCampaignSettingReborn",
   "page": 207,

@@ -272,6 +272,14 @@
   "category": "partnered"
  },
  {
+  "source": "Magus2024",
+  "name": "The Magus Class (2024)",
+  "abbreviation": "TMC'24",
+  "published": null,
+  "legacy": false,
+  "category": "partnered"
+ },
+ {
   "source": "MaladyOfMinarrh",
   "name": "The Malady of Minarrh",
   "abbreviation": "TMoM",

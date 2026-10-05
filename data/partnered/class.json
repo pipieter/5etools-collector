@@ -1551,6 +1551,545 @@
   "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/BoundByBlood/Class/Kindred-Foundry.webp"
  },
  {
+  "name": "Magus",
+  "source": "Magus2024",
+  "edition": "one",
+  "primaryAbility": [
+   {
+    "int": true
+   }
+  ],
+  "featProgression": [
+   {
+    "name": "Fighting Style",
+    "category": [
+     "FS",
+     "FS:M"
+    ],
+    "progression": {
+     "2": 1
+    }
+   },
+   {
+    "name": "Epic Boon",
+    "category": [
+     "EB"
+    ],
+    "progression": {
+     "19": 1
+    }
+   }
+  ],
+  "hd": {
+   "number": 1,
+   "faces": 8
+  },
+  "proficiency": [
+   "con",
+   "int"
+  ],
+  "spellcastingAbility": "int",
+  "casterProgression": "1/2",
+  "preparedSpellsProgression": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   20
+  ],
+  "preparedSpellsChange": "level",
+  "cantripProgression": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   3,
+   3,
+   3,
+   3,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4
+  ],
+  "startingProficiencies": {
+   "armor": [
+    "light",
+    "medium",
+    "{@item Shield|XPHB|Shields}"
+   ],
+   "weapons": [
+    "simple",
+    "martial"
+   ],
+   "skills": [
+    {
+     "choose": {
+      "from": [
+       "acrobatics",
+       "arcana",
+       "athletics",
+       "history",
+       "insight",
+       "investigation",
+       "nature",
+       "perception",
+       "religion"
+      ],
+      "count": 2
+     }
+    }
+   ]
+  },
+  "startingEquipment": {
+   "additionalFromBackground": true,
+   "defaultData": [
+    {
+     "A": [
+      {
+       "item": "studded leather armor|xphb"
+      },
+      {
+       "item": "longbow|xphb"
+      },
+      {
+       "item": "arrow|xphb",
+       "quantity": 20
+      },
+      {
+       "item": "quiver|xphb"
+      },
+      {
+       "item": "rapier|xphb"
+      },
+      {
+       "item": "component pouch|xphb"
+      },
+      {
+       "item": "diamond|xphb",
+       "displayName": "Diamond (worth 50 GP)"
+      },
+      {
+       "value": 400
+      }
+     ],
+     "B": [
+      {
+       "value": 20000
+      }
+     ]
+    }
+   ],
+   "entries": [
+    "{@i Choose A, B, or C:} (A) {@item Studded Leather Armor|XPHB}, {@item Longbow|XPHB}, 20 {@item Arrow|XPHB|Arrows}, {@item Quiver|XPHB}, {@item Rapier|XPHB}, {@item Component Pouch|XPHB}, {@item Diamond|XPHB} worth 50 GP, and 4 GP; or (B) 200 GP"
+   ]
+  },
+  "multiclassing": {
+   "requirements": {
+    "int": 13
+   },
+   "proficienciesGained": {
+    "armor": [
+     "light",
+     "medium",
+     "shield"
+    ],
+    "weapons": [
+     "martial"
+    ]
+   }
+  },
+  "classTableGroups": [
+   {
+    "colLabels": [
+     "{@filter Cantrips|spells|level=0|class=magus (TMC'24)}",
+     "{@filter Prepared Spells|spells|level=!0|class=magus (TMC'24)}"
+    ],
+    "rows": [
+     [
+      2,
+      2
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      2,
+      5
+     ],
+     [
+      2,
+      6
+     ],
+     [
+      2,
+      7
+     ],
+     [
+      2,
+      8
+     ],
+     [
+      2,
+      9
+     ],
+     [
+      2,
+      10
+     ],
+     [
+      2,
+      11
+     ],
+     [
+      3,
+      12
+     ],
+     [
+      3,
+      13
+     ],
+     [
+      3,
+      14
+     ],
+     [
+      3,
+      15
+     ],
+     [
+      3,
+      16
+     ],
+     [
+      4,
+      17
+     ],
+     [
+      4,
+      18
+     ],
+     [
+      4,
+      19
+     ],
+     [
+      4,
+      20
+     ],
+     [
+      4,
+      20
+     ]
+    ]
+   },
+   {
+    "title": "Spell Slots per Spell Level",
+    "colLabels": [
+     "{@filter 1st|spells|level=1|class=magus (tmc'24)}",
+     "{@filter 2nd|spells|level=2|class=magus (tmc'24)}",
+     "{@filter 3rd|spells|level=3|class=magus (tmc'24)}",
+     "{@filter 4th|spells|level=4|class=magus (tmc'24)}",
+     "{@filter 5th|spells|level=5|class=magus (tmc'24)}"
+    ],
+    "rowsSpellProgression": [
+     [
+      2,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      2,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      2,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      2,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      2,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      1,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      1,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      2,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      2,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      3,
+      1
+     ],
+     [
+      4,
+      3,
+      3,
+      3,
+      1
+     ],
+     [
+      4,
+      3,
+      3,
+      3,
+      2
+     ],
+     [
+      4,
+      3,
+      3,
+      3,
+      2
+     ]
+    ]
+   }
+  ],
+  "additionalSpells": [
+   {
+    "known": {
+     "18": {
+      "daily": {
+       "1e": [
+        {
+         "choose": "level=6|class=magus (tmc'24)",
+         "count": 1
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "classSpells": [
+   "Acid Splash",
+   "Chill Touch",
+   "Fire Bolt",
+   "Mage Hand",
+   "Poison Spray",
+   "Ray of Frost",
+   "Shocking Grasp",
+   "Burning Hands",
+   "Chromatic Orb",
+   "Color Spray",
+   "Detect Magic",
+   "False Life",
+   "Grease",
+   "Identify",
+   "Jump",
+   "Longstrider",
+   "Mage Armor",
+   "Shield",
+   "Acid Arrow",
+   "Blur",
+   "Dragon's Breath",
+   "Enlarge/Reduce",
+   "Flame Blade",
+   "Hold Person",
+   "Magic Weapon",
+   "Mind Spike",
+   "Mirror Image",
+   "Misty Step",
+   "Ray of Enfeeblement",
+   "Counterspell",
+   "Dispel Magic",
+   "Fireball",
+   "Fly",
+   "Haste",
+   "Lightning Bolt",
+   "Magic Circle",
+   "Phantom Steed",
+   "Protection from Energy",
+   "Slow",
+   "Vampiric Touch",
+   "Banishment",
+   "Evard's Black Tentacles",
+   "Charm Monster",
+   "Conjure Minor Elementals",
+   "Death Ward",
+   "Fire Shield",
+   "Ice Storm",
+   "Locate Creature",
+   "Secret Chest",
+   "Stoneskin",
+   "Vitriolic Sphere",
+   "Wall of Fire",
+   "Cloudkill",
+   "Conjure Elemental",
+   "Contact Other Plane",
+   "Dispel Evil and Good",
+   "Hold Monster",
+   "Legend Lore",
+   "Planar Binding",
+   "Teleportation Circle",
+   "Wall of Force",
+   "Blade Barrier",
+   "Contingency",
+   "Disintegrate",
+   "Globe of Invulnerability",
+   "Guards and Wards",
+   "Sunbeam"
+  ],
+  "classFeatures": [
+   "Esoteric Eye|Magus|Magus2024|1",
+   "Spellcasting|Magus|Magus2024|1",
+   "Weapon Mastery|Magus|Magus2024|1",
+   "Fighting Style|Magus|Magus2024|2",
+   "Mystic Mark|Magus|Magus2024|2",
+   {
+    "classFeature": "Magus Subclass|Magus|Magus2024|3",
+    "gainSubclassFeature": true
+   },
+   "Ability Score Improvement|Magus|Magus2024|4",
+   "Arcane Ability|Magus|Magus2024|5",
+   "Sword and Sorcery|Magus|Magus2024|5",
+   "Magical Recovery|Magus|Magus2024|6",
+   {
+    "classFeature": "Subclass Feature|Magus|Magus2024|7",
+    "gainSubclassFeature": true
+   },
+   "Ability Score Improvement|Magus|Magus2024|8",
+   "Rite of Return|Magus|Magus2024|9",
+   "All-Seeing Eye|Magus|Magus2024|10",
+   "Sigil Surge|Magus|Magus2024|11",
+   "Ability Score Improvement|Magus|Magus2024|12",
+   {
+    "classFeature": "Subclass Feature|Magus|Magus2024|14",
+    "gainSubclassFeature": true
+   },
+   "Sorcerous Shielding|Magus|Magus2024|15",
+   "Ability Score Improvement|Magus|Magus2024|16",
+   "Spell Surge|Magus|Magus2024|18",
+   "Epic Boon|Magus|Magus2024|19",
+   "Archmagus|Magus|Magus2024|20",
+   {
+    "classFeature": "Subclass Feature|Magus|Magus2024|20",
+    "gainSubclassFeature": true
+   }
+  ],
+  "subclassTitle": "Subclass Feature",
+  "hasFluff": true
+ },
+ {
   "name": "Messenger",
   "source": "TLotRR",
   "page": 51,

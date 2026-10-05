@@ -190,6 +190,46 @@
  },
  {
   "name": "Ability Score Improvement",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 4,
+  "entries": [
+   "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 8,
+  "entries": [
+   "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 12,
+  "entries": [
+   "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 16,
+  "entries": [
+   "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "Ability Score Improvement",
   "source": "Pugilist2024",
   "className": "Pugilist",
   "classSource": "Pugilist2024",
@@ -266,6 +306,17 @@
   "level": 16,
   "entries": [
    "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+  ]
+ },
+ {
+  "name": "All-Seeing Eye",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 10,
+  "entries": [
+   "As a {@variantrule Bonus Action|XPHB} you can expend a use of your {@classFeature Esoteric Eye|Magus|Magus2024|1} to gain {@sense Truesight|XPHB} out to a distance of 60 feet for 10 minutes. During this time, you can use the {@variantrule Bonus Action|XPHB} granted by your {@classFeature Esoteric Eye|Magus|Magus2024|1} without requiring or expending any uses.",
+   "Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
   ]
  },
  {
@@ -287,6 +338,46 @@
   "entries": [
    "The essence of the original vampiric Antediluvians has awoken in you. Pick four Ability Scores. Increase each chosen Ability Score by 2, to a maximum of 25.",
    "If a Kindred subclass feature allows for an Ability Score to be increased beyond 25, Ancient Awakening can increase that Ability Score up to the maximum noted in that other feature."
+  ]
+ },
+ {
+  "name": "Arcane Ability",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 5,
+  "entries": [
+   "When you fail an ability check, you can imbue your effort with a magical might. You add a bonus to the ability check equal to your Intelligence modifier plus the highest level unexpended spell you have, potentially turning it into a success.",
+   "Once you use this feature, you can't do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB} unless you expend a spell slot (no action required) to restore your use of it."
+  ]
+ },
+ {
+  "name": "Archmagus",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 20,
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Ability Score Enhancement",
+      "entries": [
+       "Choose Strength or Dexterity. Your Intelligence and the chosen ability score increase by 2, to a maximum of 23."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Rapid Recovery",
+      "entries": [
+       "You can use your Magical Recovery twice, regaining both uses when you finish a {@variantrule Long Rest|XPHB}."
+      ]
+     }
+    ]
+   }
   ]
  },
  {
@@ -884,6 +975,16 @@
  },
  {
   "name": "Epic Boon",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 19,
+  "entries": [
+   "You gain an {@filter Epic Boon feat|feats|category=EB} or another feat of your choice for which you qualify. {@feat Boon of Spell Recall|XPHB} is recommended."
+  ]
+ },
+ {
+  "name": "Epic Boon",
   "source": "Pugilist2024",
   "className": "Pugilist",
   "classSource": "Pugilist2024",
@@ -911,6 +1012,17 @@
   "level": 3,
   "entries": [
    "By 3rd level, the many errands you've borne during your travels have made you proficient in a little bit of everything. You can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus."
+  ]
+ },
+ {
+  "name": "Esoteric Eye",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 1,
+  "entries": [
+   "As a {@variantrule Bonus Action|XPHB}, you can observe a creature you can see. Until the end of your next turn, you have {@variantrule Advantage|XPHB} on your Magus spell attacks against it and it has {@variantrule Disadvantage|XPHB} on saving throws against your Magus spells.",
+   "You can use this {@variantrule Bonus Action|XPHB} a number of times equal to your Intelligence modifier (minimum once). You regain one expended use when you finish a {@variantrule Short Rest|XPHB}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
   ]
  },
  {
@@ -1195,6 +1307,25 @@
   "level": 2,
   "entries": [
    "You gain a {@filter Fighting Style feat|feats|category=FS} of your choice."
+  ]
+ },
+ {
+  "name": "Fighting Style",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 2,
+  "entries": [
+   "You gain a {@filter Fighting Style feat|feats|category=FS} of your choice. Instead of choosing one of those feats, you can choose the option below.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "refFeat",
+      "feat": "Mystic Warrior|Magus2024"
+     }
+    ]
+   }
   ]
  },
  {
@@ -1999,6 +2130,17 @@
   ]
  },
  {
+  "name": "Magical Recovery",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 6,
+  "entries": [
+   "You can regain some of your magical energy by meditating on the Tapestry and its myriad threads. When you finish a {@variantrule Short Rest|XPHB}, you can choose expended spell slots to recover. The spell slots can have a combined level equal to no more than half your Magus level (round up), and none of the slots can be level 6 or higher. For example, if you're a level 6 Magus, you can recover up to three levels' worth of spell slots, regaining either one level 3 spell slot, a level 2 and a level 1 spell slot, or three level 1 spell slots.",
+   "Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
   "name": "Magnificent Presence",
   "source": "HelianasGuidetoMonsterHunting",
   "className": "Tamer",
@@ -2036,6 +2178,16 @@
     ]
    },
    "After you use this feature, you can't do so again until you finish a long rest."
+  ]
+ },
+ {
+  "name": "Magus Subclass",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 3,
+  "entries": [
+   "You gain a Magus subclass of your choice. A subclass is a specialization that grants you features at certain Magus levels. For the rest of your career, you gain each of your subclass's features that are of your Magus level or lower."
   ]
  },
  {
@@ -2347,6 +2499,36 @@
   "level": 5,
   "entries": [
    "Through rigorous training, you can access the innate fury of your companions When you take a bonus action or action to command your companion, you can command it to use its Multiattack action, if it has one."
+  ]
+ },
+ {
+  "name": "Mystic Mark",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 2,
+  "entries": [
+   "You can take a {@variantrule Bonus Action|XPHB} to imbue yourself with magical power and resilience. When you do, choose a Magus level 1+ spell you have prepared that has a casting time of an action or a {@variantrule Bonus Action|XPHB}, expend a spell slot equal to or higher than the spell level, and choose Force damage or a damage type dealt by the spell. You gain your choice of the Aegis or Enspell benefit.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Aegis",
+      "entries": [
+       "You have {@variantrule Resistance|XPHB} to the chosen damage type."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Enspell",
+      "entries": [
+       "When you deal damage with a weapon or {@variantrule Unarmed Strike|XPHB}, you can deal the chosen damage type instead of the normal damage type for the attack."
+      ]
+     }
+    ]
+   },
+   "You can only benefit from one Aegis and one Enspell at a time. While you have an Aegis or Enspell, you can use a {@variantrule Bonus Action|XPHB} to release and cast a spell chosen using this feature. Your Mystic Mark and its corresponding benefit end after 1 hour, or when you release the spell."
   ]
  },
  {
@@ -2759,6 +2941,16 @@
   ]
  },
  {
+  "name": "Rite of Return",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 9,
+  "entries": [
+   "When your {@classFeature Mystic Mark|Magus|Magus2024|2} ends without you releasing the spell, you regain the expended spell slot. Additionally, you can end your {@classFeature Mystic Mark|Magus|Magus2024|2} as a {@variantrule Bonus Action|XPHB}, regaining the expended spell slot."
+  ]
+ },
+ {
   "name": "Rumour of the Earth",
   "source": "TLotRR",
   "page": 62,
@@ -2882,6 +3074,35 @@
   ]
  },
  {
+  "name": "Sigil Surge",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 11,
+  "entries": [
+   "The benefits of your {@classFeature Mystic Mark|Magus|Magus2024|2} are improved.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Aegis",
+      "entries": [
+       "At the start of each of your turns, you gain {@variantrule Temporary Hit Points|XPHB} equal to the expended spell slot level plus your Intelligence modifier."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Enspell",
+      "entries": [
+       "When you deal damage with a weapon or {@variantrule Unarmed Strike|XPHB}, you deal an additional {@damage 1d6} damage of the chosen type."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Slayer's Aid",
   "source": "GrimHollowPG24",
   "page": 53,
@@ -2920,6 +3141,35 @@
   ]
  },
  {
+  "name": "Sorcerous Shielding",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 15,
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Magic Resistance",
+      "entries": [
+       "Choose one of the following damage types: Force, Necrotic, Psychic, or Radiant. You have {@variantrule Resistance|XPHB} to that damage type. At the start of each of your turns, you can change the damage type affected by this feature to one of the other listed options."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Spell Parry",
+      "entries": [
+       "You have {@variantrule Advantage|XPHB} on saving throws against spells and spell attacks against you have {@variantrule Disadvantage|XPHB}."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Soul Bond",
   "source": "HelianasGuidetoMonsterHunting",
   "className": "Tamer",
@@ -2928,6 +3178,17 @@
   "entries": [
    "Companions make death saving throws, die, and can be revived like any player character. A companion that has been stabilised remains {@condition unconscious} until it regains hit points, or until you finish a long rest. Companions that are stable and have 0 hit points when you finish a long rest regain half their maximum hit points.",
    "Instead, you have a pool of healing power equal to five times your tamer level that replenishes when you finish a long rest. Whenever you finish a short rest, you can choose to draw power from that pool, restoring a total number of hit points amongst your companions up to the maximum amount remaining in your pool."
+  ]
+ },
+ {
+  "name": "Spell Surge",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 18,
+  "entries": [
+   "In times of need you can surge with arcane power, grasping at magic typically beyond your ability. Choose one {@filter level 6 Magus spell|spells|level=6|class=magus (tmc'24)} as your surge spell. You can cast your surge spell once without expending a spell slot. When you do, you regain one spell slot of your choice that is 5th level or lower.",
+   "Once you cast your surge spell you must finish a {@variantrule Long Rest|XPHB} before you can cast it in this way again."
   ]
  },
  {
@@ -2995,6 +3256,59 @@
       "type": "entries",
       "entries": [
        "You can use a creature's vessel as a spellcasting focus for your tamer spells."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Spellcasting",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 1,
+  "entries": [
+   "With disciplined rehearsal, you can wage war and cast spells by rote. See the core rules for the rules on spellcasting. The information below details how you use those rules with Magus spells, which appear in the Magus spell list later in the class's description.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Cantrips",
+      "entries": [
+       "You know two Magus cantrips of your choice. {@spell Chill Touch|XPHB} and {@spell Fire Bolt|XPHB} are recommended. Whenever you gain a Magus level, you can replace one of your cantrips from this feature with another Magus cantrip of your choice.",
+       "When you reach Magus levels 10 and 14, you learn another Magus cantrip of your choice, as shown in the Cantrips column of the Magus Features table."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Spell Slots",
+      "entries": [
+       "The Magus Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended spell slots when you finish a {@variantrule Long Rest|XPHB}."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Prepared Spells of Level 1+",
+      "entries": [
+       "You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Magus spells. {@spell Chromatic Orb|XPHB} and {@spell Shield|XPHB} are recommended.",
+       "The number of spells on your list increases as you gain Magus levels, as shown in the Prepared Spells column of the Magus Features table. Whenever that number increases, choose additional Magus spells until the number of spells on your list matches the number in the Magus Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Magus, your list of prepared spells can include six Magus spells of level 1 or 2 in any combination.",
+       "If another Magus feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Magus spells for you."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Changing Your Prepared Spells",
+      "entries": [
+       "Whenever you gain a Magus level, you can replace one spell on your list with another Magus spell for which you have spell slots."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Spellcasting Ability",
+      "entries": [
+       "Intelligence is your spellcasting ability for your Magus spells."
       ]
      }
     ]
@@ -3110,6 +3424,36 @@
  },
  {
   "name": "Subclass Feature",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 7,
+  "entries": [
+   "You gain a feature from your Magus Subclass."
+  ]
+ },
+ {
+  "name": "Subclass Feature",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 14,
+  "entries": [
+   "You gain a feature from your Magus Subclass."
+  ]
+ },
+ {
+  "name": "Subclass Feature",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 20,
+  "entries": [
+   "You gain a feature from your Magus Subclass."
+  ]
+ },
+ {
+  "name": "Subclass Feature",
   "source": "Pugilist2024",
   "className": "Pugilist",
   "classSource": "Pugilist2024",
@@ -3219,6 +3563,16 @@
   "level": 13,
   "entries": [
    "You learn how to switch places with your companion in the nick of time. While you and your companion are within 100 feet of each other, you can use a bonus action, or a reaction when you or your companion is the target of an attack by an attacker you can see, to magically switch places with your companion. If performed as a reaction, the creature that appears in the targeted creature's space becomes the new target of the attack You have a number of uses of this feature equal to your tamer spellcasting ability modifier (minimum of once). You regain all expended uses when you finish a long rest."
+  ]
+ },
+ {
+  "name": "Sword and Sorcery",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 5,
+  "entries": [
+   "When you take the {@action Attack|XPHB} action and it doesn't benefit from the Extra Attack feature, you can cast a {@filter Magus cantrip with a casting time of an action|spells|level=0|class=magus (tmc'24)|cast time=action} as part of the same action. When you take the {@action Magic|XPHB} action on your turn, you can use a {@variantrule Bonus Action|XPHB} to make one weapon attack."
   ]
  },
  {
@@ -4198,6 +4552,17 @@
   "entries": [
    "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as {@item Longbow|XPHB|Longbows} and {@item Longsword|XPHB|Longswords}. Whenever you finish a {@variantrule Long Rest|XPHB}, you can practice weapon drills and change one of those weapon choices.",
    "When you reach certain Monster Hunter levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Monster Hunter Features table."
+  ]
+ },
+ {
+  "name": "Weapon Mastery",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "level": 1,
+  "entries": [
+   "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as {@item Rapier|XPHB|Rapiers} and {@item Pistol|XPHB|Pistols}.",
+   "Whenever you finish a {@variantrule Long Rest|XPHB}, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of {@item Longbow|XPHB|Longbows} and {@item Longsword|XPHB|Longswords}."
   ]
  },
  {

@@ -503,6 +503,21 @@
   }
  },
  {
+  "name": "Adamant Scale",
+  "source": "Magus2024",
+  "rarity": "rare",
+  "wondrous": true,
+  "entries": [
+   "When you cast the {@spell Mage Armor|XPHB} spell, you can consume this magic item. When you do, the base AC granted by the spell is 15 plus its Dexterity modifier and any Critical Hits against the target become normal hits for the spell's duration."
+  ],
+  "attachedSpells": [
+   "mage armor|xphb"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
   "name": "Adder Stone",
   "source": "GrimHollowCG24",
   "page": 257,
@@ -3990,6 +4005,17 @@
     }
    ]
   }
+ },
+ {
+  "name": "Astrolabe",
+  "source": "Magus2024",
+  "type": "G|XPHB",
+  "rarity": "none",
+  "value": 1000,
+  "weight": 1,
+  "entries": [
+   "An Astrolabe is a small instrument made of metal that can be used as a star chart and an instrument that can be used to solve a variety of problems related to astronomy and navigation."
+  ]
  },
  {
   "name": "Astronomer's Boon",
@@ -19125,6 +19151,21 @@
   ]
  },
  {
+  "name": "Distorted Hourglass",
+  "source": "Magus2024",
+  "rarity": "very rare",
+  "wondrous": true,
+  "entries": [
+   "When you cast the {@spell Haste|XPHB} or {@spell Slow|XPHB} spell, you can consume this magic item. When you do, you cast both the {@spell Haste|XPHB} and {@spell Slow|XPHB} spells, but only need to concentrate on one spell. If you lose {@status Concentration|XPHB}, both spells immediately end."
+  ],
+  "attachedSpells": [
+   "haste|xphb"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
   "name": "Divers Armor",
   "source": "ObojimaTallGrass",
   "page": 157,
@@ -20087,6 +20128,21 @@
     }
    ]
   }
+ },
+ {
+  "name": "Dragon's Wingscale",
+  "source": "Magus2024",
+  "rarity": "uncommon",
+  "wondrous": true,
+  "entries": [
+   "When you cast the {@spell Dragon's Breath|XPHB} spell, you can consume this magic item. When you do, the spell's target gains a {@variantrule Fly Speed|XPHB} of 30 feet for the duration of the spell."
+  ],
+  "attachedSpells": [
+   "dragon's breath|xphb"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
  },
  {
   "name": "Dragonband",
@@ -27689,6 +27745,36 @@
   ]
  },
  {
+  "name": "Gilded Pate",
+  "source": "Magus2024",
+  "rarity": "rare",
+  "reqAttune": "by a Spellcaster",
+  "reqAttuneTags": [
+   {
+    "spellcasting": true
+   }
+  ],
+  "wondrous": true,
+  "entries": [
+   "This gold covered skull can be used as a {@item Memento Mori|Magus2024}.",
+   "When you use this magic item as a {@variantrule Spellcasting Focus|XPHB} for a spell, you can apply one of the following effects.",
+   {
+    "type": "entries",
+    "name": "Channel the Beyond",
+    "entries": [
+     "If the spell deals damage, you can change the damage type of the spell to your choice of Necrotic or Radiant damage."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Enspelled Terror",
+    "entries": [
+     "If the spell is level 1+, one target of the spell must succeed on a Wisdom saving throw against your spell save DC, or have the {@condition Frightened|XPHB} condition until the end of its next turn."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Give and Take",
   "source": "24GriffonsSaddlebag1",
   "baseItem": "scimitar|xphb",
@@ -29725,6 +29811,23 @@
    }
   ],
   "hasFluffImages": true
+ },
+ {
+  "name": "Grimoire of Stolen Secrets",
+  "source": "Magus2024",
+  "rarity": "rare",
+  "reqAttune": "by a Spellcaster",
+  "reqAttuneTags": [
+   {
+    "spellcasting": true
+   }
+  ],
+  "wondrous": true,
+  "entries": [
+   "This black leather tome is blank until imbued with Spell Scrolls. When you tuck a {@item Spell Scroll|XDMG} into the grimoire and leave it untouched for 8 hours, the {@item Spell Scroll|XDMG} is destroyed as if it had been used and the spell can now be found in the grimoire.",
+   "All spells in this grimoire are prepared by you and added to each of your classes' spell lists. The grimoire can contain a total of 5 spells with no spell being level 6+.",
+   "Once your {@variantrule Attunement|XPHB} on this magic item ends, the pages return to being blank."
+  ]
  },
  {
   "name": "Grip of Dendallen",
@@ -34275,6 +34378,17 @@
   }
  },
  {
+  "name": "Humanoid Skull",
+  "source": "Magus2024",
+  "type": "G|XPHB",
+  "rarity": "none",
+  "value": 100,
+  "weight": 2,
+  "entries": [
+   "A Memento Mori is a physical remnant of a deceased humanoid typically used as a trophy, to honor the dead, or for some other occult purpose. Spiritualists, Knights Stygian, and Necrodancers can use such an item as a {@variantrule Spellcasting Focus|XPHB}."
+  ]
+ },
+ {
   "name": "Humble Frock",
   "source": "GrimHollowCG24",
   "page": 264,
@@ -36296,6 +36410,21 @@
   ]
  },
  {
+  "name": "Iron Feather",
+  "source": "Magus2024",
+  "rarity": "uncommon",
+  "wondrous": true,
+  "entries": [
+   "When you cast the {@spell Forced Hesitation|Magus2024} spell, you can consume this magic item. When you do, if the target fails its saving throw, its {@variantrule Initiative|XPHB} roll is reduced by the two highest results of the damage dice combined."
+  ],
+  "attachedSpells": [
+   "Forced Hesitation|Magus2024"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
   "name": "Iron Mind",
   "source": "ObojimaTallGrass",
   "page": 224,
@@ -36633,6 +36762,21 @@
     }
    ]
   }
+ },
+ {
+  "name": "Jade Toadstool",
+  "source": "Magus2024",
+  "rarity": "rare",
+  "wondrous": true,
+  "entries": [
+   "When you cast the {@spell Revivify|XPHB} spell, you can consume this magic item instead of a diamond worth 300+ GP. When you do, the target creature revives with {@variantrule Hit Points|XPHB} equal to its {@variantrule Hit Points|XPHB|Hit Point} maximum instead of 1."
+  ],
+  "attachedSpells": [
+   "revivify|xphb"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
  },
  {
   "name": "Jinxed Poker Chip",
@@ -38738,6 +38882,21 @@
   }
  },
  {
+  "name": "Leaden Mirror",
+  "source": "Magus2024",
+  "rarity": "rare",
+  "wondrous": true,
+  "entries": [
+   "When you cast the {@spell Counterspell|XPHB} spell and the target of the spell fails its saving throw, you can consume this magic item. When you do, if the target fails its saving throw, it loses any spell slot used to cast the spell, and takes {@damage 1d6} Force damage per level of the spell."
+  ],
+  "attachedSpells": [
+   "counterspell|xphb"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
   "name": "Leather Undervest",
   "source": "BoundByBlood",
   "type": "G|XPHB",
@@ -40691,6 +40850,21 @@
   }
  },
  {
+  "name": "Magic Magnifier",
+  "source": "Magus2024",
+  "rarity": "rare",
+  "wondrous": true,
+  "entries": [
+   "When you cast the {@spell Ensorcelled Strike|Magus2024} spell, you can consume this magic item. When you do, if you hit the target with the attack, the first time it takes damage from a spell before the end of your next turn it takes an additional {@damage 3d6} Force damage."
+  ],
+  "attachedSpells": [
+   "Ensorcelled Strike|Magus2024"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
   "name": "Magical Prosthetics",
   "source": "GrimHollowCG24",
   "page": 266,
@@ -40700,6 +40874,21 @@
    "The brutal warfare and vicious monsters prevalent across Etharis leave many with {@variantrule Grievous Wounds|GrimHollowCG24}, including missing limbs and other potentially debilitating injuries. The engineers and crafters of the world have made great strides in helping those people deal with those injuries through {@item Prosthetics|GrimHollowPG24}, which are covered in Chapter 5 of the {@book Grim Hollow Player's Guide|GrimHollowPG24|5}.",
    "Magical versions of Prosthetics can be crafted with properties that mimic existing Wondrous Items or Rings. Typically, these Prosthetics replicate the body part that would wear that item. For example, a Magical Prosthetic leg could replicate the effect of {@item Boots of Elvenkind|XDMG}, while a Magical Prosthetic hand might act as a {@item Ring of Protection|XDMG}.",
    "A Magical Prosthetic has the same rarity as the magic item it mimics. It counts as \"wearing\" an item of that kind, so if you have a Magical Prosthetic leg that mimics {@item Boots of Elvenkind|XDMG}, you can't wear another pair of magic boots."
+  ]
+ },
+ {
+  "name": "Magiceramic Mask",
+  "source": "Magus2024",
+  "rarity": "very rare",
+  "wondrous": true,
+  "entries": [
+   "When you cast the {@spell Nystul's Magic Aura|XPHB} spell, you can consume this magic item. When you do, you can target an unwilling creature with the spell. The creature must succeed on a Charisma saving throw against your spell save DC or suffer the Mask effect of the spell for the duration."
+  ],
+  "attachedSpells": [
+   "nystul's magic aura|xphb"
+  ],
+  "miscTags": [
+   "CNS"
   ]
  },
  {
@@ -43699,6 +43888,24 @@
   }
  },
  {
+  "name": "Miniature Multiverse Model",
+  "source": "Magus2024",
+  "rarity": "very rare",
+  "reqAttune": "by a Spellcaster",
+  "reqAttuneTags": [
+   {
+    "spellcasting": true
+   }
+  ],
+  "wondrous": true,
+  "bonusSpellAttack": "+1",
+  "bonusSpellSaveDc": "+1",
+  "entries": [
+   "This mithril-detailed model of the cosmos can be used as an {@item Astrolabe|Magus2024}. When you use this object as a {@variantrule Spellcasting Focus|XPHB}, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your spells.",
+   "In addition, when a creature you can see within 60 feet of you makes a {@variantrule D20 Test|XPHB}, you can give that {@variantrule D20 Test|XPHB} your choice of {@variantrule Advantage|XPHB} or {@variantrule Disadvantage|XPHB} as a {@variantrule Reaction|XPHB}."
+  ]
+ },
+ {
   "name": "Minotaur's Map",
   "source": "FoEQuickstone",
   "page": 184,
@@ -45126,6 +45333,43 @@
   "bonusWeapon": "+3",
   "hasFluff": true,
   "hasFluffImages": true
+ },
+ {
+  "name": "Necklace of Fangs",
+  "source": "Magus2024",
+  "rarity": "rare",
+  "reqAttune": "by a Spellcaster",
+  "reqAttuneTags": [
+   {
+    "spellcasting": true
+   }
+  ],
+  "wondrous": true,
+  "recharge": "dawn",
+  "rechargeAmount": "{@dice 1d6}",
+  "charges": 6,
+  "entries": [
+   "This necklace of vampire and werebeast teeth can be used as a {@item Memento Mori|Magus2024}.",
+   "This necklace has 6 charges. While wearing the necklace, you can take a {@action Magic|XPHB} action to expend 1 charge from the object and choose a creature you can see within 30 feet of you. That creature must make a Dexterity saving throw (save DC 13) taking {@damage 6d6} Piercing damage on a failed save or half as much damage on a successful one. You regain {@variantrule Hit Points|XPHB} equal to the amount of Piercing damage dealt.",
+   {
+    "type": "entries",
+    "name": "Regaining Charges",
+    "entries": [
+     "The necklace regains {@dice 1d6} expended charges daily at dawn. If you expend the last charge, roll {@dice 1d20}. On a 1, the necklace melts into black slag leaving permanent bite marks around your throat and shoulders."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Necklace of Teeth",
+  "source": "Magus2024",
+  "type": "G|XPHB",
+  "rarity": "none",
+  "value": 200,
+  "weight": 1,
+  "entries": [
+   "A Memento Mori is a physical remnant of a deceased humanoid typically used as a trophy, to honor the dead, or for some other occult purpose. Spiritualists, Knights Stygian, and Necrodancers can use such an item as a {@variantrule Spellcasting Focus|XPHB}."
+  ]
  },
  {
   "name": "Necrolace",
@@ -49258,6 +49502,34 @@
   }
  },
  {
+  "name": "Pickled Pixie Heart",
+  "source": "Magus2024",
+  "rarity": "rare",
+  "reqAttune": true,
+  "wondrous": true,
+  "recharge": "dawn",
+  "rechargeAmount": "{@dice 1d4 + 1}",
+  "charges": 5,
+  "entries": [
+   "This small glass vial containing a sickly green liquid and the preserved heart of a fairy can be used as a {@item Memento Mori|Magus2024}.",
+   "This vial has 5 charges. While holding the vial, you can expend 1 charge to cast {@spell Misty Step|XPHB}. When you do, each creature of your choice within 5 feet of the space you left must succeed on a Constitution saving throw (save DC 14) or have the {@condition Poisoned|XPHB} condition for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the condition on a success.",
+   {
+    "type": "entries",
+    "name": "Regaining Charges",
+    "entries": [
+     "The object regains {@dice 1d4 + 1} expended charges daily at dawn. If you expend the object's last charge, roll {@dice 1d10}. On a 1, the object dissipates into a bubbling sulphuric goo."
+    ]
+   }
+  ],
+  "attachedSpells": {
+   "charges": {
+    "1": [
+     "misty step|xphb"
+    ]
+   }
+  }
+ },
+ {
   "name": "Pig Snout",
   "source": "ObojimaTallGrass",
   "page": 233,
@@ -50209,6 +50481,21 @@
     }
    ]
   }
+ },
+ {
+  "name": "Polychromatic Prism",
+  "source": "Magus2024",
+  "rarity": "uncommon",
+  "wondrous": true,
+  "entries": [
+   "When you cast the {@spell Chromatic Orb|XPHB} spell, you can consume this magic item. When you do, you can choose Necrotic, Psychic, or Radiant damage instead of the damage types listed in the spell's description, and the spell deals an additional {@damage 2d8} damage."
+  ],
+  "attachedSpells": [
+   "chromatic orb|xphb"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
  },
  {
   "name": "Pomade of Ten Thousand Styles",
@@ -51261,6 +51548,17 @@
     }
    ]
   }
+ },
+ {
+  "name": "Preserved Organ in a Jar",
+  "source": "Magus2024",
+  "type": "G|XPHB",
+  "rarity": "none",
+  "value": 500,
+  "weight": 5,
+  "entries": [
+   "A Memento Mori is a physical remnant of a deceased humanoid typically used as a trophy, to honor the dead, or for some other occult purpose. Spiritualists, Knights Stygian, and Necrodancers can use such an item as a {@variantrule Spellcasting Focus|XPHB}."
+  ]
  },
  {
   "name": "Press Pass",
@@ -54064,6 +54362,28 @@
     "max": 1
    }
   }
+ },
+ {
+  "name": "Restless Cremains",
+  "source": "Magus2024",
+  "rarity": "uncommon",
+  "reqAttune": true,
+  "wondrous": true,
+  "recharge": "dawn",
+  "rechargeAmount": "{@dice 1d6 + 3}",
+  "charges": 9,
+  "entries": [
+   "This trembling silver vial of humanoid cremains can be used as a {@item Memento Mori|Magus2024}.",
+   "This vial has 9 charges. Whenever you cast a spell using the vial as a {@variantrule Spellcasting Focus|XPHB}, you can expend a number of charges up to the level of spell cast. For each charge expended, you summon a Dust Mephit to an unoccupied space you can see within 60 feet.",
+   "Each of the mephits understand your languages, obey your commands, are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies, and takes its turn immediately after you on your {@variantrule Initiative|XPHB} count. If you issue no commands, the creature defends itself but takes no other actions. Each mephit summoned by this vial dissipates into dust and returns to the vial when it is reduced to 0 {@variantrule Hit Points|XPHB} or after 10 minutes.",
+   {
+    "type": "entries",
+    "name": "Regaining Charges",
+    "entries": [
+     "The object regains {@dice 1d6 + 3} expended charges daily at dawn. If you expend the object's last charge, roll {@dice 1d20}. On a 1, the vial crumbles into dust and is destroyed."
+    ]
+   }
+  ]
  },
  {
   "name": "Resuscitation Bomb",
@@ -56884,6 +57204,21 @@
   }
  },
  {
+  "name": "Ruby Toadstool",
+  "source": "Magus2024",
+  "rarity": "uncommon",
+  "wondrous": true,
+  "entries": [
+   "When you cast the {@spell Enlarge/Reduce|XPHB} spell, you can consume this magic item. When you do, the target's size increases by two categories instead of one and whenever the spell would require the target to roll {@dice 1d4}, they roll {@dice 1d8} instead."
+  ],
+  "attachedSpells": [
+   "enlarge/reduce|xphb"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
   "name": "Runestone of the Wild Titan (Legendary)",
   "source": "CrookedMoon24",
   "page": 603,
@@ -58311,6 +58646,49 @@
     }
    ]
   }
+ },
+ {
+  "name": "Scythe of Grim Harvest",
+  "source": "Magus2024",
+  "baseItem": "greataxe|xphb",
+  "type": "M|XPHB",
+  "rarity": "rare",
+  "reqAttune": true,
+  "weight": 7,
+  "weaponCategory": "martial",
+  "property": [
+   "H|XPHB",
+   "2H|XPHB"
+  ],
+  "mastery": [
+   "Cleave|XPHB"
+  ],
+  "dmg1": "1d12",
+  "dmgType": "S",
+  "entries": [
+   "This item appears to be a two-handed scythe, and can be used as a {@item Memento Mori|Magus2024}.",
+   {
+    "type": "entries",
+    "name": "Bloody Hungry",
+    "entries": [
+     "You have {@variantrule Advantage|XPHB} on attacks against {@status Bloodied|XPHB} creatures."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Harvest Soul",
+    "entries": [
+     "When a creature within 30 feet of you is reduced to 0 {@variantrule Hit Points|XPHB}, as a {@variantrule Reaction|XPHB}, you can gain {@variantrule Temporary Hit Points|XPHB} equal to its {@variantrule Challenge Rating|XPHB} or level, and make one attack with a weapon."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Sweeping Shear",
+    "entries": [
+     "As an action, you can force creatures of your choice within 10 feet of you to make a Dexterity saving throw (save DC 13). A creature takes Slashing damage equal to {@dice 3d6} plus your level on a failed save, or half as much damage on a successful one."
+    ]
+   }
+  ]
  },
  {
   "name": "Scythe of the Harvest Terror (Legendary)",
@@ -67135,6 +67513,42 @@
   }
  },
  {
+  "name": "Starfall Spotter",
+  "source": "Magus2024",
+  "rarity": "very rare",
+  "reqAttune": "by a Spellcaster",
+  "reqAttuneTags": [
+   {
+    "spellcasting": true
+   }
+  ],
+  "wondrous": true,
+  "recharge": "dawn",
+  "rechargeAmount": "{@dice 2d6}",
+  "charges": 12,
+  "entries": [
+   "This gold and silver model of the stars can be used as an {@item Astrolabe|Magus2024}.",
+   "This object has 12 charges. While holding it, you can expend 1 charge to cast {@spell Magic Missile|XPHB} or 4 charges to cast {@spell Fireball|XPHB} (save DC 15) from it. When you cast either spell from this object, the damage type of the spell is Radiant, rather than its normal damage type.",
+   {
+    "type": "entries",
+    "name": "Regaining Charges",
+    "entries": [
+     "The object regains {@dice 2d6} expended charges daily at dawn. If you expend the object's last charge, roll {@dice 1d20}. On a 1, the object disappears in a streaking flash of light."
+    ]
+   }
+  ],
+  "attachedSpells": {
+   "charges": {
+    "1": [
+     "magic missile|xphb"
+    ],
+    "4": [
+     "fireball|xphb"
+    ]
+   }
+  }
+ },
+ {
   "name": "Starmetal Ring",
   "source": "24GriffonsSaddlebag1",
   "type": "RG|XDMG",
@@ -70469,7 +70883,7 @@
      "type": "image",
      "href": {
       "type": "external",
-      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/tgs1/The-Griffons-Saddlebag.webp"
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/TGS1/The-Griffons-Saddlebag.webp"
      },
      "width": 2400,
      "height": 2400
@@ -71264,6 +71678,21 @@
     "autoDestroy": false
    }
   }
+ },
+ {
+  "name": "Tiny Mithril Hammer",
+  "source": "Magus2024",
+  "rarity": "uncommon",
+  "wondrous": true,
+  "entries": [
+   "When you cast the {@spell Magic Weapon|XPHB} spell, you can consume this magic item. When you do, the duration changes to 8 hours."
+  ],
+  "attachedSpells": [
+   "magic weapon|xphb"
+  ],
+  "miscTags": [
+   "CNS"
+  ]
  },
  {
   "name": "Tiny Telekinesis",
@@ -78613,6 +79042,21 @@
   "dmgType": "S",
   "entries": [
    "You can use a bonus action to speak this magic scimitar's command word, causing golden radiance to spring from the blade. It sheds {@quickref Vision and Light||2||bright light} in a 30-foot-radius sphere and {@quickref Vision and Light||2||dim light} for an additional 30 feet. While the scimitar is ablaze, it deals an extra {@damage 2d6} radiant damage to any target it hits. The witchlight glow lasts until you use a bonus action to speak the command word again or until you drop or sheathe the scimitar."
+  ]
+ },
+ {
+  "name": "Witchwood Jaw",
+  "source": "Magus2024",
+  "rarity": "uncommon",
+  "wondrous": true,
+  "entries": [
+   "When you cast the {@spell Animate Dead|XPHB} spell, you can consume this magic item. When you do, the {@creature Skeleton|XMM|Skeletons} and {@creature Zombie|XMM|Zombies} created through the spell can speak and understand any languages you know."
+  ],
+  "attachedSpells": [
+   "animate dead|xphb"
+  ],
+  "miscTags": [
+   "CNS"
   ]
  },
  {
