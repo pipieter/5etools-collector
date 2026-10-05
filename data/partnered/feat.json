@@ -9220,6 +9220,22 @@
   ]
  },
  {
+  "name": "Mystic Warrior",
+  "source": "Magus2024",
+  "category": "FS:M",
+  "prerequisite": [
+   {
+    "otherSummary": {
+     "entry": "When Gaining the Level 2 Magus \"Fighting Style\" Feature",
+     "entrySummary": "Special"
+    }
+   }
+  ],
+  "entries": [
+   "You gain a bonus on Constitution saving throws you make to maintain {@status Concentration|XPHB} equal to your Intelligence modifier (minimum +1). When you fail a Constitution saving throw to maintain {@status Concentration|XPHB} on a spell, you gain {@variantrule Temporary Hit Points|XPHB} equal to twice the spell's level plus your Intelligence modifier."
+  ]
+ },
+ {
   "name": "Nakudama's Electric Bloodline",
   "source": "ObojimaTallGrass",
   "page": 164,

@@ -144,6 +144,89 @@
   }
  },
  {
+  "name": "Arcane Order",
+  "shortName": "Arcane Order",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "edition": "one",
+  "subclassFeatures": [
+   "Arcane Order|Magus|Magus2024|Arcane Order|Magus2024|3",
+   "Lesser Spell Surge|Magus|Magus2024|Arcane Order|Magus2024|7",
+   "Occult Savant|Magus|Magus2024|Arcane Order|Magus2024|7",
+   "Arcane Vortex|Magus|Magus2024|Arcane Order|Magus2024|14",
+   "Master of the Arcane|Magus|Magus2024|Arcane Order|Magus2024|20"
+  ],
+  "additionalSpells": [
+   {
+    "prepared": {
+     "3": [
+      "Demiplanar Pitch|Magus2024",
+      "Shocking Grasp|XPHB",
+      "Find Familiar|XPHB",
+      "Magic Missile|XPHB",
+      {
+       "choose": "level=0|class=wizard",
+       "count": 2
+      }
+     ],
+     "5": [
+      "Nystul's Magic Aura|XPHB",
+      "Misty Step|XPHB"
+     ],
+     "7": [
+      {
+       "choose": "level=1;2|class=wizard",
+       "count": 2
+      }
+     ],
+     "9": [
+      "Dispel Magic|XPHB",
+      "Waypoint|Magus2024"
+     ],
+     "13": [
+      "Banishment|XPHB",
+      "Mordenkainen's Private Sanctum|XPHB"
+     ],
+     "17": [
+      "Reflect Magic|Magus2024",
+      "Teleportation Circle|XPHB"
+     ]
+    }
+   }
+  ],
+  "subclassSpells": [
+   "Demiplanar Pitch|Magus2024",
+   "Shocking Grasp|XPHB",
+   "Find Familiar|XPHB",
+   "Magic Missile|XPHB",
+   "Nystul's Magic Aura|XPHB",
+   "Misty Step|XPHB",
+   "Dispel Magic|XPHB",
+   "Waypoint|Magus2024",
+   "Banishment|XPHB",
+   "Mordenkainen's Private Sanctum|XPHB",
+   "Reflect Magic|Magus2024",
+   "Teleportation Circle|XPHB",
+   "Chain Lightning|XPHB",
+   "Contingency|XPHB",
+   "Detect Magic|XPHB",
+   "Identify|XPHB"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/Magus2024/Subclasses/Arcane%20Order.webp"
+     },
+     "credit": "Devin Hoyt"
+    }
+   ]
+  }
+ },
+ {
   "name": "Architect of Ruin",
   "shortName": "Architect of Ruin",
   "source": "IllriggerRevised",
@@ -4531,6 +4614,76 @@
   "hasFluff": true
  },
  {
+  "name": "Heaven's Guard",
+  "shortName": "Heaven's Guard",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "edition": "one",
+  "subclassFeatures": [
+   "Heaven's Guard|Magus|Magus2024|Heaven's Guard|Magus2024|3",
+   "Guardian's Wings|Magus|Magus2024|Heaven's Guard|Magus2024|7",
+   "Cloak of Radiance|Magus|Magus2024|Heaven's Guard|Magus2024|14",
+   "Bright as Dawn|Magus|Magus2024|Heaven's Guard|Magus2024|20"
+  ],
+  "additionalSpells": [
+   {
+    "prepared": {
+     "3": [
+      "cure wounds|xphb",
+      "give life|Magus2024",
+      "guiding bolt|xphb",
+      "righteous incitement|Magus2024"
+     ],
+     "5": [
+      "animate shield|Magus2024",
+      "gentle repose|xphb"
+     ],
+     "9": [
+      "mass healing word|xphb",
+      "revivify|xphb"
+     ],
+     "13": [
+      "death ward|xphb",
+      "stoneskin|xphb"
+     ],
+     "17": [
+      "mass cure wounds|xphb",
+      "raise dead|xphb"
+     ]
+    }
+   }
+  ],
+  "subclassSpells": [
+   "Cure Wounds|XPHB",
+   "Give Life|Magus2024",
+   "Guiding Bolt|XPHB",
+   "Righteous Incitement|Magus2024",
+   "Animate Shield|Magus2024",
+   "Gentle Repose|XPHB",
+   "Mass Healing Word|XPHB",
+   "Revivify|XPHB",
+   "Death Ward|XPHB",
+   "Stoneskin|XPHB",
+   "Mass Cure Wounds|XPHB",
+   "Raise Dead|XPHB",
+   "Heal|XPHB",
+   "Sunbeam|XPHB"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/Magus2024/Subclasses/Heavens%20Guard.webp"
+     },
+     "credit": "Mick Cortes"
+    }
+   ]
+  }
+ },
+ {
   "name": "Hellspeaker",
   "shortName": "Hellspeaker",
   "source": "IllriggerRevised",
@@ -5087,6 +5240,76 @@
    "Duty Over Death|Cleric|PHB|Keeper|BookOfEbonTides|17"
   ],
   "hasFluffImages": true
+ },
+ {
+  "name": "Knights Stygian",
+  "shortName": "Knights Stygian",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "edition": "one",
+  "subclassFeatures": [
+   "Knights Stygian|Magus|Magus2024|Knights Stygian|Magus2024|3",
+   "Face of Fear|Magus|Magus2024|Knights Stygian|Magus2024|7",
+   "Open the Iron Gates|Magus|Magus2024|Knights Stygian|Magus2024|14",
+   "Darkest Knight|Magus|Magus2024|Knights Stygian|Magus2024|20"
+  ],
+  "additionalSpells": [
+   {
+    "prepared": {
+     "3": [
+      "bitter wind|Magus2024",
+      "hateful haunting|Magus2024",
+      "grave bolt|Magus2024",
+      "grave grasp|Magus2024"
+     ],
+     "5": [
+      "carrionette|Magus2024",
+      "web|xphb"
+     ],
+     "9": [
+      "animate dead|xphb",
+      "mortal terror|Magus2024"
+     ],
+     "13": [
+      "Evard's Black Tentacles|xphb",
+      "stygian blast|Magus2024"
+     ],
+     "17": [
+      "contagion|xphb",
+      "insect plague|xphb"
+     ]
+    }
+   }
+  ],
+  "subclassSpells": [
+   "Bitter Wind|Magus2024",
+   "Hateful Haunting|Magus2024",
+   "Grave Bolt|Magus2024",
+   "Grave Grasp|Magus2024",
+   "Carrionette|Magus2024",
+   "Web|XPHB",
+   "Animate Dead|XPHB",
+   "Mortal Terror|Magus2024",
+   "Evard's Black Tentacles|XPHB",
+   "Stygian Blast|Magus2024",
+   "Contagion|XPHB",
+   "Insect Plague|XPHB",
+   "Circle of Death|XPHB",
+   "Create Undead|XPHB"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/Magus2024/Subclasses/Knights%20Stygian.webp"
+     },
+     "credit": "Maxwell Polikoff"
+    }
+   ]
+  }
  },
  {
   "name": "Lasombra",
@@ -8937,6 +9160,84 @@
   "hasFluffImages": true
  },
  {
+  "name": "Shadow Court",
+  "shortName": "Shadow Court",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "edition": "one",
+  "subclassFeatures": [
+   "Shadow Court|Magus|Magus2024|Shadow Court|Magus2024|3",
+   "Broken Mirror Jutsu|Magus|Magus2024|Shadow Court|Magus2024|7",
+   "False Body Jutsu|Magus|Magus2024|Shadow Court|Magus2024|14",
+   "Enshadowed Sifu|Magus|Magus2024|Shadow Court|Magus2024|20"
+  ],
+  "additionalSpells": [
+   {
+    "prepared": {
+     "3": [
+      "disguise self|xphb",
+      "forced hesitation|Magus2024",
+      "phantasmal feint|Magus2024",
+      "obscuring prick|Magus2024"
+     ],
+     "5": [
+      "darkness|xphb",
+      "invisibility|xphb"
+     ],
+     "7": {
+      "daily": {
+       "1e": [
+        "mirror image|xphb"
+       ]
+      }
+     },
+     "9": [
+      "hypnotic pattern|xphb",
+      "major image|xphb"
+     ],
+     "13": [
+      "greater invisibility|xphb",
+      "phantasmal killer|xphb"
+     ],
+     "17": [
+      "mislead|xphb",
+      "seeming|xphb"
+     ]
+    }
+   }
+  ],
+  "subclassSpells": [
+   "Disguise Self|XPHB",
+   "Forced Hesitation|Magus2024",
+   "Phantasmal Feint|Magus2024",
+   "Obscuring Prick|Magus2024",
+   "Darkness|XPHB",
+   "Invisibility|XPHB",
+   "Hypnotic Pattern|XPHB",
+   "Major Image|XPHB",
+   "Greater Invisibility|XPHB",
+   "Phantasmal Killer|XPHB",
+   "Mislead|XPHB",
+   "Seeming|XPHB",
+   "Mirror Image|XPHB",
+   "Eyebite|XPHB",
+   "Programmed Illusion|XPHB"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/Magus2024/Subclasses/Shadow%20Court.webp"
+     },
+     "credit": "Junkestar"
+    }
+   ]
+  }
+ },
+ {
   "name": "Shadow Domain",
   "shortName": "Shadow",
   "source": "BookOfEbonTides",
@@ -9113,6 +9414,76 @@
     "title": "Herding Sheep"
    }
   ]
+ },
+ {
+  "name": "Sidereal Cabal",
+  "shortName": "Sidereal Cabal",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "edition": "one",
+  "subclassFeatures": [
+   "Sidereal Cabal|Magus|Magus2024|Sidereal Cabal|Magus2024|3",
+   "Celestial Clockwork Control|Magus|Magus2024|Sidereal Cabal|Magus2024|7",
+   "Seal Fate|Magus|Magus2024|Sidereal Cabal|Magus2024|14",
+   "Starfinder|Magus|Magus2024|Sidereal Cabal|Magus2024|20"
+  ],
+  "additionalSpells": [
+   {
+    "prepared": {
+     "3": [
+      "misfortunate missile|Magus2024",
+      "overexposure|Magus2024",
+      "bane|xphb",
+      "bless|xphb"
+     ],
+     "5": [
+      "augury|xphb",
+      "mind spike|xphb"
+     ],
+     "9": [
+      "haste|xphb",
+      "slow|xphb"
+     ],
+     "13": [
+      "cascade of hours|Magus2024",
+      "divination|xphb"
+     ],
+     "17": [
+      "dream|xphb",
+      "scrying|xphb"
+     ]
+    }
+   }
+  ],
+  "subclassSpells": [
+   "Misfortunate Missile|Magus2024",
+   "Overexposure|Magus2024",
+   "Bane|XPHB",
+   "Bless|XPHB",
+   "Augury|XPHB",
+   "Mind Spike|XPHB",
+   "Haste|XPHB",
+   "Slow|XPHB",
+   "Cascade of Hours|Magus2024",
+   "Divination|XPHB",
+   "Dream|XPHB",
+   "Scrying|XPHB",
+   "First Speech|Magus2024",
+   "True Seeing|XPHB"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/Magus2024/Subclasses/Sidereal%20Cabal.webp"
+     },
+     "credit": "Maxwell Polikoff"
+    }
+   ]
+  }
  },
  {
   "name": "Sinner",
@@ -9833,6 +10204,87 @@
   ],
   "hasFluffImages": true,
   "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/Pugilist2024/Icons/Sweet Science.webp"
+ },
+ {
+  "name": "Sylvan Circle",
+  "shortName": "Sylvan Circle",
+  "source": "Magus2024",
+  "className": "Magus",
+  "classSource": "Magus2024",
+  "edition": "one",
+  "subclassFeatures": [
+   "Sylvan Circle|Magus|Magus2024|Sylvan Circle|Magus2024|3",
+   "Nature's Mask|Magus|Magus2024|Sylvan Circle|Magus2024|7",
+   "Font of Life|Magus|Magus2024|Sylvan Circle|Magus2024|14",
+   "Sylvan Savant|Magus|Magus2024|Sylvan Circle|Magus2024|20"
+  ],
+  "additionalSpells": [
+   {
+    "prepared": {
+     "3": [
+      "entangle|xphb",
+      "speak with animals|xphb",
+      "thornwhip|xphb",
+      "thornhold|Magus2024",
+      {
+       "choose": "level=0|class=druid;magus (tmc'24)",
+       "count": 2
+      }
+     ],
+     "5": [
+      "lesser restoration|xphb",
+      "moonbeam|xphb"
+     ],
+     "7": {
+      "rest": {
+       "1e": [
+        "polymorph|xphb"
+       ]
+      }
+     },
+     "9": [
+      "conjure animals|xphb",
+      "speak with plants|xphb"
+     ],
+     "13": [
+      "conjure woodland beings|xphb",
+      "polymorph|xphb"
+     ],
+     "17": [
+      "greater restoration|xphb",
+      "reincarnate|xphb"
+     ]
+    }
+   }
+  ],
+  "subclassSpells": [
+   "Entangle|XPHB",
+   "Speak with Animals|XPHB",
+   "Thornwhip|XPHB",
+   "Thornhold|Magus2024",
+   "Lesser Restoration|XPHB",
+   "Moonbeam|XPHB",
+   "Conjure Animals|XPHB",
+   "Speak with Plants|XPHB",
+   "Conjure Woodland Beings|XPHB",
+   "Polymorph|XPHB",
+   "Greater Restoration|XPHB",
+   "Reincarnate|XPHB",
+   "Conjure Fey|XPHB",
+   "Wall of Thorns|XPHB"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/Magus2024/Subclasses/Sylvan%20Circle.webp"
+     },
+     "credit": "Devin Hoyt"
+    }
+   ]
+  }
  },
  {
   "name": "Thane",

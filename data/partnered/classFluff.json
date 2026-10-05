@@ -255,6 +255,32 @@
   ]
  },
  {
+  "name": "Magus",
+  "source": "Magus2024",
+  "entries": [
+   {
+    "name": "Magus",
+    "source": "Magus2024",
+    "type": "section",
+    "entries": [
+     "{@i An Arcane Warrior Wielding Spell and Steel}",
+     "Magi are gifted warriors that blend martial prowess with mystical puissance. Wielding spell and steel in tandem, Magi can render their enemies vulnerable to their magic with a look and invoke sigils to enhance their offensive and defensive abilities. Leveraging these diverse strengths, Magi can overcome even the most powerful adversaries and challenging obstacles.",
+     "Every Magi belongs to an esoteric order that shapes their abilities, enhances their sigils, and expands their magical capabilities. These orders also inform or reflect a Magus' goals and reasons for adventuring. Some orders compel Magi to catalogue the magical wonders of the multiverse while others call on Magi to deliver harsh and unrepentant justice. Just as a Magus balances their martial talents with their magical abilities, they must also balance their personal aspirations with their order's goals."
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/Magus2024/Class/Magus.webp"
+    },
+    "credit": "Mick Cortes"
+   }
+  ]
+ },
+ {
   "name": "Messenger",
   "source": "TLotRR",
   "entries": [

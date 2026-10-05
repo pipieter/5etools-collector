@@ -245,6 +245,15 @@
   }
  },
  {
+  "source": "The Magus Class (2024)",
+  "sourceAbbreviation": "TMC'24",
+  "sourceKey": "Magus2024",
+  "type": "featCategories",
+  "value": {
+   "FS:M": "Fighting Style Replacement (Magus)"
+  }
+ },
+ {
   "source": "Valda's Spire of Secrets: Player Pack 2",
   "sourceAbbreviation": "VSS:PP2",
   "sourceKey": "ValdaPlayerPack2",
