@@ -178,13 +178,13 @@
    "You have resistance to one type of damage while you wear this armor. The DM chooses the type or determines it randomly from the options below.",
    {
     "type": "table",
-    "colStyles": [
-     "col-2 text-center",
-     "col-10"
-    ],
     "colLabels": [
      "d10",
      "Damage Type"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
     ],
     "rows": [
      [
@@ -260,13 +260,13 @@
    "You have {@variantrule Resistance|XPHB} to one type of damage while you wear this armor. The DM chooses the type or determines it randomly by rolling on the following table.",
    {
     "type": "table",
-    "colStyles": [
-     "col-2 text-center",
-     "col-10"
-    ],
     "colLabels": [
      "d10",
      "Damage Type"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
     ],
     "rows": [
      [
@@ -729,17 +729,17 @@
    {
     "type": "table",
     "caption": "Applicable Carpet Sizes",
-    "colStyles": [
-     "col-2 text-center",
-     "col-4",
-     "col-3 text-center",
-     "col-3 text-center"
-    ],
     "colLabels": [
      "1d100",
      "Size",
      "Capacity",
      "Fly Speed"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-4",
+     "col-3 text-center",
+     "col-3 text-center"
     ],
     "rows": [
      [
@@ -795,15 +795,15 @@
    {
     "type": "table",
     "caption": "Chromatic Roses",
-    "colStyles": [
-     "col-2 text-center",
-     "col-7 text-center",
-     "col-3 text-center"
-    ],
     "colLabels": [
      "Color",
      "Visual Effect",
      "Damage Type"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-7 text-center",
+     "col-3 text-center"
     ],
     "rows": [
      [
@@ -1310,8 +1310,8 @@
    "To attune to the eye, you must gouge out your own eye and press the artifact into the empty socket. The eye grafts itself to your head and remains there until you die. Once in place, the eye transforms into a golden eye with a slit for a pupil, much like that of a cat. If the eye is ever removed, you die.",
    "To attune to the hand, you must lop off your left hand at the wrist and the press the artifact against the stump. The hand grafts itself to your arm and becomes a functioning appendage. If the hand is ever removed, you die.",
    {
-    "name": "Random Properties",
     "type": "entries",
+    "name": "Random Properties",
     "entries": [
      "The {@item Eye of Vecna} and the {@item Hand of Vecna} each have the following random properties:",
      {
@@ -1325,8 +1325,8 @@
     ]
    },
    {
-    "name": "Properties of the Eye",
     "type": "entries",
+    "name": "Properties of the Eye",
     "entries": [
      "Your alignment changes to neutral evil, and you gain the following benefits:",
      {
@@ -1340,8 +1340,8 @@
     ]
    },
    {
-    "name": "Properties of the Hand",
     "type": "entries",
+    "name": "Properties of the Hand",
     "entries": [
      "Your alignment changes to neutral evil, and you gain the following benefits:",
      {
@@ -1355,8 +1355,8 @@
     ]
    },
    {
-    "name": "Properties of the Eye and Hand",
     "type": "entries",
+    "name": "Properties of the Eye and Hand",
     "entries": [
      "If you are attuned to both the hand and eye, you gain the following additional benefits:",
      {
@@ -1373,8 +1373,8 @@
     ]
    },
    {
-    "name": "Destroying the Eye and Hand",
     "type": "entries",
+    "name": "Destroying the Eye and Hand",
     "entries": [
      "If the {@item Eye of Vecna} and the {@item Hand of Vecna} are both attached to the same creature, and that creature is slain by the {@item Sword of Kas}, both the eye and the hand burst into flame, turn to ash, and are destroyed forever. Any other attempt to destroy the eye or hand seems to work, but the artifact reappears in one of Vecna's many hidden vaults, where it waits to be rediscovered."
     ]
@@ -1474,13 +1474,13 @@
          {
           "type": "table",
           "caption": "Eye of Vecna Spells",
-          "colStyles": [
-           "col-10",
-           "col-2 text-center"
-          ],
           "colLabels": [
            "Spell",
            "Charge Cost"
+          ],
+          "colStyles": [
+           "col-10",
+           "col-2 text-center"
           ],
           "rows": [
            [
@@ -1556,13 +1556,13 @@
          {
           "type": "table",
           "caption": "Hand of Vecna Spells",
-          "colStyles": [
-           "col-10",
-           "col-2 text-center"
-          ],
           "colLabels": [
            "Spell",
            "Charge Cost"
+          ],
+          "colStyles": [
+           "col-10",
+           "col-2 text-center"
           ],
           "rows": [
            [
@@ -2004,17 +2004,17 @@
    "If you meet the requirement, they are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies and follow your commands.",
    {
     "type": "table",
-    "colStyles": [
-     "col-2 text-center",
-     "col-2 text-center",
-     "col-2 text-center",
-     "col-6"
-    ],
     "colLabels": [
      "1d100",
      "Horn Type",
      "Spirits",
      "Requirement"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-6"
     ],
     "rows": [
      [
@@ -2577,17 +2577,17 @@
    "This tome contains information and incantations necessary to make a particular type of golem. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a manual of golems and attempts to read it takes {@damage 6d6} psychic damage.",
    {
     "type": "table",
-    "colStyles": [
-     "col-2 text-center",
-     "col-4",
-     "col-3 text-center",
-     "col-3 text-right"
-    ],
     "colLabels": [
      "d20",
      "Golem",
      "Time",
      "Cost"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-4",
+     "col-3 text-center",
+     "col-3 text-right"
     ],
     "rows": [
      [
@@ -2759,6 +2759,7 @@
  {
   "name": "Necklace of the Beastly Familiar",
   "source": "AU",
+  "page": 120,
   "rarity": "varies",
   "reqAttune": "by a Spellcaster",
   "reqAttuneTags": [
@@ -2999,13 +3000,13 @@
    "When you drink this potion, you have {@variantrule Resistance|XPHB} to one type of damage for 1 hour. The DM chooses the type or determines it randomly by rolling on the following table.",
    {
     "type": "table",
-    "colStyles": [
-     "col-2 text-center",
-     "col-10"
-    ],
     "colLabels": [
      "d10",
      "Damage Type"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
     ],
     "rows": [
      [
@@ -3211,15 +3212,15 @@
    {
     "type": "table",
     "caption": "Quaal's Feather Tokens",
-    "colStyles": [
-     "col-2 text-center",
-     "col-5 text-center",
-     "col-5 text-center"
-    ],
     "colLabels": [
      "1d100",
      "Token",
      "Rarity"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-5 text-center",
+     "col-5 text-center"
     ],
     "rows": [
      [
@@ -3322,15 +3323,15 @@
    "You have resistance to one damage type while wearing this ring. The gem in the ring indicates the type, which the DM chooses or determines randomly.",
    {
     "type": "table",
-    "colStyles": [
-     "col-2 text-center",
-     "col-5",
-     "col-5"
-    ],
     "colLabels": [
      "d10",
      "Damage Type",
      "Gem"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-5",
+     "col-5"
     ],
     "rows": [
      [
@@ -3415,15 +3416,15 @@
    "You have {@variantrule Resistance|XPHB} to one damage type while wearing this ring. The gemstone in the ring indicates the type, which the DM chooses or determines randomly by rolling on the following table.",
    {
     "type": "table",
-    "colStyles": [
-     "col-2 text-center",
-     "col-5",
-     "col-5"
-    ],
     "colLabels": [
      "d10",
      "Damage Type",
      "Gem"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-5",
+     "col-5"
     ],
     "rows": [
      [
@@ -3613,15 +3614,15 @@
    {
     "type": "table",
     "caption": "Sage's Signet",
-    "colStyles": [
-     "col-2",
-     "col-2",
-     "col-8"
-    ],
     "colLabels": [
      "Signet",
      "Rarity",
      "Spells"
+    ],
+    "colStyles": [
+     "col-2",
+     "col-2",
+     "col-8"
     ],
     "rows": [
      [
@@ -3750,13 +3751,13 @@
    "Each Scroll of Protection works against creatures of a specific creature type chosen by the DM or determined by rolling on the following table.",
    {
     "type": "table",
-    "colStyles": [
-     "col-2 text-center",
-     "col-10"
-    ],
     "colLabels": [
      "1d100",
      "Creature Type"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
     ],
     "rows": [
      [
@@ -3857,13 +3858,13 @@
    "The titan is {@variantrule Hostile [Attitude]|XPHB|Hostile} toward all other creatures and disappears when it drops to 0 {@variantrule Hit Points|XPHB}. If the titan is summoned into a space that isn't large enough to contain it, the summoning fails, and the scroll is wasted.",
    {
     "type": "table",
-    "colStyles": [
-     "col-2 text-center",
-     "col-10"
-    ],
     "colLabels": [
      "1d100",
      "Titan"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
     ],
     "rows": [
      [
@@ -3942,13 +3943,13 @@
      "The stone has 6 charges and regains {@dice 1d6} expended charges daily at dawn. The Shard Solitaire Types table lists the spells common to all shard solitaires, as well as the spells specific to each kind of stone. As an action, you can cast one of the stone's spells by expending the requisite number of charges, requiring no material components (save {@dc 16}).",
      {
       "type": "table",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "Shard Solitaire",
        "Spells"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -4529,6 +4530,7 @@
  {
   "name": "Wave-Swept Weapon",
   "source": "AU",
+  "page": 129,
   "type": "GV|XDMG",
   "rarity": "varies",
   "reqAttune": true,

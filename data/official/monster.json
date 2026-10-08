@@ -273,7 +273,8 @@
   "source": "XMM",
   "page": 10,
   "referenceSources": [
-   "FRAiF"
+   "FRAiF",
+   "RWG"
   ],
   "size": [
    "M"
@@ -1563,7 +1564,6 @@
     ]
    }
   ],
-  "foundryTokenScale": 1.1,
   "traitTags": [
    "Regeneration"
   ],
@@ -1589,6 +1589,7 @@
   ],
   "hasToken": true,
   "hasFluffImages": true,
+  "foundryTokenScale": 1.1,
   "_versions": [
    {
     "name": "Aberrant Spirit (Beholderkin)",
@@ -1620,7 +1621,6 @@
      "canHover": true
     },
     "trait": null,
-    "foundryTokenScale": 1.1,
     "traitTags": null,
     "damageTags": [
      "Y"
@@ -1628,7 +1628,8 @@
     "miscTags": [
      "RA"
     ],
-    "hasToken": true
+    "hasToken": true,
+    "foundryTokenScale": 1.1
    },
    {
     "name": "Aberrant Spirit (Mind Flayer)",
@@ -3587,6 +3588,7 @@
  {
   "name": "Abveku",
   "source": "AUD",
+  "page": 122,
   "size": [
    "M"
   ],
@@ -15492,7 +15494,8 @@
    "EFA",
    "FFotR",
    "FRAiF",
-   "FRHoF"
+   "FRHoF",
+   "RWG"
   ],
   "size": [
    "L"
@@ -21177,8 +21180,8 @@
     "entries": [
      "Some amnizus have an action that allows them to summon other devils:",
      {
-      "name": "Summon Devil (1/Day)",
       "type": "entries",
+      "name": "Summon Devil (1/Day)",
       "entries": [
        "The amnizu summons {@dice 2d4} bearded devils or {@dice 1d4} barbed devils. A summoned devil appears in an unoccupied space within 60 feet of the amnizu, acts as an ally of the amnizu, and can't summon other devils. It remains for 1 minute, until the amnizu dies, or until its summoner dismisses it as an action"
       ]
@@ -21415,8 +21418,8 @@
     "entries": [
      "Some amnizus have an action that allows them to summon other devils.",
      {
-      "name": "Summon Devil (1/Day)",
       "type": "entries",
+      "name": "Summon Devil (1/Day)",
       "entries": [
        "The amnizu summons {@dice 2d4} bearded devils or {@dice 1d4} barbed devils. A summoned devil appears in an unoccupied space within 60 feet of the amnizu, acts as an ally of the amnizu, and can't summon other devils. It remains for 1 minute, until the amnizu dies, or until its summoner dismisses it as an action"
       ]
@@ -34218,7 +34221,8 @@
    "BQDD",
    "EFA",
    "HotB",
-   "RHW"
+   "RHW",
+   "RWG"
   ],
   "size": [
    "S"
@@ -34913,7 +34917,6 @@
     ]
    }
   ],
-  "foundryTokenScale": 1.3,
   "senseTags": [
    "B"
   ],
@@ -34922,6 +34925,7 @@
   ],
   "hasToken": true,
   "hasFluffImages": true,
+  "foundryTokenScale": 1.3,
   "_versions": [
    {
     "name": "Animated Object (Huge)",
@@ -36486,6 +36490,9 @@
       "headerEntries": [
        "While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:"
       ],
+      "footerEntries": [
+       "For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
+      ],
       "spells": {
        "1": {
         "slots": 4,
@@ -36529,10 +36536,7 @@
          "{@spell eyebite}"
         ]
        }
-      },
-      "footerEntries": [
-       "For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
-      ]
+      }
      },
      {
       "type": "entries",
@@ -38572,8 +38576,8 @@
     "entries": [
      "Some yugoloths have an action option that allows them to summon other yugoloths.",
      {
-      "name": "Summon Yugoloth (1/Day)",
       "type": "entries",
+      "name": "Summon Yugoloth (1/Day)",
       "entries": [
        "The yugoloth attempts a magical summoning.",
        "An arcanaloth has a {@chance 40|40 percent|40% summoning chance} chance of summoning one arcanaloth.",
@@ -40406,7 +40410,8 @@
    "EFA",
    "FRAiF",
    "NF",
-   "RHW"
+   "RHW",
+   "RWG"
   ],
   "size": [
    "S",
@@ -41958,6 +41963,7 @@
  {
   "name": "Arisen Sarrukh",
   "source": "AUD",
+  "page": 125,
   "size": [
    "M"
   ],
@@ -56250,6 +56256,16 @@
      "{@spell Mage Hand|XPHB}",
      "{@spell Prestidigitation|XPHB}"
     ],
+    "daily": {
+     "2e": [
+      "{@spell Dimension Door|XPHB}",
+      "{@spell Scrying|XPHB}"
+     ],
+     "1e": [
+      "{@spell Clone|XPHB}",
+      "{@spell Guards and Wards|XPHB}"
+     ]
+    },
     "ability": "int",
     "displayAs": "action"
    },
@@ -56358,7 +56374,8 @@
    "R"
   ],
   "damageTagsSpell": [
-   "L"
+   "L",
+   "O"
   ],
   "spellcastingTags": [
    "O"
@@ -64196,7 +64213,6 @@
     ]
    }
   ],
-  "foundryTokenScale": 1.3,
   "miscTags": [
    "MA"
   ],
@@ -64204,7 +64220,8 @@
    "prone"
   ],
   "hasToken": true,
-  "hasFluffImages": true
+  "hasFluffImages": true,
+  "foundryTokenScale": 1.3
  },
  {
   "name": "Beast of the Sea",
@@ -64347,7 +64364,6 @@
     ]
    }
   ],
-  "foundryTokenScale": 1.3,
   "traitTags": [
    "Amphibious"
   ],
@@ -64358,7 +64374,8 @@
    "grappled"
   ],
   "hasToken": true,
-  "hasFluffImages": true
+  "hasFluffImages": true,
+  "foundryTokenScale": 1.3
  },
  {
   "name": "Beast of the Sky",
@@ -64497,7 +64514,6 @@
     ]
    }
   ],
-  "foundryTokenScale": 1.3,
   "traitTags": [
    "Flyby"
   ],
@@ -64505,7 +64521,8 @@
    "MA"
   ],
   "hasToken": true,
-  "hasFluffImages": true
+  "hasFluffImages": true,
+  "foundryTokenScale": 1.3
  },
  {
   "name": "Bebilith",
@@ -65166,6 +65183,8 @@
    {
     "type": "inset",
     "name": "Variant Abilities",
+    "source": "VGM",
+    "page": 12,
     "entries": [
      "When a beholder's dream-imagination runs wild, the result can be an offspring that has an unusual or unique set of abilities. Rather than the standard powers of a beholder's central eye and eyestalks, the creature has one or more variant abilities—guaranteed to surprise any enemies who thought they knew what they were getting themselves into.",
      "This section provides several alternative spell effects for a beholder's eye. Each of these effects is designed to be of the same power level as the one it replaces, enabling you to create a custom beholder without altering the monster's challenge rating. As another option, you can switch any of the damaging eye rays in the {@book Monster Manual|MM} to an effect with a different damage type, such as replacing the enervation ray with a combustion ray that deals fire damage instead of necrotic damage.",
@@ -65232,8 +65251,6 @@
       ]
      }
     ],
-    "source": "VGM",
-    "page": 12,
     "_version": {
      "name": "Beholder (Variant Abilities)",
      "addAs": "trait"
@@ -67856,6 +67873,7 @@
    "FRAiF",
    "FRHoF",
    "RHW",
+   "RWG",
    "ScoEE"
   ],
   "size": [
@@ -68344,7 +68362,6 @@
     ]
    }
   ],
-  "foundryTokenScale": 1.3,
   "traitTags": [
    "Flyby",
    "Pack Tactics",
@@ -68361,6 +68378,7 @@
   ],
   "hasToken": true,
   "hasFluffImages": true,
+  "foundryTokenScale": 1.3,
   "_versions": [
    {
     "name": "Bestial Spirit (Air)",
@@ -68423,11 +68441,11 @@
      "walk": 30,
      "climb": 30
     },
-    "foundryTokenScale": 1.3,
     "traitTags": [
      "Pack Tactics"
     ],
-    "hasToken": true
+    "hasToken": true,
+    "foundryTokenScale": 1.3
    },
    {
     "name": "Bestial Spirit (Water)",
@@ -69208,6 +69226,9 @@
       "headerEntries": [
        "While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:"
       ],
+      "footerEntries": [
+       "For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
+      ],
       "spells": {
        "1": {
         "slots": 4,
@@ -69251,10 +69272,7 @@
          "{@spell eyebite}"
         ]
        }
-      },
-      "footerEntries": [
-       "For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
-      ]
+      }
      },
      {
       "type": "entries",
@@ -78570,15 +78588,15 @@
     "entries": [
      "Some bone devils have the following action options.",
      {
-      "name": "Multiattack",
       "type": "entries",
+      "name": "Multiattack",
       "entries": [
        "The devil makes two attacks: one with its hooked polearm and one with its sting."
       ]
      },
      {
-      "name": "Hooked Polearm",
       "type": "entries",
+      "name": "Hooked Polearm",
       "entries": [
        "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d12 + 4}) piercing damage. If the target is a Huge or smaller creature, it is {@condition grappled} (escape {@dc 14}). Until this grapple ends, the devil can't use its polearm on another target."
       ]
@@ -89717,6 +89735,8 @@
    {
     "type": "variant",
     "name": "Demonic Cambions",
+    "source": "MTF",
+    "page": 32,
     "entries": [
      "Few demons consort with mortals, and those with the charm or desire to usually grant their cambion children the Fiendish Charm ability. Cultists of Baphomet and Orcus can also use foul rituals to infuse their master's strength into a young or unborn child, yielding a cult champion who can wield special abilities; a cambion linked to Orcus replaces Fiendish Charm with Spawn of the Grave, and one linked to Baphomet replaces it with Horned One's Call.",
      {
@@ -89734,13 +89754,13 @@
        "In addition, this cambion can use its Innate Spellcasting ability to cast {@spell animate dead} three times per day."
       ]
      }
-    ],
-    "source": "MTF",
-    "page": 32
+    ]
    },
    {
     "type": "variant",
     "name": "Infernal Cambions",
+    "source": "MTF",
+    "page": 21,
     "entries": [
      "Some devils grant a unique ability to their spawn that replaces the cambion's Fiendish Charm trait; Zariel and Geryon have a penchant for spawning cambions to serve as war leaders among their followers. The two of them grant the Fury of the Nine ability in place of Fiendish Charm.",
      {
@@ -89750,9 +89770,7 @@
        "As a bonus action, the cambion chooses another creature that can see or hear it within 120 feet. That creature gains advantage on all attack rolls and saving throws for the next minute or until the cambion uses this ability again."
       ]
      }
-    ],
-    "source": "MTF",
-    "page": 21
+    ]
    }
   ],
   "environment": [
@@ -89889,7 +89907,8 @@
   "source": "XMM",
   "page": 65,
   "referenceSources": [
-   "FRAiF"
+   "FRAiF",
+   "RWG"
   ],
   "size": [
    "M"
@@ -93603,7 +93622,6 @@
     ]
    }
   ],
-  "foundryTokenScale": 1.1,
   "actionTags": [
    "Multiattack"
   ],
@@ -93617,6 +93635,7 @@
   ],
   "hasToken": true,
   "hasFluffImages": true,
+  "foundryTokenScale": 1.1,
   "_versions": [
    {
     "name": "Celestial Spirit (Avenger)",
@@ -93641,12 +93660,12 @@
       "special": "11 + the spell's level"
      }
     ],
-    "foundryTokenScale": 1.1,
     "miscTags": [
      "RA",
      "RW"
     ],
-    "hasToken": true
+    "hasToken": true,
+    "foundryTokenScale": 1.1
    },
    {
     "name": "Celestial Spirit (Defender)",
@@ -93671,12 +93690,12 @@
       "special": "13 + the spell's level"
      }
     ],
-    "foundryTokenScale": 1.1,
     "miscTags": [
      "MA",
      "MLW"
     ],
-    "hasToken": true
+    "hasToken": true,
+    "foundryTokenScale": 1.1
    }
   ]
  },
@@ -101665,18 +101684,20 @@
    {
     "type": "variant",
     "name": "New Giant Options",
+    "source": "SKT",
+    "page": 245,
     "entries": [
      "Some adult cloud giants have the magical ability to create barriers of gale-force wind around themselves that can deflect incoming missiles. Others like to fling enemies through the air. These abilities are represented by the following action options.",
      {
-      "name": "Fling",
       "type": "entries",
+      "name": "Fling",
       "entries": [
        "The giant tries to throw a Small or Medium creature within 10 feet of it. The target must succeed on a {@dc 20} Dexterity saving throw or be hurled up to 60 feet horizontally in a direction of the giant's choice and land {@condition prone}, taking 4 ({@damage 1d8}) bludgeoning damage for every 10 feet it was thrown."
       ]
      },
      {
-      "name": "Wind Aura",
       "type": "entries",
+      "name": "Wind Aura",
       "entries": [
        "A magical aura of wind surrounds the giant. The aura is a 10-foot-radius sphere that lasts as long as the giant maintains {@status concentration} on it (as if {@status concentration||concentrating} on a spell). While the aura is in effect, the giant gains a +2 bonus to its AC against ranged weapon attacks, and all open flames within the aura are extinguished unless they are magical."
       ]
@@ -101685,9 +101706,7 @@
     "_version": {
      "name": "Cloud Giant (Optional Actions)",
      "addHeadersAs": "action"
-    },
-    "source": "SKT",
-    "page": 245
+    }
    }
   ],
   "environment": [
@@ -105441,7 +105460,6 @@
     ]
    }
   ],
-  "foundryTokenScale": 1.3,
   "actionTags": [
    "Multiattack"
   ],
@@ -105457,6 +105475,7 @@
   ],
   "hasToken": true,
   "hasFluffImages": true,
+  "foundryTokenScale": 1.3,
   "_versions": [
    {
     "name": "Construct Spirit (Clay)",
@@ -105518,11 +105537,11 @@
      ]
     },
     "reaction": null,
-    "foundryTokenScale": 1.3,
     "damageTags": [
      "B"
     ],
-    "hasToken": true
+    "hasToken": true,
+    "foundryTokenScale": 1.3
    }
   ]
  },
@@ -117742,6 +117761,9 @@
   "name": "Darkenbeast",
   "source": "AU",
   "page": 142,
+  "referenceSources": [
+   "RWG"
+  ],
   "size": [
    "M"
   ],
@@ -119452,7 +119474,8 @@
    "AUD",
    "EFA",
    "FRAiF",
-   "RHW"
+   "RHW",
+   "RWG"
   ],
   "size": [
    "S",
@@ -137968,7 +137991,6 @@
     ]
    }
   ],
-  "foundryTokenScale": 2,
   "actionTags": [
    "Breath Weapon",
    "Multiattack"
@@ -137984,6 +138006,7 @@
   ],
   "hasToken": true,
   "hasFluffImages": true,
+  "foundryTokenScale": 2,
   "_versions": [
    {
     "_abstract": {
@@ -146459,8 +146482,8 @@
     "entries": [
      "Some drow inquisitors have an action that allows them to summon a demon.",
      {
-      "name": "Summon Demon (1/Day)",
       "type": "entries",
+      "name": "Summon Demon (1/Day)",
       "entries": [
        "The drow attempts to magically summon a yochlol, with a {@chance 50} chance of success. If the attempt fails, the drow takes 5 ({@damage 1d10}) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action. (see notes for link)"
       ]
@@ -148508,8 +148531,8 @@
     "entries": [
      "Some drow shadowblades have an action that allows them to summon a demon.",
      {
-      "name": "Summon Shadow Demon (1/Day)",
       "type": "entries",
+      "name": "Summon Shadow Demon (1/Day)",
       "entries": [
        "The drow attempts to magically summon a shadow demon with a {@chance 50} chance of success. If the attempt fails, the drow takes 5 ({@damage 1d10}) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action."
       ]
@@ -163130,7 +163153,6 @@
     ]
    }
   ],
-  "foundryTokenScale": 1.1,
   "traitTags": [
    "Amorphous"
   ],
@@ -163142,6 +163164,7 @@
   ],
   "hasToken": true,
   "hasFluffImages": true,
+  "foundryTokenScale": 1.1,
   "_versions": [
    {
     "name": "Elemental Spirit (Air)",
@@ -163182,11 +163205,11 @@
     "immune": [
      "poison"
     ],
-    "foundryTokenScale": 1.1,
     "damageTags": [
      "B"
     ],
-    "hasToken": true
+    "hasToken": true,
+    "foundryTokenScale": 1.1
    },
    {
     "name": "Elemental Spirit (Earth)",
@@ -163215,11 +163238,11 @@
      "poison"
     ],
     "trait": null,
-    "foundryTokenScale": 1.1,
     "damageTags": [
      "B"
     ],
-    "hasToken": true
+    "hasToken": true,
+    "foundryTokenScale": 1.1
    },
    {
     "name": "Elemental Spirit (Fire)",
@@ -163252,11 +163275,11 @@
      "poison",
      "fire"
     ],
-    "foundryTokenScale": 1.1,
     "damageTags": [
      "F"
     ],
-    "hasToken": true
+    "hasToken": true,
+    "foundryTokenScale": 1.1
    },
    {
     "name": "Elemental Spirit (Water)",
@@ -163292,11 +163315,11 @@
     "immune": [
      "poison"
     ],
-    "foundryTokenScale": 1.1,
     "damageTags": [
      "B"
     ],
-    "hasToken": true
+    "hasToken": true,
+    "foundryTokenScale": 1.1
    }
   ]
  },
@@ -178382,7 +178405,6 @@
     ]
    }
   ],
-  "foundryTokenScale": 1.3,
   "senseTags": [
    "D"
   ],
@@ -178406,6 +178428,7 @@
   ],
   "hasToken": true,
   "hasFluffImages": true,
+  "foundryTokenScale": 1.3,
   "_versions": [
    {
     "name": "Fey Spirit (Fuming)",
@@ -179752,7 +179775,6 @@
     ]
    }
   ],
-  "foundryTokenScale": 1.1,
   "traitTags": [
    "Death Burst",
    "Devil's Sight",
@@ -179775,6 +179797,7 @@
   ],
   "hasToken": true,
   "hasFluffImages": true,
+  "foundryTokenScale": 1.1,
   "_versions": [
    {
     "name": "Fiendish Spirit (Demon)",
@@ -179867,7 +179890,6 @@
      "walk": 40,
      "fly": 60
     },
-    "foundryTokenScale": 1.1,
     "traitTags": [
      "Devil's Sight",
      "Magic Resistance"
@@ -179875,7 +179897,8 @@
     "damageTags": [
      "N"
     ],
-    "hasToken": true
+    "hasToken": true,
+    "foundryTokenScale": 1.1
    },
    {
     "name": "Fiendish Spirit (Yugoloth)",
@@ -181112,6 +181135,8 @@
    {
     "type": "variant",
     "name": "New Giant Options",
+    "source": "SKT",
+    "page": 245,
     "entries": [
      "Some adult fire giants are trained to lay siege to strongholds and break through enemy lines. These abilities are represented by the following traits.",
      {
@@ -181132,9 +181157,7 @@
     "_version": {
      "name": "Fire Giant (Optional Actions)",
      "addHeadersAs": "action"
-    },
-    "source": "SKT",
-    "page": 245
+    }
    }
   ],
   "environment": [
@@ -191426,11 +191449,13 @@
    {
     "type": "variant",
     "name": "New Giant Options",
+    "source": "SKT",
+    "page": 246,
     "entries": [
      "Some adult frost giants are skilled hunters who construct and hurl nets weighted down with fragments of metal or bone. This ability is represented by the following action option.",
      {
-      "name": "Weighted Net",
       "type": "entries",
+      "name": "Weighted Net",
       "entries": [
        "{@atk rw} {@hit 5} to hit, ranged 20/60 ft., one Small, Medium, or Large creature. {@h}The target is {@condition restrained} until it escapes the net. Any creature can use its action to make a {@dc 17} Strength check to free itself or another creature in the net, ending the effect on a success. Dealing 15 slashing damage to the net (AC 12) destroys the net and frees the target."
       ]
@@ -191439,9 +191464,7 @@
     "_version": {
      "name": "Frost Giant (Optional Actions)",
      "addHeadersAs": "action"
-    },
-    "source": "SKT",
-    "page": 246
+    }
    }
   ],
   "environment": [
@@ -197937,15 +197960,15 @@
     "entries": [
      "Geists are as varied as the humans they were in life. In addition to the traits and actions all geists possess, an individual geist might have any of the following special characteristics.",
      {
-      "name": "Intangible Virtue",
       "type": "entries",
+      "name": "Intangible Virtue",
       "entries": [
        "A living creature possessed by a white-aligned geist gains immunity to the {@condition charmed} and {@condition frightened} conditions, and resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks. While the creature is possessed, the geist can allow it to take control of its body, but the geist can regain control at any time (no action required)."
       ]
      },
      {
-      "name": "Horrifying Visage",
       "type": "entries",
+      "name": "Horrifying Visage",
       "entries": [
        "Black-aligned geists can make themselves terrible to behold, even when they are possessing the living. Each non-undead creature within 60 feet of the geist that can see it must succeed on a {@dc 13} Wisdom saving throw or be {@condition frightened} for 1 minute. If the save fails by 5 or more, the target also ages {@dice 1d4 × 10} years. A {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the {@condition frightened} condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this geist's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a {@spell greater restoration} spell, but only within 24 hours of it occurring."
       ]
@@ -198894,8 +198917,8 @@
     "entries": [
      "Geryon can have an action that allows him to summon {@creature minotaur||minotaurs}.",
      {
-      "name": "Sound the Horn (1/Day)",
       "type": "entries",
+      "name": "Sound the Horn (1/Day)",
       "entries": [
        "Geryon blows his horn, which causes {@dice 5d4} {@creature minotaur||minotaurs} to appear in unoccupied spaces of his choice within 600 feet of him. The minotaurs roll initiative when they appear, and they obey his commands. They remain until they die or Geryon uses an action to dismiss any or all of them."
       ]
@@ -199173,8 +199196,8 @@
     "entries": [
      "Geryon can have an action that allows him to summon enslaved minotaurs.",
      {
-      "name": "Sound the Horn (1/Day)",
       "type": "entries",
+      "name": "Sound the Horn (1/Day)",
       "entries": [
        "Geryon blows his horn, which causes {@dice 5d4} minotaurs to appear in unoccupied spaces of his choice within 600 feet of him. The minotaurs roll initiative when they appear. They remain until they die or Geryon uses an action to dismiss any or all of them."
       ]
@@ -204637,7 +204660,6 @@
     ]
    }
   ],
-  "foundryTokenScale": 1.1,
   "traitTags": [
    "Spider Climb"
   ],
@@ -204661,6 +204683,7 @@
   ],
   "hasToken": true,
   "hasFluffImages": true,
+  "foundryTokenScale": 1.1,
   "_versions": [
    {
     "name": "Giant Insect (Centipede)",
@@ -204679,8 +204702,8 @@
      "walk": 40,
      "climb": 40
     },
-    "foundryTokenScale": 1.1,
-    "hasToken": true
+    "hasToken": true,
+    "foundryTokenScale": 1.1
    },
    {
     "name": "Giant Insect (Spider)",
@@ -208642,6 +208665,9 @@
   "page": 361,
   "srd52": true,
   "basicRules2024": true,
+  "referenceSources": [
+   "RWG"
+  ],
   "size": [
    "L"
   ],
@@ -216002,7 +216028,8 @@
   "referenceSources": [
    "AUD",
    "EFA",
-   "FRAiF"
+   "FRAiF",
+   "RWG"
   ],
   "size": [
    "S",
@@ -227996,6 +228023,9 @@
       "headerEntries": [
        "While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:"
       ],
+      "footerEntries": [
+       "For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
+      ],
       "spells": {
        "1": {
         "slots": 4,
@@ -228039,10 +228069,7 @@
          "{@spell eyebite}"
         ]
        }
-      },
-      "footerEntries": [
-       "For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
-      ]
+      }
      },
      {
       "type": "entries",
@@ -232190,6 +232217,9 @@
   "name": "Groundling Stalker",
   "source": "AU",
   "page": 144,
+  "referenceSources": [
+   "RWG"
+  ],
   "size": [
    "M"
   ],
@@ -232534,43 +232564,43 @@
     "entries": [
      "A creature {@condition poisoned} by a grung can suffer an additional effect that depends on the grung's color, as described below. This effect lasts until the creature is no longer {@condition poisoned} by the grung.",
      {
-      "name": "Blue Grung",
       "type": "entries",
+      "name": "Blue Grung",
       "entries": [
        "The {@condition poisoned} creature must make a loud noise at the start and end of its turn."
       ]
      },
      {
-      "name": "Gold Grung",
       "type": "entries",
+      "name": "Gold Grung",
       "entries": [
        "The creature is {@condition charmed} by the grung and can speak Grung."
       ]
      },
      {
-      "name": "Green Grung",
       "type": "entries",
+      "name": "Green Grung",
       "entries": [
        "The {@condition poisoned} creature can't move except to climb or make standing jumps. If the creature is flying, it can't take any actions or reactions unless it lands."
       ]
      },
      {
-      "name": "Orange Grung",
       "type": "entries",
+      "name": "Orange Grung",
       "entries": [
        "The {@condition poisoned} creature is {@condition frightened} of its allies."
       ]
      },
      {
-      "name": "Purple Grung",
       "type": "entries",
+      "name": "Purple Grung",
       "entries": [
        "The {@condition poisoned} creature feels a desperate need to soak itself in liquid or mud. It can't take actions or move except to do so or to reach a body of liquid or mud."
       ]
      },
      {
-      "name": "Red Grung",
       "type": "entries",
+      "name": "Red Grung",
       "entries": [
        "The {@condition poisoned} creature must use its action to eat if food is within reach."
       ]
@@ -233108,43 +233138,43 @@
     "entries": [
      "A creature {@condition poisoned} by a grung can suffer an additional effect that depends on the grung's color, as described below. This effect lasts until the creature is no longer {@condition poisoned} by the grung.",
      {
-      "name": "Blue Grung",
       "type": "entries",
+      "name": "Blue Grung",
       "entries": [
        "The {@condition poisoned} creature must make a loud noise at the start and end of its turn."
       ]
      },
      {
-      "name": "Gold Grung",
       "type": "entries",
+      "name": "Gold Grung",
       "entries": [
        "The creature is {@condition charmed} by the grung and can speak Grung."
       ]
      },
      {
-      "name": "Green Grung",
       "type": "entries",
+      "name": "Green Grung",
       "entries": [
        "The {@condition poisoned} creature can't move except to climb or make standing jumps. If the creature is flying, it can't take any actions or reactions unless it lands."
       ]
      },
      {
-      "name": "Orange Grung",
       "type": "entries",
+      "name": "Orange Grung",
       "entries": [
        "The {@condition poisoned} creature is {@condition frightened} of its allies."
       ]
      },
      {
-      "name": "Purple Grung",
       "type": "entries",
+      "name": "Purple Grung",
       "entries": [
        "The {@condition poisoned} creature feels a desperate need to soak itself in liquid or mud. It can't take actions or move except to do so or to reach a body of liquid or mud."
       ]
      },
      {
-      "name": "Red Grung",
       "type": "entries",
+      "name": "Red Grung",
       "entries": [
        "The {@condition poisoned} creature must use its action to eat if food is within reach."
       ]
@@ -233724,43 +233754,43 @@
     "entries": [
      "A creature {@condition poisoned} by a grung can suffer an additional effect that depends on the grung's color, as described below. This effect lasts until the creature is no longer {@condition poisoned} by the grung.",
      {
-      "name": "Blue Grung",
       "type": "entries",
+      "name": "Blue Grung",
       "entries": [
        "The {@condition poisoned} creature must make a loud noise at the start and end of its turn."
       ]
      },
      {
-      "name": "Gold Grung",
       "type": "entries",
+      "name": "Gold Grung",
       "entries": [
        "The creature is {@condition charmed} by the grung and can speak Grung."
       ]
      },
      {
-      "name": "Green Grung",
       "type": "entries",
+      "name": "Green Grung",
       "entries": [
        "The {@condition poisoned} creature can't move except to climb or make standing jumps. If the creature is flying, it can't take any actions or reactions unless it lands."
       ]
      },
      {
-      "name": "Orange Grung",
       "type": "entries",
+      "name": "Orange Grung",
       "entries": [
        "The {@condition poisoned} creature is {@condition frightened} of its allies."
       ]
      },
      {
-      "name": "Purple Grung",
       "type": "entries",
+      "name": "Purple Grung",
       "entries": [
        "The {@condition poisoned} creature feels a desperate need to soak itself in liquid or mud. It can't take actions or move except to do so or to reach a body of liquid or mud."
       ]
      },
      {
-      "name": "Red Grung",
       "type": "entries",
+      "name": "Red Grung",
       "entries": [
        "The {@condition poisoned} creature must use its action to eat if food is within reach."
       ]
@@ -234595,7 +234625,8 @@
    "HotB",
    "LFL",
    "NF",
-   "RHW"
+   "RHW",
+   "RWG"
   ],
   "size": [
    "S",
@@ -234870,36 +234901,36 @@
     "entries": [
      "Each type of chromatic dragon's scales creates a guard drake that resembles a wingless, stunted version of that type of dragon, with unique abilities related to that type. Each has the special features described below.",
      {
-      "name": "Black Guard Drake",
       "type": "entries",
+      "name": "Black Guard Drake",
       "entries": [
        "The drake can breathe air and water, has a swimming speed of 30 feet, and has resistance to acid damage."
       ]
      },
      {
-      "name": "Blue Guard Drake",
       "type": "entries",
+      "name": "Blue Guard Drake",
       "entries": [
        "The drake has a burrowing speed of 20 feet and resistance to lightning damage."
       ]
      },
      {
-      "name": "Green Guard Drake",
       "type": "entries",
+      "name": "Green Guard Drake",
       "entries": [
        "The drake can breathe air and water, has a swimming speed of 30 feet, and has resistance to poison damage."
       ]
      },
      {
-      "name": "Red Guard Drake",
       "type": "entries",
+      "name": "Red Guard Drake",
       "entries": [
        "The drake has climbing speed of 30 feet and resistance to fire damage."
       ]
      },
      {
-      "name": "White Guard Drake",
       "type": "entries",
+      "name": "White Guard Drake",
       "entries": [
        "The drake has a burrowing speed of 20 feet, a climbing speed of 30 feet, and resistance to cold damage."
       ]
@@ -245047,11 +245078,13 @@
    {
     "type": "variant",
     "name": "New Giant Options",
+    "source": "SKT",
+    "page": 246,
     "entries": [
      "Some adult hill giants like to hurl themselves bodily at smaller foes and crush them beneath their bulk. This ability is represented by the following action option.",
      {
-      "name": "Squash",
       "type": "entries",
+      "name": "Squash",
       "entries": [
        "{@atk mw} {@hit 8} to hit, reach 5 ft., one Medium or Smaller creature. {@h}26 ({@damage 6d6 + 5}) bludgeoning damage, the giant lands {@condition prone} in the target's space, and the target is {@condition grappled} (escape {@dc 15}). Until this grapple ends, the target is {@condition prone}. The grapple ends early if the giant stands up."
       ]
@@ -245060,9 +245093,7 @@
     "_version": {
      "name": "Hill Giant (Optional Actions)",
      "addHeadersAs": "action"
-    },
-    "source": "SKT",
-    "page": 246
+    }
    }
   ],
   "environment": [
@@ -258619,8 +258650,8 @@
     "entries": [
      "Imps can be found in the service to mortal spellcasters, acting as advisors, spies, and familiars. An imp urges its master to acts of evil, knowing the mortal's soul is a prize the imp might ultimately claim. Imps display an unusual loyalty to their masters, and an imp can be quite dangerous if its master is threatened. Some such imps have the following trait.",
      {
-      "name": "Familiar",
       "type": "entries",
+      "name": "Familiar",
       "entries": [
        "The imp can enter into a contract to serve another creature as a familiar, forming a telepathic bond with its willing master. While the two are bonded, the master can sense what the imp senses as long as they are within 1 mile of each other. While the imp is within 10 feet of its master, the master shares the imp's Magic Resistance trait. If its master violates the terms of the contract, the imp can end its service as a familiar, ending the telepathic bond."
       ]
@@ -295934,8 +295965,8 @@
   ],
   "variant": [
    {
-    "name": "Servants of Living Stars",
     "type": "variant",
+    "name": "Servants of Living Stars",
     "entries": [
      "Some stars in the sky are Elder Evils, alien beings of godlike power from the reality-defying Far Realm.",
      "A living portent can be a fragment of these beings' will. These living portents are Aberrations instead of Celestials and are typically chaotic evil. They replace any radiant damage in their stat block with necrotic or psychic damage (DM's choice). Their spells might also be different. Some known Elder Evils include the following:",
@@ -296036,6 +296067,9 @@
   "name": "Living Thunderwave",
   "source": "AU",
   "page": 146,
+  "referenceSources": [
+   "RWG"
+  ],
   "size": [
    "M"
   ],
@@ -296211,6 +296245,9 @@
   "name": "Living Vitriolic Sphere",
   "source": "AU",
   "page": 146,
+  "referenceSources": [
+   "RWG"
+  ],
   "size": [
    "L"
   ],
@@ -303080,7 +303117,8 @@
    "AUD",
    "EFA",
    "FRAiF",
-   "NF"
+   "NF",
+   "RWG"
   ],
   "size": [
    "S",
@@ -307181,7 +307219,8 @@
   "referenceSources": [
    "DrDe",
    "DrDe-TFV",
-   "FRAiF"
+   "FRAiF",
+   "RWG"
   ],
   "size": [
    "L"
@@ -316864,8 +316903,8 @@
     "entries": [
      "Some yugoloths have an action option that allows them to summon other yugoloths.",
      {
-      "name": "Summon Yugoloth (1/Day)",
       "type": "entries",
+      "name": "Summon Yugoloth (1/Day)",
       "entries": [
        "The yugoloth attempts a magical summoning.",
        "A mezzoloth has a {@chance 30|30 percent|30% summoning chance} chance of summoning one mezzoloth.",
@@ -324588,8 +324627,8 @@
     "entries": [
      "You can give a molydeus the ability to summon other demons.",
      {
-      "name": "Summon Demon (1/Day)",
       "type": "entries",
+      "name": "Summon Demon (1/Day)",
       "entries": [
        "As an action, the molydeus has a {@chance 50} chance of summoning its choice of {@dice 1d6} {@creature babau|MPMM|babaus}, {@dice 1d4} {@creature chasme||chasmes}, or one {@creature marilith}. A summoned demon appears in an unoccupied space within 60 feet of the molydeus, acts as an ally of the molydeus, and can't summon other demons. It remains for 1 minute, until it or the molydeus dies, or until the molydeus dismisses it as an action."
       ]
@@ -324830,8 +324869,8 @@
     "entries": [
      "You can give a molydeus the ability to summon other demons.",
      {
-      "name": "Summon Demon (1/Day)",
       "type": "entries",
+      "name": "Summon Demon (1/Day)",
       "entries": [
        "As an action, the molydeus has a {@chance 50} chance of summoning its choice of {@dice 1d6} babaus, {@dice 1d4} {@creature chasme||chasmes}, or one {@creature marilith}. A summoned demon appears in an unoccupied space within 60 feet of the molydeus, acts as an ally of the molydeus, and can't summon other demons. It remains for 1 minute, until it or the molydeus dies, or until the molydeus dismisses it as an action."
       ]
@@ -331056,6 +331095,8 @@
    {
     "type": "variant",
     "name": "Zuggtomoy's Empowerment",
+    "source": "OotA",
+    "page": 228,
     "entries": [
      "Myconids that embrace {@creature Zuggtmoy|MTF} can develop new, more destructive kinds of spores. Myconid adults can have two of the following spore effects.",
      {
@@ -331083,9 +331124,7 @@
     "_version": {
      "name": "Myconid Adult (Additional Spore Effects)",
      "addHeadersAs": "action"
-    },
-    "source": "OotA",
-    "page": 228
+    }
    }
   ],
   "environment": [
@@ -331346,6 +331385,8 @@
    {
     "type": "variant",
     "name": "Zuggtomoy's Empowerment",
+    "source": "OotA",
+    "page": 228,
     "entries": [
      "Myconids that embrace {@creature Zuggtmoy|MTF} can develop new, more destructive kinds of spores. Myconid sovereigns have all these spore effects.",
      {
@@ -331373,9 +331414,7 @@
     "_version": {
      "name": "Myconid Sovereign (Additional Spore Effects)",
      "addHeadersAs": "action"
-    },
-    "source": "OotA",
-    "page": 228
+    }
    }
   ],
   "environment": [
@@ -340148,6 +340187,9 @@
       "headerEntries": [
        "While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:"
       ],
+      "footerEntries": [
+       "For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
+      ],
       "spells": {
        "1": {
         "slots": 4,
@@ -340191,10 +340233,7 @@
          "{@spell eyebite}"
         ]
        }
-      },
-      "footerEntries": [
-       "For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
-      ]
+      }
      },
      {
       "type": "entries",
@@ -345648,8 +345687,8 @@
     "entries": [
      "Some yugoloths have an action option that allows them to summon other yugoloths.",
      {
-      "name": "Summon Yugoloth (1/Day)",
       "type": "entries",
+      "name": "Summon Yugoloth (1/Day)",
       "entries": [
        "The yugoloth chooses what to summon and attempts a magical summoning.",
        "A nycaloth has a {@chance 50|50 percent|50% summoning chance} chance of summoning {@dice 1d4} {@creature mezzoloth||mezzoloths} or one nycaloth.",
@@ -356571,7 +356610,6 @@
     ]
    }
   ],
-  "foundryTokenScale": 1.1,
   "languageTags": [
    "TP"
   ],
@@ -356586,6 +356624,7 @@
   ],
   "hasToken": true,
   "hasFluffImages": true,
+  "foundryTokenScale": 1.1,
   "_versions": [
    {
     "name": "Otherworldly Steed (Celestial)",
@@ -371711,8 +371750,8 @@
     "entries": [
      "Some pseudodragons are willing to serve spellcasters as a familiar. Such pseudodragons have the following trait.",
      {
-      "name": "Familiar",
       "type": "entries",
+      "name": "Familiar",
       "entries": [
        "The pseudodragon can serve another creature as a familiar, forming a magic, telepathic bond with that willing companion. While the two are bonded, the companion can sense what the pseudodragon senses as long as they are within 1 mile of each other. While the pseudodragon is within 10 feet of its companion, the companion shares the pseudodragon's Magic Resistance trait. At any time and for any reason, the pseudodragon can end its service as a familiar, ending the telepathic bond."
       ]
@@ -373990,6 +374029,9 @@
   "name": "Quaggoth Thonot",
   "source": "XMM",
   "page": 251,
+  "referenceSources": [
+   "RWG"
+  ],
   "size": [
    "M"
   ],
@@ -374759,8 +374801,8 @@
     "entries": [
      "Mortal spellcasters interested in extraplanar familiars find quasits easy to summon and eager to serve. The quasit plays the part of the obsequious servant. It serves its master well, but it goads the mortal to greater and greater acts of chaos and evil. Such quasits have the following trait.",
      {
-      "name": "Familiar",
       "type": "entries",
+      "name": "Familiar",
       "entries": [
        "The quasit can serve another creature as a familiar, forming a telepathic bond with its willing master. While the two are bonded, the master can sense what the quasit senses as long as they are within 1 mile of each other. While the quasit is within 10 feet of its master, the master shares the quasit's Magic Resistance trait. At any time and for any reason, the quasit can end its service as a familiar, ending the telepathic bond."
       ]
@@ -382519,6 +382561,8 @@
    {
     "type": "variant",
     "name": "Madcap",
+    "source": "BGDIA",
+    "page": 240,
     "entries": [
      "A madcap is a redcap that soaks its hat in demon ichor instead of blood. Contact with demon ichor makes the creature even more psychotic, causing it to brood over irrational hatreds. A group of madcaps will sometimes band together over a shared hatred of something, such as music, creatures with curly hair, the word \"cool,\" or the color blue.",
      "When a madcap drops to 0 hit points, its hateful existence comes to an end in spectacular fashion as it bursts into flames, reducing itself, its ichor-soaked hat, and its pants to ashes instantly while leaving behind its weapon and smoldering iron boots."
@@ -382526,9 +382570,7 @@
     "_version": {
      "name": "Madcap",
      "addAs": "trait"
-    },
-    "source": "BGDIA",
-    "page": 240
+    }
    }
   ],
   "environment": [
@@ -385620,6 +385662,7 @@
  {
   "name": "Rendelith",
   "source": "AUD",
+  "page": 123,
   "size": [
    "L"
   ],
@@ -387614,6 +387657,57 @@
    "MW"
   ],
   "hasToken": true
+ },
+ {
+  "name": "Ri'all",
+  "isNpc": true,
+  "isNamedCreature": true,
+  "source": "RWG",
+  "_copy": {
+   "name": "Death Cultist",
+   "source": "XMM",
+   "_mod": {
+    "*": {
+     "mode": "replaceTxt",
+     "replace": "the cultist",
+     "with": "Ri'all",
+     "flags": "i"
+    }
+   }
+  },
+  "conditionImmune": [
+   "blinded",
+   "charmed",
+   "deafened",
+   "exhaustion",
+   "frightened",
+   "grappled",
+   "incapacitated",
+   "invisible",
+   "paralyzed",
+   "petrified",
+   "poisoned",
+   "prone",
+   "restrained",
+   "stunned",
+   "unconscious"
+  ],
+  "trait": [
+   {
+    "name": "Immunities and Saves",
+    "entries": [
+     "Ri'all automatically succeeds on all saving throws."
+    ]
+   }
+  ],
+  "bonus": [
+   {
+    "name": "Spirit Wail {@recharge 5}",
+    "entries": [
+     "{@actSave wis} {@dc 14}, each creature, excluding Thayan mercenaries, in a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the cultist. {@actSaveFail} 7 ({@damage 2d6}) Psychic damage, and the target has the {@condition Frightened|XPHB} condition until the end of its next turn. {@actSaveSuccess} Half damage only."
+    ]
+   }
+  ]
  },
  {
   "name": "Rictavio",
@@ -398604,6 +398698,7 @@
  {
   "name": "Sarrukh Tyrant",
   "source": "AUD",
+  "page": 124,
   "size": [
    "M"
   ],
@@ -401897,7 +401992,8 @@
    "DrDe-TDoN",
    "FRAiF",
    "FRHoF",
-   "HBTD"
+   "HBTD",
+   "RWG"
   ],
   "size": [
    "S",
@@ -403038,6 +403134,9 @@
       "headerEntries": [
        "While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:"
       ],
+      "footerEntries": [
+       "For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
+      ],
       "spells": {
        "1": {
         "slots": 4,
@@ -403081,10 +403180,7 @@
          "{@spell eyebite}"
         ]
        }
-      },
-      "footerEntries": [
-       "For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
-      ]
+      }
      },
      {
       "type": "entries",
@@ -416483,29 +416579,29 @@
       ]
      },
      {
-      "name": "Six Arms",
       "type": "entries",
+      "name": "Six Arms",
       "entries": [
        "The skaab's multiattack action allows it to make three slam attacks. Increase its challenge rating to 6 (2,300 XP)."
       ]
      },
      {
-      "name": "Three Heads",
       "type": "entries",
+      "name": "Three Heads",
       "entries": [
        "The skaab has advantage on Wisdom ({@skill Perception}) checks and on saving throws against being {@condition blinded}, {@condition deafened}, {@condition stunned}, and knocked {@condition unconscious}. (Its challenge rating doesn't change.)"
       ]
      },
      {
-      "name": "Skaab Goliath",
       "type": "entries",
+      "name": "Skaab Goliath",
       "entries": [
        "This skaab has three heads, six arms, and armor plating. Increase its challenge rating to 7 (2,900 XP)."
       ]
      },
      {
-      "name": "Winged Skaab",
       "type": "entries",
+      "name": "Winged Skaab",
       "entries": [
        "The skaab has a flying speed of 30 feet."
       ]
@@ -427511,6 +427607,9 @@
   "name": "Spellguard",
   "source": "AU",
   "page": 147,
+  "referenceSources": [
+   "RWG"
+  ],
   "size": [
    "M"
   ],
@@ -437333,18 +437432,20 @@
    {
     "type": "variant",
     "name": "New Giant Options",
+    "source": "SKT",
+    "page": 246,
     "entries": [
      "Some adult stone giants like to grab enemies and fling them through the air. They can also roll boulders across the ground, striking multiple enemies in a line. These abilities are represented by the following action options.",
      {
-      "name": "Fling",
       "type": "entries",
+      "name": "Fling",
       "entries": [
        "The giant tries to throw a Small or Medium creature within 10 feet of it. The target must succeed on a {@dc 17} Dexterity saving throw or be hurled up to 60 feet horizontally in a direction of the giant's choice and land {@condition prone}, taking 3 ({@damage 1d6}) bludgeoning damage for every 10 feet it was thrown."
       ]
      },
      {
-      "name": "Rolling Rock",
       "type": "entries",
+      "name": "Rolling Rock",
       "entries": [
        "The giant sends a rock tumbling along the ground in a 30-foot line that is 5 feet wide. Each creature in that line must make a {@dc 17} Dexterity saving throw, taking 22 ({@damage 3d10 + 6}) bludgeoning damage and falling {@condition prone} on a failed save"
       ]
@@ -437353,9 +437454,7 @@
     "_version": {
      "name": "Stone Giant (Optional Actions)",
      "addHeadersAs": "action"
-    },
-    "source": "SKT",
-    "page": 246
+    }
    }
   ],
   "environment": [
@@ -439111,6 +439210,8 @@
    {
     "type": "variant",
     "name": "New Giant Options",
+    "source": "SKT",
+    "page": 246,
     "entries": [
      "Some adult storm giants can channel thunderous power through their bodies and release it with a deafening stomp. This ability is represented by the following action option.",
      {
@@ -439124,9 +439225,7 @@
     "_version": {
      "name": "Storm Giant (Optional Actions)",
      "addHeadersAs": "action"
-    },
-    "source": "SKT",
-    "page": 246
+    }
    }
   ],
   "environment": [
@@ -449983,6 +450082,7 @@
   "isNpc": true,
   "isNamedCreature": true,
   "source": "AUD",
+  "page": 127,
   "size": [
    "M"
   ],
@@ -459547,22 +459647,22 @@
     "entries": [
      "Some thri-kreen employ special martial weapons. A gythka is a two-handed polearm with a blade at each end. A chatkcha is a flat, triangular wedge with three serrated blades (a light thrown weapon). A thri-kreen armed with a gythka and chatkchas gains the following action options:",
      {
-      "name": "Weapons Multiattack",
       "type": "entries",
+      "name": "Weapons Multiattack",
       "entries": [
        "The thri-kreen makes two gythka attacks or two chatkcha attacks."
       ]
      },
      {
-      "name": "Gythka",
       "type": "entries",
+      "name": "Gythka",
       "entries": [
        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) slashing damage."
       ]
      },
      {
-      "name": "Chatkcha",
       "type": "entries",
+      "name": "Chatkcha",
       "entries": [
        "{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
       ]
@@ -459575,6 +459675,7 @@
       "headerEntries": [
        "The thri-kreen's innate spellcasting ability is Wisdom. The thri-kreen can innately cast the following spells, requiring no components:"
       ],
+      "ability": "wis",
       "will": [
        "{@spell mage hand} (the hand is {@condition invisible})"
       ],
@@ -459586,8 +459687,7 @@
         "{@spell blur}",
         "{@spell magic weapon}"
        ]
-      },
-      "ability": "wis"
+      }
      }
     ]
    }
@@ -465447,7 +465547,7 @@
    {
     "name": "Multiattack",
     "entries": [
-     "The tortle makes four Claw attacks or two {@skill Nature}'s Wrath attacks."
+     "The tortle makes four Claw attacks or two Nature's Wrath attacks."
     ]
    },
    {
@@ -465778,7 +465878,8 @@
    "DrDe-BD",
    "DrDe-BtS",
    "EFA",
-   "FRAiF"
+   "FRAiF",
+   "RWG"
   ],
   "size": [
    "S",
@@ -465876,6 +465977,7 @@
    "FRAiF",
    "NF",
    "RHW",
+   "RWG",
    "ScoEE"
   ],
   "size": [
@@ -473740,8 +473842,8 @@
     "entries": [
      "Some yugoloths have an action option that allows them to summon other yugoloths.",
      {
-      "name": "Summon Yugoloth (1/Day)",
       "type": "entries",
+      "name": "Summon Yugoloth (1/Day)",
       "entries": [
        "The yugoloth chooses what to summon and attempts a magical summoning.",
        "An ultroloth has a {@chance 50|50 percent|50% summoning chance} chance of summoning {@dice 1d6} {@creature mezzoloth||mezzoloths}, {@dice 1d4} {@creature nycaloth||nycaloths}, or one ultroloth.",
@@ -474987,7 +475089,6 @@
     ]
    }
   ],
-  "foundryTokenScale": 1.3,
   "traitTags": [
    "Incorporeal Movement"
   ],
@@ -475016,6 +475117,7 @@
   ],
   "hasToken": true,
   "hasFluffImages": true,
+  "foundryTokenScale": 1.3,
   "_versions": [
    {
     "name": "Undead Spirit (Ghostly)",
@@ -475062,14 +475164,14 @@
      },
      "canHover": true
     },
-    "foundryTokenScale": 1.3,
     "damageTags": [
      "N"
     ],
     "conditionInflict": [
      "frightened"
     ],
-    "hasToken": true
+    "hasToken": true,
+    "foundryTokenScale": 1.3
    },
    {
     "name": "Undead Spirit (Putrid)",
@@ -488216,6 +488318,7 @@
  {
   "name": "Vestige Companion",
   "source": "AU",
+  "page": 14,
   "summonedByClass": "Warlock|XPHB",
   "size": [
    "S"
@@ -492166,7 +492269,8 @@
   "srd52": true,
   "basicRules2024": true,
   "referenceSources": [
-   "FRAiF"
+   "FRAiF",
+   "RWG"
   ],
   "size": [
    "L"
@@ -501094,22 +501198,22 @@
     "entries": [
      "The basic werewolf statistics represent a member of the Krallenhorde, Innistrad's largest howlpack. Werewolves of other packs might have additional abilities such as the following.",
      {
-      "name": "Vildin Rampage (Canid Form Only)",
       "type": "entries",
+      "name": "Vildin Rampage (Canid Form Only)",
       "entries": [
        "When the werewolf reduces a creature to 0 hit points with a melee attack on its turn, it can take a bonus action to move up to half its speed and make a bite attack."
       ]
      },
      {
-      "name": "Mondronen Wounded Fury",
       "type": "entries",
+      "name": "Mondronen Wounded Fury",
       "entries": [
        "While it has 10 hit points or fewer, the werewolf has advantage on attack rolls. In addition, it deals an extra 7 ({@damage 2d6}) damage to any target it hits with a melee attack."
       ]
      },
      {
-      "name": "Leeraug Blood Frenzy",
       "type": "entries",
+      "name": "Leeraug Blood Frenzy",
       "entries": [
        "The werewolf has advantage on melee attack rolls against any creature that doesn't have all its hit points."
       ]
@@ -510434,6 +510538,7 @@
   "isNpc": true,
   "isNamedCreature": true,
   "source": "AUD",
+  "page": 128,
   "size": [
    "M"
   ],
@@ -511126,6 +511231,9 @@
   "page": 338,
   "srd52": true,
   "basicRules2024": true,
+  "referenceSources": [
+   "RWG"
+  ],
   "size": [
    "M"
   ],

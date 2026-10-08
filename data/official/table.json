@@ -2902,8 +2902,8 @@
  },
  {
   "caption": "Typical Difficulty Classes",
-  "basicRules": true,
   "srd": true,
+  "basicRules": true,
   "colLabels": [
    "Task Difficulty",
    "DC"
@@ -3295,8 +3295,8 @@
  },
  {
   "caption": "Ability Scores and Modifiers",
-  "basicRules": true,
   "srd": true,
+  "basicRules": true,
   "colLabels": [
    "Score",
    "Modifier",
@@ -4112,9 +4112,9 @@
    [
     {
      "type": "cellHeader",
+     "style": "th-skewer",
      "width": 4,
-     "entry": "Area Shape and Size",
-     "style": "th-skewer"
+     "entry": "Area Shape and Size"
     }
    ],
    [
@@ -8425,17 +8425,17 @@
       "type": "internal",
       "path": "book/PSA/017.webp"
      },
-     "credit": "Jonas De Ro",
      "width": 155,
-     "height": 153
+     "height": 153,
+     "credit": "Jonas De Ro"
     },
     {
      "type": "entries",
      "name": "Amonkhet",
+     "id": "014",
      "entries": [
       "Five deadly trials await the people of this plane as they hope for a glorious death—and eternal glory in the afterlife. But their true fate lies in the hands of the sinister Nicol Bolas."
-     ],
-     "id": "014"
+     ]
     }
    ],
    [
@@ -8445,17 +8445,17 @@
       "type": "internal",
       "path": "book/PSA/018.webp"
      },
-     "credit": "James Paick",
      "width": 137,
-     "height": 137
+     "height": 137,
+     "credit": "James Paick"
     },
     {
      "type": "entries",
      "name": "Dominaria",
+     "id": "015",
      "entries": [
       "Home to the volcanic continent of Shiv, the time-shattered isle of Tolaria, and the cold mountains of Keld, Dominaria is the setting for brutal conflicts and home to powerful mages."
-     ],
-     "id": "015"
+     ]
     }
    ],
    [
@@ -8465,17 +8465,17 @@
       "type": "internal",
       "path": "book/PSA/019.webp"
      },
-     "credit": "Jung Park",
      "width": 151,
-     "height": 151
+     "height": 151,
+     "credit": "Jung Park"
     },
     {
      "type": "entries",
      "name": "Innistrad",
+     "id": "016",
      "entries": [
       "For centuries, the archangel Avacyn and her hosts protected the humans of Innistrad from the terrors of the night. But then she turned on the people she was supposed to protect as an alien madness seized the plane."
-     ],
-     "id": "016"
+     ]
     }
    ],
    [
@@ -8485,17 +8485,17 @@
       "type": "internal",
       "path": "book/PSA/020.webp"
      },
-     "credit": "Daniel Ljunggren",
      "width": 150,
-     "height": 150
+     "height": 150,
+     "credit": "Daniel Ljunggren"
     },
     {
      "type": "entries",
      "name": "Kaladesh",
+     "id": "017",
      "entries": [
       "Kaladesh is a vibrant, beautiful land in the midst of an inventors' renaissance, teeming with creativity and optimism."
-     ],
-     "id": "017"
+     ]
     }
    ],
    [
@@ -8505,17 +8505,17 @@
       "type": "internal",
       "path": "book/PSA/021.webp"
      },
-     "credit": "Tomasz Jedruszek",
      "width": 151,
-     "height": 151
+     "height": 151,
+     "credit": "Tomasz Jedruszek"
     },
     {
      "type": "entries",
      "name": "New Phyrexia",
+     "id": "018",
      "entries": [
       "Once known as Mirrodin, this metallic plane has been transformed by the vile Phyrexian corruption. Its natives fought and lost the war for their world, and now struggle to survive each day."
-     ],
-     "id": "018"
+     ]
     }
    ],
    [
@@ -8525,17 +8525,17 @@
       "type": "internal",
       "path": "book/PSA/022.webp"
      },
-     "credit": "Richard Wright",
      "width": 152,
-     "height": 150
+     "height": 150,
+     "credit": "Richard Wright"
     },
     {
      "type": "entries",
      "name": "Ravnica",
+     "id": "019",
      "entries": [
       "This worldwide cityscape holds countless grand halls, decrepit slums, and ancient ruins. Ten guilds maintain an uneasy peace in governing the various aspects of life in the majestic city."
-     ],
-     "id": "019"
+     ]
     }
    ],
    [
@@ -8545,17 +8545,17 @@
       "type": "internal",
       "path": "book/PSA/023.webp"
      },
-     "credit": "John Severin Brassell",
      "width": 150,
-     "height": 151
+     "height": 151,
+     "credit": "John Severin Brassell"
     },
     {
      "type": "entries",
      "name": "Shandalar",
+     "id": "01a",
      "entries": [
       "Rich with mana, Shandalar is a place where magic flows freely. Planeswalkers seek out this plane for its plentiful, powerful magic."
-     ],
-     "id": "01a"
+     ]
     }
    ],
    [
@@ -8565,17 +8565,17 @@
       "type": "internal",
       "path": "book/PSA/024.webp"
      },
-     "credit": "Jung Park",
      "width": 151,
-     "height": 150
+     "height": 150,
+     "credit": "Jung Park"
     },
     {
      "type": "entries",
      "name": "Theros",
+     "id": "01b",
      "entries": [
       "Theros is ruled by an awe-inspiring pantheon of gods. Mortals tremble before them, feel the sting of their petty whims, and live in terror of their wrath."
-     ],
-     "id": "01b"
+     ]
     }
    ],
    [
@@ -8585,17 +8585,17 @@
       "type": "internal",
       "path": "book/PSA/025.webp"
      },
-     "credit": "Sam Burley",
      "width": 151,
-     "height": 151
+     "height": 151,
+     "credit": "Sam Burley"
     },
     {
      "type": "entries",
      "name": "Zendikar",
+     "id": "01c",
      "entries": [
       "This land of primal mana is slowly recovering from the unnatural disaster of colossal predators from the Aether rampaging across the plane."
-     ],
-     "id": "01c"
+     ]
     }
    ]
   ],
@@ -9912,6 +9912,7 @@
  },
  {
   "caption": "Archmage Contact",
+  "page": 62,
   "colLabels": [
    "1d6",
    "Contract Type"
@@ -9959,6 +9960,7 @@
  },
  {
   "caption": "Archmage Type",
+  "page": 61,
   "colLabels": [
    "1d6",
    "Patron Type"
@@ -13935,15 +13937,15 @@
    [
     {
      "type": "cellHeader",
+     "style": "th-skewer",
      "width": 3,
-     "entry": "Roll Needed",
-     "style": "th-skewer"
+     "entry": "Roll Needed"
     },
     {
      "type": "cellHeader",
+     "style": "th-skewer",
      "width": 4,
-     "entry": "Number of Successes",
-     "style": "th-skewer"
+     "entry": "Number of Successes"
     }
    ],
    [
@@ -14231,15 +14233,15 @@
  },
  {
   "caption": "Azorius Creatures",
-  "colStyles": [
-   "col-2 text-center",
-   "col-8",
-   "col-2 text-center"
-  ],
   "colLabels": [
    "Challenge",
    "Creature",
    "Source"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
   ],
   "rows": [
    [
@@ -14423,13 +14425,13 @@
  },
  {
   "caption": "Azorius NPCs",
-  "colStyles": [
-   "col-6",
-   "col-6"
-  ],
   "colLabels": [
    "Role",
    "Appropriate Stat Block"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
   ],
   "rows": [
    [
@@ -14518,6 +14520,7 @@
  },
  {
   "caption": "Backgrounds",
+  "page": 21,
   "colLabels": [
    "Background",
    "Faction"
@@ -15362,7 +15365,7 @@
    ],
    [
     "4",
-    "Honeyflame bread—a fried dessert soaked in honey and coated in Marquesian spices"
+    "{@recipe Honeyflame bread|HFLotT}—a fried dessert soaked in honey and coated in Marquesian spices"
    ],
    [
     "5",
@@ -16154,13 +16157,13 @@
  },
  {
   "caption": "Barbarian",
-  "colStyles": [
-   "col-6",
-   "col-6"
-  ],
   "colLabels": [
    "Subclass",
    "Guild"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
   ],
   "rows": [
    [
@@ -16265,13 +16268,13 @@
  },
  {
   "caption": "Bard",
-  "colStyles": [
-   "col-6",
-   "col-6"
-  ],
   "colLabels": [
    "Subclass",
    "Guild"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
   ],
   "rows": [
    [
@@ -16528,13 +16531,13 @@
  },
  {
   "caption": "Baseline Costs",
-  "colStyles": [
-   "col-10",
-   "col-2 text-right"
-  ],
   "colLabels": [
    "Franchise Headquarters",
    "Monthly Cost"
+  ],
+  "colStyles": [
+   "col-10",
+   "col-2 text-right"
   ],
   "rows": [
    [
@@ -16908,6 +16911,7 @@
  },
  {
   "caption": "Bejeweled Conclave Renown",
+  "page": 83,
   "colLabels": [
    "Renown Score",
    "Reward"
@@ -19768,15 +19772,15 @@
  },
  {
   "caption": "Boros Creatures",
-  "colStyles": [
-   "col-2 text-center",
-   "col-8",
-   "col-2 text-center"
-  ],
   "colLabels": [
    "Challenge",
    "Creature",
    "Source"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
   ],
   "rows": [
    [
@@ -19955,13 +19959,13 @@
  },
  {
   "caption": "Boros NPCs",
-  "colStyles": [
-   "col-6",
-   "col-6"
-  ],
   "colLabels": [
    "Role",
    "Appropriate Stat Block"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
   ],
   "rows": [
    [
@@ -20512,6 +20516,7 @@
  },
  {
   "caption": "Bringers of Cosmic Dawn Renown",
+  "page": 87,
   "colLabels": [
    "Renown Score",
    "Reward"
@@ -20691,6 +20696,7 @@
  },
  {
   "caption": "D&D Settings",
+  "page": 47,
   "colLabels": [
    "Setting",
    "Description",
@@ -20914,15 +20920,15 @@
     "",
     {
      "type": "cellHeader",
+     "style": "th-skewer",
      "width": 3,
-     "entry": "Nuisance Traps",
-     "style": "th-skewer"
+     "entry": "Nuisance Traps"
     },
     {
      "type": "cellHeader",
+     "style": "th-skewer",
      "width": 3,
-     "entry": "Deadly Traps",
-     "style": "th-skewer"
+     "entry": "Deadly Traps"
     }
    ],
    [
@@ -21426,12 +21432,12 @@
   }
  },
  {
+  "caption": "Exandrian Calendar",
   "colLabels": [
    "Month",
    "Days",
    "Holidays"
   ],
-  "caption": "Exandrian Calendar",
   "colStyles": [
    "col-2",
    "col-2 text-center",
@@ -24823,6 +24829,7 @@
  },
  {
   "caption": "Spells",
+  "page": 36,
   "colLabels": [
    "Level",
    "Spell",
@@ -25955,13 +25962,13 @@
  },
  {
   "caption": "Cleric",
-  "colStyles": [
-   "col-6",
-   "col-6"
-  ],
   "colLabels": [
    "Subclass",
    "Guild"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
   ],
   "rows": [
    [
@@ -33128,6 +33135,7 @@
  },
  {
   "caption": "Covenant of the Grave Renown",
+  "page": 90,
   "colLabels": [
    "Renown Score",
    "Reward"
@@ -38227,8 +38235,8 @@
  },
  {
   "caption": "Size Categories",
-  "basicRules": true,
   "srd": true,
+  "basicRules": true,
   "colLabels": [
    "Size",
    "Space"
@@ -38873,6 +38881,7 @@
  },
  {
   "caption": "Crucible Keepers Renown",
+  "page": 94,
   "colLabels": [
    "Renown Score",
    "Reward"
@@ -39332,17 +39341,17 @@
  },
  {
   "caption": "Ravnica Currency",
-  "colStyles": [
-   "col-3 text-center",
-   "col-3",
-   "col-3",
-   "col-3"
-  ],
   "colLabels": [
    "Value",
    "Azorius",
    "Boros",
    "Orzhov"
+  ],
+  "colStyles": [
+   "col-3 text-center",
+   "col-3",
+   "col-3",
+   "col-3"
   ],
   "rows": [
    [
@@ -45555,9 +45564,9 @@
     "",
     {
      "type": "cellHeader",
+     "style": "th-skewer",
      "width": 3,
-     "entry": "Encounter Difficulty",
-     "style": "th-skewer"
+     "entry": "Encounter Difficulty"
     }
    ],
    [
@@ -45984,15 +45993,15 @@
  },
  {
   "caption": "Dimir Creatures",
-  "colStyles": [
-   "col-2 text-center",
-   "col-8",
-   "col-2 text-center"
-  ],
   "colLabels": [
    "Challenge",
    "Creature",
    "Source"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
   ],
   "rows": [
    [
@@ -46181,13 +46190,13 @@
  },
  {
   "caption": "Dimir NPCs",
-  "colStyles": [
-   "col-6",
-   "col-6"
-  ],
   "colLabels": [
    "Role",
    "Appropriate Stat Block"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
   ],
   "rows": [
    [
@@ -46329,6 +46338,7 @@
  },
  {
   "caption": "Pending Disasters",
+  "page": 93,
   "colLabels": [
    "1d4",
    "Disaster"
@@ -46648,14 +46658,14 @@
   "source": "Screen"
  },
  {
+  "caption": "Name Generator",
+  "isNameGenerator": true,
   "colLabels": [
    "d20",
    "Beginning",
    "Middle",
    "End"
   ],
-  "caption": "Name Generator",
-  "isNameGenerator": true,
   "colStyles": [
    "col-2-1 text-center",
    "col-3-3 text-center",
@@ -50371,13 +50381,13 @@
  },
  {
   "caption": "Druid",
-  "colStyles": [
-   "col-6",
-   "col-6"
-  ],
   "colLabels": [
    "Subclass",
    "Guild"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
   ],
   "rows": [
    [
@@ -59676,6 +59686,7 @@
  },
  {
   "caption": "Esoteric Institution Contact",
+  "page": 66,
   "colLabels": [
    "1d6",
    "Contact"
@@ -59723,6 +59734,7 @@
  },
  {
   "caption": "Esoteric Institution Type",
+  "page": 64,
   "colLabels": [
    "1d6",
    "Patron Type"
@@ -60369,8 +60381,8 @@
  },
  {
   "caption": "Exotic Languages",
-  "basicRules": true,
   "srd": true,
+  "basicRules": true,
   "colLabels": [
    "Language",
    "Typical Speakers",
@@ -61472,6 +61484,7 @@
  },
  {
   "caption": "Faction Attitudes",
+  "page": 81,
   "colLabels": [
    "",
    "{@area Bejeweled Conclave|1c8|x}",
@@ -62652,6 +62665,7 @@
  },
  {
   "caption": "Feat List",
+  "page": 26,
   "colLabels": [
    "Feat",
    "Category"
@@ -63843,13 +63857,13 @@
  },
  {
   "caption": "Fighter",
-  "colStyles": [
-   "col-6",
-   "col-6"
-  ],
   "colLabels": [
    "Subclass",
    "Guild"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
   ],
   "rows": [
    [
@@ -64034,8 +64048,8 @@
  },
  {
   "caption": "Experience Points by Challenge Rating",
-  "basicRules": true,
   "srd": true,
+  "basicRules": true,
   "colLabels": [
    "CR",
    "XP"
@@ -65810,8 +65824,8 @@
  },
  {
   "caption": "Food, Drink, and Lodging",
-  "basicRules": true,
   "srd": true,
+  "basicRules": true,
   "colLabels": [
    "Item",
    "Cost"
@@ -69960,8 +69974,8 @@
  },
  {
   "caption": "Donning and Doffing Armor",
-  "basicRules": true,
   "srd": true,
+  "basicRules": true,
   "colLabels": [
    "Category",
    "Don",
@@ -74822,15 +74836,15 @@
  },
  {
   "caption": "Golgari Creatures",
-  "colStyles": [
-   "col-2 text-center",
-   "col-8",
-   "col-2 text-center"
-  ],
   "colLabels": [
    "Challenge",
    "Creature",
    "Source"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
   ],
   "rows": [
    [
@@ -75054,13 +75068,13 @@
  },
  {
   "caption": "Golgari NPCs",
-  "colStyles": [
-   "col-6",
-   "col-6"
-  ],
   "colLabels": [
    "Role",
    "Appropriate Stat Block"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
   ],
   "rows": [
    [
@@ -77128,15 +77142,15 @@
  },
  {
   "caption": "Gruul Creatures",
-  "colStyles": [
-   "col-2 text-center",
-   "col-8",
-   "col-2 text-center"
-  ],
   "colLabels": [
    "Challenge",
    "Creature",
    "Source"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
   ],
   "rows": [
    [
@@ -77330,13 +77344,13 @@
  },
  {
   "caption": "Gruul NPCs",
-  "colStyles": [
-   "col-6",
-   "col-6"
-  ],
   "colLabels": [
    "Role",
    "Appropriate Stat Block"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
   ],
   "rows": [
    [
@@ -84249,6 +84263,7 @@
  },
  {
   "caption": "Horizon Weavers Renown",
+  "page": 98,
   "colLabels": [
    "Renown Score",
    "Reward"
@@ -95383,33 +95398,33 @@
    [
     {
      "type": "cell",
-     "entry": "4 or lower",
      "roll": {
       "min": 1,
       "max": 4
-     }
+     },
+     "entry": "4 or lower"
     },
     "Hostile"
    ],
    [
     {
      "type": "cell",
-     "entry": "5–8",
      "roll": {
       "min": 5,
       "max": 8
-     }
+     },
+     "entry": "5–8"
     },
     "Indifferent"
    ],
    [
     {
      "type": "cell",
-     "entry": "9 or higher",
      "roll": {
       "min": 9,
       "max": 12
-     }
+     },
+     "entry": "9 or higher"
     },
     "Friendly"
    ]
@@ -96621,15 +96636,15 @@
  },
  {
   "caption": "Izzet Creatures",
-  "colStyles": [
-   "col-2 text-center",
-   "col-8",
-   "col-2 text-center"
-  ],
   "colLabels": [
    "Challenge",
    "Creature",
    "Source"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
   ],
   "rows": [
    [
@@ -96873,13 +96888,13 @@
  },
  {
   "caption": "Izzet NPCs",
-  "colStyles": [
-   "col-6",
-   "col-6"
-  ],
   "colLabels": [
    "Role",
    "Appropriate Stat Block"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
   ],
   "rows": [
    [
@@ -99818,6 +99833,7 @@
  },
  {
   "caption": "Leadership Council",
+  "page": 111,
   "colLabels": [
    "Name",
    "Council Member"
@@ -102547,6 +102563,7 @@
  },
  {
   "caption": "Legendary Magic Item Properties",
+  "page": 133,
   "colLabels": [
    "1d10",
    "Property"
@@ -102610,6 +102627,7 @@
  },
  {
   "caption": "Rare Magic Item Properties",
+  "page": 131,
   "colLabels": [
    "1d12",
    "Property"
@@ -102681,6 +102699,7 @@
  },
  {
   "caption": "Very Rare Magic Item Properties",
+  "page": 132,
   "colLabels": [
    "1d12",
    "Property"
@@ -105171,6 +105190,7 @@
  },
  {
   "caption": "Magic Items",
+  "page": 115,
   "colLabels": [
    "Rarity",
    "Item",
@@ -106570,6 +106590,7 @@
  },
  {
   "caption": "Magical Entity Contact",
+  "page": 68,
   "colLabels": [
    "1d6",
    "Contact"
@@ -106617,6 +106638,7 @@
  },
  {
   "caption": "Magical Entity Type",
+  "page": 68,
   "colLabels": [
    "1d6",
    "Patron Type"
@@ -106720,6 +106742,7 @@
  },
  {
   "caption": "Magical Patron Options",
+  "page": 58,
   "colLabels": [
    "Category",
    "Description"
@@ -106899,6 +106922,7 @@
  },
  {
   "caption": "Factions by School",
+  "page": 79,
   "colLabels": [
    "School",
    "Faction"
@@ -108663,7 +108687,7 @@
   ],
   "rows": [
    [
-    "Corn and lentil soup",
+    "{@recipe Corn and lentil soup|HFLotT}",
     "12 cp"
    ],
    [
@@ -108671,11 +108695,11 @@
     "1 cp"
    ],
    [
-    "Ale and cheese pastry",
+    "{@recipe Ale and cheese pastry|HFLotT}",
     "7 cp"
    ],
    [
-    "Brandied ham and carrots",
+    "{@recipe Brandied ham and carrots|HFLotT}",
     "9 cp"
    ],
    [
@@ -108683,11 +108707,11 @@
     "6 cp"
    ],
    [
-    "Seared boar and potatoes",
+    "{@recipe Seared boar and potatoes|HFLotT}",
     "9 cp"
    ],
    [
-    "Dragonfire mead",
+    "{@recipe Dragonfire mead|HFLotT}",
     "11 cp"
    ]
   ],
@@ -109771,13 +109795,13 @@
  },
  {
   "caption": "Monk",
-  "colStyles": [
-   "col-6",
-   "col-6"
-  ],
   "colLabels": [
    "Subclass",
    "Guild"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
   ],
   "rows": [
    [
@@ -114509,8 +114533,8 @@
  },
  {
   "caption": "Mounts and Other Animals",
-  "basicRules": true,
   "srd": true,
+  "basicRules": true,
   "colLabels": [
    "Item",
    "Cost",
@@ -114658,8 +114682,8 @@
  },
  {
   "caption": "Tack, Harness, and Drawn Vehicles",
-  "basicRules": true,
   "srd": true,
+  "basicRules": true,
   "colLabels": [
    "Item",
    "Cost",
@@ -114905,8 +114929,8 @@
  },
  {
   "caption": "Waterborne Vehicles",
-  "basicRules": true,
   "srd": true,
+  "basicRules": true,
   "colLabels": [
    "Item",
    "Cost",
@@ -115976,6 +116000,7 @@
  },
  {
   "caption": "Ninth Quill Renown",
+  "page": 101,
   "colLabels": [
    "Renown Score",
    "Reward"
@@ -120058,15 +120083,15 @@
  },
  {
   "caption": "Orzhov Creatures",
-  "colStyles": [
-   "col-2 text-center",
-   "col-8",
-   "col-2 text-center"
-  ],
   "colLabels": [
    "Challenge",
    "Creature",
    "Source"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
   ],
   "rows": [
    [
@@ -120255,13 +120280,13 @@
  },
  {
   "caption": "Orzhov NPCs",
-  "colStyles": [
-   "col-6",
-   "col-6"
-  ],
   "colLabels": [
    "Role",
    "Appropriate Stat Block"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
   ],
   "rows": [
    [
@@ -121845,13 +121870,13 @@
  },
  {
   "caption": "Paladin",
-  "colStyles": [
-   "col-6",
-   "col-6"
-  ],
   "colLabels": [
    "Subclass",
    "Guild"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
   ],
   "rows": [
    [
@@ -122304,13 +122329,13 @@
   }
  },
  {
-  "colStyles": [
-   "col-2 text-center",
-   "col-10"
-  ],
   "colLabels": [
    "Totem Animal",
    "Urban Replacements"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
   ],
   "rows": [
    [
@@ -123270,6 +123295,7 @@
  },
  {
   "caption": "Phantasmic Circus Acts",
+  "page": 104,
   "colLabels": [
    "1d6",
    "Circus Acts"
@@ -123317,6 +123343,7 @@
  },
  {
   "caption": "Phantasmic Circus Renown",
+  "page": 105,
   "colLabels": [
    "Renown Score",
    "Reward"
@@ -125339,9 +125366,9 @@
     "",
     {
      "type": "cellHeader",
+     "style": "th-skewer",
      "width": 2,
-     "entry": "Destination",
-     "style": "th-skewer"
+     "entry": "Destination"
     },
     ""
    ],
@@ -125769,6 +125796,7 @@
  },
  {
   "caption": "Political Faction Contact",
+  "page": 71,
   "colLabels": [
    "1d6",
    "Contact Type"
@@ -125816,6 +125844,7 @@
  },
  {
   "caption": "Political Faction Type",
+  "page": 70,
   "colLabels": [
    "1d6",
    "Patron Type"
@@ -128233,15 +128262,15 @@
  },
  {
   "caption": "Rakdos Creatures",
-  "colStyles": [
-   "col-2 text-center",
-   "col-8",
-   "col-2 text-center"
-  ],
   "colLabels": [
    "Challenge",
    "Creature",
    "Source"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
   ],
   "rows": [
    [
@@ -128490,13 +128519,13 @@
  },
  {
   "caption": "Rakdos NPCs",
-  "colStyles": [
-   "col-6",
-   "col-6"
-  ],
   "colLabels": [
    "Role",
    "Appropriate Stat Block"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
   ],
   "rows": [
    [
@@ -129844,8 +129873,8 @@
   }
  },
  {
-  "page": 5,
   "caption": "Snout of Omgar Encounters",
+  "page": 5,
   "colLabels": [
    "Encounter",
    "Land",
@@ -130391,9 +130420,9 @@
    [
     {
      "type": "cellHeader",
+     "style": "th-skewer",
      "width": 4,
-     "entry": "{@dice 1d100} Roll",
-     "style": "th-skewer"
+     "entry": "{@dice 1d100} Roll"
     }
    ],
    [
@@ -132245,13 +132274,13 @@
  },
  {
   "caption": "Ranger",
-  "colStyles": [
-   "col-6",
-   "col-6"
-  ],
   "colLabels": [
    "Subclass",
    "Guild"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
   ],
   "rows": [
    [
@@ -132426,6 +132455,7 @@
  },
  {
   "caption": "Ready-Made Evolving Magic Items",
+  "page": 127,
   "colLabels": [
    "Rarity",
    "Item",
@@ -134102,6 +134132,7 @@
  },
  {
   "caption": "Notable Seers",
+  "page": 108,
   "colLabels": [
    "Name",
    "Description"
@@ -135562,13 +135593,13 @@
  },
  {
   "caption": "Rogue",
-  "colStyles": [
-   "col-6",
-   "col-6"
-  ],
   "colLabels": [
    "Subclass",
    "Guild"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
   ],
   "rows": [
    [
@@ -140050,6 +140081,7 @@
  },
  {
   "caption": "Seers of Sea and Sky Renown",
+  "page": 109,
   "colLabels": [
    "Renown Score",
    "Reward"
@@ -140157,15 +140189,15 @@
  },
  {
   "caption": "Selesnya Creatures",
-  "colStyles": [
-   "col-2 text-center",
-   "col-8",
-   "col-2 text-center"
-  ],
   "colLabels": [
    "Challenge",
    "Creature",
    "Source"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
   ],
   "rows": [
    [
@@ -140414,13 +140446,13 @@
  },
  {
   "caption": "Selesnya NPCs",
-  "colStyles": [
-   "col-6",
-   "col-6"
-  ],
   "colLabels": [
    "Role",
    "Appropriate Stat Block"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
   ],
   "rows": [
    [
@@ -141161,8 +141193,8 @@
  },
  {
   "caption": "Services",
-  "basicRules": true,
   "srd": true,
+  "basicRules": true,
   "colLabels": [
    "Service",
    "Pay"
@@ -142873,6 +142905,7 @@
  },
  {
   "caption": "Sheltering Hands Renown",
+  "page": 112,
   "colLabels": [
    "Renown Score",
    "Reward"
@@ -144896,15 +144929,15 @@
  },
  {
   "caption": "Simic Creatures",
-  "colStyles": [
-   "col-2 text-center",
-   "col-8",
-   "col-2 text-center"
-  ],
   "colLabels": [
    "Challenge",
    "Creature",
    "Source"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
   ],
   "rows": [
    [
@@ -145108,13 +145141,13 @@
  },
  {
   "caption": "Simic NPCs",
-  "colStyles": [
-   "col-6",
-   "col-6"
-  ],
   "colLabels": [
    "Role",
    "Appropriate Stat Block"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
   ],
   "rows": [
    [
@@ -145199,6 +145232,7 @@
  },
  {
   "caption": "Simple Magic Item Evolution",
+  "page": 130,
   "colLabels": [
    "Item",
    "Evolved Item"
@@ -146193,13 +146227,13 @@
  },
  {
   "caption": "Sorcerer",
-  "colStyles": [
-   "col-6",
-   "col-6"
-  ],
   "colLabels": [
    "Subclass",
    "Guild"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
   ],
   "rows": [
    [
@@ -146647,6 +146681,7 @@
  },
  {
   "caption": "Factions by Class",
+  "page": 80,
   "colLabels": [
    "Class",
    "Suitable Factions"
@@ -153216,9 +153251,6 @@
    "col-3",
    "col-8"
   ],
-  "footnotes": [
-   "Roll {@dice 1d100} or draw a card from the {@deck tarokka deck|RHW} to generate a random encounter in the Domains of Dread or inspire other horror adventures."
-  ],
   "rows": [
    [
     "1–2",
@@ -153490,6 +153522,9 @@
     "{@font ♣|Tarokka Suits}9 {@card Traitor|Tarokka Deck|RHW}",
     "A {@creature Yuan-ti Infiltrator|XMM} posing as a monster's victim"
    ]
+  ],
+  "footnotes": [
+   "Roll {@dice 1d100} or draw a card from the {@deck tarokka deck|RHW} to generate a random encounter in the Domains of Dread or inspire other horror adventures."
   ],
   "name": "Tables; Horror Encounters",
   "source": "XScreenRHW"
@@ -153783,9 +153818,9 @@
     "",
     {
      "type": "cellHeader",
+     "style": "th-skewer",
      "width": 3,
-     "entry": "Distance Traveled Per...",
-     "style": "th-skewer"
+     "entry": "Distance Traveled Per..."
     },
     ""
    ],
@@ -155360,13 +155395,13 @@
  },
  {
   "caption": "The Cartographer",
-  "colStyles": [
-   "col-2 text-center",
-   "col-10"
-  ],
   "colLabels": [
    "Franchise Rank",
    "Features"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
   ],
   "rows": [
    [
@@ -155513,13 +155548,13 @@
  },
  {
   "caption": "The Decisionist",
-  "colStyles": [
-   "col-2 text-center",
-   "col-10"
-  ],
   "colLabels": [
    "Franchise Rank",
    "Features"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
   ],
   "rows": [
    [
@@ -155553,13 +155588,13 @@
  },
  {
   "caption": "The Documancer",
-  "colStyles": [
-   "col-2 text-center",
-   "col-10"
-  ],
   "colLabels": [
    "Franchise Rank",
    "Features"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
   ],
   "rows": [
    [
@@ -156721,13 +156756,13 @@
  },
  {
   "caption": "The Hoardsperson",
-  "colStyles": [
-   "col-2 text-center",
-   "col-10"
-  ],
   "colLabels": [
    "Franchise Rank",
    "Features"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
   ],
   "rows": [
    [
@@ -156809,13 +156844,13 @@
  },
  {
   "caption": "The Loremonger",
-  "colStyles": [
-   "col-2 text-center",
-   "col-10"
-  ],
   "colLabels": [
    "Franchise Rank",
    "Features"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
   ],
   "rows": [
    [
@@ -157107,13 +157142,13 @@
  },
  {
   "caption": "The Obviator",
-  "colStyles": [
-   "col-2 text-center",
-   "col-10"
-  ],
   "colLabels": [
    "Franchise Rank",
    "Features"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
   ],
   "rows": [
    [
@@ -157147,13 +157182,13 @@
  },
  {
   "caption": "The Occultant",
-  "colStyles": [
-   "col-2 text-center",
-   "col-10"
-  ],
   "colLabels": [
    "Franchise Rank",
    "Features"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
   ],
   "rows": [
    [
@@ -157937,13 +157972,13 @@
  },
  {
   "caption": "The Secretarian",
-  "colStyles": [
-   "col-2 text-center",
-   "col-10"
-  ],
   "colLabels": [
    "Franchise Rank",
    "Features"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
   ],
   "rows": [
    [
@@ -158503,6 +158538,7 @@
  },
  {
   "caption": "Alien Entities",
+  "page": 86,
   "colLabels": [
    "1d6",
    "Entity"
@@ -161105,8 +161141,8 @@
  },
  {
   "caption": "Travel Pace",
-  "basicRules": true,
   "srd": true,
+  "basicRules": true,
   "colLabels": [
    "Pace",
    "Distance Traveled per Minute",
@@ -161168,9 +161204,9 @@
     "",
     {
      "type": "cellHeader",
+     "style": "th-skewer",
      "width": 3,
-     "entry": "Distance Traveled Per...",
-     "style": "th-skewer"
+     "entry": "Distance Traveled Per..."
     }
    ],
    [
@@ -161731,6 +161767,7 @@
  },
  {
   "caption": "Trickster Contact",
+  "page": 74,
   "colLabels": [
    "1d6",
    "Contact Type"
@@ -161778,6 +161815,7 @@
  },
  {
   "caption": "Trickster Type",
+  "page": 73,
   "colLabels": [
    "1d6",
    "Patron Type"
@@ -162450,6 +162488,7 @@
  },
  {
   "caption": "Undead Members",
+  "page": 89,
   "colLabels": [
    "Name",
    "Description"
@@ -166628,8 +166667,8 @@
  },
  {
   "caption": "Ability Score Point Cost",
-  "basicRules": true,
   "srd": true,
+  "basicRules": true,
   "colLabels": [
    "Score",
    "Cost",
@@ -168829,13 +168868,13 @@
  {
   "caption": "Wand of Wonder Effects",
   "srd52": true,
-  "colStyles": [
-   "col-2 text-center",
-   "col-10"
-  ],
   "colLabels": [
    "1d100",
    "Effect"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
   ],
   "rows": [
    [
@@ -169172,13 +169211,13 @@
  },
  {
   "caption": "Warlock",
-  "colStyles": [
-   "col-6",
-   "col-6"
-  ],
   "colLabels": [
    "Subclass",
    "Guild"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
   ],
   "rows": [
    [
@@ -169704,6 +169743,7 @@
  },
  {
   "caption": "Planar Way Stations",
+  "page": 97,
   "colLabels": [
    "1d6",
    "Station"
@@ -171966,19 +172006,19 @@
   ],
   "rows": [
    [
-    "Ale and cheese pastry (7 cp)",
+    "{@recipe Ale and cheese pastry|HFLotT} (7 cp)",
     "C (7th letter)"
    ],
    [
-    "Brandied ham and carrots (9 cp)",
+    "{@recipe Brandied ham and carrots|HFLotT} (9 cp)",
     "H (9th letter)"
    ],
    [
-    "Corn and lentil soup (12 cp)",
+    "{@recipe Corn and lentil soup|HFLotT} (12 cp)",
     "I (12th letter)"
    ],
    [
-    "Dragonfire mead (11 cp)",
+    "{@recipe Dragonfire mead|HFLotT} (11 cp)",
     "M (11th letter)"
    ],
    [
@@ -171990,7 +172030,7 @@
     "R (1st letter)"
    ],
    [
-    "Seared boar and potatoes (3 cp)",
+    "{@recipe Seared boar and potatoes|HFLotT} (3 cp)",
     "A (3rd letter)"
    ]
   ],
@@ -173740,9 +173780,9 @@
     "",
     {
      "type": "cellHeader",
+     "style": "th-skewer",
      "width": 3,
-     "entry": "Jungle",
-     "style": "th-skewer"
+     "entry": "Jungle"
     },
     "",
     "",
@@ -175213,13 +175253,13 @@
  },
  {
   "caption": "Wizard",
-  "colStyles": [
-   "col-6",
-   "col-6"
-  ],
   "colLabels": [
    "Subclass",
    "Guild"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
   ],
   "rows": [
    [
@@ -175276,6 +175316,7 @@
  },
  {
   "caption": "Wizards' Circle Contact",
+  "page": 77,
   "colLabels": [
    "1d6",
    "Contact Type"
@@ -175323,6 +175364,7 @@
  },
  {
   "caption": "Wizards' Circle Type",
+  "page": 76,
   "colLabels": [
    "1d6",
    "Patron Type"

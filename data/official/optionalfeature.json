@@ -364,6 +364,7 @@
  {
   "name": "Banishing Shot",
   "source": "AU",
+  "page": 10,
   "featureType": [
    "AS"
   ],
@@ -434,6 +435,7 @@
  {
   "name": "Beguiling Shot",
   "source": "AU",
+  "page": 10,
   "featureType": [
    "AS"
   ],
@@ -706,6 +708,7 @@
  {
   "name": "Bursting Shot",
   "source": "AU",
+  "page": 10,
   "featureType": [
    "AS"
   ],
@@ -1484,6 +1487,7 @@
  {
   "name": "Enfeebling Shot",
   "source": "AU",
+  "page": 11,
   "featureType": [
    "AS"
   ],
@@ -2271,6 +2275,7 @@
  {
   "name": "Grasping Shot",
   "source": "AU",
+  "page": 11,
   "featureType": [
    "AS"
   ],
@@ -3466,6 +3471,7 @@
  {
   "name": "Piercing Shot",
   "source": "AU",
+  "page": 11,
   "featureType": [
    "AS"
   ],
@@ -4459,6 +4465,7 @@
  {
   "name": "Seeking Shot",
   "source": "AU",
+  "page": 11,
   "featureType": [
    "AS"
   ],
@@ -4527,6 +4534,7 @@
  {
   "name": "Shadow Shot",
   "source": "AU",
+  "page": 11,
   "featureType": [
    "AS"
   ],
