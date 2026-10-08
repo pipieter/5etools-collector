@@ -36418,7 +36418,7 @@
    "When you cast the {@spell Forced Hesitation|Magus2024} spell, you can consume this magic item. When you do, if the target fails its saving throw, its {@variantrule Initiative|XPHB} roll is reduced by the two highest results of the damage dice combined."
   ],
   "attachedSpells": [
-   "Forced Hesitation|Magus2024"
+   "forced hesitation|magus2024"
   ],
   "miscTags": [
    "CNS"
@@ -40858,7 +40858,7 @@
    "When you cast the {@spell Ensorcelled Strike|Magus2024} spell, you can consume this magic item. When you do, if you hit the target with the attack, the first time it takes damage from a spell before the end of your next turn it takes an additional {@damage 3d6} Force damage."
   ],
   "attachedSpells": [
-   "Ensorcelled Strike|Magus2024"
+   "ensorcelled strike|magus2024"
   ],
   "miscTags": [
    "CNS"
@@ -40885,7 +40885,7 @@
    "When you cast the {@spell Nystul's Magic Aura|XPHB} spell, you can consume this magic item. When you do, you can target an unwilling creature with the spell. The creature must succeed on a Charisma saving throw against your spell save DC or suffer the Mask effect of the spell for the duration."
   ],
   "attachedSpells": [
-   "nystul's magic aura|xphb"
+   "Nystul's magic aura|xphb"
   ],
   "miscTags": [
    "CNS"

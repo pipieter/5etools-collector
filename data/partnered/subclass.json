@@ -161,18 +161,18 @@
    {
     "prepared": {
      "3": [
-      "Demiplanar Pitch|Magus2024",
-      "Shocking Grasp|XPHB",
-      "Find Familiar|XPHB",
-      "Magic Missile|XPHB",
+      "demiplanar pitch|magus2024",
+      "shocking grasp|xphb",
+      "find familiar|xphb",
+      "magic missile|xphb",
       {
        "choose": "level=0|class=wizard",
        "count": 2
       }
      ],
      "5": [
-      "Nystul's Magic Aura|XPHB",
-      "Misty Step|XPHB"
+      "misty step|xphb",
+      "Nystul's magic aura|xphb"
      ],
      "7": [
       {
@@ -181,37 +181,37 @@
       }
      ],
      "9": [
-      "Dispel Magic|XPHB",
-      "Waypoint|Magus2024"
+      "dispel magic|xphb",
+      "waypoint|magus2024"
      ],
      "13": [
-      "Banishment|XPHB",
-      "Mordenkainen's Private Sanctum|XPHB"
+      "banishment|xphb",
+      "Mordenkainen's private sanctum|xphb"
      ],
      "17": [
-      "Reflect Magic|Magus2024",
-      "Teleportation Circle|XPHB"
+      "reflect magic|magus2024",
+      "teleportation circle|xphb"
      ]
     }
    }
   ],
   "subclassSpells": [
-   "Demiplanar Pitch|Magus2024",
-   "Shocking Grasp|XPHB",
-   "Find Familiar|XPHB",
-   "Magic Missile|XPHB",
-   "Nystul's Magic Aura|XPHB",
-   "Misty Step|XPHB",
-   "Dispel Magic|XPHB",
-   "Waypoint|Magus2024",
-   "Banishment|XPHB",
-   "Mordenkainen's Private Sanctum|XPHB",
-   "Reflect Magic|Magus2024",
-   "Teleportation Circle|XPHB",
-   "Chain Lightning|XPHB",
-   "Contingency|XPHB",
-   "Detect Magic|XPHB",
-   "Identify|XPHB"
+   "demiplanar pitch|magus2024",
+   "shocking grasp|xphb",
+   "find familiar|xphb",
+   "magic missile|xphb",
+   "misty step|xphb",
+   "Nystul's magic aura|xphb",
+   "dispel magic|xphb",
+   "waypoint|magus2024",
+   "banishment|xphb",
+   "Mordenkainen's private sanctum|xphb",
+   "reflect magic|magus2024",
+   "teleportation circle|xphb",
+   "detect magic|xphb",
+   "identify|xphb",
+   "chain lightning|xphb",
+   "contingency|xphb"
   ],
   "fluff": {
    "images": [
@@ -4630,13 +4630,13 @@
    {
     "prepared": {
      "3": [
+      "give life|magus2024",
+      "righteous incitement|magus2024",
       "cure wounds|xphb",
-      "give life|Magus2024",
-      "guiding bolt|xphb",
-      "righteous incitement|Magus2024"
+      "guiding bolt|xphb"
      ],
      "5": [
-      "animate shield|Magus2024",
+      "animate shield|magus2024",
       "gentle repose|xphb"
      ],
      "9": [
@@ -4655,20 +4655,20 @@
    }
   ],
   "subclassSpells": [
-   "Cure Wounds|XPHB",
-   "Give Life|Magus2024",
-   "Guiding Bolt|XPHB",
-   "Righteous Incitement|Magus2024",
-   "Animate Shield|Magus2024",
-   "Gentle Repose|XPHB",
-   "Mass Healing Word|XPHB",
-   "Revivify|XPHB",
-   "Death Ward|XPHB",
-   "Stoneskin|XPHB",
-   "Mass Cure Wounds|XPHB",
-   "Raise Dead|XPHB",
-   "Heal|XPHB",
-   "Sunbeam|XPHB"
+   "give life|magus2024",
+   "righteous incitement|magus2024",
+   "cure wounds|xphb",
+   "guiding bolt|xphb",
+   "animate shield|magus2024",
+   "gentle repose|xphb",
+   "mass healing word|xphb",
+   "revivify|xphb",
+   "death ward|xphb",
+   "stoneskin|xphb",
+   "mass cure wounds|xphb",
+   "raise dead|xphb",
+   "heal|xphb",
+   "sunbeam|xphb"
   ],
   "fluff": {
    "images": [
@@ -5258,22 +5258,22 @@
    {
     "prepared": {
      "3": [
-      "bitter wind|Magus2024",
-      "hateful haunting|Magus2024",
-      "grave bolt|Magus2024",
-      "grave grasp|Magus2024"
+      "bitter wind|magus2024",
+      "hateful haunting|magus2024",
+      "grave bolt|magus2024",
+      "grave grasp|magus2024"
      ],
      "5": [
-      "carrionette|Magus2024",
+      "carrionette|magus2024",
       "web|xphb"
      ],
      "9": [
       "animate dead|xphb",
-      "mortal terror|Magus2024"
+      "mortal terror|magus2024"
      ],
      "13": [
-      "Evard's Black Tentacles|xphb",
-      "stygian blast|Magus2024"
+      "Evard's black tentacles|xphb",
+      "stygian blast|magus2024"
      ],
      "17": [
       "contagion|xphb",
@@ -5283,20 +5283,20 @@
    }
   ],
   "subclassSpells": [
-   "Bitter Wind|Magus2024",
-   "Hateful Haunting|Magus2024",
-   "Grave Bolt|Magus2024",
-   "Grave Grasp|Magus2024",
-   "Carrionette|Magus2024",
-   "Web|XPHB",
-   "Animate Dead|XPHB",
-   "Mortal Terror|Magus2024",
-   "Evard's Black Tentacles|XPHB",
-   "Stygian Blast|Magus2024",
-   "Contagion|XPHB",
-   "Insect Plague|XPHB",
-   "Circle of Death|XPHB",
-   "Create Undead|XPHB"
+   "bitter wind|magus2024",
+   "hateful haunting|magus2024",
+   "grave bolt|magus2024",
+   "grave grasp|magus2024",
+   "carrionette|magus2024",
+   "web|xphb",
+   "animate dead|xphb",
+   "mortal terror|magus2024",
+   "Evard's black tentacles|xphb",
+   "stygian blast|magus2024",
+   "contagion|xphb",
+   "insect plague|xphb",
+   "circle of death|xphb",
+   "create undead|xphb"
   ],
   "fluff": {
    "images": [
@@ -9176,10 +9176,10 @@
    {
     "prepared": {
      "3": [
-      "disguise self|xphb",
-      "forced hesitation|Magus2024",
+      "obscuring prick|Magus2024",
       "phantasmal feint|Magus2024",
-      "obscuring prick|Magus2024"
+      "disguise self|xphb",
+      "forced hesitation|Magus2024"
      ],
      "5": [
       "darkness|xphb",
@@ -9208,21 +9208,21 @@
    }
   ],
   "subclassSpells": [
-   "Disguise Self|XPHB",
-   "Forced Hesitation|Magus2024",
-   "Phantasmal Feint|Magus2024",
-   "Obscuring Prick|Magus2024",
-   "Darkness|XPHB",
-   "Invisibility|XPHB",
-   "Hypnotic Pattern|XPHB",
-   "Major Image|XPHB",
-   "Greater Invisibility|XPHB",
-   "Phantasmal Killer|XPHB",
-   "Mislead|XPHB",
-   "Seeming|XPHB",
-   "Mirror Image|XPHB",
-   "Eyebite|XPHB",
-   "Programmed Illusion|XPHB"
+   "obscuring prick|magus2024",
+   "phantasmal feint|magus2024",
+   "disguise self|xphb",
+   "forced hesitation|magus2024",
+   "darkness|xphb",
+   "invisibility|xphb",
+   "hypnotic pattern|xphb",
+   "major image|xphb",
+   "greater invisibility|xphb",
+   "phantasmal killer|xphb",
+   "mislead|xphb",
+   "seeming|xphb",
+   "mirror image|xphb",
+   "eyebite|xphb",
+   "programmed illusion|xphb"
   ],
   "fluff": {
    "images": [
@@ -9457,20 +9457,20 @@
    }
   ],
   "subclassSpells": [
-   "Misfortunate Missile|Magus2024",
-   "Overexposure|Magus2024",
-   "Bane|XPHB",
-   "Bless|XPHB",
-   "Augury|XPHB",
-   "Mind Spike|XPHB",
-   "Haste|XPHB",
-   "Slow|XPHB",
-   "Cascade of Hours|Magus2024",
-   "Divination|XPHB",
-   "Dream|XPHB",
-   "Scrying|XPHB",
-   "First Speech|Magus2024",
-   "True Seeing|XPHB"
+   "misfortunate missile|magus2024",
+   "overexposure|magus2024",
+   "bane|xphb",
+   "bless|xphb",
+   "augury|xphb",
+   "mind spike|xphb",
+   "haste|xphb",
+   "slow|xphb",
+   "cascade of hours|magus2024",
+   "divination|xphb",
+   "dream|xphb",
+   "scrying|xphb",
+   "first speech|magus2024",
+   "true seeing|xphb"
   ],
   "fluff": {
    "images": [
@@ -10222,10 +10222,10 @@
    {
     "prepared": {
      "3": [
+      "thornhold|magus2024",
+      "thorn whip|xphb",
       "entangle|xphb",
       "speak with animals|xphb",
-      "thornwhip|xphb",
-      "thornhold|Magus2024",
       {
        "choose": "level=0|class=druid;magus (tmc'24)",
        "count": 2
@@ -10258,20 +10258,20 @@
    }
   ],
   "subclassSpells": [
-   "Entangle|XPHB",
-   "Speak with Animals|XPHB",
-   "Thornwhip|XPHB",
-   "Thornhold|Magus2024",
-   "Lesser Restoration|XPHB",
-   "Moonbeam|XPHB",
-   "Conjure Animals|XPHB",
-   "Speak with Plants|XPHB",
-   "Conjure Woodland Beings|XPHB",
-   "Polymorph|XPHB",
-   "Greater Restoration|XPHB",
-   "Reincarnate|XPHB",
-   "Conjure Fey|XPHB",
-   "Wall of Thorns|XPHB"
+   "thornhold|magus2024",
+   "thorn whip|xphb",
+   "entangle|xphb",
+   "speak with animals|xphb",
+   "lesser restoration|xphb",
+   "moonbeam|xphb",
+   "conjure animals|xphb",
+   "speak with plants|xphb",
+   "conjure woodland beings|xphb",
+   "polymorph|xphb",
+   "greater restoration|xphb",
+   "reincarnate|xphb",
+   "conjure fey|xphb",
+   "wall of thorns|xphb"
   ],
   "fluff": {
    "images": [
