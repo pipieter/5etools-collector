@@ -26,9 +26,7 @@
    }
   ],
   "type": "Demonic",
-  "ability": {
-   "entry": "Up to a +4 bonus to Strength, Wisdom, or both"
-  },
+  "abilityEntry": "Up to a +4 bonus to Strength, Wisdom, or both",
   "signatureSpells": {
    "entry": "{@spell Hunter's mark} (1st level), {@spell beast sense} (2nd level), {@spell slow} (3rd level)"
   },
@@ -68,9 +66,7 @@
    }
   ],
   "type": "Demonic",
-  "ability": {
-   "entry": "Up to a +4 bonus to Strength, Charisma, or both"
-  },
+  "abilityEntry": "Up to a +4 bonus to Strength, Charisma, or both",
   "signatureSpells": {
    "entry": "{@spell Charm person} (1st level), {@spell enlarge/reduce} (2nd level), {@spell vampiric touch} (3rd level)"
   },
@@ -96,9 +92,7 @@
    }
   ],
   "type": "Demonic",
-  "ability": {
-   "entry": "Up to a +4 bonus to Wisdom, Charisma, or both"
-  },
+  "abilityEntry": "Up to a +4 bonus to Wisdom, Charisma, or both",
   "signatureSpells": {
    "entry": "{@spell Minor illusion} (cantrip), {@spell disguise self} (1st level), {@spell invisibility} (2nd level), {@spell hypnotic pattern} (3rd level)"
   },
@@ -141,9 +135,7 @@
    }
   ],
   "type": "Demonic",
-  "ability": {
-   "entry": "Up to a +4 bonus to Constitution, Charisma, or both"
-  },
+  "abilityEntry": "Up to a +4 bonus to Constitution, Charisma, or both",
   "signatureSpells": {
    "entry": "{@spell False life} (1st level), {@spell hold person} (2nd level), {@spell fear} (3rd level)"
   },
@@ -176,9 +168,7 @@
    }
   ],
   "type": "Demonic",
-  "ability": {
-   "entry": "Up to a +8 bonus to Constitution, with an equal penalty to Intelligence, Wisdom, and Charisma"
-  },
+  "abilityEntry": "Up to a +8 bonus to Constitution, with an equal penalty to Intelligence, Wisdom, and Charisma",
   "signatureSpells": {
    "entry": "{@spell Grease} (1st level), {@spell web} (2nd level), {@spell gaseous form} (3rd level)"
   },
@@ -244,9 +234,7 @@
    }
   ],
   "type": "Demonic",
-  "ability": {
-   "entry": "Up to a +4 bonus to Intelligence, Wisdom, or both"
-  },
+  "abilityEntry": "Up to a +4 bonus to Intelligence, Wisdom, or both",
   "signatureSpells": {
    "entry": "{@spell False life} (1st level), {@spell ray of enfeeblement} (2nd level), {@spell animate dead} (3rd level)"
   },
@@ -279,9 +267,7 @@
    }
   ],
   "type": "Demonic",
-  "ability": {
-   "entry": "Up to a +4 bonus to Strength and Dexterity, with an equal penalty to Intelligence and Charisma"
-  },
+  "abilityEntry": "Up to a +4 bonus to Strength and Dexterity, with an equal penalty to Intelligence and Charisma",
   "signatureSpells": {
    "entry": "{@spell Tasha's hideous laughter} (1st level), {@spell crown of madness} (2nd level), {@spell fear} (3rd level)"
   },
@@ -321,9 +307,7 @@
    }
   ],
   "type": "Demonic",
-  "ability": {
-   "entry": "Up to a +4 bonus to Constitution, with an equal penalty to Intelligence, Wisdom, and Charisma"
-  },
+  "abilityEntry": "Up to a +4 bonus to Constitution, with an equal penalty to Intelligence, Wisdom, and Charisma",
   "signatureSpells": {
    "entry": "{@spell Ray of sickness} (1st level), {@spell suggestion} (2nd level), {@spell plant growth} (3rd level)"
   },

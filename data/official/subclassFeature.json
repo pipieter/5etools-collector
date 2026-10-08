@@ -643,8 +643,8 @@
   "entries": [
    "When you reach an Artificer level specified in the Alchemist Spells table, you thereafter always have the listed spells prepared.",
    {
-    "caption": "Alchemist Spells",
     "type": "table",
+    "caption": "Alchemist Spells",
     "page": 13,
     "colLabels": [
      "Artificer Level",
@@ -736,6 +736,7 @@
  {
   "name": "Alter Memories",
   "source": "AU",
+  "page": 17,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Enchanter",
@@ -970,6 +971,7 @@
  {
   "name": "Arcana Domain",
   "source": "AU",
+  "page": 8,
   "className": "Cleric",
   "classSource": "XPHB",
   "subclassShortName": "Arcana",
@@ -1070,6 +1072,7 @@
  {
   "name": "Arcana Domain Spells",
   "source": "AU",
+  "page": 8,
   "className": "Cleric",
   "classSource": "XPHB",
   "subclassShortName": "Arcana",
@@ -1081,6 +1084,7 @@
    {
     "type": "table",
     "caption": "Arcana Domain Spells",
+    "page": 8,
     "colLabels": [
      "Cleric Level",
      "Prepared Spells"
@@ -1130,6 +1134,7 @@
  {
   "name": "Arcane Archer",
   "source": "AU",
+  "page": 9,
   "className": "Fighter",
   "classSource": "XPHB",
   "subclassShortName": "Arcane Archer",
@@ -1180,6 +1185,7 @@
  {
   "name": "Arcane Archer Lore",
   "source": "AU",
+  "page": 9,
   "className": "Fighter",
   "classSource": "XPHB",
   "subclassShortName": "Arcane Archer",
@@ -1191,6 +1197,7 @@
    {
     "type": "entries",
     "name": "Cantrip",
+    "page": 9,
     "entries": [
      "You know either the {@spell Druidcraft|XPHB} or the {@spell Prestidigitation|XPHB} cantrip. Intelligence is your spellcasting ability for it."
     ]
@@ -1198,6 +1205,7 @@
    {
     "type": "entries",
     "name": "Skills",
+    "page": 9,
     "entries": [
      "You gain proficiency in the {@skill Arcana|XPHB} and {@skill Nature|XPHB} skills. If you already have one of these proficiencies, you instead gain proficiency in a different skill of your choice from the skills available to Fighters at level 1 (or in two skills available to Fighters at level 1 if you have both)."
     ]
@@ -1501,6 +1509,7 @@
  {
   "name": "Arcane Shot",
   "source": "AU",
+  "page": 9,
   "className": "Fighter",
   "classSource": "XPHB",
   "subclassShortName": "Arcane Archer",
@@ -1513,6 +1522,7 @@
    {
     "type": "entries",
     "name": "Using Arcane Shot",
+    "page": 9,
     "entries": [
      "Once per turn when you make a ranged attack using a weapon with the {@itemProperty AF|XDMG|Ammunition} property, you can apply one of your Arcane Shot options to that attack. You decide to use the option when you hit a creature and deal damage to it unless the option doesn't involve an attack roll.",
      "You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
@@ -1521,6 +1531,7 @@
    {
     "type": "entries",
     "name": "Arcane Shot Die",
+    "page": 9,
     "entries": [
      "Arcane Shot options refer to your Arcane Shot Die. Your Arcane Shot Die is a {@dice d6}."
     ]
@@ -1528,6 +1539,7 @@
    {
     "type": "entries",
     "name": "Saving Throws",
+    "page": 9,
     "entries": [
      "If an Arcane Shot option requires a saving throw, the DC equals 8 plus your Intelligence modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}."
     ]
@@ -1535,6 +1547,7 @@
    {
     "type": "entries",
     "name": "At Higher Levels",
+    "page": 9,
     "entries": [
      "Your Arcane Shot Die changes when you reach certain Fighter levels. The die becomes a {@dice d8} at level 10, a {@dice d10} at level 15, and a {@dice d12} at level 18."
     ]
@@ -1560,6 +1573,7 @@
  {
   "name": "Arcane Shot Options",
   "source": "AU",
+  "page": 9,
   "className": "Fighter",
   "classSource": "XPHB",
   "subclassShortName": "Arcane Archer",
@@ -2046,8 +2060,8 @@
   "entries": [
    "When you reach an Artificer level specified in the Armorer Spells table, you thereafter always have the listed spells prepared.",
    {
-    "caption": "Armorer Spells",
     "type": "table",
+    "caption": "Armorer Spells",
     "page": 15,
     "colLabels": [
      "Artificer Level",
@@ -2230,8 +2244,8 @@
   "entries": [
    "When you reach an Artificer level specified in the Artillerist Spells table, you thereafter always have the listed spells prepared.",
    {
-    "caption": "Artillerist Spells",
     "type": "table",
+    "caption": "Artillerist Spells",
     "page": 16,
     "colLabels": [
      "Artificer Level",
@@ -3312,8 +3326,8 @@
   "entries": [
    "When you reach an Artificer level specified in the Battle Smith Spells table, you thereafter always have the listed spells prepared.",
    {
-    "caption": "Battle Smith Spells",
     "type": "table",
+    "caption": "Battle Smith Spells",
     "page": 18,
     "colLabels": [
      "Artificer Level",
@@ -3639,6 +3653,7 @@
  {
   "name": "Benign Transposition",
   "source": "AU",
+  "page": 15,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Conjurer",
@@ -5099,8 +5114,8 @@
   "entries": [
    "When you reach an Artificer level specified in the Cartographer Spells table, you thereafter always have the listed spells prepared.",
    {
-    "caption": "Cartographer Spells",
     "type": "table",
+    "caption": "Cartographer Spells",
     "page": 20,
     "colLabels": [
      "Artificer Level",
@@ -8564,6 +8579,7 @@
  {
   "name": "Conjuration Savant",
   "source": "AU",
+  "page": 15,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Conjurer",
@@ -8592,6 +8608,7 @@
  {
   "name": "Conjurer",
   "source": "AU",
+  "page": 15,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Conjurer",
@@ -8916,6 +8933,7 @@
  {
   "name": "Curving Shot",
   "source": "AU",
+  "page": 9,
   "className": "Fighter",
   "classSource": "XPHB",
   "subclassShortName": "Arcane Archer",
@@ -9329,6 +9347,7 @@
  {
   "name": "Death's Master",
   "source": "AU",
+  "page": 18,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Necromancer",
@@ -9340,6 +9359,7 @@
    {
     "type": "entries",
     "name": "Bolster Undead",
+    "page": 18,
     "entries": [
      "As a {@variantrule Bonus Action|XPHB}, choose any number of Undead you have created or summoned with a {@filter Necromancy spell|spells|school=N} that are within 60 feet of you. Those Undead each gain {@variantrule Temporary Hit Points|XPHB} equal to your Wizard level. Once you use this {@variantrule Bonus Action|XPHB}, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
     ]
@@ -9347,6 +9367,7 @@
    {
     "type": "entries",
     "name": "Extinguish Undead",
+    "page": 18,
     "entries": [
      "When an Undead creature you can see is reduced to 0 {@variantrule Hit Points|XPHB}, you can cause it to explode with necrotic energy. Roll a number of d6s equal to half the creature's unexpended {@variantrule Hit Point Dice|XPHB|Hit Dice} (round up, minimum of {@dice 1d6}), and add them together. Each creature in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the Undead makes a Dexterity saving throw. On a failed save, a target takes Necrotic damage equal to the number rolled and can't take {@variantrule Reaction|XPHB|Reactions} until the start of its next turn. On a successful save, a target takes half as much damage only. When you use this feature to explode an Undead creature you don't control, you must take a {@variantrule Reaction|XPHB} and expend a level 5+ spell slot to do so."
     ]
@@ -9638,6 +9659,7 @@
  {
   "name": "Dispelling Recovery",
   "source": "AU",
+  "page": 9,
   "className": "Cleric",
   "classSource": "XPHB",
   "subclassShortName": "Arcana",
@@ -9667,6 +9689,7 @@
  {
   "name": "Distant Transposition",
   "source": "AU",
+  "page": 15,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Conjurer",
@@ -10845,6 +10868,7 @@
  {
   "name": "Durable Summons",
   "source": "AU",
+  "page": 16,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Conjurer",
@@ -11363,13 +11387,13 @@
     "entries": [
      {
       "type": "refOptionalfeature",
-      "optionalfeature": "Breath of Winter",
-      "name": "Breath of Winter (17th Level Required)"
+      "name": "Breath of Winter (17th Level Required)",
+      "optionalfeature": "Breath of Winter"
      },
      {
       "type": "refOptionalfeature",
-      "optionalfeature": "Clench of the North Wind",
-      "name": "Clench of the North Wind (6th Level Required)"
+      "name": "Clench of the North Wind (6th Level Required)",
+      "optionalfeature": "Clench of the North Wind"
      },
      {
       "type": "refOptionalfeature",
@@ -11380,8 +11404,8 @@
      },
      {
       "type": "refOptionalfeature",
-      "optionalfeature": "Eternal Mountain Defense",
-      "name": "Eternal Mountain Defense (17th Level Required)"
+      "name": "Eternal Mountain Defense (17th Level Required)",
+      "optionalfeature": "Eternal Mountain Defense"
      },
      {
       "type": "refOptionalfeature",
@@ -11397,28 +11421,28 @@
      },
      {
       "type": "refOptionalfeature",
-      "optionalfeature": "Flames of the Phoenix",
-      "name": "Flames of the Phoenix (11th Level Required)"
+      "name": "Flames of the Phoenix (11th Level Required)",
+      "optionalfeature": "Flames of the Phoenix"
      },
      {
       "type": "refOptionalfeature",
-      "optionalfeature": "Gong of the Summit",
-      "name": "Gong of the Summit (6th Level Required)"
+      "name": "Gong of the Summit (6th Level Required)",
+      "optionalfeature": "Gong of the Summit"
      },
      {
       "type": "refOptionalfeature",
-      "optionalfeature": "Mist Stance",
-      "name": "Mist Stance (11th Level Required)"
+      "name": "Mist Stance (11th Level Required)",
+      "optionalfeature": "Mist Stance"
      },
      {
       "type": "refOptionalfeature",
-      "optionalfeature": "Ride the Wind",
-      "name": "Ride the Wind (11th Level Required)"
+      "name": "Ride the Wind (11th Level Required)",
+      "optionalfeature": "Ride the Wind"
      },
      {
       "type": "refOptionalfeature",
-      "optionalfeature": "River of Hungry Flame",
-      "name": "River of Hungry Flame (17th Level Required)"
+      "name": "River of Hungry Flame (17th Level Required)",
+      "optionalfeature": "River of Hungry Flame"
      },
      {
       "type": "refOptionalfeature",
@@ -11438,8 +11462,8 @@
      },
      {
       "type": "refOptionalfeature",
-      "optionalfeature": "Wave of Rolling Earth",
-      "name": "Wave of Rolling Earth (17th Level Required)"
+      "name": "Wave of Rolling Earth (17th Level Required)",
+      "optionalfeature": "Wave of Rolling Earth"
      }
     ]
    }
@@ -11769,6 +11793,7 @@
  {
   "name": "Empowered Transmutation",
   "source": "AU",
+  "page": 20,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Transmuter",
@@ -11783,6 +11808,7 @@
  {
   "name": "Enchanter",
   "source": "AU",
+  "page": 16,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Enchanter",
@@ -11808,6 +11834,7 @@
  {
   "name": "Enchanting Conversationalist",
   "source": "AU",
+  "page": 16,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Enchanter",
@@ -11822,6 +11849,7 @@
  {
   "name": "Enchantment Savant",
   "source": "AU",
+  "page": 16,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Enchanter",
@@ -12001,6 +12029,7 @@
  {
   "name": "Ever-Ready Shot",
   "source": "AU",
+  "page": 10,
   "className": "Fighter",
   "classSource": "XPHB",
   "subclassShortName": "Arcane Archer",
@@ -12176,8 +12205,8 @@
     ]
    },
    {
-    "caption": "Experimental Elixir",
     "type": "table",
+    "caption": "Experimental Elixir",
     "page": 13,
     "colLabels": [
      "1d6",
@@ -13265,6 +13294,7 @@
  {
   "name": "Focused Conjuration",
   "source": "AU",
+  "page": 16,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Conjurer",
@@ -13292,6 +13322,7 @@
  {
   "name": "Focused Strike",
   "source": "AU",
+  "page": 13,
   "className": "Monk",
   "classSource": "XPHB",
   "subclassShortName": "Mystic Arts",
@@ -13565,6 +13596,7 @@
  {
   "name": "Fortifying Spell",
   "source": "AU",
+  "page": 8,
   "className": "Cleric",
   "classSource": "XPHB",
   "subclassShortName": "Arcana",
@@ -14449,6 +14481,7 @@
  {
   "name": "Grave Power",
   "source": "AU",
+  "page": 17,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Necromancer",
@@ -14460,6 +14493,7 @@
    {
     "type": "entries",
     "name": "Grave Resilience",
+    "page": 17,
     "entries": [
      "When you use Arcane Recovery, your {@condition Exhaustion|XPHB} level, if any, decreases by 1."
     ]
@@ -14467,6 +14501,7 @@
    {
     "type": "entries",
     "name": "Overwhelming Necrosis",
+    "page": 17,
     "entries": [
      "Damage from your Wizard spells and Wizard features ignores {@variantrule Resistance|XPHB} to Necrotic damage."
     ]
@@ -15019,6 +15054,7 @@
  {
   "name": "Harvest Undead",
   "source": "AU",
+  "page": 18,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Necromancer",
@@ -15759,6 +15795,7 @@
  {
   "name": "Hypnotic Presence",
   "source": "AU",
+  "page": 17,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Enchanter",
@@ -16323,6 +16360,7 @@
  {
   "name": "Improved Mystic Fighting Style",
   "source": "AU",
+  "page": 13,
   "className": "Monk",
   "classSource": "XPHB",
   "subclassShortName": "Mystic Arts",
@@ -16439,6 +16477,7 @@
  {
   "name": "Indomitable Teleport",
   "source": "AU",
+  "page": 10,
   "className": "Fighter",
   "classSource": "XPHB",
   "subclassShortName": "Arcane Archer",
@@ -16796,6 +16835,7 @@
  {
   "name": "Instinctive Charm",
   "source": "AU",
+  "page": 17,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Enchanter",
@@ -18154,6 +18194,7 @@
  {
   "name": "Magical Ammunition",
   "source": "AU",
+  "page": 9,
   "className": "Fighter",
   "classSource": "XPHB",
   "subclassShortName": "Arcane Archer",
@@ -18166,6 +18207,7 @@
    {
     "type": "entries",
     "name": "Darkening Ammunition",
+    "page": 9,
     "entries": [
      "Magical shadows fill a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the ammunition for 1 minute. Nonmagical flames in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} are extinguished, and creatures in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} have a −5 penalty to Wisdom ({@skill Perception|XPHB}) checks and {@variantrule Passive Perception|XPHB}."
     ]
@@ -18173,6 +18215,7 @@
    {
     "type": "entries",
     "name": "Unlocking Ammunition",
+    "page": 9,
     "entries": [
      "A burst of magic fills a 15-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the ammunition. The ammunition also emits a loud knocking sound, audible up to 300 feet away. Any object in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} that is held shut by a nonmagical lock or that is stuck or barred becomes unlocked, unstuck, or unbarred. If such an object has multiple locks, only one of them is unlocked."
     ]
@@ -18180,6 +18223,7 @@
    {
     "type": "entries",
     "name": "Vine Ammunition",
+    "page": 10,
     "entries": [
      "A 120-foot-long vine grows from the ammunition. You and other creatures can then climb it. The vine withers away after 10 minutes."
     ]
@@ -18206,6 +18250,7 @@
  {
   "name": "Magical Mastery",
   "source": "AU",
+  "page": 9,
   "className": "Cleric",
   "classSource": "XPHB",
   "subclassShortName": "Arcana",
@@ -18786,6 +18831,7 @@
  {
   "name": "Master Transmuter",
   "source": "AU",
+  "page": 20,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Transmuter",
@@ -18797,6 +18843,7 @@
    {
     "type": "entries",
     "name": "Major Transformation",
+    "page": 20,
     "entries": [
      "You can transmute one nonmagical object—no larger than a 10-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} or eight connected 5-foot Cubes—into another nonmagical object of similar size and mass and of equal or lesser value. You must spend 10 minutes handling the object to transform it."
     ]
@@ -18804,6 +18851,7 @@
    {
     "type": "entries",
     "name": "Panacea",
+    "page": 20,
     "entries": [
      "You touch a creature as part of this {@action Magic|XPHB} action, and the target regains a number of {@variantrule Hit Points|XPHB} equal to half its {@variantrule Hit Points|XPHB|Hit Point} maximum (round down). The target is cured of all magical contagions, and any curses affecting the target are lifted, including the target's {@variantrule Attunement|XPHB} to a cursed item. If the target has the {@condition Poisoned|XPHB} or {@condition Petrified|XPHB} condition, those conditions end."
     ]
@@ -18811,6 +18859,7 @@
    {
     "type": "entries",
     "name": "Restore Life",
+    "page": 20,
     "entries": [
      "You cast the {@spell Raise Dead|XPHB} spell without expending a spell slot, using the stone in place of the required Material components."
     ]
@@ -18818,6 +18867,7 @@
    {
     "type": "entries",
     "name": "Restore Youth",
+    "page": 20,
     "entries": [
      "You touch one willing creature as part of this {@action Magic|XPHB} action, and the target's {@condition Exhaustion|XPHB} level, if any, decreases to 0, and it permanently appears {@dice 3d10} years younger, to a minimum of young adulthood."
     ]
@@ -18888,6 +18938,7 @@
  {
   "name": "Masterful Shots",
   "source": "AU",
+  "page": 10,
   "className": "Fighter",
   "classSource": "XPHB",
   "subclassShortName": "Arcane Archer",
@@ -19196,6 +19247,7 @@
  {
   "name": "Modify Magic",
   "source": "AU",
+  "page": 8,
   "className": "Cleric",
   "classSource": "XPHB",
   "subclassShortName": "Arcana",
@@ -19468,6 +19520,7 @@
  {
   "name": "Mystic Fighting Style",
   "source": "AU",
+  "page": 12,
   "className": "Monk",
   "classSource": "XPHB",
   "subclassShortName": "Mystic Arts",
@@ -19481,6 +19534,7 @@
  {
   "name": "Mystic Focus",
   "source": "AU",
+  "page": 12,
   "className": "Monk",
   "classSource": "XPHB",
   "subclassShortName": "Mystic Arts",
@@ -19492,6 +19546,7 @@
    {
     "type": "entries",
     "name": "Converting Spell Slots to Focus Points",
+    "page": 12,
     "entries": [
      "You can expend a spell slot to regain a number of expended Focus Points equal to the slot's level (no action required)."
     ]
@@ -19499,11 +19554,13 @@
    {
     "type": "entries",
     "name": "Recovering Spell Slots",
+    "page": 12,
     "entries": [
      "When you finish a {@variantrule Short Rest|XPHB} or use Uncanny Metabolism, you can transform unexpended Focus Points to recover one expended spell slot. The Recovering Spell Slots table shows the cost of recovering a spell slot of a given level, and it lists the minimum Monk level you must be to recover a slot. You can recover a spell slot no higher than level 4.",
      {
       "type": "table",
       "caption": "Recovering Spell Slots",
+      "page": 12,
       "colLabels": [
        "Spell Slot Level",
        "Focus Point Cost",
@@ -19836,6 +19893,7 @@
  {
   "name": "Necromancer",
   "source": "AU",
+  "page": 17,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Necromancer",
@@ -19857,6 +19915,7 @@
  {
   "name": "Necromancy Savant",
   "source": "AU",
+  "page": 17,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Necromancer",
@@ -19885,6 +19944,7 @@
  {
   "name": "Necromancy Spellbook",
   "source": "AU",
+  "page": 17,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Necromancer",
@@ -19896,6 +19956,7 @@
    {
     "type": "entries",
     "name": "Necrotic Resistance",
+    "page": 17,
     "entries": [
      "You have {@variantrule Resistance|XPHB} to Necrotic damage."
     ]
@@ -19903,6 +19964,7 @@
    {
     "type": "entries",
     "name": "Undead Familiar",
+    "page": 17,
     "entries": [
      "The {@spell Find Familiar|XPHB} spell appears in your spellbook. When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: {@creature Skeleton|XMM} or {@creature Zombie|XMM} (see appendix B of the {@book Player's Handbook|XPHB|11} for the familiar's stat block). When you choose one of the normal forms, you can choose Undead as its creature type.",
      "Additionally, when you take the {@action Attack|XPHB} action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its {@variantrule Reaction|XPHB}."
@@ -19911,6 +19973,7 @@
    {
     "type": "entries",
     "name": "Undead Vitality",
+    "page": 17,
     "entries": [
      "When you cast a {@filter Necromancy spell|spells|school=N} using a spell slot, you can choose an Undead creature you can see within 60 feet of yourself to regain a number of {@variantrule Hit Points|XPHB} equal to the level of the spell slot expended plus your Wizard level."
     ]
@@ -21970,8 +22033,8 @@
     ]
    },
    {
-    "name": "Domain Spells",
     "type": "entries",
+    "name": "Domain Spells",
     "entries": [
      "{@i 1st-level Peace Domain feature}",
      "You gain domain spells at the cleric levels listed in the Peace Domain Spells table. See the Divine Domain class feature for how domain spells work.",
@@ -22521,6 +22584,7 @@
  {
   "name": "Potent Stone",
   "source": "AU",
+  "page": 20,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Transmuter",
@@ -22533,6 +22597,7 @@
    {
     "type": "entries",
     "name": "Mighty Build",
+    "page": 20,
     "entries": [
      "The bearer has {@variantrule Advantage|XPHB} on Strength saving throws. The bearer also counts as one size larger when determining its carrying capacity."
     ]
@@ -22540,6 +22605,7 @@
    {
     "type": "entries",
     "name": "Tremorsense",
+    "page": 20,
     "entries": [
      "The bearer gains {@sense Tremorsense|XPHB} with a range of 30 feet."
     ]
@@ -24658,13 +24724,13 @@
      },
      {
       "type": "refOptionalfeature",
-      "optionalfeature": "Hill Rune|TCE",
-      "name": "Hill Rune (7th Level or Higher)"
+      "name": "Hill Rune (7th Level or Higher)",
+      "optionalfeature": "Hill Rune|TCE"
      },
      {
       "type": "refOptionalfeature",
-      "optionalfeature": "Storm Rune|TCE",
-      "name": "Storm Rune (7th Level or Higher)"
+      "name": "Storm Rune (7th Level or Higher)",
+      "optionalfeature": "Storm Rune|TCE"
      }
     ]
    }
@@ -25415,6 +25481,7 @@
  {
   "name": "Semblance of Life",
   "source": "AU",
+  "page": 14,
   "className": "Warlock",
   "classSource": "XPHB",
   "subclassShortName": "Vestige",
@@ -25782,6 +25849,7 @@
  {
   "name": "Shape-Shifter",
   "source": "AU",
+  "page": 20,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Transmuter",
@@ -25794,6 +25862,7 @@
    {
     "type": "entries",
     "name": "Game Statistics",
+    "page": 20,
     "entries": [
      "In addition to retaining the features specified in the spell, you retain your memories and ability to communicate. You also retain your Intelligence, Wisdom, and Charisma scores; proficiencies; class features; and feats."
     ]
@@ -25801,6 +25870,7 @@
    {
     "type": "entries",
     "name": "Transmute Spells",
+    "page": 20,
     "entries": [
      "While shape-shifted, you can cast spells, but only {@filter Transmutation spells|spells|school=T} that don't have a Material component that has a specified cost or that is consumed by the spell."
     ]
@@ -26474,6 +26544,7 @@
  {
   "name": "Spellcasting",
   "source": "AU",
+  "page": 11,
   "className": "Monk",
   "classSource": "XPHB",
   "subclassShortName": "Mystic Arts",
@@ -26485,6 +26556,7 @@
    {
     "type": "entries",
     "name": "Cantrips",
+    "page": 11,
     "entries": [
      "You know two cantrips of your choice from the {@filter Sorcerer spell list|spells|class=Sorcerer}. {@spell Blade Ward|XPHB} and {@spell Thunderclap|XPHB} are recommended. Whenever you gain a Monk level, you can replace one of these cantrips with another cantrip of your choice from the {@filter Sorcerer spell list|spells|class=Sorcerer}.",
      "When you reach Monk level 10, you learn another {@filter Sorcerer cantrip|spells|level=0|class=Sorcerer} of your choice."
@@ -26493,6 +26565,7 @@
    {
     "type": "entries",
     "name": "Spell Slots",
+    "page": 11,
     "entries": [
      "The Warrior of the Mystic Arts Spellcasting table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a {@variantrule Long Rest|XPHB}."
     ]
@@ -26500,6 +26573,7 @@
    {
     "type": "entries",
     "name": "Prepared Spells of Level 1+",
+    "page": 11,
     "entries": [
      "You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose three level 1 spells from the {@filter Sorcerer spell list|spells|class=Sorcerer}. {@spell Jump|XPHB}, {@spell Magic Missile|XPHB}, and {@spell Shield|XPHB} are recommended.",
      "The number of spells on your list increases as you gain Monk levels, as shown in the Prepared Spells column of the Warrior of the Mystic Arts Spellcasting table. Whenever that number increases, choose additional spells from the {@filter Sorcerer spell list|spells|class=Sorcerer} until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 7 Monk, your list of prepared spells can include five Sorcerer spells of levels 1 and 2 in any combination."
@@ -26508,6 +26582,7 @@
    {
     "type": "entries",
     "name": "Changing Your Prepared Spells",
+    "page": 12,
     "entries": [
      "Whenever you gain a Monk level, you can replace one spell on your list with another {@filter Sorcerer spell|spells|class=Sorcerer} for which you have spell slots."
     ]
@@ -26515,6 +26590,7 @@
    {
     "type": "entries",
     "name": "Spellcasting Ability",
+    "page": 12,
     "entries": [
      "Wisdom is your spellcasting ability for your Sorcerer spells."
     ]
@@ -26522,6 +26598,7 @@
    {
     "type": "entries",
     "name": "Spellcasting Focus",
+    "page": 12,
     "entries": [
      "You can use an {@item Arcane Focus|XPHB} as a {@variantrule Spellcasting Focus|XPHB} for your Sorcerer spells."
     ]
@@ -26529,6 +26606,7 @@
    {
     "type": "entries",
     "name": "Multiclassing",
+    "page": 12,
     "entries": [
      "If you multiclass and have the Spellcasting feature from more than one class, add one third of your Monk levels (round down) to determine your available spell slots."
     ]
@@ -27164,6 +27242,7 @@
  {
   "name": "Splintered Summons",
   "source": "AU",
+  "page": 16,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Conjurer",
@@ -27178,6 +27257,7 @@
  {
   "name": "Split Enchantment",
   "source": "AU",
+  "page": 17,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Enchanter",
@@ -27953,6 +28033,7 @@
  {
   "name": "Student of Arcana",
   "source": "AU",
+  "page": 8,
   "className": "Cleric",
   "classSource": "XPHB",
   "subclassShortName": "Arcana",
@@ -27964,6 +28045,7 @@
    {
     "type": "entries",
     "name": "Magical Knowledge",
+    "page": 8,
     "entries": [
      "You gain proficiency in the {@skill Arcana|XPHB} skill or one skill of your choice from the skills available to Clerics at level 1."
     ]
@@ -27971,6 +28053,7 @@
    {
     "type": "entries",
     "name": "Cantrips",
+    "page": 8,
     "entries": [
      "You learn two {@filter Wizard cantrips|spells|level=0|class=Wizard} of your choice. Whenever you gain a Cleric level, you can replace one of these cantrips with another {@filter Wizard cantrip|spells|level=0|class=Wizard}."
     ]
@@ -29002,6 +29085,7 @@
  {
   "name": "Tenacious Spell",
   "source": "AU",
+  "page": 8,
   "className": "Cleric",
   "classSource": "XPHB",
   "subclassShortName": "Arcana",
@@ -29859,8 +29943,8 @@
     ]
    },
    {
-    "name": "Expanded Spell List",
     "type": "entries",
+    "name": "Expanded Spell List",
     "entries": [
      "{@i 1st-level Genie feature}",
      "The Genie lets you choose from an expanded list of spells when you learn a warlock spell. The Genie Expanded Spells table shows the genie spells that are added to the warlock spell list for you, along with the spells associated in the table with your patron's kind: dao, djinni, efreeti, or marid.",
@@ -31136,6 +31220,7 @@
  {
   "name": "Transmutation Savant",
   "source": "AU",
+  "page": 19,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Transmuter",
@@ -31164,6 +31249,7 @@
  {
   "name": "Transmuter",
   "source": "AU",
+  "page": 19,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Transmuter",
@@ -31190,6 +31276,7 @@
  {
   "name": "Transmuter's Stone",
   "source": "AU",
+  "page": 19,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Transmuter",
@@ -31201,6 +31288,7 @@
    {
     "type": "entries",
     "name": "Darkvision",
+    "page": 19,
     "entries": [
      "The bearer gains {@sense Darkvision|XPHB} with a range of 60 feet or increases the range of its {@sense Darkvision|XPHB} by 60 feet."
     ]
@@ -31208,6 +31296,7 @@
    {
     "type": "entries",
     "name": "Resistance",
+    "page": 19,
     "entries": [
      "The bearer gains {@variantrule Resistance|XPHB} to Acid, Cold, Fire, Lightning, Poison, or Thunder damage (your choice each time you choose this benefit)."
     ]
@@ -31215,6 +31304,7 @@
    {
     "type": "entries",
     "name": "Speed",
+    "page": 19,
     "entries": [
      "The bearer's {@variantrule Speed|XPHB} increases by 10 feet."
     ]
@@ -31572,8 +31662,8 @@
     ]
    },
    {
-    "name": "Domain Spells",
     "type": "entries",
+    "name": "Domain Spells",
     "entries": [
      "{@i 1st-level Twilight Domain feature}",
      "You gain domain spells at the cleric levels listed in the Twilight Domain Spells table. See the Divine Domain class feature for how domain spells work.",
@@ -31917,6 +32007,7 @@
  {
   "name": "Undead Thralls",
   "source": "AU",
+  "page": 18,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Necromancer",
@@ -31929,6 +32020,7 @@
    {
     "type": "entries",
     "name": "Undead Fortitude",
+    "page": 18,
     "entries": [
      "Whenever you cast a {@filter Necromancy spell|spells|school=N} that creates or summons an Undead, the Undead's {@variantrule Hit Points|XPHB|Hit Point} maximum and current {@variantrule Hit Points|XPHB} increase by a number equal to your Intelligence modifier plus half your Wizard level (round down)."
     ]
@@ -31936,6 +32028,7 @@
    {
     "type": "entries",
     "name": "Withering Strike",
+    "page": 18,
     "entries": [
      "Whenever an Undead you control within 60 feet of you hits a creature with an attack roll, the Undead deals extra Necrotic damage equal to your Intelligence modifier (minimum of 1 Necrotic damage)."
     ]
@@ -32274,6 +32367,7 @@
  {
   "name": "Vestige Companion",
   "source": "AU",
+  "page": 13,
   "className": "Warlock",
   "classSource": "XPHB",
   "subclassShortName": "Vestige",
@@ -32285,6 +32379,7 @@
    {
     "type": "entries",
     "name": "The Vestige in Combat",
+    "page": 13,
     "entries": [
      "In combat, the vestige acts during your turn. It can move and use its {@variantrule Reaction|XPHB} on its own, but the only action it takes is the {@action Dodge|XPHB} action unless you take a {@variantrule Bonus Action|XPHB} to command it to take an action in its stat block or some other action. You can also sacrifice one of your attacks when you take the {@action Attack|XPHB} action to command the vestige to take the Vestige's Strike action. If you have the {@condition Incapacitated|XPHB} condition, the vestige acts on its own and isn't limited to the {@action Dodge|XPHB} action."
     ]
@@ -32292,13 +32387,15 @@
    {
     "type": "entries",
     "name": "Disappearance of the Vestige",
+    "page": 13,
     "entries": [
      "When the vestige drops to 0 {@variantrule Hit Points|XPHB}, it disappears. You can spend 1 minute performing a magical ceremony to manifest the vestige again; it reappears with its maximum {@variantrule Hit Points|XPHB} in an unoccupied space within 5 feet of you. As a {@action Magic|XPHB} action, you can temporarily dismiss the vestige to a pocket dimension. As a {@action Magic|XPHB} action while it is temporarily dismissed, you can cause the vestige to reappear in an unoccupied space within 30 feet of you. Whenever the vestige drops to 0 {@variantrule Hit Points|XPHB} or disappears into the pocket dimension, it leaves behind in its space anything it was wearing or carrying.",
      {
       "type": "statblock",
-      "name": "Vestige Companion",
       "tag": "creature",
+      "name": "Vestige Companion",
       "source": "AU",
+      "page": 14,
       "style": "narrow"
      },
      "Whenever you finish a {@variantrule Long Rest|XPHB}, you can summon the vestige in a new form, which appears in an unoccupied space within 5 feet of you. You choose its appearance and whether it is a Celestial, Fiend, or Undead. If the vestige is already manifested from this feature, its form changes to the new one."
@@ -32309,6 +32406,7 @@
  {
   "name": "Vestige Patron",
   "source": "AU",
+  "page": 13,
   "className": "Warlock",
   "classSource": "XPHB",
   "subclassShortName": "Vestige",
@@ -32330,6 +32428,7 @@
  {
   "name": "Vestige Power",
   "source": "AU",
+  "page": 14,
   "className": "Warlock",
   "classSource": "XPHB",
   "subclassShortName": "Vestige",
@@ -32343,6 +32442,7 @@
  {
   "name": "Vestige Recovery",
   "source": "AU",
+  "page": 14,
   "className": "Warlock",
   "classSource": "XPHB",
   "subclassShortName": "Vestige",
@@ -32356,6 +32456,7 @@
  {
   "name": "Vestige Spells",
   "source": "AU",
+  "page": 14,
   "className": "Warlock",
   "classSource": "XPHB",
   "subclassShortName": "Vestige",
@@ -33148,6 +33249,7 @@
  {
   "name": "Warrior of the Mystic Arts",
   "source": "AU",
+  "page": 11,
   "className": "Monk",
   "classSource": "XPHB",
   "subclassShortName": "Mystic Arts",
@@ -34233,6 +34335,7 @@
  {
   "name": "Wondrous Alteration",
   "source": "AU",
+  "page": 19,
   "className": "Wizard",
   "classSource": "XPHB",
   "subclassShortName": "Transmuter",
@@ -34245,6 +34348,7 @@
    {
     "type": "entries",
     "name": "Aquatic Adaptation",
+    "page": 19,
     "entries": [
      "While underwater, you can take the {@action Dash|XPHB} action as a {@variantrule Bonus Action|XPHB}."
     ]
@@ -34252,6 +34356,7 @@
    {
     "type": "entries",
     "name": "Change Appearance",
+    "page": 19,
     "entries": [
      "You have {@variantrule Advantage|XPHB} on Charisma ({@skill Deception|XPHB}) checks."
     ]
@@ -34259,6 +34364,7 @@
    {
     "type": "entries",
     "name": "Natural Weapons",
+    "page": 19,
     "entries": [
      "The damage of your new growth increases to {@dice 2d6} damage of the type associated with the growth. You also have {@variantrule Advantage|XPHB} on Constitution saving throws to maintain {@status Concentration|XPHB}."
     ]

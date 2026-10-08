@@ -1884,8 +1884,8 @@
  {
   "type": "tableGroup",
   "name": "Dungeon Spread Decks",
-  "page": 11,
   "source": "DMTCRG",
+  "page": 11,
   "tables": [
    {
     "type": "table",

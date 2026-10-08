@@ -118,13 +118,13 @@
    {
     "type": "table",
     "caption": "Dragon Sails",
-    "colStyles": [
-     "col-6 text-center",
-     "col-6 text-center"
-    ],
     "colLabels": [
      "Dragon Type",
      "Damage Type"
+    ],
+    "colStyles": [
+     "col-6 text-center",
+     "col-6 text-center"
     ],
     "rows": [
      [

@@ -2924,13 +2924,13 @@
    {
     "type": "table",
     "caption": "Omens",
-    "colStyles": [
-     "col-4",
-     "col-8"
-    ],
     "colLabels": [
      "Omen",
      "For Results That Will Be..."
+    ],
+    "colStyles": [
+     "col-4",
+     "col-8"
     ],
     "rows": [
      [
@@ -9377,13 +9377,13 @@
    "Each creature in a 10-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on a point you choose within range must succeed on a Wisdom saving throw, or that target can't take Bonus Actions or Reactions and must roll {@dice 1d10} at the start of each of its turns to determine its behavior for that turn, consulting the table below.",
    {
     "type": "table",
-    "colStyles": [
-     "col-2 text-center",
-     "col-10"
-    ],
     "colLabels": [
      "1d10",
      "Behavior for the Turn"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
     ],
     "rows": [
      [
@@ -11409,13 +11409,13 @@
    {
     "type": "table",
     "caption": "Precipitation",
-    "colStyles": [
-     "col-2 text-center",
-     "col-10"
-    ],
     "colLabels": [
      "Stage",
      "Condition"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
     ],
     "rows": [
      [
@@ -11443,13 +11443,13 @@
    {
     "type": "table",
     "caption": "Temperature",
-    "colStyles": [
-     "col-2 text-center",
-     "col-10"
-    ],
     "colLabels": [
      "Stage",
      "Condition"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
     ],
     "rows": [
      [
@@ -11481,13 +11481,13 @@
    {
     "type": "table",
     "caption": "Wind",
-    "colStyles": [
-     "col-2 text-center",
-     "col-10"
-    ],
     "colLabels": [
      "Stage",
      "Condition"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
     ],
     "rows": [
      [
@@ -12471,13 +12471,13 @@
    {
     "type": "table",
     "caption": "Materials",
-    "colStyles": [
-     "col-6",
-     "col-6"
-    ],
     "colLabels": [
      "Material",
      "Duration"
+    ],
+    "colStyles": [
+     "col-6",
+     "col-6"
     ],
     "rows": [
      [
@@ -15927,13 +15927,13 @@
    {
     "type": "table",
     "caption": "Divine Word Effects",
-    "colStyles": [
-     "col-2 text-center",
-     "col-10"
-    ],
     "colLabels": [
      "Hit Points",
      "Effect"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
     ],
     "rows": [
      [
@@ -18452,15 +18452,15 @@
    "You cause a creature or an object you can see within range to grow larger or smaller for the duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.",
    "If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.",
    {
-    "name": "Enlarge",
     "type": "entries",
+    "name": "Enlarge",
     "entries": [
      "The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category—from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attacks with them deal {@damage 1d4} extra damage."
     ]
    },
    {
-    "name": "Reduce",
     "type": "entries",
+    "name": "Reduce",
     "entries": [
      "The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category—from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal {@damage 1d4} less damage (this can't reduce the damage below 1)."
     ]
@@ -20596,9 +20596,9 @@
    "Whenever the mount disappears, it leaves behind any objects it was wearing or carrying.",
    {
     "type": "inset",
+    "name": "Dragonnel Steeds",
     "source": "FTD",
     "page": 190,
-    "name": "Dragonnel Steeds",
     "entries": [
      "With the DM's permission, a paladin can summon a spirit in the form of a {@creature dragonnel|ftd} using the find greater steed spell, which appears in {@i Xanathar's Guide to Everything}."
     ]
@@ -21990,7 +21990,7 @@
   "srd52": true,
   "basicRules2024": true,
   "level": 2,
-  "school": "C",
+  "school": "V",
   "time": [
    {
     "number": 1,
@@ -40760,13 +40760,13 @@
    {
     "type": "table",
     "caption": "Prismatic Rays",
-    "colStyles": [
-     "col-2 text-center",
-     "col-10"
-    ],
     "colLabels": [
      "1d8",
      "Ray"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
     ],
     "rows": [
      [
@@ -40992,13 +40992,13 @@
    {
     "type": "table",
     "caption": "Prismatic Layers",
-    "colStyles": [
-     "col-2 text-center",
-     "col-10"
-    ],
     "colLabels": [
      "Order",
      "Effects"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
     ],
     "rows": [
      [
@@ -43189,13 +43189,13 @@
    "You touch a dead Humanoid or a piece of one. If the creature has been dead no longer than 10 days, the spell forms a new body for it and calls the soul to enter that body. Roll {@dice 1d10} and consult the table below to determine the body's species, or the DM chooses another playable species.",
    {
     "type": "table",
-    "colStyles": [
-     "col-2 text-center",
-     "col-10"
-    ],
     "colLabels": [
      "1d10",
      "Species"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
     ],
     "rows": [
      [
@@ -44624,13 +44624,13 @@
    "You can see and hear a creature you choose that is on the same plane of existence as you. The target makes a Wisdom saving throw, which is modified (see the tables below) by how well you know the target and the sort of physical connection you have to it. The target doesn't know what it is making the save against, only that it feels uneasy.",
    {
     "type": "table",
-    "colStyles": [
-     "col-10",
-     "col-2 text-center"
-    ],
     "colLabels": [
      "Your Knowledge of the Target Is...",
      "Save Modifier"
+    ],
+    "colStyles": [
+     "col-10",
+     "col-2 text-center"
     ],
     "rows": [
      [
@@ -44649,13 +44649,13 @@
    },
    {
     "type": "table",
-    "colStyles": [
-     "col-10",
-     "col-2 text-center"
-    ],
     "colLabels": [
      "You Have the Target's...",
      "Save Modifier"
+    ],
+    "colStyles": [
+     "col-10",
+     "col-2 text-center"
     ],
     "rows": [
      [
@@ -48025,15 +48025,15 @@
      "The number of secondary casters determines the spell's area of effect and duration, as shown in the table below. The spell ends early if any caster who participated in this casting contributes to another casting of Spellfire Storm as a Circle spell.",
      {
       "type": "table",
-      "colStyles": [
-       "col-2 text-center",
-       "col-8",
-       "col-2"
-      ],
       "colLabels": [
        "Secondary Casters",
        "Area of Effect",
        "Duration"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-8",
+       "col-2"
       ],
       "rows": [
        [
@@ -52795,19 +52795,19 @@
    {
     "type": "table",
     "caption": "Teleportation Outcome",
-    "colStyles": [
-     "col-4",
-     "col-2 text-center",
-     "col-2 text-center",
-     "col-2 text-center",
-     "col-2 text-center"
-    ],
     "colLabels": [
      "Familiarity",
      "Mishap",
      "Similar Area",
      "Off Target",
      "On Target"
+    ],
+    "colStyles": [
+     "col-4",
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-2 text-center"
     ],
     "rows": [
      [

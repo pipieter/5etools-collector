@@ -5,8 +5,8 @@
   "entries": [
    {
     "type": "section",
-    "page": 1,
     "name": "Artificer",
+    "page": 1,
     "entries": [
      "Masters of invention, Artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions. You can find everything you need to play one of these inventors in this chapter."
     ]
@@ -19,9 +19,9 @@
      "type": "internal",
      "path": "classes/EFA/Artificer.webp"
     },
-    "credit": "Michael Broussard",
     "width": 1700,
-    "height": 2160
+    "height": 2160,
+    "credit": "Michael Broussard"
    }
   ]
  },
@@ -30,8 +30,9 @@
   "source": "TCE",
   "entries": [
    {
-    "name": "Artificer",
     "type": "section",
+    "name": "Artificer",
+    "source": "TCE",
     "entries": [
      "Masters of invention, artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions. You can find everything you need to play one of these inventors in the next few sections. Artificers use a variety of tools to channel their arcane power. To cast a spell, an artificer might use alchemist's supplies to create a potent elixir, calligrapher's supplies to inscribe a sigil of power, or tinker's tools to craft a temporary charm. The magic of artificers is tied to their tools and their talents, and few other characters can produce the right tool for a job as well as an artificer.",
      {
@@ -90,12 +91,13 @@
        }
       ]
      }
-    ],
-    "source": "TCE"
+    ]
    },
    {
-    "name": "Artificer",
     "type": "section",
+    "name": "Artificer",
+    "source": "ERLW",
+    "page": 54,
     "entries": [
      "Masters of unlocking magic in everyday objects, artificers are supreme inventors. They see magic as a complex system waiting to be decoded and controlled. Artificers use tools to channel arcane power, crafting magical objects. To cast a spell, an artificer could use {@item alchemist's supplies|PHB} to create a potent elixir, {@item calligrapher's supplies|PHB} to inscribe a sigil of power on an ally's armor, or {@item tinker's tools|PHB} to craft a temporary charm. The magic of artificers is tied to their tools and their talents.",
      {
@@ -163,9 +165,7 @@
        }
       ]
      }
-    ],
-    "source": "ERLW",
-    "page": 54
+    ]
    }
   ],
   "images": [
@@ -185,8 +185,10 @@
   "source": "PHB",
   "entries": [
    {
-    "name": "Barbarian",
     "type": "section",
+    "name": "Barbarian",
+    "source": "PHB",
+    "page": 46,
     "entries": [
      "A tall human tribesman strides through a blizzard, draped in fur and hefting his axe. He laughs as he charges toward the frost giant who dared poach his people's elk herd.",
      "A half-orc snarls at the latest challenger to her authority over their savage tribe, ready to break his neck with her bare hands as she did to the last six rivals.",
@@ -224,12 +226,12 @@
        }
       ]
      }
-    ],
-    "source": "PHB",
-    "page": 46
+    ]
    },
    {
     "type": "section",
+    "source": "XGE",
+    "page": 8,
     "entries": [
      {
       "type": "quote",
@@ -478,9 +480,7 @@
        }
       ]
      }
-    ],
-    "source": "XGE",
-    "page": 8
+    ]
    }
   ],
   "images": [
@@ -514,14 +514,14 @@
   "images": [
    {
     "type": "image",
-    "title": "A Fierce Warrior of Primal Rage",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Barbarian.webp"
     },
-    "credit": "Denman Rooke",
     "width": 1700,
-    "height": 2265
+    "height": 2265,
+    "title": "A Fierce Warrior of Primal Rage",
+    "credit": "Denman Rooke"
    },
    {
     "type": "image",
@@ -529,9 +529,9 @@
      "type": "internal",
      "path": "classes/XPHB/039-03-015.barbarian-weapons.webp"
     },
-    "credit": "Wayne England",
     "width": 850,
-    "height": 1057
+    "height": 1057,
+    "credit": "Wayne England"
    }
   ]
  },
@@ -540,8 +540,10 @@
   "source": "PHB",
   "entries": [
    {
-    "name": "Bard",
     "type": "section",
+    "name": "Bard",
+    "source": "PHB",
+    "page": 51,
     "entries": [
      "Humming as she traces her fingers over an ancient monument in a long-forgotten ruin, a half-elf in rugged leathers finds knowledge springing into her mind, conjured forth by the magic of her song—knowledge of the people who constructed the monument and the mythic saga it depicts.",
      "A stern human warrior bangs his sword rhythmically against his scale mail, setting the tempo for his war chant and exhorting his companions to bravery and heroism. The magic of his song fortifies and emboldens them.",
@@ -578,12 +580,12 @@
        }
       ]
      }
-    ],
-    "source": "PHB",
-    "page": 51
+    ]
    },
    {
     "type": "section",
+    "source": "XGE",
+    "page": 12,
     "entries": [
      {
       "type": "quote",
@@ -867,9 +869,7 @@
        }
       ]
      }
-    ],
-    "source": "XGE",
-    "page": 12
+    ]
    }
   ],
   "images": [
@@ -903,14 +903,14 @@
   "images": [
    {
     "type": "image",
-    "title": "An Inspiring Performer of Music, Dance, and Magic",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Bard.webp"
     },
-    "credit": "Evyn Fong",
     "width": 1700,
-    "height": 2174
+    "height": 2174,
+    "title": "An Inspiring Performer of Music, Dance, and Magic",
+    "credit": "Evyn Fong"
    }
   ]
  },
@@ -919,8 +919,10 @@
   "source": "PHB",
   "entries": [
    {
-    "name": "Cleric",
     "type": "section",
+    "name": "Cleric",
+    "source": "PHB",
+    "page": 56,
     "entries": [
      "Arms and eyes upraised toward the sun and a prayer on his lips, an elf begins to glow with an inner light that spills out to heal his battle-worn companions.",
      "Chanting a song of glory, a dwarf swings his axe in wide swaths to cut through the ranks of orcs arrayed against him, shouting praise to the gods with every foe's fall.",
@@ -959,12 +961,12 @@
        }
       ]
      }
-    ],
-    "source": "PHB",
-    "page": 56
+    ]
    },
    {
     "type": "section",
+    "source": "XGE",
+    "page": 17,
     "entries": [
      {
       "type": "quote",
@@ -1220,9 +1222,7 @@
        }
       ]
      }
-    ],
-    "source": "XGE",
-    "page": 17
+    ]
    }
   ],
   "images": [
@@ -1256,14 +1256,14 @@
   "images": [
    {
     "type": "image",
-    "title": "A Miraculous Priest of Divine Power",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Cleric.webp"
     },
-    "credit": "Michael Broussard",
     "width": 1700,
-    "height": 2177
+    "height": 2177,
+    "title": "A Miraculous Priest of Divine Power",
+    "credit": "Michael Broussard"
    },
    {
     "type": "image",
@@ -1271,10 +1271,10 @@
      "type": "internal",
      "path": "classes/XPHB/051-03-027.cleric-praying.webp"
     },
-    "title": "A Cleric prays for the day's spells",
-    "credit": "Irina Nordsol",
     "width": 1855,
-    "height": 1200
+    "height": 1200,
+    "title": "A Cleric prays for the day's spells",
+    "credit": "Irina Nordsol"
    }
   ]
  },
@@ -1283,8 +1283,10 @@
   "source": "PHB",
   "entries": [
    {
-    "name": "Druid",
     "type": "section",
+    "name": "Druid",
+    "source": "PHB",
+    "page": 64,
     "entries": [
      "Holding high a gnarled staff wreathed with holly, an elf summons the fury of the storm and calls down explosive bolts of lightning to smite the torch-carrying orcs who threaten her forest.",
      "Crouching out of sight on a high tree branch in the form of a leopard, a human peers out of the jungle at the strange construction of a temple of Evil Elemental Air, keeping a close eye on the cultists' activities.",
@@ -1340,12 +1342,12 @@
        "The druids of Eberron hold animistic beliefs completely unconnected to the Sovereign Host, the Dark Six, or any of the other religions of the world. They believe that every living thing and every natural phenomenon—sun, moon, wind, fire, and the world itself—has a spirit. Their spells, then, are a means to communicate with and command these spirits. Different druidic sects, though, hold different philosophies about the proper relationship of these spirits to each other and to the forces of civilization. The Ashbound, for example, believe that arcane magic is an abomination against nature, the Children of Winter venerate the forces of death, and the Gatekeepers preserve ancient traditions meant to protect the world from the incursion of aberrations."
       ]
      }
-    ],
-    "source": "PHB",
-    "page": 64
+    ]
    },
    {
     "type": "section",
+    "source": "XGE",
+    "page": 21,
     "entries": [
      {
       "type": "quote",
@@ -2695,9 +2697,7 @@
        }
       ]
      }
-    ],
-    "source": "XGE",
-    "page": 21
+    ]
    }
   ],
   "images": [
@@ -2731,14 +2731,14 @@
   "images": [
    {
     "type": "image",
-    "title": "A Nature Priest of Primal Power",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Druid.webp"
     },
-    "credit": "Alexander Mokhov",
     "width": 1700,
-    "height": 2170
+    "height": 2170,
+    "title": "A Nature Priest of Primal Power",
+    "credit": "Alexander Mokhov"
    },
    {
     "type": "image",
@@ -2746,10 +2746,10 @@
      "type": "internal",
      "path": "classes/XPHB/057-03-033.druid-in-nature.webp"
     },
-    "title": "A Druid channels the power of nature through their magic",
-    "credit": "Jessica Fong",
     "width": 2226,
-    "height": 1440
+    "height": 1440,
+    "title": "A Druid channels the power of nature through their magic",
+    "credit": "Jessica Fong"
    },
    {
     "type": "image",
@@ -2757,10 +2757,10 @@
      "type": "internal",
      "path": "classes/XPHB/060-03-036.wolf-form-druid.webp"
     },
-    "title": "A Druid in wolf form howls at the moon",
-    "credit": "John Grello",
     "width": 1500,
-    "height": 1350
+    "height": 1350,
+    "title": "A Druid in wolf form howls at the moon",
+    "credit": "John Grello"
    }
   ]
  },
@@ -2769,12 +2769,12 @@
   "source": "TCE",
   "entries": [
    {
-    "name": "Expert Sidekick",
     "type": "section",
+    "name": "Expert Sidekick",
+    "source": "TCE",
     "entries": [
      "The Expert is a master of certain tasks or knowledge, favoring cunning over brawn. It might be a scout, a musician, a librarian, a clever street kid, a wily merchant, or a burglar."
-    ],
-    "source": "TCE"
+    ]
    }
   ],
   "images": [
@@ -2784,9 +2784,9 @@
      "type": "internal",
      "path": "classes/TCE/Expert Sidekick.webp"
     },
-    "title": "Experts, Left to Right: a Tortle, a Winged Kobold, and a Kenku",
     "width": 1200,
     "height": 584,
+    "title": "Experts, Left to Right: a Tortle, a Winged Kobold, and a Kenku",
     "credit": "Mark Behm"
    }
   ]
@@ -2796,8 +2796,10 @@
   "source": "PHB",
   "entries": [
    {
-    "name": "Fighter",
     "type": "section",
+    "name": "Fighter",
+    "source": "PHB",
+    "page": 70,
     "entries": [
      "A human in clanging plate armor holds her shield before her as she runs toward the massed goblins. An elf behind her, clad in studded leather armor, peppers the goblins with arrows loosed from his exquisite bow. The half-orc nearby shouts orders, helping the two combatants coordinate their assault to the best advantage.",
      "A dwarf in chain mail interposes his shield between the ogre's club and his companion, knocking the deadly blow aside. His companion, a half-elf in scale armor, swings two scimitars in a blinding whirl as she circles the ogre, looking for a blind spot in its defenses.",
@@ -2833,12 +2835,12 @@
        }
       ]
      }
-    ],
-    "source": "PHB",
-    "page": 70
+    ]
    },
    {
     "type": "section",
+    "source": "XGE",
+    "page": 27,
     "entries": [
      {
       "type": "quote",
@@ -3086,9 +3088,7 @@
        }
       ]
      }
-    ],
-    "source": "XGE",
-    "page": 27
+    ]
    }
   ],
   "images": [
@@ -3121,14 +3121,14 @@
   "images": [
    {
     "type": "image",
-    "title": "A Master of All Arms and Armor",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Fighter.webp"
     },
-    "credit": "Nèstor Ossandón Leal",
     "width": 1700,
-    "height": 2242
+    "height": 2242,
+    "title": "A Master of All Arms and Armor",
+    "credit": "Nèstor Ossandón Leal"
    },
    {
     "type": "image",
@@ -3136,10 +3136,10 @@
      "type": "internal",
      "path": "classes/XPHB/064-03-040.fighter-v-black-dragon.webp"
     },
-    "title": "A Fighter stands between an ally and the onslaught of a black dragon",
-    "credit": "Campbell White",
     "width": 2184,
-    "height": 1440
+    "height": 1440,
+    "title": "A Fighter stands between an ally and the onslaught of a black dragon",
+    "credit": "Campbell White"
    }
   ]
  },
@@ -3148,8 +3148,10 @@
   "source": "PHB",
   "entries": [
    {
-    "name": "Monk",
     "type": "section",
+    "name": "Monk",
+    "source": "PHB",
+    "page": 76,
     "entries": [
      "Her fists a blur as they deflect an incoming hail of arrows, a half-elf springs over a barricade and throws herself into the massed ranks of hobgoblins on the other side. She whirls among them, knocking their blows aside and sending them reeling, until at last she stands alone.",
      "Taking a deep breath, a human covered in tattoos settles into a battle stance. As the first charging orcs reach him, he exhales and a blast of fire roars from his mouth, engulfing his foes.",
@@ -3188,12 +3190,12 @@
        }
       ]
      }
-    ],
-    "source": "PHB",
-    "page": 76
+    ]
    },
    {
     "type": "section",
+    "source": "XGE",
+    "page": 32,
     "entries": [
      {
       "type": "quote",
@@ -3440,9 +3442,7 @@
        }
       ]
      }
-    ],
-    "source": "XGE",
-    "page": 32
+    ]
    }
   ],
   "images": [
@@ -3477,14 +3477,14 @@
   "images": [
    {
     "type": "image",
-    "title": "A Martial Artist of Supernatural Focus",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Monk.webp"
     },
-    "credit": "Joshua Raphael",
     "width": 1700,
-    "height": 2192
+    "height": 2192,
+    "title": "A Martial Artist of Supernatural Focus",
+    "credit": "Joshua Raphael"
    }
   ]
  },
@@ -3495,6 +3495,8 @@
    {
     "type": "section",
     "name": "Mystic",
+    "source": "UATheMysticClass",
+    "page": 1,
     "entries": [
      "A human clad in simple robes walks along a forest path. A gang of goblins emerges from the brush, arrows trained on him, their smiles wide at their good fortune of finding such easy prey for the legion's slave pens. Their smiles turn to shrieks of terror as the traveler grows to giant size and leaps at them, his staff now a deadly cudgel.",
      "The militia forms in ranks to prepare for the orcs' charge. The growling brutes howl their battle cries and surge forward. To their surprise, the human rabble holds its ground and fights with surprising ferocity. Suddenly, mindless fear clings to the orcs' minds and they, despite facing a far inferior foe, turn and run, never noticing the calm half-elf standing amid the militia and directing its efforts.",
@@ -3634,9 +3636,7 @@
        }
       ]
      }
-    ],
-    "source": "UATheMysticClass",
-    "page": 1
+    ]
    }
   ]
  },
@@ -3645,8 +3645,10 @@
   "source": "PHB",
   "entries": [
    {
-    "name": "Paladin",
     "type": "section",
+    "name": "Paladin",
+    "source": "PHB",
+    "page": 82,
     "entries": [
      "Clad in plate armor that gleams in the sunlight despite the dust and grime of long travel, a human lays down her sword and shield and places her hands on a mortally wounded man. Divine radiance shines from her hands, the man's wounds knit closed, and his eyes open wide with amazement.",
      "A dwarf crouches behind an outcrop, his black cloak making him nearly invisible in the night, and watches an orc war band celebrating its recent victory. Silently, he stalks into their midst and whispers an oath, and two orcs are dead before they even realize he is there.",
@@ -3684,12 +3686,12 @@
        }
       ]
      }
-    ],
-    "page": 82,
-    "source": "PHB"
+    ]
    },
    {
     "type": "section",
+    "source": "XGE",
+    "page": 36,
     "entries": [
      {
       "type": "quote",
@@ -4012,9 +4014,7 @@
        }
       ]
      }
-    ],
-    "source": "XGE",
-    "page": 36
+    ]
    }
   ],
   "images": [
@@ -4048,14 +4048,14 @@
   "images": [
    {
     "type": "image",
-    "title": "A Devout Warrior of Sacred Oaths",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Paladin.webp"
     },
-    "credit": "Michael Broussard",
     "width": 1700,
-    "height": 2176
+    "height": 2176,
+    "title": "A Devout Warrior of Sacred Oaths",
+    "credit": "Michael Broussard"
    }
   ]
  },
@@ -4064,8 +4064,10 @@
   "source": "PHB",
   "entries": [
    {
-    "name": "Ranger",
     "type": "section",
+    "name": "Ranger",
+    "source": "PHB",
+    "page": 89,
     "entries": [
      "Rough and wild looking, a human stalks alone through the shadows of trees, hunting the orcs he knows are planning a raid on a nearby farm. Clutching a shortsword in each hand, he becomes a whirlwind of steel, cutting down one enemy after another.",
      "After tumbling away from a cone of freezing air, an elf finds her feet and draws back her bow to loose an arrow at the white dragon. Shrugging off the wave of fear that emanates from the dragon like the cold of its breath, she sends one arrow after another to find the gaps between the dragon's thick scales.",
@@ -4102,12 +4104,12 @@
        }
       ]
      }
-    ],
-    "source": "PHB",
-    "page": 89
+    ]
    },
    {
     "type": "section",
+    "source": "XGE",
+    "page": 40,
     "entries": [
      {
       "type": "quote",
@@ -4354,9 +4356,7 @@
        }
       ]
      }
-    ],
-    "page": 40,
-    "source": "XGE"
+    ]
    }
   ],
   "images": [
@@ -4389,14 +4389,14 @@
   "images": [
    {
     "type": "image",
-    "title": "A Wandering Warrior Imbued with Primal Magic",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Ranger.webp"
     },
-    "credit": "Chris Rallis",
     "width": 1700,
-    "height": 2259
+    "height": 2259,
+    "title": "A Wandering Warrior Imbued with Primal Magic",
+    "credit": "Chris Rallis"
    },
    {
     "type": "image",
@@ -4404,9 +4404,9 @@
      "type": "internal",
      "path": "classes/XPHB/093-04-008.ranger-and-deer.webp"
     },
-    "credit": "Mike Pape",
     "width": 540,
-    "height": 1440
+    "height": 1440,
+    "credit": "Mike Pape"
    }
   ]
  },
@@ -4415,8 +4415,10 @@
   "source": "PHB",
   "entries": [
    {
-    "name": "Rogue",
     "type": "section",
+    "name": "Rogue",
+    "source": "PHB",
+    "page": 94,
     "entries": [
      "Signaling for her companions to wait, a halfling creeps forward through the dungeon hall. She presses an ear to the door, then pulls out a set of tools and picks the lock in the blink of an eye. Then she disappears into the shadows as her fighter friend moves forward to kick the door open.",
      "A human lurks in the shadows of an alley while his accomplice prepares for her part in the ambush. When their target—a notorious slaver—passes the alleyway, the accomplice cries out, the slaver comes to investigate, and the assassin's blade cuts his throat before he can make a sound.",
@@ -4453,12 +4455,12 @@
        }
       ]
      }
-    ],
-    "page": 94,
-    "source": "PHB"
+    ]
    },
    {
     "type": "section",
+    "source": "XGE",
+    "page": 44,
     "entries": [
      {
       "type": "quote",
@@ -4708,9 +4710,7 @@
        }
       ]
      }
-    ],
-    "page": 44,
-    "source": "XGE"
+    ]
    }
   ],
   "images": [
@@ -4744,14 +4744,14 @@
   "images": [
    {
     "type": "image",
-    "title": "A Dexterous Expert in Stealth and Subterfuge",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Rogue.webp"
     },
-    "credit": "Aurore Folny",
     "width": 1700,
-    "height": 2255
+    "height": 2255,
+    "title": "A Dexterous Expert in Stealth and Subterfuge",
+    "credit": "Aurore Folny"
    },
    {
     "type": "image",
@@ -4759,9 +4759,9 @@
      "type": "internal",
      "path": "classes/XPHB/099-04-014.cunning-rogue.webp"
     },
-    "credit": "Bryan Sola",
     "width": 1843,
-    "height": 1440
+    "height": 1440,
+    "credit": "Bryan Sola"
    },
    {
     "type": "image",
@@ -4769,9 +4769,9 @@
      "type": "internal",
      "path": "classes/XPHB/101-04-016.rogue-v-dragon.webp"
     },
-    "credit": "Billy Christian",
     "width": 1843,
-    "height": 1440
+    "height": 1440,
+    "credit": "Billy Christian"
    },
    {
     "type": "image",
@@ -4779,9 +4779,9 @@
      "type": "internal",
      "path": "classes/XPHB/104-04-019.sneak-attack.webp"
     },
-    "credit": "Evyn Fong",
     "width": 1959,
-    "height": 1440
+    "height": 1440,
+    "credit": "Evyn Fong"
    }
   ]
  },
@@ -4790,8 +4790,10 @@
   "source": "PHB",
   "entries": [
    {
-    "name": "Sorcerer",
     "type": "section",
+    "name": "Sorcerer",
+    "source": "PHB",
+    "page": 99,
     "entries": [
      "Golden eyes flashing, a human stretches out her hand and unleashes the dragonfire that burns in her veins. As an inferno rages around her foes, leathery wings spread from her back and she takes to the air.",
      "Long hair whipped by a conjured wind, a half-elf spreads his arms wide and throws his head back. Lifting him momentarily off the ground, a wave of magic surges up in him, through him, and out from him in a mighty blast of lightning.",
@@ -4829,12 +4831,12 @@
        }
       ]
      }
-    ],
-    "page": 99,
-    "source": "PHB"
+    ]
    },
    {
     "type": "section",
+    "source": "XGE",
+    "page": 48,
     "entries": [
      {
       "type": "quote",
@@ -5158,9 +5160,7 @@
        }
       ]
      }
-    ],
-    "page": 48,
-    "source": "XGE"
+    ]
    }
   ],
   "images": [
@@ -5194,14 +5194,14 @@
   "images": [
    {
     "type": "image",
-    "title": "A Dazzling Mage Filled with Innate Magic",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Sorcerer.webp"
     },
-    "credit": "Evyn Fong",
     "width": 1700,
-    "height": 2076
+    "height": 2076,
+    "title": "A Dazzling Mage Filled with Innate Magic",
+    "credit": "Evyn Fong"
    },
    {
     "type": "image",
@@ -5209,10 +5209,10 @@
      "type": "internal",
      "path": "classes/XPHB/112-04-027.delina.webp"
     },
-    "title": "The Sorcerer Delina manipulates wild magic to create unpredictable wonders",
-    "credit": "Wisnu Tan",
     "width": 1843,
-    "height": 1440
+    "height": 1440,
+    "title": "The Sorcerer Delina manipulates wild magic to create unpredictable wonders",
+    "credit": "Wisnu Tan"
    }
   ]
  },
@@ -5221,12 +5221,12 @@
   "source": "TCE",
   "entries": [
    {
-    "name": "Spellcaster Sidekick",
     "type": "section",
+    "name": "Spellcaster Sidekick",
+    "source": "TCE",
     "entries": [
      "A sidekick who becomes a Spellcaster walks the paths of magic. The sidekick might be a hedge wizard, a priest, a soothsayer, a magical performer, or a person with magic in their veins."
-    ],
-    "source": "TCE"
+    ]
    }
   ],
   "images": [
@@ -5236,9 +5236,9 @@
      "type": "internal",
      "path": "classes/TCE/Spellcaster Sidekick.webp"
     },
-    "title": "Spellcasters, Left to Right: a Bullywug, a Goblin, and a Tabaxi",
     "width": 1200,
     "height": 749,
+    "title": "Spellcasters, Left to Right: a Bullywug, a Goblin, and a Tabaxi",
     "credit": "David Rene Christensen"
    }
   ]
@@ -5248,8 +5248,10 @@
   "source": "PHB",
   "entries": [
    {
-    "name": "Warlock",
     "type": "section",
+    "name": "Warlock",
+    "source": "PHB",
+    "page": 105,
     "entries": [
      "With a pseudodragon curled on his shoulder, a young elf in golden robes smiles warmly, weaving a magical charm into his honeyed words and bending the palace sentinel to his will.",
      "As flames spring to life in her hands, a wizened human whispers the secret name of her demonic patron, infusing her spell with fiendish magic.",
@@ -5289,12 +5291,12 @@
        }
       ]
      }
-    ],
-    "page": 105,
-    "source": "PHB"
+    ]
    },
    {
     "type": "section",
+    "source": "XGE",
+    "page": 53,
     "entries": [
      {
       "type": "quote",
@@ -5511,9 +5513,7 @@
        }
       ]
      }
-    ],
-    "page": 53,
-    "source": "XGE"
+    ]
    }
   ],
   "images": [
@@ -5547,14 +5547,14 @@
   "images": [
    {
     "type": "image",
-    "title": "An Occultist Empowered by Otherworldly Pacts",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Warlock.webp"
     },
-    "credit": "Nèstor Ossandón Leal",
     "width": 1700,
-    "height": 2283
+    "height": 2283,
+    "title": "An Occultist Empowered by Otherworldly Pacts",
+    "credit": "Nèstor Ossandón Leal"
    },
    {
     "type": "image",
@@ -5562,9 +5562,9 @@
      "type": "internal",
      "path": "classes/XPHB/114-04-029.skull-spiders.webp"
     },
-    "credit": "Wayne England",
     "width": 1021,
-    "height": 1440
+    "height": 1440,
+    "credit": "Wayne England"
    }
   ]
  },
@@ -5573,12 +5573,12 @@
   "source": "TCE",
   "entries": [
    {
-    "name": "Warrior Sidekick",
     "type": "section",
+    "name": "Warrior Sidekick",
+    "source": "TCE",
     "entries": [
      "A Warrior sidekick grows in martial prowess as it fights by your side. It might be a soldier, a town guard, a battle-trained beast, or any other creature honed for combat."
-    ],
-    "source": "TCE"
+    ]
    }
   ],
   "images": [
@@ -5588,9 +5588,9 @@
      "type": "internal",
      "path": "classes/TCE/Warrior Sidekick.webp"
     },
-    "title": "Warriors, Left to Right: an Aasimar, a Firbolg, and a Wolf",
     "width": 1200,
     "height": 862,
+    "title": "Warriors, Left to Right: an Aasimar, a Firbolg, and a Wolf",
     "credit": "April Prime"
    }
   ]
@@ -5600,8 +5600,10 @@
   "source": "PHB",
   "entries": [
    {
-    "name": "Wizard",
     "type": "section",
+    "name": "Wizard",
+    "source": "PHB",
+    "page": 112,
     "entries": [
      "Clad in the silver robes that denote her station, an elf closes her eyes to shut out the distractions of the battlefield and begins her quiet chant. Fingers weaving in front of her, she completes her spell and launches a tiny bead of fire toward the enemy ranks, where it erupts into a conflagration that engulfs the soldiers.",
      "Checking and rechecking his work, a human scribes an intricate magic circle in chalk on the bare stone floor, then sprinkles powdered iron along every line and graceful curve. When the circle is complete, he drones a long incantation. A hole opens in space inside the circle, bringing a whiff of brimstone from the otherworldly plane beyond.",
@@ -5638,12 +5640,12 @@
        }
       ]
      }
-    ],
-    "page": 112,
-    "source": "PHB"
+    ]
    },
    {
     "type": "section",
+    "source": "XGE",
+    "page": 58,
     "entries": [
      {
       "type": "quote",
@@ -5890,9 +5892,7 @@
        }
       ]
      }
-    ],
-    "page": 58,
-    "source": "XGE"
+    ]
    }
   ],
   "images": [
@@ -5927,14 +5927,14 @@
   "images": [
    {
     "type": "image",
-    "title": "A Scholarly Magic-User of Arcane Power",
     "href": {
      "type": "internal",
      "path": "classes/XPHB/Wizard.webp"
     },
-    "credit": "Billy Christian",
     "width": 1700,
-    "height": 2259
+    "height": 2259,
+    "title": "A Scholarly Magic-User of Arcane Power",
+    "credit": "Billy Christian"
    },
    {
     "type": "image",
@@ -5942,10 +5942,10 @@
      "type": "internal",
      "path": "classes/XPHB/120-04-035.elf-queen-yolande.webp"
     },
-    "title": "The elf queen Yolande awes a red dragon with her spell, Yolande's Regal Presence",
-    "credit": "April Prime",
     "width": 2037,
-    "height": 1440
+    "height": 1440,
+    "title": "The elf queen Yolande awes a red dragon with her spell, Yolande's Regal Presence",
+    "credit": "April Prime"
    },
    {
     "type": "image",
@@ -5953,9 +5953,9 @@
      "type": "internal",
      "path": "classes/XPHB/121-04-036.wizard-book.webp"
     },
-    "credit": "Jane Katsubo",
     "width": 1934,
-    "height": 731
+    "height": 731,
+    "credit": "Jane Katsubo"
    },
    {
     "type": "image",
@@ -5963,10 +5963,10 @@
      "type": "internal",
      "path": "classes/XPHB/122-04-037.wizard-leomund.webp"
     },
-    "title": "The Wizard Leomund studies spellbooks to prepare his magic",
-    "credit": "Michele Giorgi",
     "width": 2155,
-    "height": 1440
+    "height": 1440,
+    "title": "The Wizard Leomund studies spellbooks to prepare his magic",
+    "credit": "Michele Giorgi"
    }
   ]
  }
