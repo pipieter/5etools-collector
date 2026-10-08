@@ -739,7 +739,13 @@
      "source": "Magus2024"
     }
    ]
-  }
+  },
+  "feats": [
+   {
+    "name": "Boon of Magic School Mastery",
+    "source": "AU"
+   }
+  ]
  },
  {
   "name": "Animate Weapon",
@@ -803,7 +809,13 @@
      "source": "Magus2024"
     }
    ]
-  }
+  },
+  "feats": [
+   {
+    "name": "Boon of Magic School Mastery",
+    "source": "AU"
+   }
+  ]
  },
  {
   "name": "Antiballistics Field",
@@ -1165,7 +1177,13 @@
      "source": "Magus2024"
     }
    ]
-  }
+  },
+  "feats": [
+   {
+    "name": "Boon of Magic School Mastery",
+    "source": "AU"
+   }
+  ]
  },
  {
   "name": "Arcanomagnetic Repulsion",
@@ -1605,15 +1623,21 @@
   "classes": {
    "fromClassList": [
     {
-     "name": "Magus",
-     "source": "Magus2024"
-    },
-    {
      "name": "Ranger",
      "source": "XPHB"
+    },
+    {
+     "name": "Magus",
+     "source": "Magus2024"
     }
    ]
   },
+  "feats": [
+   {
+    "name": "Boon of Magic School Mastery",
+    "source": "AU"
+   }
+  ],
   "miscTags": [
    "SGT"
   ]
@@ -2377,10 +2401,6 @@
      "source": "XPHB"
     },
     {
-     "name": "Magus",
-     "source": "Magus2024"
-    },
-    {
      "name": "Sorcerer",
      "source": "XPHB"
     },
@@ -2391,9 +2411,99 @@
     {
      "name": "Wizard",
      "source": "XPHB"
+    },
+    {
+     "name": "Magus",
+     "source": "Magus2024"
+    }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of Lore",
+      "shortName": "Lore",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Cleric",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcana Domain",
+      "shortName": "Arcana",
+      "source": "AU"
+     }
+    },
+    {
+     "class": {
+      "name": "Fighter",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Eldritch Knight",
+      "shortName": "Eldritch Knight",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Monk",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Warrior of the Mystic Arts",
+      "shortName": "Mystic Arts",
+      "source": "AU"
+     }
+    },
+    {
+     "class": {
+      "name": "Rogue",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcane Trickster",
+      "shortName": "Arcane Trickster",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Wizard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Enchanter",
+      "shortName": "Enchanter",
+      "source": "AU"
+     }
     }
    ]
   },
+  "feats": [
+   {
+    "name": "Aberrant Dragonmark",
+    "source": "EFA"
+   },
+   {
+    "name": "Arcane Warrior",
+    "source": "AU"
+   },
+   {
+    "name": "Cold Caster",
+    "source": "FRHoF"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "XPHB"
+   }
+  ],
   "damageInflict": [
    "psychic"
   ],
@@ -3247,15 +3357,94 @@
      "source": "XPHB"
     },
     {
-     "name": "Magus",
-     "source": "Magus2024"
-    },
-    {
      "name": "Warlock",
      "source": "XPHB"
+    },
+    {
+     "name": "Magus",
+     "source": "Magus2024"
+    }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of Lore",
+      "shortName": "Lore",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of the Moon",
+      "shortName": "Moon",
+      "source": "FRHoF"
+     }
+    },
+    {
+     "class": {
+      "name": "Cleric",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Nature Domain",
+      "shortName": "Nature",
+      "source": "PHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Cleric",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Death Domain",
+      "shortName": "Death",
+      "source": "DMG"
+     }
+    },
+    {
+     "class": {
+      "name": "Cleric",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Strength Domain (PSA)",
+      "shortName": "Strength (PSA)",
+      "source": "PSA"
+     }
     }
    ]
   },
+  "feats": [
+   {
+    "name": "Arcane Undertaker",
+    "source": "AU"
+   },
+   {
+    "name": "Blessed Warrior",
+    "source": "XPHB"
+   },
+   {
+    "name": "Druidic Warrior",
+    "source": "XPHB"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "XPHB"
+   },
+   {
+    "name": "Light Bringer",
+    "source": "ABH"
+   }
+  ],
   "damageInflict": [
    "cold"
   ],
@@ -6815,6 +7004,12 @@
     }
    ]
   },
+  "feats": [
+   {
+    "name": "Boon of Magic School Mastery",
+    "source": "AU"
+   }
+  ],
   "miscTags": [
    "SGT",
    "UBA"
@@ -6859,8 +7054,64 @@
      "name": "Wizard",
      "source": "XPHB"
     }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Fighter",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Eldritch Knight",
+      "shortName": "Eldritch Knight",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Monk",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Warrior of the Mystic Arts",
+      "shortName": "Mystic Arts",
+      "source": "AU"
+     }
+    },
+    {
+     "class": {
+      "name": "Rogue",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcane Trickster",
+      "shortName": "Arcane Trickster",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Wizard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Transmuter",
+      "shortName": "Transmuter",
+      "source": "AU"
+     }
+    }
    ]
-  }
+  },
+  "feats": [
+   {
+    "name": "Boon of Magic School Mastery",
+    "source": "AU"
+   },
+   {
+    "name": "Boon of Siberys",
+    "source": "EFA"
+   }
+  ]
  },
  {
   "name": "Cat's Spring",
@@ -6987,19 +7238,79 @@
      "source": "XPHB"
     },
     {
-     "name": "Magus",
-     "source": "Magus2024"
-    },
-    {
      "name": "Sorcerer",
      "source": "XPHB"
     },
     {
      "name": "Warlock",
      "source": "XPHB"
+    },
+    {
+     "name": "Magus",
+     "source": "Magus2024"
+    }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of Lore",
+      "shortName": "Lore",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of the Moon",
+      "shortName": "Moon",
+      "source": "FRHoF"
+     }
+    },
+    {
+     "class": {
+      "name": "Cleric",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Nature Domain",
+      "shortName": "Nature",
+      "source": "PHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Monk",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Warrior of the Mystic Arts",
+      "shortName": "Mystic Arts",
+      "source": "AU"
+     }
     }
    ]
   },
+  "feats": [
+   {
+    "name": "Aberrant Dragonmark",
+    "source": "EFA"
+   },
+   {
+    "name": "Druidic Warrior",
+    "source": "XPHB"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "XPHB"
+   }
+  ],
   "spellAttack": [
    "M"
   ],
@@ -13686,19 +13997,105 @@
   "classes": {
    "fromClassList": [
     {
-     "name": "Magus",
-     "source": "Magus2024"
-    },
-    {
      "name": "Sorcerer",
      "source": "XPHB"
     },
     {
      "name": "Wizard",
      "source": "XPHB"
+    },
+    {
+     "name": "Magus",
+     "source": "Magus2024"
+    }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of Lore",
+      "shortName": "Lore",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Cleric",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcana Domain",
+      "shortName": "Arcana",
+      "source": "AU"
+     }
+    },
+    {
+     "class": {
+      "name": "Fighter",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Eldritch Knight",
+      "shortName": "Eldritch Knight",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Monk",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Warrior of the Mystic Arts",
+      "shortName": "Mystic Arts",
+      "source": "AU"
+     }
+    },
+    {
+     "class": {
+      "name": "Rogue",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcane Trickster",
+      "shortName": "Arcane Trickster",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Wizard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Conjurer",
+      "shortName": "Conjurer",
+      "source": "AU"
+     }
     }
    ]
   },
+  "feats": [
+   {
+    "name": "Aberrant Dragonmark",
+    "source": "EFA"
+   },
+   {
+    "name": "Arcane Warrior",
+    "source": "AU"
+   },
+   {
+    "name": "Cold Caster",
+    "source": "FRHoF"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "XPHB"
+   }
+  ],
   "damageInflict": [
    "bludgeoning",
    "piercing",
@@ -16981,7 +17378,13 @@
      "source": "Magus2024"
     }
    ]
-  }
+  },
+  "feats": [
+   {
+    "name": "Boon of Magic School Mastery",
+    "source": "AU"
+   }
+  ]
  },
  {
   "name": "Enspelled Armament",
@@ -18999,7 +19402,17 @@
      "source": "XPHB"
     }
    ]
-  }
+  },
+  "feats": [
+   {
+    "name": "Boon of Magic School Mastery",
+    "source": "AU"
+   },
+   {
+    "name": "Boon of Siberys",
+    "source": "EFA"
+   }
+  ]
  },
  {
   "name": "Firther's Shadow",
@@ -20378,6 +20791,20 @@
     }
    ]
   },
+  "feats": [
+   {
+    "name": "Boon of Magic School Mastery",
+    "source": "AU"
+   },
+   {
+    "name": "Fey-Touched",
+    "source": "XPHB"
+   },
+   {
+    "name": "Vampire Touched",
+    "source": "ABH"
+   }
+  ],
   "damageInflict": [
    "psychic"
   ],
@@ -21924,8 +22351,58 @@
      "name": "Druid",
      "source": "XPHB"
     }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of Lore",
+      "shortName": "Lore",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of the Moon",
+      "shortName": "Moon",
+      "source": "FRHoF"
+     }
+    }
    ]
   },
+  "races": [
+   {
+    "name": "Elf",
+    "source": "LFL"
+   },
+   {
+    "name": "Khoravar",
+    "source": "EFA"
+   }
+  ],
+  "optionalfeatures": [
+   {
+    "name": "Pact of the Tome",
+    "source": "XPHB"
+   }
+  ],
+  "feats": [
+   {
+    "name": "Druidic Warrior",
+    "source": "XPHB"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "XPHB"
+   }
+  ],
   "miscTags": [
    "HL",
    "SCL"
@@ -22369,8 +22846,72 @@
      "name": "Wizard",
      "source": "XPHB"
     }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of Lore",
+      "shortName": "Lore",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Fighter",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Eldritch Knight",
+      "shortName": "Eldritch Knight",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Rogue",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcane Trickster",
+      "shortName": "Arcane Trickster",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Wizard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Necromancer",
+      "shortName": "Necromancer",
+      "source": "AU"
+     }
+    }
    ]
   },
+  "feats": [
+   {
+    "name": "Boon of Magic School Mastery",
+    "source": "AU"
+   },
+   {
+    "name": "Magic Connoisseur",
+    "source": "AU"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "XPHB"
+   },
+   {
+    "name": "Shadow-Touched",
+    "source": "XPHB"
+   }
+  ],
   "damageInflict": [
    "necrotic"
   ],
@@ -22433,8 +22974,72 @@
      "name": "Wizard",
      "source": "XPHB"
     }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of Lore",
+      "shortName": "Lore",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Fighter",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Eldritch Knight",
+      "shortName": "Eldritch Knight",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Rogue",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcane Trickster",
+      "shortName": "Arcane Trickster",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Wizard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Necromancer",
+      "shortName": "Necromancer",
+      "source": "AU"
+     }
+    }
    ]
   },
+  "feats": [
+   {
+    "name": "Boon of Magic School Mastery",
+    "source": "AU"
+   },
+   {
+    "name": "Magic Connoisseur",
+    "source": "AU"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "XPHB"
+   },
+   {
+    "name": "Shadow-Touched",
+    "source": "XPHB"
+   }
+  ],
   "conditionInflict": [
    "restrained"
   ],
@@ -23507,8 +24112,50 @@
      "name": "Warlock",
      "source": "XPHB"
     }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of Lore",
+      "shortName": "Lore",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Cleric",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Death Domain",
+      "shortName": "Death",
+      "source": "DMG"
+     }
+    }
    ]
   },
+  "feats": [
+   {
+    "name": "Arcane Undertaker",
+    "source": "AU"
+   },
+   {
+    "name": "Blessed Warrior",
+    "source": "XPHB"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "XPHB"
+   },
+   {
+    "name": "Light Bringer",
+    "source": "ABH"
+   }
+  ],
   "damageInflict": [
    "psychic"
   ],
@@ -29649,8 +30296,110 @@
      "name": "Wizard",
      "source": "XPHB"
     }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of Lore",
+      "shortName": "Lore",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Cleric",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcana Domain",
+      "shortName": "Arcana",
+      "source": "AU"
+     }
+    },
+    {
+     "class": {
+      "name": "Fighter",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Eldritch Knight",
+      "shortName": "Eldritch Knight",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Monk",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Warrior of the Mystic Arts",
+      "shortName": "Mystic Arts",
+      "source": "AU"
+     }
+    },
+    {
+     "class": {
+      "name": "Rogue",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcane Trickster",
+      "shortName": "Arcane Trickster",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Wizard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Diviner",
+      "shortName": "Diviner",
+      "source": "XPHB"
+     }
+    }
    ]
   },
+  "races": [
+   {
+    "name": "Elf",
+    "source": "XPHB"
+   },
+   {
+    "name": "Khoravar",
+    "source": "EFA"
+   }
+  ],
+  "optionalfeatures": [
+   {
+    "name": "Pact of the Tome",
+    "source": "XPHB"
+   }
+  ],
+  "feats": [
+   {
+    "name": "Aberrant Dragonmark",
+    "source": "EFA"
+   },
+   {
+    "name": "Arcane Warrior",
+    "source": "AU"
+   },
+   {
+    "name": "Cold Caster",
+    "source": "FRHoF"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "XPHB"
+   }
+  ],
   "damageInflict": [
    "force"
   ],
@@ -30193,8 +30942,27 @@
      "name": "Warlock",
      "source": "XPHB"
     }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of Lore",
+      "shortName": "Lore",
+      "source": "XPHB"
+     }
+    }
    ]
   },
+  "feats": [
+   {
+    "name": "Boon of Magic School Mastery",
+    "source": "AU"
+   }
+  ],
   "damageInflict": [
    "psychic"
   ],
@@ -31258,8 +32026,110 @@
      "name": "Wizard",
      "source": "XPHB"
     }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of Lore",
+      "shortName": "Lore",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Cleric",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcana Domain",
+      "shortName": "Arcana",
+      "source": "AU"
+     }
+    },
+    {
+     "class": {
+      "name": "Fighter",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Eldritch Knight",
+      "shortName": "Eldritch Knight",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Monk",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Warrior of the Mystic Arts",
+      "shortName": "Mystic Arts",
+      "source": "AU"
+     }
+    },
+    {
+     "class": {
+      "name": "Rogue",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcane Trickster",
+      "shortName": "Arcane Trickster",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Wizard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Illusionist",
+      "shortName": "Illusionist",
+      "source": "XPHB"
+     }
+    }
    ]
   },
+  "races": [
+   {
+    "name": "Elf",
+    "source": "XPHB"
+   },
+   {
+    "name": "Khoravar",
+    "source": "EFA"
+   }
+  ],
+  "optionalfeatures": [
+   {
+    "name": "Pact of the Tome",
+    "source": "XPHB"
+   }
+  ],
+  "feats": [
+   {
+    "name": "Aberrant Dragonmark",
+    "source": "EFA"
+   },
+   {
+    "name": "Arcane Warrior",
+    "source": "AU"
+   },
+   {
+    "name": "Cold Caster",
+    "source": "FRHoF"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "XPHB"
+   }
+  ],
   "damageInflict": [
    "piercing"
   ],
@@ -31917,8 +32787,118 @@
      "name": "Wizard",
      "source": "XPHB"
     }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of Lore",
+      "shortName": "Lore",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Cleric",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcana Domain",
+      "shortName": "Arcana",
+      "source": "AU"
+     }
+    },
+    {
+     "class": {
+      "name": "Fighter",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Eldritch Knight",
+      "shortName": "Eldritch Knight",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Monk",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Warrior of the Mystic Arts",
+      "shortName": "Mystic Arts",
+      "source": "AU"
+     }
+    },
+    {
+     "class": {
+      "name": "Rogue",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcane Trickster",
+      "shortName": "Arcane Trickster",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Wizard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Diviner",
+      "shortName": "Diviner",
+      "source": "XPHB"
+     }
+    }
    ]
   },
+  "races": [
+   {
+    "name": "Elf",
+    "source": "XPHB"
+   },
+   {
+    "name": "Khoravar",
+    "source": "EFA"
+   }
+  ],
+  "optionalfeatures": [
+   {
+    "name": "Pact of the Tome",
+    "source": "XPHB"
+   }
+  ],
+  "feats": [
+   {
+    "name": "Aberrant Dragonmark",
+    "source": "EFA"
+   },
+   {
+    "name": "Arcane Warrior",
+    "source": "AU"
+   },
+   {
+    "name": "Blessed Warrior",
+    "source": "XPHB"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "XPHB"
+   },
+   {
+    "name": "Cold Caster",
+    "source": "FRHoF"
+   },
+   {
+    "name": "Light Bringer",
+    "source": "ABH"
+   }
+  ],
   "damageInflict": [
    "radiant"
   ],
@@ -32664,10 +33644,6 @@
      "source": "XPHB"
     },
     {
-     "name": "Magus",
-     "source": "Magus2024"
-    },
-    {
      "name": "Sorcerer",
      "source": "XPHB"
     },
@@ -32678,9 +33654,115 @@
     {
      "name": "Wizard",
      "source": "XPHB"
+    },
+    {
+     "name": "Magus",
+     "source": "Magus2024"
+    }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of Lore",
+      "shortName": "Lore",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Cleric",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcana Domain",
+      "shortName": "Arcana",
+      "source": "AU"
+     }
+    },
+    {
+     "class": {
+      "name": "Fighter",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Eldritch Knight",
+      "shortName": "Eldritch Knight",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Monk",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Warrior of the Mystic Arts",
+      "shortName": "Mystic Arts",
+      "source": "AU"
+     }
+    },
+    {
+     "class": {
+      "name": "Rogue",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcane Trickster",
+      "shortName": "Arcane Trickster",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Wizard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Illusionist",
+      "shortName": "Illusionist",
+      "source": "XPHB"
+     }
     }
    ]
   },
+  "races": [
+   {
+    "name": "Elf",
+    "source": "XPHB"
+   },
+   {
+    "name": "Khoravar",
+    "source": "EFA"
+   }
+  ],
+  "optionalfeatures": [
+   {
+    "name": "Pact of the Tome",
+    "source": "XPHB"
+   }
+  ],
+  "feats": [
+   {
+    "name": "Aberrant Dragonmark",
+    "source": "EFA"
+   },
+   {
+    "name": "Arcane Warrior",
+    "source": "AU"
+   },
+   {
+    "name": "Cold Caster",
+    "source": "FRHoF"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "XPHB"
+   }
+  ],
   "damageInflict": [
    "psychic"
   ],
@@ -34180,7 +35262,21 @@
      "source": "Magus2024"
     }
    ]
-  }
+  },
+  "feats": [
+   {
+    "name": "Boon of Magic School Mastery",
+    "source": "AU"
+   },
+   {
+    "name": "Fey-Touched",
+    "source": "XPHB"
+   },
+   {
+    "name": "Vampire Touched",
+    "source": "ABH"
+   }
+  ]
  },
  {
   "name": "Puppet Master",
@@ -35074,19 +36170,42 @@
      "source": "XPHB"
     },
     {
-     "name": "Magus",
-     "source": "Magus2024"
-    },
-    {
      "name": "Sorcerer",
      "source": "XPHB"
     },
     {
      "name": "Wizard",
      "source": "XPHB"
+    },
+    {
+     "name": "Magus",
+     "source": "Magus2024"
+    }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Wizard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Abjurer",
+      "shortName": "Abjurer",
+      "source": "XPHB"
+     }
     }
    ]
   },
+  "feats": [
+   {
+    "name": "Boon of Magic School Mastery",
+    "source": "AU"
+   },
+   {
+    "name": "Boon of Siberys",
+    "source": "EFA"
+   }
+  ],
   "savingThrow": [
    "intelligence"
   ],
@@ -35639,13 +36758,8 @@
     "type": "entries",
     "name": "Cantrip Upgrade",
     "entries": [
-     "Both the initial and additional damage increase by {@dice 1d6} when you reach levels 5"
+     "Both the initial and additional damage increase by {@dice 1d6} when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6)."
     ]
-   },
-   {
-    "type": "entries",
-    "name": "(2d6), 11 (3d6), and 17 (4d6).",
-    "entries": []
    }
   ],
   "classes": {
@@ -35654,8 +36768,47 @@
      "name": "Cleric",
      "source": "XPHB"
     }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of Lore",
+      "shortName": "Lore",
+      "source": "XPHB"
+     }
+    }
    ]
   },
+  "races": [
+   {
+    "name": "Khoravar",
+    "source": "EFA"
+   }
+  ],
+  "optionalfeatures": [
+   {
+    "name": "Pact of the Tome",
+    "source": "XPHB"
+   }
+  ],
+  "feats": [
+   {
+    "name": "Blessed Warrior",
+    "source": "XPHB"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "XPHB"
+   },
+   {
+    "name": "Light Bringer",
+    "source": "ABH"
+   }
+  ],
   "damageInflict": [
    "psychic",
    "radiant"
@@ -39911,10 +41064,6 @@
   "classes": {
    "fromClassList": [
     {
-     "name": "Magus",
-     "source": "Magus2024"
-    },
-    {
      "name": "Ranger",
      "source": "XPHB"
     },
@@ -39925,9 +41074,92 @@
     {
      "name": "Wizard",
      "source": "XPHB"
+    },
+    {
+     "name": "Magus",
+     "source": "Magus2024"
+    }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of Lore",
+      "shortName": "Lore",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Fighter",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Eldritch Knight",
+      "shortName": "Eldritch Knight",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Monk",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Warrior of the Mystic Arts",
+      "shortName": "Mystic Arts",
+      "source": "AU"
+     }
+    },
+    {
+     "class": {
+      "name": "Rogue",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcane Trickster",
+      "shortName": "Arcane Trickster",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Wizard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Abjurer",
+      "shortName": "Abjurer",
+      "source": "XPHB"
+     }
     }
    ]
   },
+  "feats": [
+   {
+    "name": "Aberrant Dragonmark",
+    "source": "EFA"
+   },
+   {
+    "name": "Boon of Siberys",
+    "source": "EFA"
+   },
+   {
+    "name": "Boon of Magic School Mastery",
+    "source": "AU"
+   },
+   {
+    "name": "Magic Connoisseur",
+    "source": "AU"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "XPHB"
+   }
+  ],
   "miscTags": [
    "UBA"
   ]
@@ -41466,15 +42698,21 @@
      "source": "XPHB"
     },
     {
-     "name": "Magus",
-     "source": "Magus2024"
-    },
-    {
      "name": "Paladin",
      "source": "XPHB"
+    },
+    {
+     "name": "Magus",
+     "source": "Magus2024"
     }
    ]
   },
+  "feats": [
+   {
+    "name": "Boon of Magic School Mastery",
+    "source": "AU"
+   }
+  ],
   "savingThrow": [
    "wisdom"
   ],
@@ -41533,8 +42771,49 @@
      "name": "Wizard",
      "source": "XPHB"
     }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Fighter",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Eldritch Knight",
+      "shortName": "Eldritch Knight",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Rogue",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcane Trickster",
+      "shortName": "Arcane Trickster",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Wizard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Necromancer",
+      "shortName": "Necromancer",
+      "source": "AU"
+     }
+    }
    ]
   },
+  "feats": [
+   {
+    "name": "Boon of Magic School Mastery",
+    "source": "AU"
+   }
+  ],
   "damageInflict": [
    "necrotic"
   ],
@@ -43587,8 +44866,58 @@
      "name": "Druid",
      "source": "XPHB"
     }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of Lore",
+      "shortName": "Lore",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of the Moon",
+      "shortName": "Moon",
+      "source": "FRHoF"
+     }
+    }
    ]
   },
+  "races": [
+   {
+    "name": "Elf",
+    "source": "LFL"
+   },
+   {
+    "name": "Khoravar",
+    "source": "EFA"
+   }
+  ],
+  "optionalfeatures": [
+   {
+    "name": "Pact of the Tome",
+    "source": "XPHB"
+   }
+  ],
+  "feats": [
+   {
+    "name": "Druidic Warrior",
+    "source": "XPHB"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "XPHB"
+   }
+  ],
   "miscTags": [
    "SCL",
    "THP"
@@ -43953,7 +45282,13 @@
      "source": "Magus2024"
     }
    ]
-  }
+  },
+  "feats": [
+   {
+    "name": "Boon of Magic School Mastery",
+    "source": "AU"
+   }
+  ]
  },
  {
   "name": "Transient Bulwark",
@@ -46212,7 +47547,13 @@
      "source": "Magus2024"
     }
    ]
-  }
+  },
+  "feats": [
+   {
+    "name": "Boon of Magic School Mastery",
+    "source": "AU"
+   }
+  ]
  },
  {
   "name": "Water Bullet",
@@ -46465,8 +47806,60 @@
      "name": "Wizard",
      "source": "XPHB"
     }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of Lore",
+      "shortName": "Lore",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Fighter",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Eldritch Knight",
+      "shortName": "Eldritch Knight",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Rogue",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcane Trickster",
+      "shortName": "Arcane Trickster",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Wizard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Conjurer",
+      "shortName": "Conjurer",
+      "source": "AU"
+     }
+    }
    ]
   },
+  "feats": [
+   {
+    "name": "Boon of Magic School Mastery",
+    "source": "AU"
+   }
+  ],
   "miscTags": [
    "OBJ",
    "SGT"
@@ -46519,10 +47912,6 @@
   "classes": {
    "fromClassList": [
     {
-     "name": "Magus",
-     "source": "Magus2024"
-    },
-    {
      "name": "Paladin",
      "source": "XPHB"
     },
@@ -46533,9 +47922,92 @@
     {
      "name": "Wizard",
      "source": "XPHB"
+    },
+    {
+     "name": "Magus",
+     "source": "Magus2024"
+    }
+   ],
+   "fromSubclass": [
+    {
+     "class": {
+      "name": "Bard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "College of Lore",
+      "shortName": "Lore",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Fighter",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Eldritch Knight",
+      "shortName": "Eldritch Knight",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Monk",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Warrior of the Mystic Arts",
+      "shortName": "Mystic Arts",
+      "source": "AU"
+     }
+    },
+    {
+     "class": {
+      "name": "Rogue",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Arcane Trickster",
+      "shortName": "Arcane Trickster",
+      "source": "XPHB"
+     }
+    },
+    {
+     "class": {
+      "name": "Wizard",
+      "source": "XPHB"
+     },
+     "subclass": {
+      "name": "Abjurer",
+      "shortName": "Abjurer",
+      "source": "XPHB"
+     }
     }
    ]
   },
+  "feats": [
+   {
+    "name": "Aberrant Dragonmark",
+    "source": "EFA"
+   },
+   {
+    "name": "Boon of Siberys",
+    "source": "EFA"
+   },
+   {
+    "name": "Boon of Magic School Mastery",
+    "source": "AU"
+   },
+   {
+    "name": "Magic Connoisseur",
+    "source": "AU"
+   },
+   {
+    "name": "Magic Initiate",
+    "source": "XPHB"
+   }
+  ],
   "miscTags": [
    "UBA"
   ]
