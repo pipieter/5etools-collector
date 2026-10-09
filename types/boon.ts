@@ -5,5 +5,6 @@ export interface Boon extends Base, SRD {
   entries: Entry[];
   type: 'Demonic';
   ability?: SingleEntry;
+  abilityEntry?: string;
   signatureSpells?: SingleEntry;
 }
