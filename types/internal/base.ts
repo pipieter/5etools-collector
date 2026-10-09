@@ -427,7 +427,8 @@ export interface HeightAndWeight {
 export interface Link {
   type: 'link';
   href: HRef;
-  text: string;
+  text?: string;
+  entry?: string;
 }
 
 export type CasterProgression = 'artificer' | 'full' | '1/2' | '1/3' | 'pact';
