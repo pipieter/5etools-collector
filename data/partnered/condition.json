@@ -409,7 +409,7 @@
    {
     "type": "abilityGeneric",
     "name": "Drunkenness saving throw DC",
-    "text": "10 + number of units of alcohol consumed since last long rest"
+    "entry": "10 + number of units of alcohol consumed since last long rest"
    },
    "On a failed saving throw, a creature gains one level of drunkenness. Drunkenness is measured in six levels. If an already drunk creature suffers another effect that causes drunkenness, its current level of drunkenness increases by the number of units of alcohol the creature consumed to trigger the saving throw. A creature's drunkenness level is reduced by 1 for each 2 hours since it last drank. Furthermore, finishing a long rest reduces a creature's drunkenness level to 0.",
    "A creature suffers the effect of its current level of drunkenness as well as all lower levels. For example, a creature suffering level 3 drunkenness has disadvantage on Dexterity, Charisma, and Wisdom checks and saving throws.",
