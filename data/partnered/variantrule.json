@@ -11979,23 +11979,23 @@
      {
       "type": "abilityGeneric",
       "name": "Assessment check",
-      "text": "{@dice 1d20} + proficiency bonus (if applicable) + your",
       "attributes": [
        "int"
-      ]
+      ],
+      "entry": "{@dice 1d20} + proficiency bonus (if applicable) + your"
      },
      {
       "type": "abilityGeneric",
       "name": "Carving check",
-      "text": "{@dice 1d20} + proficiency bonus (if applicable) + {@footnote your|or Spellcasting ability modifier if it can be ritually carved.}",
       "attributes": [
        "dex"
-      ]
+      ],
+      "entry": "{@dice 1d20} + proficiency bonus (if applicable) + {@footnote your|or Spellcasting ability modifier if it can be ritually carved.}"
      },
      {
       "type": "abilityGeneric",
       "name": "Harvesting check",
-      "text": "Assessment check result + Carving check result"
+      "entry": "Assessment check result + Carving check result"
      },
      {
       "type": "item",
@@ -12317,7 +12317,7 @@
            {
             "type": "abilityGeneric",
             "name": "Harvesting supplies cost (gp)",
-            "text": "Combined component DC of each component for which harvesting was started"
+            "entry": "Combined component DC of each component for which harvesting was started"
            }
           ]
          },
@@ -13033,7 +13033,7 @@
          {
           "type": "abilityGeneric",
           "name": "Units found",
-          "text": "5 × (1 + check result – DC)"
+          "entry": "5 × (1 + check result – DC)"
          }
         ]
        },
