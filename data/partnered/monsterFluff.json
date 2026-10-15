@@ -243,7 +243,7 @@
    {
     "type": "abilityGeneric",
     "name": "Save DC",
-    "text": "8 + the tamer's proficiency bonus + the aboling's Constitution modifier"
+    "entry": "8 + the tamer's proficiency bonus + the aboling's Constitution modifier"
    },
    {
     "type": "entries",
@@ -10647,7 +10647,7 @@
    {
     "type": "abilityGeneric",
     "name": "Save DC",
-    "text": "8 + the tamer's proficiency bonus + the brainmuncher's Intelligence modifier"
+    "entry": "8 + the tamer's proficiency bonus + the brainmuncher's Intelligence modifier"
    },
    {
     "type": "entries",
@@ -11959,7 +11959,7 @@
    {
     "type": "abilityGeneric",
     "name": "Save DC",
-    "text": "8 + the tamer's proficiency bonus + the caprisoul's Constitution modifier"
+    "entry": "8 + the tamer's proficiency bonus + the caprisoul's Constitution modifier"
    },
    {
     "type": "entries",
@@ -16508,7 +16508,7 @@
    {
     "type": "abilityGeneric",
     "name": "Save DC",
-    "text": "8 + the tamer's proficiency bonus + the couatling's Charisma modifier"
+    "entry": "8 + the tamer's proficiency bonus + the couatling's Charisma modifier"
    },
    {
     "type": "entries",
@@ -19154,7 +19154,7 @@
    {
     "type": "abilityGeneric",
     "name": "Save DC",
-    "text": "8 + the tamer's proficiency bonus + the death shroud's Intelligence modifier"
+    "entry": "8 + the tamer's proficiency bonus + the death shroud's Intelligence modifier"
    },
    {
     "type": "entries",
@@ -21731,7 +21731,7 @@
    {
     "type": "abilityGeneric",
     "name": "Save DC",
-    "text": "8 + the tamer's proficiency bonus + the dire bunny's Constitution modifier"
+    "entry": "8 + the tamer's proficiency bonus + the dire bunny's Constitution modifier"
    },
    {
     "type": "entries",
@@ -23236,7 +23236,7 @@
    {
     "type": "abilityGeneric",
     "name": "Save DC",
-    "text": "8 + the tamer's proficiency bonus + the dragonling's Constitution modifier"
+    "entry": "8 + the tamer's proficiency bonus + the dragonling's Constitution modifier"
    },
    {
     "type": "entries",
@@ -32707,7 +32707,7 @@
    {
     "type": "abilityGeneric",
     "name": "Save DC",
-    "text": "8 + the tamer's proficiency bonus + the gelatinooze's Strength modifier"
+    "entry": "8 + the tamer's proficiency bonus + the gelatinooze's Strength modifier"
    },
    {
     "type": "entries",
@@ -40964,7 +40964,7 @@
    {
     "type": "abilityGeneric",
     "name": "Save DC",
-    "text": "8 + the tamer's proficiency bonus + the hyphan's Constitution modifier"
+    "entry": "8 + the tamer's proficiency bonus + the hyphan's Constitution modifier"
    },
    {
     "type": "entries",
@@ -51735,7 +51735,7 @@
    {
     "type": "abilityGeneric",
     "name": "Save DC",
-    "text": "8 + the tamer's proficiency bonus + the mechakobold's Charisma modifier"
+    "entry": "8 + the tamer's proficiency bonus + the mechakobold's Charisma modifier"
    },
    {
     "type": "entries",
@@ -52782,7 +52782,7 @@
    {
     "type": "abilityGeneric",
     "name": "Save DC",
-    "text": "8 + the tamer's proficiency bonus + the minimic's Constitution modifier."
+    "entry": "8 + the tamer's proficiency bonus + the minimic's Constitution modifier."
    },
    {
     "type": "entries",
@@ -58689,7 +58689,7 @@
    {
     "type": "abilityGeneric",
     "name": "Save DC",
-    "text": "8 + the tamer's proficiency bonus + the peeper's Constitution modifier"
+    "entry": "8 + the tamer's proficiency bonus + the peeper's Constitution modifier"
    },
    {
     "type": "entries",
@@ -61891,7 +61891,7 @@
    {
     "type": "abilityGeneric",
     "name": "Save DC",
-    "text": "8 + the tamer's proficiency bonus + the rakitten's Charisma modifier"
+    "entry": "8 + the tamer's proficiency bonus + the rakitten's Charisma modifier"
    },
    {
     "type": "entries",
@@ -71973,7 +71973,7 @@
    {
     "type": "abilityGeneric",
     "name": "Save DC",
-    "text": "8 + the tamer's proficiency bonus + the slaghund's Constitution modifier"
+    "entry": "8 + the tamer's proficiency bonus + the slaghund's Constitution modifier"
    },
    {
     "type": "entries",
@@ -76305,7 +76305,7 @@
    {
     "type": "abilityGeneric",
     "name": "Save DC",
-    "text": "8 + the tamer's proficiency bonus + the sunsnacker's Constitution modifier"
+    "entry": "8 + the tamer's proficiency bonus + the sunsnacker's Constitution modifier"
    },
    {
     "type": "entries",
@@ -78199,7 +78199,7 @@
    {
     "type": "abilityGeneric",
     "name": "Save DC",
-    "text": "8 + the tamer's proficiency bonus + the tarling's Constitution modifier"
+    "entry": "8 + the tamer's proficiency bonus + the tarling's Constitution modifier"
    },
    {
     "type": "entries",
@@ -78561,7 +78561,7 @@
    {
     "type": "abilityGeneric",
     "name": "Save DC",
-    "text": "8 + the tamer's proficiency bonus + the tatzling's Constitution modifier"
+    "entry": "8 + the tamer's proficiency bonus + the tatzling's Constitution modifier"
    },
    {
     "type": "entries",
