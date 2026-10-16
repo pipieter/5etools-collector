@@ -777,42 +777,42 @@
         {
          "type": "item",
          "name": "[Animus]",
+         "nameDot": false,
          "entries": [
           "Any Animus"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Dust]",
+         "nameDot": false,
          "entries": [
           "Celestial Dust"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Fluid]",
+         "nameDot": false,
          "entries": [
           "Monster Blood"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Hide]",
+         "nameDot": false,
          "entries": [
           "Skin from a Fiend"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Organ]",
+         "nameDot": false,
          "entries": [
           "Eye from a Dragon"
-         ],
-         "nameDot": false
+         ]
         }
        ]
       }
@@ -1458,34 +1458,34 @@
         {
          "type": "item",
          "name": "[Animus]",
+         "nameDot": false,
          "entries": [
           "Any"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Bones]",
+         "nameDot": false,
          "entries": [
           "Bones"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Fluid]",
+         "nameDot": false,
          "entries": [
           "Sap"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Hide]",
+         "nameDot": false,
          "entries": [
           "Plates"
-         ],
-         "nameDot": false
+         ]
         }
        ]
       }
@@ -1778,42 +1778,42 @@
         {
          "type": "item",
          "name": "[Animus]",
+         "nameDot": false,
          "entries": [
           "Undead Animus from a Sanguine Witch"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Dust]",
+         "nameDot": false,
          "entries": [
           "Undead Dust from any Vampire"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Fluid]",
+         "nameDot": false,
          "entries": [
           "Monster Blood from an Undead"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Natural Weapons]",
+         "nameDot": false,
          "entries": [
           "Teeth from any Vampire"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Organ]",
+         "nameDot": false,
          "entries": [
           "Heart from a Dragon"
-         ],
-         "nameDot": false
+         ]
         }
        ]
       }
@@ -1879,34 +1879,34 @@
         {
          "type": "item",
          "name": "[Animus]",
+         "nameDot": false,
          "entries": [
           "Any"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Bones]",
+         "nameDot": false,
          "entries": [
           "Skull from a Giant"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Dust]",
+         "nameDot": false,
          "entries": [
           "Undead Dust"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Fluid]",
+         "nameDot": false,
          "entries": [
           "Monster Blood"
-         ],
-         "nameDot": false
+         ]
         }
        ]
       }
@@ -1941,8 +1941,8 @@
  },
  {
   "name": "Demonglass Weapon",
-  "type": "GV|XDMG",
   "edition": "one",
+  "type": "GV|XDMG",
   "requires": [
    {
     "weaponCategory": "simple"
@@ -2613,34 +2613,34 @@
         {
          "type": "item",
          "name": "[Animus]",
+         "nameDot": false,
          "entries": [
           "Animus from a Frost Giant"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Dust]",
+         "nameDot": false,
          "entries": [
           "Elemental Dust"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Fluid]",
+         "nameDot": false,
          "entries": [
           "Contaminated Ichor"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Fluid]",
+         "nameDot": false,
          "entries": [
           "Elemental Fluid"
-         ],
-         "nameDot": false
+         ]
         }
        ]
       }
@@ -2652,8 +2652,8 @@
  },
  {
   "name": "Galepierce Weapon",
-  "type": "GV|XDMG",
   "edition": "one",
+  "type": "GV|XDMG",
   "requires": [
    {
     "dmgType": "P",
@@ -3272,42 +3272,42 @@
         {
          "type": "item",
          "name": "[Animus]",
+         "nameDot": false,
          "entries": [
           "Animus from a Giant"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Bones]",
+         "nameDot": false,
          "entries": [
           "Skulls of any two Trolls"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Fluid]",
+         "nameDot": false,
          "entries": [
           "Monster Blood from any Troll"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Fur]",
+         "nameDot": false,
          "entries": [
           "Stitches"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Hide]",
+         "nameDot": false,
          "entries": [
           "Skin of any Troll"
-         ],
-         "nameDot": false
+         ]
         }
        ]
       }
@@ -3352,58 +3352,58 @@
         {
          "type": "item",
          "name": "[Animus]",
+         "nameDot": false,
          "entries": [
           "Any Animus"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Bones]",
+         "nameDot": false,
          "entries": [
           "Spine from a Dragon"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Dust]",
+         "nameDot": false,
          "entries": [
           "Elemental Dust"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Fluid]",
+         "nameDot": false,
          "entries": [
           "Elemental Fluid"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Hide]",
+         "nameDot": false,
          "entries": [
           "Plates from a Construct"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Hide]",
+         "nameDot": false,
          "entries": [
           "Skin from a Fiend"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Organ]",
+         "nameDot": false,
          "entries": [
           "Brain from an Aberration"
-         ],
-         "nameDot": false
+         ]
         }
        ]
       }
@@ -3648,8 +3648,8 @@
   "inherits": {
    "namePrefix": "Healing ",
    "source": "24GriffonsSaddlebag1",
-   "dmg1": "2d4",
    "rarity": "uncommon",
+   "dmg1": "2d4",
    "entries": [
     "This magic ammunition is made by the elder Clerics of nature and hunting deities. {@action Attack|XPHB} rolls made with this ammunition deal no damage on a hit. When you hit a creature other than yourself with the ammunition, the target regains {@variantrule Hit Points|XPHB} equal to {@dice 2d4} plus your Dexterity and Wisdom modifiers (minimum +1). If the target is an ally, you have {@variantrule Advantage|XPHB} on the attack roll. Once it hits a creature, the ammunition dissolves into pure healing magic before it's destroyed."
    ],
@@ -3706,34 +3706,34 @@
         {
          "type": "item",
          "name": "[Animus]",
+         "nameDot": false,
          "entries": [
           "Fey Animus"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Hair]",
+         "nameDot": false,
          "entries": [
           "Hair from a Fey*"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Natural Weapons]",
+         "nameDot": false,
          "entries": [
           "Horns or Teeth of any Fey, Monstrosity, or Dragon"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Organ]",
+         "nameDot": false,
          "entries": [
           "Heart from a Dragon"
-         ],
-         "nameDot": false
+         ]
         }
        ]
       },
@@ -3793,11 +3793,11 @@
   "inherits": {
    "namePrefix": "Hungry ",
    "source": "ExploringEberron24",
+   "rarity": "uncommon",
+   "reqAttune": true,
    "property": [
     "Sym|ExploringEberron24"
    ],
-   "rarity": "uncommon",
-   "reqAttune": true,
    "entries": [
     "A creation of the daelkyr, this weapon is formed from muscle and bone. It may moan, growl, or wail, and it twists in your grip if it doesn't like you. If any creature attempts to wield this weapon while not attuned to it, it has {@variantrule Disadvantage|XPHB} on attack rolls made using the weapon. Additionally, if you are attuned to this weapon when another creature tries to wield it, the weapon's hilt extrudes sharp thorns and that creature takes {@damage 1d4} Piercing damage each turn.",
     "While attuned to and wielding this weapon, you can take a {@variantrule Bonus Action|XPHB} to bond to it, causing tendrils from the hilt of the weapon to burrow into your flesh. You can end the weapon's bond as a {@action Magic|XPHB} action, causing the tendrils to retract so you can release the weapon. You can remain attuned to the weapon regardless of whether you're bonded to it. While bonded to it, you gain the following benefits:",
@@ -3952,42 +3952,42 @@
         {
          "type": "item",
          "name": "[Animus]",
+         "nameDot": false,
          "entries": [
           "Any Animus"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Fluid]",
+         "nameDot": false,
          "entries": [
           "Chemical solution from a Construct"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Hide]",
+         "nameDot": false,
          "entries": [
           "Skin from a Fey"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Hide]",
+         "nameDot": false,
          "entries": [
           "Plates"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Organ]",
+         "nameDot": false,
          "entries": [
           "Heart from a Gorgon"
-         ],
-         "nameDot": false
+         ]
         }
        ]
       }
@@ -4048,50 +4048,50 @@
         {
          "type": "item",
          "name": "[Animus]",
+         "nameDot": false,
          "entries": [
           "Any Animus"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Fluid]",
+         "nameDot": false,
          "entries": [
           "Chemical Solution"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Hair]",
+         "nameDot": false,
          "entries": [
           "Hair"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Hide]",
+         "nameDot": false,
          "entries": [
           "Plates"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Hide]",
+         "nameDot": false,
          "entries": [
           "Skin"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Natural Weapons]",
+         "nameDot": false,
          "entries": [
           "Needles from an Injector"
-         ],
-         "nameDot": false
+         ]
         }
        ]
       }
@@ -4359,8 +4359,8 @@
     "Sharp or better-balanced, this weapon is now more likely to produce a critical hit when hitting its target. Attacks using this weapon score a critical hit on a roll of 19–20.",
     {
      "type": "inset",
-     "page": 79,
      "name": "Keen Weapons Using The One Ring Dice",
+     "page": 79,
      "entries": [
       "If you are using a set of {@i The One Ring} Success Dice, a Keen weapon scores a critical hit also when the dice show two or more 5 results, or three 5 results if you have disadvantage on the roll. A {@item Superior Keen weapon|TLotRR} additionally scores a critical hit against bane creatures when the dice show two or more 4 results, or three 4 results if you have disadvantage."
      ]
@@ -4498,9 +4498,9 @@
        "type": "external",
        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Items/lunar-weapon.webp"
       },
-      "credit": "Scott Higginbotham",
       "width": 3767,
-      "height": 3767
+      "height": 3767,
+      "credit": "Scott Higginbotham"
      }
     ]
    }
@@ -4538,11 +4538,11 @@
    "namePrefix": "Lycan ",
    "source": "GrimHollowLairsEtharis",
    "page": 111,
-   "rarity": "rare",
    "reprintedAs": [
     "Lycan Weapon|GrimHollowCG24",
     "Lycan Weapon|GrimHollowMG24"
    ],
+   "rarity": "rare",
    "bonusWeapon": "+2",
    "entries": [
     "Made from the claws, teeth, and bones of lycanthropes, these weapons are particularly effective against other lycanthropes or vampires. You gain a {=bonusWeapon} bonus to attack and damage rolls made with this weapon.",
@@ -4726,42 +4726,42 @@
         {
          "type": "item",
          "name": "[Animus]",
+         "nameDot": false,
          "entries": [
           "Any Animus"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Fluid]",
+         "nameDot": false,
          "entries": [
           "Sap"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Hair]",
+         "nameDot": false,
          "entries": [
           "Hair from a Fey"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Hair]",
+         "nameDot": false,
          "entries": [
           "Leaves"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Hide]",
+         "nameDot": false,
          "entries": [
           "Bark"
-         ],
-         "nameDot": false
+         ]
         }
        ]
       }
@@ -4811,42 +4811,42 @@
         {
          "type": "item",
          "name": "[Animus]",
+         "nameDot": false,
          "entries": [
           "Any Animus"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Fluid]",
+         "nameDot": false,
          "entries": [
           "Sap"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Hair]",
+         "nameDot": false,
          "entries": [
           "Hair from a Fey"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Hair]",
+         "nameDot": false,
          "entries": [
           "Leaves"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Hide]",
+         "nameDot": false,
          "entries": [
           "Bark"
-         ],
-         "nameDot": false
+         ]
         }
        ]
       }
@@ -4896,42 +4896,42 @@
         {
          "type": "item",
          "name": "[Animus]",
+         "nameDot": false,
          "entries": [
           "Any Animus"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Fluid]",
+         "nameDot": false,
          "entries": [
           "Sap"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Hair]",
+         "nameDot": false,
          "entries": [
           "Hair from a Fey"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Hair]",
+         "nameDot": false,
          "entries": [
           "Leaves"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Hide]",
+         "nameDot": false,
          "entries": [
           "Bark"
-         ],
-         "nameDot": false
+         ]
         }
        ]
       }
@@ -5142,50 +5142,50 @@
         {
          "type": "item",
          "name": "[Animus]",
+         "nameDot": false,
          "entries": [
           "Undead Animus"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Bones]",
+         "nameDot": false,
          "entries": [
           "Ribs"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Bones]",
+         "nameDot": false,
          "entries": [
           "Skull"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Bones]",
+         "nameDot": false,
          "entries": [
           "Spine"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Fluid]",
+         "nameDot": false,
          "entries": [
           "Contaminated Ichor"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Natural Weapon]",
+         "nameDot": false,
          "entries": [
           "Teeth"
-         ],
-         "nameDot": false
+         ]
         }
        ]
       }
@@ -6349,8 +6349,8 @@
    "namePrefix": "Shadowsteel ",
    "source": "GrimHollowCG24",
    "page": 271,
-   "reqAttune": true,
    "rarity": "very rare",
+   "reqAttune": true,
    "entries": [
     "Crafted from the dark material known as Shadowsteel, these weapons seem to ignore most armor, instead slicing through the spiritual essence of living flesh while delivering excruciating pain to their victims. Survivors of an encounter with a Shadowsteel Blade often report lasting pain that lingers for hours.",
     "Attack rolls made with this magic weapon have {@variantrule Advantage|XPHB} if the target wears Medium or Heavy Armor. A creature hit by a Shadowsteel Blade must succeed on a {@dc 14} Constitution saving throw or have the {@condition Stunned|XPHB} condition until the end of its next turn. Undead creatures automatically succeed on this save.",
@@ -6402,8 +6402,8 @@
    "namePrefix": "Silver Eagle ",
    "source": "24GriffonsSaddlebag1",
    "rarity": "uncommon",
-   "bonusWeapon": "+1",
    "dmg1": "2d6",
+   "bonusWeapon": "+1",
    "entries": [
     "These silvered weapons are of elven make. You gain a +1 bonus to attack rolls and damage rolls made with these magic weapons, which deal {@damage 2d6} damage on a hit instead of their normal damage dice. Scoring a {@variantrule Critical Hit|XPHB} with the weapon doesn't allow you to roll the attack's damage dice twice. Instead, whenever you hit a target and roll the same number on both of the weapon's damage dice, you can immediately roll {@dice 1d6} and add it to the weapon's damage dice. You continue rolling additional damage dice until you roll a number that doesn't match the previous rolls."
    ],
@@ -6489,9 +6489,9 @@
        "type": "external",
        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Items/splinter-bow.webp"
       },
-      "credit": "Scott Higginbotham",
       "width": 4408,
-      "height": 4408
+      "height": 4408,
+      "credit": "Scott Higginbotham"
      }
     ]
    }
@@ -6798,8 +6798,8 @@
  },
  {
   "name": "Stonebane Weapon",
-  "type": "GV|XDMG",
   "edition": "one",
+  "type": "GV|XDMG",
   "requires": [
    {
     "type": "M|XPHB"
@@ -7441,42 +7441,42 @@
         {
          "type": "item",
          "name": "[Animus]",
+         "nameDot": false,
          "entries": [
           "Aberration Animus"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Bones]",
+         "nameDot": false,
          "entries": [
           "Skull, Spine, or Ribs from an Aberration"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Fluid]",
+         "nameDot": false,
          "entries": [
           "Contaminated Ichor from a Far Dweller"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Hide]",
+         "nameDot": false,
          "entries": [
           "Skin from an Aberration"
-         ],
-         "nameDot": false
+         ]
         },
         {
          "type": "item",
          "name": "[Natural Weapon]",
+         "nameDot": false,
          "entries": [
           "Tentacles from a Warp Marauder"
-         ],
-         "nameDot": false
+         ]
         }
        ]
       }
@@ -7775,8 +7775,8 @@
    "source": "24GriffonsSaddlebag1",
    "rarity": "legendary",
    "reqAttune": true,
-   "bonusWeapon": "+2",
    "grantsProficiency": true,
+   "bonusWeapon": "+2",
    "entries": [
     "This rose has a stem large enough to hold like the hilt of a weapon. As a {@variantrule Bonus Action|XPHB} while holding it, you can cause the rose to magically grow one of the following weapons from its center: {@item Dagger|XPHB}, {@item Shortsword|XPHB}, {@item Rapier|XPHB}, or {@item Whip|XPHB}. If the hilt already has a weapon grown from its center, the existing weapon withers away and disintegrates, allowing the new one to take its place.",
     "You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon, which deals an extra {@damage 1d4} Piercing damage on a hit. While attuned to Thornpiercer, you are proficient with the weapons it grows. Each weapon option has a unique property, as detailed below.",
@@ -8409,9 +8409,9 @@
        "type": "external",
        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Items/weapon-of-the-sun-and-moon.webp"
       },
-      "credit": "Scott Higginbotham",
       "width": 4447,
-      "height": 4447
+      "height": 4447,
+      "credit": "Scott Higginbotham"
      }
     ]
    }

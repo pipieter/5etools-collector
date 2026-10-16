@@ -234,12 +234,12 @@
       "entries": [
        {
         "type": "quote",
+        "skipMarks": true,
         "entries": [
          "Like all of the great rites of passage in life, death changes us. Simply returning to the world of the living does not undo that change, nor is it at all simple. Those who have passed beyond the veil are marked by it, even if they manage to find their way back."
         ],
         "by": "Claret Director Ged Narrel",
-        "from": "Unfinished Rites",
-        "skipMarks": true
+        "from": "Unfinished Rites"
        }
       ]
      },
@@ -314,22 +314,22 @@
       "entries": [
        {
         "type": "quote",
+        "skipMarks": true,
         "entries": [
          "O lady of cold winters and the long night of all souls. O harbinger of all ends and eternal sentinel of the final threshold. I entreat you—nay, I beseech you! You bear within your grasp the soul of one whose fate has not yet reached its end. Bear witness, O queen of night-black feathers; turn your divine gaze to the golden bonds that tie the living to the departed.",
          "The tears of a brother, who weeps without shame. The blade of a lover, who grieves she did not die while holding it in battle alongside you. A portrait painted by a mother, of an infant, untouched by the sorrows of the world. O Matron of Death, I plead to you—hear their cries! Let not this warrior's fate end here."
         ],
         "by": "Valiq",
-        "from": "Cleric of the Matron of Ravens",
-        "skipMarks": true
+        "from": "Cleric of the Matron of Ravens"
        }
       ]
      },
      {
       "type": "statblock",
+      "tag": "table",
       "name": "Harrowing Return",
       "source": "TalDoreiCampaignSettingReborn",
-      "page": 214,
-      "tag": "table"
+      "page": 214
      }
     ]
    }
@@ -373,16 +373,16 @@
       "type": "entries",
       "entries": [
        {
-        "name": "Goal",
         "type": "entries",
+        "name": "Goal",
         "entries": [
          "All threads begin with a goal determined by the player. The goal helps to guide the creation of the thread's milestones and should thematically fit with the character and with the nature of the campaign.",
          "More importantly, the goal should be a specific, achievable objective, something the character hopes to accomplish in the future. The more specific this goal, the better, for this will ease the creation of its milestones. For example, a character picking up the Bloodsworn thread might choose a goal of defeating the giants who destroyed their village."
         ]
        },
        {
-        "name": "Milestones",
         "type": "entries",
+        "name": "Milestones",
         "entries": [
          "With the goal in hand, the milestones must be decided. These are events of personal achievement or significance. They act as obstacles or thresholds on the path to reaching the thread's goal. A thread isn't restricted in its number of milestones, but four is recommended. On achieving each milestone, a benefit is unlocked, depending on its ranking—least, lesser, greater, or superior (see {@b Milestone Benefits}).",
          "While the goal or motivation of a thread is specific, milestones usually are not. This allows the GM some flexibility in applying them to individual campaigns. Each thread description includes a few example milestones, but there are no strict rules about what a milestone might be or when it can occur.",
@@ -390,16 +390,16 @@
         ]
        },
        {
-        "name": "Spacing Milestones",
         "type": "entries",
+        "name": "Spacing Milestones",
         "entries": [
          "When creating or adding a thread to a character, decide with the GM how long (in theory) it should take to reach the goal. This might depend on the scope or length of the campaign and on the nature of the thread. An Impoverished Noble thread, for example, might be quite short, ending when a certain wealth threshold is reached. Conversely, the Illegitimate Scion thread might only end when the character is adopted into a new family, an event which could take 20 levels.",
          "Once the length of the thread is determined, add in the milestones, spacing them out evenly in terms of levels."
         ]
        },
        {
-        "name": "Milestone Benefits",
         "type": "entries",
+        "name": "Milestone Benefits",
         "entries": [
          "The four ranks of milestones—least, lesser, greater, superior—have recommended level ranges that serve as guides for determining the types of benefits a character receives. These correspond to the level range the character is expected to be within when they reach that milestone. Threads can have multiple milestones of the same rank. Sample benefits are listed in the Milestone Recommended Levels table."
         ]
@@ -409,8 +409,8 @@
      {
       "type": "statblock",
       "tag": "table",
-      "source": "NorthlandsWorldbook",
-      "name": "Milestone Recommended Levels"
+      "name": "Milestone Recommended Levels",
+      "source": "NorthlandsWorldbook"
      },
      "Characters should generally earn only one benefit for each milestone unlocked, but GMs can always choose to reward additional benefits.",
      {
@@ -451,44 +451,44 @@
      {
       "type": "statblock",
       "tag": "charoption",
-      "source": "NorthlandsWorldbook",
-      "name": "Bloodsworn"
+      "name": "Bloodsworn",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "charoption",
-      "source": "NorthlandsWorldbook",
-      "name": "Cursemarked"
+      "name": "Cursemarked",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "charoption",
-      "source": "NorthlandsWorldbook",
-      "name": "Explorer"
+      "name": "Explorer",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "charoption",
-      "source": "NorthlandsWorldbook",
-      "name": "Fatebound"
+      "name": "Fatebound",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "charoption",
-      "source": "NorthlandsWorldbook",
-      "name": "Herald"
+      "name": "Herald",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "charoption",
-      "source": "NorthlandsWorldbook",
-      "name": "Legend Hunter"
+      "name": "Legend Hunter",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "charoption",
-      "source": "NorthlandsWorldbook",
-      "name": "Sworn Huskarl"
+      "name": "Sworn Huskarl",
+      "source": "NorthlandsWorldbook"
      }
     ]
    }
@@ -2360,8 +2360,8 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "HelianasGuidetoMonsterHunting",
         "name": "Cooking Flaws",
+        "source": "HelianasGuidetoMonsterHunting",
         "collapsed": true
        }
       ]
@@ -2374,8 +2374,8 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "HelianasGuidetoMonsterHunting",
         "name": "Cooking Boons",
+        "source": "HelianasGuidetoMonsterHunting",
         "collapsed": true
        }
       ]
@@ -2533,29 +2533,29 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "HelianasGuidetoMonsterHunting",
         "name": "Tools and Their Products",
+        "source": "HelianasGuidetoMonsterHunting",
         "collapsed": true
        },
        {
         "type": "statblock",
         "tag": "table",
-        "source": "HelianasGuidetoMonsterHunting",
         "name": "Manufacturing DC & Time",
+        "source": "HelianasGuidetoMonsterHunting",
         "collapsed": true
        },
        {
         "type": "statblock",
         "tag": "table",
-        "source": "HelianasGuidetoMonsterHunting",
         "name": "Armour Crafting Costs & Properties",
+        "source": "HelianasGuidetoMonsterHunting",
         "collapsed": true
        },
        {
         "type": "statblock",
         "tag": "table",
-        "source": "HelianasGuidetoMonsterHunting",
         "name": "Weapon Crafting Costs & Properties",
+        "source": "HelianasGuidetoMonsterHunting",
         "collapsed": true
        }
       ]
@@ -2589,9 +2589,9 @@
           "Enchanting Check DC",
           {
            "type": "cellHeader",
+           "style": "th-skewer",
            "width": 3,
-           "entry": "Enchanting Time (Hours)",
-           "style": "th-skewer"
+           "entry": "Enchanting Time (Hours)"
           }
          ],
          [
@@ -3202,15 +3202,15 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
           "name": "Manufacturing Flaws",
+          "source": "HelianasGuidetoMonsterHunting",
           "collapsed": true
          },
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
           "name": "Manufacturing Boons",
+          "source": "HelianasGuidetoMonsterHunting",
           "collapsed": true
          },
          {
@@ -3228,15 +3228,15 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
           "name": "Enchanting Flaws",
+          "source": "HelianasGuidetoMonsterHunting",
           "collapsed": true
          },
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
           "name": "Enchanting Boons",
+          "source": "HelianasGuidetoMonsterHunting",
           "collapsed": true
          },
          {
@@ -3287,22 +3287,22 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
           "name": "Random Non-Physical Damage Type table",
+          "source": "HelianasGuidetoMonsterHunting",
           "collapsed": true
          },
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
           "name": "Random Skill table",
+          "source": "HelianasGuidetoMonsterHunting",
           "collapsed": true
          },
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
           "name": "Random Creature Type table",
+          "source": "HelianasGuidetoMonsterHunting",
           "collapsed": true
          }
         ]
@@ -3494,9 +3494,9 @@
             "",
             {
              "type": "cellHeader",
+             "style": "th-skewer",
              "width": 5,
-             "entry": "Enchanting Time (Hours)",
-             "style": "th-skewer"
+             "entry": "Enchanting Time (Hours)"
             },
             ""
            ],
@@ -3741,9 +3741,9 @@
             "",
             {
              "type": "cellHeader",
+             "style": "th-skewer",
              "width": 3,
-             "entry": "Enchanting Time (Hours)",
-             "style": "th-skewer"
+             "entry": "Enchanting Time (Hours)"
             }
            ],
            [
@@ -3892,15 +3892,15 @@
         "",
         {
          "type": "cellHeader",
+         "style": "th-skewer",
          "width": 4,
-         "entry": "Metadata",
-         "style": "th-skewer"
+         "entry": "Metadata"
         },
         {
          "type": "cellHeader",
+         "style": "th-skewer",
          "width": 3,
-         "entry": "Component Details",
-         "style": "th-skewer"
+         "entry": "Component Details"
         }
        ],
        [
@@ -3928,8 +3928,8 @@
        [
         {
          "type": "cell",
-         "entry": "{@b Ammunition}",
-         "width": 8
+         "width": 8,
+         "entry": "{@b Ammunition}"
         }
        ],
        [
@@ -3975,8 +3975,8 @@
        [
         {
          "type": "cell",
-         "entry": "{@b Armour}",
-         "width": 8
+         "width": 8,
+         "entry": "{@b Armour}"
         }
        ],
        [
@@ -4048,8 +4048,8 @@
        [
         {
          "type": "cell",
-         "entry": "{@b Armor of Resistance}",
-         "width": 8
+         "width": 8,
+         "entry": "{@b Armor of Resistance}"
         }
        ],
        [
@@ -4205,8 +4205,8 @@
        [
         {
          "type": "cell",
-         "entry": "{@b Dragon Scale Mail}",
-         "width": 8
+         "width": 8,
+         "entry": "{@b Dragon Scale Mail}"
         }
        ],
        [
@@ -4474,8 +4474,8 @@
        [
         {
          "type": "cell",
-         "entry": "{@b Potions}",
-         "width": 8
+         "width": 8,
+         "entry": "{@b Potions}"
         }
        ],
        [
@@ -4581,8 +4581,8 @@
        [
         {
          "type": "cell",
-         "entry": "{@b Potion of Giant Strength}",
-         "width": 8
+         "width": 8,
+         "entry": "{@b Potion of Giant Strength}"
         }
        ],
        [
@@ -4658,8 +4658,8 @@
        [
         {
          "type": "cell",
-         "entry": "{@b Potion of Healing}",
-         "width": 8
+         "width": 8,
+         "entry": "{@b Potion of Healing}"
         }
        ],
        [
@@ -4745,8 +4745,8 @@
        [
         {
          "type": "cell",
-         "entry": "{@b Potion of Resistance}",
-         "width": 8
+         "width": 8,
+         "entry": "{@b Potion of Resistance}"
         }
        ],
        [
@@ -4872,8 +4872,8 @@
        [
         {
          "type": "cell",
-         "entry": "{@b Rings}",
-         "width": 8
+         "width": 8,
+         "entry": "{@b Rings}"
         }
        ],
        [
@@ -4933,8 +4933,8 @@
        [
         {
          "type": "cell",
-         "entry": "{@b Ring of Elemental Command}",
-         "width": 8
+         "width": 8,
+         "entry": "{@b Ring of Elemental Command}"
         }
        ],
        [
@@ -5084,8 +5084,8 @@
        [
         {
          "type": "cell",
-         "entry": "{@b Ring of Resistance}",
-         "width": 8
+         "width": 8,
+         "entry": "{@b Ring of Resistance}"
         }
        ],
        [
@@ -5291,8 +5291,8 @@
        [
         {
          "type": "cell",
-         "entry": "{@b Rods}",
-         "width": 8
+         "width": 8,
+         "entry": "{@b Rods}"
         }
        ],
        [
@@ -5408,8 +5408,8 @@
        [
         {
          "type": "cell",
-         "entry": "{@b Scrolls}",
-         "width": 8
+         "width": 8,
+         "entry": "{@b Scrolls}"
         }
        ],
        [
@@ -5515,8 +5515,8 @@
        [
         {
          "type": "cell",
-         "entry": "{@b Staves}",
-         "width": 8
+         "width": 8,
+         "entry": "{@b Staves}"
         }
        ],
        [
@@ -5642,8 +5642,8 @@
        [
         {
          "type": "cell",
-         "entry": "{@b Wands}",
-         "width": 8
+         "width": 8,
+         "entry": "{@b Wands}"
         }
        ],
        [
@@ -5799,8 +5799,8 @@
        [
         {
          "type": "cell",
-         "entry": "{@b Weapons}",
-         "width": 8
+         "width": 8,
+         "entry": "{@b Weapons}"
         }
        ],
        [
@@ -6906,8 +6906,8 @@
        [
         {
          "type": "cell",
-         "entry": "{@b Wondrous Items}",
-         "width": 8
+         "width": 8,
+         "entry": "{@b Wondrous Items}"
         }
        ],
        [
@@ -11048,8 +11048,8 @@
    {
     "type": "statblock",
     "tag": "table",
-    "source": "ObojimaTalesYatamon",
-    "name": "List of Dispositions"
+    "name": "List of Dispositions",
+    "source": "ObojimaTalesYatamon"
    }
   ]
  },
@@ -11288,8 +11288,8 @@
      {
       "type": "statblock",
       "tag": "table",
-      "source": "NorthlandsWorldbook",
-      "name": "Rhyming Flyting Words"
+      "name": "Rhyming Flyting Words",
+      "source": "NorthlandsWorldbook"
      }
     ]
    },
@@ -12481,24 +12481,24 @@
             "",
             {
              "type": "cellHeader",
+             "style": "th-skewer",
              "width": 4,
-             "entry": "Component Value",
-             "style": "th-skewer"
+             "entry": "Component Value"
             }
            ],
            [
             "",
             {
              "type": "cellHeader",
+             "style": "th-skewer",
              "width": 2,
-             "entry": "No Harvesting Supplies",
-             "style": "th-skewer"
+             "entry": "No Harvesting Supplies"
             },
             {
              "type": "cellHeader",
+             "style": "th-skewer",
              "width": 2,
-             "entry": "With Harvesting Supplies",
-             "style": "th-skewer"
+             "entry": "With Harvesting Supplies"
             }
            ],
            [
@@ -12572,24 +12572,24 @@
             "",
             {
              "type": "cellHeader",
+             "style": "th-skewer",
              "width": 4,
-             "entry": "Component Value",
-             "style": "th-skewer"
+             "entry": "Component Value"
             }
            ],
            [
             "",
             {
              "type": "cellHeader",
+             "style": "th-skewer",
              "width": 2,
-             "entry": "No Harvesting Supplies",
-             "style": "th-skewer"
+             "entry": "No Harvesting Supplies"
             },
             {
              "type": "cellHeader",
+             "style": "th-skewer",
              "width": 2,
-             "entry": "With Harvesting Supplies",
-             "style": "th-skewer"
+             "entry": "With Harvesting Supplies"
             }
            ],
            [
@@ -12700,8 +12700,8 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "HelianasGuidetoMonsterHunting",
-        "name": "Essence Harvest Table"
+        "name": "Essence Harvest Table",
+        "source": "HelianasGuidetoMonsterHunting"
        },
        "You can't harvest a lower-level essence from a higher CR creature—they have only one essence, the one dictated by its CR!",
        {
@@ -12743,8 +12743,8 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "HelianasGuidetoMonsterHunting",
-        "name": "Aberration Harvest Table"
+        "name": "Aberration Harvest Table",
+        "source": "HelianasGuidetoMonsterHunting"
        }
       ]
      },
@@ -12763,8 +12763,8 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "HelianasGuidetoMonsterHunting",
-        "name": "Beast Harvest Table"
+        "name": "Beast Harvest Table",
+        "source": "HelianasGuidetoMonsterHunting"
        }
       ]
      },
@@ -12790,8 +12790,8 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "HelianasGuidetoMonsterHunting",
-        "name": "Celestial Harvest Table"
+        "name": "Celestial Harvest Table",
+        "source": "HelianasGuidetoMonsterHunting"
        }
       ]
      },
@@ -12803,8 +12803,8 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "HelianasGuidetoMonsterHunting",
-        "name": "Construct Harvest Table"
+        "name": "Construct Harvest Table",
+        "source": "HelianasGuidetoMonsterHunting"
        }
       ]
      },
@@ -12823,8 +12823,8 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "HelianasGuidetoMonsterHunting",
-        "name": "Dragon Harvest Table"
+        "name": "Dragon Harvest Table",
+        "source": "HelianasGuidetoMonsterHunting"
        }
       ]
      },
@@ -12853,8 +12853,8 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "HelianasGuidetoMonsterHunting",
-        "name": "Elemental Harvest Table"
+        "name": "Elemental Harvest Table",
+        "source": "HelianasGuidetoMonsterHunting"
        }
       ]
      },
@@ -12874,8 +12874,8 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "HelianasGuidetoMonsterHunting",
-        "name": "Fey Harvest Table"
+        "name": "Fey Harvest Table",
+        "source": "HelianasGuidetoMonsterHunting"
        }
       ]
      },
@@ -12894,8 +12894,8 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "HelianasGuidetoMonsterHunting",
-        "name": "Fiend Harvest Table"
+        "name": "Fiend Harvest Table",
+        "source": "HelianasGuidetoMonsterHunting"
        }
       ]
      },
@@ -12907,8 +12907,8 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "HelianasGuidetoMonsterHunting",
-        "name": "Giant Harvest Table"
+        "name": "Giant Harvest Table",
+        "source": "HelianasGuidetoMonsterHunting"
        }
       ]
      },
@@ -12927,8 +12927,8 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "HelianasGuidetoMonsterHunting",
-        "name": "Humanoid Harvest Table"
+        "name": "Humanoid Harvest Table",
+        "source": "HelianasGuidetoMonsterHunting"
        }
       ]
      },
@@ -12940,8 +12940,8 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "HelianasGuidetoMonsterHunting",
-        "name": "Monstrosity Harvest Table"
+        "name": "Monstrosity Harvest Table",
+        "source": "HelianasGuidetoMonsterHunting"
        }
       ]
      },
@@ -12953,8 +12953,8 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "HelianasGuidetoMonsterHunting",
-        "name": "Ooze Harvest Table"
+        "name": "Ooze Harvest Table",
+        "source": "HelianasGuidetoMonsterHunting"
        },
        {
         "type": "inset",
@@ -12964,8 +12964,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Ooze Random Components Table"
+          "name": "Ooze Random Components Table",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        }
@@ -12979,8 +12979,8 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "HelianasGuidetoMonsterHunting",
-        "name": "Plant Harvest Table"
+        "name": "Plant Harvest Table",
+        "source": "HelianasGuidetoMonsterHunting"
        }
       ]
      },
@@ -12992,8 +12992,8 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "HelianasGuidetoMonsterHunting",
-        "name": "Undead Harvest Table"
+        "name": "Undead Harvest Table",
+        "source": "HelianasGuidetoMonsterHunting"
        }
       ]
      }
@@ -13067,15 +13067,15 @@
      {
       "type": "statblock",
       "tag": "table",
-      "source": "HelianasGuidetoMonsterHunting",
       "name": "Mundane Ingredients Metadata",
+      "source": "HelianasGuidetoMonsterHunting",
       "collapsed": true
      },
      {
       "type": "statblock",
       "tag": "table",
-      "source": "HelianasGuidetoMonsterHunting",
       "name": "Finding Mundane Ingredients",
+      "source": "HelianasGuidetoMonsterHunting",
       "collapsed": true
      },
      {
@@ -13472,9 +13472,9 @@
       "",
       {
        "type": "cellHeader",
+       "style": "th-skewer",
        "width": 5,
-       "entry": "DC By Environment",
-       "style": "th-skewer"
+       "entry": "DC By Environment"
       }
      ],
      [
@@ -13556,74 +13556,74 @@
    {
     "type": "statblock",
     "tag": "hazard",
-    "source": "NorthlandsWorldbook",
-    "name": "Extreme Cold"
+    "name": "Extreme Cold",
+    "source": "NorthlandsWorldbook"
    },
    {
     "type": "statblock",
     "tag": "hazard",
-    "source": "NorthlandsWorldbook",
-    "name": "Foraging for Food"
+    "name": "Foraging for Food",
+    "source": "NorthlandsWorldbook"
    },
    {
     "type": "statblock",
     "tag": "hazard",
-    "source": "NorthlandsWorldbook",
-    "name": "Frigid Water"
+    "name": "Frigid Water",
+    "source": "NorthlandsWorldbook"
    },
    {
     "type": "statblock",
     "tag": "hazard",
-    "source": "NorthlandsWorldbook",
-    "name": "Heavy Precipitation"
+    "name": "Heavy Precipitation",
+    "source": "NorthlandsWorldbook"
    },
    {
     "type": "statblock",
     "tag": "hazard",
-    "source": "NorthlandsWorldbook",
-    "name": "High Altitude (10,000 ft–25,000 ft)"
+    "name": "High Altitude (10,000 ft–25,000 ft)",
+    "source": "NorthlandsWorldbook"
    },
    {
     "type": "statblock",
     "tag": "hazard",
-    "source": "NorthlandsWorldbook",
-    "name": "High Altitude (25,000 ft+)"
+    "name": "High Altitude (25,000 ft+)",
+    "source": "NorthlandsWorldbook"
    },
    {
     "type": "statblock",
     "tag": "hazard",
-    "source": "NorthlandsWorldbook",
-    "name": "Hypothermia and Frostbite"
+    "name": "Hypothermia and Frostbite",
+    "source": "NorthlandsWorldbook"
    },
    {
     "type": "statblock",
     "tag": "hazard",
-    "source": "NorthlandsWorldbook",
-    "name": "Slippery Ice"
+    "name": "Slippery Ice",
+    "source": "NorthlandsWorldbook"
    },
    {
     "type": "statblock",
     "tag": "hazard",
-    "source": "NorthlandsWorldbook",
-    "name": "Snow Blindness"
+    "name": "Snow Blindness",
+    "source": "NorthlandsWorldbook"
    },
    {
     "type": "statblock",
     "tag": "hazard",
-    "source": "NorthlandsWorldbook",
-    "name": "Strong Wind"
+    "name": "Strong Wind",
+    "source": "NorthlandsWorldbook"
    },
    {
     "type": "statblock",
     "tag": "hazard",
-    "source": "NorthlandsWorldbook",
-    "name": "Thin Ice"
+    "name": "Thin Ice",
+    "source": "NorthlandsWorldbook"
    },
    {
     "type": "statblock",
     "tag": "hazard",
-    "source": "NorthlandsWorldbook",
-    "name": "Travel Pace in the North"
+    "name": "Travel Pace in the North",
+    "source": "NorthlandsWorldbook"
    }
   ]
  },
@@ -13772,26 +13772,26 @@
      {
       "type": "statblock",
       "tag": "condition",
-      "source": "ObojimaTalesYatamon",
-      "name": "Flipped"
+      "name": "Flipped",
+      "source": "ObojimaTalesYatamon"
      },
      {
       "type": "statblock",
       "tag": "condition",
-      "source": "ObojimaTalesYatamon",
-      "name": "Immobile"
+      "name": "Immobile",
+      "source": "ObojimaTalesYatamon"
      },
      {
       "type": "statblock",
       "tag": "condition",
-      "source": "ObojimaTalesYatamon",
-      "name": "Locked"
+      "name": "Locked",
+      "source": "ObojimaTalesYatamon"
      },
      {
       "type": "statblock",
       "tag": "condition",
-      "source": "ObojimaTalesYatamon",
-      "name": "Uncontrolled"
+      "name": "Uncontrolled",
+      "source": "ObojimaTalesYatamon"
      }
     ]
    },
@@ -13911,8 +13911,8 @@
      {
       "type": "statblock",
       "tag": "table",
-      "source": "ObojimaTalesYatamon",
-      "name": "Vehicles Table"
+      "name": "Vehicles Table",
+      "source": "ObojimaTalesYatamon"
      }
     ]
    }
@@ -14185,8 +14185,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "NorthlandsWorldbook",
-          "name": "Prophecy Roll Table"
+          "name": "Prophecy Roll Table",
+          "source": "NorthlandsWorldbook"
          }
         ]
        },
@@ -14200,8 +14200,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "NorthlandsWorldbook",
-          "name": "Legendary Benefits and Dire Consequences"
+          "name": "Legendary Benefits and Dire Consequences",
+          "source": "NorthlandsWorldbook"
          }
         ]
        },
@@ -14219,8 +14219,8 @@
            {
             "type": "statblock",
             "tag": "table",
-            "source": "NorthlandsWorldbook",
-            "name": "Trigger Table"
+            "name": "Trigger Table",
+            "source": "NorthlandsWorldbook"
            }
           ]
          },
@@ -14233,8 +14233,8 @@
            {
             "type": "statblock",
             "tag": "table",
-            "source": "NorthlandsWorldbook",
-            "name": "Action Table"
+            "name": "Action Table",
+            "source": "NorthlandsWorldbook"
            }
           ]
          },
@@ -14249,8 +14249,8 @@
            {
             "type": "statblock",
             "tag": "table",
-            "source": "NorthlandsWorldbook",
-            "name": "Outcome Table"
+            "name": "Outcome Table",
+            "source": "NorthlandsWorldbook"
            }
           ]
          },
@@ -14425,26 +14425,26 @@
      {
       "type": "statblock",
       "tag": "table",
-      "source": "NorthlandsWorldbook",
-      "name": "Omen Types"
+      "name": "Omen Types",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "table",
-      "source": "NorthlandsWorldbook",
-      "name": "Hopeful Omens"
+      "name": "Hopeful Omens",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "table",
-      "source": "NorthlandsWorldbook",
-      "name": "Foreboding Omens"
+      "name": "Foreboding Omens",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "table",
-      "source": "NorthlandsWorldbook",
-      "name": "Mysterious Omens"
+      "name": "Mysterious Omens",
+      "source": "NorthlandsWorldbook"
      }
     ]
    }
@@ -14507,8 +14507,8 @@
      {
       "type": "statblock",
       "tag": "table",
-      "source": "NorthlandsWorldbook",
-      "name": "Raiding Targets (Abstracted)"
+      "name": "Raiding Targets (Abstracted)",
+      "source": "NorthlandsWorldbook"
      }
     ]
    },
@@ -14613,8 +14613,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "NorthlandsWorldbook",
-          "name": "Raiding Targets (As an Encounter)"
+          "name": "Raiding Targets (As an Encounter)",
+          "source": "NorthlandsWorldbook"
          }
         ]
        },
@@ -14628,8 +14628,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "NorthlandsWorldbook",
-          "name": "Ship Upgrades"
+          "name": "Ship Upgrades",
+          "source": "NorthlandsWorldbook"
          }
         ]
        },
@@ -14643,8 +14643,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "NorthlandsWorldbook",
-          "name": "Extra Warriors"
+          "name": "Extra Warriors",
+          "source": "NorthlandsWorldbook"
          }
         ]
        },
@@ -14656,8 +14656,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "NorthlandsWorldbook",
-          "name": "Special Resources"
+          "name": "Special Resources",
+          "source": "NorthlandsWorldbook"
          }
         ]
        }
@@ -14676,8 +14676,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "NorthlandsWorldbook",
-          "name": "Sea/Land Journey Table"
+          "name": "Sea/Land Journey Table",
+          "source": "NorthlandsWorldbook"
          }
         ]
        }
@@ -14704,8 +14704,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "NorthlandsWorldbook",
-          "name": "Raiding Roll"
+          "name": "Raiding Roll",
+          "source": "NorthlandsWorldbook"
          }
         ]
        },
@@ -14743,8 +14743,8 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "NorthlandsWorldbook",
-        "name": "Spoils Exchange"
+        "name": "Spoils Exchange",
+        "source": "NorthlandsWorldbook"
        }
       ]
      },
@@ -14837,14 +14837,14 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "NorthlandsWorldbook",
-        "name": "Reputation Thresholds"
+        "name": "Reputation Thresholds",
+        "source": "NorthlandsWorldbook"
        },
        {
         "type": "statblock",
         "tag": "table",
-        "source": "NorthlandsWorldbook",
-        "name": "Threshold Regional Benefits"
+        "name": "Threshold Regional Benefits",
+        "source": "NorthlandsWorldbook"
        }
       ]
      }
@@ -15133,8 +15133,8 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "NorthlandsWorldbook",
-        "name": "Wind"
+        "name": "Wind",
+        "source": "NorthlandsWorldbook"
        }
       ]
      },
@@ -15146,14 +15146,14 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "NorthlandsWorldbook",
-        "name": "Precipitation"
+        "name": "Precipitation",
+        "source": "NorthlandsWorldbook"
        },
        {
         "type": "statblock",
         "tag": "table",
-        "source": "NorthlandsWorldbook",
-        "name": "Unusual Weather"
+        "name": "Unusual Weather",
+        "source": "NorthlandsWorldbook"
        }
       ]
      }
@@ -15198,8 +15198,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "NorthlandsWorldbook",
-          "name": "Damage to the Ship"
+          "name": "Damage to the Ship",
+          "source": "NorthlandsWorldbook"
          }
         ]
        }
@@ -15244,92 +15244,92 @@
      {
       "type": "statblock",
       "tag": "action",
-      "source": "NorthlandsWorldbook",
-      "name": "All Stop"
+      "name": "All Stop",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "action",
-      "source": "NorthlandsWorldbook",
-      "name": "Come About"
+      "name": "Come About",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "action",
-      "source": "NorthlandsWorldbook",
-      "name": "Disable Station"
+      "name": "Disable Station",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "action",
-      "source": "NorthlandsWorldbook",
-      "name": "Escape a Grapple"
+      "name": "Escape a Grapple",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "action",
-      "source": "NorthlandsWorldbook",
-      "name": "Evasive Maneuver"
+      "name": "Evasive Maneuver",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "action",
-      "source": "NorthlandsWorldbook",
-      "name": "Force Position"
+      "name": "Force Position",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "action",
-      "source": "NorthlandsWorldbook",
-      "name": "Full Speed Ahead"
+      "name": "Full Speed Ahead",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "action",
-      "source": "NorthlandsWorldbook",
-      "name": "Grapple"
+      "name": "Grapple",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "action",
-      "source": "NorthlandsWorldbook",
-      "name": "Hold Her Steady"
+      "name": "Hold Her Steady",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "action",
-      "source": "NorthlandsWorldbook",
-      "name": "Motivate"
+      "name": "Motivate",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "action",
-      "source": "NorthlandsWorldbook",
-      "name": "Operate Ship Weapon"
+      "name": "Operate Ship Weapon",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "action",
-      "source": "NorthlandsWorldbook",
-      "name": "Patch"
+      "name": "Patch",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "action",
-      "source": "NorthlandsWorldbook",
-      "name": "Ram"
+      "name": "Ram",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "action",
-      "source": "NorthlandsWorldbook",
-      "name": "Sheer"
+      "name": "Sheer",
+      "source": "NorthlandsWorldbook"
      },
      {
       "type": "statblock",
       "tag": "table",
-      "source": "NorthlandsWorldbook",
-      "name": "Disable Station"
+      "name": "Disable Station",
+      "source": "NorthlandsWorldbook"
      }
     ]
    }
@@ -15350,8 +15350,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/book/Chapter3-Skyship.webp"
     },
-    "credit": "{@link Svetoslav Petrov|https://artstation.com/svetoslavpetrov}",
-    "altText": "A skyship, its white sails entirely unfurled, flies through a dusky, red sky. The ship emanates a glowing, blue arcane magic below it, keeping it aloft."
+    "altText": "A skyship, its white sails entirely unfurled, flies through a dusky, red sky. The ship emanates a glowing, blue arcane magic below it, keeping it aloft.",
+    "credit": "{@link Svetoslav Petrov|https://artstation.com/svetoslavpetrov}"
    }
   ]
  },
@@ -15913,8 +15913,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Narrative Arctic Encounters"
+          "name": "Narrative Arctic Encounters",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        },
@@ -15925,8 +15925,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Hostile Arctic Encounters"
+          "name": "Hostile Arctic Encounters",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        },
@@ -15944,8 +15944,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Narrative Coast Encounters"
+          "name": "Narrative Coast Encounters",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        },
@@ -15956,8 +15956,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Hostile Coast Encounters"
+          "name": "Hostile Coast Encounters",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        },
@@ -15975,8 +15975,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Narrative Desert Encounters"
+          "name": "Narrative Desert Encounters",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        },
@@ -15987,8 +15987,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Hostile Desert Encounters"
+          "name": "Hostile Desert Encounters",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        },
@@ -16006,8 +16006,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Narrative Forest Encounters"
+          "name": "Narrative Forest Encounters",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        },
@@ -16018,8 +16018,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Hostile Forest Encounters"
+          "name": "Hostile Forest Encounters",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        },
@@ -16037,8 +16037,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Narrative Grassland Encounters"
+          "name": "Narrative Grassland Encounters",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        },
@@ -16049,8 +16049,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Hostile Grassland Encounters"
+          "name": "Hostile Grassland Encounters",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        },
@@ -16068,8 +16068,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Narrative Hill Encounters"
+          "name": "Narrative Hill Encounters",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        },
@@ -16080,8 +16080,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Hostile Hill Encounters"
+          "name": "Hostile Hill Encounters",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        },
@@ -16099,8 +16099,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Narrative Jungle Encounters"
+          "name": "Narrative Jungle Encounters",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        },
@@ -16111,8 +16111,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Hostile Jungle Encounters"
+          "name": "Hostile Jungle Encounters",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        },
@@ -16130,8 +16130,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Narrative Mountain Encounters"
+          "name": "Narrative Mountain Encounters",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        },
@@ -16142,8 +16142,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Hostile Mountain Encounters"
+          "name": "Hostile Mountain Encounters",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        },
@@ -16161,8 +16161,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Narrative Swamp Encounters"
+          "name": "Narrative Swamp Encounters",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        },
@@ -16173,8 +16173,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Hostile Swamp Encounters"
+          "name": "Hostile Swamp Encounters",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        },
@@ -16192,8 +16192,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Narrative The Low Encounters"
+          "name": "Narrative The Low Encounters",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        },
@@ -16204,8 +16204,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Hostile The Low Encounters"
+          "name": "Hostile The Low Encounters",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        },
@@ -16223,8 +16223,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Narrative Urban Encounters"
+          "name": "Narrative Urban Encounters",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        },
@@ -16235,8 +16235,8 @@
          {
           "type": "statblock",
           "tag": "table",
-          "source": "HelianasGuidetoMonsterHunting",
-          "name": "Hostile Urban Encounters"
+          "name": "Hostile Urban Encounters",
+          "source": "HelianasGuidetoMonsterHunting"
          }
         ]
        },

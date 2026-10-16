@@ -3,18 +3,18 @@
   "name": "Bicycle",
   "source": "ObojimaTalesYatamon",
   "vehicleType": "SHIP",
+  "size": "M",
   "terrain": [
    "land"
   ],
-  "size": "M",
+  "capCrew": 1,
+  "capCargo": 0.01,
   "pace": 15,
   "hull": {
    "ac": 11,
    "hp": 10,
    "dt": 0
   },
-  "capCrew": 1,
-  "capCargo": 0.01,
   "movement": [
    {
     "name": "Combat Speed",
@@ -44,15 +44,15 @@
     "name": "Vehicle Properties",
     "entries": [
      {
-      "name": "Classification: Mounted",
       "type": "entries",
+      "name": "Classification: Mounted",
       "entries": [
        "The vehicle has no entry point and is straddled rather than entered."
       ]
      },
      {
-      "name": "Vehicle Properties",
       "type": "entries",
+      "name": "Vehicle Properties",
       "entries": [
        {
         "type": "entries",
@@ -85,8 +85,8 @@
       ]
      },
      {
-      "name": "Size Modifier: 1",
       "type": "entries",
+      "name": "Size Modifier: 1",
       "entries": [
        "Ramming dice: {@damage 1d6}",
        "Spirit-Whelmed Vehicles CR: 1",
@@ -96,11 +96,11 @@
     ]
    }
   ],
-  "hasToken": true,
   "tokenHref": {
    "type": "external",
    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Bicycle_Token.webp"
   },
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -108,33 +108,36 @@
   "name": "Dog Sled",
   "source": "NorthlandsWorldbook",
   "vehicleType": "SHIP",
+  "size": "L",
   "terrain": [
    "land"
   ],
-  "size": "L",
+  "capCrew": 1,
+  "capPassenger": 3,
+  "capCargo": 0.8,
   "pace": 5,
   "hull": {
    "ac": 11,
    "hp": 50,
    "dt": 5
   },
-  "capCrew": 1,
-  "capPassenger": 3,
-  "capCargo": 0.8,
   "hasFluff": true
  },
  {
   "name": "Drakkar",
   "source": "NorthlandsWorldbook",
   "vehicleType": "SHIP",
-  "terrain": [
-   "sea"
-  ],
   "size": "G",
   "dimensions": [
    "140 ft.",
    "20 ft."
   ],
+  "terrain": [
+   "sea"
+  ],
+  "capCrew": 80,
+  "capPassenger": 20,
+  "capCargo": 60,
   "pace": 4,
   "str": 26,
   "dex": 4,
@@ -164,9 +167,20 @@
    "hp": 400,
    "dt": 20
   },
-  "capCrew": 80,
-  "capPassenger": 20,
-  "capCargo": 60,
+  "other": [
+   {
+    "name": "Sails and Rowing",
+    "entries": [
+     "While in {@variantrule Initiative|XPHB}, the drakkar's listed {@variantrule Speed|XPHB} is its sailing speed. Reduce this in half when sailing against the wind. When rowing, a drakkar's {@variantrule Speed|XPHB} is 20 ft."
+    ]
+   },
+   {
+    "name": "Initiative",
+    "entries": [
+     "The drakkar has an {@variantrule Initiative|XPHB} modifier of +4."
+    ]
+   }
+  ],
   "action": [
    "On its turn, the drakkar can take two actions, choosing from the options below (it can take the same action multiple times). It can take only one action if it has fewer than 40 crew. It can't move or take actions if it has fewer than 3 crew.",
    {
@@ -196,44 +210,30 @@
     ]
    }
   ],
-  "other": [
-   {
-    "name": "Sails and Rowing",
-    "entries": [
-     "While in {@variantrule Initiative|XPHB}, the drakkar's listed {@variantrule Speed|XPHB} is its sailing speed. Reduce this in half when sailing against the wind. When rowing, a drakkar's {@variantrule Speed|XPHB} is 20 ft."
-    ]
-   },
-   {
-    "name": "Initiative",
-    "entries": [
-     "The drakkar has an {@variantrule Initiative|XPHB} modifier of +4."
-    ]
-   }
-  ],
-  "hasFluff": true,
-  "hasToken": true,
   "tokenHref": {
    "type": "external",
    "url": "https://raw.githubusercontent.com/JuliTutu/homebrew-img/main/img/NorthlandsWorldbook/Items/Drakkar_Token.webp"
   },
+  "hasToken": true,
+  "hasFluff": true,
   "hasFluffImages": true
  },
  {
   "name": "Flying Broom",
   "source": "ObojimaTalesYatamon",
   "vehicleType": "SHIP",
+  "size": "M",
   "terrain": [
    "air"
   ],
-  "size": "M",
+  "capCrew": 1,
+  "capCargo": 0.01,
   "pace": 10,
   "hull": {
    "ac": 11,
    "hp": 10,
    "dt": 0
   },
-  "capCrew": 1,
-  "capCargo": 0.01,
   "movement": [
    {
     "name": "Combat Speed",
@@ -263,15 +263,15 @@
     "name": "Vehicle Properties",
     "entries": [
      {
-      "name": "Classification: Mounted",
       "type": "entries",
+      "name": "Classification: Mounted",
       "entries": [
        "The vehicle has no entry point and is straddled rather than entered."
       ]
      },
      {
-      "name": "Vehicle Properties",
       "type": "entries",
+      "name": "Vehicle Properties",
       "entries": [
        {
         "type": "entries",
@@ -304,8 +304,8 @@
       ]
      },
      {
-      "name": "Size Modifier: 1",
       "type": "entries",
+      "name": "Size Modifier: 1",
       "entries": [
        "Spirit-Whelmed Vehicles CR: 1",
        "{@condition Flipped|ObojimaTalesYatamon} {@dc 10}"
@@ -314,11 +314,11 @@
     ]
    }
   ],
-  "hasToken": true,
   "tokenHref": {
    "type": "external",
    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Flying_Broom_Token.webp"
   },
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -326,19 +326,19 @@
   "name": "Flying Lantern",
   "source": "ObojimaTalesYatamon",
   "vehicleType": "SHIP",
+  "size": "H",
   "terrain": [
    "air"
   ],
-  "size": "H",
+  "capCrew": 1,
+  "capPassenger": 5,
+  "capCargo": 1,
   "pace": 10,
   "hull": {
    "ac": 14,
    "hp": 80,
    "dt": 10
   },
-  "capCrew": 1,
-  "capPassenger": 5,
-  "capCargo": 1,
   "movement": [
    {
     "name": "Combat Speed",
@@ -369,15 +369,15 @@
     "name": "Vehicle Properties",
     "entries": [
      {
-      "name": "Classification: Piloted",
       "type": "entries",
+      "name": "Classification: Piloted",
       "entries": [
        "The vehicle requires a creature to enter it in order to operate it. Creatures inside this vehicle have {@variantrule Cover|XPHB|Half Cover}."
       ]
      },
      {
-      "name": "Vehicle Properties",
       "type": "entries",
+      "name": "Vehicle Properties",
       "entries": [
        {
         "type": "entries",
@@ -389,8 +389,8 @@
       ]
      },
      {
-      "name": "Size Modifier: 3",
       "type": "entries",
+      "name": "Size Modifier: 3",
       "entries": [
        "Ramming dice: {@damage 3d6}",
        "Spirit-Whelmed Vehicles CR: 3",
@@ -400,11 +400,11 @@
     ]
    }
   ],
-  "hasToken": true,
   "tokenHref": {
    "type": "external",
    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Flying_Lantern_Token.webp"
   },
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -412,19 +412,19 @@
   "name": "K-Truck",
   "source": "ObojimaTalesYatamon",
   "vehicleType": "SHIP",
+  "size": "L",
   "terrain": [
    "land"
   ],
-  "size": "L",
+  "capCrew": 1,
+  "capPassenger": 1,
+  "capCargo": 0.5,
   "pace": 40,
   "hull": {
    "ac": 13,
    "hp": 75,
    "dt": 10
   },
-  "capCrew": 1,
-  "capPassenger": 1,
-  "capCargo": 0.5,
   "movement": [
    {
     "name": "Combat Speed",
@@ -455,15 +455,15 @@
     "name": "Vehicle Properties",
     "entries": [
      {
-      "name": "Classification: Piloted",
       "type": "entries",
+      "name": "Classification: Piloted",
       "entries": [
        "The vehicle requires a creature to enter it in order to operate it. Creatures inside this vehicle have {@variantrule Cover|XPHB|Half Cover}."
       ]
      },
      {
-      "name": "Vehicle Properties",
       "type": "entries",
+      "name": "Vehicle Properties",
       "entries": [
        {
         "type": "entries",
@@ -475,8 +475,8 @@
       ]
      },
      {
-      "name": "Size Modifier: 2",
       "type": "entries",
+      "name": "Size Modifier: 2",
       "entries": [
        "Ramming dice: {@damage 2d6}",
        "Spirit-Whelmed Vehicles CR: 2",
@@ -486,11 +486,11 @@
     ]
    }
   ],
-  "hasToken": true,
   "tokenHref": {
    "type": "external",
    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/K-Truck_Token.webp"
   },
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -498,14 +498,17 @@
   "name": "Karvi",
   "source": "NorthlandsWorldbook",
   "vehicleType": "SHIP",
-  "terrain": [
-   "sea"
-  ],
   "size": "G",
   "dimensions": [
    "55 ft.",
    "12 ft."
   ],
+  "terrain": [
+   "sea"
+  ],
+  "capCrew": 16,
+  "capPassenger": 4,
+  "capCargo": 25,
   "pace": 3,
   "str": 16,
   "dex": 6,
@@ -535,9 +538,20 @@
    "hp": 100,
    "dt": 10
   },
-  "capCrew": 16,
-  "capPassenger": 4,
-  "capCargo": 25,
+  "other": [
+   {
+    "name": "Sails",
+    "entries": [
+     "While in {@variantrule Initiative|XPHB}, the karvi's {@variantrule Speed|XPHB} is reduced to 15 ft. when sailing against the wind. While sailing with the wind, its {@variantrule Speed|XPHB} becomes 55 feet."
+    ]
+   },
+   {
+    "name": "Initiative",
+    "entries": [
+     "The karvi has an {@variantrule Initiative|XPHB} modifier of +7."
+    ]
+   }
+  ],
   "action": [
    "On its turn, the karvi can take one action, choosing from the options below. It can't move or take actions if it has fewer than 2 crew.",
    {
@@ -557,34 +571,23 @@
     ]
    }
   ],
-  "other": [
-   {
-    "name": "Sails",
-    "entries": [
-     "While in {@variantrule Initiative|XPHB}, the karvi's {@variantrule Speed|XPHB} is reduced to 15 ft. when sailing against the wind. While sailing with the wind, its {@variantrule Speed|XPHB} becomes 55 feet."
-    ]
-   },
-   {
-    "name": "Initiative",
-    "entries": [
-     "The karvi has an {@variantrule Initiative|XPHB} modifier of +7."
-    ]
-   }
-  ],
   "hasFluff": true
  },
  {
   "name": "Knarr",
   "source": "NorthlandsWorldbook",
   "vehicleType": "SHIP",
-  "terrain": [
-   "sea"
-  ],
   "size": "G",
   "dimensions": [
    "50 ft.",
    "15 ft."
   ],
+  "terrain": [
+   "sea"
+  ],
+  "capCrew": 10,
+  "capPassenger": 15,
+  "capCargo": 50,
   "pace": 2,
   "str": 16,
   "dex": 6,
@@ -614,28 +617,6 @@
    "hp": 200,
    "dt": 10
   },
-  "capCrew": 10,
-  "capPassenger": 15,
-  "capCargo": 50,
-  "action": [
-   "On its turn, the knarr can take one action, choosing from the options below. It can't move or take actions if it has fewer than 2 crew.",
-   {
-    "type": "list",
-    "style": "list-hang-notitle",
-    "items": [
-     {
-      "type": "item",
-      "name": "Row",
-      "entry": "The knarr takes the {@action Dash|XPHB} action."
-     },
-     {
-      "type": "item",
-      "name": "Volley",
-      "entry": "Archers release a volley of arrows at a point within 600 feet. Creatures within 30 feet of that point must make a {@dc 12} Dexterity saving throw, taking 9 ({@damage 2d8}) Piercing damage on a failed save, or half as much damage on a success. Creatures that fail the saving throw by 5 or more have their {@variantrule Speed|XPHB} reduced by 10 feet until the start of the karvi's next turn."
-     }
-    ]
-   }
-  ],
   "other": [
    {
     "name": "Deep Keel",
@@ -656,25 +637,44 @@
     ]
    }
   ],
+  "action": [
+   "On its turn, the knarr can take one action, choosing from the options below. It can't move or take actions if it has fewer than 2 crew.",
+   {
+    "type": "list",
+    "style": "list-hang-notitle",
+    "items": [
+     {
+      "type": "item",
+      "name": "Row",
+      "entry": "The knarr takes the {@action Dash|XPHB} action."
+     },
+     {
+      "type": "item",
+      "name": "Volley",
+      "entry": "Archers release a volley of arrows at a point within 600 feet. Creatures within 30 feet of that point must make a {@dc 12} Dexterity saving throw, taking 9 ({@damage 2d8}) Piercing damage on a failed save, or half as much damage on a success. Creatures that fail the saving throw by 5 or more have their {@variantrule Speed|XPHB} reduced by 10 feet until the start of the karvi's next turn."
+     }
+    ]
+   }
+  ],
   "hasFluff": true
  },
  {
   "name": "Motorcycle",
   "source": "ObojimaTalesYatamon",
   "vehicleType": "SHIP",
+  "size": "M",
   "terrain": [
    "land"
   ],
-  "size": "M",
+  "capCrew": 1,
+  "capPassenger": 1,
+  "capCargo": 0.05,
   "pace": 75,
   "hull": {
    "ac": 13,
    "hp": 40,
    "dt": 5
   },
-  "capCrew": 1,
-  "capPassenger": 1,
-  "capCargo": 0.05,
   "movement": [
    {
     "name": "Combat Speed",
@@ -705,15 +705,15 @@
     "name": "Vehicle Properties",
     "entries": [
      {
-      "name": "Classification: Mounted",
       "type": "entries",
+      "name": "Classification: Mounted",
       "entries": [
        "The vehicle has no entry point and is straddled rather than entered."
       ]
      },
      {
-      "name": "Vehicle Properties",
       "type": "entries",
+      "name": "Vehicle Properties",
       "entries": [
        {
         "type": "entries",
@@ -732,8 +732,8 @@
       ]
      },
      {
-      "name": "Size Modifier: 1",
       "type": "entries",
+      "name": "Size Modifier: 1",
       "entries": [
        "Ramming dice: {@damage 1d6}",
        "Spirit-Whelmed Vehicles CR: 1",
@@ -743,11 +743,11 @@
     ]
    }
   ],
-  "hasToken": true,
   "tokenHref": {
    "type": "external",
    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Motorcycle_Token.webp"
   },
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -755,37 +755,18 @@
   "name": "Ogre War Sled (pulled by two Worgs)",
   "source": "NorthlandsWorldbook",
   "vehicleType": "SHIP",
+  "size": "H",
   "terrain": [
    "land"
   ],
-  "size": "H",
+  "capCrew": 2,
+  "capCargo": 1,
   "pace": 4,
-  "action": [
-   "On its turn, the driver of the war sled may use one of the following actions in place of its normal actions",
-   {
-    "type": "list",
-    "style": "list-hang-notitle",
-    "items": [
-     {
-      "type": "item",
-      "name": "Sled Trample",
-      "entry": "The sled moves at least 30 feet in a straight line. Each creature trampled by the sled must make a {@dc 15} Dexterity saving throw. On a failed save, a creature takes {@damage 2d10} Bludgeoning and {@damage 2d10} Slashing damage, and has the {@condition Prone|XPHB} condition. On a successful save, the target takes half as much damage and does not have the {@condition Prone|XPHB} condition."
-     },
-     {
-      "type": "item",
-      "name": "Worg Attack",
-      "entry": "The sled moves at least 10 feet in a straight line, ending adjacent to a creature or object. The two {@creature Worg|XMM|Worgs} pulling the sled may each make one attack against the target. If both {@creature Worg|XMM|Worgs} hit with their attacks, the driver may also make one melee weapon attack against the target."
-     }
-    ]
-   }
-  ],
   "hull": {
    "ac": 17,
    "hp": 175,
    "dt": 10
   },
-  "capCrew": 2,
-  "capCargo": 1,
   "other": [
    {
     "name": "Bulky Construction",
@@ -806,31 +787,50 @@
     ]
    }
   ],
-  "hasFluff": true,
-  "hasToken": true,
+  "action": [
+   "On its turn, the driver of the war sled may use one of the following actions in place of its normal actions",
+   {
+    "type": "list",
+    "style": "list-hang-notitle",
+    "items": [
+     {
+      "type": "item",
+      "name": "Sled Trample",
+      "entry": "The sled moves at least 30 feet in a straight line. Each creature trampled by the sled must make a {@dc 15} Dexterity saving throw. On a failed save, a creature takes {@damage 2d10} Bludgeoning and {@damage 2d10} Slashing damage, and has the {@condition Prone|XPHB} condition. On a successful save, the target takes half as much damage and does not have the {@condition Prone|XPHB} condition."
+     },
+     {
+      "type": "item",
+      "name": "Worg Attack",
+      "entry": "The sled moves at least 10 feet in a straight line, ending adjacent to a creature or object. The two {@creature Worg|XMM|Worgs} pulling the sled may each make one attack against the target. If both {@creature Worg|XMM|Worgs} hit with their attacks, the driver may also make one melee weapon attack against the target."
+     }
+    ]
+   }
+  ],
   "tokenHref": {
    "type": "external",
    "url": "https://raw.githubusercontent.com/JuliTutu/homebrew-img/main/img/NorthlandsWorldbook/Items/Ogre_War_Sled_Token.webp"
   },
+  "hasToken": true,
+  "hasFluff": true,
   "hasFluffImages": true
  },
  {
   "name": "Scooter / Vespa",
   "source": "ObojimaTalesYatamon",
   "vehicleType": "SHIP",
+  "size": "M",
   "terrain": [
    "land"
   ],
-  "size": "M",
+  "capCrew": 1,
+  "capPassenger": 1,
+  "capCargo": 0.025,
   "pace": 20,
   "hull": {
    "ac": 12,
    "hp": 30,
    "dt": 5
   },
-  "capCrew": 1,
-  "capPassenger": 1,
-  "capCargo": 0.025,
   "movement": [
    {
     "name": "Combat Speed",
@@ -861,15 +861,15 @@
     "name": "Vehicle Properties",
     "entries": [
      {
-      "name": "Classification: Mounted",
       "type": "entries",
+      "name": "Classification: Mounted",
       "entries": [
        "The vehicle has no entry point and is straddled rather than entered."
       ]
      },
      {
-      "name": "Vehicle Properties",
       "type": "entries",
+      "name": "Vehicle Properties",
       "entries": [
        {
         "type": "entries",
@@ -888,8 +888,8 @@
       ]
      },
      {
-      "name": "Size Modifier: 1",
       "type": "entries",
+      "name": "Size Modifier: 1",
       "entries": [
        "Ramming dice: {@damage 1d6}",
        "Spirit-Whelmed Vehicles CR: 1",
@@ -899,11 +899,11 @@
     ]
    }
   ],
-  "hasToken": true,
   "tokenHref": {
    "type": "external",
    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Scooter_Vespa_Token.webp"
   },
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -911,14 +911,17 @@
   "name": "Skeid",
   "source": "NorthlandsWorldbook",
   "vehicleType": "SHIP",
-  "terrain": [
-   "sea"
-  ],
   "size": "G",
   "dimensions": [
    "100 ft.",
    "15 ft."
   ],
+  "terrain": [
+   "sea"
+  ],
+  "capCrew": 50,
+  "capPassenger": 30,
+  "capCargo": 20,
   "pace": 5,
   "str": 22,
   "dex": 6,
@@ -948,9 +951,20 @@
    "hp": 350,
    "dt": 15
   },
-  "capCrew": 50,
-  "capPassenger": 30,
-  "capCargo": 20,
+  "other": [
+   {
+    "name": "Sails",
+    "entries": [
+     "While in {@variantrule Initiative|XPHB}, the skeid's {@variantrule Speed|XPHB} is reduced to 15 ft. when sailing against the wind. While sailing with the wind, its {@variantrule Speed|XPHB} becomes 70 feet."
+    ]
+   },
+   {
+    "name": "Initiative",
+    "entries": [
+     "The skeid has an {@variantrule Initiative|XPHB} modifier of +6."
+    ]
+   }
+  ],
   "action": [
    "On its turn, the skeid can take two actions, choosing from the options below (it can take the same action multiple times). It can take only one action if it has fewer than 25 crew. It can't move or take actions if it has fewer than 3 crew.",
    {
@@ -980,39 +994,25 @@
     ]
    }
   ],
-  "other": [
-   {
-    "name": "Sails",
-    "entries": [
-     "While in {@variantrule Initiative|XPHB}, the skeid's {@variantrule Speed|XPHB} is reduced to 15 ft. when sailing against the wind. While sailing with the wind, its {@variantrule Speed|XPHB} becomes 70 feet."
-    ]
-   },
-   {
-    "name": "Initiative",
-    "entries": [
-     "The skeid has an {@variantrule Initiative|XPHB} modifier of +6."
-    ]
-   }
-  ],
   "hasFluff": true
  },
  {
   "name": "Small Car",
   "source": "ObojimaTalesYatamon",
   "vehicleType": "SHIP",
+  "size": "L",
   "terrain": [
    "land"
   ],
-  "size": "L",
+  "capCrew": 1,
+  "capPassenger": 3,
+  "capCargo": 0.25,
   "pace": 50,
   "hull": {
    "ac": 13,
    "hp": 60,
    "dt": 10
   },
-  "capCrew": 1,
-  "capPassenger": 3,
-  "capCargo": 0.25,
   "movement": [
    {
     "name": "Combat Speed",
@@ -1043,15 +1043,15 @@
     "name": "Vehicle Properties",
     "entries": [
      {
-      "name": "Classification: Piloted",
       "type": "entries",
+      "name": "Classification: Piloted",
       "entries": [
        "The vehicle requires a creature to enter it in order to operate it. Creatures inside this vehicle have {@variantrule Cover|XPHB|Half Cover}."
       ]
      },
      {
-      "name": "Vehicle Properties",
       "type": "entries",
+      "name": "Vehicle Properties",
       "entries": [
        {
         "type": "entries",
@@ -1063,8 +1063,8 @@
       ]
      },
      {
-      "name": "Size Modifier: 2",
       "type": "entries",
+      "name": "Size Modifier: 2",
       "entries": [
        "Ramming dice: {@damage 2d6}",
        "Spirit-Whelmed Vehicles CR: 2",
@@ -1074,11 +1074,11 @@
     ]
    }
   ],
-  "hasToken": true,
   "tokenHref": {
    "type": "external",
    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Small_Car_Token.webp"
   },
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -1086,14 +1086,17 @@
   "name": "Snekkja",
   "source": "NorthlandsWorldbook",
   "vehicleType": "SHIP",
-  "terrain": [
-   "sea"
-  ],
   "size": "G",
   "dimensions": [
    "60 ft.",
    "8 ft."
   ],
+  "terrain": [
+   "sea"
+  ],
+  "capCrew": 30,
+  "capPassenger": 10,
+  "capCargo": 10,
   "pace": 5,
   "str": 18,
   "dex": 6,
@@ -1123,9 +1126,20 @@
    "hp": 250,
    "dt": 10
   },
-  "capCrew": 30,
-  "capPassenger": 10,
-  "capCargo": 10,
+  "other": [
+   {
+    "name": "Sails",
+    "entries": [
+     "While in {@variantrule Initiative|XPHB}, the snekkja's {@variantrule Speed|XPHB} is reduced to 15 ft. when sailing against the wind. While sailing with the wind, its {@variantrule Speed|XPHB} becomes 70 feet."
+    ]
+   },
+   {
+    "name": "Initiative",
+    "entries": [
+     "The snekkja has an {@variantrule Initiative|XPHB} modifier of +6."
+    ]
+   }
+  ],
   "action": [
    "On its turn, the snekkja can take two actions, choosing from the options below (it can take the same action multiple times). It can take only one action if it has fewer than 15 crew. It can't move or take actions if it has fewer than 3 crew.",
    {
@@ -1150,34 +1164,23 @@
     ]
    }
   ],
-  "other": [
-   {
-    "name": "Sails",
-    "entries": [
-     "While in {@variantrule Initiative|XPHB}, the snekkja's {@variantrule Speed|XPHB} is reduced to 15 ft. when sailing against the wind. While sailing with the wind, its {@variantrule Speed|XPHB} becomes 70 feet."
-    ]
-   },
-   {
-    "name": "Initiative",
-    "entries": [
-     "The snekkja has an {@variantrule Initiative|XPHB} modifier of +6."
-    ]
-   }
-  ],
   "hasFluff": true
  },
  {
   "name": "Stokkvari",
   "source": "NorthlandsSagas",
   "vehicleType": "SHIP",
-  "terrain": [
-   "sea"
-  ],
   "size": "G",
   "dimensions": [
    "110 ft.",
    "25 ft."
   ],
+  "terrain": [
+   "sea"
+  ],
+  "capCrew": 24,
+  "capPassenger": 6,
+  "capCargo": 30,
   "pace": 6,
   "str": 26,
   "dex": 4,
@@ -1207,9 +1210,26 @@
    "hp": 400,
    "dt": 20
   },
-  "capCrew": 24,
-  "capPassenger": 6,
-  "capCargo": 30,
+  "other": [
+   {
+    "name": "Dragon's Head",
+    "entries": [
+     "The magic drakahofud figurehead on the prow of the ship can be used as a ritual to transport the ship and anyone on board as if using the {@spell Plane Shift} spell. After using this relic twice, you must finish a {@variantrule Long Rest|XPHB} before you can use it again."
+    ]
+   },
+   {
+    "name": "Sails and Rowing",
+    "entries": [
+     "While in {@variantrule Initiative|XPHB}, Stokkvari's listed {@variantrule Speed|XPHB} is its Sailing Speed. Reduce this by half when sailing against the wind, unless the crew is rowing."
+    ]
+   },
+   {
+    "name": "Initiative",
+    "entries": [
+     "Stokkvari has an {@variantrule Initiative|XPHB} modifier of +4."
+    ]
+   }
+  ],
   "action": [
    "On its turn, Stokkvari can take two actions, choosing from the options below (it can take the same action multiple times). It can take only one action if it has fewer than 40 crew. It can't move or take actions if it has fewer than 3 crew.",
    {
@@ -1239,26 +1259,6 @@
     ]
    }
   ],
-  "other": [
-   {
-    "name": "Dragon's Head",
-    "entries": [
-     "The magic drakahofud figurehead on the prow of the ship can be used as a ritual to transport the ship and anyone on board as if using the {@spell Plane Shift} spell. After using this relic twice, you must finish a {@variantrule Long Rest|XPHB} before you can use it again."
-    ]
-   },
-   {
-    "name": "Sails and Rowing",
-    "entries": [
-     "While in {@variantrule Initiative|XPHB}, Stokkvari's listed {@variantrule Speed|XPHB} is its Sailing Speed. Reduce this by half when sailing against the wind, unless the crew is rowing."
-    ]
-   },
-   {
-    "name": "Initiative",
-    "entries": [
-     "Stokkvari has an {@variantrule Initiative|XPHB} modifier of +4."
-    ]
-   }
-  ],
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -1266,19 +1266,19 @@
   "name": "The Doomspine",
   "source": "ObojimaTalesYatamon",
   "vehicleType": "SHIP",
+  "size": "G",
   "terrain": [
    "sea"
   ],
-  "size": "G",
+  "capCrew": 6,
+  "capPassenger": 25,
+  "capCargo": 25,
   "pace": 8,
   "hull": {
    "ac": 16,
    "hp": 400,
    "dt": 15
   },
-  "capCrew": 6,
-  "capPassenger": 25,
-  "capCargo": 25,
   "movement": [
    {
     "name": "Combat Speed",
@@ -1309,15 +1309,15 @@
     "name": "Vehicle Properties",
     "entries": [
      {
-      "name": "Classification: Piloted",
       "type": "entries",
+      "name": "Classification: Piloted",
       "entries": [
        "The vehicle requires a creature to enter it in order to operate it. Creatures inside this vehicle have {@variantrule Cover|XPHB|Half Cover}."
       ]
      },
      {
-      "name": "Vehicle Properties",
       "type": "entries",
+      "name": "Vehicle Properties",
       "entries": [
        {
         "type": "entries",
@@ -1336,8 +1336,8 @@
       ]
      },
      {
-      "name": "Size Modifier: 4",
       "type": "entries",
+      "name": "Size Modifier: 4",
       "entries": [
        "Ramming dice: {@damage 4d6}",
        "Spirit-Whelmed Vehicles CR: 4",
@@ -1347,11 +1347,11 @@
     ]
    }
   ],
-  "hasToken": true,
   "tokenHref": {
    "type": "external",
    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Doomspine_token.webp"
   },
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -1359,19 +1359,19 @@
   "name": "The Pointue",
   "source": "ObojimaTalesYatamon",
   "vehicleType": "SHIP",
+  "size": "G",
   "terrain": [
    "sea"
   ],
-  "size": "G",
+  "capCrew": 1,
+  "capPassenger": 10,
+  "capCargo": 2,
   "pace": 15,
   "hull": {
    "ac": 15,
    "hp": 200,
    "dt": 30
   },
-  "capCrew": 1,
-  "capPassenger": 10,
-  "capCargo": 2,
   "movement": [
    {
     "name": "Combat Speed",
@@ -1402,15 +1402,15 @@
     "name": "Vehicle Properties",
     "entries": [
      {
-      "name": "Classification: Piloted",
       "type": "entries",
+      "name": "Classification: Piloted",
       "entries": [
        "The vehicle requires a creature to enter it in order to operate it. Creatures inside this vehicle have {@variantrule Cover|XPHB|Half Cover}."
       ]
      },
      {
-      "name": "Vehicle Properties",
       "type": "entries",
+      "name": "Vehicle Properties",
       "entries": [
        {
         "type": "entries",
@@ -1436,8 +1436,8 @@
       ]
      },
      {
-      "name": "Size Modifier: 4",
       "type": "entries",
+      "name": "Size Modifier: 4",
       "entries": [
        "Ramming dice: {@damage 4d6}",
        "Spirit-Whelmed Vehicles CR: 4",
@@ -1447,11 +1447,11 @@
     ]
    }
   ],
-  "hasToken": true,
   "tokenHref": {
    "type": "external",
    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/The_Pointue_Token.webp"
   },
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -1459,19 +1459,19 @@
   "name": "Trolley",
   "source": "ObojimaTalesYatamon",
   "vehicleType": "SHIP",
+  "size": "C",
   "terrain": [
    "land"
   ],
-  "size": "C",
+  "capCrew": 2,
+  "capPassenger": 40,
+  "capCargo": 7.5,
   "pace": 12,
   "hull": {
    "ac": 14,
    "hp": 500,
    "dt": 15
   },
-  "capCrew": 2,
-  "capPassenger": 40,
-  "capCargo": 7.5,
   "movement": [
    {
     "name": "Combat Speed",
@@ -1502,15 +1502,15 @@
     "name": "Vehicle Properties",
     "entries": [
      {
-      "name": "Classification: Piloted",
       "type": "entries",
+      "name": "Classification: Piloted",
       "entries": [
        "The vehicle requires a creature to enter it in order to operate it. Creatures inside this vehicle have {@variantrule Cover|XPHB|Half Cover}."
       ]
      },
      {
-      "name": "Vehicle Properties",
       "type": "entries",
+      "name": "Vehicle Properties",
       "entries": [
        {
         "type": "entries",
@@ -1522,8 +1522,8 @@
       ]
      },
      {
-      "name": "Size Modifier: 6",
       "type": "entries",
+      "name": "Size Modifier: 6",
       "entries": [
        "Ramming dice: {@damage 6d6}",
        "Spirit-Whelmed Vehicles CR: 6",
@@ -1533,11 +1533,11 @@
     ]
    }
   ],
-  "hasToken": true,
   "tokenHref": {
    "type": "external",
    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Trolley_Token.webp"
   },
+  "hasToken": true,
   "hasFluff": true
  }
 ]

@@ -397,26 +397,6 @@
    }
   ],
   "startingProficiencies": {
-   "armor": [
-    "light"
-   ],
-   "weapons": [
-    "simple",
-    "{@filter Martial Ranged weapons|items|type=martial weapon;ranged weapon}"
-   ],
-   "weaponProficiencies": [
-    {
-     "simple": true,
-     "all": {
-      "fromFilter": "type=martial weapon;ranged weapon"
-     }
-    }
-   ],
-   "armorProficiencies": [
-    {
-     "light": true
-    }
-   ],
    "skills": [
     {
      "choose": {
@@ -434,6 +414,26 @@
       ],
       "count": 2
      }
+    }
+   ],
+   "weapons": [
+    "simple",
+    "{@filter Martial Ranged weapons|items|type=martial weapon;ranged weapon}"
+   ],
+   "weaponProficiencies": [
+    {
+     "simple": true,
+     "all": {
+      "fromFilter": "type=martial weapon;ranged weapon"
+     }
+    }
+   ],
+   "armor": [
+    "light"
+   ],
+   "armorProficiencies": [
+    {
+     "light": true
     }
    ]
   },
@@ -1235,22 +1235,6 @@
    }
   ],
   "startingProficiencies": {
-   "armor": [
-    "light",
-    "{@item Breastplate|XPHB}"
-   ],
-   "weapons": [
-    "simple",
-    "{@filter Martial weapons that have the Light property|items|type=martial weapon|property=light}"
-   ],
-   "weaponProficiencies": [
-    {
-     "simple": true,
-     "all": {
-      "fromFilter": "type=martial weapon|property=light"
-     }
-    }
-   ],
    "skills": [
     {
      "choose": {
@@ -1267,6 +1251,22 @@
       "count": 2
      }
     }
+   ],
+   "weapons": [
+    "simple",
+    "{@filter Martial weapons that have the Light property|items|type=martial weapon|property=light}"
+   ],
+   "weaponProficiencies": [
+    {
+     "simple": true,
+     "all": {
+      "fromFilter": "type=martial weapon|property=light"
+     }
+    }
+   ],
+   "armor": [
+    "light",
+    "{@item Breastplate|XPHB}"
    ]
   },
   "startingEquipment": {
@@ -1310,13 +1310,6 @@
     "cha": 13
    },
    "proficienciesGained": {
-    "armor": [
-     "light",
-     "{@item Breastplate|XPHB}"
-    ],
-    "weapons": [
-     "simple"
-    ],
     "skills": [
      {
       "choose": {
@@ -1333,6 +1326,13 @@
        "count": 1
       }
      }
+    ],
+    "weapons": [
+     "simple"
+    ],
+    "armor": [
+     "light",
+     "{@item Breastplate|XPHB}"
     ]
    }
   },
@@ -1472,6 +1472,8 @@
    "Ancient Awakening|Kindred|BoundByBlood|20"
   ],
   "subclassTitle": "Subclass Feature",
+  "hasFluff": true,
+  "hasFluffImages": true,
   "foundryAdvancement": [
    {
     "type": "ScaleValue",
@@ -1546,8 +1548,6 @@
     "title": "Feed Dice"
    }
   ],
-  "hasFluff": true,
-  "hasFluffImages": true,
   "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/BoundByBlood/Class/Kindred-Foundry.webp"
  },
  {
@@ -1557,27 +1557,6 @@
   "primaryAbility": [
    {
     "int": true
-   }
-  ],
-  "featProgression": [
-   {
-    "name": "Fighting Style",
-    "category": [
-     "FS",
-     "FS:M"
-    ],
-    "progression": {
-     "2": 1
-    }
-   },
-   {
-    "name": "Epic Boon",
-    "category": [
-     "EB"
-    ],
-    "progression": {
-     "19": 1
-    }
    }
   ],
   "hd": {
@@ -1635,16 +1614,113 @@
    4,
    4
   ],
+  "additionalSpells": [
+   {
+    "known": {
+     "18": {
+      "daily": {
+       "1e": [
+        {
+         "choose": "level=6|class=magus (tmc'24)",
+         "count": 1
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "classSpells": [
+   "acid splash",
+   "chill touch",
+   "fire bolt",
+   "mage hand",
+   "poison spray",
+   "ray of frost",
+   "shocking grasp",
+   "burning hands",
+   "chromatic orb",
+   "color spray",
+   "detect magic",
+   "false life",
+   "grease",
+   "identify",
+   "jump",
+   "longstrider",
+   "mage armor",
+   "shield",
+   "acid arrow",
+   "blur",
+   "dragon's breath",
+   "enlarge/reduce",
+   "flame blade",
+   "hold person",
+   "magic weapon",
+   "mind spike",
+   "mirror image",
+   "misty step",
+   "ray of enfeeblement",
+   "counterspell",
+   "dispel magic",
+   "fireball",
+   "fly",
+   "haste",
+   "lightning bolt",
+   "magic circle",
+   "phantom steed",
+   "protection from energy",
+   "slow",
+   "vampiric touch",
+   "banishment",
+   "Evard's black tentacles",
+   "charm monster",
+   "conjure minor elementals",
+   "death ward",
+   "fire shield",
+   "ice storm",
+   "locate creature",
+   "secret chest",
+   "stoneskin",
+   "vitriolic sphere",
+   "wall of fire",
+   "cloudkill",
+   "conjure elemental",
+   "contact other plane",
+   "dispel evil and good",
+   "hold monster",
+   "legend lore",
+   "planar binding",
+   "teleportation circle",
+   "wall of force",
+   "blade barrier",
+   "contingency",
+   "disintegrate",
+   "globe of invulnerability",
+   "guards and wards",
+   "sunbeam"
+  ],
+  "featProgression": [
+   {
+    "name": "Fighting Style",
+    "category": [
+     "FS",
+     "FS:M"
+    ],
+    "progression": {
+     "2": 1
+    }
+   },
+   {
+    "name": "Epic Boon",
+    "category": [
+     "EB"
+    ],
+    "progression": {
+     "19": 1
+    }
+   }
+  ],
   "startingProficiencies": {
-   "armor": [
-    "light",
-    "medium",
-    "{@item Shield|XPHB|Shields}"
-   ],
-   "weapons": [
-    "simple",
-    "martial"
-   ],
    "skills": [
     {
      "choose": {
@@ -1662,6 +1738,15 @@
       "count": 2
      }
     }
+   ],
+   "weapons": [
+    "simple",
+    "martial"
+   ],
+   "armor": [
+    "light",
+    "medium",
+    "{@item Shield|XPHB|Shields}"
    ]
   },
   "startingEquipment": {
@@ -1712,13 +1797,13 @@
     "int": 13
    },
    "proficienciesGained": {
+    "weapons": [
+     "martial"
+    ],
     "armor": [
      "light",
      "medium",
      "shield"
-    ],
-    "weapons": [
-     "martial"
     ]
    }
   },
@@ -1963,91 +2048,6 @@
      ]
     ]
    }
-  ],
-  "additionalSpells": [
-   {
-    "known": {
-     "18": {
-      "daily": {
-       "1e": [
-        {
-         "choose": "level=6|class=magus (tmc'24)",
-         "count": 1
-        }
-       ]
-      }
-     }
-    }
-   }
-  ],
-  "classSpells": [
-   "acid splash",
-   "chill touch",
-   "fire bolt",
-   "mage hand",
-   "poison spray",
-   "ray of frost",
-   "shocking grasp",
-   "burning hands",
-   "chromatic orb",
-   "color spray",
-   "detect magic",
-   "false life",
-   "grease",
-   "identify",
-   "jump",
-   "longstrider",
-   "mage armor",
-   "shield",
-   "acid arrow",
-   "blur",
-   "dragon's breath",
-   "enlarge/reduce",
-   "flame blade",
-   "hold person",
-   "magic weapon",
-   "mind spike",
-   "mirror image",
-   "misty step",
-   "ray of enfeeblement",
-   "counterspell",
-   "dispel magic",
-   "fireball",
-   "fly",
-   "haste",
-   "lightning bolt",
-   "magic circle",
-   "phantom steed",
-   "protection from energy",
-   "slow",
-   "vampiric touch",
-   "banishment",
-   "Evard's black tentacles",
-   "charm monster",
-   "conjure minor elementals",
-   "death ward",
-   "fire shield",
-   "ice storm",
-   "locate creature",
-   "secret chest",
-   "stoneskin",
-   "vitriolic sphere",
-   "wall of fire",
-   "cloudkill",
-   "conjure elemental",
-   "contact other plane",
-   "dispel evil and good",
-   "hold monster",
-   "legend lore",
-   "planar binding",
-   "teleportation circle",
-   "wall of force",
-   "blade barrier",
-   "contingency",
-   "disintegrate",
-   "globe of invulnerability",
-   "guards and wards",
-   "sunbeam"
   ],
   "classFeatures": [
    "Esoteric Eye|Magus|Magus2024|1",
@@ -2401,15 +2401,6 @@
    }
   ],
   "startingProficiencies": {
-   "armor": [
-    "light",
-    "medium",
-    "shield"
-   ],
-   "weapons": [
-    "simple",
-    "martial"
-   ],
    "skills": [
     {
      "choose": {
@@ -2426,6 +2417,15 @@
       "count": 3
      }
     }
+   ],
+   "weapons": [
+    "simple",
+    "martial"
+   ],
+   "armor": [
+    "light",
+    "medium",
+    "shield"
    ]
   },
   "startingEquipment": {
@@ -3521,18 +3521,6 @@
    "Scrying"
   ],
   "startingProficiencies": {
-   "armor": [
-    "light",
-    "medium",
-    "shield"
-   ],
-   "weapons": [
-    "simple",
-    "{@item net|phb}"
-   ],
-   "tools": [
-    "One type of artisan's tools or one musical instrument of your choice"
-   ],
    "skills": [
     {
      "choose": {
@@ -3547,6 +3535,18 @@
       "count": 2
      }
     }
+   ],
+   "weapons": [
+    "simple",
+    "{@item net|phb}"
+   ],
+   "tools": [
+    "One type of artisan's tools or one musical instrument of your choice"
+   ],
+   "armor": [
+    "light",
+    "medium",
+    "shield"
    ]
   },
   "startingEquipment": {
@@ -3570,13 +3570,13 @@
     ]
    },
    "proficienciesGained": {
-    "armor": [
-     "light",
-     "shield"
-    ],
     "weapons": [
      "simple",
      "{@item net|phb}"
+    ],
+    "armor": [
+     "light",
+     "shield"
     ]
    }
   },

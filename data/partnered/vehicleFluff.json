@@ -52,11 +52,11 @@
   "images": [
    {
     "type": "image",
-    "title": "The recognizable sound of broom bells are used to notify those nearby that the rider is landing. The bustle/head is made from finely crafted Shuro (Hemp Palm) or collections of old fabric; on very fine brooms, Sheep Dragon Wool is used instead.",
     "href": {
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Flying_Broom.webp"
-    }
+    },
+    "title": "The recognizable sound of broom bells are used to notify those nearby that the rider is landing. The bustle/head is made from finely crafted Shuro (Hemp Palm) or collections of old fabric; on very fine brooms, Sheep Dragon Wool is used instead."
    }
   ]
  },
@@ -76,11 +76,11 @@
   "images": [
    {
     "type": "image",
-    "title": "Going \"up a wick\" or \"down a wick\" commonly refers to the pilot of a flying lantern lighting or extinguishing one of the Kyojin candles' three core wicks. Doing so will add or remove heat from the lantern's interior and cause the lantern to gain or lose elevation accordingly. As the Kyojin candle burns away, a crank and gear system can be used to raise the candle's height and maintain the needed heat in the core of the lantern.",
     "href": {
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/Flying_Lantern.webp"
-    }
+    },
+    "title": "Going \"up a wick\" or \"down a wick\" commonly refers to the pilot of a flying lantern lighting or extinguishing one of the Kyojin candles' three core wicks. Doing so will add or remove heat from the lantern's interior and cause the lantern to gain or lose elevation accordingly. As the Kyojin candle burns away, a crank and gear system can be used to raise the candle's height and maintain the needed heat in the core of the lantern."
    }
   ]
  },
@@ -222,11 +222,11 @@
   "images": [
    {
     "type": "image",
-    "title": "An original drawing of the first Pointue, which features the nose spine that now decorates the Doomspine.",
     "href": {
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/The_Doomspine.webp"
-    }
+    },
+    "title": "An original drawing of the first Pointue, which features the nose spine that now decorates the Doomspine."
    }
   ]
  },
@@ -239,19 +239,19 @@
   "images": [
    {
     "type": "image",
-    "title": "Although it's not desired, the Pointue's sharpened nose spike is designed in such a way that breaking it off in battle would not cause the submersible to sink.",
     "href": {
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/The_Pointue.webp"
-    }
+    },
+    "title": "Although it's not desired, the Pointue's sharpened nose spike is designed in such a way that breaking it off in battle would not cause the submersible to sink."
    },
    {
     "type": "image",
-    "title": "The Pointue's interior features many First Age wonders, but none are as precious to Captain Clintock as his library of First Age books and film.",
     "href": {
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ObojimaTalesYatamon/Items/The_Pointue_2.webp"
-    }
+    },
+    "title": "The Pointue's interior features many First Age wonders, but none are as precious to Captain Clintock as his library of First Age books and film."
    }
   ]
  },

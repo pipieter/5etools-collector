@@ -104,9 +104,9 @@
   "name": "Alondo",
   "source": "GrimHollowCG24",
   "page": 255,
+  "pantheon": "Etharis",
   "title": "Primordial of Ice and Water",
   "category": "Primordial",
-  "pantheon": "Etharis",
   "domains": [
    "Ice",
    "Water"
@@ -250,8 +250,6 @@
  },
  {
   "name": "Angrboda",
-  "source": "NorthlandsWorldbook",
-  "title": "Mother of Monsters",
   "altNames": [
    "Grief-Bringer",
    "Goddess of Change",
@@ -259,10 +257,12 @@
    "Witch-Queen of the Ironwood",
    "Mother of Fenris, Hel, and Jormungandr"
   ],
-  "category": "Major Gods of the North",
+  "source": "NorthlandsWorldbook",
   "pantheon": "Norse",
-  "symbol": "Black Tree and a Coiled Serpent",
+  "title": "Mother of Monsters",
+  "category": "Major Gods of the North",
   "worshipers": "Giantkin, giants, monsters, seers, werekin, witches",
+  "symbol": "Black Tree and a Coiled Serpent",
   "favoredWeapons": "Claws, Quarterstaff",
   "entries": [
    "Firstborn child of Aurgelmir, the wild and sorrowful Angrboda is a shapechanging jotun goddess. She is the untamed face of nature, the uncontained force of change destroying the old to make way for the new. Angrboda believes the gods perverted the path of nature when they constructed this world from the body of her father, and only its destruction can restore things to their true state. Her influence is felt in the darkened sky, the howling winds, and the roars of the monsters in the dark.",
@@ -387,23 +387,23 @@
   "name": "Aphaeleon",
   "source": "GrimHollowCG24",
   "page": 248,
+  "pantheon": "Etharis",
   "title": "Arch Seraph of Temperance",
   "category": "Arch Seraph",
-  "pantheon": "Etharis",
-  "symbol": "Golden sphere within a blue crescent",
-  "symbolImg": {
-   "type": "image",
-   "href": {
-    "type": "external",
-    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/171-16-006.aphaeleon-emblem.webp"
-   },
-   "style": "deity-symbol",
-   "credit": "Suzanne Helmigh"
-  },
   "domains": [
    "Temperance",
    "Peace"
   ],
+  "symbol": "Golden sphere within a blue crescent",
+  "symbolImg": {
+   "type": "image",
+   "style": "deity-symbol",
+   "href": {
+    "type": "external",
+    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/171-16-006.aphaeleon-emblem.webp"
+   },
+   "credit": "Suzanne Helmigh"
+  },
   "entries": [
    "{@i Arch Seraph of Temperance}",
    "The most contemplative and peaceful of the Arch Seraphs, Aphaeleon is a patron to the strong-minded and the spiritual. His presence is felt in the simple joy of contentment; whatever form it takes. The gentle warmth of a breeze. The satisfaction of a finished book. The quiet contemplation of meditation.",
@@ -574,8 +574,6 @@
  },
  {
   "name": "Baldur",
-  "source": "NorthlandsWorldbook",
-  "title": "Bringer of Light",
   "altNames": [
    "The Fair",
    "Frigg's Favored Son",
@@ -584,10 +582,12 @@
    "God of Joy and Beauty",
    "The Bleeding God"
   ],
-  "category": "Major Gods of the North",
+  "source": "NorthlandsWorldbook",
   "pantheon": "Norse",
-  "symbol": "A golden sunburst shining off the blade of a silver sword",
+  "title": "Bringer of Light",
+  "category": "Major Gods of the North",
   "worshipers": "Families, lovers, skalds",
+  "symbol": "A golden sunburst shining off the blade of a silver sword",
   "favoredWeapons": "Longsword",
   "entries": [
    "Baldur, the son of Wotan and Frigg, is the god of radiance, purity, forgiveness, and peace. He appears as a tall, black-haired Northlander with a trim black beard and bluebells woven into his tidy plaited hair. His eyes are the bright blue of the sky reflected off a winter-frozen lake. Baldur travels the worlds with a perpetual smile and can often be found singing quietly to himself. The clothing he wears is of purest white fabric, except for his polished leather boots. All his attire seems to gleam like steel in the sunlight.",
@@ -625,23 +625,23 @@
   "name": "Beleth",
   "source": "GrimHollowCG24",
   "page": 250,
+  "pantheon": "Etharis",
   "title": "Arch Daemon of Fear",
   "category": "Arch Daemon",
-  "pantheon": "Etharis",
-  "symbol": "A dark, horned gargoyle face with a cruel smile",
-  "symbolImg": {
-   "type": "image",
-   "href": {
-    "type": "external",
-    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/176-16-010.beleth-emblem.webp"
-   },
-   "style": "deity-symbol",
-   "credit": "Suzanne Helmigh"
-  },
   "domains": [
    "Fear",
    "Trickery"
   ],
+  "symbol": "A dark, horned gargoyle face with a cruel smile",
+  "symbolImg": {
+   "type": "image",
+   "style": "deity-symbol",
+   "href": {
+    "type": "external",
+    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/176-16-010.beleth-emblem.webp"
+   },
+   "credit": "Suzanne Helmigh"
+  },
   "entries": [
    "{@i Arch Daemon of Fear}",
    "Most mortals fear the Arch Daemons, but conversely, Beleth finds mortals atrociously funny. He delights in torturing them with their worst fears to witness their petrified antics, knowing that the terror induced is often far worse than the actual threat. The Arch Daemon of fear is endlessly amused that commoners most often create what they fear most. Tyrants induce uprisings. Sycophants fail to earn respect. Witch hunters see mages everywhere.",
@@ -659,27 +659,27 @@
  },
  {
   "name": "Bengta",
-  "source": "NorthlandsWorldbook",
-  "title": "The Bear Maiden",
   "altNames": [
    "Keeper of Community",
    "The Righteous Wrath of Dawn",
    "The Golden Radiance",
    "The Beekeeper"
   ],
-  "category": "Major Gods of the North",
+  "source": "NorthlandsWorldbook",
   "pantheon": "Norse",
+  "title": "The Bear Maiden",
+  "category": "Major Gods of the North",
+  "worshipers": "Bearfolk, berserkers, brewers, healers",
   "symbol": "A golden bee gathering pollen from a honeysuckle plant set in front of a radiant violet eye",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/JuliTutu/homebrew-img/main/img/NorthlandsWorldbook/Book/129-06-004.bengta-symbol.webp"
    },
-   "style": "deity-symbol",
    "title": "Bengta"
   },
-  "worshipers": "Bearfolk, berserkers, brewers, healers",
   "favoredWeapons": "Battleaxe, Greataxe",
   "entries": [
    "The Bear Maiden is beloved in the Northlands. She is the preeminent goddess of the bearfolk and patron of Bjornrike, but her worship as a protector and champion spans the breadth of the North. Bengta presents a contrasting aspect, both the peaceful provider of nature's bounty, and, at the same time, the fierce guardian, like a mother bear protecting her cubs.",
@@ -802,8 +802,6 @@
  },
  {
   "name": "Bergelmir",
-  "source": "NorthlandsWorldbook",
-  "title": "Voice of the Titans",
   "altNames": [
    "Bellowing Storm",
    "God of Glory, Revenge, and Domination",
@@ -811,10 +809,12 @@
    "First Warlord",
    "Patron of the Jotun"
   ],
-  "category": "Major Gods of the North",
+  "source": "NorthlandsWorldbook",
   "pantheon": "Norse",
-  "symbol": "A spiral of ice and a screaming face",
+  "title": "Voice of the Titans",
+  "category": "Major Gods of the North",
   "worshipers": "Giants, jotun, ogres, trolls, warlords",
+  "symbol": "A spiral of ice and a screaming face",
   "favoredWeapons": "Maul",
   "entries": [
    "Bergelmir is the last son of Aurgelmir and the only child of the First Giant to survive the death of his father other than Angrboda. He is the embodiment of all of the rage and fury the giants continue to nurse over Aurgelmir's murder. As First Warlord, it is Bergelmir who will lead the jotun and giants against the hated gods when the time comes for them to seek their revenge. All giants call upon Bergelmir when they charge into battle, hoping the Voice of the Titans will bless them with victory.",
@@ -939,26 +939,26 @@
  },
  {
   "name": "Boreas",
-  "source": "NorthlandsWorldbook",
-  "title": "The Devouring Wind",
   "altNames": [
    "God of the North Wind",
    "Bringer of Storms and Killing Cold",
    "Patron of the Giants"
   ],
-  "category": "Major Gods of the North",
+  "source": "NorthlandsWorldbook",
   "pantheon": "Norse",
+  "title": "The Devouring Wind",
+  "category": "Major Gods of the North",
+  "worshipers": "Frost giants, ice elves, ogres, trolls",
   "symbol": "A circling and knotted line of wind",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/JuliTutu/homebrew-img/main/img/NorthlandsWorldbook/Book/130-06-005.boreas-symbol.webp"
    },
-   "style": "deity-symbol",
    "title": "Boreas"
   },
-  "worshipers": "Frost giants, ice elves, ogres, trolls",
   "favoredWeapons": "War Pick",
   "entries": [
    "Boreas, God of the North Wind, seeks to blanket the entirety of the world in an endless winter. He feels that the prophesied Fimbulwinter that will precede the death of the gods at Ragnarok is confirmation that his desire will come to pass, though he would like that time to be sooner than later. Regardless of when that day will come, the Devouring Wind is tireless in his efforts to visit evil and strife upon the world, knowing that his favored giants are sturdy enough to withstand the icy death he brews.",
@@ -993,9 +993,9 @@
  {
   "name": "Bragi",
   "source": "NorthlandsWorldbook",
+  "pantheon": "Norse",
   "title": "The Golden-Tongued Skald",
   "category": "Other Deities",
-  "pantheon": "Norse",
   "entries": [
    "Bragi is the robust god of music, poetry and storytellers. It is said that doves are the ears of Bragi, and he gifts one of his wife's apples of immortality to bards who tell such rousing tales of the Aesir that even doves flock to hear them."
   ]
@@ -1131,9 +1131,9 @@
  {
   "name": "Chernobog",
   "source": "NorthlandsWorldbook",
+  "pantheon": "Norse",
   "title": "Architect of Disaster",
   "category": "Other Deities",
-  "pantheon": "Norse",
   "entries": [
    "The amorphous horror Chernobog is the embodiment of all mortal fears. He is an ever-hungering devourer of souls who can be recognized by his coal-like eyes, regardless of the form he takes. When Chernobog walks the earth, he is accompanied by howling winds and the unquiet dead."
   ]
@@ -1142,9 +1142,9 @@
   "name": "Citrolach",
   "source": "GrimHollowCG24",
   "page": 255,
+  "pantheon": "Etharis",
   "title": "Primordial of Earth and Stone",
   "category": "Primordial",
-  "pantheon": "Etharis",
   "domains": [
    "Earth",
    "Stone"
@@ -1198,9 +1198,9 @@
  {
   "name": "Eir",
   "source": "NorthlandsWorldbook",
+  "pantheon": "Norse",
   "title": "Goddess of Healing",
   "category": "Other Deities",
-  "pantheon": "Norse",
   "entries": [
    "Eir was once a Valkyrie, but where her sisters picked through the slain, she chose who would live and recover their health. In return for her dedication, Wotan raised her to become a goddess of healing and medicine."
   ]
@@ -1209,23 +1209,23 @@
   "name": "Empyreus",
   "source": "GrimHollowCG24",
   "page": 247,
+  "pantheon": "Etharis",
   "title": "Arch Seraph of Valor",
   "category": "Arch Seraph",
-  "pantheon": "Etharis",
-  "symbol": "Shattered chains between two defiant fists",
-  "symbolImg": {
-   "type": "image",
-   "href": {
-    "type": "external",
-    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/169-16-004.empyreus-emblem.webp"
-   },
-   "style": "deity-symbol",
-   "credit": "Suzanne Helmigh"
-  },
   "domains": [
    "Valor",
    "War"
   ],
+  "symbol": "Shattered chains between two defiant fists",
+  "symbolImg": {
+   "type": "image",
+   "style": "deity-symbol",
+   "href": {
+    "type": "external",
+    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/169-16-004.empyreus-emblem.webp"
+   },
+   "credit": "Suzanne Helmigh"
+  },
   "entries": [
    "{@i Arch Seraph of Valor}",
    "The patron of righteous warriors, Empyreus emboldens the strong to punish the horrors of Etharis that prey upon the weak. In battle, Empyreus favors bravery and conviction. His uncompromising nature differs from that of Maligant, his predecessor. The Arch Seraph drives his followers to become zealots bent on cleansing the world of whatever they perceive as unworthy or corrupt.",
@@ -1245,22 +1245,20 @@
  },
  {
   "name": "Fenris",
-  "source": "NorthlandsWorldbook",
-  "title": "Father of Wolves",
   "altNames": [
    "Devourer of the Sun and Moon",
    "The Hand-Snatcher"
   ],
-  "category": "Other Deities",
+  "source": "NorthlandsWorldbook",
   "pantheon": "Norse",
+  "title": "Father of Wolves",
+  "category": "Other Deities",
   "entries": [
    "One of Loki's children and the brother of Jormungandr and Hel, the monstrous wolf Fenris was bound by the Aesir and anchored to his prison by the primeval earth elemental called Thviti. As punishment for biting off Tyr's hand while attempting to break free of its fetters, the gods imprisoned the wolf in supernatural sleep within a hidden cavern. Fenris is destined to devour Wotan at Ragnarok."
   ]
  },
  {
   "name": "Freyr and Freyja",
-  "source": "NorthlandsWorldbook",
-  "title": "Twins of Passion",
   "altNames": [
    "Lord and Lady of the Vanir",
    "Flames of Witchcraft",
@@ -1269,19 +1267,21 @@
    "Goddess of Beauty, Fertility, and Magic",
    "Patron of Shield-Maidens"
   ],
-  "category": "Major Gods of the North",
+  "source": "NorthlandsWorldbook",
   "pantheon": "Norse",
+  "title": "Twins of Passion",
+  "category": "Major Gods of the North",
+  "worshipers": "Bearfolk, druids, farmers, hunters, rangers",
   "symbol": "Antlers tied with sheafs of wheat, a glass of wine or mead, and golden boars (Freyr). A golden falcon feather, falcons and cats (Freyja)",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/JuliTutu/homebrew-img/main/img/NorthlandsWorldbook/Book/132-06-006.freyr-freyja-symbol.webp"
    },
-   "style": "deity-symbol",
    "title": "Freyr and Freyja"
   },
-  "worshipers": "Bearfolk, druids, farmers, hunters, rangers",
   "favoredWeapons": "Sickle (Freyr), Longsword (Freyja)",
   "entries": [
    "Twin deities of the Vanir, Freyr and Freyja were once hostages but now dwell among the Aesir as equals. They taught the gods witchcraft and druidic lore, and together sponsored Njord, the sea god, for divinity. Freyr brings peace and the harvest, protects farmers, and opposes fire giants. Freyja is a skilled witch associated with beauty, fertility, gold, magic, and war. Both adventurous deities have seen their share of battles. As the patron of shield-maidens, Freyja is gathering fallen warriors to her hall of Sessrumnir, where they are forming an army the Vanir will lead alongside the Aesir at Ragnarok.",
@@ -1315,13 +1315,13 @@
  },
  {
   "name": "Frigg",
-  "source": "NorthlandsWorldbook",
-  "title": "Queen of the Aesir",
   "altNames": [
    "Patron of Witches"
   ],
-  "category": "Other Deities",
+  "source": "NorthlandsWorldbook",
   "pantheon": "Norse",
+  "title": "Queen of the Aesir",
+  "category": "Other Deities",
   "entries": [
    "Frigg is the goddess of marriage and prophecy, and she counts many prophets and diviners among her faithful. The wife of Wotan and mother of Baldur and Hodr, she is the patron of households and hearths but also witches. Frigg stands proud, neither bending a knee to her husband nor allowing him to dictate her actions, a fact he adores."
   ]
@@ -1430,9 +1430,9 @@
   "name": "Gormadraug",
   "source": "GrimHollowCG24",
   "page": 255,
+  "pantheon": "Etharis",
   "title": "Primordial of All Elements",
   "category": "Primordial",
-  "pantheon": "Etharis",
   "domains": [
    "All Elements"
   ],
@@ -1446,23 +1446,23 @@
   "name": "Gorodyn",
   "source": "GrimHollowCG24",
   "page": 252,
+  "pantheon": "Etharis",
   "title": "Arch Daemon of Avarice",
   "category": "Arch Daemon",
-  "pantheon": "Etharis",
-  "symbol": "A coin depicting a profile",
-  "symbolImg": {
-   "type": "image",
-   "href": {
-    "type": "external",
-    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/182-16-015.gorodyn-emblem.webp"
-   },
-   "style": "deity-symbol",
-   "credit": "Suzanne Helmigh"
-  },
   "domains": [
    "Avarice",
    "Commerce"
   ],
+  "symbol": "A coin depicting a profile",
+  "symbolImg": {
+   "type": "image",
+   "style": "deity-symbol",
+   "href": {
+    "type": "external",
+    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/182-16-015.gorodyn-emblem.webp"
+   },
+   "credit": "Suzanne Helmigh"
+  },
   "entries": [
    "{@i Arch Daemon of Avarice}",
    "Gorodyn proselytizes that greed is a virtue. The Arch Daemon lovingly encourages mortals to voraciously hoard anything of value that can be bought with a coin. Food. Opulence. Secrets. Greed is sustaining. Greed is a vital instinct for survival and prosperity. To the Arch Daemon of avarice, luxuriating atop a wealth of resources is the greatest happiness one can achieve, even if that means the rest go hungry.",
@@ -1499,18 +1499,18 @@
  },
  {
   "name": "Gullveig",
-  "source": "NorthlandsWorldbook",
-  "title": "The Matron of Coin",
   "altNames": [
    "The Ice-Blinded",
    "The Silver Witch",
    "The Burned Matron",
    "The Invisible Coin"
   ],
-  "category": "Minor Gods of the North",
+  "source": "NorthlandsWorldbook",
   "pantheon": "Norse",
-  "symbol": "A silver coin",
+  "title": "The Matron of Coin",
+  "category": "Minor Gods of the North",
   "worshipers": "Only scattered followers, mostly cultists and witches",
+  "symbol": "A silver coin",
   "favoredWeapons": "Quarterstaff, Sickle",
   "entries": [
    "Gullveig is a vanished goddess of wealth and magic, and she is known in particular for her skill with illusions and transmutations. Though weakened in the ages since her disappearance, she was once widely worshiped by mortals and elves alike. Some fragmentary lore suggests the Silver Witch instigated the war between the Aesir and Vanir that resulted in Freyr and Freyja, the Twin Gods, being traded as hostages to the Aesir.",
@@ -1821,9 +1821,9 @@
  {
   "name": "Heimdall",
   "source": "NorthlandsWorldbook",
+  "pantheon": "Norse",
   "title": "Eternal Guardian",
   "category": "Other Deities",
-  "pantheon": "Norse",
   "entries": [
    "Heimdall is the god of watchfulness and loyalty, who guards the Bifrost and the Gates of Asgard. He is well-suited to the task, for his senses are amazingly keen. He can see a hundred miles in both daylight and darkest night, hear grass growing, and feel the footfall of an ant. He is the patron of the besieged, popular all along the Reaver Coast, as well as with scouts, lookouts, and those who guard treasuries and grain stores."
   ]
@@ -1831,9 +1831,9 @@
  {
   "name": "Hel",
   "source": "NorthlandsWorldbook",
+  "pantheon": "Norse",
   "title": "The Queen of Helheim",
   "category": "Other Deities",
-  "pantheon": "Norse",
   "entries": [
    "The daughter of Loki and sister of Fenris and Jormungandr, Hel presides over the dead who are not valorous enough to be granted a place in Valhalla or Folkvangr. She is fated to aid her father by bringing the shades of her dead against the gods at Ragnarok."
   ]
@@ -1882,9 +1882,9 @@
  {
   "name": "Hodr",
   "source": "NorthlandsWorldbook",
+  "pantheon": "Norse",
   "title": "Blind Bringer of Darkness and Twilight",
   "category": "Other Deities",
-  "pantheon": "Norse",
   "entries": [
    "Hodr is the brother of Baldur and son of Wotan and Frigg. He is thought to be a reflection of his brother, and he stands as the god of darkness and winter twilights. Though not an evil god, he is a tragic one. Born blind, he possesses immense strength, rivaling that of Thor. He is destined to be tricked by Loki into accidentally killing his brother at the beginning of Ragnarok."
   ]
@@ -1892,9 +1892,9 @@
  {
   "name": "Idun",
   "source": "NorthlandsWorldbook",
+  "pantheon": "Norse",
   "title": "Keeper of the Apples",
   "category": "Other Deities",
-  "pantheon": "Norse",
   "entries": [
    "The goddess of spring and renewal tends the apples of eternal youth, which allow the gods to remain immortal. She is the wife of Bragi, the god of poetry. Though she has the pleasant demeanor of a fresh-faced maiden, Idun has a keen eye for mischief-makers who would steal from her orchard."
   ]
@@ -1903,9 +1903,9 @@
   "name": "Ilhara",
   "source": "GrimHollowCG24",
   "page": 255,
+  "pantheon": "Etharis",
   "title": "Primordial of Air and Shadow",
   "category": "Primordial",
-  "pantheon": "Etharis",
   "domains": [
    "Air",
    "Shadow"
@@ -1919,9 +1919,9 @@
  {
   "name": "Jormungandr",
   "source": "NorthlandsWorldbook",
+  "pantheon": "Norse",
   "title": "The World Serpent",
   "category": "Other Deities",
-  "pantheon": "Norse",
   "entries": [
    "One of Loki's monstrous children, Jormungandr encircles the world, containing creation within the ring formed by the beast taking its own tail in its jaws. The Midgard Serpent is fated to battle Thor to the death at Ragnarok."
   ]
@@ -2072,9 +2072,9 @@
   "name": "Lady Morakesh",
   "source": "GrimHollowCG24",
   "page": 255,
+  "pantheon": "Etharis",
   "title": "Primordial of Fire",
   "category": "Primordial",
-  "pantheon": "Etharis",
   "domains": [
    "Fire"
   ],
@@ -2173,27 +2173,27 @@
  },
  {
   "name": "Loki",
-  "source": "NorthlandsWorldbook",
-  "title": "Shapeshifting God of Cunning",
   "altNames": [
    "Mischief and Malice",
    "Lord of Deception",
    "Patron of Thieves",
    "Father of Fenris, Hel, and Jormungandr"
   ],
-  "category": "Major Gods of the North",
+  "source": "NorthlandsWorldbook",
   "pantheon": "Norse",
+  "title": "Shapeshifting God of Cunning",
+  "category": "Major Gods of the North",
+  "worshipers": "Monsters, ratatosk, scoundrels, werekin",
   "symbol": "The blade, the intertwined serpents, and the golden net",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/JuliTutu/homebrew-img/main/img/NorthlandsWorldbook/Book/134-06-008.loki-symbol.webp"
    },
-   "style": "deity-symbol",
    "title": "Loki"
   },
-  "worshipers": "Monsters, ratatosk, scoundrels, werekin",
   "favoredWeapons": "Dagger, Net",
   "entries": [
    "A god of tricksters, Loki is the son of a jotun and an Aesir goddess. He swore a blood-oath with Wotan to become a member of the Aesir, but he has never been wholly trusted by the other gods, and for good reasons. An unwise dalliance with Angrboda resulted in Fenris, Jormungandr, and Hel, the goddess of death. Wotan and other gods believe he is fated to usher in the end of all things, but they plan on locking the Trickster God away before he can begin Ragnarok. Loki plots to avoid any destiny he doesn't choose for himself. Indeed, his greatest trick may be turning the Age of the Void into a time of rebirth. Loki's cunning is legendary, and despite his reputation, he helps mortals far more often than he gets credit for.",
@@ -2228,9 +2228,9 @@
   "name": "M'rorcameleth",
   "source": "GrimHollowCG24",
   "page": 253,
+  "pantheon": "Etharis",
   "title": "Kindred of Dreams",
   "category": "Aether Kindred",
-  "pantheon": "Etharis",
   "entries": [
    "{@i Kindred of Dreams}",
    "Some folk fear to dream. The fleeting realities that unfold behind closed eyes are more than merely the fancies of an unconscious mind. Many tragedies have been preceded by the occurrence of bad dreams. The great King Aymeric Noblecoeur was said to have witnessed his death in a nightmare. Days later, he was gone.",
@@ -2243,23 +2243,23 @@
   "name": "Malikir",
   "source": "GrimHollowCG24",
   "page": 251,
+  "pantheon": "Etharis",
   "title": "Arch Daemon of Pride",
   "category": "Arch Daemon",
-  "pantheon": "Etharis",
-  "symbol": "A flaming ram skull crowned with a golden circlet",
-  "symbolImg": {
-   "type": "image",
-   "href": {
-    "type": "external",
-    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/179-16-013.malikir-emblem.webp"
-   },
-   "style": "deity-symbol",
-   "credit": "Suzanne Helmigh"
-  },
   "domains": [
    "Pride",
    "Tyranny"
   ],
+  "symbol": "A flaming ram skull crowned with a golden circlet",
+  "symbolImg": {
+   "type": "image",
+   "style": "deity-symbol",
+   "href": {
+    "type": "external",
+    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/179-16-013.malikir-emblem.webp"
+   },
+   "credit": "Suzanne Helmigh"
+  },
   "entries": [
    "{@i Arch Daemon of Pride}",
    "Malikir prefers the title \"God.\" Known to be the most powerful among the Arch Daemons, she's the embodiment of pride, tyranny, and the abuse of authority. Malikir is obsessed with her power. Her influence seeps into bold sovereigns and mighty heroes, who might begin with honorable intentions but are overcome by ego and paranoia. Knights become conquerors, and kings become tyrants. Malikir promises power, fame, and dominion to those who worship her, yet all who rise in her favor will inevitably come to a terrible end.",
@@ -2288,23 +2288,23 @@
   "name": "Miklas",
   "source": "GrimHollowCG24",
   "page": 250,
+  "pantheon": "Etharis",
   "title": "Arch Seraph of Mercy",
   "category": "Arch Seraph",
-  "pantheon": "Etharis",
-  "symbol": "A silver chalice overflowing with golden light, held by two hands",
-  "symbolImg": {
-   "type": "image",
-   "href": {
-    "type": "external",
-    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/175-16-009.miklas-emblem.webp"
-   },
-   "style": "deity-symbol",
-   "credit": "Suzanne Helmigh"
-  },
   "domains": [
    "Mercy",
    "Life"
   ],
+  "symbol": "A silver chalice overflowing with golden light, held by two hands",
+  "symbolImg": {
+   "type": "image",
+   "style": "deity-symbol",
+   "href": {
+    "type": "external",
+    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/175-16-009.miklas-emblem.webp"
+   },
+   "credit": "Suzanne Helmigh"
+  },
   "entries": [
    "{@i Arch Seraph of Mercy}",
    "With the loss of Aurelia, mortals have been left without protection. Miklas, the goddess's former servant, simply doesn't have the strength to fulfil Aurelia's domain, and can only offer aid to those already in pain. The sick, wounded, impoverished, and distressed all cry for Miklas' mercy. Her work is endless. The extent of suffering is unfathomable in Etharis's new dark age.",
@@ -2324,23 +2324,23 @@
   "name": "Morael",
   "source": "GrimHollowCG24",
   "page": 249,
+  "pantheon": "Etharis",
   "title": "Arch Seraph of Sacrifice",
   "category": "Arch Seraph",
-  "pantheon": "Etharis",
-  "symbol": "A figure carrying a bladed wheel upon his shoulders",
-  "symbolImg": {
-   "type": "image",
-   "href": {
-    "type": "external",
-    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/174-16-008.moreal-emblem.webp"
-   },
-   "style": "deity-symbol",
-   "credit": "Suzanne Helmigh"
-  },
   "domains": [
    "Sacrifice",
    "Life"
   ],
+  "symbol": "A figure carrying a bladed wheel upon his shoulders",
+  "symbolImg": {
+   "type": "image",
+   "style": "deity-symbol",
+   "href": {
+    "type": "external",
+    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/174-16-008.moreal-emblem.webp"
+   },
+   "credit": "Suzanne Helmigh"
+  },
   "entries": [
    "{@i Arch Seraph of Sacrifice}",
    "Morael is the patron of martyrs and heroes who seek no glory, sacrificing themselves to build hope for a future they'll never see. The Arch Seraph teaches that sacrifice is the truest virtue. The purest expression of love is to put others' needs before oneself, or to suffer pain or anguish so that others may be spared. Morael offers strength in moments of desperate decision-making or surrender in the name of a great cause.",
@@ -2371,17 +2371,15 @@
  {
   "name": "Nidhogg",
   "source": "NorthlandsWorldbook",
+  "pantheon": "Norse",
   "title": "First Dragon and Chewer of the World Tree",
   "category": "Other Deities",
-  "pantheon": "Norse",
   "entries": [
    "Coiled around its treasure hoard of grave goods and sacrifices hidden among the roots of Yggdrasil, Nidhogg desires only power, chaos, and apocalypse. Those who've dared look into the Ur-dragon's golden eyes claim that all the secrets of the void can be glimpsed in their maddening depths."
   ]
  },
  {
   "name": "Njord",
-  "source": "NorthlandsWorldbook",
-  "title": "God of the Seas",
   "altNames": [
    "Gale Master",
    "Wake-Warden",
@@ -2390,10 +2388,12 @@
    "Patron of Sailors and Ships",
    "Patron of Noatun"
   ],
-  "category": "Major Gods of the North",
+  "source": "NorthlandsWorldbook",
   "pantheon": "Norse",
-  "symbol": "A blue longship, the golden trident, and a gold coin marked with a pattern of waves",
+  "title": "God of the Seas",
+  "category": "Major Gods of the North",
   "worshipers": "Druids, fisherfolk, reavers, sailors",
+  "symbol": "A blue longship, the golden trident, and a gold coin marked with a pattern of waves",
   "favoredWeapons": "Trident, Wand",
   "entries": [
    "Njord rules the sea not with chaos but with wisdom. He commands the winds, blesses the sails of the worthy, and watches over coastal peoples and fisherfolk. Though calm and generous, he is not a god to be taken lightly. Storms gather at his call, and wizards whisper that he hoards all the ancient knowledge lost beneath the sea.",
@@ -2426,8 +2426,6 @@
  },
  {
   "name": "Norns",
-  "source": "NorthlandsWorldbook",
-  "title": "Weavers of Fates",
   "altNames": [
    "Ladies of Destiny",
    "Wyrd Women",
@@ -2435,10 +2433,12 @@
    "The Judges",
    "The Cradle and Grave"
   ],
-  "category": "Minor Gods of the North",
+  "source": "NorthlandsWorldbook",
   "pantheon": "Norse",
-  "symbol": "A bloody pair of black shears beneath a pigeon with entrails spilling from its belly",
+  "title": "Weavers of Fates",
+  "category": "Minor Gods of the North",
   "worshipers": "Farmers, kings, mages, seers, warriors",
+  "symbol": "A bloody pair of black shears beneath a pigeon with entrails spilling from its belly",
   "favoredWeapons": "Dagger",
   "entries": [
    "The Norns are a trio of goddesses who live at the foot of Yggdrasil, tending to the tree and weaving the threads of fate for every mortal. The three Norns are Uror, Verdandi, and Skuld, who are widely thought to be sisters, though neither they nor any of the other Aesir have confirmed the assumption. Similarly, though the Norns are claimed by the Aesir, they may have actually been of the Vanir, or perhaps they arose before either of those groups of deities were conceived.",
@@ -2473,9 +2473,9 @@
   "name": "Pharazorthok",
   "source": "GrimHollowCG24",
   "page": 253,
+  "pantheon": "Etharis",
   "title": "Kindred of Knowing",
   "category": "Aether Kindred",
-  "pantheon": "Etharis",
   "entries": [
    "{@i Kindred of Knowing}",
    "Followers of Pharazorthok claim that its branches hold reality in place. They describe the eldritch being as resembling an enormous tentacled tree, with countless eyes upon its branches, twisting and growing beneath the surface of reality like roots through the soil. The mortal realm sits upon these branches. As does Numena, the Netherworld, and all realms.",
@@ -2487,8 +2487,6 @@
  },
  {
   "name": "Ratatoskr",
-  "source": "NorthlandsWorldbook",
-  "title": "Lord of Secrets",
   "altNames": [
    "Nut Bringer",
    "Messenger to Eagles",
@@ -2497,10 +2495,12 @@
    "Chitterer",
    "Patron of Travelers and Ratatosk"
   ],
-  "category": "Minor Gods of the North",
+  "source": "NorthlandsWorldbook",
   "pantheon": "Norse",
-  "symbol": "A golden acorn",
+  "title": "Lord of Secrets",
+  "category": "Minor Gods of the North",
   "worshipers": "Messengers, rogues, ratatosk",
+  "symbol": "A golden acorn",
   "favoredWeapons": "Dagger",
   "entries": [
    "Ratatosk is the clever runner, mischievous trickster, and laughing messenger of Yggdrasil. Responsibilities, rules, and orders fall forgotten to the joy of new sights, gathering secrets, and spreading rumors. Thought by many to be more of a nuisance than a deity, Ratatoskr knows much, trading as he does in information with the goodly eagles of the skies, as well as with the surly dragon Nidhogg among Yggdrasil's roots. When the other gods seek his knowledge before undertaking a journey or trial, their task seems easier and their success more assured.",
@@ -2761,8 +2761,6 @@
  },
  {
   "name": "Sif",
-  "source": "NorthlandsWorldbook",
-  "title": "The Sword Maiden",
   "altNames": [
    "Goddess of Family and Marriage",
    "Mistress of Valkyries",
@@ -2770,19 +2768,21 @@
    "Patron of Women Warriors and Archers",
    "Patron of Huldramose"
   ],
-  "category": "Major Gods of the North",
+  "source": "NorthlandsWorldbook",
   "pantheon": "Norse",
+  "title": "The Sword Maiden",
+  "category": "Major Gods of the North",
+  "worshipers": "Archers, farmers, women warriors",
   "symbol": "A bundled sheaf of arrows and a silver sword",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/JuliTutu/homebrew-img/main/img/NorthlandsWorldbook/Book/137-06-011.sif-symbol.webp"
    },
-   "style": "deity-symbol",
    "title": "Sif"
   },
-  "worshipers": "Archers, farmers, women warriors",
   "favoredWeapons": "Bow, Longsword",
   "entries": [
    "Golden-haired Sif is the goddess of battle and mistress of Valkyries, the battle-maiden of the frozen worlds, the enemy of giants and trolls. She excels at archery and brewing ale. She calls Freyja her \"ale-sister\" and Freyr her \"hunting brother.\" Sif is the Mistress of the Valkyries, leading them on behalf of Wotan to collect the honored dead. As a goddess of war, she encourages the development of fighting prowess, in contrast to the followers of her husband Thor, who value strength over skill. Above all, she despises cowardice and treachery. Sif's presence is strong wherever courage and loyalty dwell.",
@@ -2816,23 +2816,23 @@
   "name": "Sitri",
   "source": "GrimHollowCG24",
   "page": 251,
+  "pantheon": "Etharis",
   "title": "Arch Daemon of Hedonism",
   "category": "Arch Daemon",
-  "pantheon": "Etharis",
-  "symbol": "A hand clutching a bleeding rose",
-  "symbolImg": {
-   "type": "image",
-   "href": {
-    "type": "external",
-    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/178-16-012.sitri-emblem.webp"
-   },
-   "style": "deity-symbol",
-   "credit": "Suzanne Helmigh"
-  },
   "domains": [
    "Hedonism",
    "Trickery"
   ],
+  "symbol": "A hand clutching a bleeding rose",
+  "symbolImg": {
+   "type": "image",
+   "style": "deity-symbol",
+   "href": {
+    "type": "external",
+    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/178-16-012.sitri-emblem.webp"
+   },
+   "credit": "Suzanne Helmigh"
+  },
   "entries": [
    "{@i Arch Daemon of Hedonism}",
    "Sitri. His name slips from the tongue like honey or blood. The Tempter. The Bloodrose. Sitri whispers into the hearts of mortals, turning their minds inexorably toward whatever they desire until a want becomes a craving. It's said that Sitri has never once forced a soul to give in to hedonism. Yet inevitably, those who succumb to the Arch Daemon's promises lose themselves to their addictions—lust, hunger, intoxication. Then, when desire becomes all-consuming, no evil is beyond Sitri's purview to ask of his followers.",
@@ -2852,13 +2852,13 @@
  },
  {
   "name": "Skadi",
-  "source": "NorthlandsWorldbook",
-  "title": "Mistress of Winter Wildlands",
   "altNames": [
    "Goddess and Patron of Hunters, Archers, and Skiers"
   ],
-  "category": "Other Deities",
+  "source": "NorthlandsWorldbook",
   "pantheon": "Norse",
+  "title": "Mistress of Winter Wildlands",
+  "category": "Other Deities",
   "entries": [
    "The giant Skadi became one of the Aesir upon her marriage to Njord, the sea god. This was compensation for the murder of her father, the jotun Thiazi. As wergild, Skadi could choose a god of the Aesir to be her husband but only by looking at their feet. Before she chose, she assumed the nicest feet would belong to Baldur, the most beautiful of the gods. However, when she judged the feet she saw and selected the nicest ones, they actually belonged to Njord, the sea god. Their marriage was not a success and now they live separate lives."
   ]
@@ -2867,23 +2867,23 @@
   "name": "Solyma",
   "source": "GrimHollowCG24",
   "page": 248,
+  "pantheon": "Etharis",
   "title": "Arch Seraph of Justice",
   "category": "Arch Seraph",
-  "pantheon": "Etharis",
-  "symbol": "A vertical sword gripped by gauntleted hands against a starburst",
-  "symbolImg": {
-   "type": "image",
-   "href": {
-    "type": "external",
-    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/172-16-007.solyma-emblem.webp"
-   },
-   "style": "deity-symbol",
-   "credit": "Suzanne Helmigh"
-  },
   "domains": [
    "Justice",
    "War"
   ],
+  "symbol": "A vertical sword gripped by gauntleted hands against a starburst",
+  "symbolImg": {
+   "type": "image",
+   "style": "deity-symbol",
+   "href": {
+    "type": "external",
+    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/172-16-007.solyma-emblem.webp"
+   },
+   "credit": "Suzanne Helmigh"
+  },
   "entries": [
    "{@i Arch Seraph of Justice}",
    "Solyma has been worshipped since antiquity. Statues and epithets glorifying the Great Judge are found in ancient tombs and ruins that long predate the Gods' End. Her deity was destroyed during The Aetheric War, so long ago that no one today remembers his name, and Solyma has sworn a vow of silence until her former master is avenged. She will not speak until all cosmic horrors are defeated.",
@@ -2932,13 +2932,13 @@
   "symbol": "A holy symbol shaped like two hammers, back to back, and in profile, with a rectangular ruby in the center between them. The face of each hammer is shaped to look like the head of a bearded dwarf.",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/deities/All-Hammer.webp"
    },
-   "style": "deity-symbol",
-   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}",
-   "altText": "A holy symbol shaped like two hammers, back to back, and in profile, with a rectangular ruby in the center between them. The face of each hammer is shaped to look like the head of a bearded dwarf."
+   "altText": "A holy symbol shaped like two hammers, back to back, and in profile, with a rectangular ruby in the center between them. The face of each hammer is shaped to look like the head of a bearded dwarf.",
+   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}"
   },
   "entries": [
    "The patron of craft and creation, the All-Hammer is worshipped by smiths, artisans, and miners alike, granting inspiration where respect and prayer are given. He shaped the mountains from the chaos of the {@book Founding|TalDoreiCampaignSettingReborn|1|The Founding}, and stands as the patron protector of home and family. Devotion to the All-Hammer is strongest in dwarven communities, and many of his temples mark the center of a mighty dwarven stronghold.",
@@ -3004,13 +3004,13 @@
   "symbol": "A silver holy symbol of two, blue crescent moons atop a four-pointed star with intricate elvish designs.",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/deities/ArchHeart.webp"
    },
-   "style": "deity-symbol",
-   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}",
-   "altText": "A silver holy symbol of two, blue crescent moons atop a four-pointed star with intricate elvish designs."
+   "altText": "A silver holy symbol of two, blue crescent moons atop a four-pointed star with intricate elvish designs.",
+   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}"
   },
   "entries": [
    "Guardian of spring, beauty, and the arts, the Arch Heart is the patron of arcane magic, {@book elves|TalDoreiCampaignSettingReborn|4|elves}, and the fey. The {@book Founding|TalDoreiCampaignSettingReborn|1|The Founding} inspired them to wander the twisted lands, seeding them with the first arcane magics and raising the most ancient of forests. It was by the Arch Heart's hand that the first {@book elves|TalDoreiCampaignSettingReborn|4|elves} wandered from the Fey Realm, and for this reason, they are considered the Parent of all {@book elves|TalDoreiCampaignSettingReborn|4|elves}. Those who seek art in all of their work, whether magic or mundane, often worship at the altar of the Arch Heart. They loathe the {@deity The Spider Queen|Exandria|TalDoreiCampaignSettingReborn|Spider Queen} and her priestesses for leading the drow astray.",
@@ -3076,13 +3076,13 @@
   "symbol": "A holy symbol carved into a stone tablet. The symbol is of a jagged spiral surrounded by a barbed, silver chain.",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/deities/ChainedOblivion.webp"
    },
-   "style": "deity-symbol",
-   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}",
-   "altText": "A holy symbol carved into a stone tablet. The symbol is of a jagged spiral surrounded by a barbed, silver chain."
+   "altText": "A holy symbol carved into a stone tablet. The symbol is of a jagged spiral surrounded by a barbed, silver chain.",
+   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}"
   },
   "entries": [
    "It is darkness unending, less like a god and more like another world of malevolent, alien intelligence. Life and death do not exist within the Chained Oblivion; only the absolute end of all things. Few minds can comprehend the depth of oblivion. Most who do are so completely lost to nihilistic despair or denial that they devote the rest of their lives to hastening the end of this reality so that it may be swallowed up by the great inevitability: utter, tenebrous cold.",
@@ -3092,24 +3092,24 @@
     "entries": [
      {
       "type": "entries",
-      "page": 36,
       "name": "Depiction",
+      "page": 36,
       "entries": [
        "Few visual attempts to depict the Chained Oblivion exist, but texts describe a creature of roiling ink and hungry darkness, a spreading cloud of lightless destruction born from a thousand ravenous mouths. Current references show the nightmare constrained by chains of black and gold, barely keeping the dark at bay."
       ]
      },
      {
       "type": "entries",
-      "page": 36,
       "name": "Divine Domains",
+      "page": 36,
       "entries": [
        "Many of the Chained Oblivion's clerics are granted powers of Death, Grave, or Trickery."
       ]
      },
      {
       "type": "entries",
-      "page": 36,
       "name": "Enemies",
+      "page": 36,
       "entries": [
        "The few remaining followers of the {@deity The Knowing Mentor|Exandria|TalDoreiCampaignSettingReborn|Knowing Mentor}, who was gravely wounded by the Oblivion in ancient times, are dedicated to ensuring that the Chained Oblivion is never again unchained. Their goddess led the charge against the all-consuming god's reemergence, and her bravery allowed the other {@book Prime Deities|TalDoreiCampaignSettingReborn|2|Prime Deities} to shackle their enemy, though the victory nearly cost the Mentor her immortal life. Some say the {@deity The Knowing Mentor|Exandria|TalDoreiCampaignSettingReborn|Knowing Mentor} can only be fully restored if the Chained Oblivion is fully destroyed—for good."
       ]
@@ -3150,13 +3150,13 @@
   "symbol": "A holy symbol of the Changebringer that shows the profile of a beautiful woman on a gold coin. She bears an intricate and ornate headpiece.",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/deities/Changebringer.webp"
    },
-   "style": "deity-symbol",
-   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}",
-   "altText": "A holy symbol of the Changebringer that shows the profile of a beautiful woman on a gold coin. She bears an intricate and ornate headpiece."
+   "altText": "A holy symbol of the Changebringer that shows the profile of a beautiful woman on a gold coin. She bears an intricate and ornate headpiece.",
+   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}"
   },
   "entries": [
    "Also known as \"She Who Makes the Path,\" the Changebringer champions freedom, travel, trade, and adventure across the lands. Her will heralds open frontiers, and her call beckons her followers to discover that which awaits them beyond the known. There are few urban temples dedicated to the Changebringer, but her shrines are often found along well-traveled roads and on isolated wilderness hill-tops. Many merchants, adventurers, and free-spirited folk worship the Changebringer, and many a gala toast and tavern song celebrate her as a bringer of luck and fortune.",
@@ -3221,13 +3221,13 @@
   "symbol": "A circular holy symbol of black silver with golden filigree upon it. Composing the entirety of its center is a coiled, golden snake - its fangs bared, its eyes green.",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/deities/CloakedSerpent.webp"
    },
-   "style": "deity-symbol",
-   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}",
-   "altText": "A circular holy symbol of black silver with golden filigree upon it. Composing the entirety of its center is a coiled, golden snake - its fangs bared, its eyes green."
+   "altText": "A circular holy symbol of black silver with golden filigree upon it. Composing the entirety of its center is a coiled, golden snake - its fangs bared, its eyes green.",
+   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}"
   },
   "entries": [
    "A wanderer in the shadows and the creator of snakes and serpentkin, the Cloaked Serpent is the evil god of poisons, assassins, and darkness. The ancient serpentkin worship him over all other deities, dragging screaming offerings to their temples in his honor. Most of the Cloaked Serpent's worshipers were annihilated during the {@book Calamity|TalDoreiCampaignSettingReborn|1|The Calamity}, and those that weren't are either suspended in self-induced stasis or hunted for sport by the servants of the {@deity The Spider Queen|Exandria|TalDoreiCampaignSettingReborn|Spider Queen} and the {@deity The Crawling King|Exandria|TalDoreiCampaignSettingReborn|Crawling King}. But perhaps the Cloaked Serpent is merely biding his time, waiting for the proper moment to unleash his hidden armies upon the world once more.",
@@ -3237,24 +3237,24 @@
     "entries": [
      {
       "type": "entries",
-      "page": 38,
       "name": "Depiction",
+      "page": 38,
       "entries": [
        "Many forgotten temples were once built to worship the Cloaked Serpent, and his image was embedded within much of their architecture. He possesses a humanoid body with six arms and a fanged, serpentine head adorned with a threatening hood. Strands of thick, dark hair sprout from his scaled body, obscuring his form in layers of swirling shadow."
       ]
      },
      {
       "type": "entries",
-      "page": 38,
       "name": "Divine Domains",
+      "page": 38,
       "entries": [
        "Many of the Cloaked Serpent's clerics are granted powers of Nature or Trickery."
       ]
      },
      {
       "type": "entries",
-      "page": 38,
       "name": "Enemies",
+      "page": 38,
       "entries": [
        "The Cloaked Serpent loathes the {@deity The Lawbearer|Exandria|TalDoreiCampaignSettingReborn|Lawbearer} and the {@deity The Wildmother|Exandria|TalDoreiCampaignSettingReborn|Wildmother}, for he despises life, order, and love above all things. His surviving worshipers relish in using poison and fire to consume nature and undermine civilization, hoping to infuriate both goddesses and cast Exandria into chaos."
       ]
@@ -3293,13 +3293,13 @@
   "symbol": "A circular copper holy symbol with a black void in the centre and three twisted pale hands extending from the void.",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/deities/CrawlingKing.webp"
    },
-   "style": "deity-symbol",
-   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}",
-   "altText": "A circular copper holy symbol with a black void in the centre and three twisted pale hands extending from the void."
+   "altText": "A circular copper holy symbol with a black void in the centre and three twisted pale hands extending from the void.",
+   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}"
   },
   "entries": [
    "The god of the endless tunnels and caverns beneath Exandria, the Crawling King is patron to torturers, slavers, and jailers across the realms. The furious, molten tears he wept upon his defeat carved a network of infinite subterranean pathways beneath Exandria—and in the vastness of the Outer Planes, his plane of imprisonment is a realm of logic-defying caves and grasping manacles from which few return alive.",
@@ -3309,24 +3309,24 @@
     "entries": [
      {
       "type": "entries",
-      "page": 37,
       "name": "Depiction",
+      "page": 37,
       "entries": [
        "The Crawling King is rendered as a swollen, malformed worm that slithers through the dark below, with a screaming, hairless human head and three arms carving through the lightless rock."
       ]
      },
      {
       "type": "entries",
-      "page": 37,
       "name": "Divine Domains",
+      "page": 37,
       "entries": [
        "Many of the Crawling King's clerics are granted powers of Death or Trickery."
       ]
      },
      {
       "type": "entries",
-      "page": 37,
       "name": "Enemies",
+      "page": 37,
       "entries": [
        "The {@deity The Dawnfather|Exandria|TalDoreiCampaignSettingReborn|Dawnfather} and the {@deity The Everlight|Exandria|TalDoreiCampaignSettingReborn|Everlight} defeated the Crawling King during the {@book Calamity|TalDoreiCampaignSettingReborn|1|The Calamity} by luring their nemesis above ground. The {@deity The Dawnfather|Exandria|TalDoreiCampaignSettingReborn|Dawnfather} pierced his tenebrous body with ten thousand lances of sunlight, and the {@deity The Everlight|Exandria|TalDoreiCampaignSettingReborn|Everlight} imprisoned him beyond the boundaries of Exandria within her serene rays. The tears of pain and anger the Crawling King shed burned through Exandria, and his faithful fled into these tunnels to escape their enemies' holy light."
       ]
@@ -3366,13 +3366,13 @@
   "symbol": "A circular holy symbol made of stained glass depicting a yellow sun with eight silver rays emanating from it.",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/deities/Dawnfather.webp"
    },
-   "style": "deity-symbol",
-   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}",
-   "altText": "A circular holy symbol made of stained glass depicting a yellow sun with eight silver rays emanating from it."
+   "altText": "A circular holy symbol made of stained glass depicting a yellow sun with eight silver rays emanating from it.",
+   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}"
   },
   "entries": [
    "The Dawnfather rules over sun and summer, and his vigil encircles the ages as the keeper of time. As the lord of agriculture and harbinger of the harvest, he is worshiped by farmers and most common folk, and his priests are welcome in lands all over. Supporter of the needy and destroyer of evil, the Dawnfather is often the patron of paladins and rangers who follow a similar creed. The Dawnfather is mythically renowned for his defeat of the {@deity The Chained Oblivion|Exandria|TalDoreiCampaignSettingReborn|Chained Oblivion} and is revered by those who hunt aberrations.",
@@ -3439,13 +3439,13 @@
   "symbol": "A holy symbol of a feminine, silver phoenix atop a yellow flame, her wings encircling a red ruby overhead.",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/deities/Everlight.webp"
    },
-   "style": "deity-symbol",
-   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}",
-   "altText": "A holy symbol of a feminine, silver phoenix atop a yellow flame, her wings encircling a red ruby overhead."
+   "altText": "A holy symbol of a feminine, silver phoenix atop a yellow flame, her wings encircling a red ruby overhead.",
+   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}"
   },
   "entries": [
    "{@note The Everlight, or Raei, is an adapted form of {@link Sarenrae|https://pf2etools.com/deities.html#sarenrae_crb}, a Paizo Product Identity.}",
@@ -3599,13 +3599,13 @@
   "symbol": "A holy symbol that is a mossy stone with faded runes in the shape of a face with three eyes.",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/deities/KnowingMentor.webp"
    },
-   "style": "deity-symbol",
-   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}",
-   "altText": "A holy symbol that is a mossy stone with faded runes in the shape of a face with three eyes."
+   "altText": "A holy symbol that is a mossy stone with faded runes in the shape of a face with three eyes.",
+   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}"
   },
   "entries": [
    "Revered by seers, sages, and teachers of all walks of life, the Knowing Mentor guided the growth of civilization throughout the {@book Age of Arcanum|TalDoreiCampaignSettingReborn|1|Age of Arcanum} like sunlight guides the branches of a tree. Her teachings were silenced when she was grievously wounded by the {@deity The Chained Oblivion|Exandria|TalDoreiCampaignSettingReborn|Chained Oblivion} during the {@book Calamity|TalDoreiCampaignSettingReborn|1|The Calamity}, and though she survived and went into hiding behind the Divine Gate, her followers are hunted by agents of her ancient foes to this day. Her devout now worship in private, spreading knowledge, philosophy, and lore anonymously through traceless channels.",
@@ -3671,13 +3671,13 @@
   "symbol": "A double axe with golden scales engraved onto the blade.",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/deities/Lawbearer.webp"
    },
-   "style": "deity-symbol",
-   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}",
-   "altText": "A double axe with golden scales engraved onto the blade."
+   "altText": "A double axe with golden scales engraved onto the blade.",
+   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}"
   },
   "entries": [
    "The driving inspiration behind many great inventions, the creation of vast cities, and law and order within society, the Lawbearer claims dominion over civilization. Judges and lawful rulers pay respect at her temples, which are central structures in major cities around the world. Peace and order—through structure and law—guide the will of her devout followers. The Lawbearer has a tempestuous romance with the {@deity The Wildmother|Exandria|TalDoreiCampaignSettingReborn|Wildmother}, a furious love that is only tempered when civilization and nature are in balance. Civil unrest and riots blossom within her beloved cities in these times of imbalance.",
@@ -3744,13 +3744,13 @@
   "symbol": "A black crown with four red horns ascending from the top of it and two black and red horns curving out on the sides. Five black gems are embossed into the crown, with one lone black horn rising from the center.",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/deities/LordHells.webp"
    },
-   "style": "deity-symbol",
-   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}",
-   "altText": "A black crown with four red horns ascending from the top of it and two black and red horns curving out on the sides. Five black gems are embossed into the crown, with one lone black horn rising from the center."
+   "altText": "A black crown with four red horns ascending from the top of it and two black and red horns curving out on the sides. Five black gems are embossed into the crown, with one lone black horn rising from the center.",
+   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}"
   },
   "entries": [
    "The devil god of the Hells is the master of tyranny and domination, and was the first to instill his despotic will into celestials, creating the first devils. His words are honeyed and carefully crafted, soothing and corrupting the hearts of mortals and immortals alike. The Lord of the Hells rules his domain with an iron fist, and the punishments awaiting those that cross him are the stuff of nightmares. Evil entities pay him tribute right alongside his devils, and many warlocks are drawn to his power.",
@@ -3834,13 +3834,13 @@
   "symbol": "A porcelain mask with several cracks, outlined by a black raven.",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/deities/MatronOfRavens.webp"
    },
-   "style": "deity-symbol",
-   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}",
-   "altText": "A porcelain mask with several cracks, outlined by a black raven."
+   "altText": "A porcelain mask with several cracks, outlined by a black raven.",
+   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}"
   },
   "entries": [
    "Master of the skein of fate and the mistress of winter, the Matron of Ravens is the god of death. Her gaze follows and marks the end of each mortal life, watching over the transition between life and death—and ensuring that the natural transition is undefiled. Mourners at funerals across the land invoke her blessing in hopes that she will protect the deceased from the terrible curse of undeath.",
@@ -3908,13 +3908,13 @@
   "symbol": "A circular holy symbol with a crescent moon outlining the bottom of it, it's face upwards towards a starry, purple and white-blue borealis within. Two arrows curve over the top and bottom of the circle.",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/deities/Moonweaver.webp"
    },
-   "style": "deity-symbol",
-   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}",
-   "altText": "A circular holy symbol with a crescent moon outlining the bottom of it, it's face upwards towards a starry, purple and white-blue borealis within. Two arrows curve over the top and bottom of the circle."
+   "altText": "A circular holy symbol with a crescent moon outlining the bottom of it, it's face upwards towards a starry, purple and white-blue borealis within. Two arrows curve over the top and bottom of the circle.",
+   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}"
   },
   "entries": [
    "The Moonweaver is the god of moonlight and the autumn season, as well as the patron of illusion and misdirection. Widely worshipped in halfling and elven culture, she is also considered to be the deity of love, shielding the trysts of lovers in shadows of her own making. Those who work in darkness and trickery often ask for her blessing.",
@@ -4065,13 +4065,13 @@
   "symbol": "A dark blue heraldry of the profile of a platinum dragon.",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/deities/PlatinumDragon.webp"
    },
-   "style": "deity-symbol",
-   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}",
-   "altText": "A dark blue heraldry of the profile of a platinum dragon."
+   "altText": "A dark blue heraldry of the profile of a platinum dragon.",
+   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}"
   },
   "entries": [
    "The pillar of justice, protection, nobility, and honor, the Platinum Dragon is a beacon to paladins of order and good, and is revered by most metallic dragons as the first of their kind. The crest of the Platinum Dragon adorns many halls of high leadership and judgment, invoking his will in all matters of justice. To follow him is to look after those who cannot look after themselves.",
@@ -4137,13 +4137,13 @@
   "symbol": "A black heraldry torn and ragged at the bottom. In its center is one, lone bleeding eye with one large drop of blood emanating from the bottom.",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/deities/Ruiner.webp"
    },
-   "style": "deity-symbol",
-   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}",
-   "altText": "A black heraldry torn and ragged at the bottom. In its center is one, lone bleeding eye with one large drop of blood emanating from the bottom."
+   "altText": "A black heraldry torn and ragged at the bottom. In its center is one, lone bleeding eye with one large drop of blood emanating from the bottom.",
+   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}"
   },
   "entries": [
    "The Ruiner commands roving hordes of barbaric marauders across the lands to destroy, pillage, and slaughter for the joy of it. Orderless and without honor, the creeds of the evil lord goad all living creatures to shrug off the oppressive chains of courtesy and civilization and to devour the world around them, giving in to the chaotic and selfish nature of the predator.",
@@ -4153,24 +4153,24 @@
     "entries": [
      {
       "type": "entries",
-      "page": 35,
       "name": "Depiction",
+      "page": 35,
       "entries": [
        "Simple clay representations in communities of the Ruiner's followers show him as a hulking, bulbous behemoth of an orc. His missing eye has shifted, the prominent remaining eye now centered in his face like that of a nightmarish cyclops."
       ]
      },
      {
       "type": "entries",
-      "page": 35,
       "name": "Divine Domains",
+      "page": 35,
       "entries": [
        "Many of the Ruiner's clerics are granted powers of Death, Tempest, or War."
       ]
      },
      {
       "type": "entries",
-      "page": 35,
       "name": "Enemies",
+      "page": 35,
       "entries": [
        "The {@deity The Arch Heart|Exandria|TalDoreiCampaignSettingReborn|Arch Heart} shot out the Ruiner's right eye during the {@book Calamity|TalDoreiCampaignSettingReborn|1|The Calamity}, and the god of slaughter longs for the day he can return the favor twofold. Likewise, the Ruiner is a dark mirror of the {@deity The Wildmother|Exandria|TalDoreiCampaignSettingReborn|Wildmother}, and his hatred for her kindness is surpassed only by his lust for vengeance against the {@deity The Arch Heart|Exandria|TalDoreiCampaignSettingReborn|Arch Heart}."
       ]
@@ -4211,13 +4211,13 @@
   "symbol": "A black circular holy symbol with red runes outlining its entire circumference. In the center lies a piece of parchment with black markings upon it, made to look like a dragon's talon.",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/deities/ScaledTyrant.webp"
    },
-   "style": "deity-symbol",
-   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}",
-   "altText": "A black circular holy symbol with red runes outlining its entire circumference. In the center lies a piece of parchment with black markings upon it, made to look like a dragon's talon."
+   "altText": "A black circular holy symbol with red runes outlining its entire circumference. In the center lies a piece of parchment with black markings upon it, made to look like a dragon's talon.",
+   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}"
   },
   "entries": [
    "The evil queen of dragons is a fearsome god of greed, envy, and hoarded wealth. While chromatic dragons are her foremost worshipers, the Scaled Tyrant accepts the worship of any who crave wealth. All chromatic dragons have a fearful reverence for their tyrannical queen, but many dragons of near-deific power and ambition chafe under her rule. Though the Scaled Tyrant was pleased by the devastation that the {@book Chroma Conclave|TalDoreiCampaignSettingReborn|1|The Chroma Conclave} spread across Exandria, the prideful {@book Conclave|TalDoreiCampaignSettingReborn|1|The Chroma Conclave} never considered themselves subservient to the Dragon Queen.",
@@ -4226,24 +4226,24 @@
     "entries": [
      {
       "type": "entries",
-      "page": 37,
       "name": "Depiction",
+      "page": 37,
       "entries": [
        "Most visual representations of the Scaled Tyrant exist as warnings within sanctuaries of the {@deity The Platinum Dragon|Exandria|TalDoreiCampaignSettingReborn|Platinum Dragon}. She is shown as a dragon of frightful size with five vicious dragon heads, each one a chromatic color of her evil children. Massive, leathery wings sprout from her back, spreading clouds of poisonous mist."
       ]
      },
      {
       "type": "entries",
-      "page": 37,
       "name": "Divine Domains",
+      "page": 37,
       "entries": [
        "Many of the Scaled Tyrant's clerics are granted powers of Order, Trickery, or War."
       ]
      },
      {
       "type": "entries",
-      "page": 37,
       "name": "Enemies",
+      "page": 37,
       "entries": [
        "The Scaled Tyrant's hatred for the {@deity The Platinum Dragon|Exandria|TalDoreiCampaignSettingReborn|Platinum Dragon} is as old as the {@book Founding|TalDoreiCampaignSettingReborn|1|The Founding}, and her cults are ever-hunted by his justice. For centuries, the zealous paladins of the {@deity The Platinum Dragon|Exandria|TalDoreiCampaignSettingReborn|Platinum Dragon} have limited the Tyrant's worship to the chromatic dragons, but sects of humanoid dragon-worshipers appeared in the wake of the {@book Chroma Conclave's|TalDoreiCampaignSettingReborn|1|The Chroma Conclave} destruction of {@book Emon|TalDoreiCampaignSettingReborn|3|Emon, the City of Fellowship}, and have been secretly keeping her faith alive in the generation since the Conclave's defeat. Some Tal'Dorei oligarchs have even turned to the Scaled Tyrant in secret, as their hoarded wealth begins to run dry, sapped by the immense cost of rebuilding what was lost to the {@book Conclave|TalDoreiCampaignSettingReborn|1|The Chroma Conclave}."
       ]
@@ -4305,13 +4305,13 @@
   "symbol": "A pendant of a blue spider with red markings on its black. Its abdomen is marked with a golden crown.",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/deities/SpiderQueen.webp"
    },
-   "style": "deity-symbol",
-   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}",
-   "altText": "A pendant of a blue spider with red markings on its black. Its abdomen is marked with a golden crown."
+   "altText": "A pendant of a blue spider with red markings on its black. Its abdomen is marked with a golden crown.",
+   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}"
   },
   "entries": [
    "The god of deceit, shadows, and spiders, the Spider Queen weaves a complicated web of schemes and treachery through her worshipers, deceiving allies and enemies alike to gain power. The Spider Queen's worship is entwined with the society of dark {@book elves|TalDoreiCampaignSettingReborn|4|elves} across much of Exandria, even as the drow fall ever deeper into the thrall of the {@deity The Chained Oblivion|Exandria|TalDoreiCampaignSettingReborn|Chained Oblivion's} aberrant minions. It is said that the Spider Queen can see through the eyes of all spiders and that she is truly all-knowing.",
@@ -4321,24 +4321,24 @@
     "entries": [
      {
       "type": "entries",
-      "page": 36,
       "name": "Depiction",
+      "page": 36,
       "entries": [
        "Ancient icons and idols dedicated to the Spider Queen show an alluring woman with deep purple skin and silver hair, her abdomen swelling into the terrifying body of a monstrous spider. Her depictions are highly polarized between her elite devotees and her wretched supplicants. They are either opulent gilded statues, or deranged cave paintings."
       ]
      },
      {
       "type": "entries",
-      "page": 36,
       "name": "Divine Domains",
+      "page": 36,
       "entries": [
        "Many of the Spider Queen's clerics are granted powers of Knowledge or Trickery."
       ]
      },
      {
       "type": "entries",
-      "page": 36,
       "name": "Enemies",
+      "page": 36,
       "entries": [
        "The Spider Queen holds a searing grudge against the {@deity The Stormlord|Exandria|TalDoreiCampaignSettingReborn|Stormlord}, for with one throw of his mighty thunderspear, he impaled her against a cliffside, leaving her drow armies leaderless during the {@book Calamity|TalDoreiCampaignSettingReborn|1|The Calamity}. The Spider Queen and the {@deity The Ruiner|Exandria|TalDoreiCampaignSettingReborn|Ruiner} also share a burning hatred for the {@deity The Arch Heart|Exandria|TalDoreiCampaignSettingReborn|Arch Heart}, whom she claims drove her children below the earth. Despite their shared enemy, the Spider Queen often manipulates the {@deity The Ruiner|Exandria|TalDoreiCampaignSettingReborn|Ruiner's} followers into attacking her foes, so that the drow may remain safe. The only being the Queen fears is the {@deity The Chained Oblivion|Exandria|TalDoreiCampaignSettingReborn|Chained Oblivion}; she dreads its alien mind and is furious about how its madness has gripped her children."
       ]
@@ -4377,13 +4377,13 @@
   "symbol": "A round holy symbol that appears like a shield with four blue strikes of lightning crossing under a red diamond in the centre.",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/deities/Stormlord.webp"
    },
-   "style": "deity-symbol",
-   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}",
-   "altText": "A round holy symbol that appears like a shield with four blue strikes of lightning crossing under a red diamond in the centre."
+   "altText": "A round holy symbol that appears like a shield with four blue strikes of lightning crossing under a red diamond in the centre.",
+   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}"
   },
   "entries": [
    "Where thunder cracks and conflict rises, prayers to the Stormlord are shouted into the maelstrom. Reveling in all tests of strength, the blessing of the Stormlord finds those that prove themselves on the battlefield. Worshiped by athletes and warriors all across Exandria, he exalts those whose force of spirit and passion for victory call his attention. He brings tumultuous storms over land and sea, and those who wish for clearer skies offer their praises and prayers to appease him.",
@@ -4449,13 +4449,13 @@
   "symbol": "A raised armoured fist holding a copper chain that wraps around it.",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/deities/StrifeEmperor.webp"
    },
-   "style": "deity-symbol",
-   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}",
-   "altText": "A raised armoured fist holding a copper chain that wraps around it."
+   "altText": "A raised armoured fist holding a copper chain that wraps around it.",
+   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}"
   },
   "entries": [
    "Blood-drenched armies of brutal warriors oft crush their foes in the name of the Strife Emperor, the patron of warfare and conquest. To serve his will is to accept the call to conflict, seeking lesser people to break and subjugate. Warmongers worship the Strife Emperor as they strike out at the world to bend it beneath them.",
@@ -4465,8 +4465,8 @@
     "entries": [
      {
       "type": "entries",
-      "page": 34,
       "name": "Depiction",
+      "page": 34,
       "entries": [
        "The Strife Emperor is often depicted as a brutish, ogre-like man clad from head to toe in jagged black armor. Heads dangle from his belt, and the shadows that obscure his helmeted face do not hide his unblinking yellow eyes.",
        "Those who long for conquest often see their own people as superior to all others. Thus, somewhat appropriately, depictions of the Strife Emperor are contentious and myriad: he is usually portrayed as a member of whatever race currently bears his banner. In the Republic of Tal'Dorei, his face most often has a human cast, for {@book King Drassig's|TalDoreiCampaignSettingReborn|1|The Iron Rule of Drassig} bloodline paid him tribute long ago."
@@ -4474,16 +4474,16 @@
      },
      {
       "type": "entries",
-      "page": 35,
       "name": "Divine Domains",
+      "page": 35,
       "entries": [
        "Many of the Strife Emperor's clerics are granted powers of the Forge, Order, or War."
       ]
      },
      {
       "type": "entries",
-      "page": 35,
       "name": "Enemies",
+      "page": 35,
       "entries": [
        "The Strife Emperor's greatest enemy is the {@deity The Wildmother|Exandria|TalDoreiCampaignSettingReborn|Wildmother}, who defeated him in {@book Rifenmist|TalDoreiCampaignSettingReborn|3|Rifenmist Peninsula} during the {@book Calamity|TalDoreiCampaignSettingReborn|1|The Calamity}. In turn, he is also despised by her beloved, the {@deity The Lawbearer|Exandria|TalDoreiCampaignSettingReborn|Lawbearer}, for perverting the benevolent rule of law into the manacles of authoritarianism. The Strife Emperor and the {@deity The Wildmother|Exandria|TalDoreiCampaignSettingReborn|Wildmother} clashed many times during the war before his final defeat at {@book Beynsfal Plateau|TalDoreiCampaignSettingReborn|3|Beynsfal Plateau}. His massive iron armor is still scattered across Beynsfal, and his gigantic helmet has become the seat of a ruthless empire."
       ]
@@ -4519,13 +4519,13 @@
   "symbol": "An arch covered in emerald green vines with purple and orange flowers. Through the arch is a winding dirt path leading through a valley into a sunrise on the horizon.",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/deities/Traveler.webp"
    },
-   "style": "deity-symbol",
-   "credit": "{@link Clara Daly|https://tinyraptors.com/}",
-   "altText": "An arch covered in emerald green vines with purple and orange flowers. Through the arch is a winding dirt path leading through a valley into a sunrise on the horizon."
+   "altText": "An arch covered in emerald green vines with purple and orange flowers. Through the arch is a winding dirt path leading through a valley into a sunrise on the horizon.",
+   "credit": "{@link Clara Daly|https://tinyraptors.com/}"
   },
   "entries": [
    "Over the past few years, rumors of a green-cloaked deity with a wiry frame and fiery red hair have spread across Tal'Dorei and the neighboring continent of {@book Wildemount|TalDoreiCampaignSettingReborn|3|Wildemount}. This fey trickster, though not a god, has certainly enjoyed pretending to be one to spread mirthful chaos across the world.",
@@ -4556,13 +4556,13 @@
   "symbol": "A light gold circular holy symbol with an upside-down five-pointed star. Sitting atop the star is a skull with one lone green light smoking from its left eye.",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/deities/WhisperedOne.webp"
    },
-   "style": "deity-symbol",
-   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}",
-   "altText": "A light gold circular holy symbol with an upside-down five-pointed star. Sitting atop the star is a skull with one lone green light smoking from its left eye."
+   "altText": "A light gold circular holy symbol with an upside-down five-pointed star. Sitting atop the star is a skull with one lone green light smoking from its left eye.",
+   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}"
   },
   "entries": [
    "The pain of defeat is cruel indeed. Twenty-four years ago, a cult known as the {@book Remnants|TalDoreiCampaignSettingReborn|2|The Remnants} rose up against the world, led by an undead archmage known as the Whispered One. This lich had toiled in secret for years within the Plane of Shadow, constructing the towering citadel of Thar Amphala there, while secretly spreading his poison throughout the storied lands of {@book Issylra|TalDoreiCampaignSettingReborn|3|Issylra}. His goal was simple: repeat the lost rites of ascension that the {@deity The Matron of Ravens|Exandria|TalDoreiCampaignSettingReborn|Matron of Ravens} used in the {@book Age of Arcanum|TalDoreiCampaignSettingReborn|1|Age of Arcanum} to become a god—and this time, to be on the opposite side of the Divine Gate, so that he could rule the world.",
@@ -4573,24 +4573,24 @@
     "entries": [
      {
       "type": "entries",
-      "page": 38,
       "name": "Depiction",
+      "page": 38,
       "entries": [
        "The Whispered One is a picture of sepulchral self-mutilation. Those faithful who saw him at Thar Amphala describe him as an unnaturally tall, gaunt humanoid with necrotic skin stretched taut over his bones, wrapped in robes of shadow, and adorned with jeweled talismans."
       ]
      },
      {
       "type": "entries",
-      "page": 38,
       "name": "Divine Domains",
+      "page": 38,
       "entries": [
        "Many of the Whispered One's clerics are granted powers of Arcana, Death, or Knowledge."
       ]
      },
      {
       "type": "entries",
-      "page": 38,
       "name": "Enemies",
+      "page": 38,
       "entries": [
        "The Whispered One now despises all the gods who stood in his way by anointing members of Vox Machina as their champions. The {@deity The Dawnfather|Exandria|TalDoreiCampaignSettingReborn|Dawnfather}, the {@deity The Everlight|Exandria|TalDoreiCampaignSettingReborn|Everlight}, the {@deity The Knowing Mentor|Exandria|TalDoreiCampaignSettingReborn|Knowing Mentor}, and the {@deity The Matron of Ravens|Exandria|TalDoreiCampaignSettingReborn|Matron of Ravens} all contributed to his defeat, and his {@book Remnants|TalDoreiCampaignSettingReborn|2|The Remnants} are hell-bent on subverting their mortal followings. He also harbors resentment for the {@deity The Moonweaver|Exandria|TalDoreiCampaignSettingReborn|Moonweaver}, who benevolently blesses the keepers of benign secrets, robbing him of followers."
       ]
@@ -4629,13 +4629,13 @@
   "symbol": "A wreath of golden wheat with green leaves and red berries sprouting out of it. A wooden shepherd's staff is in the centre of the wreath, entwined with some vines.",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/deities/Wildmother.webp"
    },
-   "style": "deity-symbol",
-   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}",
-   "altText": "A wreath of golden wheat with green leaves and red berries sprouting out of it. A wooden shepherd's staff is in the centre of the wreath, entwined with some vines."
+   "altText": "A wreath of golden wheat with green leaves and red berries sprouting out of it. A wooden shepherd's staff is in the centre of the wreath, entwined with some vines.",
+   "credit": "{@link Conceptopolis, LLC|https://conceptopolis.com/}"
   },
   "entries": [
    "The realm of the Wildmother extends to wherever the seas shift and the land grows over. As the keeper of the wilderness, she represents the wild creatures of nature, the rush of the angry rapids, and the heat-heavy stillness of the desert. Hunters, druids, and nomads worship her, seeking her blessing to live in harmony with lands that still bear their wild fangs. Likewise, those seeking safe passage across dangerous waters pray to her to guide them.",
@@ -4682,27 +4682,27 @@
  },
  {
   "name": "Thor",
-  "source": "NorthlandsWorldbook",
-  "title": "The Thunderer",
   "altNames": [
    "God of Lightning",
    "War and Strength",
    "Slayer of Monsters and Protector of Mortals",
    "Patron of the North, Dwarves, and Reavers"
   ],
-  "category": "Major Gods of the North",
+  "source": "NorthlandsWorldbook",
   "pantheon": "Norse",
+  "title": "The Thunderer",
+  "category": "Major Gods of the North",
+  "worshipers": "Adventurers, dwarves, warriors",
   "symbol": "The hammer, a representation of Mjolnir",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/JuliTutu/homebrew-img/main/img/NorthlandsWorldbook/Book/139-06-013.thor-symbol.webp"
    },
-   "style": "deity-symbol",
    "title": "Thor"
   },
-  "worshipers": "Adventurers, dwarves, warriors",
   "favoredWeapons": "Warhammer",
   "entries": [
    "Thor, the red-maned God of Thunder, is the boldest of Wotan's sons and the mightiest warrior in the heavens. Riding his chariot pulled by celestial goats and wielding the rune-etched hammer Mjolnir, he is the eternal foe of giants, trolls, and monsters. Thunder is his war cry, and lightning the swing of his arm. Though not known for wisdom, he possesses unmatched courage, good humor, and a roaring love of battle. When not battling foes, he dwells in his hall, Bilskirnir, with his wife Sif.",
@@ -4737,23 +4737,23 @@
   "name": "Tormach",
   "source": "GrimHollowCG24",
   "page": 251,
+  "pantheon": "Etharis",
   "title": "Arch Daemon of Wrath",
   "category": "Arch Daemon",
-  "pantheon": "Etharis",
-  "symbol": "A bull-headed warrior wielding a warhammer",
-  "symbolImg": {
-   "type": "image",
-   "href": {
-    "type": "external",
-    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/181-16-014.tormach-emblem.webp"
-   },
-   "style": "deity-symbol",
-   "credit": "Suzanne Helmigh"
-  },
   "domains": [
    "Wrath",
    "War"
   ],
+  "symbol": "A bull-headed warrior wielding a warhammer",
+  "symbolImg": {
+   "type": "image",
+   "style": "deity-symbol",
+   "href": {
+    "type": "external",
+    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/181-16-014.tormach-emblem.webp"
+   },
+   "credit": "Suzanne Helmigh"
+  },
   "entries": [
    "{@i Arch Daemon of Wrath}",
    "The only truth of war is death. The only virtue is to kill. The only victory is to survive. Heroism, honor, and glory are illusions for moralizing cowards. These are the edicts of Tormach, Arch Daemon of wrath and war, who is known by such names as Manslayer and Marauder.",
@@ -4771,8 +4771,6 @@
  },
  {
   "name": "Tyr",
-  "source": "NorthlandsWorldbook",
-  "title": "The God of Justice",
   "altNames": [
    "The Odd Handed",
    "Battle Brother",
@@ -4780,10 +4778,12 @@
    "The Einherjar",
    "Wolf-Handed"
   ],
-  "category": "Major Gods of the North",
+  "source": "NorthlandsWorldbook",
   "pantheon": "Norse",
-  "symbol": "A longsword held upright",
+  "title": "The God of Justice",
+  "category": "Major Gods of the North",
   "worshipers": "Guardians, guards, jarls, paladins",
+  "symbol": "A longsword held upright",
   "favoredWeapons": "Longsword",
   "entries": [
    "The God of Justice is worshiped widely by the humans and dwarves of the Northlands, and his priests can be found among all of the so-called civilized peoples. Though he and his clergy are feared and loathed by the giants and their servitors, even they respect his right to prosecute his responsibilities on the battlefield. Wherever oaths are upheld or blood is spilled in conflict, Tyr is said to walk.",
@@ -5039,23 +5039,23 @@
   "name": "Venin",
   "source": "GrimHollowCG24",
   "page": 250,
+  "pantheon": "Etharis",
   "title": "Arch Daemon of Deceit",
   "category": "Arch Daemon",
-  "pantheon": "Etharis",
-  "symbol": "A weeping eye with a blue iris and red pupil",
-  "symbolImg": {
-   "type": "image",
-   "href": {
-    "type": "external",
-    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/177-16-011.venin-emblem.webp"
-   },
-   "style": "deity-symbol",
-   "credit": "Suzanne Helmigh"
-  },
   "domains": [
    "Deceit",
    "Trickery"
   ],
+  "symbol": "A weeping eye with a blue iris and red pupil",
+  "symbolImg": {
+   "type": "image",
+   "style": "deity-symbol",
+   "href": {
+    "type": "external",
+    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/177-16-011.venin-emblem.webp"
+   },
+   "credit": "Suzanne Helmigh"
+  },
   "entries": [
    "{@i Arch Daemon of Deceit}",
    "Venin is the mistress of lies, illusions, and insanity. As an Arch Daemon of supernal deceit, she is known by many names and many faces—Dusktongue, the Hooded One, the Great Deceiver, and many others forgotten by most mortals. She relishes the lies people tell themselves to justify depravity and cruelty. Venin triumphs when objectivity dissolves and mortals scream at each other over whose perceived reality is truth.",
@@ -5089,27 +5089,27 @@
  },
  {
   "name": "Volund",
-  "source": "NorthlandsWorldbook",
-  "title": "Master of Fire and Anvil",
   "altNames": [
    "God of Horses, Smiths, and Marriage",
    "Spear-Shaker and Mage-Smith",
    "Wanderer and Rider",
    "Patron of Reavers and Smiths"
   ],
-  "category": "Major Gods of the North",
+  "source": "NorthlandsWorldbook",
   "pantheon": "Norse",
+  "title": "Master of Fire and Anvil",
+  "category": "Major Gods of the North",
+  "worshipers": "Artists, crafters, dwarves, equestrians, smiths",
   "symbol": "Anvil, emblazoned with a horse's head, and weapons (hammer or battleaxe)",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/JuliTutu/homebrew-img/main/img/NorthlandsWorldbook/Book/141-06-015.volund-symbol.webp"
    },
-   "style": "deity-symbol",
    "title": "Volund"
   },
-  "worshipers": "Artists, crafters, dwarves, equestrians, smiths",
   "favoredWeapons": "Hammer (all types), Battleaxe (among dwarves)",
   "entries": [
    "Volund is the god of earth and fire, of the hammer's ring as it lands upon the anvil and the hiss of steam as a new-forged sword is quenched. He is one of the divine patrons of the reaver dwarves, but many others revere him as a paragon artisan and lord of all the jewels and precious metals in the earth. Though primarily a god of fire, creation, and smith work, Volund is also the god of family and hospitality, especially among humans. As a hammer has two heads, the Master of Fire and Anvil has inspired the crafting of potent magical items, but he has also inspired ancient, cursed relics that still linger in the world into the present day.",
@@ -5144,9 +5144,9 @@
   "name": "Vraigoroth",
   "source": "GrimHollowCG24",
   "page": 253,
+  "pantheon": "Etharis",
   "title": "Kindred of Devouring",
   "category": "Aether Kindred",
-  "pantheon": "Etharis",
   "entries": [
    "{@i Kindred of Devouring}",
    "Vraigoroth is thought of as an enormous maw, ringed with fangs, that sucks all light and energy into itself, returning all existence to darkness. Others imagine it to be an unfathomable tumor, a growing mass of wriggling flesh with veinlike tendrils extending into reality, transmogrifying everything it touches into more of itself. Nobody truly knows its shape. It gnaws at the edges of existence, digesting in the dark.",
@@ -5157,8 +5157,6 @@
  },
  {
   "name": "Wotan",
-  "source": "NorthlandsWorldbook",
-  "title": "All Father",
   "altNames": [
    "Rune Master",
    "God of the Tree and Raven",
@@ -5167,19 +5165,21 @@
    "Patron of Kings and Wizards",
    "Shaman of the Gods"
   ],
-  "category": "Major Gods of the North",
+  "source": "NorthlandsWorldbook",
   "pantheon": "Norse",
+  "title": "All Father",
+  "category": "Major Gods of the North",
+  "worshipers": "Jarls, kings, ravenfolk, wizards",
   "symbol": "The world tree Yggdrasil, the single eye, and the runes",
   "symbolImg": {
    "type": "image",
+   "style": "deity-symbol",
    "href": {
     "type": "external",
     "url": "https://raw.githubusercontent.com/JuliTutu/homebrew-img/main/img/NorthlandsWorldbook/Book/143-06-017.wotan-symbol.webp"
    },
-   "style": "deity-symbol",
    "title": "Wotan"
   },
-  "worshipers": "Jarls, kings, ravenfolk, wizards",
   "favoredWeapons": "Spear",
   "entries": [
    "The most powerful of the Aesir, Wotan led the gods to defeat Aurgelmir at the dawn of time, carving up the body of the first giant to make the world, and so he earned the enmity of all giantkind. He rewards the heroic dead with a place at his table and is the patron of proud and ruthless kings. Ravens fly across the world to bring him news and rumors, and from his enchanted throne he can spy upon all creation. He plucked out his own eye in return for wisdom, and when that wasn't enough, he hung himself from the Tree of Worlds, stealing secrets from the Void beyond existence. He is the god of strife, chieftains, and kings, master of runes and stealer of wisdom. Wotan's superior cunning and wisdom ensures he triumphs time and time again, until Ragnarok swallows the world.",
@@ -5214,23 +5214,23 @@
   "name": "Zabriel",
   "source": "GrimHollowCG24",
   "page": 248,
+  "pantheon": "Etharis",
   "title": "Arch Seraph of Truth",
   "category": "Arch Seraph",
-  "pantheon": "Etharis",
-  "symbol": "A giant eye, the iris shaped like a keyhole, wreathed by countless pairs of angel wings",
-  "symbolImg": {
-   "type": "image",
-   "href": {
-    "type": "external",
-    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/170-16-005.zabriel-emblem.webp"
-   },
-   "style": "deity-symbol",
-   "credit": "Suzanne Helmigh"
-  },
   "domains": [
    "Knowledge",
    "Truth"
   ],
+  "symbol": "A giant eye, the iris shaped like a keyhole, wreathed by countless pairs of angel wings",
+  "symbolImg": {
+   "type": "image",
+   "style": "deity-symbol",
+   "href": {
+    "type": "external",
+    "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/GrimHollowCG24/170-16-005.zabriel-emblem.webp"
+   },
+   "credit": "Suzanne Helmigh"
+  },
   "entries": [
    "{@i Arch Seraph of Truth}",
    "All shadows and deceits are stripped bare by Zabriel's all-seeing eye. The Watcher inherited her domain from the goddess of knowledge, Typharia, for whom Zabriel acted as librarian. Now, truths are the only knowledge the Arch Seraph considers worth keeping. Lies, euphemisms, allegories, and folktales are of no interest to Zabriel, who believes ignorance on any scale is a dangerous weapon in the hands of tyrants and deceivers.",

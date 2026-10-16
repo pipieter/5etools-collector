@@ -4293,11 +4293,11 @@
   ]
  },
  {
-  "type": "table",
   "name": "Dragonmarked Backgrounds",
-  "caption": "Dragonmarked Backgrounds",
   "source": "FoEQuickstone",
   "page": 157,
+  "type": "table",
+  "caption": "Dragonmarked Backgrounds",
   "colLabels": [
    "Dragonmark",
    "Tool Proficiency"
@@ -5097,9 +5097,9 @@
     "",
     {
      "type": "cellHeader",
+     "style": "th-skewer",
      "width": 11,
-     "entry": "Ingredient DC by Terrain",
-     "style": "th-skewer"
+     "entry": "Ingredient DC by Terrain"
     }
    ],
    [
@@ -6143,8 +6143,8 @@
    [
     {
      "type": "cell",
-     "entry": "{@b ARCANE GOODS}",
-     "width": 2
+     "width": 2,
+     "entry": "{@b ARCANE GOODS}"
     },
     ""
    ],
@@ -6155,8 +6155,8 @@
    [
     {
      "type": "cell",
-     "entry": "{@b Local Ingredients}",
-     "width": 2
+     "width": 2,
+     "entry": "{@b Local Ingredients}"
     },
     ""
    ],
@@ -6171,8 +6171,8 @@
    [
     {
      "type": "cell",
-     "entry": "{@b Imported Ingredients}",
-     "width": 2
+     "width": 2,
+     "entry": "{@b Imported Ingredients}"
     },
     ""
    ],
@@ -6187,16 +6187,16 @@
    [
     {
      "type": "cell",
-     "entry": "{@b FIRST AGE GOODS}",
-     "width": 2
+     "width": 2,
+     "entry": "{@b FIRST AGE GOODS}"
     },
     ""
    ],
    [
     {
      "type": "cell",
-     "entry": "{@b First Age Clothing}",
-     "width": 2
+     "width": 2,
+     "entry": "{@b First Age Clothing}"
     },
     ""
    ],
@@ -6211,8 +6211,8 @@
    [
     {
      "type": "cell",
-     "entry": "{@b First Age Trinkets}",
-     "width": 2
+     "width": 2,
+     "entry": "{@b First Age Trinkets}"
     },
     ""
    ],
@@ -6231,8 +6231,8 @@
    [
     {
      "type": "cell",
-     "entry": "{@b ENTERTAINMENT}",
-     "width": 2
+     "width": 2,
+     "entry": "{@b ENTERTAINMENT}"
     },
     ""
    ],
@@ -8709,9 +8709,6 @@
    "col-1 text-center",
    "col-5 text-left"
   ],
-  "outro": [
-   "A {@spell Remove Curse|XPHB} spell reverses this effect and restores the victim's memory."
-  ],
   "rows": [
    [
     "1",
@@ -8737,6 +8734,9 @@
     "6",
     "The target loses an inconsequential memory such as what they ate a few nights ago or the name of an unimportant NPC."
    ]
+  ],
+  "outro": [
+   "A {@spell Remove Curse|XPHB} spell reverses this effect and restores the victim's memory."
   ]
  },
  {
@@ -15268,8 +15268,8 @@
    [
     {
      "type": "cell",
-     "entry": "{@b ARCANE TELECOM SERVICES}",
-     "width": 2
+     "width": 2,
+     "entry": "{@b ARCANE TELECOM SERVICES}"
     },
     ""
    ],
@@ -15296,16 +15296,16 @@
    [
     {
      "type": "cell",
-     "entry": "{@b CITY SERVICES}",
-     "width": 2
+     "width": 2,
+     "entry": "{@b CITY SERVICES}"
     },
     ""
    ],
    [
     {
      "type": "cell",
-     "entry": "{@b Housing}",
-     "width": 2
+     "width": 2,
+     "entry": "{@b Housing}"
     },
     ""
    ],
@@ -15320,8 +15320,8 @@
    [
     {
      "type": "cell",
-     "entry": "{@b Transportation}",
-     "width": 2
+     "width": 2,
+     "entry": "{@b Transportation}"
     },
     ""
    ],
@@ -15340,8 +15340,8 @@
    [
     {
      "type": "cell",
-     "entry": "{@b WITCH SERVICES}",
-     "width": 2
+     "width": 2,
+     "entry": "{@b WITCH SERVICES}"
     },
     ""
    ],
@@ -15364,8 +15364,8 @@
    [
     {
      "type": "cell",
-     "entry": "{@b Spell Storing}",
-     "width": 2
+     "width": 2,
+     "entry": "{@b Spell Storing}"
     },
     ""
    ],
@@ -15384,8 +15384,8 @@
    [
     {
      "type": "cell",
-     "entry": "{@b REPAIR SERVICES}",
-     "width": 2
+     "width": 2,
+     "entry": "{@b REPAIR SERVICES}"
     },
     ""
    ],
@@ -15400,8 +15400,8 @@
    [
     {
      "type": "cell",
-     "entry": "{@b COURIER BRIGADE SERVICES}",
-     "width": 2
+     "width": 2,
+     "entry": "{@b COURIER BRIGADE SERVICES}"
     },
     ""
    ],
@@ -15412,8 +15412,8 @@
    [
     {
      "type": "cell",
-     "entry": "{@b Letter Delivery}",
-     "width": 2
+     "width": 2,
+     "entry": "{@b Letter Delivery}"
     },
     ""
    ],
@@ -15428,8 +15428,8 @@
    [
     {
      "type": "cell",
-     "entry": "{@b Package Delivery}",
-     "width": 2
+     "width": 2,
+     "entry": "{@b Package Delivery}"
     },
     ""
    ],
@@ -15456,8 +15456,8 @@
    [
     {
      "type": "cell",
-     "entry": "{@b SPIRIT SERVICES}",
-     "width": 2
+     "width": 2,
+     "entry": "{@b SPIRIT SERVICES}"
     },
     ""
    ],
@@ -15472,8 +15472,8 @@
    [
     {
      "type": "cell",
-     "entry": "{@b CAT SERVICES}",
-     "width": 2
+     "width": 2,
+     "entry": "{@b CAT SERVICES}"
     },
     ""
    ],
@@ -15875,16 +15875,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Paper Skin",
        "entries": [
         "You have vulnerability to piercing and slashing damage."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -15895,16 +15895,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Brittle Bones",
        "entries": [
         "You have vulnerability to bludgeoning and thunder damage."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -15915,16 +15915,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Elemental Sensitivity",
        "entries": [
         "ou have vulnerability to acid, cold, fire, and lightning damage."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -15935,16 +15935,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Left Footed",
        "entries": [
         "Your right foot becomes a left foot. You have a -1 penalty to your AC and your speed is reduced by 10 feet."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -15955,16 +15955,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "The Wobbles",
        "entries": [
         "Your inner ear is filled with fluid. You have disadvantage on Dexterity saving throws and on {@skill Perception} checks that rely on hearing."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -15975,16 +15975,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Sunlight Sensitivity",
        "entries": [
         "You have disadvantage on attack rolls and on {@skill Perception} checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive by sight is in direct sunlight."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -15995,16 +15995,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Pins and Needles",
        "entries": [
         "You feel a stinging sensation in one of your limbs. You have disadvantage on attack rolls."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16015,16 +16015,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Shrink",
        "entries": [
         "You decrease one size category, as per the Reduce effect of the {@spell enlarge/reduce} spell"
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16035,16 +16035,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Firefly",
        "entries": [
         "You can cast the {@spell light} cantrip with yourself as the target"
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16055,16 +16055,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Malleable Visage",
        "entries": [
         "You change appearance, as per the effect in the {@spell alter self} spell, to appear like a humanoid you've seen before (GM's choice)."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16075,16 +16075,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Natural Weapon",
        "entries": [
         "You grow a natural weapon of your choice (e.g. claws, fangs, horns). Your unarmed strikes deal {@damage 1d8} bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16095,16 +16095,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Amphibisprings",
        "entries": [
         "With enhanced muscles and a ratcheting mechanism in your tendons, your jumping distance is tripled."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16115,16 +16115,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Aqueous Adaptation",
        "entries": [
         "You can breathe underwater and gain a swimming speed equal to your walking speed."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16135,16 +16135,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Tentacle Arm",
        "entries": [
         "One of your limbs is replaced with an octopus-like tentacle. Your reach with this tentacle is 5 feet greater than normal, and it can hold weapons and items as normal. You have advantage on ability checks made to grapple with it."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16155,16 +16155,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Growth",
        "entries": [
         "You increase one size category, as per the Enlarge effect of the {@spell enlarge/reduce} spell"
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16175,16 +16175,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Aerial Adaptation",
        "entries": [
         "You gain a flying speed equal to your walking speed."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16195,16 +16195,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Elemental Resistance",
        "entries": [
         "You gain resistance to an elemental damage type. Roll a {@dice d4} to determine which type: 1, acid; 2, cold; 3, fire; 4, lightning."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16215,16 +16215,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Rubber Skin*",
        "entries": [
         "You gain resistance to bludgeoning damage."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16235,16 +16235,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Crystal Skin*",
        "entries": [
         "You gain resistance to piercing damage."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16255,16 +16255,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Steel Skin*",
        "entries": [
         "You gain resistance to slashing damage."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16275,16 +16275,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Tumour Skin*",
        "entries": [
         "At the start of each of your turns, you gain temporary hit points equal to your Charisma modifier (minimum 1)."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16295,16 +16295,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Stimulated Metabolism**",
        "entries": [
         "Your speed increases by 10 feet and, when you take the Attack action on your turn, you can attack twice instead of once."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16315,16 +16315,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Empowered Strikes.",
        "entries": [
         "Your unarmed strikes are magical and have a bonus to attack and damage rolls equal to half your proficiency bonus, rounded down."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16335,16 +16335,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Shimmerskin*",
        "entries": [
         "Your skin shimmers in a pleasing array of colours, or changes to match your background. For the duration, you have advantage on Charisma checks. For the duration, you can use a bonus action to swap between this effect and the effects of the {@spell chameleon skin|HelianasGuidetoMonsterHunting} spell."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16355,16 +16355,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Secreted Toxin",
        "entries": [
         "Your unarmed strikes deal an additional {@damage 1d6} poison or acid damage on a hit (your choice when you gain this adaptation). In addition, a creature that is grappling you must succeed on a Constitution saving throw at the end of each of your turns or take this damage."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16375,16 +16375,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Scaleskin",
        "entries": [
         "While you're not wearing armour, you gain a +2 bonus to your AC."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16395,16 +16395,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Relentless Metabolism**",
        "entries": [
         "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead, and you lose this adaptation. If you benefit from this adaptation more than once before you finish a long rest, you gain one level of {@condition exhaustion} each time you benefit from it after the first."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16415,16 +16415,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Salamander Skin*",
        "entries": [
         "You have resistance to fire damage. As a bonus action while you are grappling or are {@condition grappled} by a creature, you can make your skin fiery hot for a moment. Any creature touching you must make a Constitution saving throw, taking {@damage 3d6} fire damage on a failure or half as much damage on a success."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16435,16 +16435,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Fortified Metabolism**",
        "entries": [
         "You have advantage on Constitution checks and Constitution saving throws, as well as any checks or saves made to avoid the {@condition exhaustion} condition."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ],
    [
@@ -16455,16 +16455,16 @@
      }
     },
     {
+     "type": "entries",
      "entries": [
       {
+       "type": "entries",
        "name": "Reflective Carapace*",
        "entries": [
         "When you are targeted by a magic missile spell or a spell that requires a ranged attack roll, roll a {@dice d6} On a 4 to 5, you are unaffected. On a 6, you are unaffected, and the effect is reflected back at the caster as though it originated from you, turning the caster into the target."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     }
    ]
   ],
