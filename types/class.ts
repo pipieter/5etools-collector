@@ -90,6 +90,8 @@ export interface ClassBase extends Base, SRD {
   classTableGroups?: ClassTable[];
   classFeatures: (string | ClassInternalFeature)[];
   subclassTitle: string;
+  itemMasteries?: boolean;
+  itemMasteriesProgression?: Record<string, number>;
 }
 
 export interface ClassFeature extends Base, SRD {
