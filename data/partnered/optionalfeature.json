@@ -201,6 +201,7 @@
   ],
   "foundryActivities": [
    {
+    "type": "utility",
     "activation": {
      "type": "",
      "condition": "When you or an ally makes a Dexterity saving throw"
@@ -221,8 +222,7 @@
     "roll": {
      "formula": "1@scale.bard.inspiration",
      "name": "Add to the Saving Throw"
-    },
-    "type": "utility"
+    }
    }
   ]
  },
@@ -718,9 +718,14 @@
   ],
   "foundryActivities": [
    {
+    "type": "utility",
     "activation": {
      "condition": "When you make a weapon attack",
      "type": ""
+    },
+    "duration": {
+     "value": 10,
+     "units": "minute"
     },
     "consumption": {
      "targets": [
@@ -735,22 +740,23 @@
       }
      ]
     },
-    "duration": {
-     "value": 10,
-     "units": "minute"
-    },
     "effects": [
      {
       "foundryId": "HWCSRoadACLFS"
      }
-    ],
-    "type": "utility"
+    ]
    },
    {
+    "description.chatFlavor": "Level 14+",
     "name": "Use (Level 14+)",
+    "type": "utility",
     "activation": {
      "condition": "When you make a weapon attack",
      "type": ""
+    },
+    "duration": {
+     "value": 10,
+     "units": "minute"
     },
     "consumption": {
      "targets": [
@@ -765,17 +771,11 @@
       }
      ]
     },
-    "description.chatFlavor": "Level 14+",
-    "duration": {
-     "value": 10,
-     "units": "minute"
-    },
     "effects": [
      {
       "foundryId": "HWCSRoadACLAC"
      }
-    ],
-    "type": "utility"
+    ]
    }
   ],
   "foundryEffects": [
@@ -1373,6 +1373,11 @@
   ],
   "foundryActivities": [
    {
+    "target.affects": {
+     "count": 1,
+     "type": "ally"
+    },
+    "type": "heal",
     "activation": {
      "type": "reaction",
      "condition": "When you or an ally within 5 feet of you receives healing of any kind"
@@ -1390,6 +1395,10 @@
       }
      ]
     },
+    "range": {
+     "value": 5,
+     "units": "ft"
+    },
     "healing": {
      "custom": {
       "enabled": true,
@@ -1398,16 +1407,7 @@
      "types": [
       "healing"
      ]
-    },
-    "range": {
-     "value": 5,
-     "units": "ft"
-    },
-    "target.affects": {
-     "count": 1,
-     "type": "ally"
-    },
-    "type": "heal"
+    }
    }
   ]
  },
@@ -1733,6 +1733,7 @@
   ],
   "foundryActivities": [
    {
+    "type": "utility",
     "activation": {
      "type": "action",
      "condition": "When you take the Attack action"
@@ -1749,14 +1750,9 @@
        "value": 1
       }
      ]
-    },
-    "type": "utility"
+    }
    },
    {
-    "attack": {
-     "ability": "dex",
-     "type.classification": "unarmed"
-    },
     "damage.parts": [
      {
       "custom": {
@@ -1768,16 +1764,21 @@
       ]
      }
     ],
+    "type": "attack",
     "range": {
      "value": 5,
      "units": "ft"
     },
-    "type": "attack"
+    "attack": {
+     "ability": "dex",
+     "type.classification": "unarmed"
+    }
    },
    {
     "activation.type": "special",
     "description.chatFlavor": "Level 14+",
     "name": "Stunning Strike (Level 14+)",
+    "type": "save",
     "range": {
      "value": 5,
      "units": "ft"
@@ -1787,8 +1788,7 @@
       "con"
      ],
      "dc.calculation": "wis"
-    },
-    "type": "save"
+    }
    }
   ]
  },
@@ -2280,6 +2280,12 @@
   },
   "foundryActivities": [
    {
+    "type": "utility",
+    "duration": {
+     "value": 10,
+     "units": "minute",
+     "concentration": true
+    },
     "consumption": {
      "targets": [
       {
@@ -2293,15 +2299,6 @@
       }
      ]
     },
-    "duration": {
-     "value": 10,
-     "units": "minute",
-     "concentration": true
-    },
-    "range": {
-     "value": 60,
-     "units": "ft"
-    },
     "target": {
      "affects": {
       "count": 1,
@@ -2314,10 +2311,19 @@
       "type": "square"
      }
     },
-    "type": "utility"
+    "range": {
+     "value": 60,
+     "units": "ft"
+    }
    },
    {
     "activation.type": "special",
+    "target.affects.type": "enemy",
+    "type": "save",
+    "range": {
+     "value": 5,
+     "units": "ft"
+    },
     "damage": {
      "onSave": "none",
      "parts": [
@@ -2330,9 +2336,34 @@
       }
      ]
     },
+    "save": {
+     "ability": [
+      "wis"
+     ],
+     "dc.calculation": "wis"
+    }
+   },
+   {
+    "activation.type": "special",
+    "description.chatFlavor": "Level 6+",
+    "target.affects.type": "enemy",
+    "name": "Save (Level 6+)",
+    "type": "save",
     "range": {
      "value": 5,
      "units": "ft"
+    },
+    "damage": {
+     "onSave": "none",
+     "parts": [
+      {
+       "custom": {
+        "enabled": true,
+        "formula": "1@scale.bard.inspiration"
+       },
+       "types": "slashing"
+      }
+     ]
     },
     "save": {
      "ability": [
@@ -2340,52 +2371,21 @@
      ],
      "dc.calculation": "wis"
     },
-    "target.affects.type": "enemy",
-    "type": "save"
-   },
-   {
-    "name": "Save (Level 6+)",
-    "activation.type": "special",
-    "damage": {
-     "onSave": "none",
-     "parts": [
-      {
-       "custom": {
-        "enabled": true,
-        "formula": "1@scale.bard.inspiration"
-       },
-       "types": "slashing"
-      }
-     ]
-    },
-    "description.chatFlavor": "Level 6+",
     "effects": [
      {
       "foundryId": "HWCSRoadCWS0"
      }
-    ],
-    "range": {
-     "value": 5,
-     "units": "ft"
-    },
-    "save": {
-     "ability": [
-      "wis"
-     ],
-     "dc.calculation": "wis"
-    },
-    "target.affects.type": "enemy",
-    "type": "save"
+    ]
    },
    {
+    "name": "Break Restrain Check",
+    "type": "check",
     "check": {
      "associated": [
       "ath"
      ],
      "dc.calculation": "wis"
-    },
-    "name": "Break Restrain Check",
-    "type": "check"
+    }
    }
   ],
   "foundryEffects": [
@@ -3195,19 +3195,6 @@
   "foundryActivities": [
    {
     "activation.type": "special",
-    "consumption": {
-     "targets": [
-      {
-       "type": "itemUses",
-       "target": {
-        "consumes": {
-         "name": "Bardic Inspiration"
-        }
-       },
-       "value": 1
-      }
-     ]
-    },
     "damage.parts": [
      {
       "custom": {
@@ -3219,15 +3206,12 @@
       ]
      }
     ],
+    "name": "Use",
+    "type": "damage",
     "duration": {
      "value": 10,
      "units": "minute"
     },
-    "name": "Use",
-    "type": "damage"
-   },
-   {
-    "activation.type": "special",
     "consumption": {
      "targets": [
       {
@@ -3240,7 +3224,10 @@
        "value": 1
       }
      ]
-    },
+    }
+   },
+   {
+    "activation.type": "special",
     "damage.parts": [
      {
       "custom": {
@@ -3253,29 +3240,28 @@
      }
     ],
     "description.chatFlavor": "Level 6+",
+    "name": "Use: 1 Hour (Level 6+)",
+    "type": "damage",
     "duration": {
      "value": 1,
      "units": "hour"
     },
-    "name": "Use: 1 Hour (Level 6+)",
-    "type": "damage"
+    "consumption": {
+     "targets": [
+      {
+       "type": "itemUses",
+       "target": {
+        "consumes": {
+         "name": "Bardic Inspiration"
+        }
+       },
+       "value": 1
+      }
+     ]
+    }
    },
    {
     "activation.type": "special",
-    "consumption": {
-     "scaling": {
-      "allowed": true,
-      "max": 9
-     },
-     "targets": [
-      {
-       "scaling.mode": "level",
-       "target": "1",
-       "type": "spellSlots",
-       "value": 0
-      }
-     ]
-    },
     "damage.parts": [
      {
       "custom": {
@@ -3289,7 +3275,21 @@
     ],
     "description.chatFlavor": "Level 14+",
     "name": "Cast (Level 14+)",
-    "type": "damage"
+    "type": "damage",
+    "consumption": {
+     "scaling": {
+      "allowed": true,
+      "max": 9
+     },
+     "targets": [
+      {
+       "scaling.mode": "level",
+       "target": "1",
+       "type": "spellSlots",
+       "value": 0
+      }
+     ]
+    }
    }
   ],
   "foundryEffects": [
@@ -4621,23 +4621,6 @@
   },
   "foundryActivities": [
    {
-    "activation": {
-     "type": "special",
-     "condition": "When you cast the selected spell"
-    },
-    "consumption": {
-     "targets": [
-      {
-       "type": "itemUses",
-       "target": {
-        "consumes": {
-         "name": "Bardic Inspiration"
-        }
-       },
-       "value": 1
-      }
-     ]
-    },
     "damage.parts": [
      {
       "custom": {
@@ -4654,7 +4637,24 @@
      }
     ],
     "name": "Use",
-    "type": "damage"
+    "type": "damage",
+    "activation": {
+     "type": "special",
+     "condition": "When you cast the selected spell"
+    },
+    "consumption": {
+     "targets": [
+      {
+       "type": "itemUses",
+       "target": {
+        "consumes": {
+         "name": "Bardic Inspiration"
+        }
+       },
+       "value": 1
+      }
+     ]
+    }
    }
   ]
  },
@@ -6623,6 +6623,16 @@
   "foundryActivities": [
    {
     "activation.type": "special",
+    "target.affects": {
+     "count": 1,
+     "type": "creature"
+    },
+    "type": "utility",
+    "duration": {
+     "value": "23 * floor(@classes.bard.levels/14) + 1",
+     "units": "hour",
+     "concentration": true
+    },
     "consumption": {
      "targets": [
       {
@@ -6636,25 +6646,15 @@
       }
      ]
     },
-    "duration": {
-     "value": "23 * floor(@classes.bard.levels/14) + 1",
-     "units": "hour",
-     "concentration": true
+    "range": {
+     "value": 90,
+     "units": "ft"
     },
     "effects": [
      {
       "foundryId": "NWCSRoadHLQ"
      }
-    ],
-    "range": {
-     "value": 90,
-     "units": "ft"
-    },
-    "target.affects": {
-     "count": 1,
-     "type": "creature"
-    },
-    "type": "utility"
+    ]
    }
   ],
   "foundryEffects": [
@@ -10614,6 +10614,7 @@
   ],
   "foundryActivities": [
    {
+    "type": "utility",
     "activation": {
      "type": "special",
      "condition": "When you make an attack with a melee weapon that has either the heavy, two handed, or versatile quality"
@@ -10635,8 +10636,7 @@
      {
       "foundryId": "HWCSRoadRTR"
      }
-    ],
-    "type": "utility"
+    ]
    },
    {
     "activation.type": "",
@@ -13664,6 +13664,16 @@
   },
   "foundryActivities": [
    {
+    "target.affects": {
+     "count": 1,
+     "type": "ally"
+    },
+    "type": "heal",
+    "duration": {
+     "value": 10,
+     "units": "minute",
+     "concentration": true
+    },
     "consumption": {
      "targets": [
       {
@@ -13677,10 +13687,9 @@
       }
      ]
     },
-    "duration": {
-     "value": 10,
-     "units": "minute",
-     "concentration": true
+    "range": {
+     "value": 60,
+     "units": "ft"
     },
     "healing": {
      "custom": {
@@ -13690,18 +13699,11 @@
      "types": [
       "temphp"
      ]
-    },
-    "range": {
-     "value": 60,
-     "units": "ft"
-    },
-    "target.affects": {
-     "count": 1,
-     "type": "ally"
-    },
-    "type": "heal"
+    }
    },
    {
+    "name": "Save (Level 6+)",
+    "type": "save",
     "activation": {
      "type": "special",
      "condition": "Against any creature who deals damage to an ally with temporary hit points granted by this effect"
@@ -13720,14 +13722,12 @@
       }
      ]
     },
-    "name": "Save (Level 6+)",
     "save": {
      "ability": [
       "wis"
      ],
      "dc.calculation": "wis"
-    },
-    "type": "save"
+    }
    }
   ]
  },

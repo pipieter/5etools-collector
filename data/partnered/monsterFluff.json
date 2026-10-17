@@ -1039,9 +1039,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/acorn-crab.webp"
     },
-    "credit": "A.J. Bondio",
     "width": 2146,
-    "height": 2269
+    "height": 2269,
+    "credit": "A.J. Bondio"
    }
   ]
  },
@@ -1173,16 +1173,16 @@
       "entries": [
        {
         "type": "entries",
-        "page": 223,
         "name": "Perfect Obedience",
+        "page": 223,
         "entries": [
          "As constructs, adranachs are unfailingly loyal servants to the spellwrights who created them. To the people of Tal'Dorei, they are best known as the creatures that allowed cities razed by the {@book Chroma Conclave|TalDoreiCampaignSettingReborn|1|The Chroma Conclave} to be rebuilt in a matter of weeks, rather than years. But adranachs are also mighty combatants that serve their masters as hunters, bodyguards, and even assassins."
         ]
        },
        {
         "type": "entries",
-        "page": 223,
         "name": "Astral Body",
+        "page": 223,
         "entries": [
          "An adranach's body is formed from the energy of the Astral Plane. Their claws and face, as well as a number of rune-inscribed braces on their body, are made of mithral and are necessary to keep their form of pure energy from losing cohesion. The methods for creating these mithral foundations and for binding astral energy to them are known only to the {@book Wonderworker|TalDoreiCampaignSettingReborn|2|The Wonderworker} (the leader of the {@book League of Miracles|TalDoreiCampaignSettingReborn|2|League of Miracles}) and the spellwrights who learn from them.",
          "This secret knowledge is granted to worthy spellwrights in the form of an orb of mithral bands, about three feet in diameter, called a dormen. As the bands are removed and forged into the adranach's braces and mask, the dormen speaks aloud the instructions of how to craft an adranach in the magically recorded voice of the {@book Wonderworker|TalDoreiCampaignSettingReborn|2|The Wonderworker}."
@@ -1190,24 +1190,24 @@
        },
        {
         "type": "entries",
-        "page": 223,
         "name": "Mithral Mask",
+        "page": 223,
         "entries": [
          "Each adranach has a unique mask crafted by its creator as their signature. This mask is crafted from pure mithral, and is the key to summoning and dismissing an adranach to a unique pocket dimension where it can rest and repair itself. When not in use, the mask magically shrinks from its true size to an easily concealable size fit for a humanoid face. Most spellwrights keep this mask in a chest stored on the Ethereal Plane with the {@spell Leomund's Secret Chest|PHB|secret chest} spell, and only produce the mask when it is time to call their adranach forth."
         ]
        },
        {
         "type": "entries",
-        "page": 223,
         "name": "Master Adranach",
+        "page": 223,
         "entries": [
          "The secretive master spellwrights of the {@book League of Miracles|TalDoreiCampaignSettingReborn|2|League of Miracles} are taught how to build adranachs of monumental size, with strength to match. These legendary constructs are also inevitably outfitted with unique enhancements of their creators' own devising, from upgraded espionage tools to the ability to sublimate their starry form and travel through the Astral Plane."
         ]
        },
        {
         "type": "entries",
-        "page": 223,
         "name": "Arcane Nature",
+        "page": 223,
         "entries": [
          "An adranach doesn't require air, food, drink, or sleep."
         ]
@@ -1224,8 +1224,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/AdranachFluffAttack.webp"
     },
-    "credit": "{@link John Anthony di Giovanni|https://artstation.com/jad}",
-    "altText": "The adranach is a large, purple, luminescent creature with a vaguely feline shape. Its wings are unfurled as it launches four missiles of violet arcane energy."
+    "altText": "The adranach is a large, purple, luminescent creature with a vaguely feline shape. Its wings are unfurled as it launches four missiles of violet arcane energy.",
+    "credit": "{@link John Anthony di Giovanni|https://artstation.com/jad}"
    },
    {
     "type": "image",
@@ -1233,8 +1233,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/AdranachFluffSize.webp"
     },
-    "credit": "{@link Genel Jumalon|https://artstation.com/geneljumalon}",
-    "altText": "Concept art showing a tiny humanoid figure, a large winged purple adranach, and an even larger master adranach."
+    "altText": "Concept art showing a tiny humanoid figure, a large winged purple adranach, and an even larger master adranach.",
+    "credit": "{@link Genel Jumalon|https://artstation.com/geneljumalon}"
    },
    {
     "type": "image",
@@ -1242,8 +1242,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/AdranachFluffMask.webp"
     },
-    "credit": "{@link Genel Jumalon|https://artstation.com/geneljumalon}",
-    "altText": "Concept art showing five different variations on a purple mask with feline or avian characteristics."
+    "altText": "Concept art showing five different variations on a purple mask with feline or avian characteristics.",
+    "credit": "{@link Genel Jumalon|https://artstation.com/geneljumalon}"
    }
   ]
  },
@@ -2058,9 +2058,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/akaobata.webp"
     },
-    "credit": "Matt Owen",
     "width": 2283,
-    "height": 2578
+    "height": 2578,
+    "credit": "Matt Owen"
    }
   ]
  },
@@ -3159,9 +3159,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/063-04-009.amphithere.webp"
     },
-    "credit": "Christina Kraus",
     "width": 1700,
-    "height": 1157
+    "height": 1157,
+    "credit": "Christina Kraus"
    }
   ]
  },
@@ -4235,9 +4235,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/animalistic-spirit.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 2584,
-    "height": 2205
+    "height": 2205,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -4408,9 +4408,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/happy-yellow-gametoy.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 1687,
-    "height": 2222
+    "height": 2222,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -4439,9 +4439,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/157-11-006.animated-slime.webp"
     },
-    "credit": "Frank Wade",
     "width": 850,
-    "height": 1071
+    "height": 1071,
+    "credit": "Frank Wade"
    }
   ]
  },
@@ -5217,9 +5217,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/angler.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 2352,
-    "height": 3035
+    "height": 3035,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -5620,9 +5620,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Arlowene Lum.webp"
     },
-    "credit": "Kiri Leonard",
     "width": 893,
-    "height": 1000
+    "height": 1000,
+    "credit": "Kiri Leonard"
    }
   ]
  },
@@ -5670,10 +5670,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/092-06-005.the-seahawk.webp"
     },
-    "title": "The Seahawk",
-    "credit": "Kiri Leonard",
     "width": 850,
-    "height": 1078
+    "height": 1078,
+    "title": "The Seahawk",
+    "credit": "Kiri Leonard"
    }
   ]
  },
@@ -6235,10 +6235,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Aster the Thorn.webp"
     },
-    "credit": "Julia Metzger",
-    "title": "Aster \"the Thorn\" Amaryllis",
     "width": 696,
-    "height": 1000
+    "height": 1000,
+    "title": "Aster \"the Thorn\" Amaryllis",
+    "credit": "Julia Metzger"
    },
    {
     "type": "image",
@@ -6246,10 +6246,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/042-02-036.the-thorn.webp"
     },
-    "credit": "Lauren Henderson",
     "width": 850,
     "height": 974,
-    "title": "{@b The Thorn}, 4,600 gp. Wanted For: Assault, Banditry, Extortion, Kidnapping, Murder, Racketeering, Smuggling"
+    "title": "{@b The Thorn}, 4,600 gp. Wanted For: Assault, Banditry, Extortion, Kidnapping, Murder, Racketeering, Smuggling",
+    "credit": "Lauren Henderson"
    }
   ]
  },
@@ -6936,19 +6936,19 @@
   "entries": [
    {
     "type": "quote",
+    "style": "quote-pull",
+    "skipMarks": true,
     "entries": [
      "...there was a very old-looking Dwarf on the step with a white beard and a scarlet hood; and he too hopped inside as soon as the door was open, just as if he had been invited."
-    ],
-    "style": "quote-pull",
-    "skipMarks": true
+    ]
    },
    "Born in the year 2763 of the Third Age, Balin is the eldest son of Fundin, one of Durin's Folk. He and his younger brother Dwalin are of royal blood, as they count King Náin II among their ancestors. A venerable Dwarf, Balin has seen much, including the death of too many allies and dear friends. He fought the Orcs when his father died defending Moria, was there when Thráin disappeared in Mirkwood, and was with Thorin Oakenshield on the quest that ended with the liberation of Erebor and the death of the Dragon.",
    "For decades, Balin was Thorin's counsellor, and now serves Dáin Ironfoot, the King Under the Mountain. One of Dáin's most trusted officers, he is an adventurer at heart, and rarely remains at court for long periods of time. Despite his status among his kin, he is surprisingly humble and polite. While still doughty, Balin's age is beginning to show. He sometimes mutters to himself and dodders as if every day of his years presses upon him.",
    {
     "type": "entries",
     "name": "Encountering Balin",
-    "page": 211,
     "id": "340",
+    "page": 211,
     "entries": [
      "According to his nature as a wanderer and his duty as a messenger of Dáin, Balin is often on the road, travelling across Wilderland and Eriador. He sometimes journeys with {@creature Gandalf the Grey|TLotRR|Gandalf}, to suit his own or the Wizard's purposes. Balin enjoys his visits to the Shire to see his dear old friend Bilbo Baggins, and out of a general fondness for Hobbits and their excellent hospitality. He also goes to the Blue Mountains regularly, to work with the Dwarves residing there.",
      "Balin is unusually woodcrafty for a Dwarf, adept at tracking, fire-making, and pathfinding. He often serves as a lookout and takes pride in his acute sight. Balin knows well the regions he traverses when he journeys from Erebor to the Blue Mountains, having made the trip several times, though he prefers not to cross Mirkwood, even to this day.",
@@ -6958,8 +6958,8 @@
    {
     "type": "entries",
     "name": "Balin as a Patron",
-    "page": 211,
     "id": "341",
+    "page": 211,
     "entries": [
      "Unlike many Dwarves, Balin is genuinely interested in other folks and takes kindly to Hobbits especially. Of the Dwarves of Thorin's Company, Balin is the only one still associating with Gandalf long after the death of Smaug, as he shares the Wizard's concern about the growing Shadow.",
      "In addition to that, Balin aims to restore the strength and prominence of the Dwarves in Eriador, whether through direct action, or by setting into motion agents who might affect the change he wishes to see. Like all his folk, he hates Orcs and their ilk, and seeks in every way to drive them back wherever he can. His adventuring has made him wiser and more cautious though, and he often counsels patience and observation as a tactic, versus rash or violent action.",
@@ -7537,9 +7537,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/bearracuda.webp"
     },
-    "credit": "Matt Owen",
     "width": 2734,
-    "height": 2145
+    "height": 2145,
+    "credit": "Matt Owen"
    }
   ]
  },
@@ -7682,9 +7682,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/spirit-cat-on-pumpkin.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 943,
-    "height": 1467
+    "height": 1467,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -8267,9 +8267,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Bernice Blatherwick.webp"
     },
-    "credit": "Christina Kraus",
     "width": 952,
-    "height": 1000
+    "height": 1000,
+    "credit": "Christina Kraus"
    }
   ]
  },
@@ -8341,9 +8341,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Bervis.webp"
     },
-    "credit": "Derek Murphy",
     "width": 376,
-    "height": 1000
+    "height": 1000,
+    "credit": "Derek Murphy"
    },
    {
     "type": "image",
@@ -8351,9 +8351,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/162-12-003.bervis-sketch.webp"
     },
-    "credit": "Lauren Henderson",
     "width": 850,
-    "height": 644
+    "height": 644,
+    "credit": "Lauren Henderson"
    }
   ]
  },
@@ -8535,11 +8535,11 @@
   "entries": [
    {
     "type": "quote",
+    "style": "quote-pull",
+    "skipMarks": true,
     "entries": [
      "...he looked and behaved exactly like a second edition of his solid and comfortable father, got something a bit queer in his make-up from the Took side, something that only waited for a chance to come out."
-    ],
-    "style": "quote-pull",
-    "skipMarks": true
+    ]
    },
    "In the year 2965, Bilbo is a vigorous Hobbit—At seventy-five he is very much the same as he was at fifty, at the time of his remarkable disappearance and surprising return. On the surface, the son of Bungo Baggins and Belladonna Took is a prime example of a respectable Hobbit. He is a great lover of pipe-weed, good food, and fine waistcoats, and lives in one of the cosiest Hobbit-holes in the Shire. But this is not all there is to Mr Baggins.",
    "Bilbo's unexpected journey with Thorin Oakenshield and company changed him profoundly, setting him apart from his fellow countrymen. Perhaps that adventure provided a spark that ignited his Tookish and more adventurous side, and he certainly returned from Erebor a wealthier Hobbit. All this estranged him from much of the (admittedly tedious) Shire society, leading him to focus on his own, peculiar lifestyle, the company of friends, and working on his diary.",
@@ -8547,8 +8547,8 @@
    {
     "type": "entries",
     "name": "Encountering Bilbo",
-    "page": 212,
     "id": "343",
+    "page": 212,
     "entries": [
      "The Bagginses have lived in the neighbourhood of The Hill from time out of mind, and Bilbo has no desire to break that long-standing tradition. His address is at Bag End, Underhill, Hobbiton, and it's at Bag End that the Hobbit is likely to be found, probably having tea, or standing at the door, smoking a {@item pipe|TLotRR}. That said, his experiences with Thorin's Company and a Dragon have awakened in him a certain appetite for adventure, and sometimes he stays away from home for much longer than is considered appropriate in the Shire. When travelling further away than Buckland, or Michel Delving, he is often in the company of Dwarves.",
      "If encountered outside the Shire, Bilbo might carry his Elf-dagger, Sting, sheathed at his side. But he has yet to encounter a danger that might require him to use it—if threatened, the Hobbit displays an uncanny ability to disappear almost instantly, a talent far outstripping the normal Hobbitish affinity for escaping notice. He always remembers to bring a {@item pocket-handkerchief|TLotRR} along."
@@ -8557,8 +8557,8 @@
    {
     "type": "entries",
     "name": "Bilbo as a Patron",
-    "page": 212,
     "id": "344",
+    "page": 212,
     "entries": [
      "Unbeknownst to his fellow Hobbits who just consider him to be strange, if not completely mad, Bilbo knows a lot about the world outside the Shire, and is well aware of its dangers. He keeps himself as informed as he can, exchanging tidings with travellers and by writing and receiving letters. When he learns about potential threats that might affect the Shire, he does what he can to enlist the help of anyone who might do something about it.",
      "Being a Hobbit of considerable means, Bilbo is all too happy to arrange hospitality, finance expeditions, and to generally encourage those who would dare to go out and have adventures. He provides support merely in return for a good story and perhaps a souvenir or keepsake—he is especially interested in maps, and geographical lore in general, which he uses to amend his own charts.",
@@ -8584,8 +8584,8 @@
      {
       "type": "inset",
       "name": "Bilbo's Magic Ring",
-      "page": 212,
       "id": "345",
+      "page": 212,
       "entries": [
        "Bilbo found many valuable things in the course of his last adventure, but the greatest treasure he brought back is one he doesn't know much about. It's the magic ring he found in an underground cave, under the Misty Mountains, and that he has kept a great secret. To him, it's a precious commodity, as wearing it makes him {@condition invisible}—a quality that Bilbo finds invaluable when unpleasant callers come looking for him.",
        "This ring has been in Bilbo's possession for more than twenty years now, and what in the beginning seemed nothing more than a curiosity to the Hobbit is slowly developing a growing hold over his mind. He keeps it in the pocket of his waistcoat upon a fine silver chain at all times, and has developed the habit of slipping a finger or two in the pocket to touch it, as if to reassure himself that it's still there."
@@ -9571,9 +9571,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Book/blowbelly-pufferfish.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 2252,
-    "height": 2360
+    "height": 2360,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -11310,10 +11310,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/044-02-038.bullybird.webp"
     },
-    "credit": "Lauren Henderson",
     "width": 850,
     "height": 991,
-    "title": "{@b Bullybird}, 4,300 gp. Wanted For: Burglary, Extortion, Muder, Theft, Treeharm & Smuggling"
+    "title": "{@b Bullybird}, 4,300 gp. Wanted For: Burglary, Extortion, Muder, Theft, Treeharm & Smuggling",
+    "credit": "Lauren Henderson"
    }
   ]
  },
@@ -11727,9 +11727,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Cadwyll Piper.webp"
     },
-    "credit": "Olivia Rea",
     "width": 616,
-    "height": 1000
+    "height": 1000,
+    "credit": "Olivia Rea"
    }
   ]
  },
@@ -12433,9 +12433,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/cat-of-prodgious-size.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 3129,
-    "height": 2887
+    "height": 2887,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -12477,9 +12477,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Cathus Gright.webp"
     },
-    "credit": "Dawn Carlos",
     "width": 401,
-    "height": 1000
+    "height": 1000,
+    "credit": "Dawn Carlos"
    },
    {
     "type": "image",
@@ -12487,10 +12487,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/165-12-006.cathus-sketch.webp"
     },
-    "title": "Cathus watching over Finnian",
-    "credit": "Lauren Henderson",
     "width": 850,
-    "height": 661
+    "height": 661,
+    "title": "Cathus watching over Finnian",
+    "credit": "Lauren Henderson"
    }
   ]
  },
@@ -13159,8 +13159,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/VaxFluff.webp"
     },
-    "credit": "{@link Elliott Berggren|https://twitter.com/planarbindings}",
-    "altText": "A portrait of the Champion of Ravens: a pale, half-elven man standing in front of an eclipsed moon. Black raven wings extend behind him, his long, dark hair draped over them. He has small, twisted white antlers on his right shoulder and is holds a porcelain eye mask in his right hand."
+    "altText": "A portrait of the Champion of Ravens: a pale, half-elven man standing in front of an eclipsed moon. Black raven wings extend behind him, his long, dark hair draped over them. He has small, twisted white antlers on his right shoulder and is holds a porcelain eye mask in his right hand.",
+    "credit": "{@link Elliott Berggren|https://twitter.com/planarbindings}"
    }
   ]
  },
@@ -14371,8 +14371,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/CinderslagElementalFluff.webp"
     },
-    "credit": "{@link Svetoslav Petrov|https://artstation.com/svetoslavpetrov}",
-    "altText": "A hulking beast with red eyes made of dark rock with cindering lava glowing through its body."
+    "altText": "A hulking beast with red eyes made of dark rock with cindering lava glowing through its body.",
+    "credit": "{@link Svetoslav Petrov|https://artstation.com/svetoslavpetrov}"
    }
   ]
  },
@@ -14390,19 +14390,19 @@
   "entries": [
    {
     "type": "quote",
+    "style": "quote-pull",
+    "skipMarks": true,
     "entries": [
      "As they came to the gates Círdan the Shipwright came forth to greet them. Very tall he was, and his beard was long, and he was grey and old, save that his eyes were keen as stars..."
-    ],
-    "style": "quote-pull",
-    "skipMarks": true
+    ]
    },
    "Círdan is perhaps the most ancient Elf still living in Middle-earth. He has witnessed three ages of the world, and has been given many titles. Today, he is mostly known as the Shipwright, and the Master of the Grey Havens. He is accounted among the Wise and the Great, and has served as a member of the White Council for many long centuries. For a time, he was the keeper of one of the three Elven Rings of Power, for he bore Narya, the Ring of Fire, until he gave it to {@creature Gandalf the Grey|TLotRR}.",
    "Círdan is currently the chief of all Elves residing west of the Blue Mountains, in Lindon. He has been leading them since Gil-galad died fighting Sauron in the War of the Last Alliance. Many consider him to possess the greatest gift of foresight, and thus to be able to see further and deeper than any other in Middle-earth. That is perhaps why the task of preparing the ships that all Elves board when leaving Middle-earth to cross the sea to Valinor is appointed to him.",
    {
     "type": "entries",
     "name": "Encountering Círdan",
-    "page": 214,
     "id": "347",
+    "page": 214,
     "entries": [
      "Círdan dwells with his people at the great port of Mithlond, on the banks of the Gulf of Lune. He rarely ventures forth from the Grey Havens, but all who are of good spirit and come in peace are welcome to come and see him there. Galdor of the Havens is his herald and envoy, and often travels across Middle-earth representing the Shipwright wherever needed, and speaking with his full authority.",
      "In person, Círdan is very tall, even for an Elf. His appearance is that of a grey but vigorous individual, with a long, silver beard, a rarity among the Fair Folk. He is gracious and hospitable, receiving all guests with full courtesy and kindness. His bright eyes are keen, yet profound—If anyone was to look into them for a few moments, they would see a deep well of memory and experience, telling of the countless things that Círdan has accomplished over his long lifetime."
@@ -14411,8 +14411,8 @@
    {
     "type": "entries",
     "name": "Círdan as a Patron",
-    "page": 214,
     "id": "348",
+    "page": 214,
     "entries": [
      "Círdan knows that the Grey Havens play a role of primary importance in the war against the Shadow. The Five Wizards landed here when they came to Middle-earth almost two thousand years ago, and it is here that many great fleets armed for the defeat of Sauron found safe harbourage. In the twilight of the Third Age, Mithlond serves as the last refuge for those who desire to leave Middle-earth, and Círdan considers it his duty to ensure that their passage is made as safely as possible.",
      "The Grey Havens also guard a great wealth of knowledge. Círdan's memory goes back to a time before the light of the Sun and Moon, and his knowledge rivals that of Elrond, greatest of lore-masters. The Lord of the Havens and that of Imladris seek the counsel of one another, and their messengers can be often found on the great East Road on errands from their masters.",
@@ -15288,9 +15288,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/clone-of-viota.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 1613,
-    "height": 2555
+    "height": 2555,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -15508,8 +15508,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/ColdSnapSpiritFluff.webp"
     },
-    "credit": "{@link Ameera Sheikh|https://mikandii.com/}",
-    "altText": "Three illuminated motes of blue-white energy surrounded individually by blue crystal ice-like shards."
+    "altText": "Three illuminated motes of blue-white energy surrounded individually by blue crystal ice-like shards.",
+    "credit": "{@link Ameera Sheikh|https://mikandii.com/}"
    }
   ]
  },
@@ -15632,9 +15632,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Connie.webp"
     },
-    "credit": "Derek Murphy",
     "width": 303,
-    "height": 1000
+    "height": 1000,
+    "credit": "Derek Murphy"
    }
   ]
  },
@@ -16097,9 +16097,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/corrupted-muk.webp"
     },
-    "credit": "Jake Morrison",
     "width": 3441,
-    "height": 3572
+    "height": 3572,
+    "credit": "Jake Morrison"
    }
   ]
  },
@@ -16128,9 +16128,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/110-07-008.corrupted-rosselbuck.webp"
     },
-    "credit": "Irina Nordsol",
     "width": 1700,
-    "height": 1300
+    "height": 1300,
+    "credit": "Irina Nordsol"
    }
   ]
  },
@@ -16483,9 +16483,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Cosmoth.webp"
     },
-    "credit": "Alexander Ngo",
     "width": 905,
-    "height": 1000
+    "height": 1000,
+    "credit": "Alexander Ngo"
    }
   ]
  },
@@ -16926,9 +16926,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/crawler.webp"
     },
-    "credit": "Jake Morrison",
     "width": 2372,
-    "height": 3952
+    "height": 3952,
+    "credit": "Jake Morrison"
    }
   ]
  },
@@ -17899,9 +17899,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/cuddle-bug.webp"
     },
-    "credit": "A.J. Bondio",
     "width": 3000,
-    "height": 1536
+    "height": 1536,
+    "credit": "A.J. Bondio"
    }
   ]
  },
@@ -17937,9 +17937,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/113-08-002.cursed-slime.webp"
     },
-    "credit": "Cynthia FG",
     "width": 850,
-    "height": 1091
+    "height": 1091,
+    "credit": "Cynthia FG"
    }
   ]
  },
@@ -18101,8 +18101,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/CyclopsStormcallerFluff.webp"
     },
-    "credit": "{@link Allie Briggs|https://alliebriggs.com/}",
-    "altText": "A cyclops with two arms outstretched palms facing the sky, one arm is lit in reddish light. Blue lightning streaks behind the cyclops."
+    "altText": "A cyclops with two arms outstretched palms facing the sky, one arm is lit in reddish light. Blue lightning streaks behind the cyclops.",
+    "credit": "{@link Allie Briggs|https://alliebriggs.com/}"
    }
   ]
  },
@@ -19711,9 +19711,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/deep-angler.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 2638,
-    "height": 3051
+    "height": 3051,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -20722,9 +20722,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Delerium Dreg.webp"
     },
-    "title": "Delerium Dreg",
     "width": 798,
-    "height": 1000
+    "height": 1000,
+    "title": "Delerium Dreg"
    },
    {
     "type": "image",
@@ -20732,9 +20732,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Delerium Mind Dreg.webp"
     },
-    "title": "Delerium Mind Dreg",
     "width": 850,
-    "height": 1911
+    "height": 1911,
+    "title": "Delerium Mind Dreg"
    }
   ]
  },
@@ -21167,8 +21167,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/DemonfeedSpiderFluff.webp"
     },
-    "credit": "{@link Elisa Serio|https://elisaserioart.com/}",
-    "altText": "A monstrous arachnid with ember orange, spiky exoskeleton, its front legs raised, it's white-fanged mouth open wide."
+    "altText": "A monstrous arachnid with ember orange, spiky exoskeleton, its front legs raised, it's white-fanged mouth open wide.",
+    "credit": "{@link Elisa Serio|https://elisaserioart.com/}"
    }
   ]
  },
@@ -23074,9 +23074,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/dragon.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 3912,
-    "height": 2693
+    "height": 2693,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -23158,9 +23158,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/dragon-frog.webp"
     },
-    "credit": "Scott Higginbotham",
     "width": 5034,
-    "height": 3933
+    "height": 3933,
+    "credit": "Scott Higginbotham"
    }
   ]
  },
@@ -23870,9 +23870,6 @@
      "col-1 text-center",
      "col-5 text-left"
     ],
-    "outro": [
-     "A {@spell Remove Curse|XPHB} spell reverses this effect and restores the victim's memory."
-    ],
     "rows": [
      [
       "1",
@@ -23898,6 +23895,9 @@
       "6",
       "The target loses an inconsequential memory such as what they ate a few nights ago or the name of an unimportant NPC."
      ]
+    ],
+    "outro": [
+     "A {@spell Remove Curse|XPHB} spell reverses this effect and restores the victim's memory."
     ]
    }
   ],
@@ -23982,9 +23982,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Drella Swoop.webp"
     },
-    "credit": "Irina Nordsol",
     "width": 874,
-    "height": 1000
+    "height": 1000,
+    "credit": "Irina Nordsol"
    }
   ]
  },
@@ -24399,9 +24399,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Dusktail.webp"
     },
-    "credit": "Olivia Rea",
     "width": 753,
-    "height": 1000
+    "height": 1000,
+    "credit": "Olivia Rea"
    }
   ]
  },
@@ -24510,9 +24510,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/dust-bunny.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 2599,
-    "height": 1885
+    "height": 1885,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -26225,9 +26225,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/elemental-spirit.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 4304,
-    "height": 2373
+    "height": 2373,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -26364,9 +26364,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Elora Quickwit.webp"
     },
-    "credit": "Christina Kraus",
     "width": 894,
-    "height": 1000
+    "height": 1000,
+    "credit": "Christina Kraus"
    }
   ]
  },
@@ -27124,9 +27124,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Everbug.webp"
     },
-    "credit": "Alexander Ngo",
     "width": 1000,
-    "height": 804
+    "height": 804,
+    "credit": "Alexander Ngo"
    }
   ]
  },
@@ -28726,9 +28726,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/field-giant.webp"
     },
-    "credit": "Jake Morrison",
     "width": 6545,
-    "height": 3119
+    "height": 3119,
+    "credit": "Jake Morrison"
    }
   ]
  },
@@ -28968,10 +28968,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/131-09-006.cathus-finnan.webp"
     },
-    "title": "Cathus and Finnan",
-    "credit": "Dawn Carlos",
     "width": 850,
-    "height": 1386
+    "height": 1386,
+    "title": "Cathus and Finnan",
+    "credit": "Dawn Carlos"
    },
    {
     "type": "image",
@@ -28979,10 +28979,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/165-12-006.cathus-sketch.webp"
     },
-    "title": "Cathus watching over Finnian",
-    "credit": "Lauren Henderson",
     "width": 850,
-    "height": 661
+    "height": 661,
+    "title": "Cathus watching over Finnian",
+    "credit": "Lauren Henderson"
    }
   ]
  },
@@ -29143,9 +29143,9 @@
        {
         "type": "statblock",
         "tag": "item",
-        "source": "HumblewoodTales",
         "name": "Firelance Venom",
         "displayName": "Firelance Venom (Injury)",
+        "source": "HumblewoodTales",
         "page": 180,
         "style": "narrow"
        }
@@ -29161,9 +29161,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/031-02-023.firelance.webp"
     },
-    "credit": "Xander Brown",
     "width": 850,
-    "height": 1021
+    "height": 1021,
+    "credit": "Xander Brown"
    }
   ]
  },
@@ -29194,9 +29194,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/fish-folk.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 2768,
-    "height": 3180
+    "height": 3180,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -29508,9 +29508,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/GrimHollowPG24/Book/158-09-003.tongue.webp"
     },
-    "credit": "Suzanne Helmigh",
     "width": 850,
-    "height": 299
+    "height": 299,
+    "credit": "Suzanne Helmigh"
    }
   ]
  },
@@ -29581,9 +29581,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/flora-spirit.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 1435,
-    "height": 2386
+    "height": 2386,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -29925,9 +29925,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/armored-chicken-spirit.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 1200,
-    "height": 1830
+    "height": 1830,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -31106,9 +31106,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Frond Bellewether.webp"
     },
-    "credit": "Cynthis FG",
     "width": 1000,
-    "height": 919
+    "height": 919,
+    "credit": "Cynthis FG"
    }
   ]
  },
@@ -31313,9 +31313,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Fungusfeaster.webp"
     },
-    "credit": "Alexander Ngo",
     "width": 910,
-    "height": 1000
+    "height": 1000,
+    "credit": "Alexander Ngo"
    }
   ]
  },
@@ -31531,11 +31531,11 @@
   "entries": [
    {
     "type": "quote",
+    "style": "quote-pull",
+    "skipMarks": true,
     "entries": [
      "At the end of the second week in September a cart came in through Bywater from the direction of the Brandywine Bridge in broad daylight. An old man was driving it all alone. He wore a tall pointed blue hat, a long grey cloak, and a silver scarf."
-    ],
-    "style": "quote-pull",
-    "skipMarks": true
+    ]
    },
    "To the Hobbits of the Shire, Gandalf the Grey is just a pilgrim, a wanderer without a home. He says he's a Wizard, but the extent of his magical skill seems to be limited to his wonderful fireworks and to the prodigious smoke-rings he produces with his {@item pipe|TLotRR}. But the wanderings of Gandalf have brought him much farther than his beloved Shire, to lands where he is known by different names: to the Elves he is Mithrandir, Tharkûn is how the Dwarves know him, and Men in the South call him Gandalf Greyhame. In these countries, Gandalf is not always welcome—indeed, some call him a bringer of ill-news, as he often comes when a threat is near.",
    "In truth, Gandalf is the greatest enemy of Sauron in the Third Age. Few among the Wise know that the Wizards first came to Middle-earth out of the Uttermost West almost two thousand years ago, on a mission to thwart the Dark Lord's machinations. Gandalf's appointed task is to bolster the hearts of those who would fight against evil everywhere, and that's what he has done for centuries now, counselling Dwarves, Elves, and Men, always bringing light where darkness lies.",
@@ -31543,8 +31543,8 @@
    {
     "type": "entries",
     "name": "Encountering Gandalf",
-    "page": 215,
     "id": "34b",
+    "page": 215,
     "entries": [
      "Gandalf can be encountered almost anywhere—riding across the countryside on horseback, walking alone or in the company of friends or allies, or even in the seat of a horse-drawn cart. He may not show up when called but often appears when needed. Gandalf holds a particular fondness for the Hobbits of the Shire and when he is meeting someone in Eriador, he will always choose the inn in Bree as a meeting place.",
      "When encountered along the road, the Grey Wizard may appear just as an old man, with a long white beard and carrying a staff that he sometimes leans upon as he walks. But when he sits in council, his white hair and piercing dark eyes make him look like a wise king from some ancient legend.",
@@ -31554,8 +31554,8 @@
    {
     "type": "entries",
     "name": "Gandalf as a Patron",
-    "page": 217,
     "id": "34c",
+    "page": 217,
     "entries": [
      "Once, {@creature Círdan the Shipwright|TLotRR|Círdan} of the Havens said that the Grey Wanderer's mission is to 'rekindle hearts in a world that grows chill'. In accordance with this mandate, Gandalf labours to inspire all individuals into action, and set events in motion that will eventually spiral into greater consequences. The Quest of Erebor is an example of how Gandalf acts—helping Thorin Oakenshield to reclaim his lost kingdom led to the elimination of a Dragon that could have become a terrible weapon in the hands of the Enemy.",
      "Unlike the head of his order, Saruman, who deals in devices and instruments from his high tower in Isengard, Gandalf moves among those who oppose Sauron, listening to their pleas and providing help when emergencies occur. This has made Gandalf welcome in most places, despite his reputation as a troublemaker.",
@@ -31675,9 +31675,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Gargath.webp"
     },
-    "credit": "Christina Kraus",
     "width": 1000,
-    "height": 964
+    "height": 964,
+    "credit": "Christina Kraus"
    }
   ]
  },
@@ -32489,9 +32489,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/GrimHollowPG24/Book/126-08-012.gasdra.webp"
     },
-    "credit": "Anastassia Grigorieva",
     "width": 850,
-    "height": 1329
+    "height": 1329,
+    "credit": "Anastassia Grigorieva"
    }
   ]
  },
@@ -33558,9 +33558,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/bora-bug.webp"
     },
-    "credit": "Scott Higginbotham",
     "width": 2353,
-    "height": 2353
+    "height": 2353,
+    "credit": "Scott Higginbotham"
    }
   ]
  },
@@ -33591,9 +33591,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/giant-jellyfish.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 4472,
-    "height": 3488
+    "height": 3488,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -33624,9 +33624,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/giant-koi.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 2429,
-    "height": 2519
+    "height": 2519,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -33650,9 +33650,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/pixie.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 1299,
-    "height": 2034
+    "height": 2034,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -33805,9 +33805,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/venus-fly-rat.webp"
     },
-    "credit": "Scott Higginbotham",
     "width": 3135,
-    "height": 3135
+    "height": 3135,
+    "credit": "Scott Higginbotham"
    }
   ]
  },
@@ -33909,19 +33909,19 @@
   "entries": [
    {
     "type": "quote",
+    "style": "quote-pull",
+    "skipMarks": true,
     "entries": [
      "After a few years Gilraen took leave of Elrond and returned to her own people in Eriador, and lived alone..."
-    ],
-    "style": "quote-pull",
-    "skipMarks": true
+    ]
    },
    "A woman of noble lineage, Gilraen is the mother of Aragorn, the current chieftain of the Rangers of the North and Heir of Isildur. She was quite young when she married, and became a widow soon after she gave birth to her son. When that came to pass, Elrond took her and her newborn to dwell with him in Rivendell, and he raised Aragorn as a son of his own—Aragorn was called 'Estel' in Imladris ({@language Sindarin|TLotRR} for 'Hope'), to conceal his lineage and true name from his enemies.",
    "In the year 2965, Gilraen is not yet sixty years old. Being one of the long lived Dúnedain, she is in the fullness of her strength of body and mind, and possesses a measure of the foresight of her people. When her son left Rivendell to seek adventure a few years ago, Gilraen decided to remain in Imladris. She often leaves the Last Homely House on short trips, to visit her own people in Eriador and confer with the captains of the Rangers of the North, in the absence of their chieftain.",
    {
     "type": "entries",
-    "page": 217,
     "name": "Encountering Gilraen",
     "id": "34e",
+    "page": 217,
     "entries": [
      "Gilraen is accorded great respect among the Dúnedain of Eriador as the widow of Arathorn, their previous chieftain, and as the mother of the Heir of Isildur. She is also deemed to be foresighted, having inherited that gift from Ivorwen, her mother. Many captains of the Rangers seek her advice, knowing her to be a wise and prudent counsellor.",
      "Anyone who meets her will find Gilraen to be a tall and slender woman, her demeanour marked by sorrow, but who refuses to be bent under the weight of her misfortune.",
@@ -33931,8 +33931,8 @@
    {
     "type": "entries",
     "name": "Gilraen as a Patron",
-    "page": 218,
     "id": "34f",
+    "page": 218,
     "entries": [
      "Having lost her husband Arathorn to an Orc-arrow, and his father Arador to the ferocity of Hill-Trolls in the Coldfells, Gilraen has experienced personally the hatred of the Enemy for her folk. She knows full well that the Dúnedain of the North and the entire region of Eriador will never be safe if evil creatures are allowed to prowl undisturbed. In the absence of her son the chieftain, Gilraen makes sure that the Rangers don't forsake their duty as guardians of the land of old Arnor and the borders of the Bree-land and the Shire. In this, she has found a staunch ally in the Wizard {@creature Gandalf the Grey|TLotRR|Gandalf}. When she is in Rivendell, she never misses a chance to encourage the sons of Elrond to go out and hunt all monstrous creatures.",
      "Adventurers worthy of Gilraen's trust find themselves enjoying the respect of the Rangers of the North. When out in the wild, they can count on the help of many scouts, and are provided directions to find their hidden refuges and caches of supplies.",
@@ -34497,8 +34497,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/GoatKnightFluff.webp"
     },
-    "credit": "{@link Ilich Henriquez|https://deviantart.com/ilacha}",
-    "altText": "A dwarf with long, braided brown beard and clad in full plate armor, sits atop a large, wiry-haired mountain goat."
+    "altText": "A dwarf with long, braided brown beard and clad in full plate armor, sits atop a large, wiry-haired mountain goat.",
+    "credit": "{@link Ilich Henriquez|https://deviantart.com/ilacha}"
    }
   ]
  },
@@ -34720,10 +34720,10 @@
   "entries": [
    {
     "type": "quote",
+    "style": "quote-pull",
     "entries": [
      "Tom Bombadil is the Master. No one has ever caught old Tom walking in the forest, wading in the water, leaping on the hill-tops under light and shadow. He has no fear. Tom Bombadil is master."
-    ],
-    "style": "quote-pull"
+    ]
    },
    "Old Tom Bombadil roamed all over Eriador, when the woods that today are called the Old Forest reached Dunland in the south. As the forest shrunk, so did his domain. He is a strange creature, known by many names—to the Elves he is Iarwain Ben-adar ('oldest and fatherless'), a name that attempts to define him. For he is ancient even for the long-lived Elves, and they don't know whence he came. He was there before the Dark Lord arrived, he welcomed the first rivers and trees, and his life is tied inextricably to that of his land.",
    "Tom appears as a red-cheeked man with curly brown hair, wrinkles around his eyes etched deep from mirth, usually clad in a blue coat and yellow boots. He is often engaged in seemingly frivolous activities, like picking water-lilies, as if he hasn't a care in the whole of Middle-earth. In truth, the opposite is true: Tom cares about all living things, so much so that he cannot distinguish the worth of one life over another.",
@@ -34731,8 +34731,8 @@
    {
     "type": "entries",
     "name": "Encountering Tom and Goldberry",
-    "page": 218,
     "id": "351",
+    "page": 218,
     "entries": [
      "The house of Tom Bombadil is found just beyond the Old Forest to the east, where the Withywindle runs down from its spring in the Barrow-downs. Under Tom's roof and at his table, guests will find their heart contented with peaceful slumber, fine company, joyous song, and all the simple pleasures that come with a humble heart.",
      "Bombadil is known to journey into the Old Forest and the Barrow-downs, having no fear of Old Man Willow nor the wight-haunted hills. With a laugh and a wink, Tom charms all he encounters, singing the fierce to sleep and rousing the rest with a song and a merry dance.",
@@ -34742,8 +34742,8 @@
    {
     "type": "entries",
     "name": "Tom and Goldberry as Patrons",
-    "page": 220,
     "id": "352",
+    "page": 220,
     "entries": [
      "Though Tom's power is as deep as the earth is old, his mastery seems to be limited to his little land, within bounds that he has set. Within those bounds he fears nothing, and he is seemingly unconquerable, but he won't step beyond them for any reason. Adventurers winning his friendship and that of Goldberry will find that when called, they appear almost instantly anywhere within their domain. Even the weather itself seems to behave according to their needs and whims.",
      "Tom knows all the ways and the lore of the Old Forest, and he can speak at length about all manner of such things, for there is little in his realm that he does not understand fully. He tells many remarkable stories, speaking softly or even singing, inspiring strange flights of fancy, vistas of untold history and of things forgotten, both majestic and meagre.",
@@ -34834,6 +34834,67 @@
   ]
  },
  {
+  "name": "Gore Drinker",
+  "source": "DnDBeyondDrops",
+  "entries": [
+   {
+    "type": "entries",
+    "entries": [
+     "{@i Constructed Terrors of the Battlefield}",
+     "Gore drinkers are hulking amalgamations of giant corpse parts, infused with necromantic magic that allows the gore drinker to revitalize itself with the blood of its victims. The fluids from those remains congeal into a corrosive bile that sickens enemies and hampers their vision. Gore drinkers spew this bile forth before attacking their enemies, beating them with weapons, shields, or other instruments of destruction wielded by their additional stitched-on appendages.",
+     "Originating in the coliseums of the Shadowfell, the first gore drinker was created when a greedy proprietor and a necromancer conspired to create an unstoppable abomination to defeat the coliseum's popular fighters. Their gore drinker wiped out every fighter in a bloody spectacle. Unfortunately, the gore drinker escaped the confines of the coliseum, wreaking havoc. Since then, other necromancers have studied the plans for creating the creature, giving more evil masterminds an incredibly powerful weapon to wield against foes—or even against entire armies.",
+     "Gore drinkers come in a variety of combinations. Roll on or choose a result from the Gore Drinker Body Types table to inspire a gore drinker's features.",
+     {
+      "type": "table",
+      "colLabels": [
+       "1d6",
+       "The Gore Drinker Was Formed From..."
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
+      ],
+      "rows": [
+       [
+        "1",
+        "An ogre's head on a frost giant's body."
+       ],
+       [
+        "2",
+        "A troll's upper body on a stone giant's lower body."
+       ],
+       [
+        "3",
+        "Two fire giants stitched together."
+       ],
+       [
+        "4",
+        "Two cyclops heads on a hill giant's body."
+       ],
+       [
+        "5",
+        "Limbs of an ogre on a fomorian's torso."
+       ],
+       [
+        "6",
+        "A mutilated cloud giant with patches of skin from various mismatched hill giants."
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DnDBeyondDrops/bestiary/Gore Drinker.webp"
+    }
+   }
+  ]
+ },
+ {
   "name": "Gorm Rotholfsson",
   "source": "NorthlandsSagas",
   "entries": [
@@ -34860,9 +34921,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/goro-goro.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 2674,
-    "height": 2473
+    "height": 2473,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -35308,9 +35369,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/OneShotWondersHolidayPack/004-03-001.great-fir-drake.webp"
     },
-    "credit": "Rafa Teruel",
     "width": 1700,
-    "height": 1202
+    "height": 1202,
+    "credit": "Rafa Teruel"
    }
   ]
  },
@@ -35680,9 +35741,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/green-slime.webp"
     },
-    "credit": "Scott Higginbotham",
     "width": 2873,
-    "height": 2482
+    "height": 2482,
+    "credit": "Scott Higginbotham"
    }
   ]
  },
@@ -36025,8 +36086,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/GrogStrongjawFluffPortrait.webp"
     },
-    "credit": "{@link Wesley Griffith|https://artstation.com/wesleygriffith}",
-    "altText": "A portrait of Grog Strongjaw. He has a black, graying beard and grey skin with black tattoos on his oversized biceps and bald head. He wears a cloak with fur trim, a belt of dwarvenkind, and his forearms bear the Titanstone Knuckles. In his hands he lovingly holds his great red Bloodaxe."
+    "altText": "A portrait of Grog Strongjaw. He has a black, graying beard and grey skin with black tattoos on his oversized biceps and bald head. He wears a cloak with fur trim, a belt of dwarvenkind, and his forearms bear the Titanstone Knuckles. In his hands he lovingly holds his great red Bloodaxe.",
+    "credit": "{@link Wesley Griffith|https://artstation.com/wesleygriffith}"
    },
    {
     "type": "image",
@@ -36034,8 +36095,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/GrogStrongjawFluffChallenge.webp"
     },
-    "credit": "{@link Kennef Riggles|https://twitter.com/kennefriggles} & {@link De La Rosa Design, LLC|https://delarosadesign.com/}",
-    "altText": "A portion of a note written on parchment with a Strongjaw Ale logo stamped on it. The note has several misspellings, and reads: \"Dear champion, I, Grog Strongjaw, inveet you to the Luncheon of Champions on the 7th of Misuthar 836 PD at the Casle Whitestone. Bring your best wep-ons.\""
+    "altText": "A portion of a note written on parchment with a Strongjaw Ale logo stamped on it. The note has several misspellings, and reads: \"Dear champion, I, Grog Strongjaw, inveet you to the Luncheon of Champions on the 7th of Misuthar 836 PD at the Casle Whitestone. Bring your best wep-ons.\"",
+    "credit": "{@link Kennef Riggles|https://twitter.com/kennefriggles} & {@link De La Rosa Design, LLC|https://delarosadesign.com/}"
    }
   ]
  },
@@ -36282,9 +36343,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/114-08-003.gurt-hollowfen.webp"
     },
-    "credit": "Isle Gort",
     "width": 850,
-    "height": 1338
+    "height": 1338,
+    "credit": "Isle Gort"
    }
   ]
  },
@@ -36645,8 +36706,8 @@
    {
     "type": "statblock",
     "tag": "table",
-    "source": "NorthlandsWorldbook",
-    "name": "Swallowed Treasure"
+    "name": "Swallowed Treasure",
+    "source": "NorthlandsWorldbook"
    }
   ],
   "images": [
@@ -36730,9 +36791,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/109-07-007.hamlin-hurlwind.webp"
     },
-    "credit": "Xander Brown",
     "width": 1698,
-    "height": 2128
+    "height": 2128,
+    "credit": "Xander Brown"
    }
   ]
  },
@@ -36750,9 +36811,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/hammer-gull.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 8151,
-    "height": 4585
+    "height": 4585,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -36802,9 +36863,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/harpy.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 2203,
-    "height": 3133
+    "height": 3133,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -38505,10 +38566,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/080-06-001.interrogation.webp"
     },
-    "title": "Mistaken identity",
-    "credit": "Lauren Henderson",
     "width": 850,
-    "height": 779
+    "height": 779,
+    "title": "Mistaken identity",
+    "credit": "Lauren Henderson"
    }
   ]
  },
@@ -38784,8 +38845,8 @@
    "Every apothecary could use an extra set of hands. Overstretched apothecaries use Helping Hands in a variety of ways: fetching tools and ingredients, taking notes, sending messages, holding open ribcages, and assigning them to suturing or administering concoctions to a patient.",
    {
     "type": "insetReadaloud",
-    "style": "text-center",
     "name": "Player Character Familiars",
+    "style": "text-center",
     "entries": [
      "Subject to GM approval, an apothecary with the Laboratory Assistant esoteric theory can create a Helpful Hand or Speaking Skull to serve them using the {@spell Find Familiar|XPHB} spell. A familiar created in this manner always acts in combat immediately after its creator's turn. It can use its special attacks in its stat block only if the apothecary uses a {@variantrule Bonus Action|XPHB} on their turn to command the familiar to take one of those actions."
     ]
@@ -39197,6 +39258,9 @@
  {
   "name": "Highland Wolf",
   "source": "BoundByBlood",
+  "entries": [
+   "Large packs of wolves hunt across the highlands, rarely choosing to interact with humans. When food becomes scarce or when travelers become separated from their groups, these thickly furred canines become a deadly threat."
+  ],
   "images": [
    {
     "type": "image",
@@ -39206,9 +39270,6 @@
     },
     "credit": "John Cobb"
    }
-  ],
-  "entries": [
-   "Large packs of wolves hunt across the highlands, rarely choosing to interact with humans. When food becomes scarce or when travelers become separated from their groups, these thickly furred canines become a deadly threat."
   ]
  },
  {
@@ -39283,9 +39344,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/hill-dragon.webp"
     },
-    "credit": "Scott Higginbotham",
     "width": 3088,
-    "height": 3819
+    "height": 3819,
+    "credit": "Scott Higginbotham"
    }
   ]
  },
@@ -39642,9 +39703,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Horns.webp"
     },
-    "credit": "Olivia Rea",
     "width": 406,
-    "height": 1000
+    "height": 1000,
+    "credit": "Olivia Rea"
    }
   ]
  },
@@ -40149,9 +40210,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/howler.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 3031,
-    "height": 2982
+    "height": 2982,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -41830,9 +41891,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/064-04-010.infant-amphithere.webp"
     },
-    "credit": "Christina Kraus",
     "width": 1700,
-    "height": 999
+    "height": 999,
+    "credit": "Christina Kraus"
    },
    {
     "type": "image",
@@ -41840,10 +41901,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/152-11-001.tempa-baby.webp"
     },
-    "title": "Tempa and an Infant Amphithere",
-    "credit": "Lauren Henderson",
     "width": 850,
-    "height": 632
+    "height": 632,
+    "title": "Tempa and an Infant Amphithere",
+    "credit": "Lauren Henderson"
    }
   ]
  },
@@ -43208,9 +43269,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Jerbeen Horror.webp"
     },
-    "credit": "Lauren Henderson",
     "width": 1000,
-    "height": 760
+    "height": 760,
+    "credit": "Lauren Henderson"
    },
    {
     "type": "image",
@@ -43218,10 +43279,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/155-11-004.nightmares.webp"
     },
-    "title": "Nightmares",
-    "credit": "Lauren Henderson",
     "width": 1700,
-    "height": 1467
+    "height": 1467,
+    "title": "Nightmares",
+    "credit": "Lauren Henderson"
    }
   ]
  },
@@ -43368,9 +43429,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/135-09-010.jonall.webp"
     },
-    "credit": "Loreana Lammer",
     "width": 1700,
-    "height": 1004
+    "height": 1004,
+    "credit": "Loreana Lammer"
    },
    {
     "type": "image",
@@ -43378,9 +43439,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/170-12-018.jonall-riding-bello.webp"
     },
-    "credit": "Lauren Henderson",
     "width": 1700,
-    "height": 1815
+    "height": 1815,
+    "credit": "Lauren Henderson"
    }
   ]
  },
@@ -43519,8 +43580,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/JourraelFluff.webp"
     },
-    "credit": "{@link Hunter Bonyun|https://twitter.com/deerlordhunter}",
-    "altText": "Jourrael: A six-armed spectral dark elf with pale skin, long hair, and a red crown with four red wisps extending from it. In each of their six hands they hold curved daggers."
+    "altText": "Jourrael: A six-armed spectral dark elf with pale skin, long hair, and a red crown with four red wisps extending from it. In each of their six hands they hold curved daggers.",
+    "credit": "{@link Hunter Bonyun|https://twitter.com/deerlordhunter}"
    }
   ]
  },
@@ -43674,9 +43735,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/jumaga-the-sky-salamandar.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 5775,
-    "height": 3500
+    "height": 3500,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -43816,9 +43877,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/kafuka.webp"
     },
-    "credit": "Jake Morrison",
     "width": 4946,
-    "height": 5399
+    "height": 5399,
+    "credit": "Jake Morrison"
    }
   ]
  },
@@ -44184,8 +44245,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/KeylethFluff.webp"
     },
-    "credit": "{@link Jonah Baumann|https://galacticjonah.com/}",
-    "altText": "A portrait of Keyleth: She is a pale-skinned woman with green eyes, freckles, and long greying red wavy hair. She wears a multi-coloured cloak made of autumn leaves, and a teal ceremonial Ashari gown with a golden belt. Upon her head sets the white antlers of the Mantle of the Tempest, its horns adorned with flowers. She bears the Spire of Conflux in her right hand."
+    "altText": "A portrait of Keyleth: She is a pale-skinned woman with green eyes, freckles, and long greying red wavy hair. She wears a multi-coloured cloak made of autumn leaves, and a teal ceremonial Ashari gown with a golden belt. Upon her head sets the white antlers of the Mantle of the Tempest, its horns adorned with flowers. She bears the Spire of Conflux in her right hand.",
+    "credit": "{@link Jonah Baumann|https://galacticjonah.com/}"
    }
   ]
  },
@@ -45133,8 +45194,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/GoatKnightFluff.webp"
     },
-    "credit": "{@link Ilich Henriquez|https://deviantart.com/ilacha}",
-    "altText": "A dwarf with long, braided brown beard and clad in full plate armor, sits atop a large, wiry-haired mountain goat."
+    "altText": "A dwarf with long, braided brown beard and clad in full plate armor, sits atop a large, wiry-haired mountain goat.",
+    "credit": "{@link Ilich Henriquez|https://deviantart.com/ilacha}"
    }
   ]
  },
@@ -45223,10 +45284,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/155-11-004.nightmares.webp"
     },
-    "title": "Nightmares",
-    "credit": "Lauren Henderson",
     "width": 1700,
-    "height": 1467
+    "height": 1467,
+    "title": "Nightmares",
+    "credit": "Lauren Henderson"
    }
   ]
  },
@@ -45958,6 +46019,7 @@
        "A character proficient in {@skill Nature|XPHB} or {@skill Survival|XPHB} has advantage on Intelligence ({@skill Arcana|XPHB}) checks when they take the {@action Study|XPHB} action to examine a Lamplighter. They learn the following information based on their check result:",
        {
         "type": "list",
+        "style": "list-hang-notitle",
         "items": [
          {
           "type": "item",
@@ -45974,8 +46036,7 @@
           "name": "20 or higher",
           "entry": "This check result reveals the creature's highest (Str, Dex) and lowest (Int, Cha) ability scores and saving throws."
          }
-        ],
-        "style": "list-hang-notitle"
+        ]
        }
       ]
      }
@@ -46548,9 +46609,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/122-08-009.landarick-rootborn.webp"
     },
-    "credit": "Xander Brown",
     "width": 850,
-    "height": 1372
+    "height": 1372,
+    "credit": "Xander Brown"
    }
   ]
  },
@@ -46568,9 +46629,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Lenny.webp"
     },
-    "credit": "Derek Murphy",
     "width": 241,
-    "height": 1000
+    "height": 1000,
+    "credit": "Derek Murphy"
    }
   ]
  },
@@ -47775,9 +47836,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/lions-blume.webp"
     },
-    "credit": "Scott Higginbotham",
     "width": 5785,
-    "height": 6035
+    "height": 6035,
+    "credit": "Scott Higginbotham"
    }
   ]
  },
@@ -47794,9 +47855,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/the-lionfish-king.webp"
     },
-    "credit": "Scott Higginbotham",
     "width": 2456,
-    "height": 4165
+    "height": 4165,
+    "credit": "Scott Higginbotham"
    }
   ]
  },
@@ -49014,10 +49075,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/043-02-037.lucky.webp"
     },
-    "credit": "Lauren Henderson",
     "width": 850,
     "height": 1155,
-    "title": "{@b Lucky}, 4,500 gp. Wanted For: Fraud, Extortion, Murder, Racketeering, Theft, & Smuggling"
+    "title": "{@b Lucky}, 4,500 gp. Wanted For: Fraud, Extortion, Murder, Racketeering, Theft, & Smuggling",
+    "credit": "Lauren Henderson"
    }
   ]
  },
@@ -49422,6 +49483,9 @@
  {
   "name": "Lupine",
   "source": "BoundByBlood",
+  "entries": [
+   "Werewolves, or what Kindred call the lupines, are another powerful denizen of the supernatural world. Lupines are overwhelmingly strong, terrifyingly fast, immensely resilient, and have held a frenzied level of hatred for the Kindred for as long as either side can remember. When one is not taking the shape of a human or a wolf, it stands on two legs to become a ten-foot-tall killing machine of fur, claws, and fangs who can split stone with a single slash and endure horrific amounts of damage. A single lupine is more than a match for a group of younger Kindred, and even powerful Kindred are wise to give pause before engaging unprepared."
+  ],
   "images": [
    {
     "type": "image",
@@ -49431,9 +49495,6 @@
     },
     "credit": "Ron Spencer"
    }
-  ],
-  "entries": [
-   "Werewolves, or what Kindred call the lupines, are another powerful denizen of the supernatural world. Lupines are overwhelmingly strong, terrifyingly fast, immensely resilient, and have held a frenzied level of hatred for the Kindred for as long as either side can remember. When one is not taking the shape of a human or a wolf, it stands on two legs to become a ten-foot-tall killing machine of fur, claws, and fangs who can split stone with a single slash and endure horrific amounts of damage. A single lupine is more than a match for a group of younger Kindred, and even powerful Kindred are wise to give pause before engaging unprepared."
   ]
  },
  {
@@ -50035,8 +50096,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/MagmaLandsharkFluff.webp"
     },
-    "credit": "{@link Allie Briggs|https://alliebriggs.com/}",
-    "altText": "A black and red creature like a shark made of volcanic rock with magma coming from its spine, head, eyes, mouth, claws, and tail."
+    "altText": "A black and red creature like a shark made of volcanic rock with magma coming from its spine, head, eyes, mouth, claws, and tail.",
+    "credit": "{@link Allie Briggs|https://alliebriggs.com/}"
    }
   ]
  },
@@ -53048,9 +53109,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/demon.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 7291,
-    "height": 3871
+    "height": 3871,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -53213,6 +53274,67 @@
     },
     "width": 560,
     "height": 1000
+   }
+  ]
+ },
+ {
+  "name": "Mirror Haunt",
+  "source": "DnDBeyondDrops",
+  "entries": [
+   {
+    "type": "entries",
+    "entries": [
+     "{@i Mirror-Hopping Kidnappers and Thieves}",
+     "Nightmarish mirror haunts draw their powers from mirrors that exist in the same location across the three overlapping planes: the Shadowfell, the Feywild, and the Material Plane. Mirror haunts travel through mirrors to steal valuables or kidnap people, often taking them to another realm and holding them for ransom.",
+     "Though mirror haunts lack natural weapons like claws or teeth, they can lash out at enemies with psychic powers. They project distorted reflections of creatures around them, racking their foes with mental anguish.",
+     "Much like the reflective backing of a mirror, mirror haunts appear silvery; their bodies and clothes are a single color and as hard as glass. Their reflections, however, take frightening forms. Roll on or choose a result from the Reflective Form table to inspire a mirror haunt's terrifying form.",
+     {
+      "type": "table",
+      "colLabels": [
+       "1d6",
+       "The Mirror Haunt's Reflection Appears As..."
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
+      ],
+      "rows": [
+       [
+        "1",
+        "A floppy-limbed puppet."
+       ],
+       [
+        "2",
+        "A gnarled, bent old man."
+       ],
+       [
+        "3",
+        "A grotesque feline with patchy fur."
+       ],
+       [
+        "4",
+        "A giant rat with malignant growths."
+       ],
+       [
+        "5",
+        "A wide-eyed child holding a kite that hovers without wind."
+       ],
+       [
+        "6",
+        "A statuesque tiefling stuck mid-scream."
+       ]
+      ]
+     }
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DnDBeyondDrops/bestiary/Mirror Haunt.webp"
+    }
    }
   ]
  },
@@ -53910,6 +54032,9 @@
  {
   "name": "Monster Hunter",
   "source": "BoundByBlood",
+  "entries": [
+   "Armed with a variety of skills, tools, and beliefs, the monster hunter pursues supernatural threats wherever they hide. Whether a hunter knows real lore or just superstitious stories about the Kindred doesn't make the hunter any less deadly."
+  ],
   "images": [
    {
     "type": "image",
@@ -53919,9 +54044,6 @@
     },
     "credit": "John Cobb"
    }
-  ],
-  "entries": [
-   "Armed with a variety of skills, tools, and beliefs, the monster hunter pursues supernatural threats wherever they hide. Whether a hunter knows real lore or just superstitious stories about the Kindred doesn't make the hunter any less deadly."
   ]
  },
  {
@@ -53942,9 +54064,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/134-09-009.moonflower.webp"
     },
-    "credit": "Kiri Leonard",
     "width": 850,
-    "height": 1309
+    "height": 1309,
+    "credit": "Kiri Leonard"
    },
    {
     "type": "image",
@@ -53952,9 +54074,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/171-12-010.moonflower-flower.webp"
     },
-    "credit": "Kiri Leonard",
     "width": 850,
-    "height": 607
+    "height": 607,
+    "credit": "Kiri Leonard"
    }
   ]
  },
@@ -54429,9 +54551,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/mosslings.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 3141,
-    "height": 1856
+    "height": 1856,
+    "credit": "Alexander Cloos"
    },
    {
     "type": "image",
@@ -54439,9 +54561,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/mosslings-2.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 3239,
-    "height": 1881
+    "height": 1881,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -54986,18 +55108,18 @@
   "entries": [
    {
     "type": "quote",
+    "style": "quote-pull",
     "entries": [
      "There are older and fouler things than Orcs in the deep places of the world."
-    ],
-    "style": "quote-pull"
+    ]
    },
    "The darkest legends of the Dwarves whisper of ancient things living in the pools and lakes of remote dales, and lurking in dark tunnels dug before the Orcs came to the mountains. So little is known about these beings that no one ever gave them a name. They do not seem creations of the Great Enemy, Morgoth, for they are older than his lieutenant Sauron, and unknown to him. Their accursed breed might be akin to that of the monstrous Ungoliant, the mother of all Spiders, but they might be something else entirely. Whence they came no one can say—they are evil, but they do not heed the call of the Shadow.",
    "What is certain about all of them is that they are always a horrible sight to behold, and that they are very dangerous. They are not just simple beasts, but have a primitive intelligence, linked to their survival instinct, certainly, but often betraying some deeper drive or craving. They all hate the light, and thus live in the darkest recesses of the earth, or in the depths of lakes or underground rivers, which is the reason why no one has ever seen one of them in their entirety. If they come to the surface, they do it for a short time, enough to spread fear and despair, and then they return to their hidden lairs to rest undisturbed.",
    {
     "type": "entries",
     "name": "Nameless Things in the Third Age",
-    "page": 164,
     "id": "2f9",
+    "page": 164,
     "entries": [
      "Nameless Things can be introduced to the game by a Loremaster looking for a formidable adversary for their Company of heroes. Differently from most opponents presented in this volume, they do not really belong to a specific breed, and thus must be designed by the Loremaster personally, using the guidelines offered below. The result will be a unique creature, complete with a level of backstory, to underline the long years that the creature has spent troubling the unhappy world."
     ]
@@ -55005,8 +55127,8 @@
    {
     "type": "entries",
     "name": "Children of Darkness",
-    "page": 164,
     "id": "2fa",
+    "page": 164,
     "entries": [
      "To create a Nameless Thing, the Loremaster either rolls dice on the following tables or directly chooses the entries they consider to be most fitting.",
      "The tables numbered from 1 to 5 are used to create the identity of the thing, and give it a story.",
@@ -55034,64 +55156,64 @@
      {
       "type": "statblock",
       "tag": "table",
-      "source": "TLotRR",
       "name": "Table 01. The Thing is referred to as...",
+      "source": "TLotRR",
       "page": 165,
       "collapsed": true
      },
      {
       "type": "statblock",
       "tag": "table",
-      "source": "TLotRR",
       "name": "Table 02. The Thing can be described as...",
+      "source": "TLotRR",
       "page": 166,
       "collapsed": true
      },
      {
       "type": "statblock",
       "tag": "table",
-      "source": "TLotRR",
       "name": "Table 03. When first encountered...",
+      "source": "TLotRR",
       "page": 166,
       "collapsed": true
      },
      {
       "type": "statblock",
       "tag": "table",
-      "source": "TLotRR",
       "name": "Table 04. A Rumour About the Thing",
+      "source": "TLotRR",
       "page": 167,
       "collapsed": true
      },
      {
       "type": "statblock",
       "tag": "table",
-      "source": "TLotRR",
       "name": "Table 05. Where the Thing is Remembered",
+      "source": "TLotRR",
       "page": 168,
       "collapsed": true
      },
      {
       "type": "statblock",
       "tag": "table",
-      "source": "TLotRR",
       "name": "Table 06. Characteristics",
+      "source": "TLotRR",
       "page": 169,
       "collapsed": true
      },
      {
       "type": "statblock",
       "tag": "table",
-      "source": "TLotRR",
       "name": "Table 07. Attack Forms",
+      "source": "TLotRR",
       "page": 169,
       "collapsed": true
      },
      {
       "type": "statblock",
       "tag": "table",
-      "source": "TLotRR",
       "name": "Table 08. Special Traits",
+      "source": "TLotRR",
       "page": 170,
       "collapsed": true
      }
@@ -57609,9 +57731,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/060-04-006.orn-proudbeak.webp"
     },
-    "credit": "Valeria Ivanova",
     "width": 1700,
-    "height": 1579
+    "height": 1579,
+    "credit": "Valeria Ivanova"
    }
   ]
  },
@@ -58075,8 +58197,8 @@
    "Should the Player-heroes prove themselves to be both allies of the Free Folk and capable of keeping his secrets, they might find a benefactor in Oswald, who may permit regular use of his library for research.",
    {
     "type": "inset",
-    "page": 188,
     "id": "31d",
+    "page": 188,
     "entries": [
      "Any {@race Ranger of the North|TLotRR} or other character able to win over Oswald is able to make use of his collection of ancient texts, and gains advantage on Intelligence ({@skill Old Lore|TLotRR}) checks related to the history of Bree-land and Arnor."
     ]
@@ -59349,10 +59471,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/127-09-003.crimson-rose-crew.webp"
     },
-    "title": "The Noble Crew of the Crimson Rose",
-    "credit": "Lauren Henderson",
     "width": 1700,
-    "height": 1005
+    "height": 1005,
+    "title": "The Noble Crew of the Crimson Rose",
+    "credit": "Lauren Henderson"
    }
   ]
  },
@@ -59645,10 +59767,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/056-04-004.phorosfeather.webp"
     },
-    "title": "Grand Inquisitor Phorosfeather",
-    "credit": "Jen Pattison",
     "width": 850,
-    "height": 1089
+    "height": 1089,
+    "title": "Grand Inquisitor Phorosfeather",
+    "credit": "Jen Pattison"
    }
   ]
  },
@@ -59753,8 +59875,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/PikeFluff.webp"
     },
-    "credit": "{@link Jonah Baumann|https://galacticjonah.com/}",
-    "altText": "A portrait of Pike: A white gnomish woman with long, braided white hair and blue eyes. She wears a blue dress covered by a woven red shawl. She smiles, holding a golden symbol of the Everlight, a red ruby inset at its top."
+    "altText": "A portrait of Pike: A white gnomish woman with long, braided white hair and blue eyes. She wears a blue dress covered by a woven red shawl. She smiles, holding a golden symbol of the Everlight, a red ruby inset at its top.",
+    "credit": "{@link Jonah Baumann|https://galacticjonah.com/}"
    }
   ]
  },
@@ -59837,9 +59959,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/pixie.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 1299,
-    "height": 2034
+    "height": 2034,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -60049,9 +60171,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/GrimHollowPG24/Book/163-09-007.rejuvenate.webp"
     },
-    "credit": "Suzanne Helmigh",
     "width": 850,
-    "height": 778
+    "height": 778,
+    "credit": "Suzanne Helmigh"
    }
   ]
  },
@@ -60167,9 +60289,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Pleasantpaw.webp"
     },
-    "credit": "Alyse Stewart",
     "width": 761,
-    "height": 1000
+    "height": 1000,
+    "credit": "Alyse Stewart"
    }
   ]
  },
@@ -60365,9 +60487,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/postal-knight.webp"
     },
-    "credit": "Scott Higginbotham",
     "width": 3138,
-    "height": 4629
+    "height": 4629,
+    "credit": "Scott Higginbotham"
    }
   ]
  },
@@ -60501,9 +60623,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/GrimHollowPG24/Subclass/Barbarian/Primal%20Spirit.webp"
     },
-    "credit": "Klaher Baklaher",
     "width": 850,
-    "height": 1058
+    "height": 1058,
+    "credit": "Klaher Baklaher"
    }
   ]
  },
@@ -60517,9 +60639,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/GrimHollowPG24/Subclass/Barbarian/Primal%20Spirit.webp"
     },
-    "credit": "Klaher Baklaher",
     "width": 850,
-    "height": 1058
+    "height": 1058,
+    "credit": "Klaher Baklaher"
    }
   ]
  },
@@ -60971,9 +61093,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/OneShotWondersHolidayPack/000-01-001.pudding-gremlin.webp"
     },
-    "credit": "Rafa Teruel",
     "width": 1700,
-    "height": 1202
+    "height": 1202,
+    "credit": "Rafa Teruel"
    }
   ]
  },
@@ -62148,9 +62270,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/072-05-004.raleigh-burrowbright.webp"
     },
-    "credit": "Christina Bindon",
     "width": 850,
-    "height": 900
+    "height": 900,
+    "credit": "Christina Bindon"
    }
   ]
  },
@@ -62243,9 +62365,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/076-05-008.raptor-deckhand.webp"
     },
-    "credit": "Anna Christenson",
     "width": 850,
-    "height": 1188
+    "height": 1188,
+    "credit": "Anna Christenson"
    }
   ]
  },
@@ -63739,8 +63861,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/RavagersFluff.webp"
     },
-    "credit": "{@link Elisa Serio|https://elisaserioart.com/}",
-    "altText": "Two menacing individuals—one is short and emaciated, with stringy hair and a nasty grin, brandishing two small blades. The other is tall and hulking; he wears a helmet adorned with spikes and wide horns, a ragged wrap, and decorative chains across his chest. He wields a large greatsword in each hand."
+    "altText": "Two menacing individuals—one is short and emaciated, with stringy hair and a nasty grin, brandishing two small blades. The other is tall and hulking; he wears a helmet adorned with spikes and wide horns, a ragged wrap, and decorative chains across his chest. He wields a large greatsword in each hand.",
+    "credit": "{@link Elisa Serio|https://elisaserioart.com/}"
    }
   ]
  },
@@ -64869,8 +64991,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/RemnantsFluff.webp"
     },
-    "credit": "{@link Biagio D'Alessandro|https://artstation.com/blas-t}",
-    "altText": "Two uncanny mages casting spells. One is a pale, skinny human man with a long beard and robes, manipulating white arcane energy. The other is a white woman with claw-like armored gloves and a circle of arcane energy around her head and through one eye."
+    "altText": "Two uncanny mages casting spells. One is a pale, skinny human man with a long beard and robes, manipulating white arcane energy. The other is a white woman with claw-like armored gloves and a circle of arcane energy around her head and through one eye.",
+    "credit": "{@link Biagio D'Alessandro|https://artstation.com/blas-t}"
    }
   ]
  },
@@ -64888,9 +65010,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Reveler%20of%20Song%20Bell.webp"
     },
-    "title": "Bell",
     "width": 969,
     "height": 1200,
+    "title": "Bell",
     "credit": "Karl Fitzgerald"
    }
   ]
@@ -64948,9 +65070,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Reveler%20of%20Song%20Hive.webp"
     },
-    "title": "Droning",
     "width": 959,
     "height": 1200,
+    "title": "Droning",
     "credit": "Karl Fitzgerald"
    },
    {
@@ -64959,9 +65081,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Reveler%20of%20Song%20Drum.webp"
     },
-    "title": "Drumming",
     "width": 753,
     "height": 1200,
+    "title": "Drumming",
     "credit": "Karl Fitzgerald"
    },
    {
@@ -64970,9 +65092,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Reveler%20of%20Song%20Bell.webp"
     },
-    "title": "Ringing",
     "width": 969,
     "height": 1200,
+    "title": "Ringing",
     "credit": "Karl Fitzgerald"
    }
   ]
@@ -64991,9 +65113,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Reveler%20of%20Song%20Hive.webp"
     },
-    "title": "Droning",
     "width": 959,
     "height": 1200,
+    "title": "Droning",
     "credit": "Karl Fitzgerald"
    }
   ]
@@ -65012,9 +65134,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Reveler%20of%20Song%20Drum.webp"
     },
-    "title": "Drum",
     "width": 753,
     "height": 1200,
+    "title": "Drum",
     "credit": "Karl Fitzgerald"
    }
   ]
@@ -65072,9 +65194,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Reveler%20of%20Stories%20Bear.webp"
     },
-    "title": "Great Bear",
     "width": 920,
     "height": 1200,
+    "title": "Great Bear",
     "credit": "Karl Fitzgerald"
    },
    {
@@ -65083,9 +65205,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Reveler%20of%20Stories%20Tome.webp"
     },
-    "title": "Hero",
     "width": 866,
     "height": 1200,
+    "title": "Hero",
     "credit": "Karl Fitzgerald"
    },
    {
@@ -65094,9 +65216,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Reveler%20of%20Stories%20Hut.webp"
     },
-    "title": "Witch",
     "width": 634,
     "height": 1200,
+    "title": "Witch",
     "credit": "Karl Fitzgerald"
    }
   ]
@@ -65115,9 +65237,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Reveler%20of%20Stories%20Bear.webp"
     },
-    "title": "Great Beast",
     "width": 920,
     "height": 1200,
+    "title": "Great Beast",
     "credit": "Karl Fitzgerald"
    }
   ]
@@ -65136,9 +65258,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Reveler%20of%20Stories%20Tome.webp"
     },
-    "title": "Hero",
     "width": 866,
     "height": 1200,
+    "title": "Hero",
     "credit": "Karl Fitzgerald"
    }
   ]
@@ -65157,9 +65279,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Reveler%20of%20Stories%20Hut.webp"
     },
-    "title": "Witch",
     "width": 634,
     "height": 1200,
+    "title": "Witch",
     "credit": "Karl Fitzgerald"
    }
   ]
@@ -66193,8 +66315,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/RivermawWarriorsFluff.webp"
     },
-    "credit": "{@link Claudia Ianniciello|https://artstation.com/claudiasg}",
-    "altText": "A male and female goliath stand next to each other. The male is bald, clad in leather and metal armor and bears a greataxe that crackles with green, arcane energy. The female has long, dark hair and wears spiked gauntlets."
+    "altText": "A male and female goliath stand next to each other. The male is bald, clad in leather and metal armor and bears a greataxe that crackles with green, arcane energy. The female has long, dark hair and wears spiked gauntlets.",
+    "credit": "{@link Claudia Ianniciello|https://artstation.com/claudiasg}"
    }
   ]
  },
@@ -66375,9 +66497,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Rosselbuck.webp"
     },
-    "credit": "Leesha Hannigan",
     "width": 1000,
-    "height": 767
+    "height": 767,
+    "credit": "Leesha Hannigan"
    }
   ]
  },
@@ -66563,9 +66685,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/rubble-golem.webp"
     },
-    "credit": "Scott Higginbotham",
     "width": 4757,
-    "height": 4730
+    "height": 4730,
+    "credit": "Scott Higginbotham"
    }
   ]
  },
@@ -67020,10 +67142,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/118-08-007.sage.webp"
     },
-    "title": "Sage the Roostmother",
-    "credit": "Isle Gort",
     "width": 850,
-    "height": 1386
+    "height": 1386,
+    "title": "Sage the Roostmother",
+    "credit": "Isle Gort"
    }
   ]
  },
@@ -67246,10 +67368,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/129-09-004.saltfeather.webp"
     },
-    "title": "Saltfeather",
-    "credit": "Jessica Nguyen",
     "width": 850,
-    "height": 1467
+    "height": 1467,
+    "title": "Saltfeather",
+    "credit": "Jessica Nguyen"
    }
   ]
  },
@@ -67907,6 +68029,28 @@
   ]
  },
  {
+  "name": "Sarcopike",
+  "source": "DnDBeyondDrops",
+  "entries": [
+   {
+    "type": "entries",
+    "entries": [
+     "{@i Flesh-Eating Menaces of Dark Water Shorelines}",
+     "Sarcopikes are fishlike creatures that swim in the freshwater streams, ponds, and lakes of the Shadowfell. They can use their strong fins to stride across land as they search for food, though they must return to water to breathe."
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DnDBeyondDrops/bestiary/Sarcopike.webp"
+    }
+   }
+  ]
+ },
+ {
   "name": "Sathaq Worm",
   "source": "ToB1-2023",
   "entries": [
@@ -68048,8 +68192,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/ScanlanFluff.webp"
     },
-    "credit": "{@link Jonah Baumann|https://galacticjonah.com/}",
-    "altText": "A portrait of Scanlan: A gnomish man with brown hair and a moustache. He wears an extravagant purple and red outfit that opens at the chest, a purple feathered hat, and holds a sheathed Mythcarver sheathed in his hands. He winks at the viewer with a cheeky smile."
+    "altText": "A portrait of Scanlan: A gnomish man with brown hair and a moustache. He wears an extravagant purple and red outfit that opens at the chest, a purple feathered hat, and holds a sheathed Mythcarver sheathed in his hands. He winks at the viewer with a cheeky smile.",
+    "credit": "{@link Jonah Baumann|https://galacticjonah.com/}"
    }
   ]
  },
@@ -68526,9 +68670,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/seaweed-elemental.webp"
     },
-    "credit": "Jake Morrison",
     "width": 2763,
-    "height": 4289
+    "height": 4289,
+    "credit": "Jake Morrison"
    }
   ]
  },
@@ -69560,10 +69704,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/155-11-004.nightmares.webp"
     },
-    "title": "Nightmares",
-    "credit": "Lauren Henderson",
     "width": 1700,
-    "height": 1467
+    "height": 1467,
+    "title": "Nightmares",
+    "credit": "Lauren Henderson"
    }
   ]
  },
@@ -69967,9 +70111,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/sheep-dragon-and-shepherd.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 1775,
-    "height": 3017
+    "height": 3017,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -70285,9 +70429,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Shrouded%20Grappler.webp"
     },
-    "title": "Grappler",
     "width": 1200,
     "height": 917,
+    "title": "Grappler",
     "credit": "Humble Squid Creatives"
    },
    {
@@ -70296,9 +70440,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Shrouded%20Reaper.webp"
     },
-    "title": "Reaper",
     "width": 1062,
     "height": 1200,
+    "title": "Reaper",
     "credit": "Humble Squid Creatives"
    },
    {
@@ -70307,9 +70451,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Shrouded%20Scavenger.webp"
     },
-    "title": "Scavenger",
     "width": 1200,
     "height": 925,
+    "title": "Scavenger",
     "credit": "Humble Squid Creatives"
    }
   ]
@@ -70778,9 +70922,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/skeletal-fish.webp"
     },
-    "credit": "Jake Morrison",
     "width": 4686,
-    "height": 3073
+    "height": 3073,
+    "credit": "Jake Morrison"
    }
   ]
  },
@@ -71689,9 +71833,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Skopps the Beast-Breaker.webp"
     },
-    "credit": "Jessica Ngu",
     "width": 783,
-    "height": 1000
+    "height": 1000,
+    "credit": "Jessica Ngu"
    }
   ]
  },
@@ -71906,9 +72050,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/sky-king.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 9054,
-    "height": 6289
+    "height": 6289,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -71948,9 +72092,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/slagger.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 3217,
-    "height": 2731
+    "height": 2731,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -72286,9 +72430,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Slicar.webp"
     },
-    "credit": "Christina Kraus",
     "width": 862,
-    "height": 1000
+    "height": 1000,
+    "credit": "Christina Kraus"
    }
   ]
  },
@@ -72317,9 +72461,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/121-08-008.slime-familiar.webp"
     },
-    "credit": "Irina Nordsol",
     "width": 850,
-    "height": 1177
+    "height": 1177,
+    "credit": "Irina Nordsol"
    }
   ]
  },
@@ -72348,9 +72492,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/158-11-007.slime-king.webp"
     },
-    "credit": "Christina Kraus",
     "width": 1700,
-    "height": 2200
+    "height": 2200,
+    "credit": "Christina Kraus"
    }
   ]
  },
@@ -72386,9 +72530,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/115-08-004.slimesworn-cultists.webp"
     },
-    "credit": "Julia Metzger",
     "width": 850,
-    "height": 1282
+    "height": 1282,
+    "credit": "Julia Metzger"
    }
   ]
  },
@@ -72683,10 +72827,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/045-02-039.snapshadow.webp"
     },
-    "credit": "Lauren Henderson",
     "width": 1700,
     "height": 2065,
-    "title": "{@b Snapshadow}, 5,000 gp. Wanted For: Fraud, Extortion, Murder, Racketeering, Theft, & Smuggling"
+    "title": "{@b Snapshadow}, 5,000 gp. Wanted For: Fraud, Extortion, Murder, Racketeering, Theft, & Smuggling",
+    "credit": "Lauren Henderson"
    }
   ]
  },
@@ -72795,9 +72939,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/OneShotWondersHolidayPack/013-07-002.snow-sphinx.webp"
     },
-    "credit": "Rafa Teruel",
     "width": 1700,
-    "height": 1202
+    "height": 1202,
+    "credit": "Rafa Teruel"
    }
   ]
  },
@@ -72814,9 +72958,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/snowball-spirits.webp"
     },
-    "credit": "A.J. Bondio",
     "width": 2207,
-    "height": 2304
+    "height": 2304,
+    "credit": "A.J. Bondio"
    }
   ]
  },
@@ -72833,9 +72977,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/soda-slime.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 2202,
-    "height": 2956
+    "height": 2956,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -73410,8 +73554,8 @@
    "The work of an apothecary can be lonely, and the mind craves another good head to bounce ideas off. The Speaking Skull is an ideal companion, one who can carry on conversation with their creator, read out text from instruction manuals and tomes while the apothecary works, and offer advice and observations. The familiars also make useful and discrete sentinels, positioned carefully to watch over the apothecary's private notes, treasures, or experiments.",
    {
     "type": "insetReadaloud",
-    "style": "text-center",
     "name": "Player Character Familiars",
+    "style": "text-center",
     "entries": [
      "Subject to GM approval, an apothecary with the Laboratory Assistant esoteric theory can create a Helpful Hand or Speaking Skull to serve them using the {@spell Find Familiar|XPHB} spell. A familiar created in this manner always acts in combat immediately after its creator's turn. It can use its special attacks in its stat block only if the apothecary uses a {@variantrule Bonus Action|XPHB} on their turn to command the familiar to take one of those actions."
     ]
@@ -73914,9 +74058,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/spirit.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 1461,
-    "height": 3388
+    "height": 3388,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -74030,10 +74174,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/137-09-012.spleck-smandra.webp"
     },
-    "title": "\"No refunds!\"",
-    "credit": "Leesha Hannigan",
     "width": 849,
-    "height": 1149
+    "height": 1149,
+    "title": "\"No refunds!\"",
+    "credit": "Leesha Hannigan"
    }
   ]
  },
@@ -75148,9 +75292,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/stone-whale.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 4764,
-    "height": 3626
+    "height": 3626,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -75872,9 +76016,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/stul.webp"
     },
-    "credit": "A.J. Bondio",
     "width": 2278,
-    "height": 1636
+    "height": 1636,
+    "credit": "A.J. Bondio"
    }
   ]
  },
@@ -76968,9 +77112,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Swarm of Bluebees.webp"
     },
-    "credit": "Alyse Stewart",
     "width": 889,
-    "height": 1000
+    "height": 1000,
+    "credit": "Alyse Stewart"
    }
   ]
  },
@@ -76992,9 +77136,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Dusktail.webp"
     },
-    "credit": "Olivia Rea",
     "width": 753,
-    "height": 1000
+    "height": 1000,
+    "credit": "Olivia Rea"
    }
   ]
  },
@@ -77129,9 +77273,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Swarm of Gimlets.webp"
     },
-    "credit": "Veronika Federova",
     "width": 1000,
-    "height": 769
+    "height": 769,
+    "credit": "Veronika Federova"
    }
   ]
  },
@@ -77384,6 +77528,28 @@
   ]
  },
  {
+  "name": "Swarm of Sarcopikes",
+  "source": "DnDBeyondDrops",
+  "entries": [
+   {
+    "type": "entries",
+    "entries": [
+     "Sarcopikes are fishlike creatures that swim in the freshwater streams, ponds, and lakes of the Shadowfell.",
+     "In places where the barrier between the Shadowfell and the Material Plane is weak, a school of sarcopikes (known colloquially as a sarcopile) might cross over and terrorize locals. The schools lurk in water sources that abut cemeteries, battlefields, or other locations abundant with fresh corpses for them to eat."
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DnDBeyondDrops/bestiary/Swarm of Sarcopikes.webp"
+    }
+   }
+  ]
+ },
+ {
   "name": "Swarm of Scorned Familiars",
   "source": "GriffonsSaddlebag2",
   "entries": [
@@ -77449,9 +77615,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/GrimHollowPG24/Subclass/Ranger/Vermin%20Lord.webp"
     },
-    "credit": "Marzena Piwowar",
     "width": 850,
-    "height": 1228
+    "height": 1228,
+    "credit": "Marzena Piwowar"
    }
   ]
  },
@@ -78529,8 +78695,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/DotyTaryFluff.webp"
     },
-    "credit": "{@link Elliott Berggren|https://twitter.com/planarbindings}",
-    "altText": "A portrait of Taryon Darrington and Doty: Taryon is an extravagant blond-haired and bearded white man who holds a pipe. He is dressed in a military jacket with golden embroidery and four medals attached at the breast. Behind him is a golden metal construct, blue light emanating from its eyes and mouth."
+    "altText": "A portrait of Taryon Darrington and Doty: Taryon is an extravagant blond-haired and bearded white man who holds a pipe. He is dressed in a military jacket with golden embroidery and four medals attached at the breast. Behind him is a golden metal construct, blue light emanating from its eyes and mouth.",
+    "credit": "{@link Elliott Berggren|https://twitter.com/planarbindings}"
    }
   ]
  },
@@ -78874,9 +79040,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Tempa Greenkeeper.webp"
     },
-    "credit": "Paul Scott Canavan",
     "width": 922,
-    "height": 1000
+    "height": 1000,
+    "credit": "Paul Scott Canavan"
    }
   ]
  },
@@ -79868,9 +80034,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Crimson%20Abbot%20Transformed.webp"
     },
-    "title": "Transformed",
     "width": 1200,
     "height": 936,
+    "title": "Transformed",
     "credit": "Kiana Hamm & Suzanne Helmigh"
    },
    {
@@ -79879,9 +80045,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Crimson%20Abbot%20Normal.webp"
     },
-    "title": "Normal",
     "width": 615,
     "height": 1200,
+    "title": "Normal",
     "credit": "Kiana Hamm & Suzanne Helmigh"
    }
   ]
@@ -80451,10 +80617,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/041-02-035.the-godfeather.webp"
     },
-    "credit": "Lauren Henderson",
-    "title": "{@b The Godfeather}, 4,800 gp. Wanted For: Conspiracy, Fraud, Extortion, Murder, Racketeering, Tax Evasion",
     "width": 850,
-    "height": 990
+    "height": 990,
+    "title": "{@b The Godfeather}, 4,800 gp. Wanted For: Conspiracy, Fraud, Extortion, Murder, Racketeering, Tax Evasion",
+    "credit": "Lauren Henderson"
    },
    {
     "type": "image",
@@ -80718,9 +80884,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/the-hunter.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 3487,
-    "height": 5089
+    "height": 5089,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -81517,10 +81683,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/174-12-014.ragtaggers.webp"
     },
-    "title": "The Ragtaggers enjoying a game",
-    "credit": "Christina Kraus",
     "width": 1700,
-    "height": 1125
+    "height": 1125,
+    "title": "The Ragtaggers enjoying a game",
+    "credit": "Christina Kraus"
    }
   ]
  },
@@ -81875,9 +82041,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Weeping%20Widow%20Normal.webp"
     },
-    "title": "Normal",
     "width": 589,
     "height": 1200,
+    "title": "Normal",
     "credit": "Kiana Hamm & Ona Kristensen"
    },
    {
@@ -81886,9 +82052,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Weeping%20Widow%20Brute.webp"
     },
-    "title": "Brute",
     "width": 1200,
     "height": 1158,
+    "title": "Brute",
     "credit": "Kiana Hamm & Ona Kristensen"
    }
   ]
@@ -83577,6 +83743,9 @@
  {
   "name": "Trapper",
   "source": "BoundByBlood",
+  "entries": [
+   "A skilled hunter and survivalist who makes a living trapping and skinning animals in the wilderness. They effectively spread traps around them when ambushing prey."
+  ],
   "images": [
    {
     "type": "image",
@@ -83586,9 +83755,6 @@
     },
     "credit": "Leif Jones"
    }
-  ],
-  "entries": [
-   "A skilled hunter and survivalist who makes a living trapping and skinning animals in the wilderness. They effectively spread traps around them when ambushing prey."
   ]
  },
  {
@@ -84567,9 +84733,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/urugama.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 2538,
-    "height": 2838
+    "height": 2838,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -85444,9 +85610,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Vermin%20Familiar%20Centepede.webp"
     },
-    "title": "Centipede",
     "width": 1200,
     "height": 1024,
+    "title": "Centipede",
     "credit": "Humble Squid Creatives"
    }
   ]
@@ -85504,9 +85670,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Vermin%20Familiar%20Centepede.webp"
     },
-    "title": "Centipede",
     "width": 1200,
     "height": 1024,
+    "title": "Centipede",
     "credit": "Humble Squid Creatives"
    },
    {
@@ -85515,9 +85681,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Vermin%20Familiar%20Pigeon.webp"
     },
-    "title": "Pigeon",
     "width": 1181,
     "height": 1200,
+    "title": "Pigeon",
     "credit": "Humble Squid Creatives"
    },
    {
@@ -85526,9 +85692,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Vermin%20Familiar%20Weasel.webp"
     },
-    "title": "Weasel",
     "width": 1200,
     "height": 1049,
+    "title": "Weasel",
     "credit": "Humble Squid Creatives"
    }
   ]
@@ -85547,9 +85713,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Vermin%20Familiar%20Pigeon.webp"
     },
-    "title": "Pigeon",
     "width": 1181,
     "height": 1200,
+    "title": "Pigeon",
     "credit": "Humble Squid Creatives"
    }
   ]
@@ -85568,9 +85734,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Creatures/Art/Vermin%20Familiar%20Weasel.webp"
     },
-    "title": "Weasel",
     "width": 1200,
     "height": 1049,
+    "title": "Weasel",
     "credit": "Humble Squid Creatives"
    }
   ]
@@ -85709,9 +85875,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/vespoma.webp"
     },
-    "credit": "Jake Morrison",
     "width": 6248,
-    "height": 5601
+    "height": 5601,
+    "credit": "Jake Morrison"
    }
   ]
  },
@@ -86273,15 +86439,18 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/vile-corruption.webp"
     },
-    "credit": "Jake Morrison",
     "width": 4289,
-    "height": 2634
+    "height": 2634,
+    "credit": "Jake Morrison"
    }
   ]
  },
  {
   "name": "Villager",
   "source": "BoundByBlood",
+  "entries": [
+   "The common people of the village are generally useful to Kindred as a source to subtly feed upon. When afraid or angry enough to fight, a villager can be quite dangerous, especially in groups."
+  ],
   "images": [
    {
     "type": "image",
@@ -86291,14 +86460,14 @@
     },
     "credit": "Tom Mandrake"
    }
-  ],
-  "entries": [
-   "The common people of the village are generally useful to Kindred as a source to subtly feed upon. When afraid or angry enough to fight, a villager can be quite dangerous, especially in groups."
   ]
  },
  {
   "name": "Villager Militia",
   "source": "BoundByBlood",
+  "entries": [
+   "These brave folk take up arms to defend their village against bandits, invaders, and sometimes beasts lurking in their midst."
+  ],
   "images": [
    {
     "type": "image",
@@ -86308,9 +86477,6 @@
     },
     "credit": "Ron Spencer"
    }
-  ],
-  "entries": [
-   "These brave folk take up arms to defend their village against bandits, invaders, and sometimes beasts lurking in their midst."
   ]
  },
  {
@@ -87049,8 +87215,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/SerpentfolkFluff.webp"
     },
-    "credit": "{@link Nguyen Hieu|https://artstation.com/wthieu153}",
-    "altText": "A serpentfolk with green scales bears a silver dagger, ready to strike. A second spectral serpentfolk, holding a spear, wraps around and above the first serpentfolk."
+    "altText": "A serpentfolk with green scales bears a silver dagger, ready to strike. A second spectral serpentfolk, holding a spear, wraps around and above the first serpentfolk.",
+    "credit": "{@link Nguyen Hieu|https://artstation.com/wthieu153}"
    }
   ]
  },
@@ -87086,8 +87252,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/DeRoloFluff.webp"
     },
-    "credit": "{@link Jessica Scates|https://twitter.com/jessmightwork}",
-    "altText": "A family portrait of Percival de Rolo and Vex'ahlia de Rolo along with their children in a golden embroidered frame. The Whitestone heraldry hangs behind them. From left to right: white-haired Vesper, the red tiefling Gwendolyn, Percival, Vex'ahlia, the proud Wolfe, the prankster Leona, Vax'ildan with a brown bear cub in his lap, and Trinket."
+    "altText": "A family portrait of Percival de Rolo and Vex'ahlia de Rolo along with their children in a golden embroidered frame. The Whitestone heraldry hangs behind them. From left to right: white-haired Vesper, the red tiefling Gwendolyn, Percival, Vex'ahlia, the proud Wolfe, the prankster Leona, Vax'ildan with a brown bear cub in his lap, and Trinket.",
+    "credit": "{@link Jessica Scates|https://twitter.com/jessmightwork}"
    },
    {
     "type": "image",
@@ -87161,9 +87327,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/099-06-011.vulpin-gloomweaver.webp"
     },
-    "credit": "Jason Engle",
     "width": 850,
-    "height": 1588
+    "height": 1588,
+    "credit": "Jason Engle"
    }
   ]
  },
@@ -87185,10 +87351,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/155-11-004.nightmares.webp"
     },
-    "title": "Nightmares",
-    "credit": "Lauren Henderson",
     "width": 1700,
-    "height": 1467
+    "height": 1467,
+    "title": "Nightmares",
+    "credit": "Lauren Henderson"
    }
   ]
  },
@@ -87595,9 +87761,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/wandering-door.webp"
     },
-    "credit": "Wandering Door",
     "width": 2209,
-    "height": 3405
+    "height": 3405,
+    "credit": "Wandering Door"
    }
   ]
  },
@@ -88137,9 +88303,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/watchwood-tree.webp"
     },
-    "credit": "Scott Higginbotham",
     "width": 7260,
-    "height": 5948
+    "height": 5948,
+    "credit": "Scott Higginbotham"
    }
   ]
  },
@@ -89708,9 +89874,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/witch-with-cat-spirit.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 2025,
-    "height": 2971
+    "height": 2971,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -90105,8 +90271,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/bestiary/WraithrootTreeFluff.webp"
     },
-    "credit": "{@link Elisa Serio|https://elisaserioart.com/}",
-    "altText": "A twisted treant covered with dry, grey moss and green ooze. Embedded into its bark are six eerie eyes at odd angles."
+    "altText": "A twisted treant covered with dry, grey moss and green ooze. Embedded into its bark are six eerie eyes at odd angles.",
+    "credit": "{@link Elisa Serio|https://elisaserioart.com/}"
    }
   ]
  },
@@ -90678,9 +90844,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Creatures/yokario.webp"
     },
-    "credit": "Alexander Cloos",
     "width": 1742,
-    "height": 3233
+    "height": 3233,
+    "credit": "Alexander Cloos"
    }
   ]
  },
@@ -91339,10 +91505,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/bestiary/Young Wakewyrm.webp"
     },
-    "title": "Hungry Baby",
-    "credit": "Crystal Sully",
     "width": 858,
-    "height": 1000
+    "height": 1000,
+    "title": "Hungry Baby",
+    "credit": "Crystal Sully"
    }
   ]
  },
@@ -91630,9 +91796,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/133-09-008.zifa-freewind.webp"
     },
-    "credit": "Cynthia F.G.",
     "width": 850,
-    "height": 1444
+    "height": 1444,
+    "credit": "Cynthia F.G."
    },
    {
     "type": "image",
@@ -91640,10 +91806,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/177-12-017.final-touches.webp"
     },
-    "title": "Final Touches",
-    "credit": "Lauren Henderson",
     "width": 1700,
-    "height": 1366
+    "height": 1366,
+    "title": "Final Touches",
+    "credit": "Lauren Henderson"
    }
   ]
  },

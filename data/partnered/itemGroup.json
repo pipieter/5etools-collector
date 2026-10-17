@@ -275,9 +275,9 @@
  {
   "name": "Bird of a Feather",
   "source": "24GriffonsSaddlebag1",
+  "type": "GV|XDMG",
   "rarity": "varies",
   "wondrous": true,
-  "type": "GV|XDMG",
   "items": [
    "Bird of a Feather (Common)|24GriffonsSaddlebag1",
    "Bird of a Feather (Uncommon)|24GriffonsSaddlebag1"
@@ -493,7 +493,6 @@
   "type": "GV|XDMG",
   "rarity": "varies",
   "reqAttune": true,
-  "hasFluffImages": true,
   "entries": [
    "These First Age torches have been magically altered to use potions as their fuel. As a {@action Magic|XPHB} action, you can pour a potion of any rarity into the glass vessel of a Brewer's Torch. As long as a potion is in the vessel, you can use a {@action Magic|XPHB} action to activate the torch's corresponding effect, as detailed below, consuming the potion from the vessel."
   ],
@@ -501,7 +500,8 @@
    "Bubble Blowtorch|ObojimaTalesYatamon",
    "Butterfly Blowtorch|ObojimaTalesYatamon",
    "Water Jet Blowtorch|ObojimaTalesYatamon"
-  ]
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Broodmother's Embrace",
@@ -685,11 +685,11 @@
   "name": "Channeling Wand",
   "source": "ExploringEberron24",
   "type": "GV|XDMG",
+  "rarity": "rare",
+  "reqAttune": "by a Creature with a Specific Dragonmark",
   "property": [
    "DF|ExploringEberron24"
   ],
-  "rarity": "rare",
-  "reqAttune": "by a Creature with a Specific Dragonmark",
   "recharge": "dawn",
   "rechargeAmount": "{@dice 1d6 + 1}",
   "charges": 7,
@@ -839,12 +839,12 @@
   "source": "ExploringEberron24",
   "baseItem": "studded leather armor|XPHB",
   "type": "LA|XPHB",
-  "property": [
-   "Sym|ExploringEberron24"
-  ],
   "rarity": "varies",
   "reqAttune": ", Evolves with Service to Belashyrra",
   "weight": 13,
+  "property": [
+   "Sym|ExploringEberron24"
+  ],
   "ac": 12,
   "entries": [],
   "items": [
@@ -1001,12 +1001,12 @@
   "name": "Dämglesvir",
   "source": "GrimHollowCG24",
   "page": 275,
-  "type": "M|XPHB",
   "baseItem": "longsword|XPHB",
+  "type": "M|XPHB",
   "rarity": "artifact",
   "reqAttune": true,
-  "bonusWeapon": "+2",
   "curse": true,
+  "bonusWeapon": "+2",
   "entries": [
    "Few ever saw the gleaming blade Dämglesvir before the Gods' End, as only the emperor was permitted to draw the sword from its sheath. Now its blade and hilt are black, like a weapon dipped in shadow."
   ],
@@ -1098,12 +1098,12 @@
  {
   "name": "Dragonmark Channel",
   "source": "ExploringEberron24",
-  "property": [
-   "DF|ExploringEberron24"
-  ],
   "rarity": "common",
   "reqAttune": "by a Creature with a Specific Dragonmark",
   "wondrous": true,
+  "property": [
+   "DF|ExploringEberron24"
+  ],
   "entries": [
    "This brooch is embedded with a small Siberys dragonshard, usually depicting the crest of its dragonmarked house. Each Dragonmark Channel is tied to a specific dragonmark, such as the {@feat Mark of Healing|EFA} or the {@feat Mark of Making|EFA}, and you can only attune to it if you possess that dragonmark.",
    "While wearing a Dragonmark Channel, you can use it to cast any level 1 spell on your Spells of the Mark list. Once you use the channel, it can't be used again until you finish a {@variantrule Long Rest|XPHB}.",
@@ -1128,12 +1128,12 @@
  {
   "name": "Dragonmark Reservoir",
   "source": "ExploringEberron24",
-  "property": [
-   "DF|ExploringEberron24"
-  ],
   "rarity": "uncommon",
   "reqAttune": "by a Creature with a Specific Dragonmark",
   "wondrous": true,
+  "property": [
+   "DF|ExploringEberron24"
+  ],
   "recharge": "dawn",
   "rechargeAmount": "{@dice 1d6 + 1}",
   "charges": 7,
@@ -1288,15 +1288,15 @@
    {
     "type": "table",
     "page": 240,
-    "colStyles": [
-     "col-2 text-center",
-     "col-2",
-     "col-8"
-    ],
     "colLabels": [
      "d10",
      "Birdfolk Feather",
      "Benefit"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-2",
+     "col-8"
     ],
     "rows": [
      [
@@ -1340,8 +1340,8 @@
  {
   "name": "Feather Token",
   "source": "NorthlandsWorldbook",
-  "rarity": "varies",
   "type": "GV|XDMG",
+  "rarity": "varies",
   "entries": [
    "You can use a {@action Magic|XPHB} action to throw this black token into the air. You can see and hear through the token for one hour. The token disappears afterwards or if the distance between you and it exceeds 1 mile. The bird has the statistics of a {@creature Raven|XMM}."
   ],
@@ -1654,7 +1654,6 @@
   "source": "ObojimaTalesYatamon",
   "type": "GV|XDMG",
   "rarity": "varies",
-  "hasFluffImages": true,
   "entries": [
    "You can attach up to three Healing Patches to your clothing or equipment over the course of 1 hour. You can take a {@variantrule Bonus Action|XPHB} to rip a patch off your person and regain {@variantrule Hit Points|XPHB}; doing so destroys the patch and leaves a charred mark in its place. If you have the {@condition Unconscious|XPHB} condition, an ally within reach of you can take a {@action Magic|XPHB} action to rip the patch off your person instead.",
    "The number of {@variantrule Hit Points|XPHB} you regain when the patch is ripped off depends on the patch's rarity."
@@ -1663,18 +1662,19 @@
    "Healing Patch|ObojimaTalesYatamon",
    "Healing Patch (2nd Class)|ObojimaTalesYatamon",
    "Healing Patch (1st Class)|ObojimaTalesYatamon"
-  ]
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Hearthfire Breastplate",
   "source": "GrimHollowCG24",
   "page": 276,
-  "type": "MA|XPHB",
   "baseItem": "breastplate|XPHB",
+  "type": "MA|XPHB",
   "rarity": "artifact",
   "reqAttune": true,
-  "bonusAc": "+2",
   "curse": true,
+  "bonusAc": "+2",
   "entries": [
    "The Hearthfire Breastplate has been profoundly transformed by its corruption. Once it was emblazoned with a golden sun and radiated light. Now its surface is black and distorted, wriggling as if the metal were alive."
   ],
@@ -1864,12 +1864,12 @@
  {
   "name": "Houseward",
   "source": "ExploringEberron24",
+  "rarity": "varies",
+  "wondrous": true,
   "property": [
    "DF|ExploringEberron24",
    "DF:W|ExploringEberron24"
   ],
-  "rarity": "varies",
-  "wondrous": true,
   "entries": [
    "{@note Requires the {@feat Mark of Warding|EFA}}",
    "This engraved block of lead, approximately 1 cubic foot in size, holds an embedded Siberys dragonshard. The Houseward provides state-of-the-art magical security, and is typically embedded into the floor of the building it is supposed to protect. If any creature with the {@feat Mark of Warding|EFA} spends 10 minutes touching the Houseward, it can cast {@spell Guards and Wards|XPHB} without requiring Material components.  The area protected by the spell is determined by the rarity of the Houseward. The duration of the spell is 24 days, but the effect ends early if the Houseward is used again to cast the spell, if a creature with the {@feat Mark of Warding|EFA} spends 10 minutes touching the Houseward to end its effects, or if a Houseward is removed from the area it is currently protecting. After being used to cast the spell, the Houseward can't do so again until the next dawn."
@@ -1922,12 +1922,20 @@
   "source": "GrimHollowCG24",
   "page": 276,
   "rarity": "artifact",
-  "wondrous": true,
   "reqAttune": true,
+  "wondrous": true,
   "curse": true,
-  "charges": 12,
   "recharge": "dawn",
   "rechargeAmount": "{@dice 2d4 + 4}",
+  "charges": 12,
+  "entries": [
+   "Indorius's Crown bestows authority on whoever wears it, making their reasoning seem stronger and their coercions harder to resist. The crown does not, however, provide its wearer with wisdom."
+  ],
+  "items": [
+   "Indorius's Crown (Aspirant)|GrimHollowCG24",
+   "Indorius's Crown (Adept)|GrimHollowCG24",
+   "Indorius's Crown (Master)|GrimHollowCG24"
+  ],
   "attachedSpells": {
    "charges": {
     "1": [
@@ -1951,14 +1959,6 @@
     ]
    }
   },
-  "entries": [
-   "Indorius's Crown bestows authority on whoever wears it, making their reasoning seem stronger and their coercions harder to resist. The crown does not, however, provide its wearer with wisdom."
-  ],
-  "items": [
-   "Indorius's Crown (Aspirant)|GrimHollowCG24",
-   "Indorius's Crown (Adept)|GrimHollowCG24",
-   "Indorius's Crown (Master)|GrimHollowCG24"
-  ],
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -2039,8 +2039,8 @@
    {
     "type": "statblock",
     "tag": "table",
-    "source": "HumblewoodTales",
     "name": "Jerbeen Figurines Table",
+    "source": "HumblewoodTales",
     "page": 71
    }
   ],
@@ -2318,42 +2318,42 @@
        {
         "type": "item",
         "name": "[Animus]",
+        "nameDot": false,
         "entries": [
          "Any Animus"
-        ],
-        "nameDot": false
+        ]
        },
        {
         "type": "item",
         "name": "[Dust]",
+        "nameDot": false,
         "entries": [
          "Any Dragon Dust"
-        ],
-        "nameDot": false
+        ]
        },
        {
         "type": "item",
         "name": "[Fluid]",
+        "nameDot": false,
         "entries": [
          "Monster Blood from a Monstrosity"
-        ],
-        "nameDot": false
+        ]
        },
        {
         "type": "item",
         "name": "[Hide]",
+        "nameDot": false,
         "entries": [
          "Scales"
-        ],
-        "nameDot": false
+        ]
        },
        {
         "type": "item",
         "name": "[Hide]",
+        "nameDot": false,
         "entries": [
          "Skin from an Aberration"
-        ],
-        "nameDot": false
+        ]
        }
       ]
      }
@@ -2821,8 +2821,8 @@
  {
   "name": "Ring of the Jarlpact",
   "source": "NorthlandsWorldbook",
-  "rarity": "varies",
   "type": "GV|XDMG",
+  "rarity": "varies",
   "entries": [
    {
     "type": "entries",
@@ -2985,9 +2985,9 @@
  {
   "name": "Scholar's Cap",
   "source": "24GriffonsSaddlebag1",
+  "type": "GV|XDMG",
   "rarity": "varies",
   "wondrous": true,
-  "type": "GV|XDMG",
   "entries": [
    "This hat carries with it the cleverness and knowledge of many previous scholars. While wearing it, you gain a bonus to Intelligence checks and Intelligence saving throws. This bonus is determined by the hat's rarity. In addition, for every 5 days you spend researching a subject, you gain knowledge as if you had been researching it for an additional number of days based on the hat's rarity: 1 day (Uncommon), 2 days (Rare), or 3 days (Very Rare)."
   ],
@@ -4017,12 +4017,20 @@
   "source": "GrimHollowCG24",
   "page": 277,
   "rarity": "artifact",
-  "wondrous": true,
   "reqAttune": true,
+  "wondrous": true,
   "curse": true,
-  "charges": 12,
   "recharge": "dawn",
   "rechargeAmount": "{@dice 2d4 + 4}",
+  "charges": 12,
+  "entries": [
+   "Ulmyr's Eye appears to be a crystal ball filled with ever-shifting smoke. Peering into the orb reveals hazy visions, many of which are disturbing."
+  ],
+  "items": [
+   "Ulmyr's Eye (Aspirant)|GrimHollowCG24",
+   "Ulmyr's Eye (Adept)|GrimHollowCG24",
+   "Ulmyr's Eye (Master)|GrimHollowCG24"
+  ],
   "attachedSpells": {
    "will": [
     "guidance|xphb"
@@ -4048,14 +4056,6 @@
     ]
    }
   },
-  "entries": [
-   "Ulmyr's Eye appears to be a crystal ball filled with ever-shifting smoke. Peering into the orb reveals hazy visions, many of which are disturbing."
-  ],
-  "items": [
-   "Ulmyr's Eye (Aspirant)|GrimHollowCG24",
-   "Ulmyr's Eye (Adept)|GrimHollowCG24",
-   "Ulmyr's Eye (Master)|GrimHollowCG24"
-  ],
   "hasFluff": true,
   "hasFluffImages": true
  },

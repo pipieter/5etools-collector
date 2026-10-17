@@ -280,8 +280,8 @@
        {
         "type": "statblock",
         "tag": "table",
-        "source": "FGoFD24",
-        "name": "Corruption Effects"
+        "name": "Corruption Effects",
+        "source": "FGoFD24"
        }
       ]
      }

@@ -277,10 +277,10 @@
   "name": "Serpentine",
   "source": "FoEQuickstone",
   "type": "rare",
-  "script": "none",
   "typicalSpeakers": [
    "Medusas"
   ],
+  "script": "none",
   "entries": [
    "Serpentine is the language of the medusas of Cazhaak Draal. It blends traditional speech with the hissing and writhing motions of the serpent mane. There's a distinct subset of Serpentine that relies solely on the motions of the serpents, allowing medusas within 60 feet of each other to silently communicate, provided that they can see one another. Any creature can learn Serpentine as a rare language or understand it through the use of magic, but only a creature with a functioning serpent mane can speak Serpentine."
   ]
