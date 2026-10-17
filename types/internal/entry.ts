@@ -154,7 +154,8 @@ export interface EntryStatBlock extends EntryBase {
 
 export interface EntryAbilityGeneric extends EntryBase {
   type: 'abilityGeneric';
-  text: string;
+  text?: string;
+  entry?: string;
   attributes?: AbilityEnum[];
 }
 
