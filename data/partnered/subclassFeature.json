@@ -577,9 +577,9 @@
  {
   "name": "Ain't Big Enough for the Both of Us",
   "source": "FoEQuickstone",
+  "page": 150,
   "className": "Bard",
   "classSource": "XPHB",
-  "page": 150,
   "subclassShortName": "Wands",
   "subclassSource": "FoEQuickstone",
   "level": 14,
@@ -1335,12 +1335,12 @@
   "subclassShortName": "Materializer",
   "subclassSource": "24GriffonsSaddlebag1",
   "level": 3,
-  "header": 1,
   "toolProficiencies": [
    {
     "anyArtisansTool": 3
    }
   ],
+  "header": 1,
   "entries": [
    "You have dedicated your studies to creation and the magic surrounding it. You gain the following benefits.",
    {
@@ -2087,9 +2087,9 @@
  {
   "name": "At Your Fingertips",
   "source": "FoEQuickstone",
+  "page": 149,
   "className": "Bard",
   "classSource": "XPHB",
-  "page": 149,
   "subclassShortName": "Wands",
   "subclassSource": "FoEQuickstone",
   "level": 3,
@@ -2117,17 +2117,18 @@
     ]
    },
    {
+    "type": "table",
     "name": "Splicer Augments",
     "source": "HelianasGuidetoMonsterHunting",
-    "colStyles": [
-     "col-3 text-center",
-     "col-7 text-left",
-     "col-2 text-left"
-    ],
     "colLabels": [
      "Augment",
      "Effect Summary",
      "Splicer Point Cost"
+    ],
+    "colStyles": [
+     "col-3 text-center",
+     "col-7 text-left",
+     "col-2 text-left"
     ],
     "rows": [
      [
@@ -2301,8 +2302,7 @@
      "** Each companion can take this augment up to 3 times.",
      "*** A companion can benefit from only 1 of these three 'touch' augments, but can take them up to two times (see augment description).",
      "**** This augment can be taken multiple times, but can never cause a companion's size category to increase beyond the maximum size dictated by tamer level (see {@classFeature Tamer Companion Summary|Tamer|HelianasGuidetoMonsterHunting|1} table)"
-    ],
-    "type": "table"
+    ]
    }
   ]
  },
@@ -2538,8 +2538,8 @@
    "When you reach 18th level in this class, the range of the aura increases to 30 feet",
    {
     "type": "inset",
-    "style": "text-center",
     "name": "Lay on Hands & Magic",
+    "style": "text-center",
     "entries": [
      "The paladin's Lay on Hands feature is neither a spell nor a magical effect, thus it does not trigger the bonus healing from the Aura of Rejuvenation."
     ]
@@ -2598,11 +2598,11 @@
   "subclassShortName": "Hearth",
   "subclassSource": "24GriffonsSaddlebag1",
   "level": 7,
-  "header": 2,
   "resist": [
    "cold",
    "fire"
   ],
+  "header": 2,
   "entries": [
    "You and your allies have {@variantrule Resistance|XPHB} to Cold and Fire damage while in your Aura of Protection."
   ]
@@ -4152,56 +4152,56 @@
      {
       "type": "statblock",
       "tag": "optfeature",
-      "source": "SGEHPP",
-      "name": "Bewitching Strike"
+      "name": "Bewitching Strike",
+      "source": "SGEHPP"
      },
      {
       "type": "statblock",
       "tag": "optfeature",
-      "source": "SGEHPP",
-      "name": "Bloodboil Strike"
+      "name": "Bloodboil Strike",
+      "source": "SGEHPP"
      },
      {
       "type": "statblock",
       "tag": "optfeature",
-      "source": "SGEHPP",
-      "name": "Bloodshard Strike"
+      "name": "Bloodshard Strike",
+      "source": "SGEHPP"
      },
      {
       "type": "statblock",
       "tag": "optfeature",
-      "source": "SGEHPP",
-      "name": "Constraining Strike"
+      "name": "Constraining Strike",
+      "source": "SGEHPP"
      },
      {
       "type": "statblock",
       "tag": "optfeature",
-      "source": "SGEHPP",
-      "name": "Exiling Strike"
+      "name": "Exiling Strike",
+      "source": "SGEHPP"
      },
      {
       "type": "statblock",
       "tag": "optfeature",
-      "source": "SGEHPP",
-      "name": "Hunting Strike"
+      "name": "Hunting Strike",
+      "source": "SGEHPP"
      },
      {
       "type": "statblock",
       "tag": "optfeature",
-      "source": "SGEHPP",
-      "name": "Shadowblood Strike"
+      "name": "Shadowblood Strike",
+      "source": "SGEHPP"
      },
      {
       "type": "statblock",
       "tag": "optfeature",
-      "source": "SGEHPP",
-      "name": "Thunderblood Strike"
+      "name": "Thunderblood Strike",
+      "source": "SGEHPP"
      },
      {
       "type": "statblock",
       "tag": "optfeature",
-      "source": "SGEHPP",
-      "name": "Withering Strike"
+      "name": "Withering Strike",
+      "source": "SGEHPP"
      }
     ]
    }
@@ -4630,9 +4630,9 @@
  {
   "name": "Bonus Cantrip",
   "source": "FoEQuickstone",
+  "page": 149,
   "className": "Bard",
   "classSource": "XPHB",
-  "page": 149,
   "subclassShortName": "Wands",
   "subclassSource": "FoEQuickstone",
   "level": 3,
@@ -5036,8 +5036,8 @@
     "type": "entries",
     "entries": [
      {
-      "name": "Entomb",
       "type": "entries",
+      "name": "Entomb",
       "entries": [
        "Once per turn, when a creature within 5 feet of you hits you with a melee attack, you can trigger a burst of cold that ripples along the attacker's limb (no action required). The creature takes {@damage 1d4} cold damage and its speed is reduced by {@b 15 feet} until the end of its next turn unless it is immune to cold damage.",
        "When you are reduced to 0 hit points, you become entombed in a block of clear ice that has AC 15, 100 hit points, {@b immunity} to cold damage, and vulnerability to fire damage. This icy block lasts for {@b 1 minute} or until it is destroyed. While the ice persists, you have total cover against all effects and you don't make death saving throws. If you regain 1 or more hit points, the icy block melts at the start of your next turn."
@@ -5049,8 +5049,8 @@
     "type": "entries",
     "entries": [
      {
-      "name": "Self-Destruct",
       "type": "entries",
+      "name": "Self-Destruct",
       "entries": [
        "Once per turn, when a creature within {@b 5 feet} of you hits you with a melee attack, you can cause a small, shaped charge to detonate (no action required). You take {@damage 1} fire damage and the creature takes {@damage 1d8} fire damage.",
        "When you are reduced to 0 hit points, you erupt in an immense ball of fire and immediately fail one death saving throw. Each creature within {@b 20 feet} of you must make a {@b Dexterity saving throw} against your {@b ranger spell save DC}. A creature takes {@damage 14d6} fire damage on a failed saving throw, or half as much damage on a successful one."
@@ -5739,10 +5739,10 @@
    "The {@creature blighted sapling|TalDoreiCampaignSettingReborn|sapling} uses the statistics below. Its features scale based on your level and proficiency bonus (PB).",
    {
     "type": "statblock",
+    "tag": "creature",
     "name": "Blighted Sapling",
     "source": "TalDoreiCampaignSettingReborn",
     "page": 172,
-    "tag": "creature",
     "collapsed": true
    }
   ]
@@ -5755,11 +5755,11 @@
   "subclassShortName": "Couatl Herald",
   "subclassSource": "24GriffonsSaddlebag1",
   "level": 10,
-  "header": 2,
   "conditionImmune": [
    "charmed",
    "frightened"
   ],
+  "header": 2,
   "entries": [
    "Whenever you successfully persuade a creature to stand down or deescalate an otherwise violent situation, you regain one expended Mercy Die. If multiple creatures are persuaded in this way, you regain one expended Mercy Die for each affected creature.",
    "In addition, you have {@variantrule Immunity|XPHB} to the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} conditions."
@@ -8138,10 +8138,10 @@
   "subclassShortName": "Frost",
   "subclassSource": "24GriffonsSaddlebag1",
   "level": 6,
-  "header": 2,
   "resist": [
    "cold"
   ],
+  "header": 2,
   "entries": [
    "Your icy core manifests outwardly, granting you the following benefits.",
    {
@@ -8537,9 +8537,9 @@
  {
   "name": "College of Wands",
   "source": "FoEQuickstone",
+  "page": 149,
   "className": "Bard",
   "classSource": "XPHB",
-  "page": 149,
   "subclassShortName": "Wands",
   "subclassSource": "FoEQuickstone",
   "level": 3,
@@ -8779,9 +8779,9 @@
  {
   "name": "Commerce Domain",
   "source": "FoEQuickstone",
+  "page": 150,
   "className": "Cleric",
   "classSource": "XPHB",
-  "page": 150,
   "subclassShortName": "Commerce",
   "subclassSource": "FoEQuickstone",
   "level": 3,
@@ -8805,9 +8805,9 @@
  {
   "name": "Commerce Domain Spells",
   "source": "FoEQuickstone",
+  "page": 150,
   "className": "Cleric",
   "classSource": "XPHB",
-  "page": 150,
   "subclassShortName": "Commerce",
   "subclassSource": "FoEQuickstone",
   "level": 3,
@@ -11375,6 +11375,68 @@
   ]
  },
  {
+  "name": "Despairing Strikes",
+  "source": "DnDBeyondDrops",
+  "page": "2026-10-01",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Sorrow Knight",
+  "subclassSource": "DnDBeyondDrops",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "Each sorrow knight bears an emotional wound like a deep scar, through which they channel despair against their enemies. This misery is fueled by special dice called Despairing Strike Dice.",
+   "The Despairing Strike Dice table shows the die size and number of these dice you have when you reach certain Fighter levels. A Despairing Strike Die is expended when you use it. You regain all expended Despairing Strike Dice when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+   {
+    "type": "table",
+    "caption": "Despairing Strike Dice",
+    "colLabels": [
+     "Fighter Level",
+     "Die Size",
+     "Number"
+    ],
+    "colStyles": [
+     "col-4 text-center",
+     "col-4 text-center",
+     "col-4 text-center"
+    ],
+    "rows": [
+     [
+      "3",
+      "{@dice D8}",
+      "3"
+     ],
+     [
+      "10",
+      "{@dice D10}",
+      "4"
+     ],
+     [
+      "15",
+      "{@dice D12}",
+      "5"
+     ]
+    ]
+   },
+   "When you hit a creature with an attack roll using a weapon, you can expend a Despairing Strike Die and roll that die. You deal additional Psychic damage equal to the roll and can also add one of the following effects. You can't expend more than one die per attack.",
+   "If a Despairing Strike effect requires a saving throw, the DC equals 8 plus your Wisdom modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}.",
+   {
+    "type": "entries",
+    "name": "Abandoned",
+    "entries": [
+     "The target must succeed on an Intelligence saving throw or have the {@condition Deafened|XPHB} condition until the end of your next turn. While {@condition Deafened|XPHB}, the target regards all creatures it can see as enemies until the end of your next turn."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Dread",
+    "entries": [
+     "The target has {@variantrule Disadvantage|XPHB} on the next saving throw it makes before the start of your next turn."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Desperado",
   "source": "GrimHollowPG24",
   "page": 89,
@@ -11616,9 +11678,9 @@
  {
   "name": "Divine Bargain",
   "source": "FoEQuickstone",
+  "page": 151,
   "className": "Cleric",
   "classSource": "XPHB",
-  "page": 151,
   "subclassShortName": "Commerce",
   "subclassSource": "FoEQuickstone",
   "level": 6,
@@ -11755,9 +11817,9 @@
  {
   "name": "Divine Wealth",
   "source": "FoEQuickstone",
+  "page": 151,
   "className": "Cleric",
   "classSource": "XPHB",
-  "page": 151,
   "subclassShortName": "Commerce",
   "subclassSource": "FoEQuickstone",
   "level": 3,
@@ -12470,6 +12532,22 @@
   ]
  },
  {
+  "name": "Dreaded Appearance",
+  "source": "DnDBeyondDrops",
+  "page": "2026-10-01",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Sorrow Knight",
+  "subclassSource": "DnDBeyondDrops",
+  "level": 7,
+  "header": 2,
+  "entries": [
+   "When you use {@classFeature Tactical Shift|Fighter|XPHB|5}, you can teleport to an unoccupied space you can see within 30 feet of yourself instead of moving.",
+   "Immediately after you reappear, you can briefly take on the appearance of creatures' fears, visible only to those creatures. Each creature of your choice within a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you makes a Wisdom saving throw (DC equals 8 plus your Wisdom modifier and your {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, a target takes Psychic damage equal to a roll of your Despairing Strike die and has the {@condition Frightened|XPHB} condition until the end of your next turn. On a successful save, it takes half damage only.",
+   "Once you take on this appearance, you can't do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
   "name": "Dual Death",
   "source": "GrimHollowPG24",
   "page": 66,
@@ -13142,8 +13220,8 @@
   "entries": [
    "Over the course of 1 hour (which can be done during a rest), you can craft a capsule of potent stimulants, choosing from either the Brutish or Swift archetypes, and embed it within your adrenal gland With a slight tensing of your brain muscles, you can crack this capsule as a bonus action, stimulating your body For the next minute, you gain the following benefits based on the archetype you chose:",
    {
-    "name": "Brutish",
     "type": "list",
+    "name": "Brutish",
     "items": [
      "If you are smaller than Large, you become Large, and your weight increases proportionately If you lack the room to become Large, your size doesn't change.",
      "Your Strength score increases to match your Intelligence score if it isn't already higher.",
@@ -13177,16 +13255,16 @@
     ]
    },
    {
+    "type": "entries",
     "entries": [
      {
+      "type": "entries",
       "name": "Relapse",
       "entries": [
        "When the minute elapses, you gain one level of {@condition exhaustion}, and you can't move or take actions until after your next turn, as a wave of lethargy sweeps over you. You must craft another capsule before you can use this feature again."
-      ],
-      "type": "entries"
+      ]
      }
-    ],
-    "type": "entries"
+    ]
    }
   ]
  },
@@ -13522,11 +13600,11 @@
  {
   "name": "Eternity in Stone",
   "source": "FoEQuickstone",
+  "page": 154,
   "className": "Warlock",
   "classSource": "XPHB",
-  "subclassSource": "FoEQuickstone",
   "subclassShortName": "Stone Sovereign",
-  "page": 154,
+  "subclassSource": "FoEQuickstone",
   "level": 3,
   "header": 1,
   "entries": [
@@ -13925,8 +14003,8 @@
    {
     "type": "statblock",
     "tag": "table",
-    "source": "HumblewoodTales",
     "name": "The Predator Expanded Spell List",
+    "source": "HumblewoodTales",
     "page": 174
    }
   ]
@@ -14081,10 +14159,10 @@
   "subclassShortName": "Astral Griffon",
   "subclassSource": "24GriffonsSaddlebag1",
   "level": 10,
-  "header": 2,
   "resist": [
    "force"
   ],
+  "header": 2,
   "entries": [
    "The fabric of existence is clear to you. You gain the following benefits.",
    {
@@ -15555,11 +15633,11 @@
  {
   "name": "Form of Stone",
   "source": "FoEQuickstone",
+  "page": 155,
   "className": "Warlock",
   "classSource": "XPHB",
-  "subclassSource": "FoEQuickstone",
   "subclassShortName": "Stone Sovereign",
-  "page": 155,
+  "subclassSource": "FoEQuickstone",
   "level": 6,
   "header": 2,
   "entries": [
@@ -15947,13 +16025,13 @@
   "subclassShortName": "Frost",
   "subclassSource": "24GriffonsSaddlebag1",
   "level": 18,
-  "header": 2,
-  "immune": [
-   "cold"
-  ],
   "resist": [
    "fire"
   ],
+  "immune": [
+   "cold"
+  ],
+  "header": 2,
   "entries": [
    "You have {@variantrule Immunity|XPHB} to Cold damage and {@variantrule Resistance|XPHB} to Fire damage.",
    "In addition, you always have the {@spell Wall of Ice|XPHB} spell prepared, and you can cast it without a Material component. You can also cast it once without a spell slot; if you choose for its form to be flat when cast in this way, the panels of ice don't need to be contiguous with one another. Once you use this feature to cast the spell without a spell slot, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
@@ -16797,9 +16875,9 @@
  {
   "name": "Got Your Back",
   "source": "FoEQuickstone",
+  "page": 150,
   "className": "Bard",
   "classSource": "XPHB",
-  "page": 150,
   "subclassShortName": "Wands",
   "subclassSource": "FoEQuickstone",
   "level": 6,
@@ -17269,6 +17347,49 @@
      ]
     ]
    }
+  ]
+ },
+ {
+  "name": "Grieving Mantle",
+  "source": "DnDBeyondDrops",
+  "page": "2026-10-01",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Sorrow Knight",
+  "subclassSource": "DnDBeyondDrops",
+  "level": 18,
+  "header": 2,
+  "entries": [
+   "When you use your {@classFeature Action Surge|Fighter|XPHB|2}, you attune yourself to the Shadowfell for 1 minute or until you have the {@condition Incapacitated|XPHB} condition. For the duration, you gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Shade Form",
+    "entries": [
+     "When you are hit by an attack roll, you can take a {@variantrule Reaction|XPHB} to become insubstantial for a moment and reduce the attack's total damage against you to 0."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Unwavering Resolve",
+    "entries": [
+     "You have {@variantrule Immunity|XPHB} to the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} conditions. If you're {@condition Charmed|XPHB} or {@condition Frightened|XPHB} when you activate your Grieving Mantle, the condition ends on you."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Grim Constitution",
+  "source": "DnDBeyondDrops",
+  "page": "2026-10-01",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Sorrow Knight",
+  "subclassSource": "DnDBeyondDrops",
+  "level": 15,
+  "header": 2,
+  "entries": [
+   "You have {@variantrule Resistance|XPHB} to Necrotic and Psychic damage.",
+   "In addition, when you are subjected to an effect that reduces your {@variantrule Hit Points|XPHB|Hit Point} maximum, you can make a {@dc 15} Constitution saving throw. If you succeed, your {@variantrule Hit Points|XPHB|Hit Point} maximum isn't decreased. Each time you make this Constitution saving throw after the first, the DC increases by 5. When you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, the DC resets to 15."
   ]
  },
  {
@@ -19654,13 +19775,13 @@
   "subclassShortName": "Runetagger",
   "subclassSource": "24GriffonsSaddlebag1",
   "level": 3,
-  "header": 1,
   "expertise": [
    {
     "calligrapher's supplies": true,
     "painter's supplies": true
    }
   ],
+  "header": 1,
   "entries": [
    "You gain {@variantrule Expertise|XPHB} with {@item Calligrapher's Supplies|XPHB} and {@item Painter's Supplies|XPHB}, and you're never without your brushes. As a {@action Magic|XPHB} action, you can create either {@item Calligrapher's Supplies|XPHB} or {@item Painter's Supplies|XPHB} in one of your free hands. When you do, you can also create either {@item Ink|XPHB} (if you created {@item Calligrapher's Supplies|XPHB}) or a {@item Vial|XPHB} of paint (if you created {@item Painter's Supplies|XPHB}); the ink or paint can be any color of your choice. Items created in this way immediately vanish if they are ever not on your person or if you take this action again.",
    "In addition, whenever you finish making a mark or rune with ink or paint, you can imbue it with the effect of the {@spell Message|XPHB} spell. When you do, the mark is visibly magical and sheds {@variantrule Dim Light|XPHB} in a 5-foot radius. A creature that touches the glowing mark telepathically hears the message you imbued in it. Once the message is heard, the mark loses these properties and becomes nonmagical."
@@ -21682,8 +21803,8 @@
    {
     "type": "statblock",
     "tag": "table",
-    "source": "HumblewoodTales",
     "name": "Leyline Spells",
+    "source": "HumblewoodTales",
     "page": 177,
     "style": "narrow"
    }
@@ -21843,16 +21964,16 @@
   "entries": [
    "As a bonus action, you can transform your body into a viscous, liquid form for 10 minutes You choose whether your equipment falls to the ground in your space or merges into your new form. For the duration, you can squeeze through a space as narrow as 6 inches wide, and moving through difficult terrain costs you no extra movement. After you use this feature, you can't do so again until you finish a short or long rest.",
    {
+    "type": "entries",
     "entries": [
      {
+      "type": "entries",
       "name": "Magical Weapons",
       "entries": [
        "Starting at 6th level, your attacks with your parasitic weapon count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
-      ],
-      "type": "entries"
+      ]
      }
-    ],
-    "type": "entries"
+    ]
    }
   ]
  },
@@ -23711,9 +23832,9 @@
  {
   "name": "Money Spinner",
   "source": "FoEQuickstone",
+  "page": 151,
   "className": "Cleric",
   "classSource": "XPHB",
-  "page": 151,
   "subclassShortName": "Commerce",
   "subclassSource": "FoEQuickstone",
   "level": 3,
@@ -25559,22 +25680,22 @@
       "style": "list-hang-notitle",
       "items": [
        {
-        "name": "Affinity",
         "type": "item",
+        "name": "Affinity",
         "entries": [
          "You protect and help those you feel meet your personal standards."
         ]
        },
        {
-        "name": "Beauty",
         "type": "item",
+        "name": "Beauty",
         "entries": [
          "Violence is nihilistic; protect the beautiful and precious instead."
         ]
        },
        {
-        "name": "Freedom",
         "type": "item",
+        "name": "Freedom",
         "entries": [
          "Tyrants use violence to oppress. You deny that power."
         ]
@@ -25587,22 +25708,22 @@
       "style": "list-hang-notitle",
       "items": [
        {
-        "name": "Dominance",
         "type": "item",
+        "name": "Dominance",
         "entries": [
          "Let others believe you protect them so you can rule them."
         ]
        },
        {
-        "name": "Opportunism",
         "type": "item",
+        "name": "Opportunism",
         "entries": [
          "Protect others while it profits you. Strike when they weaken."
         ]
        },
        {
-        "name": "Profit",
         "type": "item",
+        "name": "Profit",
         "entries": [
          "Guard the wealthy as long as they pay. Join the mob when they fall."
         ]
@@ -25615,22 +25736,22 @@
       "style": "list-hang-notitle",
       "items": [
        {
-        "name": "Courage",
         "type": "item",
+        "name": "Courage",
         "entries": [
          "Stand firm in the face of danger."
         ]
        },
        {
-        "name": "Sacrifice",
         "type": "item",
+        "name": "Sacrifice",
         "entries": [
          "Suffer for others so they may flourish."
         ]
        },
        {
-        "name": "Service",
         "type": "item",
+        "name": "Service",
         "entries": [
          "Use your strength to serve those who need help most."
         ]
@@ -25643,22 +25764,22 @@
       "style": "list-hang-notitle",
       "items": [
        {
-        "name": "Fidelity",
         "type": "item",
+        "name": "Fidelity",
         "entries": [
          "Keep your oath above all."
         ]
        },
        {
-        "name": "Protection",
         "type": "item",
+        "name": "Protection",
         "entries": [
          "Guard civilization to preserve order."
         ]
        },
        {
-        "name": "Service",
         "type": "item",
+        "name": "Service",
         "entries": [
          "Follow your code to protect others, even in complex duties."
         ]
@@ -26394,43 +26515,43 @@
     "entries": [
      {
       "type": "refOptionalfeature",
-      "optionalfeature": "Ballooning Bag|ObojimaTallGrass",
-      "name": "Ballooning Bag"
+      "name": "Ballooning Bag",
+      "optionalfeature": "Ballooning Bag|ObojimaTallGrass"
      },
      {
       "type": "refOptionalfeature",
-      "optionalfeature": "Entangling Cord|ObojimaTallGrass",
-      "name": "Entangling Cord"
+      "name": "Entangling Cord",
+      "optionalfeature": "Entangling Cord|ObojimaTallGrass"
      },
      {
       "type": "refOptionalfeature",
-      "optionalfeature": "Find the Thing|ObojimaTallGrass",
-      "name": "Find the Thing"
+      "name": "Find the Thing",
+      "optionalfeature": "Find the Thing|ObojimaTallGrass"
      },
      {
       "type": "refOptionalfeature",
-      "optionalfeature": "First Age Steed|ObojimaTallGrass",
-      "name": "First Age Steed"
+      "name": "First Age Steed",
+      "optionalfeature": "First Age Steed|ObojimaTallGrass"
      },
      {
       "type": "refOptionalfeature",
-      "optionalfeature": "Goggled Vision|ObojimaTallGrass",
-      "name": "Goggled Vision"
+      "name": "Goggled Vision",
+      "optionalfeature": "Goggled Vision|ObojimaTallGrass"
      },
      {
       "type": "refOptionalfeature",
-      "optionalfeature": "Leaping Sneakers|ObojimaTallGrass",
-      "name": "Leaping Sneakers"
+      "name": "Leaping Sneakers",
+      "optionalfeature": "Leaping Sneakers|ObojimaTallGrass"
      },
      {
       "type": "refOptionalfeature",
-      "optionalfeature": "Pocket Voice|ObojimaTallGrass",
-      "name": "Pocket Voice"
+      "name": "Pocket Voice",
+      "optionalfeature": "Pocket Voice|ObojimaTallGrass"
      },
      {
       "type": "refOptionalfeature",
-      "optionalfeature": "Water Jettison|ObojimaTallGrass",
-      "name": "Water Jettison"
+      "name": "Water Jettison",
+      "optionalfeature": "Water Jettison|ObojimaTallGrass"
      }
     ]
    }
@@ -26774,13 +26895,13 @@
   "subclassShortName": "Couatl Herald",
   "subclassSource": "24GriffonsSaddlebag1",
   "level": 3,
-  "header": 1,
   "skillProficiencies": [
    {
     "insight": true,
     "persuasion": true
    }
   ],
+  "header": 1,
   "entries": [
    "You gain proficiency in the {@skill Insight|XPHB} and {@skill Persuasion|XPHB} skills. In addition, when you would reduce a creature to 0 {@variantrule Hit Points|XPHB} with a melee or ranged attack, you can choose to knock it out, instead reducing the creature to 1 {@variantrule Hit Points|XPHB|Hit Point}. The creature then has the {@condition Unconscious|XPHB} condition and starts a {@variantrule Short Rest|XPHB}. The creature remains {@condition Unconscious|XPHB} until it regains any {@variantrule Hit Points|XPHB} or until someone uses an action to administer first aid to it, which requires a successful DC 10 Wisdom ({@skill Medicine|XPHB}) check."
   ]
@@ -26873,9 +26994,9 @@
  {
   "name": "Open Market",
   "source": "FoEQuickstone",
+  "page": 151,
   "className": "Cleric",
   "classSource": "XPHB",
-  "page": 151,
   "subclassShortName": "Commerce",
   "subclassSource": "FoEQuickstone",
   "level": 17,
@@ -27434,28 +27555,28 @@
    "Your patron can manifest on and protrude from your body in the form of a parasitic weapon—claws, teeth, tendrils, or other appendages As a bonus action, you can manifest this parasitic weapon; you gain a new attack option that you can use when you take the Attack action on your turn This special attack is a melee weapon attack, with a reach equal to five times your proficiency bonus. You are proficient with this weapon and, when you make a weapon attack with it, you must use your Charisma modifier instead of your Strength modifier for the attack roll The attack deals {@damage 1d12} bludgeoning, piercing, or slashing damage on a hit (your choice when you manifest the weapon). You don't add your ability modifier to the damage of the parasitic weapon.",
    "The parasitic weapon retracts back into your body if you are incapacitated or you use a bonus action to end it.",
    {
+    "type": "entries",
     "entries": [
      {
+      "type": "entries",
       "name": "Parasitic Flurry",
       "entries": [
        "The number of attacks you can make with your parasitic weapons when you take the Attack action on your turn increases when you reach certain levels in this class, increasing to two attacks at 5th level, three attacks at 11th level, and four attacks at 17th level If you have another feature that allows you to make multiple attacks as part of the Attack action (such as Extra Attack), making any of those extra attacks each replace one of these parasitic weapon attacks."
-      ],
-      "type": "entries"
+      ]
      }
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "entries": [
      {
+      "type": "entries",
       "name": "Magical Weapons",
       "entries": [
        "Starting at 6th level, your attacks with your parasitic weapon count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
-      ],
-      "type": "entries"
+      ]
      }
-    ],
-    "type": "entries"
+    ]
    },
    {
     "type": "inset",
@@ -28082,10 +28203,10 @@
   "subclassShortName": "Glacier",
   "subclassSource": "24GriffonsSaddlebag1",
   "level": 3,
-  "header": 1,
   "resist": [
    "cold"
   ],
+  "header": 1,
   "entries": [
    "Your skin becomes icy to the touch, outwardly manifesting the cold and patient well of power within you. You gain the following benefits.",
    {
@@ -30384,13 +30505,13 @@
     "type": "list",
     "items": [
      {
-      "name": "Chase",
       "type": "item",
+      "name": "Chase",
       "entry": "The creature is drawn to you. For the duration, it has disadvantage on attack rolls against creatures other than you, and must make a Wisdom saving throw the first time it attempts to move to a space that is more than 30 feet away from you on its turn. On a failed save, it can't move more than 30 feet away from you that turn. On a success, this effect doesn't restrict the target's movement for that turn."
      },
      {
-      "name": "Avoid",
       "type": "item",
+      "name": "Avoid",
       "entry": "The creature is repelled by you. For the duration, it has disadvantage on attack rolls against you, and must make a Wisdom saving throw the first time it attempts to move to a space within 30 feet of you on its turn. On a failed save, it can't willingly move closer to you that turn. On a success, this effect doesn't restrict the target's movement for that turn."
      }
     ]
@@ -30411,33 +30532,33 @@
     "type": "list",
     "items": [
      {
-      "name": "Bull's Buns",
       "type": "item",
+      "name": "Bull's Buns",
       "entry": "The target has advantage on Strength checks, and counts as one size larger when determining its carrying capacity and the weight it can push, drag, or lift."
      },
      {
-      "name": "Cactus Skin",
       "type": "item",
+      "name": "Cactus Skin",
       "entry": "The target is covered in razor-sharp spikes. At the end of each of the target's turns, each creature grappling it must make a Constitution saving throw against your bard spell save DC. On a failure, a creature takes piercing damage equal to your Bardic Inspiration die and releases the target from its grapple. On a success, a creature takes half as much damage and doesn't have to release the target."
      },
      {
-      "name": "Cat's Paws",
       "type": "item",
+      "name": "Cat's Paws",
       "entry": "The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't {@condition incapacitated}."
      },
      {
-      "name": "Fish Form",
       "type": "item",
+      "name": "Fish Form",
       "entry": "The target can breathe underwater and gains a swimming speed equal to its walking speed."
      },
      {
-      "name": "Owl's Sight",
       "type": "item",
+      "name": "Owl's Sight",
       "entry": "The target has advantage on Wisdom checks and initiative rolls."
      },
      {
-      "name": "Rhino's Hide",
       "type": "item",
+      "name": "Rhino's Hide",
       "entry": "The target has advantage on Constitution checks and gains temporary hit points equal to one roll of your Bardic Inspiration die plus you Charisma modifier (minimum 1), which are lost when the effect ends."
      }
     ]
@@ -31619,8 +31740,8 @@
      },
      {
       "type": "statblock",
-      "name": "Trapper Traps",
       "tag": "table",
+      "name": "Trapper Traps",
       "source": "HelianasGuidetoMonsterHunting"
      },
      {
@@ -32948,19 +33069,19 @@
     "type": "entries",
     "entries": [
      {
+      "type": "entries",
       "name": "Modify Shift",
       "entries": [
        "When you reach 6th level in this class, you can add a bonus to the result of the {@dice d20} you roll on the Skinshifter Adaptation table equal to up to half your sorcerer level For example, at 6th level, if you rolled a 19 on the {@dice d20} you could choose any result between 19 and 22."
-      ],
-      "type": "entries"
+      ]
      }
     ]
    },
    {
     "type": "statblock",
     "tag": "table",
-    "source": "HelianasGuidetoMonsterHunting",
-    "name": "Skinshift Adaptations"
+    "name": "Skinshift Adaptations",
+    "source": "HelianasGuidetoMonsterHunting"
    }
   ]
  },
@@ -33105,6 +33226,56 @@
   ]
  },
  {
+  "name": "Solemn Gaze",
+  "source": "DnDBeyondDrops",
+  "page": "2026-10-01",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Sorrow Knight",
+  "subclassSource": "DnDBeyondDrops",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "You can see through the darkness around you and recognize the darkness in others. You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Darkvision",
+    "entries": [
+     "You gain {@sense Darkvision|XPHB} with a range of 60 feet. If you already have {@sense Darkvision|XPHB}, its range increases by 60 feet."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Empathetic Inquiry",
+    "entries": [
+     "As a {@action Magic|XPHB} action, you can attempt to search the mind of a creature you can see within 30 feet. The target must succeed on a Wisdom saving throw (DC equals 8 plus your Wisdom modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}) or you learn an emotion that looms large in its mind, such as a worry, love, or hate. If the target can see you, it knows you have read its emotions. You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Sorrow Knight",
+  "source": "DnDBeyondDrops",
+  "page": "2026-10-01",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Sorrow Knight",
+  "subclassSource": "DnDBeyondDrops",
+  "level": 3,
+  "entries": [
+   "{@i Channel Despair and Darkness to Protect Others}",
+   "Sorrow knights suffuse their opponents with grief and misery from the gloomy plane called the Shadowfell. These fighters harness their past despair to forge a connection with others and protect themselves. A sorrow knight's intense loss—whether the loss of love, faith, or something equally profound—is the weapon they wield against their foes and their motivator to ensure that no one experiences that same pain.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Despairing Strikes|Fighter|XPHB|Sorrow Knight|DnDBeyondDrops|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Solemn Gaze|Fighter|XPHB|Sorrow Knight|DnDBeyondDrops|3"
+   }
+  ]
+ },
+ {
   "name": "Sorrowful Fate",
   "source": "TalDoreiCampaignSettingReborn",
   "page": 167,
@@ -33178,12 +33349,12 @@
     "type": "entries",
     "entries": [
      {
+      "type": "entries",
       "name": "Spool",
       "entries": [
        "You can use a bonus action to teleport to the nearest unoccupied space of a soulsewn creature of your choice, or attempt to switch places with a soulsewn creature. If the creature is unwilling to switch places, you must succeed on a contested Charisma check against the creature. On a success, or if the creature is willing, you and the target teleport, switching places with one another. If there is not enough space for either of you to switch places, you automatically lose the contest.",
        "You can teleport using this feature a number of times equal to your Charisma modifier (minimum 1), and you regain all expended uses when you finish a long rest."
-      ],
-      "type": "entries"
+      ]
      }
     ]
    }
@@ -34623,11 +34794,11 @@
  {
   "name": "Stone Servant",
   "source": "FoEQuickstone",
+  "page": 155,
   "className": "Warlock",
   "classSource": "XPHB",
-  "subclassSource": "FoEQuickstone",
   "subclassShortName": "Stone Sovereign",
-  "page": 155,
+  "subclassSource": "FoEQuickstone",
   "level": 14,
   "header": 2,
   "entries": [
@@ -34637,11 +34808,11 @@
  {
   "name": "Stone Sovereign Patron",
   "source": "FoEQuickstone",
+  "page": 154,
   "className": "Warlock",
   "classSource": "XPHB",
-  "subclassSource": "FoEQuickstone",
   "subclassShortName": "Stone Sovereign",
-  "page": 154,
+  "subclassSource": "FoEQuickstone",
   "level": 3,
   "entries": [
    "{@i Hear the Whispering of the Stones}",
@@ -34663,11 +34834,11 @@
  {
   "name": "Stone Sovereign Spells",
   "source": "FoEQuickstone",
+  "page": 154,
   "className": "Warlock",
   "classSource": "XPHB",
-  "subclassSource": "FoEQuickstone",
   "subclassShortName": "Stone Sovereign",
-  "page": 154,
+  "subclassSource": "FoEQuickstone",
   "level": 3,
   "header": 1,
   "entries": [
@@ -34707,11 +34878,11 @@
  {
   "name": "Stone Speaker",
   "source": "FoEQuickstone",
+  "page": 154,
   "className": "Warlock",
   "classSource": "XPHB",
-  "subclassSource": "FoEQuickstone",
   "subclassShortName": "Stone Sovereign",
-  "page": 154,
+  "subclassSource": "FoEQuickstone",
   "level": 3,
   "header": 1,
   "entries": [
@@ -34723,11 +34894,11 @@
  {
   "name": "Stone's Embrace",
   "source": "FoEQuickstone",
+  "page": 155,
   "className": "Warlock",
   "classSource": "XPHB",
-  "subclassSource": "FoEQuickstone",
   "subclassShortName": "Stone Sovereign",
-  "page": 155,
+  "subclassSource": "FoEQuickstone",
   "level": 10,
   "header": 2,
   "entries": [
@@ -35053,11 +35224,11 @@
     "type": "entries",
     "entries": [
      {
+      "type": "entries",
       "name": "Suture (3rd Level)",
       "entries": [
        "As a bonus action or an action, you can expend one use of your Bardic Inspiration to move the weapon up to 20 feet and grant temporary hit points equal to one roll of your Bardic Inspiration die to one creature within 5 feet of the weapon. If the creature has 0 hit points, you can stabilise it, instead."
-      ],
-      "type": "entries"
+      ]
      }
     ]
    }
@@ -35077,11 +35248,11 @@
     "type": "entries",
     "entries": [
      {
+      "type": "entries",
       "name": "Unspool",
       "entries": [
        "As an action, you can expend one use of your Bardic Inspiration to move the weapon up to 20 feet and force one creature within 5 feet of the weapon to make a Strength saving throw against your bard spell save DC. On a failure, magical threads wrap around the creature, which is {@condition restrained} for 1 minute. The target can use its action to repeat the saving throw, ending the effect on a success."
-      ],
-      "type": "entries"
+      ]
      }
     ]
    }
@@ -35101,11 +35272,11 @@
     "type": "entries",
     "entries": [
      {
+      "type": "entries",
       "name": "Acupuncture",
       "entries": [
        "As an action, you can expend one use of your Bardic Inspiration to move the weapon up to 20 feet and make a melee spell attack against one creature within 5 feet of it. On a hit, the creature takes piercing damage equal to one roll of your Bardic Inspiration die plus your Charisma modifier, and must make a Constitution saving throw against your bard spell save DC. On a failure, the creature is {@condition paralysed} until the end of its next turn."
-      ],
-      "type": "entries"
+      ]
      }
     ]
    }
@@ -35742,11 +35913,11 @@
     "type": "entries",
     "entries": [
      {
+      "type": "entries",
       "name": "Share Your Meal",
       "entries": [
        "Your powers are a gift to be shared; if someone is in need, you must use your power to meet those needs. To eat your fill while another goes hungry is selfish."
-      ],
-      "type": "entries"
+      ]
      }
     ]
    },
@@ -35754,11 +35925,11 @@
     "type": "entries",
     "entries": [
      {
+      "type": "entries",
       "name": "Nurture Over Cure",
       "entries": [
        "Act in the greatest interest of the many. Find ways to prevent harm before it must be healed."
-      ],
-      "type": "entries"
+      ]
      }
     ]
    },
@@ -35766,11 +35937,11 @@
     "type": "entries",
     "entries": [
      {
+      "type": "entries",
       "name": "Permit Prosperity",
       "entries": [
        "Whether in matters of love, politics, or war, always give your antagonist the opportunity to change and redeem themselves before casting a fatal judgment. A good meal can serve as the backdrop to such events."
-      ],
-      "type": "entries"
+      ]
      }
     ]
    }
@@ -37340,28 +37511,28 @@
   "entries": [
    "At 10th level, you learn new ways to use your parasitic ooze to aid your friends or harm your foes As a bonus action while your parasitic ooze isn't incapacitated, you can command it to immediately use one of the options below.",
    {
+    "type": "entries",
     "entries": [
      {
+      "type": "entries",
       "name": "Detonate Ooze",
       "entries": [
        "The ooze moves up to its speed and then explodes, causing it to drop to 0 hit points Each creature within 10 feet of the ooze must make a Dexterity saving throw against your warlock spell save DC On a failed save, a creature takes {@damage 4d6} necrotic damage and is {@condition blinded} until the end of your next turn On a successful save, the creature takes half as much damage and isn't {@condition blinded}."
-      ],
-      "type": "entries"
+      ]
      }
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "entries": [
      {
+      "type": "entries",
       "name": "Symbiote's Ward",
       "entries": [
        "The ooze moves up to its speed and attaches to the body of a willing creature within 5 feet of it While attached in this way, the ooze is incapacitated, has a speed of 0, and you can communicate telepathically with the creature it's attached to, whether or not you share a common language Whenever the creature the ooze is attached to takes damage, the ooze takes the damage instead As a bonus action, you can command the parasite to detach from the creature."
-      ],
-      "type": "entries"
+      ]
      }
-    ],
-    "type": "entries"
+    ]
    }
   ]
  },
@@ -38214,6 +38385,41 @@
     "name": " Unnerving Aura",
     "entries": [
      "You have {@variantrule Advantage|XPHB} on Charisma ({@skill Deception|XPHB} or {@skill Intimidation|XPHB}) and Wisdom ({@skill Animal Handling|XPHB}) checks."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Unsettled Strikes",
+  "source": "DnDBeyondDrops",
+  "page": "2026-10-01",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Sorrow Knight",
+  "subclassSource": "DnDBeyondDrops",
+  "level": 10,
+  "header": 2,
+  "entries": [
+   "You further channel the pathos of the Shadowfell through your fighting abilities. The following effects are now among your Despairing Strike options.",
+   {
+    "type": "entries",
+    "name": "Apathetic",
+    "entries": [
+     "The target must succeed on a Wisdom saving throw or have the {@condition Incapacitated|XPHB} condition until the start of your next turn. While {@condition Incapacitated|XPHB} in this way, the target can give only one-word responses when spoken to."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Lost",
+    "entries": [
+     "The target makes a Charisma saving throw. On a failed save, the target has the {@condition Blinded|XPHB} condition, and its {@variantrule Speed|XPHB} is reduced to 0 until the end of its next turn. On a successful save, the target's {@variantrule Speed|XPHB} is halved until the end of its next turn."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Weary",
+    "entries": [
+     "The target must succeed on a Constitution saving throw or gain 1 {@condition Exhaustion|XPHB} level. This effect can't increase the target's {@condition Exhaustion|XPHB} level above 2. {@condition Exhaustion|XPHB} levels gained from this effect are removed at the end of your next turn."
     ]
    }
   ]
@@ -39267,9 +39473,9 @@
  {
   "name": "Wandslinger's Presence",
   "source": "FoEQuickstone",
+  "page": 149,
   "className": "Bard",
   "classSource": "XPHB",
-  "page": 149,
   "subclassShortName": "Wands",
   "subclassSource": "FoEQuickstone",
   "level": 3,

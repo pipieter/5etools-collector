@@ -2597,8 +2597,8 @@
        "If a vessel is broken, or a companion is released from its vessel for any other reason, the creature within it ceases to be a tamer's companion. It acts according to its own wishes and retains any improvements it gained while a companion.",
        {
         "type": "inset",
-        "style": "text-center",
         "name": "Home Planes",
+        "style": "text-center",
         "entries": [
          "Some magical effects, like the {@spell banishment} spell, have the ability to permanently banish a creature back to its home plane. When a creature becomes your companion, its home plane becomes the demiplane within its vessel. If the companion becomes permanently banished by such a spell, it simply reappears in this vessel."
         ]
@@ -2612,8 +2612,8 @@
        "As an action, you can summon your companion from this vessel, causing it to appear in an unoccupied space that you can see within 30 feet of you, or any unoccupied space within 5 feet of you. You can dismiss a companion within 30 feet of you as a bonus action or action, drawing it back into its vessel. To summon or dismiss a companion, you must be holding its vessel in hand. You can only have one companion summoned at a time.",
        {
         "type": "inset",
-        "style": "text-center",
         "name": "Dominated Companions",
+        "style": "text-center",
         "entries": [
          "A companion that is controlled by another creature, such as by the {@spell dominate monster} spell, can try to resist being recalled into its vessel. When you try to recall such a creature into its vessel, it can make acan make a Charisma saving throw against yourtamer spell save DC. On a failed saving throw, it is recalled, while on a success, it is not."
         ]
@@ -3203,23 +3203,23 @@
     "type": "entries",
     "entries": [
      {
-      "name": "Cantrips",
       "type": "entries",
+      "name": "Cantrips",
       "entries": [
        "At 1st level, you know 2 cantrips of your choice from the {@filter tamer spell list|spells|class=tamer (hgtmh)}. You learn additional tamer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Tamer table."
       ]
      },
      {
-      "name": "Spell Slots",
       "type": "entries",
+      "name": "Spell Slots",
       "entries": [
        "The Tamer table shows how many spell slots you have to cast your tamer spells of 1st level and higher. To cast one of these tamer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
        "For example, if you know the 1st-level spell {@spell animal friendship} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell animal friendship} using either slot."
       ]
      },
      {
-      "name": "Spells Known of 1st Level and Higher",
       "type": "entries",
+      "name": "Spells Known of 1st Level and Higher",
       "entries": [
        "You know two 1st-level spells of your choice from the {@filter tamer spell list|spells|class=tamer (hgtmh)}.",
        "The Spells Known column of the Tamer table shows when you learn more tamer spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level.",
@@ -3227,8 +3227,8 @@
       ]
      },
      {
-      "name": "Spellcasting Ability",
       "type": "entries",
+      "name": "Spellcasting Ability",
       "entries": [
        "When you gain your first level in this class, choose whether you use your knowledge (Intelligence), willpower (Wisdom), or force of personality (Charisma) as your spellcasting ability for your tamer spells You use this spellcasting ability whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a tamer spell you cast and when making an attack roll with one.",
        {
@@ -3252,8 +3252,8 @@
       ]
      },
      {
-      "name": "Spellcasting Focus",
       "type": "entries",
+      "name": "Spellcasting Focus",
       "entries": [
        "You can use a creature's vessel as a spellcasting focus for your tamer spells."
       ]
@@ -3618,16 +3618,16 @@
        "If a creature doesn't automatically succeed on this saving throw for one of the above reasons, and has either fewer than ten hit points or one-quarter of its hit points, it automatically fails this saving throw A creature that fails the saving throw is trapped in your vessel and becomes you companion when you next finish a long rest.",
        {
         "type": "inset",
-        "style": "text-center",
         "name": "Optional Rule: Non-Combat Taming",
+        "style": "text-center",
         "entries": [
          "If a player impresses a celestial with an especially noble act, or rears a creature from an egg, that creature might be willing to become a tamer's companion. If so, feel free to ignore the usual rules regarding saving throws on taming, and let the beautiful story of companionship unfold!"
         ]
        },
        {
         "type": "inset",
-        "style": "text-center",
         "name": "Abilities and Proficiency",
+        "style": "text-center",
         "entries": [
          "As your companions' ability scores change, often through Companion Improvement Training, their skill modifiers, saving throws, attack modifiers and saving throw DCs will also change. Working out what ability a creature's attack or saving throw uses can require a bit of detective work. First you have to know the creature's proficiency bonus (PB). Luckily this is quite easy - it all depends on the creature's CR and players' PB. A creatures' base PB is +2 at CR 0-4and +3 at CR 5-6.",
          "Firstly, subtract the creature's PB from its modifiers/save DCs. Next, for save DCs, subtract an additional 8 from the DC. Finally, match the remaining values to the ability score modifiers.",
@@ -3655,8 +3655,8 @@
        },
        {
         "type": "inset",
-        "style": "text-center",
         "name": "Powerful Companion Abilities",
+        "style": "text-center",
         "entries": [
          "Some monster features are very powerful, and aren't designed for use by players. The two most common are recharge actions and gazes. You can help make a companion more balanced by changing these features slightly. It's advised to approach this on a case-by-case basis, as each feature is different, and some might not require changing.",
          {
@@ -3666,13 +3666,13 @@
            "Some creatures' actions haveSome creatures' actions have the addendum \"Recharge (5-6)\". This means that after a creature uses that action, it can't use it again until it has recharged. At the start of the creature's turn, you roll a d6, and if the result is a 5 or higher, the action recharges. No class has recharge abilities, in part because they add a lot of randomness to the game. Instead of using this recharge mechanic, you can simply change any ability with a recharge to one of the following:",
            {
             "type": "table",
-            "colStyles": [
-             "col-5 text-center",
-             "col-7 text-center"
-            ],
             "colLabels": [
              "Recharge Condition",
              "Companion Recharge"
+            ],
+            "colStyles": [
+             "col-5 text-center",
+             "col-7 text-center"
             ],
             "rows": [
              [
@@ -3716,353 +3716,306 @@
    {
     "type": "table",
     "caption": "Tamer Companion Summary Table",
+    "colLabelRows": [
+     [
+      "",
+      "",
+      "",
+      "",
+      {
+       "type": "cellHeader",
+       "width": 7,
+       "entry": "Improvements/Hit Dice Gained on Taming{@sup *}",
+       "style": "th-skewer"
+      }
+     ],
+     [
+      "Tamer Level",
+      "Maximum # of Bonded Companions",
+      "Maximum Companion Size",
+      "Maximum Companion CR",
+      "CR ½-",
+      "CR 1",
+      "CR 2",
+      "CR 3",
+      "CR 4",
+      "CR 5",
+      "CR 6"
+     ]
+    ],
     "colStyles": [
-     "col-6 text-left",
-     "col-6 text-left"
+     "col-1-5 text-center",
+     "col-3-5 text-left",
+     "col-3-5 text-left",
+     "col-3-5 text-left",
+     "col-1-8 text-center",
+     "col-1-7 text-center",
+     "col-1-7 text-center",
+     "col-1-7 text-center",
+     "col-1-7 text-center",
+     "col-1-7 text-center",
+     "col-1-7 text-center"
     ],
     "rows": [
      [
-      {
-       "type": "table",
-       "colStyles": [
-        "col-1-5 text-center",
-        "col-3-5 text-left",
-        "col-3-5 text-left",
-        "col-3-5 text-left"
-       ],
-       "colLabels": [
-        "Tamer Level",
-        "Maximum # of Bonded Companions",
-        "Maximum Companion Size",
-        "Maximum Companion CR"
-       ],
-       "rows": [
-        [
-         1,
-         1,
-         "Small",
-         "½"
-        ],
-        [
-         2,
-         1,
-         "Small",
-         "½"
-        ],
-        [
-         3,
-         2,
-         "Small",
-         "½"
-        ],
-        [
-         4,
-         2,
-         "Small",
-         1
-        ],
-        [
-         5,
-         2,
-         "Medium",
-         1
-        ],
-        [
-         6,
-         2,
-         "Medium",
-         1
-        ],
-        [
-         7,
-         3,
-         "Medium",
-         2
-        ],
-        [
-         8,
-         3,
-         "Medium",
-         2
-        ],
-        [
-         9,
-         3,
-         "Medium",
-         2
-        ],
-        [
-         10,
-         3,
-         "Medium",
-         3
-        ],
-        [
-         11,
-         4,
-         "Large",
-         3
-        ],
-        [
-         12,
-         4,
-         "Large",
-         3
-        ],
-        [
-         13,
-         4,
-         "Large",
-         4
-        ],
-        [
-         14,
-         4,
-         "Large",
-         4
-        ],
-        [
-         15,
-         5,
-         "Large",
-         4
-        ],
-        [
-         16,
-         5,
-         "Large",
-         5
-        ],
-        [
-         17,
-         5,
-         "Huge",
-         5
-        ],
-        [
-         18,
-         5,
-         "Huge",
-         5
-        ],
-        [
-         19,
-         6,
-         "Huge",
-         6
-        ],
-        [
-         20,
-         6,
-         "Huge",
-         6
-        ]
-       ]
-      },
-      {
-       "type": "table",
-       "caption": "Improvements/Hit Dice Gained on Taming*",
-       "colStyles": [
-        "col-1-8 text-center",
-        "col-1-7 text-center",
-        "col-1-7 text-center",
-        "col-1-7 text-center",
-        "col-1-7 text-center",
-        "col-1-7 text-center",
-        "col-1-7 text-center"
-       ],
-       "colLabels": [
-        "CR ½-",
-        "CR 1",
-        "CR 2",
-        "CR 3",
-        "CR 4",
-        "CR 5",
-        "CR 6"
-       ],
-       "rows": [
-        [
-         "0/0",
-         "—",
-         "—",
-         "—",
-         "—",
-         "—",
-         "—"
-        ],
-        [
-         "1/0",
-         "—",
-         "—",
-         "—",
-         "—",
-         "—",
-         "—"
-        ],
-        [
-         "2/0",
-         "—",
-         "—",
-         "—",
-         "—",
-         "—",
-         "—"
-        ],
-        [
-         "3/1",
-         "0/0",
-         "—",
-         "—",
-         "—",
-         "—",
-         "—"
-        ],
-        [
-         "4/1",
-         "1/0",
-         "—",
-         "—",
-         "—",
-         "—",
-         "—"
-        ],
-        [
-         "5/1",
-         "2/0",
-         "—",
-         "—",
-         "—",
-         "—",
-         "—"
-        ],
-        [
-         "6/1",
-         "3/0",
-         "0/0",
-         "—",
-         "—",
-         "—",
-         "—"
-        ],
-        [
-         "7/2",
-         "4/1",
-         "1/1",
-         "—",
-         "—",
-         "—",
-         "—"
-        ],
-        [
-         "8/2",
-         "5/1",
-         "2/1",
-         "—",
-         "—",
-         "—",
-         "—"
-        ],
-        [
-         "9/2",
-         "6/1",
-         "3/1",
-         "0/0",
-         "—",
-         "—",
-         "—"
-        ],
-        [
-         "10/2",
-         "7/1",
-         "4/1",
-         "1/0",
-         "—",
-         "—",
-         "—"
-        ],
-        [
-         "11/3",
-         "8/2",
-         "5/2",
-         "2/1",
-         "—",
-         "—",
-         "—"
-        ],
-        [
-         "12/3",
-         "9/2",
-         "6/2",
-         "3/1",
-         "0/0",
-         "—",
-         "—"
-        ],
-        [
-         "13/3",
-         "10/2",
-         "7/2",
-         "4/1",
-         "1/0",
-         "—",
-         "—"
-        ],
-        [
-         "14/3",
-         "11/2",
-         "8/2",
-         "5/1",
-         "2/0",
-         "—",
-         "—"
-        ],
-        [
-         "15/4",
-         "12/3",
-         "9/3",
-         "6/2",
-         "3/1",
-         "0/0",
-         "—"
-        ],
-        [
-         "16/4",
-         "13/3",
-         "10/3",
-         "7/2",
-         "4/1",
-         "1/0",
-         "—"
-        ],
-        [
-         "17/4",
-         "14/3",
-         "11/3",
-         "8/2",
-         "5/1",
-         "2/0",
-         "—"
-        ],
-        [
-         "18/5",
-         "15/4",
-         "12/4",
-         "9/3",
-         "6/2",
-         "3/1",
-         "0/0"
-        ],
-        [
-         "19/5",
-         "16/4",
-         "13/4",
-         "10/3",
-         "7/2",
-         "4/1",
-         "1/0"
-        ]
-       ]
-      }
+      1,
+      1,
+      "Small",
+      "½",
+      "0/0",
+      "—",
+      "—",
+      "—",
+      "—",
+      "—",
+      "—"
+     ],
+     [
+      2,
+      1,
+      "Small",
+      "½",
+      "1/0",
+      "—",
+      "—",
+      "—",
+      "—",
+      "—",
+      "—"
+     ],
+     [
+      3,
+      2,
+      "Small",
+      "½",
+      "2/0",
+      "—",
+      "—",
+      "—",
+      "—",
+      "—",
+      "—"
+     ],
+     [
+      4,
+      2,
+      "Small",
+      1,
+      "3/1",
+      "0/0",
+      "—",
+      "—",
+      "—",
+      "—",
+      "—"
+     ],
+     [
+      5,
+      2,
+      "Medium",
+      1,
+      "4/1",
+      "1/0",
+      "—",
+      "—",
+      "—",
+      "—",
+      "—"
+     ],
+     [
+      6,
+      2,
+      "Medium",
+      1,
+      "5/1",
+      "2/0",
+      "—",
+      "—",
+      "—",
+      "—",
+      "—"
+     ],
+     [
+      7,
+      3,
+      "Medium",
+      2,
+      "6/1",
+      "3/0",
+      "0/0",
+      "—",
+      "—",
+      "—",
+      "—"
+     ],
+     [
+      8,
+      3,
+      "Medium",
+      2,
+      "7/2",
+      "4/1",
+      "1/1",
+      "—",
+      "—",
+      "—",
+      "—"
+     ],
+     [
+      9,
+      3,
+      "Medium",
+      2,
+      "8/2",
+      "5/1",
+      "2/1",
+      "—",
+      "—",
+      "—",
+      "—"
+     ],
+     [
+      10,
+      3,
+      "Medium",
+      3,
+      "9/2",
+      "6/1",
+      "3/1",
+      "0/0",
+      "—",
+      "—",
+      "—"
+     ],
+     [
+      11,
+      4,
+      "Large",
+      3,
+      "10/2",
+      "7/1",
+      "4/1",
+      "1/0",
+      "—",
+      "—",
+      "—"
+     ],
+     [
+      12,
+      4,
+      "Large",
+      3,
+      "11/3",
+      "8/2",
+      "5/2",
+      "2/1",
+      "—",
+      "—",
+      "—"
+     ],
+     [
+      13,
+      4,
+      "Large",
+      4,
+      "12/3",
+      "9/2",
+      "6/2",
+      "3/1",
+      "0/0",
+      "—",
+      "—"
+     ],
+     [
+      14,
+      4,
+      "Large",
+      4,
+      "13/3",
+      "10/2",
+      "7/2",
+      "4/1",
+      "1/0",
+      "—",
+      "—"
+     ],
+     [
+      15,
+      5,
+      "Large",
+      4,
+      "14/3",
+      "11/2",
+      "8/2",
+      "5/1",
+      "2/0",
+      "—",
+      "—"
+     ],
+     [
+      16,
+      5,
+      "Large",
+      5,
+      "15/4",
+      "12/3",
+      "9/3",
+      "6/2",
+      "3/1",
+      "0/0",
+      "—"
+     ],
+     [
+      17,
+      5,
+      "Huge",
+      5,
+      "16/4",
+      "13/3",
+      "10/3",
+      "7/2",
+      "4/1",
+      "1/0",
+      "—"
+     ],
+     [
+      18,
+      5,
+      "Huge",
+      5,
+      "17/4",
+      "14/3",
+      "11/3",
+      "8/2",
+      "5/1",
+      "2/0",
+      "—"
+     ],
+     [
+      19,
+      6,
+      "Huge",
+      6,
+      "18/5",
+      "15/4",
+      "12/4",
+      "9/3",
+      "6/2",
+      "3/1",
+      "0/0"
+     ],
+     [
+      20,
+      6,
+      "Huge",
+      6,
+      "19/5",
+      "16/4",
+      "13/4",
+      "10/3",
+      "7/2",
+      "4/1",
+      "1/0"
      ]
     ],
     "footnotes": [

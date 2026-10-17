@@ -355,10 +355,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/backgrounds/ClaspMember.webp"
     },
-    "credit": "{@link John Anthony di Giovanni|https://artstation.com/jad}",
-    "altText": "A man with short black hair and beard wearing dark clothing holding a curved dagger leaning against a stone wall.",
     "width": 645,
-    "height": 1046
+    "height": 1046,
+    "altText": "A man with short black hair and beard wearing dark clothing holding a curved dagger leaning against a stone wall.",
+    "credit": "{@link John Anthony di Giovanni|https://artstation.com/jad}"
    }
   ]
  },
@@ -2392,10 +2392,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/backgrounds/LyceumScholar.webp"
     },
-    "credit": "{@link Claudia Ianniciello|https://artstation.com/claudiasg}",
-    "altText": "A Black woman stands with her back to us. Her dreadlocked hair is pulled up into a bun. She wears light blue robes with a dark blue sash down the middle of her back. She reads magically glowing runes on a stone wall.",
     "width": 594,
-    "height": 1655
+    "height": 1655,
+    "altText": "A Black woman stands with her back to us. Her dreadlocked hair is pulled up into a bun. She wears light blue robes with a dark blue sash down the middle of her back. She reads magically glowing runes on a stone wall.",
+    "credit": "{@link Claudia Ianniciello|https://artstation.com/claudiasg}"
    }
   ]
  },
@@ -3975,10 +3975,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/backgrounds/RifleCorps.webp"
     },
-    "credit": "{@link Ameera Sheikh|https://mikandii.com/}",
-    "altText": "A muscled Black half-elven woman with long brown dreadlocks wearing a blue coat, crouching on one knee in a patch of white daisies, aiming a rifle.",
     "width": 1022,
-    "height": 766
+    "height": 766,
+    "altText": "A muscled Black half-elven woman with long brown dreadlocks wearing a blue coat, crouching on one knee in a patch of white daisies, aiming a rifle.",
+    "credit": "{@link Ameera Sheikh|https://mikandii.com/}"
    }
   ]
  },

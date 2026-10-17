@@ -58,9 +58,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/amber.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 1762,
-     "height": 1762
+     "height": 1762,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -106,9 +106,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/apper-carrot.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3604,
-     "height": 3604
+     "height": 3604,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -297,9 +297,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/bamboo.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3102,
-     "height": 3102
+     "height": 3102,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -345,9 +345,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/bashu-powder.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1859,
-     "height": 1859
+     "height": 1859,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -509,9 +509,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/black-cinnamon.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1953,
-     "height": 1953
+     "height": 1953,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -556,9 +556,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/black-pearl.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1911,
-     "height": 1911
+     "height": 1911,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -648,9 +648,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/blossom-of-spirit-vine.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2400,
-     "height": 2400
+     "height": 2400,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -701,9 +701,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/blue-back-salmon.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3190,
-     "height": 3190
+     "height": 3190,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -780,14 +780,14 @@
    "Topple|XPHB"
   ],
   "range": "20",
-  "customProperties": {
-   "barrel": 2
-  },
-  "ammoType": "firearm bullet|xphb",
   "dmg1": "2d4",
   "dmgType": "P",
+  "firearm": true,
   "weapon": true,
-  "firearm": true
+  "ammoType": "firearm bullet|xphb",
+  "customProperties": {
+   "barrel": 2
+  }
  },
  {
   "name": "Blunderbuss",
@@ -973,9 +973,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/boom-beri.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3112,
-     "height": 3112
+     "height": 3112,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -1052,9 +1052,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/bora-bug.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2353,
-     "height": 2353
+     "height": 2353,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -1105,9 +1105,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/bottle-cap.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2084,
-     "height": 2084
+     "height": 2084,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -1149,9 +1149,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/bottled-lightning.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2062,
-     "height": 2062
+     "height": 2062,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -1259,9 +1259,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/brush-reed.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2799,
-     "height": 2799
+     "height": 2799,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -1325,9 +1325,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/bubble-gum.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2081,
-     "height": 2081
+     "height": 2081,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -1435,9 +1435,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/bundle-of-driko-twigs.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1200,
-     "height": 1200
+     "height": 1200,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -1513,9 +1513,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/camp-mite.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1064,
-     "height": 1064
+     "height": 1064,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -1566,10 +1566,10 @@
    "Push|XPHB"
   ],
   "range": "120/240",
-  "ammoType": "cannonball|SGEHPP",
   "dmg1": "3d10",
   "dmgType": "B",
   "weapon": true,
+  "ammoType": "cannonball|SGEHPP",
   "hasFluffImages": true
  },
  {
@@ -1610,13 +1610,13 @@
   "rarity": "none",
   "weight": 10,
   "value": 300,
-  "miscTags": [
-   "CNS"
-  ],
   "entries": [
    "A type of Ammunition for weapons with the {@itemProperty SGEHPP:Art|SGEHPP|Artillery} property.",
    "Ammunition is required by a weapon that has the {@itemProperty AF|XDMG|Ammunition} property. A weapon's description specifies the type of ammunition used by the weapon.",
    "Firearm ammunition is destroyed upon use."
+  ],
+  "miscTags": [
+   "CNS"
   ]
  },
  {
@@ -1800,9 +1800,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/chicken-egg.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2161,
-     "height": 2161
+     "height": 2161,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -1844,9 +1844,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/chisuays-heavenly-tea.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2979,
-     "height": 2979
+     "height": 2979,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -1924,9 +1924,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/clay-snake-tail.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3239,
-     "height": 3239
+     "height": 3239,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -2015,9 +2015,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/cloud-horn.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2781,
-     "height": 2781
+     "height": 2781,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -2059,9 +2059,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/spirit-coal.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3239,
-     "height": 3239
+     "height": 3239,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -2151,9 +2151,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/corrupted-seawater.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2509,
-     "height": 2509
+     "height": 2509,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -2198,9 +2198,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/corrupted-slime.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2496,
-     "height": 2496
+     "height": 2496,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -2245,9 +2245,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/crackling-jasper.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1711,
-     "height": 1711
+     "height": 1711,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -2294,9 +2294,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/creeping-bolete.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2293,
-     "height": 2293
+     "height": 2293,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -2338,9 +2338,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/crimson-octopus-ink.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1801,
-     "height": 1801
+     "height": 1801,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -2362,9 +2362,9 @@
   "mastery": [
    "Nick|XPHB"
   ],
+  "range": "20/60",
   "dmg1": "1d4",
   "dmgType": "P",
-  "range": "20/60",
   "weapon": true,
   "entries": [
    {
@@ -2393,9 +2393,9 @@
   "mastery": [
    "Nick|XPHB"
   ],
+  "range": "20/30",
   "dmg1": "1d4",
   "dmgType": "P",
-  "range": "20/30",
   "weapon": true,
   "entries": [
    {
@@ -2445,9 +2445,9 @@
   "mastery": [
    "Vex|XPHB"
   ],
+  "range": "20/60",
   "dmg1": "1d4",
   "dmgType": "P",
-  "range": "20/60",
   "weapon": true,
   "entries": [
    {
@@ -2475,9 +2475,9 @@
   "mastery": [
    "Vex|XPHB"
   ],
+  "range": "20/30",
   "dmg1": "1d4",
   "dmgType": "P",
-  "range": "20/30",
   "weapon": true,
   "entries": [
    {
@@ -2540,9 +2540,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/dawn-petal.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2196,
-     "height": 2196
+     "height": 2196,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -2584,9 +2584,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/dorrin-plate.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2163,
-     "height": 2163
+     "height": 2163,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -2722,9 +2722,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/dragon-fang-of-yutro.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2799,
-     "height": 2799
+     "height": 2799,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -2815,9 +2815,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/dragon-root.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2274,
-     "height": 2274
+     "height": 2274,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -2872,9 +2872,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/dried-fruit.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2660,
-     "height": 2660
+     "height": 2660,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -2940,9 +2940,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/ear-wax.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2005,
-     "height": 2005
+     "height": 2005,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -3007,9 +3007,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/essence-of-glumbug.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2136,
-     "height": 2136
+     "height": 2136,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -3051,9 +3051,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/essence-of-ill-omen.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2401,
-     "height": 2401
+     "height": 2401,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -3111,9 +3111,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/fairy-willow.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3689,
-     "height": 3689
+     "height": 3689,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -3152,9 +3152,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Equipment/fan.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2381,
-     "height": 2381
+     "height": 2381,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -3208,9 +3208,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/feather-rock.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2662,
-     "height": 2662
+     "height": 2662,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -3387,9 +3387,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/fish-folk-tooth.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2821,
-     "height": 2821
+     "height": 2821,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -3440,9 +3440,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/fish-head.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2160,
-     "height": 2160
+     "height": 2160,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -3487,9 +3487,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/fizzing-green.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2302,
-     "height": 2302
+     "height": 2302,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -3610,9 +3610,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/flash-paper.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2673,
-     "height": 2673
+     "height": 2673,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -3636,14 +3636,14 @@
    "Sap|XPHB"
   ],
   "range": "100/320",
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "firearm": true,
+  "weapon": true,
   "ammoType": "firearm bullet|xphb",
   "customProperties": {
    "barrel": 1
-  },
-  "dmg1": "1d8",
-  "dmgType": "P",
-  "weapon": true,
-  "firearm": true
+  }
  },
  {
   "name": "Forge Slag",
@@ -3685,9 +3685,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/forgre-slag.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1886,
-     "height": 1886
+     "height": 1886,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -3726,9 +3726,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Equipment/frying-pan.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2068,
-     "height": 2068
+     "height": 2068,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -3774,9 +3774,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/gargoyle-powder.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1898,
-     "height": 1898
+     "height": 1898,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -3850,9 +3850,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/giant-koi-scale.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1825,
-     "height": 1825
+     "height": 1825,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -3948,9 +3948,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/glow-worms-of-the-vale.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2235,
-     "height": 2235
+     "height": 2235,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -3996,9 +3996,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/gohaku-rice.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2039,
-     "height": 2039
+     "height": 2039,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -4040,9 +4040,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/golden-root.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2119,
-     "height": 2119
+     "height": 2119,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -4150,9 +4150,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/green-slime.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 1300,
-     "height": 1300
+     "height": 1300,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -4225,9 +4225,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/hakuma-sapwood.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2712,
-     "height": 2712
+     "height": 2712,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -4272,9 +4272,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/hakumons-ramen-broth.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 5636,
-     "height": 5636
+     "height": 5636,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -4362,12 +4362,11 @@
   "mastery": [
    "Vex|XPHB"
   ],
+  "range": "30/60",
   "dmg1": "1d4",
   "dmgType": "P",
-  "range": "30/60",
   "crossbow": true,
   "weapon": true,
-  "ammoType": "bolt, wooden|BoundByBlood",
   "entries": [
    {
     "type": "entries",
@@ -4376,7 +4375,8 @@
      "Wooden ammunition is destroyed after hitting or missing a target."
     ]
    }
-  ]
+  ],
+  "ammoType": "bolt, wooden|BoundByBlood"
  },
  {
   "name": "Hand of Eryo",
@@ -4415,9 +4415,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/hand-of-eryo.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2049,
-     "height": 2049
+     "height": 2049,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -4568,9 +4568,9 @@
   "mastery": [
    "Vex|XPHB"
   ],
+  "range": "20/60",
   "dmg1": "1d6",
   "dmgType": "S",
-  "range": "20/60",
   "axe": true,
   "weapon": true,
   "entries": [
@@ -4654,9 +4654,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/happy-joy-cake.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1336,
-     "height": 1336
+     "height": 1336,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -4703,12 +4703,11 @@
   "mastery": [
    "Push|XPHB"
   ],
+  "range": "100/200",
   "dmg1": "1d8",
   "dmgType": "P",
-  "range": "100/200",
   "crossbow": true,
   "weapon": true,
-  "ammoType": "bolt, wooden|BoundByBlood",
   "entries": [
    {
     "type": "entries",
@@ -4717,7 +4716,8 @@
      "Wooden ammunition is destroyed after hitting or missing a target."
     ]
    }
-  ]
+  ],
+  "ammoType": "bolt, wooden|BoundByBlood"
  },
  {
   "name": "Heavy Hammer",
@@ -4929,9 +4929,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/hill-dragon-egg.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3913,
-     "height": 3913
+     "height": 3913,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -4978,9 +4978,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/howler-fur.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2450,
-     "height": 2450
+     "height": 2450,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -5053,9 +5053,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/irimbi-chrysalis.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1980,
-     "height": 1980
+     "height": 1980,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -5113,9 +5113,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/itchi-beri.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 4479,
-     "height": 4479
+     "height": 4479,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -5162,9 +5162,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/jack-o-lantern-bits.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3641,
-     "height": 3641
+     "height": 3641,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -5184,9 +5184,9 @@
   "mastery": [
    "Slow|XPHB"
   ],
+  "range": "30/120",
   "dmg1": "1d6",
   "dmgType": "P",
-  "range": "30/120",
   "weapon": true,
   "entries": [
    {
@@ -5213,9 +5213,9 @@
   "mastery": [
    "Slow|XPHB"
   ],
+  "range": "30/60",
   "dmg1": "1d6",
   "dmgType": "P",
-  "range": "30/60",
   "weapon": true,
   "entries": [
    {
@@ -5281,9 +5281,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/jumping-bonfire.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 1496,
-     "height": 1496
+     "height": 1496,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -5325,9 +5325,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/klotch-leech.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3066,
-     "height": 3066
+     "height": 3066,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -5418,9 +5418,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/knobble-leaf-seaweed.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2259,
-     "height": 2259
+     "height": 2259,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -5465,9 +5465,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/kojo-root.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2638,
-     "height": 2638
+     "height": 2638,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -5515,9 +5515,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/kojobi-fruit.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1974,
-     "height": 1974
+     "height": 1974,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -5623,9 +5623,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/laughing-moss.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2149,
-     "height": 2149
+     "height": 2149,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -5679,12 +5679,11 @@
   "mastery": [
    "Slow|XPHB"
   ],
+  "range": "80/160",
   "dmg1": "1d6",
   "dmgType": "P",
-  "range": "80/160",
   "crossbow": true,
   "weapon": true,
-  "ammoType": "bolt, wooden|BoundByBlood",
   "entries": [
    {
     "type": "entries",
@@ -5693,7 +5692,8 @@
      "Wooden ammunition is destroyed after hitting or missing a target."
     ]
    }
-  ]
+  ],
+  "ammoType": "bolt, wooden|BoundByBlood"
  },
  {
   "name": "Light Tommybow (2)",
@@ -5862,9 +5862,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/lionfish-poison.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2061,
-     "height": 2061
+     "height": 2061,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -5909,9 +5909,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/lions-blume.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1300,
-     "height": 1300
+     "height": 1300,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -5956,9 +5956,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/living-spud.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3060,
-     "height": 3060
+     "height": 3060,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -6023,11 +6023,10 @@
   "mastery": [
    "Slow|XPHB"
   ],
+  "range": "150/300",
   "dmg1": "1d6",
   "dmgType": "P",
-  "range": "150/300",
   "weapon": true,
-  "ammoType": "arrow, wooden|BoundByBlood",
   "entries": [
    {
     "type": "entries",
@@ -6036,7 +6035,8 @@
      "Wooden ammunition is destroyed after hitting or missing a target."
     ]
    }
-  ]
+  ],
+  "ammoType": "arrow, wooden|BoundByBlood"
  },
  {
   "name": "Longsword, Silver",
@@ -6109,9 +6109,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/lovers-vine.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2931,
-     "height": 2931
+     "height": 2931,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -6153,9 +6153,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/magic-monks-rice-wine.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2492,
-     "height": 2492
+     "height": 2492,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -6232,9 +6232,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/mandrake-root.webp"
      },
-     "credit": "Alexander Cloos",
      "width": 1163,
-     "height": 1163
+     "height": 1163,
+     "credit": "Alexander Cloos"
     }
    ]
   }
@@ -6308,9 +6308,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/mellowort.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2945,
-     "height": 2945
+     "height": 2945,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -6377,9 +6377,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/molted-lizard-skin.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2892,
-     "height": 2892
+     "height": 2892,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -6424,9 +6424,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/monkeys-coil.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 4469,
-     "height": 4469
+     "height": 4469,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -6521,9 +6521,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/mountain-ox-dung.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1890,
-     "height": 1890
+     "height": 1890,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -6568,9 +6568,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/mountain-snail.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2007,
-     "height": 2007
+     "height": 2007,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -6615,9 +6615,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/mournshade.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2067,
-     "height": 2067
+     "height": 2067,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -6662,9 +6662,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/mouse-tree-nut.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2435,
-     "height": 2435
+     "height": 2435,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -6709,9 +6709,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/munchanka-root.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2763,
-     "height": 2763
+     "height": 2763,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -6785,11 +6785,10 @@
   "mastery": [
    "Slow|XPHB"
   ],
+  "range": "40/60",
   "dmg1": "1d10",
   "dmgType": "P",
-  "range": "40/60",
   "weapon": true,
-  "ammoType": "bullet, wooden|BoundByBlood",
   "entries": [
    {
     "type": "entries",
@@ -6798,7 +6797,8 @@
      "Wooden ammunition is destroyed after hitting or missing a target."
     ]
    }
-  ]
+  ],
+  "ammoType": "bullet, wooden|BoundByBlood"
  },
  {
   "name": "Nakudama Bubble Rod",
@@ -6824,9 +6824,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Equipment/nakudama-bubble-rod.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3549,
-     "height": 3549
+     "height": 3549,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -6872,9 +6872,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/nakudama-spice.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2478,
-     "height": 2478
+     "height": 2478,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -6920,9 +6920,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/narutomaki.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2316,
-     "height": 2316
+     "height": 2316,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -6985,9 +6985,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/night-thistle.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 3660,
-     "height": 3660
+     "height": 3660,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -7034,9 +7034,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/nobblewort.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2729,
-     "height": 2729
+     "height": 2729,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -7078,9 +7078,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/nokumais-frozen-breath.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2279,
-     "height": 2279
+     "height": 2279,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -7131,9 +7131,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/noodle-eel.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2119,
-     "height": 2119
+     "height": 2119,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -7202,9 +7202,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/oporion-glass.webp"
      },
-     "credit": "Jeremiah Crofton",
      "width": 1123,
-     "height": 1123
+     "height": 1123,
+     "credit": "Jeremiah Crofton"
     }
    ]
   }
@@ -7249,9 +7249,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/opu-opu-spring-water.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2278,
-     "height": 2278
+     "height": 2278,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -7293,9 +7293,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/orange-slime.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 1616,
-     "height": 1616
+     "height": 1616,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -7340,9 +7340,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/origami-crane.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2291,
-     "height": 2291
+     "height": 2291,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -7384,9 +7384,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/ota-lantern-oil.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2448,
-     "height": 2448
+     "height": 2448,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -7497,9 +7497,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/peeping-willow.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 5356,
-     "height": 5356
+     "height": 5356,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -7550,9 +7550,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/petrified-alligator.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2579,
-     "height": 2579
+     "height": 2579,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -7660,9 +7660,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/pink-candle-wax.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3092,
-     "height": 3092
+     "height": 3092,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -7786,11 +7786,10 @@
   "mastery": [
    "Vex|XPHB"
   ],
+  "range": "30/45",
   "dmg1": "1d8",
   "dmgType": "P",
-  "range": "30/45",
   "weapon": true,
-  "ammoType": "bullet, wooden|BoundByBlood",
   "entries": [
    {
     "type": "entries",
@@ -7799,7 +7798,8 @@
      "Wooden ammunition is destroyed after hitting or missing a target."
     ]
    }
-  ]
+  ],
+  "ammoType": "bullet, wooden|BoundByBlood"
  },
  {
   "name": "Plumage of a Running Kirio",
@@ -7838,9 +7838,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/plumage-of-a-running-kirio.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1971,
-     "height": 1971
+     "height": 1971,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -7901,9 +7901,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/poison.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2627,
-     "height": 2627
+     "height": 2627,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -7948,9 +7948,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/pok-pok-flakes.webp"
      },
-     "credit": "Veronica Casson",
      "width": 3235,
-     "height": 3235
+     "height": 3235,
+     "credit": "Veronica Casson"
     }
    ]
   }
@@ -8087,9 +8087,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/pungent-sea-foam.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2400,
-     "height": 2400
+     "height": 2400,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -8134,9 +8134,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/pyramid-melon.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1959,
-     "height": 1959
+     "height": 1959,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -8183,9 +8183,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/queens-dilemma.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 4609,
-     "height": 4609
+     "height": 4609,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -8242,9 +8242,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/raka-paste.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2039,
-     "height": 2039
+     "height": 2039,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -8360,9 +8360,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/rattle-shoot.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2859,
-     "height": 2859
+     "height": 2859,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -8621,9 +8621,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/ribbon-rot.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2615,
-     "height": 2615
+     "height": 2615,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -8707,9 +8707,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/ronin-neko-figurine.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3168,
-     "height": 3168
+     "height": 3168,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -8751,9 +8751,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/rubble-from-a-rubble-golem.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2764,
-     "height": 2764
+     "height": 2764,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -8798,9 +8798,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/rust-crab.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2983,
-     "height": 2983
+     "height": 2983,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -8861,9 +8861,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/sage-arols-beetle.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3027,
-     "height": 3027
+     "height": 3027,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -8925,9 +8925,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/scalefruit-rind.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2125,
-     "height": 2125
+     "height": 2125,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -9002,9 +9002,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/scumweed.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3140,
-     "height": 3140
+     "height": 3140,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -9073,9 +9073,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/sea-water.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 2648,
-     "height": 2648
+     "height": 2648,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -9123,9 +9123,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/seashell.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1920,
-     "height": 1920
+     "height": 1920,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -9180,9 +9180,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Equipment/secret-stone-sword.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2455,
-     "height": 2455
+     "height": 2455,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -9228,9 +9228,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/shadowroot.webp"
      },
-     "credit": "Veronica Casson",
      "width": 3519,
-     "height": 3519
+     "height": 3519,
+     "credit": "Veronica Casson"
     }
    ]
   }
@@ -9295,9 +9295,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/sheep-dragon-wool.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2088,
-     "height": 2088
+     "height": 2088,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -9361,11 +9361,10 @@
   "mastery": [
    "Vex|XPHB"
   ],
+  "range": "80/160",
   "dmg1": "1d4",
   "dmgType": "P",
-  "range": "80/160",
   "weapon": true,
-  "ammoType": "arrow, wooden|BoundByBlood",
   "entries": [
    {
     "type": "entries",
@@ -9374,7 +9373,8 @@
      "Wooden ammunition is destroyed after hitting or missing a target."
     ]
    }
-  ]
+  ],
+  "ammoType": "arrow, wooden|BoundByBlood"
  },
  {
   "name": "Shortsword, Silver",
@@ -9576,9 +9576,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/sleeping-merchant.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1921,
-     "height": 1921
+     "height": 1921,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -9667,9 +9667,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/snap-vine-sap.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1631,
-     "height": 1631
+     "height": 1631,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -9781,9 +9781,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/spark-plug.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2017,
-     "height": 2017
+     "height": 2017,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -9804,10 +9804,10 @@
   "mastery": [
    "Sap|XPHB"
   ],
+  "range": "20/60",
   "dmg1": "1d6",
   "dmgType": "P",
   "dmg2": "1d8",
-  "range": "20/60",
   "weapon": true,
   "entries": [
    {
@@ -9835,10 +9835,10 @@
   "mastery": [
    "Sap|XPHB"
   ],
+  "range": "20/30",
   "dmg1": "1d6",
   "dmgType": "P",
   "dmg2": "1d8",
-  "range": "20/30",
   "weapon": true,
   "entries": [
    {
@@ -9892,9 +9892,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/spindle-leg-spider-webs.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2503,
-     "height": 2503
+     "height": 2503,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -9939,9 +9939,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/spirit-root.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3061,
-     "height": 3061
+     "height": 3061,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -9986,9 +9986,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/spirit-tea.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3470,
-     "height": 3470
+     "height": 3470,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -10038,9 +10038,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/spring.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1496,
-     "height": 1496
+     "height": 1496,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -10085,9 +10085,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/squid-ink.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1668,
-     "height": 1668
+     "height": 1668,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -10148,9 +10148,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/starstone.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3041,
-     "height": 3041
+     "height": 3041,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -10263,9 +10263,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/sun-shroom.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1876,
-     "height": 1876
+     "height": 1876,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -10342,9 +10342,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/tangle-weed.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3530,
-     "height": 3530
+     "height": 3530,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -10407,9 +10407,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/tears-of-the-moon.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2400,
-     "height": 2400
+     "height": 2400,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -10475,9 +10475,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/toka-truffle.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1919,
-     "height": 1919
+     "height": 1919,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -10498,10 +10498,10 @@
   "mastery": [
    "Topple|XPHB"
   ],
+  "range": "20/60",
   "dmg1": "1d8",
   "dmgType": "P",
   "dmg2": "1d10",
-  "range": "20/60",
   "weapon": true,
   "entries": [
    {
@@ -10529,10 +10529,10 @@
   "mastery": [
    "Topple|XPHB"
   ],
+  "range": "20/60",
   "dmg1": "1d8",
   "dmgType": "P",
   "dmg2": "1d10",
-  "range": "20/60",
   "weapon": true,
   "entries": [
    {
@@ -10647,9 +10647,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/ube.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1973,
-     "height": 1973
+     "height": 1973,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -10706,9 +10706,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Equipment/umbrella.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2745,
-     "height": 2745
+     "height": 2745,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -10755,9 +10755,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/varrow.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2124,
-     "height": 2124
+     "height": 2124,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -10831,9 +10831,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/venus-fly-rat.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3135,
-     "height": 3135
+     "height": 3135,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -10871,9 +10871,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Equipment/vertebrae-sword.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2943,
-     "height": 2943
+     "height": 2943,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -10923,9 +10923,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/vinyl-record.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 1878,
-     "height": 1878
+     "height": 1878,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -11071,9 +11071,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/windbloom.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 4588,
-     "height": 4588
+     "height": 4588,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -11145,9 +11145,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/witchs-broom.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2882,
-     "height": 2882
+     "height": 2882,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -11192,9 +11192,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/witchs-eye-coral.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2146,
-     "height": 2146
+     "height": 2146,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -11240,9 +11240,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/wolfenite.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 2106,
-     "height": 2106
+     "height": 2106,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -11334,9 +11334,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/wufu-whisky.webp"
      },
-     "credit": "A.J. Bondio",
      "width": 3162,
-     "height": 3162
+     "height": 3162,
+     "credit": "A.J. Bondio"
     }
    ]
   }
@@ -11381,9 +11381,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/wychwood.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3266,
-     "height": 3266
+     "height": 3266,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -11428,9 +11428,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/yellow-slime.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 1615,
-     "height": 1615
+     "height": 1615,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -11477,9 +11477,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/yugi-sap.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3580,
-     "height": 3580
+     "height": 3580,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -11525,9 +11525,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Ingredients/yuma-shrub.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 5310,
-     "height": 5310
+     "height": 5310,
+     "credit": "Scott Higginbotham"
     }
    ]
   }

@@ -261,10 +261,10 @@
   "name": "Altered",
   "source": "CrookedMoon24",
   "page": 113,
+  "category": "O",
   "traitTags": [
    "Speed"
   ],
-  "category": "O",
   "entries": [
    "You have been changed through magic, science, or a volatile blend of the two. You have a blatant physical augmentation of your choice from the options below. The augmentation is obvious—such as with stitches, grafts of other creature's body parts, or implants—unless disguised.",
    {
@@ -403,6 +403,11 @@
     }
    }
   ],
+  "skillProficiencies": [
+   {
+    "intimidation": true
+   }
+  ],
   "additionalSpells": [
    {
     "prepared": {
@@ -422,11 +427,6 @@
       "Circle of Power|XPHB"
      ]
     }
-   }
-  ],
-  "skillProficiencies": [
-   {
-    "intimidation": true
    }
   ],
   "entries": [
@@ -454,13 +454,13 @@
       "type": "table",
       "caption": "Ashbound Spells",
       "page": 166,
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "Spell Level",
        "Spells"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -590,6 +590,8 @@
   ],
   "foundryActivities": [
    {
+    "name": "Bonus to Saving Throw",
+    "type": "utility",
     "activation": {
      "type": "reaction",
      "condition": "When you are asked to make a saving throw"
@@ -602,12 +604,6 @@
       }
      ]
     },
-    "name": "Bonus to Saving Throw",
-    "roll": {
-     "name": "Add to Saving Throw",
-     "formula": "@abilities.int.mod"
-    },
-    "type": "utility",
     "uses": {
      "max": 1,
      "recovery": [
@@ -616,6 +612,10 @@
        "type": "recoverAll"
       }
      ]
+    },
+    "roll": {
+     "name": "Add to Saving Throw",
+     "formula": "@abilities.int.mod"
     }
    },
    {
@@ -1934,9 +1934,6 @@
   "source": "GrimHollowPG24",
   "page": 121,
   "category": "EB",
-  "traitTags": [
-   "Speed"
-  ],
   "prerequisite": [
    {
     "level": 19
@@ -1952,6 +1949,9 @@
     },
     "max": 30
    }
+  ],
+  "traitTags": [
+   "Speed"
   ],
   "entries": [
    "You gain the following benefits.",
@@ -2844,9 +2844,6 @@
   "name": "Changeling Metamorphosis",
   "source": "ExploringEberron24",
   "category": "G",
-  "traitTags": [
-   "Speed"
-  ],
   "prerequisite": [
    {
     "level": 4,
@@ -2866,6 +2863,9 @@
      ]
     }
    }
+  ],
+  "traitTags": [
+   "Speed"
   ],
   "entries": [
    "You gain the following benefits.",
@@ -6026,13 +6026,13 @@
       "type": "table",
       "caption": "Gatekeeper Spells",
       "page": 166,
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "Spell Level",
        "Spells"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -6870,6 +6870,11 @@
   "source": "FoEQuickstone",
   "page": 167,
   "category": "G",
+  "prerequisite": [
+   {
+    "level": 4
+   }
+  ],
   "ability": [
    {
     "choose": {
@@ -6878,11 +6883,6 @@
       "cha"
      ]
     }
-   }
-  ],
-  "prerequisite": [
-   {
-    "level": 4
    }
   ],
   "skillProficiencies": [
@@ -6943,13 +6943,13 @@
       "type": "table",
       "caption": "Greensinger Spells",
       "page": 167,
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "Spell Level",
        "Spells"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -7398,16 +7398,6 @@
   "source": "FoEQuickstone",
   "page": 167,
   "category": "G",
-  "ability": [
-   {
-    "choose": {
-     "from": [
-      "str",
-      "con"
-     ]
-    }
-   }
-  ],
   "prerequisite": [
    {
     "level": 4,
@@ -7416,6 +7406,16 @@
       "name": "Gargoyle"
      }
     ]
+   }
+  ],
+  "ability": [
+   {
+    "choose": {
+     "from": [
+      "str",
+      "con"
+     ]
+    }
    }
   ],
   "entries": [
@@ -9501,16 +9501,16 @@
   ],
   "foundryActivities": [
    {
-    "activation": {
-     "type": "special",
-     "condition": "When a creature fails a melee attack roll against you in combat"
-    },
     "check.associated": [
      "slt"
     ],
-    "name": "Steal",
     "target.affects.type": "creature",
-    "type": "check"
+    "name": "Steal",
+    "type": "check",
+    "activation": {
+     "type": "special",
+     "condition": "When a creature fails a melee attack roll against you in combat"
+    }
    }
   ]
  },
@@ -9519,6 +9519,11 @@
   "source": "FoEQuickstone",
   "page": 167,
   "category": "G",
+  "prerequisite": [
+   {
+    "level": 4
+   }
+  ],
   "ability": [
    {
     "choose": {
@@ -9528,11 +9533,6 @@
       "cha"
      ]
     }
-   }
-  ],
-  "prerequisite": [
-   {
-    "level": 4
    }
   ],
   "entries": [
@@ -10474,6 +10474,11 @@
   "source": "FoEQuickstone",
   "page": 167,
   "category": "G",
+  "prerequisite": [
+   {
+    "level": 4
+   }
+  ],
   "ability": [
    {
     "choose": {
@@ -10483,11 +10488,6 @@
       "cha"
      ]
     }
-   }
-  ],
-  "prerequisite": [
-   {
-    "level": 4
    }
   ],
   "entries": [
@@ -10696,10 +10696,101 @@
   ]
  },
  {
-  "name": "Shadow's Gift of Stone",
-  "source": "FoEQuickstone",
-  "page": 167,
+  "name": "Shadow Pact",
+  "source": "DnDBeyondDrops",
+  "page": "2026-10-01",
+  "category": "PPact",
+  "prerequisite": [
+   {
+    "exclusiveFeatCategory": [
+     "PPact"
+    ]
+   }
+  ],
+  "bonusSenses": [
+   {
+    "darkvision": 60
+   }
+  ],
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Darkvision",
+    "entries": [
+     "You gain {@sense Darkvision|XPHB} with a range of 60 feet. If you already have {@spell Darkvision|XPHB}, its range increases by 30 feet."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Shadow Blood",
+    "entries": [
+     "Whenever you roll a die to determine the number of {@variantrule Hit Points|XPHB} you regain, you can reroll the die if it rolls a 1 while you're entirely within {@variantrule Dim Light|XPHB} or {@variantrule Darkness|XPHB}, and you must use the new roll."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Shroud of Shadows",
+    "entries": [
+     "You can take a {@variantrule Bonus Action|XPHB} to radiate a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} of {@variantrule Dim Light|XPHB} around you for 1 minute. It ends early if you dismiss it (no action required) or you have the {@condition Incapacitated|XPHB} condition. Once you use this benefit, you can't use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Shadow Trapper",
+  "source": "DnDBeyondDrops",
+  "page": "2026-10-01",
   "category": "G",
+  "prerequisite": [
+   {
+    "level": 4,
+    "feat": [
+     "shadow pact|dndbeyonddrops"
+    ]
+   }
+  ],
+  "ability": [
+   {
+    "choose": {
+     "from": [
+      "str",
+      "wis"
+     ]
+    }
+   }
+  ],
+  "entries": [
+   "Your affinity with the Shadowfell's melancholy grants you the following benefits.",
+   {
+    "type": "entries",
+    "name": "Dangerous Shroud",
+    "entries": [
+     "You have {@variantrule Advantage|XPHB} on attack rolls against creatures within the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} of your Shroud of Shadows."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Sorrowful Embrace",
+    "entries": [
+     "At the start of its turn, a creature {@condition Grappled|XPHB} by you must succeed on a Wisdom saving throw (DC equals 8 plus the ability modifier of the score increased by this feat and your {@variantrule Proficiency|XPHB|Proficiency Bonus}) or take Psychic damage equal to {@dice 1d4} plus the ability modifier of the score increased by this feat."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Shadow Weaver",
+  "source": "DnDBeyondDrops",
+  "page": "2026-10-01",
+  "category": "G",
+  "prerequisite": [
+   {
+    "level": 4,
+    "feat": [
+     "shadow pact|dndbeyonddrops"
+    ]
+   }
+  ],
   "ability": [
    {
     "choose": {
@@ -10711,6 +10802,42 @@
     }
    }
   ],
+  "additionalSpells": [
+   {
+    "prepared": {
+     "_": {
+      "daily": {
+       "1": [
+        "darkness|xphb"
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "entries": [
+   "Your commitment to your planar pact grants you the following benefits.",
+   {
+    "type": "entries",
+    "name": "Create Shadow",
+    "entries": [
+     "You always have the {@spell Darkness|XPHB} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast the spell using any spell slots you have of the appropriate level. The spell's spellcasting ability is the ability increased by this feat."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Manipulate Shadow",
+    "entries": [
+     "You can take a {@variantrule Bonus Action|XPHB} to increase or decrease the radius of a {@spell Darkness|XPHB} spell you cast by 5 feet (minimum 5-foot radius, maximum 25-foot radius) or move the area of {@spell Darkness|XPHB} to a space within 60 feet of you."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Shadow's Gift of Stone",
+  "source": "FoEQuickstone",
+  "page": 167,
+  "category": "G",
   "prerequisite": [
    {
     "level": 4,
@@ -10719,6 +10846,17 @@
       "name": "Medusa"
      }
     ]
+   }
+  ],
+  "ability": [
+   {
+    "choose": {
+     "from": [
+      "int",
+      "wis",
+      "cha"
+     ]
+    }
    }
   ],
   "additionalSpells": [
@@ -10775,13 +10913,13 @@
       "type": "table",
       "caption": "Shadow's Gift of Stone Spells",
       "page": 168,
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "Character Level",
        "Spell"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -11455,6 +11593,11 @@
   "source": "FoEQuickstone",
   "page": 168,
   "category": "G",
+  "prerequisite": [
+   {
+    "level": 4
+   }
+  ],
   "ability": [
    {
     "choose": {
@@ -11464,11 +11607,6 @@
       "cha"
      ]
     }
-   }
-  ],
-  "prerequisite": [
-   {
-    "level": 4
    }
   ],
   "entries": [
@@ -11501,6 +11639,16 @@
   "source": "FoEQuickstone",
   "page": 168,
   "category": "G",
+  "prerequisite": [
+   {
+    "level": 8,
+    "race": [
+     {
+      "name": "Medusa"
+     }
+    ]
+   }
+  ],
   "ability": [
    {
     "choose": {
@@ -11510,16 +11658,6 @@
       "cha"
      ]
     }
-   }
-  ],
-  "prerequisite": [
-   {
-    "level": 8,
-    "race": [
-     {
-      "name": "Medusa"
-     }
-    ]
    }
   ],
   "entries": [
@@ -13416,6 +13554,16 @@
   "source": "FoEQuickstone",
   "page": 169,
   "category": "G",
+  "prerequisite": [
+   {
+    "level": 4,
+    "race": [
+     {
+      "name": "Harpy"
+     }
+    ]
+   }
+  ],
   "ability": [
    {
     "choose": {
@@ -13425,16 +13573,6 @@
       "cha"
      ]
     }
-   }
-  ],
-  "prerequisite": [
-   {
-    "level": 4,
-    "race": [
-     {
-      "name": "Harpy"
-     }
-    ]
    }
   ],
   "additionalSpells": [
@@ -13491,13 +13629,13 @@
       "type": "table",
       "caption": "Voice of the Fury Spells",
       "page": 169,
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "Character Level",
        "Spell"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -13531,6 +13669,11 @@
   "source": "FoEQuickstone",
   "page": 169,
   "category": "G",
+  "prerequisite": [
+   {
+    "level": 4
+   }
+  ],
   "ability": [
    {
     "choose": {
@@ -13540,11 +13683,6 @@
       "cha"
      ]
     }
-   }
-  ],
-  "prerequisite": [
-   {
-    "level": 4
    }
   ],
   "entries": [
@@ -13607,6 +13745,11 @@
   "source": "FoEQuickstone",
   "page": 169,
   "category": "G",
+  "prerequisite": [
+   {
+    "level": 4
+   }
+  ],
   "ability": [
    {
     "choose": {
@@ -13615,11 +13758,6 @@
       "cha"
      ]
     }
-   }
-  ],
-  "prerequisite": [
-   {
-    "level": 4
    }
   ],
   "skillProficiencies": [
@@ -13674,13 +13812,13 @@
       "type": "table",
       "caption": "Warden of the Wood Spells",
       "page": 169,
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "Spell Level",
        "Spells"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -13924,11 +14062,18 @@
  {
   "name": "Wings of Stone",
   "source": "FoEQuickstone",
-  "traitTags": [
-   "Speed"
-  ],
   "page": 169,
   "category": "G",
+  "prerequisite": [
+   {
+    "level": 4,
+    "race": [
+     {
+      "name": "Gargoyle"
+     }
+    ]
+   }
+  ],
   "ability": [
    {
     "choose": {
@@ -13940,15 +14085,8 @@
     }
    }
   ],
-  "prerequisite": [
-   {
-    "level": 4,
-    "race": [
-     {
-      "name": "Gargoyle"
-     }
-    ]
-   }
+  "traitTags": [
+   "Speed"
   ],
   "entries": [
    {
@@ -13965,6 +14103,11 @@
   "source": "FoEQuickstone",
   "page": 170,
   "category": "G",
+  "prerequisite": [
+   {
+    "level": 4
+   }
+  ],
   "ability": [
    {
     "choose": {
@@ -13973,11 +14116,6 @@
       "con"
      ]
     }
-   }
-  ],
-  "prerequisite": [
-   {
-    "level": 4
    }
   ],
   "additionalSpells": [
@@ -14033,13 +14171,13 @@
       "type": "table",
       "caption": "Children of Winter Spells",
       "page": 170,
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "Spell Level",
        "Spells"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [

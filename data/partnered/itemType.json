@@ -13,8 +13,8 @@
  },
  {
   "name": "Eldritch Carving",
-  "source": "SGEHPP",
   "abbreviation": "EC",
+  "source": "SGEHPP",
   "entries": [
    "To apply an Eldritch Carving, one must follow a gruesome process. Unlike most art, where the artist determines the quality of the art, with Eldritch Carvings, the canvas—the person getting carved— determines the quality of the work. The canvas must envision the rune in their mind as best they can, causing their body to distort under the eldritch pressure. The carver can then simply apply the necessary tool against the skin and let the eldritch powers move the brush, needle, or knife, depending on whether the Eldritch Carving is Drawn, Tattooed, or Scarified, respectively. This procedure takes 1 hour and can be done as part of a {@variantrule Short Rest|XPHB}.",
    "After the Eldritch Carving is complete, a creature is attuned to it (if required) and gains its effects. To remove an Eldritch Carving, the flesh where the Eldritch Carving is located needs to be thoroughly burnt. Burning a carving also removes {@variantrule Attunement|XPHB} to it. Scarified Eldritch Carvings can't be removed."
@@ -68,7 +68,7 @@
  },
  {
   "name": "Trick Weapon",
-  "source": "SGEHPP",
-  "abbreviation": "TW"
+  "abbreviation": "TW",
+  "source": "SGEHPP"
  }
 ]

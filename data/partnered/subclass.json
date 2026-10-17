@@ -136,9 +136,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ValdaPlayerPack/subclasses/arachnoid-stalker.webp"
      },
-     "credit": "Lucas Ferreira CM",
      "width": 850,
-     "height": 1191
+     "height": 1191,
+     "credit": "Lucas Ferreira CM"
     }
    ]
   }
@@ -150,13 +150,6 @@
   "className": "Magus",
   "classSource": "Magus2024",
   "edition": "one",
-  "subclassFeatures": [
-   "Arcane Order|Magus|Magus2024|Arcane Order|Magus2024|3",
-   "Lesser Spell Surge|Magus|Magus2024|Arcane Order|Magus2024|7",
-   "Occult Savant|Magus|Magus2024|Arcane Order|Magus2024|7",
-   "Arcane Vortex|Magus|Magus2024|Arcane Order|Magus2024|14",
-   "Master of the Arcane|Magus|Magus2024|Arcane Order|Magus2024|20"
-  ],
   "additionalSpells": [
    {
     "prepared": {
@@ -212,6 +205,13 @@
    "identify|xphb",
    "chain lightning|xphb",
    "contingency|xphb"
+  ],
+  "subclassFeatures": [
+   "Arcane Order|Magus|Magus2024|Arcane Order|Magus2024|3",
+   "Lesser Spell Surge|Magus|Magus2024|Arcane Order|Magus2024|7",
+   "Occult Savant|Magus|Magus2024|Arcane Order|Magus2024|7",
+   "Arcane Vortex|Magus|Magus2024|Arcane Order|Magus2024|14",
+   "Master of the Arcane|Magus|Magus2024|Arcane Order|Magus2024|20"
   ],
   "fluff": {
    "images": [
@@ -802,9 +802,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Fighter_Barrowguard.webp"
      },
-     "credit": "Lucas Torquato",
      "width": 774,
-     "height": 1200
+     "height": 1200,
+     "credit": "Lucas Torquato"
     }
    ]
   },
@@ -833,9 +833,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Fighter_Barrowguard.webp"
      },
-     "credit": "Lucas Torquato",
      "width": 774,
-     "height": 1200
+     "height": 1200,
+     "credit": "Lucas Torquato"
     }
    ]
   },
@@ -1155,12 +1155,6 @@
   "className": "Ranger",
   "classSource": "XPHB",
   "page": 152,
-  "subclassFeatures": [
-   "Bloodhound|Ranger|XPHB|Bloodhound|FoEQuickstone|3",
-   "Relentless Pursuit|Ranger|XPHB|Bloodhound|FoEQuickstone|7",
-   "Eyes on the Prize|Ranger|XPHB|Bloodhound|FoEQuickstone|11",
-   "Nowhere to Hide|Ranger|XPHB|Bloodhound|FoEQuickstone|15"
-  ],
   "additionalSpells": [
    {
     "prepared": {
@@ -1189,6 +1183,12 @@
    "scrying",
    "clairvoyance"
   ],
+  "subclassFeatures": [
+   "Bloodhound|Ranger|XPHB|Bloodhound|FoEQuickstone|3",
+   "Relentless Pursuit|Ranger|XPHB|Bloodhound|FoEQuickstone|7",
+   "Eyes on the Prize|Ranger|XPHB|Bloodhound|FoEQuickstone|11",
+   "Nowhere to Hide|Ranger|XPHB|Bloodhound|FoEQuickstone|15"
+  ],
   "hasFluffImages": true
  },
  {
@@ -1212,9 +1212,9 @@
    "Rouse Emotions|Kindred|BoundByBlood|Brujah|BoundByBlood|15",
    "Puissant Might|Kindred|BoundByBlood|Brujah|BoundByBlood|18"
   ],
-  "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/BoundByBlood/Subclasses/01-002.brujah-crest.webp",
   "hasFluff": true,
-  "hasFluffImages": true
+  "hasFluffImages": true,
+  "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/BoundByBlood/Subclasses/01-002.brujah-crest.webp"
  },
  {
   "name": "Bulwark Warrior",
@@ -1582,12 +1582,6 @@
   "className": "Druid",
   "classSource": "XPHB",
   "edition": "one",
-  "subclassFeatures": [
-   "Circle of the City|Druid|XPHB|City|ValdaPlayerPack2|3",
-   "Object Shape|Druid|XPHB|City|ValdaPlayerPack2|6",
-   "Wall Warp|Druid|XPHB|City|ValdaPlayerPack2|10",
-   "Urban Colossus|Druid|XPHB|City|ValdaPlayerPack2|14"
-  ],
   "additionalSpells": [
    {
     "prepared": {
@@ -1623,6 +1617,12 @@
    "Stone Shape|XPHB",
    "Animate Objects|XPHB",
    "Passwall|XPHB"
+  ],
+  "subclassFeatures": [
+   "Circle of the City|Druid|XPHB|City|ValdaPlayerPack2|3",
+   "Object Shape|Druid|XPHB|City|ValdaPlayerPack2|6",
+   "Wall Warp|Druid|XPHB|City|ValdaPlayerPack2|10",
+   "Urban Colossus|Druid|XPHB|City|ValdaPlayerPack2|14"
   ],
   "fluff": {
    "images": [
@@ -1795,9 +1795,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Druid_Old_Ways.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 777,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -1863,9 +1863,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Druid_Old_Ways.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 777,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -1892,9 +1892,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Subclasses/circle-of-the-petal-druid.webp"
      },
-     "credit": "Alexander Cloos",
      "width": 3291,
-     "height": 3291
+     "height": 3291,
+     "credit": "Alexander Cloos"
     }
    ]
   },
@@ -2138,9 +2138,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Druid_Wicker.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 1006,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -2204,9 +2204,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Druid_Wicker.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 1006,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -2400,9 +2400,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Subclasses/college-of-masks-bard.webp"
      },
-     "credit": "Scott Higginbotham",
      "width": 3776,
-     "height": 3776
+     "height": 3776,
+     "credit": "Scott Higginbotham"
     }
    ]
   }
@@ -2620,11 +2620,11 @@
  },
  {
   "name": "College of Wands",
+  "shortName": "Wands",
   "source": "FoEQuickstone",
-  "page": 149,
   "className": "Bard",
   "classSource": "XPHB",
-  "shortName": "Wands",
+  "page": 149,
   "subclassFeatures": [
    "College of Wands|Bard|XPHB|Wands|FoEQuickstone|3",
    "Got Your Back|Bard|XPHB|Wands|FoEQuickstone|6",
@@ -2657,9 +2657,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Bard_College_of_Whistles.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 835,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -2699,9 +2699,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Bard_College_of_Whistles.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 835,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -2711,23 +2711,6 @@
   "name": "Commerce Domain",
   "shortName": "Commerce",
   "source": "FoEQuickstone",
-  "subclassSpells": [
-   "augury",
-   "charm person",
-   "comprehend languages",
-   "locate object",
-   "glyph of warding",
-   "tongues",
-   "divination",
-   "Leomund's secret chest",
-   "legend lore",
-   "Rary's telepathic bond"
-  ],
-  "subclassFeatures": [
-   "Commerce Domain|Cleric|XPHB|Commerce|FoEQuickstone|3",
-   "Divine Bargain|Cleric|XPHB|Commerce|FoEQuickstone|6",
-   "Open Market|Cleric|XPHB|Commerce|FoEQuickstone|17"
-  ],
   "className": "Cleric",
   "classSource": "XPHB",
   "page": 150,
@@ -2754,6 +2737,23 @@
      ]
     }
    }
+  ],
+  "subclassSpells": [
+   "augury",
+   "charm person",
+   "comprehend languages",
+   "locate object",
+   "glyph of warding",
+   "tongues",
+   "divination",
+   "Leomund's secret chest",
+   "legend lore",
+   "Rary's telepathic bond"
+  ],
+  "subclassFeatures": [
+   "Commerce Domain|Cleric|XPHB|Commerce|FoEQuickstone|3",
+   "Divine Bargain|Cleric|XPHB|Commerce|FoEQuickstone|6",
+   "Open Market|Cleric|XPHB|Commerce|FoEQuickstone|17"
   ],
   "hasFluffImages": true
  },
@@ -2840,9 +2840,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Subclasses/corrupted-ranger.webp"
      },
-     "credit": "Alexander Cloos",
      "width": 3066,
-     "height": 3066
+     "height": 3066,
+     "credit": "Alexander Cloos"
     }
    ]
   },
@@ -2992,6 +2992,24 @@
     ]
    }
   ],
+  "subclassFeatures": [
+   "Couatl Herald|Fighter|XPHB|Couatl Herald|24GriffonsSaddlebag1|3",
+   "Peacebringer|Fighter|XPHB|Couatl Herald|24GriffonsSaddlebag1|7",
+   "Calm Mind|Fighter|XPHB|Couatl Herald|24GriffonsSaddlebag1|10",
+   "Paragon|Fighter|XPHB|Couatl Herald|24GriffonsSaddlebag1|15",
+   "Heraldic Enforcer|Fighter|XPHB|Couatl Herald|24GriffonsSaddlebag1|18"
+  ],
+  "fluff": {
+   "images": [
+    {
+     "type": "image",
+     "href": {
+      "type": "external",
+      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/TGS1/Couatl-Hearld.webp"
+     }
+    }
+   ]
+  },
   "foundryAdvancement": [
    {
     "type": "ScaleValue",
@@ -3023,25 +3041,7 @@
     },
     "title": "Mercy Dice"
    }
-  ],
-  "subclassFeatures": [
-   "Couatl Herald|Fighter|XPHB|Couatl Herald|24GriffonsSaddlebag1|3",
-   "Peacebringer|Fighter|XPHB|Couatl Herald|24GriffonsSaddlebag1|7",
-   "Calm Mind|Fighter|XPHB|Couatl Herald|24GriffonsSaddlebag1|10",
-   "Paragon|Fighter|XPHB|Couatl Herald|24GriffonsSaddlebag1|15",
-   "Heraldic Enforcer|Fighter|XPHB|Couatl Herald|24GriffonsSaddlebag1|18"
-  ],
-  "fluff": {
-   "images": [
-    {
-     "type": "image",
-     "href": {
-      "type": "external",
-      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/TGS1/Couatl-Hearld.webp"
-     }
-    }
-   ]
-  }
+  ]
  },
  {
   "name": "Counsellor",
@@ -3162,9 +3162,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Sorcerer_Crimson_Sorcery.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 687,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -3231,9 +3231,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Sorcerer_Crimson_Sorcery.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 687,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -3406,11 +3406,6 @@
   "className": "Cleric",
   "classSource": "XPHB",
   "edition": "one",
-  "subclassFeatures": [
-   "Dragon Domain|Cleric|XPHB|Dragon|ValdaPlayerPack2|3",
-   "Wyrm's Blessing|Cleric|XPHB|Dragon|ValdaPlayerPack2|6",
-   "Legendary Aspect|Cleric|XPHB|Dragon|ValdaPlayerPack2|17"
-  ],
   "additionalSpells": [
    {
     "prepared": {
@@ -3447,6 +3442,11 @@
    "Dominate Person|XPHB",
    "Summon Dragon|XPHB"
   ],
+  "subclassFeatures": [
+   "Dragon Domain|Cleric|XPHB|Dragon|ValdaPlayerPack2|3",
+   "Wyrm's Blessing|Cleric|XPHB|Dragon|ValdaPlayerPack2|6",
+   "Legendary Aspect|Cleric|XPHB|Dragon|ValdaPlayerPack2|17"
+  ],
   "fluff": {
    "images": [
     {
@@ -3481,9 +3481,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ValdaPlayerPack/subclasses/dungeneer.webp"
      },
-     "credit": "Martin Kirby-Jackson",
      "width": 850,
-     "height": 1206
+     "height": 1206,
+     "credit": "Martin Kirby-Jackson"
     }
    ]
   }
@@ -3957,9 +3957,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ValdaPlayerPack/subclasses/future-you-patron.webp"
      },
-     "credit": "Lucas Ferreira CM",
      "width": 850,
-     "height": 1496
+     "height": 1496,
+     "credit": "Lucas Ferreira CM"
     }
    ]
   }
@@ -3985,9 +3985,9 @@
    "Command the Beast|Kindred|BoundByBlood|Gangrel|BoundByBlood|15",
    "Protean Rewards|Kindred|BoundByBlood|Gangrel|BoundByBlood|18"
   ],
-  "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/BoundByBlood/Subclasses/01-004.gangrel-crest.webp",
   "hasFluff": true,
-  "hasFluffImages": true
+  "hasFluffImages": true,
+  "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/BoundByBlood/Subclasses/01-004.gangrel-crest.webp"
  },
  {
   "name": "Great Fool Patron",
@@ -4049,9 +4049,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Warlock_Great_Fool.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 831,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -4156,9 +4156,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Ranger_Grim_Harbinger.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 1011,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -4214,9 +4214,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Ranger_Grim_Harbinger.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 1011,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -4412,9 +4412,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Cleric_Harvest_Domain.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 670,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -4526,9 +4526,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Cleric_Harvest_Domain.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 670,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -4620,12 +4620,6 @@
   "className": "Magus",
   "classSource": "Magus2024",
   "edition": "one",
-  "subclassFeatures": [
-   "Heaven's Guard|Magus|Magus2024|Heaven's Guard|Magus2024|3",
-   "Guardian's Wings|Magus|Magus2024|Heaven's Guard|Magus2024|7",
-   "Cloak of Radiance|Magus|Magus2024|Heaven's Guard|Magus2024|14",
-   "Bright as Dawn|Magus|Magus2024|Heaven's Guard|Magus2024|20"
-  ],
   "additionalSpells": [
    {
     "prepared": {
@@ -4669,6 +4663,12 @@
    "raise dead|xphb",
    "heal|xphb",
    "sunbeam|xphb"
+  ],
+  "subclassFeatures": [
+   "Heaven's Guard|Magus|Magus2024|Heaven's Guard|Magus2024|3",
+   "Guardian's Wings|Magus|Magus2024|Heaven's Guard|Magus2024|7",
+   "Cloak of Radiance|Magus|Magus2024|Heaven's Guard|Magus2024|14",
+   "Bright as Dawn|Magus|Magus2024|Heaven's Guard|Magus2024|20"
   ],
   "fluff": {
    "images": [
@@ -4913,9 +4913,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Warlock_Horned_King.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 674,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -5248,12 +5248,6 @@
   "className": "Magus",
   "classSource": "Magus2024",
   "edition": "one",
-  "subclassFeatures": [
-   "Knights Stygian|Magus|Magus2024|Knights Stygian|Magus2024|3",
-   "Face of Fear|Magus|Magus2024|Knights Stygian|Magus2024|7",
-   "Open the Iron Gates|Magus|Magus2024|Knights Stygian|Magus2024|14",
-   "Darkest Knight|Magus|Magus2024|Knights Stygian|Magus2024|20"
-  ],
   "additionalSpells": [
    {
     "prepared": {
@@ -5298,6 +5292,12 @@
    "circle of death|xphb",
    "create undead|xphb"
   ],
+  "subclassFeatures": [
+   "Knights Stygian|Magus|Magus2024|Knights Stygian|Magus2024|3",
+   "Face of Fear|Magus|Magus2024|Knights Stygian|Magus2024|7",
+   "Open the Iron Gates|Magus|Magus2024|Knights Stygian|Magus2024|14",
+   "Darkest Knight|Magus|Magus2024|Knights Stygian|Magus2024|20"
+  ],
   "fluff": {
    "images": [
     {
@@ -5332,9 +5332,9 @@
    "Crush Weakness|Kindred|BoundByBlood|Lasombra|BoundByBlood|15",
    "Tenebrous Form|Kindred|BoundByBlood|Lasombra|BoundByBlood|18"
   ],
-  "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/BoundByBlood/Subclasses/01-006.lasombra-crest.webp",
   "hasFluff": true,
-  "hasFluffImages": true
+  "hasFluffImages": true,
+  "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/BoundByBlood/Subclasses/01-006.lasombra-crest.webp"
  },
  {
   "name": "Leader",
@@ -6092,29 +6092,11 @@
  },
  {
   "name": "Nemesis Sorcery",
-  "source": "FoEQuickstone",
-  "page": 153,
   "shortName": "Nemesis",
+  "source": "FoEQuickstone",
   "className": "Sorcerer",
   "classSource": "XPHB",
-  "subclassFeatures": [
-   "Nemesis Sorcery|Sorcerer|XPHB|Nemesis|FoEQuickstone|3",
-   "Spell Deflection|Sorcerer|XPHB|Nemesis|FoEQuickstone|6",
-   "Always Ready|Sorcerer|XPHB|Nemesis|FoEQuickstone|14",
-   "Mindset of Perfect Prediction|Sorcerer|XPHB|Nemesis|FoEQuickstone|18"
-  ],
-  "subclassSpells": [
-   "compelled duel",
-   "mirror image",
-   "see invisibility",
-   "shield",
-   "counterspell",
-   "slow",
-   "fire shield",
-   "Otiluke's resilient sphere",
-   "circle of power",
-   "mislead"
-  ],
+  "page": 153,
   "additionalSpells": [
    {
     "prepared": {
@@ -6138,6 +6120,24 @@
      ]
     }
    }
+  ],
+  "subclassSpells": [
+   "compelled duel",
+   "mirror image",
+   "see invisibility",
+   "shield",
+   "counterspell",
+   "slow",
+   "fire shield",
+   "Otiluke's resilient sphere",
+   "circle of power",
+   "mislead"
+  ],
+  "subclassFeatures": [
+   "Nemesis Sorcery|Sorcerer|XPHB|Nemesis|FoEQuickstone|3",
+   "Spell Deflection|Sorcerer|XPHB|Nemesis|FoEQuickstone|6",
+   "Always Ready|Sorcerer|XPHB|Nemesis|FoEQuickstone|14",
+   "Mindset of Perfect Prediction|Sorcerer|XPHB|Nemesis|FoEQuickstone|18"
   ],
   "hasFluffImages": true
  },
@@ -6261,9 +6261,9 @@
    "Greater Monstrous Gifts|Kindred|BoundByBlood|Nosferatu|BoundByBlood|15",
    "What Goes Bump in the Night|Kindred|BoundByBlood|Nosferatu|BoundByBlood|18"
   ],
-  "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/BoundByBlood/Subclasses/01-008.nosferatu-crest.webp",
   "hasFluff": true,
-  "hasFluffImages": true
+  "hasFluffImages": true,
+  "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/BoundByBlood/Subclasses/01-008.nosferatu-crest.webp"
  },
  {
   "name": "Oath of Castigation",
@@ -6328,9 +6328,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Paladin_Oath_of_Castigation.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 839,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -6396,9 +6396,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Paladin_Oath_of_Castigation.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 839,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -6569,9 +6569,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ValdaPlayerPack/subclasses/oath-of-revelry.webp"
      },
-     "credit": "Martin Kirby-Jackson",
      "width": 1700,
-     "height": 1446
+     "height": 1446,
+     "credit": "Martin Kirby-Jackson"
     }
    ]
   }
@@ -6955,9 +6955,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Subclasses/oath-of-the-river.webp"
      },
-     "credit": "Alexander Cloos",
      "width": 2748,
-     "height": 2748
+     "height": 2748,
+     "credit": "Alexander Cloos"
     }
    ]
   }
@@ -7179,9 +7179,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Wizard_Occultist.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 653,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -7209,9 +7209,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Wizard_Occultist.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 653,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -7559,9 +7559,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Subclasses/oni-bloodline-sorcerer.webp"
      },
-     "credit": "Alexander Cloos",
      "width": 3440,
-     "height": 3440
+     "height": 3440,
+     "credit": "Alexander Cloos"
     }
    ]
   }
@@ -7604,9 +7604,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Subclasses/origami-mage.webp"
      },
-     "credit": "Alexander Cloos",
      "width": 3339,
-     "height": 3339
+     "height": 3339,
+     "credit": "Alexander Cloos"
     }
    ]
   },
@@ -7703,9 +7703,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Subclasses/belly-brewer-barbarian.webp"
      },
-     "credit": "Alexander Cloos",
      "width": 3182,
-     "height": 3182
+     "height": 3182,
+     "credit": "Alexander Cloos"
     }
    ]
   }
@@ -7868,11 +7868,11 @@
  },
  {
   "name": "Path of the Demonshard",
-  "source": "FoEQuickstone",
-  "page": 148,
   "shortName": "Demonshard",
+  "source": "FoEQuickstone",
   "className": "Barbarian",
   "classSource": "XPHB",
+  "page": 148,
   "subclassFeatures": [
    "Path of the Demonshard|Barbarian|XPHB|Demonshard|FoEQuickstone|3",
    "Just One Master|Barbarian|XPHB|Demonshard|FoEQuickstone|6",
@@ -7906,9 +7906,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Barbarian_Path_of_the_Experiment.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 916,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -7936,9 +7936,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Barbarian_Path_of_the_Experiment.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 916,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -8065,9 +8065,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ValdaPlayerPack/subclasses/path-of-the-muscle-wizard.webp"
      },
-     "credit": "Lucas Ferreira CM",
      "width": 850,
-     "height": 1326
+     "height": 1326,
+     "credit": "Lucas Ferreira CM"
     }
    ]
   }
@@ -8232,9 +8232,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Wizard_Philosopher.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 858,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -8283,9 +8283,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Wizard_Philosopher.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 858,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -9166,12 +9166,6 @@
   "className": "Magus",
   "classSource": "Magus2024",
   "edition": "one",
-  "subclassFeatures": [
-   "Shadow Court|Magus|Magus2024|Shadow Court|Magus2024|3",
-   "Broken Mirror Jutsu|Magus|Magus2024|Shadow Court|Magus2024|7",
-   "False Body Jutsu|Magus|Magus2024|Shadow Court|Magus2024|14",
-   "Enshadowed Sifu|Magus|Magus2024|Shadow Court|Magus2024|20"
-  ],
   "additionalSpells": [
    {
     "prepared": {
@@ -9223,6 +9217,12 @@
    "mirror image|xphb",
    "eyebite|xphb",
    "programmed illusion|xphb"
+  ],
+  "subclassFeatures": [
+   "Shadow Court|Magus|Magus2024|Shadow Court|Magus2024|3",
+   "Broken Mirror Jutsu|Magus|Magus2024|Shadow Court|Magus2024|7",
+   "False Body Jutsu|Magus|Magus2024|Shadow Court|Magus2024|14",
+   "Enshadowed Sifu|Magus|Magus2024|Shadow Court|Magus2024|20"
   ],
   "fluff": {
    "images": [
@@ -9384,9 +9384,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Subclasses/sheep-dragon-shepherd-monk.webp"
      },
-     "credit": "Alexander Cloos",
      "width": 3862,
-     "height": 3862
+     "height": 3862,
+     "credit": "Alexander Cloos"
     }
    ]
   },
@@ -9422,12 +9422,6 @@
   "className": "Magus",
   "classSource": "Magus2024",
   "edition": "one",
-  "subclassFeatures": [
-   "Sidereal Cabal|Magus|Magus2024|Sidereal Cabal|Magus2024|3",
-   "Celestial Clockwork Control|Magus|Magus2024|Sidereal Cabal|Magus2024|7",
-   "Seal Fate|Magus|Magus2024|Sidereal Cabal|Magus2024|14",
-   "Starfinder|Magus|Magus2024|Sidereal Cabal|Magus2024|20"
-  ],
   "additionalSpells": [
    {
     "prepared": {
@@ -9471,6 +9465,12 @@
    "scrying|xphb",
    "first speech|magus2024",
    "true seeing|xphb"
+  ],
+  "subclassFeatures": [
+   "Sidereal Cabal|Magus|Magus2024|Sidereal Cabal|Magus2024|3",
+   "Celestial Clockwork Control|Magus|Magus2024|Sidereal Cabal|Magus2024|7",
+   "Seal Fate|Magus|Magus2024|Sidereal Cabal|Magus2024|14",
+   "Starfinder|Magus|Magus2024|Sidereal Cabal|Magus2024|20"
   ],
   "fluff": {
    "images": [
@@ -9540,9 +9540,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Rogue_Sinner.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 588,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -9600,9 +9600,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Rogue_Sinner.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 588,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -9686,6 +9686,24 @@
    "War-Hardened|Champion|TLotRR|Slayer|TLotRR|7|TLotRR"
   ],
   "hasFluff": true
+ },
+ {
+  "name": "Sorrow Knight",
+  "shortName": "Sorrow Knight",
+  "source": "DnDBeyondDrops",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "page": "2026-10-01",
+  "edition": "one",
+  "subclassFeatures": [
+   "Sorrow Knight|Fighter|XPHB|Sorrow Knight|DnDBeyondDrops|3",
+   "Dreaded Appearance|Fighter|XPHB|Sorrow Knight|DnDBeyondDrops|7",
+   "Unsettled Strikes|Fighter|XPHB|Sorrow Knight|DnDBeyondDrops|10",
+   "Grim Constitution|Fighter|XPHB|Sorrow Knight|DnDBeyondDrops|15",
+   "Grieving Mantle|Fighter|XPHB|Sorrow Knight|DnDBeyondDrops|18"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
  },
  {
   "name": "Spellslinger",
@@ -10126,23 +10144,11 @@
  },
  {
   "name": "Stone Sovereign Patron",
+  "shortName": "Stone Sovereign",
   "source": "FoEQuickstone",
   "className": "Warlock",
   "classSource": "XPHB",
   "page": 154,
-  "shortName": "Stone Sovereign",
-  "subclassSpells": [
-   "absorb elements|foequickstone",
-   "earthbind|foequickstone",
-   "earth tremor|foequickstone",
-   "spike growth",
-   "magic circle",
-   "slow",
-   "stone shape",
-   "stoneskin",
-   "Bigby's hand",
-   "wall of stone"
-  ],
   "additionalSpells": [
    {
     "prepared": {
@@ -10166,6 +10172,18 @@
      ]
     }
    }
+  ],
+  "subclassSpells": [
+   "absorb elements|foequickstone",
+   "earthbind|foequickstone",
+   "earth tremor|foequickstone",
+   "spike growth",
+   "magic circle",
+   "slow",
+   "stone shape",
+   "stoneskin",
+   "Bigby's hand",
+   "wall of stone"
   ],
   "subclassFeatures": [
    "Stone Sovereign Patron|Warlock|XPHB|Stone Sovereign|FoEQuickstone|3",
@@ -10212,12 +10230,6 @@
   "className": "Magus",
   "classSource": "Magus2024",
   "edition": "one",
-  "subclassFeatures": [
-   "Sylvan Circle|Magus|Magus2024|Sylvan Circle|Magus2024|3",
-   "Nature's Mask|Magus|Magus2024|Sylvan Circle|Magus2024|7",
-   "Font of Life|Magus|Magus2024|Sylvan Circle|Magus2024|14",
-   "Sylvan Savant|Magus|Magus2024|Sylvan Circle|Magus2024|20"
-  ],
   "additionalSpells": [
    {
     "prepared": {
@@ -10272,6 +10284,12 @@
    "reincarnate|xphb",
    "conjure fey|xphb",
    "wall of thorns|xphb"
+  ],
+  "subclassFeatures": [
+   "Sylvan Circle|Magus|Magus2024|Sylvan Circle|Magus2024|3",
+   "Nature's Mask|Magus|Magus2024|Sylvan Circle|Magus2024|7",
+   "Font of Life|Magus|Magus2024|Sylvan Circle|Magus2024|14",
+   "Sylvan Savant|Magus|Magus2024|Sylvan Circle|Magus2024|20"
   ],
   "fluff": {
    "images": [
@@ -10486,9 +10504,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Warlock_Great_Fool.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 831,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -10555,9 +10573,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Warlock_Horned_King.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 674,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -10623,9 +10641,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Subclasses/lantern-warlock.webp"
      },
-     "credit": "Alexander Cloos",
      "width": 2461,
-     "height": 2461
+     "height": 2461,
+     "credit": "Alexander Cloos"
     }
    ]
   }
@@ -10947,9 +10965,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Subclasses/spirit-fused-fighter.webp"
      },
-     "credit": "Jake Morrison",
      "width": 3821,
-     "height": 3821
+     "height": 3821,
+     "credit": "Jake Morrison"
     }
    ]
   },
@@ -11032,9 +11050,9 @@
    "Truly Majestic|Kindred|BoundByBlood|Toreador|BoundByBlood|15",
    "Magnum Opus|Kindred|BoundByBlood|Toreador|BoundByBlood|18"
   ],
-  "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/BoundByBlood/Subclasses/01-010.toreador-crest.webp",
   "hasFluff": true,
-  "hasFluffImages": true
+  "hasFluffImages": true,
+  "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/BoundByBlood/Subclasses/01-010.toreador-crest.webp"
  },
  {
   "name": "Torturer Conclave",
@@ -11217,9 +11235,9 @@
    "Sanguine Fortification|Kindred|BoundByBlood|Ventrue|BoundByBlood|15",
    "Lordly Power|Kindred|BoundByBlood|Ventrue|BoundByBlood|18"
   ],
-  "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/BoundByBlood/Subclasses/01-012.ventrue-crest.webp",
   "hasFluff": true,
-  "hasFluffImages": true
+  "hasFluffImages": true,
+  "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/BoundByBlood/Subclasses/01-012.ventrue-crest.webp"
  },
  {
   "name": "Vermin Lord",
@@ -11537,9 +11555,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Monk_Way_Pestilent_Haze.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 849,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },
@@ -11565,9 +11583,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ValdaPlayerPack/subclasses/warrior-of-the-street.webp"
      },
-     "credit": "Lucas Ferreira CM",
      "width": 850,
-     "height": 1665
+     "height": 1665,
+     "credit": "Lucas Ferreira CM"
     }
    ]
   }
@@ -11697,9 +11715,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Subclasses/waxwork-rogue.webp"
      },
-     "credit": "Alexander Cloos",
      "width": 2885,
-     "height": 2885
+     "height": 2885,
+     "credit": "Alexander Cloos"
     }
    ]
   },
@@ -11859,9 +11877,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Subclasses/Monk_Way_Pestilent_Haze.webp"
      },
-     "credit": "Jo Cordisco",
      "width": 849,
-     "height": 1200
+     "height": 1200,
+     "credit": "Jo Cordisco"
     }
    ]
   },

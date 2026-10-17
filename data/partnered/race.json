@@ -783,8 +783,8 @@
      {
       "type": "statblock",
       "tag": "table",
-      "source": "TLotRR",
       "name": "Starting Gear",
+      "source": "TLotRR",
       "page": 70,
       "collapsed": true
      }
@@ -822,6 +822,11 @@
   "size": [
    "M"
   ],
+  "speed": 30,
+  "darkvision": 120,
+  "resist": [
+   "poison"
+  ],
   "sizeEntry": {
    "type": "item",
    "name": "Size:",
@@ -829,11 +834,6 @@
     "Medium (about 4-5 feet tall)"
    ]
   },
-  "speed": 30,
-  "darkvision": 120,
-  "resist": [
-   "poison"
-  ],
   "entries": [
    {
     "type": "entries",
@@ -967,6 +967,10 @@
   "size": [
    "M"
   ],
+  "speed": 30,
+  "resist": [
+   "cold"
+  ],
   "sizeEntry": {
    "type": "item",
    "name": "Size:",
@@ -974,10 +978,6 @@
     "Medium. Bearfolk are typically large and muscular, reaching a height of over 7 feet and weighing anywhere between 250 and 350 pounds."
    ]
   },
-  "speed": 30,
-  "resist": [
-   "cold"
-  ],
   "entries": [
    {
     "type": "entries",
@@ -1042,6 +1042,8 @@
     ]
    }
   ],
+  "hasFluff": true,
+  "hasFluffImages": true,
   "_versions": [
    {
     "name": "Bearfolk; Andari",
@@ -1099,9 +1101,7 @@
      ]
     }
    }
-  ],
-  "hasFluff": true,
-  "hasFluffImages": true
+  ]
  },
  {
   "name": "Beastkin",
@@ -1110,16 +1110,9 @@
    "humanoid"
   ],
   "size": [
-   "M",
-   "S"
+   "S",
+   "M"
   ],
-  "sizeEntry": {
-   "type": "item",
-   "name": "Size:",
-   "entries": [
-    "Medium (about 4-8 feet tall) or Small (about 2-4 feet tall), chosen when you select this species."
-   ]
-  },
   "speed": 30,
   "skillProficiencies": [
    {
@@ -1132,6 +1125,13 @@
     }
    }
   ],
+  "sizeEntry": {
+   "type": "item",
+   "name": "Size:",
+   "entries": [
+    "Medium (about 4-8 feet tall) or Small (about 2-4 feet tall), chosen when you select this species."
+   ]
+  },
   "entries": [
    {
     "type": "entries",
@@ -1183,39 +1183,12 @@
     ]
    }
   ],
+  "hasFluff": true,
+  "hasFluffImages": true,
   "_versions": [
-   {
-    "name": "Beastkin; Avian",
-    "source": "NorthlandsWorldbook",
-    "speed": {
-     "walk": 30,
-     "fly": true
-    },
-    "_mod": {
-     "entries": [
-      {
-       "mode": "replaceArr",
-       "replace": "Natural Adaptation",
-       "items": [
-        {
-         "type": "entries",
-         "name": "Avian",
-         "entries": [
-          "Leathery, feathery, or gossamer wings sprout from your back or connect to your outstretched arms. You have a {@variantrule Fly Speed|XPHB} equal to your {@variantrule Speed|XPHB}. You can't fly while wearing Medium or Heavy armor."
-         ]
-        }
-       ]
-      }
-     ]
-    }
-   },
    {
     "name": "Beastkin; Agile",
     "source": "NorthlandsWorldbook",
-    "speed": {
-     "walk": 30,
-     "climb": true
-    },
     "_mod": {
      "entries": [
       {
@@ -1232,15 +1205,15 @@
        ]
       }
      ]
+    },
+    "speed": {
+     "walk": 30,
+     "climb": true
     }
    },
    {
     "name": "Beastkin; Aquatic",
     "source": "NorthlandsWorldbook",
-    "speed": {
-     "walk": 30,
-     "swim": true
-    },
     "_mod": {
      "entries": [
       {
@@ -1257,14 +1230,40 @@
        ]
       }
      ]
+    },
+    "speed": {
+     "walk": 30,
+     "swim": true
+    }
+   },
+   {
+    "name": "Beastkin; Avian",
+    "source": "NorthlandsWorldbook",
+    "_mod": {
+     "entries": [
+      {
+       "mode": "replaceArr",
+       "replace": "Natural Adaptation",
+       "items": [
+        {
+         "type": "entries",
+         "name": "Avian",
+         "entries": [
+          "Leathery, feathery, or gossamer wings sprout from your back or connect to your outstretched arms. You have a {@variantrule Fly Speed|XPHB} equal to your {@variantrule Speed|XPHB}. You can't fly while wearing Medium or Heavy armor."
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    "speed": {
+     "walk": 30,
+     "fly": true
     }
    },
    {
     "name": "Beastkin; Sturdy",
     "source": "NorthlandsWorldbook",
-    "traitTags": [
-     "Powerful Build"
-    ],
     "_mod": {
      "entries": [
       {
@@ -1281,11 +1280,12 @@
        ]
       }
      ]
-    }
+    },
+    "traitTags": [
+     "Powerful Build"
+    ]
    }
-  ],
-  "hasFluff": true,
-  "hasFluffImages": true
+  ]
  },
  {
   "name": "Bogborn",
@@ -1625,15 +1625,15 @@
   ],
   "entries": [
    {
-    "name": "Age",
     "type": "entries",
+    "name": "Age",
     "entries": [
      "Cervans reach maturity around 12 years. They live long lives compared to the rest of the Humblefolk, between 100 and 150 years, something they attribute as much to their way of life as the blessing of Cairith. Pronghorns generally live longer than grove cervans, which is considered a sign of Cairith's favor."
     ]
    },
    {
-    "name": "Alignment",
     "type": "entries",
+    "name": "Alignment",
     "entries": [
      "Cervans are pragmatic in their thinking, and generally prefer to keep their philosophies flexible in order to prioritize what they believe is important for both themselves and their communities. They lean towards neutral alignments."
     ]
@@ -1646,29 +1646,29 @@
     ]
    },
    {
-    "name": "Speed",
     "type": "entries",
+    "name": "Speed",
     "entries": [
      "Your base walking speed is 30 feet."
     ]
    },
    {
-    "name": "Practical",
     "type": "entries",
+    "name": "Practical",
     "entries": [
      "Cervans are eminently practical and like to spend their time learning useful skills for life in their woodland villages. You gain proficiency in one of the following skills: {@skill Athletics}, {@skill Medicine}, {@skill Nature}, or {@skill Survival}."
     ]
    },
    {
-    "name": "Surge of Vigor",
     "type": "entries",
+    "name": "Surge of Vigor",
     "entries": [
      "All cervans possess a great tenacity and will to survive, which allows them to bounce back from even the most devastating blows. If an attack deals over half of your current remaining hit points in damage, (even if your hit points are reduced to 0 by the attack) you immediately regain hit points equal to {@dice 1d12} + your Constitution Modifier. You can't use this feature again until you have completed a long rest."
     ]
    },
    {
-    "name": "Languages",
     "type": "entries",
+    "name": "Languages",
     "entries": [
      "You can speak, read, and write Birdfolk, and speak Cervan (Cervan has no written component)."
     ]
@@ -1756,28 +1756,28 @@
     },
     "From nomadic, floating cities whose coral exoskeletons stretch down into the dark ocean depths to mile-long reefs and small atolls, cnidaran (NI-daran) settlements can be found wherever salt meets water Their unique, bipartite lifecycle sets them apart from most other humanoids and fosters a zealous loyalty between cnidaran and home.",
     {
+     "type": "entries",
      "name": "Disperse and Deploy",
      "entries": [
       "Cnidarans have two distinct phases to their lifecycle: the medusozoa and the polyp An adventuring cnidaran—one that can speak, has a vaguely humanoid shape, and can manipulate tools—is a medusozoa These individuals are responsible for interacting with the outside world (in other words, anything beyond their home reef).",
       "When medusozoa mate, an event that can involve dozens of individuals, the thousands of larvae that are conceived settle on the nearest substrate, often the cnidarans' own coral home. Once rooted, the larvae develop into polyps with two tasks. The first is to grow a single new medusozoa over a single moon's cycle and then birth this inch-long, instinct-driven youngster into the waters surrounding its home The second is to secrete a calcareous exoskeleton, fusing their body with the reef and growing the cnidarans' coral home.",
       "Life for a young medusozoa is tenuous; it must fend for itself, drifting in open waters and feeding on plankton and other medusozoa until it reaches at least a foot in length, usually by the end of its third year. During this juvenile stage, a time known as the uko'ulush (the 'wild time'), a medusozoa is largely ignored by other cnidarans, who believe that \"trial by ocean makes the hardest pearls.\" Once a cnidaran completes this juvenile stage, it is brought into the reef, a utilitarian and communal space where the customs, culture, and values of that reef are passed on, the uko'malang (the 'time of waiting')."
-     ],
-     "type": "entries"
+     ]
     },
     {
+     "type": "entries",
      "name": "Commune and Community",
      "entries": [
       "Cnidarans live communally With the practices of mass mating and random dispersal, no single medusozoa knows which individuals are their parents In fact, the entire concept of 'parentage', 'hereditary titles', and 'inheritance' is foreign to most cnidarans.",
       "When a cnidaran medusozoa reaches maturity, it is given the choice to leave the reef with the blessing of the whole community, a once-in-a-lifetime event known as the uko'fa (the 'time of exploration'). Individuals that start on the uko'fa do so for a multitude of reasons Some seek to bring back treasures from the world beyond and enhance their own community Others feel a need to disperse, finding other reefs to join or even forming new reefs with like-minded medusozoa met on their travels A very few become enraptured by wanderlust and spend the rest of their days among winding ocean currents, delving into damp dungeons, and cavorting in ports with other seadogs."
-     ],
-     "type": "entries"
+     ]
     },
     {
+     "type": "entries",
      "name": "No Place Like Home",
      "entries": [
       "Cnidaran settlements are alive Made of the bodies of millions of calcified polyps—cnidaran ancestors—a reef is more than just a home; it is the collective memory of a thousand generations, a traceable web of genealogical history, and an esteemed and holy sanctuary Intentionally damaging a reef carries grave consequences: death, exile, or even being perceived as a declaration of war are all sanctions a cnidaran colony might employ It isn't unusual for trade unions to pay handsome reparations if a ship damages a cnidaran reef when blown off course by wild winds To do otherwise might result in ships foundering even in fair and pleasant conditions, such is the whim of an enraged cnidaran reef."
-     ],
-     "type": "entries"
+     ]
     }
    ],
    "images": [
@@ -1831,15 +1831,15 @@
   ],
   "entries": [
    {
-    "name": "Age",
     "type": "entries",
+    "name": "Age",
     "entries": [
      "Corvums reach adulthood at around 18 years. They live slightly shorter lives than other birdfolk, approximately 70 years."
     ]
    },
    {
-    "name": "Alignment",
     "type": "entries",
+    "name": "Alignment",
     "entries": [
      "Shrewd and capable, corvums prefer moral flexibility and are more likely to be neutral than either good or evil. Nonetheless, corvums see the benefit of rules, even if many attempt to turn them to their own advantage. Because of this they favor lawful alignments."
     ]
@@ -1852,43 +1852,43 @@
     ]
    },
    {
-    "name": "Speed",
     "type": "entries",
+    "name": "Speed",
     "entries": [
      "Your base walking speed is 30 feet."
     ]
    },
    {
-    "name": "Glide",
     "type": "entries",
+    "name": "Glide",
     "entries": [
      "Using your feathered arms, you can slow your fall, and glide short distances. When falling you can use your reaction to spread your arms, stiffen your wing feathers, and slow your descent. While doing so, you continue to fall gently at a speed of 60 feet per round, taking no fall damage when you land. If you would fall at least 10 feet in this way, you may fly up to your movement speed in one direction you choose, although you cannot choose to move upwards, landing in the space you finish your movement. You cannot glide while carrying heavy weapons or wielding a shield (though you may drop any held items as part of your reaction to spread your arms). You cannot glide while wearing heavy armor, or if you are encumbered."
     ]
    },
    {
-    "name": "Talons",
     "type": "entries",
+    "name": "Talons",
     "entries": [
      "Your sharp claws aid you in unarmed combat and while climbing. Your damage for an unarmed strike is {@damage 1d4} piercing damage. Additionally, you have advantage on Strength ({@skill Athletics}) checks made to climb any surface your talons could reasonably grip."
     ]
    },
    {
-    "name": "Learned",
     "type": "entries",
+    "name": "Learned",
     "entries": [
      "You gain proficiency in one of the following skills: {@skill Arcana}, {@skill History}, {@skill Nature}, or {@skill Religion}."
     ]
    },
    {
-    "name": "Appraising Eye",
     "type": "entries",
+    "name": "Appraising Eye",
     "entries": [
      "You have an almost supernatural ability to appraise objects. By spending an action examining any object, you can determine any magical properties the item has, how they might be used or activated, as well as a fair estimation of market price. Using this skill strains the eyes, and you must complete a long or short rest before you can use it again."
     ]
    },
    {
-    "name": "Languages",
     "type": "entries",
+    "name": "Languages",
     "entries": [
      "You can speak, read, and write Birdfolk. You can also understand Auran, though you cannot speak it naturally."
     ]
@@ -2081,74 +2081,74 @@
   ],
   "entries": [
    {
+    "type": "entries",
     "name": "Age",
     "entries": [
      "Cyclopians reach maturity in their early teens and typically live as long as humans."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Creature Type",
     "entries": [
      "You are a humanoid You are also considered an aberration for any prerequisite or effect that requires you to be an aberration."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Languages",
     "entries": [
      "You can speak, read, and write Common, Undercommon, and one other language of your choice."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Size",
     "entries": [
      "With their crouched and hulking posture, Cyclopians typically appear smaller than they are At full stretch, a cyclopian stands between 5 and 6 feet tall Your size is Medium."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Speed",
     "entries": [
      "Your base walking speed is 30 feet"
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Darkvision",
     "entries": [
      "Accustomed to life in dimly-lit libraries, you have superior vision in dark and dim conditions You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light You can't discern colour in darkness, only shades of grey."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Knowledge Seeker",
     "entries": [
      "Learning is an almost irresistible compulsion amongst cyclopians and often leads them to dangerous locations. You have proficiency in your choice of two of the following skills: {@skill Arcana}, {@skill History}, {@skill Insight}, {@skill Investigation}, {@skill Medicine}, {@skill Perception}, {@skill Religion}, and {@skill Stealth}."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Savant of Secrets",
     "entries": [
      "You can tap into your ancestral ability to spot the telltale signs of hidden traps, passages, and secrets As an action, you can enter a cyclotrance for 1 minute For the duration, you have advantage on {@skill Perception}, {@skill Investigation}, and {@skill Insight} checks Once you activate this trait, you can't do so again until you finish a long rest."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Thought for Food",
     "entries": [
      "Information is nourishing for cyclopians, in the truest sense of the word Each day that you discover significant new information (GM's discretion), you need only half as much food and water as normal and you have advantage on Constitution saving throws. These benefits last until you finish a long rest."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Top Shelf",
     "entries": [
      "Generations spent climbing to the top shelves of tall libraries have led to a selective pressure on the ability to climb within cyclopians You have a climbing speed of 20 feet."
-    ],
-    "type": "entries"
+    ]
    }
   ],
   "fluff": {
@@ -2162,32 +2162,32 @@
     },
     "The pursuit of knowledge, the acquisition of secrets, and the hoarding of trinkets with storied histories are common practices among any creature raised by cyclopians (sy-CLO-pee-ans). From dog tags to tapestries, musical manuscripts to carved tablets, magical {@i memory orbs} to worthless heirlooms, their 'libraries' (as cyclopians refer to their homes) are filled with knowledge. With their physical adaptation to climbing, cyclopian homes are often found high up in cliffsides, within abandoned wizards' towers, or deep in The Low.",
     {
+     "type": "entries",
      "name": "Monocular and Myopic",
      "entries": [
       "A cyclopian's singular eye is the perfect metaphor for this race's almost-myopic tendency to focus on one thing to the exclusion of all others When a cyclopian finds a topic that interests them, little can stop their manic and feverish efforts to acquire any relevant documents, information, or answers Indeed, the famed cyclopian researcher Roza \"Thanks\" Thanklinds is rumoured to have forgone sleep for more than two months while analysing the crystallised mut-x from the former laboratory of Dr Frank N Stein Of course, this feat was made all the easier thanks to cyclopians' ability to metabolise knowledge into actual, physical, nutritional value."
-     ],
-     "type": "entries"
+     ]
     },
     {
+     "type": "entries",
      "name": "Arcanists Analogue",
      "entries": [
       "Cyclopians are often mistaken for shadowy aberrations of the Shadow Plane known as skulks While both cyclopian and skulk share a hulking monocular physiology and a hunger for knowledge, a brief observation yields one significant difference: the skulking simulacra leave a trail of rot and necrosis wherever they travel, while no true cyclopian would ever risk damaging a book in this way."
-     ],
-     "type": "entries"
+     ]
     },
     {
+     "type": "entries",
      "name": "Pilgrimage of Huge Discovery",
      "entries": [
       "Cyclopians of a certain age often embark on a Pilgrimage of Huge Discovery, or PHD During this time, they venture out into the world, seeking to bring new and significant knowledge back to their library For some individuals, the natural compulsion to explore is all the impetus they need to leave the comfort of their homes On the other hand, more reticent cyclopians might have to be forced out by their family, fulfilling this rite of passage based on a sense of duty. Cyclopians who fixate on the acquisition of artifacts, rather than the joy of studying them, are regarded as rare and valuable assets to any family; cyclopian adventurers are always warmly welcomed back to their library."
-     ],
-     "type": "entries"
+     ]
     },
     {
+     "type": "entries",
      "name": "Sharing is Caring",
      "entries": [
       "Cyclopians have an unusual lifecycle Though they can reproduce sexually, cyclopians are also capable of a form of asexual budding When a cyclopian is beyond inundated by the volume of knowledge awaiting its analysis (such as after it gains entry into an abandoned, book-filled wizard's tower), it can spontaneously and unexpectedly undergo entire body mitosis This produces a smaller, similar, genetically distinct, individual—an assistant with whom the research can be more manageably catalogued."
-     ],
-     "type": "entries"
+     ]
     }
    ],
    "images": [
@@ -2257,22 +2257,22 @@
   "entries": [
    "Your dara character gains traits that enable it to traverse and flourish on the island of Obojima.",
    {
-    "name": "Ability Score Increase",
     "type": "entries",
+    "name": "Ability Score Increase",
     "entries": [
      "One ability score of your choice increases by 2, and another ability score of your choice increases by 1."
     ]
    },
    {
-    "name": "Age",
     "type": "entries",
+    "name": "Age",
     "entries": [
      "From the moment dara pop into existence they have all basic motor functions mastered. By the time a month has passed they are a fully functioning member of society. It's unknown how long a dara can live for, but the average is roughly 100 years."
     ]
    },
    {
-    "name": "Alignment",
     "type": "entries",
+    "name": "Alignment",
     "entries": [
      "Dara tend to lead slow-paced observant lives. Their natural curiosity and desire to learn often leads them down a life as passive bystanders. They're not easily swayed and tend to stay neutral both in conflict and life."
     ]
@@ -3621,8 +3621,8 @@
      {
       "type": "statblock",
       "tag": "table",
-      "source": "TLotRR",
       "name": "Starting Gear",
+      "source": "TLotRR",
       "page": 70,
       "collapsed": true
      }
@@ -3761,13 +3761,6 @@
   "size": [
    "M"
   ],
-  "sizeEntry": {
-   "type": "item",
-   "name": "Size:",
-   "entries": [
-    "Medium (about 5-6 feet tall)"
-   ]
-  },
   "speed": 30,
   "darkvision": 60,
   "skillProficiencies": [
@@ -3782,6 +3775,13 @@
     }
    }
   ],
+  "sizeEntry": {
+   "type": "item",
+   "name": "Size:",
+   "entries": [
+    "Medium (about 5-6 feet tall)"
+   ]
+  },
   "entries": [
    {
     "type": "entries",
@@ -3851,6 +3851,8 @@
     ]
    }
   ],
+  "hasFluff": true,
+  "hasFluffImages": true,
   "_versions": [
    {
     "name": "Elf; Alfar",
@@ -3956,9 +3958,7 @@
      }
     ]
    }
-  ],
-  "hasFluff": true,
-  "hasFluffImages": true
+  ]
  },
  {
   "name": "Elf",
@@ -4004,15 +4004,15 @@
   "entries": [
    "You, along with other elves, have been gifted a unique set of traits akin to the spirits that inhabit the island of Obojima.",
    {
-    "name": "Ability Score Increase",
     "type": "entries",
+    "name": "Ability Score Increase",
     "entries": [
      "One ability score of your choice increases by 2, and another ability score of your choice increases by 1."
     ]
    },
    {
-    "name": "Age",
     "type": "entries",
+    "name": "Age",
     "entries": [
      "Elves reach adulthood in their late teens and live less than a century."
     ]
@@ -4449,8 +4449,8 @@
   "speed": 30,
   "darkvision": 60,
   "traitTags": [
-   "Tool Proficiency",
-   "Natural Weapon"
+   "Natural Weapon",
+   "Tool Proficiency"
   ],
   "toolProficiencies": [
    {
@@ -4589,21 +4589,22 @@
     },
     "Feathren are the representation of something new from something old. A step beyond their ancestral griffon heritage, these bipedal creatures celebrate their individuality amidst the cries and jeers from common folk. Originally born from the Astral Plane, where all things can be lost, found, and remade, feathren now walk the Material Plane in search of new ideas, materials, and direction. Filled with endless curiosity, many make their way through the world as adventurers and artisans, taking care to learn what they can from their experiences before moving on to the next one.",
     {
+     "type": "entries",
      "name": "Varied Heritage",
      "entries": [
       "Feathren unite remarkable aspects of two otherwise disparate creatures. Their strong legs are feline, while their chest, arms, and head are avian. Despite their distant relation to griffons, feathren stand upright and can use their sharp talons to manipulate objects as deftly as any other humanoid. Their voices often bear some birdlike resemblance to their ancestry and contain the occasional trill, coo, or caw.",
       "Few feathren look the same. Their fur, plumage, and build can vary widely, forming unique combinations of origin and aptitude. While some feathren are born with the body of an eagle and lion, others combine the likes of owls and crows with tigers and leopards. Feathren find particular pleasure in jewelry and decoration—an inescapable trait from their heritage. Without wings to embellish, most turn to adorning themselves with baubles and rings on their talons, feathered ears, and tail. Others enjoy body art, such as tattoos, paints, and various unique means of self-expression. Most feathren struggle to resist the urge to preen or adjust their worn finery whenever they catch a glimpse of their reflection."
-     ],
-     "type": "entries"
+     ]
     },
     {
+     "type": "entries",
      "name": "Confident and Curious",
      "entries": [
       "Born with the innate gifts of two naturally skilled creatures, feathren have a shared sense of confidence in their abilities. Feathren spend their lives learning and mastering new trades to sate their curiosity, preferring to answer a puzzle or question on their own rather than ask for help. Many feathren find camaraderie among those that share a common passion, and while they're remiss to turn to peers for help, they enjoy the sharing of stories and conversation about their interests."
-     ],
-     "type": "entries"
+     ]
     },
     {
+     "type": "entries",
      "name": "Feathren Names",
      "entries": [
       "As is their nature, feathren enjoy experimenting with names and playing with the combinations they can make with them. Feathren are given a name at birth that's used as a first name, but give themselves new surnames as they grow.",
@@ -4629,8 +4630,7 @@
         }
        ]
       }
-     ],
-     "type": "entries"
+     ]
     },
     {
      "type": "inset",
@@ -4661,6 +4661,11 @@
   "size": [
    "M"
   ],
+  "speed": {
+   "walk": 30,
+   "swim": true
+  },
+  "darkvision": 90,
   "sizeEntry": {
    "type": "item",
    "name": "Size:",
@@ -4668,11 +4673,6 @@
     "Medium (about 4-5 feet tall)"
    ]
   },
-  "speed": {
-   "walk": 30,
-   "swim": true
-  },
-  "darkvision": 90,
   "entries": [
    {
     "type": "entries",
@@ -4713,8 +4713,8 @@
    "humanoid"
   ],
   "size": [
-   "M",
-   "S"
+   "S",
+   "M"
   ],
   "speed": 30,
   "languageProficiencies": [
@@ -5062,15 +5062,15 @@
   ],
   "entries": [
    {
-    "name": "Age",
     "type": "entries",
+    "name": "Age",
     "entries": [
      "While ages fluctuate, gallus reach maturity around 18 and can live anywhere between 70 and 100 years."
     ]
    },
    {
-    "name": "Alignment",
     "type": "entries",
+    "name": "Alignment",
     "entries": [
      "Most gallus are lawful good. They are a salt-of-the-earth sort of folk who believe in justice, the value of hard work, and the importance of respecting others."
     ]
@@ -5083,50 +5083,50 @@
     ]
    },
    {
-    "name": "Speed",
     "type": "entries",
+    "name": "Speed",
     "entries": [
      "Your base walking speed is 30 feet."
     ]
    },
    {
-    "name": "Glide",
     "type": "entries",
+    "name": "Glide",
     "entries": [
      "Using your feathered arms, you can slow your fall, and glide short distances. When falling you can use your reaction to spread your arms, stiffen your wing feathers, and slow your descent. While doing so, you continue to fall gently at a speed of 60 feet per round, taking no fall damage when you land. If you would fall at least 10 feet in this way, you may fly up to your movement speed in one direction you choose, although you cannot choose to move upwards, landing in the space you finish your movement. You cannot glide while carrying heavy weapons or wielding a shield (though you may drop any held items as part of your reaction to spread your arms). You cannot glide while wearing heavy armor, or if you are encumbered."
     ]
    },
    {
-    "name": "Wing Flap",
     "type": "entries",
+    "name": "Wing Flap",
     "entries": [
      "As a bonus action, you can use your powerful feathered arms to propel yourself upward a distance equal to half your movement speed. You can use it in conjunction with a regular jump, but not while gliding."
     ]
    },
    {
-    "name": "Communal",
     "type": "entries",
+    "name": "Communal",
     "entries": [
      "Whenever you make an Intelligence ({@skill History}) check related to the history of your race, culture, or community, you are considered proficient in the {@skill History} skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
     ]
    },
    {
-    "name": "Militia Training",
     "type": "entries",
+    "name": "Militia Training",
     "entries": [
      "You have proficiency in {@filter simple weapons|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}."
     ]
    },
    {
-    "name": "Of the People",
     "type": "entries",
+    "name": "Of the People",
     "entries": [
      "You gain proficiency with the {@filter artisan tools|items|source=phb|category=basic|type=artisan's tools} of your choice: {@item brewer's supplies|PHB}, {@item carpenter's tools|PHB}, or {@item smith's tools|PHB}."
     ]
    },
    {
-    "name": "Languages",
     "type": "entries",
+    "name": "Languages",
     "entries": [
      "You can speak, read, and write Birdfolk. You can also understand Auran, though you cannot speak it naturally."
     ]
@@ -5544,6 +5544,10 @@
   "size": [
    "M"
   ],
+  "speed": 30,
+  "traitTags": [
+   "Powerful Build"
+  ],
   "sizeEntry": {
    "type": "item",
    "name": "Size:",
@@ -5551,10 +5555,6 @@
     "Medium (height varies)"
    ]
   },
-  "speed": 30,
-  "traitTags": [
-   "Powerful Build"
-  ],
   "entries": [
    {
     "type": "entries",
@@ -5728,6 +5728,8 @@
     ]
    }
   ],
+  "hasFluff": true,
+  "hasFluffImages": true,
   "_versions": [
    {
     "name": "Giantkin; Cloud",
@@ -5896,7 +5898,6 @@
    {
     "name": "Giantkin; Stone",
     "source": "NorthlandsWorldbook",
-    "darkvision": 60,
     "_mod": {
      "entries": [
       {
@@ -5930,7 +5931,8 @@
        ]
       }
      ]
-    }
+    },
+    "darkvision": 60
    },
    {
     "name": "Giantkin; Storm",
@@ -5988,9 +5990,7 @@
      }
     ]
    }
-  ],
-  "hasFluff": true,
-  "hasFluffImages": true
+  ]
  },
  {
   "name": "Gnarlborn",
@@ -6208,10 +6208,10 @@
   "name": "Gnoll",
   "source": "FoEQuickstone",
   "page": 158,
-  "edition": "one",
   "reprintedAs": [
    "Gnoll|ExploringEberron24"
   ],
+  "edition": "one",
   "creatureTypes": [
    "humanoid"
   ],
@@ -6220,16 +6220,9 @@
   ],
   "speed": 30,
   "darkvision": 60,
-  "sizeEntry": {
-   "type": "item",
-   "name": "Size:",
-   "entries": [
-    "Medium (about 7–8 feet tall)"
-   ]
-  },
   "traitTags": [
-   "Skill Proficiency",
-   "Natural Weapon"
+   "Natural Weapon",
+   "Skill Proficiency"
   ],
   "skillProficiencies": [
    {
@@ -6242,6 +6235,13 @@
     }
    }
   ],
+  "sizeEntry": {
+   "type": "item",
+   "name": "Size:",
+   "entries": [
+    "Medium (about 7–8 feet tall)"
+   ]
+  },
   "entries": [
    {
     "type": "entries",
@@ -6426,74 +6426,74 @@
   ],
   "entries": [
    {
+    "type": "entries",
     "name": "Age",
     "entries": [
      "Gobbocs grow quickly and die young They walk hours after hatching, reach adulthood by age 7, and live around 30 years."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Languages",
     "entries": [
      "You can speak, read, and write Common and one other language of your choice."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Size",
     "entries": [
      "Gobbocs are a diminutive race and stand on average 2 to 3 feet tall Your size is Small."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Speed",
     "entries": [
      "Your base walking speed is 25 feet."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Commune with Fowl Folk",
     "entries": [
      "You have the ability to communicate in a limited manner with feathered beasts and monstrosities They can understand the meaning of your words, though you have no special ability to understand them in return You have advantage on all checks you make to influence them."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Coward's Creed",
     "entries": [
      "After successfully hitting with a melee attack, you can take the Disengage action as a bonus action."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Feathered",
     "entries": [
      "Your light bones and feathered form reduce the impact of gravity; you take only half damage from falling."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Gallus Domesticus",
     "entries": [
      "You can cast the polymorph spell on yourself with this trait, using Charisma as your spellcasting ability When you use this version of polymorph, you always assume the form of a Tiny {@creature Chicken|HelianasGuidetoMonsterHunting} (see statblock below). Once you cast the spell, you can't cast it again with this trait until you finish a long rest."
-    ],
-    "type": "entries"
+    ]
    },
    {
     "type": "statblock",
     "tag": "creature",
-    "source": "HelianasGuidetoMonsterHunting",
     "name": "Chicken",
+    "source": "HelianasGuidetoMonsterHunting",
     "style": "inset"
    },
    {
+    "type": "entries",
     "name": "Headless Chicken",
     "entries": [
      "When you are reduced to 0 hit points, but not killed outright, you don't immediately fall {@condition unconscious} Instead, you can immediately move up to your speed without provoking opportunity attacks You then fall {@condition unconscious} as if you had been reduced to 0 hit points in the space where you finish this movement."
-    ],
-    "type": "entries"
+    ]
    }
   ],
   "fluff": {
@@ -6507,26 +6507,26 @@
     },
     "Nestled in secluded clearings in the woods, on hilltops with extraordinary vantages, or in easily collapsible canyons, gobbocs seek safety above all else Survival is a gobboc's watchword; their own survival is their number one goal on expedition— treasure, glory, and saving the world be damned.",
     {
+     "type": "entries",
      "name": "Brave Cowards",
      "entries": [
       "You'll likely recognise the back of a gobboc's head more than the front, given their propensity to run away at the first sign of danger. While this is the epitome of cowardice, it is a specifically brave kind of cowardice; life is scary and living another day is the bravest thing you can do At least, this is what is taught to gobboc from the moment they can walk, a few hours after they're born.",
       "A typical gobboc is never the first to enter a room nor the last in a line of dungeon delvers They aim to keep bodies firmly before and behind them, a tactical meat shield to ward off harm. Indeed, gobbocs are the ultimate hit-and-run fighters, retreating from a foe before it can retaliate against their precise and lightning-quick attacks. This method of fighting, taught to all gobbocs, is known as the Klucking Fighting Creed."
-     ],
-     "type": "entries"
+     ]
     },
     {
+     "type": "entries",
      "name": "Fit and Sit",
      "entries": [
       "Gobbocs have a peculiar tendency to sit on things The pinnacle of this innate desire is the Festival of Brooding, sometimes known as the Eggstravaganza. This annual event finds all the gobbocs in a town creating the most comfortable thrones, bean bag chairs, and bundles of straw possible before sitting on them around a huge bonfire. There are no fireworks; sudden, loud noises are frowned upon in gobboc society."
-     ],
-     "type": "entries"
+     ]
     },
     {
+     "type": "entries",
      "name": "Avian Ascendency",
      "entries": [
       "Gobbocs worship other birds The bigger the bird, the more holy it is In fact, similarly to kobolds, gobboc belief is innately magical It is so potent that gobboc belief causes birds to become more intelligent. In times of war, gobboc hosts are often accompanied by flocks of birds, including mounted divisions of razor-clawed and quick-witted cassowaries and flying contingents of super-intelligent hippogriffs. It is widely posited that the famous gobboc playwright Owlfred Hatchcluck based his play, {@i The Birds}, on this uniquely gobboc occurrence."
-     ],
-     "type": "entries"
+     ]
     }
    ],
    "images": [
@@ -6552,8 +6552,8 @@
   },
   "ability": [
    {
-    "con": 2,
-    "str": 1
+    "str": 1,
+    "con": 2
    }
   ],
   "traitTags": [
@@ -6568,67 +6568,67 @@
   ],
   "entries": [
    {
+    "type": "entries",
     "name": "Age",
     "entries": [
      "Golynn grow rapidly and reach maturity at 10 years of age On average they live about 150 years"
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Languages",
     "entries": [
      "You can speak, read, and write Common and one other language of your choice"
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Size",
     "entries": [
      "Golynn stand between 7 and 8 feet tall and average between 300 and 400 pounds Your size is Medium"
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Speed",
     "entries": [
      "Your base walking speed is 30 feet."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Natural Armour",
     "entries": [
      "Your body is covered in thick, keratinous scales When you aren't wearing armour, your AC is 13 + your Dexterity modifier. You can use your natural armour to determine your AC if the armour you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armour."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Powerful Build",
     "entries": [
      "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Shovel Talons",
     "entries": [
      "Your wide, powerful claws are perfect for creating tunnels and burrows You have a burrowing speed of 15 feet, but can only use it to tunnel through soft earth, or loose stone."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Drill Dervish",
     "entries": [
      "While burrowing underground, you can shift the ground under a creature's feet, potentially causing it to fall over If you burrow directly under a Large or smaller creature that is standing on the ground, the creature must succeed on a Strength saving throw or be knocked {@condition prone} The DC for this saving throw equals 8 + your Strength modifier + your proficiency bonus."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Tremorsense",
     "entries": [
      "Knowing where the next meal— like a juicy, giant earthworm—can be found while underground requires a specific adaptation. You have tremorsense out to a range of 5 feet As an action, you can hone your senses, increasing the range of this sense out to 20 feet until the end of your next turn."
-    ],
-    "type": "entries"
+    ]
    }
   ],
   "fluff": {
@@ -6642,27 +6642,27 @@
     },
     "The rich scent of freshly-turned earth may be a sure indicator that a group of nomadic golynn is in the area Vivacious wanderers, golynn are creatures of nature and have little use for the trappings of modern society Their shovel-like hands, scaly exterior, and insect-devouring constitution ensure their survival wherever the earth is soft and the soil is fertile.",
     {
+     "type": "entries",
      "name": "Hearth and Heartbeat",
      "entries": [
       "Golynn adore rhythm. They find joy in the thrum of a lightning-rail, the clip-clop of a riding goat's hooves, and the heartbeats of their kith and kin. From these everyday occurrences, golynn make wonderfully complex polyrhythms, music whose restorative vibrations can reinvigorate the melancholy and afraid Indeed, the lead percussionist for the legendary opteran band, Wings of a Butterfly, was Hopo Aman, a golynn maestro of the dwarven tablah.",
       "Golynn legend tells of a single, pulsing rhythm that drives all life in the world, the golo'apa, or 'Heartbeat of the World' Many golynn's nomadic existence is a singular quest to explore all the nooks and crannies of the world, searching for this rhythm In their never-ending pilgrimage, golynn leave a plethora of hidden burrows—warm, safe spaces whose locations are passed on by word of mouth."
-     ],
-     "type": "entries"
+     ]
     },
     {
+     "type": "entries",
      "name": "Dig a Hole Lotta' Trouble",
      "entries": [
       "This constant burrowing can sometimes bring golynn into conflict with the uto monké, or 'those that live under the sky' Golynn have ruined many a quality murderbowl pitch and have even inadvertently undermined castles while searching for the rhythmic clanking of a prisoner's chains Conversely, some farmers, recognising their natural aptitude for digging, engage passing golynn as farmhands whenever possible, promising them all the grubs they can eat in exchange for a day's work"
-     ],
-     "type": "entries"
+     ]
     },
     {
+     "type": "entries",
      "name": "Happenstance",
      "entries": [
       "Not all golynn are raised by their own kin Rumours of the magical healing properties of golynn scales are still abound, leading unsavoury and desperate individuals to hunt them for these entirely-mundane components Fortunately, orphaned golynn have been taken in by all manner of parents, from halflings, dwarves, and gnomes to lotol and kobolds who regard them as huge, scaled, dragon-kin",
       "ith their fondness for exploration, golynn make natural adventurers A burrowing golynn might accidentally fall into an underground sepulchre, find a long-buried artifact, or stumble upon the machinations of an evil necromancer bent on raising an army of the undead."
-     ],
-     "type": "entries"
+     ]
     }
    ],
    "images": [
@@ -7019,13 +7019,9 @@
    "walk": 30,
    "fly": true
   },
-  "sizeEntry": {
-   "type": "item",
-   "name": "Size:",
-   "entries": [
-    "Medium (about 5–6 feet tall)"
-   ]
-  },
+  "traitTags": [
+   "Skill Proficiency"
+  ],
   "skillProficiencies": [
    {
     "performance": true
@@ -7064,9 +7060,13 @@
     }
    }
   ],
-  "traitTags": [
-   "Skill Proficiency"
-  ],
+  "sizeEntry": {
+   "type": "item",
+   "name": "Size:",
+   "entries": [
+    "Medium (about 5–6 feet tall)"
+   ]
+  },
   "entries": [
    {
     "type": "entries",
@@ -7095,17 +7095,17 @@
     "entries": [
      "If you have the Spellcasting or the Pact Magic class feature, the spells on the Harpy Spells table are added to that feature's spell list. You can cast these spells using only Verbal components in place of their usual components.",
      {
-      "name": "Harpy Spells",
       "type": "table",
+      "name": "Harpy Spells",
       "caption": "Harpy Spells",
       "page": 159,
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "Spell Level",
        "Spell"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -7380,8 +7380,8 @@
   },
   "ability": [
    {
-    "cha": 2,
-    "wis": 1
+    "wis": 1,
+    "cha": 2
    }
   ],
   "age": {
@@ -7419,15 +7419,15 @@
   ],
   "entries": [
    {
-    "name": "Age",
     "type": "entries",
+    "name": "Age",
     "entries": [
      "Hedges take longer to mature than most other races, reaching adulthood around 20 years. They also live for a long time, with many reaching 120 years or more."
     ]
    },
    {
-    "name": "Alignment",
     "type": "entries",
+    "name": "Alignment",
     "entries": [
      "Hedges are compassionate, empathetic, and diplomatic, tending towards good alignments. They also favor neutral alignments, as hedges have a great respect for the balance of nature."
     ]
@@ -7440,51 +7440,51 @@
     ]
    },
    {
-    "name": "Speed",
     "type": "entries",
+    "name": "Speed",
     "entries": [
      "Your base walking speed is 25 feet."
     ]
    },
    {
-    "name": "Natural Burrowers",
     "type": "entries",
+    "name": "Natural Burrowers",
     "entries": [
      "You have a burrowing speed of 15 feet. You are capable of burrowing through soil, but are unable to dig through anything more substantial with just your clawed hands."
     ]
    },
    {
-    "name": "Spiny Quills",
     "type": "entries",
+    "name": "Spiny Quills",
     "entries": [
      "The backs of hedges are covered with spiny quills, which makes it impossible for hedges to wear armor. These quills provide exceptional protection, therefore you have a base armor class of 14 + your Dexterity modifier. Even though you can't wear armor, you can still benefit from the armor class bonus provided by shields so long as you are proficient with them."
     ]
    },
    {
-    "name": "Curl Up",
     "type": "entries",
+    "name": "Curl Up",
     "entries": [
      "You can use your action to curl up, exposing attackers to a wall of your toughened quills. While curled up you cannot move, attack, or cast spells with somatic components, and your base armor class becomes 19. You cannot benefit from any Dexterity bonus to armor class while curled up, but you can still use shields.",
      "Any creature that misses you with a melee attack while you are curled up takes {@damage 2d4} points of piercing damage from your sharp quills. If a creature hits you while you are curled up, you are knocked {@condition prone} in your space at the end of the turn. You may uncurl yourself at any point during your turn."
     ]
    },
    {
-    "name": "Forest Magic",
     "type": "entries",
+    "name": "Forest Magic",
     "entries": [
      "You have a deep connection to the magic of the Wood. You know the {@spell druidcraft} cantrip. Additionally, you can cast {@spell animal messenger} as a 2nd level spell once with this trait, and regain the ability to do so after a short or long rest. Charisma is your spellcasting ability for these spells."
     ]
    },
    {
-    "name": "Speak With Bugs",
     "type": "entries",
+    "name": "Speak With Bugs",
     "entries": [
      "Through sounds and gestures, you can communicate simple ideas with creatures of the beast subtype that represent insects, spiders, worms, and other creepy crawlies, regardless of their size."
     ]
    },
    {
-    "name": "Languages",
     "type": "entries",
+    "name": "Languages",
     "entries": [
      "You can speak, read, and write Birdfolk and Hedge."
     ]
@@ -7610,8 +7610,8 @@
      {
       "type": "statblock",
       "tag": "table",
-      "source": "TLotRR",
       "name": "Starting Gear",
+      "source": "TLotRR",
       "page": 70,
       "collapsed": true
      }
@@ -7773,15 +7773,15 @@
   ],
   "entries": [
    {
-    "name": "Age",
     "type": "entries",
+    "name": "Age",
     "entries": [
      "Jerbeens grow quickly, reaching maturity around 5 years. They are the shortest lived of all the humblefolk races, living just about 40 years."
     ]
    },
    {
-    "name": "Alignment",
     "type": "entries",
+    "name": "Alignment",
     "entries": [
      "Being small and facing many threats in the world, jerbeens are sensitive to the feelings of others, and tend towards good alignments. They also lean more towards lawful alignments due to their co-operative nature."
     ]
@@ -7794,43 +7794,43 @@
     ]
    },
    {
-    "name": "Speed",
     "type": "entries",
+    "name": "Speed",
     "entries": [
      "Your base walking speed is 30 feet."
     ]
    },
    {
-    "name": "Standing Leap",
     "type": "entries",
+    "name": "Standing Leap",
     "entries": [
      "Your base long jump is 30 feet, and your base high jump is 15 feet, with or without a running start."
     ]
    },
    {
-    "name": "Nimbleness",
     "type": "entries",
+    "name": "Nimbleness",
     "entries": [
      "You can move through the space of any creature that is of a size larger than yours."
     ]
    },
    {
-    "name": "Take Heart",
     "type": "entries",
+    "name": "Take Heart",
     "entries": [
      "You have advantage on Strength saving throws and saving throws against being frightened as long as you are within 5 feet of an ally who isn't {@condition frightened} or {@condition incapacitated} that you can both see and hear."
     ]
    },
    {
-    "name": "Team Tactics",
     "type": "entries",
+    "name": "Team Tactics",
     "entries": [
      "You can use the {@action Help} action as a bonus action."
     ]
    },
    {
-    "name": "Languages",
     "type": "entries",
+    "name": "Languages",
     "entries": [
      "You can speak, read, and write Birdfolk and Jerbeen."
     ]
@@ -8107,48 +8107,49 @@
   ],
   "entries": [
    {
+    "type": "entries",
     "name": "Age",
     "entries": [
      "Newborn lotol metamorphose into their adult form in 1 year and reach full maturity after 10 years They typically live between 40 and 50 years."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Languages",
     "entries": [
      "You can speak, read, and write Common and one other language of your choice"
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Size",
     "entries": [
      "Lotol never stop growing; the larger the lotol, the older it probably is! Lotol typically range from 4 feet to 5 feet tall Your size is Medium."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Speed",
     "entries": [
      "Your base walking speed is 30 feet."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Oblivious",
     "entries": [
      "Your mind is a simple place, the influence of outside forces washing over it like crashing waves over smooth sea glass You have advantage on Wisdom saving throws."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Slippery Skin",
     "entries": [
      "You have advantage on ability checks and saving throws made to avoid or end the grappled or {@condition restrained} conditions on yourself."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Adaptive Polymorphism",
     "entries": [
      "Each lotol's lineage is unique, and certain traits follow clans or families, or mutate by chance in individuals Choose two of the following adaptations When you gain a level, you can choose to replace one of these adaptations with another when you finish your next long rest.",
@@ -8156,44 +8157,43 @@
       "type": "list",
       "items": [
        {
+        "type": "entries",
         "name": "Aqueous Adaptation",
         "entries": [
          "You gain a swimming speed equal to your walking speed and can breathe underwater."
-        ],
-        "type": "entries"
+        ]
        },
        {
+        "type": "entries",
         "name": "Gecko Cling",
         "entries": [
          "You gain a climbing speed of 20 feet and you have advantage on ability checks and saving throws made to maintain grapples and prevent yourself from being disarmed of an object you are holding."
-        ],
-        "type": "entries"
+        ]
        },
        {
+        "type": "entries",
         "name": "Darkvision",
         "entries": [
          "Accustomed to life in the murky underbrush, you have superior vision in dark and dim conditions You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light You can't discern colour in darkness, only shades of grey."
-        ],
-        "type": "entries"
+        ]
        },
        {
+        "type": "entries",
         "name": "Prehensile Tongue",
         "entries": [
          "Your long, extendable tongue can be used to grab Tiny objects out of arm's reach As a bonus action, you can use your tongue to grab a Tiny object within 20 feet of you. If the object weighs less than 10 pounds, isn't being worn or carried, and isn't fixed to any surface, you pull the object back to you."
-        ],
-        "type": "entries"
+        ]
        },
        {
+        "type": "entries",
         "name": "Shocking Skin",
         "entries": [
          "You learn the {@spell shocking grasp} cantrip Constitution is your spellcasting ability for this spell When a creature within 5 feet of you hits you with a melee attack, you can use a reaction to cast the {@spell shocking grasp} cantrip, targeting the attacker You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-        ],
-        "type": "entries"
+        ]
        }
       ]
      }
-    ],
-    "type": "entries"
+    ]
    }
   ],
   "fluff": {
@@ -8207,27 +8207,27 @@
     },
     "Creatures of swamp, river, and lake, these salamander-kin go with the flow—literally. Where the water wends, lotol make their home Despite their shorter lives, lotol rarely rush; they have little to prove and trust in the currents of fate to take them where they need to be Masters of adaptation, it is the lotol's propensity to find joy in all things that sets them apart from other races: the croak of a bullfrog, the death of an elder, or the sweet scent of petrichor after a long hot summer; all are accepted with an open, wholesome grace.",
     {
+     "type": "entries",
      "name": "Lizard Legend",
      "entries": [
       "In lotol legend, the first lotol ancestor, Ablon the Stoney, had magnificently hard scales but was a stoic and unfeeling creature To teach him a lesson, the great Platinum Dragon cursed him to be more sensitive Ablon's scales fell from his body, and his kin would forever bear this soft-skinned nature as a reminder to always be aware of how your actions might affect the world around you. In their own tongue, lotol are known as the 'lizards without scales'.",
       "Consequently, lotol often remark when they meet humanoids that do have scales, such as dragonborn, lizardfolk, or golynn This reaction varies, from awe to envy, or from open infatuation to a fearful expectation of insensitivity or brutishness (stereotypes some lotol individuals hold). A sect of lotol, The Platinum Apology, dedicate their lives to ending this curse and restoring themselves as scale-wearing reptiles Whether or not this curse is real, let alone possible, is unknown."
-     ],
-     "type": "entries"
+     ]
     },
     {
+     "type": "entries",
      "name": "Water Waders",
      "entries": [
       "The few times lotol ever come into conflict with neighbours, it is almost always to do with water A growing lotol population creates new wetlands by damming up rivers, sometimes to the chagrin of local trappers and woodsfolk. Following floods, whole pods of lotol can find themselves washed downstream into an entirely new (and often recently-drowned) habitat. Fortunately for those that may be reconstructing their lives following such an inundation, lotol are more than keen to help Lotol with innate aqueous adaptations can prove a blessing to washed-out villages and offset the enmity villagers may feel towards this newly-arrived population of semi-nomadic salamander-folk.",
       "With their supple, permeable skin, lotol are extremely sensitive to pollutants If a black dragon poisons the water upstream or heavy metals from a dwarven mine begin to leech into the groundwater, lotol are often the first to know. The only record of lotol going to war is recorded in the oral chant The Cleansing Tide With the help of a bronze dragon, Chionthan the Forgetful, lotol of the Chion Valley snuck upon the cruel and pernicious Ulvik the Black There they delivered a mighty electric current into his lair, causing him to flee in fear. Lotol believe that their ability to generate electric currents through their skin is a blessing from the great Chionthan."
-     ],
-     "type": "entries"
+     ]
     },
     {
+     "type": "entries",
      "name": "Adaptive and Atypical",
      "entries": [
       "To call lotol adaptive is an understatement When required, lotol can change their very physiology, growing gills, improving their eyesight, or even developing long, elastic tongues Adapting quickly to different environments allows them to explore a gamut of potential habitats, despite their sensitive skin Some lotol even embark on quests, seeking to put themselves in the most unusual and atypical situations imaginable in order to unlock as-yet-undiscovered adaptations."
-     ],
-     "type": "entries"
+     ]
     }
    ],
    "images": [
@@ -8280,15 +8280,15 @@
   ],
   "entries": [
    {
-    "name": "Age",
     "type": "entries",
+    "name": "Age",
     "entries": [
      "Lumas are short-lived reaching adulthood around 20 years. Few lumas live beyond 70 years."
     ]
    },
    {
-    "name": "Alignment",
     "type": "entries",
+    "name": "Alignment",
     "entries": [
      "Spurred by personal interests and flights of fancy, lumas lean towards chaotic alignments. While generally good natured, those that have been spurned by society find it hard to see the benefits of altruism, but even under such circumstances lumas are rarely evil."
     ]
@@ -8301,43 +8301,43 @@
     ]
    },
    {
-    "name": "Speed",
     "type": "entries",
+    "name": "Speed",
     "entries": [
      "Your base walking speed is 25 feet."
     ]
    },
    {
-    "name": "Glide",
     "type": "entries",
+    "name": "Glide",
     "entries": [
      "Using your feathered arms, you can slow your fall, and glide short distances. When falling you can use your reaction to spread your arms, stiffen your wing feathers, and slow your descent. While doing so, you continue to fall gently at a speed of 60 feet per round, taking no fall damage when you land. If you would fall at least 10 feet in this way, you may fly up to your movement speed in one direction you choose, although you cannot choose to move upwards, landing in the space you finish your movement. You cannot glide while carrying heavy weapons or wielding a shield (though you may drop any held items as part of your reaction to spread your arms). You cannot glide while wearing heavy armor, or if you are encumbered."
     ]
    },
    {
-    "name": "Wing Flap",
     "type": "entries",
+    "name": "Wing Flap",
     "entries": [
      "As a bonus action, you can use your powerful feathered arms to propel yourself upward a distance equal to half your movement speed. You can use it in conjunction with a regular jump, but not while gliding."
     ]
    },
    {
-    "name": "Touched",
     "type": "entries",
+    "name": "Touched",
     "entries": [
      "You know one {@filter cantrip from the sorcerer spell list|spells|level=0|class=sorcerer}. Charisma is your spellcasting ability for this cantrip."
     ]
    },
    {
-    "name": "Fated",
     "type": "entries",
+    "name": "Fated",
     "entries": [
      "Whether by luck or a guiding presence, you always seem to find your way. You can choose to reroll any attack, skill check, or saving throw. You can decide to do this after your roll, but only before the outcome of the roll has been determined. You can't use this feature again until you have completed a long rest."
     ]
    },
    {
-    "name": "Languages",
     "type": "entries",
+    "name": "Languages",
     "entries": [
      "You can speak, read, and write Birdfolk. You can also understand Auran, though you cannot speak it naturally."
     ]
@@ -8463,8 +8463,8 @@
      {
       "type": "statblock",
       "tag": "table",
-      "source": "TLotRR",
       "name": "Starting Gear",
+      "source": "TLotRR",
       "page": 70,
       "collapsed": true
      }
@@ -8834,13 +8834,12 @@
     ]
    }
   ],
+  "hasFluff": true,
+  "hasFluffImages": true,
   "_versions": [
    {
     "name": "Manikin; Custodian",
     "source": "SGEHPP",
-    "traitTags": [
-     "Powerful Build"
-    ],
     "_mod": {
      "entries": [
       {
@@ -8857,21 +8856,14 @@
        ]
       }
      ]
-    }
+    },
+    "traitTags": [
+     "Powerful Build"
+    ]
    },
    {
     "name": "Manikin; Handler",
     "source": "SGEHPP",
-    "skillProficiencies": [
-     {
-      "stealth": true
-     }
-    ],
-    "toolProficiencies": [
-     {
-      "disguise kit|XPHB": true
-     }
-    ],
     "_mod": {
      "entries": [
       {
@@ -8888,16 +8880,21 @@
        ]
       }
      ]
-    }
+    },
+    "skillProficiencies": [
+     {
+      "stealth": true
+     }
+    ],
+    "toolProficiencies": [
+     {
+      "disguise kit|XPHB": true
+     }
+    ]
    },
    {
     "name": "Manikin; Thespian",
     "source": "SGEHPP",
-    "skillProficiencies": [
-     {
-      "performance": true
-     }
-    ],
     "_mod": {
      "entries": [
       {
@@ -8914,11 +8911,14 @@
        ]
       }
      ]
-    }
+    },
+    "skillProficiencies": [
+     {
+      "performance": true
+     }
+    ]
    }
-  ],
-  "hasFluff": true,
-  "hasFluffImages": true
+  ]
  },
  {
   "name": "Mapach",
@@ -8933,8 +8933,8 @@
   },
   "ability": [
    {
-    "wis": 2,
-    "con": 1
+    "con": 1,
+    "wis": 2
    }
   ],
   "age": {
@@ -8957,15 +8957,15 @@
   ],
   "entries": [
    {
-    "name": "Age",
     "type": "entries",
+    "name": "Age",
     "entries": [
      "Mapachs mature quickly, reaching adulthood around 8 years. Despite this they have fairly average lifespans, the oldest among them living just past 60 years."
     ]
    },
    {
-    "name": "Alignment",
     "type": "entries",
+    "name": "Alignment",
     "entries": [
      "Mapachs don't favour good over evil, with most choosing to remain neutral. They also lean towards the freedom of chaotic alignments."
     ]
@@ -8978,36 +8978,36 @@
     ]
    },
    {
-    "name": "Speed",
     "type": "entries",
+    "name": "Speed",
     "entries": [
      "Your base walking speed is 30 feet."
     ]
    },
    {
-    "name": "Darkvision",
     "type": "entries",
+    "name": "Darkvision",
     "entries": [
      "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray. Mapachs are most comfortable under the cloak of night."
     ]
    },
    {
-    "name": "Expert Climbers",
     "type": "entries",
+    "name": "Expert Climbers",
     "entries": [
      "You have a climb speed of 20 feet."
     ]
    },
    {
-    "name": "Resilience",
     "type": "entries",
+    "name": "Resilience",
     "entries": [
      "You have advantage on saving throws against poison and resistance against poison damage."
     ]
    },
    {
-    "name": "Scroungecraft",
     "type": "entries",
+    "name": "Scroungecraft",
     "entries": [
      "You are proficient with {@item tinker's tools|PHB}. Additionally, you have the ability to construct crude but functional versions of common items using materials present in your surroundings. You may spend 10 minutes to craft these materials into any {@filter tool or piece of adventuring gear worth 30 gold pieces or less|items|type=adventuring gear;tool|Cost=[&1;&3000]}. The item will be completely functional, even capable of passing for a disguise (if you crafted an article of clothing). Tools, along with any other item that would logically break on its first use (caltrops, arrows), will become useless afterward. Scroungecrafted items will otherwise last 1 hour before falling apart.",
      "Depending on the materials available, a Game Master (GM) may rule that you cannot craft an item in this way. For example, a vial of acid might be easy to make if you happen to be near a nest of acidic beetle larvae, or bark can be bound into a makeshift flask, but it would be difficult to create a passable facsimile of silken robes from a pile of leaves.",
@@ -9015,15 +9015,15 @@
     ]
    },
    {
-    "name": "Skulker",
     "type": "entries",
+    "name": "Skulker",
     "entries": [
      "You have advantage on {@skill Stealth} checks made in dim light and darkness."
     ]
    },
    {
-    "name": "Languages",
     "type": "entries",
+    "name": "Languages",
     "entries": [
      "You can speak, read, and write Birdfolk and Mapach."
     ]
@@ -9045,21 +9045,17 @@
   ],
   "speed": 30,
   "darkvision": 60,
-  "sizeEntry": {
-   "type": "item",
-   "name": "Size:",
-   "entries": [
-    "Medium (about 5–6 feet tall)"
-   ]
-  },
-  "languageProficiencies": [
-   {
-    "serpentine|FoEQuickstone": true
-   }
+  "traitTags": [
+   "Skill Proficiency"
   ],
   "skillProficiencies": [
    {
     "intimidation": true
+   }
+  ],
+  "languageProficiencies": [
+   {
+    "serpentine|FoEQuickstone": true
    }
   ],
   "additionalSpells": [
@@ -9095,9 +9091,13 @@
     }
    }
   ],
-  "traitTags": [
-   "Skill Proficiency"
-  ],
+  "sizeEntry": {
+   "type": "item",
+   "name": "Size:",
+   "entries": [
+    "Medium (about 5–6 feet tall)"
+   ]
+  },
   "entries": [
    {
     "type": "entries",
@@ -9144,13 +9144,13 @@
       "type": "table",
       "caption": "Medusa Spells",
       "page": 160,
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "Spell Level",
        "Spell"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -9234,41 +9234,42 @@
   ],
   "entries": [
    {
+    "type": "entries",
     "name": "Age",
     "entries": [
      "In the right conditions, a corpse inoculated with mycelial spores can rise as a newly-formed, adult mycelian in under a month Mycelians tend to wear out a host in less than 7 years, and periodically redeploy their personal spores to animate a new, fresher corpse Theoretically, a mycelian can live on indefinitely, their minds and personalities changing with each rebirth."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Creature Type",
     "entries": [
      "You are a humanoid You are also considered a plant for any prerequisite or effect that requires you to be a plant."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Languages",
     "entries": [
      "You can speak, read, and write Common and one other language of your choice."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Size",
     "entries": [
      "Mycelians run the full gamut of humanoid races, from 2-foot-tall gnomes to 8-foot-tall golynns Your height, weight, and size are determined by the race to which your host corpse belonged in life It is typically Small or Medium."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Speed",
     "entries": [
      "Your base walking speed is dictated by the race to which your host corpse belonged in life It is typically 25 or 30 feet."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Symbiotic Assimilation",
     "entries": [
      "Your unique lifecycle allows you to co-opt some of the adaptations of your host corpse Choose two of the following adaptations; the race to which your host corpse belonged must have had this racial trait in order for you to choose it (GM's discretion).",
@@ -9276,100 +9277,100 @@
       "type": "list",
       "items": [
        {
+        "type": "entries",
         "entries": [
          {
+          "type": "entries",
           "name": "Damage Resistance (Multiple)",
           "entries": [
            "You have resistance to one damage type determined by your host body's race."
-          ],
-          "type": "entries"
+          ]
          }
-        ],
-        "type": "entries"
+        ]
        },
        {
+        "type": "entries",
         "entries": [
          {
+          "type": "entries",
           "name": "Darkvision (Multiple)",
           "entries": [
            "The darkened chambers of The Low are your home You have superior vision in dark and dim conditions You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light You can't discern colour in darkness, only shades of grey."
-          ],
-          "type": "entries"
+          ]
          }
-        ],
-        "type": "entries"
+        ]
        },
        {
+        "type": "entries",
         "entries": [
          {
+          "type": "entries",
           "name": "Dwarven Resilience (Dwarf)",
           "entries": [
            "You have advantage on saving throws against poison, and you have resistance against poison damage."
-          ],
-          "type": "entries"
+          ]
          }
-        ],
-        "type": "entries"
+        ]
        },
        {
+        "type": "entries",
         "entries": [
          {
+          "type": "entries",
           "name": "Halfling Nimbleness (Halfling)",
           "entries": [
            "You can move through the space of any creature that is of a size larger than yours."
-          ],
-          "type": "entries"
+          ]
          }
-        ],
-        "type": "entries"
+        ]
        },
        {
+        "type": "entries",
         "entries": [
          {
+          "type": "entries",
           "name": "Muscle Memory (Any)",
           "entries": [
            "You gain proficiency in one skill of your choice You can take this option multiple times."
-          ],
-          "type": "entries"
+          ]
          }
-        ],
-        "type": "entries"
+        ]
        },
        {
+        "type": "entries",
         "entries": [
          {
+          "type": "entries",
           "name": "Natural Weapon (Multiple)",
           "entries": [
            "You have a physical characteristic, such as horns, claws, or teeth, that acts as a natural melee weapon which you can use to make unarmed strikes If you hit with it, you deal bludgeoning, piercing, or slashing damage (depending on the body part) equal to your Strength modifier plus a damage die determined by your host body's race, instead of the bludgeoning damage normal for an unarmed strike."
-          ],
-          "type": "entries"
+          ]
          }
-        ],
-        "type": "entries"
+        ]
        },
        {
+        "type": "entries",
         "entries": [
          {
+          "type": "entries",
           "name": "Powerful Build (Multiple)",
           "entries": [
            "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
-          ],
-          "type": "entries"
+          ]
          }
-        ],
-        "type": "entries"
+        ]
        },
        {
+        "type": "entries",
         "entries": [
          {
+          "type": "entries",
           "name": "Relentless Endurance (Half-Orc)",
           "entries": [
            "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead You can't use this trait again until you finish a long rest."
-          ],
-          "type": "entries"
+          ]
          }
-        ],
-        "type": "entries"
+        ]
        }
       ]
      },
@@ -9380,23 +9381,22 @@
        "A GM has great latitude in deciding whether traits not in this list are available from other host races. If a trait is especially powerful, such as a flying speed, the GM could consider permitting a character to select only that feature and no others (i.e. the character gains one option from this list instead of two)."
       ]
      }
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Spore Spray",
     "entries": [
      "As a reaction when a creature within 10 feet of you hits you with a melee attack, you can attempt to poison it with a burst of spores The target must succeed on a Constitution saving throw (DC = 8 + your Constitution modifier + your proficiency bonus) or take 1d8 poison damage and become {@condition poisoned} until the end of its next turn You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. This damage increases to 2d8 at 5th level."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Insporeation",
     "entries": [
      "When you die within 100 feet of a humanoid corpse that has been dead no longer than 24 hours, and that hasn't been subjected to magic that accelerates decay or prevents decay (such as the {@spell gentle repose} spell), you can use your dying breath to eject spores to inhabit that corpse. Roll percentile dice If you roll a number equal to or higher than the distance between your body and the corpse in feet, your spores take hold For example, a target 30 feet away requires a roll of 30 or higher to succeed.",
      "On a success, the new body rises again in 2d6 days. You gain the benefits of a long rest and lose your previous Symbiotic Assimilation adaptations, gaining new ones according to the race of the target corpse On a failure, you die as normal."
-    ],
-    "type": "entries"
+    ]
    }
   ],
   "fluff": {
@@ -9410,28 +9410,28 @@
     },
     "Reusing and recycling are key tenets in the life of any mycelian Nothing is waste; rotten food can fatten a pig, a ruined shirt is a bandage waiting to happen, and corpses are new homes waiting for a little bit of reinvigoration Marginalised and persecuted by most societies, mycelians' propensity to recycle the recently deceased often brings them into conflict with other humanoids. That being said, graverobbers and less scrupulous grey market traders have been known to make a pretty penny out of selling ageing mycelians their next vessels.",
     {
+     "type": "entries",
      "name": "Reuse and Recycle",
      "entries": [
       "Mycelians reanimate the bodies of the recently deceased Understandably, many more 'civilised' races disagree with this practice—it's difficult to meet your uncle again a few hours after interring him Moreover, mycelians don't have the same regenerative abilities as the body's original inhabitant; wounds are patched over with a web of hyphae, the skin takes on a pale pallor, and the body wears out fairly quickly, lasting six to seven years.",
       "Much like hermit crabs wear shells, mycelians inoculate corpses with microscopic spores, before growing a web of hyphae through the body Nerves are co-opted, muscles are repaired, and fungal organs replace the internal viscera of the host The process is entirely biological, but less tolerant denizens of the world often believe these reanimated bodies to be the work of necromancers, treating mycelians as infectious, living dead.",
       "The key to distinguishing a mycelian from a zombie, of course, is the smell Mycelians carry a hearty, musky aroma like that of a vivacious forest floor. Undead, on the other hand, carry the putrid-sweet scent of decay. After several unfortunate interactions with necromancer-hunters, the Sisters of Mercy began employing dogs, with their keen sense of smell, to help differentiate between innocent mycelians and undead artifice."
-     ],
-     "type": "entries"
+     ]
     },
     {
+     "type": "entries",
      "name": "Ancestors and Aging",
      "entries": [
       "With each new host, a mycelian's psyche changes a little, moulded by the brain, body, and abilities of the host it co-opts In moving from one host to another, a mycelian also leaves behind some of its own memories, forever lost to the decay of time Despite being potentially thousands of years old, the longest-living communities of mycelians often have memories stretching back only a few decades For this reason, mycelians conduct a ritual shortly before death, where they recant a rhythmic history of their exploits in this host, adding it to the oral history of their community These oral histories can be days long, and minor word changes (or 'linguistic decay' as scholars refer to it) have resulted in tales becoming more and more outlandish the further back in time they occurred."
-     ],
-     "type": "entries"
+     ]
     },
     {
+     "type": "entries",
      "name": "Legend of the Mothershroom",
      "entries": [
       "Every mycelian oral history has one thing in common: its beginning These stories all start with the 'Mothershroom', a behemoth fungal organism and progenitor to all mycelians In some stories, the Mothershroom takes the form of a giant, multi-coloured tree In others, it is a miles-wide web of interconnecting, pulsing hyphae that thrum with thought and feeling. Despite their best efforts, no mycelian, explorer, or scholar has ever found the mothershroom Any knowledge of its location—if it even exists—has been lost to the grinding wheel of time.",
       "Many mycelians have embarked on quests to find their ancient ancestor For some such adventurers, the desire to find this holy figure is the only memory they retain between bodies."
-     ],
-     "type": "entries"
+     ]
     }
    ],
    "images": [
@@ -9497,15 +9497,15 @@
   "entries": [
    "Your Nakudama character gains traits that enable it to traverse and flourish on the island of Obojima.",
    {
-    "name": "Ability Score Increase",
     "type": "entries",
+    "name": "Ability Score Increase",
     "entries": [
      "One ability score of your choice increases by 2, and another ability score of your choice increases by 1."
     ]
    },
    {
-    "name": "Age",
     "type": "entries",
+    "name": "Age",
     "entries": [
      "Young Nakudama learn to walk and swim in shallow waters just a few weeks after birth. They reach adulthood by the age of 10 and live an average of 45 years."
     ]
@@ -9718,6 +9718,7 @@
   ],
   "entries": [
    {
+    "type": "entries",
     "name": "Ability Score Increase",
     "entries": [
      "Your Dexterity score increases by 2, and one other ability score based on your former race increases by 1, as described in the table below.",
@@ -9766,72 +9767,71 @@
        "*Choose one that the rakin subrace had a choice of."
       ]
      }
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Age",
     "entries": [
      "Ombrasks live as long as the race from which they originated."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Languages",
     "entries": [
      "You can read and write Common and Undercommon, but can speak only using your Voice Thief feature."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Size",
     "entries": [
      "Ombrasks retain the general shape of their former race Your size is either Medium or Small, based on your former race."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Speed",
     "entries": [
      "Your base walking speed is 30 feet"
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Darkvision",
     "entries": [
      "Accustomed to life on the Shadow Plane, you have superior vision in dark and dim conditions You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light You can't discern colour in darkness, only shades of grey."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Fade Away",
     "entries": [
      "When you reach 5th level, you can cast the {@spell invisibility} spell on yourself once with this trait, requiring no material components, and you regain the ability to do so when you finish a long rest Constitution is your spellcasting ability for this spell You can also cast this spell using any spell slots you have of the appropriate level."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Lightbender",
     "entries": [
      "Light naturally sculpts around your skin You have advantage on saving throws against being {@condition blinded}, and you have resistance to radiant damage."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Trackless",
     "entries": [
      "The Shadow Plane is a dangerous place and ombrasks quickly learn to move in the shadows, leaving scarce tracks in their wake You have proficiency in the {@skill Stealth} skill."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Voice Thief",
     "entries": [
      "While an ombrask can potentially understand any number of languages, it is a naturally mute creature. When a creature that can speak dies within 30 feet of you, you can use your reaction to absorb a piece of its psyche. After you have used this reaction, you can't do so again until you finish a long rest.",
      "After you have absorbed a psyche, you can perfectly mimic the creature's voice, cadence, and speech patterns indefinitely. You can hold a number of pieces of psyche (and mimic a number of voices) equal to your proficiency bonus. If absorbing a new piece of psyche would put you over this limit, you must choose one psyche to be replaced."
-    ],
-    "type": "entries"
+    ]
    }
   ],
   "fluff": {
@@ -9846,26 +9846,26 @@
     },
     "Those who wander the Shadow Plane are doomed to twisted fates and mired minds These fading, lost souls begin to manifest monstrous forms, although some especially resilient individuals manage to pull themselves from this dark path before their essence is wiped clean Known as ombrasks, these translucent creatures hail from a variety of heritages; from elf to dwarf, dragonborn to lotol, and rakin to goblin All struggle to recall even the simplest memory, such as their former name, and all have a ghostly, colourless appearance.",
     {
+     "type": "entries",
      "name": "Shadow Memories",
      "entries": [
       "One of the first things an ombrask forgets is its voice Though it knows and can understand the meaning of words, its cadence, pitch, and patterns of speech fade from lack of use; the dreary, joyless experience of the Shadow Plane leaves little to talk about However, ombrasks become especially sensitive to the psychic burst of emotion that accompanies death, the freeing of a soul from its shadow-numbed body Ombrasks can latch onto the shreds of this psyche and adopt its speech patterns, learning to mimic them perfectly.",
       "Next lost is the ability to feel, love, and smile; any emotion associated with joy or excitement is nullified. With prolonged distance from the Shadow Plane, or exposure to realms of strong emotion, such as the Plane of Fey or Springarden, these sensations can make a slow return for a lucky few What is never lost is the memory of mundane tasks, such as ploughing, chopping wood, or polishing armour Muscle memory is scarred into the minds of ombrasks, making them particularly deft at tiny, detailed work."
-     ],
-     "type": "entries"
+     ]
     },
     {
+     "type": "entries",
      "name": "Almost Unseen",
      "entries": [
       "If an ombrask doesn't find a way to exit the Shadow Plane or isn't summoned by some novice wizard, it can fade entirely, becoming an invisible, skulking creature bent only on survival In fact, there is strong evidence to suggest that the creature summoned by the unseen servant spell is one of these invisible creatures, temporarily pulled from the Shadow Plane The fate of those too far gone is enough to stop most explorers from staying long in that dull and lifeless expanse."
-     ],
-     "type": "entries"
+     ]
     },
     {
+     "type": "entries",
      "name": "Momento",
      "entries": [
       "A sense of adventure, a magical mishap, or a cruel curse, there are a multitude of reasons why a native of the Material Plane might find itself shunned to the Shadow Plane Discovering who they used to be is a motivator for many ombrasks Do they have parents? Cultural traditions? What is their history? On the other hand, some ombrasks, perhaps those with a foreboding sense of their past misdeeds, choose to ignore what might have come before and focus on living life anew That is, if their previous life doesn't come calling..."
-     ],
-     "type": "entries"
+     ]
     }
    ],
    "images": [
@@ -9891,8 +9891,8 @@
   },
   "ability": [
    {
-    "con": 2,
-    "str": 1
+    "str": 1,
+    "con": 2
    }
   ],
   "darkvision": 60,
@@ -9917,55 +9917,56 @@
   ],
   "entries": [
    {
+    "type": "entries",
     "name": "Age",
     "entries": [
      "An oozekin's age is nearly impossible to discern However, the compounds that sustain them appear to deteriorate quickly after 70 years."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Creature Type",
     "entries": [
      "You are a humanoid You are also considered an ooze for any prerequisite or effect that requires you to be an ooze."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Languages",
     "entries": [
      "You can speak, read, and write Common and one other language of your choice."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Size",
     "entries": [
      "Your size can be Medium or Small If you are Small, you grow to Medium size over {@dice 2d4} days When you are Medium, you can use an action to discard a piece of yourself to become Small."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Speed",
     "entries": [
      "Your base walking speed is 30 feet"
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Darkvision",
     "entries": [
      "Accustomed to life in dark, wet caverns, you have superior vision in dark and dim conditions You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light You can't discern colour in darkness, only shades of grey."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Acidic Flesh",
     "entries": [
      "You have resistance to acid damage, and you know the {@spell acid splash} cantrip If you cast the spell targeting a creature you're currently grappling or {@condition grappled} by, the target automatically fails its saving throw Constitution is your spellcasting ability for this spell."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Reshapeable",
     "entries": [
      "Starting at 3rd level you can, as an action, alter your body to assume the form of a cube or a puddle for up to 1 hour. After you do so, you can't do so again until you finish a long rest. While in either of these forms, you can't talk; manipulate objects; make attacks; or cast spells. You can end this effect early as an action. The form you assume has the following effects:",
@@ -9978,11 +9979,11 @@
         "entries": [
          "Your walking speed is halved and your body becomes a 5-foot cube You can safely store any items you are carrying, holding, or wearing in a vesicle within your body Creatures directly behind you have three-quarters cover against attacks that originate on the opposite side of you You also gain a new action option, the Engulf action:",
          {
+          "type": "entries",
           "name": "Engulf",
           "entries": [
            "You move up to your speed and can attempt to move into the space of one creature of equal or smaller size than you, which must make a Dexterity saving throw (DC = 8 + your Strength modifier + your proficiency bonus). On a failure, if you aren't already grappling a creature, the creature becomes {@condition grappled} by you While {@condition grappled} in this way, the creature is {@condition restrained} and takes acid damage at the start of each of its turns as if it had failed a saving throw against your acid splash cantrip On a success, you expend the movement but remain in the space from which your movement originated."
-          ],
-          "type": "entries"
+          ]
          }
         ]
        },
@@ -9993,8 +9994,7 @@
        }
       ]
      }
-    ],
-    "type": "entries"
+    ]
    }
   ],
   "fluff": {
@@ -10009,6 +10009,7 @@
     },
     "Naturally curious, oozekin do not have a culture of their own; instead, they tend to assimilate with whoever is ready to accept their slimy, invertebrate form From the bodyguards of mighty, stone-willed nobles, to adopted playmates of excitable halflings, oozekin are found everywhere, though in small numbers Taking on the values of those that surround them, oozekin are hard to pigeonhole and have but one thing in common: a delight in immersing their new-found consciousness in the habits and customs of other sapient creatures.",
     {
+     "type": "entries",
      "name": "Biomantic Origins",
      "entries": [
       "Oozekin are the odd by-products of Dr Stein's biomancy experiments—biomantic oozes that gained consciousness and self-replicate through asexual reproduction When the time is right, an oozekin produces a larval sludge: a juvenile, biomantically-altered ooze not dissimilar to those one might find in a dungeon. After this larva consumes enough sentient grey matter, it exhibits a sudden cognitive and physiological metamorphosis, rising as a humanoid-shaped oozekin.",
@@ -10020,16 +10021,15 @@
         "If a player character dies in an area rich with biomancy, you can consider allowing their character to be reborn as an oozekin. A biomantic ooze may well consume the grey matter of their brain and adopt a plethora of their personality traits, memories, and class levels."
        ]
       }
-     ],
-     "type": "entries"
+     ]
     },
     {
+     "type": "entries",
      "name": "Willing and Able",
      "entries": [
       "Relatively new to the world, oozekin are keen to prove themselves the equal of any other race Though most oozekin exist within the framework of other, established civilisations, pods of oozekin settlements have arisen in corners of The Low These conglomerations mix the various assimilated cultures and traditions each oozekin has experienced or formed with, often with unpredictable consequences Luckily, oozekin's propensity to get along with one another has resulted in the reconciliation of schisms between historically antagonistic races, such as grey dwarves and dark elves, even if only vicariously through their oozekin adoptees.",
       "Most oozekin are more than happy to fulfil their role as helpful and productive citizens, contributing to society in any way they can Others, perhaps those that accidentally harmed friends with their acidic skin, go to obscene lengths to disguise their true form, covering themselves head to toe in scraps of clothing, never staying in one place too long An especially curious and introspective few live to discover the reason for their existence. How come they have no parents? Where is their history? Why do they exist?."
-     ],
-     "type": "entries"
+     ]
     }
    ],
    "images": [
@@ -10067,41 +10067,42 @@
   ],
   "entries": [
    {
+    "type": "entries",
     "name": "Age",
     "entries": [
      "Opterans age based on their environment They can live for centuries in their larval forms, but under great stress, they pupate and hatch into their adult forms Tragically, they only live for 2 to 3 years after emerging as adults."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Creature Type",
     "entries": [
      "You are a humanoid You are also considered a fey for any prerequisite or effect that requires you to be a fey."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Languages",
     "entries": [
      "You can speak, read, and write Common and one other language of your choice."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Size",
     "entries": [
      "Larval opterans stand between 2 and 3 feet tall, while adult opterans are between 5 to 6 feet Your size begins as Small When you become an adult opteran, you grow to Medium size See the Metamorphosis trait for details."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Speed",
     "entries": [
      "Your base walking speed as a larval opteran is 25 feet Your base walking speed as an adult opteran is 30 feet."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Metamorphosis",
     "entries": [
      "At 1st level, you are a larval opteran When you reach 5th level, you can choose to undergo a metamorphosis over the course of 24 hours. After this period elapses, you emerge as an adult opteran: you lose the Many-Footed and String Shot traits, and you gain the Flight and Radiant Wing traits You can delay this change until you reach 6th level, at which point it happens spontaneously.",
@@ -10131,8 +10132,7 @@
        }
       ]
      }
-    ],
-    "type": "entries"
+    ]
    }
   ],
   "fluff": {
@@ -10146,20 +10146,20 @@
     },
     "A sedentary life among the birds and insects of their treetop dwellings is the most adventurous goal of many opterans' lives In shades of green and brown, these larval opterans are happy to avoid conflict, camouflaging into the canopy from which they acquire sustenance. But, with a brilliant flash of colour, an adult opteran injects this placid scene with a vivacious zest for life. Frantic flaps of its broad, multicoloured wings usher this metamorphosed form to and fro, a sparkling rainbow that nary takes a moment to rest.",
     {
+     "type": "entries",
      "name": "Live Fast, Die Young",
      "entries": [
       "Opterans can, in theory, live forever So long as they are never stressed (and have no goals for reproduction), a larval opteran doesn't age and can enjoy an indefinite life of sedentary bliss. However, should the need arise, such as during times of environmental catastrophe, war, or fits of passion, a larval opteran enters a chrysalis in which it metamorphoses into its winged, adult form Once it emerges, the clock begins ticking; it lives no more than 2 or 3 years in this form, just long enough to find a mate and produce a new batch of larvae elsewhere in the world.",
       "Because of this, larval opterans are extremely conflict-averse. If a predator comes a-calling, a larval opteran prefers to deploy its sticky 'string shot' and retreat to the safety of its tree-home, rather than potentially become overstimulated Conversely, adult, winged opterans often lose this sense of self-preservation, a behaviour change that the uneducated might describe as 'disturbing'."
-     ],
-     "type": "entries"
+     ]
     },
     {
+     "type": "entries",
      "name": "Natural Performers",
      "entries": [
       "Due to their brilliant colouration and short lives, opterans make some of the most renowned performers Tales are told of the bard group Wings of a Butterfly's first and final world tour. So in-demand were tickets to this once-in-their-lifetime show, that monarchs even traded small earldoms in order to purchase a show for their courts.",
       "Opterans that choose to venture into the wider world are often old, tired of the sedentary life, and ready for adventure However, the destruction of an opteran's home, the search for a loved one, or the desire to be the next Wings of a Butterfly could all be worthy motivators to risk undergoing {@i the change}."
-     ],
-     "type": "entries"
+     ]
     }
    ],
    "images": [
@@ -10450,53 +10450,53 @@
   ],
   "entries": [
    {
+    "type": "entries",
     "name": "Age",
     "entries": [
      "Rakin age slightly quicker than humans, reaching adulthood by 14 They live to be around 70 years old."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Size",
     "entries": [
      "Rakin are between 3 and a half to 4 feet tall They have light gaits but sturdy frames, weighing between 50 and 90 pounds Your size is Small."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Speed",
     "entries": [
      "Your base walking speed is 30 feet"
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Darkvision",
     "entries": [
      "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light You can't discern colour in darkness, only shades of grey."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Deft Climber",
     "entries": [
      "You have a climbing speed equal to your walking speed."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Languages",
     "entries": [
      "You can speak, read, and write Common and one other language of your choice."
-    ],
-    "type": "entries"
+    ]
    },
    {
+    "type": "entries",
     "name": "Subraces",
     "entries": [
      "The physical and cultural differences that arose after the rakin's schism produced three subraces: the urkin, the posskin, and the tanukin Choose one of these subraces."
-    ],
-    "type": "entries"
+    ]
    }
   ],
   "fluff": {
@@ -10510,33 +10510,33 @@
     },
     "Yells and chuckles are common sounds around the home of any rakin thanks to their shared love language: pranks From sewer-side burrows to palatial penthouses, wattle-and-daub huts to intricate treetop villages, rakin can be found at all levels of society, a product of their ingeniousness and habit of getting into trouble One is rarely bored around a rakin.",
     {
+     "type": "entries",
      "name": "Deific Origins",
      "entries": [
       "The mistaken spawn of a passionate tryst between deities of trickery and nature, rakin hold a deep affinity for both domains. Since their creation, they have had little contact with either god, learning to rely on their own wits to survive.",
       {
+       "type": "entries",
        "name": "Trickery",
        "entries": [
         "As rakin society progressed, their culture grew to value trickery and subterfuge. Good-natured pranks sprang from their paws as instinctively as breathing Honed against the fearsome beasts of the forest, this innate talent to deceive helped the rakin bloom as a civilisation Tales are still told of how Mack Gyver fought off a rampaging owlboar with nought but a goodberry, a silver needle, and a pig's bladder."
-       ],
-       "type": "entries"
+       ]
       },
       {
+       "type": "entries",
        "name": "Pranks",
        "entries": [
         "Rakin politics, religion, and interpersonal relationships revolve around the idea of practical jokes. An atmosphere of one-up-manship and lighthearted merriment suffuses all of their wheelings and dealings Even when faced with the most horrid of circumstances, a rakin's first instinct is to crack a joke."
-       ],
-       "type": "entries"
+       ]
       }
-     ],
-     "type": "entries"
+     ]
     },
     {
+     "type": "entries",
      "name": "Ideological Chasm",
      "entries": [
       "After centuries of living in chaotic mirth, an ideological battle split rakin culture in two when they first made contact with other humanoids. Many of the rakin were intrigued by cities—forests of stone and steel, organized, yet unpredictable, and full of opportunity The elders forbade them to interact, alleging such civilization to be directly counter to the chaos that nature intended, the principle upon which rakin culture was built.",
       "The debacle spiralled into a full-on feud between the opposing rakin factions, sundering the once united race The urkin broke with tradition and followed their ambition into the cities, whilst the tanukin remained in their indigenous forests, adhering to their ancestral ways."
-     ],
-     "type": "entries"
+     ]
     }
    ],
    "images": [
@@ -10662,8 +10662,8 @@
      {
       "type": "statblock",
       "tag": "table",
-      "source": "TLotRR",
       "name": "Starting Gear",
+      "source": "TLotRR",
       "page": 70,
       "collapsed": true
      }
@@ -10732,15 +10732,15 @@
   ],
   "entries": [
    {
-    "name": "Age",
     "type": "entries",
+    "name": "Age",
     "entries": [
      "Raptors reach maturity around 20 years. They can live longer than any other birdfolk race, over 100 years."
     ]
    },
    {
-    "name": "Alignment",
     "type": "entries",
+    "name": "Alignment",
     "entries": [
      "Raptors tend towards neutral alignments. Preferring the path of naturalists and hunters, raptors rarely see value in order for the sake of order, and are often more pragmatic than idealistic."
     ]
@@ -10753,50 +10753,50 @@
     ]
    },
    {
-    "name": "Speed",
     "type": "entries",
+    "name": "Speed",
     "entries": [
      "Your base walking speed is 25 feet."
     ]
    },
    {
-    "name": "Glide",
     "type": "entries",
+    "name": "Glide",
     "entries": [
      "Using your feathered arms, you can slow your fall, and glide short distances. When falling you can use your reaction to spread your arms, stiffen your wing feathers, and slow your descent. While doing so, you continue to fall gently at a speed of 60 feet per round, taking no fall damage when you land. If you would fall at least 10 feet in this way, you may fly up to your movement speed in one direction you choose, although you cannot choose to move upwards, landing in the space you finish your movement. You cannot glide while carrying heavy weapons or wielding a shield (though you may drop any held items as part of your reaction to spread your arms). You cannot glide while wearing heavy armor, or if you are encumbered."
     ]
    },
    {
-    "name": "Talons",
     "type": "entries",
+    "name": "Talons",
     "entries": [
      "Your sharp claws aid you in unarmed combat and while climbing. Your damage for an unarmed strike is {@damage 1d4} piercing damage. Additionally, you have advantage on Strength ({@skill Athletics}) checks made to climb any surface your talons could reasonably grip."
     ]
    },
    {
-    "name": "Keen Senses",
     "type": "entries",
+    "name": "Keen Senses",
     "entries": [
      "You have proficiency in the {@skill Perception} skill."
     ]
    },
    {
-    "name": "Woodland Hunter",
     "type": "entries",
+    "name": "Woodland Hunter",
     "entries": [
      "Your accuracy allows you to treat {@quickref Cover||3||three-quarters cover} as {@quickref Cover||3||half cover} and {@quickref Cover||3||half cover} as no cover."
     ]
    },
    {
-    "name": "Hunter's Training",
     "type": "entries",
+    "name": "Hunter's Training",
     "entries": [
      "You have proficiency with the {@item longbow|PHB}, {@item shortbow|PHB}, and {@item spear|PHB}. Additionally, your familiarity with the longbow means that it is not considered a heavy weapon for you."
     ]
    },
    {
-    "name": "Languages",
     "type": "entries",
+    "name": "Languages",
     "entries": [
      "You can speak, read, and write Birdfolk. You can also understand Auran, though you cannot speak it naturally."
     ]
@@ -10815,8 +10815,8 @@
   },
   "ability": [
    {
-    "dex": 2,
-    "str": -2
+    "str": -2,
+    "dex": 2
    }
   ],
   "traitTags": [
@@ -11445,14 +11445,12 @@
     ]
    }
   ],
+  "hasFluff": true,
+  "hasFluffImages": true,
   "_versions": [
    {
     "name": "Scourgeborne; Aranea",
     "source": "SGEHPP",
-    "speed": {
-     "walk": 30,
-     "climb": 30
-    },
     "_mod": {
      "entries": [
       {
@@ -11472,6 +11470,10 @@
        ]
       }
      ]
+    },
+    "speed": {
+     "walk": 30,
+     "climb": 30
     }
    },
    {
@@ -11501,7 +11503,6 @@
    {
     "name": "Scourgeborne; Cervus",
     "source": "SGEHPP",
-    "speed": 40,
     "_mod": {
      "entries": [
       {
@@ -11521,12 +11522,12 @@
        ]
       }
      ]
-    }
+    },
+    "speed": 40
    },
    {
     "name": "Scourgeborne; Vespertilio",
     "source": "SGEHPP",
-    "blindsight": 30,
     "_mod": {
      "entries": [
       {
@@ -11546,11 +11547,10 @@
        ]
       }
      ]
-    }
+    },
+    "blindsight": 30
    }
-  ],
-  "hasFluff": true,
-  "hasFluffImages": true
+  ]
  },
  {
   "name": "Shade",
@@ -12234,15 +12234,15 @@
   ],
   "entries": [
    {
-    "name": "Age",
     "type": "entries",
+    "name": "Age",
     "entries": [
      "Strigs reach maturity faster than most birdfolk races, around 15 years. They can reach a respectable old age by birdfolk standards, living around 80 years."
     ]
    },
    {
-    "name": "Alignment",
     "type": "entries",
+    "name": "Alignment",
     "entries": [
      "Strigs are normally good aligned, having a strong sense of fair play as well as a tendency to see the best in others. They also favor chaotic alignments, as strigs are a freedom-loving people who will usually put their personal morals above any imposed system of governance."
     ]
@@ -12255,43 +12255,43 @@
     ]
    },
    {
-    "name": "Speed",
     "type": "entries",
+    "name": "Speed",
     "entries": [
      "Your base walking speed is 30 feet."
     ]
    },
    {
-    "name": "Glide",
     "type": "entries",
+    "name": "Glide",
     "entries": [
      "Using your feathered arms, you can slow your fall, and glide short distances. When falling you can use your reaction to spread your arms, stiffen your wing feathers, and slow your descent. While doing so, you continue to fall gently at a speed of 60 feet per round, taking no fall damage when you land. If you would fall at least 10 feet in this way, you may fly up to your movement speed in one direction you choose, although you cannot choose to move upwards, landing in the space you finish your movement. You cannot glide while carrying heavy weapons or wielding a shield (though you may drop any held items as part of your reaction to spread your arms). You cannot glide while wearing heavy armor, or if you are encumbered."
     ]
    },
    {
-    "name": "Talons",
     "type": "entries",
+    "name": "Talons",
     "entries": [
      "Your sharp claws aid you in unarmed combat and while climbing. Your damage for an unarmed strike is {@damage 1d4} piercing damage. Additionally, you have advantage on Strength ({@skill Athletics}) checks made to climb any surface your talons could reasonably grip."
     ]
    },
    {
-    "name": "Darkvision",
     "type": "entries",
+    "name": "Darkvision",
     "entries": [
      "You are adept at hunting under the cover of night. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
     ]
    },
    {
-    "name": "Patterned Feathers",
     "type": "entries",
+    "name": "Patterned Feathers",
     "entries": [
      "You have advantage on Dexterity ({@skill Stealth}) checks when you attempt to hide in a forest."
     ]
    },
    {
-    "name": "Languages",
     "type": "entries",
+    "name": "Languages",
     "entries": [
      "You can speak, read, and write Birdfolk. You can also understand Auran, though you cannot speak it naturally."
     ]
@@ -12380,8 +12380,8 @@
   "speed": 30,
   "ability": [
    {
-    "int": 2,
-    "dex": 1
+    "dex": 1,
+    "int": 2
    }
   ],
   "skillProficiencies": [
@@ -13187,6 +13187,8 @@
   "size": [
    "M"
   ],
+  "speed": 30,
+  "darkvision": 120,
   "sizeEntry": {
    "type": "item",
    "name": "Size:",
@@ -13194,8 +13196,6 @@
     "Medium (about 6-7 feet tall)"
    ]
   },
-  "speed": 30,
-  "darkvision": 120,
   "entries": [
    {
     "type": "entries",
@@ -13252,6 +13252,8 @@
     ]
    }
   ],
+  "hasFluff": true,
+  "hasFluffImages": true,
   "_versions": [
    {
     "name": "Trollkin; Fey",
@@ -13277,9 +13279,6 @@
    {
     "name": "Trollkin; Ogre",
     "source": "NorthlandsWorldbook",
-    "traitTags": [
-     "Powerful Build"
-    ],
     "_mod": {
      "entries": [
       {
@@ -13296,14 +13295,14 @@
        ]
       }
      ]
-    }
+    },
+    "traitTags": [
+     "Powerful Build"
+    ]
    },
    {
     "name": "Trollkin; Troll",
     "source": "NorthlandsWorldbook",
-    "traitTags": [
-     "Powerful Build"
-    ],
     "_mod": {
      "entries": [
       {
@@ -13320,11 +13319,12 @@
        ]
       }
      ]
-    }
+    },
+    "traitTags": [
+     "Powerful Build"
+    ]
    }
-  ],
-  "hasFluff": true,
-  "hasFluffImages": true
+  ]
  },
  {
   "name": "Umbral Human",
@@ -13467,15 +13467,15 @@
   ],
   "entries": [
    {
-    "name": "Age",
     "type": "entries",
+    "name": "Age",
     "entries": [
      "Vulpins mature at an average pace, and can be comparatively long-lived. They reach adulthood at 15 years, and live well past 90 years."
     ]
    },
    {
-    "name": "Alignment",
     "type": "entries",
+    "name": "Alignment",
     "entries": [
      "Vulpins aren't innately evil, but their difficulty empathizing with others means they are only rarely good aligned. Most vulpins find strict authority distasteful, preferring chaotic alignments over lawful ones."
     ]
@@ -13488,43 +13488,43 @@
     ]
    },
    {
-    "name": "Speed",
     "type": "entries",
+    "name": "Speed",
     "entries": [
      "Your base walking speed is 30 feet."
     ]
    },
    {
-    "name": "Darkvision",
     "type": "entries",
+    "name": "Darkvision",
     "entries": [
      "You are adept at hunting at night. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
     ]
    },
    {
-    "name": "Bite",
     "type": "entries",
+    "name": "Bite",
     "entries": [
      "You have sharp fangs that enable you to make natural bite attacks. You can choose to bite as an unarmed strike that deals {@damage 1d6} points of piercing damage, which can be calculated using either your Strength or Dexterity modifier for both the attack roll and damage bonus."
     ]
    },
    {
-    "name": "Evasive",
     "type": "entries",
+    "name": "Evasive",
     "entries": [
      "You add your Intelligence modifier as a bonus on all Dexterity saving throws."
     ]
    },
    {
-    "name": "Bewitching Guile",
     "type": "entries",
+    "name": "Bewitching Guile",
     "entries": [
      "You can cast {@spell charm person} as a 1st level spell with this trait, and regain the ability to do so when you finish a long rest. When you reach 3rd level, you can cast {@spell ambush prey|HumblewoodCampaignSetting} as a 2nd level spell with this trait, and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast {@spell fear} with this trait, and regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells."
     ]
    },
    {
-    "name": "Languages",
     "type": "entries",
+    "name": "Languages",
     "entries": [
      "You can speak, read, and write Birdfolk and Vulpin."
     ]
@@ -13766,13 +13766,6 @@
   "size": [
    "M"
   ],
-  "sizeEntry": {
-   "type": "item",
-   "name": "Size:",
-   "entries": [
-    "Medium (about 5-6 feet tall)"
-   ]
-  },
   "speed": 30,
   "darkvision": 60,
   "skillProficiencies": [
@@ -13788,6 +13781,13 @@
     }
    }
   ],
+  "sizeEntry": {
+   "type": "item",
+   "name": "Size:",
+   "entries": [
+    "Medium (about 5-6 feet tall)"
+   ]
+  },
   "entries": [
    {
     "type": "entries",

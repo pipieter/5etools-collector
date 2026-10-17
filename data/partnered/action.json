@@ -3,98 +3,98 @@
   "name": "All Stop",
   "source": "NorthlandsWorldbook",
   "page": 222,
-  "entries": [
-   "The crew attempts a {@dc 12} Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check to strike the sails and drop the anchor, bringing the ship's {@variantrule Speed|XPHB} to 0 feet after it completes its movement this round. If the check fails, the ship continues moving for another round before the anchor catches. This check can't be attempted in deep water."
-  ],
   "time": [
    {
     "number": 1,
     "unit": "action"
    }
+  ],
+  "entries": [
+   "The crew attempts a {@dc 12} Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check to strike the sails and drop the anchor, bringing the ship's {@variantrule Speed|XPHB} to 0 feet after it completes its movement this round. If the check fails, the ship continues moving for another round before the anchor catches. This check can't be attempted in deep water."
   ]
  },
  {
   "name": "Come About",
   "source": "NorthlandsWorldbook",
   "page": 222,
-  "entries": [
-   "The crew attempts a severe change of direction with a {@dc 15} Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check. If successful, the ship turns 90° instead of the normal 45°. If the check fails, the ship doesn't turn at all. This check has {@variantrule Disadvantage|XPHB} if the ship is crossing against the direction of the wind unless the ship is being rowed."
-  ],
   "time": [
    {
     "number": 1,
     "unit": "action"
    }
+  ],
+  "entries": [
+   "The crew attempts a severe change of direction with a {@dc 15} Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check. If successful, the ship turns 90° instead of the normal 45°. If the check fails, the ship doesn't turn at all. This check has {@variantrule Disadvantage|XPHB} if the ship is crossing against the direction of the wind unless the ship is being rowed."
   ]
  },
  {
   "name": "Disable Station",
   "source": "NorthlandsWorldbook",
   "page": 222,
-  "entries": [
-   "The crew fires to disable stations on the enemy vessel. This attack has {@variantrule Disadvantage|XPHB}. If the attack hits, instead of dealing damage to the hull, one station is damaged according to the {@table Disable Station|NorthlandsWorldbook} table. Roll a {@dice 1d6} to determine how many crew members in that area are {@condition Unconscious|XPHB} and dying."
-  ],
   "time": [
    {
     "number": 1,
     "unit": "action"
    }
+  ],
+  "entries": [
+   "The crew fires to disable stations on the enemy vessel. This attack has {@variantrule Disadvantage|XPHB}. If the attack hits, instead of dealing damage to the hull, one station is damaged according to the {@table Disable Station|NorthlandsWorldbook} table. Roll a {@dice 1d6} to determine how many crew members in that area are {@condition Unconscious|XPHB} and dying."
   ]
  },
  {
   "name": "Escape a Grapple",
   "source": "NorthlandsWorldbook",
   "page": 222,
-  "entries": [
-   "A member of the crew leads a number of crew members in cutting lines that tie their vessel to another. A successful {@dc 13} Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check cuts the lines."
-  ],
   "time": [
    {
     "number": 1,
     "unit": "action"
    }
+  ],
+  "entries": [
+   "A member of the crew leads a number of crew members in cutting lines that tie their vessel to another. A successful {@dc 13} Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check cuts the lines."
   ]
  },
  {
   "name": "Evasive Maneuver",
   "source": "NorthlandsWorldbook",
   "page": 222,
-  "entries": [
-   "The crew makes a Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check contested by the enemy crew. On a success, attackers have {@variantrule Disadvantage|XPHB} on ranged attacks to hit the ship."
-  ],
   "time": [
    {
     "number": 1,
     "unit": "action"
    }
+  ],
+  "entries": [
+   "The crew makes a Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check contested by the enemy crew. On a success, attackers have {@variantrule Disadvantage|XPHB} on ranged attacks to hit the ship."
   ]
  },
  {
   "name": "Force Position",
   "source": "NorthlandsWorldbook",
   "page": 223,
-  "entries": [
-   "The crew makes a contested Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check opposed by the enemy crew to force the enemy into a disadvantageous position. On a success, the enemy ship has {@variantrule Disadvantage|XPHB} on its Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check to determine {@variantrule Initiative|XPHB} next round. On a failure, the enemy gains {@variantrule Advantage|XPHB} to its {@variantrule Initiative|XPHB} check next round."
-  ],
   "time": [
    {
     "number": 1,
     "unit": "action"
    }
+  ],
+  "entries": [
+   "The crew makes a contested Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check opposed by the enemy crew to force the enemy into a disadvantageous position. On a success, the enemy ship has {@variantrule Disadvantage|XPHB} on its Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check to determine {@variantrule Initiative|XPHB} next round. On a failure, the enemy gains {@variantrule Advantage|XPHB} to its {@variantrule Initiative|XPHB} check next round."
   ]
  },
  {
   "name": "Full Speed Ahead",
   "source": "NorthlandsWorldbook",
   "page": 223,
-  "entries": [
-   "The crew uses its action to adjust the sails and gain a burst of speed. The ship can {@action Dash} this turn. If the ship is powered by oars, it must succeed on a {@dc 12} Constitution save or the crew gains one level of {@condition Exhaustion|XPHB}."
-  ],
   "time": [
    {
     "number": 1,
     "unit": "action"
    }
+  ],
+  "entries": [
+   "The crew uses its action to adjust the sails and gain a burst of speed. The ship can {@action Dash} this turn. If the ship is powered by oars, it must succeed on a {@dc 12} Constitution save or the crew gains one level of {@condition Exhaustion|XPHB}."
   ]
  },
  {
@@ -117,10 +117,10 @@
    "A Company including a {@class Warden|TLotRR} (if in a warded land), or a Player-hero proficient in {@skill Investigation}, can choose this activity as a free undertaking.",
    {
     "type": "quote",
+    "skipMarks": true,
     "entries": [
      "When they appeared they brought news from afar, and told strange forgotten tales which were eagerly listened to..."
-    ],
-    "skipMarks": true
+    ]
    }
   ]
  },
@@ -128,14 +128,14 @@
   "name": "Grapple",
   "source": "NorthlandsWorldbook",
   "page": 223,
-  "entries": [
-   "A member of the crew leads a number of crew in throwing grappling hooks onto an enemy vessel within 5 feet and tying the ships together. While tied together, neither ship can move, and the crews can't use the {@action Come About|NorthlandsWorldbook}, {@action Evasive Maneuver|NorthlandsWorldbook}, {@action Force Position|NorthlandsWorldbook}, Full {@action Speed Ahead|NorthlandsWorldbook}, {@action Hold Her Steady|NorthlandsWorldbook}, {@action Ram|NorthlandsWorldbook}, or {@action Sheer|NorthlandsWorldbook} shipboard actions. This action requires a successful {@dc 13} Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check."
-  ],
   "time": [
    {
     "number": 1,
     "unit": "action"
    }
+  ],
+  "entries": [
+   "A member of the crew leads a number of crew in throwing grappling hooks onto an enemy vessel within 5 feet and tying the ships together. While tied together, neither ship can move, and the crews can't use the {@action Come About|NorthlandsWorldbook}, {@action Evasive Maneuver|NorthlandsWorldbook}, {@action Force Position|NorthlandsWorldbook}, Full {@action Speed Ahead|NorthlandsWorldbook}, {@action Hold Her Steady|NorthlandsWorldbook}, {@action Ram|NorthlandsWorldbook}, or {@action Sheer|NorthlandsWorldbook} shipboard actions. This action requires a successful {@dc 13} Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check."
   ]
  },
  {
@@ -169,14 +169,14 @@
   "name": "Hold Her Steady",
   "source": "NorthlandsWorldbook",
   "page": 223,
-  "entries": [
-   "The crew holds the ship steady, giving the crew members operating ship-mounted weapons {@variantrule Disadvantage|XPHB} to hit one enemy ship. All enemy ships have {@variantrule Disadvantage|XPHB} to hit the ship holding steady."
-  ],
   "time": [
    {
     "number": 1,
     "unit": "action"
    }
+  ],
+  "entries": [
+   "The crew holds the ship steady, giving the crew members operating ship-mounted weapons {@variantrule Disadvantage|XPHB} to hit one enemy ship. All enemy ships have {@variantrule Disadvantage|XPHB} to hit the ship holding steady."
   ]
  },
  {
@@ -199,10 +199,10 @@
    "A Company including a {@class Messenger|TLotRR}, or a Player-hero proficient with {@item calligrapher's supplies|PHB}, can choose this activity as a free undertaking.",
    {
     "type": "quote",
+    "skipMarks": true,
     "entries": [
      "Elrond, as was his custom, sat in a great chair at the end of the long table upon the dais..."
-    ],
-    "skipMarks": true
+    ]
    }
   ]
  },
@@ -210,43 +210,43 @@
   "name": "Motivate",
   "source": "NorthlandsWorldbook",
   "page": 223,
-  "entries": [
-   "{@b PCs Only.}",
-   "As a {@variantrule Reaction|XPHB}, the PC shouts encouragement to the crew during a shipboard action. On a successful {@dc 13} Charisma ({@skill Intimidation|XPHB} or {@skill Persuasion|XPHB}) check, all crew rolls related to the triggering Shipboard Action have {@variantrule Disadvantage|XPHB}."
-  ],
   "time": [
    {
     "number": 1,
     "unit": "reaction"
    }
+  ],
+  "entries": [
+   "{@b PCs Only.}",
+   "As a {@variantrule Reaction|XPHB}, the PC shouts encouragement to the crew during a shipboard action. On a successful {@dc 13} Charisma ({@skill Intimidation|XPHB} or {@skill Persuasion|XPHB}) check, all crew rolls related to the triggering Shipboard Action have {@variantrule Disadvantage|XPHB}."
   ]
  },
  {
   "name": "Operate Ship Weapon",
   "source": "NorthlandsWorldbook",
   "page": 223,
-  "entries": [
-   "As an action, the crew loads and aims a ship-mounted weapon. It still requires a separate action to fire the weapon."
-  ],
   "time": [
    {
     "number": 1,
     "unit": "action"
    }
+  ],
+  "entries": [
+   "As an action, the crew loads and aims a ship-mounted weapon. It still requires a separate action to fire the weapon."
   ]
  },
  {
   "name": "Patch",
   "source": "NorthlandsWorldbook",
   "page": 223,
-  "entries": [
-   "A member of the crew leads a damage repair team to put in a temporary patch on the hull or repair a damaged station. The crew has a +4 bonus to this check. This action can only be used once per hole or damaged station (see the {@table Disable Station|NorthlandsWorldbook} table). The DC to restore {@variantrule Hit Points|XPHB} to the ships is 10 + 2 per hole the ship has suffered, and {@dc 15} to repair a station. A successful check restores {@dice 2d6} {@variantrule Hit Points|XPHB} to the ship or restores a station to working order."
-  ],
   "time": [
    {
     "number": 1,
     "unit": "action"
    }
+  ],
+  "entries": [
+   "A member of the crew leads a damage repair team to put in a temporary patch on the hull or repair a damaged station. The crew has a +4 bonus to this check. This action can only be used once per hole or damaged station (see the {@table Disable Station|NorthlandsWorldbook} table). The DC to restore {@variantrule Hit Points|XPHB} to the ships is 10 + 2 per hole the ship has suffered, and {@dc 15} to repair a station. A successful check restores {@dice 2d6} {@variantrule Hit Points|XPHB} to the ship or restores a station to working order."
   ]
  },
  {
@@ -294,10 +294,10 @@
    "If this is the first time that this undertaking has been chosen, the player must also choose a name for the designated heir, writing it down on the {@link character sheet|https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/pdf/TLotRR/lotrr-character-sheet.pdf}.",
    {
     "type": "quote",
+    "skipMarks": true,
     "entries": [
      "When Bilbo was ninety-nine he adopted Frodo as his heir, and brought him to live at Bag End..."
-    ],
-    "skipMarks": true
+    ]
    }
   ]
  },
@@ -305,14 +305,14 @@
   "name": "Ram",
   "source": "NorthlandsWorldbook",
   "page": 223,
-  "entries": [
-   "If the ship is moving, the crew can attempt to ram another vessel within a number of feet equal to half the ship's {@variantrule Speed|XPHB} by making a successful Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check against the other ship's AC and moving that number of feet. If successful, both ships take {@damage 2d10} damage for every size category of the ramming ship. If the ship is equipped with a ram, it takes only half damage. Both ships become hopelessly {@condition grappled|XPHB} and can't be separated without several minutes of work. If the attempt misses, the ships graze each other and both take one-quarter damage. You can't take the Ram shipboard action against the direction of the wind unless the ship is being rowed."
-  ],
   "time": [
    {
     "number": 1,
     "unit": "action"
    }
+  ],
+  "entries": [
+   "If the ship is moving, the crew can attempt to ram another vessel within a number of feet equal to half the ship's {@variantrule Speed|XPHB} by making a successful Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check against the other ship's AC and moving that number of feet. If successful, both ships take {@damage 2d10} damage for every size category of the ramming ship. If the ship is equipped with a ram, it takes only half damage. Both ships become hopelessly {@condition grappled|XPHB} and can't be separated without several minutes of work. If the attempt misses, the ships graze each other and both take one-quarter damage. You can't take the Ram shipboard action against the direction of the wind unless the ship is being rowed."
   ]
  },
  {
@@ -352,10 +352,10 @@
    },
    {
     "type": "quote",
+    "skipMarks": true,
     "entries": [
      "To some there Bilbo's tale was wholly new, and they listened with amazement while the old Hobbit, actually not at all displeased, recounted his adventure with Gollum, at full length."
-    ],
-    "skipMarks": true
+    ]
    }
   ]
  },
@@ -363,14 +363,14 @@
   "name": "Sheer",
   "source": "NorthlandsWorldbook",
   "page": 223,
-  "entries": [
-   "Only effective against ships with oars, the crew brings their vessel within 5 feet of the enemy vessel, sheering off all the oars on one side of the enemy vessel. This reduces its {@variantrule Speed|XPHB} to 0 feet for 3 rounds until new oars can be deployed. To succeed, the crew member at the helm must make a successful Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check with a DC equal to the other ship's AC."
-  ],
   "time": [
    {
     "number": 1,
     "unit": "action"
    }
+  ],
+  "entries": [
+   "Only effective against ships with oars, the crew brings their vessel within 5 feet of the enemy vessel, sheering off all the oars on one side of the enemy vessel. This reduces its {@variantrule Speed|XPHB} to 0 feet for 3 rounds until new oars can be deployed. To succeed, the crew member at the helm must make a successful Strength ({@skill Athletics|XPHB}) or Wisdom ({@skill Survival|XPHB}) check with a DC equal to the other ship's AC."
   ]
  },
  {

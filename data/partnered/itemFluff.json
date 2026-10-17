@@ -149,8 +149,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/items/Agony.webp"
     },
-    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}",
-    "altText": "A spiked three-headed flail with four meat hooks attached by chains."
+    "altText": "A spiked three-headed flail with four meat hooks attached by chains.",
+    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}"
    }
   ]
  },
@@ -178,9 +178,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/Alluring Dye.webp"
     },
-    "credit": "Veronika Fedorova",
     "width": 663,
-    "height": 1000
+    "height": 1000,
+    "credit": "Veronika Fedorova"
    }
   ]
  },
@@ -280,9 +280,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/Antlers of the True Path.webp"
     },
-    "credit": "Veronika Fedorova",
     "width": 701,
-    "height": 1000
+    "height": 1000,
+    "credit": "Veronika Fedorova"
    }
   ]
  },
@@ -432,8 +432,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/items/ArmoroftheValiantSoul.webp"
     },
-    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}",
-    "altText": "Black dragon-scale armor with a red sash, gold shoulder plates, and an emerald breastplate and collar with draconic markings."
+    "altText": "Black dragon-scale armor with a red sash, gold shoulder plates, and an emerald breastplate and collar with draconic markings.",
+    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}"
    }
   ]
  },
@@ -462,9 +462,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ValdaGunslinger/00-012.assault-rifle.webp"
     },
-    "credit": "Lucas Ferreira CM",
     "width": 850,
-    "height": 307
+    "height": 307,
+    "credit": "Lucas Ferreira CM"
    }
   ]
  },
@@ -506,9 +506,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TLotRR/book/035-02-23.weapons1.webp"
     },
-    "title": "Left: Dagger, Sword, Long Sword; Right: Axe, Battle Axe, Great Axe",
     "width": 1700,
-    "height": 641
+    "height": 641,
+    "title": "Left: Dagger, Sword, Long Sword; Right: Axe, Battle Axe, Great Axe"
    }
   ]
  },
@@ -522,9 +522,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/OneShotWondersHolidayPack/029-09-011.babble-pipes.webp"
     },
-    "credit": "Adrian Pamplona",
     "width": 850,
-    "height": 849
+    "height": 849,
+    "credit": "Adrian Pamplona"
    }
   ]
  },
@@ -538,9 +538,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/Band of Fruitfulness.webp"
     },
-    "credit": "Veronika Fedorova",
     "width": 1000,
-    "height": 663
+    "height": 663,
+    "credit": "Veronika Fedorova"
    }
   ]
  },
@@ -554,9 +554,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/Basilisk Crystal.webp"
     },
-    "credit": "Olivia Rea",
     "width": 732,
-    "height": 1000
+    "height": 1000,
+    "credit": "Olivia Rea"
    }
   ]
  },
@@ -578,9 +578,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/Belt of the Weald.webp"
     },
-    "credit": "Veronika Fedorova",
     "width": 1000,
-    "height": 776
+    "height": 776,
+    "credit": "Veronika Fedorova"
    }
   ]
  },
@@ -689,12 +689,12 @@
   "entries": [
    {
     "type": "quote",
+    "skipMarks": true,
     "entries": [
      "\"Once you unlock the secrets of brewin' Bloodsbane, set up shop in Dis and Styx. The servants of Dispater and Moloch can't get enough of it, especially the floral stuff. And I know a knight or a mage or two in Sutekh and Asmodeus's service who'll pay no small sum for a bottle or two with nightshade.",
      "But if you share the means to make it with anyone, the last thing you'll smell will be parchment, sulfur, and something sweet.\""
     ],
-    "by": "Arzarach, Seven Cities merchant",
-    "skipMarks": true
+    "by": "Arzarach, Seven Cities merchant"
    }
   ]
  },
@@ -792,9 +792,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/OneShotWondersHolidayPack/028-09-010.boots-of-soft-landing.webp"
     },
-    "credit": "Adrian Pamplona",
     "width": 850,
-    "height": 900
+    "height": 900,
+    "credit": "Adrian Pamplona"
    }
   ]
  },
@@ -1105,8 +1105,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/items/CabalsRuin.webp"
     },
-    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}",
-    "altText": "A mystical dark blue cloak with metallic, flowing embroidered designs."
+    "altText": "A mystical dark blue cloak with metallic, flowing embroidered designs.",
+    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}"
    }
   ]
  },
@@ -1120,9 +1120,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/OneShotWondersHolidayPack/022-09-004.calling-quills.webp"
     },
-    "credit": "Adrian Pamplona",
     "width": 850,
-    "height": 806
+    "height": 806,
+    "credit": "Adrian Pamplona"
    }
   ]
  },
@@ -1252,9 +1252,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/Chronicle of Fools.webp"
     },
-    "credit": "Ben Zweifel",
     "width": 660,
-    "height": 1000
+    "height": 1000,
+    "credit": "Ben Zweifel"
    }
   ]
  },
@@ -1292,8 +1292,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/items/CircletofBarbedVision.webp"
     },
-    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}",
-    "altText": "A mystical dark blue cloak with metallic, flowing embroidered designs."
+    "altText": "A mystical dark blue cloak with metallic, flowing embroidered designs.",
+    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}"
    }
   ]
  },
@@ -1366,9 +1366,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/Cloak of Spines.webp"
     },
-    "credit": "Cory Trego",
     "width": 854,
-    "height": 1000
+    "height": 1000,
+    "credit": "Cory Trego"
    }
   ]
  },
@@ -1411,9 +1411,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/180-13-003.cogwork-wings.webp"
     },
-    "credit": "Irina Nordsol",
     "width": 1700,
-    "height": 1162
+    "height": 1162,
+    "credit": "Irina Nordsol"
    }
   ]
  },
@@ -1495,8 +1495,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/items/Condemner.webp"
     },
-    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}",
-    "altText": "A black, shadowed crossbow with intricate markings and an illuminated green drawstring and patterns."
+    "altText": "A black, shadowed crossbow with intricate markings and an illuminated green drawstring and patterns.",
+    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}"
    }
   ]
  },
@@ -1561,9 +1561,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/Cream of Ooze Moisturizing Face Serum.webp"
     },
-    "credit": "Olivia Rea",
     "width": 1000,
-    "height": 950
+    "height": 950,
+    "credit": "Olivia Rea"
    }
   ]
  },
@@ -1607,9 +1607,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/Crown of Daffodils.webp"
     },
-    "credit": "Jen Pattison",
     "width": 765,
-    "height": 1000
+    "height": 1000,
+    "credit": "Jen Pattison"
    }
   ]
  },
@@ -1623,8 +1623,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/items/DaggerofDenial.webp"
     },
-    "credit": "{@link Stanislav Dikolenko|https://artstation.com/stsdklnk}",
-    "altText": "The Dagger of Denial: a long, thin pointed silver dagger with an ivory coloured hilt crossing in front of an ivory sheath with a silver ends."
+    "altText": "The Dagger of Denial: a long, thin pointed silver dagger with an ivory coloured hilt crossing in front of an ivory sheath with a silver ends.",
+    "credit": "{@link Stanislav Dikolenko|https://artstation.com/stsdklnk}"
    }
   ]
  },
@@ -1780,8 +1780,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/items/DeathwalkersWard.webp"
     },
-    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}",
-    "altText": "Black leather armor with intricate embroidery, the shoulders consisting of black raven feathers."
+    "altText": "Black leather armor with intricate embroidery, the shoulders consisting of black raven feathers.",
+    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}"
    }
   ]
  },
@@ -1924,9 +1924,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/Draught of Feather Shine.webp"
     },
-    "credit": "Olivia Rea",
     "width": 563,
-    "height": 1000
+    "height": 1000,
+    "credit": "Olivia Rea"
    }
   ]
  },
@@ -1940,9 +1940,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/Draught of Slime Curse Cure.webp"
     },
-    "credit": "Alyse Stewart",
     "width": 500,
-    "height": 1000
+    "height": 1000,
+    "credit": "Alyse Stewart"
    }
   ]
  },
@@ -2012,9 +2012,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/Egg of Rebirth.webp"
     },
-    "credit": "Stephanie Cost",
     "width": 537,
-    "height": 1000
+    "height": 1000,
+    "credit": "Stephanie Cost"
    }
   ]
  },
@@ -2086,9 +2086,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/Eye of Starsight.webp"
     },
-    "credit": "Cory Trego",
     "width": 1000,
-    "height": 874
+    "height": 874,
+    "credit": "Cory Trego"
    }
   ]
  },
@@ -2182,9 +2182,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/Fangs of Guile.webp"
     },
-    "credit": "Frank Wade",
     "width": 811,
-    "height": 1000
+    "height": 1000,
+    "credit": "Frank Wade"
    }
   ]
  },
@@ -2198,9 +2198,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/183-13-006.feather-robe.webp"
     },
-    "credit": "Christina Kraus",
     "width": 850,
-    "height": 1400
+    "height": 1400,
+    "credit": "Christina Kraus"
    }
   ]
  },
@@ -2295,8 +2295,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/items/Fenthras.webp"
     },
-    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}",
-    "altText": "A longbow made of wood and dark green vines wrapping around it, with intricate elvish designs."
+    "altText": "A longbow made of wood and dark green vines wrapping around it, with intricate elvish designs.",
+    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}"
    }
   ]
  },
@@ -2334,10 +2334,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/184-13-007.flame-of-ingenuity.webp"
     },
-    "title": "Flame of Ingenuity",
-    "credit": "Sam Key",
     "width": 850,
-    "height": 1766
+    "height": 1766,
+    "title": "Flame of Ingenuity",
+    "credit": "Sam Key"
    }
   ]
  },
@@ -2495,10 +2495,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/185-13-008.glowing-ember.webp"
     },
-    "title": "Glowing Ember",
-    "credit": "Jon Neimeis",
     "width": 850,
-    "height": 1584
+    "height": 1584,
+    "title": "Glowing Ember",
+    "credit": "Jon Neimeis"
    }
   ]
  },
@@ -2512,9 +2512,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/OneShotWondersHolidayPack/023-09-005.gold-rings-of-might.webp"
     },
-    "credit": "Adrian Pamplona",
     "width": 850,
-    "height": 834
+    "height": 834,
+    "credit": "Adrian Pamplona"
    }
   ]
  },
@@ -2542,9 +2542,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/OneShotWondersHolidayPack/024-09-006.goose-egg-healing-grenade.webp"
     },
-    "credit": "Adrian Pamplona",
     "width": 850,
-    "height": 912
+    "height": 912,
+    "credit": "Adrian Pamplona"
    }
   ]
  },
@@ -2558,8 +2558,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/items/Graz'tchar.webp"
     },
-    "credit": "{@link Clara Daly|https://tinyraptors.com/}",
-    "altText": "Graz'tchar, The Decadent End: A silver greatsword outlined in gold and embedded with rubies. It has a cross-shaped golden hilt with a silver and ruby pommel."
+    "altText": "Graz'tchar, The Decadent End: A silver greatsword outlined in gold and embedded with rubies. It has a cross-shaped golden hilt with a silver and ruby pommel.",
+    "credit": "{@link Clara Daly|https://tinyraptors.com/}"
    }
   ]
  },
@@ -3132,10 +3132,10 @@
       "entries": [
        {
         "type": "statblock",
+        "tag": "action",
         "name": "Shove",
         "source": "PHB",
-        "page": 206,
-        "tag": "action"
+        "page": 206
        }
       ]
      }
@@ -3149,8 +3149,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/items/HonorsLastStand.webp"
     },
-    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}",
-    "altText": "A massive silver shield with the platinum dragon engraved on the front."
+    "altText": "A massive silver shield with the platinum dragon engraved on the front.",
+    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}"
    }
   ]
  },
@@ -3483,8 +3483,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/items/KissoftheChangebringer.webp"
     },
-    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}",
-    "altText": "An intricate silver necklace with emerald gems."
+    "altText": "An intricate silver necklace with emerald gems.",
+    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}"
    }
   ]
  },
@@ -3548,10 +3548,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/186-13-009.planter-kernels.webp"
     },
-    "title": "Planter Kernels",
-    "credit": "Marzena Piwowar",
     "width": 850,
-    "height": 1033
+    "height": 1033,
+    "title": "Planter Kernels",
+    "credit": "Marzena Piwowar"
    },
    {
     "type": "image",
@@ -3559,10 +3559,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/187-13-010.tossable-kernels.webp"
     },
-    "title": "Tossable Kernels",
-    "credit": "Marzena Piwowar",
     "width": 850,
-    "height": 976
+    "height": 976,
+    "title": "Tossable Kernels",
+    "credit": "Marzena Piwowar"
    }
   ]
  },
@@ -3576,10 +3576,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/186-13-009.planter-kernels.webp"
     },
-    "title": "Planter Kernels",
-    "credit": "Marzena Piwowar",
     "width": 850,
-    "height": 1033
+    "height": 1033,
+    "title": "Planter Kernels",
+    "credit": "Marzena Piwowar"
    }
   ]
  },
@@ -3593,10 +3593,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/187-13-010.tossable-kernels.webp"
     },
-    "title": "Tossable Kernels",
-    "credit": "Marzena Piwowar",
     "width": 850,
-    "height": 976
+    "height": 976,
+    "title": "Tossable Kernels",
+    "credit": "Marzena Piwowar"
    }
   ]
  },
@@ -3875,10 +3875,10 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/188-13-011.marotte-of-chance.webp"
     },
-    "title": "Marotte of Chance",
-    "credit": "Irina Nordsol",
     "width": 850,
-    "height": 1390
+    "height": 1390,
+    "title": "Marotte of Chance",
+    "credit": "Irina Nordsol"
    }
   ]
  },
@@ -3922,9 +3922,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TLotRR/book/036-02-24.weapons2.webp"
     },
-    "title": "Left: Short Spear, Great Spear, Mattock; Right: Bow, Great Bow",
     "width": 1700,
-    "height": 619
+    "height": 619,
+    "title": "Left: Short Spear, Great Spear, Mattock; Right: Bow, Great Bow"
    }
   ]
  },
@@ -4010,9 +4010,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/OneShotWondersHolidayPack/002-02-001.metronome-drum.webp"
     },
-    "credit": "Adrian Pamplona",
     "width": 850,
-    "height": 1052
+    "height": 1052,
+    "credit": "Adrian Pamplona"
    }
   ]
  },
@@ -4040,8 +4040,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/items/MirrorTranspondence.webp"
     },
-    "credit": "{@link Clara Daly|https://tinyraptors.com/}",
-    "altText": "Mirror of Infinite Transpondence: a silver, handheld mirror with intricate designs all around. A face is carved at the top of the handle, and an eye at the top of the mirror. Inside the mirror is a picture of a stone tower with a wind-torn cloth peak."
+    "altText": "Mirror of Infinite Transpondence: a silver, handheld mirror with intricate designs all around. A face is carved at the top of the handle, and an eye at the top of the mirror. Inside the mirror is a picture of a stone tower with a wind-torn cloth peak.",
+    "credit": "{@link Clara Daly|https://tinyraptors.com/}"
    }
   ]
  },
@@ -4154,8 +4154,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/items/Mythcarver.webp"
     },
-    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}",
-    "altText": "An elegant rapier with a swept hilt."
+    "altText": "An elegant rapier with a swept hilt.",
+    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}"
    }
   ]
  },
@@ -4378,9 +4378,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/OneShotWondersHolidayPack/019-09-001.partridge-armour.webp"
     },
-    "credit": "Adrian Pamplona",
     "width": 850,
-    "height": 925
+    "height": 925,
+    "credit": "Adrian Pamplona"
    }
   ]
  },
@@ -4418,9 +4418,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/Pathfinders Pebble.webp"
     },
-    "credit": "Marzena Piwowar",
     "width": 655,
-    "height": 1000
+    "height": 1000,
+    "credit": "Marzena Piwowar"
    }
   ]
  },
@@ -4464,9 +4464,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/OneShotWondersHolidayPack/026-09-008.phial-of-stoutmilk.webp"
     },
-    "credit": "Adrian Pamplona",
     "width": 850,
-    "height": 803
+    "height": 803,
+    "credit": "Adrian Pamplona"
    }
   ]
  },
@@ -4504,8 +4504,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/items/PlateoftheDawnmartyr.webp"
     },
-    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}",
-    "altText": "Golden plate mail with black fabric wrapped around the waist. Throughout the armor are intricate designs. In center and upon the left shoulder pauldron is the symbol of the Dawnfather - a solitary sun with eight rays."
+    "altText": "Golden plate mail with black fabric wrapped around the waist. Throughout the armor are intricate designs. In center and upon the left shoulder pauldron is the symbol of the Dawnfather - a solitary sun with eight rays.",
+    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}"
    }
   ]
  },
@@ -4562,9 +4562,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/Potion of Rest.webp"
     },
-    "credit": "Alyse Stewart",
     "width": 684,
-    "height": 1000
+    "height": 1000,
+    "credit": "Alyse Stewart"
    }
   ]
  },
@@ -4623,8 +4623,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/items/Pyremaul.webp"
     },
-    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}",
-    "altText": "A maul embedded with an orange gemstone emitting flames from the head of the weapon."
+    "altText": "A maul embedded with an orange gemstone emitting flames from the head of the weapon.",
+    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}"
    }
   ]
  },
@@ -4688,9 +4688,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/Recall Crystal.webp"
     },
-    "credit": "Alyse Stewart",
     "width": 870,
-    "height": 1000
+    "height": 1000,
+    "credit": "Alyse Stewart"
    }
   ]
  },
@@ -4853,9 +4853,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/Ring of Plant Speech.webp"
     },
-    "credit": "Christina Kraus",
     "width": 862,
-    "height": 1000
+    "height": 1000,
+    "credit": "Christina Kraus"
    }
   ]
  },
@@ -4907,9 +4907,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/Ring of the Sky Hunter.webp"
     },
-    "credit": "Paul Canavan",
     "width": 784,
-    "height": 1000
+    "height": 1000,
+    "credit": "Paul Canavan"
    }
   ]
  },
@@ -5010,9 +5010,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/Saber of Unity.webp"
     },
-    "credit": "Ben Zweifel",
     "width": 617,
-    "height": 1000
+    "height": 1000,
+    "credit": "Ben Zweifel"
    }
   ]
  },
@@ -5341,9 +5341,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/191-13-014.shroud-of-ending.webp"
     },
-    "credit": "Stephanie Cost",
     "width": 850,
-    "height": 1165
+    "height": 1165,
+    "credit": "Stephanie Cost"
    }
   ]
  },
@@ -5377,8 +5377,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/items/Skysail.webp"
     },
-    "credit": "{@link Claudia Ianniciello|https://artstation.com/claudiasg}",
-    "altText": "An Ashari woman with long orange hair flies on her white-winged skysail through a rocky canyon. She wears green clothing."
+    "altText": "An Ashari woman with long orange hair flies on her white-winged skysail through a rocky canyon. She wears green clothing.",
+    "credit": "{@link Claudia Ianniciello|https://artstation.com/claudiasg}"
    }
   ]
  },
@@ -5392,8 +5392,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/book/Chapter3-Skyship.webp"
     },
-    "credit": "{@link Svetoslav Petrov|https://artstation.com/svetoslavpetrov}",
-    "altText": "A skyship, its white sails entirely unfurled, flies through a dusky, red sky. The ship emanates a glowing, blue arcane magic below it, keeping it aloft."
+    "altText": "A skyship, its white sails entirely unfurled, flies through a dusky, red sky. The ship emanates a glowing, blue arcane magic below it, keeping it aloft.",
+    "credit": "{@link Svetoslav Petrov|https://artstation.com/svetoslavpetrov}"
    }
   ]
  },
@@ -5448,9 +5448,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/124-08-010.slimeforged-blade.webp"
     },
-    "credit": "Anneliese Mak",
     "width": 1700,
-    "height": 653
+    "height": 653,
+    "credit": "Anneliese Mak"
    }
   ]
  },
@@ -5616,8 +5616,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/items/SpireofConflux.webp"
     },
-    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}",
-    "altText": "A twisted staff made of wood and vines shaped like a shepherd's crook with a glowing blue crystal in the center of the crook."
+    "altText": "A twisted staff made of wood and vines shaped like a shepherd's crook with a glowing blue crystal in the center of the crook.",
+    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}"
    }
   ]
  },
@@ -5701,9 +5701,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/192-13-016.staff-of-climbing-ivy.webp"
     },
-    "credit": "Jen Pattison",
     "width": 850,
-    "height": 1360
+    "height": 1360,
+    "credit": "Jen Pattison"
    }
   ]
  },
@@ -5772,8 +5772,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/items/StarRazor.webp"
     },
-    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}",
-    "altText": "A silver greatsword with a red hilt. Inset in the hilt is a green gemstone. Runes run down the center of the blade, where also runs silver-white lines of magic."
+    "altText": "A silver greatsword with a red hilt. Inset in the hilt is a green gemstone. Runes run down the center of the blade, where also runs silver-white lines of magic.",
+    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}"
    }
   ]
  },
@@ -5990,9 +5990,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/OneShotWondersHolidayPack/025-09-007.swansong-staff.webp"
     },
-    "credit": "Adrian Pamplona",
     "width": 850,
-    "height": 917
+    "height": 917,
+    "credit": "Adrian Pamplona"
    }
   ]
  },
@@ -6102,9 +6102,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/Talon Tincture.webp"
     },
-    "credit": "Alyse Stewart",
     "width": 695,
-    "height": 1000
+    "height": 1000,
+    "credit": "Alyse Stewart"
    }
   ]
  },
@@ -6118,9 +6118,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/book/193-13-015.talons-of-the-squall.webp"
     },
-    "credit": "Frank Wade",
     "width": 850,
-    "height": 1290
+    "height": 1290,
+    "credit": "Frank Wade"
    }
   ]
  },
@@ -6257,9 +6257,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/The Thorn of Kren.webp"
     },
-    "credit": "Olivia Rea",
     "width": 460,
-    "height": 1000
+    "height": 1000,
+    "credit": "Olivia Rea"
    }
   ]
  },
@@ -6376,8 +6376,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/items/TitanstoneKnuckles.webp"
     },
-    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}",
-    "altText": "A pair of solid black stone gauntlets with brass fixings, encircled with three stone rings per gauntlet, and they are engraved with orange glowing runes."
+    "altText": "A pair of solid black stone gauntlets with brass fixings, encircled with three stone rings per gauntlet, and they are engraved with orange glowing runes.",
+    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}"
    }
   ]
  },
@@ -6456,9 +6456,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/OneShotWondersHolidayPack/021-09-003.trident-of-henchantment.webp"
     },
-    "credit": "Adrian Pamplona",
     "width": 850,
-    "height": 959
+    "height": 959,
+    "credit": "Adrian Pamplona"
    }
   ]
  },
@@ -6483,13 +6483,13 @@
   "entries": [
    {
     "type": "quote",
+    "skipMarks": true,
     "entries": [
      "\"The weapon known as True Name is inseparable from the history of the Seven Cities. Whenever two devils entered into a deal with one another, the offeree of the contract would seal their true name into its ornamentations, then the blade would remain in the possession of the offerer. Should the offeree fail to uphold their end of the contract, the offerer would magically learn the name from the blade, thus gaining power over they who betrayed the sacred pact.",
      "Is there, thus, any blade with more potential? It is written that if an infernal soul could discover the true name of the weapon itself, they could draw from it every name sworn to it since the blade's creation. Imagine the power that individual would have over the Seven Cities. Imagine the proud devils who could do naught but fall to their knees.",
      "I have sought the blade's name for centuries. With luck, when I find it, its bearer will not know the power they wield, and it will be mine.\""
     ],
-    "by": "Infernal Chancellor Lazivos's personal writings",
-    "skipMarks": true
+    "by": "Infernal Chancellor Lazivos's personal writings"
    },
    {
     "type": "inset",
@@ -6519,9 +6519,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/OneShotWondersHolidayPack/020-09-002.turtle-dove-daggers.webp"
     },
-    "credit": "Adrian Pamplona",
     "width": 850,
-    "height": 877
+    "height": 877,
+    "credit": "Adrian Pamplona"
    }
   ]
  },
@@ -6745,9 +6745,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/OneShotWondersHolidayPack/027-09-009.wand-of-dancing.webp"
     },
-    "credit": "Adrian Pamplona",
     "width": 850,
-    "height": 1021
+    "height": 1021,
+    "credit": "Adrian Pamplona"
    }
   ]
  },
@@ -6902,8 +6902,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/items/Whisper.webp"
     },
-    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}",
-    "altText": "A sleek, silver dagger with a black, slender hilt and two raven feathers tied onto the pummel."
+    "altText": "A sleek, silver dagger with a black, slender hilt and two raven feathers tied onto the pummel.",
+    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}"
    }
   ]
  },
@@ -6917,9 +6917,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/HumblewoodTales/items/Whistle of Freedom.webp"
     },
-    "credit": "Veronika Federova",
     "width": 753,
-    "height": 1000
+    "height": 1000,
+    "credit": "Veronika Federova"
    }
   ]
  },
@@ -6980,8 +6980,8 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/TalDoreiCampaignSettingReborn/items/WrapsofDyamak.webp"
     },
-    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}",
-    "altText": "Thick blood-stained cloth bandages affixed to two forearms. The wraps emit a red glow."
+    "altText": "Thick blood-stained cloth bandages affixed to two forearms. The wraps emit a red glow.",
+    "credit": "{@link Jessica Nguyen|https://jessketchin.com/}"
    }
   ]
  },

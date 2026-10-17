@@ -5,10 +5,10 @@
   "entries": [
    {
     "type": "quote",
+    "style": "quote-pull",
     "entries": [
      "He stood up, and seemed suddenly to grow taller. In his eyes gleamed a light, keen and commanding."
-    ],
-    "style": "quote-pull"
+    ]
    },
    "When the world is on the brink of ruin, it is the duty of all individuals of worth to rise and take the lead, whatever the risk. You have chosen to put your judgement to the service of others, to guide them in this dark hour. But you don't want others to heed your commands out of fear or obedience—you want them to follow you because they trust you.",
    {
@@ -50,10 +50,10 @@
   "entries": [
    {
     "type": "quote",
+    "style": "quote-pull",
     "entries": [
      "War must be, while we defend our lives against a destroyer who would devour all..."
-    ],
-    "style": "quote-pull"
+    ]
    },
    "You deem that there is but one way to oppose the return of the Shadow, and that it is to conquer it by strength of arms. You are recognised as a warrior among your folk, a valiant fighter, onward into battle. For you, the road to adventure leads straight to wherever your foes prowl or hide.",
    {
@@ -123,9 +123,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ValdaGunslinger/00-002.the-gunslinger.webp"
     },
-    "credit": "Martin Kirby-Jackson",
     "width": 850,
-    "height": 1336
+    "height": 1336,
+    "credit": "Martin Kirby-Jackson"
    },
    {
     "type": "image",
@@ -133,9 +133,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ValdaGunslinger/00-004.gunshot-holes.webp"
     },
-    "credit": "Lucas Ferreira CM",
     "width": 850,
-    "height": 610
+    "height": 610,
+    "credit": "Lucas Ferreira CM"
    },
    {
     "type": "image",
@@ -143,9 +143,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/ValdaGunslinger/00-003.revolver.webp"
     },
-    "credit": "Lucas Ferreira CM",
     "width": 850,
-    "height": 385
+    "height": 385,
+    "credit": "Lucas Ferreira CM"
    }
   ]
  },
@@ -154,9 +154,9 @@
   "source": "IllriggerRevised",
   "entries": [
    {
+    "type": "section",
     "name": "The Illrigger",
     "source": "IllriggerRevised",
-    "type": "section",
     "entries": [
      {
       "type": "inset",
@@ -259,9 +259,9 @@
   "source": "Magus2024",
   "entries": [
    {
+    "type": "section",
     "name": "Magus",
     "source": "Magus2024",
-    "type": "section",
     "entries": [
      "{@i An Arcane Warrior Wielding Spell and Steel}",
      "Magi are gifted warriors that blend martial prowess with mystical puissance. Wielding spell and steel in tandem, Magi can render their enemies vulnerable to their magic with a look and invoke sigils to enhance their offensive and defensive abilities. Leveraging these diverse strengths, Magi can overcome even the most powerful adversaries and challenging obstacles.",
@@ -286,10 +286,10 @@
   "entries": [
    {
     "type": "quote",
+    "style": "quote-pull",
     "entries": [
      "Elrond is sending Elves, and they will get in touch with the Rangers, and maybe with Thranduil's folk in Mirkwood."
-    ],
-    "style": "quote-pull"
+    ]
    },
    "The Wise hold that evil days lie ahead, and that to keep hope, all who fight the Enemy must be as one. Yet, many miles and centuries of isolation separate the Free Peoples, and estrangement breeds mistrust. You have decided that it is your duty to travel to distant lands, carrying tidings and warning people of the coming danger.",
    {
@@ -346,9 +346,9 @@
      "type": "external",
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/GrimHollowPG24/Class/Monster%20Hunter.webp"
     },
-    "credit": "Lucy Lisett",
     "width": 850,
-    "height": 1935
+    "height": 1935,
+    "credit": "Lucy Lisett"
    }
   ]
  },
@@ -357,9 +357,9 @@
   "source": "Pugilist2024",
   "entries": [
    {
+    "type": "section",
     "name": "Pugilist",
     "source": "Pugilist2024",
-    "type": "section",
     "entries": [
      "{@i A Streetfighter with Swagger to Spare}",
      "Pugilists live a rough and tumble life that leaves them full of determination and recklessness, either from overconfidence or desperation. In a fight, they channel this strength of character to dig deep and snatch victory from the jaws of defeat, even when outarmed and outnumbered. Even when they ultimately fail, Pugilists go down swinging.",
@@ -385,10 +385,10 @@
   "entries": [
    {
     "type": "quote",
+    "style": "quote-pull",
     "entries": [
      "Speak no secrets! Here is a scholar in the Ancient Tongue."
-    ],
-    "style": "quote-pull"
+    ]
    },
    "For you, knowledge makes the wild world a less threatening place. Yellowed maps in lost books replace a fear of the unknown with curiosity and wonder, songs composed in ages past strengthen the weariest of hearts. A love of learning guides your every step, and illuminates the way for you and those who listen to your advice.",
    {
@@ -429,9 +429,9 @@
   "source": "HelianasGuidetoMonsterHunting",
   "entries": [
    {
+    "type": "section",
     "name": "Tamer",
     "source": "HelianasGuidetoMonsterHunting",
-    "type": "section",
     "entries": [
      "Flourishing a gilded skull snatched from within the folds of a cloak, a dwarf summons a fierce-eyed angel in a flare of blinding radiance, emphatically encouraging it to fantastical feats of fury.",
      "Beaming from ear to ear, a chemical-stained gnome admires her handiwork amongst the clutter of her laboratory: a 'snektopus'; eight venom-fanged maws perfectly spliced with the intelligence of a cephalopod.",
@@ -473,11 +473,11 @@
   "entries": [
    {
     "type": "quote",
+    "style": "quote-pull",
+    "skipMarks": true,
     "entries": [
      "Far over the Misty Mountains cold, To dungeons deep and caverns old. We must away ere break of day, To seek the pale enchanted gold."
-    ],
-    "style": "quote-pull",
-    "skipMarks": true
+    ]
    },
    "The world has seen the passing of the glory of many Dwarven kings and Elven lords, and their heritage is now buried in Orc-infested dungeons. Hoards of stolen gold and jewels, guarded by fell beasts, beckon all who dare to find them. You seek to recover what is lost, even when it means braving unspeakable dangers.",
    {
@@ -519,10 +519,10 @@
   "entries": [
    {
     "type": "quote",
+    "style": "quote-pull",
     "entries": [
      "Travellers scowl at us, and countrymen give us scornful names."
-    ],
-    "style": "quote-pull"
+    ]
    },
    "In this age of the world, when shadows grow deeper with every passing year, you have sworn to defend all who cannot defend themselves. Often, your choice forces you to forsake civilised areas, to better guard their inhabitants from what lurks right outside their fences. This has made you a stranger in the eyes of the common folk, a threatening figure like those you are protecting them from.",
    {

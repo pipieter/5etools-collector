@@ -744,9 +744,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Backgrounds/diving-goggles.webp"
      },
-     "credit": "Veronica Casson",
      "width": 3628,
-     "height": 3628
+     "height": 3628,
+     "credit": "Veronica Casson"
     }
    ]
   }
@@ -833,9 +833,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Backgrounds/aha-books-and-tape.webp"
      },
-     "credit": "Veronica Casson",
      "width": 3834,
-     "height": 3834
+     "height": 3834,
+     "credit": "Veronica Casson"
     }
    ]
   }
@@ -929,9 +929,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Backgrounds/witch-hat.webp"
      },
-     "credit": "Veronica Casson",
      "width": 3752,
-     "height": 3752
+     "height": 3752,
+     "credit": "Veronica Casson"
     }
    ]
   }
@@ -1017,8 +1017,8 @@
     ]
    },
    {
-    "name": "Feature: Elemental Harmony",
     "type": "entries",
+    "name": "Feature: Elemental Harmony",
     "page": 180,
     "entries": [
      "Growing up surrounded by wild elemental magics has attuned your senses to those chaotic forces, enabling you to subtly bend them to your will. As an action, you channel minor magic involving the element of your chosen Ashari order, giving you one of the following abilities:",
@@ -1298,8 +1298,8 @@
     ]
    },
    {
-    "name": "Bandit Specialty",
     "type": "entries",
+    "name": "Bandit Specialty",
     "entries": [
      "The Bandit Coalition is a rather loose organization of rogues and brigands, but there is still a degree of specialization within the ranks. This ensures that everyone knows what their job is and lessens confusion in the heat of a robbery. You can select your bandit specialty from the Bandit Specialty table, or roll randomly.",
      {
@@ -1358,8 +1358,8 @@
     }
    },
    {
-    "name": "Suggested Characteristics",
     "type": "entries",
+    "name": "Suggested Characteristics",
     "entries": [
      "Those who have chosen to leave the Coalition behind have not made the choice lightly. Some wrestle with their doubts, still caring deeply about the friends they left behind, while others have forsaken their former lives entirely.",
      {
@@ -2717,13 +2717,13 @@
     "entries": [
      {
       "type": "table",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d8",
        "Defining Event"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -2770,13 +2770,13 @@
      {
       "type": "table",
       "caption": "Suggested Characteristics",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d8",
        "Personality Trait"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -2815,13 +2815,13 @@
      },
      {
       "type": "table",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d6",
        "Ideal"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -2852,13 +2852,13 @@
      },
      {
       "type": "table",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d6",
        "Bond"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -2889,13 +2889,13 @@
      },
      {
       "type": "table",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d6",
        "Flaw"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -3061,9 +3061,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Backgrounds/courier-brigade-letter.webp"
      },
-     "credit": "Veronica Casson",
      "width": 3319,
-     "height": 3319
+     "height": 3319,
+     "credit": "Veronica Casson"
     }
    ]
   }
@@ -4057,13 +4057,13 @@
     "entries": [
      {
       "type": "table",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d8",
        "Missionary Life"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -4110,13 +4110,13 @@
      {
       "type": "table",
       "caption": "Suggested Characteristics",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d8",
        "Personality Trait"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -4155,13 +4155,13 @@
      },
      {
       "type": "table",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d6",
        "Ideal"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -4192,13 +4192,13 @@
      },
      {
       "type": "table",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d6",
        "Bond"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -4229,13 +4229,13 @@
      },
      {
       "type": "table",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d6",
        "Flaw"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -6877,8 +6877,8 @@
     ]
    },
    {
-    "name": "An Odd Bird",
     "type": "entries",
+    "name": "An Odd Bird",
     "entries": [
      "Among birdfolk you are somewhere between an oddity and an outcast. Some consider your aversion to heights a rejection of birdfolk culture, leading many to find you off-putting. Choose how your community regards you or roll on the table below to determine how you fit in.",
      {
@@ -6921,8 +6921,8 @@
     ]
    },
    {
-    "name": "Feature: Find Another Path",
     "type": "entries",
+    "name": "Feature: Find Another Path",
     "entries": [
      "Since you have lived your life close to the ground, you are familiar with the undergrowth in the same way other birdfolk are familiar with the canopy. You can always recall the general layout of the terrain around you while traveling along the forest floor. If your path is ever blocked by an obstacle that requires you to climb or otherwise gain height to circumvent it, you can always find a way around, so long as such a path exists. Additionally, you are adept at finding shelter in the Wood while traveling, and can usually locate a suitable safe shelter (a cave, a tree hollow, or bramble thicket) somewhere on the forest floor for you and up to five other creatures."
     ],
@@ -6931,8 +6931,8 @@
     }
    },
    {
-    "name": "Suggested Characteristics",
     "type": "entries",
+    "name": "Suggested Characteristics",
     "entries": [
      "Birdfolk who are grounded often find ways to cope with their aversion to canopy life. Some have completely forsaken their old lives in favor of new ones in undergrowth communities, while others keep ties with family and friends in the perches where they were born.",
      {
@@ -8227,13 +8227,13 @@
     "entries": [
      {
       "type": "table",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d8",
        "Mageborn Quirk"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -8280,13 +8280,13 @@
      {
       "type": "table",
       "caption": "Suggested Characteristics",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d8",
        "Personality Trait"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -8325,13 +8325,13 @@
      },
      {
       "type": "table",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d6",
        "Ideal"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -8362,13 +8362,13 @@
      },
      {
       "type": "table",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d6",
        "Bond"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -8399,13 +8399,13 @@
      },
      {
       "type": "table",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d6",
        "Flaw"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -8907,9 +8907,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Backgrounds/mechanic-tools.webp"
      },
-     "credit": "Veronica Casson",
      "width": 2515,
-     "height": 2515
+     "height": 2515,
+     "credit": "Veronica Casson"
     }
    ]
   }
@@ -13278,9 +13278,9 @@
       "type": "external",
       "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Backgrounds/spirit-kin.webp"
      },
-     "credit": "Veronica Casson",
      "width": 2935,
-     "height": 2935
+     "height": 2935,
+     "credit": "Veronica Casson"
     }
    ]
   }
@@ -13351,13 +13351,13 @@
     "entries": [
      {
       "type": "table",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d8",
        "Marks of Survival"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -13404,13 +13404,13 @@
      {
       "type": "table",
       "caption": "Suggested Characteristics",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d8",
        "Personality Trait"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -13449,13 +13449,13 @@
      },
      {
       "type": "table",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d6",
        "Ideal"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -13486,13 +13486,13 @@
      },
      {
       "type": "table",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d6",
        "Bond"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -13523,13 +13523,13 @@
      },
      {
       "type": "table",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d6",
        "Flaw"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -14507,13 +14507,13 @@
     "entries": [
      {
       "type": "table",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d8",
        "Treasure Hunters' Secrets"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -14560,13 +14560,13 @@
      {
       "type": "table",
       "caption": "Suggested Characteristics",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d8",
        "Personality Trait"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -14605,13 +14605,13 @@
      },
      {
       "type": "table",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d6",
        "Ideal"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -14642,13 +14642,13 @@
      },
      {
       "type": "table",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d6",
        "Bond"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -14679,13 +14679,13 @@
      },
      {
       "type": "table",
-      "colStyles": [
-       "col-2 text-center",
-       "col-10"
-      ],
       "colLabels": [
        "d6",
        "Flaw"
+      ],
+      "colStyles": [
+       "col-2 text-center",
+       "col-10"
       ],
       "rows": [
        [
@@ -15850,8 +15850,8 @@
     ]
    },
    {
-    "name": "Title and Blessing",
     "type": "entries",
+    "name": "Title and Blessing",
     "entries": [
      "For some birdfolk, the moniker of Wind-Touched is merely a title, a symbol of their devotion to the wind and the natural world. Others have been told since birth that they were blessed by the wind, much in the way the Amaranthine Reya was in the old tales. Decide what your character believes, or roll on the table below to understand how they feel.",
      {
@@ -15894,8 +15894,8 @@
     ]
    },
    {
-    "name": "Feature: Supernatural Presence",
     "type": "entries",
+    "name": "Feature: Supernatural Presence",
     "entries": [
      "Whether or not you are truly Wind-Touched, there are folk all across Everden that believe that you have been divinely blessed. If you make a show of power or skill that can be attributed to the wind or air, such as feats of acrobatics or commanding unseen forces, those believers will be bolstered by your supernatural presence. They will support you and, depending on how well you have convinced them of your powers, treat you with reverence and possibly even worship."
     ],
@@ -15904,8 +15904,8 @@
     }
    },
    {
-    "name": "Suggested Characteristics",
     "type": "entries",
+    "name": "Suggested Characteristics",
     "entries": [
      "The wind-touched are revered by believers and scrutinized by skeptics. For better or worse, they find themselves in a world of expectations they struggle to live up to.",
      {
@@ -16067,8 +16067,8 @@
     ]
    },
    {
-    "name": "Coupled with Power",
     "type": "entries",
+    "name": "Coupled with Power",
     "entries": [
      "While this background primarily focuses on the beliefs and perceptions of yourself and your community, pairing this background with a character who actually can manipulate the wind through magic could potentially set them up to become a holy figure, a prophet, or a fabled hero."
     ]
