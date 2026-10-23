@@ -14906,14 +14906,14 @@
   "source": "FleeMortals",
   "page": 328,
   "size": [
-   "T",
    "L"
   ],
   "type": {
    "type": "ooze",
    "tags": [
     "Controller"
-   ]
+   ],
+   "swarmSize": "T"
   },
   "alignment": [
    "U"
@@ -90956,14 +90956,14 @@
   "source": "FleeMortals",
   "page": 321,
   "size": [
-   "T",
    "H"
   ],
   "type": {
    "type": "elemental",
    "tags": [
     "Brute"
-   ]
+   ],
+   "swarmSize": "T"
   },
   "alignment": [
    "U"
@@ -223311,11 +223311,11 @@
    "M"
   ],
   "type": {
-   "type": "swarm",
+   "type": "fiend",
    "tags": [
-    "fiend",
     "Demon"
-   ]
+   ],
+   "swarmSize": "T"
   },
   "alignment": [
    "N",
@@ -252315,7 +252315,10 @@
   "size": [
    "M"
   ],
-  "type": "beast",
+  "type": {
+   "type": "beast",
+   "swarmSize": "T"
+  },
   "ac": [
    10
   ],
@@ -254639,11 +254642,8 @@
    "M"
   ],
   "type": {
-   "type": "swarm",
-   "swarmSize": "T",
-   "tags": [
-    "monstrosity"
-   ]
+   "type": "monstrosity",
+   "swarmSize": "T"
   },
   "alignment": [
    "N",
