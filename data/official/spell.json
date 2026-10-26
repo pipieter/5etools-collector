@@ -484,7 +484,8 @@
    }
   ],
   "miscTags": [
-   "SGT"
+   "SGT",
+   "WLT"
   ],
   "hasFluffImages": true
  },
@@ -839,6 +840,7 @@
    "radiant"
   ],
   "miscTags": [
+   "ALT",
    "HL",
    "LGT",
    "UA"
@@ -1166,7 +1168,8 @@
   ],
   "miscTags": [
    "SGT",
-   "UA"
+   "UA",
+   "WLT"
   ],
   "areaTags": [
    "MT"
@@ -1213,7 +1216,8 @@
   ],
   "miscTags": [
    "SGT",
-   "UA"
+   "UA",
+   "WLT"
   ],
   "areaTags": [
    "MT"
@@ -2744,7 +2748,8 @@
   "miscTags": [
    "PRM",
    "PS",
-   "UA"
+   "UA",
+   "WLT"
   ],
   "areaTags": [
    "MT"
@@ -2801,7 +2806,8 @@
   "miscTags": [
    "PRM",
    "PS",
-   "UA"
+   "UA",
+   "WLT"
   ],
   "areaTags": [
    "MT"
@@ -2995,7 +3001,8 @@
    "dexterity"
   ],
   "miscTags": [
-   "ADV"
+   "ADV",
+   "ALT"
   ],
   "areaTags": [
    "E"
@@ -3043,6 +3050,7 @@
    "necrotic"
   ],
   "miscTags": [
+   "ALT",
    "HL"
   ],
   "areaTags": [
@@ -3090,6 +3098,7 @@
    "necrotic"
   ],
   "miscTags": [
+   "ALT",
    "HL"
   ],
   "areaTags": [
@@ -3138,7 +3147,8 @@
    "poison"
   ],
   "miscTags": [
-   "ADV"
+   "ADV",
+   "ALT"
   ],
   "areaTags": [
    "S"
@@ -3183,7 +3193,8 @@
    "poison"
   ],
   "miscTags": [
-   "ADV"
+   "ADV",
+   "ALT"
   ],
   "areaTags": [
    "S"
@@ -3854,7 +3865,8 @@
    "You touch a willing creature. Until the spell ends, the target's skin has a rough, bark-like appearance, and the target's AC can't be less than 16, regardless of what kind of armor it is wearing."
   ],
   "miscTags": [
-   "MAC"
+   "MAC",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -3899,7 +3911,8 @@
    "You touch a willing creature. Until the spell ends, the target's skin assumes a bark-like appearance, and the target has an {@variantrule Armor Class|XPHB} of 17 if its AC is lower than that."
   ],
   "miscTags": [
-   "MAC"
+   "MAC",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -4134,6 +4147,7 @@
   ],
   "miscTags": [
    "ADV",
+   "ALT",
    "SGT"
   ],
   "areaTags": [
@@ -4181,7 +4195,8 @@
    "You touch a willing beast. For the duration of the spell, you can use your action to see through the beast's eyes and hear what it hears, and continue to do so until you use your action to return to your normal senses. While perceiving through the beast's senses, you gain the benefits of any special senses possessed by that creature, though you are {@condition blinded} and {@condition deafened} to your own surroundings."
   ],
   "miscTags": [
-   "UA"
+   "UA",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -4223,6 +4238,9 @@
   },
   "entries": [
    "You touch a willing Beast. For the duration, you can perceive through the Beast's senses as well as your own. When perceiving through the Beast's senses, you benefit from any special senses it has."
+  ],
+  "miscTags": [
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -6471,7 +6489,8 @@
   ],
   "miscTags": [
    "SCT",
-   "SGT"
+   "SGT",
+   "WLT"
   ],
   "areaTags": [
    "MT"
@@ -6529,7 +6548,8 @@
   ],
   "miscTags": [
    "SCT",
-   "SGT"
+   "SGT",
+   "WLT"
   ],
   "areaTags": [
    "MT"
@@ -6698,7 +6718,8 @@
    "humanoid"
   ],
   "miscTags": [
-   "MAC"
+   "MAC",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -7692,7 +7713,8 @@
    "Divine energy radiates from you, distorting and diffusing magical energy within 30 feet of you. Until the spell ends, the sphere moves with you, centered on you. For the duration, each friendly creature in the area (including you) has advantage on saving throws against spells and other magical effects. Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw."
   ],
   "miscTags": [
-   "ADV"
+   "ADV",
+   "ALT"
   ],
   "areaTags": [
    "S"
@@ -7734,7 +7756,8 @@
    "An aura radiates from you in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} for the duration. While in the aura, you and your allies have {@variantrule Advantage|XPHB} on saving throws against spells and other magical effects. When an affected creature makes a saving throw against a spell or magical effect that allows a save to take only half damage, it takes no damage if it succeeds on the save."
   ],
   "miscTags": [
-   "ADV"
+   "ADV",
+   "ALT"
   ],
   "areaTags": [
    "S"
@@ -12734,7 +12757,8 @@
    "radiant"
   ],
   "miscTags": [
-   "AAD"
+   "AAD",
+   "ALT"
   ],
   "areaTags": [
    "S"
@@ -12779,7 +12803,8 @@
    "radiant"
   ],
   "miscTags": [
-   "AAD"
+   "AAD",
+   "ALT"
   ],
   "areaTags": [
    "S"
@@ -13329,6 +13354,9 @@
   "entries": [
    "You touch a willing creature to grant it the ability to see in the dark. For the duration, that creature has {@sense darkvision} out to a range of 60 feet."
   ],
+  "miscTags": [
+   "WLT"
+  ],
   "areaTags": [
    "ST"
   ]
@@ -13372,6 +13400,9 @@
   ],
   "entries": [
    "For the duration, a willing creature you touch has {@sense Darkvision|XPHB} with a range of 150 feet."
+  ],
+  "miscTags": [
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -14649,7 +14680,8 @@
    "force"
   ],
   "miscTags": [
-   "TP"
+   "TP",
+   "WLT"
   ],
   "hasFluffImages": true
  },
@@ -14691,7 +14723,8 @@
    "force"
   ],
   "miscTags": [
-   "TP"
+   "TP",
+   "WLT"
   ]
  },
  {
@@ -16571,6 +16604,9 @@
   "savingThrow": [
    "dexterity"
   ],
+  "miscTags": [
+   "WLT"
+  ],
   "areaTags": [
    "N",
    "ST"
@@ -16632,6 +16668,9 @@
   ],
   "savingThrow": [
    "dexterity"
+  ],
+  "miscTags": [
+   "WLT"
   ],
   "areaTags": [
    "N",
@@ -16795,6 +16834,9 @@
   "savingThrow": [
    "wisdom"
   ],
+  "miscTags": [
+   "WLT"
+  ],
   "areaTags": [
    "ST"
   ]
@@ -16845,6 +16887,9 @@
   "savingThrow": [
    "wisdom"
   ],
+  "miscTags": [
+   "WLT"
+  ],
   "areaTags": [
    "ST"
   ]
@@ -16892,7 +16937,8 @@
   ],
   "miscTags": [
    "PS",
-   "TP"
+   "TP",
+   "WLT"
   ],
   "hasFluff": true
  },
@@ -17164,7 +17210,8 @@
   ],
   "miscTags": [
    "SCT",
-   "TP"
+   "TP",
+   "WLT"
   ],
   "areaTags": [
    "S"
@@ -19074,7 +19121,8 @@
   "miscTags": [
    "PS",
    "SCT",
-   "UA"
+   "UA",
+   "WLT"
   ]
  },
  {
@@ -19130,7 +19178,8 @@
   ],
   "miscTags": [
    "PS",
-   "SCT"
+   "SCT",
+   "WLT"
   ]
  },
  {
@@ -20282,6 +20331,9 @@
    "blinded",
    "incapacitated"
   ],
+  "miscTags": [
+   "WLT"
+  ],
   "areaTags": [
    "ST"
   ]
@@ -20346,6 +20398,9 @@
   "conditionInflict": [
    "blinded",
    "incapacitated"
+  ],
+  "miscTags": [
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -22304,7 +22359,8 @@
    }
   ],
   "miscTags": [
-   "SCT"
+   "SCT",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -22361,7 +22417,8 @@
    }
   ],
   "miscTags": [
-   "SCT"
+   "SCT",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -22783,7 +22840,8 @@
    "This spell immediately ends if you cast it again before its duration ends."
   ],
   "miscTags": [
-   "ADV"
+   "ADV",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -22827,7 +22885,8 @@
    "You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target has {@variantrule Advantage|XPHB} on {@variantrule D20 Test|XPHB|D20 Tests}, and other creatures have {@variantrule Disadvantage|XPHB} on attack rolls against it. The spell ends early if you cast it again."
   ],
   "miscTags": [
-   "ADV"
+   "ADV",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -22885,7 +22944,8 @@
   ],
   "miscTags": [
    "SCT",
-   "SGT"
+   "SGT",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -23046,6 +23106,9 @@
    "paralyzed",
    "restrained"
   ],
+  "miscTags": [
+   "WLT"
+  ],
   "areaTags": [
    "ST"
   ]
@@ -23102,7 +23165,8 @@
    "restrained"
   ],
   "miscTags": [
-   "SCT"
+   "SCT",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -23499,7 +23563,8 @@
    "While in the form of a misty cloud, the target can't talk or manipulate objects, and any objects it was carrying or holding can't be dropped, used, or otherwise interacted with. The target can't attack or cast spells."
   ],
   "miscTags": [
-   "ADV"
+   "ADV",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -23559,7 +23624,8 @@
   ],
   "miscTags": [
    "ADV",
-   "SCT"
+   "SCT",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -24106,6 +24172,9 @@
   ],
   "entries": [
    "You touch a willing creature. For the duration, the target can add {@dice 1d8} to its initiative rolls."
+  ],
+  "miscTags": [
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -25799,6 +25868,9 @@
   "entries": [
    "You touch one willing creature. Once before the spell ends, the target can roll a {@dice d4} and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The spell then ends."
   ],
+  "miscTags": [
+   "WLT"
+  ],
   "areaTags": [
    "ST"
   ]
@@ -25842,6 +25914,9 @@
   ],
   "entries": [
    "You touch a willing creature and choose a skill. Until the spell ends, the creature adds {@dice 1d4} to any ability check using the chosen skill."
+  ],
+  "miscTags": [
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -26865,7 +26940,8 @@
   "miscTags": [
    "ADV",
    "MAC",
-   "SGT"
+   "SGT",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -26917,7 +26993,8 @@
   "miscTags": [
    "ADV",
    "MAC",
-   "SGT"
+   "SGT",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -27669,7 +27746,8 @@
   ],
   "miscTags": [
    "SCT",
-   "THP"
+   "THP",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -27726,7 +27804,8 @@
   ],
   "miscTags": [
    "SCT",
-   "THP"
+   "THP",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -30445,7 +30524,8 @@
   "miscTags": [
    "ADV",
    "SCT",
-   "SGT"
+   "SGT",
+   "WLT"
   ],
   "hasFluffImages": true
  },
@@ -31040,6 +31120,9 @@
    "petrified",
    "poisoned"
   ],
+  "miscTags": [
+   "WLT"
+  ],
   "areaTags": [
    "ST"
   ]
@@ -31324,7 +31407,8 @@
    }
   ],
   "miscTags": [
-   "SCT"
+   "SCT",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -33299,7 +33383,8 @@
    "You touch a willing creature who isn't wearing armor, and a protective magical force surrounds it until the spell ends. The target's base AC becomes 13 + its Dexterity modifier. The spell ends if the target dons armor or if you dismiss the spell as an action."
   ],
   "miscTags": [
-   "MAC"
+   "MAC",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -33347,7 +33432,8 @@
    "You touch a willing creature who isn't wearing armor. Until the spell ends, the target's base AC becomes 13 plus its Dexterity modifier. The spell ends early if the target dons armor."
   ],
   "miscTags": [
-   "MAC"
+   "MAC",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -35850,6 +35936,9 @@
   "conditionImmune": [
    "charmed"
   ],
+  "miscTags": [
+   "WLT"
+  ],
   "areaTags": [
    "ST"
   ]
@@ -35895,6 +35984,9 @@
   ],
   "conditionImmune": [
    "charmed"
+  ],
+  "miscTags": [
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -37941,7 +38033,8 @@
    "For the duration, you hide a target that you touch from divination magic. The target can be a willing creature or a place or an object no larger than 10 feet in any dimension. The target can't be targeted by any divination magic or perceived through magical scrying sensors."
   ],
   "miscTags": [
-   "OBJ"
+   "OBJ",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -37989,7 +38082,8 @@
    "For the duration, you hide a target that you touch from Divination spells. The target can be a willing creature, or it can be a place or an object no larger than 10 feet in any dimension. The target can't be targeted by any Divination spell or perceived through magical scrying sensors."
   ],
   "miscTags": [
-   "OBJ"
+   "OBJ",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -38058,7 +38152,8 @@
   "miscTags": [
    "OBJ",
    "PIR",
-   "PRM"
+   "PRM",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -38118,7 +38213,8 @@
   "miscTags": [
    "OBJ",
    "PIR",
-   "PRM"
+   "PRM",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -39368,7 +39464,8 @@
   ],
   "miscTags": [
    "PS",
-   "TP"
+   "TP",
+   "WLT"
   ],
   "areaTags": [
    "MT",
@@ -39414,7 +39511,8 @@
   ],
   "miscTags": [
    "PS",
-   "TP"
+   "TP",
+   "WLT"
   ]
  },
  {
@@ -41481,6 +41579,9 @@
    "lightning",
    "thunder"
   ],
+  "miscTags": [
+   "WLT"
+  ],
   "areaTags": [
    "ST"
   ]
@@ -41528,6 +41629,9 @@
    "fire",
    "lightning",
    "thunder"
+  ],
+  "miscTags": [
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -41595,7 +41699,8 @@
    "undead"
   ],
   "miscTags": [
-   "ADV"
+   "ADV",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -41655,7 +41760,8 @@
    "undead"
   ],
   "miscTags": [
-   "ADV"
+   "ADV",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -42226,6 +42332,9 @@
    "You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren't affected by this spell.",
    "Until the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can't extend to other planes of existence."
   ],
+  "miscTags": [
+   "WLT"
+  ],
   "areaTags": [
    "MT"
   ]
@@ -42271,6 +42380,9 @@
   "entries": [
    "You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures that can't communicate in any languages aren't affected by this spell.",
    "Until the spell ends, the targets can communicate telepathically through the bond whether or not they share a language. The communication is possible over any distance, though it can't extend to other planes of existence."
+  ],
+  "miscTags": [
+   "WLT"
   ],
   "areaTags": [
    "MT"
@@ -43416,6 +43528,9 @@
   "entries": [
    "You touch one willing creature. Once before the spell ends, the target can roll a {@dice d4} and add the number rolled to one saving throw of its choice. It can roll the die before or after making the saving throw. The spell then ends."
   ],
+  "miscTags": [
+   "WLT"
+  ],
   "areaTags": [
    "ST"
   ]
@@ -43456,6 +43571,9 @@
   ],
   "entries": [
    "You touch a willing creature and choose a damage type: Acid, Bludgeoning, Cold, Fire, Lightning, Necrotic, Piercing, Poison, Radiant, Slashing, or Thunder. When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by {@dice 1d4}. A creature can benefit from this spell only once per turn."
+  ],
+  "miscTags": [
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -45159,7 +45277,8 @@
    "unconscious"
   ],
   "miscTags": [
-   "OBJ"
+   "OBJ",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -45216,7 +45335,8 @@
    "unconscious"
   ],
   "miscTags": [
-   "OBJ"
+   "OBJ",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -46667,6 +46787,9 @@
   "entries": [
    "Your magic deepens a creature's understanding of its own talent. You touch one willing creature and give it expertise in one skill of your choice; until the spell ends, the creature doubles its proficiency bonus for ability checks it makes that use the chosen skill.",
    "You must choose a skill in which the target is proficient and that isn't already benefiting from an effect, such as Expertise, that doubles its proficiency bonus."
+  ],
+  "miscTags": [
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -48127,6 +48250,9 @@
   ],
   "entries": [
    "Until the spell ends, one willing creature you touch gains the ability to move up, down, and across vertical surfaces and upside down along ceilings, while leaving its hands free. The target also gains a climbing speed equal to its walking speed."
+  ],
+  "miscTags": [
+   "WLT"
   ]
  },
  {
@@ -48180,7 +48306,8 @@
    }
   ],
   "miscTags": [
-   "SCT"
+   "SCT",
+   "WLT"
   ]
  },
  {
@@ -49366,6 +49493,9 @@
    "piercing",
    "slashing"
   ],
+  "miscTags": [
+   "WLT"
+  ],
   "areaTags": [
    "ST"
   ]
@@ -49416,6 +49546,9 @@
    "bludgeoning",
    "piercing",
    "slashing"
+  ],
+  "miscTags": [
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -52022,7 +52155,7 @@
   ],
   "entries": [
    "You conjure a claw-footed cauldron filled with bubbling liquid. The cauldron appears in an unoccupied space on the ground within 5 feet of you and lasts for the duration. The cauldron can't be moved and disappears when the spell ends, along with the bubbling liquid inside it.",
-   "The liquid in the cauldron duplicates the properties of a Common or an Uncommon potion of your choice (such as a {@item Potion of Healing|XDMG}). As a {@variantrule Bonus Action|XPHB}, you or an ally can reach into the cauldron and withdraw one potion of that kind. The potion is contained in a vial that disappears when the potion is consumed. The cauldron can produce a number of these potions equal to your spellcasting ability modifier (minimum 1). When the last of these potions is withdrawn from the cauldron, the cauldron disappears, and the spell ends.",
+   "The liquid in the cauldron duplicates the properties of a {@filter Common or an Uncommon potion|items|type=potion|rarity=common;uncommon} of your choice (such as a {@item Potion of Healing|XDMG}). As a {@variantrule Bonus Action|XPHB}, you or an ally can reach into the cauldron and withdraw one potion of that kind. The potion is contained in a vial that disappears when the potion is consumed. The cauldron can produce a number of these potions equal to your spellcasting ability modifier (minimum 1). When the last of these potions is withdrawn from the cauldron, the cauldron disappears, and the spell ends.",
    "Potions obtained from the cauldron that aren't consumed disappear when you cast this spell again."
   ],
   "miscTags": [
@@ -52539,6 +52672,9 @@
    "You create a telepathic link between yourself and a willing creature with which you are familiar. The creature can be anywhere on the same plane of existence as you. The spell ends if you or the target are no longer on the same plane.",
    "Until the spell ends, you and the target can instantaneously share words, images, sounds, and other sensory messages with one another through the link, and the target recognizes you as the creature it is communicating with. The spell enables a creature with an Intelligence score of at least 1 to understand the meaning of your words and take in the scope of any sensory messages you send to it."
   ],
+  "miscTags": [
+   "WLT"
+  ],
   "areaTags": [
    "ST"
   ]
@@ -52578,6 +52714,9 @@
   "entries": [
    "You create a telepathic link between yourself and a willing creature with which you are familiar. The creature can be anywhere on the same plane of existence as you. The spell ends if you or the target are no longer on the same plane.",
    "Until the spell ends, you and the target can instantly share words, images, sounds, and other sensory messages with each other through the link, and the target recognizes you as the creature it is communicating with. The spell enables a creature to understand the meaning of your words and any sensory messages you send to it."
+  ],
+  "miscTags": [
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -52754,7 +52893,8 @@
    "OBJ",
    "RO",
    "SGT",
-   "TP"
+   "TP",
+   "WLT"
   ],
   "areaTags": [
    "MT"
@@ -52908,7 +53048,8 @@
    "OBJ",
    "RO",
    "SGT",
-   "TP"
+   "TP",
+   "WLT"
   ],
   "areaTags": [
    "MT"
@@ -53703,7 +53844,8 @@
   ],
   "miscTags": [
    "SGT",
-   "TP"
+   "TP",
+   "WLT"
   ],
   "areaTags": [
    "S"
@@ -55222,6 +55364,9 @@
   ],
   "entries": [
    "This spell gives the willing creature you touch the ability to see things as they actually are. For the duration, the creature has {@sense truesight}, notices secret doors hidden by magic, and can see into the Ethereal Plane, all out to a range of 120 feet."
+  ],
+  "miscTags": [
+   "WLT"
   ]
  },
  {
@@ -55264,6 +55409,9 @@
   ],
   "entries": [
    "For the duration, the willing creature you touch has {@sense Truesight|XPHB} with a range of 120 feet."
+  ],
+  "miscTags": [
+   "WLT"
   ]
  },
  {
@@ -57084,7 +57232,8 @@
    "The spell ends if you drop to 0 hit points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures. You can also dismiss the spell as an action."
   ],
   "miscTags": [
-   "MAC"
+   "MAC",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -57132,7 +57281,8 @@
    "The spell ends if you drop to 0 {@variantrule Hit Points|XPHB} or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures."
   ],
   "miscTags": [
-   "MAC"
+   "MAC",
+   "WLT"
   ],
   "areaTags": [
    "ST"
@@ -57301,7 +57451,8 @@
    "This spell grants up to ten willing creatures you can see within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration."
   ],
   "miscTags": [
-   "SGT"
+   "SGT",
+   "WLT"
   ],
   "areaTags": [
    "MT"
@@ -57347,6 +57498,9 @@
   },
   "entries": [
    "This spell grants up to ten willing creatures of your choice within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration."
+  ],
+  "miscTags": [
+   "WLT"
   ],
   "areaTags": [
    "MT"
@@ -57406,7 +57560,8 @@
    "If you target a creature submerged in a liquid, the spell carries the target to the surface of the liquid at a rate of 60 feet per round."
   ],
   "miscTags": [
-   "SGT"
+   "SGT",
+   "WLT"
   ],
   "areaTags": [
    "MT"
@@ -57453,6 +57608,9 @@
   "entries": [
    "This spell grants the ability to move across any liquid surface—such as water, acid, mud, snow, quicksand, or lava—as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heat). Up to ten willing creatures of your choice within range gain this ability for the duration.",
    "An affected target must take a {@variantrule Bonus Action|XPHB} to pass from the liquid's surface into the liquid itself and vice versa, but if the target falls into the liquid, the target passes through the surface into the liquid below."
+  ],
+  "miscTags": [
+   "WLT"
   ],
   "areaTags": [
    "MT"
@@ -57955,7 +58113,8 @@
    "incapacitated"
   ],
   "miscTags": [
-   "SGT"
+   "SGT",
+   "WLT"
   ],
   "areaTags": [
    "MT"
@@ -58002,6 +58161,9 @@
   ],
   "conditionInflict": [
    "stunned"
+  ],
+  "miscTags": [
+   "WLT"
   ],
   "areaTags": [
    "MT"
@@ -58732,7 +58894,8 @@
   ],
   "miscTags": [
    "PS",
-   "TP"
+   "TP",
+   "WLT"
   ]
  },
  {
@@ -58770,7 +58933,8 @@
   ],
   "miscTags": [
    "PS",
-   "TP"
+   "TP",
+   "WLT"
   ]
  },
  {

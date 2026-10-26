@@ -338,11 +338,11 @@
    {
     "title": "Spell Slots per Spell Level",
     "colLabels": [
-     "{@filter 1st|spells|level=1|class=artificer}",
-     "{@filter 2nd|spells|level=2|class=artificer}",
-     "{@filter 3rd|spells|level=3|class=artificer}",
-     "{@filter 4th|spells|level=4|class=artificer}",
-     "{@filter 5th|spells|level=5|class=artificer}"
+     "{@filter 1|spells|level=1|class=artificer}",
+     "{@filter 2|spells|level=2|class=artificer}",
+     "{@filter 3|spells|level=3|class=artificer}",
+     "{@filter 4|spells|level=4|class=artificer}",
+     "{@filter 5|spells|level=5|class=artificer}"
     ],
     "rowsSpellProgression": [
      [
@@ -2764,15 +2764,15 @@
    {
     "title": "Spell Slots per Spell Level",
     "colLabels": [
-     "{@filter 1st|spells|level=1|class=bard}",
-     "{@filter 2nd|spells|level=2|class=bard}",
-     "{@filter 3rd|spells|level=3|class=bard}",
-     "{@filter 4th|spells|level=4|class=bard}",
-     "{@filter 5th|spells|level=5|class=bard}",
-     "{@filter 6th|spells|level=6|class=bard}",
-     "{@filter 7th|spells|level=7|class=bard}",
-     "{@filter 8th|spells|level=8|class=bard}",
-     "{@filter 9th|spells|level=9|class=bard}"
+     "{@filter 1|spells|level=1|class=bard}",
+     "{@filter 2|spells|level=2|class=bard}",
+     "{@filter 3|spells|level=3|class=bard}",
+     "{@filter 4|spells|level=4|class=bard}",
+     "{@filter 5|spells|level=5|class=bard}",
+     "{@filter 6|spells|level=6|class=bard}",
+     "{@filter 7|spells|level=7|class=bard}",
+     "{@filter 8|spells|level=8|class=bard}",
+     "{@filter 9|spells|level=9|class=bard}"
     ],
     "rowsSpellProgression": [
      [
@@ -3815,15 +3815,15 @@
    {
     "title": "Spell Slots per Spell Level",
     "colLabels": [
-     "{@filter 1st|spells|level=1|class=Cleric}",
-     "{@filter 2nd|spells|level=2|class=Cleric}",
-     "{@filter 3rd|spells|level=3|class=Cleric}",
-     "{@filter 4th|spells|level=4|class=Cleric}",
-     "{@filter 5th|spells|level=5|class=Cleric}",
-     "{@filter 6th|spells|level=6|class=Cleric}",
-     "{@filter 7th|spells|level=7|class=Cleric}",
-     "{@filter 8th|spells|level=8|class=Cleric}",
-     "{@filter 9th|spells|level=9|class=Cleric}"
+     "{@filter 1|spells|level=1|class=Cleric}",
+     "{@filter 2|spells|level=2|class=Cleric}",
+     "{@filter 3|spells|level=3|class=Cleric}",
+     "{@filter 4|spells|level=4|class=Cleric}",
+     "{@filter 5|spells|level=5|class=Cleric}",
+     "{@filter 6|spells|level=6|class=Cleric}",
+     "{@filter 7|spells|level=7|class=Cleric}",
+     "{@filter 8|spells|level=8|class=Cleric}",
+     "{@filter 9|spells|level=9|class=Cleric}"
     ],
     "rowsSpellProgression": [
      [
@@ -4876,15 +4876,15 @@
    {
     "title": "Spell Slots per Spell Level",
     "colLabels": [
-     "{@filter 1st|spells|level=1|class=Druid}",
-     "{@filter 2nd|spells|level=2|class=Druid}",
-     "{@filter 3rd|spells|level=3|class=Druid}",
-     "{@filter 4th|spells|level=4|class=Druid}",
-     "{@filter 5th|spells|level=5|class=Druid}",
-     "{@filter 6th|spells|level=6|class=Druid}",
-     "{@filter 7th|spells|level=7|class=Druid}",
-     "{@filter 8th|spells|level=8|class=Druid}",
-     "{@filter 9th|spells|level=9|class=Druid}"
+     "{@filter 1|spells|level=1|class=Druid}",
+     "{@filter 2|spells|level=2|class=Druid}",
+     "{@filter 3|spells|level=3|class=Druid}",
+     "{@filter 4|spells|level=4|class=Druid}",
+     "{@filter 5|spells|level=5|class=Druid}",
+     "{@filter 6|spells|level=6|class=Druid}",
+     "{@filter 7|spells|level=7|class=Druid}",
+     "{@filter 8|spells|level=8|class=Druid}",
+     "{@filter 9|spells|level=9|class=Druid}"
     ],
     "rowsSpellProgression": [
      [
@@ -7522,11 +7522,11 @@
    {
     "title": "Spell Slots per Spell Level",
     "colLabels": [
-     "{@filter 1st|spells|level=1|class=Paladin}",
-     "{@filter 2nd|spells|level=2|class=Paladin}",
-     "{@filter 3rd|spells|level=3|class=Paladin}",
-     "{@filter 4th|spells|level=4|class=Paladin}",
-     "{@filter 5th|spells|level=5|class=Paladin}"
+     "{@filter 1|spells|level=1|class=Paladin}",
+     "{@filter 2|spells|level=2|class=Paladin}",
+     "{@filter 3|spells|level=3|class=Paladin}",
+     "{@filter 4|spells|level=4|class=Paladin}",
+     "{@filter 5|spells|level=5|class=Paladin}"
     ],
     "rowsSpellProgression": [
      [
@@ -8492,11 +8492,11 @@
    {
     "title": "Spell Slots per Spell Level",
     "colLabels": [
-     "{@filter 1st|spells|level=1|class=ranger}",
-     "{@filter 2nd|spells|level=2|class=ranger}",
-     "{@filter 3rd|spells|level=3|class=ranger}",
-     "{@filter 4th|spells|level=4|class=ranger}",
-     "{@filter 5th|spells|level=5|class=ranger}"
+     "{@filter 1|spells|level=1|class=ranger}",
+     "{@filter 2|spells|level=2|class=ranger}",
+     "{@filter 3|spells|level=3|class=ranger}",
+     "{@filter 4|spells|level=4|class=ranger}",
+     "{@filter 5|spells|level=5|class=ranger}"
     ],
     "rowsSpellProgression": [
      [
@@ -10477,15 +10477,15 @@
    {
     "title": "Spell Slots per Spell Level",
     "colLabels": [
-     "{@filter 1st|spells|level=1|class=sorcerer}",
-     "{@filter 2nd|spells|level=2|class=sorcerer}",
-     "{@filter 3rd|spells|level=3|class=sorcerer}",
-     "{@filter 4th|spells|level=4|class=sorcerer}",
-     "{@filter 5th|spells|level=5|class=sorcerer}",
-     "{@filter 6th|spells|level=6|class=sorcerer}",
-     "{@filter 7th|spells|level=7|class=sorcerer}",
-     "{@filter 8th|spells|level=8|class=sorcerer}",
-     "{@filter 9th|spells|level=9|class=sorcerer}"
+     "{@filter 1|spells|level=1|class=sorcerer}",
+     "{@filter 2|spells|level=2|class=sorcerer}",
+     "{@filter 3|spells|level=3|class=sorcerer}",
+     "{@filter 4|spells|level=4|class=sorcerer}",
+     "{@filter 5|spells|level=5|class=sorcerer}",
+     "{@filter 6|spells|level=6|class=sorcerer}",
+     "{@filter 7|spells|level=7|class=sorcerer}",
+     "{@filter 8|spells|level=8|class=sorcerer}",
+     "{@filter 9|spells|level=9|class=sorcerer}"
     ],
     "rowsSpellProgression": [
      [
@@ -12280,15 +12280,15 @@
    {
     "title": "Spell Slots per Spell Level",
     "colLabels": [
-     "{@filter 1st|spells|level=1|class=Wizard}",
-     "{@filter 2nd|spells|level=2|class=Wizard}",
-     "{@filter 3rd|spells|level=3|class=Wizard}",
-     "{@filter 4th|spells|level=4|class=Wizard}",
-     "{@filter 5th|spells|level=5|class=Wizard}",
-     "{@filter 6th|spells|level=6|class=Wizard}",
-     "{@filter 7th|spells|level=7|class=Wizard}",
-     "{@filter 8th|spells|level=8|class=Wizard}",
-     "{@filter 9th|spells|level=9|class=Wizard}"
+     "{@filter 1|spells|level=1|class=Wizard}",
+     "{@filter 2|spells|level=2|class=Wizard}",
+     "{@filter 3|spells|level=3|class=Wizard}",
+     "{@filter 4|spells|level=4|class=Wizard}",
+     "{@filter 5|spells|level=5|class=Wizard}",
+     "{@filter 6|spells|level=6|class=Wizard}",
+     "{@filter 7|spells|level=7|class=Wizard}",
+     "{@filter 8|spells|level=8|class=Wizard}",
+     "{@filter 9|spells|level=9|class=Wizard}"
     ],
     "rowsSpellProgression": [
      [

@@ -6957,19 +6957,19 @@
     ],
     "rows": [
      [
-      "3rd",
+      "3",
       "{@spell Blur|XPHB}, {@spell Burning Hands|XPHB}, {@spell Fire Bolt|XPHB}"
      ],
      [
-      "5th",
+      "5",
       "{@spell Fireball|XPHB}"
      ],
      [
-      "7th",
+      "7",
       "{@spell Blight|XPHB}"
      ],
      [
-      "9th",
+      "9",
       "{@spell Wall of Stone|XPHB}"
      ]
     ]
@@ -6987,19 +6987,19 @@
     ],
     "rows": [
      [
-      "3rd",
+      "3",
       "{@spell Fog Cloud|XPHB}, {@spell Hold Person|XPHB}, {@spell Ray of Frost|XPHB}"
      ],
      [
-      "5th",
+      "5",
       "{@spell Sleet Storm|XPHB}"
      ],
      [
-      "7th",
+      "7",
       "{@spell Ice Storm|XPHB}"
      ],
      [
-      "9th",
+      "9",
       "{@spell Cone of Cold|XPHB}"
      ]
     ]
@@ -7017,19 +7017,19 @@
     ],
     "rows": [
      [
-      "3rd",
+      "3",
       "{@spell Misty Step|XPHB}, {@spell Shocking Grasp|XPHB}, {@spell Sleep|XPHB}"
      ],
      [
-      "5th",
+      "5",
       "{@spell Lightning Bolt|XPHB}"
      ],
      [
-      "7th",
+      "7",
       "{@spell Freedom of Movement|XPHB}"
      ],
      [
-      "9th",
+      "9",
       "{@spell Tree Stride|XPHB}"
      ]
     ]
@@ -7047,19 +7047,19 @@
     ],
     "rows": [
      [
-      "3rd",
+      "3",
       "{@spell Acid Splash|XPHB}, {@spell Ray of Sickness|XPHB}, {@spell Web|XPHB}"
      ],
      [
-      "5th",
+      "5",
       "{@spell Stinking Cloud|XPHB}"
      ],
      [
-      "7th",
+      "7",
       "{@spell Polymorph|XPHB}"
      ],
      [
-      "9th",
+      "9",
       "{@spell Insect Plague|XPHB}"
      ]
     ]
@@ -7222,19 +7222,19 @@
     ],
     "rows": [
      [
-      "3rd",
+      "3",
       "{@spell Fog Cloud|XPHB}, {@spell Gust of Wind|XPHB}, {@spell Ray of Frost|XPHB}, {@spell Shatter|XPHB}, {@spell Thunderwave|XPHB}"
      ],
      [
-      "5th",
+      "5",
       "{@spell Lightning Bolt|XPHB}, {@spell Water Breathing|XPHB}"
      ],
      [
-      "7th",
+      "7",
       "{@spell Control Water|XPHB}, {@spell Ice Storm|XPHB}"
      ],
      [
-      "9th",
+      "9",
       "{@spell Conjure Elemental|XPHB}, {@spell Hold Monster|XPHB}"
      ]
     ]
@@ -8019,19 +8019,19 @@
     ],
     "rows": [
      [
-      "3rd",
+      "3",
       "{@spell Aid|XPHB}, {@spell Alarm|XPHB}, {@spell Lesser Restoration|XPHB}, {@spell Protection from Evil and Good|XPHB}"
      ],
      [
-      "5th",
+      "5",
       "{@spell Dispel Magic|XPHB}, {@spell Protection From Energy|XPHB}"
      ],
      [
-      "7th",
+      "7",
       "{@spell Freedom of Movement|XPHB}, {@spell Summon Construct|XPHB}"
      ],
      [
-      "9th",
+      "9",
       "{@spell Greater Restoration|XPHB}, {@spell Wall of Force|XPHB}"
      ]
     ]
@@ -10336,19 +10336,19 @@
     ],
     "rows": [
      [
-      "3rd",
+      "3",
       "{@spell Alter Self|XPHB}, {@spell Chromatic Orb|XPHB}, {@spell Command|XPHB}, {@spell Dragon's Breath|XPHB}"
      ],
      [
-      "5th",
+      "5",
       "{@spell Fear|XPHB}, {@spell Fly|XPHB}"
      ],
      [
-      "7th",
+      "7",
       "{@spell Arcane Eye|XPHB}, {@spell Charm Monster|XPHB}"
      ],
      [
-      "9th",
+      "9",
       "{@spell Legend Lore|XPHB}, {@spell Summon Dragon|XPHB}"
      ]
     ]
@@ -13009,23 +13009,23 @@
     ],
     "rows": [
      [
-      "3rd",
+      "3",
       "{@spell Charm Person|XPHB}"
      ],
      [
-      "5th",
+      "5",
       "{@spell Misty Step|XPHB}"
      ],
      [
-      "9th",
+      "9",
       "{@spell Summon Fey|XPHB}"
      ],
      [
-      "13th",
+      "13",
       "{@spell Dimension Door|XPHB}"
      ],
      [
-      "17th",
+      "17",
       "{@spell Mislead|XPHB}"
      ]
     ]
@@ -14256,23 +14256,23 @@
     ],
     "rows": [
      [
-      "3rd",
+      "3",
       "{@spell Disguise Self|XPHB}"
      ],
      [
-      "5th",
+      "5",
       "{@spell Rope Trick|XPHB}"
      ],
      [
-      "9th",
+      "9",
       "{@spell Fear|XPHB}"
      ],
      [
-      "13th",
+      "13",
       "{@spell Greater Invisibility|XPHB}"
      ],
      [
-      "17th",
+      "17",
       "{@spell Seeming|XPHB}"
      ]
     ]
@@ -17516,19 +17516,19 @@
     ],
     "rows": [
      [
-      "3rd",
+      "3",
       "{@spell Aid|XPHB}, {@spell Bless|XPHB}, {@spell Cure Wounds|XPHB}, {@spell Lesser Restoration|XPHB}"
      ],
      [
-      "5th",
+      "5",
       "{@spell Mass Healing Word|XPHB}, {@spell Revivify|XPHB}"
      ],
      [
-      "7th",
+      "7",
       "{@spell Aura of Life|XPHB}, {@spell Death Ward|XPHB}"
      ],
      [
-      "9th",
+      "9",
       "{@spell Greater Restoration|XPHB}, {@spell Mass Cure Wounds|XPHB}"
      ]
     ]
@@ -17664,19 +17664,19 @@
     ],
     "rows": [
      [
-      "3rd",
+      "3",
       "{@spell Burning Hands|XPHB}, {@spell Faerie Fire|XPHB}, {@spell Scorching Ray|XPHB}, {@spell See Invisibility|XPHB}"
      ],
      [
-      "5th",
+      "5",
       "{@spell Daylight|XPHB}, {@spell Fireball|XPHB}"
      ],
      [
-      "7th",
+      "7",
       "{@spell Arcane Eye|XPHB}, {@spell Wall of Fire|XPHB}"
      ],
      [
-      "9th",
+      "9",
       "{@spell Flame Strike|XPHB}, {@spell Scrying|XPHB}"
      ]
     ]
@@ -20167,23 +20167,23 @@
     ],
     "rows": [
      [
-      "3rd",
+      "3",
       "{@spell Protection from Evil and Good|XPHB}, {@spell Shield of Faith|XPHB}"
      ],
      [
-      "5th",
+      "5",
       "{@spell Aid|XPHB}, {@spell Zone of Truth|XPHB}"
      ],
      [
-      "9th",
+      "9",
       "{@spell Beacon of Hope|XPHB}, {@spell Dispel Magic|XPHB}"
      ],
      [
-      "13th",
+      "13",
       "{@spell Freedom of Movement|XPHB}, {@spell Guardian of Faith|XPHB}"
      ],
      [
-      "17th",
+      "17",
       "{@spell Commune|XPHB}, {@spell Flame Strike|XPHB}"
      ]
     ]
@@ -20280,23 +20280,23 @@
     ],
     "rows": [
      [
-      "3rd",
+      "3",
       "{@spell Guiding Bolt|XPHB}, {@spell Heroism|XPHB}"
      ],
      [
-      "5th",
+      "5",
       "{@spell Enhance Ability|XPHB}, {@spell Magic Weapon|XPHB}"
      ],
      [
-      "9th",
+      "9",
       "{@spell Haste|XPHB}, {@spell Protection from Energy|XPHB}"
      ],
      [
-      "13th",
+      "13",
       "{@spell Compulsion|XPHB}, {@spell Freedom of Movement|XPHB}"
      ],
      [
-      "17th",
+      "17",
       "{@spell Legend Lore|XPHB}, {@spell Yolande's Regal Presence|XPHB}"
      ]
     ]
@@ -20409,23 +20409,23 @@
     ],
     "rows": [
      [
-      "3rd",
+      "3",
       "{@spell Ensnaring Strike|XPHB}, {@spell Speak with Animals|XPHB}"
      ],
      [
-      "5th",
+      "5",
       "{@spell Misty Step|XPHB}, {@spell Moonbeam|XPHB}"
      ],
      [
-      "9th",
+      "9",
       "{@spell Plant Growth|XPHB}, {@spell Protection from Energy|XPHB}"
      ],
      [
-      "13th",
+      "13",
       "{@spell Ice Storm|XPHB}, {@spell Stoneskin|XPHB}"
      ],
      [
-      "17th",
+      "17",
       "{@spell Commune with Nature|XPHB}, {@spell Tree Stride|XPHB}"
      ]
     ]
@@ -20599,23 +20599,23 @@
     ],
     "rows": [
      [
-      "3rd",
+      "3",
       "{@spell Bane|XPHB}, {@spell Hunter's Mark|XPHB}"
      ],
      [
-      "5th",
+      "5",
       "{@spell Hold Person|XPHB}, {@spell Misty Step|XPHB}"
      ],
      [
-      "9th",
+      "9",
       "{@spell Haste|XPHB}, {@spell Protection from Energy|XPHB}"
      ],
      [
-      "13th",
+      "13",
       "{@spell Banishment|XPHB}, {@spell Dimension Door|XPHB}"
      ],
      [
-      "17th",
+      "17",
       "{@spell Hold Monster|XPHB}, {@spell Scrying|XPHB}"
      ]
     ]
@@ -23355,19 +23355,19 @@
     ],
     "rows": [
      [
-      "3rd",
+      "3",
       "{@spell Arms of Hadar|XPHB}, {@spell Calm Emotions|XPHB}, {@spell Detect Thoughts|XPHB}, {@spell Dissonant Whispers|XPHB}, {@spell Mind Sliver|XPHB}"
      ],
      [
-      "5th",
+      "5",
       "{@spell Hunger of Hadar|XPHB}, {@spell Sending|XPHB}"
      ],
      [
-      "7th",
+      "7",
       "{@spell Evard's Black Tentacles|XPHB}, {@spell Summon Aberration|XPHB}"
      ],
      [
-      "9th",
+      "9",
       "{@spell Rary's Telepathic Bond|XPHB}, {@spell Telekinesis|XPHB}"
      ]
     ]
@@ -31479,19 +31479,19 @@
     ],
     "rows": [
      [
-      "3rd",
+      "3",
       "{@spell Charm Person|XPHB}, {@spell Disguise Self|XPHB}, {@spell Invisibility|XPHB}, {@spell Pass without Trace|XPHB}"
      ],
      [
-      "5th",
+      "5",
       "{@spell Hypnotic Pattern|XPHB}, {@spell Nondetection|XPHB}"
      ],
      [
-      "7th",
+      "7",
       "{@spell Confusion|XPHB}, {@spell Dimension Door|XPHB}"
      ],
      [
-      "9th",
+      "9",
       "{@spell Dominate Person|XPHB}, {@spell Modify Memory|XPHB}"
      ]
     ]
@@ -32922,19 +32922,19 @@
     ],
     "rows": [
      [
-      "3rd",
+      "3",
       "{@spell Guiding Bolt|XPHB}, {@spell Magic Weapon|XPHB}, {@spell Shield of Faith|XPHB}, {@spell Spiritual Weapon|XPHB}"
      ],
      [
-      "5th",
+      "5",
       "{@spell Crusader's Mantle|XPHB}, {@spell Spirit Guardians|XPHB}"
      ],
      [
-      "7th",
+      "7",
       "{@spell Fire Shield|XPHB}, {@spell Freedom of Movement|XPHB}"
      ],
      [
-      "9th",
+      "9",
       "{@spell Hold Monster|XPHB}, {@spell Steel Wind Strike|XPHB}"
      ]
     ]

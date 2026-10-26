@@ -1238,10 +1238,10 @@
      }
     ],
     "colLabels": [
-     "{@filter 1st|spells|level=1|subclass=Rogue: Arcane Trickster}",
-     "{@filter 2nd|spells|level=2|subclass=Rogue: Arcane Trickster}",
-     "{@filter 3rd|spells|level=3|subclass=Rogue: Arcane Trickster}",
-     "{@filter 4th|spells|level=4|subclass=Rogue: Arcane Trickster}"
+     "{@filter 1|spells|level=1|subclass=Rogue: Arcane Trickster}",
+     "{@filter 2|spells|level=2|subclass=Rogue: Arcane Trickster}",
+     "{@filter 3|spells|level=3|subclass=Rogue: Arcane Trickster}",
+     "{@filter 4|spells|level=4|subclass=Rogue: Arcane Trickster}"
     ],
     "rowsSpellProgression": [
      [
@@ -2299,7 +2299,7 @@
     "expanded": {
      "1": [
       {
-       "all": "source=EGW"
+       "all": "source=EGW;!XGE"
       }
      ]
     }
@@ -5202,10 +5202,10 @@
      }
     ],
     "colLabels": [
-     "{@filter 1st|spells|level=1|subclass=Fighter: Eldritch Knight}",
-     "{@filter 2nd|spells|level=2|subclass=Fighter: Eldritch Knight}",
-     "{@filter 3rd|spells|level=3|subclass=Fighter: Eldritch Knight}",
-     "{@filter 4th|spells|level=4|subclass=Fighter: Eldritch Knight}"
+     "{@filter 1|spells|level=1|subclass=Fighter: Eldritch Knight}",
+     "{@filter 2|spells|level=2|subclass=Fighter: Eldritch Knight}",
+     "{@filter 3|spells|level=3|subclass=Fighter: Eldritch Knight}",
+     "{@filter 4|spells|level=4|subclass=Fighter: Eldritch Knight}"
     ],
     "rowsSpellProgression": [
      [
@@ -5951,7 +5951,7 @@
     "expanded": {
      "1": [
       {
-       "all": "source=EGW"
+       "all": "source=EGW;!XGE"
       }
      ]
     }
@@ -12196,10 +12196,10 @@
      }
     ],
     "colLabels": [
-     "{@filter 1st|spells|level=1|subclass=Monk: Warrior of the Mystic Arts}",
-     "{@filter 2nd|spells|level=2|subclass=Monk: Warrior of the Mystic Arts}",
-     "{@filter 3rd|spells|level=3|subclass=Monk: Warrior of the Mystic Arts}",
-     "{@filter 4th|spells|level=4|subclass=Monk: Warrior of the Mystic Arts}"
+     "{@filter 1|spells|level=1|subclass=Monk: Warrior of the Mystic Arts}",
+     "{@filter 2|spells|level=2|subclass=Monk: Warrior of the Mystic Arts}",
+     "{@filter 3|spells|level=3|subclass=Monk: Warrior of the Mystic Arts}",
+     "{@filter 4|spells|level=4|subclass=Monk: Warrior of the Mystic Arts}"
     ],
     "rowsSpellProgression": [
      [
