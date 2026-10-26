@@ -4689,6 +4689,7 @@
    "dexterity",
    "strength"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -33622,7 +33623,8 @@
    "EFA",
    "FRAiF",
    "LFL",
-   "RHW"
+   "RHW",
+   "SoS"
   ],
   "size": [
    "M"
@@ -53853,7 +53855,8 @@
   "source": "XMM",
   "page": 25,
   "referenceSources": [
-   "FRAiF"
+   "FRAiF",
+   "SoS"
   ],
   "size": [
    "M"
@@ -58830,7 +58833,8 @@
    "ABH",
    "EFA",
    "FFotR",
-   "FRAiF"
+   "FRAiF",
+   "SoS"
   ],
   "size": [
    "S",
@@ -63114,6 +63118,9 @@
   "int": 8,
   "wis": 13,
   "cha": 10,
+  "senses": [
+   "Darkvision 60 ft."
+  ],
   "passive": 11,
   "conditionImmune": [
    "charmed",
@@ -80056,6 +80063,9 @@
   "name": "Boneless",
   "source": "RHW",
   "page": 238,
+  "referenceSources": [
+   "SoS"
+  ],
   "size": [
    "M"
   ],
@@ -94587,6 +94597,7 @@
    "constitution",
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -104548,7 +104559,8 @@
    "HotB",
    "LFL",
    "NF",
-   "RHW"
+   "RHW",
+   "SoS"
   ],
   "size": [
    "S",
@@ -111553,6 +111565,7 @@
    "constitution",
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -114242,7 +114255,8 @@
    "FRAiF",
    "FRHoF",
    "RHW",
-   "ScoEE"
+   "ScoEE",
+   "SoS"
   ],
   "size": [
    "S",
@@ -120016,7 +120030,8 @@
    "EFA",
    "FRAiF",
    "RHW",
-   "RWG"
+   "RWG",
+   "SoS"
   ],
   "size": [
    "S",
@@ -122505,6 +122520,9 @@
   "name": "Death's Head",
   "source": "RHW",
   "page": 242,
+  "referenceSources": [
+   "SoS"
+  ],
   "size": [
    "T"
   ],
@@ -122808,6 +122826,9 @@
   "name": "Death's Head Tree",
   "source": "RHW",
   "page": 243,
+  "referenceSources": [
+   "SoS"
+  ],
   "size": [
    "H"
   ],
@@ -149955,7 +149976,8 @@
    "DrDe-TFV",
    "EFA",
    "FRAiF",
-   "RHW"
+   "RHW",
+   "SoS"
   ],
   "size": [
    "S",
@@ -158548,6 +158570,8 @@
   "environment": [
    "urban"
   ],
+  "tokenCredit": "Games Workshop",
+  "tokenCustom": true,
   "traitTags": [
    "Immutable Form"
   ],
@@ -158568,6 +158592,7 @@
    "MA",
    "MLW"
   ],
+  "hasToken": true,
   "hasFluff": true
  },
  {
@@ -166367,6 +166392,8 @@
   "environment": [
    "urban"
   ],
+  "tokenCredit": "Games Workshop",
+  "tokenCustom": true,
   "traitTags": [
    "Immutable Form"
   ],
@@ -166386,6 +166413,7 @@
   "savingThrowForced": [
    "constitution"
   ],
+  "hasToken": true,
   "hasFluff": true
  },
  {
@@ -199495,6 +199523,8 @@
     ]
    }
   ],
+  "tokenCredit": "Filippo Ubertino",
+  "tokenCustom": true,
   "senseTags": [
    "D"
   ],
@@ -199514,6 +199544,7 @@
   "savingThrowForced": [
    "constitution"
   ],
+  "hasToken": true,
   "hasFluff": true
  },
  {
@@ -200570,7 +200601,8 @@
    "DrDe",
    "DrDe-TWoO",
    "FRAiF",
-   "RHW"
+   "RHW",
+   "SoS"
   ],
   "size": [
    "M"
@@ -201771,7 +201803,8 @@
    "DrDe",
    "DrDe-TWoO",
    "FRAiF",
-   "RHW"
+   "RHW",
+   "SoS"
   ],
   "size": [
    "M"
@@ -204759,7 +204792,7 @@
   "cha": 3,
   "skill": {
    "perception": "+2",
-   "stealth": "+4"
+   "stealth": "+3"
   },
   "senses": [
    "Darkvision 30 ft."
@@ -235402,7 +235435,8 @@
    "FRHoF",
    "HotB",
    "NF",
-   "RHW"
+   "RHW",
+   "SoS"
   ],
   "size": [
    "S",
@@ -240536,7 +240570,8 @@
   "referenceSources": [
    "EFA",
    "FRAiF",
-   "RHW"
+   "RHW",
+   "SoS"
   ],
   "size": [
    "M"
@@ -243779,6 +243814,7 @@
   "savingThrowForced": [
    "constitution"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -247649,7 +247685,8 @@
   "basicRules2024": true,
   "referenceSources": [
    "EFA",
-   "FRAiF"
+   "FRAiF",
+   "SoS"
   ],
   "size": [
    "M"
@@ -273070,6 +273107,7 @@
    "blinded",
    "prone"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -289377,6 +289415,8 @@
     ]
    }
   ],
+  "tokenCredit": "Kojima Productions",
+  "tokenCustom": true,
   "languageTags": [
    "C"
   ],
@@ -289396,7 +289436,8 @@
   ],
   "savingThrowForced": [
    "constitution"
-  ]
+  ],
+  "hasToken": true
  },
  {
   "name": "Lamordian Infiltrator",
@@ -289465,6 +289506,8 @@
     ]
    }
   ],
+  "tokenCredit": "Ben Rayne",
+  "tokenCustom": true,
   "languageTags": [
    "C"
   ],
@@ -289476,7 +289519,8 @@
    "MLW",
    "RA",
    "THW"
-  ]
+  ],
+  "hasToken": true
  },
  {
   "name": "Lamordian Mercenary",
@@ -289549,6 +289593,8 @@
     ]
    }
   ],
+  "tokenCredit": "Ironhead Studio",
+  "tokenCustom": true,
   "languageTags": [
    "C"
   ],
@@ -289561,7 +289607,8 @@
    "MLW",
    "RA",
    "RNG"
-  ]
+  ],
+  "hasToken": true
  },
  {
   "name": "Lamordian Technician",
@@ -289639,6 +289686,8 @@
     ]
    }
   ],
+  "tokenCredit": "Yiva Ljungqvist",
+  "tokenCustom": true,
   "languageTags": [
    "C"
   ],
@@ -289660,7 +289709,8 @@
   ],
   "savingThrowForcedSpell": [
    "dexterity"
-  ]
+  ],
+  "hasToken": true
  },
  {
   "name": "Lampad",
@@ -304576,7 +304626,8 @@
    "EFA",
    "FRAiF",
    "NF",
-   "RWG"
+   "RWG",
+   "SoS"
   ],
   "size": [
    "S",
@@ -345317,7 +345368,8 @@
    "HotB",
    "LFL",
    "NF",
-   "RHW"
+   "RHW",
+   "SoS"
   ],
   "size": [
    "S",
@@ -351157,7 +351209,8 @@
    "DrDe-TWoO",
    "HBTD",
    "HotB",
-   "RHW"
+   "RHW",
+   "SoS"
   ],
   "size": [
    "L"
@@ -362702,7 +362755,8 @@
   "referenceSources": [
    "EFA",
    "FRAiF",
-   "FRHoF"
+   "FRHoF",
+   "SoS"
   ],
   "size": [
    "M"
@@ -364404,7 +364458,8 @@
   "basicRules2024": true,
   "referenceSources": [
    "FRAiF",
-   "FRHoF"
+   "FRHoF",
+   "SoS"
   ],
   "size": [
    "L"
@@ -371232,6 +371287,9 @@
   "name": "Priest of Osybus",
   "source": "RHW",
   "page": 261,
+  "referenceSources": [
+   "SoS"
+  ],
   "size": [
    "S",
    "M"
@@ -392716,6 +392774,7 @@
   "savingThrowForcedSpell": [
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -407917,7 +407976,8 @@
    "FRAiF",
    "FRHoF",
    "HBTD",
-   "RHW"
+   "RHW",
+   "SoS"
   ],
   "size": [
    "M"
@@ -411616,6 +411676,7 @@
   "savingThrowForced": [
    "constitution"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -427912,7 +427973,8 @@
    "DrDe-TWoO",
    "FRAiF",
    "HBTD",
-   "RHW"
+   "RHW",
+   "SoS"
   ],
   "size": [
    "M"
@@ -433789,7 +433851,8 @@
    "FRHoF",
    "LFL",
    "NF",
-   "RHW"
+   "RHW",
+   "SoS"
   ],
   "size": [
    "S",
@@ -443344,6 +443407,9 @@
   "name": "Strigoi",
   "source": "RHW",
   "page": 270,
+  "referenceSources": [
+   "SoS"
+  ],
   "size": [
    "M"
   ],
@@ -447521,6 +447587,9 @@
   "name": "Swarm of Infesting Insects",
   "source": "RHW",
   "page": 271,
+  "referenceSources": [
+   "SoS"
+  ],
   "size": [
    "M"
   ],
@@ -449710,7 +449779,8 @@
   "source": "XMM",
   "page": 299,
   "referenceSources": [
-   "FRAiF"
+   "FRAiF",
+   "SoS"
   ],
   "size": [
    "M"
@@ -450138,6 +450208,9 @@
   ],
   "source": "RHW",
   "page": 282,
+  "referenceSources": [
+   "SoS"
+  ],
   "size": [
    "M"
   ],
@@ -467640,7 +467713,8 @@
    "DrDe-BtS",
    "EFA",
    "FRAiF",
-   "RWG"
+   "RWG",
+   "SoS"
   ],
   "size": [
    "S",
@@ -474144,7 +474218,8 @@
   "basicRules2024": true,
   "referenceSources": [
    "FRAiF",
-   "RHW"
+   "RHW",
+   "SoS"
   ],
   "size": [
    "H"
@@ -482155,7 +482230,8 @@
   "basicRules2024": true,
   "referenceSources": [
    "EFA",
-   "RHW"
+   "RHW",
+   "SoS"
   ],
   "size": [
    "S",
@@ -482552,6 +482628,9 @@
   "name": "Vampire Mind Flayer",
   "source": "RHW",
   "page": 276,
+  "referenceSources": [
+   "SoS"
+  ],
   "size": [
    "M"
   ],
@@ -502141,6 +502220,9 @@
   "name": "Wereraven",
   "source": "RHW",
   "page": 280,
+  "referenceSources": [
+   "SoS"
+  ],
   "size": [
    "S",
    "M"
@@ -505662,7 +505744,8 @@
   "basicRules2024": true,
   "referenceSources": [
    "FRAiF",
-   "RHW"
+   "RHW",
+   "SoS"
   ],
   "size": [
    "M"
@@ -509496,7 +509579,8 @@
   "referenceSources": [
    "FRAiF",
    "FRHoF",
-   "RHW"
+   "RHW",
+   "SoS"
   ],
   "size": [
    "M"
@@ -535445,6 +535529,9 @@
   ],
   "source": "RHW",
   "page": 283,
+  "referenceSources": [
+   "SoS"
+  ],
   "size": [
    "H"
   ],
