@@ -2411,6 +2411,33 @@
   ]
  },
  {
+  "name": "Aspect of the Horsemen",
+  "source": "WoW",
+  "className": "Death Knight",
+  "classSource": "WoW",
+  "subclassShortName": "Ebon Blade",
+  "subclassSource": "WoW",
+  "level": 20,
+  "header": 2,
+  "entries": [
+   "As a {@variantrule Bonus Action|XPHB}, you gain the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending a level 5 spell slot (no action required).",
+   {
+    "type": "entries",
+    "name": "Generate Runic Power",
+    "entries": [
+     "You can restore a use of your {@subclassFeature Runic Mastery|Death Knight|WoW|Ebon Blade|WoW|15|WoW} by expending a level 4 spell slot (no action required)."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Runeforging",
+    "entries": [
+     "When you use your {@subclassFeature Runic Power|Death Knight|WoW|Ebon Blade|WoW|3|WoW} and {@subclassFeature Runic Mastery|Death Knight|WoW|Ebon Blade|WoW|15|WoW} features, you can choose any effect, not just the one that corresponds to the rune inscribed on your weapon."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Aspect of the Wilds",
   "source": "XPHB",
   "page": 55,
@@ -2581,6 +2608,18 @@
   ]
  },
  {
+  "name": "Atonement",
+  "source": "WoW",
+  "className": "Priest",
+  "classSource": "WoW",
+  "subclassShortName": "Discipline",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "When a level 1+ spell you cast restores {@variantrule Hit Points|XPHB} to one or more creatures, each of those creatures gains a blessing that lasts until the end of your next turn. Whenever you cast a spell that deals damage to a creature using a spell slot, each blessed creature regains additional {@variantrule Hit Points|XPHB} equal to the level of the spell slot you used to cast the damaging spell."
+  ]
+ },
+ {
   "name": "Aura of Alacrity",
   "source": "TCE",
   "page": 53,
@@ -2631,6 +2670,19 @@
    "Starting at 7th level, you constantly emanate a menacing aura while you're not {@condition incapacitated}. The aura extends 10 feet from you in every direction, but not through {@quickref Cover||3||total cover}.",
    "If a creature is {@condition frightened} of you, its speed is reduced to 0 while in the aura, and that creature takes psychic damage equal to half your paladin level if it starts its turn there.",
    "At 18th level, the range of this aura increases to 30 feet."
+  ]
+ },
+ {
+  "name": "Aura of Deathly Endurance",
+  "source": "WoW",
+  "className": "Death Knight",
+  "classSource": "WoW",
+  "subclassShortName": "Ebon Blade",
+  "subclassSource": "WoW",
+  "level": 7,
+  "header": 2,
+  "entries": [
+   "You and your allies have {@variantrule Resistance|XPHB} to Cold, Necrotic, and Psychic damage while in your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}."
   ]
  },
  {
@@ -3444,6 +3496,21 @@
   "header": 2,
   "entries": [
    "Beginning at 10th level, you can take the {@action Dash} action as a bonus action while you are raging."
+  ]
+ },
+ {
+  "name": "Beacon of Light",
+  "source": "WoW",
+  "className": "Paladin",
+  "classSource": "WoW",
+  "subclassShortName": "Holy",
+  "subclassSource": "WoW",
+  "level": 3,
+  "consumes": {
+   "name": "Channel Divinity"
+  },
+  "entries": [
+   "As a {@action Magic|XPHB} action, you can expend one use of your {@classFeature Channel Divinity|Paladin|XPHB|3|XPHB} to wrap an ally within 60 feet in holy energy. For 1 minute, anytime you heal a creature other than the affected ally with a spell or your {@classFeature Lay On Hands|Paladin|XPHB|1|XPHB}, the chosen ally also regains half as many {@variantrule Hit Points|XPHB}."
   ]
  },
  {
@@ -4773,6 +4840,18 @@
   "entries": [
    "{@i 3rd-level Rune Knight feature}",
    "You gain proficiency with {@item smith's tools|PHB}, and you learn to speak, read, and write {@language Giant}."
+  ]
+ },
+ {
+  "name": "Bonus Proficiencies",
+  "source": "WoW",
+  "className": "Monk",
+  "classSource": "WoW",
+  "subclassShortName": "Mystic Brews",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "You gain proficiency in the {@skill Performance|XPHB} skill, or if you already have it, you gain proficiency in one skill of your choice from the skills available to Monks at level 1. You also gain proficiency with {@item Brewer's Supplies|XPHB} if you don't already have it."
   ]
  },
  {
@@ -8646,6 +8725,20 @@
  },
  {
   "name": "Consult the Spirits",
+  "source": "WoW",
+  "className": "Shaman",
+  "classSource": "WoW",
+  "subclassShortName": "Spiritual Guardian",
+  "subclassSource": "WoW",
+  "level": 10,
+  "header": 2,
+  "entries": [
+   "You gain the ability to consult with your guardian spirits. When you do so, you cast the {@spell Augury|XPHB} or {@spell Clairvoyance|XPHB} spell without expending a spell slot or needing Material components. Rather than creating a spherical sensor, this use of {@spell Clairvoyance|XPHB} invisibly summons one of your guardian spirits to the chosen location. Wisdom is your spellcasting ability for these spells.",
+   "After you cast either spell in this way, you can't use this feature again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
+  "name": "Consult the Spirits",
   "source": "XGE",
   "page": 9,
   "className": "Barbarian",
@@ -9160,6 +9253,33 @@
   ]
  },
  {
+  "name": "Dashing Strikes",
+  "source": "WoW",
+  "className": "Rogue",
+  "classSource": "WoW",
+  "subclassShortName": "Swashbuckler",
+  "subclassSource": "WoW",
+  "level": 13,
+  "header": 2,
+  "entries": [
+   "You have practiced new ways to use your {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB}. The following effects are now among your {@classFeature Cunning Strike|Rogue|XPHB|5|XPHB} options.",
+   {
+    "type": "entries",
+    "name": "Invigorate (Cost: 2d6)",
+    "entries": [
+     "Choose a creature you can see within 30 feet of yourself. Until the end of that creature's next turn, whenever it makes an attack roll or a saving throw, it can roll {@dice 1d6} and add the number rolled to the attack roll or saving throw."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Parrying Stance (Cost: 2d6)",
+    "entries": [
+     "Roll {@dice 1d6}. Until the start of your next turn, you gain a bonus to your AC equal to the number rolled."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Dazzling Footwork",
   "source": "XPHB",
   "page": 64,
@@ -9515,6 +9635,98 @@
   ]
  },
  {
+  "name": "Demon Hunter",
+  "source": "WoW",
+  "className": "Demon Hunter",
+  "classSource": "WoW",
+  "subclassShortName": "Demon Hunter",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "{@i Embrace the Magic of Demons to Fight Fire with Fire}",
+   "Most Demon Hunters joined Illidan on Outland as he marshaled his forces to battle the Burning Legion. You might have followed a different path, inspired by Illidan rather than directly trained by him, but the result is the same: You have embraced the magic of the Burning Legion with the singular goal of defeating it on Azeroth and every other world.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Demon Hunter Spells|Demon Hunter|WoW|Demon Hunter|WoW|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Soul Fragments|Demon Hunter|WoW|Demon Hunter|WoW|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Spectral Sight|Demon Hunter|WoW|Demon Hunter|WoW|3"
+   }
+  ]
+ },
+ {
+  "name": "Demon Hunter Spells",
+  "source": "WoW",
+  "className": "Demon Hunter",
+  "classSource": "WoW",
+  "subclassShortName": "Demon Hunter",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "When you reach a Ranger level specified in the Demon Hunter Spells table, you thereafter always have the spell in the Spells (All) column prepared. You also have the additional spells listed in one other column of your choice.",
+   {
+    "type": "table",
+    "caption": "Demon Hunter Spells",
+    "colLabels": [
+     "Ranger Level",
+     "Spells (All)",
+     "Spells (Devourer)",
+     "Spells (Havoc)",
+     "Spells (Vengeance)"
+    ],
+    "colStyles": [
+     "col-1-2 text-center",
+     "col-2-7",
+     "col-2-7",
+     "col-2-7",
+     "col-2-7"
+    ],
+    "rows": [
+     [
+      "3",
+      "{@spell Throw Glaive|WoW}",
+      "{@spell Consume Soul|WoW}",
+      "{@spell Fel Rush|WoW}",
+      "{@spell Infernal Strike|WoW}"
+     ],
+     [
+      "5",
+      "{@spell Sigil of Flame|WoW}",
+      "{@spell Misty Step|XPHB}",
+      "{@spell Eye Beam|WoW}",
+      "{@spell Fiery Brand|WoW}"
+     ],
+     [
+      "9",
+      "{@spell Metamorphosis|WoW}",
+      "{@spell Soul Reap|WoW}",
+      "{@spell Blink|XPHB}",
+      "{@spell Demon Spikes|WoW}"
+     ],
+     [
+      "13",
+      "{@spell Chaos Nova|WoW}",
+      "{@spell Collapsing Star|WoW}",
+      "{@spell Fire Shield|XPHB}",
+      "{@spell Banishment|XPHB}"
+     ],
+     [
+      "17",
+      "{@spell Destructive Wave|XPHB}",
+      "{@spell Steel Wind Strike|XPHB}",
+      "{@spell Conjure Volley|XPHB}",
+      "{@spell Sigil of Chains|WoW}"
+     ]
+    ]
+   }
+  ]
+ },
+ {
   "name": "Desert",
   "source": "XGE",
   "page": 10,
@@ -9567,6 +9779,19 @@
    "At 3rd level, you gain the ability to magically sense the presence of a planar portal. As an action, you detect the distance and direction to the closest planar portal within 1 mile of you.",
    "Once you use this feature, you can't use it again until you finish a short or long rest.",
    "See the \"Planar Travel\" section in chapter 2 of the Dungeon Master's Guide for examples of planar portals."
+  ]
+ },
+ {
+  "name": "Devouring Plague",
+  "source": "WoW",
+  "className": "Priest",
+  "classSource": "WoW",
+  "subclassShortName": "Shadow",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "When a creature you can see within 30 feet of you fails a saving throw, you can cause that creature to take {@damage 1d10} Necrotic damage. If you do, you regain {@variantrule Hit Points|XPHB} equal to the Necrotic damage dealt.",
+   "You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
   ]
  },
  {
@@ -9657,6 +9882,73 @@
   ]
  },
  {
+  "name": "Discipline Domain",
+  "source": "WoW",
+  "className": "Priest",
+  "classSource": "WoW",
+  "subclassShortName": "Discipline",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "{@i Cure Allies' Wounds While Smiting Enemies}",
+   "The Discipline Domain focuses on the balance between the Holy Light and its shadowy mirror, the Void. Wielding both powers at once, Clerics who embrace this domain aid their allies and harm their foes, often with a single spell.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Discipline Spells|Priest|WoW|Discipline|WoW|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Holy Bolt|Priest|WoW|Discipline|WoW|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Atonement|Priest|WoW|Discipline|WoW|3"
+   }
+  ]
+ },
+ {
+  "name": "Discipline Spells",
+  "source": "WoW",
+  "className": "Priest",
+  "classSource": "WoW",
+  "subclassShortName": "Discipline",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "Your connection to this domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Discipline Domain Spells table, you thereafter always have the listed spells prepared.",
+   {
+    "type": "table",
+    "caption": "Discipline Domain Spells",
+    "colLabels": [
+     "Cleric Level",
+     "Spells"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "3",
+      "{@spell Arcane Vigor|XPHB}, {@spell Guiding Bolt|XPHB}, {@spell Magic Weapon|XPHB}, {@spell Shield of Faith|XPHB}"
+     ],
+     [
+      "5",
+      "{@spell Prayer of Mending|WoW}, {@spell Protection from Energy|XPHB}"
+     ],
+     [
+      "7",
+      "{@spell Guardian of Faith|XPHB}, {@spell Stoneskin|XPHB}"
+     ],
+     [
+      "9",
+      "{@spell Circle of Power|XPHB}, {@spell Destructive Wave|XPHB}"
+     ]
+    ]
+   }
+  ]
+ },
+ {
   "name": "Dispelling Recovery",
   "source": "AU",
   "page": 9,
@@ -9669,6 +9961,36 @@
   "entries": [
    "Immediately after you cast a spell with a spell slot that restores {@variantrule Hit Points|XPHB} to a creature or ends a condition on a creature, you can cast {@spell Dispel Magic|XPHB} as part of that action, {@variantrule Bonus Action|XPHB}, or {@variantrule Reaction|XPHB}, and without expending a spell slot.",
    "Once you use this feature, you can't use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. You also restore your use of it by expending one use of Channel Divinity (no action required)."
+  ]
+ },
+ {
+  "name": "Dispersion",
+  "source": "WoW",
+  "className": "Priest",
+  "classSource": "WoW",
+  "subclassShortName": "Shadow",
+  "subclassSource": "WoW",
+  "level": 6,
+  "header": 2,
+  "entries": [
+   "When you are hit by an attack roll, you can take a {@variantrule Reaction|XPHB} to disperse into shadowy energy. Until the end of your next turn, you have {@variantrule Resistance|XPHB} to all damage (including the damage from the triggering attack); you can't take any action, {@variantrule Bonus Action|XPHB}, or {@variantrule Reaction|XPHB}; and you have a {@variantrule Fly Speed|XPHB} of 40 feet. When the effect ends, you can spend up to half of your total {@variantrule Hit Point Dice|XPHB}, regaining {@variantrule Hit Points|XPHB} as if you had finished a {@variantrule Short Rest|XPHB}.",
+   "Once you use this feature, you can't use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
+  "name": "Disrupt",
+  "source": "WoW",
+  "className": "Demon Hunter",
+  "classSource": "WoW",
+  "subclassShortName": "Demon Hunter",
+  "subclassSource": "WoW",
+  "level": 11,
+  "consumes": {
+   "name": "Soul Fragment",
+   "amount": 2
+  },
+  "entries": [
+   "You can expend two soul fragments to cast {@spell Counterspell|XPHB} in response to that spell's trigger, using your spellcasting ability."
   ]
  },
  {
@@ -10123,6 +10445,21 @@
   ]
  },
  {
+  "name": "Double Jump",
+  "source": "WoW",
+  "className": "Demon Hunter",
+  "classSource": "WoW",
+  "subclassShortName": "Demon Hunter",
+  "subclassSource": "WoW",
+  "level": 3,
+  "consumes": {
+   "name": "Soul Fragment"
+  },
+  "entries": [
+   "You can expend one soul fragment to cast {@spell Feather Fall|XPHB} or {@spell Jump|XPHB} without expending a spell slot."
+  ]
+ },
+ {
   "name": "Draconic Bloodline",
   "source": "PHB",
   "page": 102,
@@ -10284,6 +10621,38 @@
    "The magic in your body manifests physical traits of your draconic gift. Your {@variantrule Hit Points|XPHB|Hit Point} maximum increases by 3, and it increases by 1 whenever you gain another Sorcerer level.",
    "Parts of you are also covered by dragon-like scales. While you aren't wearing armor, your base {@variantrule Armor Class|XPHB} equals 10 plus your Dexterity and Charisma modifiers."
   ]
+ },
+ {
+  "name": "Draconic Sorcery",
+  "source": "WoW",
+  "className": "Evoker",
+  "classSource": "WoW",
+  "subclassShortName": "Draconic",
+  "subclassSource": "WoW",
+  "level": 3,
+  "_copy": {
+   "name": "Draconic Sorcery",
+   "source": "XPHB",
+   "className": "Sorcerer",
+   "classSource": "XPHB",
+   "subclassShortName": "Draconic",
+   "subclassSource": "XPHB",
+   "level": 3,
+   "_mod": {
+    "entries": {
+     "mode": "replaceArr",
+     "replace": {
+      "index": 3
+     },
+     "items": [
+      {
+       "type": "refSubclassFeature",
+       "subclassFeature": "Evoker Spells|Evoker|WoW|Draconic|WoW|3"
+      }
+     ]
+    }
+   }
+  }
  },
  {
   "name": "Draconic Sorcery",
@@ -10839,6 +11208,18 @@
  },
  {
   "name": "Drunken Technique",
+  "source": "WoW",
+  "className": "Monk",
+  "classSource": "WoW",
+  "subclassShortName": "Mystic Brews",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "You twist and turn quickly as you move. Whenever you expend a {@classFeature Monk's Focus|Monk|XPHB|2|XPHB|Focus Point} using {@classFeature Patient Defense|Monk|XPHB|2|XPHB}, your {@variantrule Speed|XPHB} increases by 10 feet until the end of the current turn, and you can make one {@variantrule Unarmed Strike|XPHB} immediately after the {@variantrule Bonus Action|XPHB}."
+  ]
+ },
+ {
+  "name": "Drunken Technique",
   "source": "XGE",
   "page": 33,
   "className": "Monk",
@@ -10980,6 +11361,22 @@
     "type": "refSubclassFeature",
     "subclassFeature": "Unleash Incarnation|Fighter||Echo Knight|EGW|3"
    }
+  ]
+ },
+ {
+  "name": "Echo of the Elements",
+  "source": "WoW",
+  "className": "Shaman",
+  "classSource": "WoW",
+  "subclassShortName": "Elements",
+  "subclassSource": "WoW",
+  "level": 6,
+  "header": 2,
+  "consumes": {
+   "name": "Rage"
+  },
+  "entries": [
+   "You tap into the tranquility of the elements. You know the {@spell Elementalism|XPHB} cantrip. In addition, you can expend a use of your {@classFeature Rage|Barbarian|XPHB|1|XPHB} to cast {@spell Daylight|XPHB}, {@spell Water Walk|XPHB}, or {@spell Wind Wall|XPHB}. Wisdom is your spellcasting ability for these spells."
   ]
  },
  {
@@ -11535,6 +11932,40 @@
   ]
  },
  {
+  "name": "Elemental Overload",
+  "source": "WoW",
+  "className": "Shaman",
+  "classSource": "WoW",
+  "subclassShortName": "Elements",
+  "subclassSource": "WoW",
+  "level": 14,
+  "header": 2,
+  "entries": [
+   "The power of the storm you channel grows mightier, lashing out at your foes. Your {@subclassFeature Raging Elements|Shaman|WoW|Elements|WoW|3|WoW} options gain the following effects.",
+   {
+    "type": "entries",
+    "name": "Icefury",
+    "entries": [
+     "Whether or not you hit the target with this option, the target subtracts half the number rolled (round down) from the next damage roll it makes before the start of your next turn."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Lava Burst",
+    "entries": [
+     "Whether or not the target fails its saving throw against this option, the target and each enemy within 10 feet of it start {@hazard burning|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Lightning Bolt",
+    "entries": [
+     "Whether or not the target fails its saving throw against this option, a bolt of lightning leaps from the target to another target of your choice that you can see within 30 feet of the first target. The new target makes a Dexterity saving throw, taking Lightning damage equal to the roll's total on a failed save or half as much damage on a successful one."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Elemental Rebuke",
   "source": "FRHoF",
   "page": 21,
@@ -11892,6 +12323,21 @@
   ]
  },
  {
+  "name": "Enhancing a Magical Beverage",
+  "source": "WoW",
+  "className": "Monk",
+  "classSource": "WoW",
+  "subclassShortName": "Mystic Brews",
+  "subclassSource": "WoW",
+  "level": 6,
+  "consumes": {
+   "name": "Focus Point"
+  },
+  "entries": [
+   "When you create a magical beverage, you can expend 1 {@classFeature Monk's Focus|Monk|XPHB|2|XPHB|Focus Point} to extend the benefits' duration to 8 hours."
+  ]
+ },
+ {
   "name": "Enthralling Performance",
   "source": "XGE",
   "page": 14,
@@ -12108,6 +12554,66 @@
    {
     "type": "refSubclassFeature",
     "subclassFeature": "Potent Cantrip|Wizard|XPHB|Evoker|XPHB|3"
+   }
+  ]
+ },
+ {
+  "name": "Evoker Spells",
+  "source": "WoW",
+  "className": "Evoker",
+  "classSource": "WoW",
+  "subclassShortName": "Draconic",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "When you reach a Sorcerer level specified in the Evoker Spells table, you thereafter always have the spells in the Spells (All) column prepared. You also have the additional spells listed in one other column of your choice.",
+   {
+    "type": "table",
+    "caption": "Evoker Spells",
+    "colLabels": [
+     "Sorcerer Level",
+     "Spells (All)",
+     "Spells (Augmentation)",
+     "Spells (Devastation)",
+     "Spells (Preservation)"
+    ],
+    "colStyles": [
+     "col-1-2 text-center",
+     "col-2-7",
+     "col-2-7",
+     "col-2-7",
+     "col-2-7"
+    ],
+    "rows": [
+     [
+      "3",
+      "{@spell Chromatic Orb|XPHB}, {@spell Dragon's Breath|XPHB}",
+      "{@spell Ebon Might|WoW}, {@spell Eruption|WoW}",
+      "{@spell Azure Strike|WoW}, {@spell Scorching Ray|XPHB}",
+      "{@spell Dream Breath|WoW}, {@spell Living Flame|WoW}"
+     ],
+     [
+      "5",
+      "{@spell Fly|XPHB}",
+      "{@spell Blistering Scales|WoW}",
+      "{@spell Fireball|XPHB}",
+      "{@spell Emerald Blossom|WoW}"
+     ],
+     [
+      "7",
+      "{@spell Arcane Eye|XPHB}",
+      "{@spell Upheaval|WoW}",
+      "{@spell Emberstorm|WoW}",
+      "{@spell Time Dilation|WoW}"
+     ],
+     [
+      "9",
+      "{@spell Summon Dragon|XPHB}",
+      "{@spell Breath of Eons|WoW}",
+      "{@spell Shattering Star|WoW}",
+      "{@spell Dream Flight|WoW}"
+     ]
+    ]
    }
   ]
  },
@@ -12689,6 +13195,18 @@
   "header": 2,
   "entries": [
    "Once per active Rage, if you fail a saving throw, you can reroll it with a bonus equal to your Rage Damage bonus, and you must use the new roll."
+  ]
+ },
+ {
+  "name": "Fancy Footwork",
+  "source": "WoW",
+  "className": "Rogue",
+  "classSource": "WoW",
+  "subclassShortName": "Swashbuckler",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "You've learned how to land a strike and then slip away without reprisal. If you make a melee attack roll against a creature during your turn, that creature can't make {@action opportunity attack|XPHB|Opportunity Attacks} against you for the rest of that turn."
   ]
  },
  {
@@ -15307,6 +15825,48 @@
   ]
  },
  {
+  "name": "Holy Bolt",
+  "source": "WoW",
+  "className": "Priest",
+  "classSource": "WoW",
+  "subclassShortName": "Discipline",
+  "subclassSource": "WoW",
+  "level": 3,
+  "consumes": {
+   "name": "Channel Divinity"
+  },
+  "entries": [
+   "As a {@variantrule Bonus Action|XPHB}, you present your {@item Holy Symbol|XPHB} and expend a use of your {@classFeature Channel Divinity|Cleric|XPHB|2|XPHB} to make a ranged spell attack, hurling a bolt of holy energy targeting one creature within 60 feet of yourself. On a hit, the target takes Radiant damage equal to {@damage 2d10} plus your Wisdom modifier, and you can choose a creature you can see within 60 feet of yourself to regain {@variantrule Hit Points|XPHB} equal to {@dice 1d10} plus your Wisdom modifier."
+  ]
+ },
+ {
+  "name": "Holy Deliverance",
+  "source": "WoW",
+  "className": "Paladin",
+  "classSource": "WoW",
+  "subclassShortName": "Holy",
+  "subclassSource": "WoW",
+  "level": 20,
+  "header": 2,
+  "entries": [
+   "As a {@variantrule Bonus Action|XPHB}, you can imbue your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB} with holy power, granting the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending a level 5 spell slot (no action required).",
+   {
+    "type": "entries",
+    "name": "Healing Power",
+    "entries": [
+     "Whenever an ally starts its turn {@status Bloodied|XPHB} and in the aura, that creature regains {@variantrule Hit Points|XPHB} equal to your Charisma modifier plus your {@variantrule Proficiency|XPHB|Proficiency Bonus}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Sunlight",
+    "entries": [
+     "The aura is filled with {@variantrule Bright Light|XPHB} that is sunlight."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Holy Nimbus",
   "source": "PHB",
   "page": 85,
@@ -15805,6 +16365,33 @@
   "entries": [
    "Your charming words and enchanting gaze can enthrall another creature. As a {@action Magic|XPHB} action, choose one creature that you can see within 10 feet of yourself. If the target can see or hear you, it must succeed on a Wisdom saving throw against your spell save DC or have the {@condition Charmed|XPHB} condition for 1 minute or until the target is more than 10 feet away from you, the target can neither see nor hear you, or the target takes damage. While {@condition Charmed|XPHB}, the target has the {@condition Incapacitated|XPHB} condition and a {@variantrule Speed|XPHB} of 0.",
    "You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
+  "name": "Illidari Knowledge",
+  "source": "WoW",
+  "className": "Demon Hunter",
+  "classSource": "WoW",
+  "subclassShortName": "Demon Hunter",
+  "subclassSource": "WoW",
+  "level": 11,
+  "header": 2,
+  "entries": [
+   "You gain new mastery over souls, granting you new ways to use soul fragments:",
+   {
+    "type": "options",
+    "style": "list-hang-notitle",
+    "entries": [
+     {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Disrupt|Demon Hunter|WoW|Demon Hunter|WoW|11"
+     },
+     {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Warglaive Mastery|Demon Hunter|WoW|Demon Hunter|WoW|11"
+     }
+    ]
+   }
   ]
  },
  {
@@ -16644,6 +17231,19 @@
   ]
  },
  {
+  "name": "Infusion of Light",
+  "source": "WoW",
+  "className": "Paladin",
+  "classSource": "WoW",
+  "subclassShortName": "Holy",
+  "subclassSource": "WoW",
+  "level": 15,
+  "header": 2,
+  "entries": [
+   "Whenever you cast a spell that deals Radiant damage, you refresh the pool of healing power that fuels your {@classFeature Lay On Hands|Paladin|XPHB|1|XPHB} feature. Your pool of healing power regains a number of {@variantrule Hit Points|XPHB} equal to the total number rolled for the spell's Radiant damage, to a maximum of five times your Paladin level."
+  ]
+ },
+ {
   "name": "Ingenious Movement",
   "source": "EFA",
   "page": 21,
@@ -16892,6 +17492,19 @@
   "entries": [
    "As a {@variantrule Bonus Action|XPHB}, you can strike terror into others with your menacing presence and primal power. When you do so, each creature of your choice in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you must make a Wisdom saving throw ({@dc 8} plus your Strength modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, a creature has the {@condition Frightened|XPHB} condition for 1 minute. At the end of each of the {@condition Frightened|XPHB} creature's turns, the creature repeats the save, ending the effect on itself on a success.",
    "Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB} unless you expend a use of your Rage (no action required) to restore your use of it."
+  ]
+ },
+ {
+  "name": "Intoxicated Frenzy",
+  "source": "WoW",
+  "className": "Monk",
+  "classSource": "WoW",
+  "subclassShortName": "Mystic Brews",
+  "subclassSource": "WoW",
+  "level": 17,
+  "header": 2,
+  "entries": [
+   "Immediately after you use your {@classFeature Patient Defense|Monk|XPHB|2|XPHB}, you can move up to your {@variantrule Speed|XPHB}. During this movement, whenever you enter a space within 5 feet of a creature, you can make an {@variantrule Unarmed Strike|XPHB} targeting that creature. In addition, when you hit a creature with an {@variantrule Unarmed Strike|XPHB} granted by this feature, the creature must succeed on a Dexterity saving throw or have the {@condition Prone|XPHB} condition. A creature can be targeted by an {@variantrule Unarmed Strike|XPHB} granted by this feature only once per turn."
   ]
  },
  {
@@ -17352,6 +17965,18 @@
  },
  {
   "name": "Leap to Your Feet",
+  "source": "WoW",
+  "className": "Monk",
+  "classSource": "WoW",
+  "subclassShortName": "Mystic Brews",
+  "subclassSource": "WoW",
+  "level": 6,
+  "entries": [
+   "When you have the {@condition Prone|XPHB} condition, you can stand up by spending 5 feet of movement."
+  ]
+ },
+ {
+  "name": "Leap to Your Feet",
   "source": "XGE",
   "page": 34,
   "className": "Monk",
@@ -17684,6 +18309,19 @@
   ]
  },
  {
+  "name": "Lightbringer's Aura",
+  "source": "WoW",
+  "className": "Paladin",
+  "classSource": "WoW",
+  "subclassShortName": "Holy",
+  "subclassSource": "WoW",
+  "level": 7,
+  "header": 2,
+  "entries": [
+   "Whenever you cast a spell or use {@classFeature Lay On Hands|Paladin|XPHB|1|XPHB} to restore {@variantrule Hit Points|XPHB} to a {@status Bloodied|XPHB} creature within your {@classFeature Aura of Protection|Paladin|XPHB|6|XPHB}, the creature regains an extra {@dice 1d6} {@variantrule Hit Points|XPHB}."
+  ]
+ },
+ {
   "name": "Lightning Launcher",
   "source": "TCE",
   "page": 15,
@@ -17776,6 +18414,22 @@
      "Once on each of your turns when you make an attack roll with a weapon and miss, you can cause that attack to hit instead."
     ]
    }
+  ]
+ },
+ {
+  "name": "Luminous Barrier",
+  "source": "WoW",
+  "className": "Priest",
+  "classSource": "WoW",
+  "subclassShortName": "Discipline",
+  "subclassSource": "WoW",
+  "level": 6,
+  "header": 2,
+  "consumes": {
+   "name": "Channel Divinity"
+  },
+  "entries": [
+   "As a {@variantrule Bonus Action|XPHB}, you can expend a use of your {@classFeature Channel Divinity|Cleric|XPHB|2|XPHB} to place a magical ward of glowing light on each creature blessed by your {@subclassFeature Atonement|Priest|WoW|Discipline|WoW|3|WoW}. Each affected creature gains a number of {@variantrule Temporary Hit Points|XPHB} equal to your Cleric level plus your Wisdom modifier. While a creature has {@variantrule Temporary Hit Points|XPHB} gained from this feature, it has {@variantrule Resistance|XPHB} to all damage."
   ]
  },
  {
@@ -18355,11 +19009,19 @@
      },
      {
       "type": "refOptionalfeature",
+      "optionalfeature": "Battle Shout|WoW"
+     },
+     {
+      "type": "refOptionalfeature",
       "optionalfeature": "Commander's Strike|XPHB"
      },
      {
       "type": "refOptionalfeature",
       "optionalfeature": "Commanding Presence|XPHB"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Demoralizing Shout|WoW"
      },
      {
       "type": "refOptionalfeature",
@@ -18383,6 +19045,10 @@
      },
      {
       "type": "refOptionalfeature",
+      "optionalfeature": "Heroic Leap|WoW"
+     },
+     {
+      "type": "refOptionalfeature",
       "optionalfeature": "Lunging Attack|XPHB"
      },
      {
@@ -18392,6 +19058,10 @@
      {
       "type": "refOptionalfeature",
       "optionalfeature": "Menacing Attack|XPHB"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Mortal Strike|WoW"
      },
      {
       "type": "refOptionalfeature",
@@ -18424,6 +19094,10 @@
      {
       "type": "refOptionalfeature",
       "optionalfeature": "Trip Attack|XPHB"
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Warding Maneuver|WoW"
      }
     ]
    }
@@ -18723,6 +19397,32 @@
   "entries": [
    "You gain proficiency with {@filter Martial weapons|items|type=martial weapon} and training with {@filter Medium armor|items|type=Medium Armor} and {@item Shield|XPHB|Shields}.",
    "In addition, you can use a Simple or Martial weapon as a {@variantrule Spellcasting Focus|XPHB} to cast spells from your {@filter Bard spell list|spells|class=Bard}."
+  ]
+ },
+ {
+  "name": "Master Brewer",
+  "source": "WoW",
+  "className": "Monk",
+  "classSource": "WoW",
+  "subclassShortName": "Mystic Brews",
+  "subclassSource": "WoW",
+  "level": 17,
+  "header": 2,
+  "entries": [
+   "When you create a magical beverage using your {@subclassFeature Mystic Brew|Monk|WoW|Mystic Brews|WoW|6|WoW} feature, you can choose two different options and produce one magical beverage. Drinking the beverage provides the effects of both options for the duration."
+  ]
+ },
+ {
+  "name": "Master Duelist",
+  "source": "WoW",
+  "className": "Rogue",
+  "classSource": "WoW",
+  "subclassShortName": "Swashbuckler",
+  "subclassSource": "WoW",
+  "level": 17,
+  "header": 2,
+  "entries": [
+   "Immediately after you use your {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB}, you can make another attack against the same target, provided you are within 5 feet of it and no other creatures are within 5 feet of you."
   ]
  },
  {
@@ -19213,7 +19913,7 @@
   "entries": [
    "{@i 15th-level Fey Wanderer feature}",
    "You can slip in and out of the Feywild to move in a blink of an eye: you can cast {@spell misty step} without expending a spell slot. You can do so a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest.",
-   "In addition, whenever you cast {@i misty step}, you can bring along one willing creature you can see within 5 feet of you. That creature teleports to an unoccupied space of your choice within 5 feet of your destination space."
+   "In addition, whenever you cast {@spell misty step}, you can bring along one willing creature you can see within 5 feet of you. That creature teleports to an unoccupied space of your choice within 5 feet of your destination space."
   ]
  },
  {
@@ -19515,6 +20215,51 @@
   "header": 2,
   "entries": [
    "When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn."
+  ]
+ },
+ {
+  "name": "Mystic Brew",
+  "source": "WoW",
+  "className": "Monk",
+  "classSource": "WoW",
+  "subclassShortName": "Mystic Brews",
+  "subclassSource": "WoW",
+  "level": 6,
+  "header": 2,
+  "entries": [
+   "Whenever you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB} while holding {@item Brewer's Supplies|XPHB}, you can use that tool to magically produce one magical beverage, chosen from the following options: Cinnamon Dragon, Heavenly Spirit, or Refreshing Dip. A pint of the beverage appears in a bottle or flask you are holding or carrying; otherwise, the beverage spills out on the ground and then vanishes. If any beverage remains when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, the beverage vanishes.",
+   {
+    "type": "entries",
+    "name": "Drinking a Magical Beverage",
+    "entries": [
+     "Only you can gain the benefits of drinking the beverage. You must drink the full pint of the beverage before gaining its benefit. You can spend 1 minute drinking the beverage. You then gain the benefits of the beverage for 1 hour or until you drink another magical beverage, as described below:",
+     {
+      "type": "list",
+      "style": "list-hang-notitle",
+      "items": [
+       {
+        "type": "item",
+        "name": "Cinnamon Dragon",
+        "entry": "You can take a {@action Magic|XPHB} action to exhale toxic flames in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. Each creature in the {@variantrule Cone [Area of Effect]|XPHB|Cone} makes a Dexterity saving throw ({@dc 8} plus your Wisdom modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, a creature takes Fire damage equal to four rolls of your {@classFeature Martial Arts|Monk|XPHB|1|XPHB} die and has the {@condition Poisoned|XPHB} condition until the end of its next turn. On a successful save, a creature takes half as much damage only."
+       },
+       {
+        "type": "item",
+        "name": "Heavenly Spirit",
+        "entry": "You gain {@variantrule Resistance|XPHB} to two of the following damage types of your choice: Cold, Necrotic, Psychic, or Radiant damage."
+       },
+       {
+        "type": "item",
+        "name": "Refreshing Dip",
+        "entry": "You have a pool of dice of the same type as your {@classFeature Martial Arts|Monk|XPHB|1|XPHB} die. The maximum number of dice equals your Wisdom modifier plus half your Monk level (round down). Whenever you regain {@variantrule Hit Points|XPHB}, you can expend and roll one die from this pool to regain additional {@variantrule Hit Points|XPHB} equal to the number rolled."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Enhancing a Magical Beverage|Monk|WoW|Mystic Brews|WoW|6"
+   }
   ]
  },
  {
@@ -20454,6 +21199,174 @@
    {
     "type": "refSubclassFeature",
     "subclassFeature": "Channel Divinity|Paladin||Crown|SCAG|3"
+   }
+  ]
+ },
+ {
+  "name": "Oath of the Ebon Blade",
+  "source": "WoW",
+  "className": "Death Knight",
+  "classSource": "WoW",
+  "subclassShortName": "Ebon Blade",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "{@i Wield the Power of Death Against the Scourge}",
+   "The Oath of the Ebon Blade unites the free death knights of Azeroth. No longer directly under the Lich King's control, they still serve Bolvar Fordragon—first as agents of the new Lich King, and later, after the destruction of the {@item Helm of Domination|WoW}, as troops devoted to stopping the Scourge's spread.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Oath of the Ebon Blade Spells|Death Knight|WoW|Ebon Blade|WoW|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Runeforging|Death Knight|WoW|Ebon Blade|WoW|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Runic Power|Death Knight|WoW|Ebon Blade|WoW|3"
+   }
+  ]
+ },
+ {
+  "name": "Oath of the Ebon Blade Spells",
+  "source": "WoW",
+  "className": "Death Knight",
+  "classSource": "WoW",
+  "subclassShortName": "Ebon Blade",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "The magic of your oath and your {@subclassFeature Runeforging|Death Knight|WoW|Ebon Blade|WoW|3|WoW} feature (see below) ensure you always have certain spells ready; when you reach a Paladin level specified in the Oath of the Ebon Blade Spells table, you thereafter always have the spell in the Spells (All) column prepared. You also have the additional spells listed in the column matching the rune you have inscribed on your weapon, if any.",
+   {
+    "type": "table",
+    "caption": "Oath of the Ebon Blade Spells",
+    "colLabels": [
+     "Paladin Level",
+     "Spells (All)",
+     "Spells (Blood)",
+     "Spells (Frost)",
+     "Spells (Unholy)"
+    ],
+    "colStyles": [
+     "col-1-2 text-center",
+     "col-2-7",
+     "col-2-7",
+     "col-2-7",
+     "col-2-7"
+    ],
+    "rows": [
+     [
+      "3",
+      "{@spell Death Grip|WoW}",
+      "{@spell Vampiric Blood|WoW}",
+      "{@spell Chains of Ice|WoW}",
+      "{@spell Scourge Strike|WoW}"
+     ],
+     [
+      "5",
+      "{@spell Death and Decay|WoW}",
+      "{@spell Spiritual Weapon|XPHB}",
+      "{@spell Frostscythe|WoW}",
+      "{@spell Ray of Enfeeblement|XPHB}"
+     ],
+     [
+      "9",
+      "{@spell Summon Undead|XPHB}",
+      "{@spell Leeching Strike|WoW}",
+      "{@spell Remorseless Winter|WoW}",
+      "{@spell Bestow Curse|XPHB}"
+     ],
+     [
+      "13",
+      "{@spell Freedom of Movement|XPHB}",
+      "{@spell Evard's Black Tentacles|XPHB}",
+      "{@spell Ice Storm|XPHB}",
+      "{@spell Blight|XPHB}"
+     ],
+     [
+      "17",
+      "{@spell Circle of Power|XPHB}",
+      "{@spell Bonestorm|WoW}",
+      "{@spell Cone of Cold|XPHB}",
+      "{@spell Contagion|XPHB}"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Oath of the Holy",
+  "source": "WoW",
+  "className": "Paladin",
+  "classSource": "WoW",
+  "subclassShortName": "Holy",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "{@i Serve as a Beacon of the Light}",
+   "The Oath of the Holy unites Paladins who nurture life and use the power of the Light for healing and support. They combine great piety and virtue with martial skill, aspiring to the highest standards of morality, service to others, and self-sacrifice.",
+   "These paladins share the following tenets:",
+   {
+    "type": "list",
+    "items": [
+     "Live your life in service to others of goodwill.",
+     "Do all in your power to ease the suffering of the innocent.",
+     "Let the Light shine through you to banish the darkness."
+    ]
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Oath of the Holy Spells|Paladin|WoW|Holy|WoW|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Beacon of Light|Paladin|WoW|Holy|WoW|3"
+   }
+  ]
+ },
+ {
+  "name": "Oath of the Holy Spells",
+  "source": "WoW",
+  "className": "Paladin",
+  "classSource": "WoW",
+  "subclassShortName": "Holy",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of the Holy Spells table, you thereafter always have the listed spells prepared.",
+   {
+    "type": "table",
+    "caption": "Oath of the Holy Spells",
+    "colLabels": [
+     "Paladin Level",
+     "Spells"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "3",
+      "{@spell Cure Wounds|XPHB}, {@spell Healing Word|XPHB}"
+     ],
+     [
+      "5",
+      "{@spell Lesser Restoration|XPHB}, {@spell Prayer of Healing|XPHB}"
+     ],
+     [
+      "9",
+      "{@spell Dispel Magic|XPHB}, {@spell Mass Healing Word|XPHB}"
+     ],
+     [
+      "13",
+      "{@spell Aura of Life|XPHB}, {@spell Death Ward|XPHB}"
+     ],
+     [
+      "17",
+      "{@spell Greater Restoration|XPHB}, {@spell Mass Cure Wounds|XPHB}"
+     ]
+    ]
    }
   ]
  },
@@ -21611,6 +22524,33 @@
  },
  {
   "name": "Panache",
+  "source": "WoW",
+  "className": "Rogue",
+  "classSource": "WoW",
+  "subclassShortName": "Swashbuckler",
+  "subclassSource": "WoW",
+  "level": 9,
+  "header": 2,
+  "entries": [
+   "You have practiced new ways to use your {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB}. The following effects are now among your {@classFeature Cunning Strike|Rogue|XPHB|5|XPHB} options.",
+   {
+    "type": "entries",
+    "name": "Goad (Cost: 1d6)",
+    "entries": [
+     "The target must succeed on a Wisdom saving throw, or until the end of its next turn, the target has {@variantrule Disadvantage|XPHB} on attack rolls against targets other than you and can't make {@action opportunity attack|XPHB|Opportunity Attacks} against targets other than you."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Awe (Cost: 3d6)",
+    "entries": [
+     "Each creature of your choice within 30 feet of you must succeed on a Wisdom saving throw or have the {@condition Charmed|XPHB} condition until the end of your next turn."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Panache",
   "source": "XGE",
   "page": 48,
   "className": "Rogue",
@@ -21750,6 +22690,23 @@
   ]
  },
  {
+  "name": "Path of the Elements",
+  "source": "WoW",
+  "className": "Shaman",
+  "classSource": "WoW",
+  "subclassShortName": "Elements",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "{@i Wield the Fury of the Elements}",
+   "Barbarians who follow the Path of the Elements learn to harness their {@classFeature Rage|Barbarian|XPHB|1|XPHB} into a storm of flames, frost, and lightning. When in their {@classFeature Rage|Barbarian|XPHB|1|XPHB}, these Barbarians tap into the elemental forces of nature to create powerful magical effects.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Raging Elements|Shaman|WoW|Elements|WoW|3"
+   }
+  ]
+ },
+ {
   "name": "Path of the Giant",
   "source": "BGG",
   "page": 11,
@@ -21808,6 +22765,23 @@
     "entries": [
      "You gain proficiency with your choice of {@item calligrapher's supplies|phb} or {@item painter's supplies|phb}."
     ]
+   }
+  ]
+ },
+ {
+  "name": "Path of the Spiritual Guardian",
+  "source": "WoW",
+  "className": "Shaman",
+  "classSource": "WoW",
+  "subclassShortName": "Spiritual Guardian",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "{@i Call on the Spirits for Combat Aid}",
+   "Barbarians who walk the Path of the Spiritual Guardian call on spirits—whether bestial spirits of nature, spirits of departed ancestors, or spirits of raw elemental power—to guide and protect them. When these Barbarians rage, they contact the realm of the spirits and call on them for aid.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Spiritual Protectors|Shaman|WoW|Spiritual Guardian|WoW|3"
    }
   ]
  },
@@ -22294,6 +23268,41 @@
    "As an action, you can channel the magic of the Song of Creation to create one nonmagical item of your choice in an unoccupied space within 10 feet of you. The item must appear on a surface or in a liquid that can support it. The gp value of the item can't be more than 20 times your bard level, and the item must be Medium or smaller. The item glimmers softly, and a creature can faintly hear music when touching it. The created item disappears after a number of hours equal to your proficiency bonus. For examples of items you can create, see the equipment chapter of the {@book Player's Handbook|PHB|5}.",
    "Once you create an item with this feature, you can't do so again until you finish a long rest, unless you expend a spell slot of 2nd level or higher to use this feature again. You can have only one item created by this feature at a time; if you use this action and already have an item from this feature, the first one immediately vanishes.",
    "The size of the item you can create with this feature increases by one size category when you reach 6th level (Large) and 14th level (Huge)."
+  ]
+ },
+ {
+  "name": "Pet Specialization",
+  "source": "WoW",
+  "className": "Hunter",
+  "classSource": "WoW",
+  "subclassShortName": "Beast Master",
+  "subclassSource": "WoW",
+  "level": 6,
+  "header": 2,
+  "entries": [
+   "This feature replaces the {@classFeature Roving|Ranger|XPHB|6} feature for a Hunter with the {@subclass Beast Master|Hunter|WoW|WoW} subclass.",
+   "While the beast from your {@subclassFeature Primal Companion|Ranger|XPHB|Beast Master|XPHB|3|XPHB} feature is within 60 feet of you, you gain one of the following benefits, depending on the beast's pet family and its specialization (see \"{@book Hunter Pets|WoW|1|Hunter Pets}\").",
+   {
+    "type": "entries",
+    "name": "Cunning",
+    "entries": [
+     "Your {@variantrule Speed|XPHB} and all of your primal beast's speeds increase by 10 feet. In addition, your primal beast can use its action to cast {@spell Freedom of Movement|XPHB} without any spell components, affecting itself and you (if you are within range). Once it does so, it can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Ferocity",
+    "entries": [
+     "When your primal beast is {@status Bloodied|XPHB} and it hits with its Beast's Strike attack, you and your primal beast each regain {@variantrule Hit Points|XPHB} equal to your Wisdom modifier. In addition, your primal beast can use its action to cast {@spell Haste|XPHB} without any spell components, affecting itself and you (if you are within range). Once it does so, it can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Tenacity",
+    "entries": [
+     "Your {@variantrule Hit Points|XPHB|Hit Point} maximum increases by 6. Whenever you gain a Ranger level, your {@variantrule Hit Points|XPHB|Hit Point} maximum increases by an additional 1 {@variantrule Hit Points|XPHB|Hit Point}. Your primal beast's {@variantrule Hit Points|XPHB|Hit Point} maximum also increases by your Ranger level. In addition, your primal beast can use its action to cast {@spell Stoneskin|XPHB} without any spell components, affecting itself and you (if you are within range). Once it does so, it can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+    ]
+   }
   ]
  },
  {
@@ -22817,6 +23826,19 @@
   "header": 2,
   "entries": [
    "Starting at 6th level, your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+  ]
+ },
+ {
+  "name": "Primordial Bond",
+  "source": "WoW",
+  "className": "Shaman",
+  "classSource": "WoW",
+  "subclassShortName": "Elements",
+  "subclassSource": "WoW",
+  "level": 10,
+  "header": 2,
+  "entries": [
+   "While your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active, you have {@variantrule Resistance|XPHB} to Cold, Fire, and Lightning damage."
   ]
  },
  {
@@ -23906,6 +24928,40 @@
   ]
  },
  {
+  "name": "Raging Elements",
+  "source": "WoW",
+  "className": "Shaman",
+  "classSource": "WoW",
+  "subclassShortName": "Elements",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "Whenever you activate your {@classFeature Rage|Barbarian|XPHB|1|XPHB}, you can take one of the following Raging Elements options of your choice as part of that {@variantrule Bonus Action|XPHB}. While your {@classFeature Rage|Barbarian|XPHB|1|XPHB|rage} is active, you can take a {@variantrule Bonus Action|XPHB} to use that option again or a different option.",
+   "If a Raging Elements option requires a saving throw, the DC equals 8 plus your Constitution modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}.",
+   {
+    "type": "entries",
+    "name": "Icefury",
+    "entries": [
+     "When this effect is activated, roll a number of d8s equal to your {@classFeature Rage|Barbarian|XPHB|1|XPHB} Damage bonus, and add them together. You hurl frigid ice at one creature within 30 feet of yourself. Make either a melee spell attack (if the target is within 5 feet) or a ranged spell attack, using Constitution as your spellcasting ability. On a hit, the attack deals Cold damage equal to the number rolled, and the next time the target takes Fire damage before the end of your next turn, it takes an extra {@damage 1d10} Fire damage."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Lava Burst",
+    "entries": [
+     "When this effect is activated, roll a number of d4s equal to your {@classFeature Rage|Barbarian|XPHB|1|XPHB} Damage bonus, and add them together. You then hurl molten lava at one creature you can see within 30 feet. The target makes a Dexterity saving throw. On a failed save, the target takes Fire damage equal to the number rolled, and the next time the target takes Lightning damage until the end of your next turn, it takes an extra {@damage 1d8} Lightning damage. On a successful save, the target takes half as much damage only."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Lightning Bolt",
+    "entries": [
+     "When this effect is activated, roll a number of d6s equal to your {@classFeature Rage|Barbarian|XPHB|1|XPHB} Damage bonus, and add them together. You can then hurl a bolt of lightning at one other creature you can see within 30 feet. The target makes a Dexterity saving throw. On a failed save, the target takes Lightning damage equal to the roll's total, and the next time the target takes Cold damage until the end of your next turn, it takes an extra {@damage 1d6} Cold damage. On a successful save, the target takes half as much damage only."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Raging Storm",
   "source": "XGE",
   "page": 10,
@@ -23935,6 +24991,19 @@
      }
     ]
    }
+  ]
+ },
+ {
+  "name": "Rakish Audacity",
+  "source": "WoW",
+  "className": "Rogue",
+  "classSource": "WoW",
+  "subclassShortName": "Swashbuckler",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "When you roll {@variantrule Initiative|XPHB}, you can give yourself a bonus to the roll equal to your Charisma modifier.",
+   "You also gain an additional way to use your {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB}: You don't need {@variantrule Advantage|XPHB} on the attack roll to use your Sneak Attack against a creature if you are within 5 feet of it, no other creatures are within 5 feet of you, and you don't have {@variantrule Disadvantage|XPHB} on the attack roll. All the other rules for Sneak Attack still apply to you."
   ]
  },
  {
@@ -24209,6 +25278,21 @@
    "{@i 15th-level Echo Knight feature}",
    "You've learned to absorb the fleeting magic of your echo. When an echo of yours is destroyed by taking damage, you can gain a number of temporary hit points equal to {@dice 2d6} + your Constitution modifier, provided you don't already have temporary hit points.",
    "You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+  ]
+ },
+ {
+  "name": "Redirect Attack",
+  "source": "WoW",
+  "className": "Monk",
+  "classSource": "WoW",
+  "subclassShortName": "Mystic Brews",
+  "subclassSource": "WoW",
+  "level": 6,
+  "consumes": {
+   "name": "Focus Point"
+  },
+  "entries": [
+   "When an enemy misses you with a melee attack roll, you can take a {@variantrule Reaction|XPHB} and spend 1 {@classFeature Monk's Focus|Monk|XPHB|2|XPHB|Focus Point} to cause that attack to hit one creature of your choice, other than the attacker, that you can see within 5 feet of yourself."
   ]
  },
  {
@@ -24643,6 +25727,19 @@
   ]
  },
  {
+  "name": "Roving",
+  "source": "WoW",
+  "className": "Hunter",
+  "classSource": "WoW",
+  "subclassShortName": "Hunter",
+  "subclassSource": "WoW",
+  "level": 6,
+  "header": 2,
+  "entries": [
+   "Your {@variantrule Speed|XPHB} increases by 10 feet while you aren't wearing Heavy armor. You also have a {@variantrule Climb Speed|XPHB} and a {@variantrule Swim Speed|XPHB} equal to your {@variantrule Speed|XPHB}."
+  ]
+ },
+ {
   "name": "Royal Envoy",
   "source": "SCAG",
   "page": 128,
@@ -24763,6 +25860,39 @@
   ]
  },
  {
+  "name": "Runeforging",
+  "source": "WoW",
+  "className": "Death Knight",
+  "classSource": "WoW",
+  "subclassShortName": "Ebon Blade",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "When you finish a {@variantrule Long Rest|XPHB}, you can inscribe one of the following runes on a melee weapon you are holding, or you can transfer the rune to a different weapon. Whenever you gain a level, you can replace it with a different rune.",
+   {
+    "type": "entries",
+    "name": "Blood",
+    "entries": [
+     "When you inscribe this rune on your weapon, and whenever you finish a {@variantrule Long Rest|XPHB} while the rune is inscribed on your weapon, you gain {@variantrule Temporary Hit Points|XPHB} equal to your Charisma modifier plus your Paladin level. While you are wielding your inscribed weapon, you gain these {@variantrule Temporary Hit Points|XPHB} whenever you reduce an enemy to 0 {@variantrule Hit Points|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Frost",
+    "entries": [
+     "While you are wielding your inscribed weapon, damage from your weapon attacks, Paladin spells, and Paladin features ignores {@variantrule Resistance|XPHB} to Cold damage. When you make the extra attack of the {@itemProperty L|XPHB|Light} property and hit while wielding your inscribed weapon, you deal an extra {@damage 1d4} Cold damage."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Unholy",
+    "entries": [
+     "While you are wielding your inscribed weapon, damage from your weapon attacks, Paladin spells, and Paladin features ignores {@variantrule Resistance|XPHB} to Necrotic damage. If your inscribed weapon has the {@itemProperty H|XPHB|Heavy} property, the first creature you hit with it each turn takes extra Necrotic damage equal to your Charisma modifier (minimum of 1)."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Runic Juggernaut",
   "source": "TCE",
   "page": 44,
@@ -24775,6 +25905,76 @@
   "entries": [
    "{@i 18th-level Rune Knight feature}",
    "You learn how to amplify your rune-powered transformation. As a result, the extra damage you deal with the Giant's Might feature increases to {@dice 1d10}. Moreover, when you use that feature, your size can increase to Huge, and while you are that size, your reach increases by 5 feet."
+  ]
+ },
+ {
+  "name": "Runic Mastery",
+  "source": "WoW",
+  "className": "Death Knight",
+  "classSource": "WoW",
+  "subclassShortName": "Ebon Blade",
+  "subclassSource": "WoW",
+  "level": 15,
+  "header": 2,
+  "entries": [
+   "You can invoke the power of the rune inscribed on your weapon. Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. The effect depends on the rune you have inscribed.",
+   {
+    "type": "entries",
+    "name": "Blood",
+    "entries": [
+     "When a creature hits another creature you can see within 10 feet of you with an attack roll, you can take a {@variantrule Reaction|XPHB} to reduce the damage the target takes by your Paladin level. You then lose a number of {@variantrule Hit Points|XPHB} equal to your Paladin level."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Frost",
+    "entries": [
+     "When you take the {@action Attack|XPHB} action on your turn, you can replace one attack with an exhalation of frost magic in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. Each creature in that area makes a Dexterity saving throw against your spell save DC. A creature takes {@damage 8d6} Cold damage on a failed save or half as much damage on a successful one."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Unholy",
+    "entries": [
+     "When you cast {@spell Summon Undead|XPHB}, you can modify it so that the spell doesn't require {@status Concentration|XPHB}. If you do so, the spell's duration becomes 1 minute for that casting, and when summoned, the {@b Undead Spirit} has a number of {@variantrule Temporary Hit Points|XPHB} equal to your Paladin level plus your Charisma modifier. In addition, the first time each turn the spirit hits a creature, the spirit deals extra Necrotic damage equal to half your Paladin level (round up)."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Runic Power",
+  "source": "WoW",
+  "className": "Death Knight",
+  "classSource": "WoW",
+  "subclassShortName": "Ebon Blade",
+  "subclassSource": "WoW",
+  "level": 3,
+  "consumes": {
+   "name": "Channel Divinity"
+  },
+  "entries": [
+   "Immediately after you cast {@spell Rune Strike|WoW}, you can expend one use of your {@classFeature Channel Divinity|Paladin|XPHB|3|XPHB} to gain one of the following benefits based on the rune inscribed on your weapon.",
+   {
+    "type": "entries",
+    "name": "Blood",
+    "entries": [
+     "You regain a number of {@variantrule Hit Points|XPHB} equal to the Necrotic damage dealt with your {@spell Rune Strike|WoW}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Frost",
+    "entries": [
+     "Frost covers your weapon and shatters on impact. The target of your {@spell Rune Strike|WoW} and each enemy in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the target take {@damage 2d6} Cold damage."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Unholy",
+    "entries": [
+     "The target of your {@spell Rune Strike|WoW} is cursed until the end of your next turn. The next time the cursed target makes a saving throw, it subtracts {@dice 1d6} from the roll, and the curse ends."
+    ]
+   }
   ]
  },
  {
@@ -25569,6 +26769,31 @@
   ]
  },
  {
+  "name": "Shadow Domain",
+  "source": "WoW",
+  "className": "Priest",
+  "classSource": "WoW",
+  "subclassShortName": "Shadow",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "{@i Draw on the Debilitating Power of the Void}",
+   "The Shadow Domain deals with the powers of shadow and the Void—a sinister mirror of the life-giving powers of the Light. Clerics who embrace these powers can wither their enemies' flesh and debilitate their minds.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Shadow Spells|Priest|WoW|Shadow|WoW|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Shadowform|Priest|WoW|Shadow|WoW|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Devouring Plague|Priest|WoW|Shadow|WoW|3"
+   }
+  ]
+ },
+ {
   "name": "Shadow Lore",
   "source": "XGE",
   "page": 16,
@@ -25750,6 +26975,48 @@
   ]
  },
  {
+  "name": "Shadow Spells",
+  "source": "WoW",
+  "className": "Priest",
+  "classSource": "WoW",
+  "subclassShortName": "Shadow",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "Your connection to this domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Shadow Domain Spells table, you thereafter always have the listed spells prepared.",
+   {
+    "type": "table",
+    "caption": "Shadow Domain Spells",
+    "colLabels": [
+     "Cleric Level",
+     "Spells"
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-10"
+    ],
+    "rows": [
+     [
+      "3",
+      "{@spell Crown of Madness|XPHB}, {@spell Dissonant Whispers|XPHB}, {@spell Mind Spike|XPHB}, {@spell Shadow Word: Pain|WoW}"
+     ],
+     [
+      "5",
+      "{@spell Summon Undead|XPHB}, {@spell Vampiric Touch|XPHB}"
+     ],
+     [
+      "7",
+      "{@spell Evard's Black Tentacles|XPHB}, {@spell Psychic Horror|WoW}"
+     ],
+     [
+      "9",
+      "{@spell Dominate Person|XPHB}, {@spell Void Eruption|WoW}"
+     ]
+    ]
+   }
+  ]
+ },
+ {
   "name": "Shadow Step",
   "source": "PHB",
   "page": 80,
@@ -25803,6 +27070,38 @@
   "header": 2,
   "entries": [
    "At 14th level, you gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action, you can magically teleport up to 120 feet to an unoccupied space you can see that is also in dim light or darkness."
+  ]
+ },
+ {
+  "name": "Shadowform",
+  "source": "WoW",
+  "className": "Priest",
+  "classSource": "WoW",
+  "subclassShortName": "Shadow",
+  "subclassSource": "WoW",
+  "level": 3,
+  "consumes": {
+   "name": "Channel Divinity"
+  },
+  "entries": [
+   "As a {@variantrule Bonus Action|XPHB}, you can expend a use of your {@classFeature Channel Divinity|Cleric|XPHB|2|XPHB} to take on a shadowy form that grants you the following benefits:",
+   {
+    "type": "list",
+    "style": "list-hang-notitle",
+    "items": [
+     {
+      "type": "item",
+      "name": "Shadow Stealth",
+      "entry": "While you are in an area of {@variantrule Dim Light|XPHB} or {@variantrule Darkness|XPHB}, you can take the {@action Hide|XPHB} action as a {@variantrule Bonus Action|XPHB}."
+     },
+     {
+      "type": "item",
+      "name": "Void Empowerment",
+      "entry": "When you cast a spell using a spell slot that deals Psychic or Necrotic damage, you can add {@dice 1d6} to one damage roll of the spell."
+     }
+    ]
+   },
+   "The form lasts for 1 minute, but it ends early if you dismiss it (no action required), if you have the {@condition Incapacitated|XPHB} condition, or if you deal Radiant damage with a spell."
   ]
  },
  {
@@ -26270,6 +27569,63 @@
   ]
  },
  {
+  "name": "Soul Cleave",
+  "source": "WoW",
+  "className": "Demon Hunter",
+  "classSource": "WoW",
+  "subclassShortName": "Demon Hunter",
+  "subclassSource": "WoW",
+  "level": 3,
+  "consumes": {
+   "name": "Soul Fragment"
+  },
+  "entries": [
+   "Once on each of your turns, when you take the {@action Attack|XPHB} action, you can expend one soul fragment and replace one of your attacks with a whirlwind of soul energy. Each creature in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you makes a Dexterity saving throw. On a failed save, a creature takes Psychic damage equal to {@damage 1d12} plus your Wisdom modifier, and you regain {@variantrule Hit Points|XPHB} equal to your Wisdom modifier."
+  ]
+ },
+ {
+  "name": "Soul Fragments",
+  "source": "WoW",
+  "className": "Demon Hunter",
+  "classSource": "WoW",
+  "subclassShortName": "Demon Hunter",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "You harvest the energy of souls to fuel some of your special powers. Whenever you finish a {@variantrule Long Rest|XPHB}, you gain a number of soul fragments equal to your Wisdom modifier (minimum of one fragment); each soul fragment is a Tiny object in the form of a crystal. These fragments last until you finish another {@variantrule Long Rest|XPHB}, at which point they disintegrate. If you ever move more than 30 feet from a fragment, the fragment immediately teleports to you, appearing somewhere on your person.",
+   "If a soul fragment effect requires a saving throw, the DC equals your Ranger spell save DC.",
+   "The number of soul fragments you gain when you finish a {@variantrule Long Rest|XPHB} increases when you reach Ranger levels 13 (Wisdom modifier plus one soul fragment) and 17 (Wisdom modifier plus two soul fragments).",
+   {
+    "type": "entries",
+    "name": "Using Soul Fragments",
+    "entries": [
+     "You can use soul fragments in the following ways:",
+     {
+      "type": "options",
+      "style": "list-hang-notitle",
+      "entries": [
+       {
+        "type": "refSubclassFeature",
+        "subclassFeature": "Double Jump|Demon Hunter|WoW|Demon Hunter|WoW|3"
+       },
+       {
+        "type": "refSubclassFeature",
+        "subclassFeature": "Soul Cleave|Demon Hunter|WoW|Demon Hunter|WoW|3"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Regaining Soul Fragments",
+    "entries": [
+     "When an enemy you can see within 30 feet of you dies, you can take a {@variantrule Reaction|XPHB} to regain one expended soul fragment."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Soul Knife",
   "source": "UATheMysticClass",
   "page": 7,
@@ -26350,6 +27706,20 @@
   ]
  },
  {
+  "name": "Soul Shatter",
+  "source": "WoW",
+  "className": "Demon Hunter",
+  "classSource": "WoW",
+  "subclassShortName": "Demon Hunter",
+  "subclassSource": "WoW",
+  "level": 15,
+  "header": 2,
+  "entries": [
+   "Your mastery of fel magic reaches new heights. When you use the {@subclassFeature Soul Cleave|Demon Hunter|WoW|Demon Hunter|WoW|3|WoW} option of {@subclassFeature Soul Fragments|Demon Hunter|WoW|Demon Hunter|WoW|3|WoW}, the damage increases to {@damage 2d12} plus your Wisdom modifier.",
+   "In addition, when you roll {@variantrule Initiative|XPHB}, you regain one soul fragment if you have none."
+  ]
+ },
+ {
   "name": "Soulknife",
   "source": "TCE",
   "page": 63,
@@ -26421,6 +27791,18 @@
   "entries": [
    "At 14th level, you gain the ability to become a ghostly figure of psionic energy. As an action, you can transform into a transparent, ghostly version of yourself. While in this form, you have resistance to all damage, move at half speed, and can pass through objects and creatures while moving but can't willingly end your movement in their spaces. The form lasts for 10 minutes or until you use an action to end it.",
    "Once you use this feature, you can't use it again until you finish a long rest."
+  ]
+ },
+ {
+  "name": "Spectral Sight",
+  "source": "WoW",
+  "className": "Demon Hunter",
+  "classSource": "WoW",
+  "subclassShortName": "Demon Hunter",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "You have {@sense Blindsight|XPHB} with a range of 10 feet."
   ]
  },
  {
@@ -27070,6 +28452,19 @@
  },
  {
   "name": "Spirit Shield",
+  "source": "WoW",
+  "className": "Shaman",
+  "classSource": "WoW",
+  "subclassShortName": "Spiritual Guardian",
+  "subclassSource": "WoW",
+  "level": 6,
+  "header": 2,
+  "entries": [
+   "Your guardian spirits can provide supernatural protection to those you defend. While your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active, when another creature you can see within 30 feet of you takes damage, you can take a {@variantrule Reaction|XPHB} to reduce that damage. To determine the amount the damage is reduced by, roll a number of d6s equal to your {@classFeature Rage|Barbarian|XPHB|1|XPHB} Damage bonus, and add them together."
+  ]
+ },
+ {
+  "name": "Spirit Shield",
   "source": "XGE",
   "page": 9,
   "className": "Barbarian",
@@ -27225,6 +28620,19 @@
   ]
  },
  {
+  "name": "Spirits' Fury",
+  "source": "WoW",
+  "className": "Shaman",
+  "classSource": "WoW",
+  "subclassShortName": "Spiritual Guardian",
+  "subclassSource": "WoW",
+  "level": 14,
+  "header": 2,
+  "entries": [
+   "Your spirits hasten your attacks. When you make an attack roll with a Melee weapon as part of the {@action Attack|XPHB} action and roll 18–20 on the {@dice d20}, you can make one additional attack roll with the same weapon as part of that action. Once you use this feature, you can't do so again until the start of your next turn."
+  ]
+ },
+ {
   "name": "Spiritual Focus",
   "source": "VRGR",
   "page": 28,
@@ -27238,6 +28646,39 @@
    "{@i 3rd-level College of Spirits feature}",
    "You employ tools that aid you in channeling spirits, be they historical figures or fictional archetypes. You can use the following objects as a spellcasting focus for your bard spells: a candle, crystal ball, skull, spirit board, or {@deck tarokka deck|CoS}.",
    "Starting at 6th level, when you cast a bard spell that deals damage or restores hit points through the Spiritual Focus, roll a {@dice d6}, and you gain a bonus to one damage or healing roll of the spell equal to the number rolled."
+  ]
+ },
+ {
+  "name": "Spiritual Protectors",
+  "source": "WoW",
+  "className": "Shaman",
+  "classSource": "WoW",
+  "subclassShortName": "Spiritual Guardian",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "Your {@classFeature Rage|Barbarian|XPHB|1|XPHB} summons spectral warriors to your aid. While your {@classFeature Rage|Barbarian|XPHB|1|XPHB} is active, when you hit a creature with a weapon or an {@variantrule Unarmed Strike|XPHB}, that creature becomes a target of the spirits, which cause one of the following effects of your choice.",
+   {
+    "type": "entries",
+    "name": "Distract",
+    "entries": [
+     "Until the start of your next turn, the target has {@variantrule Disadvantage|XPHB} on attack rolls against targets other than you or another Barbarian who has this feature."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Hinder",
+    "entries": [
+     "You can activate the {@itemMastery Slow} mastery property in addition to a different mastery property you're using with that weapon."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Strike",
+    "entries": [
+     "The target takes an extra {@damage 1d4} damage, which can be Cold, Fire, or Lightning damage (your choice)."
+    ]
+   }
   ]
  },
  {
@@ -28607,6 +30048,27 @@
       "{@spell insect plague}"
      ]
     ]
+   }
+  ]
+ },
+ {
+  "name": "Swashbuckler",
+  "source": "WoW",
+  "className": "Rogue",
+  "classSource": "WoW",
+  "subclassShortName": "Swashbuckler",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "{@i Glide into Melee with Panache and Agility}",
+   "As a Swashbuckler, you focus on the art of the blade, bringing speed, elegance, and charm to your combat style—topped off with an exquisite flourish of panache. You excel in single combat, and your methods make a duel look like a flamboyant performance.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Fancy Footwork|Rogue|WoW|Swashbuckler|WoW|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Rakish Audacity|Rogue|WoW|Swashbuckler|WoW|3"
    }
   ]
  },
@@ -30681,6 +32143,33 @@
  },
  {
   "name": "Tipsy Sway",
+  "source": "WoW",
+  "className": "Monk",
+  "classSource": "WoW",
+  "subclassShortName": "Mystic Brews",
+  "subclassSource": "WoW",
+  "level": 6,
+  "header": 2,
+  "entries": [
+   "You can move in sudden, swaying ways. You gain the following benefits.",
+   {
+    "type": "options",
+    "style": "list-hang-notitle",
+    "entries": [
+     {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Leap to Your Feet|Monk|WoW|Mystic Brews|WoW|6"
+     },
+     {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Redirect Attack|Monk|WoW|Mystic Brews|WoW|6"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Tipsy Sway",
   "source": "XGE",
   "page": 33,
   "className": "Monk",
@@ -31021,6 +32510,36 @@
   "entries": [
    "{@i 3rd-level Armorer feature}",
    "You gain proficiency with heavy armor. You also gain proficiency with {@item smith's tools|PHB}. If you already have this tool proficiency, you gain proficiency with one other type of {@item artisan's tools|PHB} of your choice."
+  ]
+ },
+ {
+  "name": "Torment",
+  "source": "WoW",
+  "className": "Demon Hunter",
+  "classSource": "WoW",
+  "subclassShortName": "Demon Hunter",
+  "subclassSource": "WoW",
+  "level": 7,
+  "header": 2,
+  "entries": [
+   "A creature marked by your {@spell Hunter's Mark|XPHB} spell has {@variantrule Disadvantage|XPHB} on attack rolls against targets other than you.",
+   "Additionally, once per turn when you hit a creature marked by your {@spell Hunter's Mark|XPHB} with an attack roll with a weapon or a Ranger spell, you can impose one of the following effects on the target (your choice):",
+   {
+    "type": "list",
+    "style": "list-hang-notitle",
+    "items": [
+     {
+      "type": "item",
+      "name": "Aura of Pain",
+      "entry": "The target subtracts {@dice 1d4} from the next saving throw it makes before the end of your next turn."
+     },
+     {
+      "type": "item",
+      "name": "Chaos Strike",
+      "entry": "The target takes an extra {@damage 1d8} Fire damage."
+     }
+    ]
+   }
   ]
  },
  {
@@ -31802,6 +33321,33 @@
   ]
  },
  {
+  "name": "Ultimate Penitence",
+  "source": "WoW",
+  "className": "Priest",
+  "classSource": "WoW",
+  "subclassShortName": "Discipline",
+  "subclassSource": "WoW",
+  "level": 17,
+  "header": 2,
+  "entries": [
+   "Your {@subclassFeature Holy Bolt|Priest|WoW|Discipline|WoW|3|WoW} grows more powerful as detailed below.",
+   {
+    "type": "entries",
+    "name": "Ascending Step",
+    "entries": [
+     "When you use {@subclassFeature Holy Bolt|Priest|WoW|Discipline|WoW|3|WoW}, you can teleport to an unoccupied space you can see within 30 feet before you make an attack roll."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Ascending Volley",
+    "entries": [
+     "When you use {@subclassFeature Holy Bolt|Priest|WoW|Discipline|WoW|3|WoW}, you can expend a spell slot as part of the {@variantrule Bonus Action|XPHB} to hurl a number of additional bolts equal to the spell slot level expended. You can direct the bolts to hit one creature or several. Make a separate attack roll for each bolt."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Umbral Form",
   "source": "RHW",
   "page": 24,
@@ -32323,6 +33869,19 @@
      "You can use any {@item Spell Scroll|XDMG}, using Intelligence as your spellcasting ability for the spell. If the spell is a cantrip or a level 1 spell, you can cast it reliably. If the scroll contains a higher-level spell, you must first succeed on an Intelligence ({@skill Arcana|XPHB}) check ({@dc 10} plus the spell's level). On a successful check, you cast the spell from the scroll. On a failed check, the scroll disintegrates."
     ]
    }
+  ]
+ },
+ {
+  "name": "Vampiric Embrace",
+  "source": "WoW",
+  "className": "Priest",
+  "classSource": "WoW",
+  "subclassShortName": "Shadow",
+  "subclassSource": "WoW",
+  "level": 17,
+  "header": 2,
+  "entries": [
+   "While your {@subclassFeature Shadowform|Priest|WoW|Shadow|WoW|3|WoW} is active, whenever you roll {@dice 1d6} to add extra damage to a spell, one creature of your choice within 30 feet of you regains that many {@variantrule Hit Points|XPHB}."
   ]
  },
  {
@@ -33119,6 +34678,21 @@
   ]
  },
  {
+  "name": "Warglaive Mastery",
+  "source": "WoW",
+  "className": "Demon Hunter",
+  "classSource": "WoW",
+  "subclassShortName": "Demon Hunter",
+  "subclassSource": "WoW",
+  "level": 11,
+  "consumes": {
+   "name": "Soul Fragment"
+  },
+  "entries": [
+   "As a {@variantrule Bonus Action|XPHB}, you can expend one soul fragment to cast {@spell Throw Glaive|WoW} without expending a spell slot."
+  ]
+ },
+ {
   "name": "Warping Implosion",
   "source": "TCE",
   "page": 66,
@@ -33176,6 +34750,28 @@
    {
     "type": "refSubclassFeature",
     "subclassFeature": "Implements of Mercy|Monk|XPHB|Mercy|XPHB|3"
+   }
+  ]
+ },
+ {
+  "name": "Warrior of Mystic Brews",
+  "source": "WoW",
+  "className": "Monk",
+  "classSource": "WoW",
+  "subclassShortName": "Mystic Brews",
+  "subclassSource": "WoW",
+  "level": 3,
+  "entries": [
+   "{@i Drink Mystic Brews to Overwhelm and Confound Foes}",
+   "Warriors of Mystic Brews move with the jerky, unpredictable movements typical of someone who is intoxicated. Their apparently erratic stumbles conceal a carefully executed dance of blocks, parries, advances, attacks, and retreats. Warriors of Mystic Brews frequent bars and taverns to gather information or spy on potential threats. These warriors drink magical concoctions that enhance their martial arts.",
+   "Warriors of Mystic Brews often enjoy playing the fool to bring gladness to the downtrodden or to teach humility to the arrogant, but these Monks are maddening, masterful foes in battle.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Bonus Proficiencies|Monk|WoW|Mystic Brews|WoW|3"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Drunken Technique|Monk|WoW|Mystic Brews|WoW|3"
    }
   ]
  },
@@ -34294,6 +35890,40 @@
     ]
    },
    "This quill disappears if you create another one or if you die."
+  ]
+ },
+ {
+  "name": "Wizened Brewer",
+  "source": "WoW",
+  "className": "Monk",
+  "classSource": "WoW",
+  "subclassShortName": "Mystic Brews",
+  "subclassSource": "WoW",
+  "level": 11,
+  "header": 2,
+  "entries": [
+   "You learn more complex flavors. The following beverages are added to your {@subclassFeature Mystic Brew|Monk|WoW|Mystic Brews|WoW|6|WoW} options:",
+   {
+    "type": "list",
+    "style": "list-hang-notitle",
+    "items": [
+     {
+      "type": "item",
+      "name": "Blue Lightning",
+      "entry": "Whenever you take a {@variantrule Reaction|XPHB} that isn't making an {@action Opportunity Attack|XPHB} or casting a spell, you can make one {@variantrule Unarmed Strike|XPHB} as part of that {@variantrule Reaction|XPHB}."
+     },
+     {
+      "type": "item",
+      "name": "Drunkard's Luck",
+      "entry": "You gain {@variantrule Heroic Inspiration|XPHB} if you don't already have it. In addition, you can give yourself {@variantrule Heroic Inspiration|XPHB} when you make an ability check or saving throw without it."
+     },
+     {
+      "type": "item",
+      "name": "Stumbling Monk",
+      "entry": "When you take a {@variantrule Bonus Action|XPHB} other than {@classFeature Patient Defense|Monk|XPHB|2|XPHB}, you can also use {@classFeature Patient Defense|Monk|XPHB|2|XPHB} immediately after that {@variantrule Bonus Action|XPHB}."
+     }
+    ]
+   }
   ]
  },
  {

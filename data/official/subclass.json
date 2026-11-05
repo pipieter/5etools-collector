@@ -1690,6 +1690,20 @@
  {
   "name": "Assassin",
   "shortName": "Assassin",
+  "source": "WoW",
+  "className": "Rogue",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Assassin",
+   "source": "XPHB",
+   "shortName": "Assassin",
+   "className": "Rogue",
+   "classSource": "XPHB"
+  }
+ },
+ {
+  "name": "Assassin",
+  "shortName": "Assassin",
   "source": "XPHB",
   "className": "Rogue",
   "classSource": "XPHB",
@@ -1791,6 +1805,20 @@
     "basicRules": true,
     "reprintedAs": true
    }
+  }
+ },
+ {
+  "name": "Battle Master",
+  "shortName": "Battle Master",
+  "source": "WoW",
+  "className": "Warrior",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Battle Master",
+   "source": "XPHB",
+   "shortName": "Battle Master",
+   "className": "Fighter",
+   "classSource": "XPHB"
   }
  },
  {
@@ -1975,6 +2003,29 @@
     "srd": true,
     "basicRules": true,
     "reprintedAs": true
+   }
+  }
+ },
+ {
+  "name": "Beast Master",
+  "shortName": "Beast Master",
+  "source": "WoW",
+  "className": "Hunter",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Beast Master",
+   "source": "XPHB",
+   "shortName": "Beast Master",
+   "className": "Ranger",
+   "classSource": "XPHB",
+   "_mod": {
+    "subclassFeatures": {
+     "mode": "insertArr",
+     "index": 1,
+     "items": [
+      "Pet Specialization|Hunter|WoW|Beast Master|WoW|6"
+     ]
+    }
    }
   }
  },
@@ -2254,6 +2305,20 @@
     "basicRules": true,
     "reprintedAs": true
    }
+  }
+ },
+ {
+  "name": "Champion",
+  "shortName": "Champion",
+  "source": "WoW",
+  "className": "Warrior",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Champion",
+   "source": "XPHB",
+   "shortName": "Champion",
+   "className": "Fighter",
+   "classSource": "XPHB"
   }
  },
  {
@@ -2852,6 +2917,20 @@
  {
   "name": "Circle of the Land",
   "shortName": "Land",
+  "source": "WoW",
+  "className": "Druid",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Circle of the Land",
+   "source": "XPHB",
+   "shortName": "Land",
+   "className": "Druid",
+   "classSource": "XPHB"
+  }
+ },
+ {
+  "name": "Circle of the Land",
+  "shortName": "Land",
   "source": "XPHB",
   "className": "Druid",
   "classSource": "XPHB",
@@ -3003,6 +3082,20 @@
  {
   "name": "Circle of the Moon",
   "shortName": "Moon",
+  "source": "WoW",
+  "className": "Druid",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Circle of the Moon",
+   "source": "XPHB",
+   "shortName": "Moon",
+   "className": "Druid",
+   "classSource": "XPHB"
+  }
+ },
+ {
+  "name": "Circle of the Moon",
+  "shortName": "Moon",
   "source": "XPHB",
   "className": "Druid",
   "classSource": "XPHB",
@@ -3128,6 +3221,20 @@
     "className": "Druid",
     "classSource": "PHB"
    }
+  }
+ },
+ {
+  "name": "Circle of the Stars",
+  "shortName": "Stars",
+  "source": "WoW",
+  "className": "Druid",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Circle of the Stars",
+   "source": "XPHB",
+   "shortName": "Stars",
+   "className": "Druid",
+   "classSource": "XPHB"
   }
  },
  {
@@ -4087,6 +4194,139 @@
   }
  },
  {
+  "name": "Demon Hunter",
+  "shortName": "Demon Hunter",
+  "source": "WoW",
+  "className": "Demon Hunter",
+  "classSource": "WoW",
+  "edition": "one",
+  "additionalSpells": [
+   {
+    "name": "Devourer",
+    "ability": "wis",
+    "prepared": {
+     "3": [
+      "throw glaive|wow",
+      "consume soul|wow"
+     ],
+     "5": [
+      "sigil of flame|wow",
+      "misty step|xphb"
+     ],
+     "9": [
+      "metamorphosis|wow",
+      "soul reap|wow"
+     ],
+     "13": [
+      "chaos nova|wow",
+      "collapsing star|wow"
+     ],
+     "17": [
+      "destructive wave|xphb",
+      "steel wind strike|xphb"
+     ]
+    }
+   },
+   {
+    "name": "Havoc",
+    "ability": "wis",
+    "prepared": {
+     "3": [
+      "throw glaive|wow",
+      "fel rush|wow"
+     ],
+     "5": [
+      "sigil of flame|wow",
+      "eye beam|wow"
+     ],
+     "9": [
+      "metamorphosis|wow",
+      "blink|xphb"
+     ],
+     "13": [
+      "chaos nova|wow",
+      "fire shield|xphb"
+     ],
+     "17": [
+      "destructive wave|xphb",
+      "conjure volley|xphb"
+     ]
+    }
+   },
+   {
+    "name": "Vengeance",
+    "ability": "wis",
+    "prepared": {
+     "3": [
+      "throw glaive|wow",
+      "infernal strike|wow"
+     ],
+     "5": [
+      "sigil of flame|wow",
+      "fiery brand|wow"
+     ],
+     "9": [
+      "metamorphosis|wow",
+      "demon spikes|wow"
+     ],
+     "13": [
+      "chaos nova|wow",
+      "banishment|xphb"
+     ],
+     "17": [
+      "destructive wave|xphb",
+      "sigil of chains|wow"
+     ]
+    }
+   }
+  ],
+  "subclassFeatures": [
+   "Demon Hunter|Demon Hunter|WoW|Demon Hunter|WoW|3",
+   "Torment|Demon Hunter|WoW|Demon Hunter|WoW|7",
+   "Illidari Knowledge|Demon Hunter|WoW|Demon Hunter|WoW|11",
+   "Soul Shatter|Demon Hunter|WoW|Demon Hunter|WoW|15"
+  ]
+ },
+ {
+  "name": "Discipline Domain",
+  "shortName": "Discipline",
+  "source": "WoW",
+  "className": "Priest",
+  "classSource": "WoW",
+  "edition": "one",
+  "additionalSpells": [
+   {
+    "ability": "wis",
+    "prepared": {
+     "3": [
+      "arcane vigor|xphb",
+      "guiding bolt|xphb",
+      "magic weapon|xphb",
+      "shield of faith|xphb"
+     ],
+     "5": [
+      "prayer of mending|wow",
+      "protection from energy|xphb"
+     ],
+     "7": [
+      "guardian of faith|xphb",
+      "stoneskin|xphb"
+     ],
+     "9": [
+      "circle of power|xphb",
+      "destructive wave|xphb"
+     ]
+    }
+   }
+  ],
+  "subclassFeatures": [
+   "Discipline Domain|Priest|WoW|Discipline|WoW|3",
+   "Luminous Barrier|Priest|WoW|Discipline|WoW|6",
+   "Ultimate Penitence|Priest|WoW|Discipline|WoW|17"
+  ],
+  "hasFluffImages": true
+ },
+ {
   "name": "Divine Soul",
   "shortName": "Divine Soul",
   "source": "XGE",
@@ -4538,6 +4778,100 @@
    "Elemental Affinity|Sorcerer||Draconic||6",
    "Dragon Wings|Sorcerer||Draconic||14",
    "Draconic Presence|Sorcerer||Draconic||18"
+  ]
+ },
+ {
+  "name": "Draconic Sorcery",
+  "shortName": "Draconic",
+  "source": "WoW",
+  "className": "Evoker",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Draconic Sorcery",
+   "source": "XPHB",
+   "shortName": "Draconic",
+   "className": "Sorcerer",
+   "classSource": "XPHB"
+  },
+  "additionalSpells": [
+   {
+    "name": "Augmentation",
+    "ability": "cha",
+    "prepared": {
+     "3": [
+      "chromatic orb|xphb",
+      "dragon's breath|xphb",
+      "ebon might|wow",
+      "eruption|wow"
+     ],
+     "5": [
+      "fly|xphb",
+      "blistering scales|wow"
+     ],
+     "7": [
+      "arcane eye|xphb",
+      "upheaval|wow"
+     ],
+     "9": [
+      "summon dragon|xphb",
+      "breath of eons|wow"
+     ]
+    }
+   },
+   {
+    "name": "Devastation",
+    "ability": "cha",
+    "prepared": {
+     "3": [
+      "chromatic orb|xphb",
+      "dragon's breath|xphb",
+      "azure strike|wow",
+      "scorching ray|xphb"
+     ],
+     "5": [
+      "fly|xphb",
+      "fireball|xphb"
+     ],
+     "7": [
+      "arcane eye|xphb",
+      "emberstorm|wow"
+     ],
+     "9": [
+      "summon dragon|xphb",
+      "shattering star|wow"
+     ]
+    }
+   },
+   {
+    "name": "Preservation",
+    "ability": "cha",
+    "prepared": {
+     "3": [
+      "chromatic orb|xphb",
+      "dragon's breath|xphb",
+      "dream breath|wow",
+      "living flame|wow"
+     ],
+     "5": [
+      "fly|xphb",
+      "emerald blossom|wow"
+     ],
+     "7": [
+      "arcane eye|xphb",
+      "time dilation|wow"
+     ],
+     "9": [
+      "summon dragon|xphb",
+      "dream flight|wow"
+     ]
+    }
+   }
+  ],
+  "subclassFeatures": [
+   "Draconic Sorcery|Evoker|WoW|Draconic|WoW|3",
+   "Elemental Affinity|Sorcerer|XPHB|Draconic|XPHB|6",
+   "Dragon Wings|Sorcerer|XPHB|Draconic|XPHB|14",
+   "Dragon Companion|Sorcerer|XPHB|Draconic|XPHB|18"
   ]
  },
  {
@@ -5409,6 +5743,20 @@
  {
   "name": "Evoker",
   "shortName": "Evoker",
+  "source": "WoW",
+  "className": "Mage",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Evoker",
+   "source": "XPHB",
+   "shortName": "Evoker",
+   "className": "Wizard",
+   "classSource": "XPHB"
+  }
+ },
+ {
+  "name": "Evoker",
+  "shortName": "Evoker",
   "source": "XPHB",
   "className": "Wizard",
   "classSource": "XPHB",
@@ -5580,6 +5928,20 @@
    "Misty Wanderer|Ranger|XPHB|Fey Wanderer|XPHB|15"
   ],
   "hasFluffImages": true
+ },
+ {
+  "name": "Fiend Patron",
+  "shortName": "Fiend",
+  "source": "WoW",
+  "className": "Warlock",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Fiend Patron",
+   "source": "XPHB",
+   "shortName": "Fiend",
+   "className": "Warlock",
+   "classSource": "XPHB"
+  }
  },
  {
   "name": "Fiend Patron",
@@ -6005,6 +6367,20 @@
  {
   "name": "Great Old One Patron",
   "shortName": "Great Old One",
+  "source": "WoW",
+  "className": "Warlock",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Great Old One Patron",
+   "source": "XPHB",
+   "shortName": "Great Old One",
+   "className": "Warlock",
+   "classSource": "XPHB"
+  }
+ },
+ {
+  "name": "Great Old One Patron",
+  "shortName": "Great Old One",
   "source": "XPHB",
   "className": "Warlock",
   "classSource": "XPHB",
@@ -6183,6 +6559,29 @@
     "srd": true,
     "basicRules": true,
     "reprintedAs": true
+   }
+  }
+ },
+ {
+  "name": "Hunter",
+  "shortName": "Hunter",
+  "source": "WoW",
+  "className": "Hunter",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Hunter",
+   "source": "XPHB",
+   "shortName": "Hunter",
+   "className": "Ranger",
+   "classSource": "XPHB",
+   "_mod": {
+    "subclassFeatures": {
+     "mode": "insertArr",
+     "index": 1,
+     "items": [
+      "Roving|Hunter|WoW|Hunter|WoW|6"
+     ]
+    }
    }
   }
  },
@@ -6596,6 +6995,20 @@
  {
   "name": "Life Domain",
   "shortName": "Life",
+  "source": "WoW",
+  "className": "Priest",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Life Domain",
+   "source": "XPHB",
+   "shortName": "Life",
+   "className": "Cleric",
+   "classSource": "XPHB"
+  }
+ },
+ {
+  "name": "Life Domain",
+  "shortName": "Life",
   "source": "XPHB",
   "className": "Cleric",
   "classSource": "XPHB",
@@ -6765,6 +7178,7 @@
     "name": "Full Moon",
     "known": {
      "1": [
+      "sacred flame#c",
       "shield",
       "ray of sickness",
       "color spray"
@@ -7249,6 +7663,20 @@
  {
   "name": "Oath of Devotion",
   "shortName": "Devotion",
+  "source": "WoW",
+  "className": "Paladin",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Oath of Devotion",
+   "source": "XPHB",
+   "shortName": "Devotion",
+   "className": "Paladin",
+   "classSource": "XPHB"
+  }
+ },
+ {
+  "name": "Oath of Devotion",
+  "shortName": "Devotion",
   "source": "XPHB",
   "className": "Paladin",
   "classSource": "XPHB",
@@ -7660,6 +8088,141 @@
   }
  },
  {
+  "name": "Oath of the Ebon Blade",
+  "shortName": "Ebon Blade",
+  "source": "WoW",
+  "className": "Death Knight",
+  "classSource": "WoW",
+  "edition": "one",
+  "additionalSpells": [
+   {
+    "name": "Blood",
+    "ability": "cha",
+    "prepared": {
+     "3": [
+      "death grip|wow",
+      "vampiric blood|wow"
+     ],
+     "5": [
+      "death and decay|wow",
+      "spiritual weapon|xphb"
+     ],
+     "9": [
+      "summon undead|xphb",
+      "leeching strike|wow"
+     ],
+     "13": [
+      "freedom of movement|xphb",
+      "evard's black tentacles|xphb"
+     ],
+     "17": [
+      "circle of power|xphb",
+      "bonestorm|wow"
+     ]
+    }
+   },
+   {
+    "name": "Frost",
+    "ability": "cha",
+    "prepared": {
+     "3": [
+      "death grip|wow",
+      "chains of ice|wow"
+     ],
+     "5": [
+      "death and decay|wow",
+      "frostscythe|wow"
+     ],
+     "9": [
+      "summon undead|xphb",
+      "remorseless winter|wow"
+     ],
+     "13": [
+      "freedom of movement|xphb",
+      "ice storm|xphb"
+     ],
+     "17": [
+      "circle of power|xphb",
+      "cone of cold|xphb"
+     ]
+    }
+   },
+   {
+    "name": "Unholy",
+    "ability": "cha",
+    "prepared": {
+     "3": [
+      "death grip|wow",
+      "scourge strike|wow"
+     ],
+     "5": [
+      "death and decay|wow",
+      "ray of enfeeblement|xphb"
+     ],
+     "9": [
+      "summon undead|xphb",
+      "bestow curse|xphb"
+     ],
+     "13": [
+      "freedom of movement|xphb",
+      "blight|xphb"
+     ],
+     "17": [
+      "circle of power|xphb",
+      "contagion|xphb"
+     ]
+    }
+   }
+  ],
+  "subclassFeatures": [
+   "Oath of the Ebon Blade|Death Knight|WoW|Ebon Blade|WoW|3",
+   "Aura of Deathly Endurance|Death Knight|WoW|Ebon Blade|WoW|7",
+   "Runic Mastery|Death Knight|WoW|Ebon Blade|WoW|15",
+   "Aspect of the Horsemen|Death Knight|WoW|Ebon Blade|WoW|20"
+  ]
+ },
+ {
+  "name": "Oath of the Holy",
+  "shortName": "Holy",
+  "source": "WoW",
+  "className": "Paladin",
+  "classSource": "WoW",
+  "edition": "one",
+  "additionalSpells": [
+   {
+    "ability": "cha",
+    "prepared": {
+     "3": [
+      "cure wounds|xphb",
+      "healing word|xphb"
+     ],
+     "5": [
+      "lesser restoration|xphb",
+      "prayer of healing|xphb"
+     ],
+     "9": [
+      "dispel magic|xphb",
+      "mass healing word|xphb"
+     ],
+     "13": [
+      "aura of life|xphb",
+      "death ward|xphb"
+     ],
+     "17": [
+      "greater restoration|xphb",
+      "mass cure wounds|xphb"
+     ]
+    }
+   }
+  ],
+  "subclassFeatures": [
+   "Oath of the Holy|Paladin|WoW|Holy|WoW|3",
+   "Lightbringer's Aura|Paladin|WoW|Holy|WoW|7",
+   "Infusion of Light|Paladin|WoW|Holy|WoW|15",
+   "Holy Deliverance|Paladin|WoW|Holy|WoW|20"
+  ]
+ },
+ {
   "name": "Oath of the Noble Genies",
   "shortName": "Noble Genies",
   "source": "FRHoF",
@@ -7839,6 +8402,20 @@
     "basicRules": true,
     "reprintedAs": true
    }
+  }
+ },
+ {
+  "name": "Oath of Vengeance",
+  "shortName": "Vengeance",
+  "source": "WoW",
+  "className": "Paladin",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Oath of Vengeance",
+   "source": "XPHB",
+   "shortName": "Vengeance",
+   "className": "Paladin",
+   "classSource": "XPHB"
   }
  },
  {
@@ -8183,6 +8760,9 @@
   "className": "Barbarian",
   "classSource": "PHB",
   "page": 9,
+  "reprintedAs": [
+   "Spiritual Guardian|Shaman|WoW|WoW"
+  ],
   "edition": "classic",
   "spellcastingAbility": "wis",
   "additionalSpells": [
@@ -8354,6 +8934,20 @@
  {
   "name": "Path of the Berserker",
   "shortName": "Berserker",
+  "source": "WoW",
+  "className": "Shaman",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Path of the Berserker",
+   "source": "XPHB",
+   "shortName": "Berserker",
+   "className": "Barbarian",
+   "classSource": "XPHB"
+  }
+ },
+ {
+  "name": "Path of the Berserker",
+  "shortName": "Berserker",
   "source": "XPHB",
   "className": "Barbarian",
   "classSource": "XPHB",
@@ -8367,6 +8961,20 @@
    "Intimidating Presence|Barbarian|XPHB|Berserker|XPHB|14"
   ],
   "hasFluffImages": true
+ },
+ {
+  "name": "Path of the Elements",
+  "shortName": "Elements",
+  "source": "WoW",
+  "className": "Shaman",
+  "classSource": "WoW",
+  "edition": "one",
+  "subclassFeatures": [
+   "Path of the Elements|Shaman|WoW|Elements|WoW|3",
+   "Echo of the Elements|Shaman|WoW|Elements|WoW|6",
+   "Primordial Bond|Shaman|WoW|Elements|WoW|10",
+   "Elemental Overload|Shaman|WoW|Elements|WoW|14"
+  ]
  },
  {
   "name": "Path of the Giant",
@@ -8431,6 +9039,21 @@
     "classSource": "PHB"
    }
   }
+ },
+ {
+  "name": "Path of the Spiritual Guardian",
+  "shortName": "Spiritual Guardian",
+  "source": "WoW",
+  "className": "Shaman",
+  "classSource": "WoW",
+  "edition": "one",
+  "subclassFeatures": [
+   "Path of the Spiritual Guardian|Shaman|WoW|Spiritual Guardian|WoW|3",
+   "Spirit Shield|Shaman|WoW|Spiritual Guardian|WoW|6",
+   "Consult the Spirits|Shaman|WoW|Spiritual Guardian|WoW|10",
+   "Spirits' Fury|Shaman|WoW|Spiritual Guardian|WoW|14"
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Path of the Storm Herald",
@@ -8579,6 +9202,20 @@
    "Power of the Wilds|Barbarian|XPHB|Wild Heart|XPHB|14"
   ],
   "hasFluffImages": true
+ },
+ {
+  "name": "Path of the World Tree",
+  "shortName": "World Tree",
+  "source": "WoW",
+  "className": "Shaman",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Path of the World Tree",
+   "source": "XPHB",
+   "shortName": "World Tree",
+   "className": "Barbarian",
+   "classSource": "XPHB"
+  }
  },
  {
   "name": "Path of the World Tree",
@@ -9764,6 +10401,44 @@
   }
  },
  {
+  "name": "Shadow Domain",
+  "shortName": "Shadow",
+  "source": "WoW",
+  "className": "Priest",
+  "classSource": "WoW",
+  "edition": "one",
+  "additionalSpells": [
+   {
+    "ability": "wis",
+    "prepared": {
+     "3": [
+      "crown of madness|xphb",
+      "dissonant whispers|xphb",
+      "mind spike|xphb",
+      "shadow word: pain|wow"
+     ],
+     "5": [
+      "summon undead|xphb",
+      "vampiric touch|xphb"
+     ],
+     "7": [
+      "evard's black tentacles|xphb",
+      "psychic horror|wow"
+     ],
+     "9": [
+      "dominate person|xphb",
+      "void eruption|wow"
+     ]
+    }
+   }
+  ],
+  "subclassFeatures": [
+   "Shadow Domain|Priest|WoW|Shadow|WoW|3",
+   "Dispersion|Priest|WoW|Shadow|WoW|6",
+   "Vampiric Embrace|Priest|WoW|Shadow|WoW|17"
+  ]
+ },
+ {
   "name": "Shadow Magic",
   "shortName": "Shadow",
   "source": "XGE",
@@ -10002,6 +10677,20 @@
     "className": "Rogue",
     "classSource": "PHB"
    }
+  }
+ },
+ {
+  "name": "Soulknife",
+  "shortName": "Soulknife",
+  "source": "WoW",
+  "className": "Rogue",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Soulknife",
+   "source": "XPHB",
+   "shortName": "Soulknife",
+   "className": "Rogue",
+   "classSource": "XPHB"
   }
  },
  {
@@ -10374,6 +11063,20 @@
  {
   "name": "Swashbuckler",
   "shortName": "Swashbuckler",
+  "source": "WoW",
+  "className": "Rogue",
+  "classSource": "WoW",
+  "edition": "one",
+  "subclassFeatures": [
+   "Swashbuckler|Rogue|WoW|Swashbuckler|WoW|3",
+   "Panache|Rogue|WoW|Swashbuckler|WoW|9",
+   "Dashing Strikes|Rogue|WoW|Swashbuckler|WoW|13",
+   "Master Duelist|Rogue|WoW|Swashbuckler|WoW|17"
+  ]
+ },
+ {
+  "name": "Swashbuckler",
+  "shortName": "Swashbuckler",
   "source": "XGE",
   "className": "Rogue",
   "classSource": "PHB",
@@ -10383,6 +11086,9 @@
     "source": "SCAG",
     "page": 135
    }
+  ],
+  "reprintedAs": [
+   "Swashbuckler|Rogue|WoW|WoW"
   ],
   "edition": "classic",
   "subclassFeatures": [
@@ -11861,6 +12567,20 @@
  {
   "name": "War Domain",
   "shortName": "War",
+  "source": "WoW",
+  "className": "Priest",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "War Domain",
+   "source": "XPHB",
+   "shortName": "War",
+   "className": "Cleric",
+   "classSource": "XPHB"
+  }
+ },
+ {
+  "name": "War Domain",
+  "shortName": "War",
   "source": "XPHB",
   "className": "Cleric",
   "classSource": "XPHB",
@@ -11954,6 +12674,20 @@
  {
   "name": "Warrior of Mercy",
   "shortName": "Mercy",
+  "source": "WoW",
+  "className": "Monk",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Warrior of Mercy",
+   "source": "XPHB",
+   "shortName": "Mercy",
+   "className": "Monk",
+   "classSource": "XPHB"
+  }
+ },
+ {
+  "name": "Warrior of Mercy",
+  "shortName": "Mercy",
   "source": "XPHB",
   "className": "Monk",
   "classSource": "XPHB",
@@ -11966,6 +12700,22 @@
    "Hand of Ultimate Mercy|Monk|XPHB|Mercy|XPHB|17"
   ],
   "hasFluffImages": true
+ },
+ {
+  "name": "Warrior of Mystic Brews",
+  "shortName": "Mystic Brews",
+  "source": "WoW",
+  "className": "Monk",
+  "classSource": "WoW",
+  "edition": "one",
+  "subclassFeatures": [
+   "Warrior of Mystic Brews|Monk|WoW|Mystic Brews|WoW|3",
+   "Tipsy Sway|Monk|WoW|Mystic Brews|WoW|6",
+   "Mystic Brew|Monk|WoW|Mystic Brews|WoW|6",
+   "Wizened Brewer|Monk|WoW|Mystic Brews|WoW|11",
+   "Master Brewer|Monk|WoW|Mystic Brews|WoW|17",
+   "Intoxicated Frenzy|Monk|WoW|Mystic Brews|WoW|17"
+  ]
  },
  {
   "name": "Warrior of Shadow",
@@ -12338,6 +13088,20 @@
  {
   "name": "Warrior of the Open Hand",
   "shortName": "Open Hand",
+  "source": "WoW",
+  "className": "Monk",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Warrior of the Open Hand",
+   "source": "XPHB",
+   "shortName": "Open Hand",
+   "className": "Monk",
+   "classSource": "XPHB"
+  }
+ },
+ {
+  "name": "Warrior of the Open Hand",
+  "shortName": "Open Hand",
   "source": "XPHB",
   "className": "Monk",
   "classSource": "XPHB",
@@ -12567,6 +13331,9 @@
   "className": "Monk",
   "classSource": "PHB",
   "page": 33,
+  "reprintedAs": [
+   "Mystic Brews|Monk|WoW|WoW"
+  ],
   "edition": "classic",
   "subclassFeatures": [
    "Way of the Drunken Master|Monk||Drunken Master|XGE|3",

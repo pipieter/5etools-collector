@@ -109,7 +109,8 @@
    "Psychic Absorbing Tattoo|TCE",
    "Radiant Absorbing Tattoo|TCE",
    "Thunder Absorbing Tattoo|TCE"
-  ]
+  ],
+  "itemsHidden": true
  },
  {
   "name": "Arcane Focus",
@@ -242,6 +243,7 @@
    "Armor of Radiant Resistance",
    "Armor of Thunder Resistance"
   ],
+  "itemsHidden": true,
   "hasFluffImages": true
  },
  {
@@ -361,7 +363,8 @@
   ],
   "lootTables": [
    "Magic Item Table G"
-  ]
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Armor of Vulnerability",
@@ -380,7 +383,8 @@
   ],
   "lootTables": [
    "Armaments - Rare|XDMG"
-  ]
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Artisan's Tools",
@@ -442,6 +446,123 @@
    "Tinker's Tools|XPHB",
    "Weaver's Tools|XPHB",
    "Woodcarver's Tools|XPHB"
+  ]
+ },
+ {
+  "name": "Ashen Bands of Courage",
+  "source": "ICC",
+  "page": 71,
+  "type": "RG|XDMG",
+  "rarity": "varies",
+  "reqAttune": "by a Character with Ashen Verdict Renown",
+  "entries": [
+   "This metal band is adorned with five gleaming crystals suggesting a beast's claw. The forge mark of Ormus the Penitent—a stylized O—is imprinted inside the band.",
+   "{@item Ashen Band of Courage|ICC} (Uncommon, Requires Renown 3+). While wearing this ring, you have {@variantrule Advantage|XPHB} on saving throws to avoid or end the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} conditions.",
+   "{@item Ashen Band of Greater Courage|ICC} (Rare, Requires Renown 10+). In addition to the Uncommon property, you gain a +1 bonus to {@variantrule Armor Class|XPHB} while wearing this ring.",
+   "{@item Ashen Band of Unmatched Courage|ICC} (Very Rare, Requires Renown 25+). In addition to the Uncommon and Rare properties, you gain a +1 bonus to saving throws while wearing this ring.",
+   "{@item Ashen Band of Endless Courage|ICC} (Legendary, Requires Renown 50+). In addition to the Rare and Very Rare properties, you have {@variantrule Immunity|XPHB} to the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} conditions while wearing this ring."
+  ],
+  "items": [
+   "Ashen Band of Courage|ICC",
+   "Ashen Band of Greater Courage|ICC",
+   "Ashen Band of Unmatched Courage|ICC",
+   "Ashen Band of Endless Courage|ICC"
+  ]
+ },
+ {
+  "name": "Ashen Bands of Destruction",
+  "source": "ICC",
+  "page": 71,
+  "type": "RG|XDMG",
+  "rarity": "varies",
+  "reqAttune": "by a Character with Ashen Verdict Renown",
+  "entries": [
+   "This thick metal band is adorned with a skull design, with two luminous blue gems serving as eyes. The forge mark of Ormus the Penitent—a stylized O—is imprinted inside the band.",
+   "{@item Ashen Band of Destruction|ICC} (Uncommon, Requires Renown 3+). While wearing this ring, you gain a +1 bonus to spell attack rolls, and your spell saving throw DC increases by 1.",
+   "{@item Ashen Band of Greater Destruction|ICC} (Rare, Requires Renown 10+). The bonus to attack rolls and increase to saving throw DC increase to +2.",
+   "{@item Ashen Band of Unmatched Destruction|ICC} (Very Rare, Requires Renown 25+). The bonus to attack rolls and increase to saving throw DC increase to +3. In addition, you can treat any 1 you roll on a damage die for a spell you cast as a 2 while wearing this ring.",
+   {
+    "type": "entries",
+    "name": "{@item Ashen Band of Endless Destruction|ICC} (Charisma, Intelligence, or Wisdom) (Legendary, Requires Renown 50+)",
+    "entries": [
+     "In addition to the Very Rare property, your spellcasting ability increases by 2 (to a maximum of 30) while wearing this ring. You can also add a +3 bonus to one damage roll of each spell you cast."
+    ]
+   }
+  ],
+  "items": [
+   "Ashen Band of Destruction|ICC",
+   "Ashen Band of Greater Destruction|ICC",
+   "Ashen Band of Unmatched Destruction|ICC",
+   "Ashen Band of Endless Destruction|ICC"
+  ]
+ },
+ {
+  "name": "Ashen Bands of Might",
+  "source": "ICC",
+  "page": 71,
+  "type": "RG|XDMG",
+  "rarity": "varies",
+  "reqAttune": "by a Character with Ashen Verdict Renown",
+  "entries": [
+   "This metal band is adorned with a stylized helm design, with purple gems forming the nose guard and crest. The forge mark of Ormus the Penitent—a stylized O—is imprinted inside the band.",
+   "{@item Ashen Band of Might|ICC} (Uncommon, Requires Renown 3+). While wearing this ring, you gain a +1 bonus to damage rolls for melee weapon attacks.",
+   "{@item Ashen Band of Greater Might|ICC} (Rare, Requires Renown 10+). In addition to the Uncommon property, your Strength is 19 while you're wearing this ring. This property has no effect if your Strength is 19 or higher without it.",
+   "{@item Ashen Band of Unmatched Might|ICC} (Very Rare, Requires Renown 25+). In addition to the Uncommon property, your Strength is 21 while you're wearing this ring. This property has no effect if your Strength is 21 or higher without it. In addition, you can treat any 1 you roll on a melee weapon's damage die as a 2.",
+   "{@item Ashen Band of Endless Might|ICC} (Legendary, Requires Renown 50+). In addition to the Uncommon and Very Rare properties, your Strength is 25 while you're wearing this ring. This property has no effect if your Strength is 25 or higher without it."
+  ],
+  "items": [
+   "Ashen Band of Might|ICC",
+   "Ashen Band of Greater Might|ICC",
+   "Ashen Band of Unmatched Might|ICC",
+   "Ashen Band of Endless Might|ICC"
+  ]
+ },
+ {
+  "name": "Ashen Bands of Vengeance",
+  "source": "ICC",
+  "page": 72,
+  "type": "RG|XDMG",
+  "rarity": "varies",
+  "reqAttune": "by a Character with Ashen Verdict Renown",
+  "entries": [
+   "This metal band is adorned with a stylized helm design, with deep-blue gems forming the nose guard and crest. The forge mark of Ormus the Penitent—a stylized O—is imprinted inside the band.",
+   "{@item Ashen Band of Vengeance|ICC} (Uncommon, Requires Renown 3+). While wearing this ring, you ignore {@variantrule Cover|XPHB|Half Cover} when making a ranged weapon attack roll, and you gain a +2 bonus to damage rolls made with ranged weapons.",
+   "{@item Ashen Band of Greater Vengeance|ICC} (Rare, Requires Renown 10+). In addition to the Uncommon property, while you're wearing this ring, using a ranged weapon at long range doesn't impose {@variantrule Disadvantage|XPHB} on your attack roll.",
+   "{@item Ashen Band of Unmatched Vengeance|ICC} (Very Rare, Requires Renown 25+). In addition to the Uncommon and Rare properties, while wearing this ring, you ignore {@variantrule Cover|XPHB|Three-Quarters Cover} when making a ranged attack roll, and the maximum range of your ranged weapon attacks is doubled.",
+   "{@item Ashen Band of Endless Vengeance|ICC} (Legendary, Requires Renown 50+). In addition to the Uncommon, Rare, and Very Rare properties, while wearing this ring, you can treat any 1 or 2 you roll on a ranged weapon's damage die as a 3."
+  ],
+  "items": [
+   "Ashen Band of Vengeance|ICC",
+   "Ashen Band of Greater Vengeance|ICC",
+   "Ashen Band of Unmatched Vengeance|ICC",
+   "Ashen Band of Endless Vengeance|ICC"
+  ]
+ },
+ {
+  "name": "Ashen Bands of Wisdom",
+  "source": "ICC",
+  "page": 72,
+  "type": "RG|XDMG",
+  "rarity": "varies",
+  "reqAttune": "by a Character with Ashen Verdict Renown",
+  "entries": [
+   "This metal band is adorned with an oval design suggestive of an eye, with a luminous turquoise stone at the center. The forge mark of Ormus the Penitent—a stylized O—is imprinted inside the band.",
+   "{@item Ashen Band of Wisdom|ICC} (Uncommon, Requires Renown 3+). While wearing this ring, you can treat any 1 you roll on a die to restore {@variantrule Hit Points|XPHB} to yourself or another creature as a 2.",
+   "{@item Ashen Band of Greater Wisdom|ICC} (Rare, Requires Renown 10+). In addition to the Uncommon property, whenever an effect you create restores {@variantrule Hit Points|XPHB} to one creature while you're wearing this ring, you can choose another creature within 30 feet of the first to also regain half that many {@variantrule Hit Points|XPHB} (round down).",
+   "{@item Ashen Band of Unmatched Wisdom|ICC} (Very Rare, Requires Renown 25+). In addition to the Uncommon and Rare properties, when you cast a spell with a range of touch that doesn't require an attack roll while wearing this ring, you can increase the spell's range to 30 feet.",
+   {
+    "type": "entries",
+    "name": "{@item Ashen Band of Endless Wisdom|ICC} (Charisma, Intelligence, or Wisdom) (Legendary, Requires Renown 50+)",
+    "entries": [
+     "In addition to the Uncommon, Rare, and Very Rare properties, your spellcasting ability also increases by 2 (to a maximum of 30) while you're wearing this ring."
+    ]
+   }
+  ],
+  "items": [
+   "Ashen Band of Wisdom|ICC",
+   "Ashen Band of Greater Wisdom|ICC",
+   "Ashen Band of Unmatched Wisdom|ICC",
+   "Ashen Band of Endless Wisdom|ICC"
   ]
  },
  {
@@ -840,7 +961,8 @@
    "Green Chromatic Rose|WBtW",
    "Red Chromatic Rose|WBtW",
    "White Chromatic Rose|WBtW"
-  ]
+  ],
+  "itemsHidden": true
  },
  {
   "name": "Crystal Ball (Legendary Version)",
@@ -1148,6 +1270,9 @@
   "lootTables": [
    "Magic Item Table B"
   ],
+  "miscTags": [
+   "CNS"
+  ],
   "hasFluffImages": true
  },
  {
@@ -1169,6 +1294,9 @@
   ],
   "lootTables": [
    "Arcana - Uncommon|XDMG"
+  ],
+  "miscTags": [
+   "CNS"
   ],
   "hasFluffImages": true
  },
@@ -1198,7 +1326,8 @@
    "Armaments - Rare|XDMG",
    "Armaments - Very Rare|XDMG",
    "Armaments - Legendary|XDMG"
-  ]
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Enspelled Staff",
@@ -1247,7 +1376,8 @@
    "Relics - Rare|XDMG",
    "Relics - Very Rare|XDMG",
    "Relics - Legendary|XDMG"
-  ]
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Enspelled Weapon",
@@ -1279,7 +1409,8 @@
    "Implements - Rare|XDMG",
    "Implements - Very Rare|XDMG",
    "Implements - Legendary|XDMG"
-  ]
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Eye and Hand of Vecna",
@@ -1384,6 +1515,7 @@
    "Eye of Vecna|DMG",
    "Hand of Vecna|DMG"
   ],
+  "itemsHidden": true,
   "attachedSpells": {
    "charges": {
     "1": [
@@ -2147,7 +2279,8 @@
    "Imbued Wood (Risian Pine)|ERLW",
    "Imbued Wood (Shavarran Birch)|ERLW",
    "Imbued Wood (Xorian Wenge)|ERLW"
-  ]
+  ],
+  "itemsHidden": true
  },
  {
   "name": "Infiltrator's Key",
@@ -2562,6 +2695,9 @@
   "lootTables": [
    "Magic Item Table H"
   ],
+  "miscTags": [
+   "CNS"
+  ],
   "hasFluffImages": true
  },
  {
@@ -2626,6 +2762,9 @@
    "Manual of Stone Golems|XDMG"
   ],
   "itemsHidden": true,
+  "miscTags": [
+   "CNS"
+  ],
   "hasFluffImages": true
  },
  {
@@ -2856,7 +2995,8 @@
    "Orb of Shielding (Risian Shale)|ERLW",
    "Orb of Shielding (Shavarran Chert)|ERLW",
    "Orb of Shielding (Xorian Marble)|ERLW"
-  ]
+  ],
+  "itemsHidden": true
  },
  {
   "name": "Potion of Giant Strength",
@@ -2880,7 +3020,8 @@
   ],
   "miscTags": [
    "CNS"
-  ]
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Potion of Giant Strength",
@@ -2904,7 +3045,8 @@
   ],
   "miscTags": [
    "CNS"
-  ]
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Potion of Healing (*)",
@@ -2985,7 +3127,8 @@
   ],
   "miscTags": [
    "CNS"
-  ]
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Potion of Resistance",
@@ -3071,7 +3214,8 @@
   ],
   "miscTags": [
    "CNS"
-  ]
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Potions of Healing",
@@ -3090,7 +3234,8 @@
   ],
   "miscTags": [
    "CNS"
-  ]
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Potions of Healing",
@@ -3107,6 +3252,107 @@
    "Potion of Superior Healing|XDMG",
    "Potion of Supreme Healing|XDMG"
   ],
+  "miscTags": [
+   "CNS"
+  ],
+  "hasFluffImages": true
+ },
+ {
+  "name": "Potions of Mana",
+  "source": "WoW",
+  "page": 111,
+  "type": "P|XPHB",
+  "rarity": "varies",
+  "entries": [
+   "You regain one expended spell slot when you drink this potion. The level of the spell slot depends on the potion's rarity, as shown in the table below. (When a level range is presented, you choose the spell slot you regain.)",
+   "Whatever its potency, the potion's blue liquid glows with an inner light.",
+   {
+    "type": "table",
+    "colLabels": [
+     "Potion",
+     "Spell Slot Level",
+     "Rarity"
+    ],
+    "colStyles": [
+     "col-8",
+     "col-2 text-center",
+     "col-2 text-center"
+    ],
+    "rows": [
+     [
+      "{@item Potion of Mana|WoW}",
+      "1",
+      "Common"
+     ],
+     [
+      "{@item Potion of Mana (Greater)|WoW}",
+      "1-3",
+      "Uncommon"
+     ],
+     [
+      "{@item Potion of Mana (Superior)|WoW}",
+      "1-5",
+      "Rare"
+     ]
+    ]
+   }
+  ],
+  "items": [
+   "Potion of Mana|WoW",
+   "Potion of Mana (Greater)|WoW",
+   "Potion of Mana (Superior)|WoW"
+  ],
+  "itemsHidden": true,
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
+  "name": "Potions of Rejuvenation",
+  "source": "WoW",
+  "page": 111,
+  "type": "P|XPHB",
+  "rarity": "varies",
+  "entries": [
+   "You regain {@variantrule Hit Points|XPHB} and one expended spell slot when you drink this potion. The number of {@variantrule Hit Points|XPHB} and the level of the spell slot depend on the potion's rarity, as shown in the table below. (When a level range is presented, you choose the spell slot you regain.)",
+   "Whatever its potency, the potion's magenta liquid glows faintly from within.",
+   {
+    "type": "table",
+    "colLabels": [
+     "Potion",
+     "HP and Spell Slot Regained",
+     "Rarity"
+    ],
+    "colStyles": [
+     "col-5",
+     "col-5 text-center",
+     "col-2 text-center"
+    ],
+    "rows": [
+     [
+      "{@item Potion of Rejuvenation|WoW}",
+      "{@dice 3d4 + 3} HP; Slot level: 1",
+      "Uncommon"
+     ],
+     [
+      "{@item Potion of Rejuvenation (Greater)|WoW}",
+      "{@dice 6d4 + 6} HP; Slot level: 1-3",
+      "Rare"
+     ],
+     [
+      "{@item Potion of Rejuvenation (Superior)|WoW}",
+      "{@dice 9d4 + 9} HP; Slot level: 1-5",
+      "Very Rare"
+     ]
+    ]
+   }
+  ],
+  "items": [
+   "Potion of Rejuvenation|WoW",
+   "Potion of Rejuvenation (Greater)|WoW",
+   "Potion of Rejuvenation (Superior)|WoW"
+  ],
+  "itemsHidden": true,
   "miscTags": [
    "CNS"
   ]
@@ -3194,8 +3440,12 @@
    "Quaal's Feather Token, Tree",
    "Quaal's Feather Token, Whip"
   ],
+  "itemsHidden": true,
   "lootTables": [
    "Magic Item Table C"
+  ],
+  "miscTags": [
+   "CNS"
   ],
   "hasFluffImages": true
  },
@@ -3265,6 +3515,9 @@
    "Quaal's Feather Token, Whip|XDMG"
   ],
   "itemsHidden": true,
+  "miscTags": [
+   "CNS"
+  ],
   "hasFluffImages": true
  },
  {
@@ -3284,7 +3537,8 @@
    "Ring of Earth Elemental Command",
    "Ring of Fire Elemental Command",
    "Ring of Water Elemental Command"
-  ]
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Ring of Elemental Command",
@@ -3303,7 +3557,8 @@
    "Ring of Elemental Command (Earth)|XDMG",
    "Ring of Elemental Command (Fire)|XDMG",
    "Ring of Elemental Command (Water)|XDMG"
-  ]
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Ring of Resistance",
@@ -3399,6 +3654,7 @@
    "Ring of Radiant Resistance",
    "Ring of Thunder Resistance"
   ],
+  "itemsHidden": true,
   "lootTables": [
    "Magic Item Table G"
   ],
@@ -3495,7 +3751,8 @@
   "itemsHidden": true,
   "lootTables": [
    "Relics - Rare|XDMG"
-  ]
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Rod of the Honed Mind",
@@ -3542,7 +3799,8 @@
    "+1 Rod of the Pact Keeper",
    "+2 Rod of the Pact Keeper",
    "+3 Rod of the Pact Keeper"
-  ]
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Rod of the Pact Keeper",
@@ -3564,7 +3822,8 @@
   ],
   "lootTables": [
    "Arcana - Uncommon|XDMG"
-  ]
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Ruin's Wake",
@@ -3666,6 +3925,7 @@
    "Sage's Signet (Songbird)|BMT",
    "Sage's Signet (Wolf)|BMT"
   ],
+  "itemsHidden": true,
   "attachedSpells": {
    "daily": {
     "1e": [
@@ -3988,6 +4248,7 @@
    "Shard Solitaire (Rainbow Pearl)|KftGV",
    "Shard Solitaire (Ruby)|KftGV"
   ],
+  "itemsHidden": true,
   "attachedSpells": {
    "charges": {
     "1": [
@@ -4346,6 +4607,62 @@
   }
  },
  {
+  "name": "Troll's Blood Elixirs",
+  "source": "WoW",
+  "page": 113,
+  "type": "P|XPHB",
+  "rarity": "varies",
+  "entries": [
+   "When you drink this potion, you regain a number of {@variantrule Hit Points|XPHB} depending on the potion's rarity, as shown in the table below. At the start of each of your turns for the next 1 minute, you regain that number of {@variantrule Hit Points|XPHB} again if you have at least 1 {@variantrule Hit Points|XPHB|Hit Point}.",
+   "This thick green elixir is made from herbs. No trolls were harmed in the making of this elixir.",
+   {
+    "type": "table",
+    "colLabels": [
+     "Potion",
+     "HP",
+     "Rarity"
+    ],
+    "colStyles": [
+     "col-8",
+     "col-2 text-center",
+     "col-2 text-center"
+    ],
+    "rows": [
+     [
+      "{@item Troll's Blood Elixir|WoW}",
+      "2",
+      "Uncommon"
+     ],
+     [
+      "{@item Troll's Blood Elixir (Greater)|WoW}",
+      "4",
+      "Rare"
+     ],
+     [
+      "{@item Troll's Blood Elixir (Superior)|WoW}",
+      "6",
+      "Very Rare"
+     ],
+     [
+      "{@item Troll's Blood Elixir (Supreme)|WoW}",
+      "8",
+      "Legendary"
+     ]
+    ]
+   }
+  ],
+  "items": [
+   "Troll's Blood Elixir|WoW",
+   "Troll's Blood Elixir (Greater)|WoW",
+   "Troll's Blood Elixir (Superior)|WoW",
+   "Troll's Blood Elixir (Supreme)|WoW"
+  ],
+  "itemsHidden": true,
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
   "name": "True-Ice Shards",
   "source": "CoA",
   "page": 275,
@@ -4416,6 +4733,7 @@
    "True-Ice Shards (Rapier)|CoA",
    "True-Ice Shards (Dagger)|CoA"
   ],
+  "itemsHidden": true,
   "attachedSpells": {
    "will": [
     "detect thoughts",
@@ -4582,7 +4900,8 @@
    "+1 Wraps of Unarmed Power|XDMG",
    "+2 Wraps of Unarmed Power|XDMG",
    "+3 Wraps of Unarmed Power|XDMG"
-  ]
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Wraps of Unarmed Prowess",

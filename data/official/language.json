@@ -368,12 +368,24 @@
  },
  {
   "name": "Common",
+  "source": "WoW",
+  "type": "standard",
+  "origin": "Humans"
+ },
+ {
+  "name": "Common",
   "source": "XPHB",
   "page": 37,
   "srd52": true,
   "basicRules2024": true,
   "type": "standard",
   "origin": "Sigil"
+ },
+ {
+  "name": "Common Sign Language",
+  "source": "WoW",
+  "type": "standard",
+  "origin": "Humans"
  },
  {
   "name": "Common Sign Language",
@@ -401,6 +413,12 @@
   "entries": [
    "A trade pidgin used in circumstances where members of different peoples do interact with each other. But this language is almost impossible to use for discussions of matters of any depth."
   ]
+ },
+ {
+  "name": "Cyphers of the First Ones",
+  "source": "WoW",
+  "type": "rare",
+  "origin": "First Ones"
  },
  {
   "name": "Daelkyr",
@@ -462,6 +480,12 @@
     ]
    }
   ]
+ },
+ {
+  "name": "Darnassian",
+  "source": "WoW",
+  "type": "standard",
+  "origin": "Night elves"
  },
  {
   "name": "Deep Crow",
@@ -581,6 +605,12 @@
  },
  {
   "name": "Draconic",
+  "source": "WoW",
+  "type": "standard",
+  "origin": "Dragons"
+ },
+ {
+  "name": "Draconic",
   "source": "XPHB",
   "page": 37,
   "srd52": true,
@@ -588,6 +618,12 @@
   "type": "standard",
   "origin": "Dragons",
   "script": "Draconic"
+ },
+ {
+  "name": "Draenei",
+  "source": "WoW",
+  "type": "standard",
+  "origin": "Draenei"
  },
  {
   "name": "Druidic",
@@ -619,12 +655,24 @@
  },
  {
   "name": "Druidic",
+  "source": "WoW",
+  "type": "rare",
+  "origin": "Druidic circles"
+ },
+ {
+  "name": "Druidic",
   "source": "XPHB",
   "page": 37,
   "srd52": true,
   "basicRules2024": true,
   "type": "rare",
   "origin": "Druidic circles"
+ },
+ {
+  "name": "Dwarven",
+  "source": "WoW",
+  "type": "standard",
+  "origin": "Dwarves"
  },
  {
   "name": "Dwarvish",
@@ -751,6 +799,12 @@
   "origin": "Elves"
  },
  {
+  "name": "Eredun",
+  "source": "WoW",
+  "type": "rare",
+  "origin": "Demons of the Burning Legion"
+ },
+ {
   "name": "Ergot",
   "source": "DSotDQ",
   "page": 9,
@@ -759,6 +813,18 @@
    "Northern Ergoth"
   ],
   "script": "Common"
+ },
+ {
+  "name": "Forsaken",
+  "source": "WoW",
+  "type": "standard",
+  "origin": "Forsaken"
+ },
+ {
+  "name": "Furbolg",
+  "source": "WoW",
+  "type": "rare",
+  "origin": "Furbolgs"
  },
  {
   "name": "Giant",
@@ -959,6 +1025,12 @@
  },
  {
   "name": "Gnomish",
+  "source": "WoW",
+  "type": "standard",
+  "origin": "Gnomes"
+ },
+ {
+  "name": "Gnomish",
   "source": "XPHB",
   "page": 37,
   "srd52": true,
@@ -1023,6 +1095,12 @@
   ],
   "script": "Dwarvish",
   "hasFluffImages": true
+ },
+ {
+  "name": "Goblin",
+  "source": "WoW",
+  "type": "standard",
+  "origin": "Goblins"
  },
  {
   "name": "Goblin",
@@ -1132,6 +1210,12 @@
     ]
    }
   ]
+ },
+ {
+  "name": "Hara'ni",
+  "source": "WoW",
+  "type": "standard",
+  "origin": "Haranir"
  },
  {
   "name": "Homarid",
@@ -1267,6 +1351,12 @@
    "{@creature vampiric ixitxachitl|OotA}",
    "{@creature Vampiric Ixitxachitl Cleric|OotA|vampiric ixitxachitl clerics}"
   ]
+ },
+ {
+  "name": "Kalimag",
+  "source": "WoW",
+  "type": "rare",
+  "origin": "Elementals"
  },
  {
   "name": "Keldon",
@@ -1526,12 +1616,24 @@
   ]
  },
  {
+  "name": "Nathrezim",
+  "source": "WoW",
+  "type": "rare",
+  "origin": "Nathrezim"
+ },
+ {
   "name": "Naush",
   "source": "EGW",
   "page": 9,
   "entries": [
    "Originally spoken by the Ki'Nau islanders native to the Menagerie Coast, Naush is a thriving language within the multicultural cities of the Clovis Concord. Even sailors who only speak Common incorporate dozens of Naush words into their nautical jargon."
   ]
+ },
+ {
+  "name": "Nazja",
+  "source": "WoW",
+  "type": "rare",
+  "origin": "Naga"
  },
  {
   "name": "Nerakese",
@@ -1542,6 +1644,18 @@
    "Neraka"
   ],
   "script": "Istarian"
+ },
+ {
+  "name": "Nerglish",
+  "source": "WoW",
+  "type": "rare",
+  "origin": "Murlocs"
+ },
+ {
+  "name": "Nerubian",
+  "source": "WoW",
+  "type": "rare",
+  "origin": "Nerubians"
  },
  {
   "name": "Netherese",
@@ -1587,6 +1701,12 @@
   "script": "Ogre"
  },
  {
+  "name": "Ogre",
+  "source": "WoW",
+  "type": "rare",
+  "origin": "Ogres"
+ },
+ {
   "name": "Olman",
   "source": "TftYP",
   "page": 238
@@ -1630,6 +1750,18 @@
   "origin": "Orcs"
  },
  {
+  "name": "Orcish",
+  "source": "WoW",
+  "type": "standard",
+  "origin": "Orcs"
+ },
+ {
+  "name": "Orcish Sign Language",
+  "source": "WoW",
+  "type": "standard",
+  "origin": "Orcs"
+ },
+ {
   "name": "Otyugh",
   "source": "MM",
   "page": 248,
@@ -1647,6 +1779,12 @@
   "typicalSpeakers": [
    "{@creature Otyugh|XMM}"
   ]
+ },
+ {
+  "name": "Pandaren",
+  "source": "WoW",
+  "type": "standard",
+  "origin": "Pandaren"
  },
  {
   "name": "Primordial",
@@ -1730,6 +1868,12 @@
   "basicRules2024": true,
   "type": "rare",
   "origin": "Elementals"
+ },
+ {
+  "name": "Qiraji",
+  "source": "WoW",
+  "type": "rare",
+  "origin": "Qiraji"
  },
  {
   "name": "Qualith",
@@ -1871,6 +2015,18 @@
     ]
    }
   ]
+ },
+ {
+  "name": "Shalassian",
+  "source": "WoW",
+  "type": "standard",
+  "origin": "Nightborne"
+ },
+ {
+  "name": "Shath'Yar",
+  "source": "WoW",
+  "type": "rare",
+  "origin": "Old Gods"
  },
  {
   "name": "Shou",
@@ -2041,6 +2197,18 @@
   "origin": "The Feywild"
  },
  {
+  "name": "Taur-ahe",
+  "source": "WoW",
+  "type": "standard",
+  "origin": "Tauren"
+ },
+ {
+  "name": "Thalassian",
+  "source": "WoW",
+  "type": "standard",
+  "origin": "High Elves"
+ },
+ {
   "name": "Thayan",
   "source": "FRHoF",
   "page": 49,
@@ -2101,6 +2269,12 @@
  },
  {
   "name": "Thieves' Cant",
+  "source": "WoW",
+  "type": "rare",
+  "origin": "Various criminal guilds"
+ },
+ {
+  "name": "Thieves' Cant",
   "source": "XPHB",
   "page": 37,
   "srd52": true,
@@ -2127,6 +2301,12 @@
    "{@creature Thri-kreen Marauder|XMM}",
    "{@creature Thri-kreen Psion|XMM}"
   ]
+ },
+ {
+  "name": "Titan",
+  "source": "WoW",
+  "type": "rare",
+  "origin": "Titans"
  },
  {
   "name": "Tlincalli",
@@ -2336,6 +2516,18 @@
   ]
  },
  {
+  "name": "Vrykul",
+  "source": "WoW",
+  "type": "rare",
+  "origin": "Vrykul"
+ },
+ {
+  "name": "Vulpera",
+  "source": "WoW",
+  "type": "standard",
+  "origin": "Vulpera"
+ },
+ {
   "name": "Waelan",
   "source": "SCAG",
   "page": 112,
@@ -2412,6 +2604,12 @@
    "{@creature Yakfolk Priest|SKT|yakfolk priests}",
    "{@creature Yakfolk Warrior|SKT|yakfolk warriors}"
   ]
+ },
+ {
+  "name": "Zandali",
+  "source": "WoW",
+  "type": "standard",
+  "origin": "Trolls"
  },
  {
   "name": "Zemnian",

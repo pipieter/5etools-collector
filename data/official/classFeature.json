@@ -3131,6 +3131,29 @@
   ]
  },
  {
+  "name": "Death Coil",
+  "source": "WoW",
+  "className": "Death Knight",
+  "classSource": "WoW",
+  "level": 1,
+  "entries": [
+   "This feature replaces the {@classFeature Lay On Hands|Paladin|XPHB|1|XPHB} feature of the Paladin class.",
+   "Your creature type becomes Undead.",
+   "You also gain the ability to manipulate negative energy. You have a pool of d8s to fuel this ability. The number of dice in the pool equals one plus your Charisma modifier (minimum of one die).",
+   "As a {@variantrule Bonus Action|XPHB}, you can target a creature you can see within 60 feet of yourself and force it to make a Constitution saving throw, expending dice from the pool. The maximum number of dice you can expend at once equals your Charisma modifier (minimum of one die). Roll the dice you expend. The target takes Necrotic damage equal to the roll's total on a failed save or half as much damage on a successful one. If the target is an Undead, you can choose to have it regain {@variantrule Hit Points|XPHB} equal to the roll's total instead. Your pool regains all expended dice when you finish a {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
+  "name": "Death Knight Subclass",
+  "source": "WoW",
+  "className": "Death Knight",
+  "classSource": "WoW",
+  "level": 3,
+  "entries": [
+   "You gain a Death Knight subclass of your choice. A subclass is a specialization that grants you features at certain Death Knight levels. For the rest of your career, you gain each of your subclass's features that are of your Death Knight level or lower."
+  ]
+ },
+ {
   "name": "Dedicated Weapon",
   "source": "TCE",
   "page": 48,
@@ -3218,6 +3241,35 @@
  },
  {
   "name": "Deft Explorer",
+  "source": "WoW",
+  "className": "Demon Hunter",
+  "classSource": "WoW",
+  "level": 2,
+  "entries": [
+   "Thanks to your travels, you gain the following benefits.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Expertise",
+      "entries": [
+       "Choose one of your skill proficiencies with which you lack {@variantrule Expertise|XPHB}. You gain {@variantrule Expertise|XPHB} in that skill."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Languages",
+      "entries": [
+       "When you choose languages for the {@classFeature Deft Explorer|Ranger|XPHB|2|XPHB} class feature, choose from the {@book language tables in chapter 2|WoW|2|Languages}. Eredun and Nathrezim are recommended."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Deft Explorer",
   "source": "XPHB",
   "page": 120,
   "srd52": true,
@@ -3285,6 +3337,16 @@
      "In addition, whenever you finish a short rest, your {@condition exhaustion} level, if any, is decreased by 1."
     ]
    }
+  ]
+ },
+ {
+  "name": "Demon Hunter Subclass",
+  "source": "WoW",
+  "className": "Demon Hunter",
+  "classSource": "WoW",
+  "level": 3,
+  "entries": [
+   "You gain a Demon Hunter subclass of your choice. A subclass is a specialization that grants you features at certain Demon Hunter levels. For the rest of your career, you gain each of your subclass's features that are of your Demon Hunter level or lower."
   ]
  },
  {
@@ -3786,6 +3848,20 @@
      },
      {
       "type": "refOptionalfeature",
+      "optionalfeature": "Call of the Void|WoW",
+      "preserve": {
+       "prerequisite": true
+      }
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Curse of Corruption|WoW",
+      "preserve": {
+       "prerequisite": true
+      }
+     },
+     {
+      "type": "refOptionalfeature",
       "optionalfeature": "Devil's Sight|XPHB",
       "preserve": {
        "prerequisite": true
@@ -3821,6 +3897,13 @@
      },
      {
       "type": "refOptionalfeature",
+      "optionalfeature": "Expendable Minions|WoW",
+      "preserve": {
+       "prerequisite": true
+      }
+     },
+     {
+      "type": "refOptionalfeature",
       "optionalfeature": "Fiendish Vigor|XPHB",
       "preserve": {
        "prerequisite": true
@@ -3849,7 +3932,21 @@
      },
      {
       "type": "refOptionalfeature",
+      "optionalfeature": "Health Funnel|WoW",
+      "preserve": {
+       "prerequisite": true
+      }
+     },
+     {
+      "type": "refOptionalfeature",
       "optionalfeature": "Investment of the Chain Master|XPHB",
+      "preserve": {
+       "prerequisite": true
+      }
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Legion Summoning|WoW",
       "preserve": {
        "prerequisite": true
       }
@@ -3871,6 +3968,13 @@
      {
       "type": "refOptionalfeature",
       "optionalfeature": "Mask of Many Faces|XPHB",
+      "preserve": {
+       "prerequisite": true
+      }
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Master Demonologist|WoW",
       "preserve": {
        "prerequisite": true
       }
@@ -3913,6 +4017,13 @@
      {
       "type": "refOptionalfeature",
       "optionalfeature": "Pact of the Chain|XPHB",
+      "preserve": {
+       "prerequisite": true
+      }
+     },
+     {
+      "type": "refOptionalfeature",
+      "optionalfeature": "Pact of the Legion|WoW",
       "preserve": {
        "prerequisite": true
       }
@@ -4717,6 +4828,25 @@
  },
  {
   "name": "Faithful Steed",
+  "source": "WoW",
+  "className": "Death Knight",
+  "classSource": "WoW",
+  "level": 5,
+  "entries": [
+   "You can call on the aid of an otherworldly steed. You always have the {@spell Find Steed|XPHB} spell prepared.",
+   "You can also cast the spell once without expending a spell slot, and you regain the ability to do so when you finish a {@variantrule Long Rest|XPHB}.",
+   "In addition to the benefits of the Paladin's {@classFeature Faithful Steed|Paladin|XPHB|5|XPHB} feature, when you cast {@spell Find Steed|XPHB}, the {@b Otherworldly Steed} can be Undead. An Undead steed deals Necrotic damage with its Otherworldly Slam action and has this {@variantrule Bonus Action|XPHB}:",
+   {
+    "type": "entries",
+    "name": "Ghostly Stride (Undead Only; Recharges After a Long Rest)",
+    "entries": [
+     "The steed and its rider can move through other creatures and objects this turn as if they were {@variantrule Difficult Terrain|XPHB}. Both steed and rider take 5 ({@dice 1d10}) Force damage if they end their turn inside an object."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Faithful Steed",
   "source": "XPHB",
   "page": 111,
   "srd52": true,
@@ -5041,6 +5171,29 @@
       "optionalfeature": "Thrown Weapon Fighting|TCE"
      }
     ]
+   }
+  ]
+ },
+ {
+  "name": "Fighting Style",
+  "source": "WoW",
+  "className": "Demon Hunter",
+  "classSource": "WoW",
+  "level": 2,
+  "entries": [
+   "As a Demon Hunter, you can choose a {@filter Fighting Style feat|feats|category=FS}, the {@feat Druidic Warrior|XPHB} option in the {@book Player's Handbook|XPHB}, or the {@feat Void Warrior|WoW} option below.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "refFeat",
+      "feat": "Druidic Warrior|XPHB"
+     }
+    ]
+   },
+   {
+    "type": "refFeat",
+    "feat": "Void Warrior|WoW"
    }
   ]
  },
@@ -5478,6 +5631,16 @@
   ]
  },
  {
+  "name": "Hunter Subclass",
+  "source": "WoW",
+  "className": "Hunter",
+  "classSource": "WoW",
+  "level": 3,
+  "entries": [
+   "You gain a Hunter subclass of your choice. A subclass is a specialization that grants you features at certain Hunter levels. For the rest of your career, you gain each of your subclass's features that are of your Hunter level or lower."
+  ]
+ },
+ {
   "name": "Improved Blessed Strikes",
   "source": "XPHB",
   "page": 71,
@@ -5580,6 +5743,17 @@
   ]
  },
  {
+  "name": "Improved Death Coil",
+  "source": "WoW",
+  "className": "Death Knight",
+  "classSource": "WoW",
+  "level": 14,
+  "entries": [
+   "This feature replaces the Paladin's {@classFeature Restoring Touch|Paladin|XPHB|14|XPHB} feature.",
+   "When you use {@classFeature Death Coil|Death Knight|WoW|1|WoW} to deal damage, the target takes extra Necrotic damage equal to your Charisma modifier (minimum of 1) whether or not it fails its saving throw. If the target is an Undead, and you have it regain {@variantrule Hit Points|XPHB}, it regains additional {@variantrule Hit Points|XPHB} equal to your Paladin level."
+  ]
+ },
+ {
   "name": "Improved Defense",
   "source": "TCE",
   "page": 146,
@@ -5633,6 +5807,17 @@
      }
     ]
    }
+  ]
+ },
+ {
+  "name": "Improved Spectral Sight",
+  "source": "WoW",
+  "className": "Demon Hunter",
+  "classSource": "WoW",
+  "level": 18,
+  "entries": [
+   "This feature replaces the Ranger's {@classFeature Feral Senses|Ranger|XPHB|18|XPHB} feature.",
+   "You have {@sense Truesight|XPHB} with a range of 30 feet."
   ]
  },
  {
@@ -8702,6 +8887,28 @@
   ]
  },
  {
+  "name": "Runic Smite",
+  "source": "WoW",
+  "className": "Death Knight",
+  "classSource": "WoW",
+  "level": 2,
+  "entries": [
+   "This feature replaces the Paladin's {@classFeature Paladin's Smite|Paladin|XPHB|2|XPHB|Smite} feature of the Paladin class.",
+   "You always have the {@spell Rune Strike|WoW} spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
+  "name": "Runic Strikes",
+  "source": "WoW",
+  "className": "Death Knight",
+  "classSource": "WoW",
+  "level": 11,
+  "entries": [
+   "This feature replaces the Paladin's {@classFeature Radiant Strikes|Paladin|XPHB|11|XPHB} feature.",
+   "When you hit a target with an attack roll using a Melee weapon or an {@variantrule Unarmed Strike|XPHB}, the target takes an extra {@damage 1d8} Necrotic damage."
+  ]
+ },
+ {
   "name": "Sacred Oath",
   "source": "PHB",
   "page": 82,
@@ -8867,6 +9074,16 @@
   "entries": [
    "Through sheer force of will, you can remove one of the following conditions from yourself at the end of each of your turns: {@condition Charmed|XPHB}, {@condition Frightened|XPHB}, or {@condition Poisoned|XPHB}.",
    "In addition, forgoing food and drink doesn't give you levels of {@condition Exhaustion|XPHB}."
+  ]
+ },
+ {
+  "name": "Shaman Subclass",
+  "source": "WoW",
+  "className": "Shaman",
+  "classSource": "WoW",
+  "level": 3,
+  "entries": [
+   "You gain a Shaman subclass of your choice. A subclass is a specialization that grants you features at certain Shaman levels. For the rest of your career, you gain each of your subclass's features that are of your Shaman level or lower."
   ]
  },
  {
@@ -10087,6 +10304,58 @@
  },
  {
   "name": "Spellcasting",
+  "source": "WoW",
+  "className": "Demon Hunter",
+  "classSource": "WoW",
+  "level": 1,
+  "entries": [
+   "You have learned to channel the magical essence of nature to cast spells. See {@book chapter 7|XPHB|7} for the rules on spellcasting. The information below details how you use those rules with Ranger spells, which appear in the {@filter Ranger spell list|spells|class=Ranger} later in the class's description.",
+   {
+    "type": "entries",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Spell Slots",
+      "entries": [
+       "The Ranger Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a {@variantrule Long Rest|XPHB}."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Prepared Spells of Level 1+",
+      "entries": [
+       "You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two {@filter level 1 Ranger spells|spells|class=Ranger|level=1}. {@spell Cure Wounds|XPHB} and {@spell Ensnaring Strike|XPHB} are recommended.",
+       "The number of spells on your list increases as you gain Ranger levels, as shown in the Prepared Spells column of the Ranger Features table. Whenever that number increases, choose additional Ranger spells until the number of spells on your list matches the number in the Ranger Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Ranger, your list of prepared spells can include six Ranger spells of level 1 or 2 in any combination.",
+       "If another Ranger feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Ranger spells for you."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Changing Your Prepared Spells",
+      "entries": [
+       "Whenever you finish a {@variantrule Long Rest|XPHB}, you can replace one spell on your list with another Ranger spell for which you have spell slots."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Spellcasting Ability",
+      "entries": [
+       "Wisdom is your spellcasting ability for your Ranger spells."
+      ]
+     },
+     {
+      "type": "entries",
+      "name": "Spellcasting Focus",
+      "entries": [
+       "You can use an {@item Arcane Focus|XPHB} (not a {@item Druidic Focus|XPHB}) as a {@variantrule Spellcasting Focus|XPHB} for your Ranger spells."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Spellcasting",
   "source": "XPHB",
   "page": 59,
   "srd52": true,
@@ -10744,6 +11013,16 @@
   "level": 15,
   "entries": [
    "You gain a feature from your Artificer Subclass."
+  ]
+ },
+ {
+  "name": "Subclass Feature",
+  "source": "WoW",
+  "className": "Hunter",
+  "classSource": "WoW",
+  "level": 6,
+  "entries": [
+   "You gain a feature from your Hunter Subclass."
   ]
  },
  {
@@ -11500,6 +11779,46 @@
   "entries": [
    "{@i 6th-level artificer feature}",
    "Your proficiency bonus is now doubled for any ability check you make that uses your proficiency with a tool."
+  ]
+ },
+ {
+  "name": "Totems",
+  "source": "WoW",
+  "className": "Shaman",
+  "classSource": "WoW",
+  "level": 3,
+  "entries": [
+   "This feature replaces the Barbarian's {@classFeature Primal Knowledge|Barbarian|XPHB|3|XPHB} feature.",
+   "You can coalesce elemental spirits into a totem that aids you and your allies. As a {@variantrule Bonus Action|XPHB}, you can plant one of the totems below into the ground in an unoccupied space you can see within 10 feet of yourself.",
+   "A totem is a Small object that has AC 10 and 1 {@variantrule Hit Points|XPHB|Hit Point} and lasts for 1 minute, until it drops to 0 {@variantrule Hit Points|XPHB}, or until you use this feature again. At the end of each of your turns, the totem pulses with elemental energy that fills a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}.",
+   {
+    "type": "entries",
+    "name": "Earthbind Totem",
+    "entries": [
+     "Each enemy in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} has its {@variantrule Speed|XPHB} reduced by 10 feet until the end of your next turn."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Primal Knowledge Totem",
+    "entries": [
+     "Each ally in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} is empowered with nature's focus until the end of your next turn. While empowered in this way, whenever the creature makes an ability check using one of the following skills, the creature can make it as a Strength check even if it normally uses a different ability: {@skill Acrobatics|XPHB}, {@skill Intimidation|XPHB}, {@skill Perception|XPHB}, {@skill Stealth|XPHB}, or {@skill Survival|XPHB}. After you plant this totem, you can't do so again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of this totem by expending one use of your {@classFeature Rage|Barbarian|XPHB|1|XPHB} (no action required)."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Tremor Totem",
+    "entries": [
+     "Each ally in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} has {@variantrule Immunity|XPHB} to the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} conditions until the end of your next turn. If the creature was already {@condition Charmed|XPHB} or {@condition Frightened|XPHB}, those conditions are suppressed until the end of its next turn."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Wind Rush Totem",
+    "entries": [
+     "Each ally in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} has its {@variantrule Speed|XPHB} increased by 10 feet until the end of your next turn."
+    ]
+   }
   ]
  },
  {
