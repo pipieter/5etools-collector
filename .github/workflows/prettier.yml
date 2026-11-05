@@ -11,6 +11,7 @@ on:
       - '**/*.ts'
       - 'package.json'
       - 'package-lock.json'
+      - '.github/**'
   workflow_dispatch:
 
 permissions:

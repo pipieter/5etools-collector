@@ -8,6 +8,7 @@ on:
       - 'package.json'
       - 'package-lock.json'
       - 'data/**'
+      - '.github/**'
   workflow_dispatch:
 
 concurrency:
