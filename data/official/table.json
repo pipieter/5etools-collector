@@ -6610,6 +6610,65 @@
   }
  },
  {
+  "caption": "Affliction Warlock Spells",
+  "colLabels": [
+   "Spell Level",
+   "Spells"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@spell Bane|XPHB}"
+   ],
+   [
+    "2",
+    "{@spell Ray of Enfeeblement|XPHB}"
+   ],
+   [
+    "3",
+    "{@spell Fear|XPHB}"
+   ],
+   [
+    "4",
+    "{@spell Blight|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Synaptic Static|XPHB}"
+   ],
+   [
+    "6",
+    "{@spell Eyebite|XPHB}"
+   ],
+   [
+    "7",
+    "{@spell Finger of Death|XPHB}"
+   ],
+   [
+    "8",
+    "{@spell Befuddlement|XPHB}"
+   ],
+   [
+    "9",
+    "{@spell Weird|XPHB}"
+   ]
+  ],
+  "name": "Affliction Warlock Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
   "caption": "Against the Giants",
   "colLabels": [
    "d8",
@@ -7345,6 +7404,129 @@
     "identifier": 8
    },
    "index": 7
+  }
+ },
+ {
+  "caption": "Alliance Languages",
+  "colLabels": [
+   "{@dice 1d12}",
+   "Language",
+   "Origin"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
+  ],
+  "rows": [
+   [
+    "—",
+    "{@language Common|WoW}",
+    "Humans"
+   ],
+   [
+    {
+     "type": "cell",
+     "roll": {
+      "exact": 1
+     }
+    },
+    "{@language Common Sign Language|WoW}",
+    "Humans"
+   ],
+   [
+    {
+     "type": "cell",
+     "roll": {
+      "min": 2,
+      "max": 3
+     }
+    },
+    "{@language Darnassian|WoW}",
+    "Night elves"
+   ],
+   [
+    {
+     "type": "cell",
+     "roll": {
+      "exact": 4
+     }
+    },
+    "{@language Draconic|WoW}",
+    "Dragons"
+   ],
+   [
+    {
+     "type": "cell",
+     "roll": {
+      "min": 5,
+      "max": 6
+     }
+    },
+    "{@language Draenei|WoW}",
+    "Draenei"
+   ],
+   [
+    {
+     "type": "cell",
+     "roll": {
+      "min": 7,
+      "max": 8
+     }
+    },
+    "{@language Dwarven|WoW}",
+    "Dwarves"
+   ],
+   [
+    {
+     "type": "cell",
+     "roll": {
+      "exact": 9
+     }
+    },
+    "{@language Gnomish|WoW}",
+    "Gnomes"
+   ],
+   [
+    {
+     "type": "cell",
+     "roll": {
+      "exact": 10
+     }
+    },
+    "{@language Hara'ni|WoW}",
+    "Haranir"
+   ],
+   [
+    {
+     "type": "cell",
+     "roll": {
+      "exact": 11
+     }
+    },
+    "{@language Pandaren|WoW}",
+    "Pandaren"
+   ],
+   [
+    {
+     "type": "cell",
+     "roll": {
+      "exact": 12
+     }
+    },
+    "{@language Thalassian|WoW}",
+    "High Elves"
+   ]
+  ],
+  "name": "Alliance Languages",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Origins",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 2
+   },
+   "index": 2
   }
  },
  {
@@ -9699,6 +9881,65 @@
     "identifier": 6
    },
    "index": 6
+  }
+ },
+ {
+  "caption": "Arcane Mage Spells",
+  "colLabels": [
+   "Spell Level",
+   "Spells"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@spell Chromatic Orb|XPHB}, {@spell Comprehend Languages|XPHB}, {@spell Disguise Self|XPHB}, {@spell Find Familiar|XPHB}, {@spell Frost Nova|WoW}"
+   ],
+   [
+    "2",
+    "{@spell Enhance Ability|XPHB}, {@spell Invisibility|XPHB}, {@spell Mirror Image|XPHB}, {@spell Misty Step|XPHB}, {@spell Shatter|XPHB}"
+   ],
+   [
+    "3",
+    "{@spell Blink|XPHB}, {@spell Counterspell|XPHB}, {@spell Create Food and Water|XPHB}, {@spell Dispel Magic|XPHB}, {@spell Haste|XPHB}, {@spell Remove Curse|XPHB}, {@spell Slow|XPHB}, {@spell Tongues|XPHB}"
+   ],
+   [
+    "4",
+    "{@spell Conjure Minor Elementals|XPHB}, {@spell Fire Shield|XPHB}, {@spell Greater Invisibility|XPHB}, {@spell Otiluke's Resilient Sphere|XPHB}, {@spell Polymorph|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Bigby's Hand|XPHB}, {@spell Teleportation Circle|XPHB}, {@spell Wall of Force|XPHB}"
+   ],
+   [
+    "6",
+    "{@spell Arcane Gate|XPHB}, {@spell Disintegrate|XPHB}, {@spell Globe of Invulnerability|XPHB}, {@spell Heroes' Feast|XPHB}"
+   ],
+   [
+    "7",
+    "{@spell Forcecage|XPHB}, {@spell Mass Polymorph|WoW}, {@spell Mordenkainen's Sword|XPHB}, {@spell Prismatic Spray|XPHB}, {@spell Teleport|XPHB}"
+   ],
+   [
+    "8",
+    "{@spell Befuddlement|XPHB}, {@spell Maze|XPHB}"
+   ],
+   [
+    "9",
+    "{@spell Prismatic Wall|XPHB}, {@spell Time Stop|XPHB}"
+   ]
+  ],
+  "name": "Arcane Mage Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
   }
  },
  {
@@ -12769,6 +13010,97 @@
   }
  },
  {
+  "caption": "Dig Sites",
+  "colLabels": [
+   "Origin",
+   "Regions"
+  ],
+  "colStyles": [
+   "col-3",
+   "col-9"
+  ],
+  "rows": [
+   [
+    "Demon",
+    "{@area Broken Isles|399|x}"
+   ],
+   [
+    "Draenei",
+    "Outland"
+   ],
+   [
+    "Drust",
+    "{@area Kul Tiras|3af|x}"
+   ],
+   [
+    "Dwarf",
+    "Central {@area Eastern Kingdoms|35a|x}"
+   ],
+   [
+    "Fossil",
+    "{@area Eastern Kingdoms|35a|x}, {@area Kalimdor|335|x}"
+   ],
+   [
+    "Highborne",
+    "{@area Broken Isles|399|x}"
+   ],
+   [
+    "Highmountain tauren",
+    "{@area Broken Isles|399|x}"
+   ],
+   [
+    "Mantid",
+    "{@area Pandaria|3b4|x}"
+   ],
+   [
+    "Mogu",
+    "{@area Pandaria|3b4|x}"
+   ],
+   [
+    "Nerubian",
+    "{@area Northrend|386|x}"
+   ],
+   [
+    "Night elf",
+    "{@area Kalimdor|335|x}"
+   ],
+   [
+    "Orc",
+    "Outland"
+   ],
+   [
+    "Pandaren",
+    "{@area Pandaria|3b4|x}"
+   ],
+   [
+    "Tol'vir",
+    "{@area Kalimdor|335|x} ({@area Uldum|34b|x})"
+   ],
+   [
+    "Troll",
+    "Northern and southern {@area Eastern Kingdoms|35a|x}, {@area Northrend|386|x}"
+   ],
+   [
+    "Vrykul",
+    "{@area Northrend|386|x}"
+   ],
+   [
+    "Zandalari",
+    "{@area Zandalar|3c0|x}"
+   ]
+  ],
+  "name": "Assembling a Magic Item; Dig Sites",
+  "source": "WoW",
+  "chapter": {
+   "name": "Professions and Gear",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 3
+   },
+   "index": 3
+  }
+ },
+ {
   "caption": "Standard Array by Class",
   "srd52": true,
   "basicRules2024": true,
@@ -13736,6 +14068,57 @@
   }
  },
  {
+  "caption": "Augmentation Evoker Spells",
+  "colLabels": [
+   "Spell Level",
+   "Spells"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "3",
+    "{@spell Fireball|XPHB}, {@spell Haste|XPHB}, {@spell Slow|XPHB}"
+   ],
+   [
+    "4",
+    "{@spell Fire Shield|XPHB}, {@spell Stoneskin|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Hold Monster|XPHB}, {@spell Wall of Stone|XPHB}"
+   ],
+   [
+    "6",
+    "{@spell Sunbeam|XPHB}"
+   ],
+   [
+    "7",
+    "{@spell Reverse Gravity|XPHB}"
+   ],
+   [
+    "8",
+    "{@spell Earthquake|XPHB}"
+   ],
+   [
+    "9",
+    "{@spell Time Stop|XPHB}"
+   ]
+  ],
+  "name": "Augmentation Evoker Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
   "caption": "Cheese Bag Contents",
   "page": 184,
   "colLabels": [
@@ -14224,6 +14607,96 @@
     "identifier": 3
    },
    "index": 2
+  }
+ },
+ {
+  "caption": "Azjol-Nerub Adventure Hooks",
+  "colLabels": [
+   "1d4",
+   "Adventure Hook"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "While the characters flee the Scourge across Northrend, the ground collapses beneath them, casting them into nerubian tunnels. Now they must find a way back to the surface."
+   ],
+   [
+    "2",
+    "Seer Ixit of the Azjol-anak approaches the characters and offers them great riches if they'll help slay Anub'arak (for more on Ixit and Anub'arak, see \"{@area Azjol-Nerub Characters|420|x}\" below). (Renown: +3 with the {@area Kirin Tor|30e|x})"
+   ],
+   [
+    "3",
+    "The Alliance or Horde seeks a way past the Wrath Gate into Icecrown Citadel and asks the characters to secure the route Arthas took through Azjol-Nerub long ago. (Renown: +3 with one {@area Alliance|29b|x} or {@area Horde|2ca|x} subfaction)"
+   ],
+   [
+    "4",
+    "Explorer Brann Bronzebeard has returned to Dalaran, terrified by the presence of Yogg-Saron within the titan vault of Ulduar. He asks the adventurers to coerce the Old God's herald, Volazj, into being a guide for a return expedition. (Renown: +3 with the {@area Explorers' League|306|x})"
+   ]
+  ],
+  "name": "Azjol-Nerub Adventure Hooks",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
+  }
+ },
+ {
+  "caption": "Azjol-Nerub Treasure",
+  "colLabels": [
+   "4d6",
+   "Treasure"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "4–8",
+    "Nerubian sculpture and jewelry worth 5,500 ({@dice 10d10 × 100}) GP to the Explorers' League"
+   ],
+   [
+    "9–11",
+    "Krik'thir the Gatewatcher: A gnomish crab tank ({@item Apparatus of Kwalish|XDMG}) that failed to breach the gate"
+   ],
+   [
+    "12–13",
+    "A slain death knight's runeblade named Exile ({@item Nine Lives Stealer|XDMG})"
+   ],
+   [
+    "14–15",
+    "The corpse of a dead adventurer carrying 10,000 GP worth of art and a {@item Ring of Feather Falling|XDMG} that slipped off his finger"
+   ],
+   [
+    "16–17",
+    "Herald Volazj: A saronite {@item +3 Rod of the Pact Keeper|XDMG} etched with a thousand mouths"
+   ],
+   [
+    "18–19",
+    "Hadronox: {@item Life-Staff of the Web Lair|WoW}"
+   ],
+   [
+    "20–24",
+    "Anub'arak: {@item Dwarven Plate|XDMG} and a {@item Dwarven Thrower|XDMG} bearing the Bronzebeard forgemark"
+   ]
+  ],
+  "name": "Azjol-Nerub Treasure",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
   }
  },
  {
@@ -16002,6 +16475,61 @@
   }
  },
  {
+  "caption": "Balance Druid Spells",
+  "colLabels": [
+   "Spell Level",
+   "Spells"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "2",
+    "{@spell Barkskin|XPHB}, {@spell Moonbeam|XPHB}, {@spell Summon Beast|XPHB}"
+   ],
+   [
+    "3",
+    "{@spell Call Lightning|XPHB}, {@spell Daylight|XPHB}, {@spell Dispel Magic|XPHB}, {@spell Summon Fey|XPHB}"
+   ],
+   [
+    "4",
+    "{@spell Fount of Moonlight|XPHB}, {@spell Starfall|WoW}"
+   ],
+   [
+    "5",
+    "{@spell Reincarnate|XPHB}, {@spell Scrying|XPHB}"
+   ],
+   [
+    "6",
+    "{@spell Conjure Fey|XPHB}, {@spell Sunbeam|XPHB}"
+   ],
+   [
+    "7",
+    "{@spell Fire Storm|XPHB}"
+   ],
+   [
+    "8",
+    "{@spell Sunburst|XPHB}"
+   ],
+   [
+    "9",
+    "{@spell Storm of Vengeance|XPHB}"
+   ]
+  ],
+  "name": "Balance Druid Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
   "caption": "Baldur's Gate Chase Complications",
   "page": 197,
   "colLabels": [
@@ -16702,6 +17230,49 @@
     "identifier": 8
    },
    "index": 7
+  }
+ },
+ {
+  "caption": "Beast Mastery Hunter Spells",
+  "colLabels": [
+   "Spell Level",
+   "Spells"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@spell Freezing Trap|WoW}"
+   ],
+   [
+    "2",
+    "{@spell Beast Sense|XPHB}, {@spell Summon Beast|XPHB}"
+   ],
+   [
+    "3",
+    "{@spell Conjure Animals|XPHB}, {@spell Serpent Sting|WoW}"
+   ],
+   [
+    "4",
+    "{@spell Dominate Beast|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Conjure Volley|XPHB}"
+   ]
+  ],
+  "name": "Beast Mastery Hunter Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
   }
  },
  {
@@ -18471,6 +19042,147 @@
     "type": "appendix"
    },
    "index": 5
+  }
+ },
+ {
+  "caption": "Blackfathom Deeps Adventure Hooks",
+  "colLabels": [
+   "1d4",
+   "Adventure Hook"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "Kaal Grimfang, commander of Zoram'gar Outpost, has ordered a strike against the naga that haunt the Zoram Strand. He asks the adventurers to strike into their lair in Blackfathom Deeps. (Renown: +1 with {@area Orgrimmar|2df|x})"
+   ],
+   [
+    "2",
+    "Raene Wolfrunner, a night elf tracker, seeks a lost party of Sentinels, including a trainee. She thinks they were captured by the Horde and asks the characters to search the coast. While there, the characters discover that the Sentinels were taken to Blackfathom Deeps by naga. (Renown: +1 with {@area Darnassus|29c|x})"
+   ],
+   [
+    "3",
+    "Je'neu Sancrea, a troll shaman of the Earthen Ring, has seen naga witches carrying gems thrumming with elemental power. Consulting the spirits, he heard a name: Aku'mai. Unsure of its meaning, he asks the characters to search Blackfathom Deeps. (Renown: +1 with the {@area Earthen Ring|300|x})"
+   ],
+   [
+    "4",
+    "Thaelrid Silversky, a night elf warrior of the Argent Dawn, has been hunting Kelris Doomfang, a shaman-turned-warlock who committed a string of ritual murders across Kalimdor. His cult lurks within Blackfathom Deeps. Thaelrid asks the characters to find him and bring him to justice—dead or alive. (Renown: +1 with the {@area Argent Dawn|2f3|x})"
+   ]
+  ],
+  "name": "Blackfathom Deeps Adventure Hooks",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
+  }
+ },
+ {
+  "caption": "Blackfathom Deeps Encounters",
+  "colLabels": [
+   "1d20",
+   "Encounter"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1–5",
+    "One {@creature Murloc Oracle|WoW} leading {@dice 2d4} {@creature Murloc Forager|WoW|Murloc Foragers}"
+   ],
+   [
+    "6–10",
+    "Two {@creature Naga Myrmidon|WoW|Naga Myrmidons} carrying an orc or night elf captive to {@creature Lady Sarevess|WoW}"
+   ],
+   [
+    "11–15",
+    "A {@creature Naga Sea Witch|WoW} demonstrating her superior magic to three {@creature Murloc Oracle|WoW|Murloc Oracles}"
+   ],
+   [
+    "16–19",
+    "Three Twilight's Hammer {@creature Cult Fanatic||Cult Fanatics} with three {@creature Voidwalker|WoW} servants chant around an impassive {@creature Water Elemental|XMM} to transform it into a glorious new form."
+   ],
+   [
+    "20",
+    "The characters hear the whispers of an Old God dreaming beneath the sea. They must succeed on a {@dc 19} Wisdom saving throw or have the {@condition Stunned|XPHB} condition until the end of their next turn. Roll again on this table."
+   ]
+  ],
+  "name": "Blackfathom Deeps Encounters",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
+  }
+ },
+ {
+  "caption": "Blackfathom Deeps Treasure",
+  "colLabels": [
+   "2d6 or 4d6",
+   "Treasure"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "4–9",
+    "A bag of 450 GP in occult ritual tools"
+   ],
+   [
+    "10–12",
+    "{@item +1 Weapon|XDMG} or 20 pieces of {@item +1 Ammunition|XDMG}"
+   ],
+   [
+    "11–12",
+    "Ghamoo-Ra: {@item Elven Chain|XDMG}"
+   ],
+   [
+    "13–14",
+    "Lady Sarevess: {@item Trident of Fish Command|XDMG}"
+   ],
+   [
+    "15–16",
+    "Gelihast: {@item Bag of Holding|XDMG}"
+   ],
+   [
+    "17–18",
+    "Twilight Lord Kelris: {@item Rod of the Sleepwalker|WoW}"
+   ],
+   [
+    "19–20",
+    "Twilight Lord Kelris: {@item Ring of Swimming|XDMG}"
+   ],
+   [
+    "21–22",
+    "Aku'mai: {@item Greatsword of Wounding|XDMG}"
+   ],
+   [
+    "23–24",
+    "Aku'mai: {@item Ring of Free Action|XDMG}"
+   ]
+  ],
+  "name": "Blackfathom Deeps Treasure",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
   }
  },
  {
@@ -41702,6 +42414,104 @@
   }
  },
  {
+  "caption": "Deadmines Adventure Hooks",
+  "colLabels": [
+   "1d4",
+   "Adventure Hook"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "When the characters help the victims of an extortionist called Morgan the Collector ({@creature Bandit Captain|XMM}), they eventually discover that his house in Elwynn Forest has a ledger of the protection fees he's sent to Westfall. (Renown: +1 with {@area Stormwind|2ba|x})"
+   ],
+   [
+    "2",
+    "Riverpaw {@creature Gnoll Warrior|XMM|Gnoll Warriors} raid a town the characters are resting in. In the raiders' base, their leader, Hogger ({@creature Gnoll Fang of Yeenoghu|XMM}), has a record of payment from \"EVC\" for raids. (Renown: +1 with {@area Stormwind|2ba|x})"
+   ],
+   [
+    "3",
+    "Wilder Thistlenettle, a miner drinking in Stormwind, wants someone to find his brother, Eugene Thistlenettle of the Explorer's League. Wilder warns them the supposedly abandoned mine is full of bandits. (Renown: +1 with the {@area Explorers' League|306|x})"
+   ],
+   [
+    "4",
+    "Edwin's right-hand man, a {@creature Bandit Captain|XMM} named Bazil Thredd, flees the Stormwind Stockade pursued by four {@creature Guard|XMM|Guards}. He runs into the characters and asks them to help him flee to Westfall, promising to pay them the gold he stashed there for their help."
+   ]
+  ],
+  "name": "Deadmines Adventure Hooks",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
+  }
+ },
+ {
+  "caption": "Deadmines Treasure",
+  "colLabels": [
+   "2d6 or 4d6",
+   "Treasure"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "2–7",
+    "A bag of 45 ({@dice 10d8}) GP in gold dust"
+   ],
+   [
+    "8–10",
+    "{@item Defias Leather|WoW}"
+   ],
+   [
+    "11–12",
+    "Rhahk'Zor: {@item Gauntlets of Ogre Power|XDMG}"
+   ],
+   [
+    "13–14",
+    "Sneed: {@item Adamantine Armor|XDMG}"
+   ],
+   [
+    "15–16",
+    "Gilnid: {@item Headband of Intellect|XDMG}"
+   ],
+   [
+    "17–18",
+    "Mister Smite: {@item Mariner's Armor|XDMG}"
+   ],
+   [
+    "19–20",
+    "Cookie: {@item Oil of Slipperiness|XDMG}"
+   ],
+   [
+    "21–22",
+    "Captain Greenskin: {@item Vicious Scimitar|XDMG}"
+   ],
+   [
+    "23–24",
+    "Edwin VanCleef: {@item Boots of Speed|XDMG}"
+   ]
+  ],
+  "name": "Deadmines Treasure",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
+  }
+ },
+ {
   "name": "Death Giant Encounters",
   "type": "table",
   "source": "BGG",
@@ -41757,6 +42567,80 @@
     "1 {@creature nightwalker|MPMM} (attitude: {@dice 1d4 + 1}) striding in search of a death giant's home or trappings"
    ]
   ]
+ },
+ {
+  "colLabels": [
+   "Level",
+   "Spell",
+   "Special"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@spell Chains of Ice|WoW}",
+    "—"
+   ],
+   [
+    "1",
+    "{@spell Death Grip|WoW}",
+    "—"
+   ],
+   [
+    "1",
+    "{@spell Rune Strike|WoW}",
+    "—"
+   ],
+   [
+    "1",
+    "{@spell Scourge Strike|WoW}",
+    "—"
+   ],
+   [
+    "1",
+    "{@spell Vampiric Blood|WoW}",
+    "C"
+   ],
+   [
+    "2",
+    "{@spell Death and Decay|WoW}",
+    "—"
+   ],
+   [
+    "2",
+    "{@spell Frostscythe|WoW}",
+    "—"
+   ],
+   [
+    "3",
+    "{@spell Leeching Strike|WoW}",
+    "—"
+   ],
+   [
+    "3",
+    "{@spell Remorseless Winter|WoW}",
+    "—"
+   ],
+   [
+    "5",
+    "{@spell Bonestorm|WoW}",
+    "—"
+   ]
+  ],
+  "name": "Death Knight Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
  },
  {
   "caption": "Dragon Death Throes",
@@ -43711,6 +44595,96 @@
   }
  },
  {
+  "caption": "Demon Hunter Spells",
+  "colLabels": [
+   "Level",
+   "Spell",
+   "Special"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@spell Consume Soul|WoW}",
+    "—"
+   ],
+   [
+    "1",
+    "{@spell Fel Rush|WoW}",
+    "—"
+   ],
+   [
+    "1",
+    "{@spell Infernal Strike|WoW}",
+    "—"
+   ],
+   [
+    "1",
+    "{@spell Throw Glaive|WoW}",
+    "—"
+   ],
+   [
+    "2",
+    "{@spell Eye Beam|WoW}",
+    "C"
+   ],
+   [
+    "2",
+    "{@spell Fiery Brand|WoW}",
+    "—"
+   ],
+   [
+    "2",
+    "{@spell Sigil of Flame|WoW}",
+    "—"
+   ],
+   [
+    "3",
+    "{@spell Demon Spikes|WoW}",
+    "—"
+   ],
+   [
+    "3",
+    "{@spell Metamorphosis|WoW}",
+    "M"
+   ],
+   [
+    "3",
+    "{@spell Soul Reap|WoW}",
+    "—"
+   ],
+   [
+    "4",
+    "{@spell Chaos Nova|WoW}",
+    "—"
+   ],
+   [
+    "4",
+    "{@spell Collapsing Star|WoW}",
+    "—"
+   ],
+   [
+    "5",
+    "{@spell Sigil of Chains|WoW}",
+    "—"
+   ]
+  ],
+  "name": "Demon Hunter Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
   "caption": "Demon Ruin Adventures",
   "colLabels": [
    "d4",
@@ -43748,6 +44722,65 @@
     "identifier": 4
    },
    "index": 10
+  }
+ },
+ {
+  "caption": "Demonology Warlock Spells",
+  "colLabels": [
+   "Spell Level",
+   "Spells"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@spell Hellish Rebuke|XPHB}"
+   ],
+   [
+    "2",
+    "{@spell Suggestion|XPHB}"
+   ],
+   [
+    "3",
+    "{@spell Hand of Gul'dan|WoW}"
+   ],
+   [
+    "4",
+    "{@spell Summon Aberration|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Planar Binding|XPHB}"
+   ],
+   [
+    "6",
+    "{@spell Summon Fiend|XPHB}"
+   ],
+   [
+    "7",
+    "{@spell Plane Shift|XPHB}"
+   ],
+   [
+    "8",
+    "{@spell Dominate Monster|XPHB}"
+   ],
+   [
+    "9",
+    "{@spell Gate|XPHB}"
+   ]
+  ],
+  "name": "Demonology Warlock Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
   }
  },
  {
@@ -44821,6 +45854,65 @@
     "{@dice 1d4} {@creature adult brass dragon||adult brass dragons}"
    ]
   ]
+ },
+ {
+  "caption": "Destruction Warlock Spells",
+  "colLabels": [
+   "Spell Level",
+   "Spells"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@spell Arms of Hadar|XPHB}"
+   ],
+   [
+    "2",
+    "{@spell Cloud of Daggers|XPHB}"
+   ],
+   [
+    "3",
+    "{@spell Rain of Fire|WoW}"
+   ],
+   [
+    "4",
+    "{@spell Blight|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Jallarzi's Storm of Radiance|XPHB}"
+   ],
+   [
+    "6",
+    "{@spell Circle of Death|XPHB}"
+   ],
+   [
+    "7",
+    "{@spell Finger of Death|XPHB}"
+   ],
+   [
+    "8",
+    "{@spell Power Word Stun|XPHB}"
+   ],
+   [
+    "9",
+    "{@spell Power Word Kill|XPHB}"
+   ]
+  ],
+  "name": "Destruction Warlock Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
  },
  {
   "caption": "Ability Scores and Modifiers",
@@ -45951,6 +47043,57 @@
   ]
  },
  {
+  "caption": "Devastation Evoker Spells",
+  "colLabels": [
+   "Spell Level",
+   "Spells"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "3",
+    "{@spell Counterspell|XPHB}, {@spell Fly|XPHB}, {@spell Sleet Storm|XPHB}"
+   ],
+   [
+    "4",
+    "{@spell Ice Storm|XPHB}, {@spell Wall of Fire|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Cone of Cold|XPHB}, {@spell Telekinesis|XPHB}"
+   ],
+   [
+    "6",
+    "{@spell Azure Sweep|WoW}, {@spell Otiluke's Freezing Sphere|XPHB}"
+   ],
+   [
+    "7",
+    "{@spell Fire Storm|XPHB}, {@spell Lay Waste|WoW}"
+   ],
+   [
+    "8",
+    "{@spell Incendiary Cloud|XPHB}"
+   ],
+   [
+    "9",
+    "{@spell Meteor Swarm|XPHB}"
+   ]
+  ],
+  "name": "Devastation Evoker Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
   "caption": "Dhakaani Fort Adventures",
   "colLabels": [
    "d10",
@@ -46509,6 +47652,132 @@
   ]
  },
  {
+  "caption": "Dire Maul Adventure Hooks",
+  "colLabels": [
+   "1d6",
+   "Adventure Hook"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "Furgus Warpwood ({@creature Ancient of War|WoW}) pleads with the night elf General Shandris Feathermoon to send adventurers to the Capital Gardens to slay his corrupted kin, Tendris Warpwood. (Renown: +2 with {@area Darnassus|29c|x})"
+   ],
+   [
+    "2",
+    "Orhan Ogreblade (Medium {@creature Warrior Commander|XMM}), leader of the Stonemaul clan of ogres, wants to conquer the Gordok ogres of Dire Maul by installing one of the characters as their king (see \"{@area Ogre Tribute|474|x}\" below)."
+   ],
+   [
+    "3",
+    "A Highborne archmage named Mordent Evenshade casts {@spell Sending|XPHB}, begging the characters for rescue. He tried to flee Prince Tortheldrin's reign of terror but was captured by ogres (see \"Gordok's Seat\" in \"{@area North Wing: Gordok Commons|46e|x}\"). (Renown: +2 with the {@area Kirin Tor|30e|x})"
+   ],
+   [
+    "4",
+    "Prince Tortheldrin craves entertainment and loves epics. He invites the characters through his hawk familiar to dine in Eldre'Thalas and share tales of their adventures. If they accept, they discover his villainy."
+   ],
+   [
+    "5",
+    "The Crimson Ring pit masters have captured one of the characters' allies. The friend was kidnapped from the arena by the satyr Zevrim Thornhoof (see \"{@area Warpwood Quarter Characters|47b|x}\"), to be sacrificed in the vile blood rites of Hydrospawn."
+   ],
+   [
+    "6",
+    "A druid in the party has a nightmare of a night elf being strangled by demonic vines controlled by a sinister satyr. She begs the druid to find Eldre'Thalas and save the \"Fruit of Fertility\" before its corruption destroys Feralas. This elf is Millicent Serene, and the satyr has corrupted her masterwork (see \"{@area Alzzin the Wildshaper|47f|x}\" below). (Renown: +2 with the {@area Cenarion Circle|2f9|x})"
+   ]
+  ],
+  "name": "Dire Maul Adventure Hooks",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
+  }
+ },
+ {
+  "caption": "Dire Maul Treasure",
+  "colLabels": [
+   "2d6 or 4d6",
+   "Treasure"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "2–8",
+    "Highborne tomes worth 500 ({@dice 2d4 × 100}) GP"
+   ],
+   [
+    "9–11",
+    "{@item +3 Weapon|XDMG} or 20 pieces of {@item +3 Ammunition|XDMG}"
+   ],
+   [
+    "12–13",
+    "{@item +2 Armor|XDMG} in sleek, Suramar City fashion"
+   ],
+   [
+    "14",
+    "Hydrospawn: {@item Bowl of Commanding Water Elementals|XDMG}"
+   ],
+   [
+    "15",
+    "Pusillin: {@item Horseshoes of a Zephyr|XDMG}"
+   ],
+   [
+    "16",
+    "Zevrim Thornhoof: A fel-seeping, vine-etched {@item +2 Rod of the Pact Keeper|XDMG}"
+   ],
+   [
+    "17",
+    "Alzzin the Wildshaper: {@item Nine Lives Stealer|XDMG}"
+   ],
+   [
+    "18",
+    "Tendris Warpwood: {@item Staff of the Woodlands|XDMG}"
+   ],
+   [
+    "19",
+    "Illyanna Ravenoak: {@item Giant Slayer|XDMG}"
+   ],
+   [
+    "20",
+    "Immol'thar: {@item Dimensional Shackles|XDMG}"
+   ],
+   [
+    "21",
+    "Prince Tortheldrin: A fel-seeping {@item Oathbow|XDMG}"
+   ],
+   [
+    "22",
+    "Captain Kromcrush: {@item Horn of Blasting|XDMG}"
+   ],
+   [
+    "23",
+    "King Gordok: {@item Crown of the Ogre King|WoW}"
+   ],
+   [
+    "24",
+    "Cho'Rush the Observer: {@item Staff of Healing|XDMG}"
+   ]
+  ],
+  "name": "Dire Maul Treasure",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
+  }
+ },
+ {
   "caption": "Pending Disasters",
   "page": 93,
   "colLabels": [
@@ -46593,6 +47862,65 @@
   }
  },
  {
+  "caption": "Discipline Priest Spells",
+  "colLabels": [
+   "Spell Level",
+   "Spells"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@spell Bless|XPHB}, {@spell Protection from Evil and Good|XPHB}, {@spell Shadow Word: Pain|WoW}"
+   ],
+   [
+    "2",
+    "{@spell Aid|XPHB}, {@spell Blur|XPHB}, {@spell Levitate|XPHB}, {@spell Spiritual Weapon|XPHB}"
+   ],
+   [
+    "3",
+    "{@spell Aura of Vitality|XPHB}, {@spell Dispel Magic|XPHB}, {@spell Spirit Guardians|XPHB}"
+   ],
+   [
+    "4",
+    "{@spell Aura of Purity|XPHB}, {@spell Holy Nova|WoW}"
+   ],
+   [
+    "5",
+    "{@spell Flame Strike|XPHB}, {@spell Greater Restoration|XPHB}, {@spell Summon Celestial|XPHB}"
+   ],
+   [
+    "6",
+    "{@spell Blade Barrier|XPHB}, {@spell Sunbeam|XPHB}"
+   ],
+   [
+    "7",
+    "{@spell Fire Storm|XPHB}, {@spell Power Word Fortify|XPHB}"
+   ],
+   [
+    "8",
+    "{@spell Sunburst|XPHB}"
+   ],
+   [
+    "9",
+    "{@spell Gate|XPHB}"
+   ]
+  ],
+  "name": "Discipline Priest Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
   "caption": "Discoveries",
   "colLabels": [
    "d10",
@@ -46654,6 +47982,50 @@
     "identifier": 1
    },
    "index": 1
+  }
+ },
+ {
+  "colLabels": [
+   "Item Rarity",
+   "Skill Required",
+   "Residue Value"
+  ],
+  "colStyles": [
+   "col-4",
+   "col-4",
+   "col-4"
+  ],
+  "rows": [
+   [
+    "Common",
+    "Journeyman (+3)",
+    "25 GP"
+   ],
+   [
+    "Uncommon",
+    "Expert (+4)",
+    "100 GP"
+   ],
+   [
+    "Rare",
+    "Artisan (+5)",
+    "1,000 GP"
+   ],
+   [
+    "Very Rare",
+    "Master (+6)",
+    "10,000 GP"
+   ]
+  ],
+  "name": "Disenchanting",
+  "source": "WoW",
+  "chapter": {
+   "name": "Professions and Gear",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 3
+   },
+   "index": 3
   }
  },
  {
@@ -50592,6 +51964,76 @@
   "source": "GGR",
   "chapter": {
    "name": "Character Creation",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
+  "caption": "Druid Spells",
+  "colLabels": [
+   "Level",
+   "Spell",
+   "Special"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
+  ],
+  "rows": [
+   [
+    "Cantrip",
+    "{@spell Wrath|WoW}",
+    "—"
+   ],
+   [
+    "1",
+    "{@spell Moonfire|WoW}",
+    "—"
+   ],
+   [
+    "2",
+    "{@spell Feral Prowl|WoW}",
+    "—"
+   ],
+   [
+    "2",
+    "{@spell Roar of Ursoc|WoW}",
+    "—"
+   ],
+   [
+    "3",
+    "{@spell Regrowth|WoW}",
+    "C"
+   ],
+   [
+    "4",
+    "{@spell Starfall|WoW}",
+    "—"
+   ],
+   [
+    "5",
+    "{@spell Innervate|WoW}",
+    "—"
+   ],
+   [
+    "6",
+    "{@spell Tranquility|WoW}",
+    "C"
+   ],
+   [
+    "8",
+    "{@spell Tree of Life|WoW}",
+    "—"
+   ]
+  ],
+  "name": "Druid Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
    "ordinal": {
     "type": "chapter",
     "identifier": 1
@@ -60313,6 +61755,111 @@
   ]
  },
  {
+  "caption": "Evoker Spells",
+  "colLabels": [
+   "Level",
+   "Spell",
+   "Special"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@spell Azure Strike|WoW}",
+    "—"
+   ],
+   [
+    "1",
+    "{@spell Ebon Might|WoW}",
+    "—"
+   ],
+   [
+    "1",
+    "{@spell Living Flame|WoW}",
+    "—"
+   ],
+   [
+    "2",
+    "{@spell Dream Breath|WoW}",
+    "—"
+   ],
+   [
+    "2",
+    "{@spell Eruption|WoW}",
+    "—"
+   ],
+   [
+    "3",
+    "{@spell Blistering Scales|WoW}",
+    "C"
+   ],
+   [
+    "3",
+    "{@spell Emerald Blossom|WoW}",
+    "C"
+   ],
+   [
+    "4",
+    "{@spell Breath of Eons|WoW}",
+    "C"
+   ],
+   [
+    "4",
+    "{@spell Emberstorm|WoW}",
+    "—"
+   ],
+   [
+    "4",
+    "{@spell Time Dilation|WoW}",
+    "—"
+   ],
+   [
+    "4",
+    "{@spell Upheaval|WoW}",
+    "—"
+   ],
+   [
+    "5",
+    "{@spell Dream Flight|WoW}",
+    "C"
+   ],
+   [
+    "5",
+    "{@spell Rescue|WoW}",
+    "—"
+   ],
+   [
+    "5",
+    "{@spell Shattering Star|WoW}",
+    "—"
+   ],
+   [
+    "6",
+    "{@spell Azure Sweep|WoW}",
+    "—"
+   ],
+   [
+    "7",
+    "{@spell Lay Waste|WoW}",
+    "—"
+   ]
+  ],
+  "name": "Evoker Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
   "caption": "Examples of Faction Ranks",
   "colLabels": [
    "Renown",
@@ -63136,6 +64683,61 @@
   }
  },
  {
+  "caption": "Feral Druid Spells",
+  "colLabels": [
+   "Spell Level",
+   "Spells"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "2",
+    "{@spell Feral Prowl|WoW}, {@spell Pass Without Trace|XPHB}, {@spell Summon Beast|XPHB}"
+   ],
+   [
+    "3",
+    "{@spell Call Lightning|XPHB}, {@spell Conjure Animals|XPHB}"
+   ],
+   [
+    "4",
+    "{@spell Dominate Beast|XPHB}, {@spell Freedom of Movement|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Commune with Nature|XPHB}, {@spell Innervate|WoW}"
+   ],
+   [
+    "6",
+    "{@spell Wind Walk|XPHB}"
+   ],
+   [
+    "7",
+    "{@spell Regenerate|XPHB}"
+   ],
+   [
+    "8",
+    "{@spell Animal Shapes|XPHB}"
+   ],
+   [
+    "9",
+    "{@spell Shapechange|XPHB}"
+   ]
+  ],
+  "name": "Feral Druid Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
   "caption": "Fernia Manifest Zone Features",
   "colLabels": [
    "d4",
@@ -64717,6 +66319,65 @@
     "1 {@creature fire giant dreadnought|MPMM} (attitude: {@dice 1d6}) on guard"
    ]
   ]
+ },
+ {
+  "caption": "Fire Mage Spells",
+  "colLabels": [
+   "Spell Level",
+   "Spells"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@spell Chromatic Orb|XPHB}, {@spell Comprehend Languages|XPHB}, {@spell Disguise Self|XPHB}, {@spell Find Familiar|XPHB}, {@spell Frost Nova|WoW}"
+   ],
+   [
+    "2",
+    "{@spell Dragon's Breath|XPHB}, {@spell Enhance Ability|XPHB}, {@spell Flaming Sphere|XPHB}, {@spell Invisibility|XPHB}, {@spell Mirror Image|XPHB}, {@spell Misty Step|XPHB}, {@spell Scorching Ray|XPHB}"
+   ],
+   [
+    "3",
+    "{@spell Counterspell|XPHB}, {@spell Create Food and Water|XPHB}, {@spell Dispel Magic|XPHB}, {@spell Fireball|XPHB}, {@spell Haste|XPHB}, {@spell Remove Curse|XPHB}, {@spell Slow|XPHB}, {@spell Tongues|XPHB}"
+   ],
+   [
+    "4",
+    "{@spell Conjure Minor Elementals|XPHB}, {@spell Fire Shield|XPHB}, {@spell Greater Invisibility|XPHB}, {@spell Polymorph|XPHB}, {@spell Wall of Fire|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Flame Strike|XPHB}, {@spell Teleportation Circle|XPHB}"
+   ],
+   [
+    "6",
+    "{@spell Arcane Gate|XPHB}, {@spell Combustion|WoW}, {@spell Heroes' Feast|XPHB}"
+   ],
+   [
+    "7",
+    "{@spell Delayed Blast Fireball|XPHB}, {@spell Mass Polymorph|WoW}, {@spell Prismatic Spray|XPHB}, {@spell Teleport|XPHB}"
+   ],
+   [
+    "8",
+    "{@spell Befuddlement|XPHB}, {@spell Incendiary Cloud|XPHB}, {@spell Maze|XPHB}"
+   ],
+   [
+    "9",
+    "{@spell Meteor Swarm|XPHB}, {@spell Prismatic Wall|XPHB}, {@spell Time Stop|XPHB}"
+   ]
+  ],
+  "name": "Fire Mage Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
  },
  {
   "caption": "Firearms",
@@ -69343,6 +71004,65 @@
   ]
  },
  {
+  "caption": "Frost Mage Spells",
+  "colLabels": [
+   "Spell Level",
+   "Spells"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@spell Chromatic Orb|XPHB}, {@spell Comprehend Languages|XPHB}, {@spell Disguise Self|XPHB}, {@spell Find Familiar|XPHB}"
+   ],
+   [
+    "2",
+    "{@spell Dragon's Breath|XPHB}, {@spell Enhance Ability|XPHB}, {@spell Invisibility|XPHB}, {@spell Mirror Image|XPHB}, {@spell Misty Step|XPHB}"
+   ],
+   [
+    "3",
+    "{@spell Counterspell|XPHB}, {@spell Create Food and Water|XPHB}, {@spell Dispel Magic|XPHB}, {@spell Flurry|WoW}, {@spell Haste|XPHB}, {@spell Remove Curse|XPHB}, {@spell Sleet Storm|XPHB}, {@spell Slow|XPHB}, {@spell Tongues|XPHB}"
+   ],
+   [
+    "4",
+    "{@spell Conjure Minor Elementals|XPHB}, {@spell Fire Shield|XPHB}, {@spell Greater Invisibility|XPHB}, {@spell Ice Storm|XPHB}, {@spell Polymorph|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Cone of Cold|XPHB}, {@spell Teleportation Circle|XPHB}"
+   ],
+   [
+    "6",
+    "{@spell Arcane Gate|XPHB}, {@spell Heroes' Feast|XPHB}, {@spell Otiluke's Freezing Sphere|XPHB}, {@spell Wall of Ice|XPHB}"
+   ],
+   [
+    "7",
+    "{@spell Mass Polymorph|WoW}, {@spell Prismatic Spray|XPHB}, {@spell Teleport|XPHB}"
+   ],
+   [
+    "8",
+    "{@spell Befuddlement|XPHB}, {@spell Maze|XPHB}"
+   ],
+   [
+    "9",
+    "{@spell Prismatic Wall|XPHB}, {@spell Time Stop|XPHB}"
+   ]
+  ],
+  "name": "Frost Mage Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
   "caption": "Fey Fruit Effects",
   "colLabels": [
    "d10",
@@ -69404,6 +71124,80 @@
     "identifier": 14
    },
    "index": 13
+  }
+ },
+ {
+  "colLabels": [
+   "Role",
+   "Stat Block"
+  ],
+  "colStyles": [
+   "col-4",
+   "col-8"
+  ],
+  "rows": [
+   [
+    "Ambusher",
+    "{@creature Bandit|XMM} (CR 1/8), {@creature Bandit Captain|XMM} (CR 2)"
+   ],
+   [
+    "Avenger",
+    "{@creature Berserker|XMM} (CR 2), {@creature Berserker Commander|XMM} (CR 8)"
+   ],
+   [
+    "Coastrunner",
+    "{@creature Tough|XMM} (CR 1/2)"
+   ],
+   [
+    "Defender or Den Watcher",
+    "{@creature Guard|XMM} (CR 1/8), {@creature Guard Captain|XMM} (CR 4)"
+   ],
+   [
+    "Hunter",
+    "{@creature Scout Captain|XMM} (CR 3)"
+   ],
+   [
+    "Lurker",
+    "{@creature Spy|XMM} (CR 1)"
+   ],
+   [
+    "Mystic",
+    "{@creature Druid|XMM} (CR 2)"
+   ],
+   [
+    "Pathfinder",
+    "{@creature Scout Captain|XMM} (CR 3)"
+   ],
+   [
+    "Raider",
+    "{@creature Berserker|XMM} (CR 2)"
+   ],
+   [
+    "Scout",
+    "{@creature Scout|XMM} (CR 1/2)"
+   ],
+   [
+    "Shaman",
+    "{@creature Druid|XMM} (CR 2), {@creature Elemental Cultist|XMM} (CR 8)"
+   ],
+   [
+    "Tracker",
+    "{@creature Scout|XMM} (CR 1/2)"
+   ],
+   [
+    "Warrior",
+    "{@creature Warrior Infantry|XMM} (CR 1/8), {@creature Warrior Veteran|XMM} (CR 3)"
+   ]
+  ],
+  "name": "Furbolgs, Murlocs, and Quilboar",
+  "source": "WoW",
+  "chapter": {
+   "name": "Bestiary of Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 7
+   },
+   "index": 7
   }
  },
  {
@@ -69766,6 +71560,75 @@
     "identifier": 4
    },
    "index": 9
+  }
+ },
+ {
+  "caption": "Gathering Professions",
+  "colLabelRows": [
+   [
+    "",
+    "",
+    {
+     "type": "cellHeader",
+     "style": "th-skewer",
+     "width": 2,
+     "entry": "Resource Value"
+    }
+   ],
+   [
+    "Region Levels",
+    "Gathering DC",
+    "Common",
+    "Rare"
+   ]
+  ],
+  "colStyles": [
+   "col-3 text-center",
+   "col-3 text-center",
+   "col-3 text-center",
+   "col-3 text-center"
+  ],
+  "rows": [
+   [
+    "1–4",
+    "10",
+    "10 GP",
+    "25 GP"
+   ],
+   [
+    "5–10",
+    "12",
+    "50 GP",
+    "100 GP"
+   ],
+   [
+    "11–16",
+    "15",
+    "250 GP",
+    "500 GP"
+   ],
+   [
+    "17–20",
+    "17",
+    "1,000 GP",
+    "2,500 GP"
+   ],
+   [
+    "Endgame",
+    "20",
+    "5,000 GP",
+    "7,500 GP"
+   ]
+  ],
+  "name": "Gathering Professions",
+  "source": "WoW",
+  "chapter": {
+   "name": "Professions and Gear",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 3
+   },
+   "index": 3
   }
  },
  {
@@ -77700,6 +79563,61 @@
   }
  },
  {
+  "caption": "Guardian Druid Spells",
+  "colLabels": [
+   "Spell Level",
+   "Spells"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "2",
+    "{@spell Aid|XPHB}, {@spell Barkskin|XPHB}, {@spell Roar of Ursoc|WoW}"
+   ],
+   [
+    "3",
+    "{@spell Aura of Vitality|XPHB}, {@spell Call Lightning|XPHB}"
+   ],
+   [
+    "4",
+    "{@spell Grasping Vine|XPHB}, {@spell Stoneskin|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Commune with Nature|XPHB}, {@spell Innervate|WoW}"
+   ],
+   [
+    "6",
+    "{@spell Wall of Thorns|XPHB}"
+   ],
+   [
+    "7",
+    "{@spell Regenerate|XPHB}"
+   ],
+   [
+    "8",
+    "{@spell Animal Shapes|XPHB}"
+   ],
+   [
+    "9",
+    "{@spell Shapechange|XPHB}"
+   ]
+  ],
+  "name": "Guardian Druid Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
   "colLabels": [
    "1d4",
    "Guest"
@@ -84480,6 +86398,108 @@
   }
  },
  {
+  "caption": "Holy Paladin Spells",
+  "colLabels": [
+   "Spell Level",
+   "Spells"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@spell Bless|XPHB}, {@spell Heroism|XPHB}, {@spell Searing Smite|XPHB}"
+   ],
+   [
+    "2",
+    "{@spell Aid|XPHB}, {@spell Warding Bond|XPHB}"
+   ],
+   [
+    "3",
+    "{@spell Crusader's Mantle|XPHB}, {@spell Revivify|XPHB}"
+   ],
+   [
+    "4",
+    "{@spell Aura of Purity|XPHB}, {@spell Divine Shield|WoW}"
+   ],
+   [
+    "5",
+    "{@spell Circle of Power|XPHB}, {@spell Raise Dead|XPHB}"
+   ]
+  ],
+  "name": "Holy Paladin Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
+  "caption": "Holy Priest Spells",
+  "colLabels": [
+   "Spell Level",
+   "Spells"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@spell Detect Evil and Good|XPHB}, {@spell Protection from Evil and Good|XPHB}, {@spell Shadow Word: Pain|WoW}"
+   ],
+   [
+    "2",
+    "{@spell Blur|XPHB}, {@spell Calm Emotions|XPHB}, {@spell Prayer of Healing|XPHB}, {@spell Protection from Poison|XPHB}"
+   ],
+   [
+    "3",
+    "{@spell Beacon of Hope|XPHB}, {@spell Daylight|XPHB}, {@spell Prayer of Mending|WoW}"
+   ],
+   [
+    "4",
+    "{@spell Aura of Purity|XPHB}, {@spell Guardian of Faith|XPHB}, {@spell Holy Nova|WoW}"
+   ],
+   [
+    "5",
+    "{@spell Commune|XPHB}, {@spell Dispel Evil and Good|XPHB}, {@spell Raise Dead|XPHB}"
+   ],
+   [
+    "6",
+    "{@spell Heal|XPHB}, {@spell Sunbeam|XPHB}"
+   ],
+   [
+    "7",
+    "{@spell Conjure Celestial|XPHB}, {@spell Regenerate|XPHB}"
+   ],
+   [
+    "8",
+    "{@spell Holy Aura|XPHB}"
+   ],
+   [
+    "9",
+    "{@spell Apotheosis|WoW}, {@spell Mass Heal|XPHB}"
+   ]
+  ],
+  "name": "Holy Priest Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
   "caption": "Holy Symbols",
   "srd52": true,
   "basicRules2024": true,
@@ -84560,6 +86580,147 @@
     "identifier": 3
    },
    "index": 3
+  }
+ },
+ {
+  "caption": "Horde Languages",
+  "colLabels": [
+   "{@dice 1d12}",
+   "Language",
+   "Origin"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
+  ],
+  "rows": [
+   [
+    "—",
+    "{@language Orcish|WoW}",
+    "Orcs"
+   ],
+   [
+    {
+     "type": "cell",
+     "roll": {
+      "exact": 1
+     }
+    },
+    "{@language Orcish Sign Language|WoW}",
+    "Orcs"
+   ],
+   [
+    {
+     "type": "cell",
+     "roll": {
+      "exact": 2
+     }
+    },
+    "{@language Draconic|WoW}",
+    "Dragons"
+   ],
+   [
+    {
+     "type": "cell",
+     "roll": {
+      "exact": 3
+     }
+    },
+    "{@language Goblin|WoW}",
+    "Goblins"
+   ],
+   [
+    {
+     "type": "cell",
+     "roll": {
+      "exact": 4
+     }
+    },
+    "{@language Forsaken|WoW}",
+    "Forsaken"
+   ],
+   [
+    {
+     "type": "cell",
+     "roll": {
+      "exact": 5
+     }
+    },
+    "{@language Hara'ni|WoW}",
+    "Haranir"
+   ],
+   [
+    {
+     "type": "cell",
+     "roll": {
+      "exact": 6
+     }
+    },
+    "{@language Pandaren|WoW}",
+    "Pandaren"
+   ],
+   [
+    {
+     "type": "cell",
+     "roll": {
+      "exact": 7
+     }
+    },
+    "{@language Shalassian|WoW}",
+    "Nightborne"
+   ],
+   [
+    {
+     "type": "cell",
+     "roll": {
+      "min": 8,
+      "max": 9
+     }
+    },
+    "{@language Taur-ahe|WoW}",
+    "Tauren"
+   ],
+   [
+    {
+     "type": "cell",
+     "roll": {
+      "exact": 10
+     }
+    },
+    "{@language Thalassian|WoW}",
+    "High Elves"
+   ],
+   [
+    {
+     "type": "cell",
+     "roll": {
+      "exact": 11
+     }
+    },
+    "{@language Vulpera|WoW}",
+    "Vulpera"
+   ],
+   [
+    {
+     "type": "cell",
+     "roll": {
+      "exact": 12
+     }
+    },
+    "{@language Zandali|WoW}",
+    "Trolls"
+   ]
+  ],
+  "name": "Horde Languages",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Origins",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 2
+   },
+   "index": 2
   }
  },
  {
@@ -93185,6 +95346,358 @@
   "source": "ERLW",
   "chapter": {
    "name": "Character Creation",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
+  "caption": "Pet Families",
+  "colLabels": [
+   "Family",
+   "Stat Block",
+   "Spec.",
+   "Mastery"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-2 text-center",
+   "col-2 text-center",
+   "col-2"
+  ],
+  "rows": [
+   [
+    "Basilisk",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "C",
+    "{@itemMastery Slow}"
+   ],
+   [
+    "Bat",
+    "{@creature Beast of the Sky|XPHB|Sky}",
+    "F",
+    "{@itemMastery Vex}"
+   ],
+   [
+    "Bear",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "T",
+    "{@itemMastery Push}"
+   ],
+   [
+    "Beetle",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "T",
+    "{@itemMastery Sap}"
+   ],
+   [
+    "Bird of Prey",
+    "{@creature Beast of the Sky|XPHB|Sky}",
+    "C",
+    "{@itemMastery Slow}"
+   ],
+   [
+    "Blood Beast* ({@creature stirge|XMM})",
+    "{@creature Beast of the Sky|XPHB|Sky}",
+    "T",
+    "{@itemMastery Slow}"
+   ],
+   [
+    "Boar",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "C",
+    "{@itemMastery Sap}"
+   ],
+   [
+    "Camel",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "C",
+    "{@itemMastery Push}"
+   ],
+   [
+    "Carrion Bird",
+    "{@creature Beast of the Sky|XPHB|Sky}",
+    "F",
+    "{@itemMastery Cleave}"
+   ],
+   [
+    "Cat",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "F",
+    "{@itemMastery Graze}"
+   ],
+   [
+    "Courser ({@creature Riding Horse|XMM|horses})",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "F",
+    "{@itemMastery Graze}"
+   ],
+   [
+    "Crab",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "T",
+    "{@itemMastery Slow}"
+   ],
+   [
+    "Crocolisk",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "F",
+    "{@itemMastery Slow}"
+   ],
+   [
+    "Direhorn* ({@creature triceratops|XMM})",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "T",
+    "{@itemMastery Cleave}"
+   ],
+   [
+    "Dolphin",
+    "{@creature Beast of the Sea|XPHB|Sea}",
+    "T",
+    "{@itemMastery Vex}"
+   ],
+   [
+    "Dragonhawk",
+    "{@creature Beast of the Sky|XPHB|Sky}",
+    "T",
+    "{@itemMastery Graze}"
+   ],
+   [
+    "Feathermane* ({@creature Griffon|XMM|gryphon})",
+    "{@creature Beast of the Sky|XPHB|Sky}",
+    "T",
+    "{@itemMastery Graze}"
+   ],
+   [
+    "Fox",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "C",
+    "{@itemMastery Graze}"
+   ],
+   [
+    "Frenzy ({@creature piranha|XMM}-like fish)",
+    "{@creature Beast of the Sea|XPHB|Sea}",
+    "F",
+    "{@itemMastery Cleave}"
+   ],
+   [
+    "Gorilla",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "F",
+    "{@itemMastery Push}"
+   ],
+   [
+    "Gruffhorn ({@creature Goat|XMM|goats})",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "C",
+    "{@itemMastery Push}"
+   ],
+   [
+    "Hopper ({@creature Frog|XMM|frogs}, toads)",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "T",
+    "{@itemMastery Graze}"
+   ],
+   [
+    "Hound",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "C",
+    "{@itemMastery Slow}"
+   ],
+   [
+    "Hydra",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "T",
+    "{@itemMastery Cleave}"
+   ],
+   [
+    "Hyena",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "C",
+    "{@itemMastery Cleave}"
+   ],
+   [
+    "Lizard",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "T",
+    "{@itemMastery Cleave}"
+   ],
+   [
+    "Mammoth",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "T",
+    "{@itemMastery Slow}"
+   ],
+   [
+    "Mechanized animal*",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "C",
+    "{@itemMastery Sap}"
+   ],
+   [
+    "Monkey",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "C",
+    "{@itemMastery Graze}"
+   ],
+   [
+    "Moth",
+    "{@creature Beast of the Sky|XPHB|Sky}",
+    "C",
+    "{@itemMastery Vex}"
+   ],
+   [
+    "Oxen",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "T",
+    "{@itemMastery Push}"
+   ],
+   [
+    "Raptor ({@creature allosaurus|XMM})",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "C",
+    "{@itemMastery Cleave}"
+   ],
+   [
+    "Ray",
+    "{@creature Beast of the Sky|XPHB|Sky}",
+    "F",
+    "{@itemMastery Vex}"
+   ],
+   [
+    "Riverbeast ({@creature Hippopotamus|XMM|hippo})",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "T",
+    "{@itemMastery Cleave}"
+   ],
+   [
+    "Rodent",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "C",
+    "{@itemMastery Cleave}"
+   ],
+   [
+    "Scalehide ({@creature ankylosaurus|XMM})",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "F",
+    "{@itemMastery Sap}"
+   ],
+   [
+    "Scorpid",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "F",
+    "{@itemMastery Cleave}"
+   ],
+   [
+    "Serpent",
+    "{@creature Beast of the Land|XPHB|Land} or {@creature Beast of the Sea|XPHB|Sea}",
+    "C",
+    "{@itemMastery Graze}"
+   ],
+   [
+    "Shark",
+    "{@creature Beast of the Sea|XPHB|Sea}",
+    "C",
+    "{@itemMastery Graze}"
+   ],
+   [
+    "Spider",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "F",
+    "{@itemMastery Slow}"
+   ],
+   [
+    "Stag",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "T",
+    "{@itemMastery Vex}"
+   ],
+   [
+    "Tallstrider (flightless bird)",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "F",
+    "{@itemMastery Slow}"
+   ],
+   [
+    "Threshadon* ({@creature Plesiosaurus|XMM|plesiosaur})",
+    "{@creature Beast of the Sea|XPHB|Sea}",
+    "T",
+    "{@itemMastery Sap}"
+   ],
+   [
+    "Turtle",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "T",
+    "{@itemMastery Sap}"
+   ],
+   [
+    "Wasp",
+    "{@creature Beast of the Sky|XPHB|Sky}",
+    "F",
+    "{@itemMastery Cleave}"
+   ],
+   [
+    "Waterfowl",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "T",
+    "{@itemMastery Vex}"
+   ],
+   [
+    "Wolf",
+    "{@creature Beast of the Land|XPHB|Land}",
+    "F",
+    "{@itemMastery Slow}"
+   ]
+  ],
+  "footnotes": [
+   "*Unusual pet family; a hunter must acquire a special ability (typically by reading a magical tome) to tame an unusual pet."
+  ],
+  "name": "Hunter Pets; Pet Families",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
+  "caption": "Hunter Spells",
+  "colLabels": [
+   "Level",
+   "Spell",
+   "Special"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@spell Freezing Trap|WoW}",
+    "C"
+   ],
+   [
+    "3",
+    "{@spell Serpent Sting|WoW}",
+    "—"
+   ],
+   [
+    "5",
+    "{@spell Explosive Trap|WoW}",
+    "C"
+   ]
+  ],
+  "name": "Hunter Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
    "ordinal": {
     "type": "chapter",
     "identifier": 1
@@ -102747,6 +105260,66 @@
   }
  },
  {
+  "caption": "Mage Spells",
+  "colLabels": [
+   "Level",
+   "Spell",
+   "Special"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@spell Frost Nova|WoW}*",
+    "—"
+   ],
+   [
+    "3",
+    "{@spell Create Food and Water|XPHB}",
+    "—"
+   ],
+   [
+    "3",
+    "{@spell Flurry|WoW}*",
+    "—"
+   ],
+   [
+    "5",
+    "{@spell Flame Strike|XPHB}",
+    "—"
+   ],
+   [
+    "6",
+    "{@spell Combustion|WoW}*",
+    "—"
+   ],
+   [
+    "6",
+    "{@spell Heroes' Feast|XPHB}",
+    "M"
+   ],
+   [
+    "9",
+    "{@spell Mass Polymorph|WoW}*",
+    "C"
+   ]
+  ],
+  "name": "Mage Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
   "caption": "Magic Item Categories",
   "srd52": true,
   "colLabels": [
@@ -107938,6 +110511,49 @@
     "identifier": 3
    },
    "index": 2
+  }
+ },
+ {
+  "caption": "Marksmanship Hunter Spells",
+  "colLabels": [
+   "Spell Level",
+   "Spells"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@spell Freezing Trap|WoW}"
+   ],
+   [
+    "2",
+    "{@spell Cordon of Arrows|XPHB}, {@spell Magic Weapon|XPHB}"
+   ],
+   [
+    "3",
+    "{@spell Conjure Barrage|XPHB}, {@spell Lightning Arrow|XPHB}, {@spell Serpent Sting|WoW}"
+   ],
+   [
+    "4",
+    "{@spell Conjure Woodland Beings|XPHB}, {@spell Grasping Vine|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Conjure Volley|XPHB}, {@spell Swift Quiver|XPHB}"
+   ]
+  ],
+  "name": "Marksmanship Hunter Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
   }
  },
  {
@@ -119503,6 +122119,96 @@
   }
  },
  {
+  "caption": "Onyxia's Lair Art Objects",
+  "colLabels": [
+   "2d6",
+   "Art Object"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "2–8",
+    "Draenethyst crystal brooch (1,000 GP)"
+   ],
+   [
+    "9–11",
+    "Thorium crown of Thaurissan (2,500 GP)"
+   ],
+   [
+    "12",
+    "Prototype Drakefire Amulet (5,000 GP)"
+   ]
+  ],
+  "name": "Onyxia's Lair Art Objects",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
+  }
+ },
+ {
+  "caption": "Onyxia's Lair Magic Items",
+  "colLabels": [
+   "1d8",
+   "Magic Item"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@item Rod of Resurrection|XDMG} stolen by black dragons from the Sons of Lothar on Outland"
+   ],
+   [
+    "2",
+    "Wildhammer dwarf bard Russell Brower's {@item Instrument of the Bards, Ollamh Harp|XDMG|Instrument of the Bards (Ollamh harp)}"
+   ],
+   [
+    "3",
+    "{@item Ioun Stone, Mastery|XDMG|Ioun Stone (mastery)}"
+   ],
+   [
+    "4",
+    "Dalaran-styled {@item Robe of the Archmagi|XDMG}"
+   ],
+   [
+    "5",
+    "{@item Moonblade|XDMG} known as Quel'Serrar"
+   ],
+   [
+    "6",
+    "{@item Cloak of Invisibility|XDMG} made of Nerubian silk"
+   ],
+   [
+    "7",
+    "Vrykul {@item Belt of Cloud Giant Strength|XDMG|Belt of Giant Strength (cloud)}"
+   ],
+   [
+    "8",
+    "{@item Judgment Armor|WoW}"
+   ]
+  ],
+  "name": "Onyxia's Lair Magic Items",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
+  }
+ },
+ {
   "name": "Open Water Encounters (Levels 1—4)",
   "type": "table",
   "source": "GoS",
@@ -122241,6 +124947,46 @@
   "source": "GGR",
   "chapter": {
    "name": "Character Creation",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
+  "caption": "Paladin Spells",
+  "colLabels": [
+   "Level",
+   "Spell",
+   "Special"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
+  ],
+  "rows": [
+   [
+    "2",
+    "{@spell Consecration|WoW}",
+    "C"
+   ],
+   [
+    "3",
+    "{@spell Guided Prayer|WoW}",
+    "—"
+   ],
+   [
+    "4",
+    "{@spell Divine Shield|WoW}",
+    "—"
+   ]
+  ],
+  "name": "Paladin Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
    "ordinal": {
     "type": "chapter",
     "identifier": 1
@@ -126659,6 +129405,57 @@
   }
  },
  {
+  "caption": "Preservation Evoker Spells",
+  "colLabels": [
+   "Spell Level",
+   "Spells"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "3",
+    "{@spell Dispel Magic|XPHB}, {@spell Haste|XPHB}, {@spell Lightning Bolt|XPHB}"
+   ],
+   [
+    "4",
+    "{@spell Polymorph|XPHB}, {@spell Vitriolic Sphere|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Cloudkill|XPHB}, {@spell Hold Monster|XPHB}, {@spell Rescue|WoW}"
+   ],
+   [
+    "6",
+    "{@spell Globe of Invulnerability|XPHB}"
+   ],
+   [
+    "7",
+    "{@spell Prismatic Spray|XPHB}"
+   ],
+   [
+    "8",
+    "{@spell Dominate Monster|XPHB}"
+   ],
+   [
+    "9",
+    "{@spell Time Stop|XPHB}"
+   ]
+  ],
+  "name": "Preservation Evoker Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
   "caption": "Fey Desires for Greater Contracts",
   "colLabels": [
    "d8",
@@ -126824,6 +129621,96 @@
     "identifier": 2
    },
    "index": 2
+  }
+ },
+ {
+  "caption": "Priest Spells",
+  "colLabels": [
+   "Level",
+   "Spell",
+   "Special"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
+  ],
+  "rows": [
+   [
+    "Cantrip",
+    "{@spell Mind Sliver|XPHB}",
+    "—"
+   ],
+   [
+    "1",
+    "{@spell Shadow Word: Pain|WoW} *",
+    "—"
+   ],
+   [
+    "2",
+    "{@spell Blur|XPHB}",
+    "C"
+   ],
+   [
+    "2",
+    "{@spell Levitate|XPHB}",
+    "C"
+   ],
+   [
+    "3",
+    "{@spell Haste|XPHB}",
+    "C"
+   ],
+   [
+    "3",
+    "{@spell Prayer of Mending|WoW} *",
+    "—"
+   ],
+   [
+    "3",
+    "{@spell Summon Undead|XPHB}",
+    "C, M"
+   ],
+   [
+    "4",
+    "{@spell Holy Nova|WoW} *",
+    "—"
+   ],
+   [
+    "4",
+    "{@spell Psychic Horror|WoW} *",
+    "—"
+   ],
+   [
+    "5",
+    "{@spell Dominate Person|XPHB}",
+    "C"
+   ],
+   [
+    "5",
+    "{@spell Void Eruption|WoW} *",
+    "C"
+   ],
+   [
+    "8",
+    "{@spell Dominate Monster|XPHB}",
+    "C"
+   ],
+   [
+    "9",
+    "{@spell Apotheosis|WoW} *",
+    "—"
+   ]
+  ],
+  "name": "Priest Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
   }
  },
  {
@@ -127393,6 +130280,56 @@
   }
  },
  {
+  "caption": "Profession Levels",
+  "colLabels": [
+   "Proficiency Bonus",
+   "Proficiency Level",
+   "Magic Item Crafting"
+  ],
+  "colStyles": [
+   "col-4 text-center",
+   "col-4",
+   "col-4"
+  ],
+  "rows": [
+   [
+    "+2",
+    "Apprentice",
+    "Common"
+   ],
+   [
+    "+3",
+    "Journeyman",
+    "Uncommon"
+   ],
+   [
+    "+4",
+    "Expert",
+    "Rare"
+   ],
+   [
+    "+5",
+    "Artisan",
+    "Very Rare"
+   ],
+   [
+    "+6",
+    "Master",
+    "Legendary"
+   ]
+  ],
+  "name": "Proficiency Levels; Profession Levels",
+  "source": "WoW",
+  "chapter": {
+   "name": "Professions and Gear",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 3
+   },
+   "index": 3
+  }
+ },
+ {
   "page": 141,
   "colLabels": [
    "Secondary Casters",
@@ -127816,6 +130753,49 @@
     "identifier": 4
    },
    "index": 4
+  }
+ },
+ {
+  "caption": "Protection Paladin Spells",
+  "colLabels": [
+   "Spell Level",
+   "Spells"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@spell Heroism|XPHB}, {@spell Shield of Faith|XPHB}"
+   ],
+   [
+    "2",
+    "{@spell Shining Smite|XPHB}, {@spell Warding Bond|XPHB}"
+   ],
+   [
+    "3",
+    "{@spell Crusader's Mantle|XPHB}, {@spell Guided Prayer|WoW}"
+   ],
+   [
+    "4",
+    "{@spell Banishment|XPHB}, {@spell Divine Shield|WoW}"
+   ],
+   [
+    "5",
+    "{@spell Banishing Smite|XPHB}, {@spell Circle of Power|XPHB}"
+   ]
+  ],
+  "name": "Protection Paladin Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
   }
  },
  {
@@ -132684,6 +135664,89 @@
   }
  },
  {
+  "caption": "Rare Languages",
+  "colLabels": [
+   "Language",
+   "Origin"
+  ],
+  "colStyles": [
+   "col-6",
+   "col-6"
+  ],
+  "rows": [
+   [
+    "{@language Cyphers of the First Ones|WoW}",
+    "First Ones"
+   ],
+   [
+    "{@language Druidic|WoW}",
+    "Druidic circles"
+   ],
+   [
+    "{@language Eredun|WoW}",
+    "Demons of the Burning Legion"
+   ],
+   [
+    "{@language Furbolg|WoW}",
+    "Furbolgs"
+   ],
+   [
+    "{@language Kalimag|WoW}",
+    "Elementals"
+   ],
+   [
+    "{@language Nathrezim|WoW}",
+    "Nathrezim"
+   ],
+   [
+    "{@language Nazja|WoW}",
+    "Naga"
+   ],
+   [
+    "{@language Nerglish|WoW}",
+    "Murlocs"
+   ],
+   [
+    "{@language Nerubian|WoW}",
+    "Nerubians"
+   ],
+   [
+    "{@language Ogre|WoW}",
+    "Ogres"
+   ],
+   [
+    "{@language Qiraji|WoW}",
+    "Qiraji"
+   ],
+   [
+    "{@language Shath'Yar|WoW}",
+    "Old Gods"
+   ],
+   [
+    "{@language Thieves' Cant|WoW}",
+    "Various criminal guilds"
+   ],
+   [
+    "{@language Titan|WoW}",
+    "Titans"
+   ],
+   [
+    "{@language Vrykul|WoW}",
+    "Vrykul"
+   ]
+  ],
+  "name": "Rare Languages",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Origins",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 2
+   },
+   "index": 2
+  }
+ },
+ {
   "caption": "Rat's Run Plots",
   "colLabels": [
    "1d4",
@@ -135450,6 +138513,104 @@
   }
  },
  {
+  "caption": "Restoration Druid Spells",
+  "colLabels": [
+   "Spell Level",
+   "Spells"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "2",
+    "{@spell Aid|XPHB}, {@spell Lesser Restoration|XPHB}, {@spell Protection from Poison|XPHB}"
+   ],
+   [
+    "3",
+    "{@spell Aura of Vitality|XPHB}, {@spell Regrowth|WoW}, {@spell Revivify|XPHB}"
+   ],
+   [
+    "4",
+    "{@spell Divination|XPHB}, {@spell Freedom of Movement|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Greater Restoration|XPHB}, {@spell Mass Cure Wounds|XPHB}"
+   ],
+   [
+    "6",
+    "{@spell Heal|XPHB}, {@spell Tranquility|WoW}"
+   ],
+   [
+    "7",
+    "{@spell Regenerate|XPHB}"
+   ],
+   [
+    "8",
+    "{@spell Tree of Life|WoW}"
+   ],
+   [
+    "9",
+    "{@spell Foresight|XPHB}"
+   ]
+  ],
+  "name": "Restoration Druid Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
+  "caption": "Retribution Paladin Spells",
+  "colLabels": [
+   "Spell Level",
+   "Spells"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@spell Divine Favor|XPHB}, {@spell Thunderous Smite|XPHB}"
+   ],
+   [
+    "2",
+    "{@spell Consecration|WoW}, {@spell Shining Smite|XPHB}"
+   ],
+   [
+    "3",
+    "{@spell Crusader's Mantle|XPHB}, {@spell Elemental Weapon|XPHB}"
+   ],
+   [
+    "4",
+    "{@spell Staggering Smite|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Destructive Wave|XPHB}"
+   ]
+  ],
+  "name": "Retribution Paladin Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
   "colLabels": [
    "Experience Points",
    "Level",
@@ -137756,6 +140917,352 @@
   }
  },
  {
+  "caption": "Armory Encounters (Tier 3)",
+  "colLabels": [
+   "1d4",
+   "Encounter"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "Two {@creature Mage|XMM|Mages} with two {@creature Fire Elemental|XMM} bodyguards"
+   ],
+   [
+    "2",
+    "An {@creature Elemental Cultist|XMM} disciplining {@dice 1d4 + 1} {@creature Scout Captain|XMM|Scout Captains} for their poor aim"
+   ],
+   [
+    "3",
+    "{@creature Berserker Commander|XMM} brutally sparring with a fearful and {@status Bloodied|XPHB} {@creature Knight|XMM}† before a crowd of {@dice 1d6 + 6} {@creature Warrior Infantry|XMM}"
+   ],
+   [
+    "4",
+    "Reckless {@creature Mage|XMM} and {@dice 1d4 + 4} pyromaniac {@creature Knight|XMM|Knights}† eager to defend her"
+   ]
+  ],
+  "name": "Sample Encounters; Armory Encounters (Tier 3)",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
+  }
+ },
+ {
+  "caption": "Capital Gardens Encounters",
+  "colLabels": [
+   "1d4",
+   "Encounter"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "An ancient equine spirit is held captive within a {@creature Violet Fungus Necrohulk|XMM} made of elf corpses. If saved, it bestows a {@reward Charm of Heroism|XDMG} on each of the characters."
+   ],
+   [
+    "2",
+    "Two {@creature Graveyard Revenant|XMM|Graveyard Revenants} and three {@creature Wraith|XMM|Wraiths} vent their rage on intruders."
+   ],
+   [
+    "3",
+    "Four arcane elementals (see \"{@area Immol'thar|483|x}\") are incinerating a nosy {@creature Gladiator|XMM}."
+   ],
+   [
+    "4",
+    "A bored Shen'dralar {@creature Cultist Hierophant|XMM} and her arcane golem ({@creature Shield Guardian|XMM}) take potshots at the shambling skeletons of her kin."
+   ]
+  ],
+  "name": "Sample Encounters; Capital Gardens Encounters",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
+  }
+ },
+ {
+  "caption": "Cathedral Encounters (Tier 3)",
+  "colLabels": [
+   "1d4",
+   "Result"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "An {@creature Archpriest|XMM} and an {@creature Elemental Cultist|XMM} preparing to burn innocent civilians at the stake, cheered on by {@dice 1d10 + 10} {@creature Warrior Infantry|XMM}"
+   ],
+   [
+    "2",
+    "Two {@creature Death Knight Aspirant|XMM|Death Knight Aspirants} brought to the chapel for execution who have broken free and are surrounded by the crusaders they slew (risen as {@dice 2d10} {@creature Ghoul|XMM|Ghouls}) and two {@creature Priest|XMM|Priests} begging for help"
+   ],
+   [
+    "3",
+    "An {@creature Archmage|XMM} directing {@dice 1d6 + 4} {@creature Scout Captain|XMM|Scout Captains} to fire on intruders as {@dice 1d4 + 4} {@creature Gladiator|XMM|Gladiators} move to intercept them"
+   ],
+   [
+    "4",
+    "An {@creature Archpriest|XMM}, guarded by three {@creature Warrior Veteran|XMM|Warrior Veterans},* praying over six dead crusaders"
+   ]
+  ],
+  "footnotes": [
+   "*Can cast {@spell Hold Person|XPHB} ({@dc 13}) once"
+  ],
+  "name": "Sample Encounters; Cathedral Encounters (Tier 3)",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
+  }
+ },
+ {
+  "caption": "Gordok Commons Encounters",
+  "colLabels": [
+   "1d4",
+   "Encounter"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "Stomper Kreeg has returned victorious from the Maul and is reveling. He has the {@condition Poisoned|XPHB} condition, and his party of {@dice 1d12} drunken {@creature Ogre|XMM|Ogres} have the {@condition Incapacitated|XPHB} condition, but their {@dice 2d8} {@creature Hyena|XMM|Hyenas} and two {@creature Dire Worg|XMM|Dire Worgs} are alert and begging for scraps."
+   ],
+   [
+    "2",
+    "Four two-headed ogre mages ({@creature Oni|XMM}) are bullying another two-headed ogre ({@creature Ettin|XMM}) that can't use magic."
+   ],
+   [
+    "3",
+    "An ogre guard (see \"{@area Captain Kromcrush and His Guards|488|x}\") has taken four human {@creature Gladiator|XMM|Gladiators} alive as a prize from the Maul and plans to boil and eat them. The captured warriors are in chains and have the {@condition Restrained|XPHB} condition."
+   ],
+   [
+    "4",
+    "An Eye of Kilrogg (a visible, green sensor otherwise like that created by the {@spell Arcane Eye|XPHB} spell, with a Passive Perception of 20) drifts by. If it spots the characters, it summons two {@creature Doomguard|WoW}, then vanishes."
+   ]
+  ],
+  "name": "Sample Encounters; Gordok Commons Encounters",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
+  }
+ },
+ {
+  "caption": "Graveyard Encounters (Tier 2)",
+  "colLabels": [
+   "1d6",
+   "Encounter"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1–2",
+    "A {@creature Ghast Gravecaller|XMM} and two {@creature Wraith|XMM|Wraiths} devouring a torture victim"
+   ],
+   [
+    "3–4",
+    "A {@creature Graveyard Revenant|XMM} and {@dice 1d4 + 1} {@creature Specter|XMM|Specters}"
+   ],
+   [
+    "5–6",
+    "{@dice 1d4 + 2} {@creature Flaming Skeleton|XMM|Flaming Skeletons} from a body pile"
+   ]
+  ],
+  "name": "Sample Encounters; Graveyard Encounters (Tier 2)",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
+  }
+ },
+ {
+  "caption": "Ironclad Cove Encounters",
+  "colLabels": [
+   "1d4",
+   "Encounter"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@dice 1d4 + 2} {@creature Bandit|XMM|Bandits} arguing with two {@creature Pirate|XMM|Pirates}"
+   ],
+   [
+    "2",
+    "An {@creature Ogre|XMM} shouting orders as {@dice 1d6 + 3} {@creature Goblin Minion|XMM|Goblin Minions} struggle to hoist a cannon"
+   ],
+   [
+    "3",
+    "Three {@creature Murloc Forager|WoW|Murloc Foragers} looking for food"
+   ],
+   [
+    "4",
+    "{@dice 1d4} parrots ({@creature Blood Hawk|XMM|Blood Hawks}) looking for intruders; if the characters aren't disguised or hidden, {@dice 1d4} {@creature Pirate|XMM|Pirates} soon arrive to investigate"
+   ]
+  ],
+  "name": "Sample Encounters; Ironclad Cove Encounters",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
+  }
+ },
+ {
+  "caption": "Library Encounters (Tier 2)",
+  "colLabels": [
+   "1d6",
+   "Encounter"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1–2",
+    "Twelve studious {@creature Priest Acolyte|XMM|Priest Acolytes} guarded by two {@creature Warrior Veteran|XMM|Warrior Veterans}* and a {@creature Mage|XMM}"
+   ],
+   [
+    "3–4",
+    "Three {@creature Mage|XMM|Mages} bullying a paladin ({@creature Knight|XMM}†) who struggles to perform holy magic"
+   ],
+   [
+    "5–6",
+    "An {@creature Elemental Cultist|XMM} purifying a relic from the {@area Plaguelands|36a|x} with {@dice 1d6} {@creature Priest|XMM|Priests}"
+   ]
+  ],
+  "name": "Sample Encounters; Library Encounters (Tier 2)",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
+  }
+ },
+ {
+  "caption": "Mine Tunnels Encounters",
+  "colLabels": [
+   "1d4",
+   "Encounter"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@dice 1d4} {@creature Ghoul|XMM|Ghouls} and a dwarf {@creature Wight|XMM} (Eugene Thistlenettle; see \"{@area Collapsed Passage|442|x}\") chasing {@dice 1d4} Defias Bandits"
+   ],
+   [
+    "2",
+    "A chain gang of {@dice 2d6} Stormwind {@creature Warrior Infantry|XMM} brawling with two Defias {@creature Mage Apprentice|XMM|Mage Apprentices}"
+   ],
+   [
+    "3",
+    "{@dice 1d6} Defias {@creature Bandit|XMM|Bandits} tormenting captive Stormwind {@creature Commoner|XMM|Commoners} whom they've forced to serve them cocktails while they work"
+   ],
+   [
+    "4",
+    "Three prototype Foe Reapers ({@creature Animated Armor|XMM}) chasing {@dice 1d6} {@creature Goblin Minion|XMM|Goblin Minions}"
+   ]
+  ],
+  "name": "Sample Encounters; Mine Tunnels Encounters",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
+  }
+ },
+ {
+  "caption": "Warpwood Quarter Encounters",
+  "colLabels": [
+   "1d4",
+   "Encounter"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "Two {@creature Treant|XMM|Treants} oozing fel sap defend the gardens from invaders, despite being corrupted."
+   ],
+   [
+    "2",
+    "A cult of {@dice 2d4} {@creature Felsworn Satyr|WoW|Felsworn Satyrs} perform blood sacrifices while {@dice 2d6} {@creature Shadowstalker Satyr|WoW|Shadowstalker Satyrs} keep watch from afar."
+   ],
+   [
+    "3",
+    "Two {@creature Felguard|WoW|Felguards} and two {@creature Felhound|WoW|Felhounds} hunt a {@creature Mage|XMM} from the Maul."
+   ],
+   [
+    "4",
+    "A horde of {@dice 3d12} lashers ({@creature Vine Blight|XMM|Vine Blights}) try to immobilize the characters so a corrupted {@creature Ancient of War|WoW} can kill them."
+   ]
+  ],
+  "name": "Sample Encounters; Warpwood Quarter Encounters",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
+  }
+ },
+ {
   "caption": "Sample Mental Stress Effects",
   "srd52": true,
   "colLabels": [
@@ -138076,6 +141583,112 @@
   "chapter": {
    "name": "Introduction",
    "index": 0
+  }
+ },
+ {
+  "caption": "Scarlet Monastery Adventure Hooks",
+  "colLabels": [
+   "1d6",
+   "Adventure Hook"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "The leaders of the Argent Dawn ask the characters to claiming the Scarlet Commander's head. (Renown: +2 with the {@area Argent Dawn|2f3|x})"
+   ],
+   [
+    "2",
+    "Another group of adventurers tried to storm the cathedral, but they were captured. A mutual friend asks the characters to save them from the {@area Chamber of Atonement|49e|x}."
+   ],
+   [
+    "3",
+    "Sages of Thunder Bluff mistrust the Forsaken and want to turn the tauren chieftain against them. They ask adventurers to retrieve the Compendium of the Fallen, a book of the Crusade's research on undead schemes, from the Athenaeum. (Renown: +1 with {@area Thunder Bluff|2e9|x})"
+   ],
+   [
+    "4",
+    "{@creature Scarlet Commander Mograine|WoW|Mograine} and {@creature High Inquisitor Sally Whitemane|WoW|High Inquisitor Whitemane} have left the monastery on a mission. The Argent Dawn asks the characters to infiltrate the cathedral and steal intelligence on their next campaign. (Renown: +2 with the {@area Argent Dawn|2f3|x})"
+   ],
+   [
+    "5",
+    "{@creature Scarlet Champion Herod|WoW|Herod}, a crusader who trains recruits, never takes off his helmet. A faction commander instructs the characters to kill Herod quietly and replace him with a spy. (Renown: +2 with one {@area Alliance|29b|x} or {@area Horde|2ca|x} subfaction)"
+   ],
+   [
+    "6",
+    "An Argent Dawn priest who seeks information about the sword {@item Ashbringer|WoW} known only by Fairbanks, the first High Inquisitor, asks the characters to find and interrogate his corpse. (Renown: +1 with the {@area Argent Dawn|2f3|x})"
+   ]
+  ],
+  "name": "Scarlet Monastery Adventure Hooks",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
+  }
+ },
+ {
+  "caption": "Scarlet Monastery Treasure",
+  "colLabels": [
+   "2d6 or 4d6",
+   "Treasure"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "2–10",
+    "Ceremonial weaponry worth 200 GP"
+   ],
+   [
+    "11–16",
+    "{@item +2 Weapon|XDMG} or 20 pieces of {@item +2 Ammunition|XDMG}"
+   ],
+   [
+    "17–18",
+    "{@item +2 Armor|XDMG} with the Crusade's fiery heraldry"
+   ],
+   [
+    "19",
+    "Thalnos: {@item Tome of Clear Thought|XDMG}"
+   ],
+   [
+    "20",
+    "Loksey: {@item Pipes of the Sewers|XDMG} (whistle that affects dogs instead of rats, and summons a {@creature Mastiff|XMM} instead of a {@creature Swarm of Rats|XMM})"
+   ],
+   [
+    "21",
+    "Doan: {@item Vithrak, Gaze of the Deadman|WoW}"
+   ],
+   [
+    "22",
+    "Herod: {@item Executioner's Axe|XDMG}"
+   ],
+   [
+    "23",
+    "Mograine: {@item Mace of Disruption|XDMG}"
+   ],
+   [
+    "24",
+    "Whitemane: Cloth miter {@item Helm of Brilliance|XDMG} that marks the Crusade's High Inquisitor"
+   ]
+  ],
+  "name": "Scarlet Monastery Treasure",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
   }
  },
  {
@@ -142638,6 +146251,218 @@
     "identifier": 5
    },
    "index": 5
+  }
+ },
+ {
+  "caption": "Shadow Priest Spells",
+  "colLabels": [
+   "Spell Level",
+   "Spells"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@spell Detect Poison and Disease|XPHB}"
+   ],
+   [
+    "2",
+    "{@spell Blindness/Deafness|XPHB}, {@spell Blur|XPHB}, {@spell Hold Person|XPHB}, {@spell Silence|XPHB}"
+   ],
+   [
+    "3",
+    "{@spell Bestow Curse|XPHB}, {@spell Dispel Magic|XPHB}, {@spell Speak with Dead|XPHB}"
+   ],
+   [
+    "4",
+    "{@spell Banishment|XPHB}, {@spell Freedom of Movement|XPHB}, {@spell Locate Creature|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Contagion|XPHB}, {@spell Geas|XPHB}, {@spell Insect Plague|XPHB}"
+   ],
+   [
+    "6",
+    "{@spell Create Undead|XPHB}, {@spell Harm|XPHB}"
+   ],
+   [
+    "7",
+    "{@spell Etherealness|XPHB}, {@spell Plane Shift|XPHB}"
+   ],
+   [
+    "8",
+    "{@spell Antimagic Field|XPHB}"
+   ],
+   [
+    "9",
+    "{@spell Astral Projection|XPHB}"
+   ]
+  ],
+  "name": "Shadow Priest Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
+  "caption": "Shadowfang Keep Adventure Hooks",
+  "colLabels": [
+   "1d6",
+   "Adventure Hook"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "A faction commander recruits the characters to retake Shadowfang Keep from {@creature Lord Godfrey|WoW}. (Renown: +1 with one {@area Alliance|29b|x} or {@area Horde|2ca|x} subfaction)"
+   ],
+   [
+    "2",
+    "The characters decide to claim Shadowfang Keep for themselves and use it as a {@book Bastion|XDMG|10}."
+   ],
+   [
+    "3",
+    "A patron in the Kirin Tor seeks The Book of Ur, which contains secrets of the worgen curse and is rumored to be in Shadowfang Keep's library. (Renown: +1 with the {@area Kirin Tor|30e|x})"
+   ],
+   [
+    "4",
+    "The characters have claimed the keep and must defend it until reinforcements arrive."
+   ],
+   [
+    "5",
+    "A faction leader wants adventurers to liberate a prisoner of war held in Shadowfang Keep: either the Forsaken Deathstalker Adamant (Medium {@creature Spy|XMM}) or the human Ashcrombe (Medium {@creature Mage Apprentice|XMM}). (Renown: +1 with one {@area Alliance|29b|x} or {@area Horde|2ca|x} subfaction)"
+   ],
+   [
+    "6",
+    "The Alliance or the Horde has conquered Shadowfang Keep; a faction commander asks adventurers to reclaim the keep. (Renown: +1 with one {@area Alliance|29b|x} or {@area Horde|2ca|x} subfaction)"
+   ]
+  ],
+  "name": "Shadowfang Keep Adventure Hooks",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
+  }
+ },
+ {
+  "caption": "Shadowfang Keep Encounters",
+  "colLabels": [
+   "1d6",
+   "Encounter"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@dice 2d6} {@creature Skeleton|XMM|Skeletons} ({@dice 1d6} have only {@item Shortsword|XPHB|Shortswords} and {@dice 1d6} have only {@item Shortbow|XPHB|Shortbows})"
+   ],
+   [
+    "2",
+    "{@dice 1d3} {@creature Pustulant Monstrosity|WoW|Pustulant Monstrosities}"
+   ],
+   [
+    "3",
+    "{@creature Pustulant Monstrosity|WoW} and {@dice 1d4} {@creature Springvale's Specter|WoW|Springvale's Specters}"
+   ],
+   [
+    "4",
+    "{@dice 1d6} {@creature Springvale's Specter|WoW|Springvale's Specters}"
+   ],
+   [
+    "5",
+    "Roll on this table again, and two {@creature Gargoyle|XMM|Gargoyles} join the combat at the start of round 2."
+   ],
+   [
+    "6",
+    "Roll on this table again, and add two skeleton {@creature Knight|XMM|Knights} with the Undead type to that combat."
+   ]
+  ],
+  "name": "Shadowfang Keep Encounters",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
+  }
+ },
+ {
+  "caption": "Shadowfang Keep Treasure",
+  "colLabels": [
+   "2d6 or 4d6",
+   "Treasure"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "2–10",
+    "{@dice 3d10} silver bars worth 10 GP each"
+   ],
+   [
+    "11–12",
+    "{@item Shadowfang|WoW}"
+   ],
+   [
+    "13–16",
+    "{@item +1 Weapon|XDMG} or 20 pieces of {@item +1 Ammunition|XDMG}"
+   ],
+   [
+    "17–19",
+    "{@item +1 Armor|XDMG}"
+   ],
+   [
+    "20",
+    "Baron Ashbury: {@item Robe of Eyes|XDMG}"
+   ],
+   [
+    "21",
+    "Baron Silverlaine: {@item Gloves of Thievery|XDMG}"
+   ],
+   [
+    "22",
+    "Commander Springvale: {@item Lantern of Revealing|XDMG}"
+   ],
+   [
+    "23",
+    "Lord Walden: {@item Boots of Speed|XDMG}"
+   ],
+   [
+    "24",
+    "Lord Godfrey: {@item Flame Tongue Dagger|XDMG}"
+   ]
+  ],
+  "name": "Shadowfang Keep Treasure",
+  "source": "WoW",
+  "chapter": {
+   "name": "Adventures in Azeroth",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 6
+   },
+   "index": 6
   }
  },
  {
@@ -147653,6 +151478,237 @@
   }
  },
  {
+  "caption": "Mounts for Purchase",
+  "colLabels": [
+   "Mount",
+   "Prerequisite",
+   "Carrying Capacity",
+   "Cost"
+  ],
+  "colStyles": [
+   "col-4",
+   "col-4",
+   "col-2 text-center",
+   "col-2 text-center"
+  ],
+  "rows": [
+   [
+    "{@item Camel|XPHB}",
+    "None",
+    "450 lb.",
+    "50 GP"
+   ],
+   [
+    "{@item Dire Wolf|WoW}",
+    "Renown 10+ with {@area Orgrimmar|2df|x}",
+    "510 lb.",
+    "750 GP"
+   ],
+   [
+    "{@item Draft Horse|XPHB}",
+    "None",
+    "540 lb.",
+    "50 GP"
+   ],
+   [
+    "{@item Elekk|WoW}",
+    "Renown 10+ with the {@area Exodar|2a1|x}",
+    "510 lb.",
+    "400 GP"
+   ],
+   [
+    "{@item Giant Goat|WoW}",
+    "Renown 10+ with {@area Ironforge|2b0|x}",
+    "510 lb.",
+    "400 GP"
+   ],
+   [
+    "{@item Giant Hyena|WoW}",
+    "Renown 10+ with {@area Steamwheedle Cartel|314|x}",
+    "480 lb.",
+    "750 GP"
+   ],
+   [
+    "{@item Giant Seahorse|WoW}",
+    "None",
+    "450 lb.",
+    "1,000 GP"
+   ],
+   [
+    "{@item Gryphon|WoW}",
+    "Renown 25+ with the {@area Alliance|295|x}",
+    "540 lb.",
+    "2,000 GP"
+   ],
+   [
+    "{@item Hawkstrider|WoW}",
+    "Renown 10+ with {@area Silvermoon City|2e4|x}",
+    "420 lb.",
+    "150 GP"
+   ],
+   [
+    "{@item Kodo|WoW}",
+    "Renown 10+ with {@area Thunder Bluff|2e9|x}",
+    "450 lb.",
+    "100 GP"
+   ],
+   [
+    "{@item Mechanostrider|WoW}",
+    "Renown 10+ with {@area Gnomeregan|2ab|x}",
+    "420 lb.",
+    "450 GP"
+   ],
+   [
+    "{@item Nightsaber|WoW}",
+    "Renown 10+ with {@area Darnassus|29c|x}",
+    "510 lb.",
+    "750 GP"
+   ],
+   [
+    "{@item Pandarian Dragon Turtle|WoW}",
+    "Renown 10+ with the {@area Huojin|2da|x} or the {@area Tushui|2bf|x}",
+    "480 lb.",
+    "500 GP"
+   ],
+   [
+    "{@item Raptor|WoW}",
+    "Renown 10+ with the {@area Darkspear Tribe|2d5|x}",
+    "570 lb.",
+    "1,000 GP"
+   ],
+   [
+    "{@item Riding Horse|XPHB}",
+    "None",
+    "480 lb.",
+    "75 GP"
+   ],
+   [
+    "{@item Talbuk|WoW}",
+    "None",
+    "480 lb.",
+    "150 GP"
+   ],
+   [
+    "{@item Warhorse|WoW}",
+    "Renown 10+ with {@area Stormwind|2ba|x}",
+    "540 lb.",
+    "400 GP"
+   ],
+   [
+    "{@item Warhorse Skeleton|WoW}",
+    "Renown 10+ with {@area Undercity|2ee|x}",
+    "540 lb.",
+    "500 GP"
+   ],
+   [
+    "{@item Wind Rider|WoW}",
+    "Renown 25+ with the {@area Horde|2c5|x}",
+    "450 lb.",
+    "2,000 GP"
+   ],
+   [
+    "{@item Zhevra|WoW}",
+    "None",
+    "480 lb.",
+    "200 GP"
+   ]
+  ],
+  "name": "Special Mounts; Mounts for Purchase",
+  "source": "WoW",
+  "chapter": {
+   "name": "Professions and Gear",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 3
+   },
+   "index": 3
+  }
+ },
+ {
+  "caption": "Powered Vehicles",
+  "colLabels": [
+   "Vehicle",
+   "Prerequisite",
+   "Speed",
+   "Crew",
+   "Passengers",
+   "Cargo",
+   "AC",
+   "HP",
+   "Cost"
+  ],
+  "colStyles": [
+   "col-1-6",
+   "col-1-3",
+   "col-1-3 text-center",
+   "col-1-3 text-center",
+   "col-1-3 text-center",
+   "col-1-3 text-center",
+   "col-1-3 text-center",
+   "col-1-3 text-center",
+   "col-1-3 text-center"
+  ],
+  "rows": [
+   [
+    "{@item Flying Machine|WoW}",
+    "None",
+    "4 mph",
+    "1",
+    "0",
+    "300 lb.",
+    "19",
+    "27",
+    "—*"
+   ],
+   [
+    "{@item Goblin Trike|WoW}",
+    "Renown 10+ with any goblin cartel",
+    "3 mph",
+    "1",
+    "0",
+    "600 lb.",
+    "19",
+    "27",
+    "400 GP"
+   ],
+   [
+    "{@item Mechano-Hog|WoW}",
+    "Renown 10+ with the {@area Horde|2c5|x}",
+    "4 mph",
+    "1",
+    "1",
+    "800 lb.",
+    "19",
+    "27",
+    "4,000 GP"
+   ],
+   [
+    "{@item Mekgineer's Chopper|WoW}",
+    "Renown 10+ with the {@area Alliance|295|x}",
+    "4 mph",
+    "1",
+    "1",
+    "800 lb.",
+    "19",
+    "27",
+    "4,000 GP"
+   ]
+  ],
+  "footnotes": [
+   "*A Flying Machine can't be purchased; it must be made by a character with expert {@area engineering|225|x}. Crafting the machine requires 2,000 GP of resources."
+  ],
+  "name": "Special Mounts; Powered Vehicles",
+  "source": "WoW",
+  "chapter": {
+   "name": "Professions and Gear",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 3
+   },
+   "index": 3
+  }
+ },
+ {
   "caption": "Sentient Item's Alignment",
   "srd52": true,
   "colLabels": [
@@ -152635,6 +156691,49 @@
    "ordinal": {
     "type": "chapter",
     "identifier": 2
+   },
+   "index": 1
+  }
+ },
+ {
+  "caption": "Survival Hunter Spells",
+  "colLabels": [
+   "Spell Level",
+   "Spells"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-10"
+  ],
+  "rows": [
+   [
+    "1",
+    "{@spell Freezing Trap|WoW}"
+   ],
+   [
+    "2",
+    "{@spell Cordon of Arrows|XPHB}, {@spell Spike Growth|XPHB}"
+   ],
+   [
+    "3",
+    "{@spell Serpent Sting|WoW}"
+   ],
+   [
+    "4",
+    "{@spell Grasping Vine|XPHB}, {@spell Stoneskin|XPHB}"
+   ],
+   [
+    "5",
+    "{@spell Explosive Trap|WoW}, {@spell Steel Wind Strike|XPHB}"
+   ]
+  ],
+  "name": "Survival Hunter Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
    },
    "index": 1
   }
@@ -169624,6 +173723,46 @@
   "source": "GGR",
   "chapter": {
    "name": "Character Creation",
+   "ordinal": {
+    "type": "chapter",
+    "identifier": 1
+   },
+   "index": 1
+  }
+ },
+ {
+  "caption": "Warlock Spells",
+  "colLabels": [
+   "Level",
+   "Spell",
+   "Special"
+  ],
+  "colStyles": [
+   "col-2 text-center",
+   "col-8",
+   "col-2 text-center"
+  ],
+  "rows": [
+   [
+    "2",
+    "{@spell Curse of Agony|WoW}",
+    "—"
+   ],
+   [
+    "3",
+    "{@spell Hand of Gul'dan|WoW}",
+    "C"
+   ],
+   [
+    "3",
+    "{@spell Rain of Fire|WoW}",
+    "C"
+   ]
+  ],
+  "name": "Warlock Spells",
+  "source": "WoW",
+  "chapter": {
+   "name": "Character Classes",
    "ordinal": {
     "type": "chapter",
     "identifier": 1
