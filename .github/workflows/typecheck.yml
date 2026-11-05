@@ -37,5 +37,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Cache ttsc plugin binaries
+        uses: actions/cache@v4
+        with:
+          path: node_modules/.cache/ttsc/plugins
+          key: ${{ runner.os }}-${{ runner.arch }}-ttsc-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ runner.arch }}-ttsc-
+
       - name: Run typecheck script
         run: npm run typecheck
