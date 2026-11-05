@@ -3,6 +3,10 @@ name: TYPECHECK
 on:
   pull_request:
     branches: [main]
+    paths:
+      - '**/*.ts'
+      - 'data/**'
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref }}

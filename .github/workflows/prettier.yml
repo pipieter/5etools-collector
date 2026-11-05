@@ -3,8 +3,12 @@ name: PRETTIER
 on:
   push:
     branches: [main]
+    paths:
+      - '**/*.ts'
   pull_request:
     branches: [main]
+    paths:
+      - '**/*.ts'
   workflow_dispatch:
 
 permissions:

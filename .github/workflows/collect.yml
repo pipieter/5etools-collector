@@ -3,6 +3,12 @@ name: COLLECT
 on:
   pull_request:
     branches: [main]
+    paths:
+      - '**/*.ts'
+      - '.gitmodules'
+      - '5etools-src'
+      - '5etools-homebrew'
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref }}
