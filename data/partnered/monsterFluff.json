@@ -23735,6 +23735,41 @@
   ]
  },
  {
+  "name": "Dread Linnorm",
+  "source": "DnDBeyondDrops",
+  "entries": [
+   {
+    "type": "entries",
+    "entries": [
+     "{@i Two-Headed Bringer of Destruction}",
+     "Whether burrowed into the hearts of the Heroic Isles on Ysgard or lurking within the desolate depths of the Material Plane, dread linnorms are a challenge faced only by the bravest and most capable warriors. Dread linnorms have two heads, one that rains fire down on enemies and another that freezes them with icy breath.",
+     "Ysgard holds the highest concentration of dread linnorms, and heroes desperate to prove their mettle travel to the outer plane in the hopes of vanquishing one. No young linnorms have been seen in centuries, meaning those that remain are ancient, isolated, and notoriously difficult to reason with. Dread linnorms are incredibly territorial and eagerly tear trespassers limb from limb."
+    ]
+   },
+   {
+    "type": "section",
+    "entries": [
+     {
+      "type": "entries",
+      "name": "Dread Linnorm Lairs",
+      "entries": [
+       "Dread linnorms are too big to be confined by natural caverns and so devote significant effort excavating subterranean labyrinths to serve as lairs. A dread linnorm can magically manipulate the stone within its lair to shield itself and trap intruders. Many would-be-heroes find themselves lost in the twisting depths, unable to find either the linnorm or the exit. After weeks of being lost in a linnorm's lair, falling prey to one of the linnorm's many deadly traps can be considered a welcome end."
+      ]
+     }
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DnDBeyondDrops/bestiary/Dread Linnorm.webp"
+    }
+   }
+  ]
+ },
+ {
   "name": "Dread Skeljaskra",
   "source": "NorthlandsWorldbook",
   "entries": [
@@ -29164,6 +29199,29 @@
     "width": 850,
     "height": 1021,
     "credit": "Xander Brown"
+   }
+  ]
+ },
+ {
+  "name": "Firre",
+  "source": "DnDBeyondDrops",
+  "entries": [
+   {
+    "type": "entries",
+    "entries": [
+     "{@i Freedom-Loving Patron of the Arts}",
+     "Firres are celestial beings with flaming hair and fiery eyes who defend art, creativity, and artists themselves. Their features are reminiscent of elves, but firres appear most similar to their fey counterparts, eladrin. Firres can transform into pillars of celestial fire, a form they take to rush to the defense of art and the innocent.",
+     "Firres most often roam the Upper Planes but might travel to the Material Plane when seeking art of great renown or a minstrel or poet of great skill. In places where freedom of expression is suppressed or great evil imposes tyranny on the masses, firres chronicle the injustice and support rebellions."
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DnDBeyondDrops/bestiary/Firre.webp"
+    }
    }
   ]
  },
@@ -85055,6 +85113,29 @@
      "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ExploringEberron24/Creature/Valaar.webp"
     },
     "credit": "Kristóf Köteles"
+   }
+  ]
+ },
+ {
+  "name": "Valkyrie",
+  "source": "DnDBeyondDrops",
+  "entries": [
+   {
+    "type": "entries",
+    "entries": [
+     "{@i Evil-Smiting, Winged Warrior}",
+     "Born from the blood spilled from gods in battles, valkyries are fierce warriors who serve benevolent deities in the Outer Planes. When not on the battlefield, valkyries reside in Ysgard, where they train with one another, skilled petitioners, and aspiring warriors. Occasionally those beset by rampaging evil call valkyries to aid them on the Material Plane, imploring them to assist in a battle too great for their own armies. Those who fight on behalf of tyrants or monsters fear the day that they must stand against valkyries.",
+     "Valkyries wield the power of divine justice, inspiring knights and paladins across the multiverse. While stalwart fighters alone, many valkyries ride {@creature Pegasus|XMM|Pegasi} into battle."
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DnDBeyondDrops/bestiary/Valkyrie.webp"
+    }
    }
   ]
  },

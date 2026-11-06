@@ -887,6 +887,30 @@
   "weapon": true
  },
  {
+  "name": "Bola",
+  "source": "DnDBeyondDrops",
+  "page": "2026-11-05",
+  "type": "R|XPHB",
+  "rarity": "none",
+  "weight": 2,
+  "value": 200,
+  "weaponCategory": "martial",
+  "property": [
+   "F|XPHB",
+   "T|XPHB"
+  ],
+  "mastery": [
+   "Topple|XPHB"
+  ],
+  "range": "20/40",
+  "dmg1": "1",
+  "dmgType": "B",
+  "weapon": true,
+  "entries": [
+   "Bolas are two weights secured to a short length of leather or rope used in hunting."
+  ]
+ },
+ {
   "name": "Bolt, Silver",
   "source": "BoundByBlood",
   "edition": "one",
@@ -7802,6 +7826,29 @@
   "ammoType": "bullet, wooden|BoundByBlood"
  },
  {
+  "name": "Pitchfork",
+  "source": "DnDBeyondDrops",
+  "page": "2026-11-05",
+  "type": "M|XPHB",
+  "rarity": "none",
+  "weight": 3,
+  "value": 100,
+  "weaponCategory": "simple",
+  "property": [
+   "R|XPHB",
+   "2H|XPHB"
+  ],
+  "mastery": [
+   "Push|XPHB"
+  ],
+  "dmg1": "1d6",
+  "dmgType": "P",
+  "weapon": true,
+  "entries": [
+   "Pitchforks are a popular farming instrument consisting of two or three sharp tines at the end of a long handle."
+  ]
+ },
+ {
   "name": "Plumage of a Running Kirio",
   "source": "ObojimaTallGrass",
   "page": 218,
@@ -10998,6 +11045,31 @@
      "When you make an attack roll with this Melee weapon and roll a 1 on the {@dice d20}, the weapon splinters and is destroyed."
     ]
    }
+  ]
+ },
+ {
+  "name": "Weighted Chain",
+  "source": "DnDBeyondDrops",
+  "page": "2026-11-05",
+  "type": "M|XPHB",
+  "rarity": "none",
+  "weight": 10,
+  "value": 1500,
+  "weaponCategory": "martial",
+  "property": [
+   "F|XPHB",
+   "H|XPHB",
+   "R|XPHB",
+   "2H|XPHB"
+  ],
+  "mastery": [
+   "Graze|XPHB"
+  ],
+  "dmg1": "1d8",
+  "dmgType": "B",
+  "weapon": true,
+  "entries": [
+   "Weighted chains are a long chain that loops behind the wielder's back and extends past each hand."
   ]
  },
  {

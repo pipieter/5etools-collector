@@ -244,6 +244,24 @@
   ]
  },
  {
+  "name": "Bariaur",
+  "source": "DnDBeyondDrops",
+  "entries": [
+   "Bariaurs are either born in Ysgard or have celestial ancestors who originated there. From the waist up, a bariaur resembles a humanoid such as a human, elf, or dwarf. From the waist down, they have the body of a sheep.",
+   "Full of wanderlust, bariaurs seek adventure, treasure, and a proper revelry. Like many native inhabitants of Ysgard, bariaurs never shy away from a battle against evil and injustice. Some even carve small notches in their horns to count the number of glorious battles they have survived."
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DnDBeyondDrops/races/Bariaur.webp"
+    },
+    "credit": "Alejandro Pacheco"
+   }
+  ]
+ },
+ {
   "name": "Baugsmidr Dwarf",
   "source": "NorthlandsWorldbook",
   "entries": [

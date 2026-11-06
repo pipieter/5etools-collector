@@ -814,6 +814,64 @@
   "hasFluffImages": true
  },
  {
+  "name": "Bariaur",
+  "source": "DnDBeyondDrops",
+  "page": "2026-11-05",
+  "edition": "one",
+  "creatureTypes": [
+   "celestial"
+  ],
+  "size": [
+   "M"
+  ],
+  "speed": 35,
+  "darkvision": 60,
+  "skillProficiencies": [
+   {
+    "choose": {
+     "from": [
+      "animal handling",
+      "arcana",
+      "nature",
+      "survival"
+     ]
+    }
+   }
+  ],
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Darkvision",
+    "entries": [
+     "You have {@sense Darkvision|XPHB} with a range of 60 feet."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Ram",
+    "entries": [
+     "When you move 10 feet or more straight toward a creature and hit it with an {@variantrule Unarmed Strike|XPHB} as part of the {@action Attack|XPHB} action on your turn, you can use both the Damage and Shove options. You can only use this benefit once per turn."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Stable Stance",
+    "entries": [
+     "You have {@variantrule Advantage|XPHB} on saving throws to avoid the {@condition Prone|XPHB} condition."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Wanderer's Instincts",
+    "entries": [
+     "You have proficiency in the {@skill Animal Handling|XPHB}, {@skill Arcana|XPHB}, {@skill Nature|XPHB}, or {@skill Survival|XPHB} skill."
+    ]
+   }
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Baugsmidr Dwarf",
   "source": "NorthlandsWorldbook",
   "creatureTypes": [
