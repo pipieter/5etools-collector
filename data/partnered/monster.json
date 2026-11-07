@@ -71517,6 +71517,189 @@
   ]
  },
  {
+  "name": "Dread Linnorm",
+  "source": "DnDBeyondDrops",
+  "page": "2026-11-05",
+  "size": [
+   "G"
+  ],
+  "type": "dragon",
+  "alignment": [
+   "C",
+   "E"
+  ],
+  "ac": [
+   16
+  ],
+  "hp": {
+   "average": 231,
+   "formula": "14d20 + 84"
+  },
+  "speed": {
+   "walk": 40,
+   "burrow": 40,
+   "fly": 60
+  },
+  "initiative": {
+   "proficiency": 2
+  },
+  "str": 26,
+  "dex": 10,
+  "con": 22,
+  "int": 14,
+  "wis": 12,
+  "cha": 18,
+  "save": {
+   "dex": "+6",
+   "wis": "+7"
+  },
+  "skill": {
+   "athletics": "+14",
+   "perception": "+7",
+   "stealth": "+6"
+  },
+  "senses": [
+   "Blindsight 60 ft.",
+   "Darkvision 120 ft."
+  ],
+  "passive": 17,
+  "resist": [
+   "cold",
+   "fire"
+  ],
+  "conditionImmune": [
+   "charmed",
+   "exhaustion",
+   "frightened"
+  ],
+  "languages": [
+   "Common",
+   "Draconic"
+  ],
+  "cr": "17",
+  "trait": [
+   {
+    "name": "Legendary Resistance (3/Day)",
+    "entries": [
+     "If the linnorm fails a saving throw, it can choose to succeed instead."
+    ]
+   },
+   {
+    "name": "Magic Resistance",
+    "entries": [
+     "The linnorm has {@variantrule Advantage|XPHB} on saving throws against spells and other magical effects."
+    ]
+   },
+   {
+    "name": "Tunneler",
+    "entries": [
+     "The linnorm can burrow through solid rock at half its {@variantrule Burrow Speed|XPHB} and leaves a 10-foot-diameter tunnel in its wake."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The dread linnorm makes one Bite attack and two Rend attacks."
+    ]
+   },
+   {
+    "name": "Bite",
+    "entries": [
+     "{@atkr m} {@hit 14}, reach 10 ft. {@h}11 ({@damage 1d6 + 8}) Piercing damage plus 3 ({@damage 1d6}) damage of a type chosen by the linnorm: Cold or Fire. If the target is a creature, it gains 1 {@condition Exhaustion|XPHB} level, and the linnorm regains 5 ({@dice 1d10}) {@variantrule Hit Points|XPHB}. While the target has any {@condition Exhaustion|XPHB} levels, it automatically fails its saving throws against the linnorm's Twin Breath."
+    ]
+   },
+   {
+    "name": "Rend",
+    "entries": [
+     "{@atkr m} {@hit 14}, reach 10 ft. {@h}18 ({@damage 3d6 + 8}) Slashing damage."
+    ]
+   },
+   {
+    "name": "Twin Breath {@recharge}",
+    "entries": [
+     "{@actSave con} {@dc 20}, each creature in a 60-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSaveFail} 27 ({@damage 5d10}) Cold damage and 27 ({@damage 5d10}) Fire damage. {@actSaveSuccess} Half damage only."
+    ]
+   }
+  ],
+  "legendaryActionsLair": 4,
+  "legendary": [
+   {
+    "name": "Slithering Strike",
+    "entries": [
+     "The linnorm moves up to half its speed and uses Bite."
+    ]
+   },
+   {
+    "name": "Stone Wall",
+    "entries": [
+     "The linnorm casts {@spell Wall of Stone|XPHB}, requiring no components and using Charisma as its spellcasting ability ({@dc 18}). The linnorm can't take this action again until the start of its next turn."
+    ]
+   },
+   {
+    "name": "Tail Sweep",
+    "entries": [
+     "{@actSave str} {@dc 20}, each creature of the linnorm's choice in a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. {@actSaveFail} 17 ({@damage 2d8 + 8}) Bludgeoning damage, and the target has the {@condition Prone|XPHB} condition."
+    ]
+   }
+  ],
+  "legendaryGroup": {
+   "name": "Dread Linnorm",
+   "source": "DnDBeyondDrops"
+  },
+  "environment": [
+   "any"
+  ],
+  "treasure": [
+   "armaments",
+   "implements"
+  ],
+  "traitTags": [
+   "Legendary Resistances",
+   "Magic Resistance",
+   "Tunneler"
+  ],
+  "senseTags": [
+   "B",
+   "SD"
+  ],
+  "actionTags": [
+   "Breath Weapon",
+   "Multiattack"
+  ],
+  "languageTags": [
+   "C",
+   "DR"
+  ],
+  "damageTags": [
+   "B",
+   "C",
+   "F",
+   "P",
+   "S"
+  ],
+  "miscTags": [
+   "AOE",
+   "MA",
+   "RCH"
+  ],
+  "conditionInflict": [
+   "exhaustion",
+   "prone"
+  ],
+  "savingThrowForced": [
+   "constitution",
+   "strength"
+  ],
+  "savingThrowForcedLegendary": [
+   "dexterity",
+   "wisdom"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Dread Skeljaskra",
   "source": "NorthlandsWorldbook",
   "size": [
@@ -89294,6 +89477,133 @@
   ],
   "savingThrowForced": [
    "constitution"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Firre",
+  "source": "DnDBeyondDrops",
+  "page": "2026-11-05",
+  "size": [
+   "M"
+  ],
+  "type": "celestial",
+  "alignment": [
+   "C",
+   "G"
+  ],
+  "ac": [
+   14
+  ],
+  "hp": {
+   "average": 93,
+   "formula": "17d8 + 17"
+  },
+  "speed": {
+   "walk": 30
+  },
+  "str": 20,
+  "dex": 14,
+  "con": 12,
+  "int": 12,
+  "wis": 16,
+  "cha": 18,
+  "save": {
+   "dex": "+4",
+   "int": "+3",
+   "wis": "+5"
+  },
+  "skill": {
+   "arcana": "+3",
+   "performance": "+6",
+   "persuasion": "+8"
+  },
+  "senses": [
+   "Darkvision 60 ft."
+  ],
+  "passive": 13,
+  "resist": [
+   "acid",
+   "cold",
+   "fire"
+  ],
+  "conditionImmune": [
+   "charmed",
+   "frightened"
+  ],
+  "languages": [
+   "Celestial",
+   "Common",
+   "Elvish"
+  ],
+  "cr": "4",
+  "trait": [
+   {
+    "name": "Fire Aura (Fire Form Only)",
+    "entries": [
+     "At the end of each of the firre's turns, each creature in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the firre takes 5 ({@damage 1d10}) Fire damage. Flammable objects in the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} start burning."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack (Eladrin Form Only)",
+    "entries": [
+     "The firre makes a Burning Blade attack and uses Flaming Gaze."
+    ]
+   },
+   {
+    "name": "Burning Blade (Eladrin Form Only)",
+    "entries": [
+     "{@atkr m} {@hit 7}, reach 5 ft. {@h}8 ({@damage 1d6 + 5}) Slashing damage plus 3 ({@damage 1d6}) Fire damage."
+    ]
+   },
+   {
+    "name": "Flaming Gaze",
+    "entries": [
+     "{@actSave dex} {@dc 14}, one creature the firre can see within 60 feet. {@actSaveFail} 11 ({@damage 2d6 + 4}) Fire damage, and the target has the {@condition Blinded|XPHB} condition until the start of the firre's next turn."
+    ]
+   }
+  ],
+  "bonus": [
+   {
+    "name": "Shape-Shift",
+    "entries": [
+     "The firre shape-shifts into a Medium column of fire ({@variantrule Speed|XPHB} 50 ft.), or it returns to its eladrin form. Its game statistics are the same in each form, except for its {@variantrule Speed|XPHB}. Anything it is wearing transforms with it. While in fire form, the firre can't manipulate objects."
+    ]
+   }
+  ],
+  "environment": [
+   "any"
+  ],
+  "treasure": [
+   "individual"
+  ],
+  "senseTags": [
+   "D"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "languageTags": [
+   "C",
+   "CE",
+   "E"
+  ],
+  "damageTags": [
+   "F",
+   "S"
+  ],
+  "miscTags": [
+   "AOE",
+   "MA"
+  ],
+  "conditionInflict": [
+   "blinded"
+  ],
+  "savingThrowForced": [
+   "dexterity"
   ],
   "hasFluff": true,
   "hasFluffImages": true
@@ -276457,6 +276767,139 @@
   "savingThrowForced": [
    "wisdom"
   ]
+ },
+ {
+  "name": "Valkyrie",
+  "source": "DnDBeyondDrops",
+  "page": "2026-11-05",
+  "size": [
+   "M"
+  ],
+  "type": "celestial",
+  "alignment": [
+   "C",
+   "G"
+  ],
+  "ac": [
+   18
+  ],
+  "hp": {
+   "average": 143,
+   "formula": "22d8 + 44"
+  },
+  "speed": {
+   "walk": 30
+  },
+  "initiative": {
+   "proficiency": 1
+  },
+  "str": 20,
+  "dex": 14,
+  "con": 14,
+  "int": 10,
+  "wis": 13,
+  "cha": 16,
+  "save": {
+   "con": "+6",
+   "wis": "+5"
+  },
+  "senses": [
+   "Darkvision 60 ft."
+  ],
+  "passive": 11,
+  "resist": [
+   "lightning",
+   "thunder"
+  ],
+  "conditionImmune": [
+   "charmed",
+   "frightened"
+  ],
+  "languages": [
+   "Common plus two other languages"
+  ],
+  "cr": "9",
+  "gear": [
+   "chain mail|xphb",
+   {
+    "item": "javelin|xphb",
+    "quantity": 6
+   },
+   "longsword|xphb",
+   "shield|xphb"
+  ],
+  "trait": [
+   {
+    "name": "Aura of Bravery",
+    "entries": [
+     "Creatures of the valkyrie's choice in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from it have {@variantrule Immunity|XPHB} to the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} condition while there."
+    ]
+   },
+   {
+    "name": "Mounted Adept",
+    "entries": [
+     "While mounted and without the {@condition Incapacitated|XPHB} condition, the valkyrie and its mount have {@variantrule Advantage|XPHB} on Dexterity saving throws, and the valkyrie can force an attack targeted at its mount to target the valkyrie instead."
+    ]
+   }
+  ],
+  "action": [
+   {
+    "name": "Multiattack",
+    "entries": [
+     "The valkyrie makes three attacks, using Longsword or Radiant Javelin in any combination."
+    ]
+   },
+   {
+    "name": "Longsword",
+    "entries": [
+     "{@atkr m} {@hit 9}, reach 5 ft. {@h}14 ({@damage 2d8 + 5}) Slashing damage plus 4 ({@damage 1d8}) Radiant damage."
+    ]
+   },
+   {
+    "name": "Radiant Javelin",
+    "entries": [
+     "{@atkr r} {@hit 9}, range 60 ft. {@h}12 ({@damage 2d6 + 5}) Piercing damage plus 7 ({@damage 2d6}) Radiant damage."
+    ]
+   }
+  ],
+  "reaction": [
+   {
+    "name": "Valorous Rebuke (3/Day)",
+    "entries": [
+     "{@actTrigger} A creature the valkyrie can see moves within 5 feet of it. {@actResponse} The valkyrie makes one Longsword attack against the creature. On a hit, the attack deals an additional 14 ({@damage 4d6}) Radiant damage."
+    ]
+   }
+  ],
+  "environment": [
+   "any"
+  ],
+  "treasure": [
+   "individual"
+  ],
+  "senseTags": [
+   "D"
+  ],
+  "actionTags": [
+   "Multiattack"
+  ],
+  "languageTags": [
+   "C",
+   "X"
+  ],
+  "damageTags": [
+   "P",
+   "R",
+   "S"
+  ],
+  "miscTags": [
+   "AOE",
+   "MA",
+   "MLW",
+   "RA",
+   "THW"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
  },
  {
   "name": "Valkyrie",

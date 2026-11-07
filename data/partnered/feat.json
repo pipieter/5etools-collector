@@ -4410,6 +4410,60 @@
   "hasFluff": true
  },
  {
+  "name": "Elysium Diplomat",
+  "source": "DnDBeyondDrops",
+  "page": "2026-11-05",
+  "category": "G",
+  "prerequisite": [
+   {
+    "level": 4,
+    "feat": [
+     "upper planes pact|dndbeyonddrops"
+    ]
+   }
+  ],
+  "ability": [
+   {
+    "choose": {
+     "from": [
+      "int",
+      "wis",
+      "cha"
+     ]
+    }
+   }
+  ],
+  "languageProficiencies": [
+   {
+    "any": 2
+   }
+  ],
+  "entries": [
+   "Elysium's tranquility and serenity grants you the following benefits.",
+   {
+    "type": "entries",
+    "name": "Celestial Communicator",
+    "entries": [
+     "You learn two additional languages of your choice, chosen from the language tables in the Player's Handbook."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Divine Calm",
+    "entries": [
+     "A creature's {@variantrule Hostile [Attitude]|XPHB|Hostile} attitude toward you doesn't impose {@variantrule Disadvantage|XPHB} on your Charisma ({@skill Persuasion|XPHB}) checks to influence that creature."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Quick Retreat",
+    "entries": [
+     "When an enemy ends its turn within 5 feet of you, you can take a {@variantrule Reaction|XPHB} to move up to half your {@variantrule Speed|XPHB} without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks}."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Endurance Conditioning",
   "source": "NorthlandsWorldbook",
   "category": "G",
@@ -13417,6 +13471,72 @@
   "hasFluff": true
  },
  {
+  "name": "Upper Planes Pact",
+  "source": "DnDBeyondDrops",
+  "page": "2026-11-05",
+  "category": "PPact",
+  "prerequisite": [
+   {
+    "exclusiveFeatCategory": [
+     "PPact"
+    ]
+   }
+  ],
+  "skillProficiencies": [
+   {
+    "religion": true
+   }
+  ],
+  "resist": [
+   "radiant"
+  ],
+  "additionalSpells": [
+   {
+    "ability": {
+     "choose": [
+      "int",
+      "wis",
+      "cha"
+     ]
+    },
+    "prepared": {
+     "_": {
+      "rest": {
+       "1": [
+        "detect evil and good|xphb"
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "entries": [
+   "You gain the following benefits.",
+   {
+    "type": "entries",
+    "name": "Celestial Lore",
+    "entries": [
+     "You gain {@variantrule Proficiency|XPHB} in the {@skill Religion|XPHB} skill."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Celestial Resistance",
+    "entries": [
+     "You have {@variantrule Resistance|XPHB} to Radiant damage."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Detect Evil and Good",
+    "entries": [
+     "You always have the {@spell Detect Evil and Good|XPHB} spell prepared. You can cast it once without expending a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. You can also cast the spell using any spell slots you have of the appropriate level.",
+     "Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat)."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Uul Dhakaan",
   "source": "ExploringEberron24",
   "category": "O",
@@ -14341,6 +14461,41 @@
     "name": "Well-Researched",
     "entries": [
      "Whenever you take the {@action Search|XPHB} action, you have {@variantrule Advantage|XPHB} on the check if it is related to a Demon."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Ysgardian Warrior",
+  "source": "DnDBeyondDrops",
+  "page": "2026-11-05",
+  "category": "G",
+  "prerequisite": [
+   {
+    "level": 4,
+    "feat": [
+     "upper planes pact|dndbeyonddrops"
+    ]
+   }
+  ],
+  "ability": [
+   {
+    "choose": {
+     "from": [
+      "str",
+      "dex",
+      "con"
+     ]
+    }
+   }
+  ],
+  "entries": [
+   "Your commitment to your planar pact grants you the following benefits.",
+   {
+    "type": "entries",
+    "name": "Ysgardian Spirit",
+    "entries": [
+     "When you become {@status Bloodied|XPHB}, you gain {@variantrule Advantage|XPHB} on the next attack roll you make before the end of your next turn, and if you hit with the attack roll, you can deal extra damage to the target equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. This extra damage is of the same type as the attack. Once you use this benefit, you can't use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
     ]
    }
   ]
