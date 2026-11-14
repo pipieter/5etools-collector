@@ -71655,6 +71655,10 @@
    "armaments",
    "implements"
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DnDBeyondDrops/bestiary/tokens/Dread Linnorm.webp"
+  },
   "traitTags": [
    "Legendary Resistances",
    "Magic Resistance",
@@ -89580,6 +89584,10 @@
   "treasure": [
    "individual"
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DnDBeyondDrops/bestiary/tokens/Firre.webp"
+  },
   "senseTags": [
    "D"
   ],
@@ -276876,6 +276884,10 @@
   "treasure": [
    "individual"
   ],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DnDBeyondDrops/bestiary/tokens/Valkyrie.webp"
+  },
   "senseTags": [
    "D"
   ],
