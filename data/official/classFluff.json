@@ -1279,6 +1279,79 @@
   ]
  },
  {
+  "name": "Death Knight",
+  "source": "WoW",
+  "entries": [
+   {
+    "type": "section",
+    "name": "Death Knight",
+    "entries": [
+     "The Lich King Ner'zhul created death knights from fallen warriors and paladins to serve as undead, immortal lieutenants of the Scourge in the Third War. Arthas Menethil was the first of these death knights, and after Arthas became {@creature Lich King Arthas|WoW|the Lich King}, the power of the death knights only grew stronger. (See \"{@book The Scourge|WoW|6|The Scourge}\" in chapter 6 for more information.)",
+     "During the invasion of Northrend, a company of death knights was freed from the Lich King's control. These knights claimed a flying necropolis as the headquarters for the Knights of the Ebon Blade. Under the command of Highlord Darion Mograine, they dedicated themselves to the protection of Azeroth. After Bolvar Fordragon took on the Lich King's mantle, he ordered his lieutenants, the Four Horsemen, to call forth a new generation of death knights to join the Ebon Blade.",
+     "Death knights engage their foes in melee, supplementing weapon attacks with unholy magic. They drag foes into one-on-one conflicts and wield their magic to draw enemy attacks and prevent enemies from fleeing their grasp."
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Death Knight.webp"
+    },
+    "width": 1700,
+    "height": 2387,
+    "title": "Orc Death Knight",
+    "credit": "Wei Wang, Blizzard Artist"
+   },
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Death Knight Crest.webp"
+    },
+    "width": 1700,
+    "height": 588
+   }
+  ]
+ },
+ {
+  "name": "Demon Hunter",
+  "source": "WoW",
+  "entries": [
+   {
+    "type": "section",
+    "name": "Demon Hunter",
+    "entries": [
+     "The first demon hunter was {@creature Illidan Stormrage|WoW}, a night elf sorcerer (and brother of Archdruid Malfurion Stormrage) who betrayed his people and all of Azeroth during the War of the Ancients, the first invasion of the Burning Legion. Secretly planning to learn the Legion's secrets in order to undermine the demonic forces from within, Illidan mastered the Legion's magic and received magical gifts from the fallen titan Sargeras. (See chapter 6 for more about {@book Sargeras and the Burning Legion|WoW|6|Burning Legion}.)",
+     "Following Illidan's example, demon hunters (often called Illidari) sacrifice their sight, family ties, and personal aspirations in exchange for fel power they use to battle the Legion. They begin their training by slaying a demon, eating its heart, and drinking its blood, allowing them to tap into demonic powers. Their physical sight is replaced by a supernatural sense, which at short range lets them perceive the truth of illusions and see hidden enemies. But their demonic features incite revulsion and dread among other people."
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Demon Hunter.webp"
+    },
+    "width": 1700,
+    "height": 2550,
+    "title": "Illidan Stormrage and Two Demon Hunters Under His Tutelage",
+    "credit": "Alex Garner"
+   },
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Demon Hunter Crest.webp"
+    },
+    "width": 1700,
+    "height": 735
+   }
+  ]
+ },
+ {
   "name": "Druid",
   "source": "PHB",
   "entries": [
@@ -2714,6 +2787,42 @@
  },
  {
   "name": "Druid",
+  "source": "WoW",
+  "entries": [
+   {
+    "type": "section",
+    "name": "Druid",
+    "entries": [
+     "The first druids learned the secrets of nature magic from the demigod Cenarius, who tutored the yaungol (ancestors of the tauren) and then the night elves in druidic ways.",
+     "Druids harness the vast powers of nature to preserve balance and protect life. They unleash nature's raw energy against their enemies, raining celestial fury on them from a distance, binding them with enchanted vines, or ensnaring them in unrelenting cyclones. Druids are also accomplished shape-shifters, choosing different beast forms to fill a variety of roles in and out of combat."
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Druid.webp"
+    },
+    "width": 1700,
+    "height": 2433,
+    "title": "Night Elf Druid",
+    "credit": "James Ryman, Blizzard Artist"
+   },
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Druid Crest.webp"
+    },
+    "width": 1700,
+    "height": 643
+   }
+  ]
+ },
+ {
+  "name": "Druid",
   "source": "XPHB",
   "entries": [
    {
@@ -2761,6 +2870,42 @@
     "height": 1350,
     "title": "A Druid in wolf form howls at the moon",
     "credit": "John Grello"
+   }
+  ]
+ },
+ {
+  "name": "Evoker",
+  "source": "WoW",
+  "entries": [
+   {
+    "type": "section",
+    "name": "Evoker",
+    "entries": [
+     "Evokers wield the magic of the five ordered dragonflights (detailed in {@book chapter 7|WoW|7})—the chaotic flames of the {@book red flight|WoW|7|Red Dragonflight}, the focused magic of the {@book blue flight|WoW|7|Blue Dragonflight}, the might of the {@book black flight|WoW|7|Black Dragonflight}, the life-giving spirit of the {@book green flight|WoW|7|Green Dragonflight}, and the time-bending magic of the {@book bronze flight|WoW|7|Bronze Dragonflight}. Evokers channel this power to devastate their enemies and bolster their allies, using their heightened mobility to dart in and out of the fray.",
+     "Evokers can empower, extend, and transmute their spells to suit their needs. They can also charge up their spellcasting, entering a state of heightened magical power."
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Evoker.webp"
+    },
+    "width": 1700,
+    "height": 2200,
+    "title": "Dracthyr Evoker",
+    "credit": "Andrey Kuzinskiy, Blizzard Artist"
+   },
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Evoker Crest.webp"
+    },
+    "width": 1700,
+    "height": 657
    }
   ]
  },
@@ -3144,6 +3289,78 @@
   ]
  },
  {
+  "name": "Hunter",
+  "source": "WoW",
+  "entries": [
+   {
+    "type": "section",
+    "name": "Hunter",
+    "entries": [
+     "From an early age, some adventurers hear the call of the wild drawing them from the comfort of their homes into the unforgiving outdoors. Those who endure become hunters. These masters of their environment slip like ghosts through the trees and lay traps in their enemies' paths.",
+     "Many hunters have pets that attack while the hunters nock their arrows, fire their guns, or ready their polearms. Hunters are highly mobile, evading or restraining foes to control the arena of battle."
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Hunter.webp"
+    },
+    "width": 1700,
+    "height": 1141,
+    "title": "Dwarf Hunter with a Bear Companion",
+    "credit": "Caio Monteiro, Blizzard Artist"
+   },
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Hunter Crest.webp"
+    },
+    "width": 1700,
+    "height": 624
+   }
+  ]
+ },
+ {
+  "name": "Mage",
+  "source": "WoW",
+  "entries": [
+   {
+    "type": "section",
+    "name": "Mage",
+    "entries": [
+     "Students with a keen intellect and unwavering discipline may walk the path of the mage. The arcane magic available to mages is both great and dangerous, and it is revealed only to the most devoted practitioners. To avoid interference with their spellcasting, mages wear no armor, instead protecting themselves with arcane shields and enchantments. To keep enemies at bay, mages can summon bursts of fire to incinerate distant targets and cause entire areas to erupt, setting groups of foes ablaze.",
+     "Mages are found among many peoples and cultures of Azeroth, and they're regarded with varying degrees of suspicion. Thousands of years ago, Highborne night elf mages collaborated with their queen, Azshara, to turn the Well of Eternity into a portal through which the Burning Legion could enter Azeroth. The resulting conflict—the War of the Ancients—shattered the continent, leaving many night elves and others wary of mages and their hunger for power. The Highborne subsequently settled in the Eastern Kingdoms, where they eventually shared their magic with a select group of humans. These human mages, faced with suspicion from their own people, founded the city-state of Dalaran, which was ruled by a senate of mages called the Kirin Tor. (The Kirin Tor is described in {@book chapter 4|WoW|4|Kirin Tor}.)"
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Mage.webp"
+    },
+    "width": 1700,
+    "height": 954,
+    "title": "Medivh, a Human Mage",
+    "credit": "Raymond Swanland, Blizzard Artist"
+   },
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Mage Crest.webp"
+    },
+    "width": 1700,
+    "height": 588
+   }
+  ]
+ },
+ {
   "name": "Monk",
   "source": "PHB",
   "entries": [
@@ -3454,6 +3671,43 @@
     },
     "width": 816,
     "height": 1000
+   }
+  ]
+ },
+ {
+  "name": "Monk",
+  "source": "WoW",
+  "entries": [
+   {
+    "type": "section",
+    "name": "Monk",
+    "entries": [
+     "When pandaren were subjugated by mogu millennia ago, the monks among them nurtured hope. While the mogu rulers banned weapons among their subjects, pandaren monks cultivated techniques of unarmed combat based on harnessing and focusing their innate spiritual energy. Finally, the monks and their disciples revolted against their masters and threw off the yoke of oppression.",
+     "Monks are masters of bare-handed combat, most widely known for their fearsome jabs and flying kicks, though monks don't limit themselves to a single method of combat. Some monks revel in the intoxicating effect of absorbing blow after blow while their companions press the attack. Other monks call on the restorative power of Pandaria's magical mists to return the sick and wounded to health.",
+     "Monks seek spiritual balance in life and in combat, and they rarely pick a fight without just cause. They find power through serenity and inner peace—then express their power through artful combat techniques and powers that mend life. Perhaps most surprisingly, some monks are also adept at producing powerful brews they consume in battle."
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Monk.webp"
+    },
+    "width": 1700,
+    "height": 2407,
+    "title": "Chen Stormstout, a Pandaren Monk",
+    "credit": "Wei Wang, Blizzard Artist"
+   },
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Monk Crest.webp"
+    },
+    "width": 1700,
+    "height": 615
    }
   ]
  },
@@ -4031,6 +4285,43 @@
  },
  {
   "name": "Paladin",
+  "source": "WoW",
+  "entries": [
+   {
+    "type": "section",
+    "name": "Paladin",
+    "entries": [
+     "The call of the paladin is to protect the weak, mete out justice to the unjust, and vanquish evil from the darkest corners of the world. These holy warriors are heavily armored and favor powerful weapons as they confront the toughest of foes, and the blessing of the Light allows them to heal wounds and smite their enemies.",
+     "Paladins' magical power comes from the Holy Light, one of the great cosmic forces of the universe (see \"{@book The Cosmic Forces|WoW|5|The Cosmic Forces}\" in chapter 5). The first paladins on Azeroth were humans who belonged to the Church of the Holy Light. Due to their virtue and piety, they were inducted into the Order of the Silver Hand during the Second War. Dwarves soon joined the ranks of the knights, and the order played a key role in battling both the Horde in the Second War and the Scourge in the Third War.",
+     "{@race Draenei|WoW} access the power of the Light through their connection to the naaru, living embodiments of Light, while {@race Elf|WoW|blood elves} channel the Light's power through their Sunwell. {@race Tauren|WoW} servants of An'she, their sun god, wield holy power in similar ways, as do {@race Troll|WoW|Zandalari troll} devotees of Rezan. {@race Earthen|WoW} warriors called Ordinants channel the power of Order with effects that are indistinguishable from paladins' use of the Light."
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Paladin.webp"
+    },
+    "width": 1700,
+    "height": 2247,
+    "title": "Blood Elf Paladin",
+    "credit": "Wei Wang, Blizzard Artist"
+   },
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Paladin Crest.webp"
+    },
+    "width": 1700,
+    "height": 622
+   }
+  ]
+ },
+ {
+  "name": "Paladin",
   "source": "XPHB",
   "entries": [
    {
@@ -4056,6 +4347,41 @@
     "height": 2176,
     "title": "A Devout Warrior of Sacred Oaths",
     "credit": "Michael Broussard"
+   }
+  ]
+ },
+ {
+  "name": "Priest",
+  "source": "WoW",
+  "entries": [
+   {
+    "type": "section",
+    "name": "Priest",
+    "entries": [
+     "Priests are devoted to the spiritual realm, drawing power from the opposing forces of Light and Void. From the Light—which priests might conceptualize or revere as the Holy Light, Elune, or some other force or entity—priests draw holy power for healing and protection. From Shadow, priests call on power to break the will and sap the vitality of their foes. Priests wield both forces to support their allies and devastate their enemies."
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Priest.webp"
+    },
+    "width": 1700,
+    "height": 2400,
+    "title": "Prophet Velen, a Draenei Priest",
+    "credit": "Wei Wang, Blizzard Artist"
+   },
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Priest Crest.webp"
+    },
+    "width": 1700,
+    "height": 588
    }
   ]
  },
@@ -4727,6 +5053,41 @@
  },
  {
   "name": "Rogue",
+  "source": "WoW",
+  "entries": [
+   {
+    "type": "section",
+    "name": "Rogue",
+    "entries": [
+     "Rogues are lethal assassins and masters of stealth, whose preferred tactics include ambushes from the shadows, lethally precise strikes, and combinations of attacks that soften the enemy up for a killing blow. For many rogues, their only code of conduct is their employment contract, and their honor is purchased in gold. Others are loyal to organizations such as Stormwind's shadowy SI:7, the rebellious Defias Brotherhood, or the Deathstalkers among the Forsaken."
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Rogue.webp"
+    },
+    "width": 1700,
+    "height": 709,
+    "title": "Worgen Rogue",
+    "credit": "Blizzard Artist, Glenn Rane"
+   },
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Rogue Crest.webp"
+    },
+    "width": 1700,
+    "height": 588
+   }
+  ]
+ },
+ {
+  "name": "Rogue",
   "source": "XPHB",
   "entries": [
    {
@@ -4782,6 +5143,42 @@
     "width": 1959,
     "height": 1440,
     "credit": "Evyn Fong"
+   }
+  ]
+ },
+ {
+  "name": "Shaman",
+  "source": "WoW",
+  "entries": [
+   {
+    "type": "section",
+    "name": "Shaman",
+    "entries": [
+     "Shaman are spiritual adepts who commune with the elemental forces of the world and channel their power. These elemental forces are chaotic and, left to their own devices, would rage against each other in unending primal fury. A shaman's call is to bring balance to this chaos, acting as a moderator among air, earth, fire, and water. A shaman's magic focuses the elements to support the shaman's allies or punish those who threaten them.",
+     "Shaman are fierce warriors who wield their elemental magic as totems placed on the ground or auras that surround the shaman, rather than traditional spellcasting."
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Shaman.webp"
+    },
+    "width": 1700,
+    "height": 2549,
+    "title": "Vol'jin, a Troll Shadow Hunter Who Wields Shamanic Magic",
+    "credit": "Raymond Swanland, Blizzard Artist"
+   },
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Shaman Crest.webp"
+    },
+    "width": 1700,
+    "height": 601
    }
   ]
  },
@@ -5530,6 +5927,49 @@
  },
  {
   "name": "Warlock",
+  "source": "WoW",
+  "entries": [
+   {
+    "type": "section",
+    "name": "Warlock",
+    "entries": [
+     "Throughout the ages, many mortals have bargained with the demonic forces of the Burning Legion and the entities of the Void to gain power. To these warlocks, the destructive might of demons isn't something to be feared, but an opportunity to be coveted. The worst of them seek domination over others. The best of them wield demonic power as a weapon against the demons it comes from, turning the might of the Burning Legion against itself.",
+     "Warlocks summon demon minions to fight alongside them—wretched imps, loyal voidwalkers, manipulative sayaad (succubi and incubi), relentless felhunters, and more. While their minions harry their enemies, warlocks scour their foes with searing flames, demonic corruption, and ravaging curses.",
+     {
+      "type": "inset",
+      "name": "Warlock Patrons",
+      "entries": [
+       "The Fiend Patron subclass draws on the powers of the fel forces of the Burning Legion. The Great Old One Patron subclass gains its magic from the powers of the Void, including the Old Gods. Any given Warlock might have a multitude of both fel and Void patrons, but a Warlock's subclass shapes their spells and other abilities."
+      ]
+     }
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Warlock.webp"
+    },
+    "width": 1700,
+    "height": 2433,
+    "title": "Gnome Warlock",
+    "credit": "Dan Scott, Blizzard Artist"
+   },
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Warlock Crest.webp"
+    },
+    "width": 1700,
+    "height": 588
+   }
+  ]
+ },
+ {
+  "name": "Warlock",
   "source": "XPHB",
   "entries": [
    {
@@ -5565,6 +6005,42 @@
     "width": 1021,
     "height": 1440,
     "credit": "Wayne England"
+   }
+  ]
+ },
+ {
+  "name": "Warrior",
+  "source": "WoW",
+  "entries": [
+   {
+    "type": "section",
+    "name": "Warrior",
+    "entries": [
+     "For as long as war has raged, heroes of every people have aimed to master the art of battle. Warriors combine strength, leadership, and a vast knowledge of arms and armor to wreak havoc in glorious combat. Across cultures and kingdoms, those who demonstrate great physical aptitude undergo tests and training to build their strength, endurance, and fighting capability, forging them into the greatest warriors.",
+     "Some warriors protect others from the front lines with shields, locking down enemies while allies support the warrior from behind with spell and bow. Others forgo the shield and unleash their rage at the closest threat with a variety of deadly weapons."
+    ]
+   }
+  ],
+  "images": [
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Warrior.webp"
+    },
+    "width": 1700,
+    "height": 1567,
+    "title": "An Orc Warrior",
+    "credit": "Alex Horley-Orlandelli, Blizzard Artist"
+   },
+   {
+    "type": "image",
+    "href": {
+     "type": "internal",
+     "path": "classes/WoW/Warrior Crest.webp"
+    },
+    "width": 1700,
+    "height": 648
    }
   ]
  },
