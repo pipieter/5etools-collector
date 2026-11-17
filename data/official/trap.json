@@ -967,7 +967,7 @@
     "type": "entries",
     "name": "At Higher Levels",
     "entries": [
-     "You can scale the trap for higher levels by increasing each dart's Poison damage as follows: 7 ({@dice 2d6}) at levels 5–10, 14 ({@dice 4d6}) at levels 11–16, or 24 ({@dice 7d6}) at levels 17–20."
+     "You can scale the trap for higher levels by increasing each dart's Poison damage as follows: 7 ({@damage 2d6}) at levels 5–10, 14 ({@damage 4d6}) at levels 11–16, or 24 ({@damage 7d6}) at levels 17–20."
     ]
    }
   ],

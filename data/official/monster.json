@@ -3650,7 +3650,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Forsaken",
    "Orcish"
   ],
@@ -18007,7 +18007,7 @@
    "radiant"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Darnassian",
    "Thalassian"
   ],
@@ -20275,7 +20275,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Darnassian",
    "Druidic (WoW)",
    "Orcish"
@@ -29136,7 +29136,7 @@
    "fire"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Darnassian",
    "Druidic (WoW)"
   ],
@@ -33628,7 +33628,7 @@
    "radiant"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Dwarven"
   ],
   "cr": "20",
@@ -34596,6 +34596,7 @@
   "srd52": true,
   "basicRules2024": true,
   "referenceSources": [
+   "DDE",
    "EFA",
    "FRAiF",
    "LFL",
@@ -38251,7 +38252,7 @@
    "unconscious"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Nerubian",
    "Orcish"
   ],
@@ -40227,7 +40228,7 @@
   },
   "passive": 13,
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Orcish"
   ],
   "cr": "10",
@@ -59912,6 +59913,7 @@
    "ABH",
    "AUD",
    "BQGT",
+   "DDE",
    "DrDe",
    "DrDe-BD",
    "DrDe-DotSC",
@@ -63616,7 +63618,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Forsaken",
    "Orcish"
   ],
@@ -63766,7 +63768,7 @@
    "unconscious"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Forsaken",
    "Orcish"
   ],
@@ -73382,10 +73384,11 @@
   "hasFluffImages": true
  },
  {
-  "name": "Black Dragonflight Dragon (Gargantuan)",
+  "name": "Black Dragonflight Dragon",
   "source": "WoW",
   "page": 221,
   "size": [
+   "H",
    "G"
   ],
   "type": "dragon",
@@ -73432,9 +73435,10 @@
    "fire"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Draconic (WoW)",
-   "Orcish and two others"
+   "Orcish",
+   "and two others"
   ],
   "cr": "22",
   "spellcasting": [
@@ -73520,7 +73524,8 @@
   ],
   "languageTags": [
    "C",
-   "DR"
+   "DR",
+   "X"
   ],
   "damageTags": [
    "B",
@@ -73602,7 +73607,7 @@
    "fire"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Draconic (WoW)",
    "Orcish"
   ],
@@ -73736,7 +73741,7 @@
    "fire"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Draconic (WoW)",
    "Orcish"
   ],
@@ -77657,7 +77662,7 @@
    "exhaustion"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Forsaken",
    "Orcish",
    "Thalassian"
@@ -78065,7 +78070,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Orcish"
   ],
   "cr": "9",
@@ -78937,10 +78942,11 @@
   "hasFluffImages": true
  },
  {
-  "name": "Blue Dragonflight Dragon (Gargantuan)",
+  "name": "Blue Dragonflight Dragon",
   "source": "WoW",
   "page": 223,
   "size": [
+   "H",
    "G"
   ],
   "type": "dragon",
@@ -78987,9 +78993,10 @@
    "cold"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Draconic (WoW)",
-   "Orcish and two others"
+   "Orcish",
+   "and two others"
   ],
   "cr": "20",
   "spellcasting": [
@@ -79096,7 +79103,8 @@
   ],
   "languageTags": [
    "C",
-   "DR"
+   "DR",
+   "X"
   ],
   "damageTags": [
    "C",
@@ -79175,7 +79183,7 @@
    "cold"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Draconic (WoW)",
    "Orcish"
   ],
@@ -79324,7 +79332,7 @@
    "cold"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Draconic (WoW)",
    "Orcish"
   ],
@@ -87808,10 +87816,11 @@
   "hasFluffImages": true
  },
  {
-  "name": "Bronze Dragonflight Dragon (Gargantuan)",
+  "name": "Bronze Dragonflight Dragon",
   "source": "WoW",
   "page": 225,
   "size": [
+   "H",
    "G"
   ],
   "type": "dragon",
@@ -87858,9 +87867,10 @@
    "fire"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Draconic (WoW)",
-   "Orcish and two others"
+   "Orcish",
+   "and two others"
   ],
   "cr": "23",
   "spellcasting": [
@@ -87956,7 +87966,8 @@
   ],
   "languageTags": [
    "C",
-   "DR"
+   "DR",
+   "X"
   ],
   "damageTags": [
    "F",
@@ -88035,7 +88046,7 @@
    "fire"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Draconic (WoW)",
    "Orcish"
   ],
@@ -88172,7 +88183,7 @@
    "fire"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Draconic (WoW)",
    "Orcish"
   ],
@@ -91175,7 +91186,7 @@
    {
     "name": "Rotting Presence",
     "entries": [
-     "When any creature that isn't a demon starts its turn within 30 feet one or more bulezaus, that creature must succeed on a {@dc 13} Constitution saving throw or take {@dice 1d6} necrotic damage plus 1 necrotic damage for each bulezau within 30 feet of it."
+     "When any creature that isn't a demon starts its turn within 30 feet one or more bulezaus, that creature must succeed on a {@dc 13} Constitution saving throw or take {@damage 1d6} necrotic damage plus 1 necrotic damage for each bulezau within 30 feet of it."
     ]
    },
    {
@@ -94673,7 +94684,7 @@
   ],
   "passive": 11,
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Goblin (WoW)",
    "Orcish"
   ],
@@ -101548,7 +101559,7 @@
   },
   "passive": 21,
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Ogre (WoW)",
    "Orcish"
   ],
@@ -108195,7 +108206,7 @@
    "restrained"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Forsaken",
    "Orcish"
   ],
@@ -108451,6 +108462,7 @@
    "ABH",
    "AUD",
    "BQDD",
+   "DDE",
    "DrDe",
    "DrDe-ACfaS",
    "DrDe-BD",
@@ -126921,7 +126933,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Forsaken",
    "Orcish"
   ],
@@ -128789,7 +128801,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Forsaken",
    "Nerubian",
    "Orcish"
@@ -140561,7 +140573,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Eredun",
    "Orcish"
   ],
@@ -163492,6 +163504,9 @@
   "isNamedCreature": true,
   "source": "WoW",
   "page": 183,
+  "referenceSources": [
+   "DDE"
+  ],
   "size": [
    "M"
   ],
@@ -163538,7 +163553,7 @@
    "poison"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Goblin (WoW)",
    "Orcish"
   ],
@@ -182230,7 +182245,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Eredun",
    "Orcish"
   ],
@@ -182802,7 +182817,7 @@
   ],
   "passive": 11,
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Darnassian",
    "Eredun",
    "Orcish"
@@ -183915,7 +183930,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Forsaken",
    "Orcish"
   ],
@@ -194446,6 +194461,9 @@
   "isNamedCreature": true,
   "source": "WoW",
   "page": 181,
+  "referenceSources": [
+   "DDE"
+  ],
   "size": [
    "L"
   ],
@@ -194487,7 +194505,7 @@
   ],
   "passive": 8,
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Giant",
    "Orcish"
   ],
@@ -198906,7 +198924,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Draconic (WoW)",
    "Forsaken",
    "Orcish"
@@ -204792,7 +204810,7 @@
    {
     "name": "Scimitar",
     "entries": [
-     "{@atkr m} {@hit 7}, reach 5 ft. {@h}7 ({@dice 1d6 + 4}) Slashing."
+     "{@atkr m} {@hit 7}, reach 5 ft. {@h}7 ({@damage 1d6 + 4}) Slashing."
     ]
    },
    {
@@ -207720,6 +207738,7 @@
   "srd52": true,
   "basicRules2024": true,
   "referenceSources": [
+   "DDE",
    "DrDe",
    "DrDe-TWoO",
    "FRAiF",
@@ -212105,6 +212124,9 @@
   "page": 358,
   "srd52": true,
   "basicRules2024": true,
+  "referenceSources": [
+   "DDE"
+  ],
   "size": [
    "L"
   ],
@@ -217680,6 +217702,9 @@
   "isNamedCreature": true,
   "source": "WoW",
   "page": 182,
+  "referenceSources": [
+   "DDE"
+  ],
   "size": [
    "M"
   ],
@@ -217727,7 +217752,7 @@
   ],
   "passive": 10,
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Goblin (WoW)",
    "Orcish"
   ],
@@ -226940,6 +226965,7 @@
   "srd52": true,
   "basicRules2024": true,
   "referenceSources": [
+   "DDE",
    "FRAiF",
    "HotB",
    "WoW"
@@ -227238,6 +227264,7 @@
   "source": "XMM",
   "page": 143,
   "referenceSources": [
+   "DDE",
    "FRAiF",
    "RHW"
   ],
@@ -227384,6 +227411,7 @@
   "srd52": true,
   "basicRules2024": true,
   "referenceSources": [
+   "DDE",
    "WoW"
   ],
   "size": [
@@ -234454,13 +234482,14 @@
   "hasFluffImages": true
  },
  {
-  "name": "Green Dragonflight Dragon (Gargantuan)",
+  "name": "Green Dragonflight Dragon",
   "source": "WoW",
   "page": 231,
   "referenceSources": [
    "ICC"
   ],
   "size": [
+   "H",
    "G"
   ],
   "type": "dragon",
@@ -234507,9 +234536,10 @@
    "poison"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Draconic (WoW)",
-   "Orcish and two others"
+   "Orcish",
+   "and two others"
   ],
   "cr": "19",
   "spellcasting": [
@@ -234621,7 +234651,8 @@
   ],
   "languageTags": [
    "C",
-   "DR"
+   "DR",
+   "X"
   ],
   "damageTags": [
    "A",
@@ -234707,7 +234738,7 @@
    "poison"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Draconic (WoW)",
    "Orcish"
   ],
@@ -234849,7 +234880,7 @@
    "poison"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Draconic (WoW)",
    "Orcish"
   ],
@@ -237880,6 +237911,7 @@
   "srd52": true,
   "basicRules2024": true,
   "referenceSources": [
+   "DDE",
    "EFA",
    "NF",
    "WoW"
@@ -241981,6 +242013,7 @@
   "basicRules2024": true,
   "referenceSources": [
    "AUD",
+   "DDE",
    "DrDe",
    "DrDe-DaS",
    "DrDe-TFV",
@@ -244401,7 +244434,7 @@
    "frightened"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Forsaken",
    "Orcish"
   ],
@@ -252800,7 +252833,7 @@
    "stunned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Orcish"
   ],
   "cr": "13",
@@ -256619,7 +256652,7 @@
    {
     "name": "Force Strike",
     "entries": [
-     "{@atkr m,r} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. or range 30 ft. {@h}{@dice 1d6 + summonSpellLevel} Force damage."
+     "{@atkr m,r} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. or range 30 ft. {@h}{@damage 1d6 + summonSpellLevel} Force damage."
     ]
    }
   ],
@@ -258140,7 +258173,7 @@
   },
   "passive": 19,
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Orcish"
   ],
   "cr": "9",
@@ -265185,7 +265218,7 @@
    "frightened"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Darnassian",
    "Eredun",
    "Nathrezim",
@@ -266211,7 +266244,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Darnassian",
    "Orcish"
   ],
@@ -269220,7 +269253,7 @@
    {
     "name": "Silver Longsword",
     "entries": [
-     "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@dice 1d10 + 4}) if used with two hands, plus 18 ({@damage 4d8}) force damage."
+     "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) if used with two hands, plus 18 ({@damage 4d8}) force damage."
     ]
    },
    {
@@ -271453,7 +271486,7 @@
        [
         "6th",
         "38 ({@dice 7d8 + 7})",
-        "Coordinated Strike. When Iriad uses her Helpful feature to aid an ally in attacking a creature, that target can be up to 30 feet away from her, and she can deal an extra {@dice 2d6} damage to it the next time she hits it with an attack roll before the end of the current turn. The extra damage is the same type of damage dealt by the attack."
+        "Coordinated Strike. When Iriad uses her Helpful feature to aid an ally in attacking a creature, that target can be up to 30 feet away from her, and she can deal an extra {@damage 2d6} damage to it the next time she hits it with an attack roll before the end of the current turn. The extra damage is the same type of damage dealt by the attack."
        ],
        [
         "7th",
@@ -276578,7 +276611,7 @@
    }
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Dwarven"
   ],
   "cr": "22",
@@ -287094,7 +287127,7 @@
   },
   "passive": 14,
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Ogre (WoW)",
    "Orcish"
   ],
@@ -293384,7 +293417,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Nerubian",
    "Orcish"
   ],
@@ -296207,7 +296240,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Forsaken",
    "Orcish"
   ],
@@ -297009,7 +297042,7 @@
    "stunned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Nazja",
    "Orcish"
   ],
@@ -303919,7 +303952,7 @@
    "stunned"
   ],
   "languages": [
-   "all and telepathy 100 miles"
+   "all; telepathy 100 miles"
   ],
   "cr": "25",
   "gear": [
@@ -305640,7 +305673,7 @@
    {
     "name": "Magical Strike",
     "entries": [
-     "{@atk ms} {@hit 8} to hit, reach 10 ft., one target. {@h}22 ({@dice 5d6 + 5}) poison damage."
+     "{@atk ms} {@hit 8} to hit, reach 10 ft., one target. {@h}22 ({@damage 5d6 + 5}) poison damage."
     ]
    },
    {
@@ -309046,7 +309079,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Forsaken",
    "Orcish"
   ],
@@ -309182,7 +309215,7 @@
    "unconscious"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Forsaken",
    "Orcish"
   ],
@@ -309744,7 +309777,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Forsaken",
    "Orcish"
   ],
@@ -337625,7 +337658,7 @@
    {
     "name": "Chromatic Orb",
     "entries": [
-     "{@atk rs} {@hit 10} to hit, range 120 ft., one creature. {@h}13 ({@dice 3d8}) damage of a type chosen by Mordakhesh: acid, cold, fire, lightning, poison, or thunder."
+     "{@atk rs} {@hit 10} to hit, range 120 ft., one creature. {@h}13 ({@damage 3d8}) damage of a type chosen by Mordakhesh: acid, cold, fire, lightning, poison, or thunder."
     ]
    }
   ],
@@ -344861,7 +344894,7 @@
    "cold"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Darnassian",
    "Nazja",
    "Orcish"
@@ -344967,7 +345000,7 @@
    "cold"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Darnassian",
    "Nazja",
    "Orcish"
@@ -351309,7 +351342,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Nerubian",
    "Orcish"
   ],
@@ -351437,7 +351470,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Nerubian",
    "Orcish"
   ],
@@ -351565,7 +351598,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Nerubian",
    "Orcish"
   ],
@@ -360879,6 +360912,7 @@
   "srd52": true,
   "basicRules2024": true,
   "referenceSources": [
+   "DDE",
    "DrDe",
    "DrDe-BD",
    "EFA",
@@ -376910,6 +376944,7 @@
   "referenceSources": [
    "ABH",
    "AUD",
+   "DDE",
    "DrDe",
    "DrDe-BtS",
    "EFA",
@@ -383336,7 +383371,7 @@
    "exhaustion"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Forsaken",
    "Orcish",
    "Thalassian"
@@ -383631,7 +383666,7 @@
    "exhaustion"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Forsaken",
    "Orcish",
    "Thalassian"
@@ -383829,7 +383864,7 @@
    "restrained"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Darnassian",
    "Orcish"
   ],
@@ -384073,7 +384108,7 @@
    "exhaustion"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Forsaken",
    "Orcish",
    "Thalassian"
@@ -385250,7 +385285,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Forsaken",
    "Orcish"
   ],
@@ -385297,7 +385332,7 @@
    {
     "name": "Spawn Gas Cloud (Recharges When a Volatile Ooze Is Destroyed)",
     "entries": [
-     "Putricide creates a gas cloud—a Small object with AC 9, HP 45, and {@variantrule Resistance|XPHB} to all damage—in an unoccupied space within 15 feet of himself. The cloud targets a random enemy within 60 feet of itself; the target is cursed until the cloud is destroyed. At the end of Putricide's turn, the cursed creature takes 56 ({@damage 16d6}) Poison damage, and the cloud moves 10 feet straight toward it. This Poison damage is reduced by 7 ({@dice 2d6}) each round after the first, to a minimum of 7 ({@dice 2d6}). When the cloud enters a space within 5 feet of the cursed creature, it releases a toxic spray, creating the following effect. {@actSave dex} {@dc 20}, each creature in a 120-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the cloud. {@actSaveFail} 10 Poison damage for each {@damage d6} of damage the cursed creature took this round. {@actSaveSuccess} Half damage. {@actSaveSuccessOrFail} The cloud curses a new random enemy within 60 feet of itself and repeats this process until it is destroyed."
+     "Putricide creates a gas cloud—a Small object with AC 9, HP 45, and {@variantrule Resistance|XPHB} to all damage—in an unoccupied space within 15 feet of himself. The cloud targets a random enemy within 60 feet of itself; the target is cursed until the cloud is destroyed. At the end of Putricide's turn, the cursed creature takes 56 ({@damage 16d6}) Poison damage, and the cloud moves 10 feet straight toward it. This Poison damage is reduced by 7 ({@dice 2d6}) each round after the first, to a minimum of 7 ({@damage 2d6}). When the cloud enters a space within 5 feet of the cursed creature, it releases a toxic spray, creating the following effect. {@actSave dex} {@dc 20}, each creature in a 120-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the cloud. {@actSaveFail} 10 Poison damage for each {@damage d6} of damage the cursed creature took this round. {@actSaveSuccess} Half damage. {@actSaveSuccessOrFail} The cloud curses a new random enemy within 60 feet of itself and repeats this process until it is destroyed."
     ]
    }
   ],
@@ -387377,7 +387412,7 @@
    "poisoned"
   ],
   "languages": [
-   "understands Common and Giant but can't speak"
+   "understands Common (WoW) and Giant but can't speak"
   ],
   "cr": "2",
   "trait": [
@@ -390371,7 +390406,7 @@
   ],
   "passive": 14,
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Orcish",
    "Quilboar"
   ],
@@ -391302,7 +391337,7 @@
    "unconscious"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Kalimag",
    "Orcish"
   ],
@@ -394803,7 +394838,7 @@
    {
     "name": "Dreadful Swipe",
     "entries": [
-     "{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. {@h}{@dice 1d4} plus your Intelligence modifier Necrotic damage, and the target can't take {@action Opportunity Attack|XPHB|Opportunity Attacks} until the start of its next turn."
+     "{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. {@h}{@damage 1d4} plus your Intelligence modifier Necrotic damage, and the target can't take {@action Opportunity Attack|XPHB|Opportunity Attacks} until the start of its next turn."
     ]
    }
   ],
@@ -395909,10 +395944,11 @@
   "hasFluffImages": true
  },
  {
-  "name": "Red Dragonflight Dragon (Gargantuan)",
+  "name": "Red Dragonflight Dragon",
   "source": "WoW",
   "page": 251,
   "size": [
+   "H",
    "G"
   ],
   "type": "dragon",
@@ -395958,9 +395994,10 @@
    "fire"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Draconic (WoW)",
-   "Orcish and two others"
+   "Orcish",
+   "and two others"
   ],
   "cr": "21",
   "spellcasting": [
@@ -396051,7 +396088,8 @@
   ],
   "languageTags": [
    "C",
-   "DR"
+   "DR",
+   "X"
   ],
   "damageTags": [
    "F",
@@ -396133,7 +396171,7 @@
    "fire"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Draconic (WoW)",
    "Orcish"
   ],
@@ -396274,7 +396312,7 @@
    "fire"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Draconic (WoW)",
    "Orcish"
   ],
@@ -405597,7 +405635,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Forsaken",
    "Orcish"
   ],
@@ -415319,7 +415357,7 @@
   },
   "passive": 9,
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Orcish"
   ],
   "cr": "18",
@@ -415463,7 +415501,7 @@
    "radiant"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Orcish"
   ],
   "cr": "13",
@@ -417530,6 +417568,7 @@
   "srd52": true,
   "basicRules2024": true,
   "referenceSources": [
+   "DDE",
    "DrDe",
    "DrDe-DaS",
    "DrDe-TDoN",
@@ -417636,6 +417675,7 @@
   "page": 270,
   "referenceSources": [
    "AUD",
+   "DDE",
    "EFA",
    "FRAiF",
    "LFL",
@@ -420505,7 +420545,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Forsaken",
    "Orcish"
   ],
@@ -430959,7 +430999,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Draconic (WoW)",
    "Forsaken",
    "Orcish"
@@ -439087,6 +439127,9 @@
   "isNamedCreature": true,
   "source": "WoW",
   "page": 182,
+  "referenceSources": [
+   "DDE"
+  ],
   "size": [
    "L"
   ],
@@ -448186,9 +448229,7 @@
    "unconscious"
   ],
   "languages": [
-   "understands Common",
-   "Forsaken",
-   "and Orcish but can't speak"
+   "understands Common (WoW), Forsaken, and Orcish but can't speak"
   ],
   "cr": "1",
   "trait": [
@@ -452476,7 +452517,7 @@
    {
     "name": "Force-Empowered Rend",
     "entries": [
-     "{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. {@h}{@dice 1d8 + 2} plus your Intelligence modifier Force damage."
+     "{@atkr m} {@hitYourSpellAttack Bonus equals your spell attack modifier}, reach 5 ft. {@h}{@damage 1d8 + 2} plus your Intelligence modifier Force damage."
     ]
    },
    {
@@ -455635,7 +455676,7 @@
    {
     "name": "Black Earth Rod",
     "entries": [
-     "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage. The Stonemelder can also expend a spell slot to deal extra damage, dealing {@damage 2d8} bludgeoning damage for a 1st level slot, plus an additional {@dice 1d8} for each level of the slot above 1st."
+     "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage. The Stonemelder can also expend a spell slot to deal extra damage, dealing {@damage 2d8} bludgeoning damage for a 1st level slot, plus an additional {@damage 1d8} for each level of the slot above 1st."
     ]
    }
   ],
@@ -466611,7 +466652,7 @@
    "frightened"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Darnassian",
    "Forsaken",
    "Orcish",
@@ -468795,7 +468836,7 @@
    {
     "name": "Chromatic Orb (1/Day)",
     "entries": [
-     "{@atk rs} {@hit 4} to hit, range 90 ft., one creature. {@h}18 ({@dice 4d8}) damage of a type chosen by the assassin: acid, cold, fire, lightning, poison, or thunder."
+     "{@atk rs} {@hit 4} to hit, range 90 ft., one creature. {@h}18 ({@damage 4d8}) damage of a type chosen by the assassin: acid, cold, fire, lightning, poison, or thunder."
     ]
    }
   ],
@@ -476629,7 +476670,7 @@
    "lightning"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Kalimag",
    "Orcish",
    "Taur-ahe"
@@ -479299,7 +479340,7 @@
    "frightened"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Dwarven",
    "Orcish"
   ],
@@ -483213,6 +483254,7 @@
   "basicRules2024": true,
   "referenceSources": [
    "ABH",
+   "DDE",
    "DrDe",
    "DrDe-BD",
    "DrDe-BtS",
@@ -483312,6 +483354,7 @@
   "basicRules2024": true,
   "referenceSources": [
    "ABH",
+   "DDE",
    "DrDe",
    "DrDe-TFV",
    "EFA",
@@ -489165,7 +489208,7 @@
    "psychic"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Orcish"
   ],
   "cr": "7",
@@ -493235,7 +493278,7 @@
    {
     "name": "Flame Strike (5th-Level Spell; Requires a Spell Slot)",
     "entries": [
-     "The councilor chooses a point it can see within 60 feet of it. Each creature in a 10-foot-radius, 40-foot-high cylinder centered on that point must make a {@dc 17} Dexterity saving throw. A creature takes 14 ({@damage 4d6}) fire damage and 14 ({@damage 4d6}) radiant damage on a failed save, or half as much damage on a successful one. If the councilor casts this spell using a spell slot of 6th level or higher, the fire damage or the radiant damage (its choice) increases by {@dice 1d6} for each slot level above 5th."
+     "The councilor chooses a point it can see within 60 feet of it. Each creature in a 10-foot-radius, 40-foot-high cylinder centered on that point must make a {@dc 17} Dexterity saving throw. A creature takes 14 ({@damage 4d6}) fire damage and 14 ({@damage 4d6}) radiant damage on a failed save, or half as much damage on a successful one. If the councilor casts this spell using a spell slot of 6th level or higher, the fire damage or the radiant damage (its choice) increases by {@damage 1d6} for each slot level above 5th."
     ]
    }
   ],
@@ -504722,7 +504765,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Forsaken",
    "Orcish"
   ],
@@ -508156,8 +508199,7 @@
   "source": "DoSI",
   "page": 48,
   "referenceSources": [
-   "BMT",
-   "PaBTSO"
+   "BMT"
   ],
   "_copy": {
    "name": "Violet Fungus",
@@ -508192,6 +508234,7 @@
    "GoS",
    "HotDQ",
    "OotA",
+   "PaBTSO",
    "PotA",
    "SCC-CK"
   ],
@@ -509499,7 +509542,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Eredun",
    "Orcish"
   ],
@@ -509601,7 +509644,7 @@
    "poisoned"
   ],
   "languages": [
-   "Common",
+   "Common (WoW)",
    "Eredun",
    "Orcish"
   ],
@@ -521871,6 +521914,7 @@
   "srd52": true,
   "basicRules2024": true,
   "referenceSources": [
+   "DDE",
    "FRAiF",
    "RHW",
    "SoS",
@@ -547236,7 +547280,7 @@
    {
     "name": "Martial Prowess (1/Turn)",
     "entries": [
-     "When the rakshasa hits a creature with a melee weapon attack, the attack deals an extra 11 ({@dice 2d10}) damage of the weapon's type, and the creature must make a {@dc 15} Strength saving throw. On a failure, the rakshasa can push the creature up to 10 feet away from it, knock the creature {@condition prone}, or make the creature drop one item it is holding of the rakshasa's choice."
+     "When the rakshasa hits a creature with a melee weapon attack, the attack deals an extra 11 ({@damage 2d10}) damage of the weapon's type, and the creature must make a {@dc 15} Strength saving throw. On a failure, the rakshasa can push the creature up to 10 feet away from it, knock the creature {@condition prone}, or make the creature drop one item it is holding of the rakshasa's choice."
     ]
    }
   ],
@@ -549423,7 +549467,7 @@
    {
     "name": "Prime Speaker's Trident",
     "entries": [
-     "{@atk mw,rw} {@hit 10} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}12 ({@damage 2d6 + 5}) piercing damage, and the trident emits a thunderous boom. Each creature in a 15-foot cube originating from the prongs of the trident must make a {@dc 18} Constitution saving throw. On a failed save, the creature takes 9 ({@damage 2d8}) thunder damage and is pushed 10 feet away from Zegana. If the creature is underwater, the damage is increased to 13 ({@dice 3d8}). On a successful save, the creature takes half as much damage and isn't pushed."
+     "{@atk mw,rw} {@hit 10} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}12 ({@damage 2d6 + 5}) piercing damage, and the trident emits a thunderous boom. Each creature in a 15-foot cube originating from the prongs of the trident must make a {@dc 18} Constitution saving throw. On a failed save, the creature takes 9 ({@damage 2d8}) thunder damage and is pushed 10 feet away from Zegana. If the creature is underwater, the damage is increased to 13 ({@damage 3d8}). On a successful save, the creature takes half as much damage and isn't pushed."
     ]
    },
    {

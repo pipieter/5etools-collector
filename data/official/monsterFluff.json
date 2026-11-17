@@ -11082,7 +11082,7 @@
           "type": "entries",
           "name": "Burning Corpse",
           "entries": [
-           "When the creature dies, its body is reduced to a pile of smoldering embers in the space where it fell. The ashes take 1 minute to cool. Until then, a creature takes 3 ({@dice 1d6}) fire damage when it enters the ashes' space for the first time on a turn or starts its turn there."
+           "When the creature dies, its body is reduced to a pile of smoldering embers in the space where it fell. The ashes take 1 minute to cool. Until then, a creature takes 3 ({@damage 1d6}) fire damage when it enters the ashes' space for the first time on a turn or starts its turn there."
           ]
          }
         ]
@@ -16550,7 +16550,7 @@
   ]
  },
  {
-  "name": "Black Dragonflight Dragon (Gargantuan)",
+  "name": "Black Dragonflight Dragon",
   "source": "WoW",
   "_copy": {
    "name": "Black Dragonflight",
@@ -16574,7 +16574,7 @@
     "type": "image",
     "href": {
      "type": "internal",
-     "path": "bestiary/WoW/Black Dragonflight Dragon (Gargantuan).webp"
+     "path": "bestiary/WoW/Black Dragonflight Dragon.webp"
     },
     "width": 1000,
     "height": 739,
@@ -18161,7 +18161,7 @@
   ]
  },
  {
-  "name": "Blue Dragonflight Dragon (Gargantuan)",
+  "name": "Blue Dragonflight Dragon",
   "source": "WoW",
   "_copy": {
    "name": "Blue Dragonflight",
@@ -18185,7 +18185,7 @@
     "type": "image",
     "href": {
      "type": "internal",
-     "path": "bestiary/WoW/Blue Dragonflight Dragon (Gargantuan).webp"
+     "path": "bestiary/WoW/Blue Dragonflight Dragon.webp"
     },
     "width": 1000,
     "height": 751,
@@ -20598,7 +20598,7 @@
   ]
  },
  {
-  "name": "Bronze Dragonflight Dragon (Gargantuan)",
+  "name": "Bronze Dragonflight Dragon",
   "source": "WoW",
   "_copy": {
    "name": "Bronze Dragonflight",
@@ -20622,7 +20622,7 @@
     "type": "image",
     "href": {
      "type": "internal",
-     "path": "bestiary/WoW/Bronze Dragonflight Dragon (Gargantuan).webp"
+     "path": "bestiary/WoW/Bronze Dragonflight Dragon.webp"
     },
     "width": 1000,
     "height": 647,
@@ -60495,7 +60495,7 @@
   ]
  },
  {
-  "name": "Green Dragonflight Dragon (Gargantuan)",
+  "name": "Green Dragonflight Dragon",
   "source": "WoW",
   "_copy": {
    "name": "Green Dragonflight",
@@ -60519,7 +60519,7 @@
     "type": "image",
     "href": {
      "type": "internal",
-     "path": "bestiary/WoW/Green Dragonflight Dragon (Gargantuan).webp"
+     "path": "bestiary/WoW/Green Dragonflight Dragon.webp"
     },
     "width": 975,
     "height": 1000,
@@ -99982,7 +99982,7 @@
            "type": "entries",
            "name": "Spectral",
            "entries": [
-            "The priest now appears wraithlike, and its challenge rating increases by 1. It gains resistance to all damage but force, radiant, and psychic, and it is vulnerable to radiant damage. It can also move through creatures and objects as if they were {@quickref difficult terrain||3}, but it takes 5 ({@dice 1d10}) force damage if it ends its turn inside a creature or an object."
+            "The priest now appears wraithlike, and its challenge rating increases by 1. It gains resistance to all damage but force, radiant, and psychic, and it is vulnerable to radiant damage. It can also move through creatures and objects as if they were {@quickref difficult terrain||3}, but it takes 5 ({@damage 1d10}) force damage if it ends its turn inside a creature or an object."
            ]
           }
          ],
@@ -99992,7 +99992,7 @@
            "type": "entries",
            "name": "Deathly",
            "entries": [
-            "The priest's visage becomes bone white, and its challenge rating increases by 1. It can cast {@spell animate dead} and create undead once per day each, using Intelligence as the spellcasting ability, and it gains the following action: Circle of Death (Spell; {@recharge 5|m}). Each creature in a 60-foot-radius sphere centered on a point the priest can see within 150 feet of it must make a {@dc 15} Constitution saving throw, taking 28 ({@dice 8d6}) necrotic damage on a failed save, or half as much damage on a successful one."
+            "The priest's visage becomes bone white, and its challenge rating increases by 1. It can cast {@spell animate dead} and create undead once per day each, using Intelligence as the spellcasting ability, and it gains the following action: Circle of Death (Spell; {@recharge 5|m}). Each creature in a 60-foot-radius sphere centered on a point the priest can see within 150 feet of it must make a {@dc 15} Constitution saving throw, taking 28 ({@damage 8d6}) necrotic damage on a failed save, or half as much damage on a successful one."
            ]
           }
          ]
@@ -101232,7 +101232,9 @@
     "href": {
      "type": "internal",
      "path": "bestiary/ICC/Pustulating Horror.webp"
-    }
+    },
+    "width": 1000,
+    "height": 776
    }
   ]
  },
@@ -101456,7 +101458,7 @@
         "type": "entries",
         "name": "Attacks",
         "entries": [
-         "If the servant has no other means of dealing damage, it can use its fists or limbs to make unarmed strikes. On a hit, an unarmed strike deals bludgeoning damage equal to {@dice 1d4} + the servant's Strength modifier, or, if the servant is Large, {@dice 2d4} + its Strength modifier."
+         "If the servant has no other means of dealing damage, it can use its fists or limbs to make unarmed strikes. On a hit, an unarmed strike deals bludgeoning damage equal to {@damage 1d4} + the servant's Strength modifier, or, if the servant is Large, {@damage 2d4} + its Strength modifier."
         ]
        }
       ]
@@ -103313,7 +103315,7 @@
   ]
  },
  {
-  "name": "Red Dragonflight Dragon (Gargantuan)",
+  "name": "Red Dragonflight Dragon",
   "source": "WoW",
   "_copy": {
    "name": "Red Dragonflight",
@@ -103337,7 +103339,7 @@
     "type": "image",
     "href": {
      "type": "internal",
-     "path": "bestiary/WoW/Red Dragonflight Dragon (Gargantuan).webp"
+     "path": "bestiary/WoW/Red Dragonflight Dragon.webp"
     },
     "width": 1000,
     "height": 692,
@@ -109664,7 +109666,9 @@
     "href": {
      "type": "internal",
      "path": "bestiary/ICC/Servant of the Throne.webp"
-    }
+    },
+    "width": 714,
+    "height": 1000
    }
   ]
  },
@@ -122423,7 +122427,9 @@
     "href": {
      "type": "internal",
      "path": "bestiary/ICC/The Damned.webp"
-    }
+    },
+    "width": 750,
+    "height": 1000
    }
   ]
  },
@@ -122790,7 +122796,7 @@
            "type": "entries",
            "name": "Bull Horns",
            "entries": [
-            "If the chimera moves at least 20 feet straight toward a target and then hits it with a head attack on the same turn, the target takes an extra 7 ({@dice 2d6}) piercing damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked prone."
+            "If the chimera moves at least 20 feet straight toward a target and then hits it with a head attack on the same turn, the target takes an extra 7 ({@damage 2d6}) piercing damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked prone."
            ]
           }
          ],
@@ -122810,7 +122816,7 @@
            "type": "entries",
            "name": "Unicorn Horn",
            "entries": [
-            "The chimera's head attack is magical and deals an extra 4 ({@dice 1d8}) radiant damage."
+            "The chimera's head attack is magical and deals an extra 4 ({@damage 1d8}) radiant damage."
            ]
           }
          ],
@@ -122844,7 +122850,7 @@
            "type": "entries",
            "name": "Lightning Breath {@recharge 5}",
            "entries": [
-            "The chimera exhales lightning in a 60-foot line that is 5 feet wide. Each creature in that line must make a {@dc 15} Dexterity saving throw, taking 36 ({@dice 8d8}) lightning damage on a failed save, or half as much damage on a successful one."
+            "The chimera exhales lightning in a 60-foot line that is 5 feet wide. Each creature in that line must make a {@dc 15} Dexterity saving throw, taking 36 ({@damage 8d8}) lightning damage on a failed save, or half as much damage on a successful one."
            ]
           }
          ],
@@ -122854,7 +122860,7 @@
            "type": "entries",
            "name": "Tidal Wave Breath {@recharge 5}",
            "entries": [
-            "The chimera has an aquatic creature's head that exhales a torrent of acidic water in a 60-foot line that is 5 feet wide. Each creature in the line must make a {@dc 15} Dexterity saving throw. On failed save, a creature takes 27 ({@dice 5d10}) acid damage and is knocked prone. On a successful save, it takes half as much damage and isn't knocked prone."
+            "The chimera has an aquatic creature's head that exhales a torrent of acidic water in a 60-foot line that is 5 feet wide. Each creature in the line must make a {@dc 15} Dexterity saving throw. On failed save, a creature takes 27 ({@damage 5d10}) acid damage and is knocked prone. On a successful save, it takes half as much damage and isn't knocked prone."
            ]
           }
          ],
@@ -122864,7 +122870,7 @@
            "type": "entries",
            "name": "Venom Spray {@recharge 5}",
            "entries": [
-            "The chimera has a venomous creature's head that exhales a spray of poison in a 15-foot cone. Each creature in that area must succeed on a {@dc 15} Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, a target takes 35 ({@dice 10d6}) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+            "The chimera has a venomous creature's head that exhales a spray of poison in a 15-foot cone. Each creature in that area must succeed on a {@dc 15} Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, a target takes 35 ({@damage 10d6}) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
            ]
           }
          ],
@@ -122874,7 +122880,7 @@
            "type": "entries",
            "name": "Necrotic Breath {@recharge 5}",
            "entries": [
-            "The chimera exhales necrotic energy in a 15-foot cone. Each creature in that area must succeed on a {@dc 15} Constitution saving throw, or it takes 31 ({@dice 7d8}) necrotic damage and is unable to regain hit points until the end of its next turn."
+            "The chimera exhales necrotic energy in a 15-foot cone. Each creature in that area must succeed on a {@dc 15} Constitution saving throw, or it takes 31 ({@damage 7d8}) necrotic damage and is unable to regain hit points until the end of its next turn."
            ]
           }
          ]
@@ -128145,7 +128151,7 @@
            "type": "entries",
            "name": "Beguiling Hex {@recharge 5}",
            "entries": [
-            "The horror expels a wave of mind-altering magic. Each creature within 30 feet of the horror must make a {@dc 15} Wisdom saving throw, taking 33 ({@dice 6d10}) psychic damage and being incapacitated until the end of the creature's next turn on a failed save, or taking half as much damage on a successful one."
+            "The horror expels a wave of mind-altering magic. Each creature within 30 feet of the horror must make a {@dc 15} Wisdom saving throw, taking 33 ({@damage 6d10}) psychic damage and being incapacitated until the end of the creature's next turn on a failed save, or taking half as much damage on a successful one."
            ]
           }
          ],
@@ -128155,7 +128161,7 @@
            "type": "entries",
            "name": "Bile Hex {@recharge 5}",
            "entries": [
-            "The horror expels acidic bile in a 60-foot line that is 5 feet wide. Each creature in that line must succeed on a {@dc 15} Dexterity saving throw or be covered in bile. A creature covered in bile takes 31 ({@dice 7d8}) acid damage at the start of each of its turns until it or another creature uses its action to scrape or wash off the bile that covers it."
+            "The horror expels acidic bile in a 60-foot line that is 5 feet wide. Each creature in that line must succeed on a {@dc 15} Dexterity saving throw or be covered in bile. A creature covered in bile takes 31 ({@damage 7d8}) acid damage at the start of each of its turns until it or another creature uses its action to scrape or wash off the bile that covers it."
            ]
           }
          ],
@@ -128165,7 +128171,7 @@
            "type": "entries",
            "name": "Petrifying Hex {@recharge 5}",
            "entries": [
-            "The horror expels petrifying gas in a 30-foot cone. Each creature in that area must succeed on a {@dc 15} Constitution saving throw or take 14 ({@dice 4d6}) necrotic damage and be restrained as it begins to turn to stone. A restrained creature must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is petrified until freed by the {@spell greater restoration} spell or other magic."
+            "The horror expels petrifying gas in a 30-foot cone. Each creature in that area must succeed on a {@dc 15} Constitution saving throw or take 14 ({@damage 4d6}) necrotic damage and be restrained as it begins to turn to stone. A restrained creature must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is petrified until freed by the {@spell greater restoration} spell or other magic."
            ]
           }
          ],
@@ -128175,7 +128181,7 @@
            "type": "entries",
            "name": "Reality-Stealing Hex {@recharge 5}",
            "entries": [
-            "The horror expels a wave of perception-distorting energy. Each creature within 30 feet of the horror must make a {@dc 15} Wisdom saving throw. On a failed save, the target takes 22 ({@dice 5d8}) psychic damage and is deafened until the end of its next turn. If the saving throw fails by 5 or more, the target is also blinded until the end of its next turn."
+            "The horror expels a wave of perception-distorting energy. Each creature within 30 feet of the horror must make a {@dc 15} Wisdom saving throw. On a failed save, the target takes 22 ({@damage 5d8}) psychic damage and is deafened until the end of its next turn. If the saving throw fails by 5 or more, the target is also blinded until the end of its next turn."
            ]
           }
          ]
@@ -128209,7 +128215,7 @@
            "type": "entries",
            "name": "Corrosive Pseudopod",
            "entries": [
-            "The horror's limb attack deals an extra 9 ({@dice 2d8}) acid damage."
+            "The horror's limb attack deals an extra 9 ({@damage 2d8}) acid damage."
            ]
           }
          ],
@@ -128229,7 +128235,7 @@
            "type": "entries",
            "name": "Poisonous Limb",
            "entries": [
-            "The horror's limb deals piercing damage instead of bludgeoning damage. In addition, when the horror hits a creature with this limb, the creature must succeed on a {@dc 15} Constitution saving throw or take 7 ({@dice 2d6}) poison damage and be poisoned until the end of its next turn."
+            "The horror's limb deals piercing damage instead of bludgeoning damage. In addition, when the horror hits a creature with this limb, the creature must succeed on a {@dc 15} Constitution saving throw or take 7 ({@damage 2d6}) poison damage and be poisoned until the end of its next turn."
            ]
           }
          ]
@@ -128507,7 +128513,9 @@
     "href": {
      "type": "internal",
      "path": "bestiary/ICC/Valkyr Herald.webp"
-    }
+    },
+    "width": 1000,
+    "height": 776
    }
   ]
  },
@@ -142936,7 +142944,7 @@
    {
     "type": "entries",
     "entries": [
-     "On initiative count 20 (losing initiative ties), Zikran uses his handheld device to fire the cannon at one creature he can see, provided the creature is in the basement or on the staircase. Zikran's target must make a {@dc 17} Dexterity saving throw, taking 24 ({@dice 7d6}) cold damage on a failed save, or half as much damage on a successful one. The basement furnishings provide {@quickref Cover||3||half cover}, should a creature wish to hide behind them.",
+     "On initiative count 20 (losing initiative ties), Zikran uses his handheld device to fire the cannon at one creature he can see, provided the creature is in the basement or on the staircase. Zikran's target must make a {@dc 17} Dexterity saving throw, taking 24 ({@damage 7d6}) cold damage on a failed save, or half as much damage on a successful one. The basement furnishings provide {@quickref Cover||3||half cover}, should a creature wish to hide behind them.",
      "The cannon is a Large object with AC 16, 80 hit points, and immunity to poison and psychic damage. It is mounted atop a swivel and bolted to the dais. The cannon draws power from the crystal in the middle of the room. This crystal sparks with elemental power whenever the cannon is about to fire. If the crystal is destroyed, both Zikran's handheld device and the cannon become powerless. The crystal is a Large object with AC 13, 40 hit points, and immunity to poison and psychic damage."
     ]
    }
@@ -143079,7 +143087,7 @@
           "type": "entries",
           "name": "Treasure",
           "entries": [
-           "Ziraj wears +2 leather armor and carries an oversized longbow. This unique weapon can be used only by a Medium or larger creature that has a Strength of 18 or higher. The bow shoots oversized arrows that deal piercing damage equal to {@dice 2d6} + the wielder's Strength modifier. Its range is the same as an ordinary longbow."
+           "Ziraj wears +2 leather armor and carries an oversized longbow. This unique weapon can be used only by a Medium or larger creature that has a Strength of 18 or higher. The bow shoots oversized arrows that deal piercing damage equal to {@damage 2d6} + the wielder's Strength modifier. Its range is the same as an ordinary longbow."
           ]
          }
         ]

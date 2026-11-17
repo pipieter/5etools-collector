@@ -12204,6 +12204,12 @@
   "casterSource": "WoW"
  },
  {
+  "spellName": "Blur",
+  "spellSource": "XPHB",
+  "casterName": "Priest",
+  "casterSource": "WoW"
+ },
+ {
   "spellName": "Burning Hands",
   "spellSource": "XPHB",
   "casterName": "Sorcerer",
@@ -13323,6 +13329,12 @@
   "spellName": "Create Food and Water",
   "spellSource": "XPHB",
   "casterName": "Death Knight",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Create Food and Water",
+  "spellSource": "XPHB",
+  "casterName": "Mage",
   "casterSource": "WoW"
  },
  {
@@ -14510,6 +14522,12 @@
  {
   "spellName": "Dominate Monster",
   "spellSource": "XPHB",
+  "casterName": "Priest",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Dominate Monster",
+  "spellSource": "XPHB",
   "casterName": "Warlock",
   "casterSource": "WoW"
  },
@@ -14541,6 +14559,12 @@
   "spellName": "Dominate Person",
   "spellSource": "XPHB",
   "casterName": "Mage",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Dominate Person",
+  "spellSource": "XPHB",
+  "casterName": "Priest",
   "casterSource": "WoW"
  },
  {
@@ -15598,6 +15622,12 @@
   "spellSource": "XPHB",
   "casterName": "Cleric",
   "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Flame Strike",
+  "spellSource": "XPHB",
+  "casterName": "Mage",
+  "casterSource": "WoW"
  },
  {
   "spellName": "Flame Strike",
@@ -16680,6 +16710,12 @@
   "casterSource": "WoW"
  },
  {
+  "spellName": "Haste",
+  "spellSource": "XPHB",
+  "casterName": "Priest",
+  "casterSource": "WoW"
+ },
+ {
   "spellName": "Heal",
   "spellSource": "XPHB",
   "casterName": "Cleric",
@@ -16791,6 +16827,12 @@
   "spellName": "Heroes' Feast",
   "spellSource": "XPHB",
   "casterName": "Druid",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Heroes' Feast",
+  "spellSource": "XPHB",
+  "casterName": "Mage",
   "casterSource": "WoW"
  },
  {
@@ -17589,6 +17631,12 @@
   "spellName": "Levitate",
   "spellSource": "XPHB",
   "casterName": "Mage",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Levitate",
+  "spellSource": "XPHB",
+  "casterName": "Priest",
   "casterSource": "WoW"
  },
  {
@@ -18549,6 +18597,12 @@
   "spellName": "Mind Sliver",
   "spellSource": "XPHB",
   "casterName": "Mage",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Mind Sliver",
+  "spellSource": "XPHB",
+  "casterName": "Priest",
   "casterSource": "WoW"
  },
  {
@@ -21651,6 +21705,12 @@
   "spellName": "Summon Undead",
   "spellSource": "XPHB",
   "casterName": "Mage",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Summon Undead",
+  "spellSource": "XPHB",
+  "casterName": "Priest",
   "casterSource": "WoW"
  },
  {
@@ -24812,8 +24872,20 @@
  {
   "spellName": "Apotheosis",
   "spellSource": "WoW",
+  "casterName": "Cleric",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Apotheosis",
+  "spellSource": "WoW",
   "casterName": "Priest",
   "casterSource": "WoW"
+ },
+ {
+  "spellName": "Arcane Pulse",
+  "spellSource": "WoW",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
  },
  {
   "spellName": "Arcane Pulse",
@@ -24824,8 +24896,20 @@
  {
   "spellName": "Azure Strike",
   "spellSource": "WoW",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Azure Strike",
+  "spellSource": "WoW",
   "casterName": "Evoker",
   "casterSource": "WoW"
+ },
+ {
+  "spellName": "Azure Sweep",
+  "spellSource": "WoW",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
  },
  {
   "spellName": "Azure Sweep",
@@ -24836,14 +24920,32 @@
  {
   "spellName": "Blistering Scales",
   "spellSource": "WoW",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Blistering Scales",
+  "spellSource": "WoW",
   "casterName": "Evoker",
   "casterSource": "WoW"
  },
  {
   "spellName": "Breath of Eons",
   "spellSource": "WoW",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Breath of Eons",
+  "spellSource": "WoW",
   "casterName": "Evoker",
   "casterSource": "WoW"
+ },
+ {
+  "spellName": "Combustion",
+  "spellSource": "WoW",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
  },
  {
   "spellName": "Combustion",
@@ -24855,7 +24957,19 @@
   "spellName": "Consecration",
   "spellSource": "WoW",
   "casterName": "Paladin",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Consecration",
+  "spellSource": "WoW",
+  "casterName": "Paladin",
   "casterSource": "WoW"
+ },
+ {
+  "spellName": "Curse of Agony",
+  "spellSource": "WoW",
+  "casterName": "Warlock",
+  "casterSource": "XPHB"
  },
  {
   "spellName": "Curse of Agony",
@@ -24867,7 +24981,19 @@
   "spellName": "Divine Shield",
   "spellSource": "WoW",
   "casterName": "Paladin",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Divine Shield",
+  "spellSource": "WoW",
+  "casterName": "Paladin",
   "casterSource": "WoW"
+ },
+ {
+  "spellName": "Dream Breath",
+  "spellSource": "WoW",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
  },
  {
   "spellName": "Dream Breath",
@@ -24878,8 +25004,20 @@
  {
   "spellName": "Dream Flight",
   "spellSource": "WoW",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Dream Flight",
+  "spellSource": "WoW",
   "casterName": "Evoker",
   "casterSource": "WoW"
+ },
+ {
+  "spellName": "Ebon Might",
+  "spellSource": "WoW",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
  },
  {
   "spellName": "Ebon Might",
@@ -24890,8 +25028,20 @@
  {
   "spellName": "Emberstorm",
   "spellSource": "WoW",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Emberstorm",
+  "spellSource": "WoW",
   "casterName": "Evoker",
   "casterSource": "WoW"
+ },
+ {
+  "spellName": "Emerald Blossom",
+  "spellSource": "WoW",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
  },
  {
   "spellName": "Emerald Blossom",
@@ -24903,13 +25053,31 @@
   "spellName": "Entropic Embrace",
   "spellSource": "WoW",
   "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Entropic Embrace",
+  "spellSource": "WoW",
+  "casterName": "Warlock",
   "casterSource": "WoW"
+ },
+ {
+  "spellName": "Eruption",
+  "spellSource": "WoW",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
  },
  {
   "spellName": "Eruption",
   "spellSource": "WoW",
   "casterName": "Evoker",
   "casterSource": "WoW"
+ },
+ {
+  "spellName": "Explosive Trap",
+  "spellSource": "WoW",
+  "casterName": "Ranger",
+  "casterSource": "XPHB"
  },
  {
   "spellName": "Explosive Trap",
@@ -24921,7 +25089,19 @@
   "spellName": "Feral Prowl",
   "spellSource": "WoW",
   "casterName": "Druid",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Feral Prowl",
+  "spellSource": "WoW",
+  "casterName": "Druid",
   "casterSource": "WoW"
+ },
+ {
+  "spellName": "Flurry",
+  "spellSource": "WoW",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
  },
  {
   "spellName": "Flurry",
@@ -24932,8 +25112,20 @@
  {
   "spellName": "Freezing Trap",
   "spellSource": "WoW",
+  "casterName": "Ranger",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Freezing Trap",
+  "spellSource": "WoW",
   "casterName": "Hunter",
   "casterSource": "WoW"
+ },
+ {
+  "spellName": "Frost Nova",
+  "spellSource": "WoW",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
  },
  {
   "spellName": "Frost Nova",
@@ -24945,13 +25137,31 @@
   "spellName": "Guided Prayer",
   "spellSource": "WoW",
   "casterName": "Paladin",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Guided Prayer",
+  "spellSource": "WoW",
+  "casterName": "Paladin",
   "casterSource": "WoW"
  },
  {
   "spellName": "Hand of Gul'dan",
   "spellSource": "WoW",
   "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Hand of Gul'dan",
+  "spellSource": "WoW",
+  "casterName": "Warlock",
   "casterSource": "WoW"
+ },
+ {
+  "spellName": "Holy Nova",
+  "spellSource": "WoW",
+  "casterName": "Cleric",
+  "casterSource": "XPHB"
  },
  {
   "spellName": "Holy Nova",
@@ -24963,7 +25173,19 @@
   "spellName": "Innervate",
   "spellSource": "WoW",
   "casterName": "Druid",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Innervate",
+  "spellSource": "WoW",
+  "casterName": "Druid",
   "casterSource": "WoW"
+ },
+ {
+  "spellName": "Lay Waste",
+  "spellSource": "WoW",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
  },
  {
   "spellName": "Lay Waste",
@@ -24974,8 +25196,20 @@
  {
   "spellName": "Living Flame",
   "spellSource": "WoW",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Living Flame",
+  "spellSource": "WoW",
   "casterName": "Evoker",
   "casterSource": "WoW"
+ },
+ {
+  "spellName": "Mass Polymorph",
+  "spellSource": "WoW",
+  "casterName": "Wizard",
+  "casterSource": "XPHB"
  },
  {
   "spellName": "Mass Polymorph",
@@ -24987,13 +25221,31 @@
   "spellName": "Moonfire",
   "spellSource": "WoW",
   "casterName": "Druid",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Moonfire",
+  "spellSource": "WoW",
+  "casterName": "Druid",
   "casterSource": "WoW"
+ },
+ {
+  "spellName": "Prayer of Mending",
+  "spellSource": "WoW",
+  "casterName": "Cleric",
+  "casterSource": "XPHB"
  },
  {
   "spellName": "Prayer of Mending",
   "spellSource": "WoW",
   "casterName": "Priest",
   "casterSource": "WoW"
+ },
+ {
+  "spellName": "Psychic Horror",
+  "spellSource": "WoW",
+  "casterName": "Cleric",
+  "casterSource": "XPHB"
  },
  {
   "spellName": "Psychic Horror",
@@ -25005,13 +25257,31 @@
   "spellName": "Rain of Fire",
   "spellSource": "WoW",
   "casterName": "Warlock",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Rain of Fire",
+  "spellSource": "WoW",
+  "casterName": "Warlock",
   "casterSource": "WoW"
  },
  {
   "spellName": "Regrowth",
   "spellSource": "WoW",
   "casterName": "Druid",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Regrowth",
+  "spellSource": "WoW",
+  "casterName": "Druid",
   "casterSource": "WoW"
+ },
+ {
+  "spellName": "Rescue",
+  "spellSource": "WoW",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
  },
  {
   "spellName": "Rescue",
@@ -25023,7 +25293,19 @@
   "spellName": "Roar of Ursoc",
   "spellSource": "WoW",
   "casterName": "Druid",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Roar of Ursoc",
+  "spellSource": "WoW",
+  "casterName": "Druid",
   "casterSource": "WoW"
+ },
+ {
+  "spellName": "Serpent Sting",
+  "spellSource": "WoW",
+  "casterName": "Ranger",
+  "casterSource": "XPHB"
  },
  {
   "spellName": "Serpent Sting",
@@ -25034,8 +25316,20 @@
  {
   "spellName": "Shadow Word: Pain",
   "spellSource": "WoW",
+  "casterName": "Cleric",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Shadow Word: Pain",
+  "spellSource": "WoW",
   "casterName": "Priest",
   "casterSource": "WoW"
+ },
+ {
+  "spellName": "Shattering Star",
+  "spellSource": "WoW",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
  },
  {
   "spellName": "Shattering Star",
@@ -25047,7 +25341,19 @@
   "spellName": "Starfall",
   "spellSource": "WoW",
   "casterName": "Druid",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Starfall",
+  "spellSource": "WoW",
+  "casterName": "Druid",
   "casterSource": "WoW"
+ },
+ {
+  "spellName": "Time Dilation",
+  "spellSource": "WoW",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
  },
  {
   "spellName": "Time Dilation",
@@ -25059,7 +25365,19 @@
   "spellName": "Tranquility",
   "spellSource": "WoW",
   "casterName": "Druid",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Tranquility",
+  "spellSource": "WoW",
+  "casterName": "Druid",
   "casterSource": "WoW"
+ },
+ {
+  "spellName": "Tree of Life",
+  "spellSource": "WoW",
+  "casterName": "Druid",
+  "casterSource": "XPHB"
  },
  {
   "spellName": "Tree of Life",
@@ -25070,14 +25388,32 @@
  {
   "spellName": "Upheaval",
   "spellSource": "WoW",
+  "casterName": "Sorcerer",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Upheaval",
+  "spellSource": "WoW",
   "casterName": "Evoker",
   "casterSource": "WoW"
  },
  {
   "spellName": "Void Eruption",
   "spellSource": "WoW",
+  "casterName": "Cleric",
+  "casterSource": "XPHB"
+ },
+ {
+  "spellName": "Void Eruption",
+  "spellSource": "WoW",
   "casterName": "Priest",
   "casterSource": "WoW"
+ },
+ {
+  "spellName": "Wrath",
+  "spellSource": "WoW",
+  "casterName": "Druid",
+  "casterSource": "XPHB"
  },
  {
   "spellName": "Wrath",

@@ -4097,12 +4097,20 @@
   "additionalSpells": [
    {
     "prepared": {
-     "2": [
-      "rune strike|wow"
-     ],
-     "5": [
-      "find steed|xphb"
-     ]
+     "2": {
+      "daily": {
+       "1": [
+        "rune strike|wow"
+       ]
+      }
+     },
+     "5": {
+      "daily": {
+       "1": [
+        "find steed|xphb"
+       ]
+      }
+     }
     }
    }
   ],
@@ -5826,46 +5834,6 @@
    "name": "Ranger",
    "source": "XPHB"
   },
-  "classFeatures": [
-   "Spellcasting|Ranger|XPHB|1",
-   "Favored Enemy|Ranger|XPHB|1",
-   "Weapon Mastery|Ranger|XPHB|1",
-   "Deft Explorer|Ranger|XPHB|2",
-   "Fighting Style|Ranger|XPHB|2",
-   {
-    "classFeature": "Hunter Subclass|Hunter|WoW|3",
-    "gainSubclassFeature": true
-   },
-   "Ability Score Improvement|Ranger|XPHB|4",
-   "Extra Attack|Ranger|XPHB|5",
-   {
-    "classFeature": "Subclass Feature|Hunter|WoW|6",
-    "gainSubclassFeature": true
-   },
-   {
-    "classFeature": "Subclass Feature|Ranger|XPHB|7",
-    "gainSubclassFeature": true
-   },
-   "Ability Score Improvement|Ranger|XPHB|8",
-   "Expertise|Ranger|XPHB|9",
-   "Tireless|Ranger|XPHB|10",
-   {
-    "classFeature": "Subclass Feature|Ranger|XPHB|11",
-    "gainSubclassFeature": true
-   },
-   "Ability Score Improvement|Ranger|XPHB|12",
-   "Relentless Hunter|Ranger|XPHB|13",
-   "Nature's Veil|Ranger|XPHB|14",
-   {
-    "classFeature": "Subclass Feature|Ranger|XPHB|15",
-    "gainSubclassFeature": true
-   },
-   "Ability Score Improvement|Ranger|XPHB|16",
-   "Precise Hunter|Ranger|XPHB|17",
-   "Feral Senses|Ranger|XPHB|18",
-   "Epic Boon|Ranger|XPHB|19",
-   "Foe Slayer|Ranger|XPHB|20"
-  ],
   "includeSubclassesFrom": [
    "Ranger|XPHB"
   ],
@@ -8952,6 +8920,7 @@
    "Ability Score Improvement|Ranger|XPHB|4",
    "Extra Attack|Ranger|XPHB|5",
    "Roving|Ranger|XPHB|6",
+   "Pet Specialization|Ranger|XPHB|6|WoW",
    {
     "classFeature": "Subclass Feature|Ranger|XPHB|7",
     "gainSubclassFeature": true
