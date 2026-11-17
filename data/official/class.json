@@ -3672,7 +3672,7 @@
        "item": "priest's pack|xphb"
       },
       {
-       "value": 7000
+       "value": 700
       }
      ],
      "B": [
@@ -4077,6 +4077,134 @@
    "Greater Divine Intervention|Cleric|XPHB|20"
   ],
   "subclassTitle": "Cleric Subclass",
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Death Knight",
+  "alias": [
+   "Paladin"
+  ],
+  "source": "WoW",
+  "reskinOf": [
+   "Paladin|XPHB"
+  ],
+  "isHero": true,
+  "_copy": {
+   "name": "Paladin",
+   "source": "XPHB"
+  },
+  "additionalSpells": [
+   {
+    "prepared": {
+     "2": [
+      "rune strike|wow"
+     ],
+     "5": [
+      "find steed|xphb"
+     ]
+    }
+   }
+  ],
+  "classFeatures": [
+   "Death Coil|Death Knight|WoW|1",
+   "Spellcasting|Paladin|XPHB|1",
+   "Weapon Mastery|Paladin|XPHB|1",
+   "Fighting Style|Paladin|XPHB|2",
+   "Runic Smite|Death Knight|WoW|2",
+   "Channel Divinity|Paladin|XPHB|3",
+   {
+    "classFeature": "Death Knight Subclass|Death Knight|WoW|3",
+    "gainSubclassFeature": true
+   },
+   "Ability Score Improvement|Paladin|XPHB|4",
+   "Extra Attack|Paladin|XPHB|5",
+   "Faithful Steed|Death Knight|WoW|5",
+   "Aura of Protection|Paladin|XPHB|6",
+   {
+    "classFeature": "Subclass Feature|Paladin|XPHB|7",
+    "gainSubclassFeature": true
+   },
+   "Ability Score Improvement|Paladin|XPHB|8",
+   "Abjure Foes|Paladin|XPHB|9",
+   "Aura of Courage|Paladin|XPHB|10",
+   "Runic Strikes|Death Knight|WoW|11",
+   "Ability Score Improvement|Paladin|XPHB|12",
+   "Improved Death Coil|Death Knight|WoW|14",
+   {
+    "classFeature": "Subclass Feature|Paladin|XPHB|15",
+    "gainSubclassFeature": true
+   },
+   "Ability Score Improvement|Paladin|XPHB|16",
+   "Aura Expansion|Paladin|XPHB|18",
+   "Epic Boon|Paladin|XPHB|19",
+   {
+    "classFeature": "Subclass Feature|Paladin|XPHB|20",
+    "gainSubclassFeature": true
+   }
+  ],
+  "includeSubclassesFrom": [
+   "Paladin|XPHB"
+  ],
+  "subclassTitle": "Death Knight Subclass",
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Demon Hunter",
+  "alias": [
+   "Ranger"
+  ],
+  "source": "WoW",
+  "reskinOf": [
+   "Ranger|XPHB"
+  ],
+  "isHero": true,
+  "_copy": {
+   "name": "Ranger",
+   "source": "XPHB"
+  },
+  "classFeatures": [
+   "Spellcasting|Demon Hunter|WoW|1",
+   "Favored Enemy|Ranger|XPHB|1",
+   "Weapon Mastery|Ranger|XPHB|1",
+   "Deft Explorer|Demon Hunter|WoW|2",
+   "Fighting Style|Demon Hunter|WoW|2",
+   {
+    "classFeature": "Demon Hunter Subclass|Demon Hunter|WoW|3",
+    "gainSubclassFeature": true
+   },
+   "Ability Score Improvement|Ranger|XPHB|4",
+   "Extra Attack|Ranger|XPHB|5",
+   "Roving|Ranger|XPHB|6",
+   {
+    "classFeature": "Subclass Feature|Ranger|XPHB|7",
+    "gainSubclassFeature": true
+   },
+   "Ability Score Improvement|Ranger|XPHB|8",
+   "Expertise|Ranger|XPHB|9",
+   "Tireless|Ranger|XPHB|10",
+   {
+    "classFeature": "Subclass Feature|Ranger|XPHB|11",
+    "gainSubclassFeature": true
+   },
+   "Ability Score Improvement|Ranger|XPHB|12",
+   "Relentless Hunter|Ranger|XPHB|13",
+   "Nature's Veil|Ranger|XPHB|14",
+   {
+    "classFeature": "Subclass Feature|Ranger|XPHB|15",
+    "gainSubclassFeature": true
+   },
+   "Ability Score Improvement|Ranger|XPHB|16",
+   "Precise Hunter|Ranger|XPHB|17",
+   "Improved Spectral Sight|Demon Hunter|WoW|18",
+   "Epic Boon|Ranger|XPHB|19",
+   "Foe Slayer|Ranger|XPHB|20"
+  ],
+  "includeSubclassesFrom": [
+   "Ranger|XPHB"
+  ],
+  "subclassTitle": "Demon Hunter Subclass",
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -4578,6 +4706,22 @@
    "Archdruid|Druid||20"
   ],
   "subclassTitle": "Druid Circle",
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Druid",
+  "source": "WoW",
+  "reskinOf": [
+   "Druid|XPHB"
+  ],
+  "_copy": {
+   "name": "Druid",
+   "source": "XPHB"
+  },
+  "includeSubclassesFrom": [
+   "Druid|XPHB"
+  ],
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -5148,6 +5292,27 @@
   "hasFluffImages": true
  },
  {
+  "name": "Evoker",
+  "alias": [
+   "Sorcerer"
+  ],
+  "source": "WoW",
+  "reskinOf": [
+   "Sorcerer|XPHB"
+  ],
+  "isHero": true,
+  "_copy": {
+   "name": "Sorcerer",
+   "source": "XPHB"
+  },
+  "includeSubclassesFrom": [
+   "Sorcerer|XPHB"
+  ],
+  "subclassTitle": "Evoker Subclass",
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Fighter",
   "source": "PHB",
   "page": 70,
@@ -5649,6 +5814,86 @@
   "hasFluffImages": true
  },
  {
+  "name": "Hunter",
+  "alias": [
+   "Ranger"
+  ],
+  "source": "WoW",
+  "reskinOf": [
+   "Ranger|XPHB"
+  ],
+  "_copy": {
+   "name": "Ranger",
+   "source": "XPHB"
+  },
+  "classFeatures": [
+   "Spellcasting|Ranger|XPHB|1",
+   "Favored Enemy|Ranger|XPHB|1",
+   "Weapon Mastery|Ranger|XPHB|1",
+   "Deft Explorer|Ranger|XPHB|2",
+   "Fighting Style|Ranger|XPHB|2",
+   {
+    "classFeature": "Hunter Subclass|Hunter|WoW|3",
+    "gainSubclassFeature": true
+   },
+   "Ability Score Improvement|Ranger|XPHB|4",
+   "Extra Attack|Ranger|XPHB|5",
+   {
+    "classFeature": "Subclass Feature|Hunter|WoW|6",
+    "gainSubclassFeature": true
+   },
+   {
+    "classFeature": "Subclass Feature|Ranger|XPHB|7",
+    "gainSubclassFeature": true
+   },
+   "Ability Score Improvement|Ranger|XPHB|8",
+   "Expertise|Ranger|XPHB|9",
+   "Tireless|Ranger|XPHB|10",
+   {
+    "classFeature": "Subclass Feature|Ranger|XPHB|11",
+    "gainSubclassFeature": true
+   },
+   "Ability Score Improvement|Ranger|XPHB|12",
+   "Relentless Hunter|Ranger|XPHB|13",
+   "Nature's Veil|Ranger|XPHB|14",
+   {
+    "classFeature": "Subclass Feature|Ranger|XPHB|15",
+    "gainSubclassFeature": true
+   },
+   "Ability Score Improvement|Ranger|XPHB|16",
+   "Precise Hunter|Ranger|XPHB|17",
+   "Feral Senses|Ranger|XPHB|18",
+   "Epic Boon|Ranger|XPHB|19",
+   "Foe Slayer|Ranger|XPHB|20"
+  ],
+  "includeSubclassesFrom": [
+   "Ranger|XPHB"
+  ],
+  "subclassTitle": "Hunter Subclass",
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Mage",
+  "alias": [
+   "Wizard"
+  ],
+  "source": "WoW",
+  "reskinOf": [
+   "Wizard|XPHB"
+  ],
+  "_copy": {
+   "name": "Wizard",
+   "source": "XPHB"
+  },
+  "includeSubclassesFrom": [
+   "Wizard|XPHB"
+  ],
+  "subclassTitle": "Mage Subclass",
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Monk",
   "source": "PHB",
   "page": 76,
@@ -6143,6 +6388,22 @@
    "Perfect Self|Monk||20"
   ],
   "subclassTitle": "Monastic Tradition",
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Monk",
+  "source": "WoW",
+  "reskinOf": [
+   "Monk|XPHB"
+  ],
+  "_copy": {
+   "name": "Monk",
+   "source": "XPHB"
+  },
+  "includeSubclassesFrom": [
+   "Monk|XPHB"
+  ],
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -7256,6 +7517,22 @@
  },
  {
   "name": "Paladin",
+  "source": "WoW",
+  "reskinOf": [
+   "Paladin|XPHB"
+  ],
+  "_copy": {
+   "name": "Paladin",
+   "source": "XPHB"
+  },
+  "includeSubclassesFrom": [
+   "Paladin|XPHB"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Paladin",
   "source": "XPHB",
   "page": 108,
   "srd52": true,
@@ -7710,6 +7987,26 @@
    }
   ],
   "subclassTitle": "Paladin Subclass",
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Priest",
+  "alias": [
+   "Cleric"
+  ],
+  "source": "WoW",
+  "reskinOf": [
+   "Cleric|XPHB"
+  ],
+  "_copy": {
+   "name": "Cleric",
+   "source": "XPHB"
+  },
+  "includeSubclassesFrom": [
+   "Cleric|XPHB"
+  ],
+  "subclassTitle": "Priest Subclass",
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -9131,6 +9428,22 @@
  },
  {
   "name": "Rogue",
+  "source": "WoW",
+  "reskinOf": [
+   "Rogue|XPHB"
+  ],
+  "_copy": {
+   "name": "Rogue",
+   "source": "XPHB"
+  },
+  "includeSubclassesFrom": [
+   "Rogue|XPHB"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Rogue",
   "source": "XPHB",
   "page": 128,
   "srd52": true,
@@ -9587,6 +9900,66 @@
    "Stroke of Luck|Rogue|XPHB|20"
   ],
   "subclassTitle": "Rogue Subclass",
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Shaman",
+  "alias": [
+   "Barbarian"
+  ],
+  "source": "WoW",
+  "reskinOf": [
+   "Barbarian|XPHB"
+  ],
+  "_copy": {
+   "name": "Barbarian",
+   "source": "XPHB"
+  },
+  "classFeatures": [
+   "Rage|Barbarian|XPHB|1",
+   "Unarmored Defense|Barbarian|XPHB|1",
+   "Weapon Mastery|Barbarian|XPHB|1",
+   "Danger Sense|Barbarian|XPHB|2",
+   "Reckless Attack|Barbarian|XPHB|2",
+   {
+    "classFeature": "Shaman Subclass|Shaman|WoW|3",
+    "gainSubclassFeature": true
+   },
+   "Totems|Shaman|WoW|3",
+   "Ability Score Improvement|Barbarian|XPHB|4",
+   "Extra Attack|Barbarian|XPHB|5",
+   "Fast Movement|Barbarian|XPHB|5",
+   {
+    "classFeature": "Subclass Feature|Barbarian|XPHB|6",
+    "gainSubclassFeature": true
+   },
+   "Feral Instinct|Barbarian|XPHB|7",
+   "Instinctive Pounce|Barbarian|XPHB|7",
+   "Ability Score Improvement|Barbarian|XPHB|8",
+   "Brutal Strike|Barbarian|XPHB|9",
+   {
+    "classFeature": "Subclass Feature|Barbarian|XPHB|10",
+    "gainSubclassFeature": true
+   },
+   "Relentless Rage|Barbarian|XPHB|11",
+   "Ability Score Improvement|Barbarian|XPHB|12",
+   "Improved Brutal Strike|Barbarian|XPHB|13",
+   {
+    "classFeature": "Subclass Feature|Barbarian|XPHB|14",
+    "gainSubclassFeature": true
+   },
+   "Persistent Rage|Barbarian|XPHB|15",
+   "Ability Score Improvement|Barbarian|XPHB|16",
+   "Improved Brutal Strike|Barbarian|XPHB|17",
+   "Indomitable Might|Barbarian|XPHB|18",
+   "Epic Boon|Barbarian|XPHB|19",
+   "Primal Champion|Barbarian|XPHB|20"
+  ],
+  "includeSubclassesFrom": [
+   "Barbarian|XPHB"
+  ],
+  "subclassTitle": "Shaman Subclass",
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -11155,6 +11528,22 @@
  },
  {
   "name": "Warlock",
+  "source": "WoW",
+  "reskinOf": [
+   "Warlock|XPHB"
+  ],
+  "_copy": {
+   "name": "Warlock",
+   "source": "XPHB"
+  },
+  "includeSubclassesFrom": [
+   "Warlock|XPHB"
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Warlock",
   "source": "XPHB",
   "page": 152,
   "srd52": true,
@@ -11551,6 +11940,26 @@
    "Eldritch Master|Warlock|XPHB|20"
   ],
   "subclassTitle": "Warlock Subclass",
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Warrior",
+  "alias": [
+   "Fighter"
+  ],
+  "source": "WoW",
+  "reskinOf": [
+   "Fighter|XPHB"
+  ],
+  "_copy": {
+   "name": "Fighter",
+   "source": "XPHB"
+  },
+  "includeSubclassesFrom": [
+   "Fighter|XPHB"
+  ],
+  "subclassTitle": "Warrior Subclass",
   "hasFluff": true,
   "hasFluffImages": true
  },

@@ -658,6 +658,9 @@
   "name": "Net Trap",
   "source": "XGE",
   "page": 113,
+  "reprintedAs": [
+   "Falling Net|XDMG"
+  ],
   "trapHazType": "SMPL",
   "rating": [
    {
@@ -802,6 +805,9 @@
   "name": "Pit Trap",
   "source": "XGE",
   "page": 114,
+  "reprintedAs": [
+   "Hidden Pit|XDMG"
+  ],
   "trapHazType": "SMPL",
   "rating": [
    {
@@ -903,6 +909,9 @@
   "name": "Poison Needle Trap",
   "source": "XGE",
   "page": 114,
+  "reprintedAs": [
+   "Poisoned Needle|XDMG"
+  ],
   "trapHazType": "SMPL",
   "rating": [
    {

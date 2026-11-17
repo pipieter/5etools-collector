@@ -108,7 +108,7 @@ export interface Prerequisite {
   otherSummary?: { entry: string; entrySummary: string };
   pact?: string;
   patron?: string;
-  proficiency?: { weapon?: string; armor?: string; weaponGroup?: string; skill?: string[] }[];
+  proficiency?: { weapon?: string; armor?: string; weaponGroup?: string; skill?: string[]; tool?: string[] }[];
   spell?: (string | { choose: string; entry: string; entrySummary: string })[];
   spellcasting?: boolean;
   spellcasting2020?: boolean;
@@ -391,7 +391,10 @@ export interface Consumes {
 
 export type AC = number | { ac: number; from?: string[]; condition?: string; braces?: boolean } | { special: string };
 export type HP =
-  number | { average: number; formula: string } | { special: string } | { hp: number; dt?: number; mt?: number };
+  | number
+  | { average: number; formula: string }
+  | { special: string; isTemporary?: boolean }
+  | { hp: number; dt?: number; mt?: number };
 
 export interface CR {
   cr: string;

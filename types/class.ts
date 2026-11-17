@@ -23,6 +23,7 @@ import {
 } from './internal/base';
 import { Copyable } from './internal/copy';
 import { Entry } from './internal/entry';
+import { Nullable } from './internal/util';
 
 export type ClassResourceValue =
   | string
@@ -141,5 +142,14 @@ export interface SubclassFeature extends ClassFeature {
   subclassSource: string;
 }
 
-export type Class = ClassBase | Copyable<ClassBase>;
+export interface Reskin {
+  // Used for WoW classes
+  reskinOf: string[];
+  isHero: boolean;
+  includeSubclassesFrom: string[];
+}
+
+export type Reskinned<T> = Partial<Nullable<T>> & Reskin;
+
+export type Class = ClassBase | Copyable<ClassBase> | Reskinned<ClassBase> | Copyable<Reskinned<ClassBase>>;
 export type Subclass = SubclassBase | Copyable<SubclassBase>;

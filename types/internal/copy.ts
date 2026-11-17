@@ -25,7 +25,7 @@ export interface InsertArrMod<T> {
 
 export interface ReplaceArrMod<T> {
   mode: 'replaceArr';
-  replace: string | { index: number };
+  replace: string | { index: number } | { regex: string };
   items: Variadic<T>;
 }
 
@@ -59,7 +59,7 @@ export interface ReplaceTxt {
   replace: string;
   with: string;
   flags?: string;
-  props?: string[];
+  props?: (string | null)[];
 }
 
 export type ReplaceSpellsEntry = Record<string, { replace: string; with: string }[]>;
