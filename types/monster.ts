@@ -66,6 +66,7 @@ export interface MonsterBase extends Base, SRD, Partial<MonsterTags>, Partial<Le
   size?: Variadic<string>;
   sizeNote?: string;
   type?: any; //TODO
+  typeNote?: string; // Used in WoW creatures.
   alignment?: any[];
   ac?: (AC | number)[];
   hp?: HP;
