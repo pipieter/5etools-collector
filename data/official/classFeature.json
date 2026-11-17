@@ -4099,7 +4099,7 @@
   "classSource": "XPHB",
   "level": 1,
   "entries": [
-   "You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as Pact of the Tome. Invocations are described in the \"{@filter Eldritch Invocation Options|optionalfeatures|feature type=EI|source=XPHB}\" section later in this class's description.",
+   "You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as Pact of the Tome. Invocations are described in the \"{@filter Eldritch Invocation Options|optionalfeatures|feature type=EI|source===extend}\" section later in this class's description.",
    {
     "type": "entries",
     "entries": [
@@ -4840,7 +4840,7 @@
     "type": "entries",
     "name": "Ghostly Stride (Undead Only; Recharges After a Long Rest)",
     "entries": [
-     "The steed and its rider can move through other creatures and objects this turn as if they were {@variantrule Difficult Terrain|XPHB}. Both steed and rider take 5 ({@dice 1d10}) Force damage if they end their turn inside an object."
+     "The steed and its rider can move through other creatures and objects this turn as if they were {@variantrule Difficult Terrain|XPHB}. Both steed and rider take 5 ({@damage 1d10}) Force damage if they end their turn inside an object."
     ]
    }
   ]
@@ -5188,12 +5188,12 @@
      {
       "type": "refFeat",
       "feat": "Druidic Warrior|XPHB"
+     },
+     {
+      "type": "refFeat",
+      "feat": "Void Warrior|WoW"
      }
     ]
-   },
-   {
-    "type": "refFeat",
-    "feat": "Void Warrior|WoW"
    }
   ]
  },
@@ -5628,16 +5628,6 @@
   "entries": [
    "Starting at 10th level, you can spend 1 minute creating camouflage for yourself. You must have access to fresh mud, dirt, plants, soot, and other naturally occurring materials with which to create your camouflage.",
    "Once you are camouflaged in this way, you can try to hide by pressing yourself up against a solid surface, such as a tree or wall, that is at least as tall and wide as you are. You gain a +10 bonus to Dexterity ({@skill Stealth}) checks as long as you remain there without moving or taking actions. Once you move or take an action or a reaction, you must camouflage yourself again to gain this benefit."
-  ]
- },
- {
-  "name": "Hunter Subclass",
-  "source": "WoW",
-  "className": "Hunter",
-  "classSource": "WoW",
-  "level": 3,
-  "entries": [
-   "You gain a Hunter subclass of your choice. A subclass is a specialization that grants you features at certain Hunter levels. For the rest of your career, you gain each of your subclass's features that are of your Hunter level or lower."
   ]
  },
  {
@@ -6584,7 +6574,7 @@
     "type": "list",
     "items": [
      "You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.",
-     "You can roll a {@dice d4} in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.",
+     "You can roll a {@damage d4} in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.",
      "When you use the {@action Attack} action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the {@action Attack} action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn."
     ]
    },
@@ -7717,6 +7707,39 @@
   "entries": [
    "When you roll {@variantrule Initiative|XPHB}, you can regain all expended uses of Rage. After you regain uses of Rage in this way, you can't do so again until you finish a {@variantrule Long Rest|XPHB}.",
    "In addition, your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. Your Rage ends early if you have the {@condition Unconscious|XPHB} condition (not just the {@condition Incapacitated|XPHB} condition) or don Heavy armor."
+  ]
+ },
+ {
+  "name": "Pet Specialization",
+  "source": "WoW",
+  "className": "Ranger",
+  "classSource": "XPHB",
+  "level": 6,
+  "isClassFeatureVariant": true,
+  "entries": [
+   "This feature replaces the {@classFeature Roving|Ranger|XPHB|6} feature for a {@class Hunter|WoW} with the {@subclass Beast Master|Hunter|WoW|WoW} subclass.",
+   "While the beast from your {@subclassFeature Primal Companion|Ranger|XPHB|Beast Master|XPHB|3|XPHB} feature is within 60 feet of you, you gain one of the following benefits, depending on the beast's pet family and its specialization (see \"{@book Hunter Pets|WoW|1|Hunter Pets}\").",
+   {
+    "type": "entries",
+    "name": "Cunning",
+    "entries": [
+     "Your {@variantrule Speed|XPHB} and all of your primal beast's speeds increase by 10 feet. In addition, your primal beast can use its action to cast {@spell Freedom of Movement|XPHB} without any spell components, affecting itself and you (if you are within range). Once it does so, it can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Ferocity",
+    "entries": [
+     "When your primal beast is {@status Bloodied|XPHB} and it hits with its Beast's Strike attack, you and your primal beast each regain {@variantrule Hit Points|XPHB} equal to your Wisdom modifier. In addition, your primal beast can use its action to cast {@spell Haste|XPHB} without any spell components, affecting itself and you (if you are within range). Once it does so, it can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Tenacity",
+    "entries": [
+     "Your {@variantrule Hit Points|XPHB|Hit Point} maximum increases by 6. Whenever you gain a Ranger level, your {@variantrule Hit Points|XPHB|Hit Point} maximum increases by an additional 1 {@variantrule Hit Points|XPHB|Hit Point}. Your primal beast's {@variantrule Hit Points|XPHB|Hit Point} maximum also increases by your Ranger level. In addition, your primal beast can use its action to cast {@spell Stoneskin|XPHB} without any spell components, affecting itself and you (if you are within range). Once it does so, it can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+    ]
+   }
   ]
  },
  {
@@ -9005,7 +9028,7 @@
   "classSource": "XPHB",
   "level": 5,
   "entries": [
-   "Whenever you use Turn Undead, you can roll a number of d8s equal to your Wisdom modifier (minimum of {@dice 1d8}) and add the rolls together. Each Undead that fails its saving throw against that use of Turn Undead takes Radiant damage equal to the roll's total. This damage doesn't end the turn effect."
+   "Whenever you use Turn Undead, you can roll a number of d8s equal to your Wisdom modifier (minimum of {@damage 1d8}) and add the rolls together. Each Undead that fails its saving throw against that use of Turn Undead takes Radiant damage equal to the roll's total. This damage doesn't end the turn effect."
   ]
  },
  {
@@ -11013,16 +11036,6 @@
   "level": 15,
   "entries": [
    "You gain a feature from your Artificer Subclass."
-  ]
- },
- {
-  "name": "Subclass Feature",
-  "source": "WoW",
-  "className": "Hunter",
-  "classSource": "WoW",
-  "level": 6,
-  "entries": [
-   "You gain a feature from your Hunter Subclass."
   ]
  },
  {

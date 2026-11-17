@@ -2017,16 +2017,7 @@
    "source": "XPHB",
    "shortName": "Beast Master",
    "className": "Ranger",
-   "classSource": "XPHB",
-   "_mod": {
-    "subclassFeatures": {
-     "mode": "insertArr",
-     "index": 1,
-     "items": [
-      "Pet Specialization|Hunter|WoW|Beast Master|WoW|6"
-     ]
-    }
-   }
+   "classSource": "XPHB"
   }
  },
  {
@@ -4204,6 +4195,27 @@
    {
     "name": "Devourer",
     "ability": "wis",
+    "resourceName": "Soul Fragment",
+    "innate": {
+     "3": {
+      "resource": {
+       "1": [
+        "feather fall|xphb",
+        "jump|xphb"
+       ]
+      }
+     },
+     "11": {
+      "resource": {
+       "1": [
+        "throw glaive|wow"
+       ],
+       "2": [
+        "counterspell|xphb"
+       ]
+      }
+     }
+    },
     "prepared": {
      "3": [
       "throw glaive|wow",
@@ -4230,6 +4242,27 @@
    {
     "name": "Havoc",
     "ability": "wis",
+    "resourceName": "Soul Fragment",
+    "innate": {
+     "3": {
+      "resource": {
+       "1": [
+        "feather fall|xphb",
+        "jump|xphb"
+       ]
+      }
+     },
+     "11": {
+      "resource": {
+       "1": [
+        "throw glaive|wow"
+       ],
+       "2": [
+        "counterspell|xphb"
+       ]
+      }
+     }
+    },
     "prepared": {
      "3": [
       "throw glaive|wow",
@@ -4256,6 +4289,27 @@
    {
     "name": "Vengeance",
     "ability": "wis",
+    "resourceName": "Soul Fragment",
+    "innate": {
+     "3": {
+      "resource": {
+       "1": [
+        "feather fall|xphb",
+        "jump|xphb"
+       ]
+      }
+     },
+     "11": {
+      "resource": {
+       "1": [
+        "throw glaive|wow"
+       ],
+       "2": [
+        "counterspell|xphb"
+       ]
+      }
+     }
+    },
     "prepared": {
      "3": [
       "throw glaive|wow",
@@ -4291,8 +4345,8 @@
   "name": "Discipline Domain",
   "shortName": "Discipline",
   "source": "WoW",
-  "className": "Priest",
-  "classSource": "WoW",
+  "className": "Cleric",
+  "classSource": "XPHB",
   "edition": "one",
   "additionalSpells": [
    {
@@ -4320,11 +4374,28 @@
    }
   ],
   "subclassFeatures": [
-   "Discipline Domain|Priest|WoW|Discipline|WoW|3",
-   "Luminous Barrier|Priest|WoW|Discipline|WoW|6",
-   "Ultimate Penitence|Priest|WoW|Discipline|WoW|17"
+   "Discipline Domain|Cleric|XPHB|Discipline|WoW|3",
+   "Luminous Barrier|Cleric|XPHB|Discipline|WoW|6",
+   "Ultimate Penitence|Cleric|XPHB|Discipline|WoW|17"
   ],
   "hasFluffImages": true
+ },
+ {
+  "name": "Discipline Domain",
+  "shortName": "Discipline",
+  "source": "WoW",
+  "className": "Priest",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Discipline Domain",
+   "source": "WoW",
+   "shortName": "Discipline",
+   "className": "Cleric",
+   "classSource": "XPHB",
+   "_preserve": {
+    "*": true
+   }
+  }
  },
  {
   "name": "Divine Soul",
@@ -6573,16 +6644,7 @@
    "source": "XPHB",
    "shortName": "Hunter",
    "className": "Ranger",
-   "classSource": "XPHB",
-   "_mod": {
-    "subclassFeatures": {
-     "mode": "insertArr",
-     "index": 1,
-     "items": [
-      "Roving|Hunter|WoW|Hunter|WoW|6"
-     ]
-    }
-   }
+   "classSource": "XPHB"
   }
  },
  {
@@ -8187,6 +8249,23 @@
   "source": "WoW",
   "className": "Paladin",
   "classSource": "WoW",
+  "_copy": {
+   "name": "Oath of the Holy",
+   "source": "WoW",
+   "shortName": "Holy",
+   "className": "Paladin",
+   "classSource": "XPHB",
+   "_preserve": {
+    "*": true
+   }
+  }
+ },
+ {
+  "name": "Oath of the Holy",
+  "shortName": "Holy",
+  "source": "WoW",
+  "className": "Paladin",
+  "classSource": "XPHB",
   "edition": "one",
   "additionalSpells": [
    {
@@ -8216,10 +8295,10 @@
    }
   ],
   "subclassFeatures": [
-   "Oath of the Holy|Paladin|WoW|Holy|WoW|3",
-   "Lightbringer's Aura|Paladin|WoW|Holy|WoW|7",
-   "Infusion of Light|Paladin|WoW|Holy|WoW|15",
-   "Holy Deliverance|Paladin|WoW|Holy|WoW|20"
+   "Oath of the Holy|Paladin|XPHB|Holy|WoW|3",
+   "Lightbringer's Aura|Paladin|XPHB|Holy|WoW|7",
+   "Infusion of Light|Paladin|XPHB|Holy|WoW|15",
+   "Holy Deliverance|Paladin|XPHB|Holy|WoW|20"
   ]
  },
  {
@@ -8761,7 +8840,7 @@
   "classSource": "PHB",
   "page": 9,
   "reprintedAs": [
-   "Spiritual Guardian|Shaman|WoW|WoW"
+   "Spiritual Guardian|Barbarian|XPHB|WoW"
   ],
   "edition": "classic",
   "spellcastingAbility": "wis",
@@ -8966,15 +9045,54 @@
   "name": "Path of the Elements",
   "shortName": "Elements",
   "source": "WoW",
+  "className": "Barbarian",
+  "classSource": "XPHB",
+  "edition": "one",
+  "additionalSpells": [
+   {
+    "ability": "wis",
+    "resourceName": "Rage",
+    "known": {
+     "6": [
+      "elementalism|xphb#c"
+     ]
+    },
+    "innate": {
+     "6": {
+      "resource": {
+       "1": [
+        "daylight|xphb",
+        "water walk|xphb",
+        "wind wall|xphb"
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "subclassFeatures": [
+   "Path of the Elements|Barbarian|XPHB|Elements|WoW|3",
+   "Echo of the Elements|Barbarian|XPHB|Elements|WoW|6",
+   "Primordial Bond|Barbarian|XPHB|Elements|WoW|10",
+   "Elemental Overload|Barbarian|XPHB|Elements|WoW|14"
+  ]
+ },
+ {
+  "name": "Path of the Elements",
+  "shortName": "Elements",
+  "source": "WoW",
   "className": "Shaman",
   "classSource": "WoW",
-  "edition": "one",
-  "subclassFeatures": [
-   "Path of the Elements|Shaman|WoW|Elements|WoW|3",
-   "Echo of the Elements|Shaman|WoW|Elements|WoW|6",
-   "Primordial Bond|Shaman|WoW|Elements|WoW|10",
-   "Elemental Overload|Shaman|WoW|Elements|WoW|14"
-  ]
+  "_copy": {
+   "name": "Path of the Elements",
+   "source": "WoW",
+   "shortName": "Elements",
+   "className": "Barbarian",
+   "classSource": "XPHB",
+   "_preserve": {
+    "*": true
+   }
+  }
  },
  {
   "name": "Path of the Giant",
@@ -9044,16 +9162,48 @@
   "name": "Path of the Spiritual Guardian",
   "shortName": "Spiritual Guardian",
   "source": "WoW",
-  "className": "Shaman",
-  "classSource": "WoW",
+  "className": "Barbarian",
+  "classSource": "XPHB",
   "edition": "one",
+  "additionalSpells": [
+   {
+    "ability": "wis",
+    "innate": {
+     "10": {
+      "rest": {
+       "1": [
+        "augury|xphb",
+        "clairvoyance|xphb"
+       ]
+      }
+     }
+    }
+   }
+  ],
   "subclassFeatures": [
-   "Path of the Spiritual Guardian|Shaman|WoW|Spiritual Guardian|WoW|3",
-   "Spirit Shield|Shaman|WoW|Spiritual Guardian|WoW|6",
-   "Consult the Spirits|Shaman|WoW|Spiritual Guardian|WoW|10",
-   "Spirits' Fury|Shaman|WoW|Spiritual Guardian|WoW|14"
+   "Path of the Spiritual Guardian|Barbarian|XPHB|Spiritual Guardian|WoW|3",
+   "Spirit Shield|Barbarian|XPHB|Spiritual Guardian|WoW|6",
+   "Consult the Spirits|Barbarian|XPHB|Spiritual Guardian|WoW|10",
+   "Spirits' Fury|Barbarian|XPHB|Spiritual Guardian|WoW|14"
   ],
   "hasFluffImages": true
+ },
+ {
+  "name": "Path of the Spiritual Guardian",
+  "shortName": "Spiritual Guardian",
+  "source": "WoW",
+  "className": "Shaman",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Path of the Spiritual Guardian",
+   "source": "WoW",
+   "shortName": "Spiritual Guardian",
+   "className": "Barbarian",
+   "classSource": "XPHB",
+   "_preserve": {
+    "*": true
+   }
+  }
  },
  {
   "name": "Path of the Storm Herald",
@@ -10404,8 +10554,8 @@
   "name": "Shadow Domain",
   "shortName": "Shadow",
   "source": "WoW",
-  "className": "Priest",
-  "classSource": "WoW",
+  "className": "Cleric",
+  "classSource": "XPHB",
   "edition": "one",
   "additionalSpells": [
    {
@@ -10433,10 +10583,27 @@
    }
   ],
   "subclassFeatures": [
-   "Shadow Domain|Priest|WoW|Shadow|WoW|3",
-   "Dispersion|Priest|WoW|Shadow|WoW|6",
-   "Vampiric Embrace|Priest|WoW|Shadow|WoW|17"
+   "Shadow Domain|Cleric|XPHB|Shadow|WoW|3",
+   "Dispersion|Cleric|XPHB|Shadow|WoW|6",
+   "Vampiric Embrace|Cleric|XPHB|Shadow|WoW|17"
   ]
+ },
+ {
+  "name": "Shadow Domain",
+  "shortName": "Shadow",
+  "source": "WoW",
+  "className": "Priest",
+  "classSource": "WoW",
+  "_copy": {
+   "name": "Shadow Domain",
+   "source": "WoW",
+   "shortName": "Shadow",
+   "className": "Cleric",
+   "classSource": "XPHB",
+   "_preserve": {
+    "*": true
+   }
+  }
  },
  {
   "name": "Shadow Magic",
@@ -11066,12 +11233,29 @@
   "source": "WoW",
   "className": "Rogue",
   "classSource": "WoW",
+  "_copy": {
+   "name": "Swashbuckler",
+   "source": "WoW",
+   "shortName": "Swashbuckler",
+   "className": "Rogue",
+   "classSource": "XPHB",
+   "_preserve": {
+    "*": true
+   }
+  }
+ },
+ {
+  "name": "Swashbuckler",
+  "shortName": "Swashbuckler",
+  "source": "WoW",
+  "className": "Rogue",
+  "classSource": "XPHB",
   "edition": "one",
   "subclassFeatures": [
-   "Swashbuckler|Rogue|WoW|Swashbuckler|WoW|3",
-   "Panache|Rogue|WoW|Swashbuckler|WoW|9",
-   "Dashing Strikes|Rogue|WoW|Swashbuckler|WoW|13",
-   "Master Duelist|Rogue|WoW|Swashbuckler|WoW|17"
+   "Swashbuckler|Rogue|XPHB|Swashbuckler|WoW|3",
+   "Panache|Rogue|XPHB|Swashbuckler|WoW|9",
+   "Dashing Strikes|Rogue|XPHB|Swashbuckler|WoW|13",
+   "Master Duelist|Rogue|XPHB|Swashbuckler|WoW|17"
   ]
  },
  {
@@ -11088,7 +11272,7 @@
    }
   ],
   "reprintedAs": [
-   "Swashbuckler|Rogue|WoW|WoW"
+   "Swashbuckler|Rogue|XPHB|WoW"
   ],
   "edition": "classic",
   "subclassFeatures": [
@@ -12707,14 +12891,31 @@
   "source": "WoW",
   "className": "Monk",
   "classSource": "WoW",
+  "_copy": {
+   "name": "Warrior of Mystic Brews",
+   "source": "WoW",
+   "shortName": "Mystic Brews",
+   "className": "Monk",
+   "classSource": "XPHB",
+   "_preserve": {
+    "*": true
+   }
+  }
+ },
+ {
+  "name": "Warrior of Mystic Brews",
+  "shortName": "Mystic Brews",
+  "source": "WoW",
+  "className": "Monk",
+  "classSource": "XPHB",
   "edition": "one",
   "subclassFeatures": [
-   "Warrior of Mystic Brews|Monk|WoW|Mystic Brews|WoW|3",
-   "Tipsy Sway|Monk|WoW|Mystic Brews|WoW|6",
-   "Mystic Brew|Monk|WoW|Mystic Brews|WoW|6",
-   "Wizened Brewer|Monk|WoW|Mystic Brews|WoW|11",
-   "Master Brewer|Monk|WoW|Mystic Brews|WoW|17",
-   "Intoxicated Frenzy|Monk|WoW|Mystic Brews|WoW|17"
+   "Warrior of Mystic Brews|Monk|XPHB|Mystic Brews|WoW|3",
+   "Tipsy Sway|Monk|XPHB|Mystic Brews|WoW|6",
+   "Mystic Brew|Monk|XPHB|Mystic Brews|WoW|6",
+   "Wizened Brewer|Monk|XPHB|Mystic Brews|WoW|11",
+   "Master Brewer|Monk|XPHB|Mystic Brews|WoW|17",
+   "Intoxicated Frenzy|Monk|XPHB|Mystic Brews|WoW|17"
   ]
  },
  {
@@ -13332,7 +13533,7 @@
   "classSource": "PHB",
   "page": 33,
   "reprintedAs": [
-   "Mystic Brews|Monk|WoW|WoW"
+   "Mystic Brews|Monk|XPHB|WoW"
   ],
   "edition": "classic",
   "subclassFeatures": [

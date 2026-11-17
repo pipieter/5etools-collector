@@ -1432,6 +1432,14 @@
   "legacy": false
  },
  {
+  "name": "World of Warcraft: Deadmines Dungeon",
+  "source": "DDE",
+  "abbreviation": "DDE",
+  "published": "2026-11-03",
+  "category": "adventure",
+  "legacy": false
+ },
+ {
   "name": "World of Warcraft: Icecrown Citadel",
   "source": "ICC",
   "abbreviation": "ICC",

@@ -2610,8 +2610,8 @@
  {
   "name": "Atonement",
   "source": "WoW",
-  "className": "Priest",
-  "classSource": "WoW",
+  "className": "Cleric",
+  "classSource": "XPHB",
   "subclassShortName": "Discipline",
   "subclassSource": "WoW",
   "level": 3,
@@ -3502,7 +3502,7 @@
   "name": "Beacon of Light",
   "source": "WoW",
   "className": "Paladin",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Holy",
   "subclassSource": "WoW",
   "level": 3,
@@ -4846,7 +4846,7 @@
   "name": "Bonus Proficiencies",
   "source": "WoW",
   "className": "Monk",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Mystic Brews",
   "subclassSource": "WoW",
   "level": 3,
@@ -5147,7 +5147,7 @@
   "entries": [
    "{@i 14th-level Path of the Beast feature}",
    "The beast within you grows so powerful that you can spread its ferocity to others and gain resilience from them joining your hunt. When you enter your rage, you can choose a number of other willing creatures you can see within 30 feet of you equal to your Constitution modifier (minimum of one creature).",
-   "You gain 5 temporary hit points for each creature that accepts this feature. Until the rage ends, the chosen creatures can each use the following benefit once on each of their turns: when the creature hits a target with an attack roll and deals damage to it, the creature can roll a {@dice d6} and gain a bonus to the damage equal to the number rolled.",
+   "You gain 5 temporary hit points for each creature that accepts this feature. Until the rage ends, the chosen creatures can each use the following benefit once on each of their turns: when the creature hits a target with an attack roll and deals damage to it, the creature can roll a {@damage d6} and gain a bonus to the damage equal to the number rolled.",
    "You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
   ]
  },
@@ -6813,7 +6813,7 @@
     "type": "entries",
     "name": "Pull of Death",
     "entries": [
-     "Once per turn, when you deal damage to a creature that's missing any {@variantrule Hit Points|XPHB} by casting a spell or by hitting with an attack roll, that creature takes an extra {@damage 1d4} Necrotic damage. This extra damage increases to {@dice 1d6} when you reach Cleric level 11."
+     "Once per turn, when you deal damage to a creature that's missing any {@variantrule Hit Points|XPHB} by casting a spell or by hitting with an attack roll, that creature takes an extra {@damage 1d4} Necrotic damage. This extra damage increases to {@damage 1d6} when you reach Cleric level 11."
     ]
    },
    {
@@ -8604,7 +8604,7 @@
     "type": "entries",
     "name": "Maneuvers",
     "entries": [
-     "You learn three maneuvers of your choice from the \"{@filter Maneuvers Options|optionalfeatures|feature type=MV:B|source=XPHB}\" section later in this subclass's description. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.",
+     "You learn three maneuvers of your choice from the \"{@filter Maneuver Options|optionalfeatures|feature type=MV:B|source===extend}\" section later in this subclass's description. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.",
      "You learn two additional maneuvers of your choice when you reach Fighter levels 7, 10, and 15. Each time you learn new maneuvers, you can also replace one maneuver you know with a different one."
     ]
    },
@@ -8726,8 +8726,8 @@
  {
   "name": "Consult the Spirits",
   "source": "WoW",
-  "className": "Shaman",
-  "classSource": "WoW",
+  "className": "Barbarian",
+  "classSource": "XPHB",
   "subclassShortName": "Spiritual Guardian",
   "subclassSource": "WoW",
   "level": 10,
@@ -9256,7 +9256,7 @@
   "name": "Dashing Strikes",
   "source": "WoW",
   "className": "Rogue",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Swashbuckler",
   "subclassSource": "WoW",
   "level": 13,
@@ -9489,7 +9489,7 @@
     "name": "Extinguish Undead",
     "page": 18,
     "entries": [
-     "When an Undead creature you can see is reduced to 0 {@variantrule Hit Points|XPHB}, you can cause it to explode with necrotic energy. Roll a number of d6s equal to half the creature's unexpended {@variantrule Hit Point Dice|XPHB|Hit Dice} (round up, minimum of {@dice 1d6}), and add them together. Each creature in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the Undead makes a Dexterity saving throw. On a failed save, a target takes Necrotic damage equal to the number rolled and can't take {@variantrule Reaction|XPHB|Reactions} until the start of its next turn. On a successful save, a target takes half as much damage only. When you use this feature to explode an Undead creature you don't control, you must take a {@variantrule Reaction|XPHB} and expend a level 5+ spell slot to do so."
+     "When an Undead creature you can see is reduced to 0 {@variantrule Hit Points|XPHB}, you can cause it to explode with necrotic energy. Roll a number of d6s equal to half the creature's unexpended {@variantrule Hit Point Dice|XPHB|Hit Dice} (round up, minimum of {@damage 1d6}), and add them together. Each creature in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the Undead makes a Dexterity saving throw. On a failed save, a target takes Necrotic damage equal to the number rolled and can't take {@variantrule Reaction|XPHB|Reactions} until the start of its next turn. On a successful save, a target takes half as much damage only. When you use this feature to explode an Undead creature you don't control, you must take a {@variantrule Reaction|XPHB} and expend a level 5+ spell slot to do so."
     ]
    }
   ]
@@ -9631,7 +9631,7 @@
   "entries": [
    "{@i 14th-Level Path of the Giant Feature}",
    "The primordial power of your rage intensifies. When you rage, your reach increases by 10 feet, your size can increase to Large or Huge (your choice), and you can use your Mighty Impel to move creatures that are Large or smaller.",
-   "In addition, the extra damage dealt by your Elemental Cleaver feature increases to {@dice 2d6}."
+   "In addition, the extra damage dealt by your Elemental Cleaver feature increases to {@damage 2d6}."
   ]
  },
  {
@@ -9784,8 +9784,8 @@
  {
   "name": "Devouring Plague",
   "source": "WoW",
-  "className": "Priest",
-  "classSource": "WoW",
+  "className": "Cleric",
+  "classSource": "XPHB",
   "subclassShortName": "Shadow",
   "subclassSource": "WoW",
   "level": 3,
@@ -9884,8 +9884,8 @@
  {
   "name": "Discipline Domain",
   "source": "WoW",
-  "className": "Priest",
-  "classSource": "WoW",
+  "className": "Cleric",
+  "classSource": "XPHB",
   "subclassShortName": "Discipline",
   "subclassSource": "WoW",
   "level": 3,
@@ -9894,23 +9894,23 @@
    "The Discipline Domain focuses on the balance between the Holy Light and its shadowy mirror, the Void. Wielding both powers at once, Clerics who embrace this domain aid their allies and harm their foes, often with a single spell.",
    {
     "type": "refSubclassFeature",
-    "subclassFeature": "Discipline Spells|Priest|WoW|Discipline|WoW|3"
+    "subclassFeature": "Discipline Spells|Cleric|XPHB|Discipline|WoW|3"
    },
    {
     "type": "refSubclassFeature",
-    "subclassFeature": "Holy Bolt|Priest|WoW|Discipline|WoW|3"
+    "subclassFeature": "Holy Bolt|Cleric|XPHB|Discipline|WoW|3"
    },
    {
     "type": "refSubclassFeature",
-    "subclassFeature": "Atonement|Priest|WoW|Discipline|WoW|3"
+    "subclassFeature": "Atonement|Cleric|XPHB|Discipline|WoW|3"
    }
   ]
  },
  {
   "name": "Discipline Spells",
   "source": "WoW",
-  "className": "Priest",
-  "classSource": "WoW",
+  "className": "Cleric",
+  "classSource": "XPHB",
   "subclassShortName": "Discipline",
   "subclassSource": "WoW",
   "level": 3,
@@ -9966,8 +9966,8 @@
  {
   "name": "Dispersion",
   "source": "WoW",
-  "className": "Priest",
-  "classSource": "WoW",
+  "className": "Cleric",
+  "classSource": "XPHB",
   "subclassShortName": "Shadow",
   "subclassSource": "WoW",
   "level": 6,
@@ -10104,7 +10104,7 @@
   "level": 3,
   "header": 1,
   "entries": [
-   "You can channel divine power into your strikes. On each of your turns while your Rage is active, the first creature you hit with a weapon or an {@variantrule Unarmed Strike|XPHB} takes extra damage equal to {@dice 1d6} plus half your Barbarian level (round down). The extra damage is Necrotic or Radiant; you choose the type each time you deal the damage."
+   "You can channel divine power into your strikes. On each of your turns while your Rage is active, the first creature you hit with a weapon or an {@variantrule Unarmed Strike|XPHB} takes extra damage equal to {@damage 1d6} plus half your Barbarian level (round down). The extra damage is Necrotic or Radiant; you choose the type each time you deal the damage."
   ]
  },
  {
@@ -11210,7 +11210,7 @@
   "name": "Drunken Technique",
   "source": "WoW",
   "className": "Monk",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Mystic Brews",
   "subclassSource": "WoW",
   "level": 3,
@@ -11366,8 +11366,8 @@
  {
   "name": "Echo of the Elements",
   "source": "WoW",
-  "className": "Shaman",
-  "classSource": "WoW",
+  "className": "Barbarian",
+  "classSource": "XPHB",
   "subclassShortName": "Elements",
   "subclassSource": "WoW",
   "level": 6,
@@ -11934,14 +11934,14 @@
  {
   "name": "Elemental Overload",
   "source": "WoW",
-  "className": "Shaman",
-  "classSource": "WoW",
+  "className": "Barbarian",
+  "classSource": "XPHB",
   "subclassShortName": "Elements",
   "subclassSource": "WoW",
   "level": 14,
   "header": 2,
   "entries": [
-   "The power of the storm you channel grows mightier, lashing out at your foes. Your {@subclassFeature Raging Elements|Shaman|WoW|Elements|WoW|3|WoW} options gain the following effects.",
+   "The power of the storm you channel grows mightier, lashing out at your foes. Your {@subclassFeature Raging Elements|Barbarian|XPHB|Elements|WoW|3|WoW} options gain the following effects.",
    {
     "type": "entries",
     "name": "Icefury",
@@ -11976,7 +11976,7 @@
   "level": 15,
   "header": 2,
   "entries": [
-   "When you are hit by an attack roll, you can take a {@variantrule Reaction|XPHB} to halve the attack's damage against yourself (round down) and force the attacker to make a Dexterity saving throw against your spell save DC. On a failed save, the attacker takes damage equal to {@dice 2d10} plus your Charisma modifier of one of the following types (your choice): Acid, Cold, Fire, Lightning, or Thunder. On a successful save, the attacker takes half as much damage.",
+   "When you are hit by an attack roll, you can take a {@variantrule Reaction|XPHB} to halve the attack's damage against yourself (round down) and force the attacker to make a Dexterity saving throw against your spell save DC. On a failed save, the attacker takes damage equal to {@damage 2d10} plus your Charisma modifier of one of the following types (your choice): Acid, Cold, Fire, Lightning, or Thunder. On a successful save, the attacker takes half as much damage.",
    "You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
   ]
  },
@@ -12326,7 +12326,7 @@
   "name": "Enhancing a Magical Beverage",
   "source": "WoW",
   "className": "Monk",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Mystic Brews",
   "subclassSource": "WoW",
   "level": 6,
@@ -13201,7 +13201,7 @@
   "name": "Fancy Footwork",
   "source": "WoW",
   "className": "Rogue",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Swashbuckler",
   "subclassSource": "WoW",
   "level": 3,
@@ -14191,7 +14191,7 @@
     "name": "Polar Strikes",
     "page": 6,
     "entries": [
-     "When you hit a creature with an attack roll using a weapon, you can deal an extra {@damage 1d4} Cold damage to the target, which can take this extra damage only once per turn. When you reach Ranger level 11, this extra damage increases to {@dice 1d6}."
+     "When you hit a creature with an attack roll using a weapon, you can deal an extra {@damage 1d4} Cold damage to the target, which can take this extra damage only once per turn. When you reach Ranger level 11, this extra damage increases to {@damage 1d6}."
     ]
    }
   ]
@@ -15214,7 +15214,7 @@
   "entries": [
    "{@i 10th-level Rune Knight feature}",
    "The magic of your runes permanently alters you. When you gain this feature, roll {@dice 3d4}. You grow a number of inches in height equal to the roll.",
-   "Moreover, the extra damage you deal with your Giant's Might feature increases to {@dice 1d8}."
+   "Moreover, the extra damage you deal with your Giant's Might feature increases to {@damage 1d8}."
   ]
  },
  {
@@ -15827,8 +15827,8 @@
  {
   "name": "Holy Bolt",
   "source": "WoW",
-  "className": "Priest",
-  "classSource": "WoW",
+  "className": "Cleric",
+  "classSource": "XPHB",
   "subclassShortName": "Discipline",
   "subclassSource": "WoW",
   "level": 3,
@@ -15843,7 +15843,7 @@
   "name": "Holy Deliverance",
   "source": "WoW",
   "className": "Paladin",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Holy",
   "subclassSource": "WoW",
   "level": 20,
@@ -16001,7 +16001,7 @@
   "level": 14,
   "header": 2,
   "entries": [
-   "Your {@subclassFeature Spellfire Burst|Sorcerer|XPHB|Spellfire|FRHoF|3|FRHoF} improves. You add your {@class Sorcerer|XPHB} level to the {@variantrule Temporary Hit Points|XPHB} gained from {@subclassFeature Bolstering Flames|Sorcerer|XPHB|Spellfire|FRHoF|3|FRHoF}, and the damage of {@subclassFeature Radiant Fire|Sorcerer|XPHB|Spellfire|FRHoF|3|FRHoF} increases to {@dice 1d8}."
+   "Your {@subclassFeature Spellfire Burst|Sorcerer|XPHB|Spellfire|FRHoF|3|FRHoF} improves. You add your {@class Sorcerer|XPHB} level to the {@variantrule Temporary Hit Points|XPHB} gained from {@subclassFeature Bolstering Flames|Sorcerer|XPHB|Spellfire|FRHoF|3|FRHoF}, and the damage of {@subclassFeature Radiant Fire|Sorcerer|XPHB|Spellfire|FRHoF|3|FRHoF} increases to {@damage 1d8}."
   ]
  },
  {
@@ -16806,7 +16806,7 @@
     "type": "entries",
     "name": "Improved Deflection",
     "entries": [
-     "Whenever your {@creature Steel Defender|EFA} uses its Deflect Attack, the attacker takes Force damage equal to {@dice 1d4} plus your Intelligence modifier."
+     "Whenever your {@creature Steel Defender|EFA} uses its Deflect Attack, the attacker takes Force damage equal to {@damage 1d4} plus your Intelligence modifier."
     ]
    }
   ]
@@ -16969,7 +16969,7 @@
   "level": 9,
   "header": 2,
   "entries": [
-   "The damage of your {@creature Reanimated Companion|RHW|Reanimated Companion's} Death Burst increases to {@dice 4d4}. Necrotic damage dealt by your companion ignores {@spell Resistance|XPHB}."
+   "The damage of your {@creature Reanimated Companion|RHW|Reanimated Companion's} Death Burst increases to {@damage 4d4}. Necrotic damage dealt by your companion ignores {@spell Resistance|XPHB}."
   ]
  },
  {
@@ -17234,7 +17234,7 @@
   "name": "Infusion of Light",
   "source": "WoW",
   "className": "Paladin",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Holy",
   "subclassSource": "WoW",
   "level": 15,
@@ -17498,7 +17498,7 @@
   "name": "Intoxicated Frenzy",
   "source": "WoW",
   "className": "Monk",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Mystic Brews",
   "subclassSource": "WoW",
   "level": 17,
@@ -17967,7 +17967,7 @@
   "name": "Leap to Your Feet",
   "source": "WoW",
   "className": "Monk",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Mystic Brews",
   "subclassSource": "WoW",
   "level": 6,
@@ -18312,7 +18312,7 @@
   "name": "Lightbringer's Aura",
   "source": "WoW",
   "className": "Paladin",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Holy",
   "subclassSource": "WoW",
   "level": 7,
@@ -18419,8 +18419,8 @@
  {
   "name": "Luminous Barrier",
   "source": "WoW",
-  "className": "Priest",
-  "classSource": "WoW",
+  "className": "Cleric",
+  "classSource": "XPHB",
   "subclassShortName": "Discipline",
   "subclassSource": "WoW",
   "level": 6,
@@ -18429,7 +18429,7 @@
    "name": "Channel Divinity"
   },
   "entries": [
-   "As a {@variantrule Bonus Action|XPHB}, you can expend a use of your {@classFeature Channel Divinity|Cleric|XPHB|2|XPHB} to place a magical ward of glowing light on each creature blessed by your {@subclassFeature Atonement|Priest|WoW|Discipline|WoW|3|WoW}. Each affected creature gains a number of {@variantrule Temporary Hit Points|XPHB} equal to your Cleric level plus your Wisdom modifier. While a creature has {@variantrule Temporary Hit Points|XPHB} gained from this feature, it has {@variantrule Resistance|XPHB} to all damage."
+   "As a {@variantrule Bonus Action|XPHB}, you can expend a use of your {@classFeature Channel Divinity|Cleric|XPHB|2|XPHB} to place a magical ward of glowing light on each creature blessed by your {@subclassFeature Atonement|Cleric|XPHB|Discipline|WoW|3|WoW}. Each affected creature gains a number of {@variantrule Temporary Hit Points|XPHB} equal to your Cleric level plus your Wisdom modifier. While a creature has {@variantrule Temporary Hit Points|XPHB} gained from this feature, it has {@variantrule Resistance|XPHB} to all damage."
   ]
  },
  {
@@ -19403,20 +19403,20 @@
   "name": "Master Brewer",
   "source": "WoW",
   "className": "Monk",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Mystic Brews",
   "subclassSource": "WoW",
   "level": 17,
   "header": 2,
   "entries": [
-   "When you create a magical beverage using your {@subclassFeature Mystic Brew|Monk|WoW|Mystic Brews|WoW|6|WoW} feature, you can choose two different options and produce one magical beverage. Drinking the beverage provides the effects of both options for the duration."
+   "When you create a magical beverage using your {@subclassFeature Mystic Brew|Monk|XPHB|Mystic Brews|WoW|6|WoW} feature, you can choose two different options and produce one magical beverage. Drinking the beverage provides the effects of both options for the duration."
   ]
  },
  {
   "name": "Master Duelist",
   "source": "WoW",
   "className": "Rogue",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Swashbuckler",
   "subclassSource": "WoW",
   "level": 17,
@@ -20221,7 +20221,7 @@
   "name": "Mystic Brew",
   "source": "WoW",
   "className": "Monk",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Mystic Brews",
   "subclassSource": "WoW",
   "level": 6,
@@ -20258,7 +20258,7 @@
    },
    {
     "type": "refSubclassFeature",
-    "subclassFeature": "Enhancing a Magical Beverage|Monk|WoW|Mystic Brews|WoW|6"
+    "subclassFeature": "Enhancing a Magical Beverage|Monk|XPHB|Mystic Brews|WoW|6"
    }
   ]
  },
@@ -20748,7 +20748,7 @@
     "type": "entries",
     "name": "Unholy Resuscitation",
     "entries": [
-     "If you drop to 0 Hit Points and don't die outright, you can cause your body to erupt with deathly energy. Each creature of your choice in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you makes a Constitution saving throw against your spell save DC, taking Necrotic damage equal to {@dice 2d10} plus your Charisma modifier on a failed save or half as much damage on a successful one. Your Hit Points then change to twice your Warlock level, and you gain 1 {@condition Exhaustion|XPHB} level.",
+     "If you drop to 0 Hit Points and don't die outright, you can cause your body to erupt with deathly energy. Each creature of your choice in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you makes a Constitution saving throw against your spell save DC, taking Necrotic damage equal to {@damage 2d10} plus your Charisma modifier on a failed save or half as much damage on a successful one. Your Hit Points then change to twice your Warlock level, and you gain 1 {@condition Exhaustion|XPHB} level.",
      "Once you use this benefit, you can't use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
     ]
    }
@@ -21298,7 +21298,7 @@
   "name": "Oath of the Holy",
   "source": "WoW",
   "className": "Paladin",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Holy",
   "subclassSource": "WoW",
   "level": 3,
@@ -21316,11 +21316,11 @@
    },
    {
     "type": "refSubclassFeature",
-    "subclassFeature": "Oath of the Holy Spells|Paladin|WoW|Holy|WoW|3"
+    "subclassFeature": "Oath of the Holy Spells|Paladin|XPHB|Holy|WoW|3"
    },
    {
     "type": "refSubclassFeature",
-    "subclassFeature": "Beacon of Light|Paladin|WoW|Holy|WoW|3"
+    "subclassFeature": "Beacon of Light|Paladin|XPHB|Holy|WoW|3"
    }
   ]
  },
@@ -21328,7 +21328,7 @@
   "name": "Oath of the Holy Spells",
   "source": "WoW",
   "className": "Paladin",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Holy",
   "subclassSource": "WoW",
   "level": 3,
@@ -22526,7 +22526,7 @@
   "name": "Panache",
   "source": "WoW",
   "className": "Rogue",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Swashbuckler",
   "subclassSource": "WoW",
   "level": 9,
@@ -22692,8 +22692,8 @@
  {
   "name": "Path of the Elements",
   "source": "WoW",
-  "className": "Shaman",
-  "classSource": "WoW",
+  "className": "Barbarian",
+  "classSource": "XPHB",
   "subclassShortName": "Elements",
   "subclassSource": "WoW",
   "level": 3,
@@ -22702,7 +22702,7 @@
    "Barbarians who follow the Path of the Elements learn to harness their {@classFeature Rage|Barbarian|XPHB|1|XPHB} into a storm of flames, frost, and lightning. When in their {@classFeature Rage|Barbarian|XPHB|1|XPHB}, these Barbarians tap into the elemental forces of nature to create powerful magical effects.",
    {
     "type": "refSubclassFeature",
-    "subclassFeature": "Raging Elements|Shaman|WoW|Elements|WoW|3"
+    "subclassFeature": "Raging Elements|Barbarian|XPHB|Elements|WoW|3"
    }
   ]
  },
@@ -22771,8 +22771,8 @@
  {
   "name": "Path of the Spiritual Guardian",
   "source": "WoW",
-  "className": "Shaman",
-  "classSource": "WoW",
+  "className": "Barbarian",
+  "classSource": "XPHB",
   "subclassShortName": "Spiritual Guardian",
   "subclassSource": "WoW",
   "level": 3,
@@ -22781,7 +22781,7 @@
    "Barbarians who walk the Path of the Spiritual Guardian call on spirits—whether bestial spirits of nature, spirits of departed ancestors, or spirits of raw elemental power—to guide and protect them. When these Barbarians rage, they contact the realm of the spirits and call on them for aid.",
    {
     "type": "refSubclassFeature",
-    "subclassFeature": "Spiritual Protectors|Shaman|WoW|Spiritual Guardian|WoW|3"
+    "subclassFeature": "Spiritual Protectors|Barbarian|XPHB|Spiritual Guardian|WoW|3"
    }
   ]
  },
@@ -23268,41 +23268,6 @@
    "As an action, you can channel the magic of the Song of Creation to create one nonmagical item of your choice in an unoccupied space within 10 feet of you. The item must appear on a surface or in a liquid that can support it. The gp value of the item can't be more than 20 times your bard level, and the item must be Medium or smaller. The item glimmers softly, and a creature can faintly hear music when touching it. The created item disappears after a number of hours equal to your proficiency bonus. For examples of items you can create, see the equipment chapter of the {@book Player's Handbook|PHB|5}.",
    "Once you create an item with this feature, you can't do so again until you finish a long rest, unless you expend a spell slot of 2nd level or higher to use this feature again. You can have only one item created by this feature at a time; if you use this action and already have an item from this feature, the first one immediately vanishes.",
    "The size of the item you can create with this feature increases by one size category when you reach 6th level (Large) and 14th level (Huge)."
-  ]
- },
- {
-  "name": "Pet Specialization",
-  "source": "WoW",
-  "className": "Hunter",
-  "classSource": "WoW",
-  "subclassShortName": "Beast Master",
-  "subclassSource": "WoW",
-  "level": 6,
-  "header": 2,
-  "entries": [
-   "This feature replaces the {@classFeature Roving|Ranger|XPHB|6} feature for a Hunter with the {@subclass Beast Master|Hunter|WoW|WoW} subclass.",
-   "While the beast from your {@subclassFeature Primal Companion|Ranger|XPHB|Beast Master|XPHB|3|XPHB} feature is within 60 feet of you, you gain one of the following benefits, depending on the beast's pet family and its specialization (see \"{@book Hunter Pets|WoW|1|Hunter Pets}\").",
-   {
-    "type": "entries",
-    "name": "Cunning",
-    "entries": [
-     "Your {@variantrule Speed|XPHB} and all of your primal beast's speeds increase by 10 feet. In addition, your primal beast can use its action to cast {@spell Freedom of Movement|XPHB} without any spell components, affecting itself and you (if you are within range). Once it does so, it can't do so again until you finish a {@variantrule Long Rest|XPHB}."
-    ]
-   },
-   {
-    "type": "entries",
-    "name": "Ferocity",
-    "entries": [
-     "When your primal beast is {@status Bloodied|XPHB} and it hits with its Beast's Strike attack, you and your primal beast each regain {@variantrule Hit Points|XPHB} equal to your Wisdom modifier. In addition, your primal beast can use its action to cast {@spell Haste|XPHB} without any spell components, affecting itself and you (if you are within range). Once it does so, it can't do so again until you finish a {@variantrule Long Rest|XPHB}."
-    ]
-   },
-   {
-    "type": "entries",
-    "name": "Tenacity",
-    "entries": [
-     "Your {@variantrule Hit Points|XPHB|Hit Point} maximum increases by 6. Whenever you gain a Ranger level, your {@variantrule Hit Points|XPHB|Hit Point} maximum increases by an additional 1 {@variantrule Hit Points|XPHB|Hit Point}. Your primal beast's {@variantrule Hit Points|XPHB|Hit Point} maximum also increases by your Ranger level. In addition, your primal beast can use its action to cast {@spell Stoneskin|XPHB} without any spell components, affecting itself and you (if you are within range). Once it does so, it can't do so again until you finish a {@variantrule Long Rest|XPHB}."
-    ]
-   }
   ]
  },
  {
@@ -23831,8 +23796,8 @@
  {
   "name": "Primordial Bond",
   "source": "WoW",
-  "className": "Shaman",
-  "classSource": "WoW",
+  "className": "Barbarian",
+  "classSource": "XPHB",
   "subclassShortName": "Elements",
   "subclassSource": "WoW",
   "level": 10,
@@ -24781,7 +24746,7 @@
    "name": "Channel Divinity"
   },
   "entries": [
-   "As a {@action Magic|XPHB} action, you present your {@item Holy Symbol|XPHB} and expend a use of your Channel Divinity to emit a flash of light in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from yourself. Any magical {@variantrule Darkness|XPHB}—such as that created by the {@spell Darkness|XPHB} spell—in that area is dispelled. Additionally, each creature of your choice in that area must make a Constitution saving throw, taking Radiant damage equal to {@dice 2d10} plus your Cleric level on a failed save or half as much damage on a successful one."
+   "As a {@action Magic|XPHB} action, you present your {@item Holy Symbol|XPHB} and expend a use of your Channel Divinity to emit a flash of light in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from yourself. Any magical {@variantrule Darkness|XPHB}—such as that created by the {@spell Darkness|XPHB} spell—in that area is dispelled. Additionally, each creature of your choice in that area must make a Constitution saving throw, taking Radiant damage equal to {@damage 2d10} plus your Cleric level on a failed save or half as much damage on a successful one."
   ]
  },
  {
@@ -24930,8 +24895,8 @@
  {
   "name": "Raging Elements",
   "source": "WoW",
-  "className": "Shaman",
-  "classSource": "WoW",
+  "className": "Barbarian",
+  "classSource": "XPHB",
   "subclassShortName": "Elements",
   "subclassSource": "WoW",
   "level": 3,
@@ -24997,7 +24962,7 @@
   "name": "Rakish Audacity",
   "source": "WoW",
   "className": "Rogue",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Swashbuckler",
   "subclassSource": "WoW",
   "level": 3,
@@ -25207,7 +25172,7 @@
     "name": "Jolt to Life",
     "entries": [
      "When you cast {@spell Spare the Dying|XPHB}, you can modify the spell so that it sends a jolt of electricity through the target, reviving it. The target regains a number of {@variantrule Hit Points|XPHB} equal to your Artificer level, and each creature of your choice in a 10-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the target makes a Dexterity saving throw against your spell save DC, taking {@damage 2d4} Lightning damage on a failed save or half as much damage on a successful one.",
-     "You can modify the spell this way a number of times equal to your Intelligence modifier, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. The Lightning damage of this feature increases by {@dice 1d4} when you reach Artificer levels 11 ({@dice 3d4}) and 17 ({@dice 4d4})."
+     "You can modify the spell this way a number of times equal to your Intelligence modifier, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. The Lightning damage of this feature increases by {@damage 1d4} when you reach Artificer levels 11 ({@damage 3d4}) and 17 ({@damage 4d4})."
     ]
    },
    {
@@ -25284,7 +25249,7 @@
   "name": "Redirect Attack",
   "source": "WoW",
   "className": "Monk",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Mystic Brews",
   "subclassSource": "WoW",
   "level": 6,
@@ -25727,19 +25692,6 @@
   ]
  },
  {
-  "name": "Roving",
-  "source": "WoW",
-  "className": "Hunter",
-  "classSource": "WoW",
-  "subclassShortName": "Hunter",
-  "subclassSource": "WoW",
-  "level": 6,
-  "header": 2,
-  "entries": [
-   "Your {@variantrule Speed|XPHB} increases by 10 feet while you aren't wearing Heavy armor. You also have a {@variantrule Climb Speed|XPHB} and a {@variantrule Swim Speed|XPHB} equal to your {@variantrule Speed|XPHB}."
-  ]
- },
- {
   "name": "Royal Envoy",
   "source": "SCAG",
   "page": 128,
@@ -25904,7 +25856,7 @@
   "header": 2,
   "entries": [
    "{@i 18th-level Rune Knight feature}",
-   "You learn how to amplify your rune-powered transformation. As a result, the extra damage you deal with the Giant's Might feature increases to {@dice 1d10}. Moreover, when you use that feature, your size can increase to Huge, and while you are that size, your reach increases by 5 feet."
+   "You learn how to amplify your rune-powered transformation. As a result, the extra damage you deal with the Giant's Might feature increases to {@damage 1d10}. Moreover, when you use that feature, your size can increase to Huge, and while you are that size, your reach increases by 5 feet."
   ]
  },
  {
@@ -26609,7 +26561,7 @@
   "level": 14,
   "header": 2,
   "entries": [
-   "Starting at 14th level, the radiant energy you channel allows you to resist death. When you have to make a death saving throw at the start of your turn, you can instead spring back to your feet with a burst of radiant energy. You regain hit points equal to half your hit point maximum, and then you stand up if you so choose. Each creature of your choice that is within 30 feet of you takes radiant damage equal to {@dice 2d8} + your Charisma modifier, and it is {@condition blinded} until the end of the current turn.",
+   "Starting at 14th level, the radiant energy you channel allows you to resist death. When you have to make a death saving throw at the start of your turn, you can instead spring back to your feet with a burst of radiant energy. You regain hit points equal to half your hit point maximum, and then you stand up if you so choose. Each creature of your choice that is within 30 feet of you takes radiant damage equal to {@damage 2d8} + your Charisma modifier, and it is {@condition blinded} until the end of the current turn.",
    "Once you use this feature, you can't use it again until you finish a long rest."
   ]
  },
@@ -26624,7 +26576,7 @@
   "level": 14,
   "header": 2,
   "entries": [
-   "When you or an ally within 60 feet of you is about to make a {@variantrule Death Saving Throw|XPHB}, you can unleash radiant energy to save the creature. The creature regains {@variantrule Hit Points|XPHB} equal to half its {@variantrule Hit Points|XPHB|Hit Point} maximum and can end the {@condition Prone|XPHB} condition on itself. Each creature of your choice that is within 30 feet of the creature takes Radiant damage equal to {@dice 2d8} plus your Charisma modifier, and each has the {@condition Blinded|XPHB} condition until the end of the current turn.",
+   "When you or an ally within 60 feet of you is about to make a {@variantrule Death Saving Throw|XPHB}, you can unleash radiant energy to save the creature. The creature regains {@variantrule Hit Points|XPHB} equal to half its {@variantrule Hit Points|XPHB|Hit Point} maximum and can end the {@condition Prone|XPHB} condition on itself. Each creature of your choice that is within 30 feet of the creature takes Radiant damage equal to {@damage 2d8} plus your Charisma modifier, and each has the {@condition Blinded|XPHB} condition until the end of the current turn.",
    "Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
   ]
  },
@@ -26771,8 +26723,8 @@
  {
   "name": "Shadow Domain",
   "source": "WoW",
-  "className": "Priest",
-  "classSource": "WoW",
+  "className": "Cleric",
+  "classSource": "XPHB",
   "subclassShortName": "Shadow",
   "subclassSource": "WoW",
   "level": 3,
@@ -26781,15 +26733,15 @@
    "The Shadow Domain deals with the powers of shadow and the Void—a sinister mirror of the life-giving powers of the Light. Clerics who embrace these powers can wither their enemies' flesh and debilitate their minds.",
    {
     "type": "refSubclassFeature",
-    "subclassFeature": "Shadow Spells|Priest|WoW|Shadow|WoW|3"
+    "subclassFeature": "Shadow Spells|Cleric|XPHB|Shadow|WoW|3"
    },
    {
     "type": "refSubclassFeature",
-    "subclassFeature": "Shadowform|Priest|WoW|Shadow|WoW|3"
+    "subclassFeature": "Shadowform|Cleric|XPHB|Shadow|WoW|3"
    },
    {
     "type": "refSubclassFeature",
-    "subclassFeature": "Devouring Plague|Priest|WoW|Shadow|WoW|3"
+    "subclassFeature": "Devouring Plague|Cleric|XPHB|Shadow|WoW|3"
    }
   ]
  },
@@ -26977,8 +26929,8 @@
  {
   "name": "Shadow Spells",
   "source": "WoW",
-  "className": "Priest",
-  "classSource": "WoW",
+  "className": "Cleric",
+  "classSource": "XPHB",
   "subclassShortName": "Shadow",
   "subclassSource": "WoW",
   "level": 3,
@@ -27075,8 +27027,8 @@
  {
   "name": "Shadowform",
   "source": "WoW",
-  "className": "Priest",
-  "classSource": "WoW",
+  "className": "Cleric",
+  "classSource": "XPHB",
   "subclassShortName": "Shadow",
   "subclassSource": "WoW",
   "level": 3,
@@ -27097,7 +27049,7 @@
      {
       "type": "item",
       "name": "Void Empowerment",
-      "entry": "When you cast a spell using a spell slot that deals Psychic or Necrotic damage, you can add {@dice 1d6} to one damage roll of the spell."
+      "entry": "When you cast a spell using a spell slot that deals Psychic or Necrotic damage, you can add {@damage 1d6} to one damage roll of the spell."
      }
     ]
    },
@@ -28453,8 +28405,8 @@
  {
   "name": "Spirit Shield",
   "source": "WoW",
-  "className": "Shaman",
-  "classSource": "WoW",
+  "className": "Barbarian",
+  "classSource": "XPHB",
   "subclassShortName": "Spiritual Guardian",
   "subclassSource": "WoW",
   "level": 6,
@@ -28622,8 +28574,8 @@
  {
   "name": "Spirits' Fury",
   "source": "WoW",
-  "className": "Shaman",
-  "classSource": "WoW",
+  "className": "Barbarian",
+  "classSource": "XPHB",
   "subclassShortName": "Spiritual Guardian",
   "subclassSource": "WoW",
   "level": 14,
@@ -28651,8 +28603,8 @@
  {
   "name": "Spiritual Protectors",
   "source": "WoW",
-  "className": "Shaman",
-  "classSource": "WoW",
+  "className": "Barbarian",
+  "classSource": "XPHB",
   "subclassShortName": "Spiritual Guardian",
   "subclassSource": "WoW",
   "level": 3,
@@ -29319,7 +29271,7 @@
     "type": "entries",
     "name": "Ferocity",
     "entries": [
-     "The damage die of the companion's Dreadful Swipe increases to {@dice 1d6}."
+     "The damage die of the companion's Dreadful Swipe increases to {@damage 1d6}."
     ]
    }
   ]
@@ -30055,7 +30007,7 @@
   "name": "Swashbuckler",
   "source": "WoW",
   "className": "Rogue",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Swashbuckler",
   "subclassSource": "WoW",
   "level": 3,
@@ -30064,11 +30016,11 @@
    "As a Swashbuckler, you focus on the art of the blade, bringing speed, elegance, and charm to your combat style—topped off with an exquisite flourish of panache. You excel in single combat, and your methods make a duel look like a flamboyant performance.",
    {
     "type": "refSubclassFeature",
-    "subclassFeature": "Fancy Footwork|Rogue|WoW|Swashbuckler|WoW|3"
+    "subclassFeature": "Fancy Footwork|Rogue|XPHB|Swashbuckler|WoW|3"
    },
    {
     "type": "refSubclassFeature",
-    "subclassFeature": "Rakish Audacity|Rogue|WoW|Swashbuckler|WoW|3"
+    "subclassFeature": "Rakish Audacity|Rogue|XPHB|Swashbuckler|WoW|3"
    }
   ]
  },
@@ -32145,7 +32097,7 @@
   "name": "Tipsy Sway",
   "source": "WoW",
   "className": "Monk",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Mystic Brews",
   "subclassSource": "WoW",
   "level": 6,
@@ -32158,11 +32110,11 @@
     "entries": [
      {
       "type": "refSubclassFeature",
-      "subclassFeature": "Leap to Your Feet|Monk|WoW|Mystic Brews|WoW|6"
+      "subclassFeature": "Leap to Your Feet|Monk|XPHB|Mystic Brews|WoW|6"
      },
      {
       "type": "refSubclassFeature",
-      "subclassFeature": "Redirect Attack|Monk|WoW|Mystic Brews|WoW|6"
+      "subclassFeature": "Redirect Attack|Monk|XPHB|Mystic Brews|WoW|6"
      }
     ]
    }
@@ -33323,26 +33275,26 @@
  {
   "name": "Ultimate Penitence",
   "source": "WoW",
-  "className": "Priest",
-  "classSource": "WoW",
+  "className": "Cleric",
+  "classSource": "XPHB",
   "subclassShortName": "Discipline",
   "subclassSource": "WoW",
   "level": 17,
   "header": 2,
   "entries": [
-   "Your {@subclassFeature Holy Bolt|Priest|WoW|Discipline|WoW|3|WoW} grows more powerful as detailed below.",
+   "Your {@subclassFeature Holy Bolt|Cleric|XPHB|Discipline|WoW|3|WoW} grows more powerful as detailed below.",
    {
     "type": "entries",
     "name": "Ascending Step",
     "entries": [
-     "When you use {@subclassFeature Holy Bolt|Priest|WoW|Discipline|WoW|3|WoW}, you can teleport to an unoccupied space you can see within 30 feet before you make an attack roll."
+     "When you use {@subclassFeature Holy Bolt|Cleric|XPHB|Discipline|WoW|3|WoW}, you can teleport to an unoccupied space you can see within 30 feet before you make an attack roll."
     ]
    },
    {
     "type": "entries",
     "name": "Ascending Volley",
     "entries": [
-     "When you use {@subclassFeature Holy Bolt|Priest|WoW|Discipline|WoW|3|WoW}, you can expend a spell slot as part of the {@variantrule Bonus Action|XPHB} to hurl a number of additional bolts equal to the spell slot level expended. You can direct the bolts to hit one creature or several. Make a separate attack roll for each bolt."
+     "When you use {@subclassFeature Holy Bolt|Cleric|XPHB|Discipline|WoW|3|WoW}, you can expend a spell slot as part of the {@variantrule Bonus Action|XPHB} to hurl a number of additional bolts equal to the spell slot level expended. You can direct the bolts to hit one creature or several. Make a separate attack roll for each bolt."
     ]
    }
   ]
@@ -33874,14 +33826,14 @@
  {
   "name": "Vampiric Embrace",
   "source": "WoW",
-  "className": "Priest",
-  "classSource": "WoW",
+  "className": "Cleric",
+  "classSource": "XPHB",
   "subclassShortName": "Shadow",
   "subclassSource": "WoW",
   "level": 17,
   "header": 2,
   "entries": [
-   "While your {@subclassFeature Shadowform|Priest|WoW|Shadow|WoW|3|WoW} is active, whenever you roll {@dice 1d6} to add extra damage to a spell, one creature of your choice within 30 feet of you regains that many {@variantrule Hit Points|XPHB}."
+   "While your {@subclassFeature Shadowform|Cleric|XPHB|Shadow|WoW|3|WoW} is active, whenever you roll {@damage 1d6} to add extra damage to a spell, one creature of your choice within 30 feet of you regains that many {@variantrule Hit Points|XPHB}."
   ]
  },
  {
@@ -34757,7 +34709,7 @@
   "name": "Warrior of Mystic Brews",
   "source": "WoW",
   "className": "Monk",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Mystic Brews",
   "subclassSource": "WoW",
   "level": 3,
@@ -34767,11 +34719,11 @@
    "Warriors of Mystic Brews often enjoy playing the fool to bring gladness to the downtrodden or to teach humility to the arrogant, but these Monks are maddening, masterful foes in battle.",
    {
     "type": "refSubclassFeature",
-    "subclassFeature": "Bonus Proficiencies|Monk|WoW|Mystic Brews|WoW|3"
+    "subclassFeature": "Bonus Proficiencies|Monk|XPHB|Mystic Brews|WoW|3"
    },
    {
     "type": "refSubclassFeature",
-    "subclassFeature": "Drunken Technique|Monk|WoW|Mystic Brews|WoW|3"
+    "subclassFeature": "Drunken Technique|Monk|XPHB|Mystic Brews|WoW|3"
    }
   ]
  },
@@ -35896,13 +35848,13 @@
   "name": "Wizened Brewer",
   "source": "WoW",
   "className": "Monk",
-  "classSource": "WoW",
+  "classSource": "XPHB",
   "subclassShortName": "Mystic Brews",
   "subclassSource": "WoW",
   "level": 11,
   "header": 2,
   "entries": [
-   "You learn more complex flavors. The following beverages are added to your {@subclassFeature Mystic Brew|Monk|WoW|Mystic Brews|WoW|6|WoW} options:",
+   "You learn more complex flavors. The following beverages are added to your {@subclassFeature Mystic Brew|Monk|XPHB|Mystic Brews|WoW|6|WoW} options:",
    {
     "type": "list",
     "style": "list-hang-notitle",
@@ -35999,7 +35951,7 @@
     "name": "Natural Weapons",
     "page": 19,
     "entries": [
-     "The damage of your new growth increases to {@dice 2d6} damage of the type associated with the growth. You also have {@variantrule Advantage|XPHB} on Constitution saving throws to maintain {@status Concentration|XPHB}."
+     "The damage of your new growth increases to {@damage 2d6} damage of the type associated with the growth. You also have {@variantrule Advantage|XPHB} on Constitution saving throws to maintain {@status Concentration|XPHB}."
     ]
    }
   ]

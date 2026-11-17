@@ -7784,7 +7784,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Antimatter Rifle|XDMG}",
-     "{@dice 6d8} Necrotic",
+     "{@damage 6d8} Necrotic",
      "{@itemProperty AF|XDMG|Ammunition} (Range 120/360; Energy Cell), {@itemProperty RLD|XDMG|Reload} (2 shots), {@itemProperty 2H|XPHB|Two-Handed}",
      "{@itemMastery Sap}",
      "10 lb."
@@ -7795,7 +7795,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Laser Pistol|XDMG}",
-     "{@dice 3d6} Radiant",
+     "{@damage 3d6} Radiant",
      "{@itemProperty AF|XDMG|Ammunition} (Range 40/120; Energy Cell), {@itemProperty RLD|XDMG|Reload} (50 shots)",
      "{@itemMastery Vex}",
      "2 lb."
@@ -7806,7 +7806,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Laser Rifle|XDMG}",
-     "{@dice 3d8} Radiant",
+     "{@damage 3d8} Radiant",
      "{@itemProperty AF|XDMG|Ammunition} (Range 100/300; Energy Cell), {@itemProperty RLD|XDMG|Reload} (30 shots), {@itemProperty 2H|XPHB|Two-Handed}",
      "{@itemMastery Slow}",
      "7 lb."
@@ -12262,7 +12262,7 @@
    ],
    [
     "31-40",
-    "When you hit with a weapon attack while attuned to the artifact, the target takes an extra {@dice 1d6} damage of the weapon's type."
+    "When you hit with a weapon attack while attuned to the artifact, the target takes an extra {@damage 1d6} damage of the weapon's type."
    ],
    [
     "41-50",
@@ -12325,7 +12325,7 @@
    ],
    [
     "31–40",
-    "When you hit with an attack roll while attuned to the Artifact, the target takes an extra {@dice 1d6} Force damage."
+    "When you hit with an attack roll while attuned to the Artifact, the target takes an extra {@damage 1d6} Force damage."
    ],
    [
     "41–50",
@@ -12413,7 +12413,7 @@
    ],
    [
     "46-50",
-    "Before using one of the artifact's properties as an action, you must use a bonus action to draw blood, either from yourself or from a willing or incapacitated creature within your reach, using a piercing or slashing melee weapon. The subject takes {@dice 1d4} damage of the appropriate type."
+    "Before using one of the artifact's properties as an action, you must use a bonus action to draw blood, either from yourself or from a willing or incapacitated creature within your reach, using a piercing or slashing melee weapon. The subject takes {@damage 1d4} damage of the appropriate type."
    ],
    [
     "51-60",
@@ -12421,11 +12421,11 @@
    ],
    [
     "61-65",
-    "You take {@dice 4d10} psychic damage when you become attuned to the artifact."
+    "You take {@damage 4d10} psychic damage when you become attuned to the artifact."
    ],
    [
     "66-70",
-    "You take {@dice 8d10} psychic damage when you become attuned to the artifact."
+    "You take {@damage 8d10} psychic damage when you become attuned to the artifact."
    ],
    [
     "71-75",
@@ -12488,7 +12488,7 @@
    ],
    [
     "19–27",
-    "When you become attuned to the Artifact, you take {@dice 8d10} Psychic damage."
+    "When you become attuned to the Artifact, you take {@damage 8d10} Psychic damage."
    ],
    [
     "28–36",
@@ -12731,7 +12731,7 @@
    ],
    [
     "81-85",
-    "While attuned to the artifact, you deal {@dice 1d6} necrotic damage to any plant you touch that isn't a creature."
+    "While attuned to the artifact, you deal {@damage 1d6} necrotic damage to any plant you touch that isn't a creature."
    ],
    [
     "86-90",
@@ -19202,7 +19202,7 @@
    ],
    [
     "07–12",
-    "Radiant energy erupts in a 10-foot-radius sphere centered on one random creature in the region. Each creature in the sphere that isn't undead regains {@dice 3d6} hit points. Each undead creature in the sphere takes {@dice 3d6} radiant damage."
+    "Radiant energy erupts in a 10-foot-radius sphere centered on one random creature in the region. Each creature in the sphere that isn't undead regains {@dice 3d6} hit points. Each undead creature in the sphere takes {@damage 3d6} radiant damage."
    ],
    [
     "13–18",
@@ -19214,7 +19214,7 @@
    ],
    [
     "25–30",
-    "One character in the region is suffused with celestial power. For 1 minute, the character's melee attacks deal an extra {@dice 2d6} radiant damage on a hit."
+    "One character in the region is suffused with celestial power. For 1 minute, the character's melee attacks deal an extra {@damage 2d6} radiant damage on a hit."
    ],
    [
     "31–36",
@@ -19234,7 +19234,7 @@
    ],
    [
     "55–60",
-    "Celestial power explodes in a 30-foot-radius sphere of divine light centered on an aberration, a fiend, or an undead creature within the region. Each creature in the sphere must make a {@dc 15} Constitution saving throw. On a failure, the creature takes {@dice 4d6} radiant damage and is {@condition blinded}. On a success, it takes half damage and isn't {@condition blinded}."
+    "Celestial power explodes in a 30-foot-radius sphere of divine light centered on an aberration, a fiend, or an undead creature within the region. Each creature in the sphere must make a {@dc 15} Constitution saving throw. On a failure, the creature takes {@damage 4d6} radiant damage and is {@condition blinded}. On a success, it takes half damage and isn't {@condition blinded}."
    ],
    [
     "61–66",
@@ -27521,7 +27521,7 @@
    ],
    [
     "76-80",
-    "A beached whale, dead and bloated. If it takes any damage, it explodes, and each creature within 30 feet of it must make a {@dc 15} Dexterity saving throw, taking {@dice 5d6} bludgeoning damage on a failed save, or half as much damage on a successful one."
+    "A beached whale, dead and bloated. If it takes any damage, it explodes, and each creature within 30 feet of it must make a {@dc 15} Dexterity saving throw, taking {@damage 5d6} bludgeoning damage on a failed save, or half as much damage on a successful one."
    ],
    [
     "81-82",
@@ -34277,15 +34277,15 @@
   "rows": [
    [
     "Large",
-    "{@dice 4d10}"
+    "{@damage 4d10}"
    ],
    [
     "Huge",
-    "{@dice 8d10}"
+    "{@damage 8d10}"
    ],
    [
     "Gargantuan",
-    "{@dice 16d10}"
+    "{@damage 16d10}"
    ]
   ],
   "name": "Crashing",
@@ -34309,19 +34309,19 @@
   "rows": [
    [
     "Medium or smaller",
-    "{@dice 2d10}"
+    "{@damage 2d10}"
    ],
    [
     "Large",
-    "{@dice 4d10}"
+    "{@damage 4d10}"
    ],
    [
     "Huge",
-    "{@dice 8d10}"
+    "{@damage 8d10}"
    ],
    [
     "Gargantuan",
-    "{@dice 16d10}"
+    "{@damage 16d10}"
    ]
   ],
   "name": "Crashing; Crash Damage",
@@ -39262,7 +39262,7 @@
    ],
    [
     "3",
-    "The creature's body has been infused with one kind of energy: acid, cold, fire, or lightning (your choice, or determine randomly). Its melee attacks deal an extra {@dice 1d6} damage of that type, and it has the Elemental Body trait: a creature that touches it or hits it with a melee attack while within 5 feet of it takes 5 ({@dice 1d10}) damage of that type. You can adjust these damage numbers to suit the creature's challenge rating."
+    "The creature's body has been infused with one kind of energy: acid, cold, fire, or lightning (your choice, or determine randomly). Its melee attacks deal an extra {@damage 1d6} damage of that type, and it has the Elemental Body trait: a creature that touches it or hits it with a melee attack while within 5 feet of it takes 5 ({@damage 1d10}) damage of that type. You can adjust these damage numbers to suit the creature's challenge rating."
    ],
    [
     "4",
@@ -39724,7 +39724,7 @@
    ],
    [
     "6",
-    "You take {@dice 1d12} force damage. Describe in excruciating detail what you did to earn this embarrassing injury."
+    "You take {@damage 1d12} force damage. Describe in excruciating detail what you did to earn this embarrassing injury."
    ],
    [
     "7",
@@ -39732,11 +39732,11 @@
    ],
    [
     "8",
-    "The weapon or item you were using when you made this crappy roll catches on fire. Throw it away or take {@dice 2d10} fire damage while it smolders."
+    "The weapon or item you were using when you made this crappy roll catches on fire. Throw it away or take {@damage 2d10} fire damage while it smolders."
    ],
    [
     "9",
-    "Whatever you were doing when this roll took place just became a comedic pratfall that hits you in the junk. Take {@dice 2d6} bludgeoning damage, and if you had a point of Inspiration, it's now gone."
+    "Whatever you were doing when this roll took place just became a comedic pratfall that hits you in the junk. Take {@damage 2d6} bludgeoning damage, and if you had a point of Inspiration, it's now gone."
    ],
    [
     "10",
@@ -63891,7 +63891,7 @@
    ],
    [
     "55–63",
-    "Bizarre appendages squirm beneath the ground and around trees or other structures within this region. Dozens of limbs burst forth, entangling anyone within a 30-foot sphere surrounding one random creature. Each creature in the sphere must succeed on a {@dc 14} Dexterity saving throw or take {@dice 3d6} bludgeoning damage and be {@condition restrained}. Any creature that ends its turn in the area takes {@dice 3d6} bludgeoning damage. A creature can free itself or someone else within reach from being {@condition restrained} in this way by using an action to make a successful {@dc 14} Strength or Dexterity check (its choice)."
+    "Bizarre appendages squirm beneath the ground and around trees or other structures within this region. Dozens of limbs burst forth, entangling anyone within a 30-foot sphere surrounding one random creature. Each creature in the sphere must succeed on a {@dc 14} Dexterity saving throw or take {@damage 3d6} bludgeoning damage and be {@condition restrained}. Any creature that ends its turn in the area takes {@damage 3d6} bludgeoning damage. A creature can free itself or someone else within reach from being {@condition restrained} in this way by using an action to make a successful {@dc 14} Strength or Dexterity check (its choice)."
    ],
    [
     "64–72",
@@ -63915,7 +63915,7 @@
    ],
    [
     "96–00",
-    "A tear in reality creates a rift in the region, similar to the spell {@spell gate}, that passes through the Far Realm and connects with a random plane. Any creature that enters the rift takes {@dice 10d10} psychic damage from the horrors of the Far Realm and appears in an empty space closest to the rift's opening on another random plane. The rift vanishes after {@dice 2d10 + 2} hours."
+    "A tear in reality creates a rift in the region, similar to the spell {@spell gate}, that passes through the Far Realm and connects with a random plane. Any creature that enters the rift takes {@damage 10d10} psychic damage from the horrors of the Far Realm and appears in an empty space closest to the rift's opening on another random plane. The rift vanishes after {@dice 2d10 + 2} hours."
    ]
   ],
   "name": "Far Realm Effects",
@@ -66408,7 +66408,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Automatic Rifle|XDMG}",
-     "{@dice 2d8} Piercing",
+     "{@damage 2d8} Piercing",
      "{@itemProperty AF|XDMG|Ammunition} (Range 80/240; Bullet), {@itemProperty BF|XDMG|Burst Fire}, {@itemProperty RLD|XDMG|Reload} (30 shots), {@itemProperty 2H|XPHB|Two-Handed}",
      "{@itemMastery Slow}",
      "8 lb."
@@ -66419,7 +66419,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Hunting Rifle|XDMG}",
-     "{@dice 2d10} Piercing",
+     "{@damage 2d10} Piercing",
      "{@itemProperty AF|XDMG|Ammunition} (Range 80/240; Bullet), {@itemProperty RLD|XDMG|Reload} (5 shots), {@itemProperty 2H|XPHB|Two-Handed}",
      "{@itemMastery Slow}",
      "8 lb."
@@ -66430,7 +66430,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Revolver|XDMG}",
-     "{@dice 2d8} Piercing",
+     "{@damage 2d8} Piercing",
      "{@itemProperty AF|XDMG|Ammunition} (Range 40/120; Bullet), {@itemProperty RLD|XDMG|Reload} (6 shots)",
      "{@itemMastery Sap}",
      "3 lb."
@@ -66441,7 +66441,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Semiautomatic Pistol|XDMG}",
-     "{@dice 2d6} Piercing",
+     "{@damage 2d6} Piercing",
      "{@itemProperty AF|XDMG|Ammunition} (Range 50/150; Bullet), {@itemProperty RLD|XDMG|Reload} (15 shots)",
      "{@itemMastery Vex}",
      "3 lb."
@@ -66452,7 +66452,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Shotgun|XDMG}",
-     "{@dice 2d8} Piercing",
+     "{@damage 2d8} Piercing",
      "{@itemProperty AF|XDMG|Ammunition} (Range 30/90; Bullet), {@itemProperty RLD|XDMG|Reload} (2 shots), {@itemProperty 2H|XPHB|Two-Handed}",
      "{@itemMastery Push}",
      "7 lb."
@@ -71688,22 +71688,22 @@
   "rows": [
    [
     "5 or lower",
-    "33 ({@dice 6d10})",
+    "33 ({@damage 6d10})",
     "10 gp"
    ],
    [
     "10–14",
-    "22 ({@dice 4d10})",
+    "22 ({@damage 4d10})",
     "50 gp"
    ],
    [
     "15–19",
-    "11 ({@dice 2d10})",
+    "11 ({@damage 2d10})",
     "100 gp"
    ],
    [
     "20–24",
-    "5 ({@dice 1d10})",
+    "5 ({@damage 1d10})",
     "500 gp"
    ],
    [
@@ -97140,27 +97140,27 @@
   ],
   "rows": [
    [
-    "{@dice 1d10}",
+    "{@damage 1d10}",
     "Burned by coals, hit by a falling bookcase, pricked by a poison needle"
    ],
    [
-    "{@dice 2d10}",
+    "{@damage 2d10}",
     "Being struck by lightning, stumbling into a fire pit"
    ],
    [
-    "{@dice 4d10}",
+    "{@damage 4d10}",
     "Hit by falling rubble in a collapsing tunnel, stumbling into a vat of acid"
    ],
    [
-    "{@dice 10d10}",
+    "{@damage 10d10}",
     "Crushed by compacting walls, hit by whirling steel blades, wading through a lava stream"
    ],
    [
-    "{@dice 18d10}",
+    "{@damage 18d10}",
     "Being submerged in lava, being hit by a crashing flying fortress"
    ],
    [
-    "{@dice 24d10}",
+    "{@damage 24d10}",
     "Tumbling into a vortex of fire on the Elemental Plane of Fire, being crushed in the jaws of a godlike creature or a moon-sized monster"
    ]
   ],
@@ -97244,27 +97244,27 @@
   "rows": [
    [
     "1st-4th",
-    "{@dice 1d10}",
-    "{@dice 2d10}",
-    "{@dice 4d10}"
+    "{@damage 1d10}",
+    "{@damage 2d10}",
+    "{@damage 4d10}"
    ],
    [
     "5th-10th",
-    "{@dice 2d10}",
-    "{@dice 4d10}",
-    "{@dice 10d10}"
+    "{@damage 2d10}",
+    "{@damage 4d10}",
+    "{@damage 10d10}"
    ],
    [
     "11th-16th",
-    "{@dice 4d10}",
-    "{@dice 10d10}",
-    "{@dice 18d10}"
+    "{@damage 4d10}",
+    "{@damage 10d10}",
+    "{@damage 18d10}"
    ],
    [
     "17th-20th",
-    "{@dice 10d10}",
-    "{@dice 18d10}",
-    "{@dice 24d10}"
+    "{@damage 10d10}",
+    "{@damage 18d10}",
+    "{@damage 24d10}"
    ]
   ],
   "name": "Improvising Damage; Damage Severity and Level",
@@ -98032,7 +98032,7 @@
    ],
    [
     "91–95",
-    "Tiny arachnids invade unattended spaces. The next time one random creature in the region dons its clothing or armor after finishing a long rest, it must succeed on a {@dc 16} Constitution saving throw or take 11 ({@dice 2d10}) poison damage."
+    "Tiny arachnids invade unattended spaces. The next time one random creature in the region dons its clothing or armor after finishing a long rest, it must succeed on a {@dc 16} Constitution saving throw or take 11 ({@damage 2d10}) poison damage."
    ],
    [
     "96–00",
@@ -98506,7 +98506,7 @@
    ],
    [
     "Flames (or Q ♣)",
-    "When you deal damage to a creature, that creature takes an extra {@dice 1d6} fire damage."
+    "When you deal damage to a creature, that creature takes an extra {@damage 1d6} fire damage."
    ],
    [
     "Fool (or Joker with ™)",
@@ -98550,7 +98550,7 @@
    ],
    [
     "Skull (or J ♣)",
-    "As an action, surround yourself with a shroud of death. Until the start of your next turn, any creature that ends its turn within 5 feet of you takes {@dice 1d6} necrotic damage."
+    "As an action, surround yourself with a shroud of death. Until the start of your next turn, any creature that ends its turn within 5 feet of you takes {@damage 1d6} necrotic damage."
    ],
    [
     "Star (or J {@color ♦|#ff0000})",
@@ -103251,27 +103251,27 @@
   "rows": [
    [
     "1-4",
-    "5 ({@dice 1d10})",
-    "11 ({@dice 2d10})",
-    "22 ({@dice 4d10})"
+    "5 ({@damage 1d10})",
+    "11 ({@damage 2d10})",
+    "22 ({@damage 4d10})"
    ],
    [
     "5-10",
-    "11 ({@dice 2d10})",
-    "22 ({@dice 4d10})",
-    "55 ({@dice 10d10})"
+    "11 ({@damage 2d10})",
+    "22 ({@damage 4d10})",
+    "55 ({@damage 10d10})"
    ],
    [
     "11-16",
-    "22 ({@dice 4d10})",
-    "55 ({@dice 10d10})",
-    "99 ({@dice 18d10})"
+    "22 ({@damage 4d10})",
+    "55 ({@damage 10d10})",
+    "99 ({@damage 18d10})"
    ],
    [
     "17-20",
-    "55 ({@dice 10d10})",
-    "99 ({@dice 18d10})",
-    "132 ({@dice 24d10})"
+    "55 ({@damage 10d10})",
+    "99 ({@damage 18d10})",
+    "132 ({@damage 24d10})"
    ]
   ],
   "name": "Level and Lethality; Damage Severity by Level",
@@ -110337,14 +110337,14 @@
    [
     "{@comic Commitment}",
     "{@comic your happiness}",
-    "{@comic {@dice 2d12} ongoing}",
+    "{@comic {@damage 2d12} ongoing}",
     "{@comic your freedom}",
     "{@comic Roll for regrets}"
    ],
    [
     "{@comic Children}",
     "{@comic your future happiness}",
-    "{@comic {@dice 2d20} until adulthood}",
+    "{@comic {@damage 2d20} until adulthood}",
     "{@comic your legacy}",
     "{@comic Just get a pet instead}"
    ]
@@ -110575,79 +110575,79 @@
    [
     "Battleaxe",
     "10 gp",
-    "{@dice 1d8} slashing",
+    "{@damage 1d8} slashing",
     "4 lb.",
-    "Versatile ({@dice 1d10})"
+    "Versatile ({@damage 1d10})"
    ],
    [
     "Greataxe",
     "30 gp",
-    "{@dice 1d12} slashing",
+    "{@damage 1d12} slashing",
     "7 lb.",
     "Heavy, two-handed"
    ],
    [
     "Greatsword",
     "50 gp",
-    "{@dice 2d6} slashing",
+    "{@damage 2d6} slashing",
     "6 lb.",
     "Heavy, two-handed"
    ],
    [
     "Longsword",
     "15 gp",
-    "{@dice 1d8} slashing",
+    "{@damage 1d8} slashing",
     "3 lb.",
-    "Versatile ({@dice 1d10})"
+    "Versatile ({@damage 1d10})"
    ],
    [
     "Maul",
     "10 gp",
-    "{@dice 2d6} bludgeoning",
+    "{@damage 2d6} bludgeoning",
     "10 lb.",
     "Heavy, two-handed"
    ],
    [
     "Morningstar",
     "15 gp",
-    "{@dice 1d8} piercing",
+    "{@damage 1d8} piercing",
     "4 lb.",
     "—"
    ],
    [
     "Rapier",
     "25 gp",
-    "{@dice 1d8} piercing",
+    "{@damage 1d8} piercing",
     "2 lb.",
     "Finesse"
    ],
    [
     "Scimitar",
     "25 gp",
-    "{@dice 1d6} slashing",
+    "{@damage 1d6} slashing",
     "3 lb.",
     "Finesse, light"
    ],
    [
     "Shortsword",
     "10 gp",
-    "{@dice 1d6} piercing",
+    "{@damage 1d6} piercing",
     "2 lb.",
     "Finesse, light"
    ],
    [
     "Trident",
     "5 gp",
-    "{@dice 1d6} piercing",
+    "{@damage 1d6} piercing",
     "4 lb.",
-    "Thrown (range 20/60), versatile ({@dice 1d8})"
+    "Thrown (range 20/60), versatile ({@damage 1d8})"
    ],
    [
     "Warhammer",
     "15 gp",
-    "{@dice 1d8} bludgeoning",
+    "{@damage 1d8} bludgeoning",
     "2 lb.",
-    "Versatile ({@dice 1d10})"
+    "Versatile ({@damage 1d10})"
    ]
   ],
   "name": "Martial Melee Weapons",
@@ -110681,21 +110681,21 @@
    [
     "Crossbow, hand",
     "75 gp",
-    "{@dice 1d6} piercing",
+    "{@damage 1d6} piercing",
     "3 lb.",
     "Ammunition (range 30/120), light, loading"
    ],
    [
     "Crossbow, heavy",
     "50 gp",
-    "{@dice 1d10} piercing",
+    "{@damage 1d10} piercing",
     "18 lb.",
     "Ammunition (range 100/400), heavy, loading, two-handed"
    ],
    [
     "Longbow",
     "50 gp",
-    "{@dice 1d8} piercing",
+    "{@damage 1d8} piercing",
     "2 lb.",
     "Ammunition (range 150/600), heavy, two-handed"
    ]
@@ -112274,7 +112274,7 @@
    ],
    [
     "41–46",
-    "For the next 24 hours, certain wounds caused in the region attract spectral slivers of glass that cause extra damage. Any creature, other than a construct or an undead, hit by an attack that deals piercing or slashing damage begins to bleed, losing {@dice 1d4} hit points at the start of each of its turns. If the bleeding creature is hit by another such attack, the bleeding increases by {@dice 1d4}. Any creature can take an action to stanch the wound with a successful {@dc 10} Wisdom ({@skill Medicine}) check. The bleeding also stops if the target receives magical healing."
+    "For the next 24 hours, certain wounds caused in the region attract spectral slivers of glass that cause extra damage. Any creature, other than a construct or an undead, hit by an attack that deals piercing or slashing damage begins to bleed, losing {@dice 1d4} hit points at the start of each of its turns. If the bleeding creature is hit by another such attack, the bleeding increases by {@damage 1d4}. Any creature can take an action to stanch the wound with a successful {@dc 10} Wisdom ({@skill Medicine}) check. The bleeding also stops if the target receives magical healing."
    ],
    [
     "47–52",
@@ -112306,7 +112306,7 @@
    ],
    [
     "89–94",
-    "Floating shards of broken mirrors swirl through the region, showing reflections of creatures and places that aren't present, for the next minute before vanishing. On initiative count 20 (losing all ties), the shards make a ranged weapon attack ({@hit 6} to hit) against one random creature in the region. On a hit, the target takes 10 ({@dice 3d6}) slashing damage."
+    "Floating shards of broken mirrors swirl through the region, showing reflections of creatures and places that aren't present, for the next minute before vanishing. On initiative count 20 (losing all ties), the shards make a ranged weapon attack ({@hit 6} to hit) against one random creature in the region. On a hit, the target takes 10 ({@damage 3d6}) slashing damage."
    ],
    [
     "95–00",
@@ -112411,7 +112411,7 @@
   "rows": [
    [
     "01",
-    "Both potions lose their effects, and the mixture creates a magical explosion in a 5-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on itself. Each creature in that area takes {@dice 4d10} Force damage."
+    "Both potions lose their effects, and the mixture creates a magical explosion in a 5-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on itself. Each creature in that area takes {@damage 4d10} Force damage."
    ],
    [
     "02–08",
@@ -116589,7 +116589,7 @@
    ],
    [
     "5",
-    "The party unknowingly enters a crematorium, and the walls erupt with gouts of flame. Each creature in the room must succeed on a {@dc 18} Dexterity saving throw, taking 44 ({@dice 8d10}) fire damage on a failed save, or half as much damage on a successful one."
+    "The party unknowingly enters a crematorium, and the walls erupt with gouts of flame. Each creature in the room must succeed on a {@dc 18} Dexterity saving throw, taking 44 ({@damage 8d10}) fire damage on a failed save, or half as much damage on a successful one."
    ],
    [
     "6",
@@ -120559,7 +120559,7 @@
    ],
    [
     "5",
-    "{@b Nyx Step}. The Nyxborn can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@dice 1d10}) force damage if it ends its turn inside an object."
+    "{@b Nyx Step}. The Nyxborn can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
    ],
    [
     "6",
@@ -130819,7 +130819,7 @@
    ],
    [
     "13–18",
-    "For 1 minute on initiative count 20 (losing all ties), Tiny and Small objects in the region that aren't being worn or carried are flung by an unseen force. One random creature in the region must succeed on a {@dc 15} Dexterity saving throw or take {@dice 2d4} bludgeoning damage from the flung objects."
+    "For 1 minute on initiative count 20 (losing all ties), Tiny and Small objects in the region that aren't being worn or carried are flung by an unseen force. One random creature in the region must succeed on a {@dc 15} Dexterity saving throw or take {@damage 2d4} bludgeoning damage from the flung objects."
    ],
    [
     "19–24",
@@ -130831,7 +130831,7 @@
    ],
    [
     "35–40",
-    "Psychic power builds in the mind of one random creature in the region. Once within the next minute, the creature can use a bonus action to magically assault the mind of another creature it can see. The target must succeed on a {@dc 14} Intelligence saving throw or take {@dice 4d10} psychic damage."
+    "Psychic power builds in the mind of one random creature in the region. Once within the next minute, the creature can use a bonus action to magically assault the mind of another creature it can see. The target must succeed on a {@dc 14} Intelligence saving throw or take {@damage 4d10} psychic damage."
    ],
    [
     "41–46",
@@ -130863,7 +130863,7 @@
    ],
    [
     "83–88",
-    "For 1 minute on initiative count 20 (losing all ties), one random creature in the region must succeed on a {@dc 15} Intelligence saving throw or take {@dice 2d6} psychic damage."
+    "For 1 minute on initiative count 20 (losing all ties), one random creature in the region must succeed on a {@dc 15} Intelligence saving throw or take {@damage 2d6} psychic damage."
    ],
    [
     "89–94",
@@ -130943,11 +130943,11 @@
    ],
    [
     "9–12",
-    "You take 11 ({@dice 2d10}) Psychic damage."
+    "You take 11 ({@damage 2d10}) Psychic damage."
    ],
    [
     "13–17",
-    "You take 22 ({@dice 4d10}) Psychic damage."
+    "You take 22 ({@damage 4d10}) Psychic damage."
    ],
    [
     "18–20",
@@ -133157,7 +133157,7 @@
    ],
    [
     "8",
-    "Mekkalath's presence prompts a fiery eruption. Creatures in a 5-foot-radius, 20-foot-high cylinder must succeed on a {@dc 15} Dexterity saving throw or take 17 ({@dice 5d6}) fire damage."
+    "Mekkalath's presence prompts a fiery eruption. Creatures in a 5-foot-radius, 20-foot-high cylinder must succeed on a {@dc 15} Dexterity saving throw or take 17 ({@damage 5d6}) fire damage."
    ],
    [
     "9",
@@ -133850,7 +133850,7 @@
    ],
    [
     "17",
-    "Poisonous gas (deals {@dice 1d6} poison damage per minute of exposure)"
+    "Poisonous gas (deals {@damage 1d6} poison damage per minute of exposure)"
    ],
    [
     "18",
@@ -141279,17 +141279,17 @@
    [
     "A character ingests a hallucinogenic substance that distorts the character's perception of reality.",
     "10",
-    "{@dice 1d6}"
+    "{@damage 1d6}"
    ],
    [
     "A character touches a fiendish idol that tears at the character's mind, threatening to shatter it.",
     "15",
-    "{@dice 3d6}"
+    "{@damage 3d6}"
    ],
    [
     "A magical trap flings a character into the Far Realm until the end of that character's next turn.",
     "20",
-    "{@dice 9d6}"
+    "{@damage 9d6}"
    ]
   ],
   "name": "Sample Mental Stress Effects",
@@ -142284,27 +142284,27 @@
   "rows": [
    [
     "1–4",
-    "{@dice 1d10}",
-    "{@dice 2d10}",
-    "{@dice 4d10}"
+    "{@damage 1d10}",
+    "{@damage 2d10}",
+    "{@damage 4d10}"
    ],
    [
     "5–10",
-    "{@dice 2d10}",
-    "{@dice 4d10}",
-    "{@dice 10d10}"
+    "{@damage 2d10}",
+    "{@damage 4d10}",
+    "{@damage 10d10}"
    ],
    [
     "11–16",
-    "{@dice 4d10}",
-    "{@dice 10d10}",
-    "{@dice 18d10}"
+    "{@damage 4d10}",
+    "{@damage 10d10}",
+    "{@damage 18d10}"
    ],
    [
     "17–20",
-    "{@dice 10d10}",
-    "{@dice 18d10}",
-    "{@dice 24d10}"
+    "{@damage 10d10}",
+    "{@damage 18d10}",
+    "{@damage 24d10}"
    ]
   ],
   "name": "Screen; Damage by Level and Severity",
@@ -142536,27 +142536,27 @@
   ],
   "rows": [
    [
-    "{@dice 1d10}",
+    "{@damage 1d10}",
     "Burned by coals, hit by a falling bookcase, pricked by a poison needle"
    ],
    [
-    "{@dice 2d10}",
+    "{@damage 2d10}",
     "Being struck by lightning, stumbling into a fire pit"
    ],
    [
-    "{@dice 4d10}",
+    "{@damage 4d10}",
     "Hit by falling rubble in a collapsing tunnel, stumbling into a vat of acid"
    ],
    [
-    "{@dice 10d10}",
+    "{@damage 10d10}",
     "Crushed by compacting walls, hit by whirling steel blades, wading through a lava stream"
    ],
    [
-    "{@dice 18d10}",
+    "{@damage 18d10}",
     "Being submerged in lava, being hit by a crashing flying fortress"
    ],
    [
-    "{@dice 24d10}",
+    "{@damage 24d10}",
     "Tumbling into a vortex of fire on the Elemental Plane of Fire, being crushed in the jaws of a godlike creature or a moon-sized monster"
    ]
   ],
@@ -149474,65 +149474,65 @@
    [
     "Club",
     "1 sp",
-    "{@dice 1d4} bludgeoning",
+    "{@damage 1d4} bludgeoning",
     "2 lb.",
     "Light"
    ],
    [
     "Dagger",
     "2 gp",
-    "{@dice 1d4} piercing",
+    "{@damage 1d4} piercing",
     "1 lb.",
     "Finesse, light, thrown (range 20/60)"
    ],
    [
     "Greatclub",
     "2 sp",
-    "{@dice 1d8} bludgeoning",
+    "{@damage 1d8} bludgeoning",
     "10 lb.",
     "Two-handed"
    ],
    [
     "Handaxe",
     "5 gp",
-    "{@dice 1d6} slashing",
+    "{@damage 1d6} slashing",
     "2 lb.",
     "Light, thrown (range 20/60)"
    ],
    [
     "Javelin",
     "5 sp",
-    "{@dice 1d6} piercing",
+    "{@damage 1d6} piercing",
     "2 lb.",
     "Thrown (range 30/120)"
    ],
    [
     "Light hammer",
     "2 gp",
-    "{@dice 1d4} bludgeoning",
+    "{@damage 1d4} bludgeoning",
     "2 lb.",
     "Light, thrown (range 20/60)"
    ],
    [
     "Mace",
     "5 gp",
-    "{@dice 1d6} bludgeoning",
+    "{@damage 1d6} bludgeoning",
     "4 lb.",
     "—"
    ],
    [
     "Quarterstaff",
     "2 sp",
-    "{@dice 1d6} bludgeoning",
+    "{@damage 1d6} bludgeoning",
     "4 lb.",
-    "Versatile ({@dice 1d8})"
+    "Versatile ({@damage 1d8})"
    ],
    [
     "Spear",
     "1 gp",
-    "{@dice 1d6} piercing",
+    "{@damage 1d6} piercing",
     "3 lb.",
-    "Thrown (range 20/60), versatile ({@dice 1d8})"
+    "Thrown (range 20/60), versatile ({@damage 1d8})"
    ]
   ],
   "name": "Simple Melee Weapons",
@@ -149566,14 +149566,14 @@
    [
     "Crossbow, light",
     "25 gp",
-    "{@dice 1d8} piercing",
+    "{@damage 1d8} piercing",
     "5 lb.",
     "Ammunition (range 80/320), loading, two-handed"
    ],
    [
     "Shortbow",
     "25 gp",
-    "{@dice 1d6} piercing",
+    "{@damage 1d6} piercing",
     "2 lb.",
     "Ammunition (range 80/320), two-handed"
    ]
@@ -151862,53 +151862,53 @@
   "rows": [
    [
     "Cantrip",
-    "{@dice 1d10}",
-    "{@dice 1d6}"
+    "{@damage 1d10}",
+    "{@damage 1d6}"
    ],
    [
     "1st",
-    "{@dice 2d10}",
-    "{@dice 2d6}"
+    "{@damage 2d10}",
+    "{@damage 2d6}"
    ],
    [
     "2nd",
-    "{@dice 3d10}",
-    "{@dice 4d6}"
+    "{@damage 3d10}",
+    "{@damage 4d6}"
    ],
    [
     "3rd",
-    "{@dice 5d10}",
-    "{@dice 6d6}"
+    "{@damage 5d10}",
+    "{@damage 6d6}"
    ],
    [
     "4th",
-    "{@dice 6d10}",
-    "{@dice 7d6}"
+    "{@damage 6d10}",
+    "{@damage 7d6}"
    ],
    [
     "5th",
-    "{@dice 8d10}",
-    "{@dice 8d6}"
+    "{@damage 8d10}",
+    "{@damage 8d6}"
    ],
    [
     "6th",
-    "{@dice 10d10}",
-    "{@dice 11d6}"
+    "{@damage 10d10}",
+    "{@damage 11d6}"
    ],
    [
     "7th",
-    "{@dice 11d10}",
-    "{@dice 12d6}"
+    "{@damage 11d10}",
+    "{@damage 12d6}"
    ],
    [
     "8th",
-    "{@dice 12d10}",
-    "{@dice 13d6}"
+    "{@damage 12d10}",
+    "{@damage 13d6}"
    ],
    [
     "9th",
-    "{@dice 15d10}",
-    "{@dice 14d6}"
+    "{@damage 15d10}",
+    "{@damage 14d6}"
    ]
   ],
   "name": "Spell Damage",
@@ -151941,53 +151941,53 @@
   "rows": [
    [
     "Cantrip",
-    "{@dice 1d10}",
-    "{@dice 1d6}"
+    "{@damage 1d10}",
+    "{@damage 1d6}"
    ],
    [
     "1",
-    "{@dice 2d10}",
-    "{@dice 2d6}"
+    "{@damage 2d10}",
+    "{@damage 2d6}"
    ],
    [
     "2",
-    "{@dice 3d10}",
-    "{@dice 3d6}"
+    "{@damage 3d10}",
+    "{@damage 3d6}"
    ],
    [
     "3",
-    "{@dice 5d10}",
-    "{@dice 6d6}"
+    "{@damage 5d10}",
+    "{@damage 6d6}"
    ],
    [
     "4",
-    "{@dice 6d10}",
-    "{@dice 7d6}"
+    "{@damage 6d10}",
+    "{@damage 7d6}"
    ],
    [
     "5",
-    "{@dice 7d10}",
-    "{@dice 8d6}"
+    "{@damage 7d10}",
+    "{@damage 8d6}"
    ],
    [
     "6",
-    "{@dice 10d10}",
-    "{@dice 11d6}"
+    "{@damage 10d10}",
+    "{@damage 11d6}"
    ],
    [
     "7",
-    "{@dice 11d10}",
-    "{@dice 12d6}"
+    "{@damage 11d10}",
+    "{@damage 12d6}"
    ],
    [
     "8",
-    "{@dice 12d10}",
-    "{@dice 13d6}"
+    "{@damage 12d10}",
+    "{@damage 13d6}"
    ],
    [
     "9",
-    "{@dice 15d10}",
-    "{@dice 16d6}"
+    "{@damage 15d10}",
+    "{@damage 16d6}"
    ]
   ],
   "name": "Spell Damage",
@@ -156636,7 +156636,7 @@
   "rows": [
    [
     "1",
-    "A ghostly hand appears and slaps a random character for {@dice 2d4} bludgeoning damage. If this kills them, they rise as a spectral presence that follows the group, endlessly slapping them as well."
+    "A ghostly hand appears and slaps a random character for {@damage 2d4} bludgeoning damage. If this kills them, they rise as a spectral presence that follows the group, endlessly slapping them as well."
    ],
    [
     "2",
@@ -156672,7 +156672,7 @@
    ],
    [
     "10",
-    "An arrow suddenly shoots out from the shadows and hits the character who is pissing you off. The character takes {@dice 1d6 + 4} piercing damage and should reconsider their current course of action."
+    "An arrow suddenly shoots out from the shadows and hits the character who is pissing you off. The character takes {@damage 1d6 + 4} piercing damage and should reconsider their current course of action."
    ],
    [
     "11",
@@ -158930,7 +158930,7 @@
    ],
    [
     "3",
-    "Excess cosmic energy overloads the telescope, causing it to explode. Each creature within 60 feet of the telescope takes {@dice 8d6} necrotic damage. Any Humanoid who survives this damage is transformed into a different kind of creature, as if it had been subject to the {@spell Reincarnate} spell."
+    "Excess cosmic energy overloads the telescope, causing it to explode. Each creature within 60 feet of the telescope takes {@damage 8d6} necrotic damage. Any Humanoid who survives this damage is transformed into a different kind of creature, as if it had been subject to the {@spell Reincarnate} spell."
    ],
    [
     "4",
@@ -165464,27 +165464,27 @@
   "rows": [
    [
     "1st-4th",
-    "{@dice 1d10}",
-    "{@dice 2d10}",
-    "{@dice 4d10}"
+    "{@damage 1d10}",
+    "{@damage 2d10}",
+    "{@damage 4d10}"
    ],
    [
     "5th-10th",
-    "{@dice 2d10}",
-    "{@dice 4d10}",
-    "{@dice 10d10}"
+    "{@damage 2d10}",
+    "{@damage 4d10}",
+    "{@damage 10d10}"
    ],
    [
     "11th-16th",
-    "{@dice 4d10}",
-    "{@dice 10d10}",
-    "{@dice 18d10}"
+    "{@damage 4d10}",
+    "{@damage 10d10}",
+    "{@damage 18d10}"
    ],
    [
     "17th-20th",
-    "{@dice 10d10}",
-    "{@dice 18d10}",
-    "{@dice 24d10}"
+    "{@damage 10d10}",
+    "{@damage 18d10}",
+    "{@damage 24d10}"
    ]
   ],
   "name": "Trap Effects; Damage Severity by Level",
@@ -169125,7 +169125,7 @@
    ],
    [
     "21–25",
-    "Flares of magical energy flash through the region for 1 minute. For the duration, each round on initiative count 20 (losing all ties) one random creature in the region takes {@dice 2d4} damage of a type determined by a {@dice d6}: 1, acid; 2, cold; 3, fire; 4, force; 5, lightning; or 6, thunder."
+    "Flares of magical energy flash through the region for 1 minute. For the duration, each round on initiative count 20 (losing all ties) one random creature in the region takes {@damage 2d4} damage of a type determined by a {@dice d6}: 1, acid; 2, cold; 3, fire; 4, force; 5, lightning; or 6, thunder."
    ],
    [
     "26–30",
@@ -169141,7 +169141,7 @@
    ],
    [
     "41–45",
-    "One random creature in the region with spell slots becomes a focal point for ambient magic for 1 hour. At the end of each of the creature's turns, other creatures within 10 feet of it must succeed on a Dexterity saving throw against the spellcaster's spell save DC or take {@dice 1d6} force damage."
+    "One random creature in the region with spell slots becomes a focal point for ambient magic for 1 hour. At the end of each of the creature's turns, other creatures within 10 feet of it must succeed on a Dexterity saving throw against the spellcaster's spell save DC or take {@damage 1d6} force damage."
    ],
    [
     "46–50",
@@ -169161,11 +169161,11 @@
    ],
    [
     "66–70",
-    "One random creature in the region crackles with sparks of light for 1 hour. For the duration, the creature magically sheds {@quickref Vision and Light||2||bright light} in a 10-foot radius and {@quickref Vision and Light||2||dim light} for an additional 10 feet. In addition, any creature it touches (requiring an unarmed strike if the target is unwilling) takes {@dice 1d6} force damage."
+    "One random creature in the region crackles with sparks of light for 1 hour. For the duration, the creature magically sheds {@quickref Vision and Light||2||bright light} in a 10-foot radius and {@quickref Vision and Light||2||dim light} for an additional 10 feet. In addition, any creature it touches (requiring an unarmed strike if the target is unwilling) takes {@damage 1d6} force damage."
    ],
    [
     "71–75",
-    "Lightning arcs in a 5-foot wide line between two creatures in the region that are within 30 feet of each other and not behind {@quickref Cover||3||total cover}. Each creature in the line (including the two) must make a {@dc 13} Dexterity saving throw, taking {@dice 4d6} lightning damage on a failed save or half as much damage on a successful one."
+    "Lightning arcs in a 5-foot wide line between two creatures in the region that are within 30 feet of each other and not behind {@quickref Cover||3||total cover}. Each creature in the line (including the two) must make a {@dc 13} Dexterity saving throw, taking {@damage 4d6} lightning damage on a failed save or half as much damage on a successful one."
    ],
    [
     "76–80",
@@ -169340,11 +169340,11 @@
    ],
    [
     "6",
-    "You come upon a pack of dogs fighting over food. Make a {@dc 10} Dexterity ({@skill Acrobatics}) check to get through the pack unimpeded. On a failed check, you are bitten and take {@dice 1d4} piercing damage, and the dogs count as 5 feet of {@quickref difficult terrain||3}."
+    "You come upon a pack of dogs fighting over food. Make a {@dc 10} Dexterity ({@skill Acrobatics}) check to get through the pack unimpeded. On a failed check, you are bitten and take {@damage 1d4} piercing damage, and the dogs count as 5 feet of {@quickref difficult terrain||3}."
    ],
    [
     "7",
-    "You run into a brawl in progress. Make a {@dc 15} Strength ({@skill Athletics}), Dexterity ({@skill Acrobatics}), or Charisma ({@skill Intimidation}) check (your choice) to get past the brawlers unimpeded. On a failed check, you take {@dice 2d4} bludgeoning damage, and the brawlers count as 10 feet of {@quickref difficult terrain||3}."
+    "You run into a brawl in progress. Make a {@dc 15} Strength ({@skill Athletics}), Dexterity ({@skill Acrobatics}), or Charisma ({@skill Intimidation}) check (your choice) to get past the brawlers unimpeded. On a failed check, you take {@damage 2d4} bludgeoning damage, and the brawlers count as 10 feet of {@quickref difficult terrain||3}."
    ],
    [
     "8",
@@ -169352,11 +169352,11 @@
    ],
    [
     "9",
-    "An overzealous guard (see the Monster Manual for game statistics) mistakes you for someone else. If you move 20 feet or more on your turn, the guard makes an opportunity attack against you with a spear ({@hit 3} to hit; {@dice 1d6 + 1} piercing damage on a hit)."
+    "An overzealous guard (see the Monster Manual for game statistics) mistakes you for someone else. If you move 20 feet or more on your turn, the guard makes an opportunity attack against you with a spear ({@hit 3} to hit; {@damage 1d6 + 1} piercing damage on a hit)."
    ],
    [
     "10",
-    "You are forced to make a sharp turn to avoid colliding with something impassable. Make a {@dc 10} Dexterity saving throw to navigate the turn. On a failed save, you collide with something hard and take {@dice 1d4} bludgeoning damage."
+    "You are forced to make a sharp turn to avoid colliding with something impassable. Make a {@dc 10} Dexterity saving throw to navigate the turn. On a failed save, you collide with something hard and take {@damage 1d4} bludgeoning damage."
    ],
    [
     "11-20",
@@ -169407,11 +169407,11 @@
    ],
    [
     "5",
-    "You encounter a brawl in progress. Make a {@dc 15} Strength, Dexterity, or Charisma saving throw (your choice) to get past the brawlers unimpeded. On a failed save, you take {@dice 2d4} Bludgeoning damage, and the brawlers count as 10 feet of {@variantrule Difficult Terrain|XPHB} for you."
+    "You encounter a brawl in progress. Make a {@dc 15} Strength, Dexterity, or Charisma saving throw (your choice) to get past the brawlers unimpeded. On a failed save, you take {@damage 2d4} Bludgeoning damage, and the brawlers count as 10 feet of {@variantrule Difficult Terrain|XPHB} for you."
    ],
    [
     "6",
-    "You must make a sharp turn to avoid colliding with something impassable. Make a {@dc 10} Dexterity saving throw to navigate the turn. On a failed save, you collide with something hard and take {@dice 1d4} Bludgeoning damage."
+    "You must make a sharp turn to avoid colliding with something impassable. Make a {@dc 10} Dexterity saving throw to navigate the turn. On a failed save, you collide with something hard and take {@damage 1d4} Bludgeoning damage."
    ],
    [
     "7–12",
@@ -171294,7 +171294,7 @@
   "rows": [
    [
     "01",
-    "The mixture creates a magical explosion, dealing {@dice 6d10} force damage to the mixer and {@dice 1d10} force damage to each creature within 5 feet of the mixer."
+    "The mixture creates a magical explosion, dealing {@damage 6d10} force damage to the mixer and {@damage 1d10} force damage to each creature within 5 feet of the mixer."
    ],
    [
     "02-08",
@@ -171350,7 +171350,7 @@
   "rows": [
    [
     "1",
-    "A surge of magical energy deals the caster {@dice 1d6} force damage per level of the spell."
+    "A surge of magical energy deals the caster {@damage 1d6} force damage per level of the spell."
    ],
    [
     "2",
@@ -174858,7 +174858,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Club|XPHB}",
-     "{@dice 1d4} Bludgeoning",
+     "{@damage 1d4} Bludgeoning",
      "{@itemProperty L|XPHB|Light}",
      "{@itemMastery Slow}",
      "2 lb.",
@@ -174870,7 +174870,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Dagger|XPHB}",
-     "{@dice 1d4} Piercing",
+     "{@damage 1d4} Piercing",
      "{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
      "{@itemMastery Nick}",
      "1 lb.",
@@ -174882,7 +174882,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Greatclub|XPHB}",
-     "{@dice 1d8} Bludgeoning",
+     "{@damage 1d8} Bludgeoning",
      "{@itemProperty 2H|XPHB|Two-Handed}",
      "{@itemMastery Push}",
      "10 lb.",
@@ -174894,7 +174894,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Handaxe|XPHB}",
-     "{@dice 1d6} Slashing",
+     "{@damage 1d6} Slashing",
      "{@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
      "{@itemMastery Vex}",
      "2 lb.",
@@ -174906,7 +174906,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Javelin|XPHB}",
-     "{@dice 1d6} Piercing",
+     "{@damage 1d6} Piercing",
      "{@itemProperty T|XPHB|Thrown} (Range 30/120)",
      "{@itemMastery Slow}",
      "2 lb.",
@@ -174918,7 +174918,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Light Hammer|XPHB}",
-     "{@dice 1d4} Bludgeoning",
+     "{@damage 1d4} Bludgeoning",
      "{@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
      "{@itemMastery Nick}",
      "2 lb.",
@@ -174930,7 +174930,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Mace|XPHB}",
-     "{@dice 1d6} Bludgeoning",
+     "{@damage 1d6} Bludgeoning",
      "—",
      "{@itemMastery Sap}",
      "4 lb.",
@@ -174942,8 +174942,8 @@
     "style": "row-indent-first",
     "row": [
      "{@item Quarterstaff|XPHB}",
-     "{@dice 1d6} Bludgeoning",
-     "{@itemProperty V|XPHB|Versatile} ({@dice 1d8})",
+     "{@damage 1d6} Bludgeoning",
+     "{@itemProperty V|XPHB|Versatile} ({@damage 1d8})",
      "{@itemMastery Topple}",
      "4 lb.",
      "2 SP"
@@ -174954,7 +174954,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Sickle|XPHB}",
-     "{@dice 1d4} Slashing",
+     "{@damage 1d4} Slashing",
      "{@itemProperty L|XPHB|Light}",
      "{@itemMastery Nick}",
      "2 lb.",
@@ -174966,8 +174966,8 @@
     "style": "row-indent-first",
     "row": [
      "{@item Spear|XPHB}",
-     "{@dice 1d6} Piercing",
-     "{@itemProperty T|XPHB|Thrown} (Range 20/60), {@itemProperty V|XPHB|Versatile} ({@dice 1d8})",
+     "{@damage 1d6} Piercing",
+     "{@itemProperty T|XPHB|Thrown} (Range 20/60), {@itemProperty V|XPHB|Versatile} ({@damage 1d8})",
      "{@itemMastery Sap}",
      "3 lb.",
      "1 GP"
@@ -174985,7 +174985,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Dart|XPHB}",
-     "{@dice 1d4} Piercing",
+     "{@damage 1d4} Piercing",
      "{@itemProperty F|XPHB|Finesse}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
      "{@itemMastery Vex}",
      "1/4 lb.",
@@ -174997,7 +174997,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Light Crossbow|XPHB}",
-     "{@dice 1d8} Piercing",
+     "{@damage 1d8} Piercing",
      "{@itemProperty A|XPHB|Ammunition} (Range 80/320; Bolt), {@itemProperty LD|XPHB|Loading}, {@itemProperty 2H|XPHB|Two-Handed}",
      "{@itemMastery Slow}",
      "5 lb.",
@@ -175009,7 +175009,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Shortbow|XPHB}",
-     "{@dice 1d6} Piercing",
+     "{@damage 1d6} Piercing",
      "{@itemProperty A|XPHB|Ammunition} (Range 80/320; Arrow), {@itemProperty 2H|XPHB|Two-Handed}",
      "{@itemMastery Vex}",
      "2 lb.",
@@ -175021,7 +175021,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Sling|XPHB}",
-     "{@dice 1d4} Bludgeoning",
+     "{@damage 1d4} Bludgeoning",
      "{@itemProperty A|XPHB|Ammunition} (Range 30/120; Bullet)",
      "{@itemMastery Slow}",
      "—",
@@ -175040,8 +175040,8 @@
     "style": "row-indent-first",
     "row": [
      "{@item Battleaxe|XPHB}",
-     "{@dice 1d8} Slashing",
-     "{@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
+     "{@damage 1d8} Slashing",
+     "{@itemProperty V|XPHB|Versatile} ({@damage 1d10})",
      "{@itemMastery Topple}",
      "4 lb.",
      "10 GP"
@@ -175052,7 +175052,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Flail|XPHB}",
-     "{@dice 1d8} Bludgeoning",
+     "{@damage 1d8} Bludgeoning",
      "—",
      "{@itemMastery Sap}",
      "2 lb.",
@@ -175064,7 +175064,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Glaive|XPHB}",
-     "{@dice 1d10} Slashing",
+     "{@damage 1d10} Slashing",
      "{@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
      "{@itemMastery Graze}",
      "6 lb.",
@@ -175076,7 +175076,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Greataxe|XPHB}",
-     "{@dice 1d12} Slashing",
+     "{@damage 1d12} Slashing",
      "{@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
      "{@itemMastery Cleave}",
      "7 lb.",
@@ -175088,7 +175088,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Greatsword|XPHB}",
-     "{@dice 2d6} Slashing",
+     "{@damage 2d6} Slashing",
      "{@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
      "{@itemMastery Graze}",
      "6 lb.",
@@ -175100,7 +175100,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Halberd|XPHB}",
-     "{@dice 1d10} Slashing",
+     "{@damage 1d10} Slashing",
      "{@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
      "{@itemMastery Cleave}",
      "6 lb.",
@@ -175112,7 +175112,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Lance|XPHB}",
-     "{@dice 1d10} Piercing",
+     "{@damage 1d10} Piercing",
      "{@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed} (unless mounted)",
      "{@itemMastery Topple}",
      "6 lb.",
@@ -175124,8 +175124,8 @@
     "style": "row-indent-first",
     "row": [
      "{@item Longsword|XPHB}",
-     "{@dice 1d8} Slashing",
-     "{@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
+     "{@damage 1d8} Slashing",
+     "{@itemProperty V|XPHB|Versatile} ({@damage 1d10})",
      "{@itemMastery Sap}",
      "3 lb.",
      "15 GP"
@@ -175136,7 +175136,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Maul|XPHB}",
-     "{@dice 2d6} Bludgeoning",
+     "{@damage 2d6} Bludgeoning",
      "{@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
      "{@itemMastery Topple}",
      "10 lb.",
@@ -175148,7 +175148,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Morningstar|XPHB}",
-     "{@dice 1d8} Piercing",
+     "{@damage 1d8} Piercing",
      "—",
      "{@itemMastery Sap}",
      "4 lb.",
@@ -175160,7 +175160,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Pike|XPHB}",
-     "{@dice 1d10} Piercing",
+     "{@damage 1d10} Piercing",
      "{@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
      "{@itemMastery Push}",
      "18 lb.",
@@ -175172,7 +175172,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Rapier|XPHB}",
-     "{@dice 1d8} Piercing",
+     "{@damage 1d8} Piercing",
      "{@itemProperty F|XPHB|Finesse}",
      "{@itemMastery Vex}",
      "2 lb.",
@@ -175184,7 +175184,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Scimitar|XPHB}",
-     "{@dice 1d6} Slashing",
+     "{@damage 1d6} Slashing",
      "{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
      "{@itemMastery Nick}",
      "3 lb.",
@@ -175196,7 +175196,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Shortsword|XPHB}",
-     "{@dice 1d6} Piercing",
+     "{@damage 1d6} Piercing",
      "{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
      "{@itemMastery Vex}",
      "2 lb.",
@@ -175208,8 +175208,8 @@
     "style": "row-indent-first",
     "row": [
      "{@item Trident|XPHB}",
-     "{@dice 1d8} Piercing",
-     "{@itemProperty T|XPHB|Thrown} (Range 20/60), {@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
+     "{@damage 1d8} Piercing",
+     "{@itemProperty T|XPHB|Thrown} (Range 20/60), {@itemProperty V|XPHB|Versatile} ({@damage 1d10})",
      "{@itemMastery Topple}",
      "4 lb.",
      "5 GP"
@@ -175220,8 +175220,8 @@
     "style": "row-indent-first",
     "row": [
      "{@item Warhammer|XPHB}",
-     "{@dice 1d8} Bludgeoning",
-     "{@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
+     "{@damage 1d8} Bludgeoning",
+     "{@itemProperty V|XPHB|Versatile} ({@damage 1d10})",
      "{@itemMastery Push}",
      "5 lb.",
      "15 GP"
@@ -175232,8 +175232,8 @@
     "style": "row-indent-first",
     "row": [
      "{@item War Pick|XPHB}",
-     "{@dice 1d8} Piercing",
-     "{@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
+     "{@damage 1d8} Piercing",
+     "{@itemProperty V|XPHB|Versatile} ({@damage 1d10})",
      "{@itemMastery Sap}",
      "2 lb.",
      "5 GP"
@@ -175244,7 +175244,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Whip|XPHB}",
-     "{@dice 1d4} Slashing",
+     "{@damage 1d4} Slashing",
      "{@itemProperty F|XPHB|Finesse}, {@itemProperty R|XPHB|Reach}",
      "{@itemMastery Slow}",
      "3 lb.",
@@ -175275,7 +175275,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Hand Crossbow|XPHB}",
-     "{@dice 1d6} Piercing",
+     "{@damage 1d6} Piercing",
      "{@itemProperty A|XPHB|Ammunition} (Range 30/120; Bolt), {@itemProperty L|XPHB|Light}, {@itemProperty LD|XPHB|Loading}",
      "{@itemMastery Vex}",
      "3 lb.",
@@ -175287,7 +175287,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Heavy Crossbow|XPHB}",
-     "{@dice 1d10} Piercing",
+     "{@damage 1d10} Piercing",
      "{@itemProperty A|XPHB|Ammunition} (Range 100/400; Bolt), {@itemProperty H|XPHB|Heavy}, {@itemProperty LD|XPHB|Loading}, {@itemProperty 2H|XPHB|Two-Handed}",
      "{@itemMastery Push}",
      "18 lb.",
@@ -175299,7 +175299,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Longbow|XPHB}",
-     "{@dice 1d8} Piercing",
+     "{@damage 1d8} Piercing",
      "{@itemProperty A|XPHB|Ammunition} (Range 150/600; Arrow), {@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
      "{@itemMastery Slow}",
      "2 lb.",
@@ -175311,7 +175311,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Musket|XPHB}",
-     "{@dice 1d12} Piercing",
+     "{@damage 1d12} Piercing",
      "{@itemProperty A|XPHB|Ammunition} (Range 40/120; Bullet), {@itemProperty LD|XPHB|Loading}, {@itemProperty 2H|XPHB|Two-Handed}",
      "{@itemMastery Slow}",
      "10 lb.",
@@ -175323,7 +175323,7 @@
     "style": "row-indent-first",
     "row": [
      "{@item Pistol|XPHB}",
-     "{@dice 1d10} Piercing",
+     "{@damage 1d10} Piercing",
      "{@itemProperty A|XPHB|Ammunition} (Range 30/90; Bullet), {@itemProperty LD|XPHB|Loading}",
      "{@itemMastery Vex}",
      "3 lb.",
@@ -175536,7 +175536,7 @@
    ],
    [
     "3",
-    "The airship passes through a lightning storm, which takes {@dice 1d4} hours. During this time, the area around the ship is {@variantrule Heavily Obscured|XPHB}, and any creature that starts its turn on the ship's deck must succeed on a {@dc 10} Dexterity saving throw or be struck by lightning and take 4 ({@dice 1d8}) Lightning damage."
+    "The airship passes through a lightning storm, which takes {@dice 1d4} hours. During this time, the area around the ship is {@variantrule Heavily Obscured|XPHB}, and any creature that starts its turn on the ship's deck must succeed on a {@dc 10} Dexterity saving throw or be struck by lightning and take 4 ({@damage 1d8}) Lightning damage."
    ],
    [
     "4",
@@ -178078,7 +178078,7 @@
    ],
    [
     "3",
-    "You run through a {@creature swarm of insects} (see the Monster Manual for game statistics, with the DM choosing whichever kind of insects makes the most sense). The swarm makes an opportunity attack against you ({@hit 3} to hit; {@dice 4d4} piercing damage on a hit)."
+    "You run through a {@creature swarm of insects} (see the Monster Manual for game statistics, with the DM choosing whichever kind of insects makes the most sense). The swarm makes an opportunity attack against you ({@hit 3} to hit; {@damage 4d4} piercing damage on a hit)."
    ],
    [
     "4",
@@ -178090,7 +178090,7 @@
    ],
    [
     "6",
-    "A sudden drop catches you by surprise. Make a {@dc 10} Dexterity saving throw to navigate the impediment. On a failed save, you fall {@dice 1d4 × 5} feet, taking {@dice 1d6} bludgeoning damage per 10 feet fallen as normal, and land prone."
+    "A sudden drop catches you by surprise. Make a {@dc 10} Dexterity saving throw to navigate the impediment. On a failed save, you fall {@dice 1d4 × 5} feet, taking {@damage 1d6} bludgeoning damage per 10 feet fallen as normal, and land prone."
    ],
    [
     "7",
@@ -178098,11 +178098,11 @@
    ],
    [
     "8",
-    "You are caught in a stampede of spooked animals. Make a {@dc 10} Dexterity saving throw. On a failed save, you are knocked about and take {@dice 1d4} bludgeoning damage and {@dice 1d4} piercing damage."
+    "You are caught in a stampede of spooked animals. Make a {@dc 10} Dexterity saving throw. On a failed save, you are knocked about and take {@damage 1d4} bludgeoning damage and {@damage 1d4} piercing damage."
    ],
    [
     "9",
-    "Your path takes you near a patch of razorvine. Make a {@dc 15} Dexterity saving throw or use 10 feet of movement (your choice) to avoid the razorvine. On a failed save, you take {@dice 1d10} slashing damage."
+    "Your path takes you near a patch of razorvine. Make a {@dc 15} Dexterity saving throw or use 10 feet of movement (your choice) to avoid the razorvine. On a failed save, you take {@damage 1d10} slashing damage."
    ],
    [
     "10",
@@ -178157,7 +178157,7 @@
    ],
    [
     "5",
-    "Your path takes you near a patch of {@hazard razorvine|XDMG} (see \"{@area Hazards|18b|x}\" in this chapter). Make a {@dc 15} Dexterity saving throw or use 10 feet of movement (your choice) to avoid the razorvine. On a failed save, you take {@dice 1d10} Slashing damage."
+    "Your path takes you near a patch of {@hazard razorvine|XDMG} (see \"{@area Hazards|18b|x}\" in this chapter). Make a {@dc 15} Dexterity saving throw or use 10 feet of movement (your choice) to avoid the razorvine. On a failed save, you take {@damage 1d10} Slashing damage."
    ],
    [
     "6",
@@ -181287,11 +181287,11 @@
    ],
    [
     "7",
-    "Knight. Spectral knights routinely fly across the sky. Whenever the characters are outdoors and become embroiled in combat in the region, one or more knights descend from the sky to help them, provided none of the characters is evil. Each round on initiative count 20 (losing initiative ties), the knights deal 9 ({@dice 2d8}) force damage to each of the characters' enemies. After the battle, the knights bow, then disappear."
+    "Knight. Spectral knights routinely fly across the sky. Whenever the characters are outdoors and become embroiled in combat in the region, one or more knights descend from the sky to help them, provided none of the characters is evil. Each round on initiative count 20 (losing initiative ties), the knights deal 9 ({@damage 2d8}) force damage to each of the characters' enemies. After the battle, the knights bow, then disappear."
    ],
    [
     "8",
-    "Euryale. Natural vegetation in the region grows poisonous thorns. A creature that enters or ends its turn in {@book difficult terrain|PHB|8|Difficult Terrain} caused by this vegetation must succeed on a {@dc 12} Constitution saving throw or take 7 ({@dice 2d6}) poison damage. If this damage reduces a creature to 0 hit points, the creature instead has 1 hit point and has the {@condition petrified} condition until that condition is removed by the {@spell Greater Restoration} spell or similar magic."
+    "Euryale. Natural vegetation in the region grows poisonous thorns. A creature that enters or ends its turn in {@book difficult terrain|PHB|8|Difficult Terrain} caused by this vegetation must succeed on a {@dc 12} Constitution saving throw or take 7 ({@damage 2d6}) poison damage. If this damage reduces a creature to 0 hit points, the creature instead has 1 hit point and has the {@condition petrified} condition until that condition is removed by the {@spell Greater Restoration} spell or similar magic."
    ],
    [
     "9",

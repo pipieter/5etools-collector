@@ -5644,7 +5644,7 @@
     "name": "Gunpowder",
     "entries": [
      "Gunpowder is chiefly used to propel a bullet out of the barrel of a pistol or rifle, or it is formed into a bomb. Gunpowder is sold in small wooden kegs and in water-resistant powder horns.",
-     "Setting fire to a container full of gunpowder can cause it to explode, dealing fire damage to creatures within 10 feet of it ({@dice 3d6} for a powder horn, {@dice 7d6} for a keg). A successful {@dc 12} Dexterity saving throw halves the damage. Setting fire to an ounce of gunpowder causes it to flare for 1 round, shedding bright light in a 30-foot radius and dim light for an additional 30 feet."
+     "Setting fire to a container full of gunpowder can cause it to explode, dealing fire damage to creatures within 10 feet of it ({@damage 3d6} for a powder horn, {@damage 7d6} for a keg). A successful {@dc 12} Dexterity saving throw halves the damage. Setting fire to an ounce of gunpowder causes it to flare for 1 round, shedding bright light in a 30-foot radius and dim light for an additional 30 feet."
     ]
    },
    {
@@ -5729,7 +5729,7 @@
     "name": "Bomb",
     "page": 72,
     "entries": [
-     "As an action, you can light a Bomb and throw it at a point up to 60 feet away, where it explodes. Each creature in a 5-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on that point makes a {@dc 12} Dexterity saving throw, taking {@dice 3d6} Fire damage on a failed save or half as much damage on a successful one."
+     "As an action, you can light a Bomb and throw it at a point up to 60 feet away, where it explodes. Each creature in a 5-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on that point makes a {@dc 12} Dexterity saving throw, taking {@damage 3d6} Fire damage on a failed save or half as much damage on a successful one."
     ]
    },
    {
@@ -5737,8 +5737,8 @@
     "name": "Dynamite Stick",
     "page": 72,
     "entries": [
-     "As an action, you can light a Dynamite Stick and throw it at a point up to 60 feet away, where it explodes. Each creature in a 5-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on that point makes a {@dc 12} Dexterity saving throw, taking {@dice 3d6} Force damage on a failed save or half as much damage on a successful one.",
-     "It takes 1 minute to bind two or more Dynamite Sticks together so they explode at the same time. Each stick after the first increases the damage by {@dice 1d6} (to a maximum of {@dice 10d6}) and the effect's radius by 5 feet (to a maximum of 20 feet).",
+     "As an action, you can light a Dynamite Stick and throw it at a point up to 60 feet away, where it explodes. Each creature in a 5-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on that point makes a {@dc 12} Dexterity saving throw, taking {@damage 3d6} Force damage on a failed save or half as much damage on a successful one.",
+     "It takes 1 minute to bind two or more Dynamite Sticks together so they explode at the same time. Each stick after the first increases the damage by {@damage 1d6} (to a maximum of {@damage 10d6}) and the effect's radius by 5 feet (to a maximum of 20 feet).",
      "It takes 1 minute to rig dynamite with a longer fuse so it explodes after a longer period of time, such as 1 minute or 10 minutes."
     ]
    },
@@ -5755,7 +5755,7 @@
     "name": "Fragmentation Grenade",
     "page": 73,
     "entries": [
-     "Each creature in the {@variantrule Sphere [Area of Effect]|XPHB|Sphere} makes a {@dc 15} Dexterity saving throw, taking 17 ({@dice 5d6}) Piercing damage on a failed save or half as much damage on a successful one."
+     "Each creature in the {@variantrule Sphere [Area of Effect]|XPHB|Sphere} makes a {@dc 15} Dexterity saving throw, taking 17 ({@damage 5d6}) Piercing damage on a failed save or half as much damage on a successful one."
     ]
    },
    {
@@ -5771,7 +5771,7 @@
     "name": "Gunpowder",
     "page": 73,
     "entries": [
-     "Setting fire to a container full of Gunpowder causes it to explode. When a container explodes, each creature in a 10-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on the container makes a {@dc 12} Dexterity saving throw, taking 10 ({@dice 3d6}) Fire damage (for a powder horn) or 24 ({@dice 7d6}) Fire damage (for a keg) on a failed save or half as much damage on a successful one."
+     "Setting fire to a container full of Gunpowder causes it to explode. When a container explodes, each creature in a 10-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on the container makes a {@dc 12} Dexterity saving throw, taking 10 ({@damage 3d6}) Fire damage (for a powder horn) or 24 ({@damage 7d6}) Fire damage (for a keg) on a failed save or half as much damage on a successful one."
     ]
    }
   ],
@@ -6128,7 +6128,7 @@
         "style": "row-indent-first",
         "row": [
          "{@item Automatic Rifle|XDMG}",
-         "{@dice 2d8} Piercing",
+         "{@damage 2d8} Piercing",
          "{@itemProperty AF|XDMG|Ammunition} (Range 80/240; Bullet), {@itemProperty BF|XDMG|Burst Fire}, {@itemProperty RLD|XDMG|Reload} (30 shots), {@itemProperty 2H|XPHB|Two-Handed}",
          "{@itemMastery Slow}",
          "8 lb."
@@ -6139,7 +6139,7 @@
         "style": "row-indent-first",
         "row": [
          "{@item Hunting Rifle|XDMG}",
-         "{@dice 2d10} Piercing",
+         "{@damage 2d10} Piercing",
          "{@itemProperty AF|XDMG|Ammunition} (Range 80/240; Bullet), {@itemProperty RLD|XDMG|Reload} (5 shots), {@itemProperty 2H|XPHB|Two-Handed}",
          "{@itemMastery Slow}",
          "8 lb."
@@ -6150,7 +6150,7 @@
         "style": "row-indent-first",
         "row": [
          "{@item Revolver|XDMG}",
-         "{@dice 2d8} Piercing",
+         "{@damage 2d8} Piercing",
          "{@itemProperty AF|XDMG|Ammunition} (Range 40/120; Bullet), {@itemProperty RLD|XDMG|Reload} (6 shots)",
          "{@itemMastery Sap}",
          "3 lb."
@@ -6161,7 +6161,7 @@
         "style": "row-indent-first",
         "row": [
          "{@item Semiautomatic Pistol|XDMG}",
-         "{@dice 2d6} Piercing",
+         "{@damage 2d6} Piercing",
          "{@itemProperty AF|XDMG|Ammunition} (Range 50/150; Bullet), {@itemProperty RLD|XDMG|Reload} (15 shots)",
          "{@itemMastery Vex}",
          "3 lb."
@@ -6172,7 +6172,7 @@
         "style": "row-indent-first",
         "row": [
          "{@item Shotgun|XDMG}",
-         "{@dice 2d8} Piercing",
+         "{@damage 2d8} Piercing",
          "{@itemProperty AF|XDMG|Ammunition} (Range 30/90; Bullet), {@itemProperty RLD|XDMG|Reload} (2 shots), {@itemProperty 2H|XPHB|Two-Handed}",
          "{@itemMastery Push}",
          "7 lb."
@@ -6209,7 +6209,7 @@
         "style": "row-indent-first",
         "row": [
          "{@item Antimatter Rifle|XDMG}",
-         "{@dice 6d8} Necrotic",
+         "{@damage 6d8} Necrotic",
          "{@itemProperty AF|XDMG|Ammunition} (Range 120/360; Energy Cell), {@itemProperty RLD|XDMG|Reload} (2 shots), {@itemProperty 2H|XPHB|Two-Handed}",
          "{@itemMastery Sap}",
          "10 lb."
@@ -6220,7 +6220,7 @@
         "style": "row-indent-first",
         "row": [
          "{@item Laser Pistol|XDMG}",
-         "{@dice 3d6} Radiant",
+         "{@damage 3d6} Radiant",
          "{@itemProperty AF|XDMG|Ammunition} (Range 40/120; Energy Cell), {@itemProperty RLD|XDMG|Reload} (50 shots)",
          "{@itemMastery Vex}",
          "2 lb."
@@ -6231,7 +6231,7 @@
         "style": "row-indent-first",
         "row": [
          "{@item Laser Rifle|XDMG}",
-         "{@dice 3d8} Radiant",
+         "{@damage 3d8} Radiant",
          "{@itemProperty AF|XDMG|Ammunition} (Range 100/300; Energy Cell), {@itemProperty RLD|XDMG|Reload} (30 shots), {@itemProperty 2H|XPHB|Two-Handed}",
          "{@itemMastery Slow}",
          "7 lb."
@@ -7715,7 +7715,7 @@
     "rows": [
      [
       "01",
-      "Both potions lose their effects, and the mixture creates a magical explosion in a 5-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on itself. Each creature in that area takes {@dice 4d10} Force damage."
+      "Both potions lose their effects, and the mixture creates a magical explosion in a 5-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on itself. Each creature in that area takes {@damage 4d10} Force damage."
      ],
      [
       "02–08",

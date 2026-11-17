@@ -34,7 +34,7 @@
       "row": [
        "Pistol",
        "250 gp",
-       "{@dice 1d10} piercing",
+       "{@damage 1d10} piercing",
        "3 lb.",
        "Ammunition (range 30/90), loading"
       ]
@@ -45,7 +45,7 @@
       "row": [
        "Musket",
        "500 gp",
-       "{@dice 1d12} piercing",
+       "{@damage 1d12} piercing",
        "10 lb.",
        "Ammunition (range 40/120), loading, two-handed"
       ]
@@ -100,7 +100,7 @@
       "row": [
        "Pistol, automatic",
        "—",
-       "{@dice 2d6} piercing",
+       "{@damage 2d6} piercing",
        "3 lb.",
        "Ammunition (range 50/150), reload (15 shots)"
       ]
@@ -111,7 +111,7 @@
       "row": [
        "Revolver",
        "—",
-       "{@dice 2d8} piercing",
+       "{@damage 2d8} piercing",
        "3 lb.",
        "Ammunition (range 40/120), reload (6 shots)"
       ]
@@ -122,7 +122,7 @@
       "row": [
        "Rifle, hunting",
        "—",
-       "{@dice 2d10} piercing",
+       "{@damage 2d10} piercing",
        "8 lb.",
        "Ammunition (range 80/240), reload (5 shots), two-handed"
       ]
@@ -133,7 +133,7 @@
       "row": [
        "Rifle, automatic",
        "—",
-       "{@dice 2d8} piercing",
+       "{@damage 2d8} piercing",
        "8 lb.",
        "Ammunition (range 80/240), burst fire, reload (30 shots), two-handed"
       ]
@@ -144,7 +144,7 @@
       "row": [
        "Shotgun",
        "—",
-       "{@dice 2d8} piercing",
+       "{@damage 2d8} piercing",
        "7 lb.",
        "Ammunition (range 30/90), reload (2 shots), two-handed"
       ]
@@ -199,7 +199,7 @@
       "row": [
        "Laser pistol",
        "—",
-       "{@dice 3d6} radiant",
+       "{@damage 3d6} radiant",
        "2 lb.",
        "Ammunition (range 40/120), reload (50 shots)"
       ]
@@ -210,7 +210,7 @@
       "row": [
        "Antimatter rifle",
        "—",
-       "{@dice 6d8} necrotic",
+       "{@damage 6d8} necrotic",
        "10 lb.",
        "Ammunition (range 120/360), reload (2 shots), two-handed"
       ]
@@ -221,7 +221,7 @@
       "row": [
        "Laser rifle",
        "—",
-       "{@dice 3d8} radiant",
+       "{@damage 3d8} radiant",
        "7 lb.",
        "Ammunition (range 100/300), reload (30 shots), two-handed"
       ]
@@ -2449,11 +2449,11 @@
      ],
      [
       "11-12",
-      "{@dice 2d10} psychic damage"
+      "{@damage 2d10} psychic damage"
      ],
      [
       "13-16",
-      "{@dice 4d10} psychic damage"
+      "{@damage 4d10} psychic damage"
      ],
      [
       "17-18",
