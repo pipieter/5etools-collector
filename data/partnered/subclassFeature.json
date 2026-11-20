@@ -317,6 +317,29 @@
   ]
  },
  {
+  "name": "Adaptive Wild Shape",
+  "source": "PartneredDDDoD",
+  "className": "Druid",
+  "classSource": "XPHB",
+  "subclassShortName": "Cycles",
+  "subclassSource": "PartneredDDDoD",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "Through your knowledge of time and evolution, your wild shapes can gain the Traits of the animal's ancestors or descendants to adapt to your needs. Whenever you assume the form of an animal with your Wild Shape, you may choose to add one of the following additional characteristics to whatever you Wild Shape into:",
+   {
+    "type": "list",
+    "items": [
+     "You gain a climb speed of 30 ft., or it increases by 20 ft.",
+     "You gain a flight speed of 15 ft., or it increases by 10 ft. (optional rule at the DMs discretion, however we suggest allowing it, but limiting its use to Tiny and Small creatures you wild shape into until level 8).",
+     "You can breathe underwater and gain a swim speed of 30 ft., or it increases by 20 ft.",
+     "You gain {@sense Darkvision|XPHB} (60 ft.) or increase your {@sense Darkvision|XPHB} by an additional 30 ft.",
+     "You may change the type of damage one of your attacks deals to Acid or Poison damage."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Adrenal Overload",
   "source": "HelianasGuidetoMonsterHunting",
   "className": "Tamer",
@@ -1021,6 +1044,19 @@
   "entries": [
    "You know the {@spell Vicious Mockery|XPHB} cantrip. If you already know it, you learn a different Bard cantrip of your choice. The cantrip doesn't count against your number of cantrips known. Additionally, you always have the {@spell Dissonant Whispers|XPHB} spell prepared.",
    "In addition, when you take the {@action Dash|XPHB}, {@action Disengage|XPHB}, or {@action Influence|XPHB} action on your turn, you can take a {@variantrule Bonus Action|XPHB} on the same turn to cast {@spell Vicious Mockery|XPHB}."
+  ]
+ },
+ {
+  "name": "Apex Hunter",
+  "source": "PartneredDDDoD",
+  "className": "Ranger",
+  "classSource": "XPHB",
+  "subclassShortName": "Big Game Hunter",
+  "subclassSource": "PartneredDDDoD",
+  "level": 15,
+  "header": 2,
+  "entries": [
+   "You are utterly relentless in the pursuit of prey that you have marked for death. Your {@spell Hunter's Mark|XPHB} has a duration of 48 hours. Also, while your {@spell Hunter's Mark|XPHB} is active on a living enemy creature, you do not require sleep and are immune to the effects of {@hazard Malnutrition|XPHB} and {@hazard Dehydration|XPHB}."
   ]
  },
  {
@@ -1840,6 +1876,19 @@
   "header": 2,
   "entries": [
    "At 17th level, you can manipulate multiple shadows simultaneously. When you use Shadow Grasp, you can affect a number of creatures equal to your proficiency bonus."
+  ]
+ },
+ {
+  "name": "Artisan Crafter",
+  "source": "PartneredDDDoD",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Bonesmith",
+  "subclassSource": "PartneredDDDoD",
+  "level": 10,
+  "header": 2,
+  "entries": [
+   "Your knowledge of your craft deepens to that of an experienced crafter. The items you craft using your {@subclassFeature Melder of Flesh and Bone|Fighter|XPHB|Bonesmith|PartneredDDDoD|3|PartneredDDDoD} feature become +2 items of their respective type."
   ]
  },
  {
@@ -3394,6 +3443,30 @@
   ]
  },
  {
+  "name": "Big Game Hunter",
+  "source": "PartneredDDDoD",
+  "className": "Ranger",
+  "classSource": "XPHB",
+  "subclassShortName": "Big Game Hunter",
+  "subclassSource": "PartneredDDDoD",
+  "level": 3,
+  "entries": [
+   "The Big Game Hunter is an individual who has honed their tracking and ranged attack skills to become a fierce monster slayer. Rather than specialising in slaying particular types of creatures, they instead focus on how to levy a creature's size against it–the bigger they are, the harder they fall.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Ranged Specialist|Ranger|XPHB|Big Game Hunter|PartneredDDDoD|3|PartneredDDDoD"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Game Hunter|Ranger|XPHB|Big Game Hunter|PartneredDDDoD|3|PartneredDDDoD"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Bolas|Ranger|XPHB|Big Game Hunter|PartneredDDDoD|3|PartneredDDDoD"
+   }
+  ]
+ },
+ {
   "name": "Binding Release",
   "source": "ObojimaTallGrass",
   "page": 153,
@@ -4487,6 +4560,32 @@
   ]
  },
  {
+  "name": "Body Knowledge",
+  "source": "PartneredDDDoD",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Bonesmith",
+  "subclassSource": "PartneredDDDoD",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "When you attack with a weapon that you crafted via your Melder of Flesh and Bone feature (see below), you can use your Intelligence modifier, instead of your Strength or Dexterity modifier, for the attack and damage rolls."
+  ]
+ },
+ {
+  "name": "Body Modification",
+  "source": "PartneredDDDoD",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Bonesmith",
+  "subclassSource": "PartneredDDDoD",
+  "level": 10,
+  "header": 2,
+  "entries": [
+   "Over the course of a {@variantrule Long Rest|XPHB}, you can incorporate one set of your crafted armour or up to two of your crafted weapons into your own flesh. They become a part of you and can only be removed if you choose to remove them over the course of a {@variantrule Long Rest|XPHB}. The weapons can be concealed within your body or drawn out from your body as a {@variantrule Bonus Action|XPHB}. You may only have up to three of your crafted items incorporated into your body in this manner at any one time."
+  ]
+ },
+ {
   "name": "Boiling Power",
   "source": "ObojimaTallGrass",
   "page": 149,
@@ -4526,6 +4625,21 @@
      "When you activate the Tongue trait using a spell slot of 5th level or higher, in place of the trait's normal effects, you can instead cause the target to tremble in fear, becoming hyper fixated on you. The target's passive Wisdom ({@skill Perception}) score is reduced to 5 and it takes a -5 penalty to its AC against all attacks that aren't made by you. This effect lasts until the start of your next turn."
     ]
    }
+  ]
+ },
+ {
+  "name": "Bolas",
+  "source": "PartneredDDDoD",
+  "className": "Ranger",
+  "classSource": "XPHB",
+  "subclassShortName": "Big Game Hunter",
+  "subclassSource": "PartneredDDDoD",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "Specially modified ammunition allows you to fire spiralling bolas projectiles to ensnare your prey. At the end of each {@variantrule Long Rest|XPHB}, you can make a number of bolas projectiles equal to your Wisdom modifier. These deal the same amount of damage as a normal piece of ammunition fired from your weapon, although you can also choose to have them deal no damage when they are fired.",
+   "When you hit a creature with a ranged attack that uses a bolas projectile, the bolas wrap around the creature, possibly ensnaring it. The hit creature must make a Strength or Dexterity {@variantrule Saving Throw|XPHB} (it chooses which) or becomes {@condition Grappled|XPHB}. The Grapple save DC is equal to 8 + your Wisdom modifier + your {@variantrule Proficiency|XPHB|Proficiency Bonus}.",
+   "If any bolas projectiles remain when you finish a {@variantrule Long Rest|XPHB} (before you make any more), they break and become mundane ammunition for one of your weapons."
   ]
  },
  {
@@ -4625,6 +4739,34 @@
   "entries": [
    "As a {@action Magic|XPHB} action, you target one creature you can see within 60 feet of you that has a skeleton. The target must succeed on a Strength saving throw against your spell save DC or you take total and precise control of its skeleton. Until the end of the creature's next turn, it takes only the actions you choose and doesn't do anything that you don't allow it to do. In the creature's efforts to resist your command, attack rolls it makes against its allies have {@variantrule Disadvantage|XPHB}, and its allies have {@variantrule Advantage|XPHB} on saving throws from effects caused by the creature.",
    "You can only have one such creature under your control at a time. You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
+  "name": "Bonesmith",
+  "source": "PartneredDDDoD",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Bonesmith",
+  "subclassSource": "PartneredDDDoD",
+  "level": 3,
+  "entries": [
+   "This gory reimagining of a blacksmith makes armour, weapons, and trinkets from the carcasses of slain great creatures. Through a combination of muscle and necromantic magic, they are able to create fearsome weapons, armour, and fighting companions.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Spellcasting|Fighter|XPHB|Bonesmith|PartneredDDDoD|3|PartneredDDDoD"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Body Knowledge|Fighter|XPHB|Bonesmith|PartneredDDDoD|3|PartneredDDDoD"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Grim Harvest|Fighter|XPHB|Bonesmith|PartneredDDDoD|3|PartneredDDDoD"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Melder of Flesh and Bone|Fighter|XPHB|Bonesmith|PartneredDDDoD|3|PartneredDDDoD"
+   }
   ]
  },
  {
@@ -6744,6 +6886,94 @@
   ]
  },
  {
+  "name": "Circle of Cycles",
+  "source": "PartneredDDDoD",
+  "className": "Druid",
+  "classSource": "XPHB",
+  "subclassShortName": "Cycles",
+  "subclassSource": "PartneredDDDoD",
+  "level": 3,
+  "entries": [
+   "A druidic circle whom venerate the passage of time itself. They read the sun, moon, stars, and seasons to glimpse into the future and delve into the past. They wish to see the aeons pass with their own eyes and value longevity above all else.",
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Circle of Cycles Spells|Druid|XPHB|Cycles|PartneredDDDoD|3|PartneredDDDoD"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Evolution/Devolution|Druid|XPHB|Cycles|PartneredDDDoD|3|PartneredDDDoD"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Adaptive Wild Shape|Druid|XPHB|Cycles|PartneredDDDoD|3|PartneredDDDoD"
+   },
+   {
+    "type": "refSubclassFeature",
+    "subclassFeature": "Glimpse Future|Druid|XPHB|Cycles|PartneredDDDoD|3|PartneredDDDoD"
+   }
+  ]
+ },
+ {
+  "name": "Circle of Cycles Spells",
+  "source": "PartneredDDDoD",
+  "className": "Druid",
+  "classSource": "XPHB",
+  "subclassShortName": "Cycles",
+  "subclassSource": "PartneredDDDoD",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "When you reach the Druid level specified in the Circle of Cycles Spells table, you thereafter always have the listed spells prepared.",
+   {
+    "type": "table",
+    "caption": "Circle of Cycles Spells Table",
+    "colLabels": [
+     "Druid Level",
+     "Circle Spells"
+    ],
+    "colStyles": [
+     "col-1 text-center",
+     "col-11"
+    ],
+    "rows": [
+     [
+      "3",
+      "{@spell Augury|XPHB}, {@spell Evolution/Devolution|PartneredDDDoD} (included here)"
+     ],
+     [
+      "5",
+      "{@spell Clairvoyance|XPHB}, {@spell Tongues|XPHB}, {@spell Meld into Stone|XPHB}"
+     ],
+     [
+      "9",
+      "{@spell Legend Lore|XPHB}, {@spell Contact Other Plane|XPHB}"
+     ],
+     [
+      "13",
+      "{@spell Find the Path|XPHB}, {@spell Contingency|XPHB}, {@spell Flesh to Stone|XPHB}, {@spell Circle of Death|XPHB}"
+     ],
+     [
+      "17",
+      "{@spell Foresight|XPHB}, {@spell Glibness|XPHB}, {@spell Time Stop|XPHB}"
+     ]
+    ]
+   },
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/PartneredDDDoD/book/165-11-004.circle-of-cycles.webp"
+    },
+    "width": 850,
+    "height": 1594,
+    "maxWidth": 365,
+    "title": "\"The Circle of Cycles observe the evolution of all creatures, great and small.\"",
+    "altText": "A moss-covered Circle of Cycles Druid ponders an ammonite fossil, levitating it in front of themselves. Their robes transition to lava cracks at their base and they carry a long staff topped with a blue orb, orbited by several small floating spheres.",
+    "credit": "Mark Witton"
+   }
+  ]
+ },
+ {
   "name": "Circle of Dragons",
   "source": "GriffonsSaddlebag2",
   "page": 214,
@@ -8683,6 +8913,20 @@
   ]
  },
  {
+  "name": "Combat Bonesmithing",
+  "source": "PartneredDDDoD",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Bonesmith",
+  "subclassSource": "PartneredDDDoD",
+  "level": 15,
+  "header": 2,
+  "entries": [
+   "When you take the {@action Attack|XPHB} action on your turn, you may expend ten of your harvested resources in any combination (the resources must be within 5 ft. of you or in an extradimensional space that you can access within 5 ft., like in a {@item Bag of Holding|XDMG}). If you do so, you may replace one of the attacks with a casting of one of your Bonesmith spells that has the casting time of one {@variantrule Action|XPHB}.",
+   "Each subsequent time that you use this feature, the harvested resource cost increases by ten (1st: ten, 2nd: twenty, 3rd: thirty, etc.). However, this cost resets back to ten when you complete a {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
   "name": "Combo",
   "source": "HelianasGuidetoMonsterHunting",
   "className": "Tamer",
@@ -9103,6 +9347,34 @@
   ]
  },
  {
+  "name": "Construct of Flesh",
+  "source": "PartneredDDDoD",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Bonesmith",
+  "subclassSource": "PartneredDDDoD",
+  "level": 7,
+  "header": 2,
+  "entries": [
+   "During a {@variantrule Long Rest|XPHB}, you may craft a {@b Construct of Flesh}. This requires 4 hide/skin, 4 bone/chitin, and any combination of 4 horns, feathers, scales, fangs, claws, or mandibles.",
+   "The {@creature Construct of Flesh|PartneredDDDoD} is a {@variantrule Friendly [Attitude]|XPHB|Friendly} Undead companion that obeys your commands. It is a Medium creature with the appearance of your choice (although is usually fairly gruesome) and the statistics outlined in the {@creature Construct of Flesh|PartneredDDDoD} stat block. You may only have a single {@creature Construct of Flesh|PartneredDDDoD} at a time. If you create a second one, the first collapses into the components you used to create it.",
+   {
+    "type": "entries",
+    "name": "The Construct of Flesh in Combat",
+    "entries": [
+     "In combat, the {@creature Construct of Flesh|PartneredDDDoD} takes its turn immediately after yours. It can move and use its {@variantrule Reaction|XPHB} on its own, but may only take the {@action Dodge|XPHB} action unless you take a {@variantrule Bonus Action|XPHB} on your turn to command it to take any other {@variantrule Action|XPHB}. If you have the {@condition Incapacitated|XPHB} condition, the {@creature Construct of Flesh|PartneredDDDoD} acts on its own and isn't limited to the {@action Dodge|XPHB} action."
+    ]
+   },
+   {
+    "type": "statblock",
+    "tag": "creature",
+    "name": "Construct of Flesh",
+    "source": "PartneredDDDoD",
+    "style": "narrow"
+   }
+  ]
+ },
+ {
   "name": "Construction Perfection",
   "source": "ExploringEberron24",
   "className": "Druid",
@@ -9504,6 +9776,42 @@
      "You remove one of the following conditions from the target: {@condition Blinded|XPHB}, {@condition Charmed|XPHB}, {@condition Deafened|XPHB}, {@condition Exhaustion|XPHB} (decreases by 1), {@condition Frightened|XPHB}, {@condition Paralyzed|XPHB}, {@condition Petrified|XPHB}, {@condition Poisoned|XPHB}, or {@condition Stunned|XPHB}.",
      "Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending 4 Focus Points (no action required)."
     ]
+   }
+  ]
+ },
+ {
+  "name": "Cosmological Evolution",
+  "source": "PartneredDDDoD",
+  "className": "Druid",
+  "classSource": "XPHB",
+  "subclassShortName": "Cycles",
+  "subclassSource": "PartneredDDDoD",
+  "level": 10,
+  "header": 2,
+  "entries": [
+   "You have the ability to superficially recreate ancient cosmological events from your world's past for a brief moment, drawing upon long past magic to empower yourself and your allies.",
+   "As an {@variantrule Action|XPHB}, you may enact one of the following events, then must complete a {@variantrule Long Rest|XPHB} before you can do so again:",
+   {
+    "type": "list",
+    "items": [
+     "{@i Partial Eclipse:} Using illusionary magic, you recreate a moment where another celestial body briefly blots out the sun. You may shroud an outside area of up to 10 miles in diameter in non-magical darkness for 10 minutes.",
+     "{@i Full Lunar Phase:} Using illusionary magic, you recreate a moment where another celestial body brightly reflects the sun's light. You may illuminate an outside area of up to 10 miles in diameter in natural light for 10 minutes.",
+     "{@i Comet of the Warrior:} Using illusionary magic, you recreate a moment when a golden comet passes through the sky, invigorating your battle senses. For the next minute, you and any allies within 15 ft. of you can each reroll a single missed melee attack roll once per turn.",
+     "{@i Archer's Meteor:} Using illusionary magic, you recreate a moment when a shower of tiny red meteors shoots across the sky towards your foes, guiding your ranged strikes. For the next minute, you and any allies within 15 ft. of you can each reroll a single missed ranged attack roll once per turn.",
+     "{@i Planetary Rings:} Using illusionary magic, you recreate a moment when your planet had rings before any moon(s) formed, empowering you with a sense of protection. For the next minute, you and any allies within 15 ft. of you can each reroll one failed {@variantrule Saving Throw|XPHB} once per turn."
+    ]
+   },
+   {
+    "type": "image",
+    "href": {
+     "type": "external",
+     "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/PartneredDDDoD/book/166-11-005.hadean-earth.webp"
+    },
+    "width": 1700,
+    "height": 1215,
+    "title": "Earth during the Hadean eon",
+    "altText": "The Earth as seen in the Hadean period, a roiling landscape of molten rock.",
+    "credit": "Mark Witton"
    }
   ]
  },
@@ -11007,6 +11315,29 @@
   "header": 1,
   "entries": [
    "You can inflict disease upon a creature. When you hit a creature with an attack roll using a weapon or {@variantrule Unarmed Strike|XPHB}, you can expend one use of your Channel Divinity to give that creature the {@condition Poisoned|XPHB} condition for 1 minute. While {@condition Poisoned|XPHB} in this way, the target also has the {@condition Incapacitated|XPHB} condition. At the end of each of its turns, the {@condition Poisoned|XPHB} target makes a Constitution save, ending the effect on itself on a success."
+  ]
+ },
+ {
+  "name": "Deep Hibernation",
+  "source": "PartneredDDDoD",
+  "className": "Druid",
+  "classSource": "XPHB",
+  "subclassShortName": "Cycles",
+  "subclassSource": "PartneredDDDoD",
+  "level": 6,
+  "header": 2,
+  "entries": [
+   "You gain the ability to go into a deep rejuvenating hibernation at will. This hibernation lasts for a minimum of 24 hours but has no maximum length. While in this state, you do not age and do not need to eat, drink, or sleep. After the minimum 24 hours has passed, you become aware of your surroundings and can wake at any point you choose. When you wake up from your hibernation, you gain the benefits of a {@variantrule Long Rest|XPHB} and can permanently change how old you appear to be.",
+   "During your Deep Hibernation you can connect with the minds of past or future peoples, either your own ancestors/descendants or other inhabitants of this world.",
+   "If you commune with the past, you learn details about your world's history, from a time of your choosing in the past. These can be details that were long forgotten and have no written history but must have been common knowledge at some point in time. This can include things such as ancient legends, tribal rivalries, local wildlife, geography, and other noticeable differences between the past and the current time.",
+   "If you commune with the future, you learn details about your world's future, from a time of your choosing in the future. However, the answers provided are not set in stone and are merely one possible future - usually what would occur if your party were to be absent for the rest of their lifetimes. These details must be common knowledge for people of the time explored and can include things such as legends, civilisation rivalries, local wildlife, geography, and other noticeable differences between the current time and the future.",
+   {
+    "type": "inset",
+    "name": "Designers' Note",
+    "entries": [
+     "This feature gives the Dungeon Master the opportunity to show the consequences of the BBEG's long-term plans if they are not foiled by the party, or to show the history of your world that led to the rise of the BBEG (or other major factions)"
+    ]
+   }
   ]
  },
  {
@@ -13731,6 +14062,24 @@
   ]
  },
  {
+  "name": "Evolution/Devolution",
+  "source": "PartneredDDDoD",
+  "className": "Druid",
+  "classSource": "XPHB",
+  "subclassShortName": "Cycles",
+  "subclassSource": "PartneredDDDoD",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   {
+    "type": "statblock",
+    "tag": "spell",
+    "name": "Evolution/Devolution",
+    "source": "PartneredDDDoD"
+   }
+  ]
+ },
+ {
   "name": "Exalted Assembly of the Feline Court",
   "source": "CthulhuTorchlight",
   "page": 0,
@@ -15143,6 +15492,21 @@
   ]
  },
  {
+  "name": "Finish the Hunt",
+  "source": "PartneredDDDoD",
+  "className": "Ranger",
+  "classSource": "XPHB",
+  "subclassShortName": "Big Game Hunter",
+  "subclassSource": "PartneredDDDoD",
+  "level": 15,
+  "header": 2,
+  "entries": [
+   "As an {@variantrule Action|XPHB}, you can declare that you are attempting to finish a target off. Select a creature that you can see, that is within 60 ft., unobscured, and is of size Large, Huge, or Gargantuan.",
+   "You make a single ranged attack against that creature that automatically hits so long as your character (and you the player) says a quip or one-liner, such as \"This one's mine!\", \"I've got you now...\", or \"Hasta la vista.\" (or equivalent with sign language or other non-verbal communication). If you do not provide a quip or one-liner, the attack misses.",
+   "If a creature hit by this attack has 100 {@variantrule Hit Points|XPHB} or fewer, it dies. Otherwise, it takes {@damage 10d10 + 30} Piercing damage. Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
   "name": "Fire and Brimstone",
   "source": "CrookedMoon14",
   "page": 83,
@@ -15277,6 +15641,19 @@
      "You can expend 3 Blood Points to cast the {@spell Haste|XPHB} spell on yourself. When you cast the spell in this way, when the spell ends, you aren't {@condition Incapacitated|XPHB} and your {@variantrule Speed|XPHB} isn't reduced to 0."
     ]
    }
+  ]
+ },
+ {
+  "name": "Flesh from Shadow",
+  "source": "PartneredDDDoD",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Bonesmith",
+  "subclassSource": "PartneredDDDoD",
+  "level": 18,
+  "header": 2,
+  "entries": [
+   "You may cast the spell {@spell Creation|XPHB}, without requiring a spell slot. You may do this once, then must complete a {@variantrule Long Rest|XPHB} before you can do so again. When you cast this spell, you may \"create\" a fresh carcass of a beast up to Large in size that is suitable for harvesting from. The carcass persists for only 24 hours, however harvested materials from it persist for one week and can be used to craft items (which also only persist for one week) using your {@subclassFeature Melder of Flesh and Bone|Fighter|XPHB|Bonesmith|PartneredDDDoD|3|PartneredDDDoD} feature."
   ]
  },
  {
@@ -16204,6 +16581,19 @@
   ]
  },
  {
+  "name": "Future Sight",
+  "source": "PartneredDDDoD",
+  "className": "Druid",
+  "classSource": "XPHB",
+  "subclassShortName": "Cycles",
+  "subclassSource": "PartneredDDDoD",
+  "level": 17,
+  "header": 2,
+  "entries": [
+   "As an {@variantrule Action|XPHB}, you can peer into your own future, allowing you to glimpse moments just before they happen. For the next hour, so long as you are not {@condition Incapacitated|XPHB} or {@condition Blinded|XPHB}, you have {@variantrule Advantage|XPHB} on all attacks and all attacks against you have {@variantrule Disadvantage|XPHB}. Once you use this feature, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
   "name": "Future You Patron",
   "source": "ValdaPlayerPack",
   "className": "Warlock",
@@ -16345,6 +16735,20 @@
      "Some of your features use Vessel Damage. To determine that extra damage, roll a number of {@dice d4}s equal to your Rage Damage bonus and add them together. Your Vessel Damage is always Lightning damage."
     ]
    }
+  ]
+ },
+ {
+  "name": "Game Hunter",
+  "source": "PartneredDDDoD",
+  "className": "Ranger",
+  "classSource": "XPHB",
+  "subclassShortName": "Big Game Hunter",
+  "subclassSource": "PartneredDDDoD",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "Whether as a trophy hunter or monster slayer, you've honed your skills against creatures that are far bigger than yourself.",
+   "After each {@variantrule Long Rest|XPHB}, choose a size category from Large, Huge, or Gargantuan. Until your next {@variantrule Long Rest|XPHB}, your Ranged Attack Rolls against creatures of that size category deal an additional {@damage 1d8} Piercing damage and your Ranged Attack Rolls against creatures of the other two size categories deal an additional {@damage 1d4} Piercing damage. You can deal this additional damage up to twice per turn."
   ]
  },
  {
@@ -16750,6 +17154,19 @@
   "entries": [
    "When you cast {@spell Magic Missile|XPHB}, you can enhance the damage of the spell. You deal extra Force damage with each dart equal to your Intelligence modifier (minimum of 1).",
    "Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. You can also restore your use of it by expending a level 6+ spell slot (no action required)."
+  ]
+ },
+ {
+  "name": "Glimpse Future",
+  "source": "PartneredDDDoD",
+  "className": "Druid",
+  "classSource": "XPHB",
+  "subclassShortName": "Cycles",
+  "subclassSource": "PartneredDDDoD",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "You have {@variantrule Advantage|XPHB} on Dexterity Saving Throws. When an ally that you can see makes a Dexterity {@variantrule Saving Throw|XPHB}, you may use your {@variantrule Reaction|XPHB} to give them {@variantrule Advantage|XPHB} on that Dexterity {@variantrule Saving Throw|XPHB}, so long as they can hear and understand you."
   ]
  },
  {
@@ -17533,6 +17950,101 @@
   "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Foundry/Subclass/Ranger/Grim%20Harbinger%20Spells.webp"
  },
  {
+  "name": "Grim Harvest",
+  "source": "PartneredDDDoD",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Bonesmith",
+  "subclassSource": "PartneredDDDoD",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "You can harvest resources from slain creatures that you may use to craft items. The Creature Harvest Table below outlines suggestions for managing the resources harvested from a creature and how long it takes to harvest from that creature. When harvesting, the DM may decide (or roll) how much, if any, of that resource you can harvest within the appropriate range of values. These are just guidelines, and we recommend that you discuss this with your DM when the moment arises. Rotting and decayed carcasses are not generally suitable for harvesting.",
+   "Your allies may assist you in harvesting. If at least two other humanoids assist you in harvesting, you may halve the harvest time taken for each creature you harvest from.",
+   {
+    "type": "table",
+    "caption": "Creature Harvest Table",
+    "colLabelRows": [
+     [
+      "",
+      {
+       "type": "cellHeader",
+       "width": 4,
+       "entry": "——Resources Harvested——"
+      },
+      ""
+     ],
+     [
+      "Creature Size",
+      "Hide or Skin",
+      "Bone or Chitin",
+      "Horn, Feathers, or Scales (if applicable)",
+      "Fangs, Claws, or Mandibles (if applicable)",
+      "Time Taken"
+     ]
+    ],
+    "colStyles": [
+     "col-3",
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-1 text-center",
+     "col-1 text-center",
+     "col-3"
+    ],
+    "rows": [
+     [
+      "Tiny",
+      "0-1",
+      "―",
+      "―",
+      "―",
+      "3 minutes"
+     ],
+     [
+      "Small",
+      "1-2",
+      "0-1",
+      "0-1",
+      "0-1",
+      "6 minutes"
+     ],
+     [
+      "Medium",
+      "1-2",
+      "1-2",
+      "1-2",
+      "0-1",
+      "15 minutes"
+     ],
+     [
+      "Large",
+      "3-4",
+      "3-4",
+      "2-3",
+      "1-2",
+      "A {@variantrule Short Rest|XPHB}"
+     ],
+     [
+      "Huge",
+      "5-7",
+      "5-7",
+      "4-5",
+      "3-5",
+      "A {@variantrule Long Rest|XPHB}"
+     ],
+     [
+      "Gargantuan",
+      "10-12",
+      "10-12",
+      "8-10",
+      "8-10",
+      "One day"
+     ]
+    ]
+   }
+  ]
+ },
+ {
   "name": "Grim Surgeon",
   "source": "GriffonsSaddlebag2",
   "page": 224,
@@ -17767,6 +18279,19 @@
   "header": 2,
   "entries": [
    "At 17th level, your vigilant watch of your companions while in the midst of combat allows you to give them cues as to when they should raise their defenses. Whenever you use your Patient Defense to gain the benefits of the {@action Dodge} action, you can spend 1 additional ki point to share that benefit with your allies. Each friendly creature that can see or hear you and is within 30 feet of you can immediately use its reaction to also gain the benefits of the {@action Dodge} action until the start of your next turn."
+  ]
+ },
+ {
+  "name": "Guided Evolution",
+  "source": "PartneredDDDoD",
+  "className": "Druid",
+  "classSource": "XPHB",
+  "subclassShortName": "Cycles",
+  "subclassSource": "PartneredDDDoD",
+  "level": 14,
+  "header": 2,
+  "entries": [
+   "When casting {@spell Evolution/Devolution|PartneredDDDoD}, you may {@status Concentration|XPHB|Concentrate} on that spell for 10 minutes. If you do, the changes become permanent until {@spell Evolution/Devolution|PartneredDDDoD} is cast on this creature again or until that creature completes a {@variantrule Long Rest|XPHB}."
   ]
  },
  {
@@ -19801,6 +20326,20 @@
   ]
  },
  {
+  "name": "Improved Bolas",
+  "source": "PartneredDDDoD",
+  "className": "Ranger",
+  "classSource": "XPHB",
+  "subclassShortName": "Big Game Hunter",
+  "subclassSource": "PartneredDDDoD",
+  "level": 7,
+  "header": 2,
+  "entries": [
+   "As you improve your physical abilities, you also improve your equipment. The number of bolas projectiles you can make at the end of a {@variantrule Long Rest|XPHB} increases. You can now make a number of bolas projectiles equal to your Wisdom modifier plus your Dexterity modifier.",
+   "Additionally, double your {@variantrule Proficiency|XPHB|Proficiency Bonus} for determining the {@variantrule Grappling|XPHB|Grapple} save DC of your Bolas."
+  ]
+ },
+ {
   "name": "Improved Bone Puppetry",
   "source": "SGEHPP",
   "className": "Wizard",
@@ -19812,6 +20351,32 @@
   "entries": [
    "You've enhanced your mastery over skeletal manipulation. When a creature fails its saving throw against your Bone Puppetry feature, your control of the target lasts for 1 minute. The target can't resist your command; it doesn't have {@variantrule Disadvantage|XPHB} on attacks against its allies, nor do its allies have {@variantrule Advantage|XPHB} on saving throws against effects caused by the target. The target repeats the save at the end of each of its turns, ending the effect on itself on a success. You must concentrate on this feature as you would concentrate on a spell, and damage can't break your {@status Concentration|XPHB}.",
    "Once under your control, when the target repeats the saving throw against your Bone Puppetry, you can choose to expend one additional use of the feature to give the creature {@variantrule Disadvantage|XPHB} on the save. You must decide to do so before seeing the result of the roll."
+  ]
+ },
+ {
+  "name": "Improved Construct of Flesh",
+  "source": "PartneredDDDoD",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Bonesmith",
+  "subclassSource": "PartneredDDDoD",
+  "level": 10,
+  "header": 2,
+  "entries": [
+   "You may select a second Trait for your {@creature Construct of Flesh|PartneredDDDoD} from its initial list of abilities. The selected Trait cannot be the same as the first one you picked. When you take the {@action Attack|XPHB} action on your turn, you can forgo any number of attacks to have the {@creature Construct of Flesh|PartneredDDDoD} make attacks in your stead."
+  ]
+ },
+ {
+  "name": "Improved Crafting",
+  "source": "PartneredDDDoD",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Bonesmith",
+  "subclassSource": "PartneredDDDoD",
+  "level": 7,
+  "header": 2,
+  "entries": [
+   "You better understand the creation of items from flesh and bone. The items you craft using your {@subclassFeature Melder of Flesh and Bone|Fighter|XPHB|Bonesmith|PartneredDDDoD|3|PartneredDDDoD} feature become +1 items of their respective type."
   ]
  },
  {
@@ -19884,6 +20449,35 @@
      "When you fail a saving throw against being {@condition charmed}, {@condition frightened}, or put to sleep by magic, you can expend one head to reroll the saving throw. If you do so, you must use the new roll."
     ]
    }
+  ]
+ },
+ {
+  "name": "Improved Evolution/Devolution",
+  "source": "PartneredDDDoD",
+  "className": "Druid",
+  "classSource": "XPHB",
+  "subclassShortName": "Cycles",
+  "subclassSource": "PartneredDDDoD",
+  "level": 6,
+  "header": 2,
+  "entries": [
+   "You gain better control over how you manipulate a creature's evolution. You can push or pull parts of their body through time, rapidly evolving or devolving them, sometimes painfully so.",
+   "Your spell {@spell Evolution/Devolution|PartneredDDDoD} gains a range of 30 ft. and a casting time of one {@variantrule Bonus Action|XPHB}. If you choose a harmful Devolution effect, it also deals {@damage 1d8} + your Wisdom modifier as Necrotic damage on a failed save, or half as much on a successful save.",
+   "Additionally, you can cast the spell {@spell Evolution/Devolution|PartneredDDDoD} at 2nd level without expending a spell slot. You may do this once, then must complete a {@variantrule Long Rest|XPHB} before you can do so again."
+  ]
+ },
+ {
+  "name": "Improved Glimpse Future",
+  "source": "PartneredDDDoD",
+  "className": "Druid",
+  "classSource": "XPHB",
+  "subclassShortName": "Cycles",
+  "subclassSource": "PartneredDDDoD",
+  "level": 10,
+  "header": 2,
+  "entries": [
+   "When you're subjected to an effect that allows you to make a Dexterity {@variantrule Saving Throw|XPHB} to take only half damage, you instead take no damage if you succeed on the {@variantrule Saving Throw|XPHB} and only half damage if you fail. You can't use this feature if you have the {@condition Incapacitated|XPHB} condition.",
+   "When an ally that you can see makes a Dexterity {@variantrule Saving Throw|XPHB}, you may use your {@variantrule Reaction|XPHB} to give them the same ability above, causing them to take no damage if they succeed on the Dexterity {@variantrule Saving Throw|XPHB}, and only half damage if they fail, so long as they can hear and understand you."
   ]
  },
  {
@@ -19979,6 +20573,19 @@
   "header": 1,
   "entries": [
    "When you cast {@spell Shillelagh|XPHB}, you can cause any Melee weapon you are holding to be imbued with nature's power; you can choose for the weapon to retain its normal damage die instead of becoming a {@dice d8}. In addition, you can use any weapon with which you have proficiency as a {@variantrule Spellcasting Focus|XPHB} for your Druid spells."
+  ]
+ },
+ {
+  "name": "Improved Special Shots",
+  "source": "PartneredDDDoD",
+  "className": "Ranger",
+  "classSource": "XPHB",
+  "subclassShortName": "Big Game Hunter",
+  "subclassSource": "PartneredDDDoD",
+  "level": 11,
+  "header": 2,
+  "entries": [
+   "You can use Special Shots a number of times equal to twice your {@variantrule Proficiency|XPHB|Proficiency Bonus}, rather than just equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}"
   ]
  },
  {
@@ -22902,6 +23509,19 @@
   ]
  },
  {
+  "name": "Master Crafter",
+  "source": "PartneredDDDoD",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Bonesmith",
+  "subclassSource": "PartneredDDDoD",
+  "level": 15,
+  "header": 2,
+  "entries": [
+   "Your creations are only rivalled by the works of master smiths. The items you craft using your {@subclassFeature Melder of Flesh and Bone|Fighter|XPHB|Bonesmith|PartneredDDDoD|3|PartneredDDDoD} feature become +3 items of their respective type."
+  ]
+ },
+ {
   "name": "Master of Disguise",
   "source": "IllriggerRevised",
   "className": "Illrigger",
@@ -23115,6 +23735,93 @@
   "entries": [
    "When Good Medicine restores {@variantrule Hit Points|XPHB} to a creature, that creature regains {@dice 2d8} additional {@variantrule Hit Points|XPHB}.",
    "When Bad Medicine deals Acid damage to a creature, that creature takes {@dice 2d8} extra Acid damage. Additionally, target creatures have {@variantrule Disadvantage|XPHB} on their saving throw."
+  ]
+ },
+ {
+  "name": "Melder of Flesh and Bone",
+  "source": "PartneredDDDoD",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Bonesmith",
+  "subclassSource": "PartneredDDDoD",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "You gain proficiency with {@item Leatherworker's Tools|XPHB} and {@item Smith's Tools|XPHB}. Over the course of a {@variantrule Long Rest|XPHB}, you can use your {@item Leatherworker's Tools|XPHB} and {@item Smith's Tools|XPHB} to craft armour, shields, and weapons from the parts of slain creatures. The Bonesmith Suggested Crafting Table outlines suggestions for the resource requirements for crafting these items. These are just guidelines, and we recommend that you discuss this with your DM when the moment arises*.",
+   "Additionally, you gain proficiency with {@skill Medicine|XPHB} checks.",
+   {
+    "type": "table",
+    "caption": "Bonesmith Suggested Crafting Table",
+    "colLabels": [
+     "Item Type",
+     "Example Item",
+     "Suggested Resources"
+    ],
+    "colStyles": [
+     "col-2",
+     "col-5",
+     "col-5"
+    ],
+    "rows": [
+     [
+      "Simple Medium Armor",
+      "{@item Hide Armor|XPHB|Hide Armour} or {@item Scale Mail|XPHB}",
+      "4 Hide or Skin 1 Feathers or Scales"
+     ],
+     [
+      "Complex Medium Armor",
+      "{@item Breastplate|XPHB} or {@item Half Plate Armor|XPHB|Half Plate}",
+      "4 Hide or Skin 1 Bone or Chitin 2 Feathers or Scales"
+     ],
+     [
+      "Simple Heavy Armor",
+      "{@item Ring Mail|XPHB} or {@item Chain Mail|XPHB}",
+      "4 Bone or Chitin"
+     ],
+     [
+      "Complex Heavy Armor",
+      "{@item Splint Armor|XPHB|Splint} or {@item Plate Armor|XPHB|Full Plate}",
+      "6 Bone or Chitin 2 Hide or Scales"
+     ],
+     [
+      "Small Weapon",
+      "{@item Dagger|XPHB}, {@item Handaxe|XPHB}, {@item Dart|XPHB}, etc.",
+      "1 Bone or Chitin OR 1 Horn, Fangs, Claws, or Mandibles"
+     ],
+     [
+      "Medium Weapon",
+      "{@item Shortsword|XPHB}, {@item Mace|XPHB}, Crossbow, Axe, etc.",
+      "2 Bone or Chitin 1 Hide or Skin OR 1 Bone or Chitin 1 Horn, Fangs, Claws, or Mandibles"
+     ],
+     [
+      "Large Weapon",
+      "{@item Longsword|XPHB}, {@item Warhammer|XPHB}, {@item Quarterstaff|XPHB}, {@item Longbow|XPHB}, etc.",
+      "3 Bone or Chitin 2 Hide or Skin OR 2 Bone or Chitin 2 Horn, Fangs, Claws, or Mandibles"
+     ],
+     [
+      "Huge Weapon",
+      "{@item Greataxe|XPHB}, {@item Halberd|XPHB}, {@item Lance|XPHB}, etc.",
+      "2 Hide or Skin 5 Bone or Chitin OR 3 Horn, Fangs, Claws, or Mandibles 3 Bone or Chitin"
+     ],
+     [
+      "Shield",
+      "{@item Shield|XPHB}",
+      "3 Hide or Skin 1 Bone or Chitin OR 3 Bone or Chitin"
+     ],
+     [
+      "Trinket",
+      "Necklace, Ring, Dice, etc.",
+      "1 Horn, Fangs, Claws, or Mandibles 1 Hide or Skin"
+     ]
+    ]
+   },
+   {
+    "type": "inset",
+    "name": "Designers' Note",
+    "entries": [
+     "Melder of Flesh and Bone is intended to allow a player to fulfil the role within a party as its armourer or blacksmith–granting party-wide bonuses through abundant equipment. It can also generate the party significant wealth. However, some players may seek to use these rules solely to generate excessive wealth. To deter such exploitation, they may find that local traders are repulsed by their designs, that their influx of goods lowers their value, and/or that regional bandits are quickly armed with their formerly sold equipment."
+    ]
+   }
   ]
  },
  {
@@ -23421,6 +24128,20 @@
      "You have {@spell Counterspell|XPHB} prepared. You can cast it as a level 6 spell without expending a spell slot."
     ]
    }
+  ]
+ },
+ {
+  "name": "Minion Master",
+  "source": "PartneredDDDoD",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Bonesmith",
+  "subclassSource": "PartneredDDDoD",
+  "level": 18,
+  "header": 2,
+  "entries": [
+   "The AC of your {@creature Construct of Flesh|PartneredDDDoD} is increased by 2 (cumulative with the Robust Trait if you selected it) and you may select a second attack for your {@creature Construct of Flesh|PartneredDDDoD} from its initial list of attacks. The selected attack cannot be the same as the first one you picked. All attacks made by your {@creature Construct of Flesh|PartneredDDDoD} deal an additional {@damage 2d6} Necrotic damage.",
+   "Additionally, when your {@creature Construct of Flesh|PartneredDDDoD} drops to 0 hit points, you may choose to instead have it drop to 1 hit point. You may do this once, then must complete a {@variantrule Long Rest|XPHB} before you can do so again."
   ]
  },
  {
@@ -29189,6 +29910,19 @@
   ]
  },
  {
+  "name": "Predator's Intuition",
+  "source": "PartneredDDDoD",
+  "className": "Ranger",
+  "classSource": "XPHB",
+  "subclassShortName": "Big Game Hunter",
+  "subclassSource": "PartneredDDDoD",
+  "level": 15,
+  "header": 2,
+  "entries": [
+   "Using your intimate knowledge of your prey, you can tell how injured it is. When you hit a Large, Huge, or Gargantuan creature with your Bolas or Special Shot, you can immediately determine how many {@variantrule Hit Points|XPHB} it has remaining."
+  ]
+ },
+ {
   "name": "Predatory Instinct",
   "source": "GriffonsSaddlebag2",
   "page": 217,
@@ -29822,6 +30556,19 @@
   ]
  },
  {
+  "name": "Ranged Specialist",
+  "source": "PartneredDDDoD",
+  "className": "Ranger",
+  "classSource": "XPHB",
+  "subclassShortName": "Big Game Hunter",
+  "subclassSource": "PartneredDDDoD",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "A master of ranged combat, you are knowledgeable and disciplined with a variety of ranged weapons. You have training with all ranged weapons (including thrown weapons and firearms), and you do not have {@variantrule Disadvantage|XPHB} on ranged attacks for an enemy being within 5 ft. of you."
+  ]
+ },
+ {
   "name": "Rapid Consumption",
   "source": "GrimHollowPG24",
   "page": 75,
@@ -30202,6 +30949,19 @@
   "header": 2,
   "entries": [
    "When you hit your marked target with a Melee weapon or an {@variantrule Unarmed Strike|XPHB} immediately after you teleport with the Hunt the Prey feature, you can cast {@classFeature Divine Smite|Paladin|XPHB|2|XPHB} without using a {@variantrule Bonus Action|XPHB}. You expend a spell slot as normal, and you can cast this spell in this way only once per turn."
+  ]
+ },
+ {
+  "name": "Reliable Aim",
+  "source": "PartneredDDDoD",
+  "className": "Ranger",
+  "classSource": "XPHB",
+  "subclassShortName": "Big Game Hunter",
+  "subclassSource": "PartneredDDDoD",
+  "level": 11,
+  "header": 2,
+  "entries": [
+   "Years of harsh training with ranged weapons has made you an excellent shot. If you miss with an attack roll using a ranged weapon on your turn, you can reroll it. You can use this feature only once on each of your turns. You may only do so a number of times equal to your Dexterity modifier (minimum of once), then regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
   ]
  },
  {
@@ -33423,6 +34183,40 @@
   ]
  },
  {
+  "name": "Special Shots",
+  "source": "PartneredDDDoD",
+  "className": "Ranger",
+  "classSource": "XPHB",
+  "subclassShortName": "Big Game Hunter",
+  "subclassSource": "PartneredDDDoD",
+  "level": 7,
+  "header": 2,
+  "entries": [
+   "Your uncanny aim and specialist ammunition allows you to modify your attacks to whatever your situation requires. When you make a Ranged {@variantrule Attack Roll|XPHB}, before rolling the attack die, you may apply one of the following additional effects:",
+   {
+    "type": "list",
+    "items": [
+     {
+      "type": "item",
+      "name": "Drill Shot",
+      "entry": "Twisting your ranged weapon suddenly at the moment of firing causes your projectile to spin rapidly, allowing it to drill through tough armoured hides. This Ranged {@variantrule Attack Roll|XPHB} receives an additional +5 bonus to the hit roll."
+     },
+     {
+      "type": "item",
+      "name": "Trick Shot",
+      "entry": "With precise aim, you attempt to ricochet your shot off of one or more surfaces to reach an otherwise unreachable foe. Choose an unoccupied point that you can see and that is within 60 ft. of you. You may treat your location as if it were that point for the purposes of determining line of sight and range for this Ranged {@variantrule Attack Roll|XPHB}."
+     },
+     {
+      "type": "item",
+      "name": "Power Shot",
+      "entry": "Whether by drawing your string back as hard as possible or overloading your firearm with excessive gunpowder, you ensure that your shot hits as hard as it possibly can to inflict as much damage as possible. The weapon damage roll for this attack is treated as the maximum damage that could be rolled. Roll normally for any additional damage from this attack (e.g. from Game Hunter, or {@spell Hunter's Mark|XPHB}), but additional damage dice from Critical Hits are also treated as the maximum damage that could be rolled."
+     }
+    ]
+   },
+   "You may do this a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+  ]
+ },
+ {
   "name": "Spectral Guide",
   "source": "GriffonsSaddlebag2",
   "page": 218,
@@ -33770,6 +34564,240 @@
        "You have an unholy symbol, such as an amulet symbolizing your archdevil, a fragment of a blasphemous relic, or a glass orb holding a consecrated drop of archdevil blood. You can use the unholy symbol as a spellcasting focus for your illrigger spells. You must have a free hand to use the unholy symbol, but it can be the same hand you use to perform somatic components."
       ]
      }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Spellcasting",
+  "source": "PartneredDDDoD",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "subclassShortName": "Bonesmith",
+  "subclassSource": "PartneredDDDoD",
+  "level": 3,
+  "header": 1,
+  "entries": [
+   "Bonesmiths use a combination of physical prowess, anatomical knowledge, and necromantic magic to create their gruesome armaments. As a byproduct of this, they have developed a knack to cast certain spells. The information below details how you as a Bonesmith can cast spells. Full details regarding spellcasting can be found in the {@book Players Handbook|XPHB|7|Casting Spells}.",
+   {
+    "type": "entries",
+    "name": "Cantrips",
+    "entries": [
+     "You know the {@spell Poison Spray|XPHB}, {@spell Mending|XPHB}, and {@spell Spare the Dying|XPHB} cantrips."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Spell Slots",
+    "entries": [
+     "The {@book Bonesmith spellcasting table|PartneredDDDoD|11|Fighter: Bonesmith (2024)} shows how many spell slots you have to cast your level 1+ spells. These spell slots may only be used to cast Bonesmith spells, and you regain all expended slots when you finish a {@variantrule Long Rest|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Prepared Spells of Level 1+",
+    "entries": [
+     "Rather than preparing a list of level 1+ spells from a pool that would be available for you to cast with this feature, you instead have a set list of specific spells that are always prepared, depending on your Fighter level. When you reach a Fighter level specified in the {@book Bonesmith Spells table|PartneredDDDoD|11|Fighter: Bonesmith (2024)}, you thereafter always have the listed spells prepared."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Spellcasting Ability",
+    "entries": [
+     "Intelligence is your spellcasting ability for your Bonesmith spells."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Spellcasting Focus",
+    "entries": [
+     "You can use {@item Smith's Tools|XPHB}, {@item Leatherworker's Tools|XPHB}, or a weapon that you have crafted with your {@subclassFeature Melder of Flesh and Bone|Fighter|XPHB|Bonesmith|PartneredDDDoD|3|PartneredDDDoD} feature as a {@variantrule Spellcasting Focus|XPHB} for your Bonesmith spells."
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Bonesmith Spell Slots Table",
+    "colLabelRows": [
+     [
+      "",
+      {
+       "type": "cellHeader",
+       "width": 4,
+       "entry": "——Spell Slot per Spell Level——"
+      }
+     ],
+     [
+      "Fighter Level",
+      "1",
+      "2",
+      "3",
+      "4"
+     ]
+    ],
+    "colStyles": [
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-2 text-center",
+     "col-4 text-center"
+    ],
+    "rows": [
+     [
+      "3",
+      "2",
+      "―",
+      "―",
+      "―"
+     ],
+     [
+      "4",
+      "3",
+      "―",
+      "―",
+      "―"
+     ],
+     [
+      "5",
+      "3",
+      "―",
+      "―",
+      "―"
+     ],
+     [
+      "6",
+      "3",
+      "―",
+      "―",
+      "―"
+     ],
+     [
+      "7",
+      "4",
+      "2",
+      "―",
+      "―"
+     ],
+     [
+      "8",
+      "4",
+      "2",
+      "―",
+      "―"
+     ],
+     [
+      "9",
+      "4",
+      "2",
+      "―",
+      "―"
+     ],
+     [
+      "10",
+      "4",
+      "3",
+      "―",
+      "―"
+     ],
+     [
+      "11",
+      "4",
+      "3",
+      "―",
+      "―"
+     ],
+     [
+      "12",
+      "4",
+      "3",
+      "―",
+      "―"
+     ],
+     [
+      "13",
+      "4",
+      "3",
+      "2",
+      "―"
+     ],
+     [
+      "14",
+      "4",
+      "3",
+      "2",
+      "―"
+     ],
+     [
+      "15",
+      "4",
+      "3",
+      "2",
+      "―"
+     ],
+     [
+      "16",
+      "4",
+      "3",
+      "3",
+      "―"
+     ],
+     [
+      "17",
+      "4",
+      "3",
+      "3",
+      "―"
+     ],
+     [
+      "18",
+      "4",
+      "3",
+      "3",
+      "―"
+     ],
+     [
+      "19",
+      "4",
+      "3",
+      "3",
+      "1"
+     ],
+     [
+      "20",
+      "4",
+      "3",
+      "3",
+      "1"
+     ]
+    ]
+   },
+   {
+    "type": "table",
+    "caption": "Bonesmith Spells Table",
+    "colLabels": [
+     "Fighter Level",
+     "Bonesmith Spells"
+    ],
+    "colStyles": [
+     "col-1 text-center",
+     "col-11"
+    ],
+    "rows": [
+     [
+      "3",
+      "{@spell Inflict Wounds|XPHB}, {@spell False Life|XPHB}, {@spell Find Familiar|XPHB}"
+     ],
+     [
+      "7",
+      "{@spell Ray of Enfeeblement|XPHB}, {@spell Alter Self|XPHB}, {@spell Protection from Poison|XPHB}"
+     ],
+     [
+      "13",
+      "{@spell Speak with Dead|XPHB}, {@spell Animate Dead|XPHB}, {@spell Fear|XPHB}"
+     ],
+     [
+      "19",
+      "{@spell Blight|XPHB}, {@spell Fabricate|XPHB}, {@spell Death Ward|XPHB}"
+     ]
     ]
    }
   ]

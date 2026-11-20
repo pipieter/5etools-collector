@@ -1,5 +1,53 @@
 [
  {
+  "name": "Action Hero",
+  "source": "PartneredDDDoD",
+  "category": "G",
+  "prerequisite": [
+   {
+    "level": 12,
+    "ability": [
+     {
+      "str": 16
+     }
+    ]
+   }
+  ],
+  "ability": [
+   {
+    "choose": {
+     "from": [
+      "str",
+      "dex"
+     ]
+    }
+   }
+  ],
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Ability Score Increase",
+    "entries": [
+     "Increase your Strength or Dexterity by 1, to a maximum of 20."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Catch Jaws",
+    "entries": [
+     "If a creature hits you with an attack that uses its mouth (i.e. a bite or maw attack), you can use your {@variantrule Reaction|XPHB} to reduce any incoming damage by {@dice 1d10} + your level."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Heroic Moment",
+    "entries": [
+     "The first time you fail an {@skill Athletics|XPHB} check each day, you can choose to succeed it instead."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Adroit Crafter",
   "source": "GrimHollowLairsEtharis",
   "reprintedAs": [
@@ -345,6 +393,64 @@
     "name": "Natural Swimmer",
     "entries": [
      "You have a {@variantrule Swim Speed|XPHB} equal to your {@variantrule Speed|XPHB}."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Arcane Enchanter",
+  "source": "PartneredDDDoD",
+  "category": "G",
+  "prerequisite": [
+   {
+    "level": 12,
+    "spellcasting2020": true
+   }
+  ],
+  "ability": [
+   {
+    "choose": {
+     "from": [
+      "int",
+      "wis",
+      "cha"
+     ]
+    }
+   }
+  ],
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Ability Score Increase",
+    "entries": [
+     "Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Enchant",
+    "entries": [
+     "As an {@variantrule Action|XPHB}, you can select an item you can see and touch, and enchant it. You may only have a single item enchanted at any given point, and when you use this {@variantrule Action|XPHB}, any previous enchants you have made end. The item gains one of the following enchantments based on its type:"
+    ]
+   },
+   {
+    "type": "list",
+    "items": [
+     {
+      "type": "item",
+      "name": "Weapon",
+      "entry": "For the next minute that weapon deals {@damage 1d6} additional damage of any damage type that your spells can deal. At level 16, you may add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to this additional damage."
+     },
+     {
+      "type": "item",
+      "name": "Armour",
+      "entry": "For the next minute that armour provides the wearer with {@variantrule Resistance|XPHB} to one damage type that your spells can deal. At level 16, you may select two damage types that this armour provides {@variantrule Resistance|XPHB} to."
+     },
+     {
+      "type": "item",
+      "name": "Wondrous",
+      "entry": "For the next minute, that item provides the bearer {@variantrule Advantage|XPHB} on Saving Throws and checks to prevent or end a condition of your choice. At level 16, you may select two conditions that this item provides {@variantrule Advantage|XPHB} for."
+     }
     ]
    }
   ]
@@ -703,6 +809,54 @@
    "In addition, as an action you can spend a craft slot and choose a beast that you can see within 30 feet of you. It must be able to see and hear you. Make a Wisdom ({@skill Animal Handling}) check, contested by the target's Wisdom ({@skill Insight}) check. If you win the contest, the beast is {@condition charmed} by you for 24 hours or until you or your companions do anything harmful to it. If you obtain a magical success and the target is a beast with a challenge rating of 1/8 or lower, you can make the beast permanently {@condition charmed} by you, until you dismiss it, harm it, or make another beast permanently charmed by you. A beast automatically wins the contest if its Intelligence score is 4 or higher. When you reach 5th level, you can affect one additional beast, or two additional beasts at 9th level."
   ],
   "hasFluff": true
+ },
+ {
+  "name": "Behaviourist",
+  "source": "PartneredDDDoD",
+  "category": "G",
+  "prerequisite": [
+   {
+    "level": 4,
+    "ability": [
+     {
+      "int": 12
+     }
+    ]
+   }
+  ],
+  "ability": [
+   {
+    "int": 1
+   }
+  ],
+  "expertise": [
+   {
+    "animal handling": true
+   }
+  ],
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Ability Score Increase",
+    "entries": [
+     "Increase your Intelligence by 1, to a maximum of 20."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Animal Behaviour Expert",
+    "entries": [
+     "You have expertise in {@skill Animal Handling|XPHB} checks."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Bespoke Saddles",
+    "entries": [
+     "Creatures you tame gain +1 to their AC, attack rolls, and damage."
+    ]
+   }
+  ]
  },
  {
   "name": "Blackpowder Pistol Expert",
@@ -3544,6 +3698,55 @@
    ]
   },
   "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Foundry/Feats/Crimson%20Ritualist.webp"
+ },
+ {
+  "name": "Crocodile Wrangler",
+  "source": "PartneredDDDoD",
+  "category": "G",
+  "prerequisite": [
+   {
+    "level": 8,
+    "ability": [
+     {
+      "str": 13,
+      "cha": 13
+     }
+    ]
+   }
+  ],
+  "ability": [
+   {
+    "choose": {
+     "from": [
+      "str",
+      "con"
+     ]
+    }
+   }
+  ],
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Ability Score Increase",
+    "entries": [
+     "Increase your Strength or Constitution by 1, to a maximum of 20."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "\"What a beauty!\"",
+    "entries": [
+     "You have {@variantrule Advantage|XPHB} on {@skill Animal Handling|XPHB} checks and Beasts that you attempt to {@variantrule Grappling|XPHB|Grapple} have {@variantrule Disadvantage|XPHB} on their saving throw to resist that Grapple."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "\"Crikey!\"",
+    "entries": [
+     "Any Large, Medium, or Small beast you are {@variantrule Grappling|XPHB} cannot select you as a target for its attacks."
+    ]
+   }
+  ]
  },
  {
   "name": "Cruel",
@@ -9033,6 +9236,34 @@
   ]
  },
  {
+  "name": "Miner",
+  "source": "PartneredDDDoD",
+  "category": "O",
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Portable Lamp",
+    "entries": [
+     "You possess a physical lamp that weighs 1 lb. and can produce 20 ft. of {@variantrule Bright Light|XPHB} and a further 20 ft. of {@variantrule Dim Light|XPHB}. The lamp attaches to your belt/armour and does not need to be carried."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Familiar Rumble",
+    "entries": [
+     "While underground, you have {@sense Tremorsense|XPHB} 30 ft. If you already have {@sense Tremorsense|XPHB}, its range is increased by 20 ft."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "\"Cave-in!\"",
+    "entries": [
+     "You have {@variantrule Advantage|XPHB} on any skill check or {@variantrule Saving Throw|XPHB} to escape falling natural rocks (i.e. from cliffs, caves, tunnels, etc., but not from traps or buildings)."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Minor Corruption",
   "source": "ObojimaTallGrass",
   "page": 163,
@@ -9333,6 +9564,34 @@
      "You have resistance to poison damage.",
      "You have advantage on saving throws against being {@condition poisoned}.",
      "You can cause your cheeks to swell and bubble out as your mouth fills with liquid poison. As an action, you can spit several globs of poison in quick succession, targeting a number of creatures equal to your proficiency bonus. Each target must be within 30 feet of you and must make a Constitution saving throw (DC 8 + your Constitution modifier + your proficiency bonus). A target takes poison damage equal to {@dice 1d8} + your proficiency bonus on a failed save, or half as much damage on a successful one."
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Naturalist",
+  "source": "PartneredDDDoD",
+  "category": "O",
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Taxonomist",
+    "entries": [
+     "When rolling a {@skill Survival|XPHB} check to identify the remains of any beast, plant, or humanoid, any roll of a 1-9 is treated as a 10."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Fieldwork",
+    "entries": [
+     "You have {@variantrule Expertise|XPHB} in Survival checks when tracking a beast."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Functional Morphology",
+    "entries": [
+     "The first time you encounter a beast that you have not seen before, you are able to discern either its AC, maximum {@variantrule Hit Points|XPHB}, or one {@variantrule Resistance|XPHB} it has (your choice)."
     ]
    }
   ]
@@ -11755,6 +12014,60 @@
   "hasFluff": true
  },
  {
+  "name": "Stone-Whisperer",
+  "source": "PartneredDDDoD",
+  "category": "G",
+  "prerequisite": [
+   {
+    "level": 4,
+    "ability": [
+     {
+      "wis": 12
+     }
+    ]
+   }
+  ],
+  "ability": [
+   {
+    "wis": 1
+   }
+  ],
+  "additionalSpells": [
+   {
+    "innate": {
+     "4": {
+      "_": [
+       "stone shape|xphb"
+      ]
+     }
+    }
+   }
+  ],
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Ability Score Increase",
+    "entries": [
+     "Increase your Wisdom by 1, to a maximum of 20."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Stone Whisper",
+    "entries": [
+     "You can cast the {@spell Stone Shape|XPHB} spell once per day without requiring material components and without using a spell slot. This is increased to three times per day at level 10, five times per day at level 15, and an unlimited number of times per day at level 20."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Whisper Back",
+    "entries": [
+     "You have {@sense Tremorsense|XPHB} 10 ft."
+    ]
+   }
+  ]
+ },
+ {
   "name": "Stout-Hearted",
   "source": "TLotRR",
   "page": 82,
@@ -13780,6 +14093,52 @@
        ]
       ]
      }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Volcanologist",
+  "source": "PartneredDDDoD",
+  "category": "G",
+  "prerequisite": [
+   {
+    "level": 8
+   }
+  ],
+  "ability": [
+   {
+    "choose": {
+     "from": [
+      "int",
+      "con"
+     ]
+    }
+   }
+  ],
+  "resist": [
+   "fire"
+  ],
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Ability Score Increase",
+    "entries": [
+     "Increase your Intelligence or Constitution by 1, to a maximum of 20."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Heat Handler",
+    "entries": [
+     "You have {@variantrule Resistance|XPHB} to Fire damage."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Assess Volcano",
+    "entries": [
+     "If you can see a volcano, you may take 10 minutes to assess it. If you do, you are able to determine whether it is likely to erupt in either the next >100 years, 10 years, 1 year, 30 days, 7 days, or 24 hours. If the volcano is going to erupt in the next 7 days or less, you are able to determine the minimum safe distance from it."
     ]
    }
   ]

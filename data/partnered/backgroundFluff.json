@@ -2077,6 +2077,13 @@
   ]
  },
  {
+  "name": "Geologist",
+  "source": "PartneredDDDoD",
+  "entries": [
+   "{@i Geologists are those who have dedicated a portion of their lives to the study of rocks and earthly processes. They are able to see beyond the immediately obvious and interpret the landscape around them, providing valuable field knowledge.}"
+  ]
+ },
+ {
   "name": "Ghostlight Passenger",
   "source": "CrookedMoon14",
   "entries": [
@@ -2730,6 +2737,13 @@
   "source": "DnDBeyondDrops",
   "entries": [
    "You had a purpose in mind. Perhaps you were seeking out knowledge or power. Or maybe you were in search of hidden secrets. One way or another, your journey lead you to seek out an extraplanar entity. Once you made contact, a deal was struck, and your life changed."
+  ]
+ },
+ {
+  "name": "Palaeontologist",
+  "source": "PartneredDDDoD",
+  "entries": [
+   "{@i Palaeontologists are those who have dedicated a portion of their lives to the study of ancient organisms and environments. They are able to interpret how creatures may behave, based on their morphology.}"
   ]
  },
  {
@@ -3850,6 +3864,13 @@
   "source": "TLotRR",
   "entries": [
    "A great war was fought between the Dwarves and the Orcs of the Misty Mountains about 170 years ago. The parents and grandparents of most Dwarves, including yours, remember the horrors of that war; you have vowed to mete out justice to all Orc-kind."
+  ]
+ },
+ {
+  "name": "Time-Lost",
+  "source": "PartneredDDDoD",
+  "entries": [
+   "{@i The time-lost are those unfortunate individuals who have been propelled through time, either by accident or against their will. They find themselves in a strange land, surrounded by unfamiliar cultures and creatures.}"
   ]
  },
  {
