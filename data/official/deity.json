@@ -13497,6 +13497,7 @@
  },
  {
   "name": "St. Cuthbert",
+  "reprintAlias": "Cuthbert",
   "source": "PHB",
   "page": 295,
   "pantheon": "Greyhawk",
@@ -15574,6 +15575,7 @@
  },
  {
   "name": "Tyr",
+  "reprintAlias": "Tyr (Norse)",
   "source": "PHB",
   "page": 299,
   "pantheon": "Norse",

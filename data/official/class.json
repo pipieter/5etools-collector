@@ -1625,6 +1625,7 @@
     "gainSubclassFeature": true
    },
    "Primal Knowledge|Barbarian|XPHB|3",
+   "Totems|Barbarian|XPHB|3|WoW",
    "Ability Score Improvement|Barbarian|XPHB|4",
    "Extra Attack|Barbarian|XPHB|5",
    "Fast Movement|Barbarian|XPHB|5",
@@ -4092,7 +4093,19 @@
   "isHero": true,
   "_copy": {
    "name": "Paladin",
-   "source": "XPHB"
+   "source": "XPHB",
+   "_mod": {
+    "classTableGroups": {
+     "mode": "replaceTxt",
+     "replace": "\\bclass=Paladin\\b",
+     "with": "class=Death Knight",
+     "flags": "i",
+     "props": [
+      "colLabels"
+     ],
+     "tagInsensitive": true
+    }
+   }
   },
   "additionalSpells": [
    {
@@ -4170,7 +4183,19 @@
   "isHero": true,
   "_copy": {
    "name": "Ranger",
-   "source": "XPHB"
+   "source": "XPHB",
+   "_mod": {
+    "classTableGroups": {
+     "mode": "replaceTxt",
+     "replace": "\\bclass=Ranger\\b",
+     "with": "class=Demon Hunter",
+     "flags": "i",
+     "props": [
+      "colLabels"
+     ],
+     "tagInsensitive": true
+    }
+   }
   },
   "classFeatures": [
    "Spellcasting|Demon Hunter|WoW|1",
@@ -9885,46 +9910,6 @@
    "name": "Barbarian",
    "source": "XPHB"
   },
-  "classFeatures": [
-   "Rage|Barbarian|XPHB|1",
-   "Unarmored Defense|Barbarian|XPHB|1",
-   "Weapon Mastery|Barbarian|XPHB|1",
-   "Danger Sense|Barbarian|XPHB|2",
-   "Reckless Attack|Barbarian|XPHB|2",
-   {
-    "classFeature": "Shaman Subclass|Shaman|WoW|3",
-    "gainSubclassFeature": true
-   },
-   "Totems|Shaman|WoW|3",
-   "Ability Score Improvement|Barbarian|XPHB|4",
-   "Extra Attack|Barbarian|XPHB|5",
-   "Fast Movement|Barbarian|XPHB|5",
-   {
-    "classFeature": "Subclass Feature|Barbarian|XPHB|6",
-    "gainSubclassFeature": true
-   },
-   "Feral Instinct|Barbarian|XPHB|7",
-   "Instinctive Pounce|Barbarian|XPHB|7",
-   "Ability Score Improvement|Barbarian|XPHB|8",
-   "Brutal Strike|Barbarian|XPHB|9",
-   {
-    "classFeature": "Subclass Feature|Barbarian|XPHB|10",
-    "gainSubclassFeature": true
-   },
-   "Relentless Rage|Barbarian|XPHB|11",
-   "Ability Score Improvement|Barbarian|XPHB|12",
-   "Improved Brutal Strike|Barbarian|XPHB|13",
-   {
-    "classFeature": "Subclass Feature|Barbarian|XPHB|14",
-    "gainSubclassFeature": true
-   },
-   "Persistent Rage|Barbarian|XPHB|15",
-   "Ability Score Improvement|Barbarian|XPHB|16",
-   "Improved Brutal Strike|Barbarian|XPHB|17",
-   "Indomitable Might|Barbarian|XPHB|18",
-   "Epic Boon|Barbarian|XPHB|19",
-   "Primal Champion|Barbarian|XPHB|20"
-  ],
   "includeSubclassesFrom": [
    "Barbarian|XPHB"
   ],

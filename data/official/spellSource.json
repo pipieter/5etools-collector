@@ -24930,6 +24930,12 @@
   "casterSource": "WoW"
  },
  {
+  "spellName": "Bonestorm",
+  "spellSource": "WoW",
+  "casterName": "Death Knight",
+  "casterSource": "WoW"
+ },
+ {
   "spellName": "Breath of Eons",
   "spellSource": "WoW",
   "casterName": "Sorcerer",
@@ -24939,6 +24945,24 @@
   "spellName": "Breath of Eons",
   "spellSource": "WoW",
   "casterName": "Evoker",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Chains of Ice",
+  "spellSource": "WoW",
+  "casterName": "Death Knight",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Chaos Nova",
+  "spellSource": "WoW",
+  "casterName": "Demon Hunter",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Collapsing Star",
+  "spellSource": "WoW",
+  "casterName": "Demon Hunter",
   "casterSource": "WoW"
  },
  {
@@ -24966,6 +24990,12 @@
   "casterSource": "WoW"
  },
  {
+  "spellName": "Consume Soul",
+  "spellSource": "WoW",
+  "casterName": "Demon Hunter",
+  "casterSource": "WoW"
+ },
+ {
   "spellName": "Curse of Agony",
   "spellSource": "WoW",
   "casterName": "Warlock",
@@ -24975,6 +25005,24 @@
   "spellName": "Curse of Agony",
   "spellSource": "WoW",
   "casterName": "Warlock",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Death and Decay",
+  "spellSource": "WoW",
+  "casterName": "Death Knight",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Death Grip",
+  "spellSource": "WoW",
+  "casterName": "Death Knight",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Demon Spikes",
+  "spellSource": "WoW",
+  "casterName": "Demon Hunter",
   "casterSource": "WoW"
  },
  {
@@ -25086,6 +25134,18 @@
   "casterSource": "WoW"
  },
  {
+  "spellName": "Eye Beam",
+  "spellSource": "WoW",
+  "casterName": "Demon Hunter",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Fel Rush",
+  "spellSource": "WoW",
+  "casterName": "Demon Hunter",
+  "casterSource": "WoW"
+ },
+ {
   "spellName": "Feral Prowl",
   "spellSource": "WoW",
   "casterName": "Druid",
@@ -25095,6 +25155,12 @@
   "spellName": "Feral Prowl",
   "spellSource": "WoW",
   "casterName": "Druid",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Fiery Brand",
+  "spellSource": "WoW",
+  "casterName": "Demon Hunter",
   "casterSource": "WoW"
  },
  {
@@ -25134,6 +25200,12 @@
   "casterSource": "WoW"
  },
  {
+  "spellName": "Frostscythe",
+  "spellSource": "WoW",
+  "casterName": "Death Knight",
+  "casterSource": "WoW"
+ },
+ {
   "spellName": "Guided Prayer",
   "spellSource": "WoW",
   "casterName": "Paladin",
@@ -25170,6 +25242,12 @@
   "casterSource": "WoW"
  },
  {
+  "spellName": "Infernal Strike",
+  "spellSource": "WoW",
+  "casterName": "Demon Hunter",
+  "casterSource": "WoW"
+ },
+ {
   "spellName": "Innervate",
   "spellSource": "WoW",
   "casterName": "Druid",
@@ -25191,6 +25269,12 @@
   "spellName": "Lay Waste",
   "spellSource": "WoW",
   "casterName": "Evoker",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Leeching Strike",
+  "spellSource": "WoW",
+  "casterName": "Death Knight",
   "casterSource": "WoW"
  },
  {
@@ -25215,6 +25299,12 @@
   "spellName": "Mass Polymorph",
   "spellSource": "WoW",
   "casterName": "Mage",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Metamorphosis",
+  "spellSource": "WoW",
+  "casterName": "Demon Hunter",
   "casterSource": "WoW"
  },
  {
@@ -25278,6 +25368,12 @@
   "casterSource": "WoW"
  },
  {
+  "spellName": "Remorseless Winter",
+  "spellSource": "WoW",
+  "casterName": "Death Knight",
+  "casterSource": "WoW"
+ },
+ {
   "spellName": "Rescue",
   "spellSource": "WoW",
   "casterName": "Sorcerer",
@@ -25299,6 +25395,18 @@
   "spellName": "Roar of Ursoc",
   "spellSource": "WoW",
   "casterName": "Druid",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Rune Strike",
+  "spellSource": "WoW",
+  "casterName": "Death Knight",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Scourge Strike",
+  "spellSource": "WoW",
+  "casterName": "Death Knight",
   "casterSource": "WoW"
  },
  {
@@ -25338,6 +25446,24 @@
   "casterSource": "WoW"
  },
  {
+  "spellName": "Sigil of Chains",
+  "spellSource": "WoW",
+  "casterName": "Demon Hunter",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Sigil of Flame",
+  "spellSource": "WoW",
+  "casterName": "Demon Hunter",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Soul Reap",
+  "spellSource": "WoW",
+  "casterName": "Demon Hunter",
+  "casterSource": "WoW"
+ },
+ {
   "spellName": "Starfall",
   "spellSource": "WoW",
   "casterName": "Druid",
@@ -25347,6 +25473,12 @@
   "spellName": "Starfall",
   "spellSource": "WoW",
   "casterName": "Druid",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Throw Glaive",
+  "spellSource": "WoW",
+  "casterName": "Demon Hunter",
   "casterSource": "WoW"
  },
  {
@@ -25395,6 +25527,12 @@
   "spellName": "Upheaval",
   "spellSource": "WoW",
   "casterName": "Evoker",
+  "casterSource": "WoW"
+ },
+ {
+  "spellName": "Vampiric Blood",
+  "spellSource": "WoW",
+  "casterName": "Death Knight",
   "casterSource": "WoW"
  },
  {

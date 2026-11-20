@@ -9100,16 +9100,6 @@
   ]
  },
  {
-  "name": "Shaman Subclass",
-  "source": "WoW",
-  "className": "Shaman",
-  "classSource": "WoW",
-  "level": 3,
-  "entries": [
-   "You gain a Shaman subclass of your choice. A subclass is a specialization that grants you features at certain Shaman levels. For the rest of your career, you gain each of your subclass's features that are of your Shaman level or lower."
-  ]
- },
- {
   "name": "Sharp Mind",
   "source": "TCE",
   "page": 142,
@@ -10332,7 +10322,7 @@
   "classSource": "WoW",
   "level": 1,
   "entries": [
-   "You have learned to channel the magical essence of nature to cast spells. See {@book chapter 7|XPHB|7} for the rules on spellcasting. The information below details how you use those rules with Ranger spells, which appear in the {@filter Ranger spell list|spells|class=Ranger} later in the class's description.",
+   "You have learned to channel the magical essence of nature to cast spells. See {@book chapter 7|XPHB|7} for the rules on spellcasting. The information below details how you use those rules with Ranger spells, which appear in the {@filter Ranger spell list|spells|class=Demon Hunter} later in the class's description.",
    {
     "type": "entries",
     "entries": [
@@ -10347,7 +10337,7 @@
       "type": "entries",
       "name": "Prepared Spells of Level 1+",
       "entries": [
-       "You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two {@filter level 1 Ranger spells|spells|class=Ranger|level=1}. {@spell Cure Wounds|XPHB} and {@spell Ensnaring Strike|XPHB} are recommended.",
+       "You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two {@filter level 1 Ranger spells|spells|class=Demon Hunter|level=1}. {@spell Cure Wounds|XPHB} and {@spell Ensnaring Strike|XPHB} are recommended.",
        "The number of spells on your list increases as you gain Ranger levels, as shown in the Prepared Spells column of the Ranger Features table. Whenever that number increases, choose additional Ranger spells until the number of spells on your list matches the number in the Ranger Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Ranger, your list of prepared spells can include six Ranger spells of level 1 or 2 in any combination.",
        "If another Ranger feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Ranger spells for you."
       ]
@@ -11797,9 +11787,10 @@
  {
   "name": "Totems",
   "source": "WoW",
-  "className": "Shaman",
-  "classSource": "WoW",
+  "className": "Barbarian",
+  "classSource": "XPHB",
   "level": 3,
+  "isClassFeatureVariant": true,
   "entries": [
    "This feature replaces the Barbarian's {@classFeature Primal Knowledge|Barbarian|XPHB|3|XPHB} feature.",
    "You can coalesce elemental spirits into a totem that aids you and your allies. As a {@variantrule Bonus Action|XPHB}, you can plant one of the totems below into the ground in an unoccupied space you can see within 10 feet of yourself.",
