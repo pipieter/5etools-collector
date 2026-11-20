@@ -1,5 +1,58 @@
 [
  {
+  "name": "+1 Barron's Blunderbuss",
+  "type": "GV|XDMG",
+  "requires": [
+   {
+    "name": "Musket",
+    "source": "XPHB"
+   },
+   {
+    "name": "Hunting Rifle",
+    "source": "XDMG"
+   }
+  ],
+  "inherits": {
+   "namePrefix": "+1 Barron's ",
+   "source": "PartneredDDDoD",
+   "rarity": "rare",
+   "reqAttune": true,
+   "bonusWeapon": "+1",
+   "entries": [
+    "{@b Appearance:} {@i A metal trumpet-like gun with a wide nozzle and bespoke wooden handle.}",
+    "{@b Rules:} This weapon can be loaded with any type of ammunition, or alternatively pebbles, scrap, or any cluster of small items you desire. However, its range becomes 60 ft. if you do so. Additionally, a DM can alter the damage type of this weapon to match what it is loaded with (i.e. putting a large rock in could change the damage to Bludgeoning, or icicles could change it to Cold damage)."
+   ]
+  },
+  "hasFluffImages": true
+ },
+ {
+  "name": "+1 Ceratopsian Plate",
+  "type": "GV|XDMG",
+  "requires": [
+   {
+    "name": "Plate Armor",
+    "source": "XPHB"
+   },
+   {
+    "name": "Half Plate Armor",
+    "source": "XPHB"
+   }
+  ],
+  "inherits": {
+   "namePrefix": "+1 Ceratopsian ",
+   "source": "PartneredDDDoD",
+   "rarity": "rare",
+   "reqAttune": true,
+   "bonusAc": "+1",
+   "entries": [
+    "{@b Appearance:} {@i Heavy sculpted armour with a horned helm and shoulders in the visage of a large ceratopsian.}",
+    "{@b Rules:} +1 or +2 armour. If you move at least 20 ft. in a straight line towards a creature and end your movement within 5 ft. of it, you may use your {@variantrule Bonus Action|XPHB} to strike the creature, dealing Bludgeoning damage equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} and Piercing damage equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} to it.",
+    "You and the creature must then make contested Strength checks. If you win, the struck creature is also knocked {@condition Prone|XPHB}."
+   ]
+  },
+  "hasFluffImages": true
+ },
+ {
   "name": "+1 Dragon Edge Weapon",
   "type": "GV|XDMG",
   "requires": [
@@ -72,6 +125,63 @@
   }
  },
  {
+  "name": "+1 Raptor Feather Leathers",
+  "type": "GV|XDMG",
+  "requires": [
+   {
+    "name": "Leather Armor",
+    "source": "XPHB"
+   },
+   {
+    "name": "Studded Leather Armor",
+    "source": "XPHB"
+   }
+  ],
+  "inherits": {
+   "namePrefix": "+1 Raptor Feather ",
+   "source": "PartneredDDDoD",
+   "rarity": "rare",
+   "reqAttune": true,
+   "bonusAc": "+1",
+   "entries": [
+    "{@b Appearance:} {@i A thick coat of feathers lined with leather on the inside.}",
+    "{@b Rules:} +1 or +2 armour. While attuned to this item, you have {@variantrule Resistance|XPHB} to falling damage. When taking falling damage, you may use your {@variantrule Reaction|XPHB} to instead gain {@variantrule Immunity|XPHB} to falling damage until the end of your turn."
+   ]
+  },
+  "hasFluffImages": true
+ },
+ {
+  "name": "+1 Razortooth Sword",
+  "type": "GV|XDMG",
+  "requires": [
+   {
+    "sword": true
+   }
+  ],
+  "inherits": {
+   "namePrefix": "+1 Razortooth ",
+   "source": "PartneredDDDoD",
+   "rarity": "rare",
+   "reqAttune": true,
+   "bonusWeaponAttack": "+1",
+   "entries": [
+    "{@b Appearance:} {@i This gnarled sword is covered in sharp teeth embedded into its cutting edge.}",
+    "{@b Rules:} A creature hit by an attack with this weapon gains one level of \"Bleed Effect\", as described below. The bonus conveyed by +1/+2/+3 versions of this weapon do not increase the damage this weapon deals when hitting, but instead add additional levels of \"Bleed Effect\" equal to the weapon's bonus (i.e. a +1 sword applies a total of 2 levels of Bleed Effect per hit).",
+    "{@b Bleed Effect (cumulative):}",
+    {
+     "type": "list",
+     "items": [
+      "A creature with this affect suffers 1 Slashing damage at the start of its turn in combat for each level of bleed effect it has.",
+      "Outside of combat, a creature suffers 1 Slashing damage every minute for each level of bleed effect it has, so long as it is not taking a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+      "One level of bleed effect is removed per hit point of healing received.",
+      "All bleed effects can be simultaneously removed by completing a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, being restored to full health, or by a successful {@skill Medicine|XPHB} check (DC 6 + level of bleed effect, to a maximum of 15)."
+     ]
+    }
+   ]
+  },
+  "hasFluffImages": true
+ },
+ {
   "name": "+1 Tools of the Master",
   "type": "AT|XPHB",
   "requires": [
@@ -112,6 +222,59 @@
    ]
   },
   "hasFluff": true
+ },
+ {
+  "name": "+2 Barron's Blunderbuss",
+  "type": "GV|XDMG",
+  "requires": [
+   {
+    "name": "Musket",
+    "source": "XPHB"
+   },
+   {
+    "name": "Hunting Rifle",
+    "source": "XDMG"
+   }
+  ],
+  "inherits": {
+   "namePrefix": "+2 Barron's ",
+   "source": "PartneredDDDoD",
+   "rarity": "very rare",
+   "reqAttune": true,
+   "bonusWeapon": "+2",
+   "entries": [
+    "{@b Appearance:} {@i A metal trumpet-like gun with a wide nozzle and bespoke wooden handle.}",
+    "{@b Rules:} This weapon can be loaded with any type of ammunition, or alternatively pebbles, scrap, or any cluster of small items you desire. However, its range becomes 60 ft. if you do so. Additionally, a DM can alter the damage type of this weapon to match what it is loaded with (i.e. putting a large rock in could change the damage to Bludgeoning, or icicles could change it to Cold damage)."
+   ]
+  },
+  "hasFluffImages": true
+ },
+ {
+  "name": "+2 Ceratopsian Plate",
+  "type": "GV|XDMG",
+  "requires": [
+   {
+    "name": "Plate Armor",
+    "source": "XPHB"
+   },
+   {
+    "name": "Half Plate Armor",
+    "source": "XPHB"
+   }
+  ],
+  "inherits": {
+   "namePrefix": "+2 Ceratopsian ",
+   "source": "PartneredDDDoD",
+   "rarity": "very rare",
+   "reqAttune": true,
+   "bonusAc": "+2",
+   "entries": [
+    "{@b Appearance:} {@i Heavy sculpted armour with a horned helm and shoulders in the visage of a large ceratopsian.}",
+    "{@b Rules:} +1 or +2 armour. If you move at least 20 ft. in a straight line towards a creature and end your movement within 5 ft. of it, you may use your {@variantrule Bonus Action|XPHB} to strike the creature, dealing Bludgeoning damage equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} and Piercing damage equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} to it.",
+    "You and the creature must then make contested Strength checks. If you win, the struck creature is also knocked {@condition Prone|XPHB}."
+   ]
+  },
+  "hasFluffImages": true
  },
  {
   "name": "+2 Dragon Edge Weapon",
@@ -186,6 +349,63 @@
   }
  },
  {
+  "name": "+2 Raptor Feather Leathers",
+  "type": "GV|XDMG",
+  "requires": [
+   {
+    "name": "Leather Armor",
+    "source": "XPHB"
+   },
+   {
+    "name": "Studded Leather Armor",
+    "source": "XPHB"
+   }
+  ],
+  "inherits": {
+   "namePrefix": "+2 Raptor Feather ",
+   "source": "PartneredDDDoD",
+   "rarity": "very rare",
+   "reqAttune": true,
+   "bonusAc": "+2",
+   "entries": [
+    "{@b Appearance:} {@i A thick coat of feathers lined with leather on the inside.}",
+    "{@b Rules:} +1 or +2 armour. While attuned to this item, you have {@variantrule Resistance|XPHB} to falling damage. When taking falling damage, you may use your {@variantrule Reaction|XPHB} to instead gain {@variantrule Immunity|XPHB} to falling damage until the end of your turn."
+   ]
+  },
+  "hasFluffImages": true
+ },
+ {
+  "name": "+2 Razortooth Sword",
+  "type": "GV|XDMG",
+  "requires": [
+   {
+    "sword": true
+   }
+  ],
+  "inherits": {
+   "namePrefix": "+2 Razortooth ",
+   "source": "PartneredDDDoD",
+   "rarity": "very rare",
+   "reqAttune": true,
+   "bonusWeaponAttack": "+2",
+   "entries": [
+    "{@b Appearance:} {@i This gnarled sword is covered in sharp teeth embedded into its cutting edge.}",
+    "{@b Rules:} A creature hit by an attack with this weapon gains one level of \"Bleed Effect\", as described below. The bonus conveyed by +1/+2/+3 versions of this weapon do not increase the damage this weapon deals when hitting, but instead add additional levels of \"Bleed Effect\" equal to the weapon's bonus (i.e. a +1 sword applies a total of 2 levels of Bleed Effect per hit).",
+    "{@b Bleed Effect (cumulative):}",
+    {
+     "type": "list",
+     "items": [
+      "A creature with this affect suffers 1 Slashing damage at the start of its turn in combat for each level of bleed effect it has.",
+      "Outside of combat, a creature suffers 1 Slashing damage every minute for each level of bleed effect it has, so long as it is not taking a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+      "One level of bleed effect is removed per hit point of healing received.",
+      "All bleed effects can be simultaneously removed by completing a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, being restored to full health, or by a successful {@skill Medicine|XPHB} check (DC 6 + level of bleed effect, to a maximum of 15)."
+     ]
+    }
+   ]
+  },
+  "hasFluffImages": true
+ },
+ {
   "name": "+2 Tools of the Master",
   "type": "AT|XPHB",
   "requires": [
@@ -228,6 +448,32 @@
   "hasFluff": true
  },
  {
+  "name": "+3 Barron's Blunderbuss",
+  "type": "GV|XDMG",
+  "requires": [
+   {
+    "name": "Musket",
+    "source": "XPHB"
+   },
+   {
+    "name": "Hunting Rifle",
+    "source": "XDMG"
+   }
+  ],
+  "inherits": {
+   "namePrefix": "+3 Barron's ",
+   "source": "PartneredDDDoD",
+   "rarity": "legendary",
+   "reqAttune": true,
+   "bonusWeapon": "+3",
+   "entries": [
+    "{@b Appearance:} {@i A metal trumpet-like gun with a wide nozzle and bespoke wooden handle.}",
+    "{@b Rules:} This weapon can be loaded with any type of ammunition, or alternatively pebbles, scrap, or any cluster of small items you desire. However, its range becomes 60 ft. if you do so. Additionally, a DM can alter the damage type of this weapon to match what it is loaded with (i.e. putting a large rock in could change the damage to Bludgeoning, or icicles could change it to Cold damage)."
+   ]
+  },
+  "hasFluffImages": true
+ },
+ {
   "name": "+3 Dragonkin Weapon",
   "type": "GV|XDMG",
   "requires": [
@@ -262,6 +508,37 @@
     ]
    }
   }
+ },
+ {
+  "name": "+3 Razortooth Sword",
+  "type": "GV|XDMG",
+  "requires": [
+   {
+    "sword": true
+   }
+  ],
+  "inherits": {
+   "namePrefix": "+3 Razortooth ",
+   "source": "PartneredDDDoD",
+   "rarity": "legendary",
+   "reqAttune": true,
+   "bonusWeaponAttack": "+3",
+   "entries": [
+    "{@b Appearance:} {@i This gnarled sword is covered in sharp teeth embedded into its cutting edge.}",
+    "{@b Rules:} A creature hit by an attack with this weapon gains one level of \"Bleed Effect\", as described below. The bonus conveyed by +1/+2/+3 versions of this weapon do not increase the damage this weapon deals when hitting, but instead add additional levels of \"Bleed Effect\" equal to the weapon's bonus (i.e. a +1 sword applies a total of 2 levels of Bleed Effect per hit).",
+    "{@b Bleed Effect (cumulative):}",
+    {
+     "type": "list",
+     "items": [
+      "A creature with this affect suffers 1 Slashing damage at the start of its turn in combat for each level of bleed effect it has.",
+      "Outside of combat, a creature suffers 1 Slashing damage every minute for each level of bleed effect it has, so long as it is not taking a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+      "One level of bleed effect is removed per hit point of healing received.",
+      "All bleed effects can be simultaneously removed by completing a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, being restored to full health, or by a successful {@skill Medicine|XPHB} check (DC 6 + level of bleed effect, to a maximum of 15)."
+     ]
+    }
+   ]
+  },
+  "hasFluffImages": true
  },
  {
   "name": "+3 Tools of the Master",
@@ -574,6 +851,30 @@
     "The weapon has 4 charges. If you hit a creature of the chosen type with the weapon, you can expend 1 charge and inflict an additional {@damage 2d6} damage of the weapon's type with the attack. The weapon regains {@dice 1d4} expended charges daily at dawn."
    ]
   }
+ },
+ {
+  "name": "Barron's Blunderbuss",
+  "type": "GV|XDMG",
+  "requires": [
+   {
+    "name": "Musket",
+    "source": "XPHB"
+   },
+   {
+    "name": "Hunting Rifle",
+    "source": "XDMG"
+   }
+  ],
+  "inherits": {
+   "namePrefix": "Barron's ",
+   "source": "PartneredDDDoD",
+   "rarity": "uncommon",
+   "entries": [
+    "{@b Appearance:} {@i A metal trumpet-like gun with a wide nozzle and bespoke wooden handle.}",
+    "{@b Rules:} This weapon can be loaded with any type of ammunition, or alternatively pebbles, scrap, or any cluster of small items you desire. However, its range becomes 60 ft. if you do so. Additionally, a DM can alter the damage type of this weapon to match what it is loaded with (i.e. putting a large rock in could change the damage to Bludgeoning, or icicles could change it to Cold damage)."
+   ]
+  },
+  "hasFluffImages": true
  },
  {
   "name": "Battlement Bow",
@@ -2722,6 +3023,33 @@
      }
     ]
    }
+  }
+ },
+ {
+  "name": "Geological Hammer",
+  "type": "GV|XDMG",
+  "requires": [
+   {
+    "name": "Light Hammer",
+    "source": "XPHB"
+   },
+   {
+    "name": "Warhammer",
+    "source": "XPHB"
+   },
+   {
+    "name": "Mace",
+    "source": "XPHB"
+   }
+  ],
+  "inherits": {
+   "namePrefix": "Geological ",
+   "source": "PartneredDDDoD",
+   "rarity": "common",
+   "entries": [
+    "{@b Appearance:} {@i This hammer has a broad flat head, and the back of the hammer is pointed into a triangular edge.}",
+    "{@b Rules:} In addition to its use as a weapon, this item can be used as a tool to efficiently extract resources from rock."
+   ]
   }
  },
  {
@@ -5726,6 +6054,44 @@
   }
  },
  {
+  "name": "Protoceratops Quillbow",
+  "type": "GV|XDMG",
+  "requires": [
+   {
+    "crossbow": true
+   }
+  ],
+  "inherits": {
+   "namePrefix": "Protoceratops ",
+   "source": "PartneredDDDoD",
+   "rarity": "uncommon",
+   "entries": [
+    "{@b Appearance:} {@i This wooden crossbow's end is carved into the beaked-mouth of a Protoceratops and its frill forms the crossbow's sights.}",
+    "{@b Rules:} This weapon's bolts detonate with tiny spines on impact. When a creature is hit by an attack made with this weapon, {@damage 1d4} Piercing damage is inflicted to each creature within 5 ft. of the hit target."
+   ]
+  }
+ },
+ {
+  "name": "Pterosaur Wingbow",
+  "type": "GV|XDMG",
+  "requires": [
+   {
+    "bow": true
+   }
+  ],
+  "inherits": {
+   "namePrefix": "Pterosaur Wing ",
+   "source": "PartneredDDDoD",
+   "rarity": "very rare",
+   "reqAttune": true,
+   "bonusWeapon": "+2",
+   "entries": [
+    "{@b Appearance:} {@i This slender bow is made from pterosaur bones and stringed with a fine muscle tendon. The tendon can magically extend into a full wing membrane, connecting and wrapping the bones to form a gliding wing.}",
+    "{@b Rules:} +2 weapon. As a {@variantrule Bonus Action|XPHB}, the bow can be unfurled into a gliding wing, allowing the wielder to descend safely from any height, so long as they are not {@condition Incapacitated|XPHB}. Additionally, they may glide 2 ft. in any horizontal direction for every 1 ft. they descend, without using any movement. When descending in this manner, you do not take falling damage."
+   ]
+  }
+ },
+ {
   "name": "Punchdrunk Punters",
   "type": "GV|XDMG",
   "requires": [
@@ -5803,6 +6169,35 @@
     "When you enter a Rage, you can make a melee attack with this weapon as part of the {@variantrule Bonus Action|XPHB} used to enter the Rage. After using this property, you can't use it again until you complete a {@variantrule Short Rest|XPHB}."
    ]
   }
+ },
+ {
+  "name": "Razortooth Sword",
+  "type": "GV|XDMG",
+  "requires": [
+   {
+    "sword": true
+   }
+  ],
+  "inherits": {
+   "namePrefix": "Razortooth ",
+   "source": "PartneredDDDoD",
+   "rarity": "uncommon",
+   "entries": [
+    "{@b Appearance:} {@i This gnarled sword is covered in sharp teeth embedded into its cutting edge.}",
+    "{@b Rules:} A creature hit by an attack with this weapon gains one level of \"Bleed Effect\", as described below. The bonus conveyed by +1/+2/+3 versions of this weapon do not increase the damage this weapon deals when hitting, but instead add additional levels of \"Bleed Effect\" equal to the weapon's bonus (i.e. a +1 sword applies a total of 2 levels of Bleed Effect per hit).",
+    "{@b Bleed Effect (cumulative):}",
+    {
+     "type": "list",
+     "items": [
+      "A creature with this affect suffers 1 Slashing damage at the start of its turn in combat for each level of bleed effect it has.",
+      "Outside of combat, a creature suffers 1 Slashing damage every minute for each level of bleed effect it has, so long as it is not taking a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+      "One level of bleed effect is removed per hit point of healing received.",
+      "All bleed effects can be simultaneously removed by completing a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, being restored to full health, or by a successful {@skill Medicine|XPHB} check (DC 6 + level of bleed effect, to a maximum of 15)."
+     ]
+    }
+   ]
+  },
+  "hasFluffImages": true
  },
  {
   "name": "Red-Feather Bow",
@@ -6192,6 +6587,31 @@
    "bonusAc": "+1",
    "entries": [
     "While wearing this armor, you gain a {=bonusAc} bonus to {@variantrule Armor Class|XPHB}. Whenever you regain {@variantrule Hit Points|XPHB}, the armor takes on a reddish tint, and this bonus increases to +2 until the end of your next turn."
+   ]
+  }
+ },
+ {
+  "name": "Sauropod Femur",
+  "type": "GV|XDMG",
+  "requires": [
+   {
+    "name": "Maul",
+    "source": "XPHB"
+   },
+   {
+    "name": "Mace",
+    "source": "XPHB"
+   }
+  ],
+  "inherits": {
+   "namePrefix": "Sauropod Femur ",
+   "source": "PartneredDDDoD",
+   "rarity": "common",
+   "weightMult": 0.5,
+   "weightExpression": "[[baseItem.weight]] * 0.5",
+   "entries": [
+    "{@b Appearance:} {@i This bony mace is topped with a large bulbous head. Despite its size, it is remarkably light.}",
+    "{@b Rules:} This weapon weighs half as much as it usually would, but is just as effective."
    ]
   }
  },
@@ -7748,6 +8168,29 @@
    }
   },
   "hasFluffImages": true
+ },
+ {
+  "name": "The Taming Rod",
+  "type": "GV|XDMG",
+  "requires": [
+   {
+    "polearm": true
+   },
+   {
+    "spear": true
+   }
+  ],
+  "inherits": {
+   "namePrefix": "Taming Rod ",
+   "source": "PartneredDDDoD",
+   "rarity": "uncommon",
+   "reqAttune": true,
+   "bonusWeapon": "+1",
+   "entries": [
+    "{@b Appearance:} {@i A long pole with a bladed steel tip and a hooped ring of rope dangling from the end. A line of rope then runs parallel to the shaft and can be pulled to open or close the hoop.}",
+    "{@b Rules:} +1 weapon. While attuned to this weapon, you may attempt to tame an animal an additional time per day (either the same animal or a different one, see {@book Mesozoic Reptiles in Your Worlds|PartneredDDDoD|9|Taming and Domestication})."
+   ]
+  }
  },
  {
   "name": "Thornpiercer",

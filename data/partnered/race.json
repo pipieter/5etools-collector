@@ -205,6 +205,91 @@
   "hasFluffImages": true
  },
  {
+  "name": "Ankylier",
+  "source": "PartneredDDDoD",
+  "edition": "one",
+  "creatureTypes": [
+   "humanoid"
+  ],
+  "size": [
+   "M"
+  ],
+  "speed": 25,
+  "traitTags": [
+   "Natural Armor",
+   "Natural Weapon",
+   "Powerful Build"
+  ],
+  "languageProficiencies": [
+   {
+    "other": true
+   }
+  ],
+  "toolProficiencies": [
+   {
+    "smith's tools": true
+   }
+  ],
+  "armorProficiencies": [
+   {
+    "medium": true
+   }
+  ],
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Creature Type",
+    "entries": [
+     "You are a humanoid. You are considered a dinosaur for any prerequisite or effect that requires you to be a dinosaur."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Lifespan",
+    "entries": [
+     "Ankylier live for between 110 and 130 years. They enter Ankylier society at about 12 years old, and fully mature at around 25 years old."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Musclebound",
+    "entries": [
+     "You count as a Large creature for determining your carrying capacity and the weight you can manoeuvre."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Clubbed Tail",
+    "entries": [
+     "When you attack, you may replace any of your attacks with a tail attack. This is a Melee {@variantrule Attack Roll|XPHB} with a reach of 5 ft. that you are proficient/trained with and uses your Strength modifier to hit, dealing {@damage 1d6} + Strength modifier Bludgeoning damage. From level 10 onwards, you can add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to the damage."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Metalworker",
+    "entries": [
+     "You have proficiency with {@item Smith's Tools|XPHB} and training with Medium Armor. You can create a single mundane shield, simple weapon, martial weapon, or medium armor over the course of a {@variantrule Long Rest|XPHB}, provided you have access to materials and a forge. If you use this time to create an item in this manner, you only gain the benefits of a {@variantrule Short Rest|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Osteoderms",
+    "entries": [
+     "You have thick, bony osteoderms in your skin. You gain +3 to your AC, but cannot add your Dexterity modifier to your AC. Alternatively, you may have an unarmoured AC of 17, but cannot add your Dexterity modifier to your AC. We suggest agreeing which of these you use with your DM."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Bonus Languages",
+    "entries": [
+     "You know {@language Archosauric|PartneredDDDoD} (species don't usually provide languages, but we feel that it is fitting here)."
+    ]
+   }
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Arisen",
   "source": "GrimHollowPG24",
   "page": 24,
@@ -1729,6 +1814,96 @@
     "name": "Languages",
     "entries": [
      "You can speak, read, and write Birdfolk, and speak Cervan (Cervan has no written component)."
+    ]
+   }
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Children of Seth",
+  "source": "PartneredDDDoD",
+  "edition": "one",
+  "creatureTypes": [
+   "humanoid"
+  ],
+  "size": [
+   "M"
+  ],
+  "speed": {
+   "walk": 30,
+   "fly": 30,
+   "alternate": {
+    "fly": [
+     {
+      "number": 20,
+      "condition": "while wearing Medium or Heavy Armor"
+     }
+    ]
+   }
+  },
+  "traitTags": [
+   "Skill Proficiency"
+  ],
+  "skillProficiencies": [
+   {
+    "athletics": true
+   }
+  ],
+  "languageProficiencies": [
+   {
+    "other": true,
+    "any": 1
+   }
+  ],
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Creature Type",
+    "entries": [
+     "You are a humanoid. You are considered a dinosaur and pterosaur for any prerequisite or effect that requires you to be a dinosaur or pterosaur."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Lifespan",
+    "entries": [
+     "Children of Seth live for between 300 and 400 years. They mature at around 50 years old."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Flight",
+    "entries": [
+     "You are capable of flight and have a fly speed of 30 ft. This is reduced to 20 ft. if you are wearing Medium or Heavy Armor."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Global Migrators",
+    "entries": [
+     "You have proficiency in {@skill Athletics|XPHB}. So long as you can see the sky, you always know which way North is."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Verbal Culture",
+    "entries": [
+     "The Children of Seth have excellent memories and can recall details from years ago with relative accuracy. You have proficiency in two of the following skills: {@skill Arcana|XPHB}, {@skill Religion|XPHB}, {@skill History|XPHB}. Alternatively, you may have expertise in one of them instead. You remember every person you have interacted with, including their name if you learnt it."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Well-Travelled",
+    "entries": [
+     "You know the value of any trade goods at a glance, so long as you have come across them before."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Bonus Languages",
+    "entries": [
+     "You know {@language Archosauric|PartneredDDDoD} and one additional language of your choice (species don't usually provide languages, but we feel that it is fitting here)."
     ]
    }
   ],
@@ -7807,6 +7982,115 @@
   "hasFluffImages": true
  },
  {
+  "name": "Jeholrak",
+  "source": "PartneredDDDoD",
+  "edition": "one",
+  "creatureTypes": [
+   "humanoid"
+  ],
+  "size": [
+   "S"
+  ],
+  "speed": 30,
+  "languageProficiencies": [
+   {
+    "other": true
+   }
+  ],
+  "additionalSpells": [
+   {
+    "innate": {
+     "1": {
+      "daily": {
+       "1": [
+        "charm person|xphb"
+       ],
+       "pb": [
+        "animal friendship|xphb"
+       ]
+      }
+     },
+     "5": {
+      "daily": {
+       "1": [
+        "suggestion|xphb"
+       ]
+      }
+     }
+    },
+    "ability": {
+     "choose": [
+      "cha",
+      "con",
+      "wis"
+     ]
+    }
+   }
+  ],
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Creature Type",
+    "entries": [
+     "You are a humanoid. You are considered a dinosaur for any prerequisite or effect that requires you to be a dinosaur."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Lifespan",
+    "entries": [
+     "Jeholrak typically live up to 50 years old and mature at 16-17 years old. Although this is largely a result of the competitive nature of their society. If isolated, an individual Jeholrak could live to their late 70s or early 80s."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Power of Persuasion",
+    "entries": [
+     "To the untrained eye, it appears that Jeholrak are blessed with impeccable persuasive skills. The reality is that they are able to produce hypnotic pheromones that can subdue those around them.",
+     "When you reach certain levels, you can manifest this trait in the form of the spells listed below. You can cast one of these spells once (at the spell's minimum level) without using a spell slot or requiring components, then require a {@variantrule Long Rest|XPHB} before you may do so again. When you cast this spell, the only indication that something is happening is a faint sweet smell. Your spellcasting ability for these spells is Charisma, Constitution, or Wisdom (your choice) and these spells are ineffective against other Jeholrak.",
+     {
+      "type": "list",
+      "items": [
+       "Level 1: {@spell Charm Person|XPHB}",
+       "Level 5: {@spell Suggestion|XPHB}"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Cutthroat Society",
+    "entries": [
+     "The Jeholrak of Mount Karao'kr can be dastardly in their backstabbing (sometimes literally) to achieve their goals.",
+     "You have {@variantrule Advantage|XPHB} on {@skill Sleight of Hand|XPHB} checks. Additionally, as a {@variantrule Bonus Action|XPHB}, you may hide a small one-handed weapon or item on your person that can only be detected by a successful {@skill Investigation|XPHB} check, or by any magical means. The DC for this check is equal to 8 + your Dexterity modifier + your {@variantrule Proficiency|XPHB|Proficiency Bonus}"
+    ]
+   },
+   {
+    "type": "inset",
+    "name": "Designers' Note",
+    "entries": [
+     "Cutthroat Society is designed for wands, daggers, hand axes, hand clubs, and other small items. It cannot be used to hide a short sword, for example."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Subdue Beast",
+    "entries": [
+     "You have {@variantrule Advantage|XPHB} on {@skill Animal Handling|XPHB} checks and can cast the spell {@spell Animal Friendship|XPHB} a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} without using a spell slot. Your spellcasting ability for this spells is Charisma, Constitution, or Wisdom (your choice), and you regain all expended uses when you complete a {@variantrule Long Rest|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Bonus Languages",
+    "entries": [
+     "You know {@language Archosauric|PartneredDDDoD} (species don't usually provide languages, but we feel that it is fitting here)."
+    ]
+   }
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
   "name": "Jerbeen",
   "source": "HumblewoodCampaignSetting",
   "page": 27,
@@ -8120,6 +8404,89 @@
        "Selecting the traditional traits noted for your heritage is quick and easy, and creates a character who feels like a solid archetype within your chosen heritage. But you can swap any of those suggested traditional heritage traits for {@filter any of the traits provided|optionalfeatures|source=GrimHollowPG24|feature type=HT}, building your character around any eight traits. This can include taking the traditional traits presented for any other heritage, taking one of your traditional traits again to gain its secondary effect, or taking any of the many traits that aren't part of any heritage's default presentation."
       ]
      }
+    ]
+   }
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
+ },
+ {
+  "name": "Limukin",
+  "source": "PartneredDDDoD",
+  "edition": "one",
+  "creatureTypes": [
+   "humanoid"
+  ],
+  "size": [
+   "S",
+   "M"
+  ],
+  "speed": 35,
+  "darkvision": 60,
+  "languageProficiencies": [
+   {
+    "other": true
+   }
+  ],
+  "resist": [
+   "poison"
+  ],
+  "sizeEntry": {
+   "type": "item",
+   "name": "Size:",
+   "entries": [
+    "Small or Medium"
+   ]
+  },
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Creature Type",
+    "entries": [
+     "You are a humanoid. You are considered a dinosaur for any prerequisite or effect that requires you to be a dinosaur."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Lifespan",
+    "entries": [
+     "Limukin have short lifespans and mature quickly. They reach adult-size at between 6 and 8 years old, although are not fully mature until they reach 9 or 10 years old. They typically live until their early 20s. The oldest elders will be in their late 20s to early 30s."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Hunter-Gatherer",
+    "entries": [
+     "You have {@variantrule Advantage|XPHB} on {@skill Stealth|XPHB} and {@skill Survival|XPHB} checks while in a forest, wood, jungle, or otherwise heavily-vegetated area. If you are familiar with the vegetated habitat you are in, you can forage twice as much food as you normally would be able to (this trait stacks with other similar abilities)."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Envenomed Weapons",
+    "entries": [
+     "As an {@variantrule Action|XPHB}, you can coat your weapon (or up to 5 ammunition) with a powerful venom you secrete, envenoming it. When a creature is damaged by an envenomed weapon or ammunition, it must make a Constitution {@variantrule Saving Throw|XPHB}, taking {@damage 2d4} Poison damage and gaining the {@condition Poisoned|XPHB} condition for 1 minute on a failed save. At level 5, this Poison damage is increased to {@damage 3d4}. The DC for this save is equal to 10 + your {@variantrule Proficiency|XPHB|Proficiency Bonus}.",
+     "The Poison lasts for 1 minute on the weapon or ammunition, as it loses its potency after it dries. You can use this trait once, then require a {@variantrule Long Rest|XPHB} before you can do so again."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Watcher's Eyes",
+    "entries": [
+     "You have {@sense Darkvision|XPHB} 60 ft."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Innate Toxicology",
+    "entries": [
+     "You have {@variantrule Resistance|XPHB} to Poison damage and have {@variantrule Advantage|XPHB} on any check or {@variantrule Saving Throw|XPHB} to avoid or end the {@condition Poisoned|XPHB} condition."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Bonus Languages",
+    "entries": [
+     "You know {@language Archosauric|PartneredDDDoD} (species don't usually provide languages, but we feel that it is fitting here)."
     ]
    }
   ],
@@ -8977,6 +9344,103 @@
     ]
    }
   ]
+ },
+ {
+  "name": "Manyhorn",
+  "source": "PartneredDDDoD",
+  "edition": "one",
+  "creatureTypes": [
+   "humanoid"
+  ],
+  "size": [
+   "S",
+   "M"
+  ],
+  "speed": 30,
+  "traitTags": [
+   "Natural Weapon",
+   "Powerful Build"
+  ],
+  "skillProficiencies": [
+   {
+    "intimidation": true
+   }
+  ],
+  "languageProficiencies": [
+   {
+    "other": true
+   }
+  ],
+  "sizeEntry": {
+   "type": "item",
+   "name": "Size:",
+   "entries": [
+    "Small or Medium"
+   ]
+  },
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Creature Type",
+    "entries": [
+     "You are a humanoid. You are considered a dinosaur for any prerequisite or effect that requires you to be a dinosaur."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Lifespan",
+    "entries": [
+     "Manyhorn live for between 40 and 120 years, and mature between 15 and 32 years old, depending on their specific species, with larger species generally living longer."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Musclebound",
+    "entries": [
+     "You count as one size category larger than your current size for determining your carrying capacity and the weight you can manoeuvre."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Guild Connections",
+    "entries": [
+     "When entering a new city, town, or other major settlement, roll a {@dice D4}. You gain the associated benefit below while you are there:",
+     {
+      "type": "list",
+      "style": "list-decimal",
+      "items": [
+       "You can find simple overnight accommodation for yourself and your party for free.",
+       "Trader's prices are 10% cheaper for you and your party.",
+       "Town guards will be more lenient with you and your party.",
+       "One NPC will share uncommon information with you and your party."
+      ]
+     }
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Head Crest",
+    "entries": [
+     "You are proficient in {@skill Intimidation|XPHB} checks. You can use your {@variantrule Bonus Action|XPHB} to flood your crest with blood, causing it to display bright pinks and reds. If you do, you gain {@variantrule Advantage|XPHB} on Intimidation checks for the next minute."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Horned Repose",
+    "entries": [
+     "If an enemy fails to hit you with a melee attack while within 5 ft. of you, you may use your {@variantrule Reaction|XPHB} to make a single unarmed attack back at them with your horns. You are proficient/trained with your horns and they have the {@itemProperty F|XPHB|Finesse} property. They deal {@damage 1d6} + Strength/Dexterity modifier Piercing damage. From level 10 onwards, you can add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to the damage as well."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Bonus Languages",
+    "entries": [
+     "You know {@language Archosauric|PartneredDDDoD} (species don't usually provide languages, but we feel that it is fitting here)."
+    ]
+   }
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
  },
  {
   "name": "Mapach",
@@ -10393,6 +10857,88 @@
   "hasFluff": true,
   "hasFluffImages": true,
   "foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Foundry/Races/Plagueborn.webp"
+ },
+ {
+  "name": "Pluvenn",
+  "source": "PartneredDDDoD",
+  "edition": "one",
+  "creatureTypes": [
+   "humanoid"
+  ],
+  "size": [
+   "S",
+   "M"
+  ],
+  "speed": 30,
+  "darkvision": 60,
+  "traitTags": [
+   "Natural Weapon"
+  ],
+  "languageProficiencies": [
+   {
+    "other": true
+   }
+  ],
+  "sizeEntry": {
+   "type": "item",
+   "name": "Size:",
+   "entries": [
+    "Small or Medium"
+   ]
+  },
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Creature Type",
+    "entries": [
+     "You are a humanoid. You are considered a dinosaur for any prerequisite or effect that requires you to be a dinosaur."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Lifespan",
+    "entries": [
+     "Pluvenn live for 40-50 years and mature at the age of 11 or 12."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Razormaw",
+    "entries": [
+     "Your teeth are natural weapons. You can use these to make {@variantrule Unarmed Strike|XPHB|Unarmed Strikes}, dealing {@damage 1d4} + Dexterity modifier Piercing damage, instead of the Bludgeoning damage that you would normally deal with with an {@variantrule Unarmed Strike|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Grappleclaws",
+    "entries": [
+     "Large recurved claws on each of your feet help you to climb, as well as {@variantrule Grappling|XPHB|Grapple} foes. Creatures that you attempt to Grapple have {@variantrule Disadvantage|XPHB} on their saving throw to resist that Grapple and you have {@variantrule Advantage|XPHB} on {@skill Athletics|XPHB} checks for climbing. While {@variantrule Grappling|XPHB} a creature, you can use your {@variantrule Bonus Action|XPHB} to inflict {@damage 1d4 +  PB} Piercing damage to that creature."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Nocturnal/Diurnal",
+    "entries": [
+     "You have {@sense Darkvision|XPHB} 60 ft. and only require 4 hours to complete a {@variantrule Long Rest|XPHB}."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Pneumatised and Feathered",
+    "entries": [
+     "As long as you are not {@condition Incapacitated|XPHB}, you have {@variantrule Resistance|XPHB} to falling damage."
+    ]
+   },
+   {
+    "type": "entries",
+    "name": "Bonus Languages",
+    "entries": [
+     "You know {@language Archosauric|PartneredDDDoD} (species don't usually provide languages, but we feel that it is fitting here)."
+    ]
+   }
+  ],
+  "hasFluff": true,
+  "hasFluffImages": true
  },
  {
   "name": "Quickstep",

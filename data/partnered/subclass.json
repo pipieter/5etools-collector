@@ -896,6 +896,25 @@
   }
  },
  {
+  "name": "Big Game Hunter",
+  "shortName": "Big Game Hunter",
+  "source": "PartneredDDDoD",
+  "className": "Ranger",
+  "classSource": "XPHB",
+  "edition": "one",
+  "subclassFeatures": [
+   "Big Game Hunter|Ranger|XPHB|Big Game Hunter|PartneredDDDoD|3|PartneredDDDoD",
+   "Special Shots|Ranger|XPHB|Big Game Hunter|PartneredDDDoD|7|PartneredDDDoD",
+   "Improved Bolas|Ranger|XPHB|Big Game Hunter|PartneredDDDoD|7|PartneredDDDoD",
+   "Reliable Aim|Ranger|XPHB|Big Game Hunter|PartneredDDDoD|11|PartneredDDDoD",
+   "Improved Special Shots|Ranger|XPHB|Big Game Hunter|PartneredDDDoD|11|PartneredDDDoD",
+   "Apex Hunter|Ranger|XPHB|Big Game Hunter|PartneredDDDoD|15|PartneredDDDoD",
+   "Predator's Intuition|Ranger|XPHB|Big Game Hunter|PartneredDDDoD|15|PartneredDDDoD",
+   "Finish the Hunt|Ranger|XPHB|Big Game Hunter|PartneredDDDoD|15|PartneredDDDoD"
+  ],
+  "hasFluffImages": true
+ },
+ {
   "name": "Blade Breaker",
   "shortName": "Blade Breaker",
   "source": "GrimHollowPlayerPack",
@@ -1192,6 +1211,210 @@
   "hasFluffImages": true
  },
  {
+  "name": "Bonesmith",
+  "shortName": "Bonesmith",
+  "source": "PartneredDDDoD",
+  "className": "Fighter",
+  "classSource": "XPHB",
+  "edition": "one",
+  "spellcastingAbility": "int",
+  "casterProgression": "1/3",
+  "additionalSpells": [
+   {
+    "known": {
+     "3": [
+      "poison spray|xphb#c",
+      "mending|xphb#c",
+      "spare the dying|xphb#c"
+     ]
+    },
+    "prepared": {
+     "3": [
+      "inflict wounds|xphb",
+      "false life|xphb",
+      "find familiar|xphb"
+     ],
+     "7": [
+      "ray of enfeeblement|xphb",
+      "alter self|xphb",
+      "protection from poison|xphb"
+     ],
+     "13": [
+      "speak with dead|xphb",
+      "animate dead|xphb",
+      "fear|xphb"
+     ],
+     "19": [
+      "blight|xphb",
+      "fabricate|xphb",
+      "death ward|xphb"
+     ]
+    },
+    "innate": {
+     "18": {
+      "daily": {
+       "1": [
+        "creation|xphb"
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "subclassTableGroups": [
+   {
+    "title": "Spell Slots per Spell Level",
+    "subclasses": [
+     {
+      "name": "Bonesmith",
+      "source": "PartneredDDDoD"
+     }
+    ],
+    "colLabels": [
+     "{@filter 1|spells|level=1|subclass=Fighter: Bonesmith}",
+     "{@filter 2|spells|level=2|subclass=Fighter: Bonesmith}",
+     "{@filter 3|spells|level=3|subclass=Fighter: Bonesmith}",
+     "{@filter 4|spells|level=4|subclass=Fighter: Bonesmith}"
+    ],
+    "rowsSpellProgression": [
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      2,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0
+     ],
+     [
+      3,
+      0,
+      0,
+      0
+     ],
+     [
+      4,
+      2,
+      0,
+      0
+     ],
+     [
+      4,
+      2,
+      0,
+      0
+     ],
+     [
+      4,
+      2,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      0,
+      0
+     ],
+     [
+      4,
+      3,
+      2,
+      0
+     ],
+     [
+      4,
+      3,
+      2,
+      0
+     ],
+     [
+      4,
+      3,
+      2,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      0
+     ],
+     [
+      4,
+      3,
+      3,
+      1
+     ],
+     [
+      4,
+      3,
+      3,
+      1
+     ]
+    ]
+   }
+  ],
+  "subclassFeatures": [
+   "Bonesmith|Fighter|XPHB|Bonesmith|PartneredDDDoD|3|PartneredDDDoD",
+   "Improved Crafting|Fighter|XPHB|Bonesmith|PartneredDDDoD|7|PartneredDDDoD",
+   "Construct of Flesh|Fighter|XPHB|Bonesmith|PartneredDDDoD|7|PartneredDDDoD",
+   "Artisan Crafter|Fighter|XPHB|Bonesmith|PartneredDDDoD|10|PartneredDDDoD",
+   "Improved Construct of Flesh|Fighter|XPHB|Bonesmith|PartneredDDDoD|10|PartneredDDDoD",
+   "Body Modification|Fighter|XPHB|Bonesmith|PartneredDDDoD|10|PartneredDDDoD",
+   "Master Crafter|Fighter|XPHB|Bonesmith|PartneredDDDoD|15|PartneredDDDoD",
+   "Combat Bonesmithing|Fighter|XPHB|Bonesmith|PartneredDDDoD|15|PartneredDDDoD",
+   "Minion Master|Fighter|XPHB|Bonesmith|PartneredDDDoD|18|PartneredDDDoD",
+   "Flesh from Shadow|Fighter|XPHB|Bonesmith|PartneredDDDoD|18|PartneredDDDoD"
+  ],
+  "hasFluffImages": true
+ },
+ {
   "name": "Brujah",
   "shortName": "Brujah",
   "source": "BoundByBlood",
@@ -1328,6 +1551,62 @@
   ],
   "hasFluff": true,
   "hasFluffImages": true
+ },
+ {
+  "name": "Circle of Cycles",
+  "shortName": "Cycles",
+  "source": "PartneredDDDoD",
+  "className": "Druid",
+  "classSource": "XPHB",
+  "edition": "one",
+  "additionalSpells": [
+   {
+    "prepared": {
+     "3": [
+      "augury|xphb",
+      "evolution/devolution|partnereddddod"
+     ],
+     "5": [
+      "clairvoyance|xphb",
+      "tongues|xphb",
+      "meld into stone|xphb"
+     ],
+     "9": [
+      "legend lore|xphb",
+      "contact other plane|xphb"
+     ],
+     "13": [
+      "find the path|xphb",
+      "contingency|xphb",
+      "flesh to stone|xphb",
+      "circle of death|xphb"
+     ],
+     "17": [
+      "foresight|xphb",
+      "glibness|xphb",
+      "time stop|xphb"
+     ]
+    },
+    "innate": {
+     "6": {
+      "daily": {
+       "1": [
+        "evolution/devolution|partnereddddod"
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "subclassFeatures": [
+   "Circle of Cycles|Druid|XPHB|Cycles|PartneredDDDoD|3|PartneredDDDoD",
+   "Improved Evolution/Devolution|Druid|XPHB|Cycles|PartneredDDDoD|6|PartneredDDDoD",
+   "Deep Hibernation|Druid|XPHB|Cycles|PartneredDDDoD|6|PartneredDDDoD",
+   "Improved Glimpse Future|Druid|XPHB|Cycles|PartneredDDDoD|10|PartneredDDDoD",
+   "Cosmological Evolution|Druid|XPHB|Cycles|PartneredDDDoD|10|PartneredDDDoD",
+   "Guided Evolution|Druid|XPHB|Cycles|PartneredDDDoD|14|PartneredDDDoD",
+   "Future Sight|Druid|XPHB|Cycles|PartneredDDDoD|17|PartneredDDDoD"
+  ]
  },
  {
   "name": "Circle of Dragons",

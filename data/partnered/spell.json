@@ -17519,6 +17519,67 @@
   ]
  },
  {
+  "name": "Evolution/Devolution",
+  "source": "PartneredDDDoD",
+  "level": 2,
+  "school": "T",
+  "time": [
+   {
+    "number": 1,
+    "unit": "action"
+   }
+  ],
+  "range": {
+   "type": "point",
+   "distance": {
+    "type": "touch"
+   }
+  },
+  "components": {
+   "v": true,
+   "s": true,
+   "m": "a pinch of dirt"
+  },
+  "duration": [
+   {
+    "type": "timed",
+    "duration": {
+     "type": "minute",
+     "amount": 10,
+     "upTo": true
+    }
+   }
+  ],
+  "entries": [
+   "By touching a creature, you can cause it to take on attributes of its ancestors or descendants. A creature may accept these changes willingly or, if not, they must make a Wisdom {@variantrule Saving Throw|XPHB} against your spell save DC. On a failed save, you may pick one of the following changes and apply it to the creature's stat block.",
+   {
+    "type": "list",
+    "style": "list-decimal",
+    "items": [
+     "Increase or decrease the damage of all of the creature's attacks by {@dice 1d4}.",
+     "Increase or decrease the creature's speed by 20 ft.",
+     "The creature gains a climbing speed equal to half its speed, or its climbing speed is reduced by 30 ft. (it can be reduced to 0).",
+     "The creature gains a flying speed of 10 ft., or its flying speed is reduced by 30 ft. (it can be reduced to 0).",
+     "Select one of the creature's attacks or abilities that deals damage and change the damage type of that attack. If it deals Bludgeoning, Piercing, or Slashing damage, you may change it to Acid or Poison damage. If it deals any other damage type, you may change it to Bludgeoning, Piercing, or Slashing damage.",
+     "The creature gains {@sense Darkvision|XPHB} 60 ft., or reduces its {@sense Darkvision|XPHB} (if it has it) by 60 ft. (it can be reduced to 0). If this creature does not have {@sense Darkvision|XPHB}, you may alternatively reduce its maximum normal vision range to 60 ft. instead, causing anything beyond 60 ft. from it to only be visible as amorphous blurry shapes.",
+     "Increase the creature's maximum and current hit points by {@dice 1d4 + 4}, or reduce its maximum and current hit points by {@dice 1d4 + 4} (to a minimum of 1)."
+    ]
+   }
+  ],
+  "entriesHigherLevel": [
+   {
+    "type": "entries",
+    "name": "Using a Higher-Level Spell Slot",
+    "entries": [
+     "When you cast this spell using a spell slot of 3rd level or higher, you may pick another Trait to change for each slot above 2nd level. You cannot pick the same Trait more than once."
+    ]
+   }
+  ],
+  "savingThrow": [
+   "wisdom"
+  ]
+ },
+ {
   "name": "Extinguish",
   "source": "NorthlandsWorldbook",
   "level": 1,

@@ -36,6 +36,29 @@
   "hasFluffImages": true
  },
  {
+  "name": "+1 Theropod Jaw",
+  "source": "PartneredDDDoD",
+  "baseItem": "greataxe|xphb",
+  "type": "M|XPHB",
+  "rarity": "rare",
+  "weight": 7,
+  "weaponCategory": "martial",
+  "property": [
+   "H|XPHB",
+   "2H|XPHB"
+  ],
+  "mastery": [
+   "Cleave|XPHB"
+  ],
+  "dmg1": "1d12",
+  "dmgType": "S",
+  "bonusWeapon": "+1",
+  "entries": [
+   "{@b Appearance:} {@i This huge axe is crafted from the harvested jaw of a mighty predatory dinosaur.}",
+   "{@b Rules:} This weapon deals an additional {@damage 1d6} Piercing damage with each successful hit."
+  ]
+ },
+ {
   "name": "+2 Leather Jerkin",
   "source": "Pugilist2024",
   "page": 0,
@@ -133,6 +156,30 @@
    "You have a +2 bonus to AC while wearing this armor.",
    "You have resistance to cold damage while you wear this armor.",
    "{@note Worn by {@creature Vex'ahlia|TalDoreiCampaignSettingReborn}.}"
+  ]
+ },
+ {
+  "name": "+2 Theropod Jaw",
+  "source": "PartneredDDDoD",
+  "baseItem": "greataxe|xphb",
+  "type": "M|XPHB",
+  "rarity": "very rare",
+  "reqAttune": true,
+  "weight": 7,
+  "weaponCategory": "martial",
+  "property": [
+   "H|XPHB",
+   "2H|XPHB"
+  ],
+  "mastery": [
+   "Cleave|XPHB"
+  ],
+  "dmg1": "1d12",
+  "dmgType": "S",
+  "bonusWeapon": "+2",
+  "entries": [
+   "{@b Appearance:} {@i This huge axe is crafted from the harvested jaw of a mighty predatory dinosaur.}",
+   "{@b Rules:} This weapon deals an additional {@damage 1d6} Piercing damage with each successful hit."
   ]
  },
  {
@@ -988,6 +1035,16 @@
   }
  },
  {
+  "name": "Amber Necklace",
+  "source": "PartneredDDDoD",
+  "rarity": "common",
+  "wondrous": true,
+  "entries": [
+   "{@b Appearance:} {@i A simple twine necklace binding a small lump of amber, or a chain of amber beads.}",
+   "{@b Rules:} While wearing this necklace, you have a +2 bonus to any roll to resist or end the {@condition Poisoned|XPHB} condition. This effect is not cumulative with further amber items."
+  ]
+ },
+ {
   "name": "Ambitious Medic's Box",
   "source": "GriffonsSaddlebag2",
   "page": 33,
@@ -1384,6 +1441,46 @@
     }
    ]
   }
+ },
+ {
+  "name": "Analysis Tools",
+  "source": "PartneredDDDoD",
+  "type": "T|XPHB",
+  "rarity": "none",
+  "weight": 1,
+  "value": 1000,
+  "entries": [
+   "This collection of hand lenses, rubbing papers, chalk, and tweezers allows for more thorough investigation of small objects than the naked eye would allow.",
+   {
+    "type": "list",
+    "style": "list-hang-notitle",
+    "items": [
+     {
+      "type": "item",
+      "name": "Ability:",
+      "entry": "Intelligence"
+     },
+     {
+      "type": "item",
+      "name": "Utilize:",
+      "entry": "When attempting a {@skill Investigation|XPHB} check of an object small enough to fit in your hand, you may replace the check's DC with this tool's DC (DC 8)."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Ancient Horn",
+  "source": "PartneredDDDoD",
+  "type": "INS|XPHB",
+  "rarity": "uncommon",
+  "focus": [
+   "Bard"
+  ],
+  "entries": [
+   "{@b Appearance:} {@i A curved and polished bone horn made from the skull of a large hadrosaur.}",
+   "{@b Rules:} This instrument can be used as a spell focus by a Bard. Once per day, as an {@variantrule Action|XPHB}, the horn can be blown to alert allies. When used in this way, it cannot be heard by anyone except the bearer and their allies, who can hear it regardless of where they are in the multiverse. The sound itself does not convey specific information, and is simply a deep note."
+  ]
  },
  {
   "name": "Andahestur",
@@ -1980,6 +2077,24 @@
    "CNS"
   ],
   "hasFluffImages": true
+ },
+ {
+  "name": "Araliaephyllum sp. Healing Balm",
+  "source": "PartneredDDDoD",
+  "type": "G|XPHB",
+  "rarity": "none",
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Theropod-footed Healing Balm",
+    "entries": [
+     "This plant's bird- foot-shaped leaves can be crushed into a {@item Araliaephyllum sp. Healing Balm|PartneredDDDoD|paste} and applied to a wound to help it heal. If this balm is applied to a creature during a {@variantrule Short Rest|XPHB}, that creature heals {@dice 1d6 + 2} {@variantrule Hit Points|XPHB} and its speed is increased by 10 ft. for the next 24 hours."
+    ]
+   }
+  ],
+  "miscTags": [
+   "CNS"
+  ]
  },
  {
   "name": "Arborguard Shield",
@@ -4172,6 +4287,16 @@
   }
  },
  {
+  "name": "Automimicry Cape",
+  "source": "PartneredDDDoD",
+  "rarity": "common",
+  "wondrous": true,
+  "entries": [
+   "{@b Appearance:} {@i This large cape is dull on the back, but the inside is patterned and coloured with two huge eyes. When held up from either side, it gives the wearer the superficial image of a huge bestial head with glaring eyes.}",
+   "{@b Rules:} While wearing this cape, as a {@variantrule Bonus Action|XPHB} you can give yourself {@variantrule Advantage|XPHB} on {@skill Intimidation|XPHB} checks until the end of your turn against any creature with an Intelligence score of 5 or lower."
+  ]
+ },
+ {
   "name": "Avian Circlet",
   "source": "24GriffonsSaddlebag1",
   "rarity": "rare",
@@ -4413,6 +4538,28 @@
     }
    ]
   }
+ },
+ {
+  "name": "Azdarchid Beak Greatsword",
+  "source": "PartneredDDDoD",
+  "baseItem": "greatsword|xphb",
+  "type": "M|XPHB",
+  "rarity": "common",
+  "weight": 6,
+  "weaponCategory": "martial",
+  "property": [
+   "H|XPHB",
+   "2H|XPHB"
+  ],
+  "mastery": [
+   "Graze|XPHB"
+  ],
+  "dmg1": "2d6",
+  "dmgType": "S",
+  "entries": [
+   "{@b Appearance:} {@i This lightweight sword is crafted from the huge beak of an Azdarchid pterosaur. It can slide through the air with ease.}",
+   "{@b Rules:} When using your {@variantrule Reaction|XPHB} to make an {@action Opportunity Attack|XPHB} with this weapon, your melee reach is increased to 10 ft. for that attack. Furthermore, attacks made with this weapon against creatures from the elemental plane of air are made at {@variantrule Advantage|XPHB}."
+  ]
  },
  {
   "name": "Azuremite",
@@ -13794,6 +13941,25 @@
   ]
  },
  {
+  "name": "Cladophlebis Rhizome Grenade",
+  "source": "PartneredDDDoD",
+  "type": "G|XPHB",
+  "rarity": "none",
+  "entries": [
+   "Alternatively, the rhizome can be carefully extracted with a DC 10 {@skill Sleight of Hand|XPHB} check and then may function like a {@item Cladophlebis Rhizome Grenade|PartneredDDDoD|grenade}:",
+   {
+    "type": "entries",
+    "name": "Rhizome grenade",
+    "entries": [
+     "As an {@variantrule Action|XPHB}, a humanoid creature can throw the grenade (20/60 ft.). Any creature within 5 ft. {@variantrule Emanation [Area of Effect]|XPHB|Emanation} of where it lands must succeed a DC 12 Dexterity {@variantrule Saving Throw|XPHB}, or take {@damage 1d4} Bludgeoning damage and {@damage 1d4} Fire damage."
+    ]
+   }
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
   "name": "Claws of Corruption (uncommon)",
   "source": "HelianasGuidetoMonsterHunting",
   "page": 480,
@@ -18057,6 +18223,17 @@
   }
  },
  {
+  "name": "Dead Deity Robes",
+  "source": "PartneredDDDoD",
+  "rarity": "legendary",
+  "reqAttune": true,
+  "wondrous": true,
+  "entries": [
+   "{@b Appearance:} {@i These beautiful, pristine red and black robes are the last remnants of a civilisation from millions of years in the past who worshiped a deity forgotten by all, aeons ago. They are inscribed with runes in an ancient unreadable language.}",
+   "{@b Rules:} While attuned to these robes, you have an additional spell slot of whatever your current highest level spell slot is. The level of the additional spell slot is reset and replenishes after each {@variantrule Long Rest|XPHB}. If you aren't wearing armour, your base {@variantrule Armor Class|XPHB} becomes 13 + your Dexterity modifier."
+  ]
+ },
+ {
   "name": "Dead Ringer",
   "source": "24GriffonsSaddlebag1",
   "rarity": "rare",
@@ -18799,6 +18976,30 @@
     }
    ]
   }
+ },
+ {
+  "name": "Dice of the Dinosaur",
+  "source": "PartneredDDDoD",
+  "rarity": "rare",
+  "wondrous": true,
+  "entries": [
+   "{@b Appearance:} {@i This six-sided dice has the visages of six different large dinosaurs carved into each face. Once rolled, a strange bellowing noise can be heard in the distance.}",
+   "{@b Rules:} The first time that this dice is rolled each day, it summons a dinosaur that matches the carved visage of the face it rolls to. The dinosaur is summoned somewhere within a 1 mile radius and is {@variantrule Hostile [Attitude]|XPHB|Hostile} to whoever rolled the dice, actively seeking them out.",
+   "If the dinosaur is slain, it disintegrates into {@item Amber|XDMG|amber gemstones} worth 100 GP multiplied by the corresponding number below. Once that dinosaur has been slain, the corresponding facing on the dice turns blank and becomes weighted in a way that it cannot roll with that side face-up. At the next dawn, if the dinosaur is alive, it vanishes and the dice remains unchanged. The dice faces are:",
+   {
+    "type": "list",
+    "style": "list-decimal",
+    "items": [
+     "{@creature Iguanodon|PartneredDDDoD}",
+     "{@creature Centrosaurus|PartneredDDDoD}",
+     "{@creature Utahraptor|PartneredDDDoD}",
+     "{@creature Zuul|PartneredDDDoD}",
+     "{@creature Giraffatitan|PartneredDDDoD}",
+     "{@creature Tyrannosaurus Rex|XMM|Tyrannosaurus}"
+    ]
+   }
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Dimensional Doorknob",
@@ -22172,6 +22373,42 @@
   }
  },
  {
+  "name": "Equisetum sp. Potion (Incorrectly Harvested)",
+  "source": "PartneredDDDoD",
+  "type": "G|XPHB",
+  "rarity": "none",
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Toxic Maturity",
+    "entries": [
+     "Fresh shoots of this plant are non-toxic and can be brewed into a simple, but delicious, {@item Equisetum sp. Potion|PartneredDDDoD|potion} that heals {@dice 1d4 + 1} hit points when consumed. However, {@item Equisetum sp. Potion (Incorrectly Harvested)|PartneredDDDoD|mature plants} are highly toxic and any creature that consumes them (or a derivative of them) is {@condition Poisoned|XPHB} for 24 hours. A successful DC 10 {@skill Nature|XPHB} check is required to determine which shoots are safe to consume."
+    ]
+   }
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
+  "name": "Equisetum sp. Potion",
+  "source": "PartneredDDDoD",
+  "type": "G|XPHB",
+  "rarity": "none",
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Toxic Maturity",
+    "entries": [
+     "Fresh shoots of this plant are non-toxic and can be brewed into a simple, but delicious, {@item Equisetum sp. Potion|PartneredDDDoD|potion} that heals {@dice 1d4 + 1} hit points when consumed. However, {@item Equisetum sp. Potion (Incorrectly Harvested)|PartneredDDDoD|mature plants} are highly toxic and any creature that consumes them (or a derivative of them) is {@condition Poisoned|XPHB} for 24 hours. A successful DC 10 {@skill Nature|XPHB} check is required to determine which shoots are safe to consume."
+    ]
+   }
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
   "name": "Essence of Great Rivers",
   "source": "ObojimaTallGrass",
   "page": 229,
@@ -22442,6 +22679,25 @@
   }
  },
  {
+  "name": "Ethereal Egg",
+  "source": "PartneredDDDoD",
+  "rarity": "very rare",
+  "wondrous": true,
+  "entries": [
+   "{@b Appearance:} {@i This football/ball sized egg is partly translucent, and wisps of coloured smoke constantly drift off of it.}",
+   "{@b Rules:} If incubated (kept warm) for {@dice 2d4} days, the egg will hatch into a familiar for the player who incubated it last. This functions in the same manner as a familiar would via the {@spell Find Familiar|XPHB} spell, with the following exceptions:",
+   {
+    "type": "list",
+    "items": [
+     "The familiar's appearance and stats are selected by the hatching player from a list of known familiars (we recommend one of the familiars from this book), and then cannot be changed.",
+     "Once the familiar drops to 0 {@variantrule Hit Points|XPHB}, it disappears and can be resummoned as an {@variantrule Action|XPHB}.",
+     "Once the familiar drops to 0 HP for the third time, instead of disappearing, it reverts back to its Ethereal Egg form and must be incubated for a further {@dice 2d4} days before re-hatching as the same familiar."
+    ]
+   }
+  ],
+  "hasFluffImages": true
+ },
+ {
   "name": "Everfull Stein",
   "source": "Pugilist2024",
   "page": 0,
@@ -22611,6 +22867,81 @@
     }
    ]
   }
+ },
+ {
+  "name": "Evolunite Shard",
+  "source": "PartneredDDDoD",
+  "rarity": "uncommon",
+  "wondrous": true,
+  "entries": [
+   "{@b Appearance:} {@i A tiny shard of iridescent rock that sparkles when in moonlight. When it comes into contact with a creature's integument (skin/scales/feathers/hair/etc.), it sparks and sizzles as it dissolves into them.}",
+   "{@b Rules:} If this mineral touches a creature's exposed body, it is destroyed. The DM then rolls on the Minor Mutation Table (see {@book Mesozoic Reptiles in Your World|PartneredDDDoD|9|Mutation Tables}) for that creature, and it gains the associated mutation for 1 hour. If more than five Evolunite shards are used on the same creature within 1 hour of each other, the creature is polymorphed into a tiny crab with 2 hit points for 1 hour."
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
+  "name": "Excavator's Tools",
+  "source": "PartneredDDDoD",
+  "type": "T|XPHB",
+  "rarity": "none",
+  "weight": 8,
+  "value": 500,
+  "entries": [
+   "These fine picks, chisels, and brushes allow for precise extraction of precious material from rock.",
+   {
+    "type": "list",
+    "style": "list-hang-notitle",
+    "items": [
+     {
+      "type": "item",
+      "name": "Ability:",
+      "entry": "Dexterity"
+     },
+     {
+      "type": "item",
+      "name": "Utilize:",
+      "entry": "Increase the value of fossils or gemstones by 20% when extracting them from rock (DC 5)."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Exceptional Refractive Index Crystal",
+  "source": "PartneredDDDoD",
+  "type": "SCF|XPHB",
+  "scfType": "arcane",
+  "rarity": "uncommon",
+  "reqAttune": "by a Druid, Wizard, or Sorcerer",
+  "reqAttuneTags": [
+   {
+    "class": "druid|xphb"
+   },
+   {
+    "class": "wizard|xphb"
+   },
+   {
+    "class": "sorcerer|xphb"
+   }
+  ],
+  "bonusSpellAttack": "+1",
+  "bonusSpellSaveDc": "+1",
+  "focus": [
+   "Druid",
+   "Sorcerer",
+   "Wizard"
+  ],
+  "entries": [
+   "{@b Appearance:} {@i This large, jagged crystal has a pastel colour hue to it, but when turned in light it refracts brilliant rainbows.}",
+   "{@b Rules:} This item can be used as a spell focus by a Druid, Wizard, or Sorcerer. While wielding this item, you may cast the {@spell Light|XPHB} cantrip a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} per day, and you may cast the spell {@spell Color Spray|XPHB|Colour Spray} at 1st level once per day without using a spell slot."
+  ],
+  "attachedSpells": [
+   "color spray|xphb",
+   "light|xphb"
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Eye Kite",
@@ -25246,6 +25577,41 @@
   "entries": [
    "This delicate Wand hums with bound potential, and seems drawn to your fingers. While attuned to it, you cannot be {@status Surprised|XPHB}. Additionally, whenever you roll {@variantrule Initiative|XPHB} you can choose to immediately draw this wand (no action required). If you do so, you can roll {@dice 1d4} and add the total to your {@variantrule Initiative|XPHB} score, and all creatures within 5 feet of you take 1 Lightning damage."
   ]
+ },
+ {
+  "name": "Flawless Refractive Index Crystal",
+  "source": "PartneredDDDoD",
+  "type": "SCF|XPHB",
+  "scfType": "arcane",
+  "rarity": "rare",
+  "reqAttune": "by a Druid, Wizard, or Sorcerer",
+  "reqAttuneTags": [
+   {
+    "class": "druid|xphb"
+   },
+   {
+    "class": "wizard|xphb"
+   },
+   {
+    "class": "sorcerer|xphb"
+   }
+  ],
+  "bonusSpellAttack": "+2",
+  "bonusSpellSaveDc": "+2",
+  "focus": [
+   "Druid",
+   "Sorcerer",
+   "Wizard"
+  ],
+  "entries": [
+   "{@b Appearance:} {@i This large, jagged crystal has a pastel colour hue to it, but when turned in light it refracts brilliant rainbows.}",
+   "{@b Rules:} This item can be used as a spell focus by a Druid, Wizard, or Sorcerer. While wielding this item, you may cast the {@spell Light|XPHB} cantrip a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} per day, and you may cast the spell {@spell Color Spray|XPHB|Colour Spray} at 1st level once per day without using a spell slot."
+  ],
+  "attachedSpells": [
+   "color spray|xphb",
+   "light|xphb"
+  ],
+  "hasFluffImages": true
  },
  {
   "name": "Flesh of Dendallen",
@@ -36779,6 +37145,24 @@
   ]
  },
  {
+  "name": "Jaguariba wiersemaniania Flower",
+  "source": "PartneredDDDoD",
+  "type": "G|XPHB",
+  "rarity": "none",
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Psychodysleptic",
+    "entries": [
+     "If a creature consumes the {@item Jaguariba wiersemaniania Flower|PartneredDDDoD|flowers} of this plant, it must succeed a DC 14 Constitution {@variantrule Saving Throw|XPHB} or be {@condition Stunned|XPHB} for {@dice 1d4} minutes. On a successful save, it is instead {@condition Frightened|XPHB} of all other creatures for {@dice 1d4} minutes. Whenever that creature takes damage while under either effect, it may make another DC 14 Constitution {@variantrule Saving Throw|XPHB}, ending the effect on a success."
+    ]
+   }
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
   "name": "Jinxed Poker Chip",
   "source": "CrookedMoon24",
   "page": 610,
@@ -37215,6 +37599,42 @@
   }
  },
  {
+  "name": "Khitania columnispicata Paste",
+  "source": "PartneredDDDoD",
+  "type": "G|XPHB",
+  "rarity": "none",
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Hyper-thermo-genetic",
+    "entries": [
+     "If the strobile of this plant is crushed into a {@item Khitania columnispicata Paste|PartneredDDDoD|paste} and smeared on a creature's body, that creature gains {@variantrule Resistance|XPHB} to Cold damage for 24 hours. Consuming the {@item Khitania columnispicata Seed|PartneredDDDoD|seeds} of this plant provide {@variantrule Immunity|XPHB} to Cold damage for 1 minute."
+    ]
+   }
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
+  "name": "Khitania columnispicata Seed",
+  "source": "PartneredDDDoD",
+  "type": "G|XPHB",
+  "rarity": "none",
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Hyper-thermo-genetic",
+    "entries": [
+     "If the strobile of this plant is crushed into a {@item Khitania columnispicata Paste|PartneredDDDoD|paste} and smeared on a creature's body, that creature gains {@variantrule Resistance|XPHB} to Cold damage for 24 hours. Consuming the {@item Khitania columnispicata Seed|PartneredDDDoD|seeds} of this plant provide {@variantrule Immunity|XPHB} to Cold damage for 1 minute."
+    ]
+   }
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
   "name": "Ki Blade",
   "source": "GriffonsSaddlebag2",
   "page": 112,
@@ -37625,6 +38045,24 @@
   "hasFluffImages": true
  },
  {
+  "name": "Klitzschophyllites flabellatus Leaf",
+  "source": "PartneredDDDoD",
+  "type": "G|XPHB",
+  "rarity": "none",
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Babel Leaves",
+    "entries": [
+     "If a single {@item Klitzschophyllites flabellatus Leaf|PartneredDDDoD|leaf} is plucked from this plant and placed under the tongue of a creature with an Intelligence score of 8 or more, it is able to speak and comprehend any language for 1 minute. Once the effect wears off, the leaf shrivels and cannot be used again."
+    ]
+   }
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
   "name": "Knifewing Cape",
   "source": "GrimHollowCG24",
   "page": 265,
@@ -38016,6 +38454,32 @@
     }
    ]
   }
+ },
+ {
+  "name": "Kriss of Haţeg",
+  "source": "PartneredDDDoD",
+  "baseItem": "dagger|xphb",
+  "type": "M|XPHB",
+  "rarity": "legendary",
+  "reqAttune": true,
+  "weight": 1,
+  "weaponCategory": "simple",
+  "property": [
+   "F|XPHB",
+   "L|XPHB",
+   "T|XPHB"
+  ],
+  "mastery": [
+   "Nick|XPHB"
+  ],
+  "range": "20/60",
+  "dmg1": "1d4",
+  "dmgType": "P",
+  "bonusWeapon": "+3",
+  "entries": [
+   "{@b Appearance:} {@i This slender weapon has a wavy oscillating blade engraved with strange symbols.}",
+   "{@b Rules:} +3 weapon. A creature hit by an attack with this weapon must succeed a DC (8 + PB) Constitution {@variantrule Saving Throw|XPHB} or be reduced by one size category and have the damage from its attacks reduced by {@dice 1d4} for 1 minute. While reduced in size, it cannot be reduced in size again by another attack or similar spell/effect."
+  ]
  },
  {
   "name": "Kundar Chains",
@@ -39035,6 +39499,18 @@
   "wondrous": true,
   "entries": [
    "Hags, oni, doppelgangers, and more all spin webs of intrigue in Droaam, and the richest warlords have found ways to ensure their safety against infiltrators. This 4-inch-diameter, dull-gray glass lens is said to have been ground with a stone fallen from the moon Lharvion. When you speak its command word, the lens' power activates for 1 minute. If you look at a creature through the lens while it is active, you see ghostly images of every shape that creature has taken within the last 24 hours. The lens reveals shapes taken using innate magical abilities, as well as Illusion and Transmutation spells such as Disguise Self and Polymorph. It does not reveal mundane disguises. Once this property is used, it cannot be used again until 7 days have passed."
+  ]
+ },
+ {
+  "name": "Liaoningocladus boii Pseudofruit",
+  "source": "PartneredDDDoD",
+  "type": "G|XPHB",
+  "rarity": "none",
+  "entries": [
+   "1. {@b {@i Anaesthetic.}} This tree will yield {@dice 1d20} red {@item Liaoningocladus boii Pseudofruit|PartneredDDDoD|pseudofruits}. These can be eaten and restore 1 hit point each, but also contain a large central seed. If a creature swallows one of these seeds it must succeed a DC 12 Constitution {@variantrule Saving Throw|XPHB} or become {@condition Poisoned|XPHB} for 24 hours and fall asleep for 1 minute. The creature awakens if it takes damage."
+  ],
+  "miscTags": [
+   "CNS"
   ]
  },
  {
@@ -42180,6 +42656,42 @@
     }
    ]
   }
+ },
+ {
+  "name": "Marsilea sp. Potion (Incorrectly Harvested)",
+  "source": "PartneredDDDoD",
+  "type": "G|XPHB",
+  "rarity": "none",
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Neurotoxic Stimulant",
+    "entries": [
+     "The leaves of this plant are a powerful stimulant. They can be crushed to create a {@item Marsilea sp. Potion|PartneredDDDoD|potion} that, if consumed, gives {@variantrule Advantage|XPHB} on Dexterity Saving Throws for 24 hours. However, if the wrong parts of the plant are included in the {@item Marsilea sp. Potion (Incorrectly Harvested)|PartneredDDDoD|potion}, it also inflicts {@damage 2d4} Psychic damage when consumed. When harvesting the plant as an ingredient, a DC 14 {@skill Nature|XPHB} check is required to ensure that only the correct parts are harvested."
+    ]
+   }
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
+  "name": "Marsilea sp. Potion",
+  "source": "PartneredDDDoD",
+  "type": "G|XPHB",
+  "rarity": "none",
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Neurotoxic Stimulant",
+    "entries": [
+     "The leaves of this plant are a powerful stimulant. They can be crushed to create a {@item Marsilea sp. Potion|PartneredDDDoD|potion} that, if consumed, gives {@variantrule Advantage|XPHB} on Dexterity Saving Throws for 24 hours. However, if the wrong parts of the plant are included in the {@item Marsilea sp. Potion (Incorrectly Harvested)|PartneredDDDoD|potion}, it also inflicts {@damage 2d4} Psychic damage when consumed. When harvesting the plant as an ingredient, a DC 14 {@skill Nature|XPHB} check is required to ensure that only the correct parts are harvested."
+    ]
+   }
+  ],
+  "miscTags": [
+   "CNS"
+  ]
  },
  {
   "name": "Mask of Dendallen",
@@ -48868,6 +49380,41 @@
   }
  },
  {
+  "name": "Perfect Refractive Index Crystal",
+  "source": "PartneredDDDoD",
+  "type": "SCF|XPHB",
+  "scfType": "arcane",
+  "rarity": "very rare",
+  "reqAttune": "by a Druid, Wizard, or Sorcerer",
+  "reqAttuneTags": [
+   {
+    "class": "druid|xphb"
+   },
+   {
+    "class": "wizard|xphb"
+   },
+   {
+    "class": "sorcerer|xphb"
+   }
+  ],
+  "bonusSpellAttack": "+3",
+  "bonusSpellSaveDc": "+3",
+  "focus": [
+   "Druid",
+   "Sorcerer",
+   "Wizard"
+  ],
+  "entries": [
+   "{@b Appearance:} {@i This large, jagged crystal has a pastel colour hue to it, but when turned in light it refracts brilliant rainbows.}",
+   "{@b Rules:} This item can be used as a spell focus by a Druid, Wizard, or Sorcerer. While wielding this item, you may cast the {@spell Light|XPHB} cantrip a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} per day, and you may cast the spell {@spell Color Spray|XPHB|Colour Spray} at 1st level once per day without using a spell slot."
+  ],
+  "attachedSpells": [
+   "color spray|xphb",
+   "light|xphb"
+  ],
+  "hasFluffImages": true
+ },
+ {
   "name": "Performer's Puppet",
   "source": "GriffonsSaddlebag2",
   "page": 135,
@@ -51171,6 +51718,32 @@
   ]
  },
  {
+  "name": "Potion of Plumage",
+  "source": "PartneredDDDoD",
+  "type": "P|XPHB",
+  "rarity": "common",
+  "entries": [
+   "{@b Appearance:} {@i This simple vile is filled with feathers immersed in a strange blue liquid.}",
+   "{@b Rules:} When this potion is consumed, the creature that drank it sprouts soft downy feathers all over their body and long flight feathers from their forearms for 10 minutes. While under this effect, they have {@variantrule Immunity|XPHB} to falling damage and are able to glide 1 ft. horizontally for every 1 ft. they descend while falling."
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
+  "name": "Potion of Redirected Ancestry",
+  "source": "PartneredDDDoD",
+  "type": "P|XPHB",
+  "rarity": "rare",
+  "entries": [
+   "{@b Appearance:} {@i This ornate glass vial is inlaid with gold filigree. It contains a dully-glowing, green liquid that has tiny double helix shapes drifting within it.}",
+   "{@b Rules:} Consuming this potion allows you to take on the appearance and abilities of any humanoid species that you share a common ancestor with. These replace your character's original racial/species abilities and appearance. This effect lasts for 1 hour, however if you drink a second {@item Potion of Redirected Ancestry|PartneredDDDoD} while under this effect, the change becomes permanent unless removed by a {@spell Wish|XPHB} spell."
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
   "name": "Potion of Relentlessness",
   "source": "GrimHollowCG24",
   "page": 268,
@@ -51618,6 +52191,22 @@
   }
  },
  {
+  "name": "Primal Drums",
+  "source": "PartneredDDDoD",
+  "type": "INS|XPHB",
+  "rarity": "common",
+  "focus": [
+   "Bard"
+  ],
+  "entries": [
+   "{@b Appearance:} {@i A small set of palm drums that are fashioned traditionally from skin stretched over hollowed wood.}",
+   "{@b Rules:} This instrument can be used as a spell focus by a Bard. Once per day, as an {@variantrule Action|XPHB}, these drums can be used to cast the spell {@spell Bless|XPHB} at 1st level without requiring a spell slot or components."
+  ],
+  "attachedSpells": [
+   "bless|xphb"
+  ]
+ },
+ {
   "name": "Prism Glasses",
   "source": "GriffonsSaddlebag2",
   "page": 139,
@@ -52047,6 +52636,17 @@
     }
    ]
   }
+ },
+ {
+  "name": "Pure Lotus Broach/Barrette",
+  "source": "PartneredDDDoD",
+  "rarity": "rare",
+  "reqAttune": true,
+  "wondrous": true,
+  "entries": [
+   "{@i Appearance:} A large perfectly formed lotus flower, coloured with soft pink and white petals.",
+   "{@i Rules:} This flower hardens into a durable porcelain form and can be attached to clothing or hair. While attuned to this item, you have {@variantrule Resistance|XPHB} to Cold damage and {@variantrule Advantage|XPHB} on Wisdom Saving Throws."
+  ]
  },
  {
   "name": "Purging Dagger",
@@ -54293,6 +54893,33 @@
   ]
  },
  {
+  "name": "Research Scrolls",
+  "source": "PartneredDDDoD",
+  "type": "T|XPHB",
+  "rarity": "none",
+  "weight": 10,
+  "value": 5000,
+  "entries": [
+   "This extensive collection of scrolls and paper notes contains useful information about biology and the natural world.",
+   {
+    "type": "list",
+    "style": "list-hang-notitle",
+    "items": [
+     {
+      "type": "item",
+      "name": "Ability:",
+      "entry": "Intelligence"
+     },
+     {
+      "type": "item",
+      "name": "Utilize:",
+      "entry": "When attempting a {@skill History|XPHB} check to recall information about an animal, plant, or natural feature (geographical or geological), you may replace the check's DC with this tool's DC (DC 8)."
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Residuum",
   "source": "TalDoreiCampaignSettingReborn",
   "page": 75,
@@ -55316,6 +55943,17 @@
   ]
  },
  {
+  "name": "Ring of Palaeobotany",
+  "source": "PartneredDDDoD",
+  "type": "RG|XDMG",
+  "rarity": "uncommon",
+  "entries": [
+   "{@b Appearance:} {@i This wooden ring has a large emerald inlay. Within the emerald is a single tiny golden leaf.}",
+   "{@b Rules:} While wearing this ring you are able to recognise all ancient plants (that existed before your original timeline/lifespan) and you have knowledge of their uses and dangers."
+  ],
+  "hasFluffImages": true
+ },
+ {
   "name": "Ring of Plant Speech",
   "source": "HumblewoodTales",
   "page": 246,
@@ -55326,6 +55964,16 @@
    "This ring is prized by followers of {@deity Henwin|Amaranthine|HumblewoodCampaignSetting}."
   ],
   "hasFluffImages": true
+ },
+ {
+  "name": "Ring of Primal Speaking",
+  "source": "PartneredDDDoD",
+  "type": "RG|XDMG",
+  "rarity": "common",
+  "entries": [
+   "{@b Appearance:} {@i This small gold ring has the visage of a toothed maw biting onto a gemstone.}",
+   "{@b Rules:} While wearing this ring, you can read, speak, and understand Archosauric."
+  ]
  },
  {
   "name": "Ring of Radiation",
@@ -57219,6 +57867,24 @@
   ]
  },
  {
+  "name": "Ruffordia goeppertii Root",
+  "source": "PartneredDDDoD",
+  "type": "G|XPHB",
+  "rarity": "none",
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Antiseptic",
+    "entries": [
+     "The {@item Ruffordia goeppertii Root|PartneredDDDoD|roots} of this plant have a horribly bitter taste, but also have medicinal properties. Eating them grants {@variantrule Resistance|XPHB} to Poison damage and {@variantrule Immunity|XPHB} to the {@condition Poisoned|XPHB} condition for 24 hours."
+    ]
+   }
+  ],
+  "miscTags": [
+   "CNS"
+  ]
+ },
+ {
   "name": "Runestone of the Wild Titan (Legendary)",
   "source": "CrookedMoon24",
   "page": 603,
@@ -57401,6 +58067,24 @@
     }
    ]
   }
+ },
+ {
+  "name": "Sabalites longirhachis Fruits",
+  "source": "PartneredDDDoD",
+  "type": "G|XPHB",
+  "rarity": "none",
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Synaptic Regulator",
+    "entries": [
+     "The small dry {@item Sabalites longirhachis Fruits|PartneredDDDoD|fruits} that this plant produces have a bitter taste and cause a creature to feel nauseous for a few minutes if consumed. However, they also stimulate the nervous system and provide that creature {@variantrule Advantage|XPHB} on Intelligence Saving Throws for the next 24 hours."
+    ]
+   }
+  ],
+  "miscTags": [
+   "CNS"
+  ]
  },
  {
   "name": "Sacrificial Brand (Drawn)",
@@ -61382,6 +62066,16 @@
   }
  },
  {
+  "name": "Shell Coin",
+  "source": "PartneredDDDoD",
+  "rarity": "common",
+  "wondrous": true,
+  "entries": [
+   "{@b Appearance:} {@i This shell has been carved into a small disc. It retains many of the surface features of the shell, including ribbing and growth lines.}",
+   "{@b Rules:} When entering a settlement of 100 inhabitants or more, this shell takes on the appearance of the highest value coin for that settlement. A DC 12 {@skill Arcana|XPHB} check can determine that the coin is magical, but an effect that dispels magic is required to reveal its illusion."
+  ]
+ },
+ {
   "name": "Shepherd's Bane",
   "source": "ObojimaTallGrass",
   "page": 221,
@@ -62955,6 +63649,24 @@
     }
    ]
   }
+ },
+ {
+  "name": "Siphonospermum simplex Brew",
+  "source": "PartneredDDDoD",
+  "type": "G|XPHB",
+  "rarity": "none",
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Psychoactive",
+    "entries": [
+     "This plant is used as a key ingredient in spiced ales and is highly valued by some merchants. It can also be brewed into a delicious {@item Siphonospermum simplex Brew|PartneredDDDoD|potion} that provides {@variantrule Advantage|XPHB} on Wisdom Saving Throws for 1 hour when consumed."
+    ]
+   }
+  ],
+  "miscTags": [
+   "CNS"
+  ]
  },
  {
   "name": "Sir Varion's Helm",
@@ -67072,6 +67784,77 @@
   }
  },
  {
+  "name": "Staff of Time Sight",
+  "source": "PartneredDDDoD",
+  "baseItem": "quarterstaff|xphb",
+  "type": "M|XPHB",
+  "rarity": "very rare",
+  "reqAttune": true,
+  "weight": 4,
+  "weaponCategory": "simple",
+  "property": [
+   "V|XPHB"
+  ],
+  "mastery": [
+   "Topple|XPHB"
+  ],
+  "dmg1": "1d6",
+  "dmgType": "B",
+  "dmg2": "1d8",
+  "bonusWeapon": "+2",
+  "bonusSpellAttack": "+2",
+  "bonusSpellSaveDc": "+2",
+  "recharge": "dawn",
+  "rechargeAmount": 1,
+  "charges": 2,
+  "focus": [
+   "Druid",
+   "Sorcerer",
+   "Wizard"
+  ],
+  "staff": true,
+  "entries": [
+   "{@b Appearance:} {@i This wooden and brass staff is topped by a large, spinning brass sphere. This sphere is orbited by several smaller brass spheres that are not physically connected to the staff, yet cannot be removed from their orbit.}",
+   "{@b Rules:} This +2 {@item staff|XPHB} can be used as a spell focus by a Druid, Wizard, or Sorcerer. This {@item staff|XPHB} has two charges. While wielding this {@item staff|XPHB}, at the end of your turn in combat, you may choose to expend 1 of its charges. If you do, undo your entire turn (all Actions, movement, and damage dealt/received) and re-take your turn. The {@item staff|XPHB} regains 1 charge each day at dawn."
+  ]
+ },
+ {
+  "name": "Staff of Unspared Expense",
+  "source": "PartneredDDDoD",
+  "baseItem": "quarterstaff|xphb",
+  "type": "M|XPHB",
+  "rarity": "legendary",
+  "reqAttune": true,
+  "curse": true,
+  "weight": 4,
+  "weaponCategory": "simple",
+  "property": [
+   "V|XPHB"
+  ],
+  "mastery": [
+   "Topple|XPHB"
+  ],
+  "dmg1": "1d6",
+  "dmgType": "B",
+  "dmg2": "1d8",
+  "bonusWeapon": "+3",
+  "bonusSpellAttack": "+3",
+  "bonusSpellSaveDc": "+3",
+  "focus": [
+   "Druid",
+   "Sorcerer",
+   "Wizard"
+  ],
+  "staff": true,
+  "entries": [
+   "{@b Appearance:} {@i This pale ivory-coloured staff is topped with a piece of polished amber that contains a large insect fossil.}",
+   "{@b Rules:} This +3 {@item staff|XPHB} can be used as a spell focus by a Druid, Wizard, or Sorcerer. While wielding this {@item staff|XPHB}, you have {@variantrule Advantage|XPHB} on all Charisma checks and Charisma Saving Throws.",
+   "{@b Curse:} While in possession of this {@item staff|XPHB}, all vendors try to sell their wares at prices 50% more expensive than normal to you. This {@item staff|XPHB} is cursed and, once attuned, a player cannot unattune to it. If they were to abandon the {@item staff|XPHB}, it appears among their belongings during the next {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. The curse can be broken by selling the {@item staff|XPHB} at 200% of its usual value (DM's choice).",
+   "Alternatively, the curse can be broken by destroying the {@item staff|XPHB} by succeeding on a DC 25 Strength check. If the {@item staff|XPHB} is destroyed in this manner, a blinding flash of light emits from the shattered amber, then heavy and intermittent stomping footsteps can be heard in the distance that steadily grow louder. This is the sound of a {@creature Young Tyrannosaurus|PartneredDDDoD|young}/{@creature Tyrannosaurus Rex|XMM|adult}/{@creature Ancient Tyrannosaurus Rex|PartneredDDDoD|ancient} {@i Tyrannosaurus rex} approaching (age depends on the party level, at DM's discretion). It is {@variantrule Hostile [Attitude]|XPHB|Hostile} to the party, cannot be tamed, and will pursue them as long as it can. It will actively hunt them if the party escapes."
+  ],
+  "hasFluffImages": true
+ },
+ {
   "name": "Stalaga Spear",
   "source": "24GriffonsSaddlebag1",
   "baseItem": "spear|xphb",
@@ -69269,6 +70052,33 @@
   ]
  },
  {
+  "name": "Survivalist's Kit",
+  "source": "PartneredDDDoD",
+  "type": "T|XPHB",
+  "rarity": "none",
+  "weight": 9,
+  "value": 100,
+  "entries": [
+   "This kit is used to carefully extract natural medicines from plants and animals. It consists of a small flint-knapped blade, wooden tweezers, water-proof pouches, and adhesives.",
+   {
+    "type": "list",
+    "style": "list-hang-notitle",
+    "items": [
+     {
+      "type": "item",
+      "name": "Ability:",
+      "entry": "Wisdom"
+     },
+     {
+      "type": "item",
+      "name": "Utilize:",
+      "entry": "When attempting a {@skill Medicine|XPHB} check while in a Forest, Jungle, Island, or Swamp environment, you may replace the check's DC with this kit's DC (DC 8)."
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Sustaining Belt",
   "source": "NorthlandsWorldbook",
   "rarity": "common",
@@ -71130,6 +71940,28 @@
    }
   ],
   "hasFluffImages": true
+ },
+ {
+  "name": "Theropod Jaw",
+  "source": "PartneredDDDoD",
+  "baseItem": "greataxe|xphb",
+  "type": "M|XPHB",
+  "rarity": "uncommon",
+  "weight": 7,
+  "weaponCategory": "martial",
+  "property": [
+   "H|XPHB",
+   "2H|XPHB"
+  ],
+  "mastery": [
+   "Cleave|XPHB"
+  ],
+  "dmg1": "1d12",
+  "dmgType": "S",
+  "entries": [
+   "{@b Appearance:} {@i This huge axe is crafted from the harvested jaw of a mighty predatory dinosaur.}",
+   "{@b Rules:} This weapon deals an additional {@damage 1d6} Piercing damage with each successful hit."
+  ]
  },
  {
   "name": "Thomas's Dimensional Trousers",
@@ -73464,6 +74296,30 @@
    "One vial of this oil can cover one Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes {@b 10 minutes}. The affected creature then has {@variantrule Resistance|XPHB} to Fire damage for {@b 1 hour}.",
    "If the creature takes Fire damage, it becomes wreathed in ghostly green flames that shed {@variantrule Dim Light|XPHB} in a {@b 15-foot} radius. While ablaze, the creature's melee weapon attacks deal an extra {@damage 1d6} Necrotic damage. After {@b 10 minutes}, the flames die out and the oil's effects expire.",
    "This oil is transparent with a rainbow sheen."
+  ]
+ },
+ {
+  "name": "Trusty Rusty",
+  "source": "PartneredDDDoD",
+  "baseItem": "war pick|xphb",
+  "type": "M|XPHB",
+  "rarity": "legendary",
+  "reqAttune": true,
+  "weight": 2,
+  "weaponCategory": "martial",
+  "property": [
+   "V|XPHB"
+  ],
+  "mastery": [
+   "Sap|XPHB"
+  ],
+  "dmg1": "1d8",
+  "dmgType": "P",
+  "dmg2": "1d10",
+  "bonusWeapon": "+3",
+  "entries": [
+   "{@b Appearance:} {@i This worn pick is rusted and corroding, but still maintains a sharp point.}",
+   "{@b Rules:} +3 weapon. While wielding this weapon, you gain a burrowing speed of 5 ft. Additionally, you have {@variantrule Advantage|XPHB} on attacks against creatures made of rock or stone."
   ]
  },
  {
@@ -76527,6 +77383,20 @@
   "hasFluffImages": true
  },
  {
+  "name": "Wand of the Wondering Mind",
+  "source": "PartneredDDDoD",
+  "type": "WD|XDMG",
+  "rarity": "uncommon",
+  "recharge": "dawn",
+  "rechargeAmount": 3,
+  "charges": 3,
+  "entries": [
+   "{@b Appearance:} {@i A simple, wooden wand bound with twine and a small feather embedded in its tip.}",
+   "{@b Rules:} This wand has 3 charges. While holding it, you can use an {@variantrule Action|XPHB} to expend 1 of its charges and a beast you can see within 40 ft. of you must make a DC 12 Wisdom {@variantrule Saving Throw|XPHB}. On a failed save, select Behaviour Table (see {@book Mesozoic Reptiles in Your Worlds|PartneredDDDoD|9|Behaviour}). You may then roll two dice for a behaviour and select whichever option of the two you prefer. The creature then behaves in that manner.",
+   "This wand regains all expended charges every day at dawn."
+  ]
+ },
+ {
   "name": "Wand of Tides",
   "source": "BookOfEbonTides",
   "page": 208,
@@ -77558,6 +78428,24 @@
     }
    ]
   }
+ },
+ {
+  "name": "Weichselia reticulata Stem",
+  "source": "PartneredDDDoD",
+  "type": "G|XPHB",
+  "rarity": "none",
+  "entries": [
+   {
+    "type": "entries",
+    "name": "Congestant",
+    "entries": [
+     "The thick {@item Weichselia reticulata Stem|PartneredDDDoD|stem} of this plant causes a creature's sinuses and ear canals to swell if chewed, dulling their hearing. A creature that chews this stem gains {@variantrule Resistance|XPHB} to Thunder damage for 24 hours, but also has {@variantrule Disadvantage|XPHB} on {@skill Perception|XPHB} checks that involve sound for 24 hours."
+    ]
+   }
+  ],
+  "miscTags": [
+   "CNS"
+  ]
  },
  {
   "name": "Welders Shawl",
