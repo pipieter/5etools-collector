@@ -127,6 +127,7 @@ export interface EntryImage extends EntryBase {
   credit?: string;
   width?: number;
   height?: number;
+  maxWidth?: number;
   altText?: string;
   expectsLightBackground?: boolean;
 }
