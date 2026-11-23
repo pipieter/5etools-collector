@@ -60,6 +60,7 @@ export interface ReplaceTxt {
   with: string;
   flags?: string;
   props?: (string | null)[];
+  tagInsensitive?: boolean;
 }
 
 export type ReplaceSpellsEntry = Record<string, { replace: string; with: string }[]>;

@@ -2499,7 +2499,7 @@
     "conditionImmune": [
      "charmed"
     ],
-    "note": "(with Mind Blank)",
+    "note": "(with {@spell Mind Blank|XPHB})",
     "cond": true
    }
   ],
@@ -3731,6 +3731,7 @@
   "savingThrowForced": [
    "constitution"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -16496,6 +16497,7 @@
    "dexterity",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -18100,6 +18102,7 @@
   "savingThrowForced": [
    "intelligence"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -20381,6 +20384,7 @@
    "constitution",
    "strength"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -29212,6 +29216,7 @@
   "savingThrowForced": [
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -33757,6 +33762,7 @@
    "charisma",
    "constitution"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -38350,6 +38356,7 @@
   "savingThrowForced": [
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -40355,6 +40362,7 @@
    "dexterity",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -41944,7 +41952,7 @@
     "conditionImmune": [
      "charmed"
     ],
-    "note": "(with Mind Blank)",
+    "note": "(with {@spell Mind Blank|XPHB})",
     "cond": true
    }
   ],
@@ -63694,6 +63702,7 @@
    "constitution",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -65482,7 +65491,8 @@
   ],
   "miscTags": [
    "MA"
-  ]
+  ],
+  "hasToken": true
  },
  {
   "name": "Bearded Devil",
@@ -73553,6 +73563,7 @@
    "constitution",
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -73687,6 +73698,7 @@
   "savingThrowForcedSpell": [
    "constitution"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -73796,6 +73808,7 @@
   "savingThrowForced": [
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -79129,6 +79142,7 @@
    "dexterity",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -79278,6 +79292,7 @@
    "dexterity",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -79393,6 +79408,7 @@
   "savingThrowForced": [
    "constitution"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -87992,6 +88008,7 @@
   "savingThrowForcedSpell": [
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -88129,6 +88146,7 @@
   "savingThrowForcedSpell": [
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -88237,6 +88255,7 @@
   "savingThrowForced": [
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -96275,7 +96294,8 @@
   ],
   "savingThrowForced": [
    "dexterity"
-  ]
+  ],
+  "hasToken": true
  },
  {
   "name": "Cat Skeleton",
@@ -101649,6 +101669,7 @@
    "dexterity",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true
  },
  {
@@ -140651,6 +140672,7 @@
   "savingThrowForced": [
    "strength"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -163612,6 +163634,7 @@
   "savingThrowForced": [
    "constitution"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -169726,8 +169749,7 @@
      "flags": "i"
     },
     "action": {
-     "mode": "replaceArr",
-     "replace": "Rock",
+     "mode": "appendArr",
      "items": {
       "name": "Hurl Fire",
       "entries": [
@@ -169744,6 +169766,7 @@
   "tokenCredit": "Paizo",
   "tokenCustom": true,
   "damageTags": [
+   "B",
    "F",
    "S"
   ],
@@ -182117,6 +182140,7 @@
   "miscTags": [
    "RA"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -182319,6 +182343,7 @@
    "RA",
    "THW"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -182457,6 +182482,7 @@
   "savingThrowForced": [
    "constitution"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -182894,6 +182920,7 @@
   "savingThrowForcedSpell": [
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -199807,6 +199834,7 @@
   "savingThrowForcedSpell": [
    "strength"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -199918,6 +199946,7 @@
   "savingThrowForced": [
    "constitution"
   ],
+  "hasToken": true,
   "hasFluff": true
  },
  {
@@ -204855,6 +204884,7 @@
   "savingThrowForced": [
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true
  },
  {
@@ -234684,6 +234714,7 @@
   "savingThrowForcedSpell": [
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -234826,6 +234857,7 @@
   "savingThrowForcedSpell": [
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -234935,6 +234967,7 @@
   "savingThrowForced": [
    "constitution"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -244558,6 +244591,7 @@
   "savingThrowForcedSpell": [
    "constitution"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -248632,7 +248666,13 @@
    "psychic"
   ],
   "conditionImmune": [
-   "charmed"
+   {
+    "conditionImmune": [
+     "charmed"
+    ],
+    "note": "(with {@spell Mind Blank|XPHB})",
+    "cond": true
+   }
   ],
   "languages": [
    "Abyssal",
@@ -252943,6 +252983,7 @@
    "dexterity",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -265334,6 +265375,7 @@
    "constitution",
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -266838,6 +266880,7 @@
    "dexterity",
    "strength"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -268769,6 +268812,7 @@
   "savingThrowForced": [
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -276791,6 +276835,7 @@
    "constitution",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -287204,6 +287249,7 @@
    "constitution",
    "strength"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -293541,6 +293587,7 @@
    "constitution",
    "intelligence"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -297137,6 +297184,7 @@
   "savingThrowForcedSpell": [
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true
  },
  {
@@ -304141,6 +304189,7 @@
    "constitution",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -309147,6 +309196,7 @@
    "constitution",
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -309881,6 +309931,7 @@
    "constitution",
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -317461,7 +317512,13 @@
    "psychic"
   ],
   "conditionImmune": [
-   "charmed"
+   {
+    "conditionImmune": [
+     "charmed"
+    ],
+    "note": "(with {@spell Mind Blank|XPHB})",
+    "cond": true
+   }
   ],
   "languages": [
    "Common",
@@ -337066,6 +337123,7 @@
    "constitution",
    "strength"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -341890,6 +341948,7 @@
   "savingThrowForced": [
    "strength"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -342042,6 +342101,7 @@
   "savingThrowForced": [
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true
  },
  {
@@ -343588,6 +343648,7 @@
   "savingThrowForced": [
    "intelligence"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -344851,6 +344912,7 @@
   "conditionInflict": [
    "prone"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -345088,6 +345150,7 @@
    "constitution",
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -351421,6 +351484,7 @@
   "savingThrowForced": [
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -351550,6 +351614,7 @@
   "savingThrowForced": [
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true
  },
  {
@@ -378343,6 +378408,7 @@
    "strength",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -384037,6 +384103,7 @@
    "dexterity",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true
  },
  {
@@ -390525,6 +390592,7 @@
    "dexterity",
    "strength"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -391465,6 +391533,7 @@
   "savingThrowForcedLegendary": [
    "constitution"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -396118,6 +396187,7 @@
    "dexterity",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -396259,6 +396329,7 @@
    "dexterity",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -396365,6 +396436,7 @@
   "savingThrowForced": [
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -415310,6 +415382,7 @@
  },
  {
   "name": "Scarlet Champion Herod",
+  "shortName": "Herod",
   "isNpc": true,
   "isNamedCreature": true,
   "source": "WoW",
@@ -415351,9 +415424,9 @@
    "con": "+11"
   },
   "skill": {
-   "athletics": "+10",
-   "insight": "+4",
-   "intimidation": "+10"
+   "athletics": "+11",
+   "insight": "+5",
+   "intimidation": "+12"
   },
   "passive": 9,
   "languages": [
@@ -415602,6 +415675,7 @@
   "conditionInflict": [
    "blinded"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -424065,6 +424139,7 @@
    "MA",
    "RA"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -427332,6 +427407,7 @@
   "conditionInflictSpell": [
    "deafened"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -466753,6 +466829,7 @@
   "savingThrowForced": [
    "constitution"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -476757,6 +476834,7 @@
   "savingThrowForced": [
    "dexterity"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },
@@ -489308,6 +489386,7 @@
    "constitution",
    "wisdom"
   ],
+  "hasToken": true,
   "hasFluff": true
  },
  {
@@ -509690,6 +509769,7 @@
   "miscTags": [
    "MA"
   ],
+  "hasToken": true,
   "hasFluff": true,
   "hasFluffImages": true
  },

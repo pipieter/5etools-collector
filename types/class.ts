@@ -142,14 +142,11 @@ export interface SubclassFeature extends ClassFeature {
   subclassSource: string;
 }
 
-export interface Reskin {
+export type ReskinBaseClass = ClassBase & {
   // Used for WoW classes
   reskinOf: string[];
   isHero: boolean;
   includeSubclassesFrom: string[];
-}
-
-export type Reskinned<T> = Partial<Nullable<T>> & Reskin;
-
-export type Class = ClassBase | Copyable<ClassBase> | Reskinned<ClassBase> | Copyable<Reskinned<ClassBase>>;
+};
+export type Class = ClassBase | Copyable<ClassBase> | ReskinBaseClass | Copyable<ReskinBaseClass>;
 export type Subclass = SubclassBase | Copyable<SubclassBase>;
