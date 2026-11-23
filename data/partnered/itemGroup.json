@@ -2762,6 +2762,31 @@
   "hasFluffImages": true
  },
  {
+  "name": "Refractive Index Crystal",
+  "source": "PartneredDDDoD",
+  "type": "SCF|XPHB",
+  "scfType": "arcane",
+  "rarity": "varies",
+  "reqAttune": "by a Druid, Wizard, or Sorcerer",
+  "reqAttuneTags": [
+   {
+    "class": "druid|xphb"
+   },
+   {
+    "class": "wizard|xphb"
+   },
+   {
+    "class": "sorcerer|xphb"
+   }
+  ],
+  "items": [
+   "Exceptional Refractive Index Crystal|PartneredDDDoD",
+   "Flawless Refractive Index Crystal|PartneredDDDoD",
+   "Perfect Refractive Index Crystal|PartneredDDDoD"
+  ],
+  "hasFluffImages": true
+ },
+ {
   "name": "Ring of Fungal Symbiosis",
   "source": "HelianasGuidetoMonsterHunting",
   "page": 468,

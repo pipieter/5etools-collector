@@ -24,6 +24,14 @@
   "category": "partnered"
  },
  {
+  "source": "PartneredDDDoD",
+  "name": "Dr Dhrolin's Dictionary of Dinosaurs",
+  "abbreviation": "DDDoD",
+  "published": "2023-12-01",
+  "legacy": true,
+  "category": "partnered"
+ },
+ {
   "source": "DungeonsDrakkenheim",
   "name": "Dungeons of Drakkenheim",
   "abbreviation": "DoDk",
