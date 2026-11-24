@@ -41,6 +41,14 @@ export interface LegendaryMonster {
   legendaryHeader: string[];
   legendaryGroup: ID;
   legendaryActions: number;
+  /**
+   * Condition that must be met for a legendary action to be available.
+   *
+   * Example: CEO Viktra Mordenheim's Legendary Resistance is available
+   * 3/day, or 4/day while "In Domain".
+   * https://5e.tools/bestiary.html#ceo%20viktra%20mordenheim_pl
+   */
+  legendaryActionsLairCondition?: string;
   legendaryActionsLair: number;
   dragonAge: string;
   dragonCastingColor?: string;
