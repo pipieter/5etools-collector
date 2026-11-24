@@ -118100,6 +118100,9 @@
   }
  },
  {
+  "caption": "Mutalos Habitats",
+  "id": "42b",
+  "page": 128,
   "colLabels": [
    "d8",
    "Habitat"
@@ -118143,7 +118146,6 @@
    ]
   ],
   "name": "Mutalos Habitats",
-  "page": 128,
   "source": "EGW",
   "chapter": {
    "name": "Wildemount Gazetteer",
@@ -166903,6 +166905,9 @@
   }
  },
  {
+  "caption": "Uncanny Phenomena",
+  "id": "50b",
+  "page": 151,
   "colLabels": [
    "d10",
    "Phenomenon"
@@ -166954,7 +166959,6 @@
    ]
   ],
   "name": "Uncanny Phenomena",
-  "page": 151,
   "source": "EGW",
   "chapter": {
    "name": "Wildemount Gazetteer",

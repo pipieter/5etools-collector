@@ -98110,7 +98110,10 @@
    "Goblin",
    "Halfling"
   ],
-  "cr": "7",
+  "cr": {
+   "cr": "7",
+   "xpLair": 3900
+  },
   "gear": [
    "studded leather armor|xphb"
   ],
@@ -98200,6 +98203,16 @@
     ]
    }
   ],
+  "reaction": [
+   {
+    "name": "Redirect Attack",
+    "entries": [
+     "{@actTrigger} A creature Viktra can see makes an attack roll against her. {@actResponse} Viktra chooses a Small or Medium ally within 5 feet of herself. Viktra and that ally swap places, and the ally becomes the target of the attack instead."
+    ]
+   }
+  ],
+  "legendaryActionsLair": 4,
+  "legendaryActionsLairCondition": "in Domain",
   "legendary": [
    {
     "name": "Shocking Prod",
@@ -250667,6 +250680,8 @@
    "G"
   ],
   "skill": {
+   "athletics": "+10",
+   "intimidation": "+5",
    "survival": "+5"
   },
   "languages": [
@@ -383370,6 +383385,7 @@
  },
  {
   "name": "Prince Keleseth",
+  "shortName": true,
   "isNpc": true,
   "isNamedCreature": true,
   "source": "ICC",
@@ -383527,9 +383543,8 @@
     ]
    }
   ],
-  "legendaryHeader": [
-   "Legendary Action Uses: 3 (4 Under Invocation of Blood). Immediately after another creature's turn, the vampire can expend a use to take one of the following actions. The vampire regains all expended uses at the start of each of its turns."
-  ],
+  "legendaryActionsLair": 4,
+  "legendaryActionsLairCondition": "Under Invocation of Blood",
   "legendary": [
    {
     "name": "Umbral Strike",
@@ -383665,6 +383680,7 @@
  },
  {
   "name": "Prince Taldaram",
+  "shortName": true,
   "isNpc": true,
   "isNamedCreature": true,
   "source": "ICC",
@@ -383811,9 +383827,8 @@
     ]
    }
   ],
-  "legendaryHeader": [
-   "Legendary Action Uses: 3 (4 Under Invocation of Blood). Immediately after another creature's turn, the vampire can expend a use to take one of the following actions. The vampire regains all expended uses at the start of each of its turns."
-  ],
+  "legendaryActionsLair": 4,
+  "legendaryActionsLairCondition": "Under Invocation of Blood",
   "legendary": [
    {
     "name": "Umbral Strike",
@@ -384108,6 +384123,7 @@
  },
  {
   "name": "Prince Valanar",
+  "shortName": true,
   "isNpc": true,
   "isNamedCreature": true,
   "source": "ICC",
@@ -384255,9 +384271,8 @@
     ]
    }
   ],
-  "legendaryHeader": [
-   "Legendary Action Uses: 3 (4 Under Invocation of Blood). Immediately after another creature's turn, the vampire can expend a use to take one of the following actions. The vampire regains all expended uses at the start of each of its turns."
-  ],
+  "legendaryActionsLair": 4,
+  "legendaryActionsLairCondition": "Under Invocation of Blood",
   "legendary": [
    {
     "name": "Umbral Strike",
@@ -406360,7 +406375,7 @@
   "senses": [
    "Darkvision 60 ft."
   ],
-  "passive": 16,
+  "passive": 18,
   "immune": [
    "poison"
   ],
@@ -425849,8 +425864,8 @@
   "str": 18,
   "dex": 15,
   "con": 16,
-  "int": 8,
-  "wis": 10,
+  "int": 10,
+  "wis": 8,
   "cha": 6,
   "senses": [
    "Darkvision 60 ft."
